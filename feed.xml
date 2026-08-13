@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 13 Aug 2026 23:05:46 +0800</lastBuildDate><item><title>[a16z] 灯塔还是圈地：AI 公司卖软件的两条路</title><link>https://xlicz.github.io/podcast-rss/articles/灯塔还是圈地-AI-公司卖软件的两条路-2026-08-13.html</link><guid isPermaLink="false">a16z_89008eae292b</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>灯塔还是圈地：AI 公司卖软件的两条路</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 14 Aug 2026 05:00:34 +0800</lastBuildDate><item><title>[a16z] 灯塔还是圈地：AI 公司卖软件的两条路</title><link>https://xlicz.github.io/podcast-rss/articles/灯塔还是圈地-AI-公司卖软件的两条路-2026-08-13.html</link><guid isPermaLink="false">a16z_89008eae292b</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>灯塔还是圈地：AI 公司卖软件的两条路</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">灯塔还是圈地：AI 公司卖软件的两条路</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：a16z 的 Joe Schmidt 与 Samsara/Meraki 销售老将 Andy McCall 拆解两种销售打法——什么时候靠信誉，什么时候靠数学，以及什么时候该停止想策略、开始打电话。</strong></p>
@@ -14735,6 +14735,159 @@ python3 ~/.hermes/scripts/setup_xueqiu_login.py
 <li style="margin:0.3em 0">新承认: 有（tap的Q2首次明确归入"差的方面"）</li>
 <li style="margin:0.3em 0">预测下修: 无</li>
 <li style="margin:0.3em 0">数据源异常: akshare东财API断连3次→fetch_stock.py兜底✅（东财push2实时源正常）</li>
+</ul>
+
+</div>
+]]></content:encoded><category>心动日报</category></item><item><title>[心动日报] 心动投资日报 2026-08-14</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-14.html</link><guid isPermaLink="false">report:心动日报:2026-08-14:9aca62b6</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-14</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-14</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态: [TapTap ✅/Apple ✅/逸修1 ✅/股价 ✅]</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日动作: 无触发/预警（[agent填]）</li>
+<li style="margin:0.3em 0">股价 [agent填] | 市值 ~[agent填]亿 | 残差 -40%低位</li>
+<li style="margin:0.3em 0">最值得注意: [agent填 / 无新增风险信号]</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价: [agent填]（月-日 周X）
+涨跌: [agent填]% | 市值: [agent填]亿
+52周区间: [agent填] - [agent填]</p>
+<p style="margin:0.8em 0">估值锚（v3.2 低位残差）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">位置: [低于/区间/高于]锚</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游戏首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️/✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅/🚨</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️/✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①游戏收入2季下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️/✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓/✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️/✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-40%低位</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam PC）</h2>
+<p style="margin:0.8em 0">TapTap（vs昨日）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: #6 心动小镇 | #8 香肠派对 | #87 潜水员戴夫</li>
+<li style="margin:0.3em 0">新品: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约: 心动系不在榜</li>
+<li style="margin:0.3em 0">热卖: #1 潜水员戴夫</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs昨日）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国免费: #46 小镇国服 | #95 香肠派对</li>
+<li style="margin:0.3em 0">香港畅销: #89 小镇国际服</li>
+<li style="margin:0.3em 0">台湾畅销: #85 小镇国际服</li>
+<li style="margin:0.3em 0">韩国畅销: #92 小镇国际服</li>
+<li style="margin:0.3em 0">新加坡畅销: #47 小镇国际服</li>
+<li style="margin:0.3em 0">泰国畅销: #26 小镇国际服</li>
+<li style="margin:0.3em 0">印尼畅销: #31 小镇国际服</li>
+<li style="margin:0.3em 0">马来西亚畅销: #59 小镇国际服</li>
+<li style="margin:0.3em 0">菲律宾畅销: #27 小镇国际服</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">火炬之光：无限: 在线 4192 / 24h峰值 4264 / 历史峰值 27296（留存比 15%）
+近30日: 日均 6481.55 / 峰值 23611</li>
+<li style="margin:0.3em 0">心动小镇: 在线 13367 / 24h峰值 13744 / 历史峰值 65894（留存比 20%）
+近30日: 日均 11663.82 / 峰值 20372</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">触发/未触发 E下修预警 [agent填]</li>
+<li style="margin:0.3em 0">出榜: [agent填]</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
+<p style="margin:0.8em 0">今日新增: 20条（since 2026-08-12）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">[2026-08-12 13:51] 前段时间团子跌到60、70的时候，不少人劝我不用说话了 因为他们觉得我吹美团，害</li>
+<li style="margin:0.3em 0">[2026-08-12 14:01] 回复 @husayi : 不要预期太离谱就行 别动不动对标黑神话 我觉得全平台首</li>
+<li style="margin:0.3em 0">[2026-08-12 16:46] 可以，超预期的主要是国内游戏和广告收入</li>
+<li style="margin:0.3em 0">[2026-08-12 16:48] 腾讯Q2国内游戏收入增长17%，前段时间因为一个段子根据第三方数据说国内Q2手游</li>
+<li style="margin:0.3em 0">[2026-08-12 17:07] Q2的业绩去看，确实没爆雷，国内游戏和广告收入还略超预期 现在不确定就是这里说的</li>
+<li style="margin:0.3em 0">[2026-08-12 20:35] 上次说简单聊聊work8之类的产品 1、最核心的一个问题就是假如自己的模型不是s</li>
+<li style="margin:0.3em 0">[2026-08-12 21:07] 其实b端的AI产品，只要好用，从算力到收入的转化是不难的，不用太长时间 c端的A</li>
+<li style="margin:0.3em 0">[2026-08-12 21:23] 管理层的说法和我这差不多 短期来说，把算力出租给国内顶级模型公司收入会更好看 但</li>
+<li style="margin:0.3em 0">[2026-08-12 22:38] 补充一些：1、-5%左右的版本我是不信的，但是去年上半年38%的基数，今年上半年</li>
+<li style="margin:0.3em 0">[2026-08-12 22:47] 回复 @逸修1 : 评价资本开支确实是玄学 不过腾讯的电话会议看，目前管理层在A
+反误导检测: [agent标注5机制]
+折扣分层: [agent标注]
+判断: [agent填]</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">[agent填]</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我18-19 / 他20-22 / 市场10-13 → 无变化
+小镇国际服: 我17 / 他17 / 市场10-12 → 无变化</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底）
+动作: 持有不加不减
+触发: E≥17亿→🟢259-333亿 | E≤13亿→🔴150-200亿
+今日触发: 无</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价&gt;5%: 无 [agent填]</li>
+<li style="margin:0.3em 0">快信号: 无 [agent填]</li>
+<li style="margin:0.3em 0">先行指标: 未触发 [agent填]</li>
+<li style="margin:0.3em 0">出榜: 无 [agent填]</li>
+<li style="margin:0.3em 0">新承认/下修: 无 [agent填]</li>
+<li style="margin:0.3em 0">数据源: [agent填]</li>
 </ul>
 
 </div>
