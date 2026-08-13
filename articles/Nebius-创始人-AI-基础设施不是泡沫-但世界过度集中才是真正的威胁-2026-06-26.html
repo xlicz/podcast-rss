@@ -1,0 +1,60 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Nebius 创始人：AI 基础设施不是泡沫，但世界过度集中才是真正的威胁</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：一家 660 亿美元的公司正在跟全球最大的超大规模云服务商正面竞争——而它最担心的不是资金，是生态的收缩</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">Roman Chernin 的 Nebius 是全球增长最快的 AI 基础设施公司之一。这家公司市值已经攀升到 660 亿美元，今年的资本支出计划是 200 亿美元——而它的竞争对手，那些超大规模云服务商，&quot;规模是我们的八倍&quot;。</p>
+<p style="margin:0.8em 0">在 20VC 的深度对谈中，Chernin 拆解了他对 AI 基础设施的底层判断。最有意思的不是他对泡沫的否认——那属于利润相关方该说的话——而是他对行业结构的判断，以及 Nebius 为什么必须做全栈。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;如果我不信，我大概也不会干这行&quot;</h2>
+<p style="margin:0.8em 0">主持人 Harry Stebbings 开局很直接：我们现在是不是处在 AI 基础设施的泡沫时刻？</p>
+<p style="margin:0.8em 0">Chernin 说不。他的论证角度有两个。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一，普及程度还极低。</strong> &quot;我们距离第一个真正规模化跑通的应用场景——编程——才过去几个月。你去看世界上任何一家公司，哪怕是技术相当先进的，AI 普及程度都刚开始，在 1% 的业务量里、1% 的场景里用 AI。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二，Jevons 悖论在生效。</strong> 他最爱的案例是 DeepSeek 时刻——2025 年初 DeepSeek 发布时，Nebius 股价一周跌了 40%。但就在同一周，&quot;我们可能经历了史上最好的一周销售业绩。&quot;</p>
+<p style="margin:0.8em 0">为什么？因为太多人发现可以用 DeepSeek 在生产环境中跑推理了，经济账算得过来了。&quot;每次智能变得更便宜，同一单位智能的成本下降，我们不会减少消耗，反而会增加消耗。因为我们可以用同样的预算去解决更复杂的任务。&quot;</p>
+<p style="margin:0.8em 0">他举了 Coursera 的例子——最早一批真正受益于针对编程场景调优这些模型的公司。&quot;每次模型变便宜，不是伤害业务，是打开新的市场空间。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四层产品架构：从卖瓦到卖 Token</h2>
+<p style="margin:0.8em 0">Chernin 把 Nebius 的产品线分成四个层次，这是理解 AI 基础设施演进的关键框架：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一层：裸金属。</strong> 以兆瓦为单位交付物理基础设施。&quot;全世界可能只有十几个客户能跟你合作。&quot;Meta、微软这种级别的客户，拥有自己完整的软件栈，只需要物理基础设施。他说到了真正的规模，&quot;它真的不是 commodity——到了真正的大规模都不是大宗商品。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二层：多租户托管云。</strong> 面向成百上千个研发团队。&quot;他们不想碰物理基础设施，想要 IaaS——存储、计算、网络，虚拟化带 API，可观测性，安全。&quot;在这一层，单位从兆瓦变成了 GPU 小时。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三层：托管推理（TokenFactory）。</strong> 面向几千个&quot;垂直 AI 公司&quot;和&quot;企业客户&quot;——那些做产品但不自己做模型的人。&quot;他们不想琢磨 B200 跟 H200 跟 B300 哪个更适合特定负载，不想自己管理 VLM 或 SGLang。&quot;在这一层，客户按 token 付费。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第四层（预判）：Agent 工作流。</strong> 这是 Chernin 认为的下一步。&quot;当你构建端到端 agent 时，你可能根本不用去想具体用哪个模型，也不用想生成多少 token。你只希望端到端的任务被高效执行并产出预期结果。平台替你思考——这次调用该用更聪明的模型？还是用两个轻量模型然后让裁判模型选最佳结果？&quot;</p>
+<p style="margin:0.8em 0">这个四层框架的核心逻辑是：<strong style="font-weight:600">越往上走，能服务的客户群体越大，创造的价值越多，客户集中度越低。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收入集中度是命门</h2>
+<p style="margin:0.8em 0">Chernin 非常坦诚地谈到了 Nebius 面临的核心风险：收入集中度。</p>
+<p style="margin:0.8em 0">&quot;如果你只服务全世界那十几个像 Meta 和微软这种级别的客户，他们技术极其先进，拥有自己完整的软件栈，你能在物理基础设施之上给他们提供的额外价值非常非常少。而且你能合作的这类客户群体其实很小。&quot;</p>
+<p style="margin:0.8em 0">所以 Nebius 从成立第一天起就有意构建软件栈。&quot;如果我想说得对世界更有情怀一点，那就是需要有公司能支持客户，不只是在物理基础设施这一层。&quot;</p>
+<p style="margin:0.8em 0">但这不仅仅是情怀。这是生存策略。因为越往技术栈上层走，你卖给客户的就不仅仅是 GPU 小时的价格——而是总拥有成本（TCU）。&quot;你可以给 GPU 定价 3 美元、4 美元、5 美元。但根据不同的使用场景和平台质量，给客户带来的实际成本结果可能完全不同。有效不间断运行时间是多少？如果谈推理，你能提取多少 token？&quot;</p>
+<p style="margin:0.8em 0">他举了 Revolut 的例子。Revolut 刚开始合作时，99% 的推理预算花在闭源模型上。有些用例经济账算不过来——没法真正替代人工。于是他们开始转向开源模型，但切换速度不快，因为需要在公司内部搭建一整套评估引擎。</p>
+<p style="margin:0.8em 0">&quot;一旦解决了这些基础问题，增长就开始指数级爆发了。他们有了一个冷启动问题，但一旦解决，就可以用不同的模型、在公司内部构建更多产品。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;最大的威胁是世界变得过于整合&quot;</h2>
+<p style="margin:0.8em 0">Stebbings 问了一个框架性问题：Nebius 最大的威胁不是竞争，而是____？</p>
+<p style="margin:0.8em 0">Chernin 的回答毫不犹豫：<strong style="font-weight:600">&quot;而是整体的整合。如果最后这个世界变成三五个超级模型、超级公司、超级帝国掌控一切，那 Nebius 或者像我们这样的公司，唯一的价值可能就是帮他们在物理层上服务他们的需求。&quot;</strong></p>
+<p style="margin:0.8em 0">这是他整场对话里最核心的焦虑。不是资本不够——200 亿美元的资本支出在行业里不算少。不是执行不够快——&quot;我们永远觉得自己做的不够&quot;。不是竞争太激烈——竞争越大，越能证明这个生态有活力。</p>
+<p style="margin:0.8em 0">真正的威胁是：<strong style="font-weight:600">生态收缩。</strong></p>
+<p style="margin:0.8em 0">世界越民主化、越多元化，Nebius 这样的公司越被需要。世界越集中，它就越退化成一个算力供应商——而在这个角色里它永远不可能跟超大规模云服务商比规模。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">跟 NVIDIA 的关系：获得尊重的方式</h2>
+<p style="margin:0.8em 0">Stebbings 问了一个敏感但实在的问题：跟 NVIDIA 关系的权力动态。毕竟双方权力极度不对等。</p>
+<p style="margin:0.8em 0">Chernin 的回答很有以色列人的务实风格：&quot;我们就是把自己该建的东西建好，把产品做好，把故事讲清楚，剩下的自然会跟上。&quot;</p>
+<p style="margin:0.8em 0">但他补充了一个关键洞察：&quot;NVIDIA 在很大程度上仍然是一家工程师驱动的公司。如果 NVIDIA 的工程师尊重你的工程师，你们就有了一个很好的关系基础。&quot;</p>
+<p style="margin:0.8em 0">他说 Nebius 在硬件、软件、推理、平台各个层面都有工程师对工程师的交流。&quot;NVIDIA 的工程师对你评价越高，就越能促成更好的关系和合作。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">对中国和欧洲的判断</h2>
+<p style="margin:0.8em 0">被问到&quot;中国和美国的模型差距&quot;时，Chernin 没直接回答，而是把视角转向了欧洲。</p>
+<p style="margin:0.8em 0">&quot;看起来世界是分裂的。我们可能不喜欢这样，但让世界大部分地区都能用上足够好的基础模型很重要。&quot;</p>
+<p style="margin:0.8em 0">但他也指出欧洲的问题不在算力——&quot;罩瓦数会来的。只要有需求，我们就会建基础设施。&quot;问题在于<strong style="font-weight:600">建设者不够多</strong>。&quot;我们这里需要有更多像 Loveable、Black Forest Labs、Mistral 这样的好公司。有足够的人投资研究和产品，然后他们创造需求，形成飞轮。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI 基础设施不是泡沫——不是因为它涨得合理，而是因为 Jevons 悖论在持续生效：模型越便宜，用量越大</li>
+<li style="margin:0.3em 0">Nebius 的四层产品架构（裸金属→托管云→托管推理→Agent 工作流）的核心驱动力是越往上走，客户群体越大、集中度越低、可创造的价值越多</li>
+<li style="margin:0.3em 0">收入集中度是 AI 基础设施公司最大的隐性风险——如果只服务十几个超级客户，你就永远是一个算力商品供应商</li>
+<li style="margin:0.3em 0">&quot;最大的威胁是世界的过度集中&quot;——三五个帝国掌控所有模型和算力时，Nebius 这样的公司就退化为纯粹的物理层服务商</li>
+<li style="margin:0.3em 0">跟 NVIDIA 的关系：用工程师对工程师的尊重来建立，不是商务谈判</li>
+<li style="margin:0.3em 0">欧洲 AI 的问题不是缺算力，是缺建设者——需要更多像 Mistral 和 Black Forest Labs 这样的公司</li>
+</ul>
+
+</div>

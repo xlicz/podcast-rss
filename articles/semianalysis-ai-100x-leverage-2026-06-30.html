@@ -1,0 +1,95 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 真正的 100 倍杠杆，藏在软硬件协同设计里</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">SemiAnalysis 创始人 Dylan Patel 认为，大多数人分析 AI 竞赛时搞错了重点——不是模型参数、不是算力规模，而是硬件和软件之间的那道缝隙，正在决定谁能赢。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">2020 年初，Dylan Patel 的人生同时撞上了四面墙。祖母去世，量化基金的奖金被人抢功，感情破裂，疫情封城。他搬进哥哥家，在 Reddit 上比以前更疯地发帖。三周后，他的匿名身份被人肉出来，他以为完了。</p>
+<p style="margin:0.8em 0">然后他想：我干嘛要在乎？</p>
+<p style="margin:0.8em 0">24 岁生日那天，Dylan 用真名发了两篇半导体分析博文，给这个博客取名叫 SemiAnalysis。六年后，这家公司年营收破亿，90 个人的团队横跨技术专家和前对冲基金分析师，为全球顶级机构提供芯片和 AI 产业研究。</p>
+<p style="margin:0.8em 0">在红杉资本合伙人 Sean 的访谈里，Dylan 拆解了一个被严重低估的视角：<strong style="font-weight:600">软硬件协同设计，才是 AI 算力竞赛的真正杠杆</strong>。不是堆 GPU，不是拼参数，而是当模型架构、底层软件和芯片设计被同时优化时，效率飞跃远超任何单一层面的提升。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型进步的速度，比芯片快得多</h2>
+<p style="margin:0.8em 0">Sean 开场就给 Dylan 挖了个坑。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;过去三年，每瓦智能的提升，是不是主要靠硬件迭代？&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">Dylan 的回答干脆利落：&quot;我完全不同意。&quot;</p>
+<p style="margin:0.8em 0">他拿出一个对比：从 Hopper 到 Blackwell，纯粹硬件层面的提升大约是 30 倍。但过去三年，在相同基准测试水平下，推理成本降了 60 倍。每瓦智能提升接近 40 倍。这多出来的倍数从哪来？</p>
+<p style="margin:0.8em 0">&quot;模型层面的提升巨大。&quot; Dylan 说，&quot;三年前是 GPT-4，现在一个 270 亿总参数、激活参数只有 20 亿的模型，表现反而好得多。但关键不在模型层，也不在硬件层，<strong style="font-weight:600">而是那个协同设计的层面。</strong>&quot;</p>
+<p style="margin:0.8em 0">他以 DeepSeek 为例。DeepSeek V3 里所有专家的形状都是针对 Hopper 架构优化的。到了 V4，又同时针对 Blackwell 和华为芯片做优化。反过来，TPU 在客观上是很好的芯片——DeepMind 全线跑在上面，Anthropic 的预训练也靠它——但 DeepSeek 在 TPU 上跑得&quot;很拉胯&quot;。而一些在 NVIDIA 上表现平平的模型，在 TPU 上反而非常出色。</p>
+<p style="margin:0.8em 0">&quot;这里存在某种程度的深度优化。不管是矩阵形状、网络拓扑、IO 模式、集合通信怎么做、注意力机制的算术强度怎么处理——所有这些都在模型、硬件和中间的基础设施软件之间做了协同优化。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">结论很简单：你不能孤立地评价一块芯片或一个模型。它们的组合方式，比任何单一维度的参数都重要。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一条曲线统治整个行业</h2>
+<p style="margin:0.8em 0">Dylan 和他的团队这两年做了一个叫 InferenceX 的项目。本质上是一个&quot;活着的、会呼吸的&quot;推理基准测试平台。</p>
+<p style="margin:0.8em 0">传统基准测试是静态的——测一次，发出来，然后迅速过时。但模型每周都在更新，PyTorch、vLLM、Golang 的更新周期是一周两次。&quot;软件一直在变，性能一直在变，新的推理优化不断涌现。这就是为什么同等质量的模型成本一年能降 60 倍。&quot;</p>
+<p style="margin:0.8em 0">InferenceX 每天在所有最新模型上跑基准测试——Monica 最好的模型、阿里巴巴最好的模型、大概五家中国模型厂商最好的模型、美国最好的开源模型、GPT-OS、Nemotron。跑在 15 种不同芯片类型上，硬件规模超过 5000 万美元（等 TPU 和 Trainium 上线后会超过 1 亿）。</p>
+<p style="margin:0.8em 0">产出是一条<strong style="font-weight:600">帕累托最优曲线</strong>——横轴是交互性（响应速度），纵轴是吞吐量（同时服务多少用户），成本被折叠进了曲线上每一个点的位置。</p>
+<p style="margin:0.8em 0">Dylan 打了个比方：曲线的一端是超低延迟，我把批量大小设得很低，大量用推测解码这类技术——不在乎成本，只在乎单用户速度。曲线的另一端是批量处理，塞进更多用户文档跑一整晚，不追求单用户速度，只追求总吞吐。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;现在我们对 AI 基础设施的处理方式有点像一刀切。但随着时间的推移，有些工作负载要批量，有些要即时响应。整条曲线对用户都会很重要。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">Anthropic 的 Cloud Code 快速模式比普通模式贵得多，OpenAI 的优先队列也一样——这都是曲线不同位置的商业化案例。Dylan 说，&quot;有些用户愿意多付四倍的钱，因为使用这些 token 的人很贵，或者反馈闭环很贵。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">CUDA 护城河的真正秘密</h2>
+<p style="margin:0.8em 0">过去很长时间，人们说 NVIDIA 的真正壁垒是 CUDA——因为有成百上千的开发者依赖它，所以没人能挑战。</p>
+<p style="margin:0.8em 0">Dylan 认为这个叙事已经过时了。模型现在编程能力很强，&quot;所有软件在这种情况下都会商品化。&quot; 大实验室早就 fork 了 PyTorch，不需要依赖开源实现。他们会说：我选最好的硬件，然后为那个硬件从头到尾协同设计我的模型和基础设施软件。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;所以我完全不认为 CUDA 是那个护城河。当你能做到这些的时候，你可以把一个新架构做到远超 NVIDIA 的水平。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">但问题来了：如果 CUDA 不是护城河，那 NVIDIA 真正的壁垒是什么？</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">是下游产品对 NVIDIA 优化的深度绑定。</strong></p>
+<p style="margin:0.8em 0">DeepSeek、Kimi、智谱、阿里巴巴、腾讯，甚至小米——这些公司开源的最好的模型，架构层面都是针对 GPU 做的协同设计。如果你想把它们搬到 TPU 上跑，有些情况下根本跑不好。于是 Google 不得不自己构建开源模型生态，所以推出了 Gemini 系列。</p>
+<p style="margin:0.8em 0">&quot;这不是 CUDA 在起护城河作用。是下游产品对 NVIDIA 优化得更好。所有下游的推理 API 提供商、拿开源模型做企业定制的公司，都受制于一个事实——好吧，我好像得用 NVIDIA，因为整个生态都在用。&quot;</p>
+<p style="margin:0.8em 0">Dylan 进一步指出 OpenAI 和 Anthropic 的模型架构其实差别非常大。OpenAI 的模型稀疏得多，Anthropic 虽然也稀疏但总体上更稠密。这影响网络拓扑的选择——NVIDIA 有 Memlink 交换机连接 72 个 GPU，Google 没有交换机但可以用 ICI 以超高带宽连接 8000 个芯片，代价是数据必须经过其他芯片才能到达。</p>
+<p style="margin:0.8em 0">&quot;你不一定非得说哪个比哪个更好。但这种差异会一直延伸到模型层。&quot;</p>
+<p style="margin:0.8em 0">更关键的是 Jensen（黄仁勋）本人的战略。Dylan 看得很清楚：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;Jensen 绝对讨厌所有超大规模云厂商掌握所有权力的世界。他之所以砸钱给那些随机的 AI 实验室——他甚至不确定这是否合理——但他就是在砸，把他们捧起来，然后跟全世界说'你们应该投资这家公司'。因为他想创造一个多极化的世界。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">一个只有 OpenAI、Anthropic 和 Google 模型的世界，对 NVIDIA 是死路。一个只有超大规模云厂商在建设算力的世界，同样如此。所以 Jensen 需要新云（NeoCloud）、新实验室、分散的力量——哪怕今天卖给 CoreWeave 和卖给 Google 的 GPU 价格一样，但五年后，CoreWeave 的存在意味着 Google TPU 会变弱，Amazon Trainium 也会变弱。</p>
+<p style="margin:0.8em 0">&quot;这就是个蛮荒地带。有些会失败，很多都会失败，但有些会脱颖而出。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">算力紧缺不会结束</h2>
+<p style="margin:0.8em 0">&quot;每个季度我们部署的计算能力都比上个季度多得多。&quot; Dylan 给了具体数字——今年即使算上延期，也有二十几瓦（GW）的规模，明年超过三十几瓦。但问题是，模型能做的事也在以更快的速度膨胀。</p>
+<p style="margin:0.8em 0">从 Opus 4.5 到 Fable 和 Methos，模型的可用市场扩大了好几倍——但全球计算能力在同期&quot;没有翻倍，也没有翻四倍&quot;。</p>
+<p style="margin:0.8em 0">结果就是结构性算力紧缺。</p>
+<p style="margin:0.8em 0">Anthropic 在第二季度已经实现净利润盈利（不算股权激励），Opus token 的毛利率超过 80%。&quot;既然你有这个能力，你就有能力付钱。&quot; Dylan 算了一笔账：如果毛利率 75%，就算计算成本翻倍，仍然有 50% 的毛利率。而且租计算节点扩容不需要加人，净营业收入还是在涨——&quot;因此我会不惜代价去租 GPU。&quot;</p>
+<p style="margin:0.8em 0">唯一能让这个循环停下来的，是模型进步停止。&quot;你去问 Anthropic 或 OpenAI 的人，也许他们是在自我催眠，但基本上所有人都说——模型进步还在继续，而且实际上比 6 个月前或一年前更快。&quot;</p>
+<p style="margin:0.8em 0">Sean 提出了一个替代假设：不是所有 GW 都是等价的。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;Google 的一个 GW 是不是比大多数新云厂商的一个 GW 价值高两倍？&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">Dylan 确认了这个差异。Trainium 卖给 Anthropic 和 OpenAI 的租赁价格，每 GW 不到 100 亿美元。而 GPU 的市场价通常在 120-130 亿美元——SpaceX 那笔交易甚至高达每 GW 250 亿美元。</p>
+<p style="margin:0.8em 0">差距不只在算力层。数据中心托管的定价，以前是每千瓦每月 60 美元，现在成交价在 120-160 美元，信用差的客户甚至被收到 200 美元。垃圾数据中心在印度可以低到 80 美元——电网不稳、网络不好，但好歹是个数据中心。</p>
+<p style="margin:0.8em 0">更隐蔽的差异在运营层。Google 在一个 GW 级数据中心里实际会部署 1.5 GW 的硬件——因为他们从工作负载到各个环节理解极深，能灵活调配电力。常规数据中心的利用率在 60-70%，他们能把那 60-70% 的利用率提到实际跑满一个 GW。&quot;他们还会跟电力公司签协议，说'我知道这个电网可持续供电一个 GW，但一年里除了三天其实可以供两个 GW——那就给我两个 GW，那三天通知我关停就行。'&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么超大规模云厂商在 AI 时代掉队了</h2>
+<p style="margin:0.8em 0">2023 年 Dylan 写过一份让 Amazon &quot;特别恨他&quot;的报告，叫《Amazon 云危机》。</p>
+<p style="margin:0.8em 0">核心逻辑很简单：Amazon 的很多优势是为传统 CPU 场景设计的——Nitro 智能网卡做租户隔离、自研 SSD 压成本、Graviton CPU 降单核成本——这些东西在 AI 云里&quot;很多反而拖累性能&quot;。Nitro 网卡对 AI 性能不利。很多安全功能在 AI 场景下没意义，因为没人会在一台 8 GPU 服务器里单租一个 GPU。大家租整个机架，甚至很多个机架，而且都是长期合同。</p>
+<p style="margin:0.8em 0">&quot;GPU 租赁市场的运作机制，让超大规模云厂商的很多专长变得没用，有些甚至是有害的。&quot;</p>
+<p style="margin:0.8em 0">更根本的是激励结构。&quot;在大组织里，没人会因为把这个数据中心建得更快而发财。但你看 CoreWeave 那帮人——如果能更快交付算力，他们是真的会发财的。他们是加了超高杠杆的股权持有者。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从加油站到一百亿</h2>
+<p style="margin:0.8em 0">访谈末尾，Sean 让 Dylan 讲了他怎么起家的。不写出来太可惜了。</p>
+<p style="margin:0.8em 0">Dylan 的父母开了家汽车旅馆和加油站，他们就住在旅馆里。他八岁生日没要礼物，把生日的额度换成了圣诞礼物——一台 Xbox 360。几个月后 Xbox 坏了——&quot;死亡红环&quot;硬件缺陷。他自己拆开，短接温度传感器，修好了。</p>
+<p style="margin:0.8em 0">&quot;这大概就是我接触硬件的开始，就像打开了潘多拉魔盒。&quot;</p>
+<p style="margin:0.8em 0">12 岁，他成了 Reddit 上 Android、Apple、Google、硬件板块的版主。他装电脑，泡论坛，读每一条评论——&quot;而且总带着经济视角，因为我在小生意里长大。&quot;</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;那会儿网上那些键盘侠都爱 AMD 的 GPU。我自己也买过一块，因为性价比好。但一到比谁技术更强的时候，我总是说——不不不，NVIDIA 更好。因为他们用更小的芯片实现了更好的性能和能效，而且利润率更高。我 12 岁就在说这个。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">后来故事加速了：大学毕业去量化基金做了两年分析师，帮公司赚了远超一千万的无风险套利但奖金被人抢功。2020 年崩溃，把全部家当打包上卡车，买了个帐篷和气垫床，跑遍了美国所有国家公园。一周两三天找随机汽车旅馆砍价到 30 美元一晚，在房间里做 SemiAnalysis。周末在国家公园里看书——经常是教科书，或者一边徒步一边听半导体和 AI 的有声书。</p>
+<p style="margin:0.8em 0">&quot;在这六个月里，我一边跑遍每个国家公园，一边学到了非常多的东西。从头到尾我都是一个人。&quot;</p>
+<p style="margin:0.8em 0">2020 年中到 2024 年，他&quot;完全无家可归&quot;，满世界跑，一年参加 40 多场行业会议。第一次去 SPEE 先进光刻会议，90% 内容听不懂。拼命读，拼命学。第二次听懂一半。第三次 75%。&quot;即便是现在，我还是没法完全搞懂所有东西。&quot;</p>
+<p style="margin:0.8em 0">但正是这种跨层次的理解——从最晦涩的化学品供应链到最前沿的模型架构，从对冲基金的成本核算到论坛版主的直觉——构成了 SemiAnalysis 独一无二的竞争力。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">软硬件协同设计是 AI 效率提升的真正杠杆——过去三年同等质量模型的成本降了 60 倍，远超纯硬件迭代的 30 倍</li>
+<li style="margin:0.3em 0">CUDA 的护城河正在被模型自身的编程能力瓦解，但 NVIDIA 的真正壁垒是下游生态对 GPU 架构的深度绑定——模型形状、专家布局、网络模式都围绕 GPU 优化</li>
+<li style="margin:0.3em 0">Jensen 需要多极化世界：新云、新实验室、分散的竞争力量，都是为了对抗超大规模云厂商自研芯片的威胁</li>
+<li style="margin:0.3em 0">算力紧缺是结构性的——模型可用市场的扩张速度超过算力增长速度，Anthropic 的 Opus token 毛利率超 80%，只要模型继续进步，他们就会继续不惜代价租 GPU</li>
+<li style="margin:0.3em 0">不是所有 GW 等价的：Google 能在名义 1 GW 的站点部署 1.5 GW 硬件，新云和超大规模云之间的定价差距可达 2.5 倍</li>
+<li style="margin:0.3em 0">超大规模云厂商在 AI 时代反而不占优势——传统 CPU 云的优势（Nitro、安全隔离、时间切片）在 GPU 租赁场景下要么没用，要么有害</li>
+</ul>
+
+</div>

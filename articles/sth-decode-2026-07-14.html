@@ -1,0 +1,13 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">雪球 Cookie 已过期，下载失败。</strong> 第1页曾成功获取 21 条帖但进程在后续页面因 Error 10022（需登录）超时后被终止，CSV 未更新（仍为 1625 行，最新 2026-07-12）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">根因</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> 需要人工交互（按 Enter + 验证码），cron 环境无法完成。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">需要人工操作</strong>：</p>
+<pre style="margin:0.8em 0"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler
+source venv/bin/activate
+python download/get_cookie.py
+# 在弹出的浏览器中完成登录 + 滑动验证，按 Enter 保存
+</code></pre>
+<p style="margin:0.8em 0"><strong style="font-weight:600">本次状态</strong>：未写锁（允许 Cookie 刷新后重试）。</p>
+<p style="margin:0.8em 0">[SILENT]</p>
+
+</div>

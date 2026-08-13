@@ -1,0 +1,34 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">Cookie 过期导致下载失败。第 1 页 API 成功（21 帖）但第 2 页触发 WAF 10022 → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> 需人工交互（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input()</code> 在 cron 中 EOFError）→ 无限重试循环直到超时。第 1 页数据未持久化，CSV 仍停在 7/12。</p>
+<p style="margin:0.8em 0">不写锁文件，允许 cookie 刷新后今日手动/自动重试。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚠️ STH_ 每日解析 — 2026年07月15日 执行失败</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">故障类型</strong>：雪球 Cookie 过期 + WAF 阻断</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">CSV 状态</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">RAW: 1625 行，最新 2026-07-12</li>
+<li style="margin:0.3em 0">EDITED: 1625 行，最新 2026-07-12</li>
+<li style="margin:0.3em 0">今日 0 条新帖（下载未成功）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">失败详情</strong>：</p>
+<pre style="margin:0.8em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">第1页 ✅ → API returned 21 posts
+第2页 ❌ → Error code: 10022 (需登录)
+→ 自动触发 get_cookie.py → input(&quot;按 Enter 键开始...&quot;) → EOFError (cron 无人交互)
+→ 重试 N 次 → 全部 EOFError → 超时退出 (300s)
+</code></pre>
+<p style="margin:0.8em 0"><strong style="font-weight:600">影响</strong>：7/13~7/15 帖子未抓取。无法判断 STH_ 是否有新发言。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">所需操作</strong>：</p>
+<pre style="margin:0.8em 0"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em"># 手动刷新 Cookie（需要浏览器交互）
+cd /Users/xianggen/Developer/xueqiu-crawler
+./venv/bin/python download/get_cookie.py
+# 在打开的浏览器中完成登录/验证，然后按 Enter
+
+# 或使用统一登录脚本
+python ~/.hermes/scripts/setup_xueqiu_login.py
+
+# 刷新后手动运行今日分析
+cd ~/Developer/xueqiu-crawler &amp;&amp; ./venv/bin/python analyze.py 9430706524 --download --no-llm
+</code></pre>
+<p style="margin:0.8em 0"><strong style="font-weight:600">建议</strong>：考虑在 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">config.json</code> 中添加备用 cookie 或使用持久化登录态，减少 WAF 阻断频率。当前 7/12 的 cookie 仅存活了 3 天。</p>
+
+</div>

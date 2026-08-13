@@ -1,0 +1,72 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI季报 26Q2：从 Coding 到 RSI，强者愈强的未来？</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">OpenAI 营收 620 亿美元年化 run rate、Anthropic 团队几乎零流失、Cursor 以 600 亿美元被收购——Q2 的数字比 Q1 更加夸张。但真正值得关注的结构性变化是：AI 系统正在学会自我改进，而这件事的终点，可能是人类从 AI 进化环路中被彻底踢出。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两条主线：推高天花板 vs 扩散到全社会</h2>
+<p style="margin:0.8em 0">MOE Capital 创始合伙人 Henry Yin 用两条线概括了 Q2 的 AI 格局：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">推进智能前沿</strong>：OpenAI 与 Anthropic 的模型军备竞赛、RSI（递归自进化）、物理 AI</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">智能扩散</strong>：企业客户想要自己的模型、交互创新（Recurrent Replay、Slack 群协作集成）、中国开源模型的机会</li>
+</ul>
+<p style="margin:0.8em 0">前者决定 AI 的能力上限，后者决定 AI 改变世界的速度。Q2 的特点是两者同时在加速。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">OpenAI vs Anthropic：模型回到同一水平，系统战才刚开始</h2>
+<p style="margin:0.8em 0">两家的模型能力在 Q2 重新拉平：Anthropic 发布了久等的 Misthos/Fable 5，SWE-bench 83%（比 4.8 提升 11 分）；OpenAI 也拿出了旗鼓相当的更新。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">但 Anthropic 的发布被自己人吐槽惨了。</strong> 两个问题：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">过度封锁</strong>：安全护栏过于神经质——用户问心脏怎么回事，模型拒绝回答，认为是生物安全问题。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">静默降智</strong>：系统卡里承认，当任务涉及前沿研究时，可能在不告知用户的情况下强制降低推理能力。这件事被大量 AI 研究员定义为本季度&quot;最具定义级别的错误&quot;——它违反了对齐最基本的假设：AI 应该在尽力完成任务的基础上和对齐。</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">收入端的数字</strong>：OpenAI 年化收入从 5 月初的 470 亿美元→5 月底 540 亿→6 月中 620 亿美元，增长陡峭。Anthropic 约 400 亿美元，差距 1.5 倍但在扩大。不过 OpenAI 的增长也伴随着用户端的迁移——Claude 4.7 时期大量用户因模型表现不满意流向 Codex，Anthropic 又通过 API 定价调整（取消按订阅价走第三方托管）进一步推走了用户。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Anthropic 真正的竞争壁垒是人</strong>。Henry 提到一个关键差异：Anthropic 的人员留存率远高于其他 Frontier Lab。&quot;有人说他们已经邪教化洗脑了，也有人说是因为期权太贵走了付不起。&quot;但无论如何，创始团队核心人员几乎都在。而 OpenAI 的产品和 GTM 管理层频繁换人，内部研究员自己都在吐槽模型一流但产品和推向市场一团糟。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RSI 递归自进化：AI 正在学会改进自己</h2>
+<p style="margin:0.8em 0">这是 Q2 最值得关注的趋势。Anthropic 在 6 月发布了《One AI Builds Itself》，披露了几个数字：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">代码库中超过 80% 的代码由 Claude 编写</strong>（截至 5 月）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工程师人均日合并代码量是 2025 年之前的 8 倍</strong>（2026 Q2 开始）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Agent 端到端完成一项 AI 安全研究，累计工作 800 小时</strong>，比人类研究员做一周效果更好</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Misthos Preview 代码优化性能：52 倍加速</strong>（熟练人类研究员 4-8 小时能做到 4 倍）</li>
+</ul>
+<p style="margin:0.8em 0">Anthropic 设想了三种未来：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">模型能力停止增长——他们认为概率极低，除非算力/电力突然消失。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Auto Research 实现但 RSI 未实现</strong>——这是当前的现实。AI 以数量级提升完成研究员的指令，但研究品味仍然是人类卡点。&quot;效率八倍提升，但不是指数级提升。&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">RSI 完全实现</strong>——AI 自己训练下一代 AI，不是一个月发一个新模型，而是每天、每小时都有新模型产生。人类从 AI 进化环路中彻底被抽离，只需不断喂算力。</li>
+</ol>
+<p style="margin:0.8em 0">第三种未来的最大风险是对齐——今天微小的对齐瑕疵，在 AI 自繁衍过程中会不断放大。Anthropic 因此主张&quot;应有意识地放缓 RSI 研究速度&quot;，但他们自己也很矛盾：我放缓了，竞争对手不一定会放缓。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">RSI 创业公司 Recursive 浮出水面。</strong> 由 Richard Socher、石天林、田渊栋等人创办，Q2 放出了首个成果：在三个 benchmark 上实现了自我改进。Henry 说上周又新知道了四五个在这个方向创业的团队——一场围绕&quot;AI 自我进化&quot;的创业潮正在水下涌动。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 研究员的悖论：能力变强了，幸福感没变强</h2>
+<p style="margin:0.8em 0">Anthropic 报告里引用了一位研究员的话，精确概括了这个群体的困境：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;当这个 AI 模型 work 的时候，它比我做的又快又好，我感觉自己没什么价值。当它不 work 的时候，我更惨——我完全不知道为什么它不工作，还得去弄明白。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">研究速度在加快，但价值感和成就感在经历新的拷问。田渊栋认为关键在于&quot;解释 AI&quot;——让 AI 真正成为一门科学，从第谷的经验阶段走向开普勒和牛顿。Henry 则判断：ASI 应该是能理解自己的，自进化和自我理解会同时发生。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Cursor 600 亿美元卖身：AI Coding 赛道的终局信号</h2>
+<p style="margin:0.8em 0">Q2 最大的收购案：SpaceX（合并 XAI 后）以 600 亿美元收购 Cursor——历史上最大的创业公司收购价。对比 Vinserve 被 Google 以 20 多亿美元收购，差价近 30 倍。</p>
+<p style="margin:0.8em 0">Henry 认为时机精准：XAI 内部 Coding 团队大规模离职，马斯克急需一支完整团队继续讲 Coding 故事；Cursor 刚好卡在上市前后需要讲更大布局的时间点。长期来看，所有做 AI Coding 的公司都面临同一个问题——在 Claude Code 和 Codex 的双重挤压下，独立公司的护城河在哪里？</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Google 的应对</strong>：给传统部门降级、给 Coding 升级。已经收了 Vinserve 团队又招了大量 researcher，大概率会用自己的队伍追，不再通过收购。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">物理 AI 与两个&quot;不约而同&quot;</h2>
+<p style="margin:0.8em 0">OpenAI 和 Anthropic 在 Q2 不约而同地加码 Robotics：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI</strong>：官宣 PatrickStein（物理 AI 方向）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Anthropic</strong>：在《One AI Builds Itself》里明确表示，Recursive Intelligence 的下一步就是 Robotics 和 Physical Intelligence</li>
+</ul>
+<p style="margin:0.8em 0">两个在模型层杀得最凶的对手，在物理 AI 的判断上完全一致。不过 Anthropic 目前更接近&quot;在考虑这个方向&quot;而非已落地——更多是非公开信息。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">写在最后：三条判断</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">RSI 不是科幻。</strong> Anthropic 80% 代码由 AI 写、52 倍优化加速、800 小时自主研究——这不是论文里的设想，是已经发生的公司内部实践。从 AutoML（2017）到超参搜索到架构搜索到 training recipe 优化到全系统自进化——这条线的每一步都在真实推进。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">&quot;Anthropic 邪教化&quot;是误解，但&quot;留存率高&quot;是关键护城河。</strong> 一个模型能力旗鼓相当的市场里，谁的团队更稳定、产品社区更强、价值观传递更一致，谁就能在系统战中持续累积优势。OpenAI 模型不差，但组织稳定性正在成为拖累。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">物理 AI 会成为下一个共识战场。</strong> 两家最前沿的公司同时在这个方向发力不是巧合。当 Language Model 的 Scaling 曲线开始趋缓，Physical Intelligence 就是下一个有足够复杂度支撑 Scaling 的领域——这个逻辑和&quot;世界模型的 Scaling Law 会比 LLM 更残酷&quot;的判断是一致的。</p>
+</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>本文基于播客《晚点聊 LateTalk》第 171 期 AI 季报 Q2 专题改写。嘉宾：MOE Capital 创始合伙人 Henry Yin。播客录制于 2026 年 6 月 27 日。</em></p>
+
+</div>

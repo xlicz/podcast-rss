@@ -1,0 +1,53 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 Cookie 过期阻断</h2>
+<p style="margin:0.8em 0">EDITED CSV 最新日期 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-07-25</code>，距今天 2026-07-30 已 <strong style="font-weight:600">5 天</strong>，超过 3 天阈值。根据 SOP <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">references/cookie-expiration-cron-blocker.md</code>，cookie 极可能已过期。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">阻断原因</h3>
+<p style="margin:0.8em 0">强行下载的后果链：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">第 1 页可能成功返回，第 2 页触发 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Error 10022</code>（需登录）</li>
+<li style="margin:0.3em 0">爬虫自动调用 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">EOFError</code>（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input()</code> 在 cron 无 stdin）</li>
+<li style="margin:0.3em 0">进入无限重试循环 → 600s timeout 浪费</li>
+</ol>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">所需操作</h3>
+<p style="margin:0.8em 0">需在 macOS GUI 环境手动刷新 cookie：</p>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler
+./venv/bin/python download/get_cookie.py
+# 或
+python analyze.py --cookie
+</code></pre>
+<p style="margin:0.8em 0">刷新后 cron 下次执行时自动恢复。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">状态</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">项目</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-30</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">EDITED CSV 最新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-25</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">陈旧天数</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5 天</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阻断</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 已阻断 — 未尝试下载</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">幂等锁</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❌ 未写 — 允许 cookie 刷新后重试</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">⚠️ 需要在 macOS GUI 环境手动运行 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python download/get_cookie.py</code> 刷新 cookie。刷新后无需任何额外操作，下次 cron 自动恢复。</strong></p>
+
+</div>

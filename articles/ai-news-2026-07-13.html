@@ -1,0 +1,85 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 07/13</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">聚焦 AI Coding / 世界模型 / 具身智能 · 5 条精选</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">1. RSS 2026 今日悉尼开幕：具身智能年度风向标</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: roboticsconference.org / 量子位 | 🟢官方+🟡可靠媒体</p>
+<p style="margin:0.8em 0">[✅事实] RSS 2026 于 7 月 13-17 日在悉尼 ICC 举办，是全球具身智能/机器人领域的顶级学术会议。量子位等中文媒体派出前线团队全程驻守报道。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ 官网 roboticsconference.org 确认 July 13-17, 2026, Sydney ICC | ✅ 量子位专题策划文章确认</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关注</strong>: 具身智能从实验室走向产业的年度风向标，今年论文涵盖世界模型+机器人策略+灵巧操作等热点方向。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2. Claude Code 发送 33K tokens 才读取提示词，OpenCode 仅需 7K</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: Systima Blog | 🟡 技术博客 (有可复现数据)</p>
+<p style="margin:0.8em 0">[✅事实] Systima 对 Claude Code 与 OpenCode 进行 API 边界 token 开销实测：Claude Code 在读取用户提示词前已发送 33K tokens（系统提示+工具定义+MCP schema），而 OpenCode 仅 7K，差距达 4.7 倍。Claude Code 的子代理模式进一步放大开销。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Systima 博客实测数据 (HN 426pts) | ✅ 方法可复现（API 边界监控）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关注</strong>: AI coding agent 架构效率的硬数据——token 开销直接影响成本与延迟，是大规模部署的关键瓶颈。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">3. 陶哲轩用 AI Coding Agent 移植 27 年前数学代码，发现 2 个隐藏 bug</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: Terry Tao 官方博客 | 🟢 官方</p>
+<p style="margin:0.8em 0">[✅事实] 菲尔兹奖得主陶哲轩 (Terence Tao) 在 7 月 11 日博客中详述：使用 AI coding agent 将自己 1999 年用 Java 1.0 编写的数学教学 applet 移植为现代 Web 应用。AI agent 在数小时内完成代码迁移，并发现了他当年遗漏的 2 个 bug。</p>
+<p style="margin:0.8em 0">[💬观点] 陶哲轩称这种模式是&quot;机器辅助数学教学&quot;的愿景开端，AI agent 让非软件工程师的数学家也能快速构建交互式工具。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ 陶哲轩 WordPress 博客原文 (HN 399pts) | ✅ 代码示例可见于文章</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关注</strong>: AI coding 在非平凡遗留科研代码上的能力证明——不是 toy project，是有实际数学意义的代码移植。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">4. 智源 BAAI 发布 Orca 世界模型：零动作标签匹敌专用机器人系统</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: the-decoder.com | 🟡 可靠科技媒体</p>
+<p style="margin:0.8em 0">[✅事实] 北京智源人工智能研究院 (BAAI) 发布 Orca 世界模型，基于 125,000 小时视频训练，完全不使用动作标签，通过预测抽象世界状态（而非像素或 token）实现环境理解。在 5 项机器人操控任务上，零样本性能匹配专用策略模型 π0.5。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ the-decoder.com 独立报道 (Jul 11) | ✅ arXiv 存在同名论文 2606.30534v2 | 🔴 BAAI 官方 GitHub 仓库未公开 (404)</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关注</strong>: 世界模型无需昂贵动作标注数据的新范式——若可复现，将大幅降低具身智能的数据获取门槛。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">5. Wiz 发现 GhostApproval 漏洞：6 大 AI 编程助手的信任边界缺陷</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: Wiz 官方研究博客 | 🟢 官方</p>
+<p style="margin:0.8em 0">[✅事实] 云安全公司 Wiz 研究团队发现 GhostApproval 漏洞：攻击者可利用 Unix 符号链接 (symlink) 特性，在 AI coding agent 的审批界面展示无害文件内容，实际却修改恶意文件，从而绕过人工审批执行任意代码。影响 Claude Code、GitHub Copilot 等 6 款主流 AI 编程助手。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Wiz 官方博客确认 (wiz.io/blog/ghostapproval) | ✅ Infosecurity Magazine、DevOps.com、The Hacker News 等 5+ 家安全媒体独立报道</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关注</strong>: AI coding 安全从理论风险走向实际攻击面——符号链接是 40 年前的 Unix 特性，但在 AI agent 场景下成为新的信任边界突破口。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 覆盖统计</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">条数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Coding</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">世界模型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+</tr>
+</tbody>
+</table></div>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">来源可靠性</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">条数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡 可靠媒体</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🔴 传闻</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">0</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">📅 覆盖时段: 07/11–07/13 | 📌 WAIC 2026 (7/17-20 上海) 即将召开，预计下周具身智能新闻密度将大幅上升。</p>
+
+</div>

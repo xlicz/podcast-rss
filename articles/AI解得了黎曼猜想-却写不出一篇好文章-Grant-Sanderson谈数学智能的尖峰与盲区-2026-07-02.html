@@ -1,0 +1,75 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI解得了黎曼猜想，却写不出一篇好文章：Grant Sanderson谈数学智能的尖峰与盲区</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">3Blue1Brown创始人深度对话：当AI在国际数学奥林匹克拿了金牌，为什么依然不会写一篇让人想读完的散文？这两个问题的答案，指向同一个根本局限。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">三年前，a16z第一次采访Grant Sanderson时，问了他一个问题：一旦AI能在国际数学奥林匹克（IMO）拿金牌，是不是就等于AGI了？毕竟那些题目难到大部分数学博士都做不出来。如果AI能搞定，还有什么人类任务它搞不定？</p>
+<p style="margin:0.8em 0">Grant当时的回答，事后被证明惊人地正确：IMO只会是又一个被攻破的benchmark。AI当然在变强，但不会有某个&quot;aha moment&quot;让你觉得世界从此不同。</p>
+<p style="margin:0.8em 0">三年后，AI真的在IMO 2024年拿了金牌级别的成绩——几何题19秒暴力求解，数论和代数也接近满分。唯一卡住它的是组合数学里的两道题。Grant再次坐到了a16z的麦克风前，但这次他想聊的不是AI能做什么，而是：<strong style="font-weight:600">这项能力的天花板到底在哪里？以及，为什么一个能在数学上碾压99.9%人类的系统，拿到写作任务时反而像个笨拙的外星人？</strong></p>
+<p style="margin:0.8em 0">这是一个关于&quot;尖峰前沿&quot;的故事——能力在某些维度上飙升，在另一些维度上纹丝不动。而这两者之间的距离，恰好揭示了大语言模型最深层的认知结构。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">IMO金牌的&quot;肮脏秘密&quot;</h2>
+<p style="margin:0.8em 0">&quot;I think the dirty secret with the IMO is that you really can train for a lot of them.&quot;</p>
+<p style="margin:0.8em 0">Grant上来就把IMO的神话拆了个干净。IMO有四类题型：几何、数论、代数、组合数学。2024年的AI系统在几何上19秒解决——因为几何本质上是可暴力搜索的。&quot;脏秘密是，对学生来说也有某种暴力方法。&quot;</p>
+<p style="margin:0.8em 0">组合数学是唯一的例外。它不是那种&quot;你有这几种工具，按顺序组合就能解&quot;的类型。它是&quot;playful, puzzly&quot;——需要对问题结构本身的直觉跳跃。&quot;有人如果想守住'数学是人类最后的堡垒'这面旗帜，可能会说：你看，需要真正创造力的那类题，AI就是做不出来。&quot;</p>
+<p style="margin:0.8em 0">但Grant不买这个账。因为&quot;创造力的定义在不断退守&quot;。就像围棋被AlphaGo攻克后，没人再说&quot;围棋需要人类独有的直觉&quot;。</p>
+<p style="margin:0.8em 0">他的真实判断是：<strong style="font-weight:600">数学能力的进展不是一个均匀推进的面，而是一个&quot;分形尖刺&quot;——宏观上数学是AI能力的一个尖峰，但放大进去看，数学内部又有自己的尖峰和低谷。</strong> 几何很容易，组合数学很难；定理证明在进步，但提出一个好的猜想是另一回事。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">下一个benchmark不是解题，是&quot;提问&quot;</h2>
+<p style="margin:0.8em 0">整个对话中最锋利的一段，来自Grant引用的一句数学界的古老格言：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;Good mathematicians prove theorems. Great mathematicians come up with conjectures. The greatest mathematicians come up with definitions.&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">好数学家证明定理，伟大数学家提出猜想，最伟大的数学家——创造定义。</p>
+<p style="margin:0.8em 0">这恰好揭示了当前AI数学能力的核心缺口。现有的训练范式是&quot;给定问题，找到答案&quot;。但数学史上最深刻的进步，往往来自<strong style="font-weight:600">提出正确的问题</strong>，而非解决已有问题。</p>
+<p style="margin:0.8em 0">&quot;伽罗瓦提出群论，和亚伯证明五次方程无根式解，是两种完全不同的贡献，&quot;Grant说。亚伯证明了不可解，但他的证明没有催生新的领域。伽罗瓦在证明的过程中<strong style="font-weight:600">创造了群论这个全新的概念框架</strong>——而这个框架的价值，花了整整一百年才被数学界充分认识到。它后来渗透进了密码学、物理学中的对称性分析、以及无数其他领域。</p>
+<p style="margin:0.8em 0">&quot;如果你想让AI做RLHF（人类反馈强化学习），它的验证循环会是什么？你让AI提出一个新概念，然后去验证'这个概念有用吗'——这个验证可能需要一百年。&quot;</p>
+<p style="margin:0.8em 0">这就触及了一个根本矛盾：<strong style="font-weight:600">最容易做成benchmark的事情（定理证明），恰好也是最容易训练的；而最难做成benchmark的事情（提出好问题、创造好定义），恰好也是当前范式最难训练的。</strong> 因为&quot;benchmark和训练环境之间没有本质区别&quot;——如果你能量化它，你就能训练它。如果你不能量化它，你就只能用一些间接信号来摸索——而LLM在这个维度上的进步，将只能通过&quot;数学家们讨论AI时的语气变化&quot;来感知，无法用一条新闻标题来宣布。</p>
+<p style="margin:0.8em 0">&quot;我觉得你不会在新闻上看到'又一个benchmark被攻克了'，&quot;Grant说，&quot;但你会注意到——数学家不再只是用AI来解自己的题，而是跟AI讨论自己的研究方向应该是什么。那时候你会知道，它真的不一样了。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">黎曼猜想、随机矩阵，和&quot;跨领域灵光一闪&quot;</h2>
+<p style="margin:0.8em 0">有一个故事被Grant讲得津津有味。1970年代，数论学家Hugh Montgomery在研究黎曼ζ函数零点的统计分布时，写出了一个看起来很像&quot;1/sin²&quot;的公式。物理学家Freeman Dyson正好路过——&quot;我不知道是不是午餐时间碰上的&quot;——看了一眼说：我认识这个表达式，它出现在随机厄米特矩阵的特征值研究中，那是用来分析原子核能级的。</p>
+<p style="margin:0.8em 0">两个看起来毫无关联的领域——解析数论和量子物理——就这样撞在了一起。到现在也没人确定这条线索是否能通向黎曼猜想的证明，但&quot;这种跨领域的闪电连接&quot;，Grant认为，恰恰是大语言模型应该擅长的。&quot;LLM是量子物理的专家，也是解析数论的专家，它应该能比Montgomery和Dyson在午餐桌上更高效地发现这种相似性。&quot;</p>
+<p style="margin:0.8em 0">但他的下一句话才是关键：<strong style="font-weight:600">如果黎曼猜想的最终证明需要的是建造一整座新的概念大山——就像费马大定理的证明需要先花几百年搭建椭圆曲线和模形式两座理论高峰——那这种能力和&quot;白领工作中的AI&quot;所需要的智能是两回事。</strong> &quot;你的视频剪辑师不需要会造一座理论高峰。但如果你造出来了，那种级别的智能几乎不可能不渗透进经济的其他角落。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI为什么写不出一篇好文章？</h2>
+<p style="margin:0.8em 0">对话中有一个非常精彩的转折。a16z的主持人问：代码和数学都可以通过验证循环来强化训练（代码能不能跑？证明有没有漏洞？），为什么AI的写作能力进步明显更慢？</p>
+<p style="margin:0.8em 0">Grant的答案是分层的，每一层都比上一层更深刻。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一层：写作没有&quot;输出&quot;与&quot;产品&quot;的分离。</strong> 代码是手段，运行结果是目的——你可以容忍代码不优雅，只要功能正确。但写作本身即是目的。每一个词、每一个句子都是读者直接消费的内容，不存在&quot;语法正确但风格糟糕也凑合&quot;的选项。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二层：好的写作需要对读者心智的实时建模。</strong> Grant引用了Annie Matushak的一个实验：他们试图训练LLM写好的间隔重复卡片。这件事看起来极其具体和机械，但核心难点在于——&quot;写一张好卡，是在投射三个月后的你的心智状态。当你看到这个问题时，你脑子里会浮现什么关联？这个关联是不是你真正想记住的东西？&quot;</p>
+<p style="margin:0.8em 0">写作同理。每一句话，你都应该在思考&quot;读者现在脑子里是什么画面？我把这句话的结尾放到开头——读者的第一反应会改变吗？&quot;这种心智投射能力，LLM做得很差。&quot;这是扩散模型式的全局考虑，而不是自回归式的逐句生成，&quot;Grant说，&quot;也许自回归这个架构本身就在这件事上有先天局限。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三层：写作需要&quot;有意的不可预测性&quot;。</strong> 好的散文不是把温度调高让它随机——而是在读者最期待某种展开的时刻，故意不给他们。那种精确的节奏控制，那种&quot;我知道你会这样想，所以我偏不这样写&quot;的判断力——&quot;跟自回归的工作方式完全是反的。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第四层，也是Grant最激进的论点：心智理论可能是具身的。</strong> 他讲了一个实验：给一群人做表情识别测试（看一张脸，判断情绪），然后其中一部分人去打肉毒杆菌（让面部肌肉冻结），回来再测一次——成绩显著下降。</p>
+<p style="margin:0.8em 0">&quot;这意味着，你理解别人情绪的能力，部分来自于你自己的面部肌肉在无意识地模仿那个表情。你的脸在做对方的脸在做的事，然后你的大脑说：哦，这是焦虑。&quot;</p>
+<p style="margin:0.8em 0">如果心智理论依赖于这种身体性——那么LLM的心智理论将永远是一种&quot;涌现&quot;而非&quot;原生&quot;。它不是不够聪明，而是它的认知架构和我们从根本上不同。&quot;它像一个外星人在尝试共情。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最好的学习方式，是让AI帮你找到正确的人</h2>
+<p style="margin:0.8em 0">既然聊到了LLM的局限，主持人问了一个实用问题：作为3Blue1Brown的创始人，你怎么用LLM来学习？</p>
+<p style="margin:0.8em 0">Grant的回答出乎意料地传统：<strong style="font-weight:600">&quot;把它当成一个超级加强版Google——用来帮你锁定正确的人类资源。&quot;</strong></p>
+<p style="margin:0.8em 0">他区分了两种学习体验。一种是读Wikipedia——每个句子都经过了&quot;正确性的局部最优&quot;，但没有人试图为你搭建一个叙事弧线。另一种是读斯坦福哲学百科、普林斯顿数学指南、或某个特定作者写的书——一个人，带着一个特定的视角，为你设计了一条从困惑到理解的路径。&quot;好的讲解不介意在路上让你短暂地'错'一下，然后把你拽回来。这种故意的&quot;阶段性错误&quot;在众包环境中会被编辑掉。&quot;</p>
+<p style="margin:0.8em 0">LLM的解释，目前更像是Wikipedia——信息量大，覆盖广，但缺乏那种&quot;一个人为你精心设计的认知旅程&quot;。&quot;最有用的部分常常是Wikipedia页面最底下的引用——你去读那些，反而能得到更好的概览。&quot;</p>
+<p style="margin:0.8em 0">他举了一个亲身例子：有一次他想学半导体，问Claude有没有好的可视化视频。&quot;Claude说：有的，这里有一个——来自3Blue1Brown。&quot;Grant笑着回忆，&quot;我保证没有。但它确实给了我一个链接，是别人的视频。我点开看，体验好得多。&quot;</p>
+<p style="margin:0.8em 0">他的学习方法论是：<strong style="font-weight:600">&quot;让人类来定义概念的认知顺序和动机结构，然后让LLM在这个框架周围做一些修剪。&quot;</strong> 他最近在用Steven Strogatz的《混沌与非线性动力学》学混沌理论——&quot;三分之一屏幕放他的大学讲座，三分之一放教科书对应章节，三分之一放LLM。&quot;他在大学时听同样的课可能会一头雾水，但加上随时暂停、阅读、用LLM查边缘问题——&quot;感觉像在天堂。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给想学数学的年轻人的建议：先搞懂钱从哪里来</h2>
+<p style="margin:0.8em 0">对话的最后，主持人问：如果你是今天的大学生，看到AI在数学上的进展，还会选择学数学吗？</p>
+<p style="margin:0.8em 0">Grant的第一反应出乎意料地务实：<strong style="font-weight:600">&quot;大部分想学数学的学生，其实从来没想过'钱从哪里来'这个问题。&quot;</strong></p>
+<p style="margin:0.8em 0">他拆解了数学家这个职业的经济结构。有些数学家的价值在于品牌——&quot;这个大学有菲尔兹奖得主，所以更有声望&quot;；有些在于NSF拨款——&quot;有一个完整的官僚系统在代理'基础科学是公共品'这个信念&quot;；有些在于教学——&quot;家长愿意花大价钱送孩子去有好老师的地方。&quot;</p>
+<p style="margin:0.8em 0">&quot;无论AI能不能证明定理，这些社会角色本身不会消失。只要社会仍然认可基础科学的价值——而且在AI带来的丰裕世界里，这种投入可能会更多。&quot;</p>
+<p style="margin:0.8em 0">但最让他笃定的是另一个判断：<strong style="font-weight:600">教学可能是AGI时代最稳定的职业之一。</strong> &quot;因为它是如此地关系型（relational）。即使AI是一个好的解释者，老师在做的事情远远超出了解释——它是一种社会性的、教练式的、导师式的工作。家长如果有钱，最愿意花钱的地方就是好的教育。这不是未来五十年会消失的东西。&quot;</p>
+<p style="margin:0.8em 0">而当AI真的开始提出人类从未想过的数学问题、创造出全新的数学对象时——&quot;那个世界里的稀缺资源，将不是'谁能做数学'，而是'谁能向其他人解释AI在数学中看到了什么'。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">在数学上的极致智力，和写作中必需的&quot;他人的心智&quot;之间，AI画出了一条清晰的断层线。前者可以通过更多的训练数据、更精巧的验证循环来逼近；后者可能需要的是一种完全不同的认知架构。</p>
+<p style="margin:0.8em 0">Grant不会给出斩钉截铁的预测。但他留下了一个足够锋利的观察，供读者带走：</p>
+<p style="margin:0.8em 0">AI在国际数学奥林匹克上花了19秒解出几何题。但它依然不知道，当你读到这句话的倒数第三个词时，你脑子里正在期待什么。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">带走这几点：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">IMO金牌不是AGI的里程碑——&quot;dirty secret&quot;是这些题可以训练，就像所有其他benchmark一样。真正的考验是&quot;提出好问题&quot;的能力，而那个能力暂时没有训练信号</li>
+<li style="margin:0.3em 0">AI数学能力是&quot;分形尖峰&quot;——宏观上数学是最强的尖峰之一，但放大进去，几何和组合数学之间的差距巨大。这种不均匀性可能会是长期的</li>
+<li style="margin:0.3em 0">伽罗瓦的群论花了100年才被承认有用——AI想做的&quot;创造新概念&quot;这件事，验证循环天然超长，与当前训练范式冲突</li>
+<li style="margin:0.3em 0">AI写不好文章，不是因为不够聪明，而是因为心智理论可能需要&quot;身体&quot;——肉毒杆菌实验暗示，理解他人情绪依赖于自己面部肌肉的无意识模仿。LLM没有面部肌肉</li>
+<li style="margin:0.3em 0">用LLM学习的最佳策略：让它帮你找到正确的人类资源，而非直接让它教你。人类定义认知路径，AI做边缘修剪</li>
+<li style="margin:0.3em 0">教学是AI时代最稳定的职业——关系型、教练式的工作不会消失。而且当AI真的开始发现人类从未见过的数学时，&quot;谁能让人类理解AI的发现&quot;将是最稀缺的能力</li>
+</ul>
+
+</div>

@@ -1,0 +1,41 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/02（近一周精选 · 具身智能 / 开源模型 / 国产算力）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Google DeepMind 发布 Gemini Robotics 2 实现单策略跨本体控制；华为开源 505B 参数 openPangu-2.0-Pro（昇腾训练，无 Nvidia）；Moonshot Kimi K3 免费权重重塑开源格局。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">近一周（07/28–08/02）AI 领域密集发布：具身智能侧 Gemini Robotics 2 是最大突破——同一 checkpoint 控制三种不同本体；算力侧华为 openPangu-2.0-Pro 505B 开源验证昇腾路线可行性；模型竞争侧 Kimi K3 免费开放权重引发美国对中国开源模型的禁令讨论；生成侧 Seedance 2.5 把视频生成推到 30 秒单次 + 内置音频；工具链侧 Perplexity Numbat 开源补齐 coding agent 安全监控空白。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Gemini Robotics 2：单策略跨本体控制人形机器人 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Google DeepMind 发布 Gemini Robotics 2 模型系列，实现从脚到指尖的全身智能控制（whole-body control）、精细灵巧操作与多机器人协作。关键演示：同一模型 checkpoint 控制三种不同本体——Apptronik Apollo 2（SharpaWave 手）、Apollo 2（Inspire 手）、Franka Duo（Robotiq 夹爪），在多种复杂任务上运行。配套 Gemini Robotics ER 2 支持视频理解与多机器人协作。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官方博客 + HN 613 pts + 9 家独立媒体（WIRED/SiliconANGLE/Tech Times 等）确认 — <strong style="font-weight:600">关注</strong>: 单策略跨本体是 VLA 泛化核心突破</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/" style="color:#2563eb;text-decoration:underline">https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/</a></li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 华为开源 505B 参数 openPangu-2.0-Pro，训练不依赖 Nvidia | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">华为开源 5050 亿参数 openPangu-2.0-Pro 模型，权重与推理代码同步开放。该模型基于昇腾（Ascend）算力训练，官方称不依赖 Nvidia 芯片。余承东此前公开承诺兑现。英文媒体 Tech Times 标题提出供应链质疑（&quot;Supply Chain Tells Different Story&quot;），细节待确认。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅中文 3 家独立媒体（凤凰网/cnBeta/AIBASE）+ 英文 2 家；🔴未证实 训练全程零 Nvidia 的供应链细节 — <strong style="font-weight:600">关注</strong>: 国产算力大模型开源，生态卡位</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: AIBase 报道（7/31）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Kimi K3 免费开放权重：史上最大免费 AI 模型 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Moonshot 发布 Kimi K3 并免费开放权重，被多家媒体称为&quot;史上最大可免费下载的 AI 模型&quot;，关键 benchmark 超越 Anthropic Fable 5（India Today）。Bloomberg 报道其训练使用阿里提供的 20,000 张 Nvidia 芯片集群。Pandaily 称上线两天即占全球开源模型流量 41%。已引发美国对中国开源模型出口禁令的辩论（SCMP）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅10+ 家独立媒体（Bloomberg/VentureBeat/SCMP/India Today 等）一致报道；🔴未证实 流量占比数据 — <strong style="font-weight:600">关注</strong>: 开源+免费重构闭源 API 定价权</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg / VentureBeat / SCMP（07/28–08/01）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Seedance 2.5：30 秒单次生成视频 + 内置音频 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">字节跳动发布 Seedance 2.5 视频生成模型：单次生成完整 30 秒视频（此前主流为 5-10 秒），内置同步音频，支持 50 个参考输入与部分编辑，长叙事能力突破。与 MiniMax H3 形成路线对比——Seedance 2.5 保持闭源，MiniMax H3 走开源+低价路线（SCMP）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官方博客 + 8 家媒体（TechNode/WION/Pandaily/the-decoder 等）+ HN 107 pts — <strong style="font-weight:600">关注</strong>: 视频生成时长+可控性双突破</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5" style="color:#2563eb;text-decoration:underline">https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5</a></li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Perplexity 开源 Numbat：AI coding agent 安全监控层 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Perplexity 开源 Numbat——面向 AI agent 活动可见性的检测与响应层：端侧检测、可选 pre-action 阻断、取证记录。定位为监控 risky AI coding agent 的安全工具，填补 agent 时代端点安全空白。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅GitHub 仓库存在（587 stars，8/1 更新）+ Forbes/OSFY 等 4 家报道 — <strong style="font-weight:600">关注</strong>: coding agent 安全监控新品类</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://github.com/perplexityai/numbat" style="color:#2563eb;text-decoration:underline">https://github.com/perplexityai/numbat</a></li>
+</ul>
+
+</div>

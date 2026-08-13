@@ -1,0 +1,80 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">世界模型的 Scaling Law 会比大语言模型更残酷</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">物理 AI 的热度已是事实。但把 LLM 的成功路径直接复制过来，可能会系统性地低估物理世界的数据成本、安全边界和场景壁垒。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">2026 年 6 月，影视飓风给天猫 618 拍了一支广告片，标题是：&quot;在 AI 里抛硬币，概率是 50% 吗？&quot;</p>
+<p style="margin:0.8em 0">Tim 的团队做了一百多次实验，结果是 70% 多的硬币正面朝上。解释起来会牵扯到训练数据的分布、后训练阶段的对齐偏好——但核心问题只有一个：视频模型里的物理世界，和现实世界不是同一个世界。</p>
+<p style="margin:0.8em 0">这个问题让我想起李飞飞在 World Lab 刚测试时讲过的一个片段。一位认识她多年的朋友在现实世界里晕 3D、晕车，于是好奇地问：在你们生成的那个世界里，我还会晕吗？</p>
+<p style="margin:0.8em 0">这两个问题本质上是同一个问题。它们都指向世界模型最底层的不确定性：一个通过学习视觉数据来理解物理规律的模型，能不能真正内化物理世界的因果链条？</p>
+<p style="margin:0.8em 0">也是这个问题，让我决定做这期节目。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么是现在？</h2>
+<p style="margin:0.8em 0">一个最直接的解释：语言模型的边界已经非常清楚了。</p>
+<p style="margin:0.8em 0">OpenAI 和 Google 已经在触碰万亿美金估值，准备上市。AI 模型层的融资占美国市场超过 60%。但这些全部局限在一个领域：语言。</p>
+<p style="margin:0.8em 0">大语言模型可以写作、编程、推理、调用工具，甚至开始研究自主进化——但它不能开车，不能搬箱子，不能理解一个杯子掉在地上会不会碎。</p>
+<p style="margin:0.8em 0">于是从去年下半年开始，一批&quot;New Lab&quot;集中涌现。Meno Ventures 的 GP 五月份做了一个统计：他覆盖到的 63 家 New Lab 已经融了几百亿美金。这批公司的创始人几乎全部来自最头部的 AI 科技公司。</p>
+<p style="margin:0.8em 0">与此同时，VC 端的弹药也在急剧扩充。Meno 最近刚完成了第十七期早期基金加第四期成长基金的募集——30 亿美金，上轮只有 13 亿。红杉、IDG、高瓴这些基金内部，可能有七八条线同时在关注不同的世界模型项目。</p>
+<p style="margin:0.8em 0">资本已经下了重注。但资本相信的事情，和工程上能做到的事情，之间还有很长的距离。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">世界模型有没有 Scaling Law？</h2>
+<p style="margin:0.8em 0">这个问题本质上是：我们在大语言模型上验证过的那套范式——更多数据、更强算力、更大模型，能力沿着某个曲线持续提升——能不能照搬到物理世界？</p>
+<p style="margin:0.8em 0">大语言模型的数据来源很清楚：互联网文本、网页、书籍、代码、百科。虽然对数据质量的要求越来越高，但获取成本相对可控，规模可以做得很大。</p>
+<p style="margin:0.8em 0">世界模型的数据来源完全不同。</p>
+<p style="margin:0.8em 0">一段语言：&quot;司机看到前方儿童突然跑出来，急刹，并且向左避让。&quot;——十几个字。</p>
+<p style="margin:0.8em 0">用视频来记录这件事：摄像头画面、雷达点云、轨迹标注、场景上下文。几秒钟的视频，背后是硬件、场地、人力、安全、合规的全套成本。</p>
+<p style="margin:0.8em 0">视觉的密度其实是低于语义的。要训练出对标大语言模型的世界模型，所需的数据量可能要多出几个量级——而且这些数据不只是在互联网上&quot;爬&quot;得到的。</p>
+<p style="margin:0.8em 0">自动驾驶需要在路上真的跑，机器人需要真的做动作，工业仿真需要真实的传感器数据。每一条数据都贵。</p>
+<p style="margin:0.8em 0">然后是安全问题。大语言模型说错一句话，最多闹个笑话。世界模型的一个判断失误，可能是事故。</p>
+<p style="margin:0.8em 0">所以我的判断是：世界模型可能存在 Scaling Law，但它不是语言模型那种低摩擦版的复制。它更像一个高摩擦版本的 Scaling Law——数据更贵，反馈更慢，安全要求更高，长尾更复杂。重要的是，每一个垂直场景在这个时间点都有明确的数据壁垒。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Momenta 的路线：一个正在转动的飞轮</h2>
+<p style="margin:0.8em 0">聊世界模型绕不开 Momenta。这家国内领先的自动驾驶公司刚刚通过了港交所聆讯。</p>
+<p style="margin:0.8em 0">他们的招股书里有一个很有意思的角度：Momenta 没有说&quot;我也能做世界模型&quot;。他们讲的是，怎么持续地拿到真实世界的数据，并把这些数据用到模型能力的提升上。</p>
+<p style="margin:0.8em 0">量产车本身就是数据采集点。每天在不同的城市、不同的天气、不同的交通环境下行驶——真实世界一次一次地在给它&quot;喂&quot;数据。用户的驾驶行为变成了训练数据的来源。</p>
+<p style="margin:0.8em 0">这在结构上和 UGC（用户生成内容）的逻辑很像，只不过这里的内容是驾驶行为。</p>
+<p style="margin:0.8em 0">Momenta 的投资人名单也值得注意：富达、贝莱德、腾讯、阿里、比亚迪、橡树资本（霍华德·马克思）、富兰克林邓普顿。不是那种追风口的短线基金，而是一批投产业链逻辑的长期资本。</p>
+<p style="margin:0.8em 0">这揭示了一个关键判断：在物理 AI 这个领域，不是&quot;谁的模型更强&quot;的问题，而是&quot;谁能把数据飞轮转起来&quot;的问题。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三派之争：同一个方向，不同的技术路径</h2>
+<p style="margin:0.8em 0">今天的世界模型领域，三家最具代表性的机构走了三条截然不同的路：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">杨立昆的 JEPA 派</strong>：模型不生成像素，在潜在空间里预测状态变迁。优势是计算效率高、泛化性强，但可解释性较差。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">DeepMind 的多模态演进派</strong>：保留大语言模型的技术架构，叠加视觉空间感知和强化学习。Gemini Robotics 的演示就是这条路线，相对务实，已经在特定场景里出现了不错的效果。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">李飞飞的 3D 空间表征派</strong>：强调渲染、模拟、规划三条线正在融合，边界正在消失。</p>
+<p style="margin:0.8em 0">三条路各有逻辑，目前说不上谁对谁错。但值得注意的是：这三家都是从&quot;通用&quot;的维度在设计世界模型。而 Momenta 是从一个具体的垂直场景——自动驾驶——从下往上建的。</p>
+<p style="margin:0.8em 0">这个对比很像当年 AI 领域的&quot;通用平台 vs 垂直应用&quot;的争论。对于世界模型，我倾向于认为垂直场景在这个阶段可能有结构性优势——因为数据壁垒是真实存在的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">GPT 时刻还没有来</h2>
+<p style="margin:0.8em 0">当年 ChatGPT 的爆发满足四个条件：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">大众用户能直接感知到冲击</li>
+<li style="margin:0.3em 0">产品门槛极低（打开网页就能用）</li>
+<li style="margin:0.3em 0">通用性足够强（什么问题都能聊）</li>
+<li style="margin:0.3em 0">整个产业链各层级开始出现爆发</li>
+</ul>
+<p style="margin:0.8em 0">世界模型在哪个条件上达标了？可能一个都还没有完全满足。</p>
+<p style="margin:0.8em 0">我们今天看到更多的是一些酷的演示视频和宣传片——北京的机器人马拉松、几段自动驾驶的 clip。但还没有一个让普通人打开就能用、用了就震撼的产品。</p>
+<p style="margin:0.8em 0">更根本的矛盾在于：下一个 token 的预测可以有概率上的容错，但物理世界不允许&quot;差不多&quot;。一点闪失可能就是事故。这决定了世界模型的评估标准比语言模型严苛得多。</p>
+<p style="margin:0.8em 0">如果一定要用 LLM 的发展阶段来类比，我认为今天的世界模型大概处于 GPT-2 左右的时刻：方向已经很清楚了，能力在一些细分场景里已经显现，资本下了重注。但距离 GPT-3 那个&quot;大众确认方向正确&quot;的转折点，还有一段路。</p>
+<p style="margin:0.8em 0">真正要看的，不是谁的 demo 更强，而是谁能把飞轮转起来——谁能把模型放到真实世界里，在安全、成本、性能、商业化之间找到稳定的平衡点。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三个判断</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">三线合一</strong>：渲染、模拟、规划三条线的边界正在消失。理想中的世界模型应该同时具备这三项能力，而它们的融合方式将定义机器智能和物理世界的关系。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">不会赢家通吃</strong>：物理世界不太可能像语言模型那样被少数几家公司垄断。自动驾驶有自己的数据，机器人有完全不同的传感器和动作空间，工业仿真面对的物理规律和商业约束又不一样。底层可能共享一套视觉-空间-物理的表征，但每一层的数据壁垒都极强。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">飞轮的价值 &gt; 模型的价值</strong>：单点技术的领先不可持续。真正值得赌的是谁能建立数据采集→模型训练→商业化部署→更多数据的闭环。Momenta 在自动驾驶这个垂直场景里正在建立这个飞轮，这是它作为物理 AI 商业样本的核心价值。</p>
+</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">文末要点</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">世界模型热度是 LLM 边界清晰化后的资本溢出，不完全是技术成熟的信号</li>
+<li style="margin:0.3em 0">物理世界数据比文本数据贵几个量级，且对安全的容错率趋近于零——这决定了 Scaling Law 的&quot;摩擦力&quot;远高于语言模型</li>
+<li style="margin:0.3em 0">三派技术路径各有主张（JEPA / 多模态演进 / 3D 空间表征），目前没有明确的胜负手</li>
+<li style="margin:0.3em 0">垂直场景的数据壁垒是这一轮的真正护城河，Momenta 的飞轮逻辑具有代表性</li>
+<li style="margin:0.3em 0">世界模型刚过 GPT-2 阶段，距离&quot;人人可用、人人震撼&quot;的时刻还有距离</li>
+<li style="margin:0.3em 0">从语言到世界，AI 的下一段路才刚刚开始</li>
+</ul>
+
+</div>

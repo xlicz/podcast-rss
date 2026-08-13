@@ -1,0 +1,51 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">CSV 最后更新 2026-07-12，距今 7 天 ≥ 3 天阈值。按 SOP 规定：<strong style="font-weight:600">不进入下载，直接终止并报告阻塞状态</strong>。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚠️ STH_ 每日雪球分析 — 阻塞报告</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">日期</strong>：2026年7月19日（周日）<br />
+<strong style="font-weight:600">状态</strong>：🔴 BLOCKED — Cookie 疑似过期</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">诊断结果</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">文件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">行数</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">最新日期</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RAW CSV</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1625</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-12</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 距今 7 天</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">EDITED CSV</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1625</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-12</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 距今 7 天</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">阻断原因</h3>
+<p style="margin:0.8em 0">CSV 最后更新 ≥3 天（实际 7 天），Cookie 极可能已过期。若强行下载：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">第 1 页可能成功，第 2 页触发 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Error 10022</code>（需登录）</li>
+<li style="margin:0.3em 0">爬虫自动调用 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">EOFError</code>（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input()</code> 在 cron 无 stdin）</li>
+<li style="margin:0.3em 0">无限重试循环 → 600s timeout 浪费</li>
+</ol>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">所需操作</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">需人工在 macOS GUI 环境刷新 Cookie：</strong></p>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler
+./venv/bin/python download/get_cookie.py
+# 或
+python ~/.hermes/scripts/setup_xueqiu_login.py
+</code></pre>
+<p style="margin:0.8em 0">刷新后 cron 下次运行时（明日）会自动继续。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未写幂等锁</strong>，当日 Cookie 刷新后可手动重试。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">[SILENT 未启用 — 此报告为阻塞通知，需推送]</p>
+
+</div>

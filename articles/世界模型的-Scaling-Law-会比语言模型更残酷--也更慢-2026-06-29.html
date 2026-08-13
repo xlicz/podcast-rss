@@ -1,0 +1,50 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">世界模型的 Scaling Law 会比语言模型更残酷——也更慢</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">自动驾驶、机器人、具身智能都在讲&quot;世界模型&quot;的故事。但物理世界的 Scaling Law 和文本世界完全不同：数据更贵，反馈更慢，安全要求更高，而且每个垂直场景都有自己的数据壁垒。Momenta 的招股书恰好提供了一个观察窗口。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">过去几年，AI 行业的主线是大语言模型。我们关心参数量、token 消耗、上下文窗口、推理能力。核心议题只有一个：机器到底能不能理解语言，在符号世界里实现推理。</p>
+<p style="margin:0.8em 0">到了 2026 年，一个新叙事正在被打开。AI 不能只活在数字世界，它要进入物理世界——开车、搬箱子、操作机械臂、理解空间几何、预测碰撞。于是&quot;世界模型&quot;成了新的关键词。</p>
+<p style="margin:0.8em 0">但一个根本问题悬而未决：大语言模型靠一个极其简单的范式——预测下一个 token——就实现了能力的规模增长甚至涌现。物理世界有没有类似的路径？世界模型会不会就是物理 AI 的&quot;GPT&quot;？</p>
+<p style="margin:0.8em 0">屠龙之术的主播庄明浩在最新一期节目里给出了一个谨慎的回答：<strong style="font-weight:600">有，但不是复制。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三个信号</h2>
+<p style="margin:0.8em 0">庄明浩说他决定做这期节目，是因为三个信号撞到了一起。</p>
+<p style="margin:0.8em 0">第一个：今年 618 期间，影视飓风给天猫拍了一支广告片，标题叫&quot;在 AI 里抛硬币，概率是 50% 吗？&quot;他们做了上百次实验，发现抛硬币正面的概率是 70% 多——不是 50%。这个偏差来自训练数据的分布和后训练中的人类偏好。一支面向大众的电商广告在讲世界模型的数据偏差问题——这意味着这个词已经出圈了。</p>
+<p style="margin:0.8em 0">第二个：庄明浩四月份发了一条推文，说红杉、IDG、高瓴这些主流基金的合伙人层面，可能有七八条线同时在看七八个世界模型项目。这意味着资本已经在密集布局。</p>
+<p style="margin:0.8em 0">第三个，也是最有分析价值的一个：Momenta 通过港交所聆讯，招股书公开。一家自动驾驶公司如何理解世界模型，如何在招股书里定义自己的飞轮——这提供了一个真实的商业样本。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Momenta 的飞轮：世界模型的商业样本</h2>
+<p style="margin:0.8em 0">庄明浩在节目里反复提及 Momenta——但仔细读他的分析，他不是在给 Momenta 唱赞歌，而是在用它回答一个更根本的问题：为什么自动驾驶公司在这一波世界模型浪潮里是最重要的角色之一？</p>
+<p style="margin:0.8em 0">Momenta 的飞轮逻辑被写在它的文化衫上：一个飞轮两条腿。一条腿是量产自动驾驶——跟车企合作，规模化部署，带来收入，同时产生真实世界的驾驶数据。另一条腿是完全无人驾驶——Robotaxi，用数据训练更高级的模型。两条腿互相加速。</p>
+<p style="margin:0.8em 0">庄明浩的切入角度不是&quot;Momenta 技术多强&quot;，而是：<strong style="font-weight:600">这是行业里非常少有的把数据商业化、工程部署、强化学习和世界模型的整个叙事组合在一起的样本。</strong> 它不是纯 lab，不是纯 demo——它已经在路上跑了。</p>
+<p style="margin:0.8em 0">招股书的基石投资者名单也很有说服力：富达（重仓过宁德时代）、贝莱德（全球最大资管）、腾讯、阿里、比亚迪、橡树资本（霍华德·马克思）、富兰克林邓普顿。这批钱的共识不是&quot;世界模型是未来&quot;——那太便宜了——而是&quot;Momenta 是自动驾驶这个高价值垂直场景里最接近建立飞轮的一家。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Scaling Law 存在，但不是同一个物种</h2>
+<p style="margin:0.8em 0">节目的核心问题：世界模型有没有 Scaling Law？</p>
+<p style="margin:0.8em 0">庄明浩的答案分两层。</p>
+<p style="margin:0.8em 0">第一层：<strong style="font-weight:600">有。</strong> 方向已经很清楚，能力在很多细分场景里已经出现，资本下了重注。这大概相当于 GPT-2 左右的时刻——方向对了，但离 GPT-3（曙光）还有距离，离 GPT-3.5（ChatGPT 时刻）更远。</p>
+<p style="margin:0.8em 0">第二层：<strong style="font-weight:600">但它不是语言模型 Scaling Law 的复制。</strong> 语言模型的 Scaling Law 是低摩擦的——数据是文本，文本到处都是；反馈是即时的——预测下一个 token，对了就是对了。物理世界的 Scaling Law 是高摩擦的：数据来自真实世界的传感器（车上的摄像头、激光雷达），昂贵且获取慢；反馈不是即时的（一趟路跑下来才知道结果）；安全要求极高（语言模型说错一句话无所谓，世界模型搞错一个判断可能出事故）。</p>
+<p style="margin:0.8em 0">而且每个垂直场景都有自己的数据壁垒。自动驾驶的数据、机器人的数据、工业仿真的数据、游戏世界的数据——彼此不通用。<strong style="font-weight:600">&quot;物理世界可能不会像语言模型那样，由少数几个模型公司垄断。&quot;</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三大学派的路线分野</h2>
+<p style="margin:0.8em 0">节目梳理了世界模型领域最头部的三大学派，各有各的主张。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Yann LeCun 的 JEPA 派</strong>：模型不生成像素，在潜在空间里预测状态变迁。优势是计算效率高、泛化性强，劣势是可解释性差。这是最激进的一条路线。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Demis Hassabis / DeepMind 的渐进派</strong>：基于多模态 + 强化学习，保留大语言模型的底层架构，叠加视觉空间感知。相对务实，Genie 3 的演示已经出现了一些好效果。这是看起来最接近落地的一条。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">李飞飞 / World Labs 的 3D 空间表征派</strong>：强调三维空间的理解和重建。可能最先在游戏开发、虚拟世界、影视内容这些容错率更高的场景找到价值。</p>
+<p style="margin:0.8em 0">庄明浩没有评判谁对谁错——而是指出了一个关键的判断依据：<strong style="font-weight:600">三线正在合一。</strong> 渲染、模拟、规划三条线边界在消失。理想中的世界模型应该能同时做到这三件事——看到一个杯子，能渲染它的样子，模拟它倒下的物理过程，规划怎么把它拿起来。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">GPT 时刻还没来</h2>
+<p style="margin:0.8em 0">&quot;ChatGPT 时刻&quot;需要四个条件：大众用户有直接感知、产品门槛极低、通用性足够强、产业链各层级开始爆发。</p>
+<p style="margin:0.8em 0">世界模型一个都没达到。&quot;大众现在看到的更多是一些很酷的视频——像北京亦庄马拉松这种演示和宣传片。但还没有一个像 ChatGPT 那样人人可用、人人震撼的产品。&quot;</p>
+<p style="margin:0.8em 0">更重要的是，物理世界不允许&quot;差不多&quot;。预测下一个 token 是有概率的——错了就错了。但物理世界里，一点点闪失可能就是事故。</p>
+<p style="margin:0.8em 0">庄明浩最后的判断是：世界模型还没有到 GPT 时刻，但它可能正在经历类似 GPT-2 左右的时间点。方向清楚，能力在细分场景里显现，资本下了重注。接下来要看的不是谁的 demo 强，是<strong style="font-weight:600">谁能把整个飞轮转起来。谁能把模型真的放到真实世界里，在安全、成本、性能、商业化之间找到稳定的平衡点。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">节目结尾有一句话值得反复读：&quot;大语言模型让机器理解了人类如何描述世界。世界模型在做的事情，是让机器理解世界本身到底是如何运行的。&quot;</p>
+<p style="margin:0.8em 0">从语言到世界，AI 的下一段路才刚刚开始。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">带走这几点：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">世界模型有 Scaling Law，但它是&quot;高摩擦版本&quot;——数据更贵（真实传感器）、反馈更慢（一趟路跑完才知道）、安全要求更高（错了可能出事故）</li>
+<li style="margin:0.3em 0">Momenta 是目前最接近把&quot;数据商业化 + 工程部署 + 强化学习 + 世界模型&quot;整条叙事跑通的样本，它的招股书提供了一个真实观察窗口</li>
+<li style="margin:0.3em 0">三大学派路线分野（LeCun/JEPA、Hassabis/渐进、李飞飞/3D空间）正在趋同——渲染、模拟、规划三线合一将定义机器智能与物理世界的关系</li>
+<li style="margin:0.3em 0">物理世界可能不会像语言模型那样被少数公司垄断——自动驾驶、机器人、工业仿真各自有数据壁垒，垂直场景的飞轮各转各的</li>
+<li style="margin:0.3em 0">GPT 时刻还没来。当前大约处于 GPT-2 阶段：方向对了，资本下了重注，但离&quot;人人可用、人人震撼&quot;的产品还有距离</li>
+<li style="margin:0.3em 0">接下来的核心问题不是谁的 demo 强——是谁能在安全、成本、性能、商业化之间找到平衡点，把飞轮真正转起来</li>
+</ul>
+
+</div>

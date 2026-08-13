@@ -1,0 +1,22 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🔴 <strong style="font-weight:600">雪球登录已过期 — 需要手动重新登录</strong></p>
+<p style="margin:0.8em 0">fetch 脚本检测到 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">login_required</code>，自动登录尝试被雪球 WAF 拒绝（阿里云 WAF 拦截了自动化生成的 cookie）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">已执行操作：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">自动填密登录尝试 → WAF 拒绝（返回 aliyun_waf 挑战页）</li>
+<li style="margin:0.3em 0">Chrome 浏览器已自动打开（用户未登录，120s 超时）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">请手动执行以下命令完成登录：</strong></p>
+<pre style="margin:0.8em 0"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python3 ~/.hermes/scripts/setup_xueqiu_login.py
+</code></pre>
+<p style="margin:0.8em 0">在打开的 Chrome 中完成账号密码 + 验证码登录，Cookie 自动保存后下次 cron 将恢复正常。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">📊 本次执行摘要：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">关注用户：29 人（缓存）</li>
+<li style="margin:0.3em 0">旧快照：64 条（2026-07-12）</li>
+<li style="margin:0.3em 0">新增帖子：0 条（登录失败）</li>
+<li style="margin:0.3em 0">登录状态：🔴 需要手动登录</li>
+</ul>
+
+</div>

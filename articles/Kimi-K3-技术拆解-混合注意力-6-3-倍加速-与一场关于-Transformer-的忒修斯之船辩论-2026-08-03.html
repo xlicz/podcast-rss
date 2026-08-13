@@ -1,0 +1,44 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 技术拆解：混合注意力、6.3 倍加速，与一场关于 Transformer 的忒修斯之船辩论</h1>
+<p style="margin:0.8em 0">副标题：3T 开放权重模型凭什么冲击 Anthropic 的估值？拆开 47 页技术报告，答案在架构、工程与开源之争的三条线里</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">&quot;这个世界上不存在老老实实做 Transformer 这回事。&quot;</p>
+<p style="margin:0.8em 0">Kimi K3 的 47 页技术报告发布后，硅谷再次被中国开源模型引爆。晚点聊请来两位嘉宾拆解：Radix Ark 创始成员、SGLang 核心贡献者赵晨阳（infra 线），和华盛顿大学博士生曾志远（算法线）。他们的结论惊人一致：K3 的每一块&quot;船板&quot;都换了——注意力是线性的，残差是深度方向的，FFN 是稀疏专家，连位置编码都几乎删掉了。</p>
+<p style="margin:0.8em 0">但船名没变。这艘船叫 Transformer。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">忒修斯之船：attention 是 AI 研究里换过最多部件的船</h2>
+<p style="margin:0.8em 0">曾志远用忒修斯之船概括这几年的架构演进：船板换过、甲板换过、龙骨都换过，但船名就是没变。</p>
+<p style="margin:0.8em 0">K3 的注意力架构是&quot;KDA 线性注意力 + MLA 全局注意力&quot;的混合，每个 block 是三层 KDA 加一层 Gated MLA 的 3:1 配置，backbone 最后还有额外一层 MLA——总计 69 层 KDA 加 24 层 MLA。KDA 负责提供位置敏感的序列信息（靠递推门控和衰减），MLA 提供不受限的全局交互。</p>
+<p style="margin:0.8em 0">更激进的是位置编码：<strong style="font-weight:600">K3 的 MLA 层完全不用位置编码</strong>，位置信息全靠 KDA 的递推门控与衰减来提供。这意味着扩展到百万 token 时，不需要重调 RoPE 频率、不需要像 Yarn 那样专门做插值，外推自然流畅。</p>
+<p style="margin:0.8em 0">对 K3 最大的启发，赵晨阳说，是&quot;我们不需要把 attention 和 linear attention 理解成二选一的关系&quot;。线性注意力证明了自己在 2.8T 主模型上的有效性（K3 是 3T 规模），混合架构是明确有前景的方向。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">6.3 倍解码加速：54MB 对 27GB 的算术</h2>
+<p style="margin:0.8em 0">为什么混合架构快？赵晨阳给了非常直观的工程数字。</p>
+<p style="margin:0.8em 0">解码阶段每吐一个 token，模型必须把请求的全部历史上下文读一遍。全注意力架构的历史是 KV Cache，随上下文长度线性增长——100 万 token 的 KV Cache 长度近乎 1 万 token 的一百倍。线性注意力则把历史压缩进一个固定大小的 recurrent state：100 万 token 和 1000 token 的 state 几乎一样大。</p>
+<p style="margin:0.8em 0">SGLang 团队为 K3 设计的推理栈中：69 层 KDA 给一个请求分配的历史信息基本固定在 54MB，不论长短；24 层 MLA 是全局注意力，百万上下文长度下每 token 额外分配约 27GB。加起来是&quot;54MB 加 27GB&quot;的组合——但如果前面 69 层也是全注意力，就不是 54MB，而是额外几十 GB。</p>
+<p style="margin:0.8em 0">存储的节省直接反映到 KV Cache 搬运成本上，最终让推理速度快了 6.3 倍。这个数字来自更早的 TMELinear 论文（同规模下线性为主的混合架构 vs 全注意力，在百万 token 全上下文量级），并非 K3 报告中的严谨值，但足以说明架构层面的量级差异。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">工程上的真问题：前缀缓存与异构架构</h2>
+<p style="margin:0.8em 0">架构激进，工程就要买单。赵晨阳团队花了很大精力，把线性注意力需要的 recurrent state 纳入已有的 prefix cache 体系，让 K3 这种 hybrid 模型的前缀复用达到和全注意力模型一样的通用性。</p>
+<p style="margin:0.8em 0">&quot;长期来看，线性注意力和稀疏注意力的兼容性差，可以逐渐被工程弥补——代价是我们的抽象会比以前更复杂。&quot;</p>
+<p style="margin:0.8em 0">这正是他在访谈里反复强调的判断：<strong style="font-weight:600">任何能在百万上下文水平把成本压下来的架构，大概率都是异构的。</strong> 异构架构对推理框架意味着必须同时维护多种形态和生命周期的 Tensor 抽象——这是 SGLang 这类框架的持续工程考验，也是这类团队的价值所在。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源大辩论：开放权重动了谁的估值？</h2>
+<p style="margin:0.8em 0">K3 在美国 AI 界和投资市场引起的关注，不只是技术层面的。赵晨阳转述了一个观察：<strong style="font-weight:600">Frontier Lab 的一些普通打工人确实认为，开源权重能力上涨对闭源实验室的估值有潜在影响。</strong></p>
+<p style="margin:0.8em 0">逻辑链条很直接：未来很多公司可能不愿意把自己的数据发给 Anthropic 或 OpenAI 这样的第三方。数据是闭源模型护城河的一部分，而开源权重正在让&quot;自己掌控模型&quot;变得可行——K3 开放的不只是 3T 权重，还是一种替代闭源的选择权。</p>
+<p style="margin:0.8em 0">这引出了更深一层的问题：开源模型真正开放了什么，又保留了什么？</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">权重是一次训练的产物，流水线才是真正的资产</h2>
+<p style="margin:0.8em 0">曾志远在算法线上给出的判断值得单独拎出来：<strong style="font-weight:600">权重是一次训练的产物，但环境是能够反复复用、并产生出下一代权重的流水线。</strong></p>
+<p style="margin:0.8em 0">&quot;我们得到了 K3 的权重，但全世界仍旧没有得到怎么造出下一代智能模型的这条流水线。&quot;</p>
+<p style="margin:0.8em 0">K3 的智能体训练环境相关进展，指向的正是这条流水线：不是某个模型参数，而是让模型在环境中持续进化、不断产生下一代权重的机制。这也解释了为什么 K3 引发的争论远超技术本身——它触及的是&quot;下一代智能模型由谁、以什么方式制造&quot;的分配问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">船还能换多少块板？</h2>
+<p style="margin:0.8em 0">回看 K3 的履历：从 Kimi Neural 这个 38B 小模型上的注意力改进起步，Scale 到 3T 规模——KDA 里的 D 就是 Delta 的意思，源于 Delta Net 的线性注意力优化。业界第一次在大规模模型上大胆用线性注意力的是 MiniMax M1（2025 年初），如今 K3 把这条路走成了主流架构选项。</p>
+<p style="margin:0.8em 0">Attention 机制服务于一个从未改变的目标：上下文越来越长时，计算和存储开销不爆炸。每一代&quot;换船板&quot;都在朝这个方向逼近。</p>
+<p style="margin:0.8em 0">忒修斯之船的哲学问题——所有部件都被替换后它还是原来的船吗——在工程上有个实用主义的答案：只要这艘船还在以越来越低的成本、越来越长的上下文航行，它叫什么名字不重要。K3 证明了线性与全局的混合不是退路，而是方向；真正稀缺的，从来不是某一代权重，而是能持续造出下一代权重的流水线。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">K3 是&quot;换遍船板&quot;的 Transformer</strong>：3:1 混合的 KDA 线性注意力 + MLA 全局注意力、稀疏专家 FFN、删除位置编码——混合架构优于二选一</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">6.3 倍加速来自存储算术</strong>：69 层 KDA 的历史 state 固定 54MB，24 层 MLA 在百万上下文约 27GB，全注意力则是几十 GB——KV Cache 搬运成本决定了解码速度</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">删除位置编码是激进但成功的赌注</strong>：位置信息全靠 KDA 递推门控与衰减提供，百万 token 外推无需插值</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源权重的真实冲击在数据侧</strong>：公司不愿再把数据交给闭源第三方，开源权重给了模型自主权——这是 Frontier Lab 员工担心估值被影响的原因</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">权重会过时，流水线才是资产</strong>：K3 给出了一代权重，但&quot;能反复复用、产生下一代权重的智能体训练环境&quot;才是全世界还没得到的东西</li>
+</ul>
+
+</div>

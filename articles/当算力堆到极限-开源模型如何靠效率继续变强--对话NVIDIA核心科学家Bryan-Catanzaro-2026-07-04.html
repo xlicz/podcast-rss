@@ -1,0 +1,78 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当算力堆到极限，开源模型如何靠效率继续变强——对话NVIDIA核心科学家Bryan Catanzaro</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NVIDIA应用深度学习研究副总裁谈混合架构、四位精度训练，以及为什么&quot;外部大脑&quot;的影响可能比农业还深远。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">你玩过支持DLSS的游戏吗？屏幕上每24个像素里，有23个不是显卡&quot;算&quot;出来的，而是AI模型&quot;猜&quot;出来的。十倍的效率提升，让一块中端GPU跑出了旗舰卡的画面。</p>
+<p style="margin:0.8em 0">发明这项技术的人叫Bryan Catanzaro，NVIDIA应用深度学习研究副总裁。他还有一个更少为人知但同样重要的身份：Nemotron开源模型家族的总负责人。几周前，Nemotron 3 Ultra刚发布就成了美国排名第一的开放权重模型。</p>
+<p style="margin:0.8em 0">在最新一期 <em>The Mad Podcast</em> 里，Catanzaro和主持人Matt Turck进行了一场信息密度极高的对话。我们从中提炼出了几条核心判断，关于开源AI的竞争力、模型架构的工程选择，以及一个现代AI研究机构到底是怎么运转的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">摩尔定律死了，效率就是新的算力</h2>
+<p style="margin:0.8em 0">Catanzaro说了一句值得反复琢磨的话：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;如果你接受我们会在极限上运行这个前提，那意味着要获得更多智能就得提高效率。如果已经在极限上了，靠加力是得不到更多智能的。我们必须更用心地思考怎么用好手头的东西。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他说的&quot;极限&quot;不是什么哲学隐喻，而是每天都在发生的现实。摩尔定律——每24个月在同一块芯片上塞进两倍晶体管而成本不变——已经死了五到十年了。晶体管确实还在变小，但成本曲线已经翻转：缩小工艺不再带来经济效益。</p>
+<p style="margin:0.8em 0">在这个前提下，继续靠堆算力获得智能增长的路径已经走不通了。NVIDIA对这个问题的回答是：从芯片到算法的全栈效率优化。不是某一层的修修补补，而是从晶体管的物理极限出发，重新设计数字格式、模型架构、训练方法和推理策略。</p>
+<p style="margin:0.8em 0">这也是为什么Nemotron选择了四位精度（NVFP4）做预训练——不是部署时量化，而是从训练第一天就用4-bit。四位意味着只有16个可能的值，信息的粗糙程度像是一张被严重色调分离的照片。在这种精度下让模型收敛到SOTA水平，难度不亚于在流沙上建一座教堂。</p>
+<p style="margin:0.8em 0">&quot;我们花了大量心血才搞定这件事。&quot;Catanzaro说。成本端的回报也很直接：四位格式在内存中占的空间更小，搬运消耗的能耗更低，计算时的电力开销也更少。在已经触及物理极限的世界里，节省下来的每一瓦特都等于多出来的一点智能。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">NVIDIA为什么做开源模型？两个不能明说的理由</h2>
+<p style="margin:0.8em 0">这个问题Catanzaro大概被问过一百遍了。一家卖GPU的公司，为什么要花几亿美元训练自己的大模型，再免费开放给所有人用？</p>
+<p style="margin:0.8em 0">他的回答出奇地坦诚，而且把NVIDIA的商业逻辑讲得比任何官方声明都更清楚。</p>
+<p style="margin:0.8em 0">第一个理由是<strong style="font-weight:600">理解</strong>。NVIDIA本质上是一家加速计算公司，它的核心产品不是GPU硬件本身，而是从芯片到编译器的全栈系统。在摩尔定律已死的时代，要持续提供有意义的加速，唯一的办法是从第一性原理出发，理解AI的每一个环节——从晶体管上的数据格式，到顶层算法的收敛行为。Nemotron是这个理解过程的载体。没有它，NVIDIA就不可能正确地设计Blackwell，也不可能正确的设计下一代的系统。</p>
+<p style="margin:0.8em 0">第二个理由是<strong style="font-weight:600">生态</strong>。&quot;每当AI得到进一步发展和部署，对我们来说都是商业机会。&quot;这句话Catanzaro说得轻描淡写，但它解释了一切。NVIDIA不靠卖模型赚钱，它靠的是全世界有更多的人用AI——不管用的是谁家的模型。Nemotron的角色不是成为唯一的开源选择，而是确保开源生态不萎缩，确保各种规模的公司依然能构建和部署自己的AI。</p>
+<p style="margin:0.8em 0">所以当有人问&quot;开源和闭源差距还剩多远&quot;时，Catanzaro的回答不是&quot;快追上了&quot;或&quot;还差得远&quot;，而是另一个维度：整个AI领域都在以惊人的速度前进，光过去三个月的进展就已经令人瞠目。身处这样一个高速发展的领域，模型之间那点差距远不如整个领域的进化速度重要。</p>
+<p style="margin:0.8em 0">他有资格这么冷静。2008年他在ICML上发表第一篇GPU训练模型的论文时，台下的数学教授们面面相觑——&quot;GPU不是打游戏用的吗？&quot;18年后，他站在NVIDIA内部十个团队的交叉点上，管理着一个让中国开源社区都愿意用其数据集来训练自己模型的生态项目。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">混合架构不是炫技，是工程选择的必然</h2>
+<p style="margin:0.8em 0">Nemotron 3的架构可以用一句话概括：混合了Transformer、状态空间模型（SSM）和混合专家（MoE），用四位精度做预训练，支持一百万token上下文，通过multi-token prediction获得推理加速。</p>
+<p style="margin:0.8em 0">每一项选择背后都有扎实的工程判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">混合SSM和Transformer</strong>这件事，Catanzaro团队在2024年就发了论文证明了它的效果。核心直觉是：状态空间模型擅长直觉式、印象式的序列理解——它在每一步都把整个序列压缩进一个固定大小的缓存，这个约束反而让它在全局理解上表现更聪明。而full attention的优势在于能精准提取特定信息，毫无损失。</p>
+<p style="margin:0.8em 0">&quot;以SSM为主，只加一点点attention，困惑度最低。&quot;这个结论已经被多家实验室验证，包括Qwen和Kimi。</p>
+<p style="margin:0.8em 0">**混合专家（MoE）**则是另一种稀疏化策略。训练时模型&quot;吃下&quot;整个互联网的知识，但回答一个具体问题时，不需要把所有神经元都激活。每一层有一个学出来的路由器，为每个token动态选择激活哪些专家。Catanzaro用了一个很形象的比喻：&quot;你进了图书馆做研究，第一件事不是把所有书都读一遍，而是搞清楚该看哪几本。&quot;</p>
+<p style="margin:0.8em 0">Nemotron 3 Ultra背后一个关键创新叫&quot;隐式MoE&quot;：通过降维投影，把路由过程中需要跨GPU传输的通信量大幅压缩，在同样推理成本下获得四倍专家数量。这个创新直接跟Blackwell的NVL72设计有关——72块GPU以极低延迟互相读写内存，就是为了让MoE模型的token路由可以动态地跨GPU跳转。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Multi-Token Prediction：越准越快</h2>
+<p style="margin:0.8em 0">这是一个反直觉的设计：在低batch size推理场景下，GPU的大部分时间其实不是在算数学，而是在从显存里搬权重。把两个甚至五个token推过同一批权重，花的时间基本一样。</p>
+<p style="margin:0.8em 0">Multi-token prediction利用了这个特性：让模型一次预测多个token，下一轮跑模型时再验证上轮多猜的那几个对不对。接受率越高，加速效果越好。完全不损失准确率——所有推测出来的token都会在下一轮被模型自己复核。</p>
+<p style="margin:0.8em 0">&quot;模型越准，推理就越快，越便宜，同时也越准确。&quot;Catanzaro说，&quot;通常事情不是这样运作的，但在这里就是这样。&quot;</p>
+<p style="margin:0.8em 0">这也就是为什么NVIDIA必须亲自下场做模型。如果multi-token prediction能让推理成本降低三倍，而推理是2026年最重要的计算负载，那NVIDIA就必须深入理解这个技术的每一个细节——因为这直接决定它的芯片能卖出多少。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">如何让500人协作而不是写100篇论文</h2>
+<p style="margin:0.8em 0">这是整场对话里最有组织智慧的部分。</p>
+<p style="margin:0.8em 0">Nemotron的构建团队横跨NVIDIA内部大约十个部门，从GPU硬件设计团队到企业软件团队，从AI软件部门到Catanzaro自己的应用研究实验室。没有一个人能靠组织架构图来指挥这些团队。他们的口号是&quot;任务是老板，不是组织架构&quot;。</p>
+<p style="margin:0.8em 0">实际操作上，他们建了一个内部网站，任何人都可以提交想法。25位不同领域的负责人分别审查这些想法，有些进入下一步开发，有些推迟到下一版模型。每两周一个周期，各项目群提交算力需求，按层级审批分配。</p>
+<p style="margin:0.8em 0">听起来井井有条，但Catanzaro坦承这非常难。&quot;做算力分配决策很难，因为每个研究员都坚信，只要给自己的idea配上一千倍的GPU，它就能改变世界。而且他们可能是对的。&quot;</p>
+<p style="margin:0.8em 0">他的解决方案是&quot;自举&quot;：先做点小的，拿到信号证明这是个好主意，然后再多要一点资源。迭代、迭代、再迭代。&quot;一旦你的研究idea明显很好、很有影响力，拿到资源就很容易。但你怎么在没有资源的情况下让它变得明显很好？这就是鸡和蛋的问题。自举是唯一的解法。&quot;</p>
+<p style="margin:0.8em 0">Multi-teacher distillation也在解决协作问题。当你分头让五百个人优化模型的不同能力——有人做数学，有人做编程，有人做Agent工作流——怎么避免变成拉锯战？答案是让每个领域先做出最强的教师模型，然后用强化学习让学生在每一项上都逼近教师。每个token都被教师监督，学习效率极高，更重要的是：没有人觉得自己的工作被牺牲了。</p>
+<p style="margin:0.8em 0">&quot;那些能摸索出如何协作来构建AI的组织会成功。而那些在'谁拥有AI'这个问题上纠结于控制权的组织，往往会浪费大量精力。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">奇点没那么近</h2>
+<p style="margin:0.8em 0">谈到技术远景时，Catanzaro出人意料地冷静。他明确说自己不太认同奇点理论。不是因为他不相信AI的进步速度——他比绝大多数人都更清楚这个速度——而是因为他对&quot;智能&quot;的理解更复杂。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;智能的维度实在太多了。找下一任CEO时你会找一个国际数学奥林匹克竞赛冠军吗？大概不会吧。这些人真的很厉害，但他们那种才华不是管理一家公司所需要的那种。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他又举了音乐人的例子：成为热门音乐人需要什么样的智能？别以为那全是运气，这些人非常努力，而且他们聪明的方式可能是一个PhD都理解不了的。</p>
+<p style="margin:0.8em 0">&quot;纯粹的智能有点像发动机的马力。但一台没有轮子的发动机，光在那儿转，哪儿也去不了。智能的影响力很大程度上取决于它被放在什么环境里。&quot;</p>
+<p style="margin:0.8em 0">这番话从一个在最前沿构建AI的人嘴里说出来，比从任何批评者那里听到都有分量。这不是在低估AI，而是在提醒：真正重要的是智能与环境的结合。而这个结合的过程，远比训练一个更大的模型复杂。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">外部大脑</h2>
+<p style="margin:0.8em 0">对话的结尾，Catanzaro抛出了一个让人愣一下的类比。</p>
+<p style="margin:0.8em 0">人类早就在制造&quot;外部器官&quot;了。厨房是我们的外部胃——没有它，我们能吃的食物种类会少得多。外部胃催生了农业，农业催生了有组织的社会，改变了城市的建造方式。</p>
+<p style="margin:0.8em 0">现在，我们在创造外部大脑。</p>
+<p style="margin:0.8em 0">&quot;外部大脑意味着什么？影响相当深远。其实没人真正知道。&quot;</p>
+<p style="margin:0.8em 0">但他相信两件事。第一，人类有学习和改变的能力，我们过去就适应过比这更大的变化。第二，这个星球上所有的问题——不平等、气候变化、那些结构性的困境——本质上都是智能问题。&quot;我们未来能真正创造出来的唯一工具就是AI。因为不管用什么技术手段去解决，这些解决方案最终都会被叫做AI。&quot;</p>
+<p style="margin:0.8em 0">关于安全，他的立场在今天的AI圈子里算是少数派：他认为开源天生更安全。&quot;阳光更充足。当有更多人思考一项技术的安全性，评估它，并为让它更安全做出贡献时，这比让一小群人替所有人负责安全要更安全。&quot;他引用了几个世纪以来的信仰自由和言论自由传统——多样性不是关于那些容易的事，而是关于那些困难的事，关于人们深切地、完全无法认同彼此时，还能以多元的方式探索各自的想法。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的几点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">效率是新的算力</strong>。摩尔定律已死，获得更多智能的唯一路径是提高效率——从四位精度预训练到混合架构，每一项创新都是在同一瓦特预算里多挤一点智能。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">NVIDIA做开源模型的逻辑是自洽的</strong>。不是为了抢占模型市场，而是为了理解AI以设计更好的芯片，以及确保生态繁荣（任何AI部署都是NVIDIA的商业机会）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">混合架构不是炫技</strong>。SSM做全局直觉理解，Transformer做精准信息提取，MoE做稀疏激活。这不是堆砌技术，而是对计算和智能本质的工程回应。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">组织设计决定了模型的上限</strong>。十个团队、二十五位领域负责人、两周算力周期、内部想法提交平台——让500人协作建一个模型，比让500人写100篇论文难得多。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">智能的维度远超语言模型的指标</strong>。发动机再强也需要轮子。Catanzaro是少数既有能力又愿意说&quot;奇点没那么近&quot;的前沿研究者。</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>本期对话来自 The Mad Podcast with Matt Turck，2026年7月。嘉宾Bryan Catanzaro是NVIDIA应用深度学习研究副总裁，领导Nemotron开源模型家族，曾共同发明DLSS技术。</em></p>
+
+</div>

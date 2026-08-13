@@ -1,0 +1,70 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">摩尔定律死了，所以 NVIDIA 必须自己造 AI——对话 Bryan Catanzaro</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NVIDIA 应用深度学习研究副总裁详解：GPU 巨头为什么要烧钱做开源大模型，以及一个 500 人研究团队如何不靠组织架构图运转。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">NVIDIA 内部大约有十个团队深度参与了 Nemotron——他们最前沿的开源大模型。这些团队分散在 GPU 设计部门、企业软件部门、AI 软件部门，甚至包括那些真正画晶体管的人。</p>
+<p style="margin:0.8em 0">为什么一家卖 GPU 的公司要养几百个 AI 研究员去造大模型，还免费开放？</p>
+<p style="margin:0.8em 0">Bryan Catanzaro 的答案直接到让人意外：<strong style="font-weight:600">因为摩尔定律死了，不造 AI 就不知道怎么造下一代 GPU。</strong></p>
+<p style="margin:0.8em 0">Catanzaro 是 NVIDIA 应用深度学习研究副总裁。他在 2008 年加入 NVIDIA 时，整个行业还在嘲笑 GPU 做 AI 是歪门邪道。后来他共同创建了 CUDA、发明了 DLSS，还在百度硅谷 AI 实验室和吴恩达、Dario Amodei 共事过两年半。现在他领导的团队构建了 Nemotron 3 Ultra——发布当天就成为美国排名第一的开放权重模型。</p>
+<p style="margin:0.8em 0">在和风险投资家 Matt Turck 的这场对谈里，Catanzaro 拆解了 Nemotron 背后的技术决策、NVIDIA 非典型的研究组织方式，以及他对 &quot;奇点理论&quot; 为什么是错误的判断。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">造 AI 是为了造更好的 GPU</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;摩尔定律已经死了好几年了。在晶体管密度不再每两年翻倍的时代，你必须更聪明地利用系统的每一个部分——从晶体管到算法再到应用，全栈协同设计。Nemotron 的第一个任务就是帮 NVIDIA 理解怎么构建未来的系统。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">这就是 Nemotron 存在的第一性原理。</p>
+<p style="margin:0.8em 0">过去，芯片公司只需要把上一代设计缩小就能获得性能和经济效益。但现在这条路走不通了。你必须在芯片设计时就理解 AI 模型会怎么跑——MoE 的路由模式会怎样在 GPU 之间传输 token？多 token 预测怎样利用推理时的闲置算力？长上下文窗口对显存带宽意味着什么？</p>
+<p style="margin:0.8em 0">Catanzaro 举了一个具体例子：<strong style="font-weight:600">Blackwell 的 NVL72 架构——能让 72 块 GPU 以极低延迟互相读写内存——就是直接为 MoE 模型设计的。</strong></p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;当你把一个 token 推过 MoE 层时，路由器会动态决定把它发给哪个专家。这件事不可能提前预测，因为完全取决于那个特定模型的特定 token。所以我们打造了 NVL72。如果我们没有一直在深入理解 AI，就不可能把 Blackwell 正确地造出来。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">这就是硬件公司造大模型的真正逻辑：不是多元化，是生存必须。</p>
+<p style="margin:0.8em 0">Nemotron 的第二个任务是<strong style="font-weight:600">生态支持</strong>。Catanzaro 说得相当坦诚：&quot;每当 AI 得到进一步发展和部署，对我们来说都是商业机会。但我们并不想成为这个生态唯一的技术提供商——其他公司做出好模型，我们一样高兴。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 Mamba 到 Implicit MoE：架构创新的聚沙成塔</h2>
+<p style="margin:0.8em 0">Nemotron 3 Ultra 的架构不是单一突破，而是一系列经过验证的创新叠加。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">混合 Mamba-Transformer。</strong> 这是 Nemotron 最底层的一个非共识决策。&quot;状态空间模型（SSM）的优势是推理时不需要存储整个注意力矩阵，把之前的上下文压缩进一个固定大小的缓存里。这个约束反而让它在某些需要全局理解的任务上更聪明。而 Full Attention 的优势在于能精准挑出非常具体的信息，没有任何有损压缩。&quot;Catanzaro 说，把两者结合比单独用任何一种效果都好。现在 Qwen、Kimi 等模型也开始采用类似的混合方案。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Implicit MoE——同样的成本，四倍的专家。</strong> 传统 MoE 的瓶颈在于网络通信：每层路由器要决定把 token 发给哪个专家，这意味着大量数据在 GPU 之间传输。Nemotron 3 引入的 Implicit MoE 是在传输前先对 token 向量做降维投影压缩，到目标 GPU 再解压缩。&quot;在同样的推理成本下，我们能得到四倍的专家数量。相当于图书馆藏书量变大了四倍。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Multi-Token Prediction。</strong> 这是 Catanzaro 最津津乐道的加速计算案例。推理时的大部分时间不是花在做矩阵乘法上，而是花在从显存里读取权重。所以如果一次读出来的权重能被用来预测 2 到 5 个 token 而不是 1 个，速度就上去了。&quot;更妙的是，你获得的速度是模型准确率的函数——模型越准，推理就越快、越便宜、同时也越准确。通常事情不是这样运作的，但在这里就是这样。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Multi-Teacher Online Policy Distillation。</strong> 这既是技术决策，也是组织决策。Nemotron 有 10 到 15 个&quot;教师模型&quot;，各自在科学理解、数学证明、编程、Agent 交互等单一领域推到极致。然后通过强化学习技术训练一个学生模型同时学会所有领域。这让 500 个研究人员的协作成为可能——每个团队可以在自己的方向上极致优化，不需要和其他团队争夺优先级。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">任务才是老板</h2>
+<p style="margin:0.8em 0">NVIDIA 的研究团队不按组织架构图运作，这件事 Catanzaro 反复强调。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;我们有架构图，但那其实不是理解我们工作方式的最佳途径。我的团队不属于 NVIDIA 的官方研究团队——它属于那个制造 GPU 的部门。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">Nemotron 的名字本身就反映了这种跨部门协作的基因：它是由 NeMo（AI 软件）和 Megatron（大模型系统研究）两个团队合并而来的。现在有大约十个团队深度参与，分布在公司的不同角落。</p>
+<p style="margin:0.8em 0">协作机制是一套内部&quot;想法市场&quot;：研究人员在内部网站提交提案，25 位不同领域的负责人进行评估。有些想法会被推进，有些被推迟到下一次模型迭代。&quot;我们努力以一种开放和包容的方式来构建 Nemotron。那些能摸索出如何协作来构建 AI 的组织会成功；而那些在'谁拥有 AI'这个问题上纠结控制权的组织，往往会浪费大量精力。&quot;</p>
+<p style="margin:0.8em 0">算力分配是两周一次的层级审核流程。但 Catanzaro 承认这方面&quot;还能做得更好&quot;——&quot;每个研究员都坚信，只要给自己的 idea 配上一千倍的 GPU，它就能改变世界。而且他们可能是对的。但我们的资源已经用到极限了。&quot;</p>
+<p style="margin:0.8em 0">对于早期研究，NVIDIA 依赖一种 &quot;自举&quot;（bootstrapping）模式：先做点小的，拿到信号证明是个好方向，再争取更多资源。&quot;黄仁勋一直非常明确地说，这是一家由志愿者组成的公司。在做决策时，尤其是早期研究，往往是非常自下而上的。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源更安全——一个有争议的结论</h2>
+<p style="margin:0.8em 0">当被问到对开源的质疑时——&quot;开源模型的进步是不是有一部分靠蒸馏闭源模型？&quot;——Catanzaro 的回应没有回避，但切入角度不同。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;全世界有很多实验室，很多人都有好想法。并不是只有少数几个实验室垄断了所有好想法。这不是事实，也不是人类的运作方式。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他在百度工作过两年半的经历影响了他的判断。&quot;我亲眼看到中国同事有多聪明、多勤奋、多有创造力。说其他国家的成就全靠某种山寨心态，这绝对是错的。&quot;他特别感谢中国 AI 社区&quot;对所构建的东西如此开放&quot;，并直言这让大量公司得以构建出&quot;没有那个社区就做不出来的东西&quot;。</p>
+<p style="margin:0.8em 0">关于 AI 安全，Catanzaro 给出了一个在今天的语境下相当不寻常的立场：<strong style="font-weight:600">开放技术通常更安全，因为阳光更充足。</strong></p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;当有更多人思考一项技术的安全性，评估它，并为让它更安全做出贡献时，这天生就比让一小群人替所有人负责安全要更安全。我们有几百年的传统直接说明了这一点——我们试过建立一种单一文化来规定哪些想法可以安全谈论，结果发现这比多元主义要不安全得多。&quot;</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">外部大脑、奇点和对 AI 的抵制</h2>
+<p style="margin:0.8em 0">对话尾声，Catanzaro 抛出了一个被他称为&quot;不太正统&quot;的观点——他不相信奇点理论。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;智能这东西维度实在太多了。如果一家公司要找下一任 CEO，他会去找一个国际数学奥林匹克竞赛冠军吗？大概不会。纯粹智能有点像发动机的马力——一台没有轮子的发动机，光在那儿转，哪儿也去不了。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他真正的信念凝结在一个比喻里：人类创造了<strong style="font-weight:600">外部胃</strong>（厨房），催生了农业和有组织的社会；现在，我们在创造<strong style="font-weight:600">外部大脑</strong>。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;外部胃对我们这个物种的影响非常深远。那想想看，一个外部大脑的影响会有多大？其实没人真正知道答案。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">但他相信&quot;我们这个星球面临的所有问题都需要更多的智能&quot;——不平等、气候变化、所有让他担忧的结构性问题。&quot;解决这些问题需要发明创造和智能。这意味着我们未来能真正创造出来的唯一工具就是 AI。因为不管你用什么技术手段去解决，这些解决方案最终都会被叫做 AI。&quot;</p>
+<p style="margin:0.8em 0">对于正在形成的公众对 AI 的抵制情绪，他的看法更偏务实而非说教：当 AI 成为日常生活的一部分时，人们就不再把它看作 AI 了。&quot;你用地图导航时，会在意帮你规划路线的是不是 AI 吗？你只是在用工具。&quot;</p>
+<p style="margin:0.8em 0">这篇访谈发布于 2026 年 7 月。彼时 OpenAI 和 Anthropic 的年化收入合计已逼近千亿美元，GLM-5.2 刚用华为昇腾芯片完成训练，中国和美国的开源社区都在以周为单位发布新模型。Catanzaro 的判断——开源不会慢下来，多样性是加速器而非减速器——正在被实时验证。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">带走的核心判断：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">NVIDIA 造大模型的第一驱动力不是做应用，而是必须理解 AI 才能设计下一代 GPU——在摩尔定律已死的时代，这是硬件的生存逻辑</li>
+<li style="margin:0.3em 0">Nemotron 的架构优势来自一系列已验证创新的叠加（Mamba-Transformer 混合、Implicit MoE、Multi-Token Prediction），而非单一突破</li>
+<li style="margin:0.3em 0">500 人跨部门协作靠的不是组织架构图，而是&quot;任务是老板&quot;的文化和一个内部想法市场</li>
+<li style="margin:0.3em 0">开源 AI 的安全性在于阳光和多样性——Catanzaro 的立场与当前美国政策讨论背道而驰，但提供了基于几百年政治实践的历史论证</li>
+<li style="margin:0.3em 0">&quot;外部大脑&quot;是人类演进的下一个阶段——类比厨房催生了农业和文明，AI 将重新定义我们思考、工作和学习的方式</li>
+<li style="margin:0.3em 0">奇点是一个诱人但错误的框架，因为它假设智能只是一维的马力，忽略了平台、环境和具体场景的多样性</li>
+</ul>
+
+</div>

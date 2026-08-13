@@ -1,0 +1,88 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚫 Cookie 过期阻断 — STH_ 每日分析无法执行</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">日期</strong>: 2026-07-21<br />
+<strong style="font-weight:600">状态</strong>: 🔴 阻断 — 需人工干预<br />
+<strong style="font-weight:600">幂等锁</strong>: 未写入（cookie 修复后允许当日重试）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">诊断结果</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">检查项</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">详情</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">CSV RAW</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ STALE</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1625 行, 最新 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-07-12</code>（距今 9 天）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">CSV EDITED</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ STALE</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1625 行, 最新 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-07-12</code>（距今 9 天）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">auto_resume</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">False</code></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">since_date</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 偏早 1 天</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-04-21</code>（cutoff <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-04-22</code>）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Cookie 推断</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🔴 极可能过期</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">雪球 cookie 有效期通常 7-14 天</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">阻断原因</h3>
+<p style="margin:0.8em 0">CSV 最新帖日期 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-07-12</code>，距今 <strong style="font-weight:600">9 天</strong>，超过 SOP 规定的 3 天阈值。若强行下载：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">第 1 页可能返回 → 第 2 页触发 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Error 10022</code>（需登录）</li>
+<li style="margin:0.3em 0">爬虫自动调用 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input()</code> 在 cron 无 stdin → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">EOFError</code></li>
+<li style="margin:0.3em 0">无限重试循环 → <strong style="font-weight:600">600s timeout 白费</strong></li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">恢复步骤（需人工在 macOS GUI 执行）</h3>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler
+source venv/bin/activate
+python download/get_cookie.py
+# → 在弹出的 Chrome 窗口中完成登录 + 验证码
+# → 按 Enter 保存 cookie
+# → 完成后 cron 当日可重试
+</code></pre>
+<p style="margin:0.8em 0">或使用统一脚本：</p>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python ~/.hermes/scripts/setup_xueqiu_login.py
+</code></pre>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">历史参考</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">日期</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">阻断天数</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">修复方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-18</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6 天</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">人工刷新</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">2026-07-21</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">9 天（当前）</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">待人工刷新</strong></td>
+</tr>
+</tbody>
+</table></div>
+
+</div>

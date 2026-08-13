@@ -1,0 +1,42 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">你下载了 50 个 AI 技能，但为什么一个都用不好？</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Matt Pocock 给了一份检查清单——不是让你写更多技能，而是帮你判断哪些技能根本不值得装。</strong></p>
+<p style="margin:0.8em 0">技能地狱（Skill Hell）是 Matt Pocock 发明的一个词。</p>
+<p style="margin:0.8em 0">它是这样一种状态：你的 AI Agent 里塞满了各种技能——有人推荐的就下载，看着有用的就装——但你其实搞不清楚这些零件是怎么拼在一起的。你分不清好技能和坏技能，最后 Agent 的行为和你预期的不一样，而你不知道为什么。</p>
+<p style="margin:0.8em 0">Pocock 对此&quot;有点愧疚&quot;。他的 Total TypeScript Skills 是目前最流行的 AI 工程技能仓库之一。但正是因为流行，反而加剧了这个问题：人们下载了他的技能，却不知道该怎么判断它好不好、怎么根据自己的场景改进它。</p>
+<p style="margin:0.8em 0">他在 AI Engineer World Fair 上给出的答案不是&quot;再多装一个技能就行了&quot;，而是一份检查清单——四个维度，帮你审视任何技能的内部质量。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">触发器：技能的&quot;开关&quot;决定了一半的问题</h2>
+<p style="margin:0.8em 0">Pocock 把技能的调用方式分成两类：用户调用和模型调用。</p>
+<p style="margin:0.8em 0">模型调用意味着技能的描述会一直留在 Agent 的上下文里，Agent 可以自己决定什么时候加载它。这听起来更智能，但有一个隐藏成本：<strong style="font-weight:600">上下文负载</strong>。每增加一个模型可调用技能，Agent 的上下文就多一条描述。如果你装了 100 个技能，每次请求都在消耗 token，同时也给 Agent 增加了决策复杂度——它得多想一件事：&quot;我要不要调用这个技能？&quot;</p>
+<p style="margin:0.8em 0">用户调用技能的代价在另一边：认知负载。用户需要记住自己有什么技能、什么时候该用。Pocock 自己的选择是&quot;更倾向于完全掌控&quot;——他把 Agent 的上下文负载压到最小，但自己承担了更多的记忆成本。</p>
+<p style="margin:0.8em 0">这没有标准答案。但 Pocock 的观点很清楚：<strong style="font-weight:600">你必须意识到自己每一次选择都在往天平的一端加砝码</strong>。什么都不知道的默认行为——全部设成模型调用——通常是最差的选择。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结构：不要把所有东西都塞进一个文件</h2>
+<p style="margin:0.8em 0">技能的内部结构决定了一个技能是&quot;能用&quot;还是&quot;好用&quot;。</p>
+<p style="margin:0.8em 0">Pocock 的核心原则是&quot;分支思维&quot;。一个技能可能有多种使用场景——比如他的 Domain Modeling 技能，有时是做词汇表更新，有时是创建架构决策记录。这两个分支需要的参考资料不一样。如果把它们全部塞进主 skill.md 文件，技能会膨胀得不可维护。</p>
+<p style="margin:0.8em 0">他的做法是&quot;外部参考&quot;：把分支相关的资料放到独立文件里，通过上下文指针在主文件中引用。&quot;如果你只需要这个分支下的资料，Agent 会自己去那个文件取。&quot;这样主文件保持精炼，分支资料各司其职。</p>
+<p style="margin:0.8em 0">一个反例是&quot;所有人都往上加东西&quot;的共享文档——每个人都往里面塞自己的内容，没人去删改别人的，最后积累了大量冗余沉积。Pocock 管这叫&quot;cruft accumulation&quot;。它的症状很明显：技能越来越长，但新增的内容只和某些特定场景有关，对大多数使用场景是噪音。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">引导：最好的技能是用几个词改变 Agent 的行为</h2>
+<p style="margin:0.8em 0">这可能是整场演讲里最实用的技巧。</p>
+<p style="margin:0.8em 0">Pocock 发现了一个现象：Agent 写代码有一种&quot;层层堆叠&quot;的倾向——先把数据库层写完，再写所有 schema，再写 API 端点，最后写前端。人类不会这么干。人类会先做一个&quot;垂直切片&quot;——实现一个小功能的全链路，验证可行，再扩展。</p>
+<p style="margin:0.8em 0">他的解法不是写一大段指令告诉 Agent&quot;不要一层一层写&quot;，而是在技能里嵌入引导词：<strong style="font-weight:600">vertical slice</strong>。</p>
+<p style="margin:0.8em 0">&quot;垂直切片&quot;是一个在软件开发领域足够知名的术语，触发 Agent 的先验知识后，它的行为会自然改变。Pocock 说，你会在 Agent 的推理轨迹里看到它写&quot;好，我们要把它做成一个薄的垂直切片&quot;——然后你就能得到更好的实现计划。</p>
+<p style="margin:0.8em 0">另一个引导技巧是&quot;隐藏后续步骤&quot;。他发现 Agent 在&quot;计划模式&quot;里永远做不够基础工作——它看到最终目标是创建计划，就只在澄清性问题上象征性地花一点时间，然后着急去写计划了。他的解决方案是把&quot;问澄清性问题&quot;拆成一个独立技能。Agent 一次只能看到一个步骤，不知道后面还有计划要写——它就会在当前步骤上投入更充分的基础工作量。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这个技巧的效果是——通过隐藏未来的目标来增加当前步骤的基础工作量。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">剪枝：大部分技能里 30% 的内容是无效的</h2>
+<p style="margin:0.8em 0">Pocock 对技能做剪枝时有个残酷但有效的测试：<strong style="font-weight:600">删除测试</strong>——把一段内容直接删掉，看 Agent 的行为有没有变化。</p>
+<p style="margin:0.8em 0">他举了一个例子。假设一个技能里有一段话强调&quot;要写详细的长提交信息&quot;。你把这段话删了——Agent 大概率还是会写出一份像样的提交信息。这段话就是无效操作（no-op）：看起来在做点什么，但实际对 Agent 的行为没有影响。</p>
+<p style="margin:0.8em 0">剪枝时要清理三类垃圾：重复内容（DRY 原则——每个知识点只在一个地方定义）、冗余沉积（跟你当前的场景无关的历史内容）、无效操作（有或没有都一样的东西）。</p>
+<p style="margin:0.8em 0">Pocock 自己的技能文件能做到这么精简，原因不是&quot;写得少&quot;，而是做删除测试做得够狠。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">技能调用的&quot;模型调用 vs 用户调用&quot;不是偏好问题，是成本和认知负载的分配问题——没有意识到这一点是技能地狱的第一入口</li>
+<li style="margin:0.3em 0">好技能有清晰的分支结构：主文件只放所有场景都需要的核心内容，分支资料通过引用加载——不是&quot;写得全&quot;，是&quot;分得清&quot;</li>
+<li style="margin:0.3em 0">引导词（如 vertical slice）的力量在于：它用一个词触发 Agent 的先验知识，比写一长段指令更有效——前提是这个词在领域内有足够清晰的共识</li>
+<li style="margin:0.3em 0">隐藏后续步骤是最被低估的技巧——Agent 看到最终目标时会偷懒，拆成独立步骤让它只能看到当前这一步，基础工作量自然提升</li>
+<li style="margin:0.3em 0">删除测试是评价技能质量的终极标准：删掉一段内容，看看 Agent 的行为变不变——没变的话，这段就是垃圾</li>
+</ul>
+
+</div>

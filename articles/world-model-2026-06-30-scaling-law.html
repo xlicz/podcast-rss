@@ -1,0 +1,62 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<style>
+  h1 { font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111; font-size:1.8em; }
+  h2 { font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111; font-size:1.35em; }
+  h3 { font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111; font-size:1.1em; }
+  blockquote { border-left:3px solid #2563eb; margin:1em 0; padding:0.5em 1em; color:#555; background:#f8fafc; }
+  code { background:#f1f5f9; padding:2px 6px; border-radius:3px; font-size:0.9em; }
+  pre { background:#1e293b; color:#e2e8f0; padding:16px; border-radius:6px; overflow-x:auto; font-size:14px; line-height:1.5; }
+  pre code { background:none; padding:0; color:inherit; }
+  a { color:#2563eb; text-decoration:underline; }
+  hr { border:none; border-top:1px solid #e5e7eb; margin:2em 0; }
+  ul,ol { padding-left:1.5em; }
+  li { margin:0.3em 0; }
+  p { margin:0.8em 0; }
+  strong { font-weight:600; }
+  img { max-width:100%; height:auto; }
+</style>
+<h1>世界模型也有 Scaling Law 吗？</h1>
+<p><strong>庄明浩的判断：物理世界的世界模型可能存在 Scaling Law，但它不是语言模型 Scaling Law 的复制——数据更贵、反馈更慢、安全要求更高、每个垂直场景都有自己的数据壁垒。世界模型还没到 GPT 时刻，大概率正处在 GPT-2 左右的时间点。</strong></p>
+<hr />
+<p>&quot;大语言模型更像是让机器理解了人类如何描述世界。世界模型在做的事情，是让机器理解世界本身到底是如何运行的。&quot;</p>
+<p>庄明浩在&quot;屠龙之术&quot;里用这句话概括了整个物理 AI 叙事的核心。本期节目从一个现象切入：2026 年夏天，世界模型成了所有 AI 创业 BP 里绕不开的关键词——甚至影视飓风给天猫拍 618 广告都在讲世界模型。</p>
+<p>三个信号让他决定做这期节目：行业层面（BAI 合伙人汪天凡说&quot;每天收到至少一个世界模型 BP，有种回币圈的感觉&quot;）、资本层面（Monroe 基金统计了 63 家 NewLab，已融几百亿美金）、以及 Momenta 的港交所招股书——一家自动驾驶公司正在把自己重新定位为&quot;物理 AI 基础模型公司&quot;。</p>
+<hr />
+<h2>渲染器、仿真器、规划器：三条线在融合</h2>
+<p>李飞飞最近发了篇&quot;正本清源&quot;的文章，把世界模型明确定义为三个层次：</p>
+<p><strong>渲染器</strong>——输出像素，服务人眼，追求视觉逼真。Sora、Veo、Gen-3 都在做这个。好看，但&quot;看起来OK&quot;不等于&quot;物理上对&quot;。</p>
+<p><strong>仿真器</strong>——输出环境状态，要求几何、物理、动力学都符合现实。自动驾驶仿真系统不能只要求画面真实，还要保证车辆轨迹、碰撞关系、交通法则都合理。</p>
+<p><strong>规划器</strong>——输出动作。机器人怎么抓东西、自动驾驶怎么转弯、怎么加减速。</p>
+<p>庄明浩的核心判断：&quot;这三个能力其实是同一件事情的三个投影，彼此边界在消失。一个理想的世界模型应该能同时做到：从任意角度渲染杯子的光影、模拟推倒它之后的运动状态、规划一只机械手把它拿起来且保证不碎。&quot;</p>
+<hr />
+<h2>跟大语言模型像不像？</h2>
+<p>大语言模型的核心范式极其简单——预测下一个 token，数据够多、算力够强，能力沿 Scaling Law 不断爬升。世界模型能不能复制这个路径？</p>
+<p>&quot;世界模型压缩的是物理定律，但原始数据从哪来？&quot;</p>
+<p>语言模型的数据来自互联网网页、书、代码——规模大、成本低、易获取。世界模型的数据来自真实世界交互：自动驾驶要真的上路跑、机器人要真的做工作、工业仿真要靠传感器设备和流程。每一条数据背后涉及硬件、场地、人力、安全、合规——&quot;跟爬一个网页不可能是一个数量级&quot;。</p>
+<p>还有一个反直觉的事实：视觉数据的信号密度比语言低。&quot;司机看到前方儿童突然跑出来、急刹并向左避让——这是语言。用视频来记录，是几秒钟的摄像头、雷达、轨迹、标注。数据量大了，但里面真正的事实只有那一瞬间。&quot;</p>
+<p>结论很冷静：世界模型可能存在 Scaling Law，&quot;但它不会像文本世界那么平滑快速，它更像一个高摩擦版本的 Scaling Law。&quot;</p>
+<hr />
+<h2>Momenta 的飞轮：数据壁垒从哪来</h2>
+<p>Momenta 的招股书提供了一个观察世界模型商业化绝佳样本。他们的故事不是&quot;我们也能做世界模型&quot;，而是&quot;怎么持续拿到真实世界数据并用到模型上&quot;。</p>
+<p>截至 2025 年底，Momenta 搭载车辆超 68 万辆，现已超 90 万辆，占国内市场份额 65%。与全球 24 家车企合作，覆盖前十大车企中的 9 家。这个数据多样性——不同车企、不同车型、不同价格带、不同区域、不同驾驶风格——远比任何单一车企自研系统复杂。</p>
+<p>&quot;模型训练最怕训练数据分布太窄。如果你只熟悉一种车、一个城市、某一类驾驶行为，你很难期待模型的泛化能力变好。&quot;</p>
+<p>他们的技术演进也从侧面验证了&quot;三线合一&quot;的判断：R6 引入端到端大模型 + 强化学习（不再只是模仿人类驾驶，而是在仿真环境中通过奖励机制学习更优行为），R7 直接定位为世界模型——三层架构（预训练→仿真→强化学习）。</p>
+<p>而且他们有正的经营现金流——从 2023 年营收 7 亿涨到 2025 年的 20 亿，毛利从 17.5% 飙到 71.6%。&quot;物理 AI 不单纯只是软件生意。没有现金流，很难熬过非常长的周期。&quot;</p>
+<hr />
+<h2>GPT 时刻还没有来</h2>
+<p>庄明浩用了 ChatGPT 时刻的四个条件做标尺：大众用户直接感知、产品门槛极低、通用性足够强、产业链各层开始爆发。</p>
+<p>&quot;世界模型没有完全达到这些条件。它的进展更多发生在学术界、工业界和我们这些做投资关注的场景里。大众看到的更多是一些很酷的视频和演示。&quot;</p>
+<p>而且物理世界不允许&quot;差不多&quot;。&quot;预测下一个 token 是有概率的，但物理世界对概率的要求高得多——一点点闪失可能就是一个事故。&quot;</p>
+<p>但方向已经清楚了。&quot;世界模型还没有到 GPT 时刻，但它可能正在经历类似 GPT-2 左右的时间点：方向清楚、能力在垂直场景显现、资本已下重注、商业样本开始出现。接下来要看的不是谁的 demo 强，是谁能把整个飞轮转起来。&quot;</p>
+<hr />
+<h2>文末要点</h2>
+<ul>
+<li><strong>世界模型不是视频生成模型</strong>：能生成&quot;看起来合理&quot;的画面 ≠ 理解物理因果。渲染、仿真、规划三线正在融合，目标是一个同时能做这三件事的统一模型</li>
+<li><strong>物理世界的 Scaling Law 存在，但是高摩擦版本</strong>：数据更贵（无法爬取）、反馈更慢（需要真实世界交互）、安全要求更高（不许出错）、每个垂直场景有独立的数据壁垒</li>
+<li><strong>视觉数据的信号密度比语言低</strong>：一句话能说清的事，需要几秒钟的多传感器数据加标注才能记录——这意味着世界模型所需的数据量不是多一点，是几个数量级</li>
+<li><strong>自动驾驶是世界模型最先落地的场景</strong>：有最多真实世界数据、最强的安全需求、最清晰的商业模式。Momenta 的飞轮（更多车→更多数据→更好模型→更多合作）提供了观察样本</li>
+<li><strong>世界模型的终局可能不是寡头垄断</strong>：不同于语言模型的通用性，物理世界场景间的数据壁垒极高——自动驾驶的数据 ≠ 机器人的数据 ≠ 工业仿真数据</li>
+<li><strong>GPT 时刻未到，GPT-2 时刻已在</strong>：方向清楚，能力在显现，资本在下注，但大众还没有看到一个人人可用、人人震撼的产品</li>
+</ul>
+
+</div>

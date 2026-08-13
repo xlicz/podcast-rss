@@ -1,0 +1,82 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-07-22 05:00</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描了 6 个播客，共 6 集：[跨国串门儿计划(1), a16z(2), 张小珺(1), 硅谷101(1), 晚点聊(1)] | 🔥0 🔴0 ⚪2 | 去重跳过4集</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号剧集（2集）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题</th>
+  <th style="text-align:center">Phase 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Replay 2025: David Sacks on AI, Crypto, and America's Technology Future</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 转录数据错误 — 实际内容为 Grant Sanderson 数学AI访谈</td>
+  <td style="text-align:center">2/10</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 转录数据错误 — 实际内容为 Grant Sanderson 数学AI访谈</td>
+  <td style="text-align:center">2/10</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 数据管线告警：a16z 播客转录全线异常</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发现</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">podcast-rss</code> 管线的 a16z 转录文件自 2026-07-02 起<strong style="font-weight:600">所有 11 个文件</strong>均包含相同内容（Grant Sanderson 3Blue1Brown 数学AI访谈，106,397 字符），与标题完全不符。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">影响</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;Can Anyone Catch NVIDIA?&quot; → 实际讨论 NVIDIA/芯片竞争格局，<strong style="font-weight:600">高概率含投资信号</strong>，因转录错误丢失</li>
+<li style="margin:0.3em 0">&quot;Replay 2025: David Sacks&quot; → 实际讨论 AI/加密/科技政策，<strong style="font-weight:600">可能含政策信号</strong>，因转录错误丢失</li>
+<li style="margin:0.3em 0">&quot;Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy&quot; (07-14) → <strong style="font-weight:600">明确投资主题</strong>，同样转录错误</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">根因推测</strong>：音频下载/缓存层可能始终返回同一文件，或 ASR 输入映射错误。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">建议</strong>：排查 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">rss_audio_pipeline.py</code> 中音频 URL 解析与下载逻辑，特别是 Simplecast 源的 episode GUID 映射。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 已跳过剧集（4集，7天窗口内已处理）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">日期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#629.沃伦·巴菲特：我发起了伯克希尔公司对 Alphabet 的投资</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">07-16</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张小珺</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">146. 对Physical Intelligence柯丽一鸣4小时访谈</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">07-16</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">硅谷101</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">E244｜端到端vs上下分层：机器人路径之争</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">07-16</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">晚点聊 LateTalk</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">172: Momenta IPO后再访曹旭东</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">07-15</td>
+</tr>
+</tbody>
+</table></div>
+
+</div>

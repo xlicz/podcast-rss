@@ -1,0 +1,9 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🔴 雪球登录已过期，Cookie 注入 + 自动登录均被 WAF 拒绝。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">需要手动登录一次</strong>（交互式浏览器，cron 无法自动完成）：</p>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python3 ~/.hermes/scripts/setup_xueqiu_login.py
+</code></pre>
+<p style="margin:0.8em 0">登录后 Cookie 自动保存，下次 cron 自动恢复。有效期通常数天到数周。</p>
+<p style="margin:0.8em 0">⚠️ <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">setup_xueqiu_login.py</code> 依赖 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input()</code> 等待用户按 Enter，<strong style="font-weight:600">只能在交互式终端运行</strong>（不在 IDE 终端）。</p>
+
+</div>

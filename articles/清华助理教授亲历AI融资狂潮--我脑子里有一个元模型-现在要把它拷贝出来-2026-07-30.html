@@ -1,0 +1,70 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">清华助理教授亲历AI融资狂潮：「我脑子里有一个元模型，现在要把它拷贝出来」</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当中国一级市场把还没产品的年轻研究者捧到数亿美金估值时，一位刚从MIT回国的清华教授说：给我六到十二个月，别催我做产品。他在做什么？训练一个能预测AI实验结果的「元模型」。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">刘子鸣用了四个字形容他回国后第一次接触一级市场的感受：「太疯狂了。」</p>
+<p style="margin:0.8em 0">今年三月，他从MIT博士毕业回国，入职清华人工智能学院任助理教授。五月底开始参与融资。两个月后坐在我对面，他回忆那段经历时语气里还有残余的冲击——「大家都在相互打探消息，投项目的动作都非常快。」</p>
+<p style="margin:0.8em 0">他看到的景象是：一批有研究背景的年轻人，名校出身，第一次创业，产品还没影，估值已经数亿美元。资本涌入最活跃的两个方向：世界模型，和Auto Research——也叫AI for AI，即用AI做AI研究。</p>
+<p style="margin:0.8em 0">刘子鸣自己也在这股浪潮里。他参与创建了公司元寰智能，担任首席科学家。但他走的路跟大多数人不太一样——不是世界模型，不是基座模型，而是一个他自己形容为「把脑子拷贝出来」的东西：元模型（meta-model）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从GAN到Max Tegmark：一个物理学徒的AI转向</h2>
+<p style="margin:0.8em 0">刘子鸣的学术轨迹很典型，又不太典型。</p>
+<p style="margin:0.8em 0">本科北大物理。2017年大二时第一次接触到GAN（生成对抗网络），他说那个瞬间「这个东西特别中我的兴奋点，而且在数学上好像也没有那么难」。</p>
+<p style="margin:0.8em 0">但当时他没敢直接转行。理论物理太难——他自嘲「比不过姚顺宇」；实验物理更糟——「我进了实验室只会把事情变得更加混乱」，做过一个磁流体项目，「搞得满手满脸都是」。</p>
+<p style="margin:0.8em 0">于是走了一条中间路线：AI for physics。用AI方法做高能物理。到本科毕业时发了三篇文章，其中一篇已经隐约触及后来他真正想做的方向——用物理学方法论理解AI本身。</p>
+<p style="margin:0.8em 0">博士去了MIT，导师是Max Tegmark。这个名字在AI圈有两个标签：一是最早推动「AI for physics」的人（2012年起），二是「机制可解释性」（mechanistic interpretability）的早期鼓吹者——2022年底就开始布局这个方向。最近唐杰老师说的政府要投百亿的方向，Anthropic同时在做的方向。</p>
+<p style="margin:0.8em 0">但2022年底ChatGPT出来以后，刘子鸣做了一个判断：「物理里面没有那么多像ChatGPT一样sexy的东西。」他把AI和物理的角色对调——不再做AI for physics，而是做physics of AI，AI的物理学。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">元模型：不是预测下一个词，是预测下一条训练曲线</h2>
+<p style="margin:0.8em 0">什么是「元模型」？刘子鸣的解释很直接：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">我的输入是一个模型架构，输出是这个模型的训练曲线。所以我不用真的训练它，我就知道它行不行。</p>
+</blockquote>
+<p style="margin:0.8em 0">这和世界模型不同。世界模型预测的是物理世界的下一个状态，元模型预测的是一个AI实验的结果。用他的话说：「世界模型是next state，我们是next curve。」</p>
+<p style="margin:0.8em 0">逻辑链条是这样的：如果你能准确预测任意一个模型架构的训练效果，你就不再需要把一百个idea都跑一遍——让元模型前传一百次，筛出最promising的几个，再做真实验证。在AI研究的迭代循环里，这相当于把搜索效率提升了几个数量级。</p>
+<p style="margin:0.8em 0">训练元模型的数据是什么？「模型本身。」你得先真的训练一批不同架构的小模型，记录它们的训练曲线，形成（模型，曲线）的配对数据，然后用监督学习的方式喂给元模型。这和训练大语言模型不同——不需要一个巨大的集群做通信，但需要大量的多样性，「让人看起来非常奇怪的架构」，恰恰可能就是跳出Transformer局部最优的关键。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">终极目标</strong>：「下一个Transformer不是人发现的，不是人拍脑袋发现的，而是元模型预测出来的。」</p>
+<p style="margin:0.8em 0">听起来宏大。但刘子鸣对路径有清醒的分层。短期——结构化research，收集数据；中期——在世界模型框架里引入结构；长期——端到端的元模型。他说这个顺序「可能跟世界模型的趋势反过来，但不重要，重要的是最终做成AI for AI」。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把自己当元模型训练了五十天</h2>
+<p style="margin:0.8em 0">刘子鸣对这个方向的信心，来自一段非常个人化的经历。</p>
+<p style="margin:0.8em 0">今年年初，他花了两个月时间在自己身上做了一个「人体实验」——把自己当成一个元模型来训练。每天记录输入（看到什么模型、什么数据、什么优化器），预测输出（这个实验会有什么结果），然后跟真实结果对比。反复校正。</p>
+<p style="margin:0.8em 0">到第四五十天的时候，「我突然grook了，我突然顿悟了。」</p>
+<p style="margin:0.8em 0">「让我相信存在元模型这个东西」，他说。但问题也很明显：「我没有办法把我的这些脑电波写下来。」人的带宽一天最多做一两个实验，而一个真正的元模型一个batch可以看几千组。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">如果我日复一日把自己当元模型训练，可能要一千年。但我活不了那么久。所以我要做一个元模型，它不需要睡觉，不需要吃喝，没有情绪——它的任务就是看各种各样的实验，预测结果。</p>
+</blockquote>
+<p style="margin:0.8em 0">这句话可能是整个访谈里最核心的驱动力。不是追风口，不是套概念融资，而是一个研究者意识到自己脑子里有某种可迁移的判断能力，想把它的效率放大一千倍。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Neo Lab的本质：既不是Lab，也不是公司</h2>
+<p style="margin:0.8em 0">话题回到那个让他觉得「太疯狂了」的一级市场。</p>
+<p style="margin:0.8em 0">中国这批neo labs——有研究背景的年轻人、名校出身、高估值、无产品——在国外其实早有先例。刘子鸣的导师Max Tegmark就是MIT的教授，同时也在推动AI创业。但中国的节奏显然更快、更热。</p>
+<p style="margin:0.8em 0">刘子鸣认为，neo lab之所以需要一个新名字，恰恰因为它「既不是lab也不是公司」。理想的状态是：前六到十二个月按lab的方式运转，做research-driven的探索；一旦grook，一旦找到那条清晰的路线，就立刻切换到公司模式——做产品、商业化、规模化。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">前OpenAI时代和后OpenAI时代不一样了。OpenAI默默做了很多年。但现在路线已经相对清晰，六到十二个月足够画一个逗号，开始做产品。</p>
+</blockquote>
+<p style="margin:0.8em 0">一年前他会说需要三到五年。现在缩短了，不是因为资本压力，而是因为他自己「意识到元模型的可行性之后，要快速推进了」。</p>
+<p style="margin:0.8em 0">但这里有一个他没有回避的张力：<strong style="font-weight:600">生态和机制有没有这个包容度？现金流够不够撑过这十二个月？</strong></p>
+<p style="margin:0.8em 0">他的回答是「持续募资」。没有绕弯子。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">大语言模型辐射不到的地方</h2>
+<p style="margin:0.8em 0">访谈末尾，刘子鸣做了一个清晰的判断：大语言模型已经收敛了。但新的机会来自两块——世界模型和auto research——「还处于相当早期，大语言模型辐射不到。」</p>
+<p style="margin:0.8em 0">为什么辐射不到？不是Transformer不行，而是没见过这种数据。世界模型需要的是物理世界的latent space，大模型没学过。Auto research需要的是结构化的研究过程数据，大模型也没见过。第一步是结构化，第二步是收集，然后才是模型能做的事。</p>
+<p style="margin:0.8em 0">这大概解释了为什么一级市场愿意在没有产品的时候押注——如果大模型辐射不到，就意味着这不是一个「等着大模型厂商顺手做了」的赛道，而是一个需要从零构建数据和范式的独立方向。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一本《人类简史》和一碗热干面</h2>
+<p style="margin:0.8em 0">快问快答环节，刘子鸣说了两个有意思的答案。</p>
+<p style="margin:0.8em 0">影响他最深的一本书是《人类简史》。一个自称「很nerd、不太懂科学之外的事情」的物理学徒，从这本书里学到的是：「我们的社会就是故事驱动的，叙事非常重要。不仅技术重要，背后的叙事也非常重要。」</p>
+<p style="margin:0.8em 0">这大概也是他从研究者转向创业者过程中，正在快速补上的一课。</p>
+<p style="margin:0.8em 0">而不管在波士顿的查尔斯河边还是上海黄浦江边，他最想吃的永远是热干面。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">带走这些判断：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国neo labs的资本狂热是真实现象，世界模型和auto research是两个最热的钱流向，但投资人和创业者对同一概念的理解经常不是一回事</li>
+<li style="margin:0.3em 0">元模型的核心价值不是「不用做实验」，而是把AI研究的搜索效率提高几个数量级——预测训练曲线，而非预测物理世界</li>
+<li style="margin:0.3em 0">刘子鸣的「人体实验」提供了一个有趣的信号：如果一个人能在50天内通过反复预测-校正形成对模型行为的内隐判断，那机器理论上可以做得更快</li>
+<li style="margin:0.3em 0">Neo lab的本质张力在于：research-driven的探索需要六到十二个月的耐心，但资本和生态未必有这个包容度</li>
+<li style="margin:0.3em 0">大模型已经收敛，但世界模型和auto research是大模型「辐射不到」的领域——不是因为技术壁垒，而是因为缺乏结构化数据</li>
+</ul>
+
+</div>

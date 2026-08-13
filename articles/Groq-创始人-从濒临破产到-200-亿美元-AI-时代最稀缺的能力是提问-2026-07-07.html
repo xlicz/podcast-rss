@@ -1,0 +1,76 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Groq 创始人：从濒临破产到 200 亿美元，AI 时代最稀缺的能力是提问</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Jonathan Ross 用十年时间学会了一件事：在所有人说不的时候，说&quot;我打算做&quot;。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">Jonathan Ross 是 Google TPU 的发明者，AI 芯片公司 Groq 的创始人，如今是 NVIDIA 的高管。他的职业生涯里有两个标志性时刻：一个是 Groq 账上只剩三周现金，他发行了&quot;Groq 债券&quot;让员工自愿降薪救公司；另一个是从提出方案到 200 亿美元到账，只花了三周。</p>
+<p style="margin:0.8em 0">在播客 Founders 的这期访谈中，他系统输出了这十年创业里形成的底层思考——关于领导力、招聘、运气，和 AI 时代真正重要的能力。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">GPU + LPU：为什么速度本身就是智能</h2>
+<p style="margin:0.8em 0">先解释一下这笔 200 亿美元交易的技术逻辑。</p>
+<p style="margin:0.8em 0">Ross 打了一个比喻：&quot;如果你要为美国建一个物流网络，你可以选十八轮大卡车，或者选最后一公里配送的小货车。答案是两者都要。&quot;</p>
+<p style="margin:0.8em 0">在处理大语言模型 token 时，不同的矩阵乘法受限于不同的瓶颈——有些更受算力限制，有些更受内存吞吐限制。&quot;更受算力限制的放在 GPU 上跑，更受内存吞吐限制的放在 LPU 上跑。&quot;不存在单一完美架构，把两者结合，就能在所有模型上打破瓶颈。</p>
+<p style="margin:0.8em 0">但真正的洞察比架构更深。</p>
+<p style="margin:0.8em 0">当 AI 与 AI 对话时，速度不是&quot;好用不好用&quot;的问题——速度就是智能本身。Ross 讲了一个他自己的经历：当年在 Google，AlphaGo 与李世石对弈前，团队把同一模型从 GPU 移植到 TPU 上。&quot;跑在 GPU 上的 AlphaGo，ELO 分数大概在 3200 左右，李世石 3550 左右。放到 TPU 上后，分数直接飙到了 3900。&quot;同一模型，什么都没变，只是算得更快——结果变得更聪明。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">既然模型现在有了反思、深度思考并据此改变结果的能力，那么思考得更快就能让你思考得更聪明。</p>
+</blockquote>
+<p style="margin:0.8em 0">这就是为什么当 Groq 四年前全力押注快速推理时，几乎所有人都说这没用。&quot;很多人离开，说快速推理没有意义，不会给生态带来任何价值。哪怕你拿拨号和宽带这种很简单的类比来讲，也没人能联系起来。&quot;</p>
+<p style="margin:0.8em 0">转折点是一个偶然事件。有人在 X 上发了一个 LM 在 Groq 上极速运行的视频，瞬间爆了。&quot;人们看到那个效果就是视觉享受。突然间，每个人都开始自己做。&quot;Ross 的总结是：你没办法用语言解释快速推理为什么重要——&quot;唯一的办法就是直接做出来，放到网上，让人亲自试。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三次错过运气，和一次不征求意见</h2>
+<p style="margin:0.8em 0">Ross 说自己读过 Jim Collins 讲&quot;运气回报&quot;的那一章，核心论点是：最成功的公司并不是运气事件更多，而是比别人更好地抓住了运气。</p>
+<p style="margin:0.8em 0">他有三个反例。</p>
+<p style="margin:0.8em 0">LLM 刚火起来的时候，GitHub CEO 打电话来，说需要一批 GPU 做代码补全——能不能用 Groq 的 LPU？&quot;我去找团队，他们全都说不行，跑不了。我说这就是最适合我们芯片跑的东西，几乎完美。他们说 GPU 里有好多东西我们都没有。我说对，但那些东西对 LLM 都不重要。他们看错了地方。&quot;</p>
+<p style="margin:0.8em 0">第一次，他被说服了。第二次，同样的机会，又被说服了。第三次，他说：&quot;不行，我要自己来。&quot;</p>
+<p style="margin:0.8em 0">这里有一个微妙的措辞差异。&quot;早期，我一次又一次地征求别人的意见，结果他们都在阻止我。&quot;后来他从一本关于核潜艇指挥官的书《Turn the Ship Around》里学到了&quot;意图领导力&quot;——不说&quot;你觉得我该不该做&quot;，而说&quot;我打算做这件事&quot;。</p>
+<p style="margin:0.8em 0">&quot;措辞上只是很小的变化，但对你推进事情的能力来说差别巨大。你不会引来阻力，但人们在真正重要的时候仍然会给你反馈。当真的有问题时，他们会提出来。&quot;</p>
+<p style="margin:0.8em 0">第三次 LM 机会，他就是这么做的。&quot;我做了一份演示，说我们要把单芯片速度做到这个水平。结果大家没有说'我们做不到'，反而都跳进来说'我们可以这样做'。&quot;</p>
+<p style="margin:0.8em 0">他后来的结论是：最优秀的创新者之所以是创新者，是因为他们比别人更早经历了那个问题。&quot;未来已经来了，只是分布不均。因为我处在能看见未来的位置上，因为我愿意抓住运气——这两件事加在一起才起了作用。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;现实商数&quot;和主导游戏</h2>
+<p style="margin:0.8em 0">Ross 在 Groq 招聘时看中一个东西叫&quot;现实商数&quot;（Reality Quotient）。</p>
+<p style="margin:0.8em 0">&quot;有很多非常聪明的人，就算现实拍了拍他们的肩膀，他们也认不出来。&quot;这类人脑子里能编出特别复杂的故事，但跟现实完全脱节。而现实商数最极致的形式，是能识别当下正在进行的&quot;主导游戏&quot;。</p>
+<p style="margin:0.8em 0">&quot;大多数真正成功的创始人做的事是：别人都在玩一个游戏，他们意识到，如果你玩一个更高层级的游戏，你就赢了。&quot;MySpace 关注的是注册账户数，Facebook 关注的是月活用户——后者才是主导游戏。</p>
+<p style="margin:0.8em 0">在 Groq，他把这个目标刻在了一枚挑战币上，发给每个人：&quot;每秒两千五百万个 token&quot;。不管你是做芯片的、做软件的、搞供应链的、降电力成本的，每个人都能把自己做的事跟这个单一目标连起来。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">你给别人的约束越少，他们解决问题的自由度就越大。自由度越大，他们就越有可能用解决方案给你惊喜。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">禁止一对一谈话：消灭办公室政治的办法</h2>
+<p style="margin:0.8em 0">Ross 在 NVIDIA 从黄仁勋身上学到了一个&quot;反直觉但极其有效&quot;的做法。</p>
+<p style="margin:0.8em 0">&quot;在 NVIDIA，绝不存在 Jensen 跟人一对一谈话、然后私下告诉对方某件事的情况。我在 Groq 吃过这个亏——先跟一个人聊，再跟另一个人聊，结果他们俩听到的东西完全不同。&quot;</p>
+<p style="margin:0.8em 0">他的新规则是：把所有想告知的人召集起来开大会，一次性告诉所有人。&quot;也别允许任何人单独给你发邮件，所有邮件都抄送所有人。只要有人给你发'这个人在某件事上搞砸了'，就把那个人也抄送进来。否则你就是在纵容办公室政治。&quot;</p>
+<p style="margin:0.8em 0">&quot;这是你能见到的政治斗争最少的大型组织。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">差点死掉：Groq 债券</h2>
+<p style="margin:0.8em 0">最惊险的时刻，Groq 的现金跑道只剩不到一个月。领导团队在列裁员名单。</p>
+<p style="margin:0.8em 0">&quot;当我开始审这份名单的时候，我非常清楚地意识到——如果我们做这次裁员，我们就死定了。&quot;当时产品还没跑通，需要写一个以前从来没人写过的编译器。裁员名单上的人，恰恰是做成这件事最关键的人。</p>
+<p style="margin:0.8em 0">他开了全员会，放了一些二战风格战争债券的海报，管它叫&quot;Groq 债券&quot;——严格来说不是债券，是用薪资换股权。&quot;我们本来预计会有很高的流失率，结果并没有。百分之八十的员工参与了。大概有一半人把薪资降到了法定最低工资。要知道工程师年薪几十万美元，这些人把工资砍到了五六万。&quot;</p>
+<p style="margin:0.8em 0">他们省出了将近两个月的跑道。融资成功时，账上只剩三周的钱。</p>
+<p style="margin:0.8em 0">Ross 后来把这件事总结为&quot;让每个人都把手放在方向盘上&quot;。&quot;当人是车里的乘客时，遇到弯道会更紧张；但当他们是司机时，会觉得更有掌控感，更愿意承担风险。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">招聘的秘密：找负面特质，而非正面特质</h2>
+<p style="margin:0.8em 0">这可能是 Ross 最反直觉的管理洞见。</p>
+<p style="margin:0.8em 0">&quot;我非常擅长招到极其聪明有才华的人。但我们招进来的很多人也造成了组织问题。&quot;他在 Google 搞了一个叫&quot;人员规格&quot;的东西，像产品规格一样有版本号不断修改。&quot;如果你不把要找什么样的人写下来，你就招不到那样的人。&quot;</p>
+<p style="margin:0.8em 0">但真正的转折点是：从寻找正面特质，转向寻找负面特质。</p>
+<p style="margin:0.8em 0">每一个正面特质都有对应的负面版本。比如&quot;运气回报&quot;的反面是&quot;挥霍运气&quot;，&quot;诗性设计&quot;（用极少词表达极多的意思）的反面是&quot;堆砌式设计&quot;。你很容易发现一个人符合某些正面特质，却没意识到他同时带着某些负面特质。&quot;而你真正要招人规避的，恰恰是这些负面特质。因为只要有一个人带着负面特质进来，他就会把这种东西带进整个团队。&quot;</p>
+<p style="margin:0.8em 0">他举了一个关键的负面特质：损失偏见。&quot;人天生就有损失偏见，一次损失带来的痛苦是同等收益的六倍。&quot;他说&quot;提前锁定胜利&quot;是一种性格——&quot;一听到某件事可以做，就立刻锁定，然后想：如果我不做，就等于失去了这个东西。&quot;他在招聘时专门找有这种心态的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">制造不满：驱动创新的底层引擎</h2>
+<p style="margin:0.8em 0">&quot;企业家是对自己财富最不满意的人。&quot;Ross 观察到一个规律——即使有些企业家已经赚了几亿美元，他们还是在跟别人比较。&quot;他们这辈子都不用再工作了。但正因为对自己的财富不满意，他们就有了理由继续干。&quot;</p>
+<p style="margin:0.8em 0">他自己也是这样。&quot;Groq 找到产品契合度之后，我又对规模不满意。然后又对其他方面不满意。我就是不停地找到新的不满意的点。大多数人可以对现状很满足，就不会继续推动创新。如果你要不断推动事情向前，你就得有一种持续不满的性格。&quot;</p>
+<p style="margin:0.8em 0">他现在对什么不满？&quot;世界上算力不足。&quot;他说，如果因为算力不够，我们多花一年才能治愈癌症，&quot;那就是我的错。每一个死于癌症的人，每一个变老衰弱然后死去的人——这一切我都觉得某种程度上是我的责任。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 时代的核心能力是提问</h2>
+<p style="margin:0.8em 0">Ross 对 AI 最核心的判断是：信息时代的成功在于能回答问题，而 AI 时代的成功在于能提出正确的问题。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">别再教孩子们回答问题，开始教他们提出问题。</p>
+</blockquote>
+<p style="margin:0.8em 0">&quot;当你给孩子们布置作业或考试时，如果他们能在网上查到答案，或者能让 AI 来解决，那你就没有教会他们在下一个时代需要的东西。但如果你给他们一个必须自己提出问题并让 AI 来解决的问题，那你就教会了。&quot;</p>
+<p style="margin:0.8em 0">他看到的另一个转变是代码成本趋近于零。&quot;我的行政助理现在就在做软件应用。我出差的时候，他会做一个小应用，我可以点进去看天气、获取电话号码——这在以前对一个不懂写代码的人来说是不可能的。&quot;</p>
+<p style="margin:0.8em 0">接下来会发生的是：很多人将获得创造软件解决问题的能力，他们以前从来没有这种技术能力，但有好的品味。&quot;你会看到个体创始人没有庞大团队，却能创造出非常有价值的公司。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">值得带走的洞见：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">速度不只是&quot;体验好&quot;——在 AI 推理中，速度本身就是智能。同样的模型放在更快的硬件上，ELO 分数可以飙升数百分</li>
+<li style="margin:0.3em 0">&quot;我打算做&quot;和&quot;你觉得我该不该做&quot;是两种完全不同的领导力。前者驱动行动，后者招来阻力</li>
+<li style="margin:0.3em 0">&quot;现实商数&quot;比智商更重要：能不能识别当下在玩的那个&quot;主导游戏&quot;——MySpace 关注注册数，Facebook 关注月活</li>
+<li style="margin:0.3em 0">消灭办公室政治最有效的办法：禁止一对一谈话，所有沟通都在公开场合、抄送所有人</li>
+<li style="margin:0.3em 0">招聘时找负面特质比找正面特质更重要。一个带着&quot;挥霍运气&quot;基因的人可以污染整个团队</li>
+<li style="margin:0.3em 0">创新需要&quot;持续不满&quot;。最成功的企业家不会躺在功劳簿上——他们永远觉得还不够</li>
+<li style="margin:0.3em 0">AI 时代最稀缺的能力不是回答问题，而是提出正确的问题。教育体系应该围绕&quot;提问&quot;重新设计</li>
+</ul>
+
+</div>

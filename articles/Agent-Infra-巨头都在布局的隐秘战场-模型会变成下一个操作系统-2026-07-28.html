@@ -1,0 +1,75 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Agent Infra：巨头都在布局的隐秘战场，模型会变成下一个操作系统</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">CPU 时代，infra 是纯软件的事。GPU 时代，infra 变成了软硬一体。而 Agent 时代，infra 的范围再一次扩张——往上要管到任务完成，往下要沉到芯片架构。百度智能云 AI 计算首席科学家王雁鹏说：模型以后就是 OS，这个操作系统足够庞大，会形成新的生态。所有人第一步，都在抢那个入口。</strong></p>
+<p style="margin:0.8em 0">王雁鹏 2011 年加入百度，是国内第一批在互联网公司做硬件的人。当时的背景是：互联网公司第一次单次采购服务器超过一万台——在那之前，硬件是传统 IT 厂商的事，互联网公司不碰。</p>
+<p style="margin:0.8em 0">此后十几年，他从 SSD、CPU、硬盘一路做到 GPU。搜索是最大的单体应用，百度自研过 SSD、自研过 CPU。他的整个职业生涯，就是在针对最重要的负载做全栈优化——从应用层一路打到硬件。</p>
+<p style="margin:0.8em 0">在这次访谈里，他把 Agent Infra 的战场拆得非常清楚。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">GPU 颠覆了什么：从&quot;纯软件 infra&quot;到&quot;软硬一体&quot;</h2>
+<p style="margin:0.8em 0">上一代 infra 的本质是纯软件的。操作系统、数据库、分布式系统——这些都是在 CPU 上跑的东西。CPU 是一个&quot;能跑任何应用的芯片&quot;，在上面可以很均衡地跑各种负载，你不需要为每个应用做深度优化。</p>
+<p style="margin:0.8em 0">但 GPU 的逻辑完全相反。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">GPU 极大地释放了算力，但是它牺牲了通用性。</p>
+</blockquote>
+<p style="margin:0.8em 0">想把 GPU 用好非常困难。它把算力堆得很高，但在各个场景、各种算法上能不能发挥这个算力，需要巨量的工作。于是 infra 从前一代的&quot;纯软件视角&quot;，被推向了&quot;软硬一体&quot;。</p>
+<p style="margin:0.8em 0">王雁鹏的判断：<strong style="font-weight:600">做 AI infra 的人，一定是从芯片的体系结构熟悉起，然后做上来。不是原来只做算法的路径。</strong> 这一轮对硬件理解的深度要求，比以往任何一代 infra 都要高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Agent 对 infra 意味着什么：从&quot;调 API&quot;到&quot;完成真实任务&quot;</h2>
+<p style="margin:0.8em 0">ChatGPT 让世界看到了模型的能力。但真正让 infra 人兴奋的节点，是今年年初 Manus 把 Agent 这个概念推到了主流视野。</p>
+<p style="margin:0.8em 0">从 ChatGPT 到 Manus，本质的跃迁是什么？</p>
+<p style="margin:0.8em 0">之前：一个 API 调用，做一次模型推理。</p>
+<p style="margin:0.8em 0">之后：AI 真正进入&quot;完成任务的环节&quot;。</p>
+<p style="margin:0.8em 0">这对 infra 的冲击是根本性的。&quot;完成一个真实的任务意味着，我需要有一个完整的环境。今天人操作的所有基础设施、各种软件，都要被 Agent 去用。它用这些东西的方式，显然和人的用法不一样。那么这个时候，我们的基建怎么做？各种工具怎么搭建，才能更适合 Agent 使用？&quot;</p>
+<p style="margin:0.8em 0">王雁鹏认为，这是当前阶段最重要的事情。Agent 目前的状态是&quot;可用但还没到好用、安全放心用&quot;的阶段——而这个阶段对 infra 来说恰恰是机遇最大的窗口。</p>
+<p style="margin:0.8em 0">他打了一个很有意思的比方：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">模型就像一个青春期的孩子，不停地长身体。你好像没办法为他量身定做一套合身的衣服。</p>
+</blockquote>
+<p style="margin:0.8em 0">模型能力的边界还在快速拓展，你今天为当前模型设计的 infra，明天可能就不够用了。所以 Agent infra 的设计哲学不是&quot;精准匹配&quot;，而是&quot;弹性适配&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型会变成 OS，所有人都在抢入口</h2>
+<p style="margin:0.8em 0">王雁鹏提出了一个清晰的竞争格局判断：</p>
+<p style="margin:0.8em 0">以模型为核心，加上 Agent、infra 这些东西，加在一起会形成一个 OS 层。这个操作系统足够庞大，会形成一个新的生态。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">大家第一步就会去抢这个入口。OS 是大家要争夺的焦点。</p>
+</blockquote>
+<p style="margin:0.8em 0">&quot;入口&quot;是什么？就是开发者基于你的系统来开发应用，而且开发完了能在你的系统上高效地跑。谁掌握了这个入口，谁就定义了下一个时代的软件生态。</p>
+<p style="margin:0.8em 0">但他也指出了一个关键张力：<strong style="font-weight:600">软件世界和硬件世界之间有天然的 gap。</strong></p>
+<p style="margin:0.8em 0">一个软件公司想做好芯片，挑战非常大。工作模式不同，投入点不同，周期也不同——&quot;我做一颗芯片，要两年半以后才能出来。&quot;</p>
+<p style="margin:0.8em 0">理论上，你知道了今天模型的需求，可以定义一个更优的芯片。但问题是：两年半之后，你的模型还是不是今天的模型？大概率不是。</p>
+<p style="margin:0.8em 0">这就是为什么 Google 成了独特的存在。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Google 的十年赌注，终于兑现了</h2>
+<p style="margin:0.8em 0">王雁鹏对 Google 有一个非常清晰的判断：&quot;他的 TPU 已经做了快十年了。他的软件栈、模型架构（用 JAX 而非 PyTorch），整个 infra 都是自己的。他是真正实现了芯、云、模一体化的公司。&quot;</p>
+<p style="margin:0.8em 0">因为自研了芯片，Google 的推理成本理论上更低。Gemini 3 出来之前，外界觉得 Google 掉队了；Gemini 3 一出来，所有人又觉得它行了。王雁鹏认为这不意外——&quot;他有这么深厚的全栈能力积累，他没有理由做不好。他可以稍微比你慢一点，但他的底座能力支持他同时做好几件事。&quot;</p>
+<p style="margin:0.8em 0">至于 OpenAI 最近靠聚焦又追上来、外界又开始说&quot;Google 不行了&quot;的讨论，他的态度很克制：这跟 Gemini 3 出来之前是一样的噪音。Google 的全栈能力在那摆着，不需要因为一两个月的排名波动重新判断。</p>
+<p style="margin:0.8em 0">NVIDIA 呢？王雁鹏说这家公司&quot;非常值得敬佩&quot;——在 CPU 时代被 Intel 用摩尔定律锁死的格局下，NVIDIA 硬是靠 GPU 撕开了一条路。现在它在往上层走，做全栈布局。但本质上，NVIDIA 是从芯片往上打，Google 是从模型往下打。两条路径各有禀赋。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">百度的位置：冰山之下的全栈优化</h2>
+<p style="margin:0.8em 0">谈到百度，王雁鹏用了一个&quot;冰山模型&quot;来概括策略。</p>
+<p style="margin:0.8em 0">水面之上，大家看到的是模型和 API。水面之下，是百度花了十几年构建的全栈优化能力——从芯片层到系统层到应用层。</p>
+<p style="margin:0.8em 0">&quot;第一，从芯片和系统的角度，我们的目标非常明确，就是持续的降低 Token 成本。第二，云是我们重要的业务出口，我们希望下一代真正爆款的应用，是从我们的云上面长出来的——包括 Agent、具身智能等。&quot;</p>
+<p style="margin:0.8em 0">他提到了台积电的崛起路径：台积电当年也是小公司，因为认准了一款产品，跟对了客户，一路做成了今天。百度希望在自己的云上，在客户还小的时候就一起合作，一起做出那个&quot;关键单&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">用 DAA 替代 Token：被玩坏的指标需要换掉</h2>
+<p style="margin:0.8em 0">前阵子百度世界大会上，李彦宏提出了一个新指标：<strong style="font-weight:600">Daily Active Agents（DAA）</strong>。</p>
+<p style="margin:0.8em 0">王雁鹏解释了这个转变背后的逻辑。</p>
+<p style="margin:0.8em 0">&quot;Token 这个指标很快就被玩坏了。你可以拿 Token 干一些没用的事，Token 消耗了但没有价值。DAA 衡量的，是它真实完成的任务以及任务产生的价值。&quot;</p>
+<p style="margin:0.8em 0">一个 Agent 能不能持续运行，代表了这个任务的价值。价值乘以数量，就是最终创造的价值总量。</p>
+<p style="margin:0.8em 0">他还提了一个更细致的分层：任务有难易之分，价值有高低之分。&quot;不能只为了数量去做。我得把高价值的任务先做到 DAA 里来，先让它跑得可用。然后想办法用更多模型、更低成本的模型来做它。&quot;</p>
+<p style="margin:0.8em 0">这里有一个自我约束：&quot;你不能做杀鸡取卵的事。利用大家的恐慌心理，让人来烧 Token——这不可持续。我们还是要想办法让大家真正创造价值。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最好的时代属于工程师</h2>
+<p style="margin:0.8em 0">访谈最后，王雁鹏谈到了自己这一年来最兴奋的事情。</p>
+<p style="margin:0.8em 0">&quot;做 infra 的人，看到了变化，看到了很多可选项——这就很兴奋了。&quot;</p>
+<p style="margin:0.8em 0">CPU 时代，你在芯片层面想不了什么事。到 GPU 时代，你能做系统层面的创新。到 Agent 时代，你要做一套完全不一样的运行时环境——&quot;Agent OS&quot;这一层抽象，让 infra 的范围变得更大，往上往下都能走得更深。</p>
+<p style="margin:0.8em 0">他的判断：<strong style="font-weight:600">现在的整个研究范式都在工程化。</strong> 大家都是 Transformer 架构，拼的不是灵光一闪。你要把算法做好、把 infra 做好、把 Agent 做好，都需要搭建一套工程架构，用一套体系来驱动工作。这对做工程的人来说，是最好的时代。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">今天你用工程的方法，去解决更复杂、更广泛的问题。从&quot;刻板的效率提升&quot;，变成了一个开放式探索——你能做的选择、你能做的判断，比原来多很多，影响也更大。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">值得带走的洞见：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI infra 经历了三代跃迁：CPU 时代（纯软件）→ GPU 时代（软硬一体）→ Agent 时代（全栈+运行时环境），每一代对硬件的理解深度要求都在增加</li>
+<li style="margin:0.3em 0">Agent 对 infra 的根本冲击：从&quot;调一次 API&quot;变成&quot;完成真实任务&quot;，需要一整套为 AI agent 设计的新运行环境</li>
+<li style="margin:0.3em 0">模型像青春期的孩子不停长身体——Agent infra 的核心设计哲学是弹性适配，而非精准匹配</li>
+<li style="margin:0.3em 0">模型会成为 OS，巨头争夺的是&quot;开发者基于我的平台开发应用&quot;的入口。但软件公司做芯片有天然的 gap——2.5 年的芯片周期 vs 快速变化的模型需求</li>
+<li style="margin:0.3em 0">Google 是芯云模一体化的典范：自研 TPU 十年 + JAX + 全栈自研 infra，这给了它&quot;可以比你慢一点&quot;的底气</li>
+<li style="margin:0.3em 0">Token 已经被玩坏了。DAA（Daily Active Agents）试图衡量真正完成的任务价值——这不是指标替换，是对 AI 价值度量体系的重新定义</li>
+<li style="margin:0.3em 0">研究范式全面工程化：Transformer 时代拼的不是灵感，是工程体系。这是工程师最好的时代</li>
+</ul>
+
+</div>

@@ -1,0 +1,39 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">模型能力已经够了，要卷就卷 infra</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Runta 戴冠兰：当 Agent 开始跑几天、动真钱，执行层就成了系统工程里最难的问题</strong></p>
+<p style="margin:0.8em 0">Jeff Dean 问过戴冠兰一个问题，他至今觉得很难答：如果系统最底层的执行单元变成了概率性的，那 infra 这一层要怎么构建？</p>
+<p style="margin:0.8em 0">问这个问题的人，后来以个人身份投了他的公司。Runta，一家 10 人团队、a16z 领投 2000 万美元种子轮、估值过亿美元的 Agent 执行层初创公司，投资人名单里还有李飞飞和 Databricks CEO Ali Ghodsi。创始人戴冠兰 35 岁，ENTJ，此前十年在 Cloudflare 和 Kong 做 infra。他给这件事下的定义是：托管对象正从软件、服务，变成 Agent——这是 compute 的一次代际变化。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">概率性的地基上，怎么盖房子</h2>
+<p style="margin:0.8em 0">戴冠兰在 Cloudflare Edge 团队是早期技术负责人，参与构建了 Edge Proxy、Cache 系统和 WAF；在 Kong 作为创始工程师做的网关系统，至今被很多世界 500 强用来治理服务——认证、授权、限流、熔断。他做了十年 infra，总结这些系统的共同假设是：<strong style="font-weight:600">软件在运行之前就决定了自己会做什么，执行边界是清晰的</strong>。守在流量入口，检查进出的一切，放行时符合规则，之后就不会出事。</p>
+<p style="margin:0.8em 0">Agent 打破了这个假设。它不走预先写好的路径，而是边运行边决定要做什么。模型无法从根本上区分指令和数据：一条藏在数据里的注入指令，就能驱动一次工具调用，甚至动用真实权限，而这一切看起来完全合法。传统网络安全靠主动扫描、特征匹配，但对一个自己决定下一步做什么的系统，这些都不成立——治理它的唯一位置，在它的执行底座，在它的动作变成现实的地方。</p>
+<p style="margin:0.8em 0">Jeff Dean 的考察正是冲着这个来的：过去所有的容错、幂等、事务恢复，都建立在&quot;软件是确定的、异常是可枚举的&quot;之上。当执行单元变成概率性的，&quot;这块地基没了，上面那东西怎么做怎么成立&quot;？</p>
+<p style="margin:0.8em 0">戴冠兰的回答是：概率性是大模型的天性，躲不掉；但 Agent 一旦上生产，分布式系统的复杂度、恢复、隔离、分叉，这些需求不但没消失，反而变多了。底层做不了，就只能把事压到 runtime 层去做。</p>
+<p style="margin:0.8em 0">&quot;现在执行层已经变成了系统工程里面最难的一个问题。&quot;Agent 越跑越长：过去的 chat 是几分钟、几个 turn，现在的 Agent 一跑就是几个小时、几天。隔离、分叉、迁移、热迁移——上一代 infra 习以为常的能力，在 Agent 世界里全都没有被解决好。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上千亿次请求教会他的事</h2>
+<p style="margin:0.8em 0">Runta 凭什么拿到这笔钱？戴冠兰自己的解释是，他参与过上一代 infra 从第一性原理从头构建的过程——&quot;我们刚做的时候，Kubernetes、Container 这些技术都还没有&quot;。</p>
+<p style="margin:0.8em 0">Kong 的经历给了他一个量化直觉：每天上千亿次 API 请求的规模下，哪怕 0.00001% 概率出错，也会变成必然事件。这个直觉直接迁移到 Agent 世界——所以执行层每个环节都必须有确定性兜底，不是靠模型自觉，而是靠运行时约束。</p>
+<p style="margin:0.8em 0">Runta 做的事情，用他自己的话说，是在概率性的 workflow 里加入确定性的部分，让企业&quot;刚好能把它用起来&quot;——不需要全部确定，但要给到足够多的信任：Agent 跑在哪里、权限怎么给、最坏情况怎么恢复、每一步能不能审计。公司不做传统意义上的安全框架，做的是管控：让 Agent 在可控边界里执行，出问题能恢复，全程可审计。&quot;安全本身在于你有多少信任给到这个 Agent。不是用一个安全框架把它框起来，而是有一个好的执行底座，反而帮它释放真正的能力。&quot;</p>
+<p style="margin:0.8em 0">一个侧面信号：a16z 很少在种子轮为一个新公司专门写 blog 讲投资逻辑，这次例外，文章由合伙人 Martin 亲自执笔。戴冠兰的理解是，Martin 看到的不是一个 feature、不是一个产品，而是平台级的机会——就像从客户端到服务器、从物理机到虚拟机到容器，每一次都是代际跃迁，这一次被托管的东西从软件变成了 Agent。如果判断成立，这就是巨大的平台机会，值得花一篇文章讲清楚。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个关于灾难性邮件的预言</h2>
+<p style="margin:0.8em 0">对 Agent 权限管理这件事，戴冠兰放了一句狠话：&quot;未来十年内必然会有灾难性的 email，是通过 Agent 发生、特别难以挽回的——Mark my word，绝对会发生。&quot;</p>
+<p style="margin:0.8em 0">他的观察是，现在&quot;用安全换便捷&quot;的企业不占少数，大家内心有恐惧，只是没有好用的底座。而灾难性事故一定会发生，发生后行业才会真正反思 Agent 权限该怎么管。他对个人用户的开源项目 Call Shell 支持在本地跑 Claude Code、Hermes 等 Agent 帮管邮箱；Runta 产品端做的是更复杂的场景——数据库、代码仓库这些高价值资源的权限管理。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">95% 的代码是 Agent 写的，但架构判断还是人</h2>
+<p style="margin:0.8em 0">Runta 自己的工程实践是一个值得展开的样本：Web Coding 占 95% 以上，入门程序员的工作基本全由 Agent 代替。剩下 5% 是人类工程师花大量时间的地方——架构设计、API 设计、部件耦合能力、底层架构判断力。&quot;反而是这些，人类工程师现在还是不可或缺的一部分。&quot;</p>
+<p style="margin:0.8em 0">用 Agent 写代码、再让 Agent 治理其他 Agent，有没有风险？&quot;肯定有风险，所以必须有好依据——判断它是否在有效期。&quot;他们的做法是天天用自己的平台、跑在自己的 Agent 执行环境里，用产品自我迭代。</p>
+<p style="margin:0.8em 0">安全漏洞大概率出在哪一层？戴冠兰认为模型侧会持续加安全训练（比如聊到敏感信息自动跳转到弱模型），但 transformer 架构不变，本质就还是 next token prediction——&quot;它没办法区分你给它的信息是控制指令还是数据，对它来说就是一堆 token&quot;。所以真正的防线只能在执行层，这也是整个品类的存在理由。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个做 infra 的人怎么选 Agent 工具</h2>
+<p style="margin:0.8em 0">聊到工具，戴冠兰现在用 Codex 多。有个流传的比喻（出自 Claude Code 作者）：Codex 像德国人，吭哧吭哧干活，质量很高；Claude Code 像美国人，很彻底，但跟你说一堆废话——&quot;你有没有考虑过这个东西？这问题你想透了吗？&quot;他选 Codex 不是因为有代际级别的模型能力差距（他没看到），而是 Codex 对开发者友好、harness 开源。也因为 Codex 是&quot;被迫开源&quot;、没法向上游贡献代码，他们反而想通过自己的执行底座优化上层的 harness——这正是 Runta 的产品闭环：分析你的 harness 在哪浪费 token、怎么浪费，再帮你生成提示词迭代。</p>
+<p style="margin:0.8em 0">内部他们不搞模型统一：Model Router 交给工程师自己决定，&quot;工程师最有体感&quot;。Grok 负责前端这类恢复半径小的工作，复杂任务用更强的模型。&quot;模型五花八门，但最终结果工程师能负责任就行。&quot;团队里有人对 Claude Code 不屑一顾、觉得写得烂，自己手搓了一套 harness——戴冠兰反而认为这说明每个企业最后可能都会自建一套，harness 的壁垒没那么高。</p>
+<p style="margin:0.8em 0">他自己是公司里用 Agent 最激进的人：ElevenLabs 配音、图像生成模型、录音笔硬件、智能客服代打电话，还有朋友创业做自动语音客服帮人把钱要回来——&quot;我强迫自己用各种早期 Agent 产品，因为我需要知道智能体智能化到了哪一步&quot;。</p>
+<p style="margin:0.8em 0">被问创业状态，他说每天都是过山车，五个好消息五个坏消息，焦虑往往来自那几个坏消息。但从更大的角度看：是不是在解决一个特别让人兴奋的问题？团队是不是最适合的？投资人网络是不是最对的？三个都答&quot;是&quot;，坏消息就只是&quot;点坏消息&quot;——&quot;对于未来十亿、几十亿个 Agent 落地来说，这点事算啥。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Agent 的确定性只能来自执行层：模型本质是 next token prediction，无法区分指令与数据，防线必须在运行时</li>
+<li style="margin:0.3em 0">上一代 infra 人的经验直接复用：Kong 时代&quot;千亿次请求下极小概率也变必然&quot;的直觉，就是 Agent 执行层设计的出发点</li>
+<li style="margin:0.3em 0">a16z 罕见地为种子轮写 blog：判断这是 compute 代际变化——托管对象从软件变成 Agent，是平台级机会</li>
+<li style="margin:0.3em 0">安全不是特征匹配，是管控：可控边界 + 最坏可恢复 + 全程可审计，企业才会把生产权限交给 Agent</li>
+<li style="margin:0.3em 0">灾难性 Agent 事故是行业拐点：戴冠兰预言十年内必然发生，届时权限管理会从&quot;可选项&quot;变成&quot;必需品&quot;</li>
+<li style="margin:0.3em 0">工程师价值上移：入门编码被 Agent 替代，架构/API/耦合判断成为人类不可替代的部分；Model Router 应交给一线工程师</li>
+</ul>
+
+</div>

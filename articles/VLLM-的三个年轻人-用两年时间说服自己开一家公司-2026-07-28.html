@@ -1,0 +1,53 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">VLLM 的三个年轻人，用两年时间说服自己开一家公司</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">从伯克利的校园开源项目到 1.5 亿美元种子轮融资，游凯超和他在 InfraAct 的 co-founder 们花了两年才下定决心。不是技术问题，不是商业模式问题——是「我们愿不愿意离开舒适区，去做那些不擅长的事」。这期三小时的访谈，核心不在技术，在一个开源社区如何变成一家公司，以及在这个过程中什么被保留了，什么被舍弃了。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">游凯超的履历是典型的清华理工男路径：本科博士都在清华，物理竞赛省一等奖，高考分数勉强擦着清华线。但进大学后，他发现自己不喜欢刷题，喜欢学新知识。</p>
+<p style="margin:0.8em 0">他在清华的「逆袭」方式很朴素：刚进校就报名了一个 SRP（学生研究计划）项目，发现清华的课多集中在上午，下午和晚上有大段时间可自由支配。他就把这些时间投进了研究。从最早的课程项目到后来跟教授做课题，「做学术研究都是同一套方法和流程」。</p>
+<p style="margin:0.8em 0">但 VLLM 跟他以前做的所有研究都不一样。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个差点凉掉的项目，和一个非常坚持的老师</h2>
+<p style="margin:0.8em 0">VLLM 起源于伯克利 SkyLab 实验室的一篇论文。核心想法很简单：大模型推理的效率瓶颈不在计算，在显存管理。他们提出了一种新的显存分配算法（PagedAttention），让 KV 缓存像操作系统管理虚拟内存一样动态分配。</p>
+<p style="margin:0.8em 0">论文发出来后，社区反应热烈。但学术论文到可持续的开源项目之间有一条巨大的鸿沟。</p>
+<p style="margin:0.8em 0">SkyLab 的负责教授 Ion Stoica 有两条原则。第一条来自他的导师 David Patterson（图灵奖得主）：「一个实验室应该只开五年，五年后关掉，开新的。」所以实验室不是可以长期承接项目的实体。</p>
+<p style="margin:0.8em 0">第二条原则更关键：Stoica 坚信，「这么大一个项目，如果没有一家公司来支撑，一定会凉。Linux 没有 Red Hat 就不会有今天，Kubernetes 没有 Google 也不会有今天，PyTorch 没有 Meta 也不会有今天。」</p>
+<p style="margin:0.8em 0">从 2024 年起，Stoica 就开始推动游凯超和另外几位核心维护者创业。「你们几个同学，就应该开一家公司来支持 VLLM。」</p>
+<p style="margin:0.8em 0">但游凯超他们花了两年才同意。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两年纠结：不是你想象的那种理由</h2>
+<p style="margin:0.8em 0">游凯超在访谈中坦诚得令人意外。他们犹豫的原因不是技术风险，不是商业模式不清晰——而是「我们要做很多不擅长的事」。</p>
+<p style="margin:0.8em 0">「我们原来很舒适的区域是，来了一个技术问题，拆解它，解决它。现在要创立一家公司，融资、招聘、商业化——这些事情都是我们不熟悉的。」</p>
+<p style="margin:0.8em 0">从学生到创始人的身份转变，困扰了他们整整两年。最后打动他们的是一个非常理工男的论证：</p>
+<p style="margin:0.8em 0">「Stoica 老师说，如果你不跟我们创业，你赚了很多钱，但十年后 VLLM 失败了，你是开心还是不开心？」</p>
+<p style="margin:0.8em 0">游凯超说，这句话「击中」了他。</p>
+<p style="margin:0.8em 0">这里有一个容易被忽略的决策顺序：他们不是先决定创业、再获得融资。而是先决定把 VLLM 捐给 PyTorch 基金会，确保它永远开源，然后才在几个月后决定成立公司来做商业化和技术运维。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么捐给基金会，而不是留在伯克利或放在公司？</h2>
+<p style="margin:0.8em 0">这是整个故事中最精妙的结构设计。</p>
+<p style="margin:0.8em 0">VLLM 现在是 PyTorch 基金会的顶级项目。这意味着：它的商标属于基金会，任何人在合规前提下都可以使用 VLLM 的 logo 和名称。它的代码永远开源——这是基金会的法律约束。但它的技术发展、日常维护和商业化，由 InfraAct 这家公司主导，同时 Red Hat、IBM、AMD 等也在参与。</p>
+<p style="margin:0.8em 0">游凯超解释了这个设计的三层逻辑：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一层，为什么不能留在伯克利？</strong> 「实验室不是法人实体，不能注册商标，不能有自己的法律团队。David Patterson 说实验室只能开五年，它不具备长期承接项目的能力。」</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二层，为什么不直接放在公司？</strong> 「如果 VLLM 属于公司，商标也属于公司，任何人要用 VLLM 的 logo 都得向我们申请。那就不是真正的开源了。」</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三层，基金会的作用是什么？</strong> 「它从法律上明确了 VLLM 永远是一个开源项目。它的商标属于社区，不属于任何一家公司。但具体的技术发展和商业化，可以由我们来做，社区其他公司也可以做。」</p>
+<p style="margin:0.8em 0">这个结构解决了开源社区最核心的信任问题：没有人能把它闭源。同时解决了可持续发展的资源问题：有一家公司在全职维护它。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型和 Infra 的「联合设计」，到底在说什么？</h2>
+<p style="margin:0.8em 0">技术部分的讨论围绕一个核心概念展开：模型和推理引擎的 co-design。</p>
+<p style="margin:0.8em 0">游凯超给了一个非常具体的比喻：「水流有湍急和平缓的地方，你要在不同地方设计不同的发动机来利用水的能量。模型就是水流，推理引擎就是发动机。」</p>
+<p style="margin:0.8em 0">DeepSeek 是这场讨论里被反复提及的案例。游凯超的判断是：DeepSeek 的推理优化能力（而非算法创新本身）才是它最深的护城河。</p>
+<p style="margin:0.8em 0">「DeepSeek 的 infra 功底来自幻方量化时期对性能的极致压榨。算法同学做 MoE 探索的时候，infra 同学给了很大支持——第一个细粒度 MoE 的高效实现就是在 DeepSeek 的推理系统里做出来的。」</p>
+<p style="margin:0.8em 0">但他也指出了一个反面案例：「MoE 发展史上出现过 infra 同学为了负载均衡而选了 expert choice 的方案，这在算法上其实不能被接受，虽然推理层面跑得很快。这就是 infra 过度主导的代价。」</p>
+<p style="margin:0.8em 0">理想的 co-design 应该是什么样的？游凯超的判断很克制：「理想情况下两者应该 co-design，但现实是硬件更强势——因为它已经设计出来了。」</p>
+<p style="margin:0.8em 0">关于 DeepSeek 最新的 DisSpark（投机解码优化），他的评价更冷静：「算法层面不 novel——腾讯混元和上海交大都有类似思路的工作。但 DeepSeek 的特点是把一个不太 novel 的想法实现到了极致。这就是 infra 能力的价值。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">对开源信仰的现实主义检验</h2>
+<p style="margin:0.8em 0">整场访谈中，最有信息量的一句话可能是游凯超无意中说出的：「PyTorch 基金会能承诺的只有一件事——你必须是一个开源项目。」</p>
+<p style="margin:0.8em 0">这句话隐含了一个很冷的判断：基金会不会帮你写代码，不会帮你做商业化，不会帮你招人。它只保证一件事——你在法律上不能闭源。剩下的，全得靠自己。</p>
+<p style="margin:0.8em 0">而 InfraAct 的创始人们用了两年时间接受这个现实：要让 VLLM 活下去，他们必须学会融资、招聘、商业化——那些他们「不擅长」的事。</p>
+<p style="margin:0.8em 0">今年初的 1.5 亿美元种子轮，算是对这个选择的初步验证。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">VLLM 从论文到开源项目到公司的路径是：先捐给 PyTorch 基金会（保证永远开源），再成立 InfraAct 做商业化。这个顺序决定了它的信任基础</li>
+<li style="margin:0.3em 0">游凯超和 co-founder 们犹豫了两年才创业，阻力不是技术或商业，而是从「来了问题拆解问题」到「融资招聘商业化」的身份转变</li>
+<li style="margin:0.3em 0">模型和推理引擎的 co-design 关键矛盾在于：硬件是既成事实（已设计完成），算法话语权通常更高，infra 往往是被动接收。理想的平衡需要两者「一起办公、耳濡目染」</li>
+<li style="margin:0.3em 0">DeepSeek 的核心壁垒不在算法 novelty（DisSpark 有类似工作），在 infra 实现能力——「把一个不太 novel 的想法压榨到极致」</li>
+<li style="margin:0.3em 0">PyTorch 基金会给 VLLM 的唯一法律承诺是「必须开源」。代码、技术方向、商业化全得靠自己。这是开源信仰的现实主义版本</li>
+</ul>
+
+</div>

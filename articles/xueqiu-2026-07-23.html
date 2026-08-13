@@ -1,0 +1,25 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🔴 <strong style="font-weight:600">雪球登录已过期 — 已自动打开 Chrome 登录窗口</strong></p>
+<p style="margin:0.8em 0">请在打开的浏览器窗口中完成雪球登录（账号密码 + 验证码），登录完成后：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Cookie 自动保存到 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/Developer/xueqiu-crawler/config.json</code></li>
+<li style="margin:0.3em 0">下次 cron 执行（明日 22:00）自动恢复，无需再次登录</li>
+<li style="margin:0.3em 0">Chrome 窗口将在 120 秒后自动关闭</li>
+</ul>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚠️ 本次监控因登录失效跳过，无新增内容分析。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<details>
+<summary>📋 技术详情</summary>
+
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">fetch 输出</strong>: login_required = true（WAF 拒绝 Playwright session）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">auto-login 尝试</strong>: 密码填充成功，auth cookie 获取成功，但回到 xueqiu.com 后 WAF 拒绝（需真实 Chrome 用户 profile）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">已启动</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">setup_xueqiu_login_cron.py</code> (background, headed Chrome with real Chrome channel)</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Cookie 目标路径</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/Developer/xueqiu-crawler/config.json</code></li>
+</ul>
+</details>
+
+
+</div>

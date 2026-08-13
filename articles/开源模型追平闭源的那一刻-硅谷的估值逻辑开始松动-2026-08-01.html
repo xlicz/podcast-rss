@@ -1,0 +1,42 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">开源模型追平闭源的那一刻，硅谷的估值逻辑开始松动</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Kimi K3 权重发布 15 天后的蒸馏指控、护城河焦虑与开放权重之争</h2>
+<p style="margin:0.8em 0">2026 年 7 月 27 日，月之暗面发布 Kimi K3 的完整模型权重。此前一周，它的 API 已经在硅谷引发持续讨论；权重落地后，讨论升级为一场关于&quot;蒸馏&quot;、&quot;安全&quot;和&quot;商业模式&quot;的三方混战。这期硅谷101 请来两位身处变化中心的嘉宾——前 HuggingFace 亚太开源生态负责人王铁震，以及总部在硅谷的 Tinyfish 联合创始人 Keith——把这件事的时间线、指控与利益格局拆了一遍。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心问题只有一个：当开源模型与最强的闭源模型站到同一水平线，靠&quot;卖智能&quot;赚钱的公司还值多少钱？</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 DeepSeek 到 K3：一条让硅谷反复受惊的时间线</h2>
+<p style="margin:0.8em 0">硅谷对这件事并不陌生。嘉宾把时间轴拉回 2025 年初：DeepSeek R1 发布，开源界第一次看到推理模型是怎么做的，当天纳斯达克大跌。那一次，硅谷的结论是&quot;中国开源模型已经非常接近闭源前沿&quot;——硬件生态、AI 估值体系、模型公司生态，全部经历了一轮反思。</p>
+<p style="margin:0.8em 0">但随后一年，故事反转了。闭源模型的迭代速度远超开源：Opus 4.6、4.7、4.8 一路更新，基本是月更；开源模型则是季更，性能被越拉越开。&quot;只要闭源领先超过一个世代，就没有什么好担心的&quot;——这是硅谷过去一年的共识。</p>
+<p style="margin:0.8em 0">转折发生在最近几个月。先是 Gemini 5.2 让不少人放下了对闭源模型的执念——王铁震说自己已经用它完全取代了 Opus 4.8 的部分功能。但这只是&quot;美国模型内部的替代&quot;，硅谷还能自我安慰。真正让人坐不住的是 K3：它不是在跟 Opus 比肩，而是追上了硅谷最强的闭源模型（文中称 Fable），甚至在某些场景做得更好。</p>
+<p style="margin:0.8em 0">&quot;闭源模型瞬间发现，自己没有一个护城河。&quot;开源模型与闭源前沿重新回到平级——这正是 DeepSeek R1 时代那个令人不安的局面。而这一次，K3 的完整权重被公开释放，任何人都可以下载、部署、定制。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">15 天间隔：蒸馏指控为什么站不住脚</h2>
+<p style="margin:0.8em 0">K3 在硅谷引发的最大争议是蒸馏。理由看起来很&quot;合理&quot;：Fable 与 K3 的可用版本发布，中间只隔了大约 15 天——你怎么可能这么快追上来？你一定是在蒸馏。</p>
+<p style="margin:0.8em 0">两位嘉宾都不认同这个指控，理由很实际：<strong style="font-weight:600">15 天连准备都来不及</strong>。蒸馏需要先收集足够多的语料、完成训练、再发布，这不是两周能完成的事。Keith 的判断是，K3 大概率没有蒸馏 Fable。</p>
+<p style="margin:0.8em 0">更根本的一点：蒸馏从来不是罪。整个行业都在蒸馏——开源模型蒸馏闭源模型，闭源模型也在蒸馏开源模型，这是行业通行的工程做法。真正的差异不在&quot;有没有蒸馏&quot;，而在&quot;为什么有人能 15 天发布，有人不能&quot;。</p>
+<p style="margin:0.8em 0">答案藏在成本与工程能力里。中国实验室在推理优化上投入了大量人力，API 的走量能力、训练成本的控制，这些是藏不住的硬功夫。与其说 K3 是&quot;偷来的能力&quot;，不如说它证明了另一件事：<strong style="font-weight:600">在模型能力接近的情况下，工程效率和成本控制才是真正的分水岭</strong>。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源不再&quot;够用就好&quot;：它开始定义价格</h2>
+<p style="margin:0.8em 0">过去一年，企业用开源模型的逻辑是&quot;成本敏感场景的替代品&quot;。现在这个逻辑被改写：当开源模型追平闭源前沿，它不再只是&quot;便宜的选择&quot;，而是&quot;默认的选择&quot;。</p>
+<p style="margin:0.8em 0">对闭源实验室的冲击是直接的。第一波是估值体系。OpenAI 和 Anthropic 都面临上市定价的问题——在开源模型追平 Fable 之前，大家默认闭源模型具有稀缺性和垄断性，&quot;垄断智能&quot;天然值得万亿市值。嘉宾讲了一个黑客松的段子：GPT 的服务器在活动中断线，全场开发者立刻停摆——&quot;大家的智能被断供了&quot;。</p>
+<p style="margin:0.8em 0">但开源模型让&quot;非常聪明的模型&quot;变成了流通商品，甚至平民化到社会基础服务的程度。这时再问 OpenAI 和 Anthropic 值多少钱，答案就模糊了：有多少企业愿意在开源遍地开花的情况下继续付费？闭源的 Margin 能撑到多少？投资者还敢无限投入 scaling 吗？</p>
+<p style="margin:0.8em 0">第二波是价格战。如果所有美国 NeoCloud 都变成 Anthropic 和 OpenAI 的竞争对手——它们天然有开源模型，交点 license 费仍然比把数据中心低价卖出去赚得多——闭源实验室的业务就很难再有爆炸性增长。NeoCloud 之间互相卷价格，把 token 压到极低，甚至用资本手段把数据中心成本摊进 capex 里卖便宜 token。OpenAI 和 Anthropic 已经被迫卷入这种竞争：过去&quot;封你号就封你号&quot;的高傲姿态松动了，开始发券、圈用户、对账号管理放软。这些都会反映在财报和市场竞争里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">公开信、黄仁勋与卖铲子的逻辑</h2>
+<p style="margin:0.8em 0">这场博弈已经从商业蔓延到政治。7 月 24 日，25 家公司和个人签署公开信《开放权重和美国AI领导力》，几天内发酵到 75 家。黄仁勋加入 X 后的第一篇推文就是转这份公开信，影响巨大。</p>
+<p style="margin:0.8em 0">利益格局在这里彻底分化。NVIDIA 的逻辑最清晰：开放生态意味着更多人需要建集群、买卡——它不关心谁能挖到金子，只关心卖铲子。Meta、阿里这类有分发和基础架构的公司同样站在开放阵营。而靠卖 API 吃饭的闭源实验室，立场天然相反。</p>
+<p style="margin:0.8em 0">值得注意的是，OpenAI 一直没签这份公开信；Anthropic 的 CEO 则在同一天发表文章解释对开放权重的看法。嘉宾的判断是，开放与闭源的商业逻辑从根本上对立，且会越走越远——这不是理念之争，是收入模式之争。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;开源不安全&quot;：一个可以原样反弹的指控</h2>
+<p style="margin:0.8em 0">安全是反对开放权重最常用的理由，也是嘉宾认为最站不住脚的理由。Keith 讲了一个日本大公司的案例：Fable 不可用那天，对这家公司冲击最大的不是&quot;不能用了&quot;，而是&quot;原来这个东西是不安全的&quot;——做完所有部署后，供应商随时可能因政策、合规或商业原因封号、改权限。闭源的核心风险，恰恰是把东西交给别人。</p>
+<p style="margin:0.8em 0">反过来看&quot;开源模型可以做坏事&quot;的指控：恶意者用更强力、更方便的闭源模型更容易达成目的，攻破 filter 就行；用开源模型反而要先搞两台 B300 机器（一年租金上百万），再补齐与闭源模型的能力差距——成本高得多。至于&quot;中国模型有后门&quot;的担忧，嘉宾指出：闭源模型你连它什么时候输出什么都不知道，开源模型反而可以在受控环境里审计、约束输入输出。</p>
+<p style="margin:0.8em 0">最关键的判断来自王铁震：<strong style="font-weight:600">智能与安全是两个独立的话题</strong>。爱因斯坦不知道如何黑 NASA 的网站，而一个 18 岁高中生可能知道。一个足够聪明的模型，不代表它天然知道如何攻击。监管更应审查模型用什么语料训练——把生物安全、网络攻击的语料从训练数据里删掉——而不是只看模型最终表现出来的行为。他给出的结论很直接：&quot;没有开源，反而是一个时代最不安全的事情。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">无本万利的新路径</h2>
+<p style="margin:0.8em 0">这场争论背后，一个新的商业模式正在被验证：<strong style="font-weight:600">开源权重 + license 授权</strong>。如果这条路径走通，它比自己做推理服务&quot;无本万利&quot;——把模型做好，企业直接来上供，连买卡的压力都省了，尤其对买卡面临挑战的中国企业。嘉宾个人希望这条路径能走通，因为它可能改变整个开源模型的可持续性。</p>
+<p style="margin:0.8em 0">无论 license 路径最终如何，K3 权重发布这件事已经把硅谷的讨论从&quot;要不要用开源模型&quot;推进到&quot;闭源商业模式还成立吗&quot;。接下来 Mix、千问等中国模型还有两到三万亿参数级别的发布在路上。这个行业的变化速度，用嘉宾的话说，&quot;极其快，也极其有意思&quot;——而对闭源实验室来说，可能就没那么有意思了。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Kimi K3 完整权重发布（7 月 27 日）标志着开源模型首次与最强闭源模型站到同一水平线，硅谷的&quot;闭源领先一个世代&quot;共识被打破</li>
+<li style="margin:0.3em 0">蒸馏指控站不住脚：Fable 与 K3 发布间隔仅 15 天，蒸馏训练周期根本来不及；且蒸馏是行业通行做法，真正的分水岭是工程效率与成本控制</li>
+<li style="margin:0.3em 0">开源模型从&quot;便宜替代品&quot;变成&quot;默认选择&quot;后，OpenAI/Anthropic 的估值逻辑（垄断智能 = 万亿市值）开始松动，上市定价将直接承压</li>
+<li style="margin:0.3em 0">开放与闭源的冲突本质是收入模式冲突：NVIDIA 卖铲子天然挺开放，Meta/阿里靠分发挺开放，卖 API 的实验室被迫卷入 token 价格战</li>
+<li style="margin:0.3em 0">&quot;开源不安全&quot;的指控可以原样反弹：闭源的风险是供应商随时封号改权限，恶意者用闭源模型更容易作恶；智能与安全是两个独立话题</li>
+<li style="margin:0.3em 0">值得观察的新模式：开源权重 + license 授权可能是&quot;无本万利&quot;的商业模式，对中国模型公司尤其有意义</li>
+</ul>
+
+</div>

@@ -1,0 +1,56 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI Agent 正在陷入&quot;技能地狱&quot;——Matt Pocock 的突围清单</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当你的 Agent 安装了 100 个技能却哪个都用不好，问题不在 Agent，在你的技能设计。</strong></p>
+<p style="margin:0.8em 0">Matt Pocock 是 Total TypeScript 的作者，也是 MCP Skills 技能仓库的维护者——目前最流行的 AI 工程技能集之一。但他在 AI Engineer World Fair 的演讲开场就自嘲：他的技能仓库可能正是&quot;技能地狱&quot;的推手之一。</p>
+<p style="margin:0.8em 0">所谓技能地狱：开发者手头有一堆技能，随便下载、自己摸索，但完全搞不清楚这些零件怎么拼到一起，分不清好技能和坏技能。在个人层面，人们试图把所有东西一口气试一遍，结果做不到；在组织层面，团队不知道怎么把操作流程转化成 Agent 能执行的东西。</p>
+<p style="margin:0.8em 0">&quot;再来一个技能就行啦兄弟&quot;——Matt 说这就是当下的状态。</p>
+<p style="margin:0.8em 0">他的解决方案是一份系统性检查清单，四个维度：触发、结构、引导、剪枝。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">触发：谁在调用，代价是什么</h2>
+<p style="margin:0.8em 0">技能有两种调用方式。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">用户调用</strong>：你手动让 Agent 读取技能文件。Agent 的上下文里看不到这些技能，只有你决定调用时才加载。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">模型调用</strong>：技能的描述常驻在 Agent 上下文里，Agent 自己判断何时需要读取完整技能文件。</p>
+<p style="margin:0.8em 0">两种方式各有代价。模型调用技能会持续增加 Agent 的上下文负载——每次请求都在消耗 token，也给 Agent 多了一个要思考的东西。Matt 说，如果你有 100 个模型调用技能，Agent 上下文里就有 100 条描述。而用户调用技能虽然不消耗上下文，却把认知负载转移给了人——操作者需要在脑子里记住什么时候该用什么技能。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">Superpowers 的技能主要是模型调用，给 Agent 赋予超能力。我的技能更倾向于让我完全掌控——压到最小的上下文负载，但确实给我自己带来了更多认知负载。</p>
+</blockquote>
+<p style="margin:0.8em 0">这就是一个设计取舍：你更愿意让 Agent 承载决策负担，还是自己来？</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结构：给技能做分支手术</h2>
+<p style="margin:0.8em 0">一个好的技能文件不是把所有东西堆在一起。Matt 的核心方法论是&quot;分支&quot;——识别技能的不同使用场景，让每种场景只加载它需要的部分。</p>
+<p style="margin:0.8em 0">他把技能的参考资料分为两种：<strong style="font-weight:600">核心资料</strong>（所有分支都需要）和<strong style="font-weight:600">分支资料</strong>（只在特定场景需要）。分支资料应该放在单独的文件里，技能主文件里只保留一个上下文指针，指向那个文件。Agent 在需要时才去拉取。</p>
+<p style="margin:0.8em 0">他举了自己的 2PRD 技能为例：所有使用场景都需要 PRD 模板，所以模板保留在主文件里。而另一个技能 Domain Modeling 做两件不同的事——更新词汇表、创建架构决策记录——有时只做一件，这就产生了多个分支。AD 模板和 context 模板都应该移到外部引用中。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">如果某份参考资料只在一个分支里用到，那它就从主 skill.md 里移出去。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">引导：用压缩的词语改变 Agent 行为</h2>
+<p style="margin:0.8em 0">这是 Matt 框架里最实操也最反直觉的部分。</p>
+<p style="margin:0.8em 0">Agent 写代码有一个经典问题：它会&quot;一层一层&quot;地写——先写完整个数据库层，再写所有 schema，再写所有 API 端点，最后才写前端。人类工程师的做法是：先跑通一个小切片，拿到反馈，再扩展。</p>
+<p style="margin:0.8em 0">怎么办？直接告诉 Agent&quot;不要一层一层写代码&quot;效果有限。Matt 的做法是引入引导词（steering words）：用一个高度压缩的短语，反复在技能文件里重复使用，Agent 会在自己的推理轨迹里不断复述这个词，行为就会被改变。</p>
+<p style="margin:0.8em 0">比如&quot;垂直切片&quot;（vertical slice）。这个词在软件开发领域有明确的专业含义，Agent 的先验知识会被触发。你把&quot;垂直切片&quot;写进技能，Agent 就会在推理轨迹里说&quot;好，我们要把它做成一个薄的垂直切片&quot;，然后给出更好的实现计划。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">把大量含义压缩到一个相对短的短语里，然后在整个技能中反复使用它。</p>
+</blockquote>
+<p style="margin:0.8em 0">另一个关键技巧：<strong style="font-weight:600">隐藏未来的步骤来增加当前步骤的基础工作量</strong>。Agent 有一个常见失败模式——在计划阶段，它知道自己最终要&quot;创建计划&quot;，所以问澄清性问题这一步永远做不够，草草问几个问题就急着进入下一步。</p>
+<p style="margin:0.8em 0">Matt 的解法：把&quot;问澄清性问题&quot;拆成独立技能，Agent 一次只能看到这一步。等这一步真的做完了，再加载下一个技能。&quot;通过隐藏未来的目标来增加当前步骤的基础工作量，没有比这更好的技巧了。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">剪枝：删除测试是最诚实的编辑</h2>
+<p style="margin:0.8em 0">技能文件会自然积累冗余——多人协作时每个人往上加东西，没人删改别人的内容。Matt 管这叫&quot;冗余沉积&quot;。</p>
+<p style="margin:0.8em 0">他的清理方法很简单：做删除测试。把一段内容删掉，看 Agent 的行为有没有变化。如果没有，那段内容就是无效操作——看起来在做点什么，实际上不影响 Agent 的行为。</p>
+<p style="margin:0.8em 0">他举了个例子：很多技能里有一段告诉 Agent &quot;写一个又长又详细的提交信息&quot;。直接删掉试试——Agent 大概率还是会写出一份像样的提交信息。那段文字根本没起任何实际作用。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">很多人问我怎么把技能文件做得这么精简——就是做删除测试，把内容压缩成引导词，确保没有无关的东西，也没有冗余沉积。</p>
+</blockquote>
+<p style="margin:0.8em 0">其他常见失败模式：重复（同一个信息出现在技能的不同位置，且不是单一事实来源）、过时的内容、跟所有分支都不相关的材料。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语</h2>
+<p style="margin:0.8em 0">Matt Pocock 的框架本质上是在回答一个问题：当 AI Agent 的行为偏离预期时，问题出在哪里？</p>
+<p style="margin:0.8em 0">他的答案是：大多数时候不是 Agent 能力不够，而是技能设计没有给 Agent 提供正确的结构和信号。触发方式决定了认知成本由谁承担，结构决定了信息在需要时是否可得，引导词决定了 Agent 的默认行为路径，剪枝则去掉了所有干扰信号。</p>
+<p style="margin:0.8em 0">四个维度的检查清单，本质上是一套&quot;Agent 行为的人因工程&quot;——不靠更强大的模型，靠更好的指令设计。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">模型调用技能增加 Agent 上下文负载，用户调用技能增加人的认知负载——选择你愿意承担哪一种</li>
+<li style="margin:0.3em 0">技能文件应该按&quot;分支&quot;组织：不同使用场景需要的材料分开存储，按需加载</li>
+<li style="margin:0.3em 0">引导词是最强的行为工具：定义一个压缩词（如&quot;垂直切片&quot;），在技能中反复使用，Agent 会在推理轨迹中复述并采纳</li>
+<li style="margin:0.3em 0">隐藏未来步骤可以显著增加当前步骤的投入深度——把多步骤流程拆成独立技能</li>
+<li style="margin:0.3em 0">删除测试是判断内容是否有用的唯一诚实方法：删掉看 Agent 行为变了没</li>
+</ul>
+
+</div>

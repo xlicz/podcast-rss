@@ -1,0 +1,46 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🚨 <strong style="font-weight:600">雪球登录已过期 — 需要手动重新登录</strong></p>
+<p style="margin:0.8em 0">fetch_xueqiu_posts.py 检测到雪球未登录。WAF 拒绝自动化登录的 cookie，必须手工完成极验验证码。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔧 操作步骤（2分钟）</h3>
+<p style="margin:0.8em 0">在 Mac 终端运行：</p>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python3 ~/.hermes/scripts/setup_xueqiu_login.py
+</code></pre>
+<p style="margin:0.8em 0">浏览器会自动打开雪球首页，按提示：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">点击「登录」→ 「账号密码登录」</li>
+<li style="margin:0.3em 0">输入账号密码</li>
+<li style="margin:0.3em 0">完成极验滑块验证码</li>
+<li style="margin:0.3em 0">确认看到首页关注流后，在终端按 Enter</li>
+</ol>
+<p style="margin:0.8em 0">Cookie 自动保存到 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/Developer/xueqiu-crawler/config.json</code>，下次 cron 自动恢复。有效期通常数天到数周。</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">检测项</th>
+  <th style="text-align:center">状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">快照</td>
+  <td style="text-align:center">✅ 有 (2026-07-12, 64条)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Cookie 注入</td>
+  <td style="text-align:center">❌ 17 cookies 注入后仍返回未登录</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">自动登录尝试</td>
+  <td style="text-align:center">❌ WAF 拒绝 (login_required)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">手动登录弹窗</td>
+  <td style="text-align:center">❌ cron sandbox 无法交互 (EOFError)</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚠️ 登录成功后下次 cron 执行自动恢复正常。本次监控已中止。</p>
+</blockquote>
+
+</div>

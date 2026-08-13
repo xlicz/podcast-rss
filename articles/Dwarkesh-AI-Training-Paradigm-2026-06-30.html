@@ -1,0 +1,70 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 训练的下一范式：为什么你的模型永远毕不了业</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Dwarkesh Patel 的这篇单人独白，可能是 2026 年上半年关于 AI 训练范式最清晰的推演。他论证了一个令业界不安的结论：当前所有大模型实验室砸数十亿美元搞的 RLVR 训练，本质上是在把一个天才研究生永远关在课堂里做案例题，从不让他毕业去实习。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;可验证&quot;不够，还需要&quot;可磨炼&quot;</h2>
+<p style="margin:0.8em 0">Dwarkesh 从一个看似偏题的问题切入：为什么计算机使用（computer use）的进展比编程、数学慢这么多？明明计算机使用也是高度可验证的——订的货到了没、场地订好了没、报税提交了没，这些都是二值结果。</p>
+<p style="margin:0.8em 0">答案在于一个被严重低估的概念：<strong style="font-weight:600">可磨炼性（grindability）</strong>。</p>
+<p style="margin:0.8em 0">可验证意味着你能判断一个行动是否正确。可磨炼意味着你能在一个确定性的、可重置的模拟器里并行运行上千次 rollout，从同一个起点出发，精确对比每一步的差异。编程就是这样——你可以定义一个容器，里面有一个缺少某些功能的代码仓库，然后让 1000 个并行的 agent 去解决它，每个 agent 获得完全相同的容器副本。</p>
+<p style="margin:0.8em 0">但计算机使用做不到。你没法让 1000 个 agent 同时尝试亚马逊的结账流程。&quot;因为 Andy Jassy 会发现你的机器人，然后把你的号封了。&quot;</p>
+<p style="margin:0.8em 0">这揭示了一个更深的规律：<strong style="font-weight:600">除非你能为一个领域构建出高度可回放的训练目标，否则模型就很难取得大的进展。</strong> 模型在训练期间的样本效率极低——只有人类的百万分之一——所以必须靠海量并行 rollout 来弥补。对于那些无法打包进容器的现实任务（从零打造一家公司、打赢官司、帮候选人赢得选举），RLVR 这条路走不通。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">天才研究生，从未实习过</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">我们就像有个天才研究生，却从不让他去真正实习。我们只是一直在 RL 环境训练里给他越来越多的课堂案例研究。</p>
+</blockquote>
+<p style="margin:0.8em 0">这句话是全篇最锋利的一个比喻。</p>
+<p style="margin:0.8em 0">Dwarkesh 指出一个荒谬的现状：AI 已经被广泛部署到经济中，参与了大量不同类型的任务，接触了海量的特定领域和组织隐性知识——但这些部署产生的数据，<strong style="font-weight:600">目前对改进模型本身没有任何贡献</strong>。</p>
+<p style="margin:0.8em 0">一个实验室大约 30% 到 50% 的算力花在推理上。这些推理过程中模型暴露在真实世界的问题里——组织内部如何运作、常见失败模式是什么、与基础设施如何配合——但模型学到的所有东西都只存在于临时的上下文窗口里，会话结束就烟消云散。</p>
+<p style="margin:0.8em 0">&quot;这看起来是一种巨大的浪费，而且实际情况比听起来更糟，因为最有价值、能让模型从中学习的信息恰恰只有在部署阶段才会显现。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上下文学习不是持续学习</h2>
+<p style="margin:0.8em 0">LLM 目前通过上下文学习（in-context learning）来在单次会话中&quot;学习&quot;——注意力机制即时构建快速权重，带来了样本效率，但内存扩展性极差。你不能靠无限堆积 kv-cache 来模拟真正的学习。</p>
+<p style="margin:0.8em 0">&quot;人类也不是这么做的。我们大脑里并没有在参数和激活之间画出一条清晰的界线，而且你的头骨也不会因为一辈子学的东西越来越多就不断变大。&quot;</p>
+<p style="margin:0.8em 0">Dwarkesh 引了一个反直觉的例子：那些拥有自闭症天才般能力、能在多年后回忆起随机数字表格的人，恰好因为这种高保真记忆的负担而削弱了理解抽象概念和隐喻的能力。<strong style="font-weight:600">真正的学习是压缩，是筛选，是把正确的直觉凿回权重里——不是把所有观察到的东西都挂在嘴边。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">OPUSD：把经验蒸馏回权重</h2>
+<p style="margin:0.8em 0">Dwarkesh 重点介绍了一种叫 <strong style="font-weight:600">on-policy self-distillation（OPUSD）</strong> 的技术。核心思路：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">让一个&quot;老师模型&quot;在上下文窗口中经历长时间的会话，积累大量经验</li>
+<li style="margin:0.3em 0">训练&quot;学生模型&quot;（基础模型）去匹配老师模型在同样问题上的预测</li>
+<li style="margin:0.3em 0">关键不是匹配所有 token，而只提取那些在实际任务中真正影响结果的必要知识</li>
+</ol>
+<p style="margin:0.8em 0">相比传统 RL，OPUSD 有两个优势：不需要外部可验证奖励函数（只要能有一个在上下文里学到正确东西的模型就够了），而且监督信号比 naive RL 密集得多——你可以在老师和学生之间每个 token 的概率差异上进行训练，而不是把单一奖励投射到整个轨迹上。</p>
+<p style="margin:0.8em 0">更重要的是，OPUSD 保留了 RL 的一个关键特性：<strong style="font-weight:600">每次更新只改动很少的参数</strong>。&quot;你在工作中学习时，肯定不希望覆盖和忘掉基础模型已经掌握的其他所有东西。RL 每个样本学到的信息比监督学习少得多，但这可能是好事——你只对模型做最必要的改动来达成结果，绝不多改。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Dreaming：第四个扩展维度</h2>
+<p style="margin:0.8em 0">Dwarkesh 提出了一个更具猜想性的想法：<strong style="font-weight:600">如果 AI 能构建现实的模拟器，用它来排练新技能或尝试不同策略，那么在实际时间里就能经历数量级更多的模拟样本。</strong></p>
+<p style="margin:0.8em 0">引用 EfficientZero 的例子：DeepMind 的 AlphaZero 之后，研究者训练了一个叫 EfficientZero 的模型。给 EZ 和一个人类各两小时去玩一个没见过的 Atari 游戏——EZ 很可能打败新手人类。但这里的&quot;两小时&quot;是真实的游戏时间。对于游戏中的每一步，EZ 都在&quot;脑海里&quot;玩了几十局模拟。</p>
+<p style="margin:0.8em 0">Dwarkesh 把这个概念推演到 LLM：未来的模型可能只需要消耗少得多的真实世界数据，同时在自己构建的环境里进行无尽的练习。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;你不是在 Cursor 或 Claude 里敲 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">/compact</code>——那个指令只是消耗一点点算力写个摘要，给你一种持续学习的假象。而是敲 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">/dream</code>，这会消耗海量算力来构建一个模型在现实世界所见事物的电子游戏版本，并针对它进行训练。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">如果 Dreaming 成功，它将成为继预训练、RLVR 和推理时计算之后的<strong style="font-weight:600">第四个扩展维度</strong>——你可以叫它测试时训练。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2027-2028：持续学习的可能路径</h2>
+<p style="margin:0.8em 0">Dwarkesh 给了一个渐进式的情景推演：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">RLVR 训练</strong>产出一个足够通用的 agent，被扔到不熟悉的问题上时能迅速找到方向、尝试不同策略、遇到障碍时迭代</li>
+<li style="margin:0.3em 0">把它<strong style="font-weight:600">部署到真实世界</strong>做实际工作——包括训练分布外的项目</li>
+<li style="margin:0.3em 0">假设到那时上下文长度已经扩展了很多，AI 可以和你密集协作整整<strong style="font-weight:600">一周</strong>。一周结束时给它一个好评或差评</li>
+<li style="margin:0.3em 0">如果给了好评，基础模型通过 OPUSD、Dreaming 或某种新技术，<strong style="font-weight:600">把这一周学到的所有东西蒸馏回权重</strong></li>
+<li style="margin:0.3em 0">AI 开始在那些与 RLVR 训练内容相邻的领域变得更好。下一轮，又能在与上一次在线学习内容相邻的事情上做得更好</li>
+</ol>
+<p style="margin:0.8em 0">&quot;通过这种方式，AI 的技能、知识和能力范围就能远远超出模型在部署前最初训练时所针对的那些可验证领域。&quot;</p>
+<p style="margin:0.8em 0">到 2027-2028 年，AI 进步的主要方式将不再是被发布之前所接受的训练，而是来自被广泛部署到经济活动中所积累的所有经验。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">你每次和 AI 互动，它都会变得更聪明。这不仅是因为它从你之前的会话中学习了，也因为它从和世界上所有其他用户的所有互动中学习了。这非常可怕，也非常令人兴奋。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">RLVR 有根本性限制</strong>：可验证不等于可磨炼。真实世界的大多数高价值任务缺乏可重置的模拟器，这条路走不到 AGI</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">部署数据是最大浪费</strong>：30-50% 算力花在推理上，但这些数据目前零反馈回模型训练</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">上下文学习是假的学习</strong>：它在会话中有效，但不可扩展，也不是人类学习的方式。真正的学习是压缩后的权重更新</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">OPUSD 是关键候选技术</strong>：把上下文中的经验高效蒸馏回权重，每个 token 提供密集监督信号，每次只改最少参数</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Dreaming 可能是第四个 scaling 维度</strong>：AI 自建模拟器、自我排练、自我强化</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">从预训练 → RLVR → 持续学习</strong>，这是一条清晰的递进路径。当前的&quot;课堂学霸&quot;范式注定要过时</li>
+</ul>
+
+</div>

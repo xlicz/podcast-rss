@@ -1,0 +1,42 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/06</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Meta 入局 coding agent 大战、Google DeepMind 高层重组、具身智能 VLA→WAM 范式之争升温、小米开源具身基础模型、Anthropic 自研芯片。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">AI 竞争白热化：Meta 发布 Muse Code 对标 Claude Code/Codex；Google DeepMind 重组，Hassabis 退居 Chair 专注 AGI 前沿，Jeff Dean 升 SVP 掌 Gemini。具身智能方向两条关键进展：NVIDIA 官方论证 World Action Models（WAM）超越 VLA，小米开源 Xiaomi-Robotics-1（Apache-2.0）。AI 硬件方面 Anthropic 组建自研芯片团队，软硬协同设计军备竞赛升级。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Meta 发布 Muse Code 终端编码代理 + Muse Spark 1.2 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Meta 正式入局 coding agent 战场。Muse Code（beta）为 terminal coding agent，由 Muse Spark 1.2 驱动，主打大规模代码库复杂工程任务：规划、写码、验证闭环；可协调多个持久化后台子代理（整个 session 常驻而非按任务生成，降低延迟与人工干预）；本地事件日志记录每次模型调用/工具运行/审批/编辑，实现 replay-exact 与 crash 后精确恢复。Muse Spark 1.2 为 coding-focused 升级，显著扩大 coding 训练算力并增加训练环境多样性。CNBC、WSJ、Bloomberg、TechCrunch、Decrypt 均以&quot;对标 OpenAI/Anthropic&quot;口径报道。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Meta 官方博客 + 5 家独立媒体一致报道 — <strong style="font-weight:600">关注</strong>: 大厂 coding agent 军备竞赛白热化</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: research.meta.ai（🟢）+ CNBC/WSJ/Bloomberg（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Google DeepMind 重组：Hassabis 转 Chair，Jeff Dean 升任 SVP 掌 Gemini | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Pichai 内部信确认：Demis Hassabis 由 CEO 转任 Google DeepMind Chair + Alphabet Chief Scientist，专注 AGI 前沿与科学（&quot;foothills of the singularity&quot;）；Jeff Dean 由 GDM CTO/Chief AI Architect 升任 SVP of Google DeepMind、直接向 Pichai 汇报，主管 Gemini 模型开发与 Frontier AI 研究；Koray Kavukcuoglu 亦获新角色。信中提到 Gemini app 950M+ MAU、Gemma 900M+ 下载、上周 Gemini Robotics 进展。HN 490 pts 高关注。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方内部信全文 + HN 高热度 — <strong style="font-weight:600">关注</strong>: 顶级实验室治理换挡，科研/产品线重新分工</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: blog.google（🟢）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. NVIDIA：World Action Models（WAM）重塑机器人操作，Cosmos 3 为基座 | 🟢 | [✅事实][🔮预测]</h3>
+<p style="margin:0.8em 0">NVIDIA 官方技术博客论证：以视频世界模型（video world models）替代 VLM backbone 的 WAM，能提供更强的物理泛化——零样本迁移到新任务/新机器人/新环境，靠学习动力学而非仅语义映射。开源 Cosmos 3 模型（Mixture-of-Transformers，数亿级图像/视频/动作样本）作为 post-training 基座，支持从工作站到 Jetson 边缘实时推理的多档部署。博客引用 Jim Fan 主张：&quot;VLAs are dead, long live World Action Models&quot;。同期 The Information 刊发《World Models vs VLAs: The Rift Dividing Physical AI》，范式之争升温。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ NVIDIA 官方博客 + The Information 侧证行业争论 — <strong style="font-weight:600">关注</strong>: 具身策略骨干从语言转向动力学，直接冲击 VLA 路线</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: developer.nvidia.com（🟢）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 小米开源具身智能基础模型 Xiaomi-Robotics-1（Apache-2.0） | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">小米 8/5 开源 Xiaomi-Robotics-1：GitHub XiaomiRobotics/Xiaomi-Robotics-1（402⭐，08/06 更新）+ HuggingFace 4 个模型（Xiaomi-Robotics-1-5B 等，7/28 创建，Apache-2.0 license）。该模型 7 月中旬首次亮相（Tech in Asia 7/16），8/5 完成代码开源。TechNode 报道称其为 embodied-AI foundation model，媒体报道其基于 10 万小时真实世界数据训练（待独立验证）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ GitHub/HF 官方仓库存在 + TechNode 报道；⚠️ 10 万小时数据量为媒体声称 — <strong style="font-weight:600">关注</strong>: 国产具身基座开源，数据+代码双飞轮</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: github.com/XiaomiRobotics（🟢）+ TechNode（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Anthropic 组建自研 AI 芯片设计团队 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Anthropic 宣布组建自研 AI 芯片设计团队，计划 co-design 硬件与模型，使 Claude 运行更快更高效。Reuters、TechCrunch、Android Headlines 等多源一致报道招聘工程师。延续 OpenAI（与博通合作）等大模型厂商向芯片层下沉的趋势。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters + TechCrunch 双独立源一致；🔴 具体芯片规格/流片时间未披露 — <strong style="font-weight:600">关注</strong>: 软硬协同设计成为大模型公司护城河标配</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters/TechCrunch（🟡）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>

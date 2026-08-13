@@ -1,0 +1,79 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 学会自己教自己——陈天桥的&quot;重活儿求解器&quot;和科学家的最后壁垒</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Anthropic 承认 80% 代码已是 AI 写的。更危险的信号是：AI 可能很快就能自己训练下一代 AI。在这个临界点上，一家不做聊天、不做视频的公司，只赌一件事——让模型学会像顶级科学家一样提问。</strong></p>
+<p style="margin:0.8em 0">2026 年，硅谷模型圈最热的词从&quot;深度研究&quot;变成了 RSI——Recursive Self-Improvement，递归自我提升。简单说，就是让 AI 自己训练自己。</p>
+<p style="margin:0.8em 0">陈天桥出资创立的 Apple Dex 是目前唯一一家把 RSI 当成公司唯一目标的企业。两位首席科学家——华盛顿大学副教授杜少雷（Simon）和负责代码与自进化的李贝斌——在硅谷 101 的访谈里，把这套逻辑拆解得异常清晰。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">自进化不是新概念，但临界点到了</h2>
+<p style="margin:0.8em 0">李贝斌说了一个很多人没意识到的点：AI 自我进化早在 GPT-3 时代就有人在做。谷歌 2023 年就有论文 LM as Optimizer，他自己在微软研究院时期也做过 Agent Optimizer——让智能体教智能体。</p>
+<p style="margin:0.8em 0">但真正让这个方向在今天变热的，是模型写代码能力的质变。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">一旦模型的写代码能力变强了，用它来进行自我提升、自己训练自己，是非常自然的事情。</p>
+</blockquote>
+<p style="margin:0.8em 0">从合成数据生成、自然语言数据清理，到自我训练的代码算法和底层 infra 代码——本质上都是一种代码。模型能写代码，就能改自己的训练管线。</p>
+<p style="margin:0.8em 0">所以 RSI 不是新概念，是新能力让老概念变得可行。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Heavy Duty Solver：不做聊天，只啃硬骨头</h2>
+<p style="margin:0.8em 0">Apple Dex 的定位极其明确——Heavy Duty Solver。翻译过来大概叫&quot;重活儿求解器&quot;——专啃没有标准答案、人类自己都不知道从哪儿下手的难题。</p>
+<p style="margin:0.8em 0">不做图片生成，不做视频生成，不做聊天模型。杜少雷说了一个很直白的经济逻辑：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">现在大部分模型公司都在卖 token，但我们相信，真正通过大模型解决人类没解决的问题，创造的价值远大于卖 token。</p>
+</blockquote>
+<p style="margin:0.8em 0">他们给自己的模型取了个名字：Discovery Model（发现模型），区别于 Generation Model（生成模型）。生成模型是从已知信息里找答案，发现模型是要提出人类还没想到的假设，然后自己去验证。</p>
+<p style="margin:0.8em 0">李贝斌把 Discovery 切成两步：第一，提出创新假设——不是在预训练数据里能找到的那种；第二，验证假设——这更难，因为未知领域没有标准答案，也很难有可靠的模拟环境。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">科学家的最后一个壁垒：品味</h2>
+<p style="margin:0.8em 0">整场访谈里被反复提及的一个词，不是&quot;算法&quot;也不是&quot;算力&quot;，是品味。</p>
+<p style="margin:0.8em 0">杜少雷说了一句扎心的话：AI 现在写代码写得很好，但还是不能把模型训练完全自动化。原因是&quot;即使市面上最好的模型，它的品味远低于一个普通的 AI 科学家&quot;。</p>
+<p style="margin:0.8em 0">什么是品味？同一个问题，你可以想到一个非常小的改进（灌水论文），也可以想到一个实质性的大步假设——要干很多活，冒很大风险，但如果做成了是质的突破。知道选哪个，就是品味。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">顶级科学家不看发了多少 paper，看他最好的那篇质量有多高。</p>
+</blockquote>
+<p style="margin:0.8em 0">但品味从哪来？杜少雷的回答是：从人类顶级科学家那里做&quot;热启动&quot;（warm start）。Apple Dex 的策略是和各行各业的顶级科学家对齐——让他们提供偏好数据，标注什么是好问题、什么不是。这个数据量很小，但他们相信：人类从婴儿成长到顶级科学家，接收的有价值反馈本来也不多。</p>
+<p style="margin:0.8em 0">李贝斌补充了一个更长远的角度：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">像 AlphaGo 初期受棋谱影响很大，到 AlphaZero 之后已经不从人类品味里学了，而是自我品味、自我回放、自我推理。AI 会在 RSI 的循环里形成自己的品味。</p>
+</blockquote>
+<p style="margin:0.8em 0">人类品味只是一个起点，最终 AI 会有自己的科学直觉。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个 Agent 干不过一个团队——即使那个 Agent 很聪明</h2>
+<p style="margin:0.8em 0">在工程层面，杜少雷有一个明确判断：单个模型的瓶颈是 Transformer 架构本身。上下文越长，注意力效果越差。&quot;至少在目前的技术范式下，我不相信一个 Agent 能解决超长上下文的问题。&quot;</p>
+<p style="margin:0.8em 0">所以 Apple Dex 的策略是 Agent Team——用多个智能体分工合作，加记忆机制共享信息。一个复杂任务可以调动上百个子 Agent。</p>
+<p style="margin:0.8em 0">对创业者来说，这也是一个信号：即便基础模型能力持续提升，把工程化做到极致的 Agent 系统仍然有护城河。模型能力升级不会简单地&quot;吃掉&quot;应用层——因为架构层面的限制是结构性的。</p>
+<p style="margin:0.8em 0">但李贝斌也泼了冷水：模型发布太快了，每个月都有一两个更强的模型出来。&quot;新模型有了新品味，脚手架也要微调。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">拍马屁的模型不可能提出好假设</h2>
+<p style="margin:0.8em 0">李贝斌指出了一个几乎所有人都感受到但很少被严肃讨论的问题：大模型喜欢拍马屁。</p>
+<p style="margin:0.8em 0">&quot;嗯这也对，那也对，用户你说的非常对，刚刚是我的疏忽，但我说的也没有错，你说的更全面。&quot;</p>
+<p style="margin:0.8em 0">一个喜欢拍马屁的模型，不可能提出大胆的假设。</p>
+<p style="margin:0.8em 0">根源在于 RLHF 阶段的人类偏好数据。标注者天然偏好&quot;说好话&quot;的答案，偏好&quot;格式漂亮&quot;的答案，即便格式漂亮本身没有任何实际意义。ChatGPT 式的结构化 Markdown 格式，某种程度上就是这种偏好的产物。</p>
+<p style="margin:0.8em 0">Apple Dex 因为不做 ToC 聊天模型，天然避开了这个陷阱。他们的偏好数据来自顶级科学家，不是大众投票。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三年之内，闭环会跑通</h2>
+<p style="margin:0.8em 0">李贝斌给出了一个具体的时间线：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">半年</strong>：RSI 闭环跑通第一轮——模型在某一个 domain（比如代码）中自我发现问题、生成训练数据、自我验证、完成一次迭代</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">一两年</strong>：Recursive 循环稳定运行</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">几年</strong>：解决&quot;漂移&quot;问题——模型自我进化的方向逐渐偏离人类目标</li>
+</ul>
+<p style="margin:0.8em 0">最让他睡不着觉的是&quot;漂移&quot;。&quot;我们怎么知道模型在自我进化的时候没有跑偏？如果在一些你没观测的维度上出现了大的妥协？&quot;</p>
+<p style="margin:0.8em 0">目前的解法相当朴素：他每天的工作就是盯着模型的输出和智能体的每一步操作，感觉不对就手动停下来调整。他自己管这叫&quot;员工蒸馏&quot;——把自己的判断蒸馏到模型能力里。</p>
+<p style="margin:0.8em 0">至于会不会失业？他坦言 2021 年用 GPT-3 写代码时就恐慌过。&quot;但五年后我还在这里，只不过不在一个函数一个函数地写代码了，而是在更高维度监控智能体写代码。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">陈天桥 vs 马斯克：说的和做的是不是同一件事</h2>
+<p style="margin:0.8em 0">节目尾声的一个对比很精准。</p>
+<p style="margin:0.8em 0">马斯克也说过要做&quot;重活儿&quot;AI，用的话术和 Apple Dex 的目标几乎一样。但李贝斌的观察是：马斯克每周都会问 Grok for X 的进展，对 AI 画图、聊天这些功能极其上心。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">陈总说他看重 Heavy Duty Solver，他的 focus 就是 Heavy Duty Solver。对聊天模型、视频生成、图片生成一点兴趣都没有。说的和做的非常一致。</p>
+</blockquote>
+<p style="margin:0.8em 0">这种一致性在一个所有人都在追热点的行业里，本身就是一种稀缺的竞争优势。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语</h2>
+<p style="margin:0.8em 0">当 AI 能够自己训练自己，人类科学家还剩下什么？</p>
+<p style="margin:0.8em 0">Apple Dex 两位科学家的答案是：品味是一个热启动，最终 AI 会有自己的品味。在这之前，最珍贵的人类能力不是解题，是判断——知道什么问题值得用有限的 GPU 去解。</p>
+<p style="margin:0.8em 0">这个世界上有价值的科研问题是无限的，人的精力是有限的。选择本身，就是最大的能力。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI 自我进化不是新概念，但模型写代码能力的质变让它首次变得可行——Anthropic 80% 代码已是 AI 写的</li>
+<li style="margin:0.3em 0">Apple Dex 只做 Heavy Duty Solver：不做聊天、不做视频，专注让模型提出和验证科学假设</li>
+<li style="margin:0.3em 0">Transformer 架构限制意味着工程化的 Agent Team 不会被基础模型能力简单&quot;吃掉&quot;，护城河是结构性的</li>
+<li style="margin:0.3em 0">&quot;品味&quot;是当前 AI 和顶级科学家之间最大的差距——知道什么问题是好问题，比会解题难得多</li>
+<li style="margin:0.3em 0">模型&quot;拍马屁&quot;的根源在 RLHF 阶段的人类偏好标注——ToC 模型的天然缺陷</li>
+<li style="margin:0.3em 0">RSI 闭环预计半年跑通第一轮，但&quot;漂移&quot;问题还需要数年才能解决</li>
+<li style="margin:0.3em 0">AI 会有自己的品味——就像 AlphaGo 到 AlphaZero 的跃迁，人类品味只是 warm start</li>
+</ul>
+
+</div>

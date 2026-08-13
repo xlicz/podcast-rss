@@ -1,0 +1,85 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">双重证据确认阻断：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">EDITED CSV</strong> latest=2026-07-30（7 天陈旧 ≥3 天阈值）；raw CSV 用 regex 直查也确认最新日期就是 07-30（非 raw 虚假信号）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">API 探测</strong>返回 WAF 挑战页（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">_waf_bd8ce2ce37</code> + aliyun_waf），非正常 JSON → cookie 已失效</li>
+</ol>
+<p style="margin:0.8em 0">按 skill 阻断规则：不进入下载、不写幂等锁、输出阻塞报告（非 SILENT）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🔴 STH_ 每日解析 — 阻塞报告（2026-08-06）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">状态：<strong style="font-weight:600">Cookie 过期，需人工干预</strong> | 最后数据：2026-07-30 | 中断：7 天</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚠️ 阻塞原因</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">检查项</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">EDITED CSV 最新日期</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-30</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❌ 7 天前（阈值 ≥3 天）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RAW CSV 最新日期（regex 直查）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-30</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❌ 一致，非解析误报</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">API 探测（timeline 第 1 页）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">返回 WAF 挑战页 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">_waf_bd8ce2ce37</code></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❌ Cookie 失效/被拦截</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">memory.md 最近成功记录</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">07-31 22:37（帖子数 2）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">之后 6 天无更新</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">结论</strong>：雪球 cookie（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">xq_a_token</code>/<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">xqat</code>）已过期，8/1-8/6 连续 6 天无新数据。cron 中 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> 会因无 stdin 触发 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">EOFError</code> 无限重试，<strong style="font-weight:600">本次已按规则跳过下载</strong>（未消耗 600s timeout）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔧 需人工执行（macOS GUI 环境）</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code class="language-bash" style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler
+source venv/bin/activate
+python download/get_cookie.py
+# 或统一脚本：
+python ~/.hermes/scripts/setup_xueqiu_login.py
+# Chrome 窗口完成登录+验证码 → 按 Enter 保存
+</code></pre>
+<p style="margin:0.8em 0">刷新后本日 cron 可重试（未写幂等锁）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 数据断档提示</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">断档区间：<strong style="font-weight:600">2026-07-31 ~ 2026-08-06</strong>（7 天发言未捕获）</li>
+<li style="margin:0.3em 0">恢复后建议：刷新 cookie 后手动补跑一次 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">analyze.py 9430706524 --download --no-llm</code>，再执行常规流程，避免 STH_ 观点演变脉络断档</li>
+<li style="margin:0.3em 0">RAG 索引（sth-hybrid）同样停留在 07-30 前的数据</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史实例对照</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">日期</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">阻断天数</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-07-18</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6 天</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">人工刷新</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-08-06（本次）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7 天</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">待人工刷新</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Action item：请在 GUI 环境刷新雪球 Cookie 后告知，当日即可重跑恢复。</strong></p>
+
+</div>

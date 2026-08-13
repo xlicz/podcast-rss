@@ -1,0 +1,109 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 07/20</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">采集时间：2026-07-20 | 方向：AI Coding / 世界模型 / 具身智能</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">摘要</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">🤖 AI 动态 07/20
+
+1. 阿里 Qwen 3.8 开源 2.4T 参数模型，自称仅次 Fable 5 | 🟢 | [✅事实]2.4T 参数 open-weight，7 家独立媒体确认 [💬观点]自称&quot;second only to Fable 5&quot;
+   验证: ✅5 ✅0 🔴0 — 关注: 2.4T open-weight 重塑 AI coding 模型格局
+
+2. Claude Code 底层切换 Bun Rust 移植版，启动提速 10% | 🟡 | [✅事实]Jarred Sumner 确认 Bun v1.4.0-Rust 已用于 Claude Code v2.1.181+ [✅事实]Simon Willison 二进制分析验证
+   验证: ✅2 ✅0 🔴0 — 关注: AI coding 工具链底层性能竞赛
+
+3. DeepMind GenCeption：视频生成器即世界模型，单模型替代专用视觉栈 | 🟡 | [✅事实]基于阿里开源视频模型改造，单次前向完成深度/分割/法线 [💬观点]DeepMind 称视频生成器&quot;已含世界模型&quot;
+   验证: ✅3 ✅0 🔴0 — 关注: 世界模型路线争论获实证支持
+
+4. AGIBOT WAIC 2026 发布 4 款人形机器人，启动全球出口 | 🟢 | [✅事实]4 款新品亮相 WAIC，泰国总理参观展台 [✅事实]多源确认（新华网/Global Times/AgiBot 官方）
+   验证: ✅3 ✅0 🔴0 — 关注: 中国具身智能从实验室走向全球出口
+
+5. Moonshot Kimi K3 需求爆满暂停新订阅，GPU 容量达极限 | 🟢 | [✅事实]官方宣布暂停新订阅保护现有用户体验 [📰推测]计划 6 个月内香港 IPO
+   验证: ✅2 ✅0 🔴1 — 关注: 前沿 AI coding 模型需求的强信号
+
+📊 本期覆盖: AI Coding ×3 | 世界模型 ×1 | 具身智能 ×1 | 🔍 来源分布: 🟢3 🟡2 🔴0
+</code></pre>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">详情</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 阿里 Qwen 3.8 发布 — 2.4T 参数开源模型</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">性质</strong>：[✅事实] 官方发布 + [💬观点] 自评性能</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>：Alibaba Qwen 官方 X 账号（🟢官方）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">交叉验证</strong>：7 家独立媒体确认（the-decoder, MLQ.ai, Firstpost, OfficeChai 等）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心内容</strong>：Qwen 3.8 以 2.4T 参数规模 open-weight 发布，阿里自称性能&quot;仅次 Fable 5&quot;，与前沿模型竞争力相当。正值 Kimi K3 需求爆发之际，开源策略形成差异化竞争。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>：✅ 官方推文 + ✅ HF 模型卡 + ✅ 7 源交叉确认</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Coding 相关性</strong>：万亿级开源 coding 模型，直接竞争 Kimi K3/DeepSeek V4</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Claude Code 底层切换 Bun Rust 移植版</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">性质</strong>：[✅事实] 技术实现</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>：Simon Willison 博客 + Jarred Sumner（Bun 作者）确认（🟡可靠个人博客）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心内容</strong>：Claude Code v2.1.181（6/17 发布）起使用 Bun 的 Rust 移植版。Linux 启动速度提升 10%，其他平台几乎无感知——&quot;boring is good&quot;。Simon 通过 strings 二进制分析验证：Bun v1.4.0（比当时公开发布版更新）+ 内含 .rs 源文件引用。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>：✅ Jarred Sumner 确认 + ✅ Simon Willison 二进制验证</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Coding 相关性</strong>：主流 AI coding 工具底层性能演进</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. DeepMind GenCeption — 视频生成器即世界模型</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">性质</strong>：[✅事实] 研究成果 + [💬观点] 方向性判断</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>：the-decoder.com 报道（🟡可靠科技媒体）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心内容</strong>：GenCeption 将预训练视频生成模型改造为通用视觉任务处理器，单次前向传播完成深度估计、语义分割、表面法线、姿态估计。基于阿里开源视频模型，几乎全用合成视频训练，在 benchmark 上匹配专用 SOTA 模型，且泛化到真实场景和未见类别（如动物）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>：✅ 论文/模型存在（the-decoder 详细报道）+ ✅ 基于阿里开源模型（可查证）+ ✅ benchmark 数据报道一致</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">世界模型相关性</strong>：为&quot;视频生成器已内含世界模型&quot;争论提供实证</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. AGIBOT WAIC 2026 发布 4 款新品 + 全球出口</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">性质</strong>：[✅事实] 官方发布</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>：AGIBOT 官网 + 新华网 + Global Times + Tech Times（🟢官方 + 🟡可靠媒体）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心内容</strong>：AGIBOT（智元机器人）在 WAIC 2026 发布 4 款人形机器人新品，展示真实场景操作能力（家庭/工业）。泰国总理参观展台并称赞中国具身 AI 创新。公司同步启动全球出口计划，标志中国具身智能从实验室走向商业化出海。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>：✅ AGIBOT 官方公告 + ✅ 新华网/Global Times 确认 + ✅ 泰国总理参观可查证</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">具身智能相关性</strong>：中国头部人形机器人公司产品化里程碑</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Moonshot Kimi K3 暂停新订阅 — GPU 容量瓶颈</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">性质</strong>：[✅事实] 官方公告 + [📰推测] IPO 传闻</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>：Moonshot/Kimi 官方 X 账号（🟢官方）+ 39 家媒体交叉报道</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心内容</strong>：Kimi K3 需求远超预期，48 小时内 GPU 逼近容量上限，Moonshot 宣布暂停新订阅以保护现有用户体验。同期传闻公司计划 6 个月内香港 IPO。折射出前沿 AI coding 模型的市场需求强度和算力供给瓶颈。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>：✅ 官方推文 + ✅ 多源确认需求暴增 + 🔴未证实：IPO 时间线（Investing.com 报道但未获官方确认）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Coding 相关性</strong>：前沿 coding 模型需求信号 + 算力瓶颈对工具可用性的影响</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">同期关注（未入选但值得追踪）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">DeepSeek V4 即将发布 + 峰谷定价</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Coding</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">📰推测 7/20 或 7/21 发布</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI Codex 上下文窗口 372k→272k（GPT-5.6 元数据刷新）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Coding</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 已确认（GitHub PR #33972）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RoboSense + GenRobot.AI 合作物理 AI 真实数据</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 已确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">ACE ROBOTICS Kairos 3.1 具身 AI 栈</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ WAIC 2026 发布</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Netflix 以 $587M 收购 Ben Affleck AI 电影公司</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 产业</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ TechCrunch 报道</td>
+</tr>
+</tbody>
+</table></div>
+
+</div>

@@ -1,0 +1,192 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-07（周五）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态：TapTap ✅ / Apple 7区 ✅ / 逸修1发言 ✅（8条）/ 股价 ✅（东财断连→腾讯源兜底）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">收盘价: 44.38  |  涨跌: +0.05%（+0.02）  |  市值: ~201亿
+52周区间: 40.10 - 92.45
+近5日: 47.74(8-04) → 47.28(8-05) → 44.36(8-06,-6.18%) → 44.38(8-07,+0.05%)
+港股通/做空: 无数据（⚠️东财接口今日断连，数据源为腾讯行情）
+
+我的估值锚（v3.2，低位残差情景）:
+  乐观E 18-19亿 → 259-333亿（港股口径×0.85）
+  中性E 14-15亿 → 205-260亿（仅作下限参考，非决策锚）
+  悲观E 10-13亿 → 150-200亿
+  → v3.2校准3：当前为低位残差(-40%)，E不因残差下调，维持18-19亿
+  残差状态: 低位 | 持续时长: ~2个月（26-06-16起 -50%→-30~-40%，未到3个月复核阈值）
+当前市值位置: 低于乐观锚下限（201亿 &lt; 259亿）
+</code></pre>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板（v3.2 分级：快信号立即动作，慢信号确认工具）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">类型</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日变化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">快</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④ 新游戏首月&lt;预测80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（RO2/麦芬2未上线）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">快</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤ 回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（回购进行中，无减持信息）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">先行</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">榜单连续2周下滑+≥3区同步</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（自动化首日，无2周历史）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">① 游戏收入连续2季环比下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 待26半年报（25H2已确认）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">② 合约负债连续下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓ 待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③ tap广告增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 接近（26Q2&quot;乐观5%/持平/-5%&quot;）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">他自认&quot;除ADN外无贡献&quot;→定性侧证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">确认</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥ 少数股东权益异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 正常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">7.2%</strong>（v3.1修正）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-40%（低位，持续~2个月）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">快信号触发 → 立即动作；慢信号触发 → 仅标注待财报确认；先行指标触发 → E下修预警</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 全球多平台榜单快照</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">TapTap 三榜（安卓国服，17:30采集）：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩榜: #5 心动小镇, #6 香肠派对（与昨持平）</li>
+<li style="margin:0.3em 0">新品榜: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约榜: #71 仙境传说3（昨#72，+1位，噪声）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">iOS 7区（17:30采集）：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国 免费: #54 小镇国服（持平）</li>
+<li style="margin:0.3em 0">香港 畅销: #77 小镇国际服（昨#86，+9位）</li>
+<li style="margin:0.3em 0">台湾 畅销: #49 小镇国际服（昨#47，-2位）</li>
+<li style="margin:0.3em 0">日本 畅销: #99 小镇国际服（昨#100，+1位）</li>
+<li style="margin:0.3em 0">韩国 畅销: #77 小镇国际服（持平）</li>
+<li style="margin:0.3em 0">新加坡 畅销: #87 小镇国际服（持平）</li>
+<li style="margin:0.3em 0">美国/其他: 无命中</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Google Play/Steam: ⚠️ 网络不可达（需代理）</strong></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">先行指标判断：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">⚪ 未触发：今日为自动化首日，无连续2周历史可判趋势；单日±9位以内属噪声</li>
+<li style="margin:0.3em 0">小镇国际服（P0核心）5区在榜但全部低于#47、日区濒临#100 → 边缘位置，与17亿E对照，等半年报验证</li>
+<li style="margin:0.3em 0">香港+9位（#86→#77）为今日唯一正向变化，需连续观察是否持续</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">今日新增发言: 8条（since 2026-08-06；其中8-07三条均为行业闲聊，无心动增量）
+[08-07 14:20] 快手诡秘之主预约数据比遗忘之海好不少（行业）
+[08-07 13:25] 腾讯work8的Dau到底是多少（行业）
+[08-07 09:53] 网易遗忘之海扑街但股价今年最强（行业）
+[08-06 23:34] 投太多…tap四方向(adn/pc/mk/cindy)+游戏四项目(RO2/麦芬2/二个早期)…
+              除ADN外均无贡献；&quot;adn之外今年不搞，账面利润多3-5亿很容易，但没意义，
+              未来能不能走向一年赚30亿左右及以上更重要&quot;
+[08-06 20:41] Unity和app走势相反（行业）
+[08-06 19:47] 动子最近几个月的持股体验确实是差
+[08-06 10:22] 影之刃零预售要来了，tap pc下半年可能比较关键的增加dau机会
+[08-06 08:48] 谷歌王慧文四杀理论（行业）
+
+反误导检测（5机制）:
+  ☑ 报忧必带转折: 命中——&quot;投太多/持股体验差&quot;→&quot;但未来30亿+更重要&quot;；
+                   &quot;mk Q2用力过猛&quot;→&quot;很快调整过来&quot;
+  ☑ 归因外移: 部分命中——&quot;短期产出没跟上&quot;+&quot;上半年的市场下被定义为负估值&quot;(环境归因)，
+               但同时自认&quot;投太多&quot;是自身决策 → 混合型
+  ☑ 承认递进: 命中——19:47情绪(持股体验差) → 23:34基本面(投太多) → 颗粒度加深
+               (tap四方向/游戏四项目清单、mk Q2具体化)；8-07无新承认
+  ☑ 预测更新: 有——新长期锚&quot;未来一年赚30亿左右及以上&quot;(首次，无时间表)；
+               26E维持20-22亿未下修
+  ☑ 历史锚定: 命中——30亿对照历史锚: 25年报16亿、26E他20-22 → +50%跳升的远期愿景;
+               历史规律: 公司级利润预测系统性乐观+10~15%(表1) → 30亿按25.5-27亿折算
+
+折扣分层（v3.2 校准1，今日预测性发言）:
+  ☑ 公司级利润预测 → 折扣10-15%命中: &quot;未来30亿左右及以上&quot; → 折算25.5-27亿，
+       且&quot;未来&quot;无期限，非26E口径，仅记录不调整E
+  ☑ 对冲叙事（A抵消B）→ Σ验证+折扣50%命中: &quot;adn之外不搞今年账面利润多3-5亿&quot;
+       Σ验证: 与其26E 20-22亿自洽（含负贡献项目），但无分项流水数据可独立验证
+       → 结论: 方向可信、幅度不可验证，按50%折扣记为&quot;利润弹性+1.5-2.5亿&quot;级别参考
+  ☐ 产品级流水预测: 未出现（今日无流水数字）
+  ☐ 估值结论（便宜/低估）: 未出现
+
+今日关键言论摘要:
+  - 新长期目标锚: &quot;一年赚30亿左右及以上&quot;（首次出现，远期愿景）
+  - mk Q2 用力过猛已调整（费用端承认细化）
+  - 影之刃零预售 → tap pc 下半年增加DAU机会（平台侧利好线索）
+  - 投入清单首次完整披露: tap四方向 + 游戏四项目（RO2/麦芬2/二个早期）
+判断: 信息增量 &gt; 情绪噪音（行业闲聊5条为噪音；30亿锚+投入清单+mk调整 = 3条增量）
+</code></pre>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天）</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-08月中下旬: 26年半年报（预期，四件事验证: 小镇国际服H1流水/tap增速/合约负债/mk投入）
+2026-08月中旬: 小镇国际服周年庆后首个大卡池（流水观察）
+2026-08~09: 影之刃零预售开启（tap pc DAU机会，他8-06确认）
+2026-08-14前: 无版号/上线/赛季精确日期事件
+</code></pre>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">26E扣非: 我18-19 / 他20-22 / 卖方（未覆盖） / 市场10-13  →  无变化
+小镇国际服: 我17 / 他17 / 市场10-12      →  无变化
+新增: 他远期愿景&quot;30亿+&quot; → 非26E口径，仅记录（表2将登记: 预测日2026-08-06，验证日待定）
+</code></pre>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">当前信号: 🟡 等待验证（26半年报 ~8月底）
+动作: 持有仓位，不加不减（v3.2：现金流7.2%持有区；低位残差不减仓）
+触发条件:
+  半年报E≥17亿 → 🟢 估值259-333亿
+  半年报E≤13亿 → 🔴 估值150-200亿
+  区间 → 维持🟡
+今日是否有触发: 无（无快信号、无预测下修、半年报未发布）
+</code></pre>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">🚨 今日异常: 无触发项
+  - 股价单日波动&gt;5%: 无（+0.05%）
+  - 快信号触发（新游戏首月&lt;80%/回购停止减持）: 无
+  - 先行指标触发（榜单2周下滑+3区同步）: 无（自动化首日，无2周基线）
+  - 他的发言新承认/预测下修: 无下修（26E维持20-22亿）；
+      8-06已有&quot;投太多&quot;承认，本次为颗粒度加深（mk Q2具体化），已计入④
+  - 数据源异常: ⚠️东财行情接口今日断连（重试4次失败），股价走腾讯源；
+      其余源正常，无数据缺失
+</code></pre>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">参考: 历史数据库 2026-08-07（表2预期差/表4残差史）| 模板 v2.0 | 生成 2026-08-07 17:45</p>
+</blockquote>
+
+</div>

@@ -1,0 +1,214 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 07/17（近两日精选 · 具身智能 / 世界模型 / AI Coding）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">采集: HN · Google News · TechCrunch · Arxiv · 知乎 · IDC · 官方博客<br />
+生成: 2026-07-17</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Discord 紧凑版</h2>
+<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">🤖 AI 动态 07/17
+
+1. 小米开源 Xiaomi-Robotics-U0：38B 世界基础模型，WorldArena 第一，数据生成加速 82.9× | 🟢 | [✅事实]38B 参数统一具身生成模型，7/14-15 开源，WorldArena EWMScore 73.64 全球第一，FlashAR+ 实现 82.9× 生成加速，arXiv 2607.11643 [🔮预测]具身数据规模化生产门槛大幅降低
+   验证: ✅arXiv论文 ✅多源媒体确认 ✅WorldArena榜单 — 关注: 首个「通吃」四类具身生成任务的统一模型，具身数据工厂范式确立
+
+2. 腾讯发布 Hy-Embodied-VLM-1.0 + RxBrain-1.0 双具身基座模型 | 🟢 | [✅事实]7/15 腾讯 Robotics X + 混元联合发布，VLM 负责感知理解，RxBrain 负责世界认知推理与想象，双模型均已开源至 GitHub/HuggingFace [✅事实]HY-Embodied GitHub 804⭐，37 个评测任务以 1/10 计算量达 A32B 旗舰效果
+   验证: ✅GitHub/HF 确认 ✅开源可查 — 关注: 大厂具身智能基座模型竞赛加速，腾讯凭 A3B 小模型效率路线差异化
+
+3. OpenAI Codex + ChatGPT Work 周活破 800 万，单周增长 2.5× | 🟢 | [✅事实]7/14 Codex 负责人 Tibo 宣布 700 万，Sam Altman X 确认单周 2.5× 增长，5 个月增长 7× [✅事实]非开发者知识工作者增速是开发者 3 倍以上，Agent 从开发工具转向通用工作入口
+   验证: ✅Sam Altman X帖 ✅Tibo 公开声明 — 关注: AI Coding 正成为 AI 消费级最大增长引擎，Codex vs Claude Code 竞争白热化
+
+4. IDC：阿里 Qoder 中国 AI 编程市场第一，份额 47.6% | 🟡 | [✅事实]7/16 IDC 报告：2025 中国 AI 编程市场 3.99 亿元→2026 预计 11.73 亿元，阿里 47.6% 超第 2-5 名总和 [✅事实]Qoder 全球用户超 500 万，服务数十万企业
+   验证: ✅IDC 官方报告 ✅TechWeb 报道 — 关注: 中国 AI Coding 市场格局初定，阿里断层领先，市场年增 194%
+
+5. LM Studio Bionic 发布：专为开放模型打造的 AI Agent | 🟢 | [✅事实]7/16 LM Studio 发布 Bionic，支持本地+云端开放模型执行，零数据留存承诺，支持 coding/research/文档处理 [✅事实]HN 首页 127⭐53 评论，社区反响热烈
+   验证: ✅LM Studio 官方博客 ✅HN — 关注: 开放模型 AI Agent 生态成形，本地隐私部署 vs 云端闭源双轨并行
+
+📊 本期覆盖: AI Coding ×3 | 世界模型 ×2 | 具身智能 ×3 | 🔍 来源分布: 🟢4 🟡1 🔴0
+📅 覆盖时段: 07/14–07/16（近三日精选）
+</code></pre>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">详细版</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 小米开源 Xiaomi-Robotics-U0：38B 世界基础模型</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">维度</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">性质</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[✅事实] 38B 参数统一具身生成模型，7/14-15 开源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">核心</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">首个将图像生成基座与具身世界建模统一的模型，支持多视角场景生成、具身迁移、机器人交互视频生成、文生图、图像编辑五类任务</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">成绩</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WorldArena EWMScore 73.64 全球第一（126 模型中），FlashAR+ 实现 82.9× 数据生成加速，真机测试任务完成度提升 26.3%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">来源</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小米机器人团队官方，arXiv 2607.11643，多家中英文媒体确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">可靠性</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方开源 + 学术论文 + 多源交叉验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">关注</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">首个「通吃」四类具身生成任务的统一模型，具身数据工厂范式确立</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 腾讯发布 Hy-Embodied-VLM-1.0 + RxBrain-1.0</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">维度</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">性质</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[✅事实] 7/15 腾讯 Robotics X + 福田实验室 + 混元联合发布</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">核心</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">VLM-1.0 负责感知理解（A3B 基座，37 任务评测），RxBrain-1.0 负责世界认知推理与行动后果预测（5w+ 小时具身数据训练）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">成绩</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">GitHub HY-Embodied 804⭐，1/10 计算量达 A32B 旗舰效果</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">来源</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯新闻官方，GitHub/HuggingFace 开源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">可靠性</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方发布 + 开源可查</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">关注</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大厂具身基座模型竞赛加速，A3B 小模型效率路线差异化</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. OpenAI Codex + ChatGPT Work 周活突破 800 万</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">维度</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">性质</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[✅事实] 7/14 Codex 负责人 Tibo 宣布 700 万，7/15 突破 800 万</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">核心</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">单周使用量增长 2.5×，5 个月累计增长 7×。非开发者知识工作者增速是开发者 3 倍以上</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">竞争</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Anthropic 数小时内回应：延长 Claude Fable 5 促销定价，Claude Code 周限额提升 50%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">来源</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Sam Altman X 帖 + Tibo 公开声明 + 华尔街见闻/腾讯新闻等多源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">可靠性</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方数据 + 多源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">关注</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Coding 正成为 AI 消费级最大增长引擎，Codex vs Claude Code 竞争白热化</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. IDC：阿里 Qoder 中国 AI 编程市场第一</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">维度</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">性质</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[✅事实] 7/16 IDC 发布 2025 中国 AI 编程市场份额报告</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">核心</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2025 年市场规模 3.99 亿元→2026 预计 11.73 亿元（+194% Y/Y）。阿里 Qoder 47.6%，超第 2-5 名总和（智谱 11.5%、商汤 10.5%、腾讯 6.9%、百度 6.0%）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">趋势</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Coding 正从「代码生成工具」向「软件生产力平台」演进，覆盖需求分析→编码→测试→交付全生命周期</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">来源</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">IDC 官方报告，TechWeb 等媒体转载</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">可靠性</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡 可靠媒体 + IDC 权威报告</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">关注</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中国 AI Coding 市场格局初定，阿里断层领先，市场年增近 200%</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. LM Studio Bionic：专为开放模型打造的 AI Agent</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">维度</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">性质</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[✅事实] 7/16 LM Studio 官方发布</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">核心</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">面向开放模型的 AI Agent，支持本地模型 + 云端开放模型灵活执行，专注 coding/research/文档处理，零数据留存承诺</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">反响</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HN 首页 127⭐、53 评论，社区热烈讨论</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">来源</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">LM Studio 官方博客 + HN 社区</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">可靠性</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方发布</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">关注</strong></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">开放模型 AI Agent 生态成形，本地隐私部署与云端闭源双轨并行</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">趋势观察</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">具身智能基座模型密集发布</strong>：小米 U0 + 腾讯双模型 + 无界动力 MWA（RoboCasa 75.2%）在一周内集中亮相，具身智能进入基座模型军备竞赛阶段。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Coding 消费化加速</strong>：Codex 周活 800 万 + IDC 中国年增 194%，AI 编程正从专业开发者工具转向全民生产力入口。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开放模型 Agent 生态崛起</strong>：LM Studio Bionic 代表了「用开放模型做 Agent」的路线——与闭源 API 形成互补竞争格局。</li>
+</ol>
+
+</div>

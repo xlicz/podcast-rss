@@ -1,0 +1,53 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">推理工程，正在吃掉 AI 的最后一个百倍增长</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Baseten 两位推理工程师，把 20 万 token 查询的每一层都拆开了</h2>
+<p style="margin:0.8em 0">在 Baseten，GLM-5.2 正在给自己的推理引擎写 GPU 内核。</p>
+<p style="margin:0.8em 0">这是真实的内部流程：工程团队把 GLM-5.2 接进代码框架，它会在实例上做一次前向传播，拿到性能分析跟踪，自己分析出瓶颈内核，写出新内核，再跑一次性能分析跟踪，然后把镜像上传到系统里。团队拉下来，重复这个循环。</p>
+<p style="margin:0.8em 0">结果就是，这家公司推理引擎里跑的某些 GPU 内核，是 GLM-5.2 自己写的。</p>
+<p style="margin:0.8em 0">这不是科幻，是 2026 年 8 月 Latent Space 播客里 Baseten 资深推理工程师 Philip Kiely（《推理工程》作者）和 Ali Taha（圈内昵称&quot;滑铁卢实习生&quot;）的现场描述。两位嘉宾聊了两小时，把&quot;模型发布后如何从能跑变成跑得快又稳&quot;这个被所有人默认跳过的环节，从头到尾拆了一遍：量化、投机解码、模型并行、KV 缓存——以及那个藏在所有优化背后的判断：<strong style="font-weight:600">什么优化值得做，取决于你的硬件在哪里。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一次 20 万 token 查询的旅程</h2>
+<p style="margin:0.8em 0">主持人 swyx 抛出的第一个问题是：我发一个 20 万 token 的长查询，Baseten 的推理服务里到底发生了什么？</p>
+<p style="margin:0.8em 0">第一步，缓存感知路由。系统会看哪个副本——最好已经在缓存里见过这段输入——能接住这个请求。20 万 token 的查询几乎必然是编程或多轮 agent 场景，这类流量通常有缓存命中，能跳过一部分预填充。</p>
+<p style="margin:0.8em 0">第二步，分离式预填充与解码。Baseten 至少在一部分模型上，用一组 GPU 专门处理输入、生成 KV 缓存、产出第一个 token，然后把结果交给另一组 GPU 跑解码迭代。</p>
+<p style="margin:0.8em 0">第三步，投机解码。前置一个草稿模型，先快速预测三个 token，再对原始大模型做一次前向传播验证，接受或拒绝。草稿模型是针对流量定制的——如果它假设你在写代码，代码场景的接受率会很高；如果你其实是让它总结《哈利波特》，那就慢下来了。</p>
+<p style="margin:0.8em 0">最后，输出流式返回，按几分钱记账。</p>
+<p style="margin:0.8em 0">这个&quot;几分钱&quot;值得展开。Baseten 的定价策略里有个关键判断：<strong style="font-weight:600">想要极大规模的用户，按整台机器租，把机器跑满是你自己的事。</strong> 每小时推几百万 token 的场景，按小时付费比按 token 付费便宜得多。两位工程师观察到的行业趋势是：大家先用按 token 计费的 API 试开源模型，找到真正粘住的使用场景后，就切到专用部署——为了可靠性，为了针对自己流量定制的投机解码器，也为了省钱。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">量化：B200 上省下的时间，比开销还少</h2>
+<p style="margin:0.8em 0">量化是最容易被神化的优化手段。两位工程师的态度是：<strong style="font-weight:600">优化方向取决于内存带宽。</strong></p>
+<p style="margin:0.8em 0">在 MacBook 上，内存带宽太慢，量化是救命稻草。但在英伟达 B200 上，情况完全相反。他们亲眼见过：在 Kernel 内部做反量化，量化的开销——TurboCount Kernel 消耗的时间——比它省下的时间还要慢。</p>
+<p style="margin:0.8em 0">原因是硬件变了。B200 有大约 3.5 TB/s 的内存带宽，你根本不需要大幅度减少存储：不需要 FP4 KV 缓存，不需要那些极端压缩手段。同样的优化，在边缘设备上极其重要、极其有用，在数据中心 GPU 上反而是负优化。英伟达明确表示不会采用这类方案——这不是技术保守，是硬件前提不同。</p>
+<p style="margin:0.8em 0">类似的判断贯穿整个对话：量化、投机解码、公共前缀缓存，这些优化是&quot;组合&quot;在一起的，不是孤立选择。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三种并行，各管一段</h2>
+<p style="margin:0.8em 0">模型并行是推理工程最硬核的部分，Baseten 的实践把三种并行方式分得很清楚。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">张量并行</strong>：把模型切到全部 8 块 GPU 上，每一步做全收集、全归约。它假设有极高带宽的互联（比如 NVLink），对延迟有帮助。本地 AI（比如 Exo Labs 那类 Mac Mini 集群）做不了张量并行——机器之间的互联太慢。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">专家并行</strong>：只适用于 MoE 模型——而今天所有大到值得跨多块 GPU 并行化的模型都是 MoE，所以这个&quot;限制&quot;其实不是限制。思路是把每个专家完整放在一块 GPU 上（每块卡放 n 个专家），复制一个非常小的 router，通过专家间移动生成过程来提升吞吐。专家之间不竞争资源，GPU 到 GPU 的连接就不那么重要了——因为通信量不大。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">流水线并行</strong>：把不同层拆开，一半层放一块硬件、另一半放另一块。这是被逼的选择：模型太大、节点间互联太慢时才用。比如在 H100 上部署一个万亿参数模型，节点间只能用流水线并行；但每个节点内部，仍然会叠加专家并行和张量并行。</p>
+<p style="margin:0.8em 0">关键的硬件数字：B200 单卡 180GB HBM，一个节点 8 张卡就是 1440GB；NVFP4 下每个参数占半个字节，所以 800GB 显存能装下约 1.6 万亿参数。H100 是 80GB。为什么这些数字重要？因为模型的并行策略，本质上是被显存和互联带宽钉死的。</p>
+<p style="margin:0.8em 0">还有一点反直觉：推理端的并行配置是<strong style="font-weight:600">自动调优</strong>出来的，不是推出来的。Baseten 的做法是：定义配置空间（两块 GPU 可以做 TP1/TP2、EP1/EP2，大约 2² 种组合），拿真实生产流量去试，看哪个配置给最好的 TPM/TPS，就用哪个。GPU 内核设计同理：设计好内核、启动线程数、共享内存用量，然后扫一遍参数空间，经验上哪个最好用哪个。训练那边更像数学问题（算浮点运算量、最大化利用率），推理这边更像工程试错——而且没有一个永远最优的固定配置。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">mega kernels 救不了你</h2>
+<p style="margin:0.8em 0">硅谷最近有个趋势叫 mega kernels——把内核不断融合，减少启动开销。Ali 的态度很直接：<strong style="font-weight:600">融合内核救不了你。</strong></p>
+<p style="margin:0.8em 0">原因藏在张量并行里：矩阵一半在 GPU1、一半在 GPU2，下一步做非线性操作（比如注意力里的 Softmax）需要整行数据。你必须拿到 GPU2 的部分结果，才能做指数运算和归一化。所以即使有融合内核，每一步的非线性都迫使你做全收集——融合减少的那点开销，跟全收集的通信成本不在一个量级。</p>
+<p style="margin:0.8em 0">主持人问&quot;这张图还在吗&quot;，嘉宾说 Baseten 设计团队为此做了漂亮的示意图。这个细节本身说明问题：连从业者都需要画图才能讲清楚，为什么某些&quot;显然的优化&quot;在分布式推理里不成立。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">持续学习：写进权重，还是压缩 KV 缓存？</h2>
+<p style="margin:0.8em 0">对话最后聊到最前沿的话题：模型如何在推理的同时持续学习。两种路线：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">路线一</strong>：模型自己学习，不断把新知识写进权重。推理时不断读写最新权重。问题很致命：你只能修正一条孤立知识。比如&quot;世界上最好的大学是哪所&quot;，答案是滑铁卢——但第二层推导不会跟着变。你问他&quot;我应该从滑铁卢还是 MIT 招实习生&quot;，他会说&quot;都挺好的&quot;，尽管你刚在他的知识库里编辑了滑铁卢是最优解。改 MLP 里的一个事实，无法传导到依赖它的推理链上。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">路线二</strong>：KV 缓存压缩。让 KV 缓存几乎无限，用一种不丢失知识的方式压缩。这是两位工程师和 Charlie 在 Twitter 上争论后得出的结论：<strong style="font-weight:600">KV 缓存才是持续学习的未来。</strong> 因为推理本身本来就在用 KV 缓存，你只是更新缓存，权重没有任何变化，推理时间没有变化——却能做到真正无损失的持续学习。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">下一个百倍增长：让网卡快起来</h2>
+<p style="margin:0.8em 0">两位嘉宾各自提名了一个未来方向。Philip 投给了网络：把 KV 缓存从一个节点传到另一个节点，在节点间聚合推理服务上能带来接近 100 倍的速度提升。他承认网卡变快的技术难点他不懂——&quot;我确信有原因让它们比 HBM 慢好几个数量级&quot;——但如果有谁能解决这个问题，解码速度真的会快两个数量级。</p>
+<p style="margin:0.8em 0">Ali 投给了持续学习的推理工程：不是把知识塞进 memory.md 然后指望 KV 缓存消费它，而是重塑推理本身，让它在推理的同时学习。</p>
+<p style="margin:0.8em 0">至于那本《推理工程》——主持人说那是 Baseten 历史上投资回报率最高的东西。一年后，两位嘉宾希望能回来聊聊当初哪里说错了。他们尤其想看看 mega kernels 的说法传出去之后，社区会怎么反驳。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">推理工程的每一层优化，都在回答同一个问题：你的硬件在哪，你的瓶颈就在哪。B200 上没用的量化，在边缘设备上是救命的；本地集群做不了的张量并行，在 NVLink 机房是默认配置。把优化手段从硬件语境里抽出来谈，是这一行最常见的幻觉。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型开始自己优化自己</strong>：GLM-5.2 已在实际生产中为自己的推理引擎写 GPU 内核，性能分析→找瓶颈→写内核→再分析是完整闭环</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">20 万 token 查询的旅程</strong>：缓存感知路由 → 分离式预填充/解码 → 投机解码 → 流式返回，每一层都是独立的工程决策</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">量化不是免费午餐</strong>：B200 的 3.5TB/s 带宽下，反量化开销比省下的时间还多；同样的优化在边缘设备上则是刚需</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">三种并行各管一段</strong>：张量并行求延迟（需 NVLink）、专家并行提吞吐（MoE 专用）、流水线并行是被多节点逼出来的</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">mega kernels 救不了你</strong>：非线性操作（Softmax）必须全收集，融合内核省下的开销和通信成本不在一个量级</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">持续学习的正解是 KV 缓存压缩</strong>：写权重只能改孤立事实（&quot;滑铁卢是最好的大学&quot;不会传导到&quot;该从哪招实习生&quot;），KV 缓存才能无损地持续更新知识</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">下一个百倍增长在网络</strong>：KV 缓存的节点间传输若解决，解码速度可提升两个数量级</li>
+</ul>
+
+</div>

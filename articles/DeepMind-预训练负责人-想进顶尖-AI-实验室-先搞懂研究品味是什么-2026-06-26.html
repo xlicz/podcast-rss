@@ -1,0 +1,71 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">DeepMind 预训练负责人：想进顶尖 AI 实验室？先搞懂&quot;研究品味&quot;是什么</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Vlad Feinberg 告诉你，AI 时代最稀缺的不是算法能力，是判断&quot;哪条路大概率走得通&quot;的直觉</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">Vlad Feinberg 是 Google DeepMind 的预训练领域负责人。他管着 Gemini Flash 和 Flashlight 的交付——这两个模型在 Google 搜索的 AI 概览和 AI 模式中提供底层能力。他还是 Google 和 Apple 合作项目的关键技术对接人。</p>
+<p style="margin:0.8em 0">但他最近写了一篇帖子引发大量关注，标题是《如何进入前沿实验室工作》。在 Ryan Peterman 的播客里，他展开讲了这篇帖子的核心逻辑：<strong style="font-weight:600">&quot;研究能力会变得越来越重要。&quot;</strong></p>
+<p style="margin:0.8em 0">这不是一句鸡汤。他把研究能力拆解成了一个可操作的概念——研究品味。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">研究 vs 工程：一张随机的依赖图</h2>
+<p style="margin:0.8em 0">Feinberg 用一个比喻说清楚了研究和软件工程的区别。</p>
+<p style="margin:0.8em 0">软件工程是一个确定性的有向无环图。你知道要达成最终结果，需要先完成哪些中间产物——先构建服务 A，再构建服务 B，然后是 C，单调推进。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">研究完全不同。</strong> 这张图是随机的。其中的某些节点——某个研究想法、某个实验设计——可能成功，也可能失败。一旦某个方法走通了，又会打开一系列新的可能性。而更麻烦的是，有些节点你一开始根本不知道它存在。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">他说这叫&quot;隐藏的 MDP（马尔可夫决策过程）&quot;。在处理这个 MDP 时，你必须把不同研究想法的成功率和你要投入的时间成本都考虑进去，还要在动手之前预估这些成功率大概是多少。</p>
+</blockquote>
+<p style="margin:0.8em 0">&quot;这种还没动手做，就能凭直觉判断一个方法有多大可能成功的本事，就是研究品味。&quot;</p>
+<p style="margin:0.8em 0">你不需要遍历所有路径——那在研究里根本不现实。你需要快速判断：这条路大概率走不通，换一条；这个方向值得投入更多资源。</p>
+<p style="margin:0.8em 0">Feinberg 说这种能力的培养方式其实很明确：做文献综述。&quot;在我没有彻底搞清楚全人类在这个课题上的最前沿进展之前，我肯定没办法去推动这个前沿。&quot;</p>
+<p style="margin:0.8em 0">但你不能逐字读每篇论文——根本没时间。所以你得培养出一种感觉：知道哪些是高价值的论文，用什么方法可以快速判断一篇论文值不值得读。他把这项技能叫做&quot;数学成熟度&quot;——有了它，阅读和理解研究级论文就很容易了。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">LLM 预训练的核心：配方 + 预测</h2>
+<p style="margin:0.8em 0">讲到自己的工作，Feinberg 给了一个非常清晰的框架。</p>
+<p style="margin:0.8em 0">预训练研究的核心是&quot;配方&quot;——一个函数，输入是你想投入的训练算力，输出是一套训练流程。配方好不好，关键看你能不能预测：投入这么多算力后，模型最终的测试损失是多少？</p>
+<p style="margin:0.8em 0">这背后的逻辑来自缩放定律的文献脉络。从 Kaplan 那篇论文到 Chinchilla，大量工作都在做一件事：搞清楚除了参数量和训练 token 数之外，还有哪些因素会影响预测精度。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">为什么这件事这么重要？</strong> 因为 LLM 的训练环境跟经典的机器学习完全不同。</p>
+<p style="margin:0.8em 0">&quot;在 ImageNet 时代，你有一个验证集。每当你有一个新的架构想法，就训练它，跑验证集，得到一个交叉验证误差。通过这个过程，你可以不断迭代各种想法。&quot;</p>
+<p style="margin:0.8em 0">&quot;但在 LLM 的世界里，每一次你要启动一轮预训练，你投入的算力都会比以往任何一次都多。你永远没机会看到完整的训练数据。你得先在 MNIST 上练手，然后是 CIFAR，再然后基于这些经验搞出一个方法，希望它一上来就能在 ImageNet 上跑通。&quot;</p>
+<p style="margin:0.8em 0">很多人在小规模上效果拔群，一到大规模就崩了。所以预训练团队的核心任务就是制定配方，让模型可预测地扩展。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Flash 2.0 的那场硬仗</h2>
+<p style="margin:0.8em 0">Feinberg 讲了他在 Gemini 项目里最难忘的一个&quot;战斗故事&quot;——Flash 2.0。</p>
+<p style="margin:0.8em 0">当时团队面临一个关键决策：要不要从稠密模型切换到 MoE（混合专家）架构？MoE 能大幅提升模型容量，但有一个致命问题——延迟。</p>
+<p style="margin:0.8em 0">MoE 的参数比稠密模型多得多，HBM 放不下，必须把专家切分到多个芯片上。当一个 token 需要被路由到某个专家，但这个 token 在第一块 TPU 上，而专家在最后一块 TPU 上——前向传播里就会出现巨大的通信开销。延迟随芯片数量急剧上升。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">转折点来自一个看似没用的老技术：流水线推理。</strong></p>
+<p style="margin:0.8em 0">在稠密模型上，流水线一直没什么用武之地——Feinberg 自己测过，确实改变不了预填充性能。但他团队里一个叫 Gayan 的同事提出了一个想法：把流水线用到 MoE 上。</p>
+<p style="margin:0.8em 0">这个思路不是把专家分布到 N 台机器上，而是把层分布到 N 台机器上。在某一层上，不需要在机器之间路由 token。第一层先处理请求的一部分 token，处理完交给下一台机器算第二层——所有专家留在单台机器上。</p>
+<p style="margin:0.8em 0">&quot;这实际上改变了通信模式。从原来每一层都需要大量交换 token，变成了可以把通信隐藏在计算背后......当第二层在处理你请求的前一千个 token 时，第一块芯片上的第一层已经在处理你请求的第二千个 token 了。&quot;</p>
+<p style="margin:0.8em 0">这个技术突破让 MoE 的延迟变得有吸引力。于是 Flash 2.0 上了 MoE——这是他们在那个规模上训过的最大模型。</p>
+<p style="margin:0.8em 0">然后就是一个 5 人团队轮班 40 天把模型训出来。&quot;我们基本没怎么睡，在巴黎和 Mountain View 之间排双班。&quot;每天都在做 SRE 式的活，确保训练任务活着、数据迭代器不拖慢、任何故障飞快修好——因为每一秒都在烧 GPU。</p>
+<p style="margin:0.8em 0">模型出来的时候，正好赶上 DeepSeek V3 发布。华尔街日报发了一篇恐慌式报道，说中国要用开源模型接管 AI，还配了一张排行榜截图——但&quot;故意省略了几行&quot;。实际打开网站，Flash 2.0 Thinking 在右上角遥遥领先 DeepSeek V3。</p>
+<p style="margin:0.8em 0">&quot;这可能跟他们想讲的开源叙事不太搭，但对我们团队来说确实是一个非常重要的成就。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">到底怎么进前沿实验室？</h2>
+<p style="margin:0.8em 0">Feinberg 在帖子里说了一个很具体的邀请：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;如果你把 ScalingBook 里的练习手写完成，再把我帖子里提到的 Transformer 练习也做了，录个视频发给我——而且你能在纽约办公室工作的话——我很乐意面试你。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他真的收到了提交，正在走面试流程。&quot;发帖大概一周内就收到了回复，说明这事是完全可行的。&quot;</p>
+<p style="margin:0.8em 0">但除了这个具体路径，他讲了几条更底层的东西：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一，开源贡献是极强的信号。</strong> 你可以拿 VLM 或 SGLang 做优化——不需要在所有场景下都让它更好，展示&quot;我在这个设定下有一个改进&quot;就够了。&quot;这对我看任何候选人来说都是一个极其积极的信号。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二，主动去解决人们真正面临的问题。</strong> 哪怕只是大项目里比较小的环节。&quot;不要害怕去处理问题里比较小的部分，或者听起来比较琐碎的部分。&quot;他举了自己的例子：最早参与 Bard 项目时，他只是帮忙做 SFT，调超参数，在一些很老的 TPU 上多挤出算力周期。那一次的微小参与被 Jeff Dean 注意到了，后来逐渐发展成了他在大语言模型方面越来越多的投入。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三，做一个别人希望看到你成功的人。</strong> 这是他认为最重要的职业建议。&quot;帮别人在他们的项目上取得成功，提出一些能发挥别人互补技能、让他们大放异彩的项目——别人会注意到的。以后你提出新项目，大家会愿意参与，总体上也会愿意支持你往前走。&quot;</p>
+<p style="margin:0.8em 0">他说职场里确实存在那种&quot;马基雅维利式的领导为了短期收益不惜代价压榨别人&quot;，但他在职场里发现，&quot;少数几个人，他们就是特别善良，是那种你能从他们身上学到东西、跟着他们走就能成功的人，他们真的让我发自内心想帮他们成功。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 不会取代我们——因为没法吊销它的执照</h2>
+<p style="margin:0.8em 0">聊到 AI 对就业的影响时，Feinberg 给了一个很犀利的论证。</p>
+<p style="margin:0.8em 0">&quot;我们现在已经有 LLM 能非常深入地理解法律了，可以帮你审核合同什么的。但它们不能代表你出庭——因为没法被吊销执照。&quot;</p>
+<p style="margin:0.8em 0">他认为人类在组织里做的一个重要事情，是建立信任网络和分配资源。就算 AI 能加速执行，但&quot;资源怎么分配的决策，永远需要归因到一个做决定的人身上。你不能把责任推给 AI。&quot;</p>
+<p style="margin:0.8em 0">所以他的态度是：不要再被 FUD（恐惧、不确定、怀疑）裹挟了。&quot;人很容易陷进那种循环——什么 AI 永久底层阶级之类的。但重要的是去想，我们对自己的未来都有主动权。我们可以从今天开始投资那些对未来重要的技能。担心是没用的。&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点：</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">研究品味不是玄学，是在不确定性的依赖图中快速判断&quot;哪条路大概率能走通&quot;的直觉——培养方法是做扎实的文献综述</li>
+<li style="margin:0.3em 0">LLM 预训练的核心是&quot;配方 + 预测&quot;：给定算力，能否准确预测模型最终损失？这背后是 Kaplan、Chinchilla 等缩放定律文献的完整脉络</li>
+<li style="margin:0.3em 0">Flash 2.0 从稠密模型切换到 MoE 的关键，是一个在被证实&quot;没用&quot;的流水线技术在新场景下的重新应用——MoE 架构让通信模式从 token 路由变成层路由</li>
+<li style="margin:0.3em 0">进入前沿实验室最有效的信号：给 VLM/SGLang 做开源贡献。Feinberg 真的在通过 ScalingBook 练习 + Transformer 实现来招人</li>
+<li style="margin:0.3em 0">&quot;做一个别人希望看到你成功的人&quot;——长线职业回报远高于马基雅维利式的短期博弈</li>
+<li style="margin:0.3em 0">AI 不会取代所有角色，因为责任必须归因到人。LLM 能审核法律合同，但不能替你出庭——&quot;没法吊销它的执照&quot;</li>
+</ul>
+
+</div>

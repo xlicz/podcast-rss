@@ -1,0 +1,22 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">🔴 <strong style="font-weight:600">雪球监控 — 需要登录</strong> | 2026-07-17 22:02</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">状态</strong>: 雪球 Cookie 已过期，fetch 脚本返回 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">login_required</code>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">已执行操作</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">✅ Chrome 浏览器窗口已打开（后台进程 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">proc_9a29c9862789</code>）</li>
+<li style="margin:0.3em 0">⏳ 等待手动完成登录（含极验滑块验证），最多 10 分钟</li>
+<li style="margin:0.3em 0">💾 登录成功后 cookie 自动保存到 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/Developer/xueqiu-crawler/config.json</code></li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">你需要做的</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">在打开的 Chrome 窗口中点击「登录」→「账号密码登录」</li>
+<li style="margin:0.3em 0">输入账号密码 + 完成极验滑块验证</li>
+<li style="margin:0.3em 0">确认看到关注流首页后，脚本会自动检测并保存 cookie</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">下次 cron（明天 09:00/12:00/18:00）将自动恢复</strong>，无需重复操作。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚠️ 为什么自动登录无效：雪球阿里云 WAF 拒绝自动化 Playwright 登录（session 被标记为 bot），必须用户亲手在真实 Chrome 窗口中完成登录 + 极验 CAPTCHA。fetch_xueqiu_posts.py 的 auto-login 虽然能注入 cookie，但服务端后续请求仍返回 WAF 挑战页。</p>
+</blockquote>
+
+</div>
