@@ -1,0 +1,234 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-13（周四）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态: TapTap ✅ / Apple ✅ / Steam ✅ / 逸修1 ✅ / 股价 ✅（akshare东财断连3次→fetch_stock.py兜底）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日判断：<strong style="font-weight:600">无新增触发信号，维持持有</strong>；先行指标第4采样点转混合（3区回归+2区连续出榜），E下修预警未触发</li>
+<li style="margin:0.3em 0">关键数字：股价 42.46（-0.84%）| 市值 ~193亿港元（≈176亿人民币）| 残差 -44%低位（昨-43%）</li>
+<li style="margin:0.3em 0">发言结论：<strong style="font-weight:600">对E影响：无修正</strong>——新承认&quot;tap的Q2=差的方面&quot;是事实确认（Q2已在版图内）非增量下修；&quot;短期或一次性&quot;=对冲叙事，Σ验证前折扣50%，不计入E</li>
+<li style="margin:0.3em 0">最值得注意：逸修1首次点名&quot;tap的Q2&quot;为差的方面（承认递进），但归因仍外移（信息不透明/小作文/恐慌踩踏）</li>
+<li style="margin:0.3em 0">行动：持有不加不减（半年报前不变）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价 42.46（8-13 周四）
+涨跌 -0.84%（-0.36）| 市值 ~193亿港元（≈176亿人民币）
+52周区间: 40.10 - 92.45（现价距低点 +5.9%）
+近6日: 44.36(8-06,-6.18%) → 44.38(8-07)
+→ 44.54(8-10) → 43.70(8-11) → 42.82(8-12) → 42.46(8-13)</p>
+<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">v3.2校准3：低位残差不调E（残差&lt;-30%持续&gt;3个月才复核）
+位置: 176亿人民币 &lt; 乐观锚下限259亿；市场隐含E≈10.4亿 vs 我18.5亿（-44%）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO2未上线</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️接近</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第4点混合</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①收入2季下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️版本上修</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2差获承认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-44%低位</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">昨-43%</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">快慢判定: ③为慢信号→仅标注（新承认&quot;tap的Q2差&quot;为定性，不触发立即动作）；先行指标仍为慢确认工具，未满2周阈值。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam PC，8-13 22:50）</h2>
+<p style="margin:0.8em 0">TapTap（vs 8-12）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: #6 小镇(持平) | #8 香肠(+3) | #87 戴夫(-4)</li>
+<li style="margin:0.3em 0">新品: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约: 心动系不在榜</li>
+<li style="margin:0.3em 0">热卖: #1 潜水员戴夫（买断制）</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs 8-12）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国畅销: 小镇国服 出榜（连续2日）</li>
+<li style="margin:0.3em 0">中国免费: #46 小镇(-3) | #95 香肠(+4)</li>
+<li style="margin:0.3em 0">香港畅销: #89 小镇国际服（回归，昨出榜）</li>
+<li style="margin:0.3em 0">台湾畅销: #85 小镇国际服（回归，昨出榜）</li>
+<li style="margin:0.3em 0">日本畅销: 出榜（连续2日）</li>
+<li style="margin:0.3em 0">韩国畅销: #92（-20，逼近出榜）</li>
+<li style="margin:0.3em 0">新加坡畅销: #47（回归，前连续2日出榜）</li>
+<li style="margin:0.3em 0">泰/印尼/马来/菲: #26(-6) | #31(-1) | #59(-8) | #27(+2)</li>
+<li style="margin:0.3em 0">美/英/德/法/巴西/越南: 无</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">火炬之光: 在线4192/峰4264/历史27296
+近30日均 6482（昨6338）</li>
+<li style="margin:0.3em 0">心动小镇: 在线13367/峰13744/历史65894
+近30日均 11664（昨11927）</li>
+<li style="margin:0.3em 0">解读: 双端在线回落5-8%，属周中正常波动；小镇PC在线仍为火炬3倍</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">E下修预警: <strong style="font-weight:600">未触发</strong>（第4采样点，连续下滑未满2周）</li>
+<li style="margin:0.3em 0">混合信号: HK/TW/SG三区回归 vs KR单日-20、JP+中国畅销连续2日出榜</li>
+<li style="margin:0.3em 0">复苏/脉冲: 部分区回归（首次，与昨日&quot;8区同步恶化&quot;相反）</li>
+<li style="margin:0.3em 0">结论: 恶化斜率放缓，转为拉锯；继续按慢确认工具跟踪，不动作</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控（8-13 新增 10 条；8-12 22:47 前已覆盖）</h2>
+<p style="margin:0.8em 0">今日新增: 10条（8-12 23:49 ~ 8-13 22:38）</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（10条中 0 条达E修正标准）</li>
+<li style="margin:0.3em 0">方向信号: 心动相关仅1条（22:38 动子现状）；其余9条无关心动（腾讯资本开支4/网易1/美团2/AI行业1/市场1）</li>
+<li style="margin:0.3em 0">可靠度: 🟡中——#19 为定性叙事+历史锚定，无新数字；&quot;短期或一次性&quot;待半年报裁决</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定</h3>
+<p style="margin:0.8em 0">📌 22:38 动子现状盘点 | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;信息暂时不透明…各种小作文…恐慌和踩踏…差的方面（比如mk和tap的Q2）很多都是短期或一次性&quot;
+主张: 股价下跌主因=信息差+小作文+恐慌踩踏；问题（mk/tap Q2/小镇年初事故）多为短期或一次性；此前预期已验证（小镇国服恢复、曝光7月恢复）
+核查: ❓定性无数字/待半年报
+对照: 表2#16（&quot;Q2两核心问题7月开始改善&quot;）→ 方向一致；表2#10/#17 再确认。与昨日版本（&quot;变现未解决&quot;）相比 → <strong style="font-weight:600">承认递进</strong>（tap的Q2首次明确归入&quot;差的方面&quot;，且首次说&quot;需要成绩证明&quot;）
+结论: 承认递进=正向信号；但&quot;短期或一次性&quot;=对冲叙事，Σ验证前折扣+50%；对E无修正</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 23:49/00:29/00:42/16:39 | ⚪ 无关
+结论: 腾讯资本开支讨论（下半年资本开支增加、利润或下滑、AI高capex正定价条件）——无关心动</p>
+<p style="margin:0.8em 0">📌 10:58 市场正常化 | ⚪ 无关
+结论: &quot;谁有业绩有逻辑估值有性价比谁就能涨&quot;——行业评论，无关心动</p>
+<p style="margin:0.8em 0">📌 15:25 网易梦幻畅玩服移动端 | ⚪ 无关（行业）
+结论: 8-21上线、与诡秘同日；行业新品供给，仅tap流量弱相关</p>
+<p style="margin:0.8em 0">📌 18:56 &quot;接近预告上限&quot; | ⚪ 无关
+结论: 行业财报评论（网易类），无关心动</p>
+<p style="margin:0.8em 0">📌 22:04/22:29 外卖行业 | ⚪ 无关
+结论: 美团外卖第三名无价值论、美团优选对比——无关心动</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（&quot;差的方面很多都是短期或一次性&quot;）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（信息不透明/小作文/恐慌踩踏）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">加深（tap的Q2首次归入&quot;差的方面&quot;+&quot;需要成绩证明&quot;）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无（维持持平/微增版本）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（&quot;之前预期已验证：小镇国服恢复、曝光7月恢复&quot;）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">非集中日：心动利好0条；#19为防御性叙事（维护&quot;市场误解&quot;论），非利好输出</li>
+<li style="margin:0.3em 0">语境: 股价42.46距52周低点40.10仅+5.9%，低位叙事维护动机存在</li>
+<li style="margin:0.3em 0">记入反误导档案（表5）；次日观察是否延续&quot;市场误解&quot;输出</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">公司级利润 10-15%: 不适用（无新利润预测）</li>
+<li style="margin:0.3em 0">产品级流水 30%: 不适用（无新产品流水预测）</li>
+<li style="margin:0.3em 0">对冲叙事 Σ验证+50%: 适用（&quot;差的方面短期或一次性&quot;未验证→折扣后仅作定性参考，不计入E）</li>
+<li style="margin:0.3em 0">估值结论 30%: 不适用</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天 8-14~8-27）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">8-21: 网易梦幻畅玩服移动端上线（逸修提及；行业）</li>
+<li style="margin:0.3em 0">8-21: 诡秘手游同日上线（行业竞争，tap流量观察）</li>
+<li style="margin:0.3em 0">8月中下旬: RO2上线筹备（版号已批）</li>
+<li style="margin:0.3em 0">8月中下旬: 小镇周年庆后首个大卡池（观察窗口）</li>
+<li style="margin:0.3em 0">8-30: 小镇2周年+三丽鸥活动结束（14天外，临近）</li>
+<li style="margin:0.3em 0">8月底: 26半年报（核心验证: tap增速/mk/事故影响）</li>
+<li style="margin:0.3em 0">8~9月: 影之刃零预售（定价268，预期首年300-500万份）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">新可证伪点: &quot;mk和tap的Q2差=短期或一次性&quot; → 半年报/电话会裁决（是否一次性 vs 趋势性）</li>
+<li style="margin:0.3em 0">验证路径: 26半年报（8月底）tap收入增速+mk费用结构；Q3 tap榜单/曝光持续性</li>
+<li style="margin:0.3em 0">历史验证点: 进行中 6 个（表2#9/#11/#13/#14/#16/#17 + 26E）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我18-19 / 他20-22 / 卖方(未覆盖26E) / 市场10-13 → 无变化
+小镇国际服: 我17 / 他17 / 市场10-12 → 无变化
+（他远期愿景非26E口径，不调E；今日无新E数字）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底）
+动作: 持有不加不减
+触发条件:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">半年报E≥17亿 → 🟢 259-333亿</li>
+<li style="margin:0.3em 0">半年报E≤13亿 → 🔴 150-200亿
+今日触发: 无（先行指标第4采样点混合，未达2周阈值）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价单日&gt;5%: 无（-0.84%）</li>
+<li style="margin:0.3em 0">快信号: 无（④⑤均未触发；③为慢信号仅标注）</li>
+<li style="margin:0.3em 0">先行指标: 未触发（第4采样点: 3区回归+2区连续出榜，拉锯）</li>
+<li style="margin:0.3em 0">出榜: 有（小镇国际服 日本 连续2日 | 小镇国服 中国畅销 连续2日）</li>
+<li style="margin:0.3em 0">新承认: 有（tap的Q2首次明确归入&quot;差的方面&quot;）</li>
+<li style="margin:0.3em 0">预测下修: 无</li>
+<li style="margin:0.3em 0">数据源异常: akshare东财API断连3次→fetch_stock.py兜底✅（东财push2实时源正常）</li>
+</ul>
+
+</div>
