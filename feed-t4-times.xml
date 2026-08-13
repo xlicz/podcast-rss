@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>feed-t4-times</title>
+    <link>https://xlicz.github.io/podcast-rss</link>
+    <description>test</description>
+    <lastBuildDate>Thu, 13 Aug 2026 08:00:00 +0000</lastBuildDate>
+    <item>
+      <title>T4 item 00</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-01.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>desc 1</description>
+    </item>
+    <item>
+      <title>T4 item 01</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-02.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:01:00 +0000</pubDate>
+      <description>desc 2</description>
+    </item>
+    <item>
+      <title>T4 item 02</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-03.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:02:00 +0000</pubDate>
+      <description>desc 3</description>
+    </item>
+    <item>
+      <title>T4 item 03</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-04.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:03:00 +0000</pubDate>
+      <description>desc 4</description>
+    </item>
+    <item>
+      <title>T4 item 04</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-05.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:04:00 +0000</pubDate>
+      <description>desc 5</description>
+    </item>
+    <item>
+      <title>T4 item 05</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-06.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:05:00 +0000</pubDate>
+      <description>desc 6</description>
+    </item>
+    <item>
+      <title>T4 item 06</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-07.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:06:00 +0000</pubDate>
+      <description>desc 7</description>
+    </item>
+    <item>
+      <title>T4 item 07</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-08.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:07:00 +0000</pubDate>
+      <description>desc 8</description>
+    </item>
+    <item>
+      <title>T4 item 08</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-09.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:08:00 +0000</pubDate>
+      <description>desc 9</description>
+    </item>
+    <item>
+      <title>T4 item 09</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-10.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:09:00 +0000</pubDate>
+      <description>desc 10</description>
+    </item>
+    <item>
+      <title>T4 item 10</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-11.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:10:00 +0000</pubDate>
+      <description>desc 11</description>
+    </item>
+    <item>
+      <title>T4 item 11</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-12.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:11:00 +0000</pubDate>
+      <description>desc 12</description>
+    </item>
+    <item>
+      <title>T4 item 12</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-13.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:12:00 +0000</pubDate>
+      <description>desc 13</description>
+    </item>
+    <item>
+      <title>T4 item 13</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-14.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:13:00 +0000</pubDate>
+      <description>desc 14</description>
+    </item>
+    <item>
+      <title>T4 item 14</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-15.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:14:00 +0000</pubDate>
+      <description>desc 15</description>
+    </item>
+    <item>
+      <title>T4 item 15</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-16.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:15:00 +0000</pubDate>
+      <description>desc 16</description>
+    </item>
+    <item>
+      <title>T4 item 16</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-17.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:16:00 +0000</pubDate>
+      <description>desc 17</description>
+    </item>
+    <item>
+      <title>T4 item 17</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-18.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:17:00 +0000</pubDate>
+      <description>desc 18</description>
+    </item>
+    <item>
+      <title>T4 item 18</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-19.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:18:00 +0000</pubDate>
+      <description>desc 19</description>
+    </item>
+    <item>
+      <title>T4 item 19</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t4-times-20.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:19:00 +0000</pubDate>
+      <description>desc 20</description>
+    </item>
+  </channel>
+</rss>

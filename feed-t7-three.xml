@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>feed-t7-three</title>
+    <link>https://xlicz.github.io/podcast-rss</link>
+    <description>test</description>
+    <lastBuildDate>Thu, 13 Aug 2026 08:00:00 +0000</lastBuildDate>
+    <item>
+      <title>T7 item 00</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t7-three-01.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>desc 1</description>
+    </item>
+    <item>
+      <title>T7 item 01</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t7-three-02.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>desc 2</description>
+    </item>
+    <item>
+      <title>T7 item 02</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/feed-t7-three-03.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>desc 3</description>
+    </item>
+  </channel>
+</rss>
