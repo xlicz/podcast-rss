@@ -1,7 +1,76 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 13 Aug 2026 23:05:43 +0800</lastBuildDate><item><title>[跨国串门儿计划] 你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</title><link>https://xlicz.github.io/podcast-rss/articles/你招到的从来不是最顶尖的-20--Cursor-人才负责人的-50-人名单-招聘法-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a6fdcd93356</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 13 Aug 2026 23:05:46 +0800</lastBuildDate><item><title>[a16z] 灯塔还是圈地：AI 公司卖软件的两条路</title><link>https://xlicz.github.io/podcast-rss/articles/灯塔还是圈地-AI-公司卖软件的两条路-2026-08-13.html</link><guid isPermaLink="false">a16z_89008eae292b</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>灯塔还是圈地：AI 公司卖软件的两条路</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">灯塔还是圈地：AI 公司卖软件的两条路</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：a16z 的 Joe Schmidt 与 Samsara/Meraki 销售老将 Andy McCall 拆解两种销售打法——什么时候靠信誉，什么时候靠数学，以及什么时候该停止想策略、开始打电话。</strong></p>
+<p style="margin:0.8em 0">Joe Schmidt 写这篇文章的起因，是开车上 101 高速时的一个观察：路两边各有一家公司，卖的是同一款软件，而两家公司都认定，全世界值得卖的对象只有旧金山的那一批公司。</p>
+<p style="margin:0.8em 0">这还不算最夸张的。现在高速上的每辆巴士都被包了广告，天上还有飞机拉着初创公司的横幅。Joe 说这些都很聪明，但全都瞄准同一种销售动作。</p>
+<p style="margin:0.8em 0">「现实是，你不必总是把东西卖给旧金山同一批公司。你也可以去卖俄亥俄，卖芝加哥，卖圣路易斯——去找真正需要你方案的人。」</p>
+<p style="margin:0.8em 0">他把两种打法命名为灯塔（Lighthouse）和圈地（Landgrab），用一个 2x2 矩阵区分。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个 2x2 矩阵：信誉驱动还是数学驱动</h2>
+<p style="margin:0.8em 0">矩阵的纵轴是「买家的风险敞口」（buyer's exposure）。这个词刻意选成「敞口」：买错方案的后果、方案在公司内部的暴露程度——你卖的产品最终会不会上线、会不会展示给终端客户，以及买这款软件的整体风险。从高到低。</p>
+<p style="margin:0.8em 0">横轴是「证明能否在市场上传播」（does proof travel）：你赢下一个客户，其他客户会不会因为这件事而更敢买。</p>
+<p style="margin:0.8em 0">右上角——风险高、证明会传播——是灯塔市场。典型特征是受监管行业、logo 数量有限。买家买错了，后果严重到可能被监管找麻烦。左下角——风险低、证明不传播——是圈地市场：有既有的预算、人们习惯了为某类服务付费，你要做的是走到买家面前把数学摊开：我的方案比你现在的（软件或者人力）更好。</p>
+<p style="margin:0.8em 0">一句话概括：灯塔市场卖的是「证明」（proof），圈地市场卖的是「数学」（math）。</p>
+<p style="margin:0.8em 0">灯塔的典型是 Harvey。法律行业是最难卖进去的市场之一：你在用 AI 增强人力、自动化初级律师的日常工作，理论上风险极高。但 Harvey 赢下了市场里最初几个关键律所之后，证明的传播是爆发式的——那些风险敞口巨大的买家突然意识到：「买这个方案是安全的。」</p>
+<p style="margin:0.8em 0">另一个例子是 Further AI，卖进保险行业。保险业从来不是技术的先行采用者，但 Further AI 拿下了一批全球最大的保险公司。它的打法是把 AI 方案做成「政府级安全、治理优先」的形态，然后用前向部署团队陪客户落地。这是灯塔，不是圈地：先吃下最大的保险公司，拿到社会证明，再向长尾渗透。</p>
+<p style="margin:0.8em 0">圈地的典型是 Stu，一家做应收账款（AR）催收的公司。催收不性感，但历史上一直有人力团队和大型软件公司在这个市场。Stu 的洞察是：AI 擅长跟人对话、擅长内部信息检索，可以把催收流程端到端重做。于是他们带着数学出门——「我们比你们现在的方案和人力团队更有效」，并算清楚能改善多少营运资金。买家中端市场居多，销售周期短。Joe 说那两位创始人是他见过的最好的销售之一，「跑客户的能力跟任何人一样强」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Samsara 的运气：强制令把整个行业变成了买家</h2>
+<p style="margin:0.8em 0">Andy McCall 在 Samsara 和 Meraki 都建过销售组织，这两家公司的故事是这个框架最好的注脚。</p>
+<p style="margin:0.8em 0">Samsara 2015 年成立，做物联网传感器。赶上了一个几乎不可复制的时点：2016 到 2019 年，美国联邦政府分阶段实施 ELD 强制令——长途卡车司机过去用纸质行车日志记录驾驶时长，现在必须用电子记录设备。两年时间里，整个行业突然必须找出预算来买这类设备。</p>
+<p style="margin:0.8em 0">「水涨船高，它帮了所有人。但如果你是新进入者，帮助尤其大——因为整个行业突然都得买东西，而其中一定比例的人会说，看看市面上有什么新玩意儿。」</p>
+<p style="margin:0.8em 0">有一个细节容易被忽略：强制令没有让大客户变得好卖。Andy 说得很实在——一个成立 18 个月、没人听说过的公司，打几通冷电话进最大的卡车运输公司，听到的都是「我们不买你」。于是他们很快想明白该卖给谁：中端市场。</p>
+<p style="margin:0.8em 0">理由有三条。中端市场不需要那么多社会证明，只关心「你的远程信息方案能不能满足我的需求」；销售周期短，成交快；部署快、反馈快——大客户部署周期长，反馈循环就长，中端市场的快速反馈直接帮助了产品创新。</p>
+<p style="margin:0.8em 0">Andy 的总结是：「别把太多光环套在我们头上。当时没多少战略。我们只是听客户的——谁愿意付钱，就卖给谁。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Meraki 的免费路由器：让客户自己发现</h2>
+<p style="margin:0.8em 0">Meraki 的故事更极端。2006 年，几个 MIT 博士生把 RoofNet 研究项目做成了公司，做云网络设备。2009 年前后，所有人都觉得他们疯了：「企业网络市场十年前就被 Cisco 和 HP 赢走了。」</p>
+<p style="margin:0.8em 0">他们没有任何机会进大企业——大企业的网络设备全被 Cisco 和 HP 锁死了。但他们的差异化对中端市场有意义：没有大型 IT 团队的公司，买不起需要命令行配置的设备。「我们能配置、能部署得更快，更简单。」谁在乎？中端市场在乎。</p>
+<p style="margin:0.8em 0">问题是怎么让买家明白这个差异。答案是让他们试。Meraki 办线上研讨会，宣布：来参加，送你一个免费的接入点，插上试试。</p>
+<p style="margin:0.8em 0">「如果他们试了，灯泡就亮了——哇，这比我正在用的简单太多了。这个策略在很长一段时间里极其成功。即使公司成熟以后，我们对试用和评估都非常慷慨，因为你从根本上希望客户体验到技术，然后自己发现它比替代品更好。」</p>
+<p style="margin:0.8em 0">这个策略在 AI 时代有一个麻烦：可配置性。Andy 的比喻是，给客户一台法拉利，他可能不知道怎么点火。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">POC 的纪律：结束日期 + 成功标准</h2>
+<p style="margin:0.8em 0">AI 产品的试用比网络设备危险得多。第一，产品每天都在变。第二，客户一旦上手就停不下来：「能不能做这个？做给我看看？再做那个？」——而答案往往是「也许可以」。结果就是 POC 变成科学项目，永远没有尽头。</p>
+<p style="margin:0.8em 0">Andy 给的两条规则很简单：</p>
+<p style="margin:0.8em 0">**必须有结束日期。**30 天、45 天、60 天，结束就是结束。时长取决于产品复杂度——如果部署要两周，你就不能做两周的试用。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">必须定义成功标准。</strong>「我们要证明的是：这里是我们能为你做到的事，双方都同意，45 天后如果它做到了，就算成功，你就往下走。」</p>
+<p style="margin:0.8em 0">Joe 补充了执行层面的难题：AI 自动化一个从未被自动化过的工作流，配置成本很高，产品可能没问题但部署不当，或者结果需要超过 45 天才显现。这就出现了两层风险——产品本身行不行，和客户用得对不对。他认为现在做得最好的是 Decagon：进客户之前就把要命中的基准（benchmarks）讲清楚，然后按期命中。「客服其实是个高风险敞口市场，你不想搞砸，他们把它做得很好。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">什么时候从圈地转向灯塔</h2>
+<p style="margin:0.8em 0">Meraki 和 Samsara 都从圈地起步，成熟后垂直化，切进灯塔打法。最典型的切换场景是公立学区。</p>
+<p style="margin:0.8em 0">「如果你卖给过学区，就知道他们全都互相认识。你要找的是每个州最大的学区。把它拿下，它下面的每个学区都会问：那个最大的买了什么？社会证明瞬间就有了。」</p>
+<p style="margin:0.8em 0">为什么必须切换而不是让同一支团队顺手做？因为销售动作根本不同：销售周期不同、决策人不同、采购流程不同。让卖中端市场的团队去卖一个城市、一个县、一个学区，「就是不一样」。这时应该换打法，甚至换人。</p>
+<p style="margin:0.8em 0">两种打法需要两种人。灯塔策略——盯住金融行业排名前 15 的账户、每个季度往里打——需要资深的企业销售，懂大账户的销售周期和采购周期。圈地策略只需要「态度 + 悟性」：可以招职业生涯早期的人，让他们尽可能快地去砸尽可能多的客户，因为你在打一个大市场，要的是尽快堆战果。</p>
+<p style="margin:0.8em 0">Lighthouse 能不能一直做下去？可以，但有前提：多产品策略，不断出新品、不断打新垂直。如果只有一个产品，灯塔拿下前五之后自然要向下铺开——「我拿下了全球前五的金融公司，接下来就是顺着名单往下打」。那已经变成另一种销售动作：花更少的时间在大 logo 上，花更多的时间在「这是参考客户，我的产品最好，买吧」。也有公司永远停在灯塔模式，比如 Applied Intuition：全世界买自动驾驶软件的买家数量是固定的，每一个都是巨大的 ACV，必须对每个客户极度用心。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么现在又到了「卖大软件」的时刻</h2>
+<p style="margin:0.8em 0">Joe 认为今天的 AI 公司处在一个特殊的时点上。过去十五年，PLG（产品驱动增长）是主旋律，但那是因为大平台机会——CRM、人力资源、ITSM——在 2000 到 2010 年间被占完了。后来的公司只能做楔形产品切入，再慢慢扩张，所以「land and expand」流行了十几年。</p>
+<p style="margin:0.8em 0">更重要的是，从本地部署到云，是一个足够大的转变，值得客户换供应商。但从云到云不值得：「按钮是绿的还是蓝的，我不在乎。」</p>
+<p style="margin:0.8em 0">AI 改变了这个局面。现在大公司内部有一种疯狂的动能——每个企业都有 AI 委员会，都在说「我们必须买什么、必须在什么时间前买」。这甚至不是强制令级别的外生冲击，但它足够接近：CEO 们正扮演当年 ELD 强制令的角色。</p>
+<p style="margin:0.8em 0">「我们谈论的不再是拟物化的一对一替换，绿按钮换蓝按钮。我们谈的是：人将做完全不同的、更高价值的事，而 Agent 将接手大量重复劳动。所以现在是重新去卖大软件、去卖平台的时刻。」</p>
+<p style="margin:0.8em 0">与之配套的是买家的变化。Andy 观察到的长期趋势：每一次技术转型，买家都比上一次更懂。今天的买家比五年前、十年前清楚得多地知道自己要什么。这意味着销售任务变了——不再是把客户领上一整段教育旅程，而是在他进入决策模式的那一刻击中他，说服他你是对的解决方案。卖起来应该更容易。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最大的错误：在策略上花太多时间</h2>
+<p style="margin:0.8em 0">「卖摩根大通听起来比卖俄亥俄的某家公司性感得多。」</p>
+<p style="margin:0.8em 0">Joe 说这是创始人早期犯的最大错误，但它的表现形式不是选错策略，而是<strong style="font-weight:600">想太久</strong>。「策略重要，但你应该花 1% 的时间选策略，99% 的时间执行。」与其坐着权衡灯塔还是圈地，不如出门跟客户聊，找出谁愿意为你的产品——以它今天的功能——付钱，然后追那条路。</p>
+<p style="margin:0.8em 0">「营收没有辛苦加分。你不会因为拿下一个大 logo 就获得收入倍数加成。去追你能追到的客户，持续改进产品，一年后回头看里程碑，再重新评估策略。」</p>
+<p style="margin:0.8em 0">Andy 的版本是：Samsara 和 Meraki 当年根本没纠结过这个问题。冷电话打出去，谁愿意买，答案自然浮现。</p>
+<p style="margin:0.8em 0">快问快答里有一个问题值得单独摘出来：早期公司的销售团队应该有多少人达标？Andy 的答案是接近 100%。「早期销售团队靠动量运转。你要雇赢家，给他们赢的机会。」如果你看到一家公司的销售团队只有 40% 到 50% 的人达标，要么是 quota 定太高，要么是招聘画像错了。另外，他建议公司尽早雇一个销售运营——一个人就够，不一定是完整的团队——负责区域划分、名单、佣金机制这些事。等进入规模化阶段，这些工作要么已经理顺，要么就会变成绊脚石。</p>
+<p style="margin:0.8em 0">Andy 给年轻销售的建议同样反直觉：不要追最高的佣金、最热的赛道、最大的头衔。「找你能找到的最好的公司去工作。公司会增长，你会跟着它一起长——那是一部职业电梯。我早期犯的错就是去追钱和头衔。」</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">灯塔市场卖「证明」，圈地市场卖「数学」：纵轴是买家风险敞口，横轴是证明能否在市场上传播。</li>
+<li style="margin:0.3em 0">判断你在打哪一局的试金石：客户有没有既有预算？是替代品还是品类创造？前者偏圈地，后者偏灯塔。</li>
+<li style="margin:0.3em 0">Samsara 的 ELD 强制令启示：外生冲击会突然把所有买家推向市场，新进入者靠中端市场快速成交和快速反馈循环起量。</li>
+<li style="margin:0.3em 0">Meraki 的免费接入点启示：让客户自己发现产品更好，比说服有效得多——但 AI 产品的 POC 必须有结束日期和成功标准，否则会变成没完没了的科学项目。</li>
+<li style="margin:0.3em 0">圈地和灯塔需要不同的人：圈地要「态度+悟性」的早期职业者快速铺量，灯塔要资深企业销售懂采购周期。</li>
+<li style="margin:0.3em 0">垂直化是切换的时机：学区、市政的采购逻辑和中端市场完全不同，换打法也换人。</li>
+<li style="margin:0.3em 0">过去 15 年 PLG 是主旋律，但 AI 是一次足够大的重置——现在是重新卖大软件的时刻。</li>
+<li style="margin:0.3em 0">1% 时间选策略，99% 时间执行。营收没有辛苦加分，先追愿意付钱的客户。</li>
+</ul>
+
+</div>
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</title><link>https://xlicz.github.io/podcast-rss/articles/你招到的从来不是最顶尖的-20--Cursor-人才负责人的-50-人名单-招聘法-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a6fdcd93356</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Adam Ward 把每次招聘都当成高管猎聘来做——先定义全世界最适合这个岗位的 50 个人，再花几年时间死缠烂打。</strong></p>
@@ -69,7 +138,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[张小珺Jùn｜商业访谈录] 做到 Cosmos 97</title><link>https://xlicz.github.io/podcast-rss/articles/做到-Cosmos-97-2026-08-12.html</link><guid isPermaLink="false">zhang-xiaojun_3194e0a74708</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>做到 Cosmos 97</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+]]></content:encoded></item>
+<item><title>[张小珺Jùn｜商业访谈录] 做到 Cosmos 97</title><link>https://xlicz.github.io/podcast-rss/articles/做到-Cosmos-97-2026-08-12.html</link><guid isPermaLink="false">zhang-xiaojun_3194e0a74708</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>做到 Cosmos 97</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">做到 Cosmos 97</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：英伟达研究副总裁刘洺堉：错过 Sora 之后，世界模型不是一场鱿鱼游戏，而是一门造市场的生意</strong></p>
 <p style="margin:0.8em 0">2024 年 3 月，Sora 发布后不久，英伟达内部一群做生成式模型的人，各自给黄仁勋写了一封信。领头的是研究副总裁刘洺堉。信的内容大同小异：世界模型，必须是公司下一个重大投资。</p>
@@ -14382,7 +14452,8 @@ python ~/.hermes/scripts/setup_xueqiu_login.py
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-13.html</link><guid isPermaLink="false">report:STH解码:2026-08-13:b26a6e05</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-13</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-13.html</link><guid isPermaLink="false">report:STH解码:2026-08-13:b26a6e05</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-13</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🔴 STH_ 每日解析阻塞 — 雪球 Cookie 过期（需人工干预）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14431,7 +14502,8 @@ python3 ~/.hermes/scripts/setup_xueqiu_login.py
 <p style="margin:0.8em 0">完成滑动验证/登录后，当日 cron 重试即可恢复；8-11~8-13 的 STH_ 发言将在下次成功 crawl 时补齐（append 模式）。</p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-13.html</link><guid isPermaLink="false">report:心动日报:2026-08-13:5b3f693a</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-13</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-13.html</link><guid isPermaLink="false">report:心动日报:2026-08-13:5b3f693a</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-13</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-13（周四）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14666,73 +14738,5 @@ python3 ~/.hermes/scripts/setup_xueqiu_login.py
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</title><link>https://xlicz.github.io/podcast-rss/articles/你招到的从来不是最顶尖的-20--Cursor-人才负责人的-50-人名单-招聘法-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a6fdcd93356</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Adam Ward 把每次招聘都当成高管猎聘来做——先定义全世界最适合这个岗位的 50 个人，再花几年时间死缠烂打。</strong></p>
-<p style="margin:0.8em 0">在硅谷，招聘被想成一个漏斗：联系一百个人，二十个回复，逐轮筛掉一批，最后雇下剩下的。</p>
-<p style="margin:0.8em 0">Adam Ward 说这个漏斗应该叫「厄运漏斗」。他是 Cursor 的人才负责人，此前创办的招聘公司 Growth by Design 去年被 Cursor 全资收购——这种事情很少发生，收购一家招聘机构，等于把「找最好的人」这件事买进公司内部。再往前，他在 Pinterest 把团队从两百人招到两千多人，在 Facebook 领导一支横跨十个办公室、六十五人的全球招聘团队，帮技术组织从一千人扩张到一万多人。</p>
-<p style="margin:0.8em 0">他的判断是：那二十个回复你的人，按定义不是最顶尖的百分之二十。他们只是碰巧赶上不顺心日子的二十个人。而你雇的是漏斗底部剩下的那个。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">厄运漏斗为什么是错的</h2>
-<p style="margin:0.8em 0">这个概念来自 1998 年。Adam 当时是实习生，在一家以招聘闻名的公司 Trilogy 做全国校园巡回，他的第一个经理 Jeff Daniel 发明了「厄运漏斗」这个词。</p>
-<p style="margin:0.8em 0">问题不在筛选环节本身。假设你的面试流程、评估标准都很好，那么随着量上来，你招到的人会稳定地回归均值。一个从宽漏斗里筛出来的团队，长期下来只能略高于平均水平。</p>
-<p style="margin:0.8em 0">替代思路是把漏斗反过来：如果你一开始就有信心知道最顶尖的那百分之二十是谁，然后用评估流程去验证这个判断呢？</p>
-<p style="margin:0.8em 0">「你心里想的是：全世界有五十个人能干这活儿，那就去找那五十个人。把精力集中在激活这些人上，而不是试图从厄运漏斗里把他们捞出来。」</p>
-<p style="margin:0.8em 0">这个思路其实来自高管猎聘的成熟打法，只是没人把它用到普通岗位上。高管寻访通常分三步：明确需求、画出市场地图、不懈追求。Adam 的整个方法论就是这三步的规模化。</p>
-<p style="margin:0.8em 0">**第一步，明确需求。**大多数人说自己「一看就知道优秀长什么样」，Adam 说你看不出来——你没有花时间客观定义过优秀。定义需求就是：这个岗位需要什么技能，按优先级排好；需要什么经验，按优先级排好；这个岗位为什么重要、成功长什么样、为什么能产生巨大影响。这一切要在接触任何候选人之前搞清楚，因为它决定寻源策略、决定推销话术、决定评估标准。</p>
-<p style="margin:0.8em 0">有意思的是，这些定义里没有一条是「来自哪家公司」。Adam 反复提醒别盯着简历上的公司 logo。有些公司确实有黄金时期，用 logo 做快速判断的捷径听起来合理，但大多数公司几乎第一时间就跳到了这个结论上——你其实在借用别人对优秀的定义，而那个定义未必适合你的产品和你的阶段。</p>
-<p style="margin:0.8em 0">**第二步，画地图。**这是提问的艺术。大多数公司会问：「你认识的最好的产品工程师是谁？」Adam 说这是你能问出的最烂的问题。</p>
-<p style="margin:0.8em 0">更好的问法是：「在你共事过的所有产品工程师里，谁跟设计师协作最默契？谁能把框架转化成产品，转化得比任何人都好？」</p>
-<p style="margin:0.8em 0">把具体的特质、技能、团队需求放进问题里，对方才容易想到具体的人。当你对一群信任其品味的人问同样精准的问题，名字会开始三角验证——Lenny 提了他，Sally 也提了他，这个人进名单。你还可以反向操作：把定义好的特质拿去搜全世界的招聘职位描述，看哪些公司同样强调这些特质，那些公司里可能藏着你要找的人。</p>
-<p style="margin:0.8em 0">**第三步，不懈追求。**Adam 把这称为「播种」。五十个人会以不同的速度成熟，有人几周，有人几个月，有人几年。关键是你必须启动那个计时器。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">关心是免费的，而且是最锋利的武器</h2>
-<p style="margin:0.8em 0">播种的具体形态是：对方说「现在时机不好，也许深秋」，你回答「那太好了」——然后问能不能来喝杯咖啡、看看办公室，能不能把他介绍给团队里另一位对他的工作特别感兴趣的人。</p>
-<p style="margin:0.8em 0">即使深秋是真的，也不意味着你不能持续对话。如果什么都不做等到深秋，最好的情况是他还在，最坏的情况是他已经被别人抢走了。</p>
-<p style="margin:0.8em 0">Adam 有一句话贯穿整个流程：「关心是免费的。」市场上各种招聘策略成本各不相同，但比任何人都更关心候选人这件事，不用花钱，而且是公司内在能力。他看历史数据：候选人满意度评分里，排第一位的永远是「公司真的想要我，他们让我觉得我属于那里」。</p>
-<p style="margin:0.8em 0">这与厄运漏斗的心态正好对立。陷在漏斗里的人被数字困住——「我需要联系一百个人才能有二十个回复，十个面试才能有四个进现场」。Adam 提醒团队的是：这个职位只需要一个人。「我们是为这个职位招一个人，不是十个人。别被那十个人困住，专注于那一个人。」</p>
-<p style="margin:0.8em 0">这句话听着像鸡汤，直到你看到具体操作。</p>
-<p style="margin:0.8em 0">Cursor 内部有个叫「招聘创意」的 Slack 频道。团队成员在路上碰到一个让人印象深刻的东西——一个产品、一篇文章、烧烤聚会上听到的一个人——就把资料丢进频道。然后聚集效应发生：有人认识他，有人知道他会被什么吸引，大家快速形成一个接触策略。这个频道不是招聘团队发起的，是公司里的非招聘人员丢想法进去，整个公司跟着一起推动。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">候选人体验应该是双向的</h2>
-<p style="margin:0.8em 0">大多数公司的现场面试几乎总是在索取：我们在评估，我们在提取信息，没怎么回馈给候选人。</p>
-<p style="margin:0.8em 0">Cursor 给某些岗位安排很长的现场体验：候选人做一个项目，和团队并肩工作。Adam 说这是最强信号——研究早就表明工作样本是预测在职成功的最高指标——但多数公司仍然把大量时间花在面对面问答上。</p>
-<p style="margin:0.8em 0">并肩工作的价值不只是技术信号。在一段时间的真实协作里，你能拿到核心价值观、协作能力这些可能比技术技能更重要的信号。</p>
-<p style="margin:0.8em 0">他们把体验设计得极其刻意：精心挑选候选人会见到谁，谁来迎接，午餐时谁坐在旁边。面试尽量安排在一顿饭周围。「隔着桌子分享一顿饭，是一种让人放下戒备、拉近关系的举动。」</p>
-<p style="margin:0.8em 0">Adam 讲了一个反证。他看过一个关于 Michael Truog 的采访：公司曾经试图取消工作适用环节，因为它增加了很大的负担，有些人不想做。结果是信号质量完全毁了，不得不把它带回来。「这确实很贵，对候选人也是很大的要求。但它是建立信心的功能。如果人才是你最重要的事儿，这就是值得投入的时间。」</p>
-<p style="margin:0.8em 0">配套设计：每个职能有对应的版本——市场拓展团队做挑战赛，一对一和招聘经理解决一个棘手客户问题；产品团队做项目性合作。给候选人一组问题可选，保留方向和自主权。对「你在免费帮他们解决问题」的批评，Adam 的回答是：他们在选问题上有自主权，公司也愿意根据候选人的可用性调整规模，「我们有时也会用周六」。</p>
-<p style="margin:0.8em 0">这套体验有一个飞轮效应：员工自己经历过这种待遇，于是他们知道怎么给下一批人传递同样的体验。一个朋友告诉 Lenny，他申请 Cursor 工作，那是他经历过的最好的候选人体验。按定义，被 Cursor 筛选过的人都是最优秀的一批——即使没加入，他们也会成为分量最重的推荐者。「你做得好，你的磁力就越来越强，激活成本越来越低。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">促成是一场团队运动</h2>
-<p style="margin:0.8em 0">在 Cursor，促成不是最后关头的谈判，而是全程推销。核心是在前期就非常清楚地了解这个人的动机——他可能因为什么跳槽——然后确保整个体验都围绕这些点展开。最后的 offer 只是水到渠成的下一步。</p>
-<p style="margin:0.8em 0">当候选人是高关注度对象时，团队会围绕他开每日站会，十分钟，讨论「我们在做什么能让他点头」。参与者有招聘经理、招聘专员，可能还有他以前的同事。每个候选人有一个专属 Slack 频道。</p>
-<p style="margin:0.8em 0">Adam 讲了本周发生的一个故事。团队在跟一位纽约的候选人接触，过程中了解到他上过表演艺术高中，是个受过古典训练的小提琴手，特别喜欢弦乐器。于是有人在纽约找到一家特色店，买了一把土耳其吉他——大概是吉他和小提琴结合的那种乐器——约了顿晚饭，在给 offer 的时候把礼物送给了他。几百美元，跟 offer 的规模和这个人可能带来的影响比起来不算什么。但「候选人回想最好的体验时，会觉得：哇，这感觉像是为我量身定做的」。</p>
-<p style="margin:0.8em 0">同样的逻辑延伸到 offer 之后。Adam 观察到一个正在变多的现象：接受 offer 后的毁约。职位越高，接受 offer 到入职之间的时间差越长，往往超过两周，中间是一个很大的窗口期。很多公司候选人一接受 offer 就去忙下一个了。Cursor 的应对是把它当成第二个动作：跟其他已接受 offer 的人一起吃饭、建立社群，寄一台 Cursor 笔记本电脑，「有种你已经加入了的既视感」——既是为了确保交付真的发生，也是让归属感提前开始。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给创始人的三条组织建议</h2>
-<p style="margin:0.8em 0">**第一，不要招一个「银弹式」的人才负责人。**创始人第一次招招聘人员时，通常已经落后于招聘进度——积压了五个、十个、十五个职位。同时他又希望这个人能搭建一套体系。这两个诉求是冲突的：新人想证明自己，会拼命填坑，体系搭不起来；或者搭了体系，一个都没招进来。Adam 的建议是拆开：招一个能搭对体系的人，短期配外包招聘人员推进度；或者先找人打好基础，再招一个执行力强的个人贡献者。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第二，找在 90% 到 110% 负荷下表现最好的人。</strong>「如果招聘专员只有一半的招聘量，他们基本就废了。」这种人喜欢在肾上腺素飙升、忙得脚不沾地的状态里工作。超出范围也很糟糕——超过 110% 只会被淹没。你要找的就是那个甜区。</p>
-<p style="margin:0.8em 0">**第三，记住招聘人员是信心引擎，不是决策引擎。**很多公司把招聘目标挂在招聘团队身上，但 Adam 没见过哪家公司是由招聘人员做招聘决策的——做决策的是招聘经理、领导者或委员会。招聘人员的真正工作是帮招聘经理建立信心，做出正确的决定。当公司把整个招聘职能外包给一个部门时，主线就丢了：没有人应该比招聘经理和那个团队更在乎一次招聘，没有人在好招聘和坏招聘里感受到同样的喜悦或痛苦。</p>
-<p style="margin:0.8em 0">所以他还有一个观点：招聘团队应该是公司里薪资最高的团队之一。「真正有战略眼光的招聘人员现在存在供需危机，因为这些年我们把招聘做得太事务性了。能以这种方式工作的招聘人员供应量非常小。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">当下市场：双城记</h2>
-<p style="margin:0.8em 0">Adam 对 2026 年人才市场的判断，从一条观察开始：你可以连着读到两条头条——一条是给应届博士开出 NBA 级别的薪资，下一条是某家蓝筹公司裁员百分之十。</p>
-<p style="margin:0.8em 0">这两件事同时成立，是因为行业正在经历一轮重新洗牌。最紧俏的衡量单位不是钱，是时间：「这是一场跟时钟赛跑，去抢模型、抢人才。」</p>
-<p style="margin:0.8em 0">什么在上升？前向部署工程师（FDE）。这类人技术功底深、懂产品，能跟销售配合，也能走进满是高管的会议室，帮客户部署一个技术化甚至有点吓人的产品——或者帮公司想清楚怎么从 token 最大化转向优化。「这是个新技能，因为现在 CFO 们开始收到账单了。」Adam 认为这是当前供需失衡最严重的岗位。三到五年前的全栈工程师，现在可能就成了 FDE：从终端里走出来，走进客户和用户中间。对合适的人来说，这超级有干劲，像职业生涯里一个意想不到的篇章。</p>
-<p style="margin:0.8em 0">什么在降温？过度专精的窄深人才——「工程师、产品、设计正在某种程度上被挤压到一起」，公司想要的是技术极深但产品感更强的工程师。刚毕业的新人也在降温，因为他们还没攒够经验去做那些事，而 Cursor 这样的产品现在能替他们做一部分工作。</p>
-<p style="margin:0.8em 0">高影响力个人贡献者正在回归。过去十二个月，品味、判断力、解决问题的能力重新浮出水面。Adam 称之为「回归到做事的匠心本身」——这也解释了为什么 Cursor 自己从标签自动补全到云端 Agent 只用了几个月，每次都能抢在变化前面。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人才密度是团队的属性</h2>
-<p style="margin:0.8em 0">最后回到那个词：人才密度。Adam 的提醒是，很多公司过度关注某一个人。「人才密度不是指某一个人。一个十倍的人不可能待在一个烂团队里——那根本不存在。」优秀的领导者是拼图高手，组建互补的团队，帮每个人发挥所长。所以他更愿意谈团队层面的十倍，而不是个人十倍。</p>
-<p style="margin:0.8em 0">这大概就是整套方法论最底层的东西：招聘的原子单位是人，不是职位描述，不是岗位编号。当你把范围从「一百个候选人」缩小到「全世界最适合的五十个人」时，流程变成一棵决策树而不是流水线——下一场对话跟谁聊、聊什么，都根据这个人的情况临时编排。这套做法在厄运漏斗的大规模操作下不可能成立。但当你的名单足够精准、铺垫足够长，人们在流程里走得更快，人数也更少，「你在整个漏斗上花的总时间，其实只是把它挪到了不同的地方」。</p>
-<p style="margin:0.8em 0">Adam 说自己一直在努力做个有用的人。任何创始人来找他，他都会回邮件、打十分钟电话。「我希望人们来找我寻求帮助和建议，而且是找对了人。现在我也开始收获回报了——有人愿意加入我们的团队。」</p>
-<p style="margin:0.8em 0">这套系统最难复制的部分，可能就在这里：它不是一套流程，而是一种把「关心」作为核心产能的组织能力。流程可以抄，用心抄不走。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">招聘漏斗的数学是错的：回复你的 20 个人不是最顶尖的 20%，而是随机样本。批量筛选长期回归均值。</li>
-<li style="margin:0.3em 0">把每次招聘当高管猎聘做：定义需求（客观定义「优秀」）→ 画地图（精准提问做三角验证）→ 播种（几周到几年，持续触达）。</li>
-<li style="margin:0.3em 0">问「谁跟设计师协作最默契」而不是「谁是最好的产品工程师」——问题越具体，答案越可用。</li>
-<li style="margin:0.3em 0">候选人体验是双向的：工作样本 + 并肩工作是最强信号，曾取消过，信号质量崩了，又恢复了。</li>
-<li style="margin:0.3em 0">促成是团队运动：每日站会、每人专属 Slack 频道、几百美元的土耳其吉他——「关心是免费的」。</li>
-<li style="margin:0.3em 0">接受 offer 后还有第二个动作：毁约在变多，窗口期要预入职、建社群、寄电脑。</li>
-<li style="margin:0.3em 0">招聘人员是信心引擎不是决策引擎；要招在 90–110% 负荷下表现最好的人。</li>
-</ul>
-
-</div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>心动日报</category></item></channel>
 </rss>
