@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>T3 ASCII test</title>
+    <link>https://xlicz.github.io/podcast-rss</link>
+    <description>ascii only test feed</description>
+    <lastBuildDate>Thu, 13 Aug 2026 08:00:00 +0000</lastBuildDate>
+    <item>
+      <title>T3 item 01 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-01.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 1</description>
+    </item>
+    <item>
+      <title>T3 item 02 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-02.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 2</description>
+    </item>
+    <item>
+      <title>T3 item 03 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-03.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 3</description>
+    </item>
+    <item>
+      <title>T3 item 04 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-04.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 4</description>
+    </item>
+    <item>
+      <title>T3 item 05 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-05.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 5</description>
+    </item>
+    <item>
+      <title>T3 item 06 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-06.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 6</description>
+    </item>
+    <item>
+      <title>T3 item 07 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-07.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 7</description>
+    </item>
+    <item>
+      <title>T3 item 08 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-08.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 8</description>
+    </item>
+    <item>
+      <title>T3 item 09 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-09.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 9</description>
+    </item>
+    <item>
+      <title>T3 item 10 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-10.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 10</description>
+    </item>
+    <item>
+      <title>T3 item 11 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-11.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 11</description>
+    </item>
+    <item>
+      <title>T3 item 12 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-12.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 12</description>
+    </item>
+    <item>
+      <title>T3 item 13 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-13.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 13</description>
+    </item>
+    <item>
+      <title>T3 item 14 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-14.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 14</description>
+    </item>
+    <item>
+      <title>T3 item 15 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-15.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 15</description>
+    </item>
+    <item>
+      <title>T3 item 16 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-16.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 16</description>
+    </item>
+    <item>
+      <title>T3 item 17 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-17.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 17</description>
+    </item>
+    <item>
+      <title>T3 item 18 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-18.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 18</description>
+    </item>
+    <item>
+      <title>T3 item 19 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-19.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 19</description>
+    </item>
+    <item>
+      <title>T3 item 20 ascii only test entry</title>
+      <link>https://xlicz.github.io/podcast-rss/articles/t3-20.html</link>
+      <pubDate>Thu, 13 Aug 2026 08:00:00 +0000</pubDate>
+      <description>ASCII description 20</description>
+    </item>
+  </channel>
+</rss>
