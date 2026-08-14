@@ -1,69 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 14 Aug 2026 13:10:52 +0800</lastBuildDate><item><title>[跨国串门儿计划] 倒三角：AI 超级周期的钱为什么都堆在底层</title><link>https://xlicz.github.io/podcast-rss/articles/倒三角-AI-超级周期的钱为什么都堆在底层-2026-08-14.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_604ec2edb814</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>倒三角：AI 超级周期的钱为什么都堆在底层</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 14 Aug 2026 23:00:07 +0800</lastBuildDate><item><title>[跨国串门儿计划] 倒三角：AI 超级周期的钱为什么都堆在底层</title><link>https://xlicz.github.io/podcast-rss/articles/倒三角-AI-超级周期的钱为什么都堆在底层-2026-08-14.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_604ec2edb814</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>倒三角：AI 超级周期的钱为什么都堆在底层</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">倒三角：AI 超级周期的钱为什么都堆在底层</h1>
 <p style="margin:0.8em 0">斯坦福 2026 春季「AI 超级周期经济学」九节课合辑——从一吉瓦的账本到一条管线一个人，拆解技术栈每一层的成本、利润与瓶颈</p>
-<p style="margin:0.8em 0">2026 年春天，斯坦福一门九周的课把&quot;AI 的钱在哪儿&quot;当成了唯一主题。讲师 Bo 是 Altimeter 的合伙人，第一节课就甩出一张图：互联网、移动、云三次技术革命的价值分布都是正金字塔——应用层巨大，基础设施薄薄一层；今天的 AI 生态是一个倒三角。过去两年，AI 新增收入约 3500 亿美元，其中约 75% 直接流向半导体层。英伟达数据中心毛利率约 75%，应用层收入的毛利率在 0 到 30% 之间。他开场问的是：&quot;你建出来的这些模型，到底有没有创造经济价值？&quot;</p>
+<p style="margin:0.8em 0">2026 年春天，斯坦福一门九周的课把"AI 的钱在哪儿"当成了唯一主题。讲师 Bo 是 Altimeter 的合伙人，第一节课就甩出一张图：互联网、移动、云三次技术革命的价值分布都是正金字塔——应用层巨大，基础设施薄薄一层；今天的 AI 生态是一个倒三角。过去两年，AI 新增收入约 3500 亿美元，其中约 75% 直接流向半导体层。英伟达数据中心毛利率约 75%，应用层收入的毛利率在 0 到 30% 之间。他开场问的是："你建出来的这些模型，到底有没有创造经济价值？"</p>
 <p style="margin:0.8em 0">九节课的嘉宾覆盖技术栈每一层：Altimeter 创始人 Brad Gerstner、Groq 总裁 Sunny Madra（其公司刚被英伟达 200 亿美元收购）、Crusoe 创始人 Chase Lochmiller、Databricks CEO Ali Ghodsi、OpenAI 工业计算负责人 Sachin Katti、Applied Compute 创始人 Yash Patil、Vercel CEO Guillermo Rauch、Baseten CEO Tuhin，以及 Anthropic 和 Chai Discovery 的生命科学负责人。把他们的答案拼在一起，得到的不是共识，而是一张带坐标的地图：钱现在在哪一层、为什么待在那、什么条件下会搬家。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么这次不是软件的故事</h2>
-<p style="margin:0.8em 0">软件能吞噬世界，是因为软件的边际分发成本几乎为零：写一次，卖给几百万人，毛利率 80% 到 90%。AI 不是。Cursor 这类收入几十亿美元的公司依然不赚钱，因为每个新增用户背后都是真实烧掉的 GPU。&quot;AI 应用的用户不是免费的——实际上，AI 用户要贵得多。&quot;</p>
+<p style="margin:0.8em 0">软件能吞噬世界，是因为软件的边际分发成本几乎为零：写一次，卖给几百万人，毛利率 80% 到 90%。AI 不是。Cursor 这类收入几十亿美元的公司依然不赚钱，因为每个新增用户背后都是真实烧掉的 GPU。"AI 应用的用户不是免费的——实际上，AI 用户要贵得多。"</p>
 <p style="margin:0.8em 0">这是理解整个倒三角的第一性原理。需求端每多一个人用，供给端就要多建一块芯片、多烧一度电。于是利润没有流向最接近用户的层，而是流向最稀缺的层：半导体。英伟达一家拿走了过去两年 AI 新增收入里最大的份额；应用层 90% 的收入集中在两家公司手里；中间的基础设施层是竞争最激烈、代谢率最高的战场。</p>
-<p style="margin:0.8em 0">历史参照是 AWS：2004 年起步，2010 年才迎来第一个标志性客户 Netflix，2012 年亚马逊全面转向——从第一轮资本支出到三角翻转，用了八年。讲师对学生说得克制：这次可能维持更久，&quot;因为要把底层基础设施做对实在太难了&quot;。他给了两个观察翻转的触发器：某家超大规模厂商的 ASIC（谷歌 TPU、Meta MTIA、亚马逊、OpenAI、微软）取得突破性成功；或者，财报电话会里的资本支出指引不再增长。英伟达上一次披露，其算力中约 40% 用于推理、60% 用于训练，推理占比还会继续上升——这也是个风向标。</p>
+<p style="margin:0.8em 0">历史参照是 AWS：2004 年起步，2010 年才迎来第一个标志性客户 Netflix，2012 年亚马逊全面转向——从第一轮资本支出到三角翻转，用了八年。讲师对学生说得克制：这次可能维持更久，"因为要把底层基础设施做对实在太难了"。他给了两个观察翻转的触发器：某家超大规模厂商的 ASIC（谷歌 TPU、Meta MTIA、亚马逊、OpenAI、微软）取得突破性成功；或者，财报电话会里的资本支出指引不再增长。英伟达上一次披露，其算力中约 40% 用于推理、60% 用于训练，推理占比还会继续上升——这也是个风向标。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一吉瓦的账本</h2>
 <p style="margin:0.8em 0">Crusoe 的 Chase Lochmiller 在课上做了一件罕见的事：把一座 AI 数据中心每兆瓦的成本拆到了美元。</p>
-<p style="margin:0.8em 0">数据中心加发电厂：每兆瓦约 2000 万美元。其中劳动力 470 万美元/兆瓦——资本化的人力成本，阿比林园区每天 9000 人三班倒；燃气轮机 200 万到 300 万美元/兆瓦，两年前只要 100 万，&quot;现在所有人都想建天然气发电厂，你猜怎么着，价格涨了&quot;。IT 设备：每兆瓦约 4000 万美元，其中 GPU 3000 万、网络 400 万、CPU 和存储 300 万、机房内其他 300 万。合计前期投入约 6000 万美元/兆瓦，1GW 就是 600 亿美元。</p>
-<p style="margin:0.8em 0">回报端：把 H100 裸租出去，每兆瓦年收入约 1500 万美元，回收期约四年；加上托管模型服务，每兆瓦年收入能到 3000 万美元，回收期缩短到两年。前提是算力还能卖到这个价——而 H100 的现货价格在推出三年后不仅没跌成废铁价，反而涨回了发布初期的水平之上，Blackwell 的定价曲线在重复同样的故事。&quot;大家说下一代芯片出来旧的就没用了，这张图讲的是相反的故事。&quot;</p>
-<p style="margin:0.8em 0">两个反直觉的细节值得记住。其一，数据中心几乎不耗水：阿比林园区每栋楼约 100 万加仑冷却水，注满一次循环使用，年用水量相当于一户独栋家庭。其二，真正的瓶颈是人：美国没有足够的电工、焊工、管道工。&quot;这就是瓶颈。不是芯片，不是电，是技工。&quot;</p>
+<p style="margin:0.8em 0">数据中心加发电厂：每兆瓦约 2000 万美元。其中劳动力 470 万美元/兆瓦——资本化的人力成本，阿比林园区每天 9000 人三班倒；燃气轮机 200 万到 300 万美元/兆瓦，两年前只要 100 万，"现在所有人都想建天然气发电厂，你猜怎么着，价格涨了"。IT 设备：每兆瓦约 4000 万美元，其中 GPU 3000 万、网络 400 万、CPU 和存储 300 万、机房内其他 300 万。合计前期投入约 6000 万美元/兆瓦，1GW 就是 600 亿美元。</p>
+<p style="margin:0.8em 0">回报端：把 H100 裸租出去，每兆瓦年收入约 1500 万美元，回收期约四年；加上托管模型服务，每兆瓦年收入能到 3000 万美元，回收期缩短到两年。前提是算力还能卖到这个价——而 H100 的现货价格在推出三年后不仅没跌成废铁价，反而涨回了发布初期的水平之上，Blackwell 的定价曲线在重复同样的故事。"大家说下一代芯片出来旧的就没用了，这张图讲的是相反的故事。"</p>
+<p style="margin:0.8em 0">两个反直觉的细节值得记住。其一，数据中心几乎不耗水：阿比林园区每栋楼约 100 万加仑冷却水，注满一次循环使用，年用水量相当于一户独栋家庭。其二，真正的瓶颈是人：美国没有足够的电工、焊工、管道工。"这就是瓶颈。不是芯片，不是电，是技工。"</p>
 <p style="margin:0.8em 0">Chase 的做空方向因此指向一百年没怎么创新的电力设备公司——固态变压器、900V 直流、电力电子是留给电气工程师的机会；做多方向是模块化数据中心和能源。太空数据中心五年内不重要，十年内也不重要，但长期会有一席之地。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">十亿倍：推理需求的复利</h2>
-<p style="margin:0.8em 0">Groq 创始人 Jonathan Ross 是谷歌 TPU 的创造者，他对 Brad 说过一句话：&quot;推理是推理。推理的需求即将增长十亿倍——不是十倍，不是一百倍，不是一百万倍，是十亿倍。&quot;</p>
+<p style="margin:0.8em 0">Groq 创始人 Jonathan Ross 是谷歌 TPU 的创造者，他对 Brad 说过一句话："推理是推理。推理的需求即将增长十亿倍——不是十倍，不是一百倍，不是一百万倍，是十亿倍。"</p>
 <p style="margin:0.8em 0">Groq 的 V1 芯片是 2018 年的设计、14nm 工艺，却在推理性能上和先进五代制程的 Hopper 有竞争力。差别在架构：GPU 有海量算力和大容量但慢的 HBM，Groq 用海量片上 SRAM 加确定性编译器。当 Sunny Madra 提议把 Groq 芯片通过 NVLink 和英伟达 GPU 互联、拆分预填充和解码后，结果是同一个电力足迹下多产出 2.5 倍的 token。从发短信到英伟达 200 亿美元收购，大约 30 天。OpenAI 用同样的厂房、同样的电力，token 产出变成原来的 2.5 倍——在一个处处受限的世界里，这才是值钱的东西。</p>
 <p style="margin:0.8em 0">背后是两股对冲的力量。一股向下：推理单位成本过去一年降约 90%，两年半降约 99%。技术高度通缩，一座 AI 工厂里各种摩尔定律在组合式上演。一股向上：推理模型的 token 消耗是贪婪的，这还没算上 agent。生成一个 token 的算力约等于参数规模乘以上下文长度的平方；OpenAI 的 Codex 有 40 万 token 上下文，首 token 延迟 400 到 500 毫秒几乎全花在预填充上。当 Cerebras 把生成速度提上来，整个栈其他环节的延迟反而暴露出来——像当年优化网页加载时间的打地鼠。</p>
-<p style="margin:0.8em 0">Brad 讲了他和 Sam Altman 的一段不愉快对话：OpenAI 承诺了 1.4 万亿美元支出，收入只有 130 亿美元。Sam 的回答不是解释，而是&quot;你要是不喜欢，我就把你的股份买回来&quot;。真正改变 Brad 判断的是 Anthropic 的月收入曲线：1 月 35 亿、2 月 80 亿、3 月 105 亿美元——3 月单月的年化增量相当于 Databricks 加 Peloton 两家公司的年收入之和。&quot;不是靠一百万销售跑出来的，是产品跨过了一个智能能力的门槛。&quot;</p>
-<p style="margin:0.8em 0">但需求侧的通胀同样真实。Baseten 的 Tuhin 展示了手上的续约合同：B200 集群现价每小时 263 美元，云厂商给出的新价格是 510 美元，一年内翻倍。他的判断是&quot;永远不会恢复正常&quot;：就像肯尼迪机场早上八点的队伍，区别是这里没有凌晨四点的重置期，因为&quot;总有个地方是下午五点&quot;。Baseten 每天处理约 30 万亿 token，规模超过 OpenAI 的 API 业务；照趋势外推，两年后需要 15 万块 B200 等效算力，约 70 亿美元的算力支出——靠租拿不到，只能自建。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史押韵与&quot;主播问题&quot;</h2>
-<p style="margin:0.8em 0">钱会永远待在底层吗？Sachin 的答案是历史押韵：移动革命早期赚钱的是电信运营商和基础设施商，然后利润上移到应用层，再到云服务层。&quot;我们现在所处的阶段，利润就在基础设施层，但会往平台和应用层走。&quot;他同时是最清醒的一个：&quot;看起来现在每一个应用都在被 OpenAI 和 Anthropic 吞并，至少眼下是这样。&quot;</p>
-<p style="margin:0.8em 0">开源是价值上移的推土机：开源模型落后闭源约 90 天，成本便宜 70% 到 90%。Kimi 2.6 发布当周，讲师的判断是：如果它在 1 月发布，会是人类历史上最好的模型。Baseten 的两大赌注之一就是开源保持在三到六个月的差距内——而目前最好的开源模型全来自中国（Moonshot、阿里、MiniMax、DeepSeek），Tuhin 称之为国家安全层面的问题：如果智能在东方比西方便宜 70% 到 90%，那不会是好结果。他也公开反对 Anthropic 当天早上发表的中美 AI 关系文章——那篇文章的结论是&quot;要么我们领先就关掉它，要么不相上下就是战争&quot;，建议&quot;把它关掉&quot;：&quot;在提出任何观点之前，应该先讲清楚自己的立场和激励函数。&quot;</p>
+<p style="margin:0.8em 0">Brad 讲了他和 Sam Altman 的一段不愉快对话：OpenAI 承诺了 1.4 万亿美元支出，收入只有 130 亿美元。Sam 的回答不是解释，而是"你要是不喜欢，我就把你的股份买回来"。真正改变 Brad 判断的是 Anthropic 的月收入曲线：1 月 35 亿、2 月 80 亿、3 月 105 亿美元——3 月单月的年化增量相当于 Databricks 加 Peloton 两家公司的年收入之和。"不是靠一百万销售跑出来的，是产品跨过了一个智能能力的门槛。"</p>
+<p style="margin:0.8em 0">但需求侧的通胀同样真实。Baseten 的 Tuhin 展示了手上的续约合同：B200 集群现价每小时 263 美元，云厂商给出的新价格是 510 美元，一年内翻倍。他的判断是"永远不会恢复正常"：就像肯尼迪机场早上八点的队伍，区别是这里没有凌晨四点的重置期，因为"总有个地方是下午五点"。Baseten 每天处理约 30 万亿 token，规模超过 OpenAI 的 API 业务；照趋势外推，两年后需要 15 万块 B200 等效算力，约 70 亿美元的算力支出——靠租拿不到，只能自建。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史押韵与"主播问题"</h2>
+<p style="margin:0.8em 0">钱会永远待在底层吗？Sachin 的答案是历史押韵：移动革命早期赚钱的是电信运营商和基础设施商，然后利润上移到应用层，再到云服务层。"我们现在所处的阶段，利润就在基础设施层，但会往平台和应用层走。"他同时是最清醒的一个："看起来现在每一个应用都在被 OpenAI 和 Anthropic 吞并，至少眼下是这样。"</p>
+<p style="margin:0.8em 0">开源是价值上移的推土机：开源模型落后闭源约 90 天，成本便宜 70% 到 90%。Kimi 2.6 发布当周，讲师的判断是：如果它在 1 月发布，会是人类历史上最好的模型。Baseten 的两大赌注之一就是开源保持在三到六个月的差距内——而目前最好的开源模型全来自中国（Moonshot、阿里、MiniMax、DeepSeek），Tuhin 称之为国家安全层面的问题：如果智能在东方比西方便宜 70% 到 90%，那不会是好结果。他也公开反对 Anthropic 当天早上发表的中美 AI 关系文章——那篇文章的结论是"要么我们领先就关掉它，要么不相上下就是战争"，建议"把它关掉"："在提出任何观点之前，应该先讲清楚自己的立场和激励函数。"</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">开源模型落后闭源约 90 天，成本便宜 70% 到 90%。这是价值上移的推土机。</p>
 </blockquote>
-<p style="margin:0.8em 0">Databricks 的 Ali 讲了一个反直觉的故事：2000 年代初他读博士，全世界的聪明人都在攻克&quot;主播问题&quot;（multicast）——如何把一场比赛高效广播给全世界。那是当时公认最难、最值得研究的问题。后来带宽成本暴跌，光纤铺得太多了，这个问题直接消失了。而互联网真正跑出来的东西当时没人看得上：出租车生意（Uber）、卖书（亚马逊，后来长出 AWS）、租出空卧室（Airbnb）、发短消息（Twitter）。&quot;爱彼迎 2001 年就能成立，不需要世界发生任何新的事，偏偏等了九年才有人想到。&quot;</p>
-<p style="margin:0.8em 0">他的推论是：别盯着眼下最热的东西，那很可能是下一个主播问题。真正的大机会在没人讨论的地方——医疗占美国 GDP 约 17%：一家&quot;见过十亿个病人&quot;的公司可以是万亿美元级别；教育：风投共识是永不投教育，但选举胜负就押在教孩子什么上，&quot;上一家万亿美元的教育公司是哪家？没有。&quot;</p>
+<p style="margin:0.8em 0">Databricks 的 Ali 讲了一个反直觉的故事：2000 年代初他读博士，全世界的聪明人都在攻克"主播问题"（multicast）——如何把一场比赛高效广播给全世界。那是当时公认最难、最值得研究的问题。后来带宽成本暴跌，光纤铺得太多了，这个问题直接消失了。而互联网真正跑出来的东西当时没人看得上：出租车生意（Uber）、卖书（亚马逊，后来长出 AWS）、租出空卧室（Airbnb）、发短消息（Twitter）。"爱彼迎 2001 年就能成立，不需要世界发生任何新的事，偏偏等了九年才有人想到。"</p>
+<p style="margin:0.8em 0">他的推论是：别盯着眼下最热的东西，那很可能是下一个主播问题。真正的大机会在没人讨论的地方——医疗占美国 GDP 约 17%：一家"见过十亿个病人"的公司可以是万亿美元级别；教育：风投共识是永不投教育，但选举胜负就押在教孩子什么上，"上一家万亿美元的教育公司是哪家？没有。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上下文是最后一道墙</h2>
-<p style="margin:0.8em 0">Ali 贡献了这门课最挑衅的判断：AGI 已经来了。证据是他的课堂投票——每次只有约 10% 的人举手说&quot;我们有 AGI&quot;，但换一种问法，&quot;你平时接触的人里，有多少不如最聪明的模型聪明&quot;，手全举起来了。&quot;不知怎么的，全世界都被说服了，觉得我们还没有 AGI。球门柱一直在挪。&quot;按 2009 年伯克利 AMP 实验室（Michael Jordan 的实验室）对 AGI 的定义，目标早已达到。</p>
-<p style="margin:0.8em 0">如果 AGI 已经在这里，为什么公司里什么都没有发生？MIT 的报告说 95% 的概念验证项目失败。Ali 的答案是一个词：上下文。&quot;每家公司都有一个人，所有人都会说'去问 John'。那个人脑子里装的是公司十年、二十年的隐性知识，不在模型里。你有 AGI，但没有上下文，它就只会犯低级错误。&quot;</p>
+<p style="margin:0.8em 0">Ali 贡献了这门课最挑衅的判断：AGI 已经来了。证据是他的课堂投票——每次只有约 10% 的人举手说"我们有 AGI"，但换一种问法，"你平时接触的人里，有多少不如最聪明的模型聪明"，手全举起来了。"不知怎么的，全世界都被说服了，觉得我们还没有 AGI。球门柱一直在挪。"按 2009 年伯克利 AMP 实验室（Michael Jordan 的实验室）对 AGI 的定义，目标早已达到。</p>
+<p style="margin:0.8em 0">如果 AGI 已经在这里，为什么公司里什么都没有发生？MIT 的报告说 95% 的概念验证项目失败。Ali 的答案是一个词：上下文。"每家公司都有一个人，所有人都会说'去问 John'。那个人脑子里装的是公司十年、二十年的隐性知识，不在模型里。你有 AGI，但没有上下文，它就只会犯低级错误。"</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">我们已经有了 AGI。你只是没有上下文。</p>
 </blockquote>
-<p style="margin:0.8em 0">这个判断有历史依据：Paul David 1990 年的论文《发电机与计算机》——电动机出现后，工厂只是把蒸汽机换成电动机，布局没动，生产率毫无提升，整整四十年（1880 到 1920）经济才看到收益。PC 时代买电脑当打字机用，索洛悖论如出一辙。&quot;我有两万个客户，每一家都在问：我什么都看不到，我哪里做错了？&quot;他讲了自己公司的例子：他两天写出一个 Salesforce 连接器，团队说要三个季度；后来一个从第一性原理出发的团队重构了整个流程——需求调研从一季压缩到一周，外包搭建测试环境，七个人交叉负责七个连接器——一个季度交付七个。&quot;这跟更聪明的模型没关系。就算你有 GPT-7，也不会帮我们做得更好。这是人类层面的流程重构。&quot;</p>
-<p style="margin:0.8em 0">流程重构的抓手在企业后训练。Applied Compute 的 Yash 举了 DoorDash 的例子：每年超过十万商家入驻，菜单提取（从图片到店铺页面）是通用模型搞不定的任务，提示词工程也不行；真正管用的是把人类修正后的答案作为奖励信号，直接优化错误率。&quot;一家公司只需要定义什么是对的、什么是错的。&quot;Cursor 的 Composer 模型已经在做在线持续学习：用户接受还是回退代码建议就是隐式奖励，采集遥测、跑一步训练、再采集——每一步几个小时，周期几天到几周。Yash 给出的下一道瓶颈是持续学习：从极其稀疏的奖励里学习，像人烫一次手就再也不碰炉子。</p>
+<p style="margin:0.8em 0">这个判断有历史依据：Paul David 1990 年的论文《发电机与计算机》——电动机出现后，工厂只是把蒸汽机换成电动机，布局没动，生产率毫无提升，整整四十年（1880 到 1920）经济才看到收益。PC 时代买电脑当打字机用，索洛悖论如出一辙。"我有两万个客户，每一家都在问：我什么都看不到，我哪里做错了？"他讲了自己公司的例子：他两天写出一个 Salesforce 连接器，团队说要三个季度；后来一个从第一性原理出发的团队重构了整个流程——需求调研从一季压缩到一周，外包搭建测试环境，七个人交叉负责七个连接器——一个季度交付七个。"这跟更聪明的模型没关系。就算你有 GPT-7，也不会帮我们做得更好。这是人类层面的流程重构。"</p>
+<p style="margin:0.8em 0">流程重构的抓手在企业后训练。Applied Compute 的 Yash 举了 DoorDash 的例子：每年超过十万商家入驻，菜单提取（从图片到店铺页面）是通用模型搞不定的任务，提示词工程也不行；真正管用的是把人类修正后的答案作为奖励信号，直接优化错误率。"一家公司只需要定义什么是对的、什么是错的。"Cursor 的 Composer 模型已经在做在线持续学习：用户接受还是回退代码建议就是隐式奖励，采集遥测、跑一步训练、再采集——每一步几个小时，周期几天到几周。Yash 给出的下一道瓶颈是持续学习：从极其稀疏的奖励里学习，像人烫一次手就再也不碰炉子。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">新 AWS 正在成型：Agent 基础设施</h2>
-<p style="margin:0.8em 0">Vercel 的 Guillermo 说，如果亚马逊今天才创立 AWS，它应该叫 Amazon Agent Services。他的观察是：Vercel 成了编程代理的&quot;花生酱和果酱&quot;——Claude Code、Codex、v0 写出来的软件总要部署到某个地方，而 agent 热爱部署。他创业时全世界约 2000 万开发者&quot;是个宽松的上限&quot;；Opus 4.5（2025 年 10 月）发布后，能创造软件的人数开始爆炸式增长。平台每日部署量自 1 月以来翻倍，整体负载几个月内翻三倍。</p>
-<p style="margin:0.8em 0">云的抽象对象在换：从页面到 agent。以前亚马逊的数据是每慢 100 毫秒转化率掉 1%；现在 agent 的工作流从秒级拉长到分钟、小时，甚至整天。他给 agent 基础设施画了一个三角形：给编程代理的基础设施（沙箱、部署、域名）、构建你自己的 agent（AI 原生学校的交付物从网页变成 agent）、以及&quot;自动驾驶的云&quot;（自配置、自优化，&quot;我刚把你的软件提速两倍，这是 PR&quot;）。AI Gateway 是 token 的 CDN——语义缓存、故障转移，甚至可以把&quot;谢谢&quot;这种请求路由到小模型，而不是激活三百块 GPU 回一句&quot;不客气&quot;。</p>
-<p style="margin:0.8em 0">Baseten 押的是另一面：独立应用层加开源模型。目前 90% 到 95% 的推理支出流向前沿闭源模型，他们赌定制模型会拿走份额。理由有个愤世嫉俗的版本：把工作流数据和用户信号交给前沿实验室，等于把领土的门道交给东印度公司——&quot;等他们的后训练模型已经针对对你神圣不可侵犯的工作流了&quot;。所以反抗军要拥有自己的智能：用开源模型后训练，便宜 70% 到 90%，还能针对自己的效用函数优化。规模越大越生死攸关：领先的编程公司毛利率据说还是负的，把 token 量转向开源是活下去的路。</p>
+<p style="margin:0.8em 0">Vercel 的 Guillermo 说，如果亚马逊今天才创立 AWS，它应该叫 Amazon Agent Services。他的观察是：Vercel 成了编程代理的"花生酱和果酱"——Claude Code、Codex、v0 写出来的软件总要部署到某个地方，而 agent 热爱部署。他创业时全世界约 2000 万开发者"是个宽松的上限"；Opus 4.5（2025 年 10 月）发布后，能创造软件的人数开始爆炸式增长。平台每日部署量自 1 月以来翻倍，整体负载几个月内翻三倍。</p>
+<p style="margin:0.8em 0">云的抽象对象在换：从页面到 agent。以前亚马逊的数据是每慢 100 毫秒转化率掉 1%；现在 agent 的工作流从秒级拉长到分钟、小时，甚至整天。他给 agent 基础设施画了一个三角形：给编程代理的基础设施（沙箱、部署、域名）、构建你自己的 agent（AI 原生学校的交付物从网页变成 agent）、以及"自动驾驶的云"（自配置、自优化，"我刚把你的软件提速两倍，这是 PR"）。AI Gateway 是 token 的 CDN——语义缓存、故障转移，甚至可以把"谢谢"这种请求路由到小模型，而不是激活三百块 GPU 回一句"不客气"。</p>
+<p style="margin:0.8em 0">Baseten 押的是另一面：独立应用层加开源模型。目前 90% 到 95% 的推理支出流向前沿闭源模型，他们赌定制模型会拿走份额。理由有个愤世嫉俗的版本：把工作流数据和用户信号交给前沿实验室，等于把领土的门道交给东印度公司——"等他们的后训练模型已经针对对你神圣不可侵犯的工作流了"。所以反抗军要拥有自己的智能：用开源模型后训练，便宜 70% 到 90%，还能针对自己的效用函数优化。规模越大越生死攸关：领先的编程公司毛利率据说还是负的，把 token 量转向开源是活下去的路。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">生命科学：倒三角翻转的第一个样本</h2>
 <p style="margin:0.8em 0">最后两节是生命科学。Anthropic 的 Eric 和 Chai Discovery 的 Josh 给出了这门课最完整的一套数字。一款药从想法到 FDA 批准：10 到 15 年；其中临床前约 4 年，临床 6 到 9 年，成本高度集中在临床。全世界每年在临床阶段推进的净新增靶点只有约 30 个，而可成药靶点的宇宙在几千个量级；约 80% 的已知疾病没有获批药物。Eric 的判断是瓶颈分散在 5 到 10 个环节，不是只卡在临床试验或药物设计。</p>
-<p style="margin:0.8em 0">AI 能压缩的是哪一段？Eric 认为临床前的 4 年理论上可以逼近零，但&quot;零样本不重要，一次样本就很好了——模型给你几个候选，做一轮测试，几周拿到药&quot;。整个周期可以压到 5 年以内，下限由临床试验时长决定；更大的效应量意味着更少的受试者，替代终点可以进一步缩短时间。Josh 用代码生成做类比：一年前写代码还要一轮轮调试迭代，现在可以零样本生成一个应用；药物发现会走同样的路，而且更重要的是&quot;做出更好的药物，而不只是更快的药物&quot;。</p>
-<p style="margin:0.8em 0">为什么是现在？三个趋势同时发生：大语言模型做外层循环（设计、向 CRO 下单、分析结果、迭代），Chai 这类模型做内层循环（分子生成）；生物学数据生成规模暴涨（单细胞测序、蛋白质组学、高通量抗体检测）；以及地缘政治——&quot;制药会议现在只有两个话题：AI 和中国。&quot;中国在药物发现上效率更高、成本更低、首次人体试验更容易。Josh 的判断是：&quot;中国能跑赢美国，但跑不赢 AI。&quot;</p>
+<p style="margin:0.8em 0">AI 能压缩的是哪一段？Eric 认为临床前的 4 年理论上可以逼近零，但"零样本不重要，一次样本就很好了——模型给你几个候选，做一轮测试，几周拿到药"。整个周期可以压到 5 年以内，下限由临床试验时长决定；更大的效应量意味着更少的受试者，替代终点可以进一步缩短时间。Josh 用代码生成做类比：一年前写代码还要一轮轮调试迭代，现在可以零样本生成一个应用；药物发现会走同样的路，而且更重要的是"做出更好的药物，而不只是更快的药物"。</p>
+<p style="margin:0.8em 0">为什么是现在？三个趋势同时发生：大语言模型做外层循环（设计、向 CRO 下单、分析结果、迭代），Chai 这类模型做内层循环（分子生成）；生物学数据生成规模暴涨（单细胞测序、蛋白质组学、高通量抗体检测）；以及地缘政治——"制药会议现在只有两个话题：AI 和中国。"中国在药物发现上效率更高、成本更低、首次人体试验更容易。Josh 的判断是："中国能跑赢美国，但跑不赢 AI。"</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">中国能跑赢美国，但跑不赢 AI。</p>
 </blockquote>
-<p style="margin:0.8em 0">对价值沉淀的位置，两位嘉宾都站在工具侧——这本身是反传统的：历史上生命科学的钱全在卖药，不在卖工具。Eric 的理由是工具变得前所未有的值钱：今天的药物极其原始，副作用多，&quot;用今天的工具能发现药物，本身已经是个奇迹&quot;；制药公司采用 AI 工具后成功率上升、时间线缩短，估值倍数应该上升，工具制造商能拿走一大块。但他同时给出一个诚实的看空：&quot;我总体上不看好向制药公司卖工具的商业模式——自己去做药的门槛从来没有这么低过，我们叫它'一条管线加一个人'。&quot;一个早期药物项目组合，一个人加 Claude 加基础模型就能运营，很快会推进到小团队运营几个临床阶段项目。</p>
-<p style="margin:0.8em 0">两个彩蛋：肌肉增长靶点——&quot;来 Chai 上班，练出一身肌肉&quot;是内部玩笑，灵感来自文艺复兴科技给员工开放 Medallion 基金；睡眠药物——GLP-1 证明了消费级药物的存在，而睡眠是很多疾病的根源，经济逻辑可以复制。Josh 的&quot;同类最后&quot;（last-in-class）也值得记住。</p>
+<p style="margin:0.8em 0">对价值沉淀的位置，两位嘉宾都站在工具侧——这本身是反传统的：历史上生命科学的钱全在卖药，不在卖工具。Eric 的理由是工具变得前所未有的值钱：今天的药物极其原始，副作用多，"用今天的工具能发现药物，本身已经是个奇迹"；制药公司采用 AI 工具后成功率上升、时间线缩短，估值倍数应该上升，工具制造商能拿走一大块。但他同时给出一个诚实的看空："我总体上不看好向制药公司卖工具的商业模式——自己去做药的门槛从来没有这么低过，我们叫它'一条管线加一个人'。"一个早期药物项目组合，一个人加 Claude 加基础模型就能运营，很快会推进到小团队运营几个临床阶段项目。</p>
+<p style="margin:0.8em 0">两个彩蛋：肌肉增长靶点——"来 Chai 上班，练出一身肌肉"是内部玩笑，灵感来自文艺复兴科技给员工开放 Medallion 基金；睡眠药物——GLP-1 证明了消费级药物的存在，而睡眠是很多疾病的根源，经济逻辑可以复制。Josh 的"同类最后"（last-in-class）也值得记住。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">你在哪一层</h2>
 <p style="margin:0.8em 0">把九节课拼在一起，这门课讲的是一个关于稀缺的迁移故事。倒三角的成因是物理性的：AI 用户的边际成本不为零，于是利润流向最稀缺的一层——先是芯片，再是电力，现在是技工。但只要推理成本继续以每年 90% 的速度坍塌、而推理需求以十亿倍为量级增长，稀缺就会重新洗牌，价值会像过去三次技术革命一样向上迁移——前提是应用层跨过上下文这道墙。而这道墙不在模型里，在组织里。</p>
-<p style="margin:0.8em 0">Brad 给学生的忠告放在最后很合适：智商会被商品化，情商（网络、说服力、带团队的能力）会变得极其值钱。他说英伟达会是第一家十万亿美元市值的公司，&quot;这更多说明的是智能这个市场有多大，而不是某一家公司有多厉害&quot;。讲师第一节课问学生的问题，答案不在任何一张幻灯片上：&quot;五年之后，每个人都会问你：你当时看到它要来了吗？&quot;</p>
+<p style="margin:0.8em 0">Brad 给学生的忠告放在最后很合适：智商会被商品化，情商（网络、说服力、带团队的能力）会变得极其值钱。他说英伟达会是第一家十万亿美元市值的公司，"这更多说明的是智能这个市场有多大，而不是某一家公司有多厉害"。讲师第一节课问学生的问题，答案不在任何一张幻灯片上："五年之后，每个人都会问你：你当时看到它要来了吗？"</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">AI 生态是一个倒三角：过去两年新增收入约 75% 流向半导体层，英伟达毛利率约 75%，应用层 0 到 30%。成因是 AI 用户的边际成本不为零——每个新增用户都在烧 GPU。</li>
 <li style="margin:0.3em 0">数据中心的经济账：每兆瓦前期投入约 6000 万美元（劳动力 470 万、GPU 3000 万），1GW 等于 600 亿美元；裸租回收期约 4 年，加托管模型服务后约 2 年。当前瓶颈不是芯片，是电工和焊工。</li>
-<li style="margin:0.3em 0">推理成本两年半降约 99%，但推理需求以十亿倍为量级增长；B200 续约价一年从 263 美元/小时涨到 510 美元/小时，&quot;永远不会恢复正常&quot;。</li>
+<li style="margin:0.3em 0">推理成本两年半降约 99%，但推理需求以十亿倍为量级增长；B200 续约价一年从 263 美元/小时涨到 510 美元/小时，"永远不会恢复正常"。</li>
 <li style="margin:0.3em 0">价值迁移的历史规律：基础设施先赚钱，利润再上移到应用和平台层。开源模型落后闭源约 90 天、便宜 70% 到 90%，是迁移的主要推手。</li>
 <li style="margin:0.3em 0">AGI 缺的不是智能，是上下文：95% 的概念验证项目失败，症结是组织隐性知识不在模型里。企业后训练（DoorDash 菜单、Cursor 在线学习）是当前最实际的杠杆。</li>
-<li style="margin:0.3em 0">生命科学是翻转样本：药物开发周期 10 到 15 年可压缩到 5 年以内；每年净新增靶点仅约 30 个；&quot;一条管线加一个人&quot;，制药正在民主化。</li>
-<li style="margin:0.3em 0">个人层面：智商被商品化，情商升值；别追&quot;主播问题&quot;，去想 2001 年就能成立的 Airbnb。</li>
+<li style="margin:0.3em 0">生命科学是翻转样本：药物开发周期 10 到 15 年可压缩到 5 年以内；每年净新增靶点仅约 30 个；"一条管线加一个人"，制药正在民主化。</li>
+<li style="margin:0.3em 0">个人层面：智商被商品化，情商升值；别追"主播问题"，去想 2001 年就能成立的 Airbnb。</li>
 </ul>
 
 </div>
@@ -14216,5 +14216,40 @@ python3 ~/.hermes/scripts/setup_xueqiu_login.py
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-14</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-14.html</link><guid isPermaLink="false">report:雪球动态:2026-08-14:6f395cf1</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-14</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🔴 雪球登录已过期，已自动打开浏览器登录窗口（Chrome 前台弹出），请在窗口中完成登录。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当前状态</strong></p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">项目</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">fetch 结果</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">login_required: true</code>，0 条帖子</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">cookie 文件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">含 xq_a_token 但被 WAF 拒绝（token 存在 ≠ 已登录）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">弹窗窗口</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 已打开（22:05），自动检测登录态</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">超时</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">25 分钟（22:30）自动退出并保存 cookie</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">你要做的</strong>：在弹窗的雪球页面 → 点「登录」→「账号密码登录」→ 输入账号密码 + 完成极验验证码，看到首页出现「我的资产」即可。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">自动化流程</strong>：脚本每 10 秒检测登录态，登录成功后自动保存 cookie 到 config.json 并关闭窗口，下次 cron 自动恢复，无需其他操作。若 25 分钟内未登录，窗口自动关闭，下次 cron 会再次弹窗。</p>
+<p style="margin:0.8em 0">本次无新增帖子可分析，执行到此结束。</p>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
