@@ -1,52 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 15 Aug 2026 05:13:44 +0800</lastBuildDate><item><title>[Money Stuff: The Podcast] 他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</title><link>https://xlicz.github.io/podcast-rss/articles/他用-65-美分-给-2-5-万亿美元的私募信贷报了第一个真实价格-2026-08-14.html</link><guid isPermaLink="false">money-stuff_d243178e0773</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 15 Aug 2026 06:00:46 +0800</lastBuildDate><item><title>[Money Stuff: The Podcast] 他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</title><link>https://xlicz.github.io/podcast-rss/articles/他用-65-美分-给-2-5-万亿美元的私募信贷报了第一个真实价格-2026-08-14.html</link><guid isPermaLink="false">money-stuff_d243178e0773</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</h1>
-<p style="margin:0.8em 0">Boaz Weinstein 的私募 BDC 要约最终成交寥寥——但这笔没做成的交易，恰好验证了他自己的判断：私募信贷的&quot;稳稳 1%&quot;，建立在没人真去挤兑之上。</p>
+<p style="margin:0.8em 0">Boaz Weinstein 的私募 BDC 要约最终成交寥寥——但这笔没做成的交易，恰好验证了他自己的判断：私募信贷的"稳稳 1%"，建立在没人真去挤兑之上。</p>
 <p style="margin:0.8em 0">2025 年 3 月，Saba Capital 创始人 Boaz Weinstein 同时发出两笔要约：以净资产值（NAV）六五折的价格，收购 Blue Owl 旗下非上市 BDC（OBDE）最多 10% 的份额；另一笔针对 Starwood 的地产信托 SREIT，折扣约 27%。</p>
 <p style="margin:0.8em 0">被标价 100 的产品，第一次被外人公开贴上一个 65 的价格标签。流程本身更荒诞：要约文件要由基金管理人邮寄给持有人，随信附上的还有管理人自己的一封信——劝你别接受。Weinstein 说这不是蹭热点的 PR：要约在 Blue Owl 风波发酵之前就准备好了。</p>
-<p style="margin:0.8em 0">节目重播时，主播补了一句注脚：要约已到期，成交寥寥，但 Weinstein 和其他人仍在继续出价。他在节目里预言过这笔交易的两种结局——&quot;要么一份都买不到，要么被全额成交然后后悔&quot;。市场替他选了不太难看的那个答案。但这场没做成的交易，把私募信贷最不愿回答的问题摆上了台面：如果没人愿意 65 卖出、管理人也不肯 80 买回，那个 100 的标价到底靠什么撑着？</p>
+<p style="margin:0.8em 0">节目重播时，主播补了一句注脚：要约已到期，成交寥寥，但 Weinstein 和其他人仍在继续出价。他在节目里预言过这笔交易的两种结局——"要么一份都买不到，要么被全额成交然后后悔"。市场替他选了不太难看的那个答案。但这场没做成的交易，把私募信贷最不愿回答的问题摆上了台面：如果没人愿意 65 卖出、管理人也不肯 80 买回，那个 100 的标价到底靠什么撑着？</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">消防保险：火灾里的 5% 算术</h2>
 <p style="margin:0.8em 0">这类产品承诺每季度 5% 的赎回窗口。Weinstein 的合伙人 Kieran Goodwin 在推特上骂了两年半：这是卖给散户的消防保险。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">你有火灾保险：市场下跌时你随时可以赎回。但真的着火时，保险不赔。</p>
 </blockquote>
 <p style="margin:0.8em 0">算术很冷酷。赎回申请 5%、10% 时，季度上限还显得慷慨；到 40%，你一个季度只能拿回自己钱里的 1/8。排队的人在索罗斯式的反身性里越排越长：净值下跌→赎回增加→被迫卖资产→净值再跌。Weinstein 说录节目前他还专门想带上索罗斯那本讲反身性的书。</p>
-<p style="margin:0.8em 0">数字已经往这个方向走：Cliffwater 基金的赎回申请，一个季度内从 4% 跳到 14%。黑石 BREIT 靠一笔引入长期机构资本的特殊交易稳住了赎回，重新降到上限以下；Starwood 的 SREIT 从 2022 年底开始限赎，到录制时将近四年，还在按月放人。Weinstein 说，黑石第一个公布赎回申请数——7.9%——&quot;要不是黑石先公布了这个数字，其他家的数字可能不会这么难看&quot;。</p>
+<p style="margin:0.8em 0">数字已经往这个方向走：Cliffwater 基金的赎回申请，一个季度内从 4% 跳到 14%。黑石 BREIT 靠一笔引入长期机构资本的特殊交易稳住了赎回，重新降到上限以下；Starwood 的 SREIT 从 2022 年底开始限赎，到录制时将近四年，还在按月放人。Weinstein 说，黑石第一个公布赎回申请数——7.9%——"要不是黑石先公布了这个数字，其他家的数字可能不会这么难看"。</p>
 <p style="margin:0.8em 0">这笔交易的起点很小：一个财富顾问群体手里 2000 万到 3000 万美元的 SREIT 份额，一群想走的人，找不到出口。</p>
-<p style="margin:0.8em 0">问题不在披露。主播 Matt Levine 承认这些风险都写在招股书里，这是个披露社会。问题在销售环节：巨额佣金把产品推进散户账户——Weinstein 用他祖母的意第绪语词汇骂了一句，大意是&quot;破烂货&quot;。Levine 引过黑石总裁 Jon Gray 的名言：&quot;这类产品是卖出去的，不是买进来的。&quot;73 岁的老人不会因为听说过 interval fund 这个词而打电话去买，他是被电话那头说服的：你要收益，这家管理人很棒，每月稳稳 1%。</p>
+<p style="margin:0.8em 0">问题不在披露。主播 Matt Levine 承认这些风险都写在招股书里，这是个披露社会。问题在销售环节：巨额佣金把产品推进散户账户——Weinstein 用他祖母的意第绪语词汇骂了一句，大意是"破烂货"。Levine 引过黑石总裁 Jon Gray 的名言："这类产品是卖出去的，不是买进来的。"73 岁的老人不会因为听说过 interval fund 这个词而打电话去买，他是被电话那头说服的：你要收益，这家管理人很棒，每月稳稳 1%。</p>
 <p style="margin:0.8em 0">Weinstein 的判断是：散户从来没有理解一个根本性错配——底层私募贷款的流动性，和产品承诺的流动性，从来不是一回事。他说去年 12 月就有一家这类基金刚完成股东投票、变成上市股票：想出来的人不再按净值排队，只能接受三成左右的市价亏损。散户连投票都会投出害自己的结果。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六五折不是六五折：净值、杠杆与费用</h2>
-<p style="margin:0.8em 0">对这笔交易最大的误解，是以为 65 意味着&quot;这个组合值 100，我打了六五折&quot;。Weinstein 自己拆掉了这个幻觉。</p>
-<p style="margin:0.8em 0">这些基金带杠杆，0.75 倍到 1.5 倍不等。一倍的杠杆下，用 -35% 的价格买，等于每笔贷款只便宜了 15 个点。然后还有费用：管理费从收益里出，有些基金还有各种计提机制——&quot;这个行业如今没什么管理人 alpha 可言，那些费用不是为才华付的&quot;。最后是净值本身：所有人都知道 NAV 虚高，不是某一家，而是行业性的。他说自己见过同一批大额次级贷款头寸，不同机构之间的估值能差出 25 个点；摩根大通已经动手下调，富国银行远远落在后面。而银行的估值直接决定杠杆融资额度的维持——这是通往&quot;系统性噩梦&quot;的传导路径。</p>
-<p style="margin:0.8em 0">Cliff Asness 给这种现象起过名字：波动率洗钱。私募资产每个月按面值记一次账，市场波动被洗掉，产品呈现零波动、高夏普。2023 年 4 月，Cliffwater 一张宣传页声称旗下基金夏普比率高达 11，Weinstein 和 Goodwin 在推特上&quot;对着月亮嚎叫&quot;。然后他讲了去年 9 月的一次会面：一家老牌保险公司的 CEO 想把他们的产品放上平台，但要费用折扣，理由是&quot;Apollo 在给我折扣，而我的客户连续三年每月拿到 1%——像时钟一样准时，一年 12%，波动率字面上为零&quot;。录制前一天他又和这位投资者通了电话：SOFR 下行、贷款利差从 +500 缩到 +350、分配收益从每月 1% 砍到 84 个基点，第一批知名借款人开始违约——他点名的例子是二手车贷款商 Tricolor。</p>
+<p style="margin:0.8em 0">对这笔交易最大的误解，是以为 65 意味着"这个组合值 100，我打了六五折"。Weinstein 自己拆掉了这个幻觉。</p>
+<p style="margin:0.8em 0">这些基金带杠杆，0.75 倍到 1.5 倍不等。一倍的杠杆下，用 -35% 的价格买，等于每笔贷款只便宜了 15 个点。然后还有费用：管理费从收益里出，有些基金还有各种计提机制——"这个行业如今没什么管理人 alpha 可言，那些费用不是为才华付的"。最后是净值本身：所有人都知道 NAV 虚高，不是某一家，而是行业性的。他说自己见过同一批大额次级贷款头寸，不同机构之间的估值能差出 25 个点；摩根大通已经动手下调，富国银行远远落在后面。而银行的估值直接决定杠杆融资额度的维持——这是通往"系统性噩梦"的传导路径。</p>
+<p style="margin:0.8em 0">Cliff Asness 给这种现象起过名字：波动率洗钱。私募资产每个月按面值记一次账，市场波动被洗掉，产品呈现零波动、高夏普。2023 年 4 月，Cliffwater 一张宣传页声称旗下基金夏普比率高达 11，Weinstein 和 Goodwin 在推特上"对着月亮嚎叫"。然后他讲了去年 9 月的一次会面：一家老牌保险公司的 CEO 想把他们的产品放上平台，但要费用折扣，理由是"Apollo 在给我折扣，而我的客户连续三年每月拿到 1%——像时钟一样准时，一年 12%，波动率字面上为零"。录制前一天他又和这位投资者通了电话：SOFR 下行、贷款利差从 +500 缩到 +350、分配收益从每月 1% 砍到 84 个基点，第一批知名借款人开始违约——他点名的例子是二手车贷款商 Tricolor。</p>
 <p style="margin:0.8em 0">Weinstein 引了一句老话：没有一片雪花觉得自己对雪崩负有责任。分配收益缩水是第一片雪花，赎回潮是雪崩。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">标价 100 的人，为什么不用 80 买回自己的东西</h2>
-<p style="margin:0.8em 0">Levine 提了一个被 Weinstein 评价为&quot;问得漂亮&quot;的问题：既然黑石觉得自己的东西值 100，为什么不去以 80 买下 HPS 的贷款，让 HPS 去买 Blue Owl 的？大家互相抬价到 80，皆大欢喜。</p>
+<p style="margin:0.8em 0">Levine 提了一个被 Weinstein 评价为"问得漂亮"的问题：既然黑石觉得自己的东西值 100，为什么不去以 80 买下 HPS 的贷款，让 HPS 去买 Blue Owl 的？大家互相抬价到 80，皆大欢喜。</p>
 <p style="margin:0.8em 0">Weinstein 的回答拆穿了这件事：80 只有在你能很快拿回 100 时才有意义。一家基金愿意付 80 的全部理由，是对方产品附带的每季度 5% 赎回权。如果管理人真这么干了，那才是真正的看空信号——他们相信的不是组合价值，而是赎回结构本身。</p>
-<p style="margin:0.8em 0">对照案例他给得很具体。黑石在赎回申请超过上限时选择多付，被他称为&quot;漂亮地处理&quot;；HPS 赎回申请冲到 9%、同期流入比流出还多，却依然只付 5% 的上限——&quot;我是在对冲基金长大的，投资者每季度想拿钱我们就给。这种'我只欠你 5%'的姿态，是在摧毁自己的品牌&quot;。他对 HPS 团队的商业判断服气——把自己卖给贝莱德卖在了顶部；对赎回的处理，不能认同。他讲自己 2009 年在最难的时点创业，规模从 54 亿美元缩到 12.5 亿，每一笔赎回都全额支付，附一句&quot;希望你们回来&quot;。</p>
-<p style="margin:0.8em 0">最刺眼的是 FSK。这家上市 BDC 的市值只有净值的 48% 左右。他转述一位分析师在电话会上&quot;极其礼貌&quot;的提问：你们有贷款到期回款、有利息进账，为什么不在股价五折时回购自己的组合，而要去做新贷款？如果净值是对的，回购等于 100% 的确定性回报；就算净值该打八折，那也是 60%——新贷款不过 12%。</p>
+<p style="margin:0.8em 0">对照案例他给得很具体。黑石在赎回申请超过上限时选择多付，被他称为"漂亮地处理"；HPS 赎回申请冲到 9%、同期流入比流出还多，却依然只付 5% 的上限——"我是在对冲基金长大的，投资者每季度想拿钱我们就给。这种'我只欠你 5%'的姿态，是在摧毁自己的品牌"。他对 HPS 团队的商业判断服气——把自己卖给贝莱德卖在了顶部；对赎回的处理，不能认同。他讲自己 2009 年在最难的时点创业，规模从 54 亿美元缩到 12.5 亿，每一笔赎回都全额支付，附一句"希望你们回来"。</p>
+<p style="margin:0.8em 0">最刺眼的是 FSK。这家上市 BDC 的市值只有净值的 48% 左右。他转述一位分析师在电话会上"极其礼貌"的提问：你们有贷款到期回款、有利息进账，为什么不在股价五折时回购自己的组合，而要去做新贷款？如果净值是对的，回购等于 100% 的确定性回报；就算净值该打八折，那也是 60%——新贷款不过 12%。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">回购会缩小你的管理费基数。一个净值 56 亿、市值 28 亿的基金不肯回购，答案只有一个：费用。</p>
 </blockquote>
-<p style="margin:0.8em 0">他给管理层开过一份可以照抄的方案：费率豁免一年；只要折价超过 30%，持续用现金流回购，上限 25% 份额。论据是 Neuberger Berman 的一只高收益基金：被逼着做完要约之后，那只基金得以溢价增发，在二级市场融到了更多钱——先缩，才有资格再涨。反向例证是 Bill Ackman：他把对冲基金转成封闭式基金，回撤期没人能走，想走的人只能接受 25-35% 的折价，他顺手回购了四分之一的份额。&quot;这种事，你在 FSK 身上看不到。&quot;</p>
-<p style="margin:0.8em 0">机构市场的态度同样矛盾：一边按净值 100 赎回同一管理人，一边不买二级市场上七折的同款。Weinstein 的解释是预算桶——机构有&quot;买新私募信贷&quot;的桶，没有&quot;买二手 BDC&quot;的桶。</p>
+<p style="margin:0.8em 0">他给管理层开过一份可以照抄的方案：费率豁免一年；只要折价超过 30%，持续用现金流回购，上限 25% 份额。论据是 Neuberger Berman 的一只高收益基金：被逼着做完要约之后，那只基金得以溢价增发，在二级市场融到了更多钱——先缩，才有资格再涨。反向例证是 Bill Ackman：他把对冲基金转成封闭式基金，回撤期没人能走，想走的人只能接受 25-35% 的折价，他顺手回购了四分之一的份额。"这种事，你在 FSK 身上看不到。"</p>
+<p style="margin:0.8em 0">机构市场的态度同样矛盾：一边按净值 100 赎回同一管理人，一边不买二级市场上七折的同款。Weinstein 的解释是预算桶——机构有"买新私募信贷"的桶，没有"买二手 BDC"的桶。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要么零成交，要么成交即后悔</h2>
 <p style="margin:0.8em 0">如果私募信贷真的那么好，为什么没人来抢他的 65？</p>
 <p style="margin:0.8em 0">Weinstein 自己把话说透了。这是一道做市商式的逆选择题：</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">要么一份都买不到，要么被全额成交——然后立刻后悔被成交。</p>
 </blockquote>
-<p style="margin:0.8em 0">如果被全额甚至超额成交，说明急着走的人比想象的多，下一口报价&quot;决定性地更低&quot;。他不讳言市场正饥渴地盯着这次要约——这是关于私募信贷真实温度的另类数据，他甚至开玩笑说该给 Cliffwater 下季度的赎回率开个预测市场。</p>
-<p style="margin:0.8em 0">有人问：为什么不去贷款二级市场挑好贷款买？因为愿意 88 卖给你的，恰恰是他们最想甩掉的。买整个基金反而干净：你不用证明自己比对方更懂每一笔贷款。他的对冲逻辑也自洽——Saba 主业是信用衍生品，给投资者提供尾部保护，目前做空高收益公共信用（他认为定价过于乐观），六五折的私募 BDC 是天然的多头腿。他承认这不是匹配交易：高收益指数里的公司比私募信贷组合更大更好。但流动性出问题时，&quot;卖不掉自己真正想卖的东西的人，会卖掉一切卖得掉的东西&quot;——Covid 期间他见过，私募信贷完全可以传染公共信用。</p>
-<p style="margin:0.8em 0">关于退出：不搞特权，和大家一样排队，每季度拿 5%。买入价 65，当期收益率从 7% 提到 11% 上下——这是他第一年在高盛当暑期实习就学会的算术：价格跌，票息不变，收益率上升。&quot;唯一要祈祷的是净值别跌得比这更快。&quot;他承认自己可能早了一年：&quot;底部到来时，这个产品会非常迷人——高收益市场的最低价，再叠加三折。&quot;</p>
+<p style="margin:0.8em 0">如果被全额甚至超额成交，说明急着走的人比想象的多，下一口报价"决定性地更低"。他不讳言市场正饥渴地盯着这次要约——这是关于私募信贷真实温度的另类数据，他甚至开玩笑说该给 Cliffwater 下季度的赎回率开个预测市场。</p>
+<p style="margin:0.8em 0">有人问：为什么不去贷款二级市场挑好贷款买？因为愿意 88 卖给你的，恰恰是他们最想甩掉的。买整个基金反而干净：你不用证明自己比对方更懂每一笔贷款。他的对冲逻辑也自洽——Saba 主业是信用衍生品，给投资者提供尾部保护，目前做空高收益公共信用（他认为定价过于乐观），六五折的私募 BDC 是天然的多头腿。他承认这不是匹配交易：高收益指数里的公司比私募信贷组合更大更好。但流动性出问题时，"卖不掉自己真正想卖的东西的人，会卖掉一切卖得掉的东西"——Covid 期间他见过，私募信贷完全可以传染公共信用。</p>
+<p style="margin:0.8em 0">关于退出：不搞特权，和大家一样排队，每季度拿 5%。买入价 65，当期收益率从 7% 提到 11% 上下——这是他第一年在高盛当暑期实习就学会的算术：价格跌，票息不变，收益率上升。"唯一要祈祷的是净值别跌得比这更快。"他承认自己可能早了一年："底部到来时，这个产品会非常迷人——高收益市场的最低价，再叠加三折。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">黑猫头鹰还没人注册</h2>
 <p style="margin:0.8em 0">最后几分钟留给加密圈的 DATs——数字资产金库公司，Strategy、MARA 那一类，当时正以净值折价交易。Weinstein 不碰，两条理由：封闭式基金不能把稀释性发行只卖给特定人，DAT 或许可以——折价买进去，对方再折价发一轮给白名单，你就被稀释了（他们在封闭式基金上打过毒丸官司，赢了，对方依然连续干了四个季度）；治理上，一家 DAT 想给自己的 CEO 发巨额薪酬、配一个自己挑选的董事会，再把钱抽走——用他的原话，马斯克想给自己发一万亿美元是一回事，DAT 这么干没有制度障碍。</p>
-<p style="margin:0.8em 0">结尾他把自己说得很小：我的自留地就是相对价值和错误定价。私募信贷这个市场够大、够核心，让我第一次能做点没人做过的事。然后补了一句近乎预言的话：&quot;就算我们一份都没买到，也不是世界末日。这个故事会一直讲下去——不是我的故事，是私募信贷的故事。&quot;</p>
+<p style="margin:0.8em 0">结尾他把自己说得很小：我的自留地就是相对价值和错误定价。私募信贷这个市场够大、够核心，让我第一次能做点没人做过的事。然后补了一句近乎预言的话："就算我们一份都没买到，也不是世界末日。这个故事会一直讲下去——不是我的故事，是私募信贷的故事。"</p>
 <p style="margin:0.8em 0">节目重播时的注脚是：成交寥寥，但 Weinstein 和其他人还在出价。私募信贷的 100 没有被公开证伪，但 65 已经被公开贴上了墙。</p>
-<p style="margin:0.8em 0">Levine 用玩笑收尾：剩下的空白市场只有一个——&quot;我打算去注册一家叫 Black Owl 的公司。&quot;黑石加蓝猫头鹰，确实还没人占。</p>
+<p style="margin:0.8em 0">Levine 用玩笑收尾：剩下的空白市场只有一个——"我打算去注册一家叫 Black Owl 的公司。"黑石加蓝猫头鹰，确实还没人占。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
 <ul style="padding-left:1.5em">
@@ -55,11 +55,12 @@
 <li style="margin:0.3em 0">管理人不用 80 买回自己标价 100 的资产，不是因为看空，而是因为费用按净值计提——回购直接削减收入。这是结构问题，不是眼光问题。</li>
 <li style="margin:0.3em 0">要约的逆选择属性意味着结果本身就是信号：零成交说明没那么多人急着跑；全额成交则意味着下一口价必然更低。</li>
 <li style="margin:0.3em 0">估值黑箱正在通过银行杠杆额度向外传导：摩根大通已动手下调，落后者的同类头寸估值差距可达 25 个点。</li>
-<li style="margin:0.3em 0">&quot;波动率洗钱&quot;让这个行业以零波动、高夏普的面目募到了 2.5 万亿——分配收益缩水是雪崩的第一片雪花。</li>
+<li style="margin:0.3em 0">"波动率洗钱"让这个行业以零波动、高夏普的面目募到了 2.5 万亿——分配收益缩水是雪崩的第一片雪花。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] Kalanick 回归：沉默八年，然后拿出一张 a16z 史上最大支票</title><link>https://xlicz.github.io/podcast-rss/articles/Kalanick-回归-沉默八年-然后拿出一张-a16z-史上最大支票-2026-08-14.html</link><guid isPermaLink="false">a16z_43edd079ee34</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>Kalanick 回归：沉默八年，然后拿出一张 a16z 史上最大支票</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] Kalanick 回归：沉默八年，然后拿出一张 a16z 史上最大支票</title><link>https://xlicz.github.io/podcast-rss/articles/Kalanick-回归-沉默八年-然后拿出一张-a16z-史上最大支票-2026-08-14.html</link><guid isPermaLink="false">a16z_43edd079ee34</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>Kalanick 回归：沉默八年，然后拿出一张 a16z 史上最大支票</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kalanick 回归：沉默八年，然后拿出一张 a16z 史上最大支票</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">新公司 Adams 要做的是自动化多个万亿美元实体产业。在这场对话里，他第一次完整复盘 Uber 的文化、燃料与失误——以及为什么等到现在才开口。</strong></p>
@@ -14603,63 +14604,206 @@ tap pc 2-3亿为产品级预测，不计入E）</p>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[Money Stuff: The Podcast] 他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</title><link>https://xlicz.github.io/podcast-rss/articles/他用-65-美分-给-2-5-万亿美元的私募信贷报了第一个真实价格-2026-08-14.html</link><guid isPermaLink="false">money-stuff_d243178e0773</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-15</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-15.html</link><guid isPermaLink="false">report:播客信号:2026-08-15:72f34542</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</h1>
-<p style="margin:0.8em 0">Boaz Weinstein 的私募 BDC 要约最终成交寥寥——但这笔没做成的交易，恰好验证了他自己的判断：私募信贷的&quot;稳稳 1%&quot;，建立在没人真去挤兑之上。</p>
-<p style="margin:0.8em 0">2025 年 3 月，Saba Capital 创始人 Boaz Weinstein 同时发出两笔要约：以净资产值（NAV）六五折的价格，收购 Blue Owl 旗下非上市 BDC（OBDE）最多 10% 的份额；另一笔针对 Starwood 的地产信托 SREIT，折扣约 27%。</p>
-<p style="margin:0.8em 0">被标价 100 的产品，第一次被外人公开贴上一个 65 的价格标签。流程本身更荒诞：要约文件要由基金管理人邮寄给持有人，随信附上的还有管理人自己的一封信——劝你别接受。Weinstein 说这不是蹭热点的 PR：要约在 Blue Owl 风波发酵之前就准备好了。</p>
-<p style="margin:0.8em 0">节目重播时，主播补了一句注脚：要约已到期，成交寥寥，但 Weinstein 和其他人仍在继续出价。他在节目里预言过这笔交易的两种结局——&quot;要么一份都买不到，要么被全额成交然后后悔&quot;。市场替他选了不太难看的那个答案。但这场没做成的交易，把私募信贷最不愿回答的问题摆上了台面：如果没人愿意 65 卖出、管理人也不肯 80 买回，那个 100 的标价到底靠什么撑着？</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">消防保险：火灾里的 5% 算术</h2>
-<p style="margin:0.8em 0">这类产品承诺每季度 5% 的赎回窗口。Weinstein 的合伙人 Kieran Goodwin 在推特上骂了两年半：这是卖给散户的消防保险。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-15</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">你有火灾保险：市场下跌时你随时可以赎回。但真的着火时，保险不赔。</p>
+<p style="margin:0.8em 0">扫描了 3 个播客，共 3 集（去重后 3 新集）：[Money Stuff(1集), a16z(1集), 跨国串门儿计划(1集)]
+持仓披露：🔥1 / 🔴0 | 高质量内容：3 集 | 管线完整性抽查：✅ 无告警</p>
 </blockquote>
-<p style="margin:0.8em 0">算术很冷酷。赎回申请 5%、10% 时，季度上限还显得慷慨；到 40%，你一个季度只能拿回自己钱里的 1/8。排队的人在索罗斯式的反身性里越排越长：净值下跌→赎回增加→被迫卖资产→净值再跌。Weinstein 说录节目前他还专门想带上索罗斯那本讲反身性的书。</p>
-<p style="margin:0.8em 0">数字已经往这个方向走：Cliffwater 基金的赎回申请，一个季度内从 4% 跳到 14%。黑石 BREIT 靠一笔引入长期机构资本的特殊交易稳住了赎回，重新降到上限以下；Starwood 的 SREIT 从 2022 年底开始限赎，到录制时将近四年，还在按月放人。Weinstein 说，黑石第一个公布赎回申请数——7.9%——&quot;要不是黑石先公布了这个数字，其他家的数字可能不会这么难看&quot;。</p>
-<p style="margin:0.8em 0">这笔交易的起点很小：一个财富顾问群体手里 2000 万到 3000 万美元的 SREIT 份额，一群想走的人，找不到出口。</p>
-<p style="margin:0.8em 0">问题不在披露。主播 Matt Levine 承认这些风险都写在招股书里，这是个披露社会。问题在销售环节：巨额佣金把产品推进散户账户——Weinstein 用他祖母的意第绪语词汇骂了一句，大意是&quot;破烂货&quot;。Levine 引过黑石总裁 Jon Gray 的名言：&quot;这类产品是卖出去的，不是买进来的。&quot;73 岁的老人不会因为听说过 interval fund 这个词而打电话去买，他是被电话那头说服的：你要收益，这家管理人很棒，每月稳稳 1%。</p>
-<p style="margin:0.8em 0">Weinstein 的判断是：散户从来没有理解一个根本性错配——底层私募贷款的流动性，和产品承诺的流动性，从来不是一回事。他说去年 12 月就有一家这类基金刚完成股东投票、变成上市股票：想出来的人不再按净值排队，只能接受三成左右的市价亏损。散户连投票都会投出害自己的结果。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六五折不是六五折：净值、杠杆与费用</h2>
-<p style="margin:0.8em 0">对这笔交易最大的误解，是以为 65 意味着&quot;这个组合值 100，我打了六五折&quot;。Weinstein 自己拆掉了这个幻觉。</p>
-<p style="margin:0.8em 0">这些基金带杠杆，0.75 倍到 1.5 倍不等。一倍的杠杆下，用 -35% 的价格买，等于每笔贷款只便宜了 15 个点。然后还有费用：管理费从收益里出，有些基金还有各种计提机制——&quot;这个行业如今没什么管理人 alpha 可言，那些费用不是为才华付的&quot;。最后是净值本身：所有人都知道 NAV 虚高，不是某一家，而是行业性的。他说自己见过同一批大额次级贷款头寸，不同机构之间的估值能差出 25 个点；摩根大通已经动手下调，富国银行远远落在后面。而银行的估值直接决定杠杆融资额度的维持——这是通往&quot;系统性噩梦&quot;的传导路径。</p>
-<p style="margin:0.8em 0">Cliff Asness 给这种现象起过名字：波动率洗钱。私募资产每个月按面值记一次账，市场波动被洗掉，产品呈现零波动、高夏普。2023 年 4 月，Cliffwater 一张宣传页声称旗下基金夏普比率高达 11，Weinstein 和 Goodwin 在推特上&quot;对着月亮嚎叫&quot;。然后他讲了去年 9 月的一次会面：一家老牌保险公司的 CEO 想把他们的产品放上平台，但要费用折扣，理由是&quot;Apollo 在给我折扣，而我的客户连续三年每月拿到 1%——像时钟一样准时，一年 12%，波动率字面上为零&quot;。录制前一天他又和这位投资者通了电话：SOFR 下行、贷款利差从 +500 缩到 +350、分配收益从每月 1% 砍到 84 个基点，第一批知名借款人开始违约——他点名的例子是二手车贷款商 Tricolor。</p>
-<p style="margin:0.8em 0">Weinstein 引了一句老话：没有一片雪花觉得自己对雪崩负有责任。分配收益缩水是第一片雪花，赎回潮是雪崩。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">标价 100 的人，为什么不用 80 买回自己的东西</h2>
-<p style="margin:0.8em 0">Levine 提了一个被 Weinstein 评价为&quot;问得漂亮&quot;的问题：既然黑石觉得自己的东西值 100，为什么不去以 80 买下 HPS 的贷款，让 HPS 去买 Blue Owl 的？大家互相抬价到 80，皆大欢喜。</p>
-<p style="margin:0.8em 0">Weinstein 的回答拆穿了这件事：80 只有在你能很快拿回 100 时才有意义。一家基金愿意付 80 的全部理由，是对方产品附带的每季度 5% 赎回权。如果管理人真这么干了，那才是真正的看空信号——他们相信的不是组合价值，而是赎回结构本身。</p>
-<p style="margin:0.8em 0">对照案例他给得很具体。黑石在赎回申请超过上限时选择多付，被他称为&quot;漂亮地处理&quot;；HPS 赎回申请冲到 9%、同期流入比流出还多，却依然只付 5% 的上限——&quot;我是在对冲基金长大的，投资者每季度想拿钱我们就给。这种'我只欠你 5%'的姿态，是在摧毁自己的品牌&quot;。他对 HPS 团队的商业判断服气——把自己卖给贝莱德卖在了顶部；对赎回的处理，不能认同。他讲自己 2009 年在最难的时点创业，规模从 54 亿美元缩到 12.5 亿，每一笔赎回都全额支付，附一句&quot;希望你们回来&quot;。</p>
-<p style="margin:0.8em 0">最刺眼的是 FSK。这家上市 BDC 的市值只有净值的 48% 左右。他转述一位分析师在电话会上&quot;极其礼貌&quot;的提问：你们有贷款到期回款、有利息进账，为什么不在股价五折时回购自己的组合，而要去做新贷款？如果净值是对的，回购等于 100% 的确定性回报；就算净值该打八折，那也是 60%——新贷款不过 12%。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">回购会缩小你的管理费基数。一个净值 56 亿、市值 28 亿的基金不肯回购，答案只有一个：费用。</p>
-</blockquote>
-<p style="margin:0.8em 0">他给管理层开过一份可以照抄的方案：费率豁免一年；只要折价超过 30%，持续用现金流回购，上限 25% 份额。论据是 Neuberger Berman 的一只高收益基金：被逼着做完要约之后，那只基金得以溢价增发，在二级市场融到了更多钱——先缩，才有资格再涨。反向例证是 Bill Ackman：他把对冲基金转成封闭式基金，回撤期没人能走，想走的人只能接受 25-35% 的折价，他顺手回购了四分之一的份额。&quot;这种事，你在 FSK 身上看不到。&quot;</p>
-<p style="margin:0.8em 0">机构市场的态度同样矛盾：一边按净值 100 赎回同一管理人，一边不买二级市场上七折的同款。Weinstein 的解释是预算桶——机构有&quot;买新私募信贷&quot;的桶，没有&quot;买二手 BDC&quot;的桶。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要么零成交，要么成交即后悔</h2>
-<p style="margin:0.8em 0">如果私募信贷真的那么好，为什么没人来抢他的 65？</p>
-<p style="margin:0.8em 0">Weinstein 自己把话说透了。这是一道做市商式的逆选择题：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">要么一份都买不到，要么被全额成交——然后立刻后悔被成交。</p>
-</blockquote>
-<p style="margin:0.8em 0">如果被全额甚至超额成交，说明急着走的人比想象的多，下一口报价&quot;决定性地更低&quot;。他不讳言市场正饥渴地盯着这次要约——这是关于私募信贷真实温度的另类数据，他甚至开玩笑说该给 Cliffwater 下季度的赎回率开个预测市场。</p>
-<p style="margin:0.8em 0">有人问：为什么不去贷款二级市场挑好贷款买？因为愿意 88 卖给你的，恰恰是他们最想甩掉的。买整个基金反而干净：你不用证明自己比对方更懂每一笔贷款。他的对冲逻辑也自洽——Saba 主业是信用衍生品，给投资者提供尾部保护，目前做空高收益公共信用（他认为定价过于乐观），六五折的私募 BDC 是天然的多头腿。他承认这不是匹配交易：高收益指数里的公司比私募信贷组合更大更好。但流动性出问题时，&quot;卖不掉自己真正想卖的东西的人，会卖掉一切卖得掉的东西&quot;——Covid 期间他见过，私募信贷完全可以传染公共信用。</p>
-<p style="margin:0.8em 0">关于退出：不搞特权，和大家一样排队，每季度拿 5%。买入价 65，当期收益率从 7% 提到 11% 上下——这是他第一年在高盛当暑期实习就学会的算术：价格跌，票息不变，收益率上升。&quot;唯一要祈祷的是净值别跌得比这更快。&quot;他承认自己可能早了一年：&quot;底部到来时，这个产品会非常迷人——高收益市场的最低价，再叠加三折。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">黑猫头鹰还没人注册</h2>
-<p style="margin:0.8em 0">最后几分钟留给加密圈的 DATs——数字资产金库公司，Strategy、MARA 那一类，当时正以净值折价交易。Weinstein 不碰，两条理由：封闭式基金不能把稀释性发行只卖给特定人，DAT 或许可以——折价买进去，对方再折价发一轮给白名单，你就被稀释了（他们在封闭式基金上打过毒丸官司，赢了，对方依然连续干了四个季度）；治理上，一家 DAT 想给自己的 CEO 发巨额薪酬、配一个自己挑选的董事会，再把钱抽走——用他的原话，马斯克想给自己发一万亿美元是一回事，DAT 这么干没有制度障碍。</p>
-<p style="margin:0.8em 0">结尾他把自己说得很小：我的自留地就是相对价值和错误定价。私募信贷这个市场够大、够核心，让我第一次能做点没人做过的事。然后补了一句近乎预言的话：&quot;就算我们一份都没买到，也不是世界末日。这个故事会一直讲下去——不是我的故事，是私募信贷的故事。&quot;</p>
-<p style="margin:0.8em 0">节目重播时的注脚是：成交寥寥，但 Weinstein 和其他人还在出价。私募信贷的 100 没有被公开证伪，但 65 已经被公开贴上了墙。</p>
-<p style="margin:0.8em 0">Levine 用玩笑收尾：剩下的空白市场只有一个——&quot;我打算去注册一家叫 Black Owl 的公司。&quot;黑石加蓝猫头鹰，确实还没人占。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 看多（1条）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标的</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">谁+做什么</th>
+  <th style="text-align:center">质量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Money Stuff《Re-Run: Boaz Weinstein》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OBDE（Blue Owl Capital Corp III，NYSE）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Saba Capital 创始人 Boaz Weinstein：发起 tender offer 按 NAV 折价 ~35% 投标买入 OBDE 最多 5%；同时披露公开 BDC 板块整体折价 30-50% &quot;我可能会买一些&quot;，并以做空公开信用债对冲</td>
+  <td style="text-align:center">⭐⭐⭐</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 看空（0条）</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到看空持仓披露。（Boaz 披露的&quot;做空公开信用债&quot;为资产类别级对冲，无具体 ticker，按规则不单列信号，详见下方论证链。）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 看多详情</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] Money Stuff: The Podcast — Re-Run: Boaz Weinstein</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-14（重播，原访谈录制于 2026-03） | <strong style="font-weight:600">来源</strong>: omny.fm | <strong style="font-weight:600">相关性</strong>: 9/10</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚠️ <strong style="font-weight:600">时间性提示</strong>：本期为重播。重播开场注明：tender offer 已于 3 月过期、认售比例低，但&quot;他和其他人仍在市场上试图按折价买入 BDC&quot;，交易逻辑至今有效。以下披露动作时间为 2026-03。</p>
+</blockquote>
+<h4>🔥 持仓披露</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">OBDE（Blue Owl Capital Corporation III）</strong> — Boaz Weinstein（Saba Capital）发起 tender offer，按 NAV 折价约 35%（出价 65 美分）投标买入 OBDE 最多 5%；配套对 SREIT（Starwood REIT，非上市 interval fund）投标折价 27%；并称&quot;公开 BDC 我可能会买一些&quot;（&quot;i might be buying some of them&quot;）。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">私募 BDC 的流动性承诺（每季 5% 赎回）在真压力下按算术必然失效：40% 的赎回申请意味着一个季度只能拿回 1/8，反身性会让队伍越排越长。</li>
-<li style="margin:0.3em 0">六五折买入不等于六五折价值：杠杆、管理费和系统性高估的 NAV 会迅速吃掉名义折扣。</li>
-<li style="margin:0.3em 0">管理人不用 80 买回自己标价 100 的资产，不是因为看空，而是因为费用按净值计提——回购直接削减收入。这是结构问题，不是眼光问题。</li>
-<li style="margin:0.3em 0">要约的逆选择属性意味着结果本身就是信号：零成交说明没那么多人急着跑；全额成交则意味着下一口价必然更低。</li>
-<li style="margin:0.3em 0">估值黑箱正在通过银行杠杆额度向外传导：摩根大通已动手下调，落后者的同类头寸估值差距可达 25 个点。</li>
-<li style="margin:0.3em 0">&quot;波动率洗钱&quot;让这个行业以零波动、高夏普的面目募到了 2.5 万亿——分配收益缩水是雪崩的第一片雪花。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 播客《Re-Run: Boaz Weinstein》Boaz Weinstein 本人原话，QA/transcript 全文中多处直接引语</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">配套披露（不单列信号）</strong>: ① &quot;we are short at public debt at what i termed really optimistic levels&quot;——公开信用债/高收益做空，作为买入折价 BDC 的配对对冲；② Matt Levine 转述他&quot;此前说过做多 Blue Owl 股票（OWL）&quot;，本集未直接确认</li>
 </ul>
+<h4>🧠 嘉宾的主张</h4>
+<p style="margin:0.8em 0">私有信贷行业把&quot;流动性错配&quot;卖给了零售投资者：interval fund/私有 BDC 承诺 5%/季度的赎回额度，但 NAV 按月矩阵定价（虚高），一旦赎回潮来临，5% 的闸门意味着赎回者要等数年才能拿回钱。公开 BDC 的 30-50% 折价是市场对该错配的真实定价，而私有产品还在按&quot;几乎不折价&quot;交易——这个价差就是交易机会：<strong style="font-weight:600">做空定价乐观的公开信用，做多折价 35% 的公开 BDC</strong>。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">赎回率恶化链条</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> Cliffwater（私有信贷跟踪平台）赎回请求率从 1% → 4% → 14%（最近一季），Boaz 建议&quot;应该有人去 Polymarket 开个下一季赎回率的盘口&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">公开 BDC 折价实证</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> FSK（FS KKR Capital）折价 48%；&quot;即使是 Apollo 的 BDC 也折价 30%&quot;；公开 BDC 普遍 30-50% 折价</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">NAV 定价虚高</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 他掌握部分管理人二线/非一线贷款仓位按模型偏差高达 25 点的定价差异；&quot;JPMorgan 刚把一切减记，那其他基金凭什么不减？&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">历史先例</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 08-09 封闭式基金危机中，投资者最终能&quot;在市场低点 + 额外 30 点折价&quot;买到好资产；他本人做过封闭式基金 activism，流程和董事会/法院工具都可复用</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">反身性机制</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> NAV 下跌 → 赎回增加 → 被迫抛售 → NAV 再跌的负循环；&quot;灭火器只有在没火灾时才管用&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">费用剥削</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 管理人按虚高 NAV 收管理费，拒绝回购自己折价 50% 的份额（&quot;回购 = 100% 保证收益&quot;却不去做），说明结构利益压倒持有人利益</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">私有信贷向零售承诺了&quot;准流动性&quot;（5%/季 赎回条款）→ 底层资产（企业直贷）流动性远低于承诺 → NAV 靠月度矩阵定价维持稳定（Cliff Asness 所谓的&quot;波动率洗白&quot;）→ 分销收益下降触发第一批赎回 → 赎回闸门 + NAV 减记互相强化（反身性）→ 公开 BDC 已折价 30-50%，私有 BDC 折价仍很小 → 定价错配存在 → 以做空公开信用对冲信用 beta，做多折价 35% 的 OBDE 获取错配收益 → 且若被足额认购，下一轮 bid 会更低（逆向选择自觉）</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">嘉宾声称的事实</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Saba 对 OBDE 发起 tender（NAV 折价 ~35%，最多 5%）</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-03 公开报道可查</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">对 SREIT 投标折价 27%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">同上，SREIT 为 Starwood 未上市 REIT</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Cliffwater 赎回请求率升至 14%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公开数据可查</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">FSK 折价 48%、Apollo BDC 折价 30%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">市价/NAV 公开可算</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;某些二线贷款仓位不同基金间定价差 25 点&quot;</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">他声称掌握未公开数据，无来源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">JPMorgan 已全线减记其私有信贷持仓</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转述，未给出处</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">tender 认售比例低（重播开场）</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">重播开场由 Matt Levine 确认</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：私有信贷整体 2.5 万亿美元规模内&quot;问题终将暴露&quot;的具体时间表；&quot;系统性噩梦&quot;的严重程度判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[利益相关方偏差]</code> 他的多空配对里，做空公开信用本身就是他的核心业务（Saba 是信用衍生品基金），tender 有 PR/议程色彩——他自辩&quot;tender 在 Blue Owl 新闻爆出前就已准备好&quot;，未完全排除议程成分</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[逆向选择盲区]</code> 他承认&quot;若被足额认购，可能立刻后悔&quot;——65 美分的出价本身可能不足以覆盖减记风险，这是他自己点出的风险而非谬误</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">假设1: 私有 BDC 的 NAV 系统性虚高（矩阵定价滞后于真实信用恶化），且减记会继续</li>
+<li style="margin:0.3em 0">假设2: 公开 BDC 的折价反映真实价值而非永久性流动性折价（即&quot;折价会被修复&quot;）</li>
+<li style="margin:0.3em 0">假设3: 信用市场不会同步崩塌导致空头对冲失效（basis risk：高收益指数成分 ≠ 私有信贷组合）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">若信用利差大幅收窄（软着陆），做空公开信用亏损 + BDC NAV 回升使折价缩窄的收益被空头吞噬</li>
+<li style="margin:0.3em 0">若私有信贷减记演变为系统性挤兑，OBDE 自身杠杆（0.75x-1.5x）会放大损失，&quot;折价 35%&quot;可能仍买贵</li>
+<li style="margin:0.3em 0">5%/季的退出闸门意味着这笔钱要多年才能退出，时间成本高</li>
+</ul>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中高（🟢/🟡 之间取 🟡）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">持仓动作本身是<strong style="font-weight:600">事实</strong>（他明确披露了自己的 tender 和做空），逻辑链完整、可验证数据多</li>
+<li style="margin:0.3em 0">但：① 录制于 3 月、8 月重播，动作时效性打折；② OBDE tender 仅最多 5% 仓位，属试水而非重仓；③ 核心判断（NAV 虚高幅度）依赖未公开数据</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">风险</strong>: 判断错的最可能路径——私有信贷问题被缓释（降息/机构接盘），折价长期不修复，空头端承受 carry 成本。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] a16z — Ben Horowitz and Travis Kalanick on Building Again ⚪ 无持仓披露</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-14 | <strong style="font-weight:600">相关性</strong>: 5/10</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: Kalanick 沉默 8 年后携新公司 Adams 复出，押注&quot;工业 AI = 第二次工业革命&quot;——食品生产/配送、采矿、运输等数个万亿美元级行业将被自动化。Ben Horowitz 称这是 a16z 史上最大单笔支票（Uber 首轮 $4M pre，&quot;这次高好几个数量级&quot;）。</p>
+</blockquote>
+<p style="margin:0.8em 0">📊 <strong style="font-weight:600">关键信息</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">Adams = 多家独立公司合并体</strong>：食品自动化、采矿自动化、运输，共享制造/软件基础设施；高管含 Uber 前 CFO Gautam、前 SVP Ganesh、前 ATG 负责人 Eric Myhoffer（主管食品机器人）、Anthony Levandowski 等</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Ben 的投资逻辑</strong>：认识 Kalanick 多年，是&quot;极少数&quot;始终保持原厂状态的创始人；&quot;我 100% 确定&quot;——唯一的问题是投一个还是投全部；曾因没投 Uber 而称&quot;tragic&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">文化主张</strong>：Uber 的 meritocracy/toe-stepping 文化在 Adams 被重新包装为&quot;best idea wins&quot;（对标 Andy Grove 的 constructive confrontation）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对 Elon 的评价</strong>：&quot;工业 AI 的 best of the best，final boss&quot;；&quot;Elon 买 Twitter 是'我们终于能说真话'的开端&quot;</li>
+</ul>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ❓Adams 融资规模未披露（&quot;几个数量级大于 $4M pre&quot;暗示十亿美元级，市场传闻可查）| ✅ Uber 前高管加入 Adams 名单与公开信息一致 | ⚠️&quot;工业 AI 必赢&quot;无量化论证，纯叙事</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">注：a16z 投资 Adams 为私有公司投资，非公开市场信号；Kalanick 对 UBER 仅表示&quot;我们还有很多要挣的&quot;（被问是否买 Uber）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #675. 斯坦福 2026 春季 AI 经济学课程（9 讲合并） ⚪ 无持仓披露</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-14 | <strong style="font-weight:600">相关性</strong>: 6/10</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 斯坦福 MS&amp;E 235《AI 超级周期经济学》精华：AI 的钱在哪一层沉淀、每层的成本结构与变现引擎。嘉宾：Brad Gerstner（Altimeter，$15B+ AUM，OpenAI/Anthropic 最大投资者之一）、Chase Lochmiller（Crusoe CEO）、Ali Ghodsi（Databricks CEO）。</p>
+</blockquote>
+<p style="margin:0.8em 0">📊 <strong style="font-weight:600">关键论据（按层）</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">GPU/数据中心经济账</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code>：每兆瓦 capex ~$60M，纯租赁年收入 ~$15M/MW（回收期 ~4 年）；加上托管模型服务层后利润率 +15%，乐观可到 $30M/MW/年（回收期 ~2 年）。Crusoe Spark 模块化机房可省 30-50% 基础设施成本</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达推理占比</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code>：Nvidia 自报算力约 40% 用于推理、60% 训练，推理占比将随时间上升</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;软件已死&quot;反驳</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code>：这是第 4 次&quot;软件已死&quot;（脱欧/缩减恐慌/通胀/AI），每次都反弹；AI 应用越多 → 算力需求越多，并非零成本</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AGI 争论</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code>：Ali Ghodsi：按 2009 年 Berkeley AMP 实验室的定义&quot;我们已经有了 AGI&quot;，球门柱一直被移动；MIT 报告 95% 企业 PoC 失败（他估计实际 75%），根因是模型缺组织上下文</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">持仓相关问答（未过三问验证）</strong>：被问&quot;选一只股票做多/做空&quot;时，Chase 答&quot;对 Crusoe（ASR 转写为 Crucial/CRUSSO）强烈看涨&quot;——观点词+所指为自身公司（未确认上市 ticker）→ 按规则拒绝；空头论（电力堆栈老牌如施耐德将被固态变压器/900V DC 颠覆）明确声明&quot;他们是我的合作伙伴，我不太愿意说我看空他们&quot;——是观点非持仓；Sachin&quot;做多 OpenAI 用脚投票&quot;——私有公司拒绝</li>
+</ul>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ❓Crusoe 是否已公开上市（腾讯行情 usCRSO 无结果，usCRUS=凌云半导体 Cirrus Logic）| ✅ Altimeter $15B AUM、Brad 投 OpenAI/Anthropic 与公开信息一致 | ⚠️ 课程内容为教育性质，多处明确&quot;不给投资建议&quot;</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">ASR 注</strong>：人名/公司名经同音推断：Drei/dry=Chase、Ultimiter=Altimeter、Grossner=Gerstner、CRUSSO=Crusoe、DataBreaks=Databricks、Pallantier=Palantir、Suno=Sumo Logic</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">-</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">（本轮 3 集全部为 ⭐⭐⭐，无 ⭐ 级剧集）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"></td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"></td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>管线状态：transcript_adapter 3 天窗口返回 10 集，去重后 3 新集；完整性抽查 20 个播客源均无同尺寸/同预览异常。</em>
+<em>报告生成时间: 2026-08-15</em></p>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
