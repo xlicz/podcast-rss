@@ -1,0 +1,57 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/15</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：智谱 GLM-5.3 开源攻防双线逼近闭源旗舰；阿里 27B 多模态开源旗舰落地端侧；自动驾驶双向突破（Pony.ai 欧洲规模化 + 加州重卡解禁实测）。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型层</strong>：中国开源模型连续两天登顶 HN 首页（GLM-5.3 1022 分、Qwen3.8-27B 833 分），编码 + 网络安全能力逼近/超越闭源旗舰。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">自动驾驶层</strong>：Uber 与 Pony.ai 将 robotaxi 合作扩至 2000 台/4 城；Aurora 与 Kodiak 获加州 DMV 许可，重卡 L4 首次上公路实测。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">竞争层</strong>：Google Gemini 3.7 Flash 以低价策略抢 coding/agent 开发者市场。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">缺席方向</strong>：人形机器人今日无重大单独新闻；AI 硬件无重大单独新闻（Qwen 端侧部署为最相关基础设施更新）。</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 智谱 Z.ai 发布 GLM-5.3：开源编码+网络安全模型，CyberGym 超越 Claude Mythos 5 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">智谱（Z.ai）8/14 发布开源模型 GLM-5.3。基于 7 月中旬 GLM-5.2 的 753B 参数 MoE 架构、100 万 token 上下文，通过更深度后训练（沙箱模拟开发者工作站完成复杂编码任务）实现：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0">Terminal Bench 3.0 开源模型第一（命令行脚本能力）</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0">CyberGym 漏洞发现基准超越 Anthropic Claude Mythos 5（另两项网络安全基准仍落后）</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0">公司称已在 269 个软件项目中找到 2,400+ 漏洞，约半数为中危以上，含一段 40 年前的代码；据 VentureBeat 转述已在 Cursor 中发现一处严重漏洞（Cursor 方未公开确认）</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0">内部 coding agent 基准较 GLM-5.2 提升 50%</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客 + HN 首页 1022 分 + Reuters/SCMP/Axios/VentureBeat/The Information 等 10+ 独立源同日报道；🔴未证实: &quot;在 Cursor 中发现严重漏洞&quot;仅 VentureBeat 转述，Anysphere 未公开确认 — <strong style="font-weight:600">关注</strong>: 开源模型攻防能力首超闭源旗舰，AI 漏洞披露成为软件供应链安全新范式。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">来源</strong>: z.ai 官方博客 / SiliconANGLE / VentureBeat</p>
+</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 阿里开源 Qwen3.8-27B：Apache-2.0 多模态旗舰，AMD 端侧首日支持 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">阿里 8/14 开源 Qwen3.8-27B（含 FP8 版），Apache-2.0 协议，pipeline 为 image-text-to-text 多模态对话模型。AMD 同日发布 Day-0 支持公告，可在 Ryzen AI Max 系列 Agentic PC 和 Radeon GPU 上运行。HN 首页 833 分。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ HuggingFace 官方仓库（Qwen/Qwen3.8-27B，8/14 15:00 UTC 发布，8952 likes）+ AMD 官方博客；🔴无 — <strong style="font-weight:600">关注</strong>: 27B 级多模态开源旗舰 + 端侧芯片首日支持，边缘 AI 硬件部署路线清晰化。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: HuggingFace / AMD Blog</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Uber 与 Pony.ai 扩欧洲合作：2,000 台 robotaxi 进 4 城 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Uber 与小马智行（Pony.ai）将合作扩展至 2,000 台 robotaxi、4 个欧洲城市（原仅萨格勒布）。分工：Pony.ai 提供自动驾驶技术，Uber 提供运营网络与平台入口。Pony.ai 已在中国 4 城运营，并布局中东（卡塔尔）。双方未公布部署时间表和具体城市名单（称分阶段披露）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters/CNBC/TechCrunch/Seeking Alpha/Euronews 等 8+ 独立源同日报道；🔴未证实: 具体城市与时间表未披露 — <strong style="font-weight:600">关注</strong>: 中国自动驾驶规模化出海落地，技术方+运营方分工模型跑通。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch / Reuters / CNBC</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Aurora 与 Kodiak 获加州 DMV 许可：自动驾驶重卡首次上公路实测 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Aurora Innovation 与 Kodiak AI 获加州 DMV 测试许可，自动驾驶重卡（&gt;4.5 吨）首次在加州公共高速测试。Kodiak 已启动（山景城周边，少量测试车）。背景：DMV 4/28 新规解除重型无人车测试禁令；许可要求安全员在座、限速 &gt;25 mph 路段（除非直达路线）。上周 Teamsters 工会已起诉 DMV，称其绕过就业影响评估程序。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechCrunch 引用 DMV 许可 + 4/28 新规（Trucking Dive/ABC7 佐证）+ Teamsters 诉讼（Politico/Transport Topics 佐证）；🔴无 — <strong style="font-weight:600">关注</strong>: 美国重卡 L4 商业化监管闸门打开，人机安全博弈开始。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch / Politico / Transport Topics</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Google 发布 Gemini 3.7 Flash：主打 coding/agent 工作流，低价抢开发者 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Google 8/13 发布 Gemini 3.7 Flash，定位编码与 agent 工作流，推出低于常规的开发者入门价，并已接入 Search 的 AI Mode（8/14）。发布时机正值 Google AI 领导层变动（前 CEO 哈萨比斯相关报道同日发酵）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ blog.google 官方公告 + Reuters 报道；🔴无 — <strong style="font-weight:600">关注</strong>: 低价 Flash 策略正面切入 coding agent 市场，价格战信号明确。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: blog.google / Reuters</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
