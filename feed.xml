@@ -1,7 +1,78 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 15 Aug 2026 23:22:00 +0800</lastBuildDate><item><title>[Money Stuff: The Podcast] 他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</title><link>https://xlicz.github.io/podcast-rss/articles/他用-65-美分-给-2-5-万亿美元的私募信贷报了第一个真实价格-2026-08-14.html</link><guid isPermaLink="false">money-stuff_d243178e0773</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 16 Aug 2026 05:03:17 +0800</lastBuildDate><item><title>[跨国串门儿计划] Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</title><link>https://xlicz.github.io/podcast-rss/articles/Ray-Dalio-谈-AI-泡沫-迹象都在-但它只是更大周期里的一次心跳-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6f95fe338e67</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：2008 年危机前少数准确预判的人，不否认 AI 泡沫的迹象。他把注意力放在泡沫的机械装置上，以及更大的一台钟摆。</strong></p>
+<p style="margin:0.8em 0">Steven Bartlett 问了一个直接的问题：Jeremy Grantham 说我们正处在&quot;美国历史上最大的投资泡沫&quot;里，你怎么看？</p>
+<p style="margin:0.8em 0">Ray Dalio 的回答先肯定了对方：迹象确实都在。然后他话锋一转——&quot;我不想急着下结论，我更想解释那些导向结论的推理过程。&quot;接下来一个小时，他没有给投资者任何买卖建议，而是拆开了一台机器的外壳：泡沫怎么形成、怎么破裂，以及它嵌在怎样一个更大的周期里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">所有迹象都吻合，但结论不是喊出来的</h2>
+<p style="margin:0.8em 0">先交代对话双方的背景。</p>
+<p style="margin:0.8em 0">Dalio 1975 年在一间两居室公寓创立桥水基金，把它做成全球最大对冲基金，累计为投资者带来约 530 亿美元净收益，长期回报约 12%，没有过重大亏损，且与其他资产相关性低。2008 年，标普 500 暴跌近 40%，桥水那年是正 9.5%。他是少数在大金融危机前做出准确预判的基金经理。</p>
+<p style="margin:0.8em 0">所以当 Bartlett 搬出 Grantham 的&quot;AI 泡沫将导致经济崩溃&quot;论时，Dalio 的回应不是否认。他承认：&quot;那些典型迹象是存在的，而且它对经济有影响，对社会是坏事，所有人都会亏钱。&quot;</p>
+<p style="margin:0.8em 0">但他拒绝把话说成一句口号。他说自己到了人生这个阶段，只想帮人们理解因果关系。泡沫在他嘴里不是一个标签，而是一个可以拆解的机制：价格大涨、公司表现好、人们借钱追入、价格与利润脱节、某个触发点出现、价格崩塌、经济下行。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">财富不是钱</h2>
+<p style="margin:0.8em 0">这是整场对话里最值得带走的一个概念。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">财富和钱不是一回事。</p>
+</blockquote>
+<p style="margin:0.8em 0">Dalio 举了一个具体的例子。假设你买下一个&quot;单位&quot;的 AI 资产，市场定价 100 美元，你的净资产就是 100 美元。你拿这份纸面资产去银行抵押，按 50% 贷出 50 美元现金，你手里有钱了。</p>
+<p style="margin:0.8em 0">然后经济里发生点事——可能是一场战争，可能是一次突发事件——整个市场的人都急着卖资产换现金还债。你去卖那个&quot;单位&quot;，它已经跌到 25 美元。但你在银行欠的是 50 美元。</p>
+<p style="margin:0.8em 0">纸面财富不能直接花，必须先卖出去换成现金。当足够多的人同时需要现金——税率变了、利率升了、债务到期了——泡沫就会被刺破。</p>
+<p style="margin:0.8em 0">这个机制在上涨时反向放大：你的资产升值，抵押品变多，你能借更多钱，买更多资产。等到下跌，整个链条反过来转：还债、卖资产、需求收缩、收入下降、消费减少——&quot;你就不去餐厅了&quot;，餐厅老板的收入下降，他也少花钱。泡沫之后跟着的衰退，就是这个传导链条。1929 年之后是大萧条，不是巧合。</p>
+<p style="margin:0.8em 0">他特意强调，1920 年代末的乐观并不愚蠢。那是人类第一次家里通电、第一次有冰箱电灯、第一次买得起普及汽车、第一次坐飞机、第一次听收音机。&quot;人人都知道未来一定会很好，而未来也确实很好。&quot;但人们借钱买入，而利润跟不上价格，大萧条照样来了。</p>
+<p style="margin:0.8em 0">新技术是真的，泡沫也是真的。两者并不矛盾——这个区分是整场对话的支点。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么这次 AI 值得单独讨论</h2>
+<p style="margin:0.8em 0">Dalio 的框架里有一条持续上行的线：科技进步。无论繁荣还是萧条，它一直往前走。在这条线上，是一轮又一轮经济泡沫：人们兴奋、扩张、收缩、再兴奋。他说一次典型的衰退运动平均持续约 6 年，上下浮动 3 年。</p>
+<p style="margin:0.8em 0">AI 的特殊之处不在泡沫本身，而在于它&quot;渗透到几乎所有东西里&quot;。Dalio 用了一个身体的比喻：他看到 AI 正在取代身体，然后又开始取代心智——思考和推理的层次。这不是 1929 年电气化或 2000 年互联网的简单重演，因为这次被替换的对象不只是一个行业。</p>
+<p style="margin:0.8em 0">但他没有给出&quot;何时见顶&quot;的预测。他的意思是：机制摆在那里，时间表没人知道。真正的风险不是 AI 本身，而是泡沫破裂时叠加的其他压力。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">更大的钟摆：80 年的周期</h2>
+<p style="margin:0.8em 0">这是 Dalio 框架里最容易被忽略、也最决定性的部分。</p>
+<p style="margin:0.8em 0">他说泡沫之上还有一个更大的周期：大约 80 年一轮的世界秩序更替。债务从清零开始累积，累积到偿债压力挤占其他支出的上限；与此同时贫富差距不断拉大。他热爱资本主义，但他指出资本主义必然造成收入和财富的巨大差异，而财富差异又转化为机遇差异——富人能给子女更好的教育。他举了工业革命后的镀金时代：人们买昂贵闪亮的东西，然后进入&quot;强盗大亨&quot;时代，亿万富翁阶层被视为占便宜的人，接着循环走向冲突，旧秩序崩溃，新秩序建立。</p>
+<p style="margin:0.8em 0">他把当下的信号一一对应：对大多数国家来说，中国已经取代美国成为最大贸易伙伴；资本在转向；美国的力量——不光是军事的，还有经济的——在被侵蚀。他不做情绪化判断。他说自己是全球宏观投资者，目标是把准确率最大化，&quot;不能让偏见挡在我面前&quot;。所以他的表述是：这是统计数据、衡量指标和信号摆出来的，这是机制决定的。</p>
+<p style="margin:0.8em 0">AI 泡沫、债务、贫富差距、地缘秩序——这些不是四个独立的问题，是同一台机器里互相咬合的齿轮。很多人只想问&quot;AI 什么时候崩&quot;，但崩的时候你面对的不是 AI，而是这四件事同时发生的叠加态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谁在享受 AI 繁荣</h2>
+<p style="margin:0.8em 0">Bartlett 抛出了硅谷的经典辩护：新技术会创造我们无法预见的新工作，就像工业革命一样——拖拉机来了、工厂来了，大家后来都找到了别的事做。</p>
+<p style="margin:0.8em 0">Dalio 的回应先指出动机：这种说法很多来自硅谷，而硅谷是生产这些技术的地方，他们正在赚大钱，&quot;他们不想被攻击&quot;。硅谷里客观的人——他承认这样的人不少——会说 AI 对就业的影响巨大。</p>
+<p style="margin:0.8em 0">然后是数字。约 61% 的美国成年人以某种形式持有股票，其中大多数是通过退休计划间接持有；只有约 20% 通过券商账户直接持有个股。但持有高度集中：最富有的 10% 家庭持有将近 90% 的股票。&quot;如果你持有股票，你现在很开心；如果你不持有，就享受不到这些好处。&quot;光这一条，就足以在就业冲击到来之前先把贫富差距再拉大一截。</p>
+<p style="margin:0.8em 0">而他对&quot;新工作会出现&quot;这个说法本身，给出了身体比喻的续篇：当你的身体越来越被头脑取代，你还能做体力的事；但当头脑也被取代、身体也被取代——</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">作为人类，我们还有什么可以拿来卖？</p>
+</blockquote>
+<p style="margin:0.8em 0">他给出的残留答案是情感、直觉这些 AI 没有的东西。但他自己也没法把清单列完整，&quot;我们会去纠结到底还剩下什么&quot;。可预见的未来里，站在前沿的是那些&quot;拥有超凡人类智能、并且能与 AI 协作的人&quot;。注意这个表述的限定：不是被 AI 取代的人，也不是拒绝 AI 的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给 16 岁孩子的答案</h2>
+<p style="margin:0.8em 0">Bartlett 问：如果你的 16 岁孩子问&quot;我该做什么&quot;，你怎么答？</p>
+<p style="margin:0.8em 0">Dalio 第一句话是把问题改掉：在你的生活方式里，什么最重要？&quot;我不假设收入最高就是最好。你要的是幸福、快乐和健康。&quot;他说过了基本生活水平之后，钱多钱少和幸福程度之间几乎没有相关性。他自己的爱好是大自然，&quot;几乎不花什么钱&quot;。</p>
+<p style="margin:0.8em 0">但他立刻补上另一半，这是典型的 Dalio 式克制：&quot;我可以先按最直白的方式回答你，就是去赚最多的钱。&quot;他不要年轻人在追逐热爱时忘掉钱——&quot;你不能忘了钱这回事，否则你就是在追那条路。&quot;</p>
+<p style="margin:0.8em 0">所以他的完整答案是：让工作和热爱成为同一件事，但别忘掉钱；先把自己做到&quot;不用恐慌&quot;的水平——知道自己在没钱的情况下也能撑几个月，同时对生活充满热情。</p>
+<p style="margin:0.8em 0">然后是那个被问烂了的问题：如果孙辈说&quot;我想当律师&quot;（一个可能被 AI 冲击的职业），你拦不拦？Dalio 的答案是历史性的：最成功的不一定是最聪明的人，也不一定是工作最努力的人，而是最善于适应的人。今天人人都说去学编程，然后 Claude 出现了，所有编程的人开始担心自己的工作。抓具体技能永远慢半拍，真正重要的是两样东西：对事物的整体理解，和适应能力——而适应能力很大程度上跟了解自己有关。这也是他在桥水坚持人岗匹配的原因。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">苏伊士时刻</h2>
+<p style="margin:0.8em 0">对话的后半段转向当下最具体的事件：美国与伊朗的战争。</p>
+<p style="margin:0.8em 0">Dalio 的判断框架依然是不带情绪的机制分析。他说在国际上——尤其在亚洲——各国领导人之间有一个共识：美国不想打仗。而美国民众担心油价、担心死人，希望一切快点结束，&quot;那样是打不了仗的&quot;。霍尔木兹海峡是全球能源咽喉，伊朗有 9000 万人，&quot;不管发生什么，他们都会在那里&quot;。控制海峡不是一天的事，是拿下之后还得一直维持下去的事，代价是持续的痛苦。</p>
+<p style="margin:0.8em 0">更重要的后果在亚洲。很多亚洲国家原本相信美国会在该地区扮演制衡力量，现在大家开始意识到：美国可能不会来，而且美国的基地可能变成负担。他拿菲律宾举例——条约存在，但美国公众会支持派航母去&quot;阻止菲律宾人被欺负&quot;吗？</p>
+<p style="margin:0.8em 0">&quot;现在大家突然醒悟了，&quot;Dalio 说，&quot;就像英国和苏伊士运河一样——我们以前没意识到，现在意识到了：威胁不再管用了，那种力量已经不存在了。&quot;</p>
+<p style="margin:0.8em 0">他说世界秩序要变了，这是&quot;一个非常大的错误&quot;，而它的另一个后果是把美国的脆弱性暴露在聚光灯下——以前看不出来。</p>
+<p style="margin:0.8em 0">这与前面的 80 年周期严丝合缝：债务、贫富差距、秩序更替，AI 泡沫只是叠加其上的又一次心跳。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾</h2>
+<p style="margin:0.8em 0">回到 Bartlett 最初的提问：这是美国历史上最大的投资泡沫吗？</p>
+<p style="margin:0.8em 0">Dalio 始终没有回答&quot;是&quot;或&quot;不是&quot;。他做了一件更麻烦的事：把&quot;泡沫&quot;这个词拆成了财富与现金的错位、杠杆的正反馈、利润与价格的脱节，然后把这套装置放进一个 80 年周期的齿轮组里。对他而言，&quot;是不是泡沫&quot;是个没有信息量的问题；真正的问题是，当多个周期在同一时间走到临界点时，你手里拿着的是财富还是钱，你卖的是身体、头脑，还是适应能力。</p>
+<p style="margin:0.8em 0">他最后被感谢的，是他把《经济机器是如何运行的》做成 30 分钟、1.4 亿人看过的视频。他说那是责任：&quot;用清晰、简单、容易理解的方式去沟通。&quot;这可能是整场对话里最像建议的一句——不是关于 AI 的，是关于面对复杂世界的方式：先理解机制，再谈结论。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Dalio 承认 AI 泡沫的典型迹象齐全，但拒绝口号式结论，主张先理解因果机制</li>
+<li style="margin:0.3em 0">&quot;财富不是钱&quot;：纸面财富必须换成现金才能花，集体变现需求是泡沫破裂的触发器；上涨靠杠杆放大，下跌同样反向放大</li>
+<li style="margin:0.3em 0">衰退周期平均约 6 年（±3 年）；1929 年大萧条前的电气化同样是真革命——新技术真实与泡沫真实不矛盾</li>
+<li style="margin:0.3em 0">更大的框架：约 80 年一轮世界秩序周期，驱动因素是债务积累与贫富差距，路径是镀金时代→强盗大亨→冲突→新秩序</li>
+<li style="margin:0.3em 0">美国股票高度集中：最富 10% 家庭持有近 90% 股票，AI 繁荣先于就业冲击拉大贫富差距</li>
+<li style="margin:0.3em 0">身体与头脑都被取代后，人剩下的是情感、直觉和与 AI 协作的能力；可预见未来的受益者是与 AI 协作的人</li>
+<li style="margin:0.3em 0">给年轻人的答案：过了基本生活线钱与幸福脱钩；让工作与热爱合一但别忘钱；适应能力大于聪明，整体理解加了解自己是核心</li>
+<li style="margin:0.3em 0">美国正在经历&quot;苏伊士时刻&quot;：威胁不再管用，亚洲盟友开始意识到基地可能是负担</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[Money Stuff: The Podcast] 他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</title><link>https://xlicz.github.io/podcast-rss/articles/他用-65-美分-给-2-5-万亿美元的私募信贷报了第一个真实价格-2026-08-14.html</link><guid isPermaLink="false">money-stuff_d243178e0773</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">他用 65 美分，给 2.5 万亿美元的私募信贷报了第一个真实价格</h1>
 <p style="margin:0.8em 0">Boaz Weinstein 的私募 BDC 要约最终成交寥寥——但这笔没做成的交易，恰好验证了他自己的判断：私募信贷的"稳稳 1%"，建立在没人真去挤兑之上。</p>
@@ -14150,5 +14221,415 @@ tap pc 2-3亿为产品级预测，不计入E）</p>
 </ul>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item></channel>
+]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-15</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-15.html</link><guid isPermaLink="false">report:STH解码:2026-08-15:45a98450</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-15</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年08月15日</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">帖子总数：4条 | RAG：Phase 2 缺 rank_bm25 → 回退 Phase 1 关键词检索 | 框架：STH 主框架 v2.18.8 | 财报数字已跨源验证（北京商报/界面新闻/华尔街见闻，authority 3-4）</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📜 历史检索结果</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">关键词"腾讯 回购 资本开支" → 命中 38 条 → 2026-05-15 "腾讯重回 top 级别持仓，认可公司对AI、自身业务的判断与股东回报的态度"</li>
+<li style="margin:0.3em 0">关键词"腾讯 估值 击球区" → 命中 64 条 → 2026-04-22 五个悲观假设原帖；2026-03-18 "腾讯计划减少回购将资金用于AI投资，回购ROI 10%出头"</li>
+<li style="margin:0.3em 0">关键词"日元 干预 人民币" → 命中 17 条 → 2026-07-30 高度疑似干预帖（USD/JPY 164→158，人民币6.74三年半新高）</li>
+<li style="margin:0.3em 0">关键词"谷歌 Google" → 命中 7 条 → 2026-05-16 "Berkshire新掌门26Q1 13F：大笔加仓Google、Lennar、NYT"</li>
+<li style="margin:0.3em 0">关键词"拼多多" → 命中 4 条 → 2026-01-14 中概复盘"估值折价30-50%，kweb涨幅32%"</li>
+<li style="margin:0.3em 0">关键词"美国 金融股 银行" → 命中 131 条 → 2026-05-16 Robinhood 取代传统银行观察</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">核心判断</h2>
+<p style="margin:0.8em 0">三大主线：① Berkshire 与李录两大价值标杆同步持续减持/清仓以 BOA 为主的金融股——对美国金融体系投不信任票的信号；② 日元 9 月加息概率 40%→80%+ 翻倍，本质饮鸩止渴，日元看空不变、人民币 6.74 中期看多不变；③ 腾讯 Q2 是 4-22 五个悲观假设的期中考试：capex 假设兑现（528亿超预期65%）、回购降速兑现一半、AI 产品（Hy/WorkBuddy）好于预期——内部记分牌与外部记分牌矛盾的窗口期，等市场砸出极好价格。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">逐条分析</h2>
+<p style="margin:0.8em 0">📌 <strong style="font-weight:600">美股金融股双巨头同步减持</strong>（8-15 两条合并） | 🟡</p>
+<p style="margin:0.8em 0">Berkshire 帖原文：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"Berkshire 26Q2：大幅加仓Google，实际成为第三重仓；继续加仓DAL、Lennar、NYT、Macy's，还有一些非常迷你的。继续减持以BOA为主的许多金融股。Berkshire和李录同时持续性大幅减仓甚至清仓，值得重视的信号，可能是对美国金融业乱象和暗雷投不信任票了。消费行业各公司加加减减；清仓啤酒Constellation，当时24Q4他们买入后我还看过，是Corona母公司，看了一段时间没感觉到赔率，尤其25年关税对跨境啤酒生产有负面影响后来我的担忧也成真了，Berkshire这笔投资应该亏了40%左右清掉的。"</p>
+</blockquote>
+<p style="margin:0.8em 0">李录帖原文：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"李录26Q2：大幅加仓PDD到仅次于Google的第二实际重仓，加仓BRKB。彻底清仓BOA，这是2020年以来的重仓被清，值得关注后续；清仓上季度的一揽子评级/基金公司；清仓OXY。第一第二都是谷歌，整个组合精简到只有7个实际持仓。"</p>
+</blockquote>
+<p style="margin:0.8em 0">[A2.6 投资三角, A7 海外配置]
+主张: 两大独立决策的价值投资者同步减/清金融股 = 美国金融体系存在未被定价的暗雷
+→ 论据: ① Berkshire 连续两季减持金融股（26Q1 减持 Chevron 后 Q2 继续）；② 李录清仓持有 6 年的 BOA 重仓 + 清仓评级/基金公司一揽子 + OXY；③ 两家同步把 Google 买到第一/第三重仓；④ Constellation 是 STH_ 24Q4 亲自跟踪过并判"赔率不足"的标的，亏 40% 清仓验证其当时判断
+→ 推理链: 减持金融+加仓 Google/PDD → 组合从"价值金融"向"科技平台"迁移 → 金融股的退出可能不是估值而是风险判断
+核查: ✅ 26Q2 13F 为公开数据（STH_ 引用）；❓ Constellation 亏损 40% 为 STH_ 估算；⚠️ "同步减持=投不信任票"是相关性推断非因果</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">假设: 减持动机可能含税务/集中度管理</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">替代: BOA 减持或为 2023 硅谷银行风波后遗留仓位管理</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">📌 <strong style="font-weight:600">BOJ 9月加息概率翻倍</strong>（8-14 回复自己 7-30 帖） | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"回复@STH_: 本周BOJ与政府官员直接或间接表态都支持了9月加息，下个月加息概率从40%出头迅速翻倍到80%+。从24年起日本结束漫长宽松时代，一直保持了每年2次总共50bp左右的缓慢加息节奏，近期是有些表态提议加速的（3次总共75bp/年）。日元贬值过快、美日联合干预效果持续性差、输入性通胀飙升导致高市支持率这两个月迅速下滑，可能是政府对加息态度转向的核心原因。不知道减税法案还能不能通过，如果通过了可以看看日债长端利率反馈。本质还是饮鸩止渴，用已经压力极大的政府负债远端风险去缓解短期的居民成本压力。上次干预居然是向FED抵押美债而不是抛售，不愧FED全球央行的央行称号。但美国抛售了欧元，欧洲未被提前通知、意见很大。"Our suspicious ally...""</p>
+</blockquote>
+<p style="margin:0.8em 0">[A7 宏观周期, A5 对冲]
+主张: 9 月加息概率 40%→80%+；加息加速是政治驱动（支持率）而非经济驱动；本质饮鸩止渴
+→ 论据: ① BOJ+政府官员表态转向；② 24 年以来每年 2 次共 50bp 的慢节奏 vs 提议 3 次 75bp/年；③ 支持率两个月迅速下滑 = 政治变量；④ 新信息：干预是向 FED 抵押美债而非抛售（FED"全球央行的央行"）；⑤ 美国抛售欧元未通知欧洲
+→ 推理链: 日元贬值+干预效果差+输入性通胀 → 支持率下滑 → 政府施压 BOJ 加速加息 → 9 月概率翻倍。但加息推升日债付息成本 → 政府负债远端风险换短期居民成本缓解 → 饮鸩止渴
+核查: ✅ 加息概率为市场定价观察（STH_ 口径）；❓ 抵押美债细节为信息型爆料；⚠️ 减税法案走向未定
+假设: 减税法案通过则日债长端反馈是关键变量 | 替代: 若 9 月加息落空概率回落至 40-50%
+📜 历史检索: 2026-07-30 干预帖"美日利差太大，BOJ不加息很难改变日元贬值趋势，即使加息25-50bp可能也不够" ✅本次补充加息概率翻倍+抵押美债机制 → 强化原有判断；2025-01-24 BOJ 25bp 加息关注帖 → 观点延续
+→ 信号: 日元短期看空维持（25-50bp 不够逆转利差）；人民币 6.74 三年半新高 → 中期看多维持</p>
+<p style="margin:0.8em 0">📌 <strong style="font-weight:600">腾讯 Q2：五个悲观假设期中考试</strong>（8-12 回复自己 4-22 帖） | 🟢</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"回复@STH_: "視頻號二零二六年第二季的總用戶使用時長同比增長超過20%"；"營銷服務業務二零二六年第二季的收入同比增長22%至人民幣436億元"；"若剔除新AI產品貢獻，非國際財務報告準則經營盈利同比增長19%至人民幣861億元"；"負自由現金流人民幣138億元...資本開支付款人民幣593億元"；"截至二零二六年六月三十日止六個月內，本公司於聯交所以總代價約244億港元（未計開支）購回合共50,031,100股股份。"原文五个悲观假设：15算是在发生，资本开支迅速增长到单季度近600亿、市场与全球宏观经济积攒的压力更大。2上半年Q1阶段性发生、Q2开始恢复5亿左右回购，上半年整体244亿。下半年如果维持目前节奏预计330亿左右（全年可回购交易日约130天），全年550-600亿左右，比24年1120亿减半、比去年800亿减少30%左右。还要算上不确定的分红数量，股价对回购/分红的倾向会有一定影响。如果维持/进一步加大AI投入，可能需要增加一些融资；中期的股东回报会有压力，可能需要出售部分外部投资。34略好于预期，hy勉强跟上、workbuddy跑出来了。内部记分牌（业务有机发展）与外部记分牌（中期报表数据）潜在"矛盾"的时刻，看看市场能不能给出极好的机会。"</p>
+</blockquote>
+<p style="margin:0.8em 0">[A2.8 内生现金流, A2.6 投资三角, A3 仓位, A11.2 三步自检]
+主张: 五假设期中检查——1 兑现、2 部分兑现、3/4 好于预期、5 压力更大；内外部记分牌矛盾 = 潜在击球区
+→ 论据: ① 财报五组原文数据（视频号时长+20%、营销服务+22%至436亿、剔除AI后经营盈利+19%至861亿、FCF -138亿、capex付款593亿、上半年回购244亿港元）；② 跨源验证全部一致：capex 528亿（+176%，超预期65%）、营收2048亿（+11%）、净利润560亿（+0.7%）、Non-IFRS 684亿（+9%）、AI产品拖累经营盈利约105亿
+→ 推理链: capex 假设已兑现且超预期 → FCF 转负 → 回购全年 550-600 亿 vs 24 年 1120 亿（-50%/-30%）→ 角1 股东回报降速；但 AI 反哺广告（营销+22%）+ WorkBuddy 跑出 → 角2 边际改善存在 → 若市场因报表数据砸盘而内部记分牌向好 → 极好机会
+核查: ✅ 五项财报数字跨源验证一致；✅ 8-13 股价跌 3.81% 收 444 港元、PE(TTM) 15x、PB 3.07x；❓ "全年550-600亿回购"依赖节奏维持假设；⚠️ 管理层称投入有"下行保护"但未给 capex 上限
+假设: 下半年回购节奏 5 亿/日维持 | 替代: AI 投入继续加码 → 需融资/出售外部投资 → 回购再降
+📜 历史检索: 2026-04-22 五假设原帖 → 本次期中检查 = 框架延续；2026-03-18 "减少回购转AI投资，回购ROI 10%出头" → 已验证回购收缩方向；2026-05-15 "腾讯重回top持仓，认可AI判断与股东回报态度" → 本次检查未推翻；2026-04-30 "中长期内生增速8-10%判断不变" → 维持
+→ 信号: 腾讯看多维持，等市场砸出极好价格（未给具体价位——需持续跟踪）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑的共识</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">"同步减持=金融业不信任票"是相关性推断</strong>：Berkshire 减持 BOA 与李录清仓 BOA 的动机未必同源（李录可能因 7 个持仓的集中度纪律，Berkshire 可能是组合换手）。STH_ 自己用了"可能是"。真正可证伪的观察点：26Q3 两家是否继续减持金融股、BOA 股价是否滞后反映。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">9 月加息概率 80%+ 是市场定价不是事实</strong>：7-30 STH_ 自己说过"即使加息 25-50bp 可能也不够"——那 9 月加息本身不改变日元中期贬值趋势，事件驱动的概率翻倍≠趋势反转。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">腾讯"极好机会"的前提未量化</strong>：4-22 原帖问的是"什么价位是你愿意开始对抗市场买入的"——本次仍未给价。8-13 市场只跌了 3.81%（PE 15x），距"极好机会"可能还有距离。真正击球区触发条件：FCF 持续为负+回购再降+宏观恶化导致 PE 下探 12-13x 区间（A2.8 内生回报率需 FCF×兑现系数/市值&gt;8% 才到持有线以上）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"内部记分牌好于外部记分牌"依赖公司口径</strong>：AI 产品数据（Hy/元宝/WorkBuddy 留存、DAU、商业化）全部由公司定义披露，105 亿拖累 vs 未来兑现的时间差是最大不确定性。</li>
+</ol>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">事后检验摘要</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">24Q4 Constellation"没感觉到赔率" → 26Q2 亏 40% 清仓 ✅ 判断验证</li>
+<li style="margin:0.3em 0">7-30 日元干预"消耗外汇延缓加息" → 8-14 加息概率翻倍 ✅ 方向确认</li>
+<li style="margin:0.3em 0">4-22 五假设 → 8-12 期中检查：capex 假设超预期兑现 ✅ 框架有效性高</li>
+<li style="margin:0.3em 0">5-15 "腾讯重回 top 持仓" → 8-12 检查未推翻持仓逻辑 ✅</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">综合研判</h2>
+<p style="margin:0.8em 0">四条发言是一个连贯体系：外部（美国金融股）减风险、汇率（日元）维持看空/人民币中期看多、核心持仓（腾讯）做期中检查后继续等待击球区。STH_ 的行动框架没有因为腾讯 FCF 转负而动摇——因为 4-22 已经把 capex 上修写进假设并设定了"满足 3-5 个才改判"的阈值。当前 5 个假设中约 2.5 个兑现（1 全兑现、2 半兑现、5 部分），未触及改判线。真正值得跟踪的三个触发：腾讯 capex 是否再上修、李录/Berkshire 是否继续减持金融股、日本减税法案走向。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">关注标的</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">$腾讯控股(00700)$</strong> | 看多维持（等击球区）| capex 528亿超预期65%+FCF转负为最大变量；8-13 收 444 港元/PE15x；击球区参考 12-13x</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">日元</strong> | 短期看空维持 | 9 月加息 25-50bp 不足逆转利差；饮鸩止渴路径</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">人民币</strong> | 中期看多维持 | 6.74 三年半新高</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">美国金融股（BOA 系）</strong> | 信号看空 | 两大价值标杆同步减持——信号跟踪，非直接标的</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Google</strong> | 中性偏多观察 | 双巨头共同加仓至第一/第三重仓；4-12 曾批评广告加载率过载</li>
+</ul>
+
+</div>
+]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-08-15</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-15.html</link><guid isPermaLink="false">report:心动日报:2026-08-15:bf37c5fa</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-15</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-15（周六）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态: TapTap ✅ / Apple ✅ / Steam ✅ / 逸修1 ⚠️不可用 / 股价 ✅（akshare代理拒连→腾讯源兜底）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日判断：<strong style="font-weight:600">无新增风险信号，维持持有</strong>
+先行指标第6采样点逆转——13区同步回升
+（小镇2周年庆+寻鲸季脉冲），负向趋势中断</li>
+<li style="margin:0.3em 0">关键数字：股价 42.60（+0.33%，8-14收盘，
+今日休市）| 市值 ~193亿港元（≈176亿人民币）
+| 残差 -44%低位（持平）</li>
+<li style="margin:0.3em 0">发言结论：<strong style="font-weight:600">对E影响：无修正</strong>——雪球源今日
+WAF拦截，无新增发言可采集（0条）</li>
+<li style="margin:0.3em 0">行动：持有不加不减（半年报前不变）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价 42.60（8-14 周五收盘，今日周六休市）
+涨跌 +0.33%（+0.14）| 市值 ~193亿港元
+（≈176亿人民币）
+52周区间: 40.10 - 92.45（现价距低点 +6.2%）
+近6日: 44.38(8-07) → 44.54(8-10) → 43.70(8-11)
+→ 42.82(8-12) → 42.46(8-13) → 42.60(8-14)</p>
+<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">v3.2校准3：低位残差不调E
+位置: 176亿人民币在悲观锚区间内（150-200亿）
+市场隐含E≈10.4亿 vs 我18.5亿（-44%，持平）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO2未上线</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅回升</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第6点逆转</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①收入2季下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-44%低位</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">昨-44%</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">快慢判定: 先行指标昨日第5采样点恶化
+（5区出榜），今日第6采样点13区同步回升
+→ 恶化趋势中断，解除"接近触发"状态；
+③④⑤均无新信息；脉冲为活动驱动，暂按
+"复苏待验证"处理，不动E</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam PC）</h2>
+<p style="margin:0.8em 0">TapTap（vs 8-14）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: #7 小镇(0) | #9 香肠(+1) | #27 戴夫(-11)</li>
+<li style="margin:0.3em 0">新品: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约: 心动系不在榜</li>
+<li style="margin:0.3em 0">热卖: #1 潜水员戴夫（持平）</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs 8-14，小镇周年庆脉冲）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国畅销: #12 小镇国服（回归，昨出榜3日）</li>
+<li style="margin:0.3em 0">中国免费: #49 小镇(+6) | #77 香肠(+7)</li>
+<li style="margin:0.3em 0">香港畅销: #6（回归冲高）</li>
+<li style="margin:0.3em 0">台湾畅销: #5（回归冲高）</li>
+<li style="margin:0.3em 0">日本畅销: #12（回归，昨连续3日出榜）</li>
+<li style="margin:0.3em 0">韩国畅销: #11（回归）</li>
+<li style="margin:0.3em 0">新加坡: #8（昨#90，+82）</li>
+<li style="margin:0.3em 0">泰国: #2（+23）</li>
+<li style="margin:0.3em 0">印尼: #3（+32）</li>
+<li style="margin:0.3em 0">马来: #5（+51）</li>
+<li style="margin:0.3em 0">菲: #2（+28）</li>
+<li style="margin:0.3em 0">德国: #66（入榜）/ 法国: #59（入榜）</li>
+<li style="margin:0.3em 0">巴西: #75（入榜）</li>
+<li style="margin:0.3em 0">美/英/越南: 无</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">火炬之光: 在线4310/峰4310/历史27296
+（留存比16%）近30日均 6603（昨6540）</li>
+<li style="margin:0.3em 0">心动小镇: 在线16733/峰16733/历史65894
+（留存比25%）近30日均 11592（昨11574，
+当日+25% vs 昨13375）</li>
+<li style="margin:0.3em 0">解读: 小镇PC与手游端同频脉冲；火炬平稳</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">E下修预警: <strong style="font-weight:600">未触发</strong>（第6采样点回升，
+恶化趋势中断，计数重置观察）</li>
+<li style="margin:0.3em 0">脉冲: 有——小镇13区同步跳升，主因
+2周年庆+寻鲸季活动窗口（8-8~9-14）</li>
+<li style="margin:0.3em 0">出榜: 0区（昨日5区全部回归）</li>
+<li style="margin:0.3em 0">风险: 活动驱动脉冲，退潮后回落风险；
+连续观察2-3日再定性</li>
+<li style="margin:0.3em 0">结论: 复苏待验证，不动E</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
+<p style="margin:0.8em 0">⚠️ <strong style="font-weight:600">雪球源今日不可用</strong>（WAF 403+JS挑战
+未通过，Cookie需手动更新: 运行
+python get_cookie.py 后自动恢复）</p>
+<p style="margin:0.8em 0">今日新增: 0条可采集</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（无新发言）</li>
+<li style="margin:0.3em 0">方向信号: 无新增</li>
+<li style="margin:0.3em 0">可靠度: —（无数据）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">无法观察（源不可用）；昨日第2次集中日
+（8-14）次日观察顺延至源恢复</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">不适用（无新发言）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天 8-16~8-29）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">8-21: 网易梦幻畅玩服移动端上线（行业）</li>
+<li style="margin:0.3em 0">8-21: 诡秘手游同日上线（行业竞争，tap流量）</li>
+<li style="margin:0.3em 0">8月中下旬: 8月版号批次（例行，观察RO2进展）</li>
+<li style="margin:0.3em 0">8月中下旬: RO2上线筹备（版号已批）</li>
+<li style="margin:0.3em 0">8-8~9-14: 小镇2周年庆+寻鲸季活动窗口
+（今日脉冲主因，退潮观察）</li>
+<li style="margin:0.3em 0">8-30: 小镇2周年+三丽鸥活动结束（临近）</li>
+<li style="margin:0.3em 0">8月底: 26半年报（核心验证: tap增速/mk费用
+/事故影响3000-5000万）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">新可证伪点: ①小镇13区脉冲是否持续
+（活动驱动 vs 一次性冲榜）
+②雪球Cookie修复后补采8-15发言</li>
+<li style="margin:0.3em 0">验证路径: 8-16 Apple/TapTap采样对比；
+get_cookie.py恢复雪球；半年报</li>
+<li style="margin:0.3em 0">历史验证点: 进行中 8 个
+（表2#9/#11/#13/#14/#16/#17/#18/#19）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我18-19 / 他20-22 / 卖方(未覆盖26E)
+/ 市场10-13 → 无变化
+小镇国际服: 我17 / 他17 / 市场10-12 → 无变化
+（今日脉冲为流水端数据，单日不构成E修正；
+需持续2周以上才进入先行指标升级）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底）
+动作: 持有不加不减
+触发条件:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">半年报E≥17亿 → 🟢 259-333亿</li>
+<li style="margin:0.3em 0">半年报E≤13亿 → 🔴 150-200亿
+今日触发: 无（快信号未触发；无E级新证据；
+榜单脉冲为正向且未满2周）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价单日&gt;5%: 无（+0.33%）</li>
+<li style="margin:0.3em 0">快信号: 无（④⑤未触发）</li>
+<li style="margin:0.3em 0">先行指标: 未触发负向；第6采样点13区
+同步回升（脉冲），恶化中断</li>
+<li style="margin:0.3em 0">出榜: 无（昨日5区全部回归+冲高）</li>
+<li style="margin:0.3em 0">新承认/预测下修: 无已知（雪球源不可用，
+恢复后补查）</li>
+<li style="margin:0.3em 0">数据源异常: 有——⚠️雪球WAF 403拦截
+（Cookie需手动刷新）；akshare东财源
+代理拒连→fetch_stock.py腾讯源兜底✅</li>
+</ul>
+
+</div>
+]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</title><link>https://xlicz.github.io/podcast-rss/articles/Ray-Dalio-谈-AI-泡沫-迹象都在-但它只是更大周期里的一次心跳-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6f95fe338e67</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：2008 年危机前少数准确预判的人，不否认 AI 泡沫的迹象。他把注意力放在泡沫的机械装置上，以及更大的一台钟摆。</strong></p>
+<p style="margin:0.8em 0">Steven Bartlett 问了一个直接的问题：Jeremy Grantham 说我们正处在&quot;美国历史上最大的投资泡沫&quot;里，你怎么看？</p>
+<p style="margin:0.8em 0">Ray Dalio 的回答先肯定了对方：迹象确实都在。然后他话锋一转——&quot;我不想急着下结论，我更想解释那些导向结论的推理过程。&quot;接下来一个小时，他没有给投资者任何买卖建议，而是拆开了一台机器的外壳：泡沫怎么形成、怎么破裂，以及它嵌在怎样一个更大的周期里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">所有迹象都吻合，但结论不是喊出来的</h2>
+<p style="margin:0.8em 0">先交代对话双方的背景。</p>
+<p style="margin:0.8em 0">Dalio 1975 年在一间两居室公寓创立桥水基金，把它做成全球最大对冲基金，累计为投资者带来约 530 亿美元净收益，长期回报约 12%，没有过重大亏损，且与其他资产相关性低。2008 年，标普 500 暴跌近 40%，桥水那年是正 9.5%。他是少数在大金融危机前做出准确预判的基金经理。</p>
+<p style="margin:0.8em 0">所以当 Bartlett 搬出 Grantham 的&quot;AI 泡沫将导致经济崩溃&quot;论时，Dalio 的回应不是否认。他承认：&quot;那些典型迹象是存在的，而且它对经济有影响，对社会是坏事，所有人都会亏钱。&quot;</p>
+<p style="margin:0.8em 0">但他拒绝把话说成一句口号。他说自己到了人生这个阶段，只想帮人们理解因果关系。泡沫在他嘴里不是一个标签，而是一个可以拆解的机制：价格大涨、公司表现好、人们借钱追入、价格与利润脱节、某个触发点出现、价格崩塌、经济下行。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">财富不是钱</h2>
+<p style="margin:0.8em 0">这是整场对话里最值得带走的一个概念。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">财富和钱不是一回事。</p>
+</blockquote>
+<p style="margin:0.8em 0">Dalio 举了一个具体的例子。假设你买下一个&quot;单位&quot;的 AI 资产，市场定价 100 美元，你的净资产就是 100 美元。你拿这份纸面资产去银行抵押，按 50% 贷出 50 美元现金，你手里有钱了。</p>
+<p style="margin:0.8em 0">然后经济里发生点事——可能是一场战争，可能是一次突发事件——整个市场的人都急着卖资产换现金还债。你去卖那个&quot;单位&quot;，它已经跌到 25 美元。但你在银行欠的是 50 美元。</p>
+<p style="margin:0.8em 0">纸面财富不能直接花，必须先卖出去换成现金。当足够多的人同时需要现金——税率变了、利率升了、债务到期了——泡沫就会被刺破。</p>
+<p style="margin:0.8em 0">这个机制在上涨时反向放大：你的资产升值，抵押品变多，你能借更多钱，买更多资产。等到下跌，整个链条反过来转：还债、卖资产、需求收缩、收入下降、消费减少——&quot;你就不去餐厅了&quot;，餐厅老板的收入下降，他也少花钱。泡沫之后跟着的衰退，就是这个传导链条。1929 年之后是大萧条，不是巧合。</p>
+<p style="margin:0.8em 0">他特意强调，1920 年代末的乐观并不愚蠢。那是人类第一次家里通电、第一次有冰箱电灯、第一次买得起普及汽车、第一次坐飞机、第一次听收音机。&quot;人人都知道未来一定会很好，而未来也确实很好。&quot;但人们借钱买入，而利润跟不上价格，大萧条照样来了。</p>
+<p style="margin:0.8em 0">新技术是真的，泡沫也是真的。两者并不矛盾——这个区分是整场对话的支点。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么这次 AI 值得单独讨论</h2>
+<p style="margin:0.8em 0">Dalio 的框架里有一条持续上行的线：科技进步。无论繁荣还是萧条，它一直往前走。在这条线上，是一轮又一轮经济泡沫：人们兴奋、扩张、收缩、再兴奋。他说一次典型的衰退运动平均持续约 6 年，上下浮动 3 年。</p>
+<p style="margin:0.8em 0">AI 的特殊之处不在泡沫本身，而在于它&quot;渗透到几乎所有东西里&quot;。Dalio 用了一个身体的比喻：他看到 AI 正在取代身体，然后又开始取代心智——思考和推理的层次。这不是 1929 年电气化或 2000 年互联网的简单重演，因为这次被替换的对象不只是一个行业。</p>
+<p style="margin:0.8em 0">但他没有给出&quot;何时见顶&quot;的预测。他的意思是：机制摆在那里，时间表没人知道。真正的风险不是 AI 本身，而是泡沫破裂时叠加的其他压力。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">更大的钟摆：80 年的周期</h2>
+<p style="margin:0.8em 0">这是 Dalio 框架里最容易被忽略、也最决定性的部分。</p>
+<p style="margin:0.8em 0">他说泡沫之上还有一个更大的周期：大约 80 年一轮的世界秩序更替。债务从清零开始累积，累积到偿债压力挤占其他支出的上限；与此同时贫富差距不断拉大。他热爱资本主义，但他指出资本主义必然造成收入和财富的巨大差异，而财富差异又转化为机遇差异——富人能给子女更好的教育。他举了工业革命后的镀金时代：人们买昂贵闪亮的东西，然后进入&quot;强盗大亨&quot;时代，亿万富翁阶层被视为占便宜的人，接着循环走向冲突，旧秩序崩溃，新秩序建立。</p>
+<p style="margin:0.8em 0">他把当下的信号一一对应：对大多数国家来说，中国已经取代美国成为最大贸易伙伴；资本在转向；美国的力量——不光是军事的，还有经济的——在被侵蚀。他不做情绪化判断。他说自己是全球宏观投资者，目标是把准确率最大化，&quot;不能让偏见挡在我面前&quot;。所以他的表述是：这是统计数据、衡量指标和信号摆出来的，这是机制决定的。</p>
+<p style="margin:0.8em 0">AI 泡沫、债务、贫富差距、地缘秩序——这些不是四个独立的问题，是同一台机器里互相咬合的齿轮。很多人只想问&quot;AI 什么时候崩&quot;，但崩的时候你面对的不是 AI，而是这四件事同时发生的叠加态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谁在享受 AI 繁荣</h2>
+<p style="margin:0.8em 0">Bartlett 抛出了硅谷的经典辩护：新技术会创造我们无法预见的新工作，就像工业革命一样——拖拉机来了、工厂来了，大家后来都找到了别的事做。</p>
+<p style="margin:0.8em 0">Dalio 的回应先指出动机：这种说法很多来自硅谷，而硅谷是生产这些技术的地方，他们正在赚大钱，&quot;他们不想被攻击&quot;。硅谷里客观的人——他承认这样的人不少——会说 AI 对就业的影响巨大。</p>
+<p style="margin:0.8em 0">然后是数字。约 61% 的美国成年人以某种形式持有股票，其中大多数是通过退休计划间接持有；只有约 20% 通过券商账户直接持有个股。但持有高度集中：最富有的 10% 家庭持有将近 90% 的股票。&quot;如果你持有股票，你现在很开心；如果你不持有，就享受不到这些好处。&quot;光这一条，就足以在就业冲击到来之前先把贫富差距再拉大一截。</p>
+<p style="margin:0.8em 0">而他对&quot;新工作会出现&quot;这个说法本身，给出了身体比喻的续篇：当你的身体越来越被头脑取代，你还能做体力的事；但当头脑也被取代、身体也被取代——</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">作为人类，我们还有什么可以拿来卖？</p>
+</blockquote>
+<p style="margin:0.8em 0">他给出的残留答案是情感、直觉这些 AI 没有的东西。但他自己也没法把清单列完整，&quot;我们会去纠结到底还剩下什么&quot;。可预见的未来里，站在前沿的是那些&quot;拥有超凡人类智能、并且能与 AI 协作的人&quot;。注意这个表述的限定：不是被 AI 取代的人，也不是拒绝 AI 的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给 16 岁孩子的答案</h2>
+<p style="margin:0.8em 0">Bartlett 问：如果你的 16 岁孩子问&quot;我该做什么&quot;，你怎么答？</p>
+<p style="margin:0.8em 0">Dalio 第一句话是把问题改掉：在你的生活方式里，什么最重要？&quot;我不假设收入最高就是最好。你要的是幸福、快乐和健康。&quot;他说过了基本生活水平之后，钱多钱少和幸福程度之间几乎没有相关性。他自己的爱好是大自然，&quot;几乎不花什么钱&quot;。</p>
+<p style="margin:0.8em 0">但他立刻补上另一半，这是典型的 Dalio 式克制：&quot;我可以先按最直白的方式回答你，就是去赚最多的钱。&quot;他不要年轻人在追逐热爱时忘掉钱——&quot;你不能忘了钱这回事，否则你就是在追那条路。&quot;</p>
+<p style="margin:0.8em 0">所以他的完整答案是：让工作和热爱成为同一件事，但别忘掉钱；先把自己做到&quot;不用恐慌&quot;的水平——知道自己在没钱的情况下也能撑几个月，同时对生活充满热情。</p>
+<p style="margin:0.8em 0">然后是那个被问烂了的问题：如果孙辈说&quot;我想当律师&quot;（一个可能被 AI 冲击的职业），你拦不拦？Dalio 的答案是历史性的：最成功的不一定是最聪明的人，也不一定是工作最努力的人，而是最善于适应的人。今天人人都说去学编程，然后 Claude 出现了，所有编程的人开始担心自己的工作。抓具体技能永远慢半拍，真正重要的是两样东西：对事物的整体理解，和适应能力——而适应能力很大程度上跟了解自己有关。这也是他在桥水坚持人岗匹配的原因。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">苏伊士时刻</h2>
+<p style="margin:0.8em 0">对话的后半段转向当下最具体的事件：美国与伊朗的战争。</p>
+<p style="margin:0.8em 0">Dalio 的判断框架依然是不带情绪的机制分析。他说在国际上——尤其在亚洲——各国领导人之间有一个共识：美国不想打仗。而美国民众担心油价、担心死人，希望一切快点结束，&quot;那样是打不了仗的&quot;。霍尔木兹海峡是全球能源咽喉，伊朗有 9000 万人，&quot;不管发生什么，他们都会在那里&quot;。控制海峡不是一天的事，是拿下之后还得一直维持下去的事，代价是持续的痛苦。</p>
+<p style="margin:0.8em 0">更重要的后果在亚洲。很多亚洲国家原本相信美国会在该地区扮演制衡力量，现在大家开始意识到：美国可能不会来，而且美国的基地可能变成负担。他拿菲律宾举例——条约存在，但美国公众会支持派航母去&quot;阻止菲律宾人被欺负&quot;吗？</p>
+<p style="margin:0.8em 0">&quot;现在大家突然醒悟了，&quot;Dalio 说，&quot;就像英国和苏伊士运河一样——我们以前没意识到，现在意识到了：威胁不再管用了，那种力量已经不存在了。&quot;</p>
+<p style="margin:0.8em 0">他说世界秩序要变了，这是&quot;一个非常大的错误&quot;，而它的另一个后果是把美国的脆弱性暴露在聚光灯下——以前看不出来。</p>
+<p style="margin:0.8em 0">这与前面的 80 年周期严丝合缝：债务、贫富差距、秩序更替，AI 泡沫只是叠加其上的又一次心跳。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾</h2>
+<p style="margin:0.8em 0">回到 Bartlett 最初的提问：这是美国历史上最大的投资泡沫吗？</p>
+<p style="margin:0.8em 0">Dalio 始终没有回答&quot;是&quot;或&quot;不是&quot;。他做了一件更麻烦的事：把&quot;泡沫&quot;这个词拆成了财富与现金的错位、杠杆的正反馈、利润与价格的脱节，然后把这套装置放进一个 80 年周期的齿轮组里。对他而言，&quot;是不是泡沫&quot;是个没有信息量的问题；真正的问题是，当多个周期在同一时间走到临界点时，你手里拿着的是财富还是钱，你卖的是身体、头脑，还是适应能力。</p>
+<p style="margin:0.8em 0">他最后被感谢的，是他把《经济机器是如何运行的》做成 30 分钟、1.4 亿人看过的视频。他说那是责任：&quot;用清晰、简单、容易理解的方式去沟通。&quot;这可能是整场对话里最像建议的一句——不是关于 AI 的，是关于面对复杂世界的方式：先理解机制，再谈结论。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Dalio 承认 AI 泡沫的典型迹象齐全，但拒绝口号式结论，主张先理解因果机制</li>
+<li style="margin:0.3em 0">&quot;财富不是钱&quot;：纸面财富必须换成现金才能花，集体变现需求是泡沫破裂的触发器；上涨靠杠杆放大，下跌同样反向放大</li>
+<li style="margin:0.3em 0">衰退周期平均约 6 年（±3 年）；1929 年大萧条前的电气化同样是真革命——新技术真实与泡沫真实不矛盾</li>
+<li style="margin:0.3em 0">更大的框架：约 80 年一轮世界秩序周期，驱动因素是债务积累与贫富差距，路径是镀金时代→强盗大亨→冲突→新秩序</li>
+<li style="margin:0.3em 0">美国股票高度集中：最富 10% 家庭持有近 90% 股票，AI 繁荣先于就业冲击拉大贫富差距</li>
+<li style="margin:0.3em 0">身体与头脑都被取代后，人剩下的是情感、直觉和与 AI 协作的能力；可预见未来的受益者是与 AI 协作的人</li>
+<li style="margin:0.3em 0">给年轻人的答案：过了基本生活线钱与幸福脱钩；让工作与热爱合一但别忘钱；适应能力大于聪明，整体理解加了解自己是核心</li>
+<li style="margin:0.3em 0">美国正在经历&quot;苏伊士时刻&quot;：威胁不再管用，亚洲盟友开始意识到基地可能是负担</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
