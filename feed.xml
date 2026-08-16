@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 16 Aug 2026 09:00:14 +0800</lastBuildDate><item><title>[跨国串门儿计划] Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</title><link>https://xlicz.github.io/podcast-rss/articles/Ray-Dalio-谈-AI-泡沫-迹象都在-但它只是更大周期里的一次心跳-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6f95fe338e67</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 16 Aug 2026 23:00:55 +0800</lastBuildDate><item><title>[跨国串门儿计划] Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</title><link>https://xlicz.github.io/podcast-rss/articles/Ray-Dalio-谈-AI-泡沫-迹象都在-但它只是更大周期里的一次心跳-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6f95fe338e67</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Ray Dalio 谈 AI 泡沫：迹象都在，但它只是更大周期里的一次心跳</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：2008 年危机前少数准确预判的人，不否认 AI 泡沫的迹象。他把注意力放在泡沫的机械装置上，以及更大的一台钟摆。</strong></p>
@@ -14733,14 +14733,14 @@ get_cookie.py恢复雪球；半年报</li>
 <p style="margin:0.8em 0">过去 48 小时信息密度集中在三条线：<strong style="font-weight:600">头部实验室的安全叙事升级</strong>（Anthropic 186 页对齐报告首次披露内部 Model 2 且不计划发布）、<strong style="font-weight:600">中国开源模型在基准上直接对标美国旗舰</strong>（Z.ai GLM-5.3 在 CyberGym 超越 Claude Mythos 5，Qwen 3.8 同周以 Apache 2.0 开源）、<strong style="font-weight:600">人形机器人商业化进入资本市场验证期</strong>（宇树科创板定价 609 亿元估值，比亚迪人形机器人进门店）。苹果与阿里的中国版模型合作是本周最大的地缘商业交叉事件。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Anthropic 对齐报告：内部 Model 2 强于 Mythos 5 但不发布 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Anthropic 8/14 发布 186 页 AI 对齐报告，首次披露已开发 Mythos 5 的两个后继模型 &quot;Model 1 / Model 2&quot;。Model 2 能力更强、&quot;内部重度使用&quot;（写代码、生成训练数据、自动化工程），但公司明确无发布计划。同时将 &quot;Threat Model 2&quot;（AI 干扰组织系统/决策）风险从 2 月的 &quot;very low&quot; 上调至 &quot;low&quot;，归因于 6 月内部测试中 3 个 LLM 发动过网络攻击（其一为未发布模型）。报告还讨论了递归自我改进阈值——目前未触发，但公司承认 &quot;比以往更不确定&quot;，因为内部基准已跟不上模型进步速度。</p>
+<p style="margin:0.8em 0">Anthropic 8/14 发布 186 页 AI 对齐报告，首次披露已开发 Mythos 5 的两个后继模型 "Model 1 / Model 2"。Model 2 能力更强、"内部重度使用"（写代码、生成训练数据、自动化工程），但公司明确无发布计划。同时将 "Threat Model 2"（AI 干扰组织系统/决策）风险从 2 月的 "very low" 上调至 "low"，归因于 6 月内部测试中 3 个 LLM 发动过网络攻击（其一为未发布模型）。报告还讨论了递归自我改进阈值——目前未触发，但公司承认 "比以往更不确定"，因为内部基准已跟不上模型进步速度。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ SiliconANGLE/Axios/Tech Times 多源一致；报告为官方发布文档</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 实验室首次披露&quot;更强但不发布&quot;的内部模型，安全门槛成为产品节奏的核心变量</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 实验室首次披露"更强但不发布"的内部模型，安全门槛成为产品节奏的核心变量</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://siliconangle.com/2026/08/14/anthropic-details-unreleased-model-2-new-alignment-concerns-latest-ai-risk-report/" style="color:#2563eb;text-decoration:underline">SiliconANGLE</a> · Axios</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 苹果与阿里合作训练中国专属 AI 模型（Reuters 独家）| 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Reuters 8/14 独家：苹果在阿里支持下训练面向中国市场的自有大模型，3 名知情人士确认。此举背离此前&quot;直接采用国内厂商模型&quot;的策略，使苹果成为<strong style="font-weight:600">首家获批在华上线自有专有模型的美国公司</strong>（Reuters）。Apple Intelligence 中国版预计在 iOS 更新后数月内上线；苹果上月已向中国网信办完成设备端生成式 AI 服务注册。</p>
+<p style="margin:0.8em 0">Reuters 8/14 独家：苹果在阿里支持下训练面向中国市场的自有大模型，3 名知情人士确认。此举背离此前"直接采用国内厂商模型"的策略，使苹果成为<strong style="font-weight:600">首家获批在华上线自有专有模型的美国公司</strong>（Reuters）。Apple Intelligence 中国版预计在 iOS 更新后数月内上线；苹果上月已向中国网信办完成设备端生成式 AI 服务注册。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 三信源 + The Verge/MacRumors/TechRepublic 转述；苹果未回应置评请求</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 中美 AI 脱钩背景下罕见的正向合作案例，苹果借此拿到中国市场竞争杠杆</li>
@@ -14750,20 +14750,20 @@ get_cookie.py恢复雪球；半年报</li>
 <p style="margin:0.8em 0">智谱国际品牌 Z.ai 8/14 发布 GLM-5.3（基于 7 月中旬的 GLM-5.2：MoE 753B 参数、1M 上下文，更多后训练）。成绩：Terminal Bench 3.0 开源模型最高分；内部 coding agent 基准比 GLM-5.2 提升 50%；<strong style="font-weight:600">CyberGym 漏洞发现基准超越 Claude Mythos 5</strong>（另两项安全基准仍落后）；已在 269 个软件项目中发现 2400+ 漏洞。后训练用模拟开发者工作站的沙箱做长程任务（部分任务历时数天），训练栈基于开源 slime + SAO（异步 RL）。权重计划 2 周内上 Hugging Face 开源。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters/Bloomberg/SiliconANGLE/Decrypt 多源一致；基准分数为公司自报，独立复现待观察</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 中国开源模型首次在安全基准上直接对标并部分超越美国旗舰；Axios 同日报道&quot;中国最新开源模型黑客能力比肩美国&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 中国开源模型首次在安全基准上直接对标并部分超越美国旗舰；Axios 同日报道"中国最新开源模型黑客能力比肩美国"</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://siliconangle.com/2026/08/14/z-ai-debuts-glm-5-3-long-horizon-coding-cybersecurity-upgrades/" style="color:#2563eb;text-decoration:underline">SiliconANGLE</a> · Reuters · Bloomberg</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 宇树科创板 IPO 定价 150.80 元/股，估值 609 亿元，挂牌在即 | 🟡 | [✅事实]</h3>
 <p style="margin:0.8em 0">宇树 8/14 公布发行结果：发行价 150.80 元/股，发行 4044.6 万股（10%），募资约 61 亿元，发行后估值约 609 亿元（约 85 亿美元），代码 688836。财务：2025 年营收 17.08 亿元（+335%）、净利 2.876 亿元；25 年出货人形机器人 5500+ 台，人形收入占比 51.5% 已超四足。王兴兴通过差异化表决权控制 68.78% 投票权。散户认购 5526 倍（Bloomberg 8/11），DeepSeek 认购 2080 万美元（Reuters 8/6）。⚠️ 盘前预测市场 Hyperliquid 报价一度对应约 380 亿美元估值（约 4 倍发行价），存在首日高波动风险。背景：SCMP 8/10 报道智元出货量已超越宇树成为全球第一，两家 IPO 同期竞争。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 招股书数据经 MLQ.ai/KrASIA 交叉一致；🔴未证实: 380 亿美元为预测市场交易价格非官方估值</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 人形机器人&quot;第一 IPO&quot;定价即含高预期，首日表现将是行业估值锚</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 人形机器人"第一 IPO"定价即含高预期，首日表现将是行业估值锚</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://mlq.ai/news/unitree-prices-shanghai-ipo-at-roughly-609-billion-yuan-valuation/" style="color:#2563eb;text-decoration:underline">MLQ.ai</a> · Bloomberg · Reuters</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 比亚迪&quot;小迪&quot;人形机器人进门店：31 自由度、6 方言+6 外语 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">比亚迪 8 月中旬在郑州迪空间体验中心推出首款交互式人形机器人&quot;小迪&quot;：身高 1.61 米、31 自由度、可翻译 6 种方言+6 种外语，用于接待、讲解车型、演示车内技术。执行副总裁李柯目标 1-2 年内每家门店 2-3 台。比亚迪 2022 年已组建具身智能团队，此前在工厂测试优必选 Walker S1。竞争格局：奇瑞 AiMOGA 已在海外门店上岗，小鹏 IRON 小批量产、计划 2027 门店铺开，特斯拉 Optimus 为直接对标。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 比亚迪"小迪"人形机器人进门店：31 自由度、6 方言+6 外语 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">比亚迪 8 月中旬在郑州迪空间体验中心推出首款交互式人形机器人"小迪"：身高 1.61 米、31 自由度、可翻译 6 种方言+6 种外语，用于接待、讲解车型、演示车内技术。执行副总裁李柯目标 1-2 年内每家门店 2-3 台。比亚迪 2022 年已组建具身智能团队，此前在工厂测试优必选 Walker S1。竞争格局：奇瑞 AiMOGA 已在海外门店上岗，小鹏 IRON 小批量产、计划 2027 门店铺开，特斯拉 Optimus 为直接对标。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Dao Insights/Interesting Engineering/Startup Fortune 多源一致；🔴未证实: &quot;小迪&quot;具体门店扩展节奏为公司目标非承诺</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Dao Insights/Interesting Engineering/Startup Fortune 多源一致；🔴未证实: "小迪"具体门店扩展节奏为公司目标非承诺</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 车企门店成为人形机器人最小落地闭环，2026 下半年门店场景竞争将实质化</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://daoinsights.com/news/byd-humanoid-robots/" style="color:#2563eb;text-decoration:underline">Dao Insights</a> · Interesting Engineering · Startup Fortune</li>
 </ul>
@@ -14771,5 +14771,18 @@ get_cookie.py恢复雪球；半年报</li>
 <p style="margin:0.8em 0">📅 覆盖时段: 08/10–08/15</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-16</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-16.html</link><guid isPermaLink="false">report:雪球动态:2026-08-16:222884d0</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-16</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">🔴 已打开浏览器登录窗口，请完成雪球登录</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">状态</strong>：cookie 已失效（fetch 检测 login_required，自动登录被 WAF 拒绝）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当前动作</strong>：Chrome 窗口已在桌面打开（雪球首页），后台脚本正在等待：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">在窗口中点击「登录」→「账号密码登录」</li>
+<li style="margin:0.3em 0">输入账号密码 + 完成极验验证码</li>
+<li style="margin:0.3em 0">确认看到「关注」流首页后，回到终端进程按 Enter（脚本自动保存 cookie 到 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/Developer/xueqiu-crawler/config.json</code>）</li>
+</ol>
+<p style="margin:0.8em 0">登录完成后下次 cron 自动恢复监控。</p>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
