@@ -1,0 +1,64 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一周 7000 个 PR：Stripe 用 AI 选择&quot;造得更多&quot;，而不是&quot;用更少的人&quot;</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当大多数公司把 AI 效率用来裁人降本时，Stripe 的答案是相反的：把 AI 产能全部砸向新软件。结果是上周 30% 的代码合并来自内部 agents，而这家公司的营收增长曲线正在加速。</strong></p>
+<p style="margin:0.8em 0">上周，Stripe 内部有 7000 个 pull request 出自它的编码 agents——内部代号&quot;Minions&quot;。这个数字在 1 月还是每周 1200。同期，Stripe 全部代码合并量的 30% 由 agents 产生。</p>
+<p style="margin:0.8em 0">听上去像又一个&quot;AI 取代工程师&quot;的故事。但 a16z 合伙人 David George 与 Stripe 工程负责人 Will Gabrick 的这场对话，核心恰恰是反叙事：Stripe 的回应不是用 AI 构建同样的东西、用更少的人，而是构建更多——而且它手握的财务数据显示，这条路正在兑现。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;优化成本结构，是在做空自己的未来&quot;</h2>
+<p style="margin:0.8em 0">行业里过去 18 个月的主流剧本是：agentic 效率出现了，公司开始优化成本结构——裁员、压缩 opex、用更少的钱维持同样的产出。Stripe 看到同一件事，做了相反的解读。</p>
+<p style="margin:0.8em 0">Gabrick 说得很直接：&quot;我们的信念是——build everything。优化成本结构最好的方式，是增长得更多。&quot;</p>
+<p style="margin:0.8em 0">David George 给了这个立场一个资本配置的框架：优化成本是做空自己的未来潜力（going short your own future potential），更快构建是长期做多。这就像把现金还给股东，而不是再投资。</p>
+<p style="margin:0.8em 0">这不是漂亮话。Stripe 公开的数据显示：2026 上半年注册量同比增长 50%；2026 届新客户创造的营收比 2025 届同期高 50%，而 2025 届又比 2024 届高 70%。连续两届 cohort 加速，伴随的是 SaaS 平台类新客户 cohort 比 2025 年大 103%。Gabrick 的解读是：市场机会的地形图变了——四年前你建不出 Suno，现在可以；做更多软件的成本结构坍塌了，因为 agentic coding 让更少的工程师能完成同样的构建。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;一个工程师能完成两年前两个团队才能完成的工作。市场机会的地形图突然变得宽广得多。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">有意思的旁证：Stripe Billing 的使用量同比增长远超 Stripe 整体增长——因为它的用户结构正不成比例地偏向&quot;新创办的软件公司&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Minions 机制：一次成型，不做 planning mode</h2>
+<p style="margin:0.8em 0">Stripe 的内部 agents 叫 Minions，这个名字背后是明确的设计哲学：one-shot。给它一个 prompt，它构建、走 CI/CD、跑全部测试，然后交给人 review。&quot;你不是去迭代，不是进入 planning mode，你就说'这是我想要的，去做'。&quot;</p>
+<p style="margin:0.8em 0">这个设计选择与市场上主流&quot;多智能体规划、长任务分解&quot;的路线形成对比。Stripe 赌的是：把 agent 做得足够强，然后让它一次成型，人只负责审查。Gabrick 说代码 review 环节甚至也在被 agents 接管，&quot;agents 做 code review 比之前人做得还好&quot;。</p>
+<p style="margin:0.8em 0">最极端的案例是 Stripe Projects——一个用来脚手架应用、同时让 agent 直接采购 B2B 服务的产品。它的主力开发者是一个人：一位资深工程师（Alexander）面对一块屏幕，同时编排 16 个 agents。Stripe Projects 本质上是&quot;一个 PM 加一个工程师、几周内做出来&quot;，其中大部分 PR 来自这一个人。</p>
+<p style="margin:0.8em 0">组织也随之变化：团队更小、更扁平。Gabrick 的观察是，过去负责&quot;编排工作&quot;的管理层在 AI 时代价值骤降——&quot;8 人小团队现在做的是过去三倍的事&quot;。工程师一直是 Stripe 的&quot;英雄 ICP&quot;（工程师+PM+设计师三位一体），现在只是更加如此：前端开发和设计也交给工程师自己，平台铺好路，人变少但每人权限变大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">生产力的去向：不是减人，是加人</h2>
+<p style="margin:0.8em 0">内部有个 AI 知识工具叫 Chai，两个人用了六个月建出来，现在 Stripe 内部 83% 周活跃、60% 日活跃。销售团队生产力因此提升 20%——但 Stripe 的反应不是&quot;我们可以少招销售了&quot;，而是&quot;我们需要更多销售&quot;。</p>
+<p style="margin:0.8em 0">Gabrick 直接点名了 Jevons 悖论：一个资产变得更有生产力时，你不会想要更少，你会想要更多。他的判断是，软件工程师的总量会继续增长——&quot;9 个月前市场上有关于垂直 SaaS 平台要完蛋的叙事，现在我们的 SaaS 平台新客户 cohort 比 2025 年大 103%&quot;。Stripe 对早期工程师的定位因此变成&quot;孵化器&quot;：进来，找到一个高能动性的项目帮助用户，公司铺好 paved paths，让你更快。</p>
+<p style="margin:0.8em 0">他甚至把现代 AI 软件工程比作 1940 年代塑料注射成型技术的成熟——战后消费品和玩具的爆炸式增长，来自&quot;熔化塑料的螺杆&quot;的出现。今天的 agent 工程就是那根螺杆：创建模式、理解集成模式，然后放手让 agents 干活，时间主要花在收尾的 review 上。Stripe Tax 的全球报税功能，复杂度远超美国各州申报，但只花了美国申报三分之一的构建时间。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">免费试用滥用：AI 时代的新欺诈，自带网络效应</h2>
+<p style="margin:0.8em 0">AI 爆发还给 Stripe 带来了一个此前不存在的问题：免费试用滥用。过去软件公司边际成本几乎为零，用户多开几个账号浪费的算力可以忽略；现在软件本身就是成本结构，模型蒸馏、多账户薅算力变成了系统性攻击。</p>
+<p style="margin:0.8em 0">Cursor 是第一个被盯上的：大约六分之一的免费试用用户是滥用者。Stripe 用周末时间搭了一个管线——基础模型扫全网络、embedding 匹配、再加一层推理层，输出&quot;我们认为这是滥用者，因为……&quot;的可解释信号。现在 Eleven Labs 每天靠 Stripe 的信号拦截 2000 个滥用者。</p>
+<p style="margin:0.8em 0">David George 点出其中的商业要害：欺诈识别业务有网络效应——Stripe 的网络越大，识别越准，对所有用户越有价值。这既是 Stripe 产品的护城河，也是它的收入引擎。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Agentic commerce 的寒武纪时刻还没来：缺的是 primitives</h2>
+<p style="margin:0.8em 0">当话题转向&quot;agent 之间的商业&quot;时，Gabrick 很诚实：agentic commerce 还没有迎来类似 Opus 4.5 那样的寒武纪爆发时刻，现在没有大量可重复的 canonical 用例。原因有两个：一是缺 primitives，二是社会学的演化还没完成。</p>
+<p style="margin:0.8em 0">primitive 的抓手是与 Tempo 合作的 machine payments protocol：服务端声明&quot;我需要被支付什么、怎么支付&quot;，agent 请求一个服务就能收到一个类似&quot;4xx 错误 + 如何购买我&quot;的响应。&quot;机器会想从别的机器买东西&quot;，这是 Stripe 的底层假设。</p>
+<p style="margin:0.8em 0">Checkout 页面的命运是个反直觉的推论：它对人类也会消失。Stripe Link 已有 4 亿用户，Shop Pay 体量相当——人类用户已经可以不接触 checkout 表单；Stripe 刚发布 Link Agent Wallet，一个 link CLI，让 agent 直接接管凭证完成支付。&quot;浏览器自动化进步了，也许 agent 会爬过 checkout 表单——但那是拟物化的版本，最终会出现原生的版本。&quot;</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;Checkout 页面会消失。不是只对 agent 消失，是对人类也消失。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">B2B 是 Stripe 最兴奋的方向：Stripe Projects 让 agent 直接采购服务——一个 agent 可以自己上 Vercel 部署托管，不需要人类打开 vercel.com。Gabrick 透露这已经影响了几笔 a16z 投资决策：&quot;假设未来 agents 是购物者。这个 agent 会选我们吗？&quot;（a16z 内部 Demo 用过 Browserbase 让 agent 填 NCAA 篮球竞猜表，&quot;可能比人填得还好&quot;。）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">微交易与稳定币：agent 经济的前提</h2>
+<p style="margin:0.8em 0">Gabrick 对微交易非常 bullish，理由是 agent 的消费形态：agent 是&quot;在互联网上像蜂鸟一样采集数据的小东西&quot;——临时存储、少量计算、即用即走。人类不应该为每个服务创建账户；agent 需要一个预算、一个支付手段、用完就走。这需要 ephemeral/one-time consumption API 和微交易通道。</p>
+<p style="margin:0.8em 0">过去微交易失败的经典理由——内容消费夹在订阅制和广告制之间——在 agent 时代失效了：当任务足够复杂，agent 的消费是细碎而海量的，订阅账户模式根本支撑不了。</p>
+<p style="margin:0.8em 0">而稳定币让微交易第一次在经济上可行：&quot;对人类来说稳定币今天还很别扭，但给 agent 一个预算，它可以轻松地把美元换成稳定币、用共享余额支付，而且它不介意那种折腾。&quot; 基础设施层面的理由：全球缺少一个&quot;所有人都同意的结算点&quot;。印度 UPI 上 86% 的支付低于 5 美元，美国卡片渠道这个比例是单位数——但这些都是国别化系统，crypto rails 解决的是政治问题：一个全世界通用的平台。Felix Pago（美墨汇款走廊，全球最大汇款通道）基于稳定币几年内吃下 5-10% 份额，Gabrick 说这速度&quot;惊人&quot;。</p>
+<p style="margin:0.8em 0">Stripe 的落点是让稳定币原生进入 Stripe Treasury：今天 Stripe 用户可以在约 60 个国家用法定货币收款，稳定币则是约 150 个国家。&quot;两个工程师在泰国可以建一家强大的 AI 公司，和在美国一样容易。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Token 经济的模糊地带：token 正在变成钱的近似物</h2>
+<p style="margin:0.8em 0">Stripe 现在年处理量超过 2 万亿美元。Gabrick 对 token 的看法是：token 听起来就像&quot;钱的近似物&quot;，而它越来越就是。</p>
+<p style="margin:0.8em 0">标志性信号是攻击形态的趋同：针对 Cursor 这类通用 token 消费平台的攻击&quot;非常复杂，非常像有人想从 Stripe 用户那里偷钱&quot;。token 和美元之间的界线在模糊，Stripe 的自我定位也随之扩展：过去帮用户安全地移动、存储、发送美元，现在同样的事要对 token 做——&quot;我们内部不用'权利'这个词，我们说 mandate：我们有 mandate 帮用户处理这些。&quot;</p>
+<p style="margin:0.8em 0">两类 token 管理需求正在形成：opex 侧（构建消耗）和产品效能侧（token 驱动型产品如何切换模型、优化产出）。Stripe 想同时占据两者：既是 token 的移动/存储层，也是编排层。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Taste 如何规模化</h2>
+<p style="margin:0.8em 0">Stripe 素以&quot;品味&quot;著称。当 AI 承担大部分构建工作时，品味如何规模化？Gabrick 给了两个答案。</p>
+<p style="margin:0.8em 0">第一，自上而下反复声明——&quot;像'赢得所有初创公司，然后再次赢得他们'一样，一遍又一遍地谈质量&quot;。第二，使用产品 + 模拟产品。他举了航空业和 NVIDIA 的例子：你不能祈祷飞机能飞，要在地面就证明它能飞；NVIDIA 的逃逸速度来自在 fab 交付芯片之前就模拟芯片性能。Stripe 因此在大量投资模拟真实用户环境——随机化增长率的假账户、假争议、假退款，&quot;让我感觉像真实用户一样活着&quot;，让团队真正住进用户的环境里。工程经理被要求带队做这件事，因为他们控制资源，能说&quot;这感觉不对，下个 sprint 提升质量&quot;。</p>
+<p style="margin:0.8em 0">对&quot;taste 只是人类为自己的价值找的借口&quot;的怀疑，Gabrick 承认这可能是真的——&quot;也许我们都在复刻之前感知过的东西&quot;。但他对结果的判断很务实：产品质量既是用户价值，也是公司文化里&quot;好玩&quot;的来源。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：在 Stripe 内部造出下一个 Stripe</h2>
+<p style="margin:0.8em 0">这场对话最值得带走的不是某个产品发布，而是 Stripe 对 AI 时代的资源配置判断：大多数公司把 agentic 效率当作削减工具，Stripe 把它当作扩张工具，并且用连续两届加速的 cohort 数据为自己的选择背书。</p>
+<p style="margin:0.8em 0">值得注意的是这个立场的结构性自洽：Stripe 的商业模式本身就从&quot;更多软件被创建&quot;中获利——每多一家 AI 公司，就多几个 Stripe 产品被采用（平均 11 个，Eleven Labs 用了 14 个）。&quot;build more&quot;叙事和 Stripe 的收入曲线是同一件事的两面。这不是说它错了——但它的判断天然倾向于乐观，阅读时值得把这一点考虑进去。</p>
+<p style="margin:0.8em 0">最后一个细节：Stripe Projects 的主力构建者是&quot;一个人 + 16 个 agents&quot;。&quot;如何确保我们在 Stripe 内部造出下一个 Stripe？&quot;——这就是他们的答案。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Stripe 的 AI 策略是 build everything：上周 30% 的 PR 由内部 agents 产生（7000 个/周，1 月还是 1200 个），公司选择用 AI 扩产而非裁员。</li>
+<li style="margin:0.3em 0">&quot;优化成本结构是做空自己的未来&quot;：Stripe 用 2026 届客户营收比 2025 届高 50%、2025 届比 2024 届高 70% 的数据支撑扩张立场。</li>
+<li style="margin:0.3em 0">Minions 的设计哲学是 one-shot：不做 planning mode，一次成型交给人类 review；Stripe Projects 由 1 人编排 16 个 agents 构建完成。</li>
+<li style="margin:0.3em 0">Agentic commerce 还缺 primitives：机器支付协议（与 Tempo 合作）、微交易 API、agent 友好的 B2B 采购（Stripe Projects）是 Stripe 押注的三块拼图；checkout 页面终将消失。</li>
+<li style="margin:0.3em 0">稳定币让微交易第一次可行：Stripe Treasury 原生支持稳定币，覆盖 60 国 fiat vs 150 国稳定币；Felix Pago 已在最大汇款走廊拿下 5-10% 份额。</li>
+<li style="margin:0.3em 0">Token 正在变成&quot;钱的近似物&quot;：针对 token 平台的攻击已和金融欺诈同构，Stripe 把&quot;保护 token&quot;定义为自己的 mandate。</li>
+<li style="margin:0.3em 0">Taste 规模化的方法是&quot;重复声明 + 模拟使用&quot;：像航空模拟和 NVIDIA 芯片模拟一样，用模拟账户让团队住进用户环境。</li>
+</ul>
+
+</div>
