@@ -1,54 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 17 Aug 2026 13:14:00 +0800</lastBuildDate><item><title>[晚点聊 LateTalk] 蒸馏风暴：AI 行业最公开的秘密竞赛</title><link>https://xlicz.github.io/podcast-rss/articles/蒸馏风暴-AI-行业最公开的秘密竞赛-2026-08-16.html</link><guid isPermaLink="false">wan-dian-liao_87ed6b87e2c5</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>蒸馏风暴：AI 行业最公开的秘密竞赛</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 17 Aug 2026 23:00:46 +0800</lastBuildDate><item><title>[晚点聊 LateTalk] 蒸馏风暴：AI 行业最公开的秘密竞赛</title><link>https://xlicz.github.io/podcast-rss/articles/蒸馏风暴-AI-行业最公开的秘密竞赛-2026-08-16.html</link><guid isPermaLink="false">wan-dian-liao_87ed6b87e2c5</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>蒸馏风暴：AI 行业最公开的秘密竞赛</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">蒸馏风暴：AI 行业最公开的秘密竞赛</h1>
 <p style="margin:0.8em 0">副标题：所有人都在谈，没有人公开承认；张一鸣罕见表态字节不蒸馏，Anthropic 点名四家中国公司——晚点编辑部拆解这场技术竞赛的规则、代价与灰色地带</p>
-<p style="margin:0.8em 0">&quot;所有人都会去关注这件事，但大家不会公开谈论它。&quot;晚点编辑部在做蒸馏这篇报道时遇到的最大困难，是找不到愿意公开谈这个话题的一线从业者。于是 179 期《晚点聊》变成了编辑部自己聊：红浩和万奇把过去几个月从不同公司从业者、研究员那里收集到的信息摊开，试图回答几个问题——蒸馏到底是什么，谁在做，代价是什么，以及张一鸣为什么罕见地公开表态&quot;字节不做&quot;。</p>
+<p style="margin:0.8em 0">"所有人都会去关注这件事，但大家不会公开谈论它。"晚点编辑部在做蒸馏这篇报道时遇到的最大困难，是找不到愿意公开谈这个话题的一线从业者。于是 179 期《晚点聊》变成了编辑部自己聊：红浩和万奇把过去几个月从不同公司从业者、研究员那里收集到的信息摊开，试图回答几个问题——蒸馏到底是什么，谁在做，代价是什么，以及张一鸣为什么罕见地公开表态"字节不做"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蒸馏是什么：有门槛的抄作业</h2>
-<p style="margin:0.8em 0">最典型的蒸馏流程是：先有一堆问题，拿去问一个强模型（教师模型），得到回答，这些提问和回答构成数据对，再用这些数据训练你自己的学生模型，让它的输出行为逐渐接近教师。但红浩强调，这绝不是&quot;人家写 A 你也写 A&quot;的抄作业——&quot;它是有门槛的抄作业&quot;。</p>
+<p style="margin:0.8em 0">最典型的蒸馏流程是：先有一堆问题，拿去问一个强模型（教师模型），得到回答，这些提问和回答构成数据对，再用这些数据训练你自己的学生模型，让它的输出行为逐渐接近教师。但红浩强调，这绝不是"人家写 A 你也写 A"的抄作业——"它是有门槛的抄作业"。</p>
 <p style="margin:0.8em 0">两个变化让蒸馏的原料变得更丰富。一是 OpenAI 在 2024 年 9 月发布 o1，开启了推理模型范式：后训练中的大规模强化学习可以让模型学到推理策略，而蒸馏主要就发生在后训练阶段，投入回报显著上升；同时 o1 带来的测试时计算（test-time compute）意味着模型可以在推理阶段生成更长的思维链——这部分是模型使用阶段的产出，理论上用户看得见，也可以通过各种手段还原，它成了更好的蒸馏原料。</p>
-<p style="margin:0.8em 0">二是智能体的轨迹蒸馏。当 agent 越来越发达，从教师模型榨取的不再是静态的&quot;题目—推理—答案&quot;，而是它在一个环境里完整完成一个任务的全过程——给它代码库、终端、代码编辑器、编译器、测试工具，让它把任务跑一遍，获得的整条轨迹就是数据。&quot;你让这个学生模型去行为上接近他做这整个任务的过程。&quot;极端情况下，甚至可以不让学生模型模仿，只用强模型来评估自己模型的表现——那就不算蒸馏了，更像是&quot;用最强模型的数据和输出帮助自己做智能体的强化学习&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个节点：从&quot;压缩&quot;到&quot;变强&quot;</h2>
+<p style="margin:0.8em 0">二是智能体的轨迹蒸馏。当 agent 越来越发达，从教师模型榨取的不再是静态的"题目—推理—答案"，而是它在一个环境里完整完成一个任务的全过程——给它代码库、终端、代码编辑器、编译器、测试工具，让它把任务跑一遍，获得的整条轨迹就是数据。"你让这个学生模型去行为上接近他做这整个任务的过程。"极端情况下，甚至可以不让学生模型模仿，只用强模型来评估自己模型的表现——那就不算蒸馏了，更像是"用最强模型的数据和输出帮助自己做智能体的强化学习"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个节点：从"压缩"到"变强"</h2>
 <p style="margin:0.8em 0">蒸馏最初的目的不是变强，是压缩。大模型贵且慢，而手机、汽车、机器人这些端侧场景对延时和算力极其敏感。万奇回忆起第一次在线下采访中长时间讨论蒸馏，是采访毫末智行 CEO 顾维灏——自动驾驶是压缩的典型场景：云端训练的模型要放到车上，车上的英伟达 Orin 芯片算力相对有限，必须通过蒸馏、剪枝、量化把模型变小，才能实现低延时。DeepSeek、千问每次发布大量开源尺寸，本质上也是在做这种压缩。</p>
-<p style="margin:0.8em 0">转变发生在两个时间点：2024 年 9 月的 o1，让蒸馏的投入回报比上升；2025 年 1 月 DeepSeek-R1 发布，技术报告之外还发了六个蒸馏小模型——四个基于 Qwen2.5、两个基于 Llama-3，全部以 R1 为教师。这证明了&quot;用小模型跟大模型学&quot;这条路可行。从那以后，蒸馏的目的变成了&quot;为了变强&quot;。</p>
-<p style="margin:0.8em 0">到了 2026 年，讨论明显升温。导火索是 Anthropic、OpenAI、Google DeepMind 从年初开始更频繁地在公开文章和给美国政府的信里点名中国公司蒸馏；更大的背景是中国开源模型正在逼近闭源——Kimi 的 K3 是里程碑，在美国引起大量争议（晚点 177 期专门聊过）。&quot;各种原因累积：规模确实变大了，加上更强的开源模型逼近美国闭源模型，蒸馏被推到了风口浪尖。&quot;</p>
+<p style="margin:0.8em 0">转变发生在两个时间点：2024 年 9 月的 o1，让蒸馏的投入回报比上升；2025 年 1 月 DeepSeek-R1 发布，技术报告之外还发了六个蒸馏小模型——四个基于 Qwen2.5、两个基于 Llama-3，全部以 R1 为教师。这证明了"用小模型跟大模型学"这条路可行。从那以后，蒸馏的目的变成了"为了变强"。</p>
+<p style="margin:0.8em 0">到了 2026 年，讨论明显升温。导火索是 Anthropic、OpenAI、Google DeepMind 从年初开始更频繁地在公开文章和给美国政府的信里点名中国公司蒸馏；更大的背景是中国开源模型正在逼近闭源——Kimi 的 K3 是里程碑，在美国引起大量争议（晚点 177 期专门聊过）。"各种原因累积：规模确实变大了，加上更强的开源模型逼近美国闭源模型，蒸馏被推到了风口浪尖。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">张一鸣的罕见表态：字节不蒸馏</h2>
-<p style="margin:0.8em 0">在几乎所有人都在蒸馏的背景下，字节是个异类。张一鸣在 Seed 的一次内部会上罕见露面，明确表示不允许字节做蒸馏——晚点报道后，这是很多年没有出现过的&quot;张一鸣表态&quot;。</p>
-<p style="margin:0.8em 0">报道里写了三个理由：第一，张一鸣认为蒸馏短期可以改善模型表现，但本质上是在复制别人已有的能力，&quot;你最多只能逼近对方，不能实现超越&quot;——而字节的追求是世界第一；第二，他希望从更底层的维度构建 AGI 壁垒，蒸馏不是长期壁垒；第三，这是一个很强的表态：即使不蒸馏意味着技术上短期落后于国内竞争对手，也不采用捷径。</p>
-<p style="margin:0.8em 0">万奇补充了报道之外的背景：字节的旗舰模型 2.1（六月发布）据传用过一些蒸馏手段，之后内部经过比较激烈的讨论，最终决定不再蒸馏——而在此之前的两年多时间里，字节确实基本没做蒸馏。但他也指出，字节至今没有 SOTA 不完全是因为不蒸馏：&quot;这是一个挺重要的原因之一，但你也不能完全归咎到这件事情上面。虽然这是个万金油回答，但我觉得它挺接近事实的。&quot;</p>
-<p style="margin:0.8em 0">更有意思的是组织层面的代价。蒸馏是一种低成本、高确定性的能力提升方式——&quot;确定性&quot;是它最关键的属性。但如果组织把重心放在这条相对确定的路上，做长期探索、走不确定路线的人和项目就拿不到资源和认可。万奇说，张一鸣表态之后，确实有三四个人从字节离开，原因很个体：&quot;你的职业生涯是有限的，我希望在字节这几年做出自己的代表作——至少是中国最强的模型。&quot;有人在极客上的留言被反复引用：&quot;张一鸣可能不是最懂技术的，但他大概率是最懂人性的。&quot;</p>
-<p style="margin:0.8em 0">字节的应对动作已经出现：从六月开始重组数据团队，成立与 Seed、Flow 平行的 AI 数据与安全一级部门，负责人是原 TikTok 直播负责人王银磊（Adam Wang）——&quot;他得自己去获得某种不依赖外部领先模型的数据能力。&quot;</p>
+<p style="margin:0.8em 0">在几乎所有人都在蒸馏的背景下，字节是个异类。张一鸣在 Seed 的一次内部会上罕见露面，明确表示不允许字节做蒸馏——晚点报道后，这是很多年没有出现过的"张一鸣表态"。</p>
+<p style="margin:0.8em 0">报道里写了三个理由：第一，张一鸣认为蒸馏短期可以改善模型表现，但本质上是在复制别人已有的能力，"你最多只能逼近对方，不能实现超越"——而字节的追求是世界第一；第二，他希望从更底层的维度构建 AGI 壁垒，蒸馏不是长期壁垒；第三，这是一个很强的表态：即使不蒸馏意味着技术上短期落后于国内竞争对手，也不采用捷径。</p>
+<p style="margin:0.8em 0">万奇补充了报道之外的背景：字节的旗舰模型 2.1（六月发布）据传用过一些蒸馏手段，之后内部经过比较激烈的讨论，最终决定不再蒸馏——而在此之前的两年多时间里，字节确实基本没做蒸馏。但他也指出，字节至今没有 SOTA 不完全是因为不蒸馏："这是一个挺重要的原因之一，但你也不能完全归咎到这件事情上面。虽然这是个万金油回答，但我觉得它挺接近事实的。"</p>
+<p style="margin:0.8em 0">更有意思的是组织层面的代价。蒸馏是一种低成本、高确定性的能力提升方式——"确定性"是它最关键的属性。但如果组织把重心放在这条相对确定的路上，做长期探索、走不确定路线的人和项目就拿不到资源和认可。万奇说，张一鸣表态之后，确实有三四个人从字节离开，原因很个体："你的职业生涯是有限的，我希望在字节这几年做出自己的代表作——至少是中国最强的模型。"有人在极客上的留言被反复引用："张一鸣可能不是最懂技术的，但他大概率是最懂人性的。"</p>
+<p style="margin:0.8em 0">字节的应对动作已经出现：从六月开始重组数据团队，成立与 Seed、Flow 平行的 AI 数据与安全一级部门，负责人是原 TikTok 直播负责人王银磊（Adam Wang）——"他得自己去获得某种不依赖外部领先模型的数据能力。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谁在蒸馏：点名清单与灰色地带</h2>
-<p style="margin:0.8em 0">公开信息里，Anthropic 今年二月点名了三家公司：DeepSeek、Kimi、MiniMax；六月又点名了阿里千问；OpenAI 称 DeepSeek 有疑似蒸馏行为。值得注意的是，没有美国公司公开点名智谱。Anthropic 在给美国国会的信中提到，检测到某模型与其进行了 2880 万次交互，称之为&quot;有史以来发现的规模最大的蒸馏攻击&quot;。阿里被点名后，整个集团开始禁用 Claude Code——但这未必直接与蒸馏有关，可能更多是合规表态和数据安全考虑。</p>
-<p style="margin:0.8em 0">讨论中有一个反复出现的误区：模型说自己是 GPT 能不能证明蒸馏？不能。2024 年 11 月有人做过研究，测了 27 个模型、设计了 77 个问题：GPT-4 会说自己是 GPT-3，Gemini Pro 会说自己是百度文心，字节系的会说自己是 GPT。论文结论是仅凭身份混淆很难判断谁用了谁的训练数据。更合适的方式是看输出分布和行为——说话方式、输出格式、拒绝回答的方式、代码风格——&quot;但你需要很大的数据量，问一两次觉得像，证明不了什么&quot;。</p>
+<p style="margin:0.8em 0">公开信息里，Anthropic 今年二月点名了三家公司：DeepSeek、Kimi、MiniMax；六月又点名了阿里千问；OpenAI 称 DeepSeek 有疑似蒸馏行为。值得注意的是，没有美国公司公开点名智谱。Anthropic 在给美国国会的信中提到，检测到某模型与其进行了 2880 万次交互，称之为"有史以来发现的规模最大的蒸馏攻击"。阿里被点名后，整个集团开始禁用 Claude Code——但这未必直接与蒸馏有关，可能更多是合规表态和数据安全考虑。</p>
+<p style="margin:0.8em 0">讨论中有一个反复出现的误区：模型说自己是 GPT 能不能证明蒸馏？不能。2024 年 11 月有人做过研究，测了 27 个模型、设计了 77 个问题：GPT-4 会说自己是 GPT-3，Gemini Pro 会说自己是百度文心，字节系的会说自己是 GPT。论文结论是仅凭身份混淆很难判断谁用了谁的训练数据。更合适的方式是看输出分布和行为——说话方式、输出格式、拒绝回答的方式、代码风格——"但你需要很大的数据量，问一两次觉得像，证明不了什么"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蒸馏的工程难度：账号、中转站和数据管线</h2>
-<p style="margin:0.8em 0">&quot;拿到几百万条 Claude 的回答&quot;和&quot;知道怎么向 Claude 提问&quot;，哪个更难？万奇的回答是：每个公司薄弱环节不同，但整套流程是一个复杂的系统工程。</p>
-<p style="margin:0.8em 0">最前端是账号。你需要稳定、高频地访问领先模型，一种被从业者提及的做法是建中转站，让真实用户通过中转站使用 GPT 或 Claude——最好是高校理工科学生、研究者、高级程序员这类能提出高质量问题的真实需求用户。这本质上是运营工作。而且中转站有坑：&quot;有某一家模型公司用中转站，结果发现它蒸馏出来的是自己的——就自己在蒸自己。&quot;第三方中转站完全可以在领先模型里掺入你不想要的模型。</p>
-<p style="margin:0.8em 0">中段是数据管线：构造题目、从真实数据里筛选过滤、用模型扩增和改写、纠错、决定数据的形式和配比——&quot;这套东西有经验 know-how 在里面&quot;，加上成本控制与稳定性，决定了大规模操作的效率。这已经不是抄作业，而是&quot;抄的过程非常复杂&quot;的工程。</p>
+<p style="margin:0.8em 0">"拿到几百万条 Claude 的回答"和"知道怎么向 Claude 提问"，哪个更难？万奇的回答是：每个公司薄弱环节不同，但整套流程是一个复杂的系统工程。</p>
+<p style="margin:0.8em 0">最前端是账号。你需要稳定、高频地访问领先模型，一种被从业者提及的做法是建中转站，让真实用户通过中转站使用 GPT 或 Claude——最好是高校理工科学生、研究者、高级程序员这类能提出高质量问题的真实需求用户。这本质上是运营工作。而且中转站有坑："有某一家模型公司用中转站，结果发现它蒸馏出来的是自己的——就自己在蒸自己。"第三方中转站完全可以在领先模型里掺入你不想要的模型。</p>
+<p style="margin:0.8em 0">中段是数据管线：构造题目、从真实数据里筛选过滤、用模型扩增和改写、纠错、决定数据的形式和配比——"这套东西有经验 know-how 在里面"，加上成本控制与稳定性，决定了大规模操作的效率。这已经不是抄作业，而是"抄的过程非常复杂"的工程。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">隐藏与反制：过程比结果更容易暴露</h2>
-<p style="margin:0.8em 0">如果一家公司想隐藏蒸馏行为，最隐蔽的方式是下载开源强模型（K3 接近 2.8T 参数、DeepSeek-V4 是 1.6T），在自己的机房生成数据——外部几乎无法发现，但部署这么大的模型需要大量算力和电费，&quot;如果政府认为这是隐患，它是比较好监测到的&quot;。另一个办法是同时向 Claude、GPT、Gemini、DeepSeek、千问各取一点数据，混合后筛选重写，看不出单一教师的痕迹——但这对闭源厂商没用，因为对方不是从结果发现的，而是从过程发现的：Anthropic 已经建立了识别蒸馏流量的分类器和行为指纹系统，可以发现跨账号协同重复提问和套取思维链的行为，并加强对教育、研究、创业公司账号的身份认证。</p>
-<p style="margin:0.8em 0">隐藏还有更现实的代价：合规隐患。&quot;假如我是 Kimi 或者千问，我想做蒸馏又不想被上美国实体清单——那这可能就是蒸馏的另一种代价。要想人不知，除非己莫为。&quot;</p>
+<p style="margin:0.8em 0">如果一家公司想隐藏蒸馏行为，最隐蔽的方式是下载开源强模型（K3 接近 2.8T 参数、DeepSeek-V4 是 1.6T），在自己的机房生成数据——外部几乎无法发现，但部署这么大的模型需要大量算力和电费，"如果政府认为这是隐患，它是比较好监测到的"。另一个办法是同时向 Claude、GPT、Gemini、DeepSeek、千问各取一点数据，混合后筛选重写，看不出单一教师的痕迹——但这对闭源厂商没用，因为对方不是从结果发现的，而是从过程发现的：Anthropic 已经建立了识别蒸馏流量的分类器和行为指纹系统，可以发现跨账号协同重复提问和套取思维链的行为，并加强对教育、研究、创业公司账号的身份认证。</p>
+<p style="margin:0.8em 0">隐藏还有更现实的代价：合规隐患。"假如我是 Kimi 或者千问，我想做蒸馏又不想被上美国实体清单——那这可能就是蒸馏的另一种代价。要想人不知，除非己莫为。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">学生能否超过老师，以及那个更大的问题</h2>
-<p style="margin:0.8em 0">技术上，学生模型能否超过教师模型？万奇接触的从业者多数认为&quot;不是绝无可能&quot;——多教师蒸馏（同时向不同方向的专家学习）正在后训练中用于合并能力，特定任务上学生超过教师已有先例，但整体超越是开放问题。而且后发者确实有优势：用更新的数据、更强的模型蒸馏，与领先者的差距可以缩短到几个月甚至更短。</p>
-<p style="margin:0.8em 0">但一个更值得警惕的假设是自进化：如果 OpenAI 和 Anthropic 讲的自进化路径走通，AI 优化 AI 的加速度会越来越大，领先者可能把追赶者甩得更远——&quot;率先达到某种状态还是很重要的&quot;。</p>
-<p style="margin:0.8em 0">节目最后聊到了比蒸馏更大的问题：智能的供给和需求正在错配。一位应用公司创始人说，用户的十个任务里，八个能被 DeepSeek-V4 Flash 解决——而 Flash 非常便宜、速度快。V4 和 Grok 4.6 的&quot;斩杀线&quot;图已经广为人知：它们下方和右侧的模型都被斩杀了。对很多白领工作来说，&quot;智能过了一条线之后，确实就够用了&quot;。之前行业共识是&quot;AI 编程市场比视频生成大&quot;，但一位投资人朋友反问：万一错了呢？&quot;可能对很多白领的工作来说，现在的模型真的已经够用了——你搞更强的模型，杀鸡焉用牛刀。&quot;万奇自己的感受是反复波动的：用 ChatGPT Codex 时觉得它能干很多以前干不了的事，但冷却之后发现，&quot;你并不是每天都要那么高频地手搓各种工具，对更复杂任务的需求确实会下来&quot;。</p>
-<p style="margin:0.8em 0">关于蒸馏会不会被禁止，晚点的判断是：博弈会持续（&quot;你有手段，我反制你的手段，我又找新手段&quot;），但蒸馏有很多现实约束——成本、合规、监测，它不太可能肆无忌惮地蔓延。至于三年后的预测，红浩说了一句很晚点的话：&quot;这个行业可能没法看三年——三年有三十六个月，到时候人间已经不知道怎样了。&quot;</p>
+<p style="margin:0.8em 0">技术上，学生模型能否超过教师模型？万奇接触的从业者多数认为"不是绝无可能"——多教师蒸馏（同时向不同方向的专家学习）正在后训练中用于合并能力，特定任务上学生超过教师已有先例，但整体超越是开放问题。而且后发者确实有优势：用更新的数据、更强的模型蒸馏，与领先者的差距可以缩短到几个月甚至更短。</p>
+<p style="margin:0.8em 0">但一个更值得警惕的假设是自进化：如果 OpenAI 和 Anthropic 讲的自进化路径走通，AI 优化 AI 的加速度会越来越大，领先者可能把追赶者甩得更远——"率先达到某种状态还是很重要的"。</p>
+<p style="margin:0.8em 0">节目最后聊到了比蒸馏更大的问题：智能的供给和需求正在错配。一位应用公司创始人说，用户的十个任务里，八个能被 DeepSeek-V4 Flash 解决——而 Flash 非常便宜、速度快。V4 和 Grok 4.6 的"斩杀线"图已经广为人知：它们下方和右侧的模型都被斩杀了。对很多白领工作来说，"智能过了一条线之后，确实就够用了"。之前行业共识是"AI 编程市场比视频生成大"，但一位投资人朋友反问：万一错了呢？"可能对很多白领的工作来说，现在的模型真的已经够用了——你搞更强的模型，杀鸡焉用牛刀。"万奇自己的感受是反复波动的：用 ChatGPT Codex 时觉得它能干很多以前干不了的事，但冷却之后发现，"你并不是每天都要那么高频地手搓各种工具，对更复杂任务的需求确实会下来"。</p>
+<p style="margin:0.8em 0">关于蒸馏会不会被禁止，晚点的判断是：博弈会持续（"你有手段，我反制你的手段，我又找新手段"），但蒸馏有很多现实约束——成本、合规、监测，它不太可能肆无忌惮地蔓延。至于三年后的预测，红浩说了一句很晚点的话："这个行业可能没法看三年——三年有三十六个月，到时候人间已经不知道怎样了。"</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <p style="margin:0.8em 0"><strong style="font-weight:600">要点：</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">蒸馏是有门槛的抄作业：o1（2024.9）让后训练蒸馏的投入回报上升、思维链成为新原料；R1（2025.1）的六个蒸馏小模型证明了&quot;跟强模型学&quot;可行；轨迹蒸馏把 agent 完整任务过程变成训练数据</li>
-<li style="margin:0.3em 0">蒸馏最初目的是压缩（端侧：手机/汽车/机器人，毫末智行把云端模型蒸馏到车规 Orin 芯片），现在变成了&quot;为了变强的蒸馏&quot;</li>
+<li style="margin:0.3em 0">蒸馏是有门槛的抄作业：o1（2024.9）让后训练蒸馏的投入回报上升、思维链成为新原料；R1（2025.1）的六个蒸馏小模型证明了"跟强模型学"可行；轨迹蒸馏把 agent 完整任务过程变成训练数据</li>
+<li style="margin:0.3em 0">蒸馏最初目的是压缩（端侧：手机/汽车/机器人，毫末智行把云端模型蒸馏到车规 Orin 芯片），现在变成了"为了变强的蒸馏"</li>
 <li style="margin:0.3em 0">张一鸣在 Seed 内部会罕见表态字节不蒸馏，三个理由：蒸馏只能逼近不能超越、要从底层构建 AGI 壁垒、不用捷径；代价是组织激励扭曲+三四个研究员离职；字节已成立与 Seed/Flow 平行的 AI 数据与安全一级部门（负责人王银磊）</li>
 <li style="margin:0.3em 0">公开点名清单：Anthropic 二月点名 DeepSeek/Kimi/MiniMax、六月点名阿里千问（阿里随后全集团禁用 Claude Code），OpenAI 点名 DeepSeek；没有任何美国公司点名智谱</li>
-<li style="margin:0.3em 0">&quot;模型自称 GPT&quot;不能证明蒸馏（27 模型 77 问题研究）；判断蒸馏要看行为分布而非身份；Anthropic 反制靠过程监测——分类器+行为指纹系统识别跨账号协同提问和套取思维链</li>
+<li style="margin:0.3em 0">"模型自称 GPT"不能证明蒸馏（27 模型 77 问题研究）；判断蒸馏要看行为分布而非身份；Anthropic 反制靠过程监测——分类器+行为指纹系统识别跨账号协同提问和套取思维链</li>
 <li style="margin:0.3em 0">蒸馏的工程门槛：账号运营+中转站（有被掺模型/蒸到自己的坑）+数据管线（筛选/扩增/纠错/配比）；最隐蔽方式是机房蒸馏开源强模型（K3 2.8T、V4 1.6T），但费电费算力且政府可监测</li>
-<li style="margin:0.3em 0">比蒸馏更大的问题：智能供需错配——用户十个任务八个能被 DeepSeek-V4 Flash 解决，&quot;对很多白领工作模型已经够用了&quot;，AI 编程市场比视频生成大的共识假设可能错了</li>
+<li style="margin:0.3em 0">比蒸馏更大的问题：智能供需错配——用户十个任务八个能被 DeepSeek-V4 Flash 解决，"对很多白领工作模型已经够用了"，AI 编程市场比视频生成大的共识假设可能错了</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[投资实战派] 安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</title><link>https://xlicz.github.io/podcast-rss/articles/安踏换帅与耐克收权-体育鞋服的-去中间商-时刻-2026-08-16.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_ee9a09814df7</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[投资实战派] 安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</title><link>https://xlicz.github.io/podcast-rss/articles/安踏换帅与耐克收权-体育鞋服的-去中间商-时刻-2026-08-16.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_ee9a09814df7</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</h1>
 <p style="margin:0.8em 0">副标题：徐阳离职背后是超级安踏的十年困局——为什么中国版迪卡侬注定会有人做；耐克在财报公布一周后收回滔搏、宝胜线上销售权，一场零和博弈的重新定价</p>
@@ -97,7 +98,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</title><link>https://xlicz.github.io/podcast-rss/articles/2-万亿美元-IPO-与-5000-亿算力融资-AI-资本进入临界点-2026-08-17.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_360a5be16ffc</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</title><link>https://xlicz.github.io/podcast-rss/articles/2-万亿美元-IPO-与-5000-亿算力融资-AI-资本进入临界点-2026-08-17.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_360a5be16ffc</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</h1>
 <p style="margin:0.8em 0">副标题：Anthropic 年内上市传闻、扎克伯格 6500 字宣言、英伟达把 GPU 变成可融资资产、Grok 六个月追上——All-In 与 Gavin Baker 的一期高密度讨论</p>
@@ -155,7 +157,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 伊朗：一部“民主成全独裁”的循环史</title><link>https://xlicz.github.io/podcast-rss/articles/伊朗-一部-民主成全独裁-的循环史-2026-08-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_40188625ed2f</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>伊朗：一部“民主成全独裁”的循环史</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 伊朗：一部“民主成全独裁”的循环史</title><link>https://xlicz.github.io/podcast-rss/articles/伊朗-一部-民主成全独裁-的循环史-2026-08-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_40188625ed2f</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>伊朗：一部“民主成全独裁”的循环史</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">伊朗：一部"民主成全独裁"的循环史</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：从 1892 年烟草抗议到 1979 年神权革命——伊朗人五次起义，五次换来更严苛的统治者。左翼与神职人员的"红绿联盟"，如何亲手终结了两千五百年的君主制。</strong></p>
@@ -12496,7 +12499,8 @@ Cookie失效(10022)→web兜底采到9条✅
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[AI动态] AI 领域动态 2026-08-17</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-17.html</link><guid isPermaLink="false">report:AI动态:2026-08-17:ec1c3b46</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-17</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-17.html</link><guid isPermaLink="false">report:AI动态:2026-08-17:ec1c3b46</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/17</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12539,159 +12543,22 @@ Cookie失效(10022)→web兜底采到9条✅
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[跨国串门儿计划] 2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</title><link>https://xlicz.github.io/podcast-rss/articles/2-万亿美元-IPO-与-5000-亿算力融资-AI-资本进入临界点-2026-08-17.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_360a5be16ffc</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-17</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-17.html</link><guid isPermaLink="false">report:雪球动态:2026-08-17:fb71ce57</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">2 万亿美元 IPO 与 5000 亿算力融资：AI 资本进入临界点</h1>
-<p style="margin:0.8em 0">副标题：Anthropic 年内上市传闻、扎克伯格 6500 字宣言、英伟达把 GPU 变成可融资资产、Grok 六个月追上——All-In 与 Gavin Baker 的一期高密度讨论</p>
-<p style="margin:0.8em 0">录制于 2026 年 8 月 14 日的 All-In Podcast，四位科技投资人围绕同一件事展开了整场讨论：AI 资本正在进入一个前所未有的临界点。Anthropic 被爆出正在筹备 2 万亿美元估值的 IPO，可能打破 SpaceX 创下的 1.75 万亿美元纪录；扎克伯格发表 6500 字宣言重新定义 AI 安全与开源立场；英伟达联合高盛、贝莱德等机构筹集 5000 亿美元把算力变成可融资资产；而 Grok 在六个月内追到了前沿水平。这四件事其实是同一个故事：AI 从技术竞赛变成了资本竞赛，而判断这轮资本周期的信号灯，是 Anthropic 的季度财报。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 100 亿到 1000 亿：Anthropic 的指数级增长与 IPO 定价游戏</h2>
-<p style="margin:0.8em 0">先看数字本身。据金融时报报道，投资者预计 Anthropic 将在 10 月上市，也就是录制时点的六到八周之后；Polymarket 上预测其今年上市的概率是 80%。Anthropic 的年化收入到年底预计在 1000 亿到 1200 亿美元之间——过去三年每年同比增长十倍，按 2 万亿美元估值算，大约是销售额的 16 到 20 倍。</p>
-<p style="margin:0.8em 0">这组数字让 Gavin Baker 用了"资本主义历史上最非凡的时刻"来形容。真正关键的一句是：<strong style="font-weight:600">即使 Anthropic 正在把市场份额输给 OpenAI、输给开源、输给 Grok，它的绝对数字依然在暴涨——因为这块蛋糕本身在爆炸式增长。</strong> 开源按 token 计的规模没有任何地方在追踪，所有人都在低估它。</p>
-<p style="margin:0.8em 0">对于 2 万亿美元的估值本身，Gavin 反而保持怀疑。他说自己在 SpaceX 身上见过同样的剧本：投行们抢着当主承销商，没抢到的就会向媒体放风压低估值，让拿到主承销权的人难堪。所以传闻中的 2 万亿可能正是试探市场后的合理定价，而上市后交易价格可能冲到 3 万亿。他引用了 Anthropic 内部流传的说法：年化收入约 600 亿时，他们相信自己一年内能到 6000 亿；现在已超过 800 亿，并没有放缓的迹象。但他给出了自己的押注：Anthropic 2027 年收入会在 4000 亿到 5000 亿之间，比华尔街共识高出 25% 到 30%——不是一万亿，因为到那个量级会撞上物理限制（算力和能源）。</p>
-<p style="margin:0.8em 0">还有一段值得注意的插曲：Dario 曾放言 Anthropic 有朝一日可能是世界上唯一的私营公司——"一个 Anthropic 主导的极端愿景里，就只有 Anthropic，然后就是各国政府"。Gavin 的回应是：建议 Dario 永远不要再对任何人说这种话，"这有点进入 SBF 的领域了"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">扎克伯格宣言：这场思想战的核心是"集中还是分发"</h2>
-<p style="margin:0.8em 0">扎克伯格那篇 6500 字的文章《未来属于每个人：通往积极 AI 未来的道路》，被这期节目反复解剖。它的核心主张：超级智能是发明，不是自动化；AI 安全应建立在权力平衡之上，不能有单一的集中式智能；他要把开源模型免费发布，为每个人配备自己的 agent 和导师。</p>
-<p style="margin:0.8em 0">Sachs 读完后发现了一个关键矛盾：扎克伯格质问末日论者——"你们为什么急着创造一个你们自己都不相信的未来？"如果 AI 真像你们说的那么危险、会让所有人失业失控，你们为什么还这么热衷于创造它？而这个问题的答案，指向了 AI 安全辩论的真正分界线。</p>
-<p style="margin:0.8em 0">Gavin Baker 给出了这期节目最锋利的框架：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">Anthropic 和有效利他主义运动相信的是：这项技术太危险，不能分发出去。扎克伯格、马斯克和黄仁勋相信的是：这项技术太危险，不能集中起来。历史已经给出答案——当有选择的时候，分发和去中心化永远是更好的。我想不出任何反例。</p>
-</blockquote>
-<p style="margin:0.8em 0">他进一步解释了自己为什么站在去中心化一边：在华盛顿接触到的前拜登政府官员和智库人士，真实立场是"AI 天生危险，必须把控制权集中到政府手里，应该只有两三家公司在做这件事，最好搞成一个卡特尔"。这套逻辑的推论是：不出口芯片、不出口模型、成立一个类似原子能委员会的机构把行业卡特尔化——"企业权力和国家权力合二为一"。他称之为纯属白日梦："你觉得你能控制住，但世界其他地方也会得到 AI。"</p>
-<p style="margin:0.8em 0">黄仁勋那句话被反复引用："没有任何个人、任何消费者需要核武器。但每个消费者、每家企业都需要 AI。"这是消费级技术——所以把 AI 归类为核武器、要求集中监管的类比，从一开始就错了。JCal 补了一个更本土的类比：持枪权。"我要拥有自己的 AI，它的价值观跟我一致，而不是跟某个好人一致——哪怕那个人再好也不行。"</p>
-<p style="margin:0.8em 0">Gavin 对扎克伯格宣言的评价相当高，但也有保留。他欣赏扎克伯格对岗位流失的框架：没有哪条规则说 AI 带来的自动化必须快于它提升个人能力的速度，最近的统计表明更可能的情况是个人能力的增长能跟上甚至超过自动化——"你不会因为 AI 丢掉工作，你会因为别人会用 AI 而丢掉工作"。但他也抓到了扎克伯格的虚伪之处：宣言主张"有权索引任何人的内容并从中学习"，可 Meta 起诉过几百家试图索引 Instagram 或 Facebook 社交图谱的创业公司，其中不少是这位嘉宾投过的。"所以这里有点虚伪。"</p>
-<p style="margin:0.8em 0">顺带一提，主持人们注意到了一个新的行业现象：扎克伯格开始亲自在 X 上发声（他那次尝试收购 Twitter 时的账号，大学时代的用户名），黄仁勋也开了 X 账号写长文，Palo Alto Networks 那位常客同样如此。他们的结论是：公开市场 CEO 在 X 上没有自己的声音就处于风险之中，"拥有自己的声音，那是保护，是力量，是铠甲"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源让前沿更值钱：250 智商指挥 150 智商</h2>
-<p style="margin:0.8em 0">关于开源与前沿模型的关系，这期节目给出一个反直觉的论点：<strong style="font-weight:600">开源不会稀释前沿模型的价值，反而让前沿 token 更值钱。</strong> 假设 Anthropic、OpenAI 和 Grok 的智商在 250 或 200 左右，开源模型在 150——你有一个 250 智商的大脑，能指挥一批 150 智商的大脑把活外包出去，前者的价值只会更高。曼哈顿计划的类比：人们记住的是奥本海默和费曼，但真正让计划运转的是那两千个世界前一万名的物理学家。更便宜的智能越多，前沿的稀缺性越凸显。Gavin 给出的估算是：前沿 token 最终占据经济价值的 65% 到 85%。</p>
-<p style="margin:0.8em 0">但这一切的前提是定价权。Anthropic 能对 token 收溢价，靠的是比开源模型领先约六个月。这也是 Dario 与开源阵营矛盾的根源：Gavin 透露，Anthropic 一度想放慢开源模型的节奏（"那相当于朝自己脚上开枪"），因为这关系到他们能否维持商品化壁垒。而任何监管都会杀死这个窗口：FDA 批准一种新药要好几年，FAA 认证一个机型要五年以上——把这种框架套到 AI 模型发布上，"你那六个月的优势一下子就没了"。</p>
-<p style="margin:0.8em 0">更致命的是，美国对中国境内发生的事情没有管辖权。Gavin 直言，有效利他主义者幻想建立全球算力治理、跟中国达成全球协议，"纯属白日梦，永远不可能发生。如果我们放慢，中国只会一路狂奔领先。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">英伟达的 5000 亿美元金融工程：AI 界的中央银行</h2>
-<p style="margin:0.8em 0">黄仁勋宣布英伟达正与高盛、贝莱德、KKR、Apollo 等机构合作，筹集 5000 亿美元用于 AI 算力建设。机制是：设立独立融资平台，把 GPU 当作能产生收入、可融资的资产——像抵押贷款支持证券一样（主持人们特意说"但愿别落得同样的下场"）。超大规模云厂商不必一次性掏出几十亿美元买芯片，而是借钱买英伟达系统，出租算力产生现金流还贷，英伟达负责把客户和放贷方连接起来。</p>
-<p style="margin:0.8em 0">Gavin 认为这步棋非常高明。关键点在于英伟达提供的两个功能：一是残值担保——承诺三四年后这些 GPU 还能按某个价格租出去，把承销风险从放贷方转移到自己身上（英伟达只承担约 25% 的风险）；二是收入分成——放贷方愿意接受一个低风险的保底水平，换取在更高水平之上的收入分成，这本质上是版税。摩根士丹利两天前的一份报告认为，英伟达可能很快变成一个规模很大的轻资产云业务。</p>
-<p style="margin:0.8em 0">"从某种意义上说，英伟达正在变成 AI 界的中央银行、AI 界的美联储。"就像美联储的货币政策通过私人银行运作一样，英伟达在促成整条信贷链条。私募股权圈对此的理解是飞机融资：航空公司买飞机时，融资依据不只是航空公司的信用，还因为飞机本身有价值——资产支持融资，而 GPU 的流动性比飞机更好。</p>
-<p style="margin:0.8em 0">为什么黄仁勋必须做这件事？因为数字变得太大了：马斯克明年想新增约 6 到 8 吉瓦电力，对应 3000 到 4000 亿美元资本支出，而公司刚通过股权和债务融资筹集了 1000 亿——潜在市场规模已经被融资能力卡住了。英伟达的信用额度一开，所有下游买家都受益。</p>
-<p style="margin:0.8em 0">风险在哪？Gavin 认为最大的风险不在需求端，而在算力过剩——互联网泡沫后的暗光纤如果重演，对所有人都是灾难。但他随即给出了两个"保险丝"：一是现实世界的物理限制（建数据中心本身极难），二是"死人开关"——Anthropic 和 OpenAI 是最大的两个客户，OpenAI 已经把建设规模从约 1.4 万亿砍到 6000 亿；如果需求出问题，最大的客户会先踩刹车，整条食物链（Anthropic 每吉瓦赚 1000 亿，付给 xAI 500 亿买算力，xAI 再付英伟达 300 亿买芯片，一路传到台积电、美光、SK 海力士）就会感受到。</p>
-<p style="margin:0.8em 0">这也正是他们如此看重 Anthropic IPO 的原因：<strong style="font-weight:600">上市意味着每个季度都有经过审计的财报，Anthropic 会成为整个行业最重要的信号灯。</strong> 现在太多人跳出来说 AI 是泡沫、资本开支没有回报，而 Anthropic 的财报将第一次让市场看到真实的现金流。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">S-1 文件会戳破什么</h2>
-<p style="margin:0.8em 0">Gavin 对宏观投资者和价值投资者的判断相当不留情面：他们自信地预测 AI 崩塌，前提假设是"token 是被补贴的、Anthropic 在烧钱、整个链条靠循环融资撑着"。他说这个假设是错的——Anthropic 在产生现金流、在盈利，开源 token 是盈利的，OpenAI 也快了，SpaceX 同样是。"绝大多数 token 对链条上的每个人都是盈利的。"他打了个比方：这就好比有人跟你说他非常悲观，因为油价到了每桶 500 美元——"如果油价真的到 500 美元，那确实是个悲观的好理由。只是不是这样，他们就是错了。"</p>
-<p style="margin:0.8em 0">他自己的分析框架：美国就业人口约 1.5 亿到 1.6 亿，总薪资 10 万亿到 12 万亿美元。他看不到任何世界——企业或个人不会把薪资的 5% 到 10% 花在等价的 token 上。按人均年薪 8 万美元、花 8000 美元（10%）算，仅美国就是 8 万亿美元的 AI 支出空间；就算他判断错了一半，也有 5000 亿——"那也差不多是这些公司现在的发展方向"。</p>
-<p style="margin:0.8em 0">需求端还有一个常被忽略的事实：编程岗位空缺比一年前还多，对程序员的需求更大了——而这还是在受 AI 影响最严重的核心地带。AI 到目前为止看起来是加速增长，而不是劳动力替代。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Grok 的六个月：迟到的马斯克从不缺席</h2>
-<p style="margin:0.8em 0">最后一个话题是 Grok。Grok 4.6 发布后，帕累托前沿图显示它已经接近前沿水平，但便宜得多——在 Cursor Bench 和另一家刚以 1900 亿美元估值融资的公司评测中，都领先于公认的黄金标准模型，且价格更低。DHH 在 X 上给出了正面评价。</p>
-<p style="margin:0.8em 0">Gavin 此前一直认为前沿实验室只剩双寡头（Anthropic、OpenAI），Grok 的追赶让他改口。为什么六个月内能追上？原因有两个：收购了 Cursor 拿到那个团队，以及重组了 xAI 管理层、把 SpaceX 的干将调了过来。"他带来了 SpaceX 的王牌和 Cursor 的王牌。"而且 Grok 4.6 只是一个 1.5 万亿参数的小模型，更大的 4.7 再过几周发布，能力应该显著更强。</p>
-<p style="margin:0.8em 0">马斯克自己的原话被引了出来："我总迟到，但最终我们会把事情做对。"Gavin 的补充是："永远别把马斯克排除在外，他经常迟到，但从不犯错，而且一旦出手，往往会超额交付。"</p>
-<p style="margin:0.8em 0">他还有一个投资者视角的观察：跟很多人聊 SpaceX 时，每个人对星链、轨道计算、地面计算都有自己的细致看法，但几乎没人谈论 Grok——而 Grok 在很多指标上是帕累托占优的。马斯克把算力租给 Anthropic 的同时又在追赶 Anthropic，这在 Gavin 看来是一个精心设计的结构：如果 xAI 成为真正的前沿实验室，那是看涨期权；如果做不到，他还有看跌期权——把算力按接近现货的价格卖出去，而且与 Anthropic 的交易里有 90 天取消期，随时可以把算力收回来。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：软件行业的触底信号</h2>
-<p style="margin:0.8em 0">节目进行中爆出一条消息：银湖资本可能收购 Workday，Workday 股价涨了 17%。Sachs 认为这对股市是个重要时刻——软件行业经历了十二到十八个月的死亡螺旋，可能在三四个月前已经触底。私募股权重新对软件出手，而"弯勺子"们的打法极具 AI 时代特征：裁掉 80% 的员工，剩下 20% 全部变成 AI 优先的员工，然后把惊人的收入拿到手。</p>
-<p style="margin:0.8em 0">开源竞争的崛起是美国软件行业的天赐良机——如果世界上只有两三个主导的前沿模型，软件公司会被挤压（Workday 股价从 300 跌到 100 就是证据）；如果开源模型繁荣，软件行业就有兜底。这或许解释了为什么私募开始重新审视软件资产。</p>
-<p style="margin:0.8em 0">这期节目最大的收获不是某个预测，而是一个观察框架：<strong style="font-weight:600">AI 行业的未来一年，将由 Anthropic 的季度财报、英伟达的融资进度和开源模型的追赶速度共同决定。</strong> 2 万亿美元的 IPO 只是起点——真正的考验是上市之后，市场第一次能以季度为单位审视这条食物链的每一个环节。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点：</strong></p>
+<p style="margin:0.8em 0">🔴 已打开浏览器登录窗口，请完成雪球登录</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">状态</strong>：雪球 cookie 已失效（WAF 拒绝自动登录生成的 cookie），fetch 无法获取关注动态。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">已执行</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">Anthropic 2026 年底年化收入预计 1000-1200 亿美元（三年连续年增 10 倍），2 万亿 IPO 估值约合 16-20 倍销售额；Gavin Baker 押注其 2027 年收入 4000-5000 亿，而非市场共识的万亿级</li>
-<li style="margin:0.3em 0">2 万亿估值可能是投行试探市场后的合理定价——没抢到主承销权的投行会向媒体放风压低估值，上市后可能交易到 3 万亿</li>
-<li style="margin:0.3em 0">AI 安全辩论的真正分界线是集中还是分发：Anthropic/EA 信"太危险不能分发"，扎克伯格/马斯克/黄仁勋信"太危险不能集中"，后者的消费级技术论（"没人需要核武器，但每个人都需要 AI"）更有解释力</li>
-<li style="margin:0.3em 0">开源让前沿 token 更值钱（前沿 token 占经济价值 65-85%），但 Anthropic 全部定价权建立在领先开源六个月之上——任何监管都会杀死这个窗口</li>
-<li style="margin:0.3em 0">英伟达 5000 亿算力融资的本质是资产证券化：GPU 残值担保 + 收入分成，英伟达变成"AI 界的中央银行"；最大风险不是需求而是供应过剩，但物理限制和政治阻力反而充当了保险丝</li>
-<li style="margin:0.3em 0">宏观投资者"token 被补贴、链条靠循环融资"的前提是错的：Anthropic 已产生现金流、链条上绝大多数环节盈利，其 IPO 季度财报将成为全行业最重要的信号灯</li>
-<li style="margin:0.3em 0">Grok 用六个月追到前沿：收购 Cursor + SpaceX 干将重组管理层；马斯克"总迟到但从不犯错"，且租给 Anthropic 的算力带有 90 天回收条款，进可攻退可守</li>
+<li style="margin:0.3em 0">fetch_xueqiu_posts.py 自动登录尝试失败（阿里云 WAF 拦截，<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">login_required: true</code>）</li>
+<li style="margin:0.3em 0">已启动登录轮询助手（后台进程，最多等待 10 分钟）：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Chrome 窗口 → 手动登录 → 自动检测并保存 cookie 到 config.json</code></li>
 </ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">请现在完成</strong>：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">在打开的 Chrome 窗口中完成雪球登录（账号密码 + 极验滑块）</li>
+<li style="margin:0.3em 0">登录成功后 cookie 自动保存，无需其他操作</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">下次 cron 自动恢复</strong>。若 10 分钟内未登录，需手动运行：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">python3 ~/.hermes/scripts/setup_xueqiu_login.py</code></p>
 
 </div>
-]]></content:encoded></item><item><title>[投资实战派] 安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</title><link>https://xlicz.github.io/podcast-rss/articles/安踏换帅与耐克收权-体育鞋服的-去中间商-时刻-2026-08-16.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_ee9a09814df7</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">安踏换帅与耐克收权：体育鞋服的"去中间商"时刻</h1>
-<p style="margin:0.8em 0">副标题：徐阳离职背后是超级安踏的十年困局——为什么中国版迪卡侬注定会有人做；耐克在财报公布一周后收回滔搏、宝胜线上销售权，一场零和博弈的重新定价</p>
-<p style="margin:0.8em 0">2026 年 7 月的体育鞋服行业，接连发生两件大事：7 月 15 日，安踏官方宣布主品牌 CEO 徐阳离职，措辞是"另有任用，安踏品牌长期发展战略不变"；7 月 22 日，耐克通知滔搏、宝胜收回其线上销售权，而耐克向美国证监会提交审计版年报的时间是 7 月 15 日——正好一周。耐克自己的解释是"零和博弈"。把两件事放在一起看，其实是同一件事：去中间商。耐克去的是自己的中间商，超级安踏想做的是去掉别人的中间商。区别只在于，谁主动，谁被动。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">徐阳是谁：把始祖鸟捧成中产硬通货的人</h2>
-<p style="margin:0.8em 0">徐阳不是空降兵。他 2006 年加入安踏做品牌营销，2013 年任篮球事业部总经理，2019 到 2022 年操盘时装业务，2023 年回到安踏主品牌做 CEO——一个在体系内干了近二十年的元老。他最有名的战绩是始祖鸟：把"鸟牌"做成了中国的政务硬通货。阿福（服装行业资深从业者，投资实战派常驻嘉宾）给出的解释是权力背书——在中国市场，奢侈品牌、高溢价品牌需要权力背书。西方有贵族，中国没有，所以始祖鸟成功绑定政务系统，"送礼送鸟牌"成了外行都知道的暗语。</p>
-<p style="margin:0.8em 0">正是这个人的离职，让阿福给出了一个很重的判断：一个既有能力又有认知的功勋元老，都没能把安踏主品牌带到更高的位置，说明"标有安踏字样的品牌已经到瓶颈期了"。安踏不是没试过向上——历史上安踏曾想把主品牌拉到与耐克平起平坐，结果终端折扣一旦拉到八折以上，销售就下滑。顾客的认知是固化的：安踏就是大众运动鞋品牌。高端客群，只能靠 FILA、始祖鸟、迪桑特、可隆这些独立品牌去打。</p>
-<p style="margin:0.8em 0">徐阳上任后做的三件事——超级安踏、安踏冠军、安踏 SV——本质上是在复制 FILA 的成功经验。FILA 当年靠"FILA + FILA Fusion + FILA Kids"三个品牌在同一购物中心开三家店，把有限的场变成三倍的业绩。但阿福指出这中间有个致命区别：FILA 三兄弟服务的是同一类客群——中高端精英家庭，付钱的是同一个人；而安踏冠军比安踏高一档，安踏 SV 是只剩富二代的潮牌，超级安踏比安踏更低、奔着蓝领去。同一个安踏 logo 下面，客群从下往上拉得太宽，"安踏"这两个字的固有认知撑不住。"就像你认定雅戈尔是卖西装的，就不会去买它的运动鞋。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">超级安踏为什么做不起来：50 万对 450 万的月销差距</h2>
-<p style="margin:0.8em 0">超级安踏是这期节目分析最重的一块。它 2024 年推出，全国开了一百多家千平大店，对标迪卡侬和优衣库。2026 年 5 月传出停止扩张，7 月核实为"暂停"——进入复盘期。</p>
-<p style="margin:0.8em 0">数据先说清楚。2025 年底的行业信息是：超级安踏平均月单店业绩只有 50 万左右。阿福当时根本不信："一千平的店，你告诉我只做 50 万？"他一度怀疑对方少说了一个零。对标迪卡侬：2025 年营收 168 亿欧元（约 1300 亿人民币），净利 9.1 亿欧元，全球 1902 家门店，单店年均 705 万欧元（约 5400 万人民币，月均约 450 万），平均面积约 2000 平——超级安踏 1000 平，业绩只有迪卡侬的十分之一。</p>
-<p style="margin:0.8em 0">阿福用"人货场"拆解了原因，三条都指向同一个根子：<strong style="font-weight:600">超级安踏没有被当成一个独立品牌来做。</strong></p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">人：没隔离，就是原罪。</strong> FILA 当年能成，前提是独立运营，与安踏体系隔离开。隔离可以挡住一种必然出现的阻力：安踏老团队不会希望新品牌做成。想想那些当年靠批发开疆拓土的功勋老臣后来的处境——FILA 的直营能力被复制到安踏后，不会做直营的人只能让位，最后离开。超级安踏和安踏开在同一个商场里，价格低 30%，抢的还是同一批客群，老团队凭什么帮它？更糟的是，执行团队很可能来自安踏奥莱体系——而迪卡侬、Zara、优衣库这种千亿级品牌根本不需要奥莱清库存，需要奥莱的是批发型品牌。让清库存的人去做一个不需要清库存的业态，能力模型从根上就错了。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">货：价格、款、量，三个都错。</strong> 价格上，超级安踏的中位数吊牌价是 199 元，迪卡侬是 120 元——"两百块和一百二十块的差别，就像 Zara 和希音、优衣库和 GU 的差别"，对普通客群来说，你的价格还是贵了。款上，天猫店 1600 多个 SKU 看着不少，铺进千平大店每平米只剩 1.3 个；运动品类只有几十种，而迪卡侬是 80 多种——而且迪卡侬的核心客群根本不是运动人群，是坐地铁的普通人。量上，安踏披露的一级供应商有 309 家，但那是全集团所有品牌的；刨掉始祖鸟、FILA、迪桑特、可隆的供应商，超级安踏能用的可能不到 100 家。对比一下：Zara 有约 1500 家供应商，希音有五六千家，迪卡侬有 949 家。供应商少、SKU 少，还要一年开 160 家店，哪怕每单都是小单，汇总到表格里同类项一合并，最后还是变成大货——而徐阳在内部例会上的原话是"死都不能碰大货，一碰大货就完了"。他知道方向，但组织跑不出这个方向。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">场：位置和面积反而是对的。</strong> 有观点说超级安踏不该开进高价商圈，应该像迪卡侬那样开郊区。阿福为安踏辩护了：迪卡侬在海外开郊区是因为要自建小商圈，进不了梅西百货那种代理商买手制渠道；但在中国，郊区早被万达、吾悦这些购物中心建好了，迪卡侬进中国开的就是购物中心。所以超级安踏的选址逻辑没错，错的是货和人。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">药方：隔离、无 logo、小单快反，做成运动鞋服的蜜雪冰城</h2>
-<p style="margin:0.8em 0">如果重新做超级安踏，阿福给了一套完整方案，核心是三条。</p>
-<p style="margin:0.8em 0">第一，完全隔离。"甚至不要放在同一个城市。"安踏在晋江，超级安踏就搬去厦门、福州；团队完全不交流，把它当对手而不是儿子——就像段永平当年做 OPPO 和 vivo 互相打，就像微信放在广州而不是腾讯总部深圳。如果超级安踏成功的前提是吃掉安踏主品牌的客群（"安踏主品牌从 300 亿掉到 100 亿都有可能"），那让同一个老板麾下的两支团队互相打架，就必须隔开，否则内耗会先杀死新品牌。</p>
-<p style="margin:0.8em 0">第二，不要用安踏的供应商，也不要靠行政力量压供应商下单。供应商嫌你单量小不合作，那就是不合作——你得凭本事找别的供应商。阿福的建议是跑遍整条产业链：安踏的、耐克的、阿迪的、特步的、李宁的、迪卡侬的供应商全部跑一遍，先堆数量。而且不需要自己设计：直接 ODM 选款，供应商开发好的款拿来挑，"你告诉我你有哪些款，我挑中的，下五百双，十天到货，明天再下另一个款两百双"。小单、高频、现款现货，这就是希音模式的线下版。</p>
-<p style="margin:0.8em 0">第三，无 logo、极致性价比。超级安踏现在还在贴自己的标，但它的定位是运动超市——"你价格很低的东西打上 logo 反而起反作用"。把成本压到极致，品质用安踏、特步甚至耐克工厂的同等水准，价格做到安踏的五折："安踏卖 300，我卖 150，我的成本只有几十块，倍率还有 2.5 倍，能盈利，能把库存处理完。"打的目标不是迪卡侬——"你干不死他"——而是安踏、李宁、特步、三六一的代理商。"代理商死光了，他们自己去开直营？他不会，团队没建起来，没这个能力。"</p>
-<p style="margin:0.8em 0">这套打法的终局，是成为体育鞋服领域的蜜雪冰城：价格带之下的斩杀线，千亿级规模。也正因如此，阿福对超级安踏暂停感到失落："走出了这一步却又缩回去了。"他的判断是：无论安踏做不做，中国版迪卡侬一定会有人做——"不是出自安踏，不是出自三六一，不是出自李宁，可能是另一个新生的黑马，但一定有人做，只是时间问题。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两种能力圈：卖体面度的人做不了性价比生意</h2>
-<p style="margin:0.8em 0">这期节目还有一个值得单独拎出来的判断：品牌向上和性价比是两种互不兼容的能力圈。卖 logo 的生意越贵越有面子（比音勒芬业绩不错就是证据），出问题的时候先死的是二线奢侈品牌——因为顾客精简预算时最先砍掉它们；性价比生意的底线是品质，越便宜越好。两种生意对人的要求完全相反，而且几乎没有人同时具备两种能力：优衣库三代接班时嫌叠装太 low 改成侧挂，业绩大幅下滑，又改回来；Zara 二代上台第一件事是把客群调整为富裕人群。"安踏那两个二代接手的都是高端品牌，做得挺好——但如果有一天让他们负责安踏，我看好的概率就比较低。"</p>
-<p style="margin:0.8em 0">这也是徐阳困境的另一面。阿福认为徐阳的认知是超出经验的——他说过"如果我们不做超级安踏，别人做超级某某怎么办"，说过"每卖出一件商品，工厂就收到一件订单，这是超级安踏应该做的做法"——他知道方向，但"你一个人有想法没有用，其他的人配不上你这个想法"。而且超级安踏这种生意"必须草根来做"：一个在安踏体系里拿四五百万年薪的人沉不下去，职业经理人没有动力把成本从安踏的 70% 压到 50%——"你在公司工作，你也会选择品牌升级而不是降成本，因为升价容易，降价要命，而且老板不一定给你时间证明你很努力。"</p>
-<p style="margin:0.8em 0">永庆补了一个更宏观的视角：这不是安踏独有的问题，是组织惯性。当年阿里也选择了品牌向上、消费升级，直到外部革命者从别的地方发育壮大、控制不住。体育鞋服品类里目前还没有出现特别猛的革命者，所以"自我革命又比较艰难，那迪卡侬说，你们都不搞，我来搞，我成为斩杀线"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">耐克收权：财报公布一周后的"明抢"</h2>
-<p style="margin:0.8em 0">第二部分是耐克。7 月 22 日，耐克通知滔搏、宝胜收回线上销售权；7 月 15 日它刚提交了 SEC 审计版年报。阿福认为这不是巧合——先看财报，一切就都说得通了。</p>
-<p style="margin:0.8em 0">耐克 FY26（截至 2026 年 5 月 31 日）营收 464 亿美元，与 FY25 的 463 亿基本持平，净利率 7.0%，净利润 31 亿美元。大盘没崩，但分大区看：北美 +5%，EMEA +3%，亚太拉美持平，唯独大中华区下滑 11%——四个大区里唯一拖后腿的。再拆分业务：批发 +6%（275 亿美元），直营门店 +15%（106 亿 vs 96 亿），而电商业务 70.7 亿美元，同比下滑 26%。</p>
-<p style="margin:0.8em 0">把两个下滑叠在一起，就是大中华区电商。"如果你是耐克 CEO，你的压力就是两件事：大中华区营收要拉上来，电商营收要拉上来。把滔搏、宝胜的线上销售收回来，等于把他们的营收抢到自己的报表里，一举两得。"滔搏的耐克线上收入在 50 到 60 亿人民币，加上宝胜合计约 80 亿，还有上千家线上分销商。阿福估算，收回后耐克一年能多出约 20 亿美元营收——"这是为了完成 KPI 的一个简单做法。"</p>
-<p style="margin:0.8em 0">但阿福强调，耐克给出的理由（经销商打折侵蚀高端定位）站不住脚，因为他查了数据：耐克天猫官方旗舰店销量第一页的中位数折扣是 76 折；滔搏的耐克鞋是 61 折；而耐克自己开的官方奥莱店，中位数折扣 36 折，最低 31 折，三百七十多万粉丝——"高端定位是耐克自己拉下来的，不是经销商拉下来的。"2025 年双十一耐克官方自己大打折扣，结果销售下滑了 35 个点，CEO 才说出"线上打折磨掉了耐克的高端定位"。"如果当初打折后业绩上升 35%，他绝对不会说这句话。说白了，这些人是从数字看问题的，他真在乎耐克的品牌价值吗？不在乎。"</p>
-<p style="margin:0.8em 0">对滔搏来说，真正的风险是接下来的连锁反应。西安赛格事件已经敲响警钟：零售商跟商场的冲突，最后小代理商先出局。现在耐克吃掉了滔搏、宝胜的线上业绩，明年后年会不会吃线下？"滔搏跟购物中心签的是两三年合同，合同到期后，购物中心可以直接跟耐克总部签——你滔搏不过是下一个严总，大一点的严总而已。"中国市场有七八千家购物中心，渠道高度成熟，耐克做 D2C 比美国容易得多：在美国，它 2021 年停掉梅西百货的服装供应，两年后就恢复了，因为梅西是买手制代理商，断供等于在别人的商圈里消失；在中国，它可以对接万达（500 多家）、吾悦（300 多家）、龙湖、华润，把滔搏、宝胜抛在后面。</p>
-<p style="margin:0.8em 0">理性上阿福支持耐克："如果我是耐克 CEO，我也会这么干，而且我还会把那个 3 折的官方奥莱店关掉。"感性上他不喜欢："这是一个掠夺的事情。"永庆的总结更冷静：渠道合作伙伴本质是利益调控机制——行情好时它是杠杆，行情差时品牌方要保护自己，重新谈判是强势品牌的能力。"死道友不能死贫道，你不满意你可以不干。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">投资视角：渠道端是"最弱的朋友"</h2>
-<p style="margin:0.8em 0">节目最后给了一个对投资很有用的框架。同一行业里活得好的其实只有两种：纯品牌公司（耐克、阿迪、安踏、李宁——消费者认这个 logo），和垂类制造端有规模效应的公司（代工、供应链——下单 40 万件和 400 万件的配套能力不是一天建成的）。中间渠道端反而是最弱的——"静态估值低，股息也挺高，但它经不起折腾"。安踏 12 倍 PE 和滔搏 8-10 倍 PE 隐含的是完全不同的生意假设：品牌方自主可控，可以重新谈判把别人赶走；经销商在行情差的时候只能重新谈合同，"现在不让你卖线上了，接下来可能好的商场也不让你卖了，你没办法"。</p>
-<p style="margin:0.8em 0">回到开头。徐阳离职和耐克收权是同一个信号：<strong style="font-weight:600">去中间商在中国体育鞋服行业是不以人的意志为转移的趋势，拦不住的。</strong> 区别只是谁主动。耐克是主动去自己的中间商，超级安踏想做的是主动去别人的中间商——但卡住了。阿福说，目前这个行业里做得好的只有安踏和耐克，"连阿迪都是被动的，品牌降级、增加中间商"。至于超级安踏会不会重启，他说了一句值得记住的话：这个事儿将来一定有人做，谁做才是对的公司——"那是历史和人民的选择，或者这个老板的选择。"</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点：</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">徐阳离职的产业含义：元老+功勋都带不动安踏主品牌，说明"安踏"两个字的固有认知（大众品牌）是天花板；向上突破的历史教训是终端折扣一到八折销售就下滑</li>
-<li style="margin:0.3em 0">超级安踏暂停的根因不是选址（场没问题），而是人和货：没与安踏体系隔离（内部阻力+奥莱清库存团队）、价格 199 元 vs 迪卡侬 120 元、SKU 1600 个 vs 迪卡侬 5000+、可用供应商不到 100 家（Zara 1500 家、希音 5000+ 家）</li>
-<li style="margin:0.3em 0">超级安踏月单店 50 万 vs 迪卡侬 450 万（迪卡侬单店年均 5400 万人民币、1902 家店、2025 年营收 1300 亿人民币净利 70 亿）——差距的实质是"没被当成独立品牌来做"</li>
-<li style="margin:0.3em 0">阿福的药方：完全隔离（跨城市、OPPO/vivo 式互搏）+ 不用安踏供应商 + ODM 选款无 logo 小单快反 + 五折定价，终局是运动鞋服领域的蜜雪冰城；判断"中国版迪卡侬一定会有人做，只是时间问题"</li>
-<li style="margin:0.3em 0">品牌向上（卖体面度）与性价比是两种互不兼容的能力圈，优衣库三代、Zara 二代的失败是证据；超级安踏这种生意必须草根来做，职业经理人没有降成本动力</li>
-<li style="margin:0.3em 0">耐克收回滔搏、宝胜线上销售权（合计约 80 亿人民币营收）的直接动机是 FY26 财报：大中华区 -11%、电商 -26% 双下滑，收权一举两得；"经销商打折侵蚀高端定位"的说法被数据反驳——耐克官方奥莱中位数折扣 36 折，官旗 76 折</li>
-<li style="margin:0.3em 0">滔搏是"下一个严总"：购物中心渠道成熟（万达 500+、吾悦 300+）使耐克中国 D2C 远比美国容易（美国梅西断供两年被迫恢复）；渠道端是行业里最弱的生意，低估值高股息但经不起折腾</li>
-</ul>
-
-</div>
-]]></content:encoded></item><item><title>[晚点聊 LateTalk] 蒸馏风暴：AI 行业最公开的秘密竞赛</title><link>https://xlicz.github.io/podcast-rss/articles/蒸馏风暴-AI-行业最公开的秘密竞赛-2026-08-16.html</link><guid isPermaLink="false">wan-dian-liao_87ed6b87e2c5</guid><pubDate>Sun, 16 Aug 2026 08:00:00 +0800</pubDate><description>蒸馏风暴：AI 行业最公开的秘密竞赛</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">蒸馏风暴：AI 行业最公开的秘密竞赛</h1>
-<p style="margin:0.8em 0">副标题：所有人都在谈，没有人公开承认；张一鸣罕见表态字节不蒸馏，Anthropic 点名四家中国公司——晚点编辑部拆解这场技术竞赛的规则、代价与灰色地带</p>
-<p style="margin:0.8em 0">&quot;所有人都会去关注这件事，但大家不会公开谈论它。&quot;晚点编辑部在做蒸馏这篇报道时遇到的最大困难，是找不到愿意公开谈这个话题的一线从业者。于是 179 期《晚点聊》变成了编辑部自己聊：红浩和万奇把过去几个月从不同公司从业者、研究员那里收集到的信息摊开，试图回答几个问题——蒸馏到底是什么，谁在做，代价是什么，以及张一鸣为什么罕见地公开表态&quot;字节不做&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蒸馏是什么：有门槛的抄作业</h2>
-<p style="margin:0.8em 0">最典型的蒸馏流程是：先有一堆问题，拿去问一个强模型（教师模型），得到回答，这些提问和回答构成数据对，再用这些数据训练你自己的学生模型，让它的输出行为逐渐接近教师。但红浩强调，这绝不是&quot;人家写 A 你也写 A&quot;的抄作业——&quot;它是有门槛的抄作业&quot;。</p>
-<p style="margin:0.8em 0">两个变化让蒸馏的原料变得更丰富。一是 OpenAI 在 2024 年 9 月发布 o1，开启了推理模型范式：后训练中的大规模强化学习可以让模型学到推理策略，而蒸馏主要就发生在后训练阶段，投入回报显著上升；同时 o1 带来的测试时计算（test-time compute）意味着模型可以在推理阶段生成更长的思维链——这部分是模型使用阶段的产出，理论上用户看得见，也可以通过各种手段还原，它成了更好的蒸馏原料。</p>
-<p style="margin:0.8em 0">二是智能体的轨迹蒸馏。当 agent 越来越发达，从教师模型榨取的不再是静态的&quot;题目—推理—答案&quot;，而是它在一个环境里完整完成一个任务的全过程——给它代码库、终端、代码编辑器、编译器、测试工具，让它把任务跑一遍，获得的整条轨迹就是数据。&quot;你让这个学生模型去行为上接近他做这整个任务的过程。&quot;极端情况下，甚至可以不让学生模型模仿，只用强模型来评估自己模型的表现——那就不算蒸馏了，更像是&quot;用最强模型的数据和输出帮助自己做智能体的强化学习&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个节点：从&quot;压缩&quot;到&quot;变强&quot;</h2>
-<p style="margin:0.8em 0">蒸馏最初的目的不是变强，是压缩。大模型贵且慢，而手机、汽车、机器人这些端侧场景对延时和算力极其敏感。万奇回忆起第一次在线下采访中长时间讨论蒸馏，是采访毫末智行 CEO 顾维灏——自动驾驶是压缩的典型场景：云端训练的模型要放到车上，车上的英伟达 Orin 芯片算力相对有限，必须通过蒸馏、剪枝、量化把模型变小，才能实现低延时。DeepSeek、千问每次发布大量开源尺寸，本质上也是在做这种压缩。</p>
-<p style="margin:0.8em 0">转变发生在两个时间点：2024 年 9 月的 o1，让蒸馏的投入回报比上升；2025 年 1 月 DeepSeek-R1 发布，技术报告之外还发了六个蒸馏小模型——四个基于 Qwen2.5、两个基于 Llama-3，全部以 R1 为教师。这证明了&quot;用小模型跟大模型学&quot;这条路可行。从那以后，蒸馏的目的变成了&quot;为了变强&quot;。</p>
-<p style="margin:0.8em 0">到了 2026 年，讨论明显升温。导火索是 Anthropic、OpenAI、Google DeepMind 从年初开始更频繁地在公开文章和给美国政府的信里点名中国公司蒸馏；更大的背景是中国开源模型正在逼近闭源——Kimi 的 K3 是里程碑，在美国引起大量争议（晚点 177 期专门聊过）。&quot;各种原因累积：规模确实变大了，加上更强的开源模型逼近美国闭源模型，蒸馏被推到了风口浪尖。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">张一鸣的罕见表态：字节不蒸馏</h2>
-<p style="margin:0.8em 0">在几乎所有人都在蒸馏的背景下，字节是个异类。张一鸣在 Seed 的一次内部会上罕见露面，明确表示不允许字节做蒸馏——晚点报道后，这是很多年没有出现过的&quot;张一鸣表态&quot;。</p>
-<p style="margin:0.8em 0">报道里写了三个理由：第一，张一鸣认为蒸馏短期可以改善模型表现，但本质上是在复制别人已有的能力，&quot;你最多只能逼近对方，不能实现超越&quot;——而字节的追求是世界第一；第二，他希望从更底层的维度构建 AGI 壁垒，蒸馏不是长期壁垒；第三，这是一个很强的表态：即使不蒸馏意味着技术上短期落后于国内竞争对手，也不采用捷径。</p>
-<p style="margin:0.8em 0">万奇补充了报道之外的背景：字节的旗舰模型 2.1（六月发布）据传用过一些蒸馏手段，之后内部经过比较激烈的讨论，最终决定不再蒸馏——而在此之前的两年多时间里，字节确实基本没做蒸馏。但他也指出，字节至今没有 SOTA 不完全是因为不蒸馏：&quot;这是一个挺重要的原因之一，但你也不能完全归咎到这件事情上面。虽然这是个万金油回答，但我觉得它挺接近事实的。&quot;</p>
-<p style="margin:0.8em 0">更有意思的是组织层面的代价。蒸馏是一种低成本、高确定性的能力提升方式——&quot;确定性&quot;是它最关键的属性。但如果组织把重心放在这条相对确定的路上，做长期探索、走不确定路线的人和项目就拿不到资源和认可。万奇说，张一鸣表态之后，确实有三四个人从字节离开，原因很个体：&quot;你的职业生涯是有限的，我希望在字节这几年做出自己的代表作——至少是中国最强的模型。&quot;有人在极客上的留言被反复引用：&quot;张一鸣可能不是最懂技术的，但他大概率是最懂人性的。&quot;</p>
-<p style="margin:0.8em 0">字节的应对动作已经出现：从六月开始重组数据团队，成立与 Seed、Flow 平行的 AI 数据与安全一级部门，负责人是原 TikTok 直播负责人王银磊（Adam Wang）——&quot;他得自己去获得某种不依赖外部领先模型的数据能力。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谁在蒸馏：点名清单与灰色地带</h2>
-<p style="margin:0.8em 0">公开信息里，Anthropic 今年二月点名了三家公司：DeepSeek、Kimi、MiniMax；六月又点名了阿里千问；OpenAI 称 DeepSeek 有疑似蒸馏行为。值得注意的是，没有美国公司公开点名智谱。Anthropic 在给美国国会的信中提到，检测到某模型与其进行了 2880 万次交互，称之为&quot;有史以来发现的规模最大的蒸馏攻击&quot;。阿里被点名后，整个集团开始禁用 Claude Code——但这未必直接与蒸馏有关，可能更多是合规表态和数据安全考虑。</p>
-<p style="margin:0.8em 0">讨论中有一个反复出现的误区：模型说自己是 GPT 能不能证明蒸馏？不能。2024 年 11 月有人做过研究，测了 27 个模型、设计了 77 个问题：GPT-4 会说自己是 GPT-3，Gemini Pro 会说自己是百度文心，字节系的会说自己是 GPT。论文结论是仅凭身份混淆很难判断谁用了谁的训练数据。更合适的方式是看输出分布和行为——说话方式、输出格式、拒绝回答的方式、代码风格——&quot;但你需要很大的数据量，问一两次觉得像，证明不了什么&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蒸馏的工程难度：账号、中转站和数据管线</h2>
-<p style="margin:0.8em 0">&quot;拿到几百万条 Claude 的回答&quot;和&quot;知道怎么向 Claude 提问&quot;，哪个更难？万奇的回答是：每个公司薄弱环节不同，但整套流程是一个复杂的系统工程。</p>
-<p style="margin:0.8em 0">最前端是账号。你需要稳定、高频地访问领先模型，一种被从业者提及的做法是建中转站，让真实用户通过中转站使用 GPT 或 Claude——最好是高校理工科学生、研究者、高级程序员这类能提出高质量问题的真实需求用户。这本质上是运营工作。而且中转站有坑：&quot;有某一家模型公司用中转站，结果发现它蒸馏出来的是自己的——就自己在蒸自己。&quot;第三方中转站完全可以在领先模型里掺入你不想要的模型。</p>
-<p style="margin:0.8em 0">中段是数据管线：构造题目、从真实数据里筛选过滤、用模型扩增和改写、纠错、决定数据的形式和配比——&quot;这套东西有经验 know-how 在里面&quot;，加上成本控制与稳定性，决定了大规模操作的效率。这已经不是抄作业，而是&quot;抄的过程非常复杂&quot;的工程。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">隐藏与反制：过程比结果更容易暴露</h2>
-<p style="margin:0.8em 0">如果一家公司想隐藏蒸馏行为，最隐蔽的方式是下载开源强模型（K3 接近 2.8T 参数、DeepSeek-V4 是 1.6T），在自己的机房生成数据——外部几乎无法发现，但部署这么大的模型需要大量算力和电费，&quot;如果政府认为这是隐患，它是比较好监测到的&quot;。另一个办法是同时向 Claude、GPT、Gemini、DeepSeek、千问各取一点数据，混合后筛选重写，看不出单一教师的痕迹——但这对闭源厂商没用，因为对方不是从结果发现的，而是从过程发现的：Anthropic 已经建立了识别蒸馏流量的分类器和行为指纹系统，可以发现跨账号协同重复提问和套取思维链的行为，并加强对教育、研究、创业公司账号的身份认证。</p>
-<p style="margin:0.8em 0">隐藏还有更现实的代价：合规隐患。&quot;假如我是 Kimi 或者千问，我想做蒸馏又不想被上美国实体清单——那这可能就是蒸馏的另一种代价。要想人不知，除非己莫为。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">学生能否超过老师，以及那个更大的问题</h2>
-<p style="margin:0.8em 0">技术上，学生模型能否超过教师模型？万奇接触的从业者多数认为&quot;不是绝无可能&quot;——多教师蒸馏（同时向不同方向的专家学习）正在后训练中用于合并能力，特定任务上学生超过教师已有先例，但整体超越是开放问题。而且后发者确实有优势：用更新的数据、更强的模型蒸馏，与领先者的差距可以缩短到几个月甚至更短。</p>
-<p style="margin:0.8em 0">但一个更值得警惕的假设是自进化：如果 OpenAI 和 Anthropic 讲的自进化路径走通，AI 优化 AI 的加速度会越来越大，领先者可能把追赶者甩得更远——&quot;率先达到某种状态还是很重要的&quot;。</p>
-<p style="margin:0.8em 0">节目最后聊到了比蒸馏更大的问题：智能的供给和需求正在错配。一位应用公司创始人说，用户的十个任务里，八个能被 DeepSeek-V4 Flash 解决——而 Flash 非常便宜、速度快。V4 和 Grok 4.6 的&quot;斩杀线&quot;图已经广为人知：它们下方和右侧的模型都被斩杀了。对很多白领工作来说，&quot;智能过了一条线之后，确实就够用了&quot;。之前行业共识是&quot;AI 编程市场比视频生成大&quot;，但一位投资人朋友反问：万一错了呢？&quot;可能对很多白领的工作来说，现在的模型真的已经够用了——你搞更强的模型，杀鸡焉用牛刀。&quot;万奇自己的感受是反复波动的：用 ChatGPT Codex 时觉得它能干很多以前干不了的事，但冷却之后发现，&quot;你并不是每天都要那么高频地手搓各种工具，对更复杂任务的需求确实会下来&quot;。</p>
-<p style="margin:0.8em 0">关于蒸馏会不会被禁止，晚点的判断是：博弈会持续（&quot;你有手段，我反制你的手段，我又找新手段&quot;），但蒸馏有很多现实约束——成本、合规、监测，它不太可能肆无忌惮地蔓延。至于三年后的预测，红浩说了一句很晚点的话：&quot;这个行业可能没法看三年——三年有三十六个月，到时候人间已经不知道怎样了。&quot;</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点：</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">蒸馏是有门槛的抄作业：o1（2024.9）让后训练蒸馏的投入回报上升、思维链成为新原料；R1（2025.1）的六个蒸馏小模型证明了&quot;跟强模型学&quot;可行；轨迹蒸馏把 agent 完整任务过程变成训练数据</li>
-<li style="margin:0.3em 0">蒸馏最初目的是压缩（端侧：手机/汽车/机器人，毫末智行把云端模型蒸馏到车规 Orin 芯片），现在变成了&quot;为了变强的蒸馏&quot;</li>
-<li style="margin:0.3em 0">张一鸣在 Seed 内部会罕见表态字节不蒸馏，三个理由：蒸馏只能逼近不能超越、要从底层构建 AGI 壁垒、不用捷径；代价是组织激励扭曲+三四个研究员离职；字节已成立与 Seed/Flow 平行的 AI 数据与安全一级部门（负责人王银磊）</li>
-<li style="margin:0.3em 0">公开点名清单：Anthropic 二月点名 DeepSeek/Kimi/MiniMax、六月点名阿里千问（阿里随后全集团禁用 Claude Code），OpenAI 点名 DeepSeek；没有任何美国公司点名智谱</li>
-<li style="margin:0.3em 0">&quot;模型自称 GPT&quot;不能证明蒸馏（27 模型 77 问题研究）；判断蒸馏要看行为分布而非身份；Anthropic 反制靠过程监测——分类器+行为指纹系统识别跨账号协同提问和套取思维链</li>
-<li style="margin:0.3em 0">蒸馏的工程门槛：账号运营+中转站（有被掺模型/蒸到自己的坑）+数据管线（筛选/扩增/纠错/配比）；最隐蔽方式是机房蒸馏开源强模型（K3 2.8T、V4 1.6T），但费电费算力且政府可监测</li>
-<li style="margin:0.3em 0">比蒸馏更大的问题：智能供需错配——用户十个任务八个能被 DeepSeek-V4 Flash 解决，&quot;对很多白领工作模型已经够用了&quot;，AI 编程市场比视频生成大的共识假设可能错了</li>
-</ul>
-
-</div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
