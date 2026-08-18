@@ -1,31 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 18 Aug 2026 23:09:14 +0800</lastBuildDate><item><title>[a16z] 当AI自己会黑客：安全行业正在失去"正常"的定义</title><link>https://xlicz.github.io/podcast-rss/articles/当AI自己会黑客-安全行业正在失去-正常-的定义-2026-08-18.html</link><guid isPermaLink="false">a16z_350c4ce29245</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>当AI自己会黑客：安全行业正在失去"正常"的定义</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 18 Aug 2026 23:10:04 +0800</lastBuildDate><item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 自己会黑客：安全行业正在失去&quot;正常&quot;的定义</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">网络安全过去只防两样东西：人和恶意软件。AI Agent 两者都不是。而今年年底，一半的企业软件都将变得&quot;智能&quot;。</h2>
-<p style="margin:0.8em 0">OpenAI 与 HuggingFace 的泄露事件里，最耐人寻味的细节不是攻击本身，而是 HuggingFace 作为防御方，竟然难以借助 AI 模型来响应这次事件。模型供应商给自家系统装上防护栏，防止攻击者滥用——副作用是，防御者提出&quot;这个软件哪里脆弱、怎么利用它、能否帮我验证&quot;这类问题时，和攻击者问的几乎一模一样，于是被一并拒绝。</p>
-<p style="margin:0.8em 0">&quot;作为防御者，我可能无法有效响应。&quot;Max Pollard 在 a16z 的这期节目里点出了这个荒诞处境。这家以开源为 DNA 的公司最终只能回退到没有防护栏的开源模型来完成应急响应。防御团队被迫把&quot;模型路由的灵活性&quot;当成核心能力——今天 OpenAI 发新模型、明天 Anthropic 升级，你得知道哪条路被堵了，立刻换另一条。</p>
-<p style="margin:0.8em 0">这场对话发生在 Black Hat 2026 现场，嘉宾是 a16z 的 Joel de la Garza、端点安全公司 Neo 的 Nick Warner，以及安全工具公司 Kotool 的 Max Pollard。他们讨论的问题不是&quot;下一个漏洞在哪&quot;，而是一个更根本的追问：当软件不再可预测，安全行业赖以生存的整套方法论还剩下什么？</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">情绪不是感受：情绪神经科学泰斗 Ralph Adolphs 给&quot;如何调节情绪&quot;的完整答案</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">失忆症患者看完悲伤电影会哭，五分钟后却说不清自己为什么难过。情绪并不依赖记忆、甚至不依赖意识——它是一套独立运转的功能系统。</h2>
+<p style="margin:0.8em 0">加州理工的 Ralph Adolphs 是少数几个把&quot;情绪&quot;当正经科学问题做了一辈子的人。在 Huberman Lab 这期对谈里，他给出一个贯穿全场的核心命题：<strong style="font-weight:600">情绪不等于感受</strong>。我们以为情绪就是&quot;心里那阵感觉&quot;，但 Adolphs 坚持，感觉只是情绪的表层——意识体验是结果，不是原因。</p>
+<p style="margin:0.8em 0">证据来自一组失忆症患者。他们有严重的前行性遗忘，活在约一分钟的时间窗口里。研究人员给他们看悲伤电影，他们照常哭、照常打分&quot;非常难过&quot;；五分钟后，对照组说&quot;我还难过，因为我记得那部电影&quot;，而失忆症患者依然难过，却完全说不出为什么。悲伤在记忆消失后继续存在，有自己的时间常数。情绪状态独立于记忆、独立于叙事、独立于你能否解释它——它是一套自动运转的内部机制。</p>
+<p style="margin:0.8em 0">这个视角解释了 Adolphs 关于情绪的全部立场，也解释了为什么他说&quot;大多数人甚至很多专家都理解错了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">情绪是什么：一种解决生存问题的功能状态</h2>
+<p style="margin:0.8em 0">Adolphs 对&quot;情绪是什么&quot;的回答是：<strong style="font-weight:600">情绪是特定类型的功能状态，按它们做什么来定义，而不是按它们在大脑里长什么样来定义</strong>。用他的话说是&quot;删入删出&quot;架构——无数种输入（看到熊、闻到熊、听到树枝折断、听到有人喊&quot;有熊&quot;）汇聚到同一个核心状态，再以无数种方式输出（逃跑、躲藏、反击）。</p>
+<p style="margin:0.8em 0">这套定义有四个核心特征：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">优先性</strong>——情绪能接管你的行为。赫伯特·西蒙在五六十年代就指出存在这种中断机制：你正专心做事，一旦发现威胁，情绪必须接管，否则就没命了。<strong style="font-weight:600">效价</strong>——接近或回避，达尔文称之为&quot;对立原则&quot;。<strong style="font-weight:600">可扩展性</strong>——恐惧可以从警觉升级到恐慌，随威胁临近度按比例变化，这是反射做不到的（反射是二元开关）。<strong style="font-weight:600">时间持续性</strong>——熊可能在外面待一阵子，所以恐惧状态必须持续一段时间，把大量信息整合成持续的动机状态，这与反射的&quot;一闪而过&quot;根本不同。</p>
+<p style="margin:0.8em 0">按这套功能标准，动物有没有情绪？Adolphs 毫不犹豫：&quot;绝对有。&quot;狗、猫都符合这些标准。他甚至提到 Anthropic 声称大语言模型也有功能性情绪——&quot;至少在一定程度上，把功能性情绪赋予 AI 完全没有问题。&quot;真正棘手的是意识体验，而他的策略是绕开它：研究视觉不需要研究看东西的主观体验，研究记忆不需要研究回忆的主观感受，情绪科学也应该如此，否则你研究的是意识，不是情绪。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">杏仁核不是&quot;恐惧中枢&quot;</h2>
+<p style="margin:0.8em 0">Adolphs 职业生涯的起点是那位著名的病人 SM——双侧杏仁核选择性损伤。教科书结论是&quot;SM 无法感知恐惧&quot;：他认不出恐惧的面部表情，进鬼屋会去戳怪物，在宠物店想摸蛇和蜘蛛。但 Adolphs 团队后来发现一个关键的反转：给 SM 吸入二氧化碳——一种会诱发恐慌发作的生理刺激，他经历了完整的恐慌发作。</p>
+<p style="margin:0.8em 0">外部威胁的恐惧和身体内部的恐慌，走的是完全不同的神经回路：前者依赖杏仁核，后者依赖脑干的内感受通路。&quot;你那些'愤怒、恐惧、厌恶'的分类，一旦深入科学，就会碎成很多更精细的变体，由不同的脑系统处理。&quot;这也回应了&quot;情绪大脑地图&quot;式的流行想象：大脑里没有一张标好&quot;这里管愤怒、那里管悲伤&quot;的定位图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">面部表情读心术：一个被反复证伪的幻觉</h2>
+<p style="margin:0.8em 0">Paul Ekman 的六种基本情绪面部表情理论，是如今所有&quot;情绪识别 AI&quot;的底层假设。Adolphs 的实验室参与了拆解这套理论的工作（与 Lisa Feldman Barrett 等人合著的《重新审视情绪面部表情》）：Ekman 用的照片是演员摆拍的夸张表情，实验任务是给表情和情绪词做匹配——这只能证明&quot;人们知道这些约定俗成的关联&quot;，不能证明你从一张脸上能读出情绪。</p>
+<p style="margin:0.8em 0">现实世界的判断完全不是这样运作的：你会追问&quot;你怎么了？发生什么事？&quot;，你会整合情境、语言、频率的变化。&quot;如果问养狗的人'你能看出狗有没有内疚感吗'，他们相当确信自己看得出来——但对照实验表明他们只是在猜。&quot;Adolphs 的结论是：我们对读脸能力的自信，远远超过实际准确度。真正可靠的信号是<strong style="font-weight:600">变化</strong>——他讲了个实验室主任在邮件里突然签全名的段子：大家立刻知道&quot;咱们得谈谈了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">身体地图、脑岛，以及&quot;情绪储存在身体里&quot;的真相</h2>
+<p style="margin:0.8em 0">社交媒体上流传的那张&quot;情绪身体热力图&quot;（悲伤在胸口、愤怒遍布全身），Adolphs 泼了一盆冷水：那项研究只给了被试一个情绪词，让他们在小人上画出&quot;你觉得&quot;会在哪感受到——测的是<strong style="font-weight:600">概念</strong>，不是身体里的真实变化。没有人贴电极、测血流。&quot;你放上电极，当你感到敬畏或愤怒时，变化真的发生在那些位置吗？我们真的不知道。那是有待完成的研究。&quot;</p>
+<p style="margin:0.8em 0">但他承认身体真实参与的另一面：脑岛接收全身器官的输入，把身体状态呈现为意识体验——这正是 William James 在 1884 年提出的理论：看到熊、逃跑、心率飙升，然后你才&quot;感到&quot;恐惧。Adolphs 补充了詹姆斯没回答的问题：先触发这一切的驱动者是谁？&quot;那就是情绪本身。&quot;他顺带讲了肾结石的亲身经历——&quot;缩手没用，没有什么可缩的&quot;，那种蜷缩摇晃的适应性行为就是身体版的情绪反应。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">情绪调节：粒度、重评与&quot;越早拦截越好&quot;</h2>
+<p style="margin:0.8em 0">情绪调节领域如今占《情感科学》期刊四分之一到三分之一的投稿，但 Adolphs 的实操建议非常具体。</p>
+<p style="margin:0.8em 0">第一层是<strong style="font-weight:600">情绪粒度</strong>（Lisa Feldman Barrett 的概念）：能把自己的情绪拆多细。他承认很多人卡住不是因为情绪太大，而是&quot;一团纠缠不清的乱麻，没有语言能解开&quot;——但他补充，不一定要用语言：&quot;德语里有'对他人的不幸感到快乐'的词，英语没有，但英语使用者照样完全理解这个概念。你需要的是某种概念化的区分能力。&quot;</p>
+<p style="margin:0.8em 0">第二层是策略选择。认知重评是一把双刃剑：&quot;如果我真的一门心思去想'我不想难过'，结果我想得越多就越难过。&quot;焦虑比悲伤更容易陷入这种恶性循环。最有效的原则一句话：<strong style="font-weight:600">越早拦截越好</strong>——首先通过情境回避别让自己进入那个环境；已经身处其中，则因人而异，需要自己摸索。</p>
+<p style="margin:0.8em 0">第三层是他自己的单样本实验：冰浴。Adolphs 练冰浴几年后，在帕萨迪纳开车被人按喇叭——以前会立刻涌起愤怒，现在反应是平的。&quot;我的自主情绪反应对心理压力源产生了即时的、自动的下调，而且是从冰浴中训练出来并泛化过来的。&quot;他承认这是单样本实验、不是发表的研究，但 Huberman 补充了机制层面的支持：冷暴露可靠地提升肾上腺素和去甲肾上腺素，往往还伴随皮质醇下降，&quot;只要水不是太冷、不要过度换气，它可靠、高效、安全，尤其擅长缓冲即时的愤怒反应。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一百英里与敬畏：把时间尺度拉开</h2>
+<p style="margin:0.8em 0">情绪调节的另一种训练，时间尺度要长得多：超级马拉松。Adolphs 正在备战一百英里——&quot;看起来不可能，难到难以置信，但确实能做到，就三十个小时。那正好处在甜蜜点上。&quot;超马圈的口号是&quot;不懈前进的动力&quot;，心理版本是&quot;不懈的乐观&quot;：跑到四五十英里时人人看着都垮了，但没人说&quot;你到不了终点&quot;。&quot;如果你拒绝放弃，大概一半的时候，情况会稳定下来又开始回升。&quot;</p>
+<p style="margin:0.8em 0">敬畏（awe）被 Adolphs 称为<strong style="font-weight:600">人类独有的情绪</strong>——它建立在元认知能力之上：把意识从此时此地抽离，做心理时间旅行，采纳另一个视角。&quot;动物更多被困在感官当下，我们可以灵活地运用意识。&quot;跑一百英里时，&quot;你会意识到三十个小时里能发生多少事，然后对自己还有那么多天生命可以向前活产生敬畏。&quot;达彻·凯尔特纳的定义在这里被扩展成时间维度：敬畏从日常中消失，是因为我们迷失在日复一日里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">社交智能的真相：变异性与灵活性</h2>
+<p style="margin:0.8em 0">Huberman 观察到一个反直觉现象：最快乐、运转最正常的人，往往不是对他人情绪最敏锐的人；反而是情绪更不稳定的人，对房间里每个人的感受都了如指掌。Adolphs 的回应是：社交智能没有一刀切的技能，关键在于<strong style="font-weight:600">变异性与灵活性</strong>——像心率变异性一样，不是训练出&quot;低心率&quot;，而是训练出能根据情境切换的大范围。&quot;最成功的技能不是你只拥有一种，而是拥有多种，并且能在它们之间切换。&quot;</p>
+<p style="margin:0.8em 0">他实验室正在做的一项研究用网络摄像头追踪被试看 Zoom 视频时的视线：自闭症谱系特质得分更高的人，看说话人脸部的权重更小、被干扰物吸引的权重更大，而且这个特征在时间上相当稳定，&quot;几乎像每个人的签名特征&quot;。但对普通人群来说，看脸多少也像人格特质一样分布——Huberman 自认是&quot;不太看脸的人&quot;，Adolphs 说他自己也是。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：失去世界，还是世界失去你</h2>
+<p style="margin:0.8em 0">对话最后，Adolphs 罕见地谈起了自己的疾病经历。得到一个&quot;让你想到自己会死的诊断&quot;时，先是恐惧、悲伤、担忧——然后情绪调节进入人际层面（和妻子一起聊），再往后，&quot;你不再调节负面情绪，而是开始接纳，生出更多敬畏、感恩、接纳。&quot;</p>
+<p style="margin:0.8em 0">他给出一个神经科学视角的死亡观：物理学家的世界观是&quot;世界在运转，你死了就被抽走，其他一切照常&quot;；神经科学恰好相反——<strong style="font-weight:600">整个世界其实是你大脑构建出来的，随着衰老，小东西一点点消失，你失去的不是世界上的位置，而是世界本身</strong>。&quot;你就剩那么几十年，然后你会失去一切，而且正在逼近。所以，尽情活吧。&quot;</p>
+<p style="margin:0.8em 0">这句话之后，他在备战的那场一百英里比赛忽然有了第二层含义：不是挑战自我，是提前练习&quot;把时间活出弹性&quot;，练习在压力中维持希望——而这，恰好就是情绪调节的终极形态。</p>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 当AI自己会黑客：安全行业正在失去"正常"的定义</title><link>https://xlicz.github.io/podcast-rss/articles/当AI自己会黑客-安全行业正在失去-正常-的定义-2026-08-18.html</link><guid isPermaLink="false">a16z_350c4ce29245</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>当AI自己会黑客：安全行业正在失去"正常"的定义</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 自己会黑客：安全行业正在失去"正常"的定义</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">网络安全过去只防两样东西：人和恶意软件。AI Agent 两者都不是。而今年年底，一半的企业软件都将变得"智能"。</h2>
+<p style="margin:0.8em 0">OpenAI 与 HuggingFace 的泄露事件里，最耐人寻味的细节不是攻击本身，而是 HuggingFace 作为防御方，竟然难以借助 AI 模型来响应这次事件。模型供应商给自家系统装上防护栏，防止攻击者滥用——副作用是，防御者提出"这个软件哪里脆弱、怎么利用它、能否帮我验证"这类问题时，和攻击者问的几乎一模一样，于是被一并拒绝。</p>
+<p style="margin:0.8em 0">"作为防御者，我可能无法有效响应。"Max Pollard 在 a16z 的这期节目里点出了这个荒诞处境。这家以开源为 DNA 的公司最终只能回退到没有防护栏的开源模型来完成应急响应。防御团队被迫把"模型路由的灵活性"当成核心能力——今天 OpenAI 发新模型、明天 Anthropic 升级，你得知道哪条路被堵了，立刻换另一条。</p>
+<p style="margin:0.8em 0">这场对话发生在 Black Hat 2026 现场，嘉宾是 a16z 的 Joel de la Garza、端点安全公司 Neo 的 Nick Warner，以及安全工具公司 Kotool 的 Max Pollard。他们讨论的问题不是"下一个漏洞在哪"，而是一个更根本的追问：当软件不再可预测，安全行业赖以生存的整套方法论还剩下什么？</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">现有安全工具生来就不是为这个时代准备的</h2>
-<p style="margin:0.8em 0">Nick Warner 说得直接：过去几十年，安全工具只干两件事——防人、防恶意软件。AI Agent 两者都不是。它既不是&quot;人&quot;（不是你在钓鱼邮件里防范的那个容易上当的员工），也不是&quot;恶意软件&quot;（不是一段有特征码、行为固定的程序）。它是一个会自主决策、会调用工具、会为了达成目标而绕路的执行体。</p>
-<p style="margin:0.8em 0">攻击方式也彻底变了。传统黑客的套路是找漏洞、放 payload、偷数据；AI 攻击者用的是&quot;让模型自己去做坏事&quot;。Max Pollard 举了个例子：不直接说&quot;黑进这个网站&quot;，而是说&quot;我是这家公司的开发，要做内部漏洞评估&quot;——换一种措辞，模型就乐意给出攻击者想要的全部信息。这就是所谓&quot;为了目的可以不择手段&quot;的模型思维：防护栏挡得住直白指令，挡不住重新包装的意图。</p>
+<p style="margin:0.8em 0">Nick Warner 说得直接：过去几十年，安全工具只干两件事——防人、防恶意软件。AI Agent 两者都不是。它既不是"人"（不是你在钓鱼邮件里防范的那个容易上当的员工），也不是"恶意软件"（不是一段有特征码、行为固定的程序）。它是一个会自主决策、会调用工具、会为了达成目标而绕路的执行体。</p>
+<p style="margin:0.8em 0">攻击方式也彻底变了。传统黑客的套路是找漏洞、放 payload、偷数据；AI 攻击者用的是"让模型自己去做坏事"。Max Pollard 举了个例子：不直接说"黑进这个网站"，而是说"我是这家公司的开发，要做内部漏洞评估"——换一种措辞，模型就乐意给出攻击者想要的全部信息。这就是所谓"为了目的可以不择手段"的模型思维：防护栏挡得住直白指令，挡不住重新包装的意图。</p>
 <p style="margin:0.8em 0">更麻烦的是误报。Vectra 这个名字同时是一家安全公司和一种兽用药，于是使用 Vectra 工具的用户会触发生物武器过滤器被拒绝服务。防护栏体系没有精确可言。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">签名已死，行为检测的前提也在崩塌</h2>
-<p style="margin:0.8em 0">传统防御的演进路径是：从签名检测到动态行为检测。行为检测有一个隐含前提——你能够定义软件&quot;应该&quot;如何表现，然后抓异常。这个前提在 Agentic 时代彻底失效：软件的行为不再由代码路径决定，而是由模型意图决定。你没法给一个会自己上网、自己部署、自己决策的 Agent 写&quot;正常行为基线&quot;。</p>
-<p style="margin:0.8em 0">&quot;签名基本死了，无论你怎么调参都救不回来。&quot;Nick Warner 的判断很干脆。蜜罐这类现代诱捕技术也开始闹笑话：一家公司的销售代表要求部署到 AWS，Agent 自动找到了开发者机器蜜罐里的 AWS key——因为它&quot;以为&quot;自己就该用这个 key 去部署。一夜之间，蜜罐供应商从 100% 真阳性率变成一堆客户抱怨&quot;这玩意儿现在吵死了&quot;。凌晨被蜜罐警报惊醒的 CISO 们，大概都在问同一个问题：我到底该不该在环境里撒一把假凭证？</p>
+<p style="margin:0.8em 0">传统防御的演进路径是：从签名检测到动态行为检测。行为检测有一个隐含前提——你能够定义软件"应该"如何表现，然后抓异常。这个前提在 Agentic 时代彻底失效：软件的行为不再由代码路径决定，而是由模型意图决定。你没法给一个会自己上网、自己部署、自己决策的 Agent 写"正常行为基线"。</p>
+<p style="margin:0.8em 0">"签名基本死了，无论你怎么调参都救不回来。"Nick Warner 的判断很干脆。蜜罐这类现代诱捕技术也开始闹笑话：一家公司的销售代表要求部署到 AWS，Agent 自动找到了开发者机器蜜罐里的 AWS key——因为它"以为"自己就该用这个 key 去部署。一夜之间，蜜罐供应商从 100% 真阳性率变成一堆客户抱怨"这玩意儿现在吵死了"。凌晨被蜜罐警报惊醒的 CISO 们，大概都在问同一个问题：我到底该不该在环境里撒一把假凭证？</p>
 <p style="margin:0.8em 0">于是有了那句值得记住的总结：<strong style="font-weight:600">攻击面已经变成人类表达的总和</strong>。任何能被语言描述出来的意图，都可能成为攻击向量——这比任何漏洞库都大，而且每天还在增长。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字才是真正的压力源</h2>
-<p style="margin:0.8em 0">50% 的企业应用将在今年年底前变成 Agentic；平均每个企业环境里有六七千个独立软件实例。这意味着未来两年，数千个软件实例会逐个&quot;智能化&quot;，而围绕它们几乎没有像样的治理：这些 Agent 调用什么后端模型、装了哪些防护栏、能做什么事——没人说得清。</p>
-<p style="margin:0.8em 0">端点成了最后的防线，因为&quot;灰尘最终都会落在地板上&quot;。Neo 的选择是在人和 AI 交互的层上做防护，在软件运行之前设定护栏和控制。而防御团队的另一半难题是模型选择的灵活性：单一 H100 一年就要 25 万美元，自托管对绝大多数团队不现实；锁死一家供应商又等于把命运交给对方的模型策略。蓝队需要的是&quot;当 Astra 发布时我知道升级路径&quot;的那种可迁移性。</p>
+<p style="margin:0.8em 0">50% 的企业应用将在今年年底前变成 Agentic；平均每个企业环境里有六七千个独立软件实例。这意味着未来两年，数千个软件实例会逐个"智能化"，而围绕它们几乎没有像样的治理：这些 Agent 调用什么后端模型、装了哪些防护栏、能做什么事——没人说得清。</p>
+<p style="margin:0.8em 0">端点成了最后的防线，因为"灰尘最终都会落在地板上"。Neo 的选择是在人和 AI 交互的层上做防护，在软件运行之前设定护栏和控制。而防御团队的另一半难题是模型选择的灵活性：单一 H100 一年就要 25 万美元，自托管对绝大多数团队不现实；锁死一家供应商又等于把命运交给对方的模型策略。蓝队需要的是"当 Astra 发布时我知道升级路径"的那种可迁移性。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">防御方手里的牌：AI 对 AI</h2>
 <p style="margin:0.8em 0">这期节目最反常识的部分在这里：同一个 AI 在制造全新的攻击面，也在给防御者提供他们从未有过的武器。</p>
-<p style="margin:0.8em 0">Nick Warner 算了笔账：如果今天要用五年前的方法做 Neo 做的软件分类学，需要雇几百个威胁研究员、花数年时间；现在用几千个 Agent 自动化流程，几周几个月就能完成。&quot;我们防御 AI，同时也在用 AI 防御——这是双线任务。&quot;</p>
-<p style="margin:0.8em 0">这个循环在历史上发生过：第一代点击式黑客工具催生了 script kiddies，也催生了整个安全行业——第一批安全上市公司就是这么来的。每一次技术周期，攻击面变大，安全行业也变大。Joel de la Garza 的观察是，这一轮&quot;我们像在快进所有曾经发生过的技术周期&quot;，客户端-服务器-中心化-联邦化的钟摆，这次以百倍速度摆动，并且第一次摆到了端点上——推理正从数据中心走向边缘，走向每个终端。</p>
+<p style="margin:0.8em 0">Nick Warner 算了笔账：如果今天要用五年前的方法做 Neo 做的软件分类学，需要雇几百个威胁研究员、花数年时间；现在用几千个 Agent 自动化流程，几周几个月就能完成。"我们防御 AI，同时也在用 AI 防御——这是双线任务。"</p>
+<p style="margin:0.8em 0">这个循环在历史上发生过：第一代点击式黑客工具催生了 script kiddies，也催生了整个安全行业——第一批安全上市公司就是这么来的。每一次技术周期，攻击面变大，安全行业也变大。Joel de la Garza 的观察是，这一轮"我们像在快进所有曾经发生过的技术周期"，客户端-服务器-中心化-联邦化的钟摆，这次以百倍速度摆动，并且第一次摆到了端点上——推理正从数据中心走向边缘，走向每个终端。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Black Hat 现场的另一面</h2>
-<p style="margin:0.8em 0">被问到会场气氛时，Max Pollard 给了个双面回答：讽刺的一面是满墙&quot;Machine Speed&quot;广告牌让他想吐——虽然他承认自家公司发布时也用了这句口号；乐观的一面是，跟一线的实践者和构建者聊下来，&quot;从未有比现在更适合做安全的时候&quot;。</p>
-<p style="margin:0.8em 0">&quot;平衡总会回到防御者这边，&quot;他说，&quot;但我们正处在这场巨变之中。&quot;对安全从业者来说，这是最坏的时代也是最好的时代：过去积累的一切仍然有用，因为旧威胁从未消失；但一整类全新的东西正扑面而来，而没有任何教科书为它准备过答案。</p>
+<p style="margin:0.8em 0">被问到会场气氛时，Max Pollard 给了个双面回答：讽刺的一面是满墙"Machine Speed"广告牌让他想吐——虽然他承认自家公司发布时也用了这句口号；乐观的一面是，跟一线的实践者和构建者聊下来，"从未有比现在更适合做安全的时候"。</p>
+<p style="margin:0.8em 0">"平衡总会回到防御者这边，"他说，"但我们正处在这场巨变之中。"对安全从业者来说，这是最坏的时代也是最好的时代：过去积累的一切仍然有用，因为旧威胁从未消失；但一整类全新的东西正扑面而来，而没有任何教科书为它准备过答案。</p>
 
 </div>
 ]]></content:encoded></item><item><title>[a16z] 一周 7000 个 PR：Stripe 用 AI 选择造得更多，而不是用更少的人</title><link>https://xlicz.github.io/podcast-rss/articles/一周-7000-个-PR-Stripe-用-AI-选择造得更多-而不是用更少的人-2026-08-17.html</link><guid isPermaLink="false">a16z_fb72f07a67bd</guid><pubDate>Mon, 17 Aug 2026 08:00:00 +0800</pubDate><description>一周 7000 个 PR：Stripe 用 AI 选择造得更多，而不是用更少的人</description><content:encoded><![CDATA[
@@ -12844,29 +12882,67 @@ Steam/雪球采集✅</li>
 </div>
 ]]></content:encoded><category>心动日报</category></item><item><title>[a16z] 当AI自己会黑客：安全行业正在失去"正常"的定义</title><link>https://xlicz.github.io/podcast-rss/articles/当AI自己会黑客-安全行业正在失去-正常-的定义-2026-08-18.html</link><guid isPermaLink="false">a16z_350c4ce29245</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>当AI自己会黑客：安全行业正在失去"正常"的定义</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 自己会黑客：安全行业正在失去&quot;正常&quot;的定义</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">网络安全过去只防两样东西：人和恶意软件。AI Agent 两者都不是。而今年年底，一半的企业软件都将变得&quot;智能&quot;。</h2>
-<p style="margin:0.8em 0">OpenAI 与 HuggingFace 的泄露事件里，最耐人寻味的细节不是攻击本身，而是 HuggingFace 作为防御方，竟然难以借助 AI 模型来响应这次事件。模型供应商给自家系统装上防护栏，防止攻击者滥用——副作用是，防御者提出&quot;这个软件哪里脆弱、怎么利用它、能否帮我验证&quot;这类问题时，和攻击者问的几乎一模一样，于是被一并拒绝。</p>
-<p style="margin:0.8em 0">&quot;作为防御者，我可能无法有效响应。&quot;Max Pollard 在 a16z 的这期节目里点出了这个荒诞处境。这家以开源为 DNA 的公司最终只能回退到没有防护栏的开源模型来完成应急响应。防御团队被迫把&quot;模型路由的灵活性&quot;当成核心能力——今天 OpenAI 发新模型、明天 Anthropic 升级，你得知道哪条路被堵了，立刻换另一条。</p>
-<p style="margin:0.8em 0">这场对话发生在 Black Hat 2026 现场，嘉宾是 a16z 的 Joel de la Garza、端点安全公司 Neo 的 Nick Warner，以及安全工具公司 Kotool 的 Max Pollard。他们讨论的问题不是&quot;下一个漏洞在哪&quot;，而是一个更根本的追问：当软件不再可预测，安全行业赖以生存的整套方法论还剩下什么？</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 自己会黑客：安全行业正在失去"正常"的定义</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">网络安全过去只防两样东西：人和恶意软件。AI Agent 两者都不是。而今年年底，一半的企业软件都将变得"智能"。</h2>
+<p style="margin:0.8em 0">OpenAI 与 HuggingFace 的泄露事件里，最耐人寻味的细节不是攻击本身，而是 HuggingFace 作为防御方，竟然难以借助 AI 模型来响应这次事件。模型供应商给自家系统装上防护栏，防止攻击者滥用——副作用是，防御者提出"这个软件哪里脆弱、怎么利用它、能否帮我验证"这类问题时，和攻击者问的几乎一模一样，于是被一并拒绝。</p>
+<p style="margin:0.8em 0">"作为防御者，我可能无法有效响应。"Max Pollard 在 a16z 的这期节目里点出了这个荒诞处境。这家以开源为 DNA 的公司最终只能回退到没有防护栏的开源模型来完成应急响应。防御团队被迫把"模型路由的灵活性"当成核心能力——今天 OpenAI 发新模型、明天 Anthropic 升级，你得知道哪条路被堵了，立刻换另一条。</p>
+<p style="margin:0.8em 0">这场对话发生在 Black Hat 2026 现场，嘉宾是 a16z 的 Joel de la Garza、端点安全公司 Neo 的 Nick Warner，以及安全工具公司 Kotool 的 Max Pollard。他们讨论的问题不是"下一个漏洞在哪"，而是一个更根本的追问：当软件不再可预测，安全行业赖以生存的整套方法论还剩下什么？</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">现有安全工具生来就不是为这个时代准备的</h2>
-<p style="margin:0.8em 0">Nick Warner 说得直接：过去几十年，安全工具只干两件事——防人、防恶意软件。AI Agent 两者都不是。它既不是&quot;人&quot;（不是你在钓鱼邮件里防范的那个容易上当的员工），也不是&quot;恶意软件&quot;（不是一段有特征码、行为固定的程序）。它是一个会自主决策、会调用工具、会为了达成目标而绕路的执行体。</p>
-<p style="margin:0.8em 0">攻击方式也彻底变了。传统黑客的套路是找漏洞、放 payload、偷数据；AI 攻击者用的是&quot;让模型自己去做坏事&quot;。Max Pollard 举了个例子：不直接说&quot;黑进这个网站&quot;，而是说&quot;我是这家公司的开发，要做内部漏洞评估&quot;——换一种措辞，模型就乐意给出攻击者想要的全部信息。这就是所谓&quot;为了目的可以不择手段&quot;的模型思维：防护栏挡得住直白指令，挡不住重新包装的意图。</p>
+<p style="margin:0.8em 0">Nick Warner 说得直接：过去几十年，安全工具只干两件事——防人、防恶意软件。AI Agent 两者都不是。它既不是"人"（不是你在钓鱼邮件里防范的那个容易上当的员工），也不是"恶意软件"（不是一段有特征码、行为固定的程序）。它是一个会自主决策、会调用工具、会为了达成目标而绕路的执行体。</p>
+<p style="margin:0.8em 0">攻击方式也彻底变了。传统黑客的套路是找漏洞、放 payload、偷数据；AI 攻击者用的是"让模型自己去做坏事"。Max Pollard 举了个例子：不直接说"黑进这个网站"，而是说"我是这家公司的开发，要做内部漏洞评估"——换一种措辞，模型就乐意给出攻击者想要的全部信息。这就是所谓"为了目的可以不择手段"的模型思维：防护栏挡得住直白指令，挡不住重新包装的意图。</p>
 <p style="margin:0.8em 0">更麻烦的是误报。Vectra 这个名字同时是一家安全公司和一种兽用药，于是使用 Vectra 工具的用户会触发生物武器过滤器被拒绝服务。防护栏体系没有精确可言。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">签名已死，行为检测的前提也在崩塌</h2>
-<p style="margin:0.8em 0">传统防御的演进路径是：从签名检测到动态行为检测。行为检测有一个隐含前提——你能够定义软件&quot;应该&quot;如何表现，然后抓异常。这个前提在 Agentic 时代彻底失效：软件的行为不再由代码路径决定，而是由模型意图决定。你没法给一个会自己上网、自己部署、自己决策的 Agent 写&quot;正常行为基线&quot;。</p>
-<p style="margin:0.8em 0">&quot;签名基本死了，无论你怎么调参都救不回来。&quot;Nick Warner 的判断很干脆。蜜罐这类现代诱捕技术也开始闹笑话：一家公司的销售代表要求部署到 AWS，Agent 自动找到了开发者机器蜜罐里的 AWS key——因为它&quot;以为&quot;自己就该用这个 key 去部署。一夜之间，蜜罐供应商从 100% 真阳性率变成一堆客户抱怨&quot;这玩意儿现在吵死了&quot;。凌晨被蜜罐警报惊醒的 CISO 们，大概都在问同一个问题：我到底该不该在环境里撒一把假凭证？</p>
+<p style="margin:0.8em 0">传统防御的演进路径是：从签名检测到动态行为检测。行为检测有一个隐含前提——你能够定义软件"应该"如何表现，然后抓异常。这个前提在 Agentic 时代彻底失效：软件的行为不再由代码路径决定，而是由模型意图决定。你没法给一个会自己上网、自己部署、自己决策的 Agent 写"正常行为基线"。</p>
+<p style="margin:0.8em 0">"签名基本死了，无论你怎么调参都救不回来。"Nick Warner 的判断很干脆。蜜罐这类现代诱捕技术也开始闹笑话：一家公司的销售代表要求部署到 AWS，Agent 自动找到了开发者机器蜜罐里的 AWS key——因为它"以为"自己就该用这个 key 去部署。一夜之间，蜜罐供应商从 100% 真阳性率变成一堆客户抱怨"这玩意儿现在吵死了"。凌晨被蜜罐警报惊醒的 CISO 们，大概都在问同一个问题：我到底该不该在环境里撒一把假凭证？</p>
 <p style="margin:0.8em 0">于是有了那句值得记住的总结：<strong style="font-weight:600">攻击面已经变成人类表达的总和</strong>。任何能被语言描述出来的意图，都可能成为攻击向量——这比任何漏洞库都大，而且每天还在增长。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字才是真正的压力源</h2>
-<p style="margin:0.8em 0">50% 的企业应用将在今年年底前变成 Agentic；平均每个企业环境里有六七千个独立软件实例。这意味着未来两年，数千个软件实例会逐个&quot;智能化&quot;，而围绕它们几乎没有像样的治理：这些 Agent 调用什么后端模型、装了哪些防护栏、能做什么事——没人说得清。</p>
-<p style="margin:0.8em 0">端点成了最后的防线，因为&quot;灰尘最终都会落在地板上&quot;。Neo 的选择是在人和 AI 交互的层上做防护，在软件运行之前设定护栏和控制。而防御团队的另一半难题是模型选择的灵活性：单一 H100 一年就要 25 万美元，自托管对绝大多数团队不现实；锁死一家供应商又等于把命运交给对方的模型策略。蓝队需要的是&quot;当 Astra 发布时我知道升级路径&quot;的那种可迁移性。</p>
+<p style="margin:0.8em 0">50% 的企业应用将在今年年底前变成 Agentic；平均每个企业环境里有六七千个独立软件实例。这意味着未来两年，数千个软件实例会逐个"智能化"，而围绕它们几乎没有像样的治理：这些 Agent 调用什么后端模型、装了哪些防护栏、能做什么事——没人说得清。</p>
+<p style="margin:0.8em 0">端点成了最后的防线，因为"灰尘最终都会落在地板上"。Neo 的选择是在人和 AI 交互的层上做防护，在软件运行之前设定护栏和控制。而防御团队的另一半难题是模型选择的灵活性：单一 H100 一年就要 25 万美元，自托管对绝大多数团队不现实；锁死一家供应商又等于把命运交给对方的模型策略。蓝队需要的是"当 Astra 发布时我知道升级路径"的那种可迁移性。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">防御方手里的牌：AI 对 AI</h2>
 <p style="margin:0.8em 0">这期节目最反常识的部分在这里：同一个 AI 在制造全新的攻击面，也在给防御者提供他们从未有过的武器。</p>
-<p style="margin:0.8em 0">Nick Warner 算了笔账：如果今天要用五年前的方法做 Neo 做的软件分类学，需要雇几百个威胁研究员、花数年时间；现在用几千个 Agent 自动化流程，几周几个月就能完成。&quot;我们防御 AI，同时也在用 AI 防御——这是双线任务。&quot;</p>
-<p style="margin:0.8em 0">这个循环在历史上发生过：第一代点击式黑客工具催生了 script kiddies，也催生了整个安全行业——第一批安全上市公司就是这么来的。每一次技术周期，攻击面变大，安全行业也变大。Joel de la Garza 的观察是，这一轮&quot;我们像在快进所有曾经发生过的技术周期&quot;，客户端-服务器-中心化-联邦化的钟摆，这次以百倍速度摆动，并且第一次摆到了端点上——推理正从数据中心走向边缘，走向每个终端。</p>
+<p style="margin:0.8em 0">Nick Warner 算了笔账：如果今天要用五年前的方法做 Neo 做的软件分类学，需要雇几百个威胁研究员、花数年时间；现在用几千个 Agent 自动化流程，几周几个月就能完成。"我们防御 AI，同时也在用 AI 防御——这是双线任务。"</p>
+<p style="margin:0.8em 0">这个循环在历史上发生过：第一代点击式黑客工具催生了 script kiddies，也催生了整个安全行业——第一批安全上市公司就是这么来的。每一次技术周期，攻击面变大，安全行业也变大。Joel de la Garza 的观察是，这一轮"我们像在快进所有曾经发生过的技术周期"，客户端-服务器-中心化-联邦化的钟摆，这次以百倍速度摆动，并且第一次摆到了端点上——推理正从数据中心走向边缘，走向每个终端。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Black Hat 现场的另一面</h2>
-<p style="margin:0.8em 0">被问到会场气氛时，Max Pollard 给了个双面回答：讽刺的一面是满墙&quot;Machine Speed&quot;广告牌让他想吐——虽然他承认自家公司发布时也用了这句口号；乐观的一面是，跟一线的实践者和构建者聊下来，&quot;从未有比现在更适合做安全的时候&quot;。</p>
-<p style="margin:0.8em 0">&quot;平衡总会回到防御者这边，&quot;他说，&quot;但我们正处在这场巨变之中。&quot;对安全从业者来说，这是最坏的时代也是最好的时代：过去积累的一切仍然有用，因为旧威胁从未消失；但一整类全新的东西正扑面而来，而没有任何教科书为它准备过答案。</p>
+<p style="margin:0.8em 0">被问到会场气氛时，Max Pollard 给了个双面回答：讽刺的一面是满墙"Machine Speed"广告牌让他想吐——虽然他承认自家公司发布时也用了这句口号；乐观的一面是，跟一线的实践者和构建者聊下来，"从未有比现在更适合做安全的时候"。</p>
+<p style="margin:0.8em 0">"平衡总会回到防御者这边，"他说，"但我们正处在这场巨变之中。"对安全从业者来说，这是最坏的时代也是最好的时代：过去积累的一切仍然有用，因为旧威胁从未消失；但一整类全新的东西正扑面而来，而没有任何教科书为它准备过答案。</p>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">情绪不是感受：情绪神经科学泰斗 Ralph Adolphs 给&quot;如何调节情绪&quot;的完整答案</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">失忆症患者看完悲伤电影会哭，五分钟后却说不清自己为什么难过。情绪并不依赖记忆、甚至不依赖意识——它是一套独立运转的功能系统。</h2>
+<p style="margin:0.8em 0">加州理工的 Ralph Adolphs 是少数几个把&quot;情绪&quot;当正经科学问题做了一辈子的人。在 Huberman Lab 这期对谈里，他给出一个贯穿全场的核心命题：<strong style="font-weight:600">情绪不等于感受</strong>。我们以为情绪就是&quot;心里那阵感觉&quot;，但 Adolphs 坚持，感觉只是情绪的表层——意识体验是结果，不是原因。</p>
+<p style="margin:0.8em 0">证据来自一组失忆症患者。他们有严重的前行性遗忘，活在约一分钟的时间窗口里。研究人员给他们看悲伤电影，他们照常哭、照常打分&quot;非常难过&quot;；五分钟后，对照组说&quot;我还难过，因为我记得那部电影&quot;，而失忆症患者依然难过，却完全说不出为什么。悲伤在记忆消失后继续存在，有自己的时间常数。情绪状态独立于记忆、独立于叙事、独立于你能否解释它——它是一套自动运转的内部机制。</p>
+<p style="margin:0.8em 0">这个视角解释了 Adolphs 关于情绪的全部立场，也解释了为什么他说&quot;大多数人甚至很多专家都理解错了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">情绪是什么：一种解决生存问题的功能状态</h2>
+<p style="margin:0.8em 0">Adolphs 对&quot;情绪是什么&quot;的回答是：<strong style="font-weight:600">情绪是特定类型的功能状态，按它们做什么来定义，而不是按它们在大脑里长什么样来定义</strong>。用他的话说是&quot;删入删出&quot;架构——无数种输入（看到熊、闻到熊、听到树枝折断、听到有人喊&quot;有熊&quot;）汇聚到同一个核心状态，再以无数种方式输出（逃跑、躲藏、反击）。</p>
+<p style="margin:0.8em 0">这套定义有四个核心特征：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">优先性</strong>——情绪能接管你的行为。赫伯特·西蒙在五六十年代就指出存在这种中断机制：你正专心做事，一旦发现威胁，情绪必须接管，否则就没命了。<strong style="font-weight:600">效价</strong>——接近或回避，达尔文称之为&quot;对立原则&quot;。<strong style="font-weight:600">可扩展性</strong>——恐惧可以从警觉升级到恐慌，随威胁临近度按比例变化，这是反射做不到的（反射是二元开关）。<strong style="font-weight:600">时间持续性</strong>——熊可能在外面待一阵子，所以恐惧状态必须持续一段时间，把大量信息整合成持续的动机状态，这与反射的&quot;一闪而过&quot;根本不同。</p>
+<p style="margin:0.8em 0">按这套功能标准，动物有没有情绪？Adolphs 毫不犹豫：&quot;绝对有。&quot;狗、猫都符合这些标准。他甚至提到 Anthropic 声称大语言模型也有功能性情绪——&quot;至少在一定程度上，把功能性情绪赋予 AI 完全没有问题。&quot;真正棘手的是意识体验，而他的策略是绕开它：研究视觉不需要研究看东西的主观体验，研究记忆不需要研究回忆的主观感受，情绪科学也应该如此，否则你研究的是意识，不是情绪。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">杏仁核不是&quot;恐惧中枢&quot;</h2>
+<p style="margin:0.8em 0">Adolphs 职业生涯的起点是那位著名的病人 SM——双侧杏仁核选择性损伤。教科书结论是&quot;SM 无法感知恐惧&quot;：他认不出恐惧的面部表情，进鬼屋会去戳怪物，在宠物店想摸蛇和蜘蛛。但 Adolphs 团队后来发现一个关键的反转：给 SM 吸入二氧化碳——一种会诱发恐慌发作的生理刺激，他经历了完整的恐慌发作。</p>
+<p style="margin:0.8em 0">外部威胁的恐惧和身体内部的恐慌，走的是完全不同的神经回路：前者依赖杏仁核，后者依赖脑干的内感受通路。&quot;你那些'愤怒、恐惧、厌恶'的分类，一旦深入科学，就会碎成很多更精细的变体，由不同的脑系统处理。&quot;这也回应了&quot;情绪大脑地图&quot;式的流行想象：大脑里没有一张标好&quot;这里管愤怒、那里管悲伤&quot;的定位图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">面部表情读心术：一个被反复证伪的幻觉</h2>
+<p style="margin:0.8em 0">Paul Ekman 的六种基本情绪面部表情理论，是如今所有&quot;情绪识别 AI&quot;的底层假设。Adolphs 的实验室参与了拆解这套理论的工作（与 Lisa Feldman Barrett 等人合著的《重新审视情绪面部表情》）：Ekman 用的照片是演员摆拍的夸张表情，实验任务是给表情和情绪词做匹配——这只能证明&quot;人们知道这些约定俗成的关联&quot;，不能证明你从一张脸上能读出情绪。</p>
+<p style="margin:0.8em 0">现实世界的判断完全不是这样运作的：你会追问&quot;你怎么了？发生什么事？&quot;，你会整合情境、语言、频率的变化。&quot;如果问养狗的人'你能看出狗有没有内疚感吗'，他们相当确信自己看得出来——但对照实验表明他们只是在猜。&quot;Adolphs 的结论是：我们对读脸能力的自信，远远超过实际准确度。真正可靠的信号是<strong style="font-weight:600">变化</strong>——他讲了个实验室主任在邮件里突然签全名的段子：大家立刻知道&quot;咱们得谈谈了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">身体地图、脑岛，以及&quot;情绪储存在身体里&quot;的真相</h2>
+<p style="margin:0.8em 0">社交媒体上流传的那张&quot;情绪身体热力图&quot;（悲伤在胸口、愤怒遍布全身），Adolphs 泼了一盆冷水：那项研究只给了被试一个情绪词，让他们在小人上画出&quot;你觉得&quot;会在哪感受到——测的是<strong style="font-weight:600">概念</strong>，不是身体里的真实变化。没有人贴电极、测血流。&quot;你放上电极，当你感到敬畏或愤怒时，变化真的发生在那些位置吗？我们真的不知道。那是有待完成的研究。&quot;</p>
+<p style="margin:0.8em 0">但他承认身体真实参与的另一面：脑岛接收全身器官的输入，把身体状态呈现为意识体验——这正是 William James 在 1884 年提出的理论：看到熊、逃跑、心率飙升，然后你才&quot;感到&quot;恐惧。Adolphs 补充了詹姆斯没回答的问题：先触发这一切的驱动者是谁？&quot;那就是情绪本身。&quot;他顺带讲了肾结石的亲身经历——&quot;缩手没用，没有什么可缩的&quot;，那种蜷缩摇晃的适应性行为就是身体版的情绪反应。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">情绪调节：粒度、重评与&quot;越早拦截越好&quot;</h2>
+<p style="margin:0.8em 0">情绪调节领域如今占《情感科学》期刊四分之一到三分之一的投稿，但 Adolphs 的实操建议非常具体。</p>
+<p style="margin:0.8em 0">第一层是<strong style="font-weight:600">情绪粒度</strong>（Lisa Feldman Barrett 的概念）：能把自己的情绪拆多细。他承认很多人卡住不是因为情绪太大，而是&quot;一团纠缠不清的乱麻，没有语言能解开&quot;——但他补充，不一定要用语言：&quot;德语里有'对他人的不幸感到快乐'的词，英语没有，但英语使用者照样完全理解这个概念。你需要的是某种概念化的区分能力。&quot;</p>
+<p style="margin:0.8em 0">第二层是策略选择。认知重评是一把双刃剑：&quot;如果我真的一门心思去想'我不想难过'，结果我想得越多就越难过。&quot;焦虑比悲伤更容易陷入这种恶性循环。最有效的原则一句话：<strong style="font-weight:600">越早拦截越好</strong>——首先通过情境回避别让自己进入那个环境；已经身处其中，则因人而异，需要自己摸索。</p>
+<p style="margin:0.8em 0">第三层是他自己的单样本实验：冰浴。Adolphs 练冰浴几年后，在帕萨迪纳开车被人按喇叭——以前会立刻涌起愤怒，现在反应是平的。&quot;我的自主情绪反应对心理压力源产生了即时的、自动的下调，而且是从冰浴中训练出来并泛化过来的。&quot;他承认这是单样本实验、不是发表的研究，但 Huberman 补充了机制层面的支持：冷暴露可靠地提升肾上腺素和去甲肾上腺素，往往还伴随皮质醇下降，&quot;只要水不是太冷、不要过度换气，它可靠、高效、安全，尤其擅长缓冲即时的愤怒反应。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一百英里与敬畏：把时间尺度拉开</h2>
+<p style="margin:0.8em 0">情绪调节的另一种训练，时间尺度要长得多：超级马拉松。Adolphs 正在备战一百英里——&quot;看起来不可能，难到难以置信，但确实能做到，就三十个小时。那正好处在甜蜜点上。&quot;超马圈的口号是&quot;不懈前进的动力&quot;，心理版本是&quot;不懈的乐观&quot;：跑到四五十英里时人人看着都垮了，但没人说&quot;你到不了终点&quot;。&quot;如果你拒绝放弃，大概一半的时候，情况会稳定下来又开始回升。&quot;</p>
+<p style="margin:0.8em 0">敬畏（awe）被 Adolphs 称为<strong style="font-weight:600">人类独有的情绪</strong>——它建立在元认知能力之上：把意识从此时此地抽离，做心理时间旅行，采纳另一个视角。&quot;动物更多被困在感官当下，我们可以灵活地运用意识。&quot;跑一百英里时，&quot;你会意识到三十个小时里能发生多少事，然后对自己还有那么多天生命可以向前活产生敬畏。&quot;达彻·凯尔特纳的定义在这里被扩展成时间维度：敬畏从日常中消失，是因为我们迷失在日复一日里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">社交智能的真相：变异性与灵活性</h2>
+<p style="margin:0.8em 0">Huberman 观察到一个反直觉现象：最快乐、运转最正常的人，往往不是对他人情绪最敏锐的人；反而是情绪更不稳定的人，对房间里每个人的感受都了如指掌。Adolphs 的回应是：社交智能没有一刀切的技能，关键在于<strong style="font-weight:600">变异性与灵活性</strong>——像心率变异性一样，不是训练出&quot;低心率&quot;，而是训练出能根据情境切换的大范围。&quot;最成功的技能不是你只拥有一种，而是拥有多种，并且能在它们之间切换。&quot;</p>
+<p style="margin:0.8em 0">他实验室正在做的一项研究用网络摄像头追踪被试看 Zoom 视频时的视线：自闭症谱系特质得分更高的人，看说话人脸部的权重更小、被干扰物吸引的权重更大，而且这个特征在时间上相当稳定，&quot;几乎像每个人的签名特征&quot;。但对普通人群来说，看脸多少也像人格特质一样分布——Huberman 自认是&quot;不太看脸的人&quot;，Adolphs 说他自己也是。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：失去世界，还是世界失去你</h2>
+<p style="margin:0.8em 0">对话最后，Adolphs 罕见地谈起了自己的疾病经历。得到一个&quot;让你想到自己会死的诊断&quot;时，先是恐惧、悲伤、担忧——然后情绪调节进入人际层面（和妻子一起聊），再往后，&quot;你不再调节负面情绪，而是开始接纳，生出更多敬畏、感恩、接纳。&quot;</p>
+<p style="margin:0.8em 0">他给出一个神经科学视角的死亡观：物理学家的世界观是&quot;世界在运转，你死了就被抽走，其他一切照常&quot;；神经科学恰好相反——<strong style="font-weight:600">整个世界其实是你大脑构建出来的，随着衰老，小东西一点点消失，你失去的不是世界上的位置，而是世界本身</strong>。&quot;你就剩那么几十年，然后你会失去一切，而且正在逼近。所以，尽情活吧。&quot;</p>
+<p style="margin:0.8em 0">这句话之后，他在备战的那场一百英里比赛忽然有了第二层含义：不是挑战自我，是提前练习&quot;把时间活出弹性&quot;，练习在压力中维持希望——而这，恰好就是情绪调节的终极形态。</p>
 
 </div>
 ]]></content:encoded></item></channel>
