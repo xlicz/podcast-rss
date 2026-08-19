@@ -1,7 +1,56 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 23:00:58 +0800</lastBuildDate><item><title>[张小珺Jùn｜商业访谈录] 17岁，论文被ICML收录：一个高中生的AI世界观</title><link>https://xlicz.github.io/podcast-rss/articles/17岁-论文被ICML收录-一个高中生的AI世界观-2026-08-19.html</link><guid isPermaLink="false">zhang-xiaojun_895c7d29736c</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>17岁，论文被ICML收录：一个高中生的AI世界观</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 23:11:24 +0800</lastBuildDate><item><title>['跨国串门儿计划'] 为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</title><link>https://xlicz.github.io/podcast-rss/articles/为什么中国开源模型正在碾压美国--OpenRouter-CEO-的认输式判断-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b8a881bed41c</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</h1>
+<p style="margin:0.8em 0">副标题：一个每天看着全球模型流量数据的路由器 CEO，用 7 月 70 个新模型、GLM 5.2、以及&quot;价格降 10 倍、用量涨 13 倍&quot;的杰文斯悖论实证，解释美国开源生态的结构性困境。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">每十小时一个新模型，美国&quot;非常非常落后&quot;</h2>
+<p style="margin:0.8em 0">2026 年 7 月，OpenRouter 上线了 70 个新模型——差不多每十小时一个。联合创始人兼 CEO Alex Atallah 在 20VC 的访谈里给美国开源模型生态下的判断毫不留情：&quot;美国还非常非常落后。&quot;</p>
+<p style="margin:0.8em 0">这个判断出自一个特殊位置的人。OpenRouter 是连接全球大模型与开发者的路由器：开发者通过它调用各家模型，它能看到全市场真实的 token 流量、留存率和流失率。Alex 此前是 NFT 市场 OpenSea 的联合创始人，经历过加密世界流量暴增时&quot;服务器快融化、搜索索引爆炸&quot;的扩容地狱，他说那段经历把基础设施能力&quot;刻进了骨子里&quot;——而这正是路由器生意最重要的能力：永远在线、扛得住不可预测的流量高峰。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">国家冠军 vs 商业模式存疑：不对称的竞争环境</h2>
+<p style="margin:0.8em 0">Alex 对中美开源差距的解释，不是技术单点，而是体制性的。</p>
+<p style="margin:0.8em 0">在中国，DeepSeek 一旦成为&quot;国家冠军&quot;，一切都不一样了：监管被推到一边，政策被搁置，资金全部可用，&quot;这些人为了达到最终目标，可以不受任何约束地做任何想做的事&quot;。</p>
+<p style="margin:0.8em 0">反观美国开源实验室：&quot;你得试着为一家美国开源模型公司筹集数十亿美元——有点难，其实也不是完全不可能，但却是更难。商业模式存疑，AI 研究极其昂贵，而且你还在和 OpenAI、Anthropic 竞争。&quot;</p>
+<p style="margin:0.8em 0">他由此得出一个让美国人不舒服的结论：<strong style="font-weight:600">中国开源提供商天生就有优势</strong>。&quot;他们有非常非常优秀的研究人员，我觉得美国人严重低估了这一点。&quot;</p>
+<p style="margin:0.8em 0">对话里最有信息量的一段，是关于中国模型&quot;内外有别&quot;的观察：中国模型在海外的能力显然非常强，但在中国境内的能力其实相对有限——护栏极其严格。他引述朋友 Jason Lamkin 的测试：在 DeepSeek 上，连星巴克几点开门都查不到。&quot;讽刺的是，他们在海外比我们强得多，但在国内却很糟糕。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">杰文斯悖论的一个干净案例：价格降 10 倍，用量涨 13 倍</h2>
+<p style="margin:0.8em 0">Alex 给了一个难得的自然实验。OpenAI 的 GPT-5.6 Luna：先官方降价 5 倍，再与 OpenRouter 配合降 2 倍，两周内价格总共降了 10 倍。结果使用量涨了 13 倍，而且在 13 倍的位置稳定住了。</p>
+<p style="margin:0.8em 0">&quot;这几乎是一个完美的杰文斯悖论案例&quot;，而且变量很少——这件事同时发生在 DeepSeek 发布超低价、GLM 价格也很低的时候。Luna 由此成为 OpenAI 的模型在极长一段时间里第一次进入 OpenRouter 按 token 量排名的前三到前五。</p>
+<p style="margin:0.8em 0">关于 GLM 5.2 和 Kimi（月之暗面），他的评价是：GLM 5.2 对开放权重模型来说是&quot;非常大的一步&quot;；Kimi &quot;有点像是月之暗面终于追上了这一步&quot;。他还特别夸了 Kimi 的写作：&quot;有些前沿模型在编程能力变强之后，文风反而退化，输出根本读不下去——四个论点里三个是对的，一个是转折点，然后巴拉巴拉巴拉。&quot;而 Kimi 的语气和文风一直相当好。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Token 不等于 Token：推理提供商这一层为什么不会消失</h2>
+<p style="margin:0.8em 0">很多人认为推理提供商（Fireworks、Together 这类托管开放权重模型的公司）是可以被商品化、最终被利润竞争压垮的一层。Alex 明确反对，理由分两层。</p>
+<p style="margin:0.8em 0">第一，现在是严重供给受限的市场，&quot;所有推理提供商都缺货，几乎一直缺货&quot;。而英伟达最优先的事之一就是不能有客户集中度——&quot;造 GPU 的人不想这样&quot;，他们希望算力层上有竞争，这对生态是好事。</p>
+<p style="margin:0.8em 0">第二，他引用 Fireworks 的 Len 纠正 Gavin Baker 的一句话：&quot;Token 就是 Token&quot;是错的——<strong style="font-weight:600">同一个 Token，有的提供商能让它走得更远</strong>。就像去商店，你可以绕整个街区开一圈，也可以直接停在门口。这是推理提供商的核心价值：让 token 更高效。</p>
+<p style="margin:0.8em 0">OpenRouter 的角色是让好提供商立刻获得流量：&quot;每五分钟，大模型就会有大的变化。一旦检测到质量提升、速度变快或降价，它马上就会获得更多流量。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">做路由器的陷阱：潮流会让你输</h2>
+<p style="margin:0.8em 0">Alex 对蜂拥而入做路由器的公司很不客气：&quot;很多公司都在做路由器，因为这是潮流。&quot;两个问题：第一，它立刻让你陷入模仿心态——&quot;为了存在而存在，而不是为了赢&quot;；第二，它削弱了用户的杠杆——如果构建在不能给你完整市场、完整灵活性的网关之上，你就被边缘化了。</p>
+<p style="margin:0.8em 0">OpenRouter 的收费模式也值得注意：按量付费计划收 5.5% 抽成，企业版是承诺消费（不收手续费）。Alex 承认定价模型做得不够细，很快会推出面向企业的自助服务计划。他自己带推理（自带密钥）则完全免费——这个设计让成本敏感的大客户不至于&quot;规模上来就自己搭路由器&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Claude Design 是战略棋：中间层公司最迫近的威胁</h2>
+<p style="margin:0.8em 0">Alex 对&quot;围绕智能做市场拓展壳&quot;的创业公司发出明确警告：只要模型实验室不在乎那个市场，你就没事；但模型实验室有好几个动机最终会来追你——&quot;让他们在乎的那些公司里的多个团队依赖上他们的模型&quot;。</p>
+<p style="margin:0.8em 0">他把 Anthropic 收购 Claude Design 解读为一步战略棋：&quot;虽然给 Anthropic 带来的收入可能不算可观，但它让设计团队真正开始在乎 Anthropic 的模型。对那些他们想要的客户，现在又多了一个团队想留在 Anthropic 这边。&quot;这种团队策略，会让你跟模型实验室正面竞争——这是中间层公司最迫在眉睫的威胁。</p>
+<p style="margin:0.8em 0">不过他对 Claude Design 蚕食 Figma 的说法存疑：&quot;我确实看到很多设计师试了，但到目前为止，我还没听到有谁反复用下去的故事。而且 Figma 的财报非常非常亮眼。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">员工成本正在变成一个动态数字</h2>
+<p style="margin:0.8em 0">Alex 最出圈的观察在最后：AI 时代的员工成本。&quot;以前你发工资，然后基本就不用管了，那是个固定数字，可能每季度调一次。现在你的员工成本完全是动态的——每个人花公司多少推理钱，取决于他用没用对模型。&quot;</p>
+<p style="margin:0.8em 0">他给公司的建议是一张四象限图：横轴是效率/产出，纵轴是成本效益。活干得好、性价比高的象限&quot;值得表扬&quot;；活干得一般、AI 失控的象限&quot;值得警惕&quot;，然后去处理那个象限。员工对自己的成本有掌控权，&quot;他们能控制自己花多少钱&quot;——这句话让个人规划变得很有趣，但也让&quot;你上个月值十万，这个月只值五万&quot;成为可能。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收尾：22 亿的诱惑与开放生态的信仰</h2>
+<p style="margin:0.8em 0">关于 Stripe 以 100 亿美元收购的传闻（他融资时估值已超 15 亿），Alex 拒绝评论：&quot;这个我没法说。但不管发生什么，我们都会把愿景执行下去。&quot;</p>
+<p style="margin:0.8em 0">主持人算了一笔账：22% 的股份，100 亿的 22%，就是 22 亿。Alex 的回答很平静：&quot;我其实不太想这些。我个人花不了多少钱。我真正想的是拿个人资本去做什么——帮人们解决那些不太适合风险投资的问题，它们正好落在灰色地带。&quot;</p>
+<p style="margin:0.8em 0">他相信多模型的未来不可避免：没有人能造出一个赢下全部的模型，所以&quot;不如造一个模型，让它以擅长某件非常有用的事出名&quot;。他对美国新实验室的建议更具体：多跟美国实验室聊蒸馏中国模型的实战效果——开放权重模型允许蒸馏，蒸馏时能看到输出、可以检查对齐；而算力优势&quot;我们保持不了多久&quot;，DeepSeek 和字节跳动都在 aggressively 搞自己的芯片，出口管制逼得他们不得不这么做。</p>
+<p style="margin:0.8em 0">&quot;他们要是四个星期能建一座桥，我觉得六个月就能搞出一块芯片。在芯片竞赛上保持领先，对美国来说至关重要。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国开源对美国的碾压是体制性的：国家冠军模式（监管放开+资金集中）对垒&quot;商业模式存疑+融资艰难&quot;，不是单点技术差距</li>
+<li style="margin:0.3em 0">杰文斯悖论有干净案例：GPT-5.6 Luna 价格降 10 倍、用量涨 13 倍且稳定——推理需求远未被满足，降价只会放大总消费</li>
+<li style="margin:0.3em 0">推理提供商层不会商品化：供给受限 + 英伟达刻意维持客户多样性 + &quot;token 不等于 token&quot;的效率竞争</li>
+<li style="margin:0.3em 0">做路由器的公司大多会输：模仿心态 + 削弱用户杠杆，OpenRouter 的护城河是全市场的模型覆盖与实时路由</li>
+<li style="margin:0.3em 0">模型实验室收购（Claude Design 式）是中间层公司最迫近的威胁：团队策略会让你的产品与实验室正面竞争</li>
+<li style="margin:0.3em 0">AI 时代的员工成本是动态数字：四象限管理（效率×成本效益）可能取代固定薪资管理</li>
+<li style="margin:0.3em 0">美国算力优势窗口有限：出口管制正在倒逼中国自研芯片，蒸馏+政策扶持让中国开源生态具备结构性优势</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[张小珺Jùn｜商业访谈录] 17岁，论文被ICML收录：一个高中生的AI世界观</title><link>https://xlicz.github.io/podcast-rss/articles/17岁-论文被ICML收录-一个高中生的AI世界观-2026-08-19.html</link><guid isPermaLink="false">zhang-xiaojun_895c7d29736c</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>17岁，论文被ICML收录：一个高中生的AI世界观</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">17岁，论文被ICML收录：一个高中生的AI世界观</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：高二学生苏廷浩独立完成了关于Attention机制的预训练研究，论文被ICML 2026主会议接收。他先说出的却是另一件事：参数没调好，白白浪费了一千五百块。</strong></p>
@@ -12388,7 +12437,7 @@ Steam/雪球采集✅</li>
 残差 -44%低位（与昨持平）</li>
 <li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E影响: 无修正</strong>——
 今日13条无新E主张；17:51首次
-自认&quot;选动子结果不算成功&quot;=承认
+自认"选动子结果不算成功"=承认
 递进（加深），方向偏空但无金额</li>
 <li style="margin:0.3em 0">最值得注意: ①国际服回落第4日
 ②他首次自认选股结果不佳 ③明日
@@ -12542,7 +12591,7 @@ tap+adn -1亿，与③同向）；①②
 <li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（13条中0条达E
 修正标准；无新E/流水主张）</li>
 <li style="margin:0.3em 0">方向信号: 利好0 / 利空1（17:51
-自认选股&quot;不算成功&quot;）/ 中性12</li>
+自认选股"不算成功"）/ 中性12</li>
 <li style="margin:0.3em 0">可靠度: 🟡中——承认递进真实✅；
 但无定量新信息；行业发言占比高
 （10/13条）</li>
@@ -12550,46 +12599,46 @@ tap+adn -1亿，与③同向）；①②
 （另10条无心动事实主张）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（8-19新增13条）</h3>
-<p style="margin:0.8em 0">📌 10:22 &quot;米的财报大涨&quot; | ⚪ 行业</p>
+<p style="margin:0.8em 0">📌 10:22 "米的财报大涨" | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;米的财报还是大涨的，果然只要
-预期足够低，有边际改善就行&quot;
-主张: 某&quot;米&quot;系公司财报预期差逻辑
+<p style="margin:0.8em 0">"米的财报还是大涨的，果然只要
+预期足够低，有边际改善就行"
+主张: 某"米"系公司财报预期差逻辑
 核查: 非心动标的；无独立数据需求
 结论: 对E无影响
 对错: 不判（非心动口径）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 10:41 吉比特仗剑出海 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;吉比特欧美服仗剑跑出来后，可以
+<p style="margin:0.8em 0">"吉比特欧美服仗剑跑出来后，可以
 抵消国服港澳台日服下滑…韩服也会
-支持&quot;
+支持"
 主张: 吉比特海外版可抵消国内下滑
 核查: 非心动标的；RO系联动待验证
 结论: 对E无影响
 对错: 不判（非心动口径）</p>
 </blockquote>
-<p style="margin:0.8em 0">📌 10:52 估值框架&quot;稳态20亿×14倍&quot; | 🟡</p>
+<p style="margin:0.8em 0">📌 10:52 估值框架"稳态20亿×14倍" | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;按稳态20亿左右去估算，所以估值
-14倍左右 正常估值&quot;
+<p style="margin:0.8em 0">"按稳态20亿左右去估算，所以估值
+14倍左右 正常估值"
 主张: 稳态E 20亿 → 14倍PE = 280亿
-属&quot;正常估值&quot;（语境: 吉比特）
+属"正常估值"（语境: 吉比特）
 核查: ❓吉比特市值/稳态E无公开
-即时数据；框架与8-18&quot;20亿左右&quot;
+即时数据；框架与8-18"20亿左右"
 口径同源（他给心动的26E）
 对照: 若套用到心动: 20亿×14=280亿
 港元 vs 现价193亿 → 隐含+45%空间；
 但估值结论折扣30%后≈196亿
 ≈现价193亿，无上修空间
 结论: 对E无修正；叙事锚定记录
-（估值框架连续2日使用&quot;20亿&quot;）
+（估值框架连续2日使用"20亿"）
 对错: ❓不可证伪（自估稳态+非心动）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 12:09 诡秘PC下载/跨端 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;诡秘的pc下载比例看起来还可以
-确实重点是腾网后面的厂的跨端产品&quot;
+<p style="margin:0.8em 0">"诡秘的pc下载比例看起来还可以
+确实重点是腾网后面的厂的跨端产品"
 主张: 跨端发行是行业重点（tap pc
 直售叙事同源，但对象非心动）
 结论: 对E无影响（间接印证tap pc
@@ -12604,8 +12653,8 @@ tap+adn -1亿，与③同向）；①②
 对错: 不判</p>
 <p style="margin:0.8em 0">📌 16:33 诡秘vs遗忘之海 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;诡秘会比遗忘之海要好一些…冲着
-ip+mmo去的…对快手影响极小&quot;
+<p style="margin:0.8em 0">"诡秘会比遗忘之海要好一些…冲着
+ip+mmo去的…对快手影响极小"
 主张: 快手新游表现判断
 核查: 非心动标的
 结论: 对E无影响
@@ -12613,8 +12662,8 @@ ip+mmo去的…对快手影响极小&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 17:34 快手扣非下滑35% | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;慢脚…扣非净利润估计从去年的
-193亿下滑35%到120-130亿&quot;
+<p style="margin:0.8em 0">"慢脚…扣非净利润估计从去年的
+193亿下滑35%到120-130亿"
 主张: 快手26年扣非120-130亿(-35%)
 核查: ❓无独立数据即时核验；快手
 财报为公开信息但非心动核心
@@ -12624,27 +12673,27 @@ ip+mmo去的…对快手影响极小&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 17:51 自认选股结果不佳 | 🟡 核心条</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;所以最后选的是动子和团子，目前
+<p style="margin:0.8em 0">"所以最后选的是动子和团子，目前
 的结果看不算成功…年中时候说可以
-对下半年乐观一些&quot;
-主张: 自认&quot;选动子不算成功&quot;；维持
-下半年乐观；&quot;只能做阿尔法&quot;
+对下半年乐观一些"
+主张: 自认"选动子不算成功"；维持
+下半年乐观；"只能做阿尔法"
 核查: 自陈行为（非事实主张）；与
-8-17&quot;压力/怕坑人&quot;构成承认递进
+8-17"压力/怕坑人"构成承认递进
 对照: 表5 8-17行 → 承认颗粒度加深
-（压力→结果不佳）；带转折&quot;下半年
-比上半年好&quot;；归因外移&quot;动子股东
-砍了反手买慢脚&quot;（21:10）
+（压力→结果不佳）；带转折"下半年
+比上半年好"；归因外移"动子股东
+砍了反手买慢脚"（21:10）
 结论: 对E无修正；情绪/叙事层负向
 承认，登记表5（已追加8-19行）
 对错: 不判（自陈无事实主张）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 19:56 异环首年40亿 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;异环看起来首年流水40亿左右，
-和我当时开服看了几天估得数差不多&quot;
+<p style="margin:0.8em 0">"异环看起来首年流水40亿左右，
+和我当时开服看了几天估得数差不多"
 主张: 异环首年流水~40亿（开服前
-&quot;大几十亿&quot;预期过高）
+"大几十亿"预期过高）
 核查: ❓异环流水无公开数据；非心动
 标的（TapTap热玩#10，同平台而已）
 结论: 对E无影响
@@ -12652,8 +12701,8 @@ ip+mmo去的…对快手影响极小&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 21:10 动子股东反手买慢脚 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;不少动子股东看不起动子，砍了
-动子结果反手买慢脚&quot;
+<p style="margin:0.8em 0">"不少动子股东看不起动子，砍了
+动子结果反手买慢脚"
 主张: 股东行为观察（看空动子者
 买快手被套）
 核查: 归因外移（股东错非公司错）；
@@ -12663,8 +12712,8 @@ ip+mmo去的…对快手影响极小&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 21:11 高资本开支警示 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;收入一旦没增长，高资本开支导致
-折旧摊销增加会让报表直接崩了&quot;
+<p style="margin:0.8em 0">"收入一旦没增长，高资本开支导致
+折旧摊销增加会让报表直接崩了"
 主张: 行业方法论（高资本开支公司
 收入停滞则报表崩）
 核查: 与心动无关（心动无此特征），
@@ -12674,8 +12723,8 @@ ip+mmo去的…对快手影响极小&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 21:54 避开字节直面竞争 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;选择国内互联网公司，要避免核心
-业务直面字节竞争的&quot;
+<p style="margin:0.8em 0">"选择国内互联网公司，要避免核心
+业务直面字节竞争的"
 主张: 选股方法论（避免与字节正面
 竞争的核心业务）
 核查: 若推论到tap=直面抖音竞争，
@@ -12717,18 +12766,18 @@ ip+mmo去的…对快手影响极小&quot;
 </table></div>
 <p style="margin:0.8em 0">明细:</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">报忧必带转折: 17:51 &quot;不算成功&quot;→
-&quot;下半年比上半年好/只能做阿尔法&quot;</li>
-<li style="margin:0.3em 0">归因外移: 21:10 &quot;动子股东看不起
-动子砍了反手买慢脚&quot;（股东错非
+<li style="margin:0.3em 0">报忧必带转折: 17:51 "不算成功"→
+"下半年比上半年好/只能做阿尔法"</li>
+<li style="margin:0.3em 0">归因外移: 21:10 "动子股东看不起
+动子砍了反手买慢脚"（股东错非
 公司错）；17:34大厂业绩差=外因</li>
-<li style="margin:0.3em 0">承认递进: 加深——8-17&quot;压力/怕坑
-人&quot;→8-19&quot;选动子结果不算成功&quot;
+<li style="margin:0.3em 0">承认递进: 加深——8-17"压力/怕坑
+人"→8-19"选动子结果不算成功"
 （首次自认选股结果不佳）</li>
 <li style="margin:0.3em 0">预测更新: 无（8-18 E下修已登记
 表2#23；今日无新预测）</li>
-<li style="margin:0.3em 0">历史锚定: 17:51 &quot;去年底和年初就
-反复强调过&quot;&quot;年中时候说&quot;</li>
+<li style="margin:0.3em 0">历史锚定: 17:51 "去年底和年初就
+反复强调过""年中时候说"</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
 <ul style="padding-left:1.5em">
@@ -12747,14 +12796,14 @@ ip+mmo去的…对快手影响极小&quot;
 <li style="margin:0.3em 0">对冲叙事Σ验证+50%: 不适用（今日
 无对冲叙事；8-18空头复述已判）</li>
 <li style="margin:0.3em 0">估值结论30%: <strong style="font-weight:600">适用</strong>——10:52
-&quot;稳态20亿×14倍=280亿&quot;若套心动，
+"稳态20亿×14倍=280亿"若套心动，
 折30%后≈196亿 ≈ 现价193亿，
 无上修空间；不构成E修正</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 8-19~9-02）</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">8-21: 火炬专家服（明日！他8-17
-自陈&quot;看能否挺畅销10天&quot;；Steam
+自陈"看能否挺畅销10天"；Steam
 今日续回落-6.8%）</li>
 <li style="margin:0.3em 0">8-21: 诡秘手游上线（行业，tap
 预约#1；他今日两评）</li>
@@ -12775,7 +12824,7 @@ RO韩服贡献、利润率20-30vs30-40）</li>
 东南亚核心区（泰#8/印尼#19/菲#12）
 是否跌破8-12基线（20/30/29）=
 脉冲退潮vs真实下滑裁决点；②8-21
-火炬专家服首日榜单；③&quot;20亿×14倍&quot;
+火炬专家服首日榜单；③"20亿×14倍"
 估值框架是否被用于心动（若出现=
 报喜叙事启动）</li>
 <li style="margin:0.3em 0">验证路径: 8-20第11采样点；8-21
@@ -12812,10 +12861,10 @@ RO韩服贡献、利润率20-30vs30-40）</li>
 观察升级，再3日同向=满1周）</li>
 <li style="margin:0.3em 0">出榜: 有——法国（今日新出榜）；
 美/德/英/越连续5日无</li>
-<li style="margin:0.3em 0">新承认: <strong style="font-weight:600">有</strong>——17:51&quot;选动子和
-团子，目前的结果看不算成功&quot;
+<li style="margin:0.3em 0">新承认: <strong style="font-weight:600">有</strong>——17:51"选动子和
+团子，目前的结果看不算成功"
 （首次自认选股结果不佳；8-17
-&quot;压力/怕坑人&quot;→8-19&quot;不算成功&quot;，
+"压力/怕坑人"→8-19"不算成功"，
 表5已登记）</li>
 <li style="margin:0.3em 0">预测下修: 无新增（8-18已登记
 表2#23：26E 20-22→19-21亿，
@@ -12827,5 +12876,54 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>['跨国串门儿计划'] 为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</title><link>https://xlicz.github.io/podcast-rss/articles/为什么中国开源模型正在碾压美国--OpenRouter-CEO-的认输式判断-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b8a881bed41c</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">为什么中国开源模型正在碾压美国——OpenRouter CEO 的认输式判断</h1>
+<p style="margin:0.8em 0">副标题：一个每天看着全球模型流量数据的路由器 CEO，用 7 月 70 个新模型、GLM 5.2、以及&quot;价格降 10 倍、用量涨 13 倍&quot;的杰文斯悖论实证，解释美国开源生态的结构性困境。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">每十小时一个新模型，美国&quot;非常非常落后&quot;</h2>
+<p style="margin:0.8em 0">2026 年 7 月，OpenRouter 上线了 70 个新模型——差不多每十小时一个。联合创始人兼 CEO Alex Atallah 在 20VC 的访谈里给美国开源模型生态下的判断毫不留情：&quot;美国还非常非常落后。&quot;</p>
+<p style="margin:0.8em 0">这个判断出自一个特殊位置的人。OpenRouter 是连接全球大模型与开发者的路由器：开发者通过它调用各家模型，它能看到全市场真实的 token 流量、留存率和流失率。Alex 此前是 NFT 市场 OpenSea 的联合创始人，经历过加密世界流量暴增时&quot;服务器快融化、搜索索引爆炸&quot;的扩容地狱，他说那段经历把基础设施能力&quot;刻进了骨子里&quot;——而这正是路由器生意最重要的能力：永远在线、扛得住不可预测的流量高峰。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">国家冠军 vs 商业模式存疑：不对称的竞争环境</h2>
+<p style="margin:0.8em 0">Alex 对中美开源差距的解释，不是技术单点，而是体制性的。</p>
+<p style="margin:0.8em 0">在中国，DeepSeek 一旦成为&quot;国家冠军&quot;，一切都不一样了：监管被推到一边，政策被搁置，资金全部可用，&quot;这些人为了达到最终目标，可以不受任何约束地做任何想做的事&quot;。</p>
+<p style="margin:0.8em 0">反观美国开源实验室：&quot;你得试着为一家美国开源模型公司筹集数十亿美元——有点难，其实也不是完全不可能，但却是更难。商业模式存疑，AI 研究极其昂贵，而且你还在和 OpenAI、Anthropic 竞争。&quot;</p>
+<p style="margin:0.8em 0">他由此得出一个让美国人不舒服的结论：<strong style="font-weight:600">中国开源提供商天生就有优势</strong>。&quot;他们有非常非常优秀的研究人员，我觉得美国人严重低估了这一点。&quot;</p>
+<p style="margin:0.8em 0">对话里最有信息量的一段，是关于中国模型&quot;内外有别&quot;的观察：中国模型在海外的能力显然非常强，但在中国境内的能力其实相对有限——护栏极其严格。他引述朋友 Jason Lamkin 的测试：在 DeepSeek 上，连星巴克几点开门都查不到。&quot;讽刺的是，他们在海外比我们强得多，但在国内却很糟糕。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">杰文斯悖论的一个干净案例：价格降 10 倍，用量涨 13 倍</h2>
+<p style="margin:0.8em 0">Alex 给了一个难得的自然实验。OpenAI 的 GPT-5.6 Luna：先官方降价 5 倍，再与 OpenRouter 配合降 2 倍，两周内价格总共降了 10 倍。结果使用量涨了 13 倍，而且在 13 倍的位置稳定住了。</p>
+<p style="margin:0.8em 0">&quot;这几乎是一个完美的杰文斯悖论案例&quot;，而且变量很少——这件事同时发生在 DeepSeek 发布超低价、GLM 价格也很低的时候。Luna 由此成为 OpenAI 的模型在极长一段时间里第一次进入 OpenRouter 按 token 量排名的前三到前五。</p>
+<p style="margin:0.8em 0">关于 GLM 5.2 和 Kimi（月之暗面），他的评价是：GLM 5.2 对开放权重模型来说是&quot;非常大的一步&quot;；Kimi &quot;有点像是月之暗面终于追上了这一步&quot;。他还特别夸了 Kimi 的写作：&quot;有些前沿模型在编程能力变强之后，文风反而退化，输出根本读不下去——四个论点里三个是对的，一个是转折点，然后巴拉巴拉巴拉。&quot;而 Kimi 的语气和文风一直相当好。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Token 不等于 Token：推理提供商这一层为什么不会消失</h2>
+<p style="margin:0.8em 0">很多人认为推理提供商（Fireworks、Together 这类托管开放权重模型的公司）是可以被商品化、最终被利润竞争压垮的一层。Alex 明确反对，理由分两层。</p>
+<p style="margin:0.8em 0">第一，现在是严重供给受限的市场，&quot;所有推理提供商都缺货，几乎一直缺货&quot;。而英伟达最优先的事之一就是不能有客户集中度——&quot;造 GPU 的人不想这样&quot;，他们希望算力层上有竞争，这对生态是好事。</p>
+<p style="margin:0.8em 0">第二，他引用 Fireworks 的 Len 纠正 Gavin Baker 的一句话：&quot;Token 就是 Token&quot;是错的——<strong style="font-weight:600">同一个 Token，有的提供商能让它走得更远</strong>。就像去商店，你可以绕整个街区开一圈，也可以直接停在门口。这是推理提供商的核心价值：让 token 更高效。</p>
+<p style="margin:0.8em 0">OpenRouter 的角色是让好提供商立刻获得流量：&quot;每五分钟，大模型就会有大的变化。一旦检测到质量提升、速度变快或降价，它马上就会获得更多流量。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">做路由器的陷阱：潮流会让你输</h2>
+<p style="margin:0.8em 0">Alex 对蜂拥而入做路由器的公司很不客气：&quot;很多公司都在做路由器，因为这是潮流。&quot;两个问题：第一，它立刻让你陷入模仿心态——&quot;为了存在而存在，而不是为了赢&quot;；第二，它削弱了用户的杠杆——如果构建在不能给你完整市场、完整灵活性的网关之上，你就被边缘化了。</p>
+<p style="margin:0.8em 0">OpenRouter 的收费模式也值得注意：按量付费计划收 5.5% 抽成，企业版是承诺消费（不收手续费）。Alex 承认定价模型做得不够细，很快会推出面向企业的自助服务计划。他自己带推理（自带密钥）则完全免费——这个设计让成本敏感的大客户不至于&quot;规模上来就自己搭路由器&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Claude Design 是战略棋：中间层公司最迫近的威胁</h2>
+<p style="margin:0.8em 0">Alex 对&quot;围绕智能做市场拓展壳&quot;的创业公司发出明确警告：只要模型实验室不在乎那个市场，你就没事；但模型实验室有好几个动机最终会来追你——&quot;让他们在乎的那些公司里的多个团队依赖上他们的模型&quot;。</p>
+<p style="margin:0.8em 0">他把 Anthropic 收购 Claude Design 解读为一步战略棋：&quot;虽然给 Anthropic 带来的收入可能不算可观，但它让设计团队真正开始在乎 Anthropic 的模型。对那些他们想要的客户，现在又多了一个团队想留在 Anthropic 这边。&quot;这种团队策略，会让你跟模型实验室正面竞争——这是中间层公司最迫在眉睫的威胁。</p>
+<p style="margin:0.8em 0">不过他对 Claude Design 蚕食 Figma 的说法存疑：&quot;我确实看到很多设计师试了，但到目前为止，我还没听到有谁反复用下去的故事。而且 Figma 的财报非常非常亮眼。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">员工成本正在变成一个动态数字</h2>
+<p style="margin:0.8em 0">Alex 最出圈的观察在最后：AI 时代的员工成本。&quot;以前你发工资，然后基本就不用管了，那是个固定数字，可能每季度调一次。现在你的员工成本完全是动态的——每个人花公司多少推理钱，取决于他用没用对模型。&quot;</p>
+<p style="margin:0.8em 0">他给公司的建议是一张四象限图：横轴是效率/产出，纵轴是成本效益。活干得好、性价比高的象限&quot;值得表扬&quot;；活干得一般、AI 失控的象限&quot;值得警惕&quot;，然后去处理那个象限。员工对自己的成本有掌控权，&quot;他们能控制自己花多少钱&quot;——这句话让个人规划变得很有趣，但也让&quot;你上个月值十万，这个月只值五万&quot;成为可能。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收尾：22 亿的诱惑与开放生态的信仰</h2>
+<p style="margin:0.8em 0">关于 Stripe 以 100 亿美元收购的传闻（他融资时估值已超 15 亿），Alex 拒绝评论：&quot;这个我没法说。但不管发生什么，我们都会把愿景执行下去。&quot;</p>
+<p style="margin:0.8em 0">主持人算了一笔账：22% 的股份，100 亿的 22%，就是 22 亿。Alex 的回答很平静：&quot;我其实不太想这些。我个人花不了多少钱。我真正想的是拿个人资本去做什么——帮人们解决那些不太适合风险投资的问题，它们正好落在灰色地带。&quot;</p>
+<p style="margin:0.8em 0">他相信多模型的未来不可避免：没有人能造出一个赢下全部的模型，所以&quot;不如造一个模型，让它以擅长某件非常有用的事出名&quot;。他对美国新实验室的建议更具体：多跟美国实验室聊蒸馏中国模型的实战效果——开放权重模型允许蒸馏，蒸馏时能看到输出、可以检查对齐；而算力优势&quot;我们保持不了多久&quot;，DeepSeek 和字节跳动都在 aggressively 搞自己的芯片，出口管制逼得他们不得不这么做。</p>
+<p style="margin:0.8em 0">&quot;他们要是四个星期能建一座桥，我觉得六个月就能搞出一块芯片。在芯片竞赛上保持领先，对美国来说至关重要。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国开源对美国的碾压是体制性的：国家冠军模式（监管放开+资金集中）对垒&quot;商业模式存疑+融资艰难&quot;，不是单点技术差距</li>
+<li style="margin:0.3em 0">杰文斯悖论有干净案例：GPT-5.6 Luna 价格降 10 倍、用量涨 13 倍且稳定——推理需求远未被满足，降价只会放大总消费</li>
+<li style="margin:0.3em 0">推理提供商层不会商品化：供给受限 + 英伟达刻意维持客户多样性 + &quot;token 不等于 token&quot;的效率竞争</li>
+<li style="margin:0.3em 0">做路由器的公司大多会输：模仿心态 + 削弱用户杠杆，OpenRouter 的护城河是全市场的模型覆盖与实时路由</li>
+<li style="margin:0.3em 0">模型实验室收购（Claude Design 式）是中间层公司最迫近的威胁：团队策略会让你的产品与实验室正面竞争</li>
+<li style="margin:0.3em 0">AI 时代的员工成本是动态数字：四象限管理（效率×成本效益）可能取代固定薪资管理</li>
+<li style="margin:0.3em 0">美国算力优势窗口有限：出口管制正在倒逼中国自研芯片，蒸馏+政策扶持让中国开源生态具备结构性优势</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
