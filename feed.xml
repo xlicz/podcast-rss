@@ -1,60 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 20 Aug 2026 05:07:06 +0800</lastBuildDate><item><title>[跨国串门儿计划] 美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</title><link>https://xlicz.github.io/podcast-rss/articles/美国赢下AI竞赛对世界是危险的--Ben-Thompson谈资本-芯片与巨头终局-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_694d0c52ad19</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 20 Aug 2026 06:00:46 +0800</lastBuildDate><item><title>[跨国串门儿计划] 美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</title><link>https://xlicz.github.io/podcast-rss/articles/美国赢下AI竞赛对世界是危险的--Ben-Thompson谈资本-芯片与巨头终局-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_694d0c52ad19</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">&quot;美国赢下 AI 竞赛，对世界是危险的&quot;——Ben Thompson 谈 AI 时代的资本、芯片与巨头终局</h1>
-<p style="margin:0.8em 0">副标题：Stratechery 创始人对话 Patrick O'Shaughnessy：为什么&quot;打败中国&quot;是硅谷最好用的假想敌、开源模型的免费是幻觉、台积电正在重演存储芯片的牛鞭效应，以及 AI 泡沫最终会留下什么。</p>
-<p style="margin:0.8em 0">假如美国真的&quot;赢得&quot;了 AI 竞赛，会发生什么？大多数硅谷叙事停在这里就结束了——胜利即终点。Ben Thompson（Stratechery 创始人）给出了一个反直觉的回答：如果这种优势落到军事和国家安全层面，这将是<strong style="font-weight:600">对世界非常危险的事</strong>。而他对硅谷主流说法的怀疑不止于此：他怀疑&quot;美国制造业可以轻易重建&quot;的魔法思维，怀疑&quot;开源模型是免费的&quot;，也怀疑台积电的地位牢不可破。这期与 Patrick O'Shaughnessy 的对谈，是他在 AI 资本狂潮中罕见的冷静剖面。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;人人都需要一个好用的假想敌&quot;</h2>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">"美国赢下 AI 竞赛，对世界是危险的"——Ben Thompson 谈 AI 时代的资本、芯片与巨头终局</h1>
+<p style="margin:0.8em 0">副标题：Stratechery 创始人对话 Patrick O'Shaughnessy：为什么"打败中国"是硅谷最好用的假想敌、开源模型的免费是幻觉、台积电正在重演存储芯片的牛鞭效应，以及 AI 泡沫最终会留下什么。</p>
+<p style="margin:0.8em 0">假如美国真的"赢得"了 AI 竞赛，会发生什么？大多数硅谷叙事停在这里就结束了——胜利即终点。Ben Thompson（Stratechery 创始人）给出了一个反直觉的回答：如果这种优势落到军事和国家安全层面，这将是<strong style="font-weight:600">对世界非常危险的事</strong>。而他对硅谷主流说法的怀疑不止于此：他怀疑"美国制造业可以轻易重建"的魔法思维，怀疑"开源模型是免费的"，也怀疑台积电的地位牢不可破。这期与 Patrick O'Shaughnessy 的对谈，是他在 AI 资本狂潮中罕见的冷静剖面。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"人人都需要一个好用的假想敌"</h2>
 <p style="margin:0.8em 0">Ben 与硅谷主流的分歧，起点是一个极端场景：如果美国在 AI 上取得实质性的军事和国家安全优势，中国的博弈论反应是什么？他的回答朴素得近乎冷酷——台积电作为单一咽喉点的脆弱性，被严重高估了解决的可能性。</p>
-<p style="margin:0.8em 0">&quot;这里面有一点魔法思维。&quot;他说。制造业的前置环节——无论是晶圆厂还是执行器——都高度依赖中国，而&quot;我们认为对中国的依赖程度被低估了，而且这不是在冲突之外能解决的问题&quot;。原因很简单：解决问题的代价高得离谱，只要竞争对手还从中国采购，你从美国采购就处于巨大的相对劣势，&quot;只有在别无选择的时候，你才会做&quot;。</p>
-<p style="margin:0.8em 0">苹果搬印度是个现成案例：施压苹果把一部分 iPhone 制造搬到印度是可行的，但&quot;苹果并没有真正搬出中国，他们只是在某种程度上做多元化&quot;。这笔保费贵得离谱，而&quot;如果你可以不付这笔保费，你就是不会去付&quot;。</p>
-<p style="margin:0.8em 0">那硅谷为什么如此热衷这套叙事？Ben 的判断不留情面：&quot;人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比'我们必须打败中国'更好用的理由了。&quot;——尽管他同时强调，保持竞争力本身确实是必要的。</p>
+<p style="margin:0.8em 0">"这里面有一点魔法思维。"他说。制造业的前置环节——无论是晶圆厂还是执行器——都高度依赖中国，而"我们认为对中国的依赖程度被低估了，而且这不是在冲突之外能解决的问题"。原因很简单：解决问题的代价高得离谱，只要竞争对手还从中国采购，你从美国采购就处于巨大的相对劣势，"只有在别无选择的时候，你才会做"。</p>
+<p style="margin:0.8em 0">苹果搬印度是个现成案例：施压苹果把一部分 iPhone 制造搬到印度是可行的，但"苹果并没有真正搬出中国，他们只是在某种程度上做多元化"。这笔保费贵得离谱，而"如果你可以不付这笔保费，你就是不会去付"。</p>
+<p style="margin:0.8em 0">那硅谷为什么如此热衷这套叙事？Ben 的判断不留情面："人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比'我们必须打败中国'更好用的理由了。"——尽管他同时强调，保持竞争力本身确实是必要的。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比&quot;我们必须打败中国&quot;更好用的理由了。</p>
+<p style="margin:0.8em 0">人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比"我们必须打败中国"更好用的理由了。</p>
 </blockquote>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六到九个月的平衡：现状不错，能维持多久？</h2>
-<p style="margin:0.8em 0">Ben 对当下 AI 格局的判断出人意料地乐观。OpenAI 和 Anthropic 明显处于最前沿；谷歌情况不好说；Grok 和 Meta 在后面追赶。而中国&quot;非常能干，非常聪明，而且确实在蒸馏这些模型，让自己大概保持落后六到九个月的位置&quot;。</p>
-<p style="margin:0.8em 0">&quot;这看起来是一个相当不错的平衡，而且总体上对美国有利。&quot;但问题在于这种状态能维持多久。</p>
-<p style="margin:0.8em 0">两个变量让他不安。其一是 AI 自我改进——&quot;用 AI 让 AI 变得更好&quot;已经从理论变成现实，&quot;最近 OpenAI 和 Anthropic 两家都出现了真正的加速&quot;。如果模型能自己迭代自己，后来者的追赶窗口会急剧收窄。其二是他对&quot;中国真的能追上来&quot;仍持怀疑——芯片是硬约束，&quot;要追到最前沿，那些只能领先六到九个月的东西是非常难的&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;免费&quot;模型的幻觉：你付的是推理费</h2>
-<p style="margin:0.8em 0">开源模型被反复标榜为&quot;免费&quot;，Ben 认为这是叙事污染了经济学。&quot;大家说他们是免费的，我觉得很奇怪，因为那是边际成本。&quot;模型开源不等于推理免费——&quot;你还是得跑推理，Kimi 的服务成本非常高，每次回答的成本要高得多&quot;。</p>
-<p style="margin:0.8em 0">他的区分干净利落：你未必在付创造 AI 的研发费用，<strong style="font-weight:600">但你绝对在付运行它的推理费用</strong>。&quot;在人们脑子里，免费就是免费。现在我可以免费使用 AI 了。不，你不能。&quot;这个区分在未来会更关键——如果 AI 自我改进真实发生，服务成本的结构性差异将成为比模型能力差异更深的护城河：能用 AI 优化自己技术栈、分析自己所有数据的公司，服务成本在结构上低于所有对手。</p>
+<p style="margin:0.8em 0">Ben 对当下 AI 格局的判断出人意料地乐观。OpenAI 和 Anthropic 明显处于最前沿；谷歌情况不好说；Grok 和 Meta 在后面追赶。而中国"非常能干，非常聪明，而且确实在蒸馏这些模型，让自己大概保持落后六到九个月的位置"。</p>
+<p style="margin:0.8em 0">"这看起来是一个相当不错的平衡，而且总体上对美国有利。"但问题在于这种状态能维持多久。</p>
+<p style="margin:0.8em 0">两个变量让他不安。其一是 AI 自我改进——"用 AI 让 AI 变得更好"已经从理论变成现实，"最近 OpenAI 和 Anthropic 两家都出现了真正的加速"。如果模型能自己迭代自己，后来者的追赶窗口会急剧收窄。其二是他对"中国真的能追上来"仍持怀疑——芯片是硬约束，"要追到最前沿，那些只能领先六到九个月的东西是非常难的"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"免费"模型的幻觉：你付的是推理费</h2>
+<p style="margin:0.8em 0">开源模型被反复标榜为"免费"，Ben 认为这是叙事污染了经济学。"大家说他们是免费的，我觉得很奇怪，因为那是边际成本。"模型开源不等于推理免费——"你还是得跑推理，Kimi 的服务成本非常高，每次回答的成本要高得多"。</p>
+<p style="margin:0.8em 0">他的区分干净利落：你未必在付创造 AI 的研发费用，<strong style="font-weight:600">但你绝对在付运行它的推理费用</strong>。"在人们脑子里，免费就是免费。现在我可以免费使用 AI 了。不，你不能。"这个区分在未来会更关键——如果 AI 自我改进真实发生，服务成本的结构性差异将成为比模型能力差异更深的护城河：能用 AI 优化自己技术栈、分析自己所有数据的公司，服务成本在结构上低于所有对手。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">台积电的牛鞭效应，与英特尔的救赎</h2>
-<p style="margin:0.8em 0">Ben 用存储芯片行业的经典教训来审视台积电：牛鞭效应。2020-2022 年，存储厂商大规模扩建晶圆厂，以为稳了；2024 年增长率下滑，台积电的 CEO 开始前所未有地在财报电话会上大谈 AI 营收。&quot;存储芯片厂商会害怕自己处在牛鞭的末端：需求沿着链条一路传导，他们加倍投入，但已经太晚了，钱全白花了。&quot;</p>
-<p style="margin:0.8em 0">他的判断是：&quot;如果 AI 这件事是个牛鞭效应，那它是有史以来最长的那个牛鞭。&quot;亚洲的供应链公司刚刚接收到信号，而&quot;就算他们接收到了，真正落地还需要好几年&quot;。</p>
-<p style="margin:0.8em 0">台积电的问题恰恰是近年投资不足，而这给了英特尔机会。Ben 早在 2013 年就写文章劝英特尔建立晶圆代工业务——&quot;我当时还觉得自己写晚了&quot;。英特尔没有客户服务的文化、组织，也没有台积电的知识产权积木。核心困境是：理性上从来没人有理由找英特尔合作，&quot;在一个不变的世界里，台积电会永远赢下去&quot;。</p>
-<p style="margin:0.8em 0">但算力的极度短缺改变了博弈。大型科技公司因算力不够放弃了大量收入和利润，&quot;我们会愿意经历把英特尔扶上正轨、把三星的逻辑芯片扶上正轨的痛苦&quot;。&quot;正是这种稀缺，最终救了英特尔。我预计某个时候他们会宣布第一个大客户，那会是件大事。&quot;——而这一切，&quot;是台积电自己招来的。这就是高价本身就是治高价的药&quot;。</p>
+<p style="margin:0.8em 0">Ben 用存储芯片行业的经典教训来审视台积电：牛鞭效应。2020-2022 年，存储厂商大规模扩建晶圆厂，以为稳了；2024 年增长率下滑，台积电的 CEO 开始前所未有地在财报电话会上大谈 AI 营收。"存储芯片厂商会害怕自己处在牛鞭的末端：需求沿着链条一路传导，他们加倍投入，但已经太晚了，钱全白花了。"</p>
+<p style="margin:0.8em 0">他的判断是："如果 AI 这件事是个牛鞭效应，那它是有史以来最长的那个牛鞭。"亚洲的供应链公司刚刚接收到信号，而"就算他们接收到了，真正落地还需要好几年"。</p>
+<p style="margin:0.8em 0">台积电的问题恰恰是近年投资不足，而这给了英特尔机会。Ben 早在 2013 年就写文章劝英特尔建立晶圆代工业务——"我当时还觉得自己写晚了"。英特尔没有客户服务的文化、组织，也没有台积电的知识产权积木。核心困境是：理性上从来没人有理由找英特尔合作，"在一个不变的世界里，台积电会永远赢下去"。</p>
+<p style="margin:0.8em 0">但算力的极度短缺改变了博弈。大型科技公司因算力不够放弃了大量收入和利润，"我们会愿意经历把英特尔扶上正轨、把三星的逻辑芯片扶上正轨的痛苦"。"正是这种稀缺，最终救了英特尔。我预计某个时候他们会宣布第一个大客户，那会是件大事。"——而这一切，"是台积电自己招来的。这就是高价本身就是治高价的药"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">巨头逐个看：亚马逊最漂亮，苹果靠散热片，英伟达被电力反噬</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">亚马逊</strong>是 Ben 眼中布局最有意思的公司。&quot;答案永远是亚马逊。&quot;它的模式在 AWS 上验证过：先为内部需求建基础设施，再开放给外部客户。物流正在重演同一剧本——用 UPS、联邦快递、美国邮政的外部服务，自己建好后反过来开放给第三方。芯片同理：Graviton 和 Trainium 早期版本&quot;其实很糟糕&quot;，但亚马逊把它们藏在托管服务（如 Redshift）底下——&quot;你买的是一个托管服务，他们不会告诉你底层是什么处理器&quot;——从而获得足够的量和产能去迭代。核心机制是：&quot;因为亚马逊自己是 Graviton 第一个也是最好的客户，Graviton 才越做越好；因为亚马逊自己是 Trainium 第一个也是最好的客户，Trainium 才越做越好。&quot;现在 Trainium 已经在跑 Anthropic 的产品。他对亚马逊的判断是：核心业务对 AI 模型版本几乎免疫，而&quot;护城河感觉比谁都深&quot;。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">苹果</strong>整轮按兵不动，&quot;某种程度上运气好过实力强&quot;。但 Ben 指出苹果有经典散热片效应：掌握通往客户的入口，供应商会主动找上门，&quot;所以他们需要的时候就能拿到 AI 供应商&quot;。而如果&quot;人们其实并不想变得多高效，只是想要个聊天机器人&quot;的说法成立，苹果这次终于能拿出一个像样的——它掌握分发。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">英伟达</strong>的处境最微妙。CUDA 护城河&quot;被大幅削弱了，因为模型不在乎自己跑在什么上面&quot;，但它仍然有用。真正的威胁是超大规模云厂商——&quot;他们体量其实更大，资金成本比英伟达想卖的那些公司更低&quot;。这就是英伟达转头去谈主权云、谈企业市场的原因：这些客户不会像云厂商那样把芯片换来换去比价。而电力，是英伟达最意外的变量：Ben 认为美国实际上线的电力比预期多得多（马斯克在表后的做法被复制、西德克萨斯天然气、重启核电站），&quot;电力成为约束的时间比所有人预期的都要晚，就算黄仁勋也没料到&quot;。</p>
-<p style="margin:0.8em 0">黄仁勋原本以为电力短缺会更早成为英伟达的护城河。结果反了过来：电力充足的时间越长，亚马逊就有越多时间把 Trainium 做得更好，谷歌也有越多时间让 TPU 在能效上更有竞争力。&quot;而一旦我们进入那种世界，那些利润率就真的很难维持了。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">亚马逊</strong>是 Ben 眼中布局最有意思的公司。"答案永远是亚马逊。"它的模式在 AWS 上验证过：先为内部需求建基础设施，再开放给外部客户。物流正在重演同一剧本——用 UPS、联邦快递、美国邮政的外部服务，自己建好后反过来开放给第三方。芯片同理：Graviton 和 Trainium 早期版本"其实很糟糕"，但亚马逊把它们藏在托管服务（如 Redshift）底下——"你买的是一个托管服务，他们不会告诉你底层是什么处理器"——从而获得足够的量和产能去迭代。核心机制是："因为亚马逊自己是 Graviton 第一个也是最好的客户，Graviton 才越做越好；因为亚马逊自己是 Trainium 第一个也是最好的客户，Trainium 才越做越好。"现在 Trainium 已经在跑 Anthropic 的产品。他对亚马逊的判断是：核心业务对 AI 模型版本几乎免疫，而"护城河感觉比谁都深"。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">苹果</strong>整轮按兵不动，"某种程度上运气好过实力强"。但 Ben 指出苹果有经典散热片效应：掌握通往客户的入口，供应商会主动找上门，"所以他们需要的时候就能拿到 AI 供应商"。而如果"人们其实并不想变得多高效，只是想要个聊天机器人"的说法成立，苹果这次终于能拿出一个像样的——它掌握分发。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">英伟达</strong>的处境最微妙。CUDA 护城河"被大幅削弱了，因为模型不在乎自己跑在什么上面"，但它仍然有用。真正的威胁是超大规模云厂商——"他们体量其实更大，资金成本比英伟达想卖的那些公司更低"。这就是英伟达转头去谈主权云、谈企业市场的原因：这些客户不会像云厂商那样把芯片换来换去比价。而电力，是英伟达最意外的变量：Ben 认为美国实际上线的电力比预期多得多（马斯克在表后的做法被复制、西德克萨斯天然气、重启核电站），"电力成为约束的时间比所有人预期的都要晚，就算黄仁勋也没料到"。</p>
+<p style="margin:0.8em 0">黄仁勋原本以为电力短缺会更早成为英伟达的护城河。结果反了过来：电力充足的时间越长，亚马逊就有越多时间把 Trainium 做得更好，谷歌也有越多时间让 TPU 在能效上更有竞争力。"而一旦我们进入那种世界，那些利润率就真的很难维持了。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">资本曲线与时间错配</h2>
 <p style="margin:0.8em 0">Ben 真正的担忧不在技术，而在时机的错配：实际的投资回报能否产生足够的收入，去支撑后续的投资？</p>
-<p style="margin:0.8em 0">&quot;我们正在沿着资本曲线往下走。&quot;科技公司烧穿债券市场&quot;大概只用了一年&quot;，谷歌开始发股票了，英伟达在搞那个 5000 亿美元的项目。当融资从自由现金流、到债券、再到股权稀释逐级下探，AI 的资本结构变得越来越像一场对未来的透支——而回报兑现的时间表，由上述所有不确定因素（模型进展、芯片格局、电力供给）共同决定。</p>
+<p style="margin:0.8em 0">"我们正在沿着资本曲线往下走。"科技公司烧穿债券市场"大概只用了一年"，谷歌开始发股票了，英伟达在搞那个 5000 亿美元的项目。当融资从自由现金流、到债券、再到股权稀释逐级下探，AI 的资本结构变得越来越像一场对未来的透支——而回报兑现的时间表，由上述所有不确定因素（模型进展、芯片格局、电力供给）共同决定。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">泡沫会留下什么？</h2>
-<p style="margin:0.8em 0">对&quot;这是不是泡沫&quot;的问题，Ben 给出了一个历史视角：假设它是泡沫，你希望它有长期的回报。互联网泡沫把光纤铺进了地下——&quot;我们的核心互联网至今还跑在世通的光纤上，那是持久的收益&quot;。铁路也一样：BNSF 赚的钱，源头是北太平洋铁路把债券卖给散户投资者。谷歌靠买下暗光纤起家。</p>
-<p style="margin:0.8em 0">那么 AI 会留下什么？&quot;GPU 本身用不了那么久，数据中心还行，凑合。但真正留下来的会是什么？电力。一定是电力。&quot;</p>
-<p style="margin:0.8em 0">这个回答把整场对话拉回到一个更古老的约束：人类从来活在能源匮乏里，&quot;我们从来都是被能源卡着脖子的，能源支撑着一切&quot;。他最后抛出的画面是：如果我们真走到那一步——一切爆发，而电力多得用不完——&quot;那会是一个美妙得不得了的时代&quot;。</p>
+<p style="margin:0.8em 0">对"这是不是泡沫"的问题，Ben 给出了一个历史视角：假设它是泡沫，你希望它有长期的回报。互联网泡沫把光纤铺进了地下——"我们的核心互联网至今还跑在世通的光纤上，那是持久的收益"。铁路也一样：BNSF 赚的钱，源头是北太平洋铁路把债券卖给散户投资者。谷歌靠买下暗光纤起家。</p>
+<p style="margin:0.8em 0">那么 AI 会留下什么？"GPU 本身用不了那么久，数据中心还行，凑合。但真正留下来的会是什么？电力。一定是电力。"</p>
+<p style="margin:0.8em 0">这个回答把整场对话拉回到一个更古老的约束：人类从来活在能源匮乏里，"我们从来都是被能源卡着脖子的，能源支撑着一切"。他最后抛出的画面是：如果我们真走到那一步——一切爆发，而电力多得用不完——"那会是一个美妙得不得了的时代"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：危险的不是领先，是以为领先很安全</h2>
-<p style="margin:0.8em 0">回到开头的问题。Ben 对&quot;美国独赢&quot;的态度是分裂的：从商业和竞争角度，他享受当下这个位置——前沿在美国，中国落后六到九个月，这看起来是个好平衡；但从地缘角度，军事和国家安全层面的实质优势是&quot;非常危险&quot;的。他对硅谷最深的批评不是过度乐观，而是假装乐观不需要代价：假装制造业可以轻松重建、假装开源模型免费、假装台积电不可替代。</p>
-<p style="margin:0.8em 0">他真正担心的是信息透明度的消失——对前沿模型的恐慌，以及围绕模型发布的一系列事件，真正的后果可能不是风险降低，而是&quot;我们干脆停止发布东西了，外部的人开始完全失去对前沿到底在哪儿的感知，于是就有了虚假的安全感&quot;。</p>
-<p style="margin:0.8em 0">如果连旁观者都不知道前沿在哪里，所谓的&quot;六到九个月平衡&quot;就只是一个没有人能验证的信念。</p>
+<p style="margin:0.8em 0">回到开头的问题。Ben 对"美国独赢"的态度是分裂的：从商业和竞争角度，他享受当下这个位置——前沿在美国，中国落后六到九个月，这看起来是个好平衡；但从地缘角度，军事和国家安全层面的实质优势是"非常危险"的。他对硅谷最深的批评不是过度乐观，而是假装乐观不需要代价：假装制造业可以轻松重建、假装开源模型免费、假装台积电不可替代。</p>
+<p style="margin:0.8em 0">他真正担心的是信息透明度的消失——对前沿模型的恐慌，以及围绕模型发布的一系列事件，真正的后果可能不是风险降低，而是"我们干脆停止发布东西了，外部的人开始完全失去对前沿到底在哪儿的感知，于是就有了虚假的安全感"。</p>
+<p style="margin:0.8em 0">如果连旁观者都不知道前沿在哪里，所谓的"六到九个月平衡"就只是一个没有人能验证的信念。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;美国赢得 AI 竞赛&quot;在军事层面是危险的</strong>：Ben 与硅谷主流叙事的根本分歧在于，他拒绝把&quot;打败中国&quot;当作不需要成本的胜利——制造业重建的保费贵得离谱，理性玩家不会付。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;打败中国&quot;是 AI 叙事里最好用的假想敌</strong>：它支撑了整条 AI 交易逻辑，但解决真实依赖问题的代价被系统性低估。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">当前格局是一个&quot;六到九个月&quot;的平衡</strong>：OpenAI/Anthropic 领先，中国靠蒸馏保持落后；但 AI 自我改进正在加速，追赶窗口可能急剧收窄。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"美国赢得 AI 竞赛"在军事层面是危险的</strong>：Ben 与硅谷主流叙事的根本分歧在于，他拒绝把"打败中国"当作不需要成本的胜利——制造业重建的保费贵得离谱，理性玩家不会付。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"打败中国"是 AI 叙事里最好用的假想敌</strong>：它支撑了整条 AI 交易逻辑，但解决真实依赖问题的代价被系统性低估。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">当前格局是一个"六到九个月"的平衡</strong>：OpenAI/Anthropic 领先，中国靠蒸馏保持落后；但 AI 自我改进正在加速，追赶窗口可能急剧收窄。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">开源模型不是免费的</strong>：免费的是研发成本的分摊，推理成本人人要付——Kimi 的每次回答成本就是明证。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">台积电正在重演存储芯片的牛鞭效应</strong>：投资不足带来的稀缺会救活英特尔——&quot;高价本身就是治高价的药&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">亚马逊是巨头里最漂亮的布局</strong>：Graviton/Trainium 靠&quot;自己当第一个客户&quot;迭代，护城河对 AI 版本免疫。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">台积电正在重演存储芯片的牛鞭效应</strong>：投资不足带来的稀缺会救活英特尔——"高价本身就是治高价的药"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">亚马逊是巨头里最漂亮的布局</strong>：Graviton/Trainium 靠"自己当第一个客户"迭代，护城河对 AI 版本免疫。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">电力是英伟达最意外的变量</strong>：美国电力上线快于所有人预期，电力充足的时间越长，英伟达的利润率就越难维持——AI 泡沫真正留下的遗产可能是电力本身。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>['不觉春晓'] 净值出来怎么面对投资人：量化行业的失眠，本质是不肯放手</title><link>https://xlicz.github.io/podcast-rss/articles/净值出来怎么面对投资人-量化行业的失眠-本质是不肯放手-2026-08-19.html</link><guid isPermaLink="false">bu-jue-chun-xiao_77ea00498fa2</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>净值出来怎么面对投资人：量化行业的失眠，本质是不肯放手</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>['不觉春晓'] 净值出来怎么面对投资人：量化行业的失眠，本质是不肯放手</title><link>https://xlicz.github.io/podcast-rss/articles/净值出来怎么面对投资人-量化行业的失眠-本质是不肯放手-2026-08-19.html</link><guid isPermaLink="false">bu-jue-chun-xiao_77ea00498fa2</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>净值出来怎么面对投资人：量化行业的失眠，本质是不肯放手</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">净值出来怎么面对投资人：量化行业的失眠，本质是不肯放手</h1>
 <p style="margin:0.8em 0">副标题：三个成都私募从业者聊透了失眠这件事——"念念想去"的思绪循环、一级压一级的睡眠压力链条，以及把每次失眠当成"分段生死"来练习的解法。</p>
@@ -12062,58 +12063,255 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</title><link>https://xlicz.github.io/podcast-rss/articles/美国赢下AI竞赛对世界是危险的--Ben-Thompson谈资本-芯片与巨头终局-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_694d0c52ad19</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-20.html</link><guid isPermaLink="false">report:播客信号:2026-08-20:1153216c</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">&quot;美国赢下 AI 竞赛，对世界是危险的&quot;——Ben Thompson 谈 AI 时代的资本、芯片与巨头终局</h1>
-<p style="margin:0.8em 0">副标题：Stratechery 创始人对话 Patrick O'Shaughnessy：为什么&quot;打败中国&quot;是硅谷最好用的假想敌、开源模型的免费是幻觉、台积电正在重演存储芯片的牛鞭效应，以及 AI 泡沫最终会留下什么。</p>
-<p style="margin:0.8em 0">假如美国真的&quot;赢得&quot;了 AI 竞赛，会发生什么？大多数硅谷叙事停在这里就结束了——胜利即终点。Ben Thompson（Stratechery 创始人）给出了一个反直觉的回答：如果这种优势落到军事和国家安全层面，这将是<strong style="font-weight:600">对世界非常危险的事</strong>。而他对硅谷主流说法的怀疑不止于此：他怀疑&quot;美国制造业可以轻易重建&quot;的魔法思维，怀疑&quot;开源模型是免费的&quot;，也怀疑台积电的地位牢不可破。这期与 Patrick O'Shaughnessy 的对谈，是他在 AI 资本狂潮中罕见的冷静剖面。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;人人都需要一个好用的假想敌&quot;</h2>
-<p style="margin:0.8em 0">Ben 与硅谷主流的分歧，起点是一个极端场景：如果美国在 AI 上取得实质性的军事和国家安全优势，中国的博弈论反应是什么？他的回答朴素得近乎冷酷——台积电作为单一咽喉点的脆弱性，被严重高估了解决的可能性。</p>
-<p style="margin:0.8em 0">&quot;这里面有一点魔法思维。&quot;他说。制造业的前置环节——无论是晶圆厂还是执行器——都高度依赖中国，而&quot;我们认为对中国的依赖程度被低估了，而且这不是在冲突之外能解决的问题&quot;。原因很简单：解决问题的代价高得离谱，只要竞争对手还从中国采购，你从美国采购就处于巨大的相对劣势，&quot;只有在别无选择的时候，你才会做&quot;。</p>
-<p style="margin:0.8em 0">苹果搬印度是个现成案例：施压苹果把一部分 iPhone 制造搬到印度是可行的，但&quot;苹果并没有真正搬出中国，他们只是在某种程度上做多元化&quot;。这笔保费贵得离谱，而&quot;如果你可以不付这笔保费，你就是不会去付&quot;。</p>
-<p style="margin:0.8em 0">那硅谷为什么如此热衷这套叙事？Ben 的判断不留情面：&quot;人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比'我们必须打败中国'更好用的理由了。&quot;——尽管他同时强调，保持竞争力本身确实是必要的。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-20 05:04</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">人人都需要一个好用的假想敌。从 AI 交易的角度看，没有什么比&quot;我们必须打败中国&quot;更好用的理由了。</p>
+<p style="margin:0.8em 0">扫描集数：6集（新） | 持仓披露：🔥1 / 🔴0 | 高质量内容：3集
+扫描了 6 个播客，共 6 集：[跨国串门儿计划(3集: #681/#680/#678旧), a16z(3集: Whatnot新/Stripe旧/Hack旧), 卫诗婕LighttheStar(1集), 不觉春晓(1集), 张小珺商业访谈录(1集)]</p>
 </blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六到九个月的平衡：现状不错，能维持多久？</h2>
-<p style="margin:0.8em 0">Ben 对当下 AI 格局的判断出人意料地乐观。OpenAI 和 Anthropic 明显处于最前沿；谷歌情况不好说；Grok 和 Meta 在后面追赶。而中国&quot;非常能干，非常聪明，而且确实在蒸馏这些模型，让自己大概保持落后六到九个月的位置&quot;。</p>
-<p style="margin:0.8em 0">&quot;这看起来是一个相当不错的平衡，而且总体上对美国有利。&quot;但问题在于这种状态能维持多久。</p>
-<p style="margin:0.8em 0">两个变量让他不安。其一是 AI 自我改进——&quot;用 AI 让 AI 变得更好&quot;已经从理论变成现实，&quot;最近 OpenAI 和 Anthropic 两家都出现了真正的加速&quot;。如果模型能自己迭代自己，后来者的追赶窗口会急剧收窄。其二是他对&quot;中国真的能追上来&quot;仍持怀疑——芯片是硬约束，&quot;要追到最前沿，那些只能领先六到九个月的东西是非常难的&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;免费&quot;模型的幻觉：你付的是推理费</h2>
-<p style="margin:0.8em 0">开源模型被反复标榜为&quot;免费&quot;，Ben 认为这是叙事污染了经济学。&quot;大家说他们是免费的，我觉得很奇怪，因为那是边际成本。&quot;模型开源不等于推理免费——&quot;你还是得跑推理，Kimi 的服务成本非常高，每次回答的成本要高得多&quot;。</p>
-<p style="margin:0.8em 0">他的区分干净利落：你未必在付创造 AI 的研发费用，<strong style="font-weight:600">但你绝对在付运行它的推理费用</strong>。&quot;在人们脑子里，免费就是免费。现在我可以免费使用 AI 了。不，你不能。&quot;这个区分在未来会更关键——如果 AI 自我改进真实发生，服务成本的结构性差异将成为比模型能力差异更深的护城河：能用 AI 优化自己技术栈、分析自己所有数据的公司，服务成本在结构上低于所有对手。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">台积电的牛鞭效应，与英特尔的救赎</h2>
-<p style="margin:0.8em 0">Ben 用存储芯片行业的经典教训来审视台积电：牛鞭效应。2020-2022 年，存储厂商大规模扩建晶圆厂，以为稳了；2024 年增长率下滑，台积电的 CEO 开始前所未有地在财报电话会上大谈 AI 营收。&quot;存储芯片厂商会害怕自己处在牛鞭的末端：需求沿着链条一路传导，他们加倍投入，但已经太晚了，钱全白花了。&quot;</p>
-<p style="margin:0.8em 0">他的判断是：&quot;如果 AI 这件事是个牛鞭效应，那它是有史以来最长的那个牛鞭。&quot;亚洲的供应链公司刚刚接收到信号，而&quot;就算他们接收到了，真正落地还需要好几年&quot;。</p>
-<p style="margin:0.8em 0">台积电的问题恰恰是近年投资不足，而这给了英特尔机会。Ben 早在 2013 年就写文章劝英特尔建立晶圆代工业务——&quot;我当时还觉得自己写晚了&quot;。英特尔没有客户服务的文化、组织，也没有台积电的知识产权积木。核心困境是：理性上从来没人有理由找英特尔合作，&quot;在一个不变的世界里，台积电会永远赢下去&quot;。</p>
-<p style="margin:0.8em 0">但算力的极度短缺改变了博弈。大型科技公司因算力不够放弃了大量收入和利润，&quot;我们会愿意经历把英特尔扶上正轨、把三星的逻辑芯片扶上正轨的痛苦&quot;。&quot;正是这种稀缺，最终救了英特尔。我预计某个时候他们会宣布第一个大客户，那会是件大事。&quot;——而这一切，&quot;是台积电自己招来的。这就是高价本身就是治高价的药&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">巨头逐个看：亚马逊最漂亮，苹果靠散热片，英伟达被电力反噬</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">亚马逊</strong>是 Ben 眼中布局最有意思的公司。&quot;答案永远是亚马逊。&quot;它的模式在 AWS 上验证过：先为内部需求建基础设施，再开放给外部客户。物流正在重演同一剧本——用 UPS、联邦快递、美国邮政的外部服务，自己建好后反过来开放给第三方。芯片同理：Graviton 和 Trainium 早期版本&quot;其实很糟糕&quot;，但亚马逊把它们藏在托管服务（如 Redshift）底下——&quot;你买的是一个托管服务，他们不会告诉你底层是什么处理器&quot;——从而获得足够的量和产能去迭代。核心机制是：&quot;因为亚马逊自己是 Graviton 第一个也是最好的客户，Graviton 才越做越好；因为亚马逊自己是 Trainium 第一个也是最好的客户，Trainium 才越做越好。&quot;现在 Trainium 已经在跑 Anthropic 的产品。他对亚马逊的判断是：核心业务对 AI 模型版本几乎免疫，而&quot;护城河感觉比谁都深&quot;。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">苹果</strong>整轮按兵不动，&quot;某种程度上运气好过实力强&quot;。但 Ben 指出苹果有经典散热片效应：掌握通往客户的入口，供应商会主动找上门，&quot;所以他们需要的时候就能拿到 AI 供应商&quot;。而如果&quot;人们其实并不想变得多高效，只是想要个聊天机器人&quot;的说法成立，苹果这次终于能拿出一个像样的——它掌握分发。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">英伟达</strong>的处境最微妙。CUDA 护城河&quot;被大幅削弱了，因为模型不在乎自己跑在什么上面&quot;，但它仍然有用。真正的威胁是超大规模云厂商——&quot;他们体量其实更大，资金成本比英伟达想卖的那些公司更低&quot;。这就是英伟达转头去谈主权云、谈企业市场的原因：这些客户不会像云厂商那样把芯片换来换去比价。而电力，是英伟达最意外的变量：Ben 认为美国实际上线的电力比预期多得多（马斯克在表后的做法被复制、西德克萨斯天然气、重启核电站），&quot;电力成为约束的时间比所有人预期的都要晚，就算黄仁勋也没料到&quot;。</p>
-<p style="margin:0.8em 0">黄仁勋原本以为电力短缺会更早成为英伟达的护城河。结果反了过来：电力充足的时间越长，亚马逊就有越多时间把 Trainium 做得更好，谷歌也有越多时间让 TPU 在能效上更有竞争力。&quot;而一旦我们进入那种世界，那些利润率就真的很难维持了。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">资本曲线与时间错配</h2>
-<p style="margin:0.8em 0">Ben 真正的担忧不在技术，而在时机的错配：实际的投资回报能否产生足够的收入，去支撑后续的投资？</p>
-<p style="margin:0.8em 0">&quot;我们正在沿着资本曲线往下走。&quot;科技公司烧穿债券市场&quot;大概只用了一年&quot;，谷歌开始发股票了，英伟达在搞那个 5000 亿美元的项目。当融资从自由现金流、到债券、再到股权稀释逐级下探，AI 的资本结构变得越来越像一场对未来的透支——而回报兑现的时间表，由上述所有不确定因素（模型进展、芯片格局、电力供给）共同决定。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">泡沫会留下什么？</h2>
-<p style="margin:0.8em 0">对&quot;这是不是泡沫&quot;的问题，Ben 给出了一个历史视角：假设它是泡沫，你希望它有长期的回报。互联网泡沫把光纤铺进了地下——&quot;我们的核心互联网至今还跑在世通的光纤上，那是持久的收益&quot;。铁路也一样：BNSF 赚的钱，源头是北太平洋铁路把债券卖给散户投资者。谷歌靠买下暗光纤起家。</p>
-<p style="margin:0.8em 0">那么 AI 会留下什么？&quot;GPU 本身用不了那么久，数据中心还行，凑合。但真正留下来的会是什么？电力。一定是电力。&quot;</p>
-<p style="margin:0.8em 0">这个回答把整场对话拉回到一个更古老的约束：人类从来活在能源匮乏里，&quot;我们从来都是被能源卡着脖子的，能源支撑着一切&quot;。他最后抛出的画面是：如果我们真走到那一步——一切爆发，而电力多得用不完——&quot;那会是一个美妙得不得了的时代&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：危险的不是领先，是以为领先很安全</h2>
-<p style="margin:0.8em 0">回到开头的问题。Ben 对&quot;美国独赢&quot;的态度是分裂的：从商业和竞争角度，他享受当下这个位置——前沿在美国，中国落后六到九个月，这看起来是个好平衡；但从地缘角度，军事和国家安全层面的实质优势是&quot;非常危险&quot;的。他对硅谷最深的批评不是过度乐观，而是假装乐观不需要代价：假装制造业可以轻松重建、假装开源模型免费、假装台积电不可替代。</p>
-<p style="margin:0.8em 0">他真正担心的是信息透明度的消失——对前沿模型的恐慌，以及围绕模型发布的一系列事件，真正的后果可能不是风险降低，而是&quot;我们干脆停止发布东西了，外部的人开始完全失去对前沿到底在哪儿的感知，于是就有了虚假的安全感&quot;。</p>
-<p style="margin:0.8em 0">如果连旁观者都不知道前沿在哪里，所谓的&quot;六到九个月平衡&quot;就只是一个没有人能验证的信念。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 看多（1条）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标的</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">谁+做什么</th>
+  <th style="text-align:center">质量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">卫诗婕Light the Star《83.宇树上市》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">688836.SH</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">初心资本田江川：2019补仓、2021差点卖掉(未卖)、上市后继续持有，回报超700倍</td>
+  <td style="text-align:center">⭐⭐⭐</td>
+</tr>
+</tbody>
+</table></div>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 看空（0条）</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到看空披露</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 看多详情</h2>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">[⭐⭐⭐] 卫诗婕｜漫谈Light the Star — 83.宇树上市：王兴兴的「幸运」，投资人的「教训」</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-08-19</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">Podwise</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6a84930d8156bf33621a70c0" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6a84930d8156bf33621a70c0</a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 持仓披露</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">688836.SH 宇树科技</strong> — 初心资本（田江川）披露：2017 年见王兴兴后错过天使轮；2019 年&quot;补仓&quot;（投后加仓）；2021 年产品体验不佳+小米迭代压力下&quot;差点卖掉老股&quot;但未卖；上市后继续持有。&quot;Deep 是一百倍嘛……我估计他很有机会超过 Deep 的回报。&quot;</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;美国赢得 AI 竞赛&quot;在军事层面是危险的</strong>：Ben 与硅谷主流叙事的根本分歧在于，他拒绝把&quot;打败中国&quot;当作不需要成本的胜利——制造业重建的保费贵得离谱，理性玩家不会付。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;打败中国&quot;是 AI 叙事里最好用的假想敌</strong>：它支撑了整条 AI 交易逻辑，但解决真实依赖问题的代价被系统性低估。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">当前格局是一个&quot;六到九个月&quot;的平衡</strong>：OpenAI/Anthropic 领先，中国靠蒸馏保持落后；但 AI 自我改进正在加速，追赶窗口可能急剧收窄。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">开源模型不是免费的</strong>：免费的是研发成本的分摊，推理成本人人要付——Kimi 的每次回答成本就是明证。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">台积电正在重演存储芯片的牛鞭效应</strong>：投资不足带来的稀缺会救活英特尔——&quot;高价本身就是治高价的药&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">亚马逊是巨头里最漂亮的布局</strong>：Graviton/Trainium 靠&quot;自己当第一个客户&quot;迭代，护城河对 AI 版本免疫。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">电力是英伟达最意外的变量</strong>：美国电力上线快于所有人预期，电力充足的时间越长，英伟达的利润率就越难维持——AI 泡沫真正留下的遗产可能是电力本身。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 播客《83.宇树上市》初心资本管理合伙人田江川，出现在 QA 全程（一级市场 VC 复盘式披露）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">外部验证</strong>: 初心资本官方通稿确认&quot;作为宇树早期投资方，对应回报倍数超 700 倍&quot;（网易/中国日报网 2026-08-19）；同日 688836.SH 科创板上市，开盘 1100 元（+629%），收盘 845 元（+460%），市值 3417.7 亿元</li>
 </ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🧠 嘉宾的主张（结论）</h3>
+<p style="margin:0.8em 0">2017 年因王兴兴&quot;学历背景朴素、BP 不及格&quot;错过天使轮，是初心最大的 lesson learn——英雄不问出处。2019 年因实验室端&quot;供不应求&quot;信号（南京大学余阳教授说宇树的狗买不到）果断补仓；2021 年动摇差点卖老股，最终因&quot;海外 lab 全在用宇树做研发&quot;的认知闭环而持有。核心主张：<strong style="font-weight:600">十倍好的信号（性能/价格/出货量断崖式领先）比学历光环可靠得多，A 股给具身龙头的 40 倍 PS 是&quot;市梦率&quot;，但行业极早期+供给稀缺支撑估值倒挂。</strong></p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📊 支撑论据（含证据类型）</h3>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">2017 错过原因</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 海外留学背景对国内大学无概念，王兴兴言语/BP 朴素&quot;完全不及格&quot;，且当时以为大疆会参与（后大疆未支持）→ 错失天使轮</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">2019 补仓信号</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历/行业观察]</code> 南京大学余阳教授主动说&quot;你没看过宇树吗？他们产能供应不上，我们等了很久&quot;→ 一个 Lab 模式里&quot;狗已经供不应求&quot;= 最强商业化信号</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">财务模型</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> 宇树早年&quot;订单先行、全款预付、毛利一度 70%&quot;（类似 Kickstarter 模式），中间只亏损过一年且亏损很小，其他年份均盈利</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">2021 动摇与持有</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 产品自己用不起来+小米要做迭代→差点卖；硅谷行发现海外顶级 lab（MIT/CMU 等）全部基于宇树硬件发论文→&quot;它是行业硬件的搜塔（标准）&quot;→决定不卖</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">上市回报</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> 初心资本回报超 700 倍（外部通稿验证）；发行 PE 219 倍、上市首日 +460%、打新参与 980 万户（科创板史最大）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">行业格局</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 具身三派（工程派/自动驾驶转型派/学术派）；&quot;不是全球第一就投全球&quot;；40 倍 PS 反映&quot;二级资金涌入一级+供给稀缺&quot;；京东/美团是最激进渠道玩家</li>
+</ol>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔗 论证过程</h3>
+<p style="margin:0.8em 0">学历光环（2017 视角）→ 错过天使轮 → 但 Lab 端供不应求信号（2019）→ 补仓 → 产品体验动摇（2021）→ 海外学术生态绑定验证硬件标准地位 → 持有 → 上市 700 倍回报。逻辑链核心：<strong style="font-weight:600">需求信号（供不应求）比创始人画像（学历/表达）更早、更可靠地预示十倍公司</strong>。反例自省：霸王茶姬（君杰，小学毕业）也差点因&quot;学历&quot;错过，说明教训虽学到但惯性仍在。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔍 事实核查</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">嘉宾声称的事实</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宇树 2017 年天使轮约 3000 万估值</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与公开报道一致（2016 种子轮千万级→上市市值 3400 亿≈4000 余倍）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">早年毛利一度 70%、全款预付</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">招股书可查，播客未给出处</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">初心资本回报超 700 倍</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">初心官方通稿 2026-08-19 确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宇树 2026 H1 营收 11.52 亿(+48.5%)、扣非净利 2.44 亿(-19.3%)</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">央广网引财报（上市公告）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;Deep 是一百倍&quot;</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">指 DeepSeek 投资回报？未指明标的与主体，存疑</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">二级市场 40 倍 PS</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">按 3417 亿市值/年化 ~23 亿营收计算约 40 倍（PS 口径需确认）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;Deep 是一百倍&quot;——未指明是 DeepSeek 股权还是其他标的，100 倍回报无出处</li>
+<li style="margin:0.3em 0">&quot;90% 创业创新人才锐减&quot;——主观体感，无数据支撑</li>
+<li style="margin:0.3em 0">京东&quot;今年测试十几家&quot;具身公司——未经证实的行业传闻</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> 全篇以宇树一个成功案例推导&quot;学历不重要&quot;结论——田江川自己也承认霸王茶姬后又差点错过类似案例，且大量&quot;朴素背景&quot;创业者失败了（未被讨论）</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> &quot;2017 应该投&quot;的结论建立在 2026 年已知结果上；当时不投的决策在信息约束下并非显然错误</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔬 第一性原理剖析</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">假设1: 具身智能是&quot;人机共生&quot;时代的基础设施，中国将主导全球具身供应链（供应链结构性优势不可迁移）</li>
+<li style="margin:0.3em 0">假设2: 硬件平台标准化后，利润池从本体制造向模型/生态迁移（&quot;机器人公司不被看好时一家专注…&quot;）</li>
+<li style="margin:0.3em 0">假设3: 一级市场稀缺供给（可投标的少）+ 二级资金涌入 = 估值倒挂会持续</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">宇树&quot;硬件领先、大脑智能才刚起步&quot;（经济观察报同日报道）——如果具身竞争核心转向模型（智元/银河更强），宇树硬件壁垒可能被模型层架空</li>
+<li style="margin:0.3em 0">40 倍 PS 定价的是&quot;未来全球第一&quot;；若出货量增速放缓或人形落地不及预期（对比优必选港股仅 450 亿港元市值），回调空间巨大</li>
+<li style="margin:0.3em 0">优必选先例：2025 营收 20 亿、人形已进工厂，市值不到宇树 1/7——市场对同类资产定价差异极端，说明估值含大量叙事成分</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📈 投资信号可靠度</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">持仓事实本身可验证（初心 700 倍回报官方确认），但这是<strong style="font-weight:600">一级市场 VC 的早期投资+持有披露</strong>，非二级市场交易动作——普通投资者无法复制其成本与路径</li>
+<li style="margin:0.3em 0">对相根的参考价值：<strong style="font-weight:600">验证&quot;扫地机做具身唯一正解=拆分/独立上市&quot;框架</strong>——宇树从 3000 万估值到 3400 亿市值，说明具身硬件公司一旦证明 PMF+量产，资本市场给足溢价；但 40 倍 PS 的&quot;市梦率&quot;属性也意味着预期打满</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">风险</strong>: 市场把&quot;宇树=具身龙头&quot;的叙事外推到所有具身公司；同行估值水涨船高但多数公司 PMF 未验证（田江川原话：&quot;大多数公司并没有这样的条件&quot;）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #681.Ben Thompson：AI 竞赛、资本断档与科技巨头终局</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-08-19</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">来源</strong>: Invest Like The Best with Patrick O'Shaughnessy</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 核心主张：美国&quot;赢下&quot;AI 竞赛是危险的；中国通过蒸馏保持 6-9 个月落后是&quot;对美国总体有利&quot;的平衡态。真正的风险不是技术而是<strong style="font-weight:600">资本断档</strong>——AI 资本开支正沿&quot;自由现金流→债券→股票→养老金/保险&quot;曲线下探，英伟达 5000 亿项目用 25% 兜底撬动长线资金，本质是把风险转移而非消除。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">资本结构：谷歌罕见增发股票（此前从不缺钱）→&quot;如果你这么看好，为什么要稀释收益&quot;；伯克希尔入股谷歌的象征意义=谷歌正从&quot;喜诗糖果&quot;（高利润低资本）走向&quot;BNSF 铁路&quot;（低利润巨绝对额）模式</li>
+<li style="margin:0.3em 0">英伟达：卖芯片已从差异化转向大宗商品化；Neo 云 25% 兜底+2030 年包购=变相降价；<strong style="font-weight:600">真正威胁是超大规模云厂商</strong>（资金成本更低，谷歌 20% GPU 卖给 Anthropic，亚马逊确认外售 Trainium）</li>
+<li style="margin:0.3em 0">电力：美国实际新增电力远超预期→英伟达&quot;电力护城河&quot;比预期晚来→TPU/Trainium 有更多时间追效率</li>
+<li style="margin:0.3em 0">算力/智能终将大宗商品化（类比互联网带宽）——&quot;大宗商品改变了世界，但通常不是好生意&quot;</li>
+<li style="margin:0.3em 0">苹果=确定性产品之王 vs AI=概率性事业，不做 AI 没意见；Meta 广告业务是被低估的 AI 变现王者（转化率提几个点=百亿美元级）</li>
+</ul>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ 谷歌增发、伯克希尔入股、英伟达 5000 亿融资结构均为可查事件 ❓ 英伟达 25% 兜底细节未公开验证 ⚠️ &quot;中国落后 6-9 个月&quot;是估计值，且其本人承认&quot;怀疑中国能否追上芯片层面&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-06-01 #564（同一播客）AI 平台迁移/模型定价权讨论——观点延续：基础模型商品化、价值向应用层迁移</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #680.OpenRouter CEO Alex Atallah：为什么中国开源模型正在碾压美国</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-08-19</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">来源</strong>: 20VC with Harry Stebbings</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 核心主张：多模型/神经多样性是不可避免的未来，路由器层是&quot;科技史上最大的市场&quot;；美国开源落后中国&quot;非常远&quot;，且中国开源有国家冠军机制（DeepSeek 获举国资源）的结构性优势。<strong style="font-weight:600">Alex 本人披露持有 OpenRouter 22% 股份</strong>（&quot;一百亿的 22% 就是 22 亿&quot;）——私有公司，无 ticker，不构成交易信号，但坐实 Stripe 100 亿收购传闻的估值基础。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">业务数据：7 月上线 70 个模型（约每 10 小时 1 个）；GPT-5.6 Luna 两周降价 10 倍→使用量涨 13 倍（&quot;完美杰文斯悖论案例&quot;）；OpenRouter 估整体 token 量 1.5-2%</li>
+<li style="margin:0.3em 0">竞争格局：模型实验室最终会&quot;来追你&quot;（Figma/Cloud Design 案例）；路由层正在被模仿者商品化，但专注者领先&quot;很多个月&quot;</li>
+<li style="margin:0.3em 0">中美开源差距：GLM 5.2 是开放权重&quot;非常大的一步&quot;；Kimi 写作强但前沿能力稍落后；DeepSeek 中国境内能力因护栏&quot;很糟糕&quot;、海外强</li>
+<li style="margin:0.3em 0">算力：美国算力优势&quot;保持不了多久&quot;——DeepSeek/字节在自研芯片，出口管制倒逼</li>
+<li style="margin:0.3em 0">商业模式：5.5% 抽成（按量付费），企业版承诺消费免手续费；未来可能&quot;员工成本动态化&quot;（四象限管理）</li>
+</ul>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ GPT-5.6 Luna 降价/使用量数据为平台内部数据（自报） ❓ Stripe 100 亿收购未证实（Alex 拒绝评论） ⚠️ 22% 持股为自述，未独立验证</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-01 硅谷101 E246 报道&quot;OpenRouter 等聚合层 ARR 翻倍&quot;——增长叙事延续，本轮获得 CEO 一手视角</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — How Whatnot Built a Global Marketplace</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-08-19</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">来源</strong>: a16z Podcast（David George 对谈 Grant LaFontaine）</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 核心主张：直播电商是&quot;需求扩张型&quot;商业模式（类比百货商店/购物中心的诞生，而非传统电商的线下替代）；美国直播电商渗透率单位数 vs 中国 30-40%，差距必然收敛。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">GMV：2025 年超 80 亿美元，今年至今又超 80 亿；用户日均 95 分钟，&gt;80% 用户当日不购买（娱乐属性）</li>
+<li style="margin:0.3em 0">供给端：赋能小商家（最大商家营收过亿、EBITDA 20-40%）；10 国运营（美/加/欧 5 国/日/澳），跨市场复现成功</li>
+<li style="margin:0.3em 0">信任与安全：40% 员工投入 T&amp;S；rules engine 每秒处理数十亿数据点，LLM 检测+自动化处置</li>
+<li style="margin:0.3em 0">AI 策略：不搞 AI avatar（&quot;人们来 Whatnot 是为了人与人连接&quot;），AI 用在 listing 元数据/发现/分析</li>
+</ul>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ GMV/时长数据为自报 ❓ 未披露营收/利润/估值 ⚠️ 宣传性质访谈（a16z 为投资人），&quot;直播电商 30-40%&quot;为行业引述</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不觉春晓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">100 把每次失眠当成&quot;分段生死&quot;来练习</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">失眠/冥想/生活闲聊（仅提到 7 月行情下跌致失眠，无投资内容）</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张小珺商业访谈录</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">151. 17 岁被 ICML 收录论文的小少年</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高中生的 AI 研究旅程与人生哲学，非投资话题</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线告警</h2>
+<p style="margin:0.8em 0">无。kua-guo-chuan-men-er 各文件固定开场白相同（AI 声纹克隆介绍语）但文件大小差异大（109K-256K），判定为正常，非管线污染。</p>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
