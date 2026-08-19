@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 06:00:47 +0800</lastBuildDate><item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 09:00:16 +0800</lastBuildDate><item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">情绪不是感受：情绪神经科学泰斗 Ralph Adolphs 给"如何调节情绪"的完整答案</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">失忆症患者看完悲伤电影会哭，五分钟后却说不清自己为什么难过。情绪并不依赖记忆、甚至不依赖意识——它是一套独立运转的功能系统。</h2>
@@ -12906,15 +12906,15 @@ Steam/雪球采集✅</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Phase 1 评分</strong>: 5/10 | <strong style="font-weight:600">信号</strong>: ⚪ 无持仓披露</p>
 <h4>🧠 核心观点</h4>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">AI 安全的新范式</strong>：现有安全工具只防两类东西——人和恶意软件。AI agent 两者都不是。静态签名检测&quot;已死&quot;，行为检测的前提（软件行为可预测）也被 agentic 软件打破。防御需要&quot;理解谁在装什么、能做什么、如何执行&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 安全的新范式</strong>：现有安全工具只防两类东西——人和恶意软件。AI agent 两者都不是。静态签名检测"已死"，行为检测的前提（软件行为可预测）也被 agentic 软件打破。防御需要"理解谁在装什么、能做什么、如何执行"。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Guardrails 双刃剑</strong>：模型提供方（OpenAI 等）为防滥用加的护栏，同时阻断了防御者（blue team）用模型做漏洞研判的正常请求。防御方需要多模型回退能力（Hugging Face 用 GLM-5 回退）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">GPU/推理成本</strong>：提到 GPU 价格重新上涨、供应趋紧，&quot;inference will be everywhere&quot;——从数据中心到 neocloud 到端点。自托管 open-weight 模型（单台 H100 ~$250K/年）对多数企业不可行。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">GPU/推理成本</strong>：提到 GPU 价格重新上涨、供应趋紧，"inference will be everywhere"——从数据中心到 neocloud 到端点。自托管 open-weight 模型（单台 H100 ~$250K/年）对多数企业不可行。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">50% 企业应用年底 agentic</strong>：平均企业环境有 6000-7000 个软件实例，未来几年大量 agentic 化，攻击面=人类表达的总和。</li>
 </ol>
 <h4>📊 支撑论据</h4>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0">签名检测失效 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 静态规则对 agent 交互式攻击无法调优</li>
-<li style="margin:0.3em 0">蜜罐反噬案例 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 开发者设备上的 AWS key 蜜罐被自家 agent 触发，误报率从 100% 真阳跌到&quot;很吵&quot;</li>
+<li style="margin:0.3em 0">蜜罐反噬案例 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 开发者设备上的 AWS key 蜜罐被自家 agent 触发，误报率从 100% 真阳跌到"很吵"</li>
 <li style="margin:0.3em 0">防御者用 AI 反制 AI — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> Neo 用数千 agents 替代数百威胁研究员，数周完成过去数年的软件分类学建设</li>
 <li style="margin:0.3em 0">Vectra 误伤案例 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 安全工具名恰为兽医药物名，触发生物武器过滤器误报</li>
 </ol>
@@ -12987,5 +12987,54 @@ Steam/雪球采集✅</li>
 </table></div>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-19.html</link><guid isPermaLink="false">report:AI动态:2026-08-19:4f9ccc25</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-19</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/19</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：中国具身智能上市潮（宇树今日科创板、智元/逐际排队港股）+ AI 开源与硬件融资。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">宇树科技今日（8/19）科创板上市，募资目标 61 亿元，认购倍数创纪录（约 8000 倍），全球首个通用人形机器人公司 IPO，为具身智能板块提供估值锚。</li>
+<li style="margin:0.3em 0">智元（AgiBot）启动港股 IPO 流程；TechNode 深度：2026 具身竞争从制造能力转向学习能力，机器人公司正在变成 AI 公司。</li>
+<li style="margin:0.3em 0">逐际动力（LimX）计划赴港 IPO 募资至多 3 亿美元（Bloomberg），阿里/京东系背书，深圳具身公司上市潮开启。</li>
+<li style="margin:0.3em 0">DeepSeek 开源 MIT 许可的 Agent Harness（deepseek-harness），发布 6 天获 16 万+ star，刷 GitHub 最快 star 纪录。</li>
+<li style="margin:0.3em 0">推理芯片公司 Etched 完成 7 亿美元 D 轮，估值一个月翻倍至 210 亿美元，Jane Street 领投并实测其芯片。</li>
+</ol>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 宇树科技今日科创板上市 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">全球首个通用人形机器人公司登陆科创板。募资目标 61 亿元人民币，IPO 认购约 8000 倍（Forbes），发行前期货价格一度涨 4 倍；上市前一周发布&quot;Superman&quot;人形机器人，宣称速度 12.66 m/s（超过 Usain Bolt 峰值速度）。多家机构称其为具身智能板块首个&quot;估值锚&quot;（Global Times、KraneShares ETF 指南）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 上市日期/募资额/认购倍数获 Forbes、Reuters、WSJ、China Daily、The Next Web 等 8+ 独立源一致确认；Superman 发布由 Reuters/CNN/DW 确认 — <strong style="font-weight:600">关注</strong>: 人形机器人首次公开定价，行业估值体系锚点</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Forbes / Reuters / WSJ / China Daily（多源）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 智元启动港股 IPO，机器人公司变 AI 公司 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Caixin 报道智元已启动港股 IPO 流程，中国具身智能公司排队上市（同期 LimX、Robotera、X Square 均计划/递交港股）。TechNode 深度分析其转型逻辑：2026 具身竞争从&quot;制造能力&quot;转向&quot;学习能力&quot;——智元今年发布 GO-2 具身基础模型、GE-2 Action World Model、Genie Sim 3.0（1 万+ 小时仿真数据、10 万+ 场景评测），Hive 数据共创计划目标千万小时级数据产能；机器人本体从核心产品变为智能系统的载体。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ IPO 启动由 Caixin 报道，产品线由 TechNode 原文 + 智元官方新闻稿（1.5 万台下线）交叉确认 — <strong style="font-weight:600">关注</strong>: 数据飞轮成竞争主轴，硬件叙事权重下降</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Caixin Global / TechNode（🟡可靠媒体）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 逐际动力（LimX）计划赴港 IPO，至多 3 亿美元 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Bloomberg 报道阿里、京东系背书的深圳人形机器人公司 LimX Dynamics 计划港股 IPO，募资至多 3 亿美元。6+ 独立源（Bloomberg/Moomoo/MarketScreener/Edge Malaysia 等）一致确认。与此前 Unitree 科创板、AgiBot/Robotera 港股形成中国机器人公司集体上市潮。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Bloomberg 领衔 6 源确认；&quot;计划中&quot;属早期阶段 — <strong style="font-weight:600">关注</strong>: 深圳具身公司资本通道重启，估值对比 Unitree</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg / Moomoo / MarketScreener（🟡可靠媒体）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. DeepSeek 开源 Agent Harness（MIT）| 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">DeepSeek 发布 deepseek-harness：MIT 许可、开发者预览、&quot;Everything is a Plugin&quot;的编码代理框架。GitHub 实测：16.03 万 star（8/13 创建，6 天），据称刷 GitHub 史上最快 star 纪录；生态插件（如 open-design）同步爆发。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ GitHub API 实查 repo 存在、star=160,317、MIT 许可获 MarkTechPost/OSFY 确认 — <strong style="font-weight:600">关注</strong>: 开源 agent 框架生态位争夺，Anthropic 同类闭源承压</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: GitHub 官方 repo（🟢官方）+ MarkTechPost（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Etched 完成 7 亿美元 D 轮，估值 210 亿美元 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Transformer 专用推理芯片公司 Etched 完成 $700M D 轮，估值一个月内翻倍至 $21B；Jane Street 领投并已实测其芯片。TechCrunch、Dealroom、Unite.AI 等 8 源一致确认。同期 AI 硬件板块回调（WSJ 报告&quot;隐藏 AI 成本&quot;引发存储芯片股抛售，Nvidia -2%、Marvell -6%）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 融资金额/估值获 TechCrunch、Dealroom、Unite.AI 多源确认；Jane Street 领投多家一致 — <strong style="font-weight:600">关注</strong>: 专用推理芯片路线获量化巨头背书，Sohu 架构量产在即</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch / Dealroom / Unite.AI（🟡可靠媒体）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
