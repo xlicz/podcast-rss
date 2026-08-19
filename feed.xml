@@ -1,47 +1,84 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 13:08:31 +0800</lastBuildDate><item><title>[卫诗婕｜漫谈Light the Star] 宇树上市：王兴兴的幸运，投资人的教训</title><link>https://xlicz.github.io/podcast-rss/articles/宇树上市-王兴兴的幸运-投资人的教训-2026-08-19.html</link><guid isPermaLink="false">light-the-star_61c142d08ee4</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>宇树上市：王兴兴的幸运，投资人的教训</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 19 Aug 2026 23:00:53 +0800</lastBuildDate><item><title>[张小珺Jùn｜商业访谈录] 17岁，论文被ICML收录：一个高中生的AI世界观</title><link>https://xlicz.github.io/podcast-rss/articles/17岁-论文被ICML收录-一个高中生的AI世界观-2026-08-19.html</link><guid isPermaLink="false">zhang-xiaojun_895c7d29736c</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>17岁，论文被ICML收录：一个高中生的AI世界观</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">17岁，论文被ICML收录：一个高中生的AI世界观</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：高二学生苏廷浩独立完成了关于Attention机制的预训练研究，论文被ICML 2026主会议接收。他先说出的却是另一件事：参数没调好，白白浪费了一千五百块。</strong></p>
+<p style="margin:0.8em 0">香港德瑞国际学校高二学生苏廷浩，马上升高三，2009年出生，17岁。他高中阶段独立做预训练研究，一篇关于Attention机制的论文刚刚被ICML 2026主会议接收——在这档访谈过许多成熟AI研究者的节目里，这是第一次打开一个高中生的AI世界。</p>
+<p style="margin:0.8em 0">但访谈一开始，他讲的最生动的故事不是论文被接收的荣耀，而是一场失败：同时训练三个模型，参数没调好，三个都没保存，一千五百块训练费直接蒸发。"训练好花钱啊，那时候像一个昂贵的游戏……我都哭了。"</p>
+<p style="margin:0.8em 0">这个细节比任何成就都更能说明，一个17岁的人独自走科研这条路意味着什么。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从"这肯定不行"到两百次实验</h2>
+<p style="margin:0.8em 0">苏廷浩的AI起点，是一次被反复打脸的判断。ChatGPT刚出来时，他在YouTube看到一个OpenAI用自然语言生成小游戏的demo，第一反应是："这肯定不行，你用人类的语言怎么可以做个程序呢？"——他做过编程比赛，印象里程序是死的，"你说一，不能说二"。几年后ChatGPT发布，他彻底震惊：程序居然能写诗、写文章。</p>
+<p style="margin:0.8em 0">入门靠的是Andrej Karpathy那个著名的"从零构建GPT"视频系列，二十个小时，从头写一个Transformer。当时他云里雾里，"为什么做这个，为什么做那个，根本看不懂"。他的应对方式是挑战自己：三十天，每天读一篇机器学习论文，做笔记。从Lottery Hypothesis、AdamW这些经典论文开始，他慢慢读出了一种"research的感觉"——知道哪些论文好、哪些差，为什么这篇读得舒服、那篇读得痛苦。</p>
+<p style="margin:0.8em 0">下一步是训练自己的模型。他查了1B、0.5B、0.25B参数的小模型需要多少GPU、多少天、多少钱，算完账发现：即使是最小的模型，训练成本也要十几万到上百万。放弃之后，他转而把前沿论文实现在自己的代码上——GQA、更高效的attention变体，等等。论文不是一次成功的：他"试了两百次"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">预训练像是塑造身体</h2>
+<p style="margin:0.8em 0">苏廷浩对预训练有一个很贴切的比喻：后续训练更像塑造一个身体，而预训练是把具体的材料变得更好，让它承受之后的塑造。他选预训练方向，是因为它"有点magical"——你无法预测未来会发生什么，但你能把材料变得更好。</p>
+<p style="margin:0.8em 0">这大概也是他能在高中阶段独立完成这件事的原因：他做的是组件级的改进实验，而不是需要庞大算力和团队的系统工程。两百次失败换来的论文，讲的就是Attention机制里某个具体的改进——对一个17岁、自费训练的人来说，这是唯一可行的科研姿态：不赌宏大叙事，赌一个可以反复验证的细节。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI在高中：分化已经发生</h2>
+<p style="margin:0.8em 0">访谈里最有信息量的部分，是AI如何改变一所顶尖国际高中的日常。</p>
+<p style="margin:0.8em 0">苏廷浩观察：课间有百分之五十的概率，同学的屏幕是在一个PPT或AI模型上。有人用AI做作业，有人选择自己做。他认识一个成绩特别好的同学Isaac，经他介绍学会用AI之后效率大幅提升；但那些直接用AI写完、不改一个字就交上去的人，"老师很容易就看出来——你即兴发挥怎么题量那么大，写作风格怎么突然那么好"。老师们理解了，也控制不了。</p>
+<p style="margin:0.8em 0">他的结论是：AI让人的分化更极端了。用得好的人效率倍增，抄作业的人成绩更差。"以前没有手机，没有什么可以吸引你注意力的东西。现在有很多东西在吸引你的注意力。"机会变大了，但"有些人就是不会把握机会"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">失去的意义感：为学科而学这件事不成立了</h2>
+<p style="margin:0.8em 0">这期节目最沉重的一段，是苏廷浩描述AI如何消解学习的意义感。</p>
+<p style="margin:0.8em 0">他有一个同学，用AI做短视频、做动画来解释科目，学习效率高了很多，但"缺少了成就感，缺少了困难度"——以前学物理化学，没学过的人就是不知道，现在一键问AI，得到的回答比你说得还好。他自己学数学，也曾想象"到大学或者读博，有可能推进数学"，现在他意识到：学数学可能只是为了向大学证明"我是一个能吃苦、能学习的人"，而不是为了这个科目本身。</p>
+<p style="margin:0.8em 0">"你之前学数学，向前看是一条大路。现在有了AI，你发现这条道路变窄了，变更困难了。"他认识一些对航天物理感兴趣的人，现在用AI学习，觉得"以后AI做这个工作会比我做得更好"。苏廷浩甚至提到，想到四年后、三年后生成视频技术的进步，他"有点抑郁"——"以后有可能对人类贡献不了，如果我走科研这条路，可能变得更窄更困难"。</p>
+<p style="margin:0.8em 0">他的回应是"打不过就加入"：一部分人会觉得，既然做数学物理做不过AI，那就来造AI。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人生意义是开心</h2>
+<p style="margin:0.8em 0">这个17岁少年给出的答案简单得惊人。主持人问他人生意义是什么，他说：开心。让自己开心，让喜欢的人开心，让所有人都开心，"因为开心才是人之根本"。</p>
+<p style="margin:0.8em 0">他为此做过认真的思考：AI让同学们"有时候会感到失去了一些人生的意义感，因为不管你做什么，AI可能都比你做得更好"。他为此难过了一段时间，然后调试好了心情：既然AI不可控，就不要杞人忧天，多和喜欢的人聊聊天。</p>
+<p style="margin:0.8em 0">他喜欢《庆余年》，因为喜欢人和人之间的温暖；他引用一个科学研究——预测你老年开不开心的最重要指标，是你身边有多少可以倾诉的人。他说人类是群体生物，"为了繁殖，我们基因里也会希望你多跟异性深度交流"，而AI倾诉之所以流行，是因为很多人生命中缺少真实的倾诉对象。</p>
+<p style="margin:0.8em 0">访谈后他去了农村支教，那是"全然的另一个世界"：慢吞吞的小车、草原农场、抓昆虫、玩狼人杀。最开心的事是支教结束那天晚上，他们十三个人教完了三十个小孩子，一起吃肉串、喝饮料，每个人站起来发言碰杯——"我觉得是特别温暖的一件事"。他近期最开心的时刻还有两个：DeepSeek V3.1出现的时候，Kimi K3出现的时候。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">他的赌注</h2>
+<p style="margin:0.8em 0">苏廷浩对AI的态度，是一个真正从小接触AI的人才会有的复杂：既兴奋又警惕。他明确说，希望AI发展别那么快，"永远触摸不到指数级增长"——慢慢往上走，给人类一个缓冲时间，让所有人都意识到AI有多强，能带来多大的贡献和危险。他惊讶于很多普通人"印象里还是前几年那种AI的感觉"，根本没意识到现在的AI有多强。</p>
+<p style="margin:0.8em 0">他最深的忧虑是关于代际的：AI的智商可以整体提升，但人类是一代人一代人慢慢长大的。2010年、2015年、2020年出生的孩子，一出生就知道AI比自己聪明、比自己想得快做得好——"可能就缺少那些向上的动力了"。当你的第一天就发现一个生物比你更聪明，"感到绝望有一点"。</p>
+<p style="margin:0.8em 0">但他最后的赌注仍然乐观。主持人问他有什么重要的bet，他说：AI以后代替不了所有人和工作。"现在社会，你想每天开开心心生活，你都在做一个赌注——以后AI代替不了我，我以后还会有新的目标、新的追求、新的想法可以探索。"</p>
+<p style="margin:0.8em 0">一个17岁、论文被ICML收录的少年，用一句话总结了整个访谈：正常生活本身，就是一个对AI的赌注。</p>
+
+</div>
+]]></content:encoded></item>
+<item><title>[卫诗婕｜漫谈Light the Star] 宇树上市：王兴兴的幸运，投资人的教训</title><link>https://xlicz.github.io/podcast-rss/articles/宇树上市-王兴兴的幸运-投资人的教训-2026-08-19.html</link><guid isPermaLink="false">light-the-star_61c142d08ee4</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>宇树上市：王兴兴的幸运，投资人的教训</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">宇树上市：王兴兴的幸运，投资人的教训</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：早期投资人田江川复盘——当年被顶级VC视作短板的草根背景、手搓BP、不做视觉算法，最终构筑了断代级的壁垒。</strong></p>
-<p style="margin:0.8em 0">2026年，宇树科技正式敲钟。在多数人把注意力放在&quot;四足机器人第一股&quot;的叙事上时，初心资本管理合伙人田江川提供了一个更少见的复盘角度：这家公司早年融资捉襟见肘，恰恰成了它最大的幸运。被顶级VC嫌弃的草根背景、手搓BP、不做视觉算法的王兴兴，最终让全球顶尖实验室基于中国团队的硬件去定义行业标准。而说出这些判断的田江川自己，正是那个2017年就见过宇树、却始终没能投进去的人。这段复盘，本质上是中国投资人对&quot;什么是真正的创新&quot;的一次集体认知升级。</p>
+<p style="margin:0.8em 0">2026年，宇树科技正式敲钟。在多数人把注意力放在"四足机器人第一股"的叙事上时，初心资本管理合伙人田江川提供了一个更少见的复盘角度：这家公司早年融资捉襟见肘，恰恰成了它最大的幸运。被顶级VC嫌弃的草根背景、手搓BP、不做视觉算法的王兴兴，最终让全球顶尖实验室基于中国团队的硬件去定义行业标准。而说出这些判断的田江川自己，正是那个2017年就见过宇树、却始终没能投进去的人。这段复盘，本质上是中国投资人对"什么是真正的创新"的一次集体认知升级。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017年的错过：四百万元，可能就是最大的股东</h2>
 <p style="margin:0.8em 0">田江川是带着后悔来录这期节目的。</p>
-<p style="margin:0.8em 0">他坦言，宇树这件事&quot;是没有做好的&quot;——2017年他们有机会进入，最终却&quot;好像就没有什么然后&quot;。今天回看，他给出了一个残酷的量化判断：当时只要投四百万，可能就是宇树最大的几个股东之一。这个念头他始终放不下，&quot;我始终会因为这个事情而后悔，这个是肯定的&quot;。</p>
+<p style="margin:0.8em 0">他坦言，宇树这件事"是没有做好的"——2017年他们有机会进入，最终却"好像就没有什么然后"。今天回看，他给出了一个残酷的量化判断：当时只要投四百万，可能就是宇树最大的几个股东之一。这个念头他始终放不下，"我始终会因为这个事情而后悔，这个是肯定的"。</p>
 <p style="margin:0.8em 0">但他同时给出了一个清醒的自我宽慰：不论他们做与不做，宇树都会变成这个时代的标志性企业。错过一个时代级公司，与错过一个普通项目，痛苦的性质完全不同——前者说明你的判断体系里有一个结构性盲区，后者只是运气问题。田江川的复盘属于前者。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">被嫌弃的草根：宇树的非共识起点</h2>
-<p style="margin:0.8em 0">要理解宇树的&quot;幸运&quot;，要先回到2015-2016年的天使投资时代。田江川回忆，那是一个让天使投资人&quot;心潮澎湃&quot;的年份：大量百倍故事在前方招手，移动互联网进入下半场，一批后来长成独角兽的公司正在萌芽——AI四小龙大多在那两年成立。</p>
-<p style="margin:0.8em 0">但那个时代的核心特征是：技术太初期，无法快速落地成平台，所以有大量&quot;非共识公司&quot;，项目&quot;非常非常便宜&quot;。田江川第一次见宇树时，估值是三千万。</p>
+<p style="margin:0.8em 0">要理解宇树的"幸运"，要先回到2015-2016年的天使投资时代。田江川回忆，那是一个让天使投资人"心潮澎湃"的年份：大量百倍故事在前方招手，移动互联网进入下半场，一批后来长成独角兽的公司正在萌芽——AI四小龙大多在那两年成立。</p>
+<p style="margin:0.8em 0">但那个时代的核心特征是：技术太初期，无法快速落地成平台，所以有大量"非共识公司"，项目"非常非常便宜"。田江川第一次见宇树时，估值是三千万。</p>
 <p style="margin:0.8em 0">宇树就是这批非共识公司的极端样本。王兴兴没有光鲜履历，BP是手搓的，坚持不做视觉算法——在当时的顶级VC眼里，这些全是短板。融资捉襟见肘、被主流机构拒之门外，几乎是必然结果。</p>
-<p style="margin:0.8em 0">但田江川看到的另一面是：正因为估值便宜、无人争抢，早期投资人可以用极小的成本拿到极大的股份。他后来成立的深圳基金把单笔投资定为五百万，逻辑就来自这个教训：&quot;不能既要又要还要&quot;——不要既要求顶级创始人，又要求极大的市场机会。对标当年的宇树：那个方向看起来没有商业机会，又怎么样？他做出了一个让全世界赞叹的产品就够了。</p>
+<p style="margin:0.8em 0">但田江川看到的另一面是：正因为估值便宜、无人争抢，早期投资人可以用极小的成本拿到极大的股份。他后来成立的深圳基金把单笔投资定为五百万，逻辑就来自这个教训："不能既要又要还要"——不要既要求顶级创始人，又要求极大的市场机会。对标当年的宇树：那个方向看起来没有商业机会，又怎么样？他做出了一个让全世界赞叹的产品就够了。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">反精英主义的傲慢：什么是真正的创新</h2>
 <p style="margin:0.8em 0">田江川把这轮复盘上升到了认知层面。他认为，宇树和王兴兴完成了一次中国投资人的集体认知升级——关于反精英主义的傲慢，关于什么是真正的创新。</p>
-<p style="margin:0.8em 0">他讲了一个观察：2015年前后他投过的AI公司，当年都自称&quot;automation&quot;，后来集体演进成&quot;robotics&quot;，到今天再看，很多公司干脆改名带&quot;动力&quot;。名字的更迭背后，是同一批创始人在不同技术浪潮里的切换。创新者一直在，变的是资本愿意为之付费的标签。</p>
-<p style="margin:0.8em 0">而VC的傲慢在于：习惯用过去的标准衡量未来的赢家。田江川相信，会有一波创业者让这些VC打脸，然后去修正自己的判断标准和模式，&quot;就像王兴兴让我们打脸一样&quot;。顶级机构当年看走眼的短板——草根出身、不做热门方向、不按套路融资——恰恰是后来壁垒的来源：当所有人都看懂了，你再也买不到那个价格。</p>
+<p style="margin:0.8em 0">他讲了一个观察：2015年前后他投过的AI公司，当年都自称"automation"，后来集体演进成"robotics"，到今天再看，很多公司干脆改名带"动力"。名字的更迭背后，是同一批创始人在不同技术浪潮里的切换。创新者一直在，变的是资本愿意为之付费的标签。</p>
+<p style="margin:0.8em 0">而VC的傲慢在于：习惯用过去的标准衡量未来的赢家。田江川相信，会有一波创业者让这些VC打脸，然后去修正自己的判断标准和模式，"就像王兴兴让我们打脸一样"。顶级机构当年看走眼的短板——草根出身、不做热门方向、不按套路融资——恰恰是后来壁垒的来源：当所有人都看懂了，你再也买不到那个价格。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2025年的泡沫是必然的，但出货量还是初期</h2>
 <p style="margin:0.8em 0">田江川对当下的机器人热潮给出了一个冷静的框架：泡沫是必然的，但产业本身仍在极早期。</p>
-<p style="margin:0.8em 0">他把宇树今天的出货量放进消费电子坐标系里比较，&quot;作为消费电子产品来类比的话，其实还是非常非常初期的&quot;。2023年他们批量投了大量具身智能团队，当时估值大多在十亿以内，如今回头看都有很好的资本回报——但即便如此，他当时也觉得机器人公司的估值普遍虚高，因为产品同质化严重，底层技术模型仍有大量空白。</p>
+<p style="margin:0.8em 0">他把宇树今天的出货量放进消费电子坐标系里比较，"作为消费电子产品来类比的话，其实还是非常非常初期的"。2023年他们批量投了大量具身智能团队，当时估值大多在十亿以内，如今回头看都有很好的资本回报——但即便如此，他当时也觉得机器人公司的估值普遍虚高，因为产品同质化严重，底层技术模型仍有大量空白。</p>
 <p style="margin:0.8em 0">这个判断的意义在于：泡沫并不等于错误。2025年的估值泡沫，部分正是宇树验证过的路径被资本快速共识化的结果——而共识形成得越快，后来者的成本就越高。十年前一个非共识可以给你一段漫长的窗口期，今天这个窗口已经短得多。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">问两个问题，识别真实的野心</h2>
 <p style="margin:0.8em 0">作为早期投资人，田江川的识人方法论朴素得近乎直觉，但他强调信息量巨大。面对年轻创业者，他只问两个问题：五到十年，你希望把这家公司做成什么样？你为什么决定做这家公司？</p>
-<p style="margin:0.8em 0">他解释：&quot;这两个问题里面信息量都是巨大的。&quot;野心可以包装，但野心必须有与之匹配的能力，而能力需要过往经验的佐证。问得好的话，&quot;野心是昭然若揭的&quot;。</p>
-<p style="margin:0.8em 0">这套方法也延伸到了更年轻的人群。他算过一笔账：初心资本已经投了五个00后。当被问到如何在有限的track record里判断年轻人时，他的答案是回到更早的征兆——他曾请教一位成名创始人在大学比赛时期的表现，答案是：更早的时候，这个人就已经不安于社会给定的路线规划，&quot;这些无处安放的野心，很容易就会转换到比赛里&quot;。</p>
+<p style="margin:0.8em 0">他解释："这两个问题里面信息量都是巨大的。"野心可以包装，但野心必须有与之匹配的能力，而能力需要过往经验的佐证。问得好的话，"野心是昭然若揭的"。</p>
+<p style="margin:0.8em 0">这套方法也延伸到了更年轻的人群。他算过一笔账：初心资本已经投了五个00后。当被问到如何在有限的track record里判断年轻人时，他的答案是回到更早的征兆——他曾请教一位成名创始人在大学比赛时期的表现，答案是：更早的时候，这个人就已经不安于社会给定的路线规划，"这些无处安放的野心，很容易就会转换到比赛里"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">大疆的人才审美，与RoboMaster的悖论</h2>
-<p style="margin:0.8em 0">田江川有一个在同行看来反直觉的偏好：投大疆的校友，即使很多机构不愿意投。理由很简单——&quot;你看过什么是最好的&quot;。大疆体系锻炼出来的人，对科技产品和团队配置有非常差异化的审美，哪怕他们的护照是白本、没出过国，你要找的是有品味、会做海外市场的人，而不是一个全才。</p>
-<p style="margin:0.8em 0">他对大疆还有个半开玩笑的判断：RoboMaster比赛其实是培育大疆竞争对手最大的温床。比赛里人才密度极高，而今天这些人才的第一选择已经不是进大疆，而是创业——&quot;要不然就是被我们这样的机构忽悠出创业了&quot;。大疆最初办比赛的初心，和今天的客观结果之间，已经出现了一个有趣的gap。他们投的很多创业团队，成员直接在RoboMaster里完成了初始团队组建——&quot;说白了，他们其实已经是个小创业公司了&quot;。</p>
+<p style="margin:0.8em 0">田江川有一个在同行看来反直觉的偏好：投大疆的校友，即使很多机构不愿意投。理由很简单——"你看过什么是最好的"。大疆体系锻炼出来的人，对科技产品和团队配置有非常差异化的审美，哪怕他们的护照是白本、没出过国，你要找的是有品味、会做海外市场的人，而不是一个全才。</p>
+<p style="margin:0.8em 0">他对大疆还有个半开玩笑的判断：RoboMaster比赛其实是培育大疆竞争对手最大的温床。比赛里人才密度极高，而今天这些人才的第一选择已经不是进大疆，而是创业——"要不然就是被我们这样的机构忽悠出创业了"。大疆最初办比赛的初心，和今天的客观结果之间，已经出现了一个有趣的gap。他们投的很多创业团队，成员直接在RoboMaster里完成了初始团队组建——"说白了，他们其实已经是个小创业公司了"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">时间是最稀缺的资源：滑雪错过字节，钓鱼错过拼多多</h2>
 <p style="margin:0.8em 0">这期节目里最生动的部分，是田江川对VC行业残酷性的坦白：这个行业最大的约束不是钱，是时间。</p>
-<p style="margin:0.8em 0">&quot;你很可能因为起心动念懒了那么一下，就错过一个非常大的公司。&quot;今天你因为要去滑雪，可能就错过了字节；因为要去钓鱼，可能就错过了拼多多。他的投资经理甚至跟他说过：&quot;我今年元旦想休个假，但我非常担心我会错过一个非常优质的公司。&quot;</p>
-<p style="margin:0.8em 0">最让人遗憾的案例是霸王茶姬。田江川当年与创始人张俊杰约好当晚见面，对方临时改了时间，第二天他要飞回北京，从此失之交臂——霸王茶姬最早期拿了红杉的钱，如今发展非常好。还有一次，他远程让合伙人的父亲去云南的霸王茶姬门店&quot;试喝&quot;做尽调，事后他自己承认：一个非典型奶茶用户根本是无效样本，&quot;我大学学的就是统计，他爸应该是个非常无效的sample&quot;。如果当时人在云南、线下喝上一杯，结局可能完全不同。</p>
-<p style="margin:0.8em 0">他说，&quot;很多看起来无心插柳的成果其实是源于勤奋，源于不放过&quot;。天赋与勤奋哪个重要？这个行业缺一不可。</p>
+<p style="margin:0.8em 0">"你很可能因为起心动念懒了那么一下，就错过一个非常大的公司。"今天你因为要去滑雪，可能就错过了字节；因为要去钓鱼，可能就错过了拼多多。他的投资经理甚至跟他说过："我今年元旦想休个假，但我非常担心我会错过一个非常优质的公司。"</p>
+<p style="margin:0.8em 0">最让人遗憾的案例是霸王茶姬。田江川当年与创始人张俊杰约好当晚见面，对方临时改了时间，第二天他要飞回北京，从此失之交臂——霸王茶姬最早期拿了红杉的钱，如今发展非常好。还有一次，他远程让合伙人的父亲去云南的霸王茶姬门店"试喝"做尽调，事后他自己承认：一个非典型奶茶用户根本是无效样本，"我大学学的就是统计，他爸应该是个非常无效的sample"。如果当时人在云南、线下喝上一杯，结局可能完全不同。</p>
+<p style="margin:0.8em 0">他说，"很多看起来无心插柳的成果其实是源于勤奋，源于不放过"。天赋与勤奋哪个重要？这个行业缺一不可。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">优秀与卓越：晨兴与雷军的范式</h2>
 <p style="margin:0.8em 0">田江川把基金分成两个档次。优秀：至少要有三个百倍回报的项目，才算立住。卓越：要更深度地支持创始人——他举的例子是晨兴资本当年支持雷军，雷军后来持续反哺生态，让晨兴不断拿到更好的项目。</p>
-<p style="margin:0.8em 0">这个框架放在他对自己的反思里，显得有些残酷。他直言：&quot;如果回头来看，2015年我有这么大的力气和这个能力，我都觉得我不应该选择做基金。&quot;但他没有因此后悔入行，因为他在另一件事上找到了确定性：永远是雪中送炭的意义比锦上添花大得多——&quot;你一七年给他那笔钱，那笔钱可能比之后每一笔钱都更重要&quot;。</p>
+<p style="margin:0.8em 0">这个框架放在他对自己的反思里，显得有些残酷。他直言："如果回头来看，2015年我有这么大的力气和这个能力，我都觉得我不应该选择做基金。"但他没有因此后悔入行，因为他在另一件事上找到了确定性：永远是雪中送炭的意义比锦上添花大得多——"你一七年给他那笔钱，那笔钱可能比之后每一笔钱都更重要"。</p>
 <p style="margin:0.8em 0">这大概就是天使投资最残酷也最迷人的地方：你错过一家时代级公司，往往不是因为你不够聪明，而是因为你的时间被碎片化地消耗在了别处。而识别出机会的那一刹那，你还要面对一个事实——机会并不等你的日程表。</p>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</title><link>https://xlicz.github.io/podcast-rss/articles/情绪不是感受-情绪神经科学泰斗Ralph-Adolphs谈情绪的本质与调节-2026-08-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9b3f2992d0ca</guid><pubDate>Tue, 18 Aug 2026 08:00:00 +0800</pubDate><description>情绪不是感受：情绪神经科学泰斗Ralph Adolphs谈情绪的本质与调节</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">情绪不是感受：情绪神经科学泰斗 Ralph Adolphs 给"如何调节情绪"的完整答案</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">失忆症患者看完悲伤电影会哭，五分钟后却说不清自己为什么难过。情绪并不依赖记忆、甚至不依赖意识——它是一套独立运转的功能系统。</h2>
@@ -12153,7 +12190,8 @@ Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-19.html</link><guid isPermaLink="false">report:播客信号:2026-08-19:b7e4a7c5</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-19.html</link><guid isPermaLink="false">report:播客信号:2026-08-19:b7e4a7c5</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-19 08:30</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12254,7 +12292,8 @@ Steam/雪球采集✅</li>
 </table></div>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-19.html</link><guid isPermaLink="false">report:AI动态:2026-08-19:4f9ccc25</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-19.html</link><guid isPermaLink="false">report:AI动态:2026-08-19:4f9ccc25</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/19</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12303,45 +12342,277 @@ Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[卫诗婕｜漫谈Light the Star] 宇树上市：王兴兴的幸运，投资人的教训</title><link>https://xlicz.github.io/podcast-rss/articles/宇树上市-王兴兴的幸运-投资人的教训-2026-08-19.html</link><guid isPermaLink="false">light-the-star_61c142d08ee4</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>宇树上市：王兴兴的幸运，投资人的教训</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-19</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-19.html</link><guid isPermaLink="false">report:雪球动态:2026-08-19:dd5be761</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">宇树上市：王兴兴的幸运，投资人的教训</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：早期投资人田江川复盘——当年被顶级VC视作短板的草根背景、手搓BP、不做视觉算法，最终构筑了断代级的壁垒。</strong></p>
-<p style="margin:0.8em 0">2026年，宇树科技正式敲钟。在多数人把注意力放在&quot;四足机器人第一股&quot;的叙事上时，初心资本管理合伙人田江川提供了一个更少见的复盘角度：这家公司早年融资捉襟见肘，恰恰成了它最大的幸运。被顶级VC嫌弃的草根背景、手搓BP、不做视觉算法的王兴兴，最终让全球顶尖实验室基于中国团队的硬件去定义行业标准。而说出这些判断的田江川自己，正是那个2017年就见过宇树、却始终没能投进去的人。这段复盘，本质上是中国投资人对&quot;什么是真正的创新&quot;的一次集体认知升级。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017年的错过：四百万元，可能就是最大的股东</h2>
-<p style="margin:0.8em 0">田江川是带着后悔来录这期节目的。</p>
-<p style="margin:0.8em 0">他坦言，宇树这件事&quot;是没有做好的&quot;——2017年他们有机会进入，最终却&quot;好像就没有什么然后&quot;。今天回看，他给出了一个残酷的量化判断：当时只要投四百万，可能就是宇树最大的几个股东之一。这个念头他始终放不下，&quot;我始终会因为这个事情而后悔，这个是肯定的&quot;。</p>
-<p style="margin:0.8em 0">但他同时给出了一个清醒的自我宽慰：不论他们做与不做，宇树都会变成这个时代的标志性企业。错过一个时代级公司，与错过一个普通项目，痛苦的性质完全不同——前者说明你的判断体系里有一个结构性盲区，后者只是运气问题。田江川的复盘属于前者。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">被嫌弃的草根：宇树的非共识起点</h2>
-<p style="margin:0.8em 0">要理解宇树的&quot;幸运&quot;，要先回到2015-2016年的天使投资时代。田江川回忆，那是一个让天使投资人&quot;心潮澎湃&quot;的年份：大量百倍故事在前方招手，移动互联网进入下半场，一批后来长成独角兽的公司正在萌芽——AI四小龙大多在那两年成立。</p>
-<p style="margin:0.8em 0">但那个时代的核心特征是：技术太初期，无法快速落地成平台，所以有大量&quot;非共识公司&quot;，项目&quot;非常非常便宜&quot;。田江川第一次见宇树时，估值是三千万。</p>
-<p style="margin:0.8em 0">宇树就是这批非共识公司的极端样本。王兴兴没有光鲜履历，BP是手搓的，坚持不做视觉算法——在当时的顶级VC眼里，这些全是短板。融资捉襟见肘、被主流机构拒之门外，几乎是必然结果。</p>
-<p style="margin:0.8em 0">但田江川看到的另一面是：正因为估值便宜、无人争抢，早期投资人可以用极小的成本拿到极大的股份。他后来成立的深圳基金把单笔投资定为五百万，逻辑就来自这个教训：&quot;不能既要又要还要&quot;——不要既要求顶级创始人，又要求极大的市场机会。对标当年的宇树：那个方向看起来没有商业机会，又怎么样？他做出了一个让全世界赞叹的产品就够了。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">反精英主义的傲慢：什么是真正的创新</h2>
-<p style="margin:0.8em 0">田江川把这轮复盘上升到了认知层面。他认为，宇树和王兴兴完成了一次中国投资人的集体认知升级——关于反精英主义的傲慢，关于什么是真正的创新。</p>
-<p style="margin:0.8em 0">他讲了一个观察：2015年前后他投过的AI公司，当年都自称&quot;automation&quot;，后来集体演进成&quot;robotics&quot;，到今天再看，很多公司干脆改名带&quot;动力&quot;。名字的更迭背后，是同一批创始人在不同技术浪潮里的切换。创新者一直在，变的是资本愿意为之付费的标签。</p>
-<p style="margin:0.8em 0">而VC的傲慢在于：习惯用过去的标准衡量未来的赢家。田江川相信，会有一波创业者让这些VC打脸，然后去修正自己的判断标准和模式，&quot;就像王兴兴让我们打脸一样&quot;。顶级机构当年看走眼的短板——草根出身、不做热门方向、不按套路融资——恰恰是后来壁垒的来源：当所有人都看懂了，你再也买不到那个价格。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2025年的泡沫是必然的，但出货量还是初期</h2>
-<p style="margin:0.8em 0">田江川对当下的机器人热潮给出了一个冷静的框架：泡沫是必然的，但产业本身仍在极早期。</p>
-<p style="margin:0.8em 0">他把宇树今天的出货量放进消费电子坐标系里比较，&quot;作为消费电子产品来类比的话，其实还是非常非常初期的&quot;。2023年他们批量投了大量具身智能团队，当时估值大多在十亿以内，如今回头看都有很好的资本回报——但即便如此，他当时也觉得机器人公司的估值普遍虚高，因为产品同质化严重，底层技术模型仍有大量空白。</p>
-<p style="margin:0.8em 0">这个判断的意义在于：泡沫并不等于错误。2025年的估值泡沫，部分正是宇树验证过的路径被资本快速共识化的结果——而共识形成得越快，后来者的成本就越高。十年前一个非共识可以给你一段漫长的窗口期，今天这个窗口已经短得多。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">问两个问题，识别真实的野心</h2>
-<p style="margin:0.8em 0">作为早期投资人，田江川的识人方法论朴素得近乎直觉，但他强调信息量巨大。面对年轻创业者，他只问两个问题：五到十年，你希望把这家公司做成什么样？你为什么决定做这家公司？</p>
-<p style="margin:0.8em 0">他解释：&quot;这两个问题里面信息量都是巨大的。&quot;野心可以包装，但野心必须有与之匹配的能力，而能力需要过往经验的佐证。问得好的话，&quot;野心是昭然若揭的&quot;。</p>
-<p style="margin:0.8em 0">这套方法也延伸到了更年轻的人群。他算过一笔账：初心资本已经投了五个00后。当被问到如何在有限的track record里判断年轻人时，他的答案是回到更早的征兆——他曾请教一位成名创始人在大学比赛时期的表现，答案是：更早的时候，这个人就已经不安于社会给定的路线规划，&quot;这些无处安放的野心，很容易就会转换到比赛里&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">大疆的人才审美，与RoboMaster的悖论</h2>
-<p style="margin:0.8em 0">田江川有一个在同行看来反直觉的偏好：投大疆的校友，即使很多机构不愿意投。理由很简单——&quot;你看过什么是最好的&quot;。大疆体系锻炼出来的人，对科技产品和团队配置有非常差异化的审美，哪怕他们的护照是白本、没出过国，你要找的是有品味、会做海外市场的人，而不是一个全才。</p>
-<p style="margin:0.8em 0">他对大疆还有个半开玩笑的判断：RoboMaster比赛其实是培育大疆竞争对手最大的温床。比赛里人才密度极高，而今天这些人才的第一选择已经不是进大疆，而是创业——&quot;要不然就是被我们这样的机构忽悠出创业了&quot;。大疆最初办比赛的初心，和今天的客观结果之间，已经出现了一个有趣的gap。他们投的很多创业团队，成员直接在RoboMaster里完成了初始团队组建——&quot;说白了，他们其实已经是个小创业公司了&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">时间是最稀缺的资源：滑雪错过字节，钓鱼错过拼多多</h2>
-<p style="margin:0.8em 0">这期节目里最生动的部分，是田江川对VC行业残酷性的坦白：这个行业最大的约束不是钱，是时间。</p>
-<p style="margin:0.8em 0">&quot;你很可能因为起心动念懒了那么一下，就错过一个非常大的公司。&quot;今天你因为要去滑雪，可能就错过了字节；因为要去钓鱼，可能就错过了拼多多。他的投资经理甚至跟他说过：&quot;我今年元旦想休个假，但我非常担心我会错过一个非常优质的公司。&quot;</p>
-<p style="margin:0.8em 0">最让人遗憾的案例是霸王茶姬。田江川当年与创始人张俊杰约好当晚见面，对方临时改了时间，第二天他要飞回北京，从此失之交臂——霸王茶姬最早期拿了红杉的钱，如今发展非常好。还有一次，他远程让合伙人的父亲去云南的霸王茶姬门店&quot;试喝&quot;做尽调，事后他自己承认：一个非典型奶茶用户根本是无效样本，&quot;我大学学的就是统计，他爸应该是个非常无效的sample&quot;。如果当时人在云南、线下喝上一杯，结局可能完全不同。</p>
-<p style="margin:0.8em 0">他说，&quot;很多看起来无心插柳的成果其实是源于勤奋，源于不放过&quot;。天赋与勤奋哪个重要？这个行业缺一不可。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">优秀与卓越：晨兴与雷军的范式</h2>
-<p style="margin:0.8em 0">田江川把基金分成两个档次。优秀：至少要有三个百倍回报的项目，才算立住。卓越：要更深度地支持创始人——他举的例子是晨兴资本当年支持雷军，雷军后来持续反哺生态，让晨兴不断拿到更好的项目。</p>
-<p style="margin:0.8em 0">这个框架放在他对自己的反思里，显得有些残酷。他直言：&quot;如果回头来看，2015年我有这么大的力气和这个能力，我都觉得我不应该选择做基金。&quot;但他没有因此后悔入行，因为他在另一件事上找到了确定性：永远是雪中送炭的意义比锦上添花大得多——&quot;你一七年给他那笔钱，那笔钱可能比之后每一笔钱都更重要&quot;。</p>
-<p style="margin:0.8em 0">这大概就是天使投资最残酷也最迷人的地方：你错过一家时代级公司，往往不是因为你不够聪明，而是因为你的时间被碎片化地消耗在了别处。而识别出机会的那一刹那，你还要面对一个事实——机会并不等你的日程表。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-19 22:00</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：48条 | 信号：🔥6 / 🔴2 / ⚪40
+数据源：雪球关注流（登录✅ uid=1036664838）| 历史检索：Phase 1（Phase 2 BGE SIGSEGV 回退）</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 STH_ — 焦煤（看多，现货即时验证）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 产地焦煤开始涨价，供给治理逻辑兑现，看多焦煤</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 山西低硫今日环比+156元/8%，吕梁单日+250元/12%，焦动比回升至2.5+；表外偷采治理完成后焦精煤真实洗出率或降至32-33%，焦动比2030年前后向2.7浮动。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">产地现货大涨 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情数据]</code> 山西低硫+156元，吕梁低硫主焦+250元</li>
+<li style="margin:0.3em 0">焦动比回升2.5+ — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人口径指标]</code></li>
+<li style="margin:0.3em 0">偷采治理→真实洗出率32-33% — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业推断]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">吕梁低硫主焦+250元/12%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/19财联社：吕梁离石低硫主焦煤涨250元至2300元/吨，临汾古县低硫主焦+244元至2363元</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山西低硫+156元/8%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/19山西主焦煤大面积上涨，临汾尧都高硫主焦+177元至1980元</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">供给收缩</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">安监加码：山西停产炼焦煤矿51座/5470万吨，复产不复量（晋中复产产能仅为停产前56%）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">焦动比2.5→2.7（2030）</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人口径指标，无公开定义</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 一致强化 — 6/8&quot;焦煤重仓，5.22事故后焦煤焦炭必然大涨&quot;；6/28&quot;焦煤通过自然枯竭替代铁矿石生态位&quot;；5/18&quot;焦煤枯竭是我看过所有资源里最严重的&quot;。今日现货数据验证其5月以来判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 现货价格公开可查且当日验证，供给收缩有Mysteel/财联社数据支撑。风险在需求侧：铁水产量238.2万吨环比下滑、钢厂亏损，焦炭三轮提降后首轮提涨50-55元能否落地是短期验证点；知乎分析认为&quot;弱需求难撑趋势，建议观望&quot;。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📜 STH_ — Moderna（历史判断兑现）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 复盘看多兑现 — 一年半前跌到净现金价格，盘前翻三倍，Merck痛失并购</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: Moderna 当初被市场过度看空（RFK Jr反疫苗+砍政府订单），实际价值被严重低估。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>: ✅ 8/19 Moderna+默沙东 mRNA-4157+K药联合辅助治疗黑色素瘤三期 INTerpath-001 达主要终点RFS和关键次要终点DMFS，为可手术黑色素瘤首个优于K药单药的三期。Moderna 盘前+80~100%，市值480亿美元。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 兑现 — 2025/3/5&quot;跌到只剩1.1pb，坚定的反科学者终将被打脸&quot;；2026/1/23&quot;Merck失望，两个窗口期错过并购（25年初1.2x净现金、25年10月CMV失败）&quot;。今日三期成功验证其价值判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 事后验证，历史判断链完整（低估→催化→兑现）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 浊静徐清 — 腾讯（看多，AI叙事）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 视频号变现空间+AI投入价值，看多腾讯</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 视频号时长+20%以上、广告加载率4-5%（同行13-16%）→广告收入翻倍空间；HY3排名/HY4前瞻；Workbuddy在蒙牛落地（200员工→45个AI数字员工、199个提效场景、牛病诊断1.5天→2小时）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">视频号时长+20%、加载率4-5% — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报引用]</code></li>
+<li style="margin:0.3em 0">谷歌Meta加投3万亿美元AI基建 vs 腾讯股东反应过度 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业对比]</code></li>
+<li style="margin:0.3em 0">HY3 Elo 1457总榜47-54，HY4值得期待 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[榜单数据]</code></li>
+<li style="margin:0.3em 0">Workbuddy蒙牛案例 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[官方宣传]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">视频号时长+20%以上</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯8/12 Q2财报：视频号总使用时长同比+20%以上</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">广告加载率4-5%，同行13-16%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机构测算：视频号4-5%，抖音15%+；每提1pct≈90-160亿广告增量</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯财报后股价跌5%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/12财报后市场恐慌528亿资本开支、自由现金流-138亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HY3登顶OpenRouter调用量</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">虎嗅8月报道：混元HY3正式版登顶OpenRouter调用量榜单</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">蒙牛45个AI数字员工、牛病诊断缩短</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WorkBuddy官方宣传口径，无第三方独立数据</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 一致强化 — 7/29 HY3数据优势深度分析、8/3 WorkBuddy各端口上线时间线、6/30&quot;中概股便宜到离谱（拼多多前瞻PE 2.7）&quot;。长期深度跟踪腾讯AI。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 视频号/加载率数据可查✅，蒙牛案例为官方口径❓，HY4预期为主观推断。风险：528亿资本开支下自由现金流转负，AI商业化（WorkBuddy订阅、混元API）尚未实质验证；市场已用脚投票（财报后跌5%）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 逸修1 — 快手/慢脚（看空，财报当日验证）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 高资本开支吞噬利润，看空快手</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 快手标准口径扣非净利从去年193亿下滑35%到120-130亿；高资本开支在收入增速放缓时折旧摊销会崩报表；下半年指引更差。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">扣非净利193亿→120-130亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报预测]</code></li>
+<li style="margin:0.3em 0">高资本开支必须配高增长云/SOTA模型 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一性原理]</code></li>
+<li style="margin:0.3em 0">避免核心业务直面字节竞争的公司 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业判断]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">利润大幅下滑</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/19快手Q2财报（今日发布）：期内利润31.52亿-36%，经调整净利39.13亿-30.3%；H1经调整72.87亿-28.5%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高资本开支吞噬利润</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2研发开支+34.7%至46亿，收入成本+16.65亿，毛利率55.7%→51.6%，经营利润率15.1%→10.6%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;去年193亿&quot;基准</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">快手2025全年经调整净利约190亿口径接近；2026H1实际-28.5%，全年-35%预测方向一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">下半年指引崩</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">财报未给明确指引，直播-13.5%趋势延续下Q3压力大</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">反例</strong>: 可灵AI Q2收入8.5亿+200%（上半年15亿+），7月独立融资近30亿美元投后180亿美元——约半个快手市值。高资本开支确实产生了高增长业务。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 一致 — 2019年起跟踪快手vs字节竞争；2025/3快手估值档次垫底（第4档：拼多多/快手）。长期谨慎，今日财报验证其&quot;业绩不行&quot;判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 财报数字公开可查，预测方向与幅度准确。风险：可灵AI独立融资180亿美元估值若被市场认可，报表利润下行≠资产价值下行，重估路径（分拆/IPO）可能改变结论。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 酒金岁月 — 白酒/茅台（偏空叙事，自称不看空茅台）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 消费习惯改变+茅台收益平庸化，不持有茅台、偏好低估值酒企</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 世界范围白酒度数从高到低（健康意识崛起），中国不可能特殊；大基数茅台类比可口可乐收益平庸化；飞天涨到3000元投资收益才跟洋河70亿利润30倍PE相等，所以偏好&quot;跌无可跌&quot;的低估值酒企。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">欧美/东亚消费习惯演变（度数、无糖替代） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[国际类比]</code></li>
+<li style="margin:0.3em 0">茅台大基数收益平庸化 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">洋河70亿利润30倍PE vs 飞天3000元 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估值]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台业绩转负</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026H1茅台营收922.78亿+1.3%、净利445.17亿-1.95%，12年首降</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">股价21年开始跌</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台股价2021年2月见顶2627元后持续下行</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">批价下行</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">飞天三年2730→~1540-1730元；五粮液批价780元（设800元红线）；但8月企稳：原箱1730元、自营店上调至1753元</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">飞天3000元才等于洋河收益</td>
+  <td style="text-align:center">🔴</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观远期价格假设，不可验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">低度化/健康化长期趋势</td>
+  <td style="text-align:center">🔴</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">国际类比外推，中国白酒社交货币属性差异大</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 部分一致 — 7/26&quot;白酒在走右侧，茅台是行业风向标&quot;（偏多）；8/8&quot;茅台并不超人一等，高端白酒是一体&quot;；8/10&quot;买白酒不能不研究茅台&quot;。今日延续其&quot;茅台相对收益不足&quot;主线，同时强化低度化叙事。观点非翻转，是从周期位置讨论深化为消费结构讨论。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 业绩/批价数据可查✅；&quot;消费习惯改变&quot;为长期不可证伪叙事🔴；洋河对比估值主观🔴。风险：批价8月企稳+五粮液800元红线+茅台自营提价，若中秋旺季验证回暖，其叙事短期不证伪但也不受益。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 庶人哑士 — Moderna（转发，无独立分析）</h2>
+<p style="margin:0.8em 0">转发张小丰&quot;Moderna疫苗史诗级突破&quot;并称&quot;真牛啊&quot;。✅ 事件真实（mRNA-4157三期成功），但无独立分析增量。可靠度：🟡（转发他人观点）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号帖子</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">人性本恶讨论/盆栽/抖音260元7瓶泸州老窖</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">生活闲聊；唯一投资相关=五粮液商业价值第一、泸州老窖文化底蕴第一（无方向）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">丹书铁券</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">标杆企业资金分流：存储→机器人</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">盘面观察✅（8/19宇树上市开盘+629%、市值4449亿，机器人概念股全线飘绿，资金被宇树虹吸）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">300成长与300红利镜像</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">量化搅动市场情绪，无标的方向</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Penny010</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">孩子骑行30KM</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">生活帖</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑的观点</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">逸修1（快手）</strong>：框架&quot;高资本开支→折旧摊销→报表崩&quot;忽略了资产重估路径——可灵AI已独立融资30亿美元/180亿美元估值（约半个快手），若分拆/IPO兑现，报表利润下行≠股东价值下行。其&quot;120-130亿&quot;利润预测成立，但结论可能过度悲观。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月（白酒）</strong>：用欧美烈酒低度化类比推导中国白酒——中国白酒是宴请/社交货币，消费场景与欧美佐餐饮用不同，类比可能过度外推。且&quot;跌无可跌只能反转&quot;是动量思维而非估值锚，洋河对比中&quot;飞天3000元&quot;为不可验证的远期假设。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">STH_（焦煤）</strong>：供给逻辑扎实，但需求侧铁水产量环比下滑、钢厂亏损、焦炭提涨50-55元落地存疑；&quot;焦动比2030年前向2.7&quot;是超长期假设，短期价格涨幅（吕梁单日+250元）可能已透支部分预期。</li>
+</ol>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
