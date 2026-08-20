@@ -1,7 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 20 Aug 2026 09:00:16 +0800</lastBuildDate><item><title>[跨国串门儿计划] 美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</title><link>https://xlicz.github.io/podcast-rss/articles/美国赢下AI竞赛对世界是危险的--Ben-Thompson谈资本-芯片与巨头终局-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_694d0c52ad19</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 20 Aug 2026 13:07:05 +0800</lastBuildDate><item><title>[高能量] AI 化学合成的能力，已经相当于十年经验的化学家</title><link>https://xlicz.github.io/podcast-rss/articles/AI-化学合成的能力-已经相当于十年经验的化学家-2026-08-20.html</link><guid isPermaLink="false">gao-neng-liang_6a36261d0373</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>AI 化学合成的能力，已经相当于十年经验的化学家</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 化学合成的能力，已经相当于十年经验的化学家</h1>
+<p style="margin:0.8em 0">客户花一两个月设计出来的合成路线，AI 五分钟跑完，还给出五六种备选。这不是 demo，是智化科技已经在真实客户案例里验证过的状态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个&quot;脚踩两只船&quot;的人，在冷门领域蹲了十八年</h2>
+<p style="margin:0.8em 0">夏宁的起点有点特殊：化学竞赛全国获奖，同时从小痴迷编程。高考选专业时他犹豫过，招生老师一句话定了方向——&quot;计算机是一门技术，化学是一个专业，你要先学一个专业，技术你已经具备了。&quot;于是他去读了化学，一路读到博士。这个选择后来被证明是对的：选计算机的人想再交叉回化学，难度极大；而他白天做实验、晚上写代码，两头都没丢。</p>
+<p style="margin:0.8em 0">2008 年博士毕业，他去了法国斯特拉斯堡一家连公司都还没注册的初创团队——对方想用数据解决化学预测问题，网页刚上线。这一待就是七年。那是这个领域最冷的年代：没有资本关注、没有现成的 AI 基础设施、连数据都要从零造。他试过高通量实验人工投料——人投几百上千个反应，发现数据量还是不够。七年时间把整个领域摸了一遍，找到了一些方向，但都不清晰。</p>
+<p style="margin:0.8em 0">2015 年之后他才回国继续创业。到现在，接近十八年。</p>
+<p style="margin:0.8em 0">丰瑞资本合伙人李峰点评这个行业时给了一个观察：这个领域最难的是找到&quot;脚踩两只船&quot;的人——能力横跨计算机和化学这两个几乎不交叉的学科。夏宁是那种少见的从中学时代就同时踩上两只船的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 现在的水平：十年经验的化学家，五到六种策略</h2>
+<p style="margin:0.8em 0">问夏宁现在 AI 化学合成能做到什么程度，他给了一个内部测评加外部测评反复验证过的结论：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">化学合成的 AI 能力大致相当于十年工作经验的化学家。化学家能想到的路线和方案，AI 都能想到；而且 AI 平均能想到五到六种不同策略，人一般只有一到两种。</p>
+</blockquote>
+<p style="margin:0.8em 0">更直观的是客户侧的测试：客户拿真实案例来测，自己花一两个月设计出一条路线，AI 五分钟跑出来，还能给出客户尝试过但最终没选的其他方案。在工艺路线设计这类难活上，AI 也基本做到了&quot;人能想到的，它都能想到&quot;。</p>
+<p style="margin:0.8em 0">他拿辉瑞的经典案例做类比。2016 年，辉瑞拿三四个从未公开发布的分子晶型去测计算预测，结果与已有答案命中。当时整个生物制药界没人相信计算能预测出从未出现过的晶体模型。夏宁认为化学合成这一块已经到了&quot;差不多或者过了&quot;那个阶段。</p>
+<p style="margin:0.8em 0">有个关键的边界条件：AI 不会发明新反应。它的创新全部建立在已有数据之上——但它能翻遍十万篇文献的角落，找到人类检索不到的那个已知反应。同样的分子，人看不见那篇文献，路线可能设计成十步；AI 找到了，路线变成三四步，成本直线下降。这在合成领域影响不大，因为合成路线的创新本质就是用已知反应做更优组合——只是这个&quot;已知&quot;藏得太深。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">合成的瓶颈，卡住了整个新药研发的通量</h2>
+<p style="margin:0.8em 0">夏宁把新药和材料研发的本质拆成 DMTA 循环：设计（Design）—合成（Make）—测试（Test）—分析（Analyze），改进后再进入下一轮。做一个药通常要七到八轮这样的循环。</p>
+<p style="margin:0.8em 0">这个循环里每个环节的速度极不均衡：设计阶段，一天生成成百上千甚至几万个分子都很轻松；到了合成阶段就卡住了。化学合成是整个链条的瓶颈环节——它的效率决定了整个研发的通量。</p>
+<p style="margin:0.8em 0">所以他的判断很直接：把合成效率提高两倍、三倍已经非常了不起；如果能做到十倍、二十倍，就等于把新药和新材料研发的整体通量抬升了十倍到二十倍。这就是 AI for Science 在这个链条里的位置：不是替代化学家，而是把整个循环中最慢的一环提速。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">八年护城河：技术体系，和已经上船的客户</h2>
+<p style="margin:0.8em 0">有人问他：2026 年上半年，一个和你背景一样的年轻人进场做一模一样的事，你做了八年，优势在哪里？</p>
+<p style="margin:0.8em 0">答案很残酷，分两点。</p>
+<p style="margin:0.8em 0">第一，技术体系。八年的打磨不是钱能买来的——数据积累、基础设施、各种试错，都是时间堆出来的。新进入者要追赶，这个时间省不掉。</p>
+<p style="margin:0.8em 0">第二，市场可能已经没有了。大客户已经用上了他们的产品，建立了合作关系，做了大量定制化——一旦上了船，再想替换几乎不可能。他拿自己做电子时间记录本时的经验类比：客户已经用了、已经定制了，你再想让他改，基本没有可能性。</p>
+<p style="margin:0.8em 0">所以他的结论是：现在再做这件事，时机可能已经过去了。这个答案比他自己的问题还要残酷。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">渗透率不到千分之一，但趋势几乎是必然</h2>
+<p style="margin:0.8em 0">夏宁对 AI for Science 的行业阶段判断是：非常早期，渗透率甚至不到千分之一。资本方大多在观望，因为看不清楚。但他认为趋势几乎是必然的——十年之后，这些事情大概率主要由 AI 来做，人做的会很少。</p>
+<p style="margin:0.8em 0">他给了一个更宏大的类比：这有点像十三年前中国开始押注电动车——弯道超车的前提，是行业恰好出现了整体转向的窗口，而你综合各种优势率先跑了起来。AI for Science 的广义含义，是把 AI 模型用在各种垂直领域解决研发效率问题——像显微镜的发明让人第一次看见细菌和细胞，从而引爆了生物医学的整体进展。今天正处在类似的阶段。</p>
+<p style="margin:0.8em 0">他还提到一个现实层面的博弈：客户换新工具是有阻力的，他希望客户高层能认识到这个时代在发生转变——如果效率不主动提升，未来某个时间点就可能被行业淘汰。这有点囚徒困境：不上的人落伍，上了的人短期有优势，但长期大家都上，优势消失。他对此的回答是：这种模式是存在的，但该上还是得上。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个确定的中国机会</h2>
+<p style="margin:0.8em 0">回到开头的问题——这个行业难在&quot;脚踩两只船&quot;，那两只船哪只更重要？夏宁用十八年的经历给出了隐含答案：化学是专业，计算机是技术。先有专业纵深，技术才能找到发力点；反过来，纯 AI 背景的人想补化学，补不进去。</p>
+<p style="margin:0.8em 0">而他对资本方的呼吁也很朴素：AI for Science 还在非常早期，需要更多资本愿意投入。行业渗透率不到千分之一的时候进场，看起来像赌博；但显微镜被发明的时候，也没人能预见到它后来的全部意义。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI 化学合成能力已达十年经验化学家水平：路线全覆盖，策略数量（5-6 种 vs 1-2 种）超过人类</li>
+<li style="margin:0.3em 0">AI 不发明新反应，但能检索到人看不到的文献角落——同样的分子，路线可以从十步压到三四步</li>
+<li style="margin:0.3em 0">合成是 DMTA 循环的瓶颈环节，合成效率提升 10 倍 = 新药研发整体通量提升 10 倍</li>
+<li style="margin:0.3em 0">八年护城河 = 技术体系的时间成本 + 已经完成定制化的大客户（替换几乎不可能）</li>
+<li style="margin:0.3em 0">行业渗透率不到千分之一，但趋势必然：十年后这类工作大概率主要由 AI 完成</li>
+<li style="margin:0.3em 0">&quot;计算机是技术，化学是专业&quot;——交叉学科创业，专业纵深是先决条件，技术是杠杆</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] 美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</title><link>https://xlicz.github.io/podcast-rss/articles/美国赢下AI竞赛对世界是危险的--Ben-Thompson谈资本-芯片与巨头终局-2026-08-19.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_694d0c52ad19</guid><pubDate>Wed, 19 Aug 2026 08:00:00 +0800</pubDate><description>美国赢下AI竞赛对世界是危险的——Ben Thompson谈资本、芯片与巨头终局</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">"美国赢下 AI 竞赛，对世界是危险的"——Ben Thompson 谈 AI 时代的资本、芯片与巨头终局</h1>
 <p style="margin:0.8em 0">副标题：Stratechery 创始人对话 Patrick O'Shaughnessy：为什么"打败中国"是硅谷最好用的假想敌、开源模型的免费是幻觉、台积电正在重演存储芯片的牛鞭效应，以及 AI 泡沫最终会留下什么。</p>
@@ -12322,7 +12367,7 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">宇树科技（Unitree）上海上市首日暴涨</strong>——中国首个人形机器人公司登陆 A 股，多源报道首日涨幅 460%~629%（媒体口径不一），同日发布&quot;Superman&quot;高速人形机器人（宣称奔跑速度超博尔特）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">宇树科技（Unitree）上海上市首日暴涨</strong>——中国首个人形机器人公司登陆 A 股，多源报道首日涨幅 460%~629%（媒体口径不一），同日发布"Superman"高速人形机器人（宣称奔跑速度超博尔特）。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Stripe 以约 $7.5B 收购 OpenRouter</strong>——AI 模型路由平台并入支付巨头，官方博客确认，金额为媒体报道口径。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Etched 估值一个月翻倍至 $21B</strong>——Transformer 专用芯片商再融 $700M，并向 Jane Street 交付首批机架。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Cerebras 发布 CS-4 服务器 + WSE-3 Turbo</strong>——4 万亿晶体管新芯片，厂商宣称推理速度较 NVIDIA GPU 快 30 倍（未独立验证）。</li>
@@ -12331,19 +12376,19 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 宇树科技上海上市首日暴涨，中国机器人资本化里程碑 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">中国首个人形机器人公司宇树科技 8/19 在上海交易所上市，首日股价暴涨：CNBC 报 542%、Yahoo/IBD 报 460%、Guardian 报 600%、Forbes 报 629%（口径差异或为盘中/收盘与不同计算基准）。多家媒体称其为&quot;中国首个人形机器人 IPO&quot;，WSJ/Bloomberg/NYT/Reuters 均有深度报道。上市前数日，宇树还发布了&quot;Superman&quot;人形机器人，宣称奔跑速度超过博尔特（厂商宣称，运动形态视频引发争议）。</p>
+<p style="margin:0.8em 0">中国首个人形机器人公司宇树科技 8/19 在上海交易所上市，首日股价暴涨：CNBC 报 542%、Yahoo/IBD 报 460%、Guardian 报 600%、Forbes 报 629%（口径差异或为盘中/收盘与不同计算基准）。多家媒体称其为"中国首个人形机器人 IPO"，WSJ/Bloomberg/NYT/Reuters 均有深度报道。上市前数日，宇树还发布了"Superman"人形机器人，宣称奔跑速度超过博尔特（厂商宣称，运动形态视频引发争议）。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅上市+暴涨+Superman 发布由 WSJ/CNBC/Bloomberg/Reuters/Guardian/NBC ≥6 家独立媒体确认；⚠️ 首日涨幅各媒体数字不一（460%-629%），未统一收盘口径 — <strong style="font-weight:600">关注</strong>: 人形机器人商业化的资本验证，A 股成为国产机器人融资主场</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: WSJ / CNBC / Bloomberg / The Guardian / NBC News</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Stripe 收购 OpenRouter，AI 模型路由成战略入口 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">OpenRouter 官方博客 8/19 宣布&quot;joining Stripe&quot;。NYT/Reuters/CNBC/Bloomberg 多源报道交易金额约 $7.5B（官方未披露金额，为媒体报道口径）。OpenRouter 是当前最大的 LLM 聚合路由平台之一，提供跨模型统一 API。a16z 等评论称其为&quot;智能网络&quot;入口，支付巨头借此切入 AI 推理分发层。</p>
+<p style="margin:0.8em 0">OpenRouter 官方博客 8/19 宣布"joining Stripe"。NYT/Reuters/CNBC/Bloomberg 多源报道交易金额约 $7.5B（官方未披露金额，为媒体报道口径）。OpenRouter 是当前最大的 LLM 聚合路由平台之一，提供跨模型统一 API。a16z 等评论称其为"智能网络"入口，支付巨头借此切入 AI 推理分发层。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官方博客确认收购事实；✅金额 $7.5B 经 NYT/Reuters/SiliconANGLE 多源交叉 — <strong style="font-weight:600">关注</strong>: AI 推理中间层基础设施并购开始，模型路由=分发渠道=战略卡位</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: OpenRouter 官方博客 / NYT / Reuters / CNBC</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Etched 估值一个月翻倍至 $21B，ASIC 推理路线获资本重估 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Transformer 专用芯片（Sohu）厂商 Etched 以 $21B 估值再融 $700M（8/18），距上次估值翻倍不到一个月。Tech Times 报道其已向 Jane Street 交付首批机架系统。WSJ 独家报道 Etched 正大量吸纳 NVIDIA 人才（&quot;kids in chips&quot;）。Reuters/TechCrunch/WSJ 多源确认。</p>
+<p style="margin:0.8em 0">Transformer 专用芯片（Sohu）厂商 Etched 以 $21B 估值再融 $700M（8/18），距上次估值翻倍不到一个月。Tech Times 报道其已向 Jane Street 交付首批机架系统。WSJ 独家报道 Etched 正大量吸纳 NVIDIA 人才（"kids in chips"）。Reuters/TechCrunch/WSJ 多源确认。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅估值$21B+融$700M+首出货由 Reuters/TechCrunch/WSJ/Data Center Dynamics ≥5 家独立确认 — <strong style="font-weight:600">关注</strong>: 推理专用 ASIC 路线资本热度飙升，与 GPU 路线正面对撞</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / TechCrunch / WSJ / Tech Times</li>
@@ -12363,5 +12408,50 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[高能量] AI 化学合成的能力，已经相当于十年经验的化学家</title><link>https://xlicz.github.io/podcast-rss/articles/AI-化学合成的能力-已经相当于十年经验的化学家-2026-08-20.html</link><guid isPermaLink="false">gao-neng-liang_6a36261d0373</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>AI 化学合成的能力，已经相当于十年经验的化学家</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 化学合成的能力，已经相当于十年经验的化学家</h1>
+<p style="margin:0.8em 0">客户花一两个月设计出来的合成路线，AI 五分钟跑完，还给出五六种备选。这不是 demo，是智化科技已经在真实客户案例里验证过的状态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个&quot;脚踩两只船&quot;的人，在冷门领域蹲了十八年</h2>
+<p style="margin:0.8em 0">夏宁的起点有点特殊：化学竞赛全国获奖，同时从小痴迷编程。高考选专业时他犹豫过，招生老师一句话定了方向——&quot;计算机是一门技术，化学是一个专业，你要先学一个专业，技术你已经具备了。&quot;于是他去读了化学，一路读到博士。这个选择后来被证明是对的：选计算机的人想再交叉回化学，难度极大；而他白天做实验、晚上写代码，两头都没丢。</p>
+<p style="margin:0.8em 0">2008 年博士毕业，他去了法国斯特拉斯堡一家连公司都还没注册的初创团队——对方想用数据解决化学预测问题，网页刚上线。这一待就是七年。那是这个领域最冷的年代：没有资本关注、没有现成的 AI 基础设施、连数据都要从零造。他试过高通量实验人工投料——人投几百上千个反应，发现数据量还是不够。七年时间把整个领域摸了一遍，找到了一些方向，但都不清晰。</p>
+<p style="margin:0.8em 0">2015 年之后他才回国继续创业。到现在，接近十八年。</p>
+<p style="margin:0.8em 0">丰瑞资本合伙人李峰点评这个行业时给了一个观察：这个领域最难的是找到&quot;脚踩两只船&quot;的人——能力横跨计算机和化学这两个几乎不交叉的学科。夏宁是那种少见的从中学时代就同时踩上两只船的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 现在的水平：十年经验的化学家，五到六种策略</h2>
+<p style="margin:0.8em 0">问夏宁现在 AI 化学合成能做到什么程度，他给了一个内部测评加外部测评反复验证过的结论：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">化学合成的 AI 能力大致相当于十年工作经验的化学家。化学家能想到的路线和方案，AI 都能想到；而且 AI 平均能想到五到六种不同策略，人一般只有一到两种。</p>
+</blockquote>
+<p style="margin:0.8em 0">更直观的是客户侧的测试：客户拿真实案例来测，自己花一两个月设计出一条路线，AI 五分钟跑出来，还能给出客户尝试过但最终没选的其他方案。在工艺路线设计这类难活上，AI 也基本做到了&quot;人能想到的，它都能想到&quot;。</p>
+<p style="margin:0.8em 0">他拿辉瑞的经典案例做类比。2016 年，辉瑞拿三四个从未公开发布的分子晶型去测计算预测，结果与已有答案命中。当时整个生物制药界没人相信计算能预测出从未出现过的晶体模型。夏宁认为化学合成这一块已经到了&quot;差不多或者过了&quot;那个阶段。</p>
+<p style="margin:0.8em 0">有个关键的边界条件：AI 不会发明新反应。它的创新全部建立在已有数据之上——但它能翻遍十万篇文献的角落，找到人类检索不到的那个已知反应。同样的分子，人看不见那篇文献，路线可能设计成十步；AI 找到了，路线变成三四步，成本直线下降。这在合成领域影响不大，因为合成路线的创新本质就是用已知反应做更优组合——只是这个&quot;已知&quot;藏得太深。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">合成的瓶颈，卡住了整个新药研发的通量</h2>
+<p style="margin:0.8em 0">夏宁把新药和材料研发的本质拆成 DMTA 循环：设计（Design）—合成（Make）—测试（Test）—分析（Analyze），改进后再进入下一轮。做一个药通常要七到八轮这样的循环。</p>
+<p style="margin:0.8em 0">这个循环里每个环节的速度极不均衡：设计阶段，一天生成成百上千甚至几万个分子都很轻松；到了合成阶段就卡住了。化学合成是整个链条的瓶颈环节——它的效率决定了整个研发的通量。</p>
+<p style="margin:0.8em 0">所以他的判断很直接：把合成效率提高两倍、三倍已经非常了不起；如果能做到十倍、二十倍，就等于把新药和新材料研发的整体通量抬升了十倍到二十倍。这就是 AI for Science 在这个链条里的位置：不是替代化学家，而是把整个循环中最慢的一环提速。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">八年护城河：技术体系，和已经上船的客户</h2>
+<p style="margin:0.8em 0">有人问他：2026 年上半年，一个和你背景一样的年轻人进场做一模一样的事，你做了八年，优势在哪里？</p>
+<p style="margin:0.8em 0">答案很残酷，分两点。</p>
+<p style="margin:0.8em 0">第一，技术体系。八年的打磨不是钱能买来的——数据积累、基础设施、各种试错，都是时间堆出来的。新进入者要追赶，这个时间省不掉。</p>
+<p style="margin:0.8em 0">第二，市场可能已经没有了。大客户已经用上了他们的产品，建立了合作关系，做了大量定制化——一旦上了船，再想替换几乎不可能。他拿自己做电子时间记录本时的经验类比：客户已经用了、已经定制了，你再想让他改，基本没有可能性。</p>
+<p style="margin:0.8em 0">所以他的结论是：现在再做这件事，时机可能已经过去了。这个答案比他自己的问题还要残酷。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">渗透率不到千分之一，但趋势几乎是必然</h2>
+<p style="margin:0.8em 0">夏宁对 AI for Science 的行业阶段判断是：非常早期，渗透率甚至不到千分之一。资本方大多在观望，因为看不清楚。但他认为趋势几乎是必然的——十年之后，这些事情大概率主要由 AI 来做，人做的会很少。</p>
+<p style="margin:0.8em 0">他给了一个更宏大的类比：这有点像十三年前中国开始押注电动车——弯道超车的前提，是行业恰好出现了整体转向的窗口，而你综合各种优势率先跑了起来。AI for Science 的广义含义，是把 AI 模型用在各种垂直领域解决研发效率问题——像显微镜的发明让人第一次看见细菌和细胞，从而引爆了生物医学的整体进展。今天正处在类似的阶段。</p>
+<p style="margin:0.8em 0">他还提到一个现实层面的博弈：客户换新工具是有阻力的，他希望客户高层能认识到这个时代在发生转变——如果效率不主动提升，未来某个时间点就可能被行业淘汰。这有点囚徒困境：不上的人落伍，上了的人短期有优势，但长期大家都上，优势消失。他对此的回答是：这种模式是存在的，但该上还是得上。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个确定的中国机会</h2>
+<p style="margin:0.8em 0">回到开头的问题——这个行业难在&quot;脚踩两只船&quot;，那两只船哪只更重要？夏宁用十八年的经历给出了隐含答案：化学是专业，计算机是技术。先有专业纵深，技术才能找到发力点；反过来，纯 AI 背景的人想补化学，补不进去。</p>
+<p style="margin:0.8em 0">而他对资本方的呼吁也很朴素：AI for Science 还在非常早期，需要更多资本愿意投入。行业渗透率不到千分之一的时候进场，看起来像赌博；但显微镜被发明的时候，也没人能预见到它后来的全部意义。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI 化学合成能力已达十年经验化学家水平：路线全覆盖，策略数量（5-6 种 vs 1-2 种）超过人类</li>
+<li style="margin:0.3em 0">AI 不发明新反应，但能检索到人看不到的文献角落——同样的分子，路线可以从十步压到三四步</li>
+<li style="margin:0.3em 0">合成是 DMTA 循环的瓶颈环节，合成效率提升 10 倍 = 新药研发整体通量提升 10 倍</li>
+<li style="margin:0.3em 0">八年护城河 = 技术体系的时间成本 + 已经完成定制化的大客户（替换几乎不可能）</li>
+<li style="margin:0.3em 0">行业渗透率不到千分之一，但趋势必然：十年后这类工作大概率主要由 AI 完成</li>
+<li style="margin:0.3em 0">&quot;计算机是技术，化学是专业&quot;——交叉学科创业，专业纵深是先决条件，技术是杠杆</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
