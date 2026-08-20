@@ -1,0 +1,43 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从烧 token 到省 token：Agent 工作范式正在转向</h1>
+<p style="margin:0.8em 0">Uber 四个月烧穿了全年的 AI 预算，Meta 开始限制员工的 token 消耗量。硅谷的集体行为正在从 token maxing 转向 token efficient——而两位亲历者说，这并不意味着 token 的消耗会停下来。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个正在发生的转向</h2>
+<p style="margin:0.8em 0">2025 年是 agent 元年，2026 年行业出现了一个微妙的变化：讨论的重心从模型能力转向 agent 的工程问题——从关注科研转向关注工程。硅谷公司开始冷静下来，Uber 四个月烧完了一整年的 AI 预算，Meta 计划限制员工 token 消耗。与此同时，中国一批开源模型（DeepSeek、GLM、Kimi）的能力逼近第一梯队，硅谷公司也开始把它们接进自己的工作流。</p>
+<p style="margin:0.8em 0">硅谷101 这期请了两位嘉宾：黄东旭（Lama Ventures 合伙人、PingCAP 联合创始人兼 CTO）和张洪江（Lama Ventures 高级技术合伙人、美国国家工程院外籍院士、微软亚洲研究院创始成员、北京智源人工智能研究院创始人、前金山 CEO）。</p>
+<p style="margin:0.8em 0">核心问题只有一个：无脑用最强模型、最大化 token 消耗，还是市场的最优解吗？</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">agentic loop：为什么 agent 比 chatbot 多烧一百倍 token</h2>
+<p style="margin:0.8em 0">黄东旭反复强调一个观点：不要神话 agent。从工程原理上说，agent 的结构很简单——每一个 agent 内部都有一个类似发动机的循环，叫 agentic loop。这个循环每一次都会调用大语言模型，本质上还是一个对话机，只是把对话过程变成了一个循环。</p>
+<p style="margin:0.8em 0">但两个特性让 token 消耗爆炸。第一，agent 在对话中调用外部工具，工具的输出会变成对话流里的上下文；第二，复杂或长程任务下，循环不会几句话就结束，可能运行几百步，每一步的工具调用输入输出都进入上下文。</p>
+<p style="margin:0.8em 0">这种 pattern 导致 agent 的 token 消耗量比 chatbot 时代涨了一百倍都不止。</p>
+<p style="margin:0.8em 0">黄东旭承认今天有很多人为浪费——比如刷 token 榜，你跟 agent 说&quot;帮我刷一百万遍一加一&quot;，它也能刷得很夸张。但只要这个 pattern 存在，更复杂的系统就会出现：单个 agent 处理不了的问题，会走向多 agent 协同，协同变成一个更大的网络，网络之上又套一个更抽象的 loop。这种层级结构现在已经出现了。</p>
+<p style="margin:0.8em 0">他用软件工程史做类比：早期的计算机爱好者在车库里分享&quot;我写了个两百行的 BASIC 游戏&quot;，一个程序员几千行汇编就能交付；今天的 Photoshop 是数千万行代码。今天 agent 要解决的问题还太简单，当它能力足够去处理更复杂的问题时，必然会出现 agent-to-agent 的网络和 agent harness 的软件工程——那时候 token 消耗又会上一整个台阶。</p>
+<p style="margin:0.8em 0">所以本地化 agent、省 token 的努力，解决的是单点问题——单点做得更好了，但整体消耗还在持续增长。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">张洪江：没有泡沫，token 价格每年降十倍</h2>
+<p style="margin:0.8em 0">张洪江是这一波浪潮里少见的乐观派。2024 年 12 月他在另一个采访里被问到同样的问题，当时他说&quot;没有泡沫&quot;。现在他的回答依然不变。</p>
+<p style="margin:0.8em 0">他的论据有三个。第一，把 AI 基建跟互联网早期、美国修铁路网公路网的时期对比，从占 GDP 的比例看，今天远没有到 overinvested 的程度。第二，token 很贵，但消耗量增长得非常快。第三，token 的价格过去几年每年以十倍的速度下降——芯片在进步，基础设施在进步。</p>
+<p style="margin:0.8em 0">他甚至不同意&quot;scaling law 撞墙&quot;的担忧：2024 年底大家怀疑 overinvest，但今天回头看，远远没有达到。</p>
+<p style="margin:0.8em 0">黄东旭补了一个经济学视角：这本质上就是杰文斯悖论——技术越成熟，价格越低，但消耗量变得越大，市场反而变得更大。这也回答了&quot;token 消耗会不会停下来&quot;：不会。单点效率的提升（本地化、小模型、蒸馏）只是在把每一个任务的 token 成本压下去，而整个市场盘子还在扩大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源还是闭源、本地还是云：生态竞争决定</h2>
+<p style="margin:0.8em 0">问到开源模型和闭源模型谁能走得更快，张洪江的回答是：这更多是生态内部的竞争和成熟，今天很难判断谁最后胜出。</p>
+<p style="margin:0.8em 0">本地和云的取舍也一样。黄东旭指出，企业内部 IT 上云的核心原因，是普通人没法 handle 复杂的 IT 系统——一个公司养不起一个 IT 团队来维护复杂的系统。未来 agent 数量多了之后同理：个人很难 handle 一大堆 agent，最后要么由更强大的 agent 去管理其他 agent，要么把整个环境交给云上的强 agent。</p>
+<p style="margin:0.8em 0">他说得很直白：做 IT 的人都希望自己的产品处在生态的核心位——做 PC 的希望一切 on-premise 自己可控，做云的希望一切都在云上、对用户透明。立场决定判断，用户最后的选择会由生态竞争决定。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个能看见的终点：agent 强到没有参考系</h2>
+<p style="margin:0.8em 0">黄东旭提到一个很具体的预测：当 agent 强大到任何复杂操作它都能干的时候，&quot;它再强，我们已经没有参考系了&quot;。这一天是能看得见的。</p>
+<p style="margin:0.8em 0">从这个角度回头看，从 token maxing 到 token efficient 的转变不是倒退，而是工程化的必然阶段——就像当年的计算机从爱好者的几百行代码，走向了数千万行代码的工业软件。消耗总量在涨，单位成本在降，能力上限在抬。</p>
+<p style="margin:0.8em 0">张洪江的结论更宏大：这一轮 AI 革命比历史上任何一次技术革命都迅猛——PC 互联网花了十几年二十年才进入成熟，移动互联网快一些，但 AI 从推理模型到 OpenClaw 的兴起只用了一年多。如果说过去三年是大模型基础研究者的时代，那从 OpenClaw 开始，是大模型工程师、应用架构师、产品经理和创业者的时代。</p>
+<p style="margin:0.8em 0">给想入坑的人的两句话建议，也很有代表性：张洪江说&quot;keep building，不要等学得足够慢就不用学了，一定要亲身参与进去&quot;；黄东旭说&quot;get hands on&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">效率与消耗的悖论，才是 token 经济的真相</h2>
+<p style="margin:0.8em 0">回到开头那个问题：无脑烧最强模型是最优解吗？答案显然不是——Uber 的预算和 Meta 的限制就是市场的回答。但&quot;省 token&quot;同样不是终点：单点省下的 token，会被更复杂的系统、更多 agent 的协同、更大的问题重新吃掉。</p>
+<p style="margin:0.8em 0">token 经济的真相是杰文斯悖论：价格每年降十倍，消耗量涨一百倍。省着烧，是为了烧得更多。真正值得关注的不是省了多少，而是这个循环把 agent 的能力上限推到了哪里——直到它强到我们失去参考系的那一天。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">agent 的 token 消耗比 chatbot 时代高一百倍以上，根源是 agentic loop：工具调用输出进入上下文、长程任务跑几百步</li>
+<li style="margin:0.3em 0">Uber 四个月烧穿全年 AI 预算、Meta 限制员工 token——硅谷正在从 token maxing 转向 token efficient</li>
+<li style="margin:0.3em 0">张洪江认为 AI 基建没有泡沫：占 GDP 比例远低于历史基建周期，token 价格每年降十倍，消耗量还在快速增长</li>
+<li style="margin:0.3em 0">省 token 是单点优化，整体消耗仍在增长——这符合杰文斯悖论：价格越低，消耗越大，市场越大</li>
+<li style="margin:0.3em 0">未来是 agent 管理 agent 的层级结构，个人很难自己 handle 大量 agent，最终会交给更强大的 agent 或云</li>
+<li style="margin:0.3em 0">类比软件工程史：几百行 BASIC 到数千万行的 Photoshop——agent 现在解决的问题还太简单，复杂化会继续推高 token 消耗</li>
+<li style="margin:0.3em 0">过去三年是模型研究者时代，从 OpenClaw 起进入工程师和创业者时代：keep building，get hands on</li>
+</ul>
+
+</div>
