@@ -1,50 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 20 Aug 2026 23:09:07 +0800</lastBuildDate><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 21 Aug 2026 06:00:45 +0800</lastBuildDate><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Rich Sutton：我们卡在了一个局部最优里</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习之父谈 LLM 的边界、持续学习，以及 OK Lab 要做的&quot;真正智能&quot;</h2>
-<p style="margin:0.8em 0">&quot;有时候人们觉得我的观点很激进，但我完全不这么看。我觉得我是在用普通的方式思考，只是其他所有人想的有点怪。&quot;这是 Rich Sutton 在红杉资本播客 Training Data 里开场就抛出的态度，主持人 Sonia Huang 与 Alfred Lin 显然已经习惯了他的自信——毕竟对面坐着的是强化学习的奠基人、《苦涩的教训》的作者、培养了 David Silver 的人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习之父谈 LLM 的边界、持续学习，以及 OK Lab 要做的"真正智能"</h2>
+<p style="margin:0.8em 0">"有时候人们觉得我的观点很激进，但我完全不这么看。我觉得我是在用普通的方式思考，只是其他所有人想的有点怪。"这是 Rich Sutton 在红杉资本播客 Training Data 里开场就抛出的态度，主持人 Sonia Huang 与 Alfred Lin 显然已经习惯了他的自信——毕竟对面坐着的是强化学习的奠基人、《苦涩的教训》的作者、培养了 David Silver 的人。</p>
 <p style="margin:0.8em 0">Sutton 上一次出现在公众视野的密集讨论里，是 2025 年离开 DeepMind。这次对谈的由头，是他与前学生 Karam 创办的新实验室 OK Lab：目标是做真正的持续学习、能形成抽象、能做规划和推理的智能体。Sutton 对这个愿景的表述毫不含糊——大语言模型是了不起的突破，但它只是智能的一个子集，大约占 20% 到 25%。而整个行业，正卡在一个局部最优里。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2003 年，他快死了，然后去阿尔伯塔教书</h2>
-<p style="margin:0.8em 0">Sutton 进入阿尔伯塔大学是在 AI 寒冬最冷的时刻。2003 年，强化学习还是一个小众方向，深度学习远未复兴，而 Sutton 自己正被癌症折磨：&quot;我病得很重，快死了，真的得了癌症。但我还没死透。我已经挣扎了好几年，进入了一次缓解期。所以我想，好吧，既然拖了这么久，不如再找份工作。&quot;</p>
-<p style="margin:0.8em 0">他拿这事开玩笑，但承认当时真的只剩几个月。被问到为什么在那种状态下还在做研究，他引用本杰明·富兰克林的话：一个人做某件事，几乎总是出于两个原因之一——习惯，或者虚荣。&quot;我觉得更像是习惯。因为我当时快死了。&quot;</p>
-<p style="margin:0.8em 0">这段经历成为他后来一切判断的底色：他在 AI 狂热之前就选择了学习作为心智的核心，在行业集体看空时加倍下注，并且活到了范式翻转的那一天。如今行业追捧的&quot;苦涩的教训上头了&quot;（bitter lesson on steroids），在他眼里只是他观察了几十年的现象的流行化表述——而那篇文章本身，&quot;至少有一半要归功于符号主义 AI 那一轮浪潮&quot;，是他亲身经历过的教训。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;苦涩的教训&quot;被曲解了</h2>
-<p style="margin:0.8em 0">《苦涩的教训》写于 2019 年——ImageNet 是 2009 年的，AlphaGo 是 2015 年的，LLM 的扩展范式还没起飞。Sutton 说这篇文章酝酿了很久，&quot;我至少提前一年就写了好几个版本，也做过演讲&quot;。它不是对当时时点的回应，而是对长期经验的总结。</p>
+<p style="margin:0.8em 0">Sutton 进入阿尔伯塔大学是在 AI 寒冬最冷的时刻。2003 年，强化学习还是一个小众方向，深度学习远未复兴，而 Sutton 自己正被癌症折磨："我病得很重，快死了，真的得了癌症。但我还没死透。我已经挣扎了好几年，进入了一次缓解期。所以我想，好吧，既然拖了这么久，不如再找份工作。"</p>
+<p style="margin:0.8em 0">他拿这事开玩笑，但承认当时真的只剩几个月。被问到为什么在那种状态下还在做研究，他引用本杰明·富兰克林的话：一个人做某件事，几乎总是出于两个原因之一——习惯，或者虚荣。"我觉得更像是习惯。因为我当时快死了。"</p>
+<p style="margin:0.8em 0">这段经历成为他后来一切判断的底色：他在 AI 狂热之前就选择了学习作为心智的核心，在行业集体看空时加倍下注，并且活到了范式翻转的那一天。如今行业追捧的"苦涩的教训上头了"（bitter lesson on steroids），在他眼里只是他观察了几十年的现象的流行化表述——而那篇文章本身，"至少有一半要归功于符号主义 AI 那一轮浪潮"，是他亲身经历过的教训。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"苦涩的教训"被曲解了</h2>
+<p style="margin:0.8em 0">《苦涩的教训》写于 2019 年——ImageNet 是 2009 年的，AlphaGo 是 2015 年的，LLM 的扩展范式还没起飞。Sutton 说这篇文章酝酿了很久，"我至少提前一年就写了好几个版本，也做过演讲"。它不是对当时时点的回应，而是对长期经验的总结。</p>
 <p style="margin:0.8em 0">他最近用 26 个词重新概括了它：<strong style="font-weight:600">别被人类知识带偏</strong>（Don't get led astray by human knowledge）。传统上，这个教训已经被多次验证：符号主义 AI 那一轮，人们试图把人类知识塞进系统，结果被算力扩展的路径反超。</p>
-<p style="margin:0.8em 0">但这篇文章如今如此流行，以至于被曲解和误用。Sutton 在访谈中要纠正的核心误读是：把&quot;别被人类知识带偏&quot;变成&quot;拒绝一切人类知识&quot;。他明确说，语言极其重要，向他人学习、传承知识极其重要——他反对的是把人类知识的先验当作系统运作的核心机制，而不是反对知识本身。</p>
+<p style="margin:0.8em 0">但这篇文章如今如此流行，以至于被曲解和误用。Sutton 在访谈中要纠正的核心误读是：把"别被人类知识带偏"变成"拒绝一切人类知识"。他明确说，语言极其重要，向他人学习、传承知识极其重要——他反对的是把人类知识的先验当作系统运作的核心机制，而不是反对知识本身。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">没有动物是通过监督学习学会走路的</h2>
 <p style="margin:0.8em 0">Sutton 对当前范式最尖锐的批评藏在最朴素的观察里：没有任何动物是通过监督学习学会走路的。</p>
-<p style="margin:0.8em 0">&quot;没有人给我们设定目标，比如怎么抽动肌肉。因为根本没人知道用你的身体发出正确声音的方式——只有你自己知道。&quot;他举&quot;巴黎&quot;的例子：老师告诉你答案是 Paris，但没人能教你如何用你自己的声带发出这个音。输出必须自己产生，反馈来自与世界的交互，而不是来自标注好的示例。</p>
-<p style="margin:0.8em 0">顺着这个逻辑，他有一个会让教育从业者皱眉的判断：学校其实无关紧要。&quot;松鼠不上学也能学会那些东西。学校是非常特殊的东西，人类直到几百年前才有。把动物不做的、作为动物并不做的事情当作学习的主要例子，是一种干扰。&quot;</p>
-<p style="margin:0.8em 0">但 Karam 补上了另一边：松鼠证明不了数学定理。&quot;我儿子两三岁时能学会东西，没人真正教他。但造火箭不是 100% 从经验里学的——发射之前你必须抽象思考，想象一个以前不存在的东西。&quot;Sutton 承认这就是他们想推进的方向：让机器能规划、能想象、能提出新抽象。&quot;那种提出新抽象、学习它、再用它做规划的能力，在我们当前的系统里完全缺失。&quot;</p>
-<p style="margin:0.8em 0">这也是莫拉维克悖论的重演：被我们当作&quot;真正智能&quot;的高级事情，对计算机反而容易；而那些日常的事情——移动、带着注意力看东西——反而难。Sutton 的结论是，人类和动物只是程度上的差别，&quot;试图强调我们和动物不一样，是一种傲慢&quot;。</p>
+<p style="margin:0.8em 0">"没有人给我们设定目标，比如怎么抽动肌肉。因为根本没人知道用你的身体发出正确声音的方式——只有你自己知道。"他举"巴黎"的例子：老师告诉你答案是 Paris，但没人能教你如何用你自己的声带发出这个音。输出必须自己产生，反馈来自与世界的交互，而不是来自标注好的示例。</p>
+<p style="margin:0.8em 0">顺着这个逻辑，他有一个会让教育从业者皱眉的判断：学校其实无关紧要。"松鼠不上学也能学会那些东西。学校是非常特殊的东西，人类直到几百年前才有。把动物不做的、作为动物并不做的事情当作学习的主要例子，是一种干扰。"</p>
+<p style="margin:0.8em 0">但 Karam 补上了另一边：松鼠证明不了数学定理。"我儿子两三岁时能学会东西，没人真正教他。但造火箭不是 100% 从经验里学的——发射之前你必须抽象思考，想象一个以前不存在的东西。"Sutton 承认这就是他们想推进的方向：让机器能规划、能想象、能提出新抽象。"那种提出新抽象、学习它、再用它做规划的能力，在我们当前的系统里完全缺失。"</p>
+<p style="margin:0.8em 0">这也是莫拉维克悖论的重演：被我们当作"真正智能"的高级事情，对计算机反而容易；而那些日常的事情——移动、带着注意力看东西——反而难。Sutton 的结论是，人类和动物只是程度上的差别，"试图强调我们和动物不一样，是一种傲慢"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">万亿参数、20 瓦、以及卡住的局部最优</h2>
 <p style="margin:0.8em 0">OK Lab 的愿景听起来接近科幻：一个统一的、自洽的头脑，能持续训练自己、保持连贯、不漂移到疯狂的地方——从学会在树之间荡来荡去到造宇宙飞船的连续体。Karam 给了一个具体的数字：万亿参数模型，功耗只有 20 瓦。</p>
-<p style="margin:0.8em 0">Sutton 承认，以目前技术这不可能——光是把一万亿个参数放进内存，耗电可能就超过 20 瓦。但他给出了时间表：&quot;五到十年。摩尔定律两个数量级，标准的进步幅度。如果今天能用 2000 瓦做到，十年后就能用 20 瓦做到。&quot;他认为今天 2000 瓦其实已经可以做到——&quot;研究实验室里有很多人用的资源远超这个数&quot;——只是没人信，也没人碰那些技术难题。</p>
-<p style="margin:0.8em 0">为什么没人做？因为整个行业卡在局部最优里。&quot;大实验室被产品绑得太死了。对他们来说，走一条事情会先变差的路是不可能的——他们现在的范式能继续扩展规模，而新范式要押一个赌注，还要解决一些想了多年的技术难题。&quot;他的判断是，事情在变好之前先变差，几乎不可避免，而能承受&quot;先变差&quot;的只有小团队。</p>
+<p style="margin:0.8em 0">Sutton 承认，以目前技术这不可能——光是把一万亿个参数放进内存，耗电可能就超过 20 瓦。但他给出了时间表："五到十年。摩尔定律两个数量级，标准的进步幅度。如果今天能用 2000 瓦做到，十年后就能用 20 瓦做到。"他认为今天 2000 瓦其实已经可以做到——"研究实验室里有很多人用的资源远超这个数"——只是没人信，也没人碰那些技术难题。</p>
+<p style="margin:0.8em 0">为什么没人做？因为整个行业卡在局部最优里。"大实验室被产品绑得太死了。对他们来说，走一条事情会先变差的路是不可能的——他们现在的范式能继续扩展规模，而新范式要押一个赌注，还要解决一些想了多年的技术难题。"他的判断是，事情在变好之前先变差，几乎不可避免，而能承受"先变差"的只有小团队。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">LLM 是突破，但不是全部 AI</h2>
-<p style="margin:0.8em 0">Sutton 对 LLM 的评价必须完整引用，否则很容易把他误读成唱衰者：&quot;大语言模型是了不起的科学突破。神经网络在语言运用上达到这种熟练程度，是完全没预料到的。语言一直是符号方法的保留地，他们彻底改变了人们对这个问题的看法。&quot;</p>
-<p style="margin:0.8em 0">让他沮丧的是另一件事：&quot;我们不能只是庆祝我们在 AI 问题的这个子集上取得了巨大进展，然后享受成果。相反，它非得假装自己就是全部 AI，全部智能。&quot;他的估算是：语言大概占智能的 20% 到 25%，&quot;还有太多别的东西，我们还没做完&quot;。</p>
-<p style="margin:0.8em 0">至于 AGI 之后人类会不会无关紧要，Sutton 否认了：&quot;我觉得世界会变得让人兴奋，对人类来说甚至更有意思。但大语言模型倒是值得担心——等真正的智能出现时，他们还能风光一阵，但他们可能有风险。&quot;</p>
+<p style="margin:0.8em 0">Sutton 对 LLM 的评价必须完整引用，否则很容易把他误读成唱衰者："大语言模型是了不起的科学突破。神经网络在语言运用上达到这种熟练程度，是完全没预料到的。语言一直是符号方法的保留地，他们彻底改变了人们对这个问题的看法。"</p>
+<p style="margin:0.8em 0">让他沮丧的是另一件事："我们不能只是庆祝我们在 AI 问题的这个子集上取得了巨大进展，然后享受成果。相反，它非得假装自己就是全部 AI，全部智能。"他的估算是：语言大概占智能的 20% 到 25%，"还有太多别的东西，我们还没做完"。</p>
+<p style="margin:0.8em 0">至于 AGI 之后人类会不会无关紧要，Sutton 否认了："我觉得世界会变得让人兴奋，对人类来说甚至更有意思。但大语言模型倒是值得担心——等真正的智能出现时，他们还能风光一阵，但他们可能有风险。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从两三个人开始，高度对齐</h2>
-<p style="margin:0.8em 0">OK Lab 的路线与当下 AI 公司的军备竞赛刻意反着来。Sutton 说最初的团队人选心里基本已经有了——&quot;都是过去长期思考过这些想法的人&quot;，因为新范式下&quot;每个人得先看到我们所看到的，而并不是每个人都能看到&quot;。快速扩张规模没有意义，会从两三个人慢慢长，目标是高度对齐、高效协作。</p>
-<p style="margin:0.8em 0">访谈结束时主持人问：如果一切顺利，公司会变成什么样？Sutton 的回答朴素得不像一个正在做万亿参数愿景的人：&quot;我们就把这套架构实现出来。到那时候，具体会发生什么，确实很难想象。&quot;</p>
+<p style="margin:0.8em 0">OK Lab 的路线与当下 AI 公司的军备竞赛刻意反着来。Sutton 说最初的团队人选心里基本已经有了——"都是过去长期思考过这些想法的人"，因为新范式下"每个人得先看到我们所看到的，而并不是每个人都能看到"。快速扩张规模没有意义，会从两三个人慢慢长，目标是高度对齐、高效协作。</p>
+<p style="margin:0.8em 0">访谈结束时主持人问：如果一切顺利，公司会变成什么样？Sutton 的回答朴素得不像一个正在做万亿参数愿景的人："我们就把这套架构实现出来。到那时候，具体会发生什么，确实很难想象。"</p>
 <p style="margin:0.8em 0">这大概就是他与这个时代最不一样的地方：别人在扩展已知的范式，他在等一个会先变差的新范式，并且相信十年后能用 20 瓦的功耗证明自己是对的。上一次他这么赌的时候，是 2003 年，癌症晚期，AI 寒冬。那次他赌赢了。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">大语言模型是了不起的科学突破，但语言只占智能的 20%-25%；把它当作全部智能，是整个行业卡在局部最优的表现</li>
 <li style="margin:0.3em 0">《苦涩的教训》的 26 词版本：别被人类知识带偏。它反对的是把人类先验当核心机制，不是反对语言、文化与知识传承本身</li>
-<li style="margin:0.3em 0">没有动物通过监督学习学会走路——输出必须自己产生，这是 Sutton 对&quot;经验学习 vs 监督学习&quot;最锋利的论证</li>
+<li style="margin:0.3em 0">没有动物通过监督学习学会走路——输出必须自己产生，这是 Sutton 对"经验学习 vs 监督学习"最锋利的论证</li>
 <li style="margin:0.3em 0">OK Lab 的量化目标：万亿参数模型、20 瓦功耗、五到十年；前提是摩尔定律两个数量级 + 新算法解决存储能耗</li>
-<li style="margin:0.3em 0">新范式必然&quot;先变差再变好&quot;，大实验室被产品绑死走不了这条路，所以这类探索只能由小团队完成</li>
+<li style="margin:0.3em 0">新范式必然"先变差再变好"，大实验室被产品绑死走不了这条路，所以这类探索只能由小团队完成</li>
 <li style="margin:0.3em 0">Sutton 的赌注模式没有变过：2003 年癌症晚期押注强化学习，2026 年押注持续学习——都是行业不看好的时候下注</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[硅谷101] 从烧 token 到省 token：Agent 工作范式正在转向</title><link>https://xlicz.github.io/podcast-rss/articles/从烧-token-到省-token-Agent-工作范式正在转向-2026-08-20.html</link><guid isPermaLink="false">sv101_780fdafe26f4</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从烧 token 到省 token：Agent 工作范式正在转向</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[硅谷101] 从烧 token 到省 token：Agent 工作范式正在转向</title><link>https://xlicz.github.io/podcast-rss/articles/从烧-token-到省-token-Agent-工作范式正在转向-2026-08-20.html</link><guid isPermaLink="false">sv101_780fdafe26f4</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从烧 token 到省 token：Agent 工作范式正在转向</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从烧 token 到省 token：Agent 工作范式正在转向</h1>
 <p style="margin:0.8em 0">Uber 四个月烧穿了全年的 AI 预算，Meta 开始限制员工的 token 消耗量。硅谷的集体行为正在从 token maxing 转向 token efficient——而两位亲历者说，这并不意味着 token 的消耗会停下来。</p>
@@ -11792,7 +11793,8 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-20.html</link><guid isPermaLink="false">report:雪球动态:2026-08-20:bafe2266</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-20.html</link><guid isPermaLink="false">report:雪球动态:2026-08-20:bafe2266</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-20 22:14</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -11955,7 +11957,8 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </ol>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-20.html</link><guid isPermaLink="false">report:STH解码:2026-08-20:52f29667</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-20.html</link><guid isPermaLink="false">report:STH解码:2026-08-20:52f29667</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年08月20日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12059,7 +12062,8 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </table></div>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-20.html</link><guid isPermaLink="false">report:心动日报:2026-08-20:ccb8b3f0</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-20</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-20.html</link><guid isPermaLink="false">report:心动日报:2026-08-20:ccb8b3f0</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-20（周四）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12549,48 +12553,68 @@ Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-21.html</link><guid isPermaLink="false">report:播客信号:2026-08-21:09c12129</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Rich Sutton：我们卡在了一个局部最优里</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习之父谈 LLM 的边界、持续学习，以及 OK Lab 要做的&quot;真正智能&quot;</h2>
-<p style="margin:0.8em 0">&quot;有时候人们觉得我的观点很激进，但我完全不这么看。我觉得我是在用普通的方式思考，只是其他所有人想的有点怪。&quot;这是 Rich Sutton 在红杉资本播客 Training Data 里开场就抛出的态度，主持人 Sonia Huang 与 Alfred Lin 显然已经习惯了他的自信——毕竟对面坐着的是强化学习的奠基人、《苦涩的教训》的作者、培养了 David Silver 的人。</p>
-<p style="margin:0.8em 0">Sutton 上一次出现在公众视野的密集讨论里，是 2025 年离开 DeepMind。这次对谈的由头，是他与前学生 Karam 创办的新实验室 OK Lab：目标是做真正的持续学习、能形成抽象、能做规划和推理的智能体。Sutton 对这个愿景的表述毫不含糊——大语言模型是了不起的突破，但它只是智能的一个子集，大约占 20% 到 25%。而整个行业，正卡在一个局部最优里。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2003 年，他快死了，然后去阿尔伯塔教书</h2>
-<p style="margin:0.8em 0">Sutton 进入阿尔伯塔大学是在 AI 寒冬最冷的时刻。2003 年，强化学习还是一个小众方向，深度学习远未复兴，而 Sutton 自己正被癌症折磨：&quot;我病得很重，快死了，真的得了癌症。但我还没死透。我已经挣扎了好几年，进入了一次缓解期。所以我想，好吧，既然拖了这么久，不如再找份工作。&quot;</p>
-<p style="margin:0.8em 0">他拿这事开玩笑，但承认当时真的只剩几个月。被问到为什么在那种状态下还在做研究，他引用本杰明·富兰克林的话：一个人做某件事，几乎总是出于两个原因之一——习惯，或者虚荣。&quot;我觉得更像是习惯。因为我当时快死了。&quot;</p>
-<p style="margin:0.8em 0">这段经历成为他后来一切判断的底色：他在 AI 狂热之前就选择了学习作为心智的核心，在行业集体看空时加倍下注，并且活到了范式翻转的那一天。如今行业追捧的&quot;苦涩的教训上头了&quot;（bitter lesson on steroids），在他眼里只是他观察了几十年的现象的流行化表述——而那篇文章本身，&quot;至少有一半要归功于符号主义 AI 那一轮浪潮&quot;，是他亲身经历过的教训。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;苦涩的教训&quot;被曲解了</h2>
-<p style="margin:0.8em 0">《苦涩的教训》写于 2019 年——ImageNet 是 2009 年的，AlphaGo 是 2015 年的，LLM 的扩展范式还没起飞。Sutton 说这篇文章酝酿了很久，&quot;我至少提前一年就写了好几个版本，也做过演讲&quot;。它不是对当时时点的回应，而是对长期经验的总结。</p>
-<p style="margin:0.8em 0">他最近用 26 个词重新概括了它：<strong style="font-weight:600">别被人类知识带偏</strong>（Don't get led astray by human knowledge）。传统上，这个教训已经被多次验证：符号主义 AI 那一轮，人们试图把人类知识塞进系统，结果被算力扩展的路径反超。</p>
-<p style="margin:0.8em 0">但这篇文章如今如此流行，以至于被曲解和误用。Sutton 在访谈中要纠正的核心误读是：把&quot;别被人类知识带偏&quot;变成&quot;拒绝一切人类知识&quot;。他明确说，语言极其重要，向他人学习、传承知识极其重要——他反对的是把人类知识的先验当作系统运作的核心机制，而不是反对知识本身。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">没有动物是通过监督学习学会走路的</h2>
-<p style="margin:0.8em 0">Sutton 对当前范式最尖锐的批评藏在最朴素的观察里：没有任何动物是通过监督学习学会走路的。</p>
-<p style="margin:0.8em 0">&quot;没有人给我们设定目标，比如怎么抽动肌肉。因为根本没人知道用你的身体发出正确声音的方式——只有你自己知道。&quot;他举&quot;巴黎&quot;的例子：老师告诉你答案是 Paris，但没人能教你如何用你自己的声带发出这个音。输出必须自己产生，反馈来自与世界的交互，而不是来自标注好的示例。</p>
-<p style="margin:0.8em 0">顺着这个逻辑，他有一个会让教育从业者皱眉的判断：学校其实无关紧要。&quot;松鼠不上学也能学会那些东西。学校是非常特殊的东西，人类直到几百年前才有。把动物不做的、作为动物并不做的事情当作学习的主要例子，是一种干扰。&quot;</p>
-<p style="margin:0.8em 0">但 Karam 补上了另一边：松鼠证明不了数学定理。&quot;我儿子两三岁时能学会东西，没人真正教他。但造火箭不是 100% 从经验里学的——发射之前你必须抽象思考，想象一个以前不存在的东西。&quot;Sutton 承认这就是他们想推进的方向：让机器能规划、能想象、能提出新抽象。&quot;那种提出新抽象、学习它、再用它做规划的能力，在我们当前的系统里完全缺失。&quot;</p>
-<p style="margin:0.8em 0">这也是莫拉维克悖论的重演：被我们当作&quot;真正智能&quot;的高级事情，对计算机反而容易；而那些日常的事情——移动、带着注意力看东西——反而难。Sutton 的结论是，人类和动物只是程度上的差别，&quot;试图强调我们和动物不一样，是一种傲慢&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">万亿参数、20 瓦、以及卡住的局部最优</h2>
-<p style="margin:0.8em 0">OK Lab 的愿景听起来接近科幻：一个统一的、自洽的头脑，能持续训练自己、保持连贯、不漂移到疯狂的地方——从学会在树之间荡来荡去到造宇宙飞船的连续体。Karam 给了一个具体的数字：万亿参数模型，功耗只有 20 瓦。</p>
-<p style="margin:0.8em 0">Sutton 承认，以目前技术这不可能——光是把一万亿个参数放进内存，耗电可能就超过 20 瓦。但他给出了时间表：&quot;五到十年。摩尔定律两个数量级，标准的进步幅度。如果今天能用 2000 瓦做到，十年后就能用 20 瓦做到。&quot;他认为今天 2000 瓦其实已经可以做到——&quot;研究实验室里有很多人用的资源远超这个数&quot;——只是没人信，也没人碰那些技术难题。</p>
-<p style="margin:0.8em 0">为什么没人做？因为整个行业卡在局部最优里。&quot;大实验室被产品绑得太死了。对他们来说，走一条事情会先变差的路是不可能的——他们现在的范式能继续扩展规模，而新范式要押一个赌注，还要解决一些想了多年的技术难题。&quot;他的判断是，事情在变好之前先变差，几乎不可避免，而能承受&quot;先变差&quot;的只有小团队。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">LLM 是突破，但不是全部 AI</h2>
-<p style="margin:0.8em 0">Sutton 对 LLM 的评价必须完整引用，否则很容易把他误读成唱衰者：&quot;大语言模型是了不起的科学突破。神经网络在语言运用上达到这种熟练程度，是完全没预料到的。语言一直是符号方法的保留地，他们彻底改变了人们对这个问题的看法。&quot;</p>
-<p style="margin:0.8em 0">让他沮丧的是另一件事：&quot;我们不能只是庆祝我们在 AI 问题的这个子集上取得了巨大进展，然后享受成果。相反，它非得假装自己就是全部 AI，全部智能。&quot;他的估算是：语言大概占智能的 20% 到 25%，&quot;还有太多别的东西，我们还没做完&quot;。</p>
-<p style="margin:0.8em 0">至于 AGI 之后人类会不会无关紧要，Sutton 否认了：&quot;我觉得世界会变得让人兴奋，对人类来说甚至更有意思。但大语言模型倒是值得担心——等真正的智能出现时，他们还能风光一阵，但他们可能有风险。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从两三个人开始，高度对齐</h2>
-<p style="margin:0.8em 0">OK Lab 的路线与当下 AI 公司的军备竞赛刻意反着来。Sutton 说最初的团队人选心里基本已经有了——&quot;都是过去长期思考过这些想法的人&quot;，因为新范式下&quot;每个人得先看到我们所看到的，而并不是每个人都能看到&quot;。快速扩张规模没有意义，会从两三个人慢慢长，目标是高度对齐、高效协作。</p>
-<p style="margin:0.8em 0">访谈结束时主持人问：如果一切顺利，公司会变成什么样？Sutton 的回答朴素得不像一个正在做万亿参数愿景的人：&quot;我们就把这套架构实现出来。到那时候，具体会发生什么，确实很难想象。&quot;</p>
-<p style="margin:0.8em 0">这大概就是他与这个时代最不一样的地方：别人在扩展已知的范式，他在等一个会先变差的新范式，并且相信十年后能用 20 瓦的功耗证明自己是对的。上一次他这么赌的时候，是 2003 年，癌症晚期，AI 寒冬。那次他赌赢了。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-21</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描集数：3集 | 持仓披露：🔥0 / 🔴0 | 高质量内容：3集
+扫描了 3 个播客，共 3 集：跨国串门儿计划(1集), 高能量(1集), 硅谷101(1集)</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #683.Rich Sutton：大语言模型不是真正的智能，我们卡在了一个局部最优里</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-20 | <strong style="font-weight:600">来源</strong>: Training Data 播客（红杉资本 Sonia Huang &amp; Alfred Lin 主持）克隆</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: 强化学习奠基人 Rich Sutton 对谈 LLM 局限、合成数据瓶颈与 OK Lab 持续学习愿景</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>:</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">大语言模型是了不起的科学突破，但语言只占智能的 20%-25%；把它当作全部智能，是整个行业卡在局部最优的表现</li>
-<li style="margin:0.3em 0">《苦涩的教训》的 26 词版本：别被人类知识带偏。它反对的是把人类先验当核心机制，不是反对语言、文化与知识传承本身</li>
-<li style="margin:0.3em 0">没有动物通过监督学习学会走路——输出必须自己产生，这是 Sutton 对&quot;经验学习 vs 监督学习&quot;最锋利的论证</li>
-<li style="margin:0.3em 0">OK Lab 的量化目标：万亿参数模型、20 瓦功耗、五到十年；前提是摩尔定律两个数量级 + 新算法解决存储能耗</li>
-<li style="margin:0.3em 0">新范式必然&quot;先变差再变好&quot;，大实验室被产品绑死走不了这条路，所以这类探索只能由小团队完成</li>
-<li style="margin:0.3em 0">Sutton 的赌注模式没有变过：2003 年癌症晚期押注强化学习，2026 年押注持续学习——都是行业不看好的时候下注</li>
+<li style="margin:0.3em 0">Sutton 认为 LLM 是「苦涩的教训」正反面教材：靠算力扩展是正面，但过度依赖人类知识（互联网语料）最终受限</li>
+<li style="margin:0.3em 0">合成数据是「大错误」：人类专家判断是瓶颈，世界无限复杂，任何模拟都渺小</li>
+<li style="margin:0.3em 0">LLM 根本缺陷：部署后权重不再学习，只有上下文学习；Cursor/Tabby 是持续学习雏形但靠批量更新</li>
+<li style="margin:0.3em 0">OK Lab 目标：5-10 年内实现 20W 功耗万亿参数持续学习系统（当前技术不可能，需 2 个数量级能效提升）</li>
+<li style="margin:0.3em 0">「我卡在局部最优里」——大实验室被产品绑定，无法走先变差的路径</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 硅谷101 — E249｜Token经济转点：OpenClaw、Hermes到本地自研的Agent进化之路</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-20 | <strong style="font-weight:600">嘉宾</strong>: 黄东旭（PinCap CTO/Lama Ventures 合伙人）、张宏江（前金山 CEO/智源创始人/美国国家工程院外籍院士）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: Token 经济从 maxing 到 efficient 的范式转折</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">硅谷转向：Uber 4个月烧穿全年 AI 预算、Meta 限制员工 token 消耗、Stripe 提示员工省用 Opus</li>
+<li style="margin:0.3em 0">东旭个人实践：去年11月起 token maxing（日耗 4-500 美金），3个月用最强 agent 做出千万美金级产品 DB Nine；后用 agent 群组（slog/raft，他任天使投资人）10倍 token 做代码审查</li>
+<li style="margin:0.3em 0">转折点：GPT-5.5 / Fable 5 / DeepSeek V4 Flash（本地 30 token/s）→ 绝对智商碾压 + 开源模型实用化 → token efficient</li>
+<li style="margin:0.3em 0">商业模式判断：agent 是入口生意（帮模型厂带 token 消耗），OpenAI/Claude ARR 增长主要由 API/token 带动；未来 to B 是爆发点</li>
+<li style="margin:0.3em 0">投资方向：agent infra（可观测性、memory、sandbox、context management）、agent native 企业判断标准（去掉 agent 不成立）</li>
+<li style="margin:0.3em 0">张宏江：AI 基建无泡沫（token 价格每年降 10 倍、占 GDP 比例远低于铁路/互联网时代）；AGI 转折点已到（模型 IQ 测试超人类均值）</li>
+<li style="margin:0.3em 0">微软成立 6000 人 FDE 团队（Microsoft Frontier Company）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 高能量 — Vol.230 产业观察43｜AI for Science 如何在制药化学合成落地？</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-20 | <strong style="font-weight:600">嘉宾</strong>: 李峰（丰瑞资本合伙人）、夏宁（智化科技 CEO）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: AI for Science 在制药化学合成（逆合成）的落地与商业化</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">智化科技：18年探索，AI 逆合成路径预测，白盒+黑盒融合约束幻觉；SaaS→智能体模式转型</li>
+<li style="margin:0.3em 0">药明康德半年报「很炸裂」，股价突破几年新高——中国生物医药产业链信号</li>
+<li style="margin:0.3em 0">中国 license out：2024 年占全球授权总额 30%+，2025 年 50%，2026 上半年 1100 亿美金，全年或接近 70%</li>
+<li style="margin:0.3em 0">类比：中国生物医药像 2012-2018 年的精密制造（世界医药工厂雏形）；AI for Science 渗透率 &lt;0.1%，印度客户 1 年新增 30+</li>
+<li style="margin:0.3em 0">成本结构：token 成本是 AI 替代化学家的关键变量，客户非常重视模型调用成本</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<p style="margin:0.8em 0">无</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线告警</h2>
+<p style="margin:0.8em 0">无 — 完整性抽查通过，各播客源最近文件大小/内容均不同。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📜 历史对照</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">生物医药历史：投资实战派 CAR-T 系列（5月，科济药业李宗海）——与本期 license out 主题无直接延续</li>
+<li style="margin:0.3em 0">硅谷101/高能量/跨国串门儿：历史库无记录，本轮为首归档</li>
 </ul>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
