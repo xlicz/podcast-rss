@@ -1,7 +1,64 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 21 Aug 2026 09:00:15 +0800</lastBuildDate><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 21 Aug 2026 13:06:20 +0800</lastBuildDate><item><title>[跨国串门儿计划] 从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</title><link>https://xlicz.github.io/podcast-rss/articles/从Uber到Atoms-Travis-Kalanick的元问题思维-和他与VC的那场战争-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_da340c30ce56</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 Uber 到 Atoms：Travis Kalanick 的元问题思维，和他与 VC 的那场战争</h1>
+<p style="margin:0.8em 0">副标题：问题创造的速度必须慢于解决的速度；物理世界自动化需要尚未发明的算力——而创始人看 VC，就像国际象棋大师看爱好者。</p>
+<p style="margin:0.8em 0">Atoms 的官网上写着这样一句话：&quot;物理世界自主性需要为物理世界而生的 AI——这种智能需要的算力我们还没发明出来，需要的效率我们现在还无法想象，还需要一些还不存在的深度学习模型去理解物理世界，并在其中行动。&quot;</p>
+<p style="margin:0.8em 0">这是 Travis Kalanick 离开 Uber 之后的新公司。在接受《Founders》主持人 David Senra 的访谈时，他说自己并不反感&quot;人形机器人&quot;这个词，但他做的不是那个：&quot;我们做专用机器人——机器人和 AI 去攻克一个行业，一次只攻一个。&quot;</p>
+<p style="margin:0.8em 0">从 2010 年创办 Uber，到 2017 年在自己公司最顶峰时与董事会开战，再到今天用 Atoms 改造食品、矿业与物流——Kalanick 在这期访谈里给出的，不是创业鸡汤，而是一套可以拆开用的框架：关于问题、关于管理能力、关于融资，以及关于物理世界的秩序。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">元问题：解决问题的速度，必须快过制造问题的速度</h2>
+<p style="margin:0.8em 0">Kalanick 有一个被他称为&quot;元问题&quot;（meta problem）的框架，用他的话说是&quot;像数学教授看待问题那样看待问题&quot;：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">问题解决速度对时间的导数，必须始终大于或等于问题创造速度对时间的导数。如果这个条件不成立，你就真有大麻烦了。</p>
+</blockquote>
+<p style="margin:0.8em 0">数学教授如果手头没有有趣的问题可解，会很失落——所以创造问题本身不是坏事。关键在于你要能预判：今天创造的问题，大约六个月后才会真正涌上来，甚至更久。你得准确预判问题的性质，以及自己的管理能力能不能接住它。等式一旦失衡，正确动作是停止创造问题、专心解决，别被淹死。</p>
+<p style="margin:0.8em 0">他说自己从来就偏爱&quot;超级难、超级复杂&quot;的事：&quot;有人告诉你某件事不可能，你心想，是吗？然后我就想，看好了。&quot;Uber 时期的复杂性——跟每一个监管机构死磕——本身就是吸引他的一部分，尽管他承认&quot;我没完全搞清楚它到底复杂在哪儿&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国一课：到了中国，连 GPS 都得重学</h2>
+<p style="margin:0.8em 0">2013 年初，Uber 成立不过两三年，Kalanick 带着一帮&quot;超级 OG 的老手&quot;住进中国的一间公寓，见所有能见的人。他第一次见到中国本土的创业者时，对方直接告诉他：&quot;你疯了，别干这事儿，这是史上最烂的主意。&quot;</p>
+<p style="margin:0.8em 0">他的反应是：&quot;那简直是最好的消息。&quot;</p>
+<p style="margin:0.8em 0">他去中国学到的最重要一课是：带着生意去中国，必须从零开始。&quot;很多人以为你可以把生意带到别处去&quot;——但中国的运作方式一切都不同。他举了一个最具体的例子：连 GPS 都不一样。&quot;如果我想了解车辆在空间里怎么移动，我就得换掉我的 GPS 系统才能做到。而这只是中国一百个不同之处里的一个。&quot;</p>
+<p style="margin:0.8em 0">所以去中国做 Uber，本质上是在重新创业。他给创业者的建议是：抱着&quot;我要学会在这个非常不同的地方用不同的方式做事&quot;的心态，并对差异感到兴奋和好奇——而不是试图复制。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017 年：当 VC 觉得世界末日要来了</h2>
+<p style="margin:0.8em 0">&quot;基本上在最顶峰的时候，二零一七年是我的问题之年。&quot;</p>
+<p style="margin:0.8em 0">Kalanick 说 Benchmark Capital 当时在搞一个&quot;作战室&quot;——一个不声张的激进投资者，每周制造一次危机，针对他，又不明说。他的判断是：他们要的是流动性，而且觉得他不会给。Uber 当时已经在准备 IPO，但没告诉他们——&quot;因为我们想先确保想清楚了，准备好了&quot;。</p>
+<p style="margin:0.8em 0">他把 Benchmark 的比尔·格利描述为&quot;有点末日论者的倾向，总觉得天要塌了&quot;：&quot;如果你总觉得世界末日要来了，那就会逼你做出一些很离谱的事儿，包括想把我干掉。&quot;</p>
+<p style="margin:0.8em 0">两人在融资节奏上的分歧早在 2014 年就埋下了。2013 年 8 月 Uber 完成 35 亿美元融资，引入谷歌和 TPG；九个月后，格利坚信世界末日要来，坚持&quot;随便拿一份 Term Sheet 就行&quot;，说 Uber 当时能拿到 60 亿美元的估值。Kalanick 拒绝：&quot;如果你直接去拿第一份 Term Sheet，这轮融资反而会拖得更久——因为没有别的选择，你没有备选方案。&quot;他执念的不是某个价格，而是过程：&quot;那个过程关乎卓越和融资。&quot;</p>
+<p style="margin:0.8em 0">结果是：两个月后，Uber 完成了一轮投前估值 175 亿美元的融资。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;绝对不该找 Benchmark 融资&quot;</h2>
+<p style="margin:0.8em 0">主持人追问：你会跟现在必须融一大笔钱的年轻创始人说什么？Kalanick 的回答毫不含糊：&quot;你得先放一箭——你绝对不该找 Benchmark Capital 融资。&quot;</p>
+<p style="margin:0.8em 0">他承认自己公众形象和真实的人差别很大——&quot;十年前公众形象和真实的人之间的差别，简直不能再大了&quot;。但他观察到一件耐人寻味的事：真正懂行的创始人对他评价很高，&quot;我听到的负面评价全都来自投资人&quot;。</p>
+<p style="margin:0.8em 0">他把这种冲突归结为结构性的：&quot;一个运营公司的操盘手，如果干得好，就是国际象棋大师。他每周花六十到八十个小时在这盘棋上，能看到很多步之后的变化。而 VC 只是个国际象棋爱好者，每三个月才来看一眼这盘棋，然后他们就想在世界上留下点印记。&quot;他补了一句：&quot;别去跟乔丹说怎么扣篮。&quot;</p>
+<p style="margin:0.8em 0">在他看来，VC 的极高标准应该是&quot;不伤害原则&quot;。但当一个 VC 手里攥着值一大笔钱的东西、却没有任何控制权、又不管理任何东西时，一旦他相信世界快完蛋了而创始人不同意，就可能&quot;走到一个地步，搞个作战室去毁掉他&quot;。他举了反例：创始人基金（Founders Fund）&quot;无论如何，他们永远不会罢免创始人，他们不会搞那种战争&quot;。</p>
+<p style="margin:0.8em 0">他还谈到了更大的背景变化：&quot;商业正在变成政治。你开始读到的关于商业的头条，都只是叙事，而且常常是捏造的，对事实有实质性的、重大的歪曲。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Atoms：一次只攻下一个行业</h2>
+<p style="margin:0.8em 0">为什么是 Atoms？Kalanick 的回答是：他一直偏爱超级难的事，而&quot;物理世界自主性&quot;正是那个既超级难、又可能的命题。他刻意用了&quot;元问题&quot;式的表述——Atoms 官网那句话本身就是宣言：理解物理世界并在其中行动的 AI 还不存在，需要先发明出来。</p>
+<p style="margin:0.8em 0">业务逻辑也很 Uber：专用机器人，一次攻一个行业，站稳脚跟再进下一个。&quot;我们想象力的唯一限制就是管理能力。&quot;食品是他第一个讲清楚的故事——一家美国大型食品供应商每年花 30 亿美元在&quot;开叉车搬托盘的人工&quot;上，而这还只是所有移动事物里的一小部分；货运、配送、外卖同理。他管这类机器叫&quot;关键任务底盘&quot;：&quot;如果你有专用机器，那些在物理世界里行动和移动的机器，那是我们吃饭的本行——你得把他们的移动方式自动化。&quot;</p>
+<p style="margin:0.8em 0">矿业是更远的故事：把矿物、材料和土地玩明白了，就擅长让土地产出——&quot;如果你把那个撬动世界的杠杆自动化了，那就是超级杠杆&quot;。他提到一张照片：一台满载超过两百万磅的机器，跟一栋楼那么大，自己在动。&quot;这个梦想，主要看马斯克愿不愿意——但总有一天他会派任务去小行星上采矿，也许我们能在某些方面帮上忙。&quot;</p>
+<p style="margin:0.8em 0">结构上，Atoms 延续了他在 Uber 的做法：在一家公司内部打造一大堆独立的公司。每个业务单元有一线负责人，直接向他汇报，再往下有子业务单元。他的管理方法是&quot;前期对齐，后期问责&quot;：先谈清楚要达成什么、怎么达成、哪些有风险，然后放手。Daniel Ek 曾评价他：你倾向于在一家公司内部打造一大堆独立的公司——&quot;这就是你的天性&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">首席问题解决者与&quot;那条线&quot;</h2>
+<p style="margin:0.8em 0">Kalanick 把自己的管理风格叫&quot;首席问题解决者&quot;：把时间花在那些最重要但还没人解决的问题上。这个角色层层下放——每个负责人都是自己领域里被授权的首席问题解决者，&quot;一直传导到最底层&quot;。</p>
+<p style="margin:0.8em 0">他还有一个叫&quot;那条线&quot;的框架。一边是秩序：很多规则、很多结构、很多流程，最后就是官僚主义；另一边是混乱：没有规则、没有流程、没有结构。两个极端都会让你走得慢、大家都很沮丧。&quot;秩序和混乱之间的那条线，就是快速且大规模的创新。每个领导者的工作就是找到那条线——而且它不是二维的，它像是八十维的。&quot;最通俗的描述是：&quot;用最少的规则同时避开混乱。&quot;</p>
+<p style="margin:0.8em 0">这条线在 Uber 开城时的具体形态，是他讲得最好的故事：前二三十个城市，他都深度参与。定价是所有战略的总和——监管、车型、平均工资、司机成本、城市通行时间，全部过一遍才能得出一个价格。伦敦上线前的定价电话能打八到十个小时，有的城市要打八个电话。&quot;但我从来没有两次解决同一个问题。一旦解决了，他就变成标准流程的一部分。&quot;到第二十个城市，定价电话五分钟搞定，他不再参加。</p>
+<p style="margin:0.8em 0">关键是年轻人：&quot;一个二十三岁的年轻人就能去开城。&quot;唯一规则是：定价电话上他点头之前，不能上线。&quot;他们知道如果没准备好，我就会说不行，那他们就完蛋了——所以他们把所有精力都放在把这件事儿做成上。&quot;他坚持招聘和赋能年轻人，把责任交给&quot;那些你知道的有冲劲的年轻人&quot;，因为规则越少，他们越会自己把事情组织对。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">混乱是自然法则，秩序是人类梦想</h2>
+<p style="margin:0.8em 0">访谈接近尾声时，主持人念了 Atoms 网站上的另一句话：&quot;混乱是自然法则，秩序是人类梦想。&quot;他说听完整个对话，他理解了：Kalanick 是在把秩序强加给物理世界的混乱之上。</p>
+<p style="margin:0.8em 0">Kalanick 接住了这个解读，并把它推得更远：&quot;我几乎把它看作负熵。文明就是试图在局部减缓熵增，甚至可能让熵转为负值——它是在对抗趋向混乱的自然法则，建立结构。这就是文明的意义。&quot;</p>
+<p style="margin:0.8em 0">他说主持人让他想起洛克菲勒：炼油工业早期，整个行业集中在宾夕法尼亚州，一片混乱，洛克菲勒说：&quot;我要给这片混乱强加秩序。&quot;进步在某种意义上就是把世界组织起来、结构化，&quot;朝着人类幸福、自由和某种超越的方向前进&quot;。&quot;这是我对我们所做之事的看法。这可能是最高层面的意义。&quot;</p>
+<p style="margin:0.8em 0">对一个曾被公众叙事塑造成&quot;野蛮人&quot;的创始人来说，这是一个意外的收尾：他给自己的定义不是破坏者，而是秩序的建造者——只不过他选择建造秩序的方式，是先把自己扔进最混乱的地方。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">元问题框架</strong>：问题解决速度对时间的导数必须 ≥ 问题创造速度对时间的导数。创造问题不是坏事，但要预判它六个月后会以什么形态涌回来，并确保自己的管理能力接得住。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">融资的执念应该是过程，不是价格</strong>：直接拿第一份 Term Sheet 会让融资拖得更久——没有备选方案就没有谈判杠杆。Uber 拒绝 60 亿的&quot;末日融资&quot;，两个月后以 175 亿投前估值完成。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人看 VC 的视角</strong>：操盘手是每周 60-80 小时的国际象棋大师，VC 是每三个月看一眼的爱好者；VC 的极高标准应该是&quot;不伤害原则&quot;，而末日论者会走到&quot;搞个作战室毁掉创始人&quot;的地步。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Atoms 的策略</strong>：专用机器人，一次攻一个行业（食品叉车/托盘 → 货运 → 矿业），&quot;关键任务底盘&quot;自动化所有物理移动；想象力的唯一限制是管理能力。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">那条线</strong>：秩序与混乱之间的线是快速创新的位置，它是 80 维的；最通俗的描述是用最少的规则同时避开混乱——Uber 开城的唯一规则是&quot;定价电话点头之前不能上线&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">商业正在变成政治</strong>：2010 年代起，商业头条只是叙事，常常是捏造的、对事实有重大歪曲——创始人得学会把叙事和事实分开看。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Rich Sutton：我们卡在了一个局部最优里</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习之父谈 LLM 的边界、持续学习，以及 OK Lab 要做的"真正智能"</h2>
@@ -12620,11 +12677,11 @@ Steam/雪球采集✅</li>
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/21</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：Unitree 科创板 IPO 引爆人形机器人资本周期（首日 +460%+）、Counterpoint 发布 H1 全球人形出货权威数据（+300%）、Nvidia 中国芯片计划现&quot;报道 vs 否认&quot;拉锯。AI 模型方向今日无重磅，主要事件集中在机器人、具身智能与 AI 硬件。</p>
+<p style="margin:0.8em 0">本期聚焦：Unitree 科创板 IPO 引爆人形机器人资本周期（首日 +460%+）、Counterpoint 发布 H1 全球人形出货权威数据（+300%）、Nvidia 中国芯片计划现"报道 vs 否认"拉锯。AI 模型方向今日无重磅，主要事件集中在机器人、具身智能与 AI 硬件。</p>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
-<p style="margin:0.8em 0">本周中国机器人资本化进入高潮：Unitree 8/19 科创板上市募资 $904M，首日涨幅 460%-629% 区间（各口径），同日发布&quot;超人&quot;人形机器人（自称 28 mph 超博尔特）；创始人王兴兴随即公开泼冷水称人形&quot;ChatGPT 时刻&quot;还需 10 年。Counterpoint 8/20 数据显示 H1 全球人形出货同比 +300%、中国 H1 超 4 万台、AGIBOT 全球第一。AI 硬件侧：The Information 独家称 Nvidia 拟年底向中国出货专用推理芯片，Nvidia 官方否认；H200 已小批量进入字节/腾讯。具身智能融资：前 Nvidia 多伦多实验室负责人 Sanja Fidler 的 Veeda AI 获 $90M 种子轮（Khosla + Radical）。</p>
+<p style="margin:0.8em 0">本周中国机器人资本化进入高潮：Unitree 8/19 科创板上市募资 $904M，首日涨幅 460%-629% 区间（各口径），同日发布"超人"人形机器人（自称 28 mph 超博尔特）；创始人王兴兴随即公开泼冷水称人形"ChatGPT 时刻"还需 10 年。Counterpoint 8/20 数据显示 H1 全球人形出货同比 +300%、中国 H1 超 4 万台、AGIBOT 全球第一。AI 硬件侧：The Information 独家称 Nvidia 拟年底向中国出货专用推理芯片，Nvidia 官方否认；H200 已小批量进入字节/腾讯。具身智能融资：前 Nvidia 多伦多实验室负责人 Sanja Fidler 的 Veeda AI 获 $90M 种子轮（Khosla + Radical）。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Unitree 科创板 IPO 首日暴涨，募资 $904M | 🟡 | [✅事实]</h3>
 <p style="margin:0.8em 0">中国机器人资本化里程碑。Unitree 8/19 于上海科创板（STAR Market）上市，Bloomberg 报道募资 $904M。首日涨幅各口径：Yahoo/Stockhouse 460%、CNBC 542%、Guardian/CoinDesk 600%、Forbes 盘中最高 629%。8/20 起股价回落（Caixin），创始人公开言论趋谨慎。这也是中国首家完成上市的人形机器人整机厂。</p>
@@ -12633,25 +12690,25 @@ Steam/雪球采集✅</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg、Reuters、CNBC、The Guardian、Forbes、Yahoo Finance</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Counterpoint：H1 全球人形出货 +300%，中国 H1 超 4 万台，AGIBOT 第一 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Counterpoint Research 8/20 发布：H1 2026 全球人形机器人出货量同比近 +300%，由商业部署（商用/工业场景）驱动；AGIBOT 出货量全球第一（AgiBot 官方同步确认）。Global Times/digitimes 引用报告称中国 H1 出货超 40,000 台，占全球主导。Forbes 报道口径为 2026 年至今累计约 30,000 台——不同来源口径差异提示&quot;全球 vs 中国&quot;&quot;H1 vs 年初至今&quot;统计范围不同。</p>
+<p style="margin:0.8em 0">Counterpoint Research 8/20 发布：H1 2026 全球人形机器人出货量同比近 +300%，由商业部署（商用/工业场景）驱动；AGIBOT 出货量全球第一（AgiBot 官方同步确认）。Global Times/digitimes 引用报告称中国 H1 出货超 40,000 台，占全球主导。Forbes 报道口径为 2026 年至今累计约 30,000 台——不同来源口径差异提示"全球 vs 中国""H1 vs 年初至今"统计范围不同。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Counterpoint Research 官方发布 + AgiBot 官方声明 + digitimes/Global Times/The Standard 多源交叉一致 — <strong style="font-weight:600">关注</strong>: 权威机构验证行业真实放量，从&quot;演示&quot;进入&quot;交付&quot;拐点</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Counterpoint Research 官方发布 + AgiBot 官方声明 + digitimes/Global Times/The Standard 多源交叉一致 — <strong style="font-weight:600">关注</strong>: 权威机构验证行业真实放量，从"演示"进入"交付"拐点</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Counterpoint Research、AgiBot 官方、digitimes、Global Times、Forbes</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Unitree&quot;超人&quot;机器人 28 mph + 创始人称人形 ChatGPT 时刻还需 10 年 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Unitree 8/18 发布&quot;Superman&quot;人形机器人：自称最高 28 mph（45 km/h，超博尔特峰值）、垂直跳 2 米；多段演示视频走红（含撞墙翻车片段），被视为 IPO 前造势。8/20 创始人王兴兴接受 CNBC 采访反向降温：人形机器人&quot;ChatGPT 时刻&quot;可能还要 10 年，当前产能/成本/场景未到爆发点；Caixin 同步报道其股价回落。宣传攻势与创始人冷静言论同周出现，反差鲜明。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Unitree"超人"机器人 28 mph + 创始人称人形 ChatGPT 时刻还需 10 年 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Unitree 8/18 发布"Superman"人形机器人：自称最高 28 mph（45 km/h，超博尔特峰值）、垂直跳 2 米；多段演示视频走红（含撞墙翻车片段），被视为 IPO 前造势。8/20 创始人王兴兴接受 CNBC 采访反向降温：人形机器人"ChatGPT 时刻"可能还要 10 年，当前产能/成本/场景未到爆发点；Caixin 同步报道其股价回落。宣传攻势与创始人冷静言论同周出现，反差鲜明。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 发布事实多源确认（Business Insider/TechSpot/Daily Mail/NDTV）；🔴未证实 跑速与跳跃数据为厂商自称，无独立第三方实测 — <strong style="font-weight:600">关注</strong>: 头部玩家自曝商业化节奏，防 IPO 叙事带偏行业判断</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNBC、Caixin Global、Business Insider、TechSpot</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Nvidia 拟年底向中国出货专用 AI 芯片，官方否认 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">The Information 8/20 独家：Nvidia 计划年底前向中国出货 China-specific AI 推理芯片（据传 LPU 架构），重返中国推理市场；Nvidia 同日官方否认（Reuters）。背景：H200 已获北京松绑小批量入华（字节/腾讯各约 10,000 片，Tom's Hardware/CNBC 多源确认），同时美国试图封堵东南亚云转售漏洞。美中出口管制进入&quot;北京主导松紧&quot;的新阶段。</p>
+<p style="margin:0.8em 0">The Information 8/20 独家：Nvidia 计划年底前向中国出货 China-specific AI 推理芯片（据传 LPU 架构），重返中国推理市场；Nvidia 同日官方否认（Reuters）。背景：H200 已获北京松绑小批量入华（字节/腾讯各约 10,000 片，Tom's Hardware/CNBC 多源确认），同时美国试图封堵东南亚云转售漏洞。美中出口管制进入"北京主导松紧"的新阶段。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ The Information 独家报道 + Reuters/Nvidia 官方否认声明（双方均确认存在该计划讨论）；✅ H200 入华事实多源确认（Tom's Hardware/Digital Trends/CNBC）— <strong style="font-weight:600">关注</strong>: 出口管制松动信号，直接冲击国产 AI 芯片替代逻辑</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: The Information、Reuters、CNBC、Tom's Hardware、Wccftech</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 前 Nvidia 研究员 Sanja Fidler 创 Veeda AI，$90M 种子轮 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Sanja Fidler（NVIDIA 多伦多 AI 实验室创始主任、世界模型/3D 视觉权威）联合创办 Veeda AI，获 $90M+ 种子轮，Khosla Ventures + Radical Ventures 领投，打造面向 Physical AI（机器人）的世界模型。7+ 家独立媒体（SiliconANGLE/The Logic/BetaKit/Globe and Mail/Unite.AI/Dealroom）一致报道。顶级研究员 + 大额种子，显示&quot;世界模型 + 具身智能&quot;融资赛道升温。</p>
+<p style="margin:0.8em 0">Sanja Fidler（NVIDIA 多伦多 AI 实验室创始主任、世界模型/3D 视觉权威）联合创办 Veeda AI，获 $90M+ 种子轮，Khosla Ventures + Radical Ventures 领投，打造面向 Physical AI（机器人）的世界模型。7+ 家独立媒体（SiliconANGLE/The Logic/BetaKit/Globe and Mail/Unite.AI/Dealroom）一致报道。顶级研究员 + 大额种子，显示"世界模型 + 具身智能"融资赛道升温。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 融资额与领投方多源一致（7 家独立媒体），Fidler 履历可核（NVIDIA 官方公开资料）— <strong style="font-weight:600">关注</strong>: 明星研究员+大额种子，世界模型军备竞赛向具身智能蔓延</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: SiliconANGLE、The Logic、BetaKit、The Globe and Mail、Unite.AI、Dealroom</li>
@@ -12659,5 +12716,62 @@ Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[跨国串门儿计划] 从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</title><link>https://xlicz.github.io/podcast-rss/articles/从Uber到Atoms-Travis-Kalanick的元问题思维-和他与VC的那场战争-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_da340c30ce56</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 Uber 到 Atoms：Travis Kalanick 的元问题思维，和他与 VC 的那场战争</h1>
+<p style="margin:0.8em 0">副标题：问题创造的速度必须慢于解决的速度；物理世界自动化需要尚未发明的算力——而创始人看 VC，就像国际象棋大师看爱好者。</p>
+<p style="margin:0.8em 0">Atoms 的官网上写着这样一句话：&quot;物理世界自主性需要为物理世界而生的 AI——这种智能需要的算力我们还没发明出来，需要的效率我们现在还无法想象，还需要一些还不存在的深度学习模型去理解物理世界，并在其中行动。&quot;</p>
+<p style="margin:0.8em 0">这是 Travis Kalanick 离开 Uber 之后的新公司。在接受《Founders》主持人 David Senra 的访谈时，他说自己并不反感&quot;人形机器人&quot;这个词，但他做的不是那个：&quot;我们做专用机器人——机器人和 AI 去攻克一个行业，一次只攻一个。&quot;</p>
+<p style="margin:0.8em 0">从 2010 年创办 Uber，到 2017 年在自己公司最顶峰时与董事会开战，再到今天用 Atoms 改造食品、矿业与物流——Kalanick 在这期访谈里给出的，不是创业鸡汤，而是一套可以拆开用的框架：关于问题、关于管理能力、关于融资，以及关于物理世界的秩序。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">元问题：解决问题的速度，必须快过制造问题的速度</h2>
+<p style="margin:0.8em 0">Kalanick 有一个被他称为&quot;元问题&quot;（meta problem）的框架，用他的话说是&quot;像数学教授看待问题那样看待问题&quot;：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">问题解决速度对时间的导数，必须始终大于或等于问题创造速度对时间的导数。如果这个条件不成立，你就真有大麻烦了。</p>
+</blockquote>
+<p style="margin:0.8em 0">数学教授如果手头没有有趣的问题可解，会很失落——所以创造问题本身不是坏事。关键在于你要能预判：今天创造的问题，大约六个月后才会真正涌上来，甚至更久。你得准确预判问题的性质，以及自己的管理能力能不能接住它。等式一旦失衡，正确动作是停止创造问题、专心解决，别被淹死。</p>
+<p style="margin:0.8em 0">他说自己从来就偏爱&quot;超级难、超级复杂&quot;的事：&quot;有人告诉你某件事不可能，你心想，是吗？然后我就想，看好了。&quot;Uber 时期的复杂性——跟每一个监管机构死磕——本身就是吸引他的一部分，尽管他承认&quot;我没完全搞清楚它到底复杂在哪儿&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国一课：到了中国，连 GPS 都得重学</h2>
+<p style="margin:0.8em 0">2013 年初，Uber 成立不过两三年，Kalanick 带着一帮&quot;超级 OG 的老手&quot;住进中国的一间公寓，见所有能见的人。他第一次见到中国本土的创业者时，对方直接告诉他：&quot;你疯了，别干这事儿，这是史上最烂的主意。&quot;</p>
+<p style="margin:0.8em 0">他的反应是：&quot;那简直是最好的消息。&quot;</p>
+<p style="margin:0.8em 0">他去中国学到的最重要一课是：带着生意去中国，必须从零开始。&quot;很多人以为你可以把生意带到别处去&quot;——但中国的运作方式一切都不同。他举了一个最具体的例子：连 GPS 都不一样。&quot;如果我想了解车辆在空间里怎么移动，我就得换掉我的 GPS 系统才能做到。而这只是中国一百个不同之处里的一个。&quot;</p>
+<p style="margin:0.8em 0">所以去中国做 Uber，本质上是在重新创业。他给创业者的建议是：抱着&quot;我要学会在这个非常不同的地方用不同的方式做事&quot;的心态，并对差异感到兴奋和好奇——而不是试图复制。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017 年：当 VC 觉得世界末日要来了</h2>
+<p style="margin:0.8em 0">&quot;基本上在最顶峰的时候，二零一七年是我的问题之年。&quot;</p>
+<p style="margin:0.8em 0">Kalanick 说 Benchmark Capital 当时在搞一个&quot;作战室&quot;——一个不声张的激进投资者，每周制造一次危机，针对他，又不明说。他的判断是：他们要的是流动性，而且觉得他不会给。Uber 当时已经在准备 IPO，但没告诉他们——&quot;因为我们想先确保想清楚了，准备好了&quot;。</p>
+<p style="margin:0.8em 0">他把 Benchmark 的比尔·格利描述为&quot;有点末日论者的倾向，总觉得天要塌了&quot;：&quot;如果你总觉得世界末日要来了，那就会逼你做出一些很离谱的事儿，包括想把我干掉。&quot;</p>
+<p style="margin:0.8em 0">两人在融资节奏上的分歧早在 2014 年就埋下了。2013 年 8 月 Uber 完成 35 亿美元融资，引入谷歌和 TPG；九个月后，格利坚信世界末日要来，坚持&quot;随便拿一份 Term Sheet 就行&quot;，说 Uber 当时能拿到 60 亿美元的估值。Kalanick 拒绝：&quot;如果你直接去拿第一份 Term Sheet，这轮融资反而会拖得更久——因为没有别的选择，你没有备选方案。&quot;他执念的不是某个价格，而是过程：&quot;那个过程关乎卓越和融资。&quot;</p>
+<p style="margin:0.8em 0">结果是：两个月后，Uber 完成了一轮投前估值 175 亿美元的融资。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;绝对不该找 Benchmark 融资&quot;</h2>
+<p style="margin:0.8em 0">主持人追问：你会跟现在必须融一大笔钱的年轻创始人说什么？Kalanick 的回答毫不含糊：&quot;你得先放一箭——你绝对不该找 Benchmark Capital 融资。&quot;</p>
+<p style="margin:0.8em 0">他承认自己公众形象和真实的人差别很大——&quot;十年前公众形象和真实的人之间的差别，简直不能再大了&quot;。但他观察到一件耐人寻味的事：真正懂行的创始人对他评价很高，&quot;我听到的负面评价全都来自投资人&quot;。</p>
+<p style="margin:0.8em 0">他把这种冲突归结为结构性的：&quot;一个运营公司的操盘手，如果干得好，就是国际象棋大师。他每周花六十到八十个小时在这盘棋上，能看到很多步之后的变化。而 VC 只是个国际象棋爱好者，每三个月才来看一眼这盘棋，然后他们就想在世界上留下点印记。&quot;他补了一句：&quot;别去跟乔丹说怎么扣篮。&quot;</p>
+<p style="margin:0.8em 0">在他看来，VC 的极高标准应该是&quot;不伤害原则&quot;。但当一个 VC 手里攥着值一大笔钱的东西、却没有任何控制权、又不管理任何东西时，一旦他相信世界快完蛋了而创始人不同意，就可能&quot;走到一个地步，搞个作战室去毁掉他&quot;。他举了反例：创始人基金（Founders Fund）&quot;无论如何，他们永远不会罢免创始人，他们不会搞那种战争&quot;。</p>
+<p style="margin:0.8em 0">他还谈到了更大的背景变化：&quot;商业正在变成政治。你开始读到的关于商业的头条，都只是叙事，而且常常是捏造的，对事实有实质性的、重大的歪曲。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Atoms：一次只攻下一个行业</h2>
+<p style="margin:0.8em 0">为什么是 Atoms？Kalanick 的回答是：他一直偏爱超级难的事，而&quot;物理世界自主性&quot;正是那个既超级难、又可能的命题。他刻意用了&quot;元问题&quot;式的表述——Atoms 官网那句话本身就是宣言：理解物理世界并在其中行动的 AI 还不存在，需要先发明出来。</p>
+<p style="margin:0.8em 0">业务逻辑也很 Uber：专用机器人，一次攻一个行业，站稳脚跟再进下一个。&quot;我们想象力的唯一限制就是管理能力。&quot;食品是他第一个讲清楚的故事——一家美国大型食品供应商每年花 30 亿美元在&quot;开叉车搬托盘的人工&quot;上，而这还只是所有移动事物里的一小部分；货运、配送、外卖同理。他管这类机器叫&quot;关键任务底盘&quot;：&quot;如果你有专用机器，那些在物理世界里行动和移动的机器，那是我们吃饭的本行——你得把他们的移动方式自动化。&quot;</p>
+<p style="margin:0.8em 0">矿业是更远的故事：把矿物、材料和土地玩明白了，就擅长让土地产出——&quot;如果你把那个撬动世界的杠杆自动化了，那就是超级杠杆&quot;。他提到一张照片：一台满载超过两百万磅的机器，跟一栋楼那么大，自己在动。&quot;这个梦想，主要看马斯克愿不愿意——但总有一天他会派任务去小行星上采矿，也许我们能在某些方面帮上忙。&quot;</p>
+<p style="margin:0.8em 0">结构上，Atoms 延续了他在 Uber 的做法：在一家公司内部打造一大堆独立的公司。每个业务单元有一线负责人，直接向他汇报，再往下有子业务单元。他的管理方法是&quot;前期对齐，后期问责&quot;：先谈清楚要达成什么、怎么达成、哪些有风险，然后放手。Daniel Ek 曾评价他：你倾向于在一家公司内部打造一大堆独立的公司——&quot;这就是你的天性&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">首席问题解决者与&quot;那条线&quot;</h2>
+<p style="margin:0.8em 0">Kalanick 把自己的管理风格叫&quot;首席问题解决者&quot;：把时间花在那些最重要但还没人解决的问题上。这个角色层层下放——每个负责人都是自己领域里被授权的首席问题解决者，&quot;一直传导到最底层&quot;。</p>
+<p style="margin:0.8em 0">他还有一个叫&quot;那条线&quot;的框架。一边是秩序：很多规则、很多结构、很多流程，最后就是官僚主义；另一边是混乱：没有规则、没有流程、没有结构。两个极端都会让你走得慢、大家都很沮丧。&quot;秩序和混乱之间的那条线，就是快速且大规模的创新。每个领导者的工作就是找到那条线——而且它不是二维的，它像是八十维的。&quot;最通俗的描述是：&quot;用最少的规则同时避开混乱。&quot;</p>
+<p style="margin:0.8em 0">这条线在 Uber 开城时的具体形态，是他讲得最好的故事：前二三十个城市，他都深度参与。定价是所有战略的总和——监管、车型、平均工资、司机成本、城市通行时间，全部过一遍才能得出一个价格。伦敦上线前的定价电话能打八到十个小时，有的城市要打八个电话。&quot;但我从来没有两次解决同一个问题。一旦解决了，他就变成标准流程的一部分。&quot;到第二十个城市，定价电话五分钟搞定，他不再参加。</p>
+<p style="margin:0.8em 0">关键是年轻人：&quot;一个二十三岁的年轻人就能去开城。&quot;唯一规则是：定价电话上他点头之前，不能上线。&quot;他们知道如果没准备好，我就会说不行，那他们就完蛋了——所以他们把所有精力都放在把这件事儿做成上。&quot;他坚持招聘和赋能年轻人，把责任交给&quot;那些你知道的有冲劲的年轻人&quot;，因为规则越少，他们越会自己把事情组织对。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">混乱是自然法则，秩序是人类梦想</h2>
+<p style="margin:0.8em 0">访谈接近尾声时，主持人念了 Atoms 网站上的另一句话：&quot;混乱是自然法则，秩序是人类梦想。&quot;他说听完整个对话，他理解了：Kalanick 是在把秩序强加给物理世界的混乱之上。</p>
+<p style="margin:0.8em 0">Kalanick 接住了这个解读，并把它推得更远：&quot;我几乎把它看作负熵。文明就是试图在局部减缓熵增，甚至可能让熵转为负值——它是在对抗趋向混乱的自然法则，建立结构。这就是文明的意义。&quot;</p>
+<p style="margin:0.8em 0">他说主持人让他想起洛克菲勒：炼油工业早期，整个行业集中在宾夕法尼亚州，一片混乱，洛克菲勒说：&quot;我要给这片混乱强加秩序。&quot;进步在某种意义上就是把世界组织起来、结构化，&quot;朝着人类幸福、自由和某种超越的方向前进&quot;。&quot;这是我对我们所做之事的看法。这可能是最高层面的意义。&quot;</p>
+<p style="margin:0.8em 0">对一个曾被公众叙事塑造成&quot;野蛮人&quot;的创始人来说，这是一个意外的收尾：他给自己的定义不是破坏者，而是秩序的建造者——只不过他选择建造秩序的方式，是先把自己扔进最混乱的地方。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">元问题框架</strong>：问题解决速度对时间的导数必须 ≥ 问题创造速度对时间的导数。创造问题不是坏事，但要预判它六个月后会以什么形态涌回来，并确保自己的管理能力接得住。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">融资的执念应该是过程，不是价格</strong>：直接拿第一份 Term Sheet 会让融资拖得更久——没有备选方案就没有谈判杠杆。Uber 拒绝 60 亿的&quot;末日融资&quot;，两个月后以 175 亿投前估值完成。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人看 VC 的视角</strong>：操盘手是每周 60-80 小时的国际象棋大师，VC 是每三个月看一眼的爱好者；VC 的极高标准应该是&quot;不伤害原则&quot;，而末日论者会走到&quot;搞个作战室毁掉创始人&quot;的地步。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Atoms 的策略</strong>：专用机器人，一次攻一个行业（食品叉车/托盘 → 货运 → 矿业），&quot;关键任务底盘&quot;自动化所有物理移动；想象力的唯一限制是管理能力。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">那条线</strong>：秩序与混乱之间的线是快速创新的位置，它是 80 维的；最通俗的描述是用最少的规则同时避开混乱——Uber 开城的唯一规则是&quot;定价电话点头之前不能上线&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">商业正在变成政治</strong>：2010 年代起，商业头条只是叙事，常常是捏造的、对事实有重大歪曲——创始人得学会把叙事和事实分开看。</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
