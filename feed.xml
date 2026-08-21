@@ -1,64 +1,65 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 21 Aug 2026 13:06:20 +0800</lastBuildDate><item><title>[跨国串门儿计划] 从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</title><link>https://xlicz.github.io/podcast-rss/articles/从Uber到Atoms-Travis-Kalanick的元问题思维-和他与VC的那场战争-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_da340c30ce56</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 21 Aug 2026 23:00:29 +0800</lastBuildDate><item><title>[跨国串门儿计划] 从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</title><link>https://xlicz.github.io/podcast-rss/articles/从Uber到Atoms-Travis-Kalanick的元问题思维-和他与VC的那场战争-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_da340c30ce56</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 Uber 到 Atoms：Travis Kalanick 的元问题思维，和他与 VC 的那场战争</h1>
 <p style="margin:0.8em 0">副标题：问题创造的速度必须慢于解决的速度；物理世界自动化需要尚未发明的算力——而创始人看 VC，就像国际象棋大师看爱好者。</p>
-<p style="margin:0.8em 0">Atoms 的官网上写着这样一句话：&quot;物理世界自主性需要为物理世界而生的 AI——这种智能需要的算力我们还没发明出来，需要的效率我们现在还无法想象，还需要一些还不存在的深度学习模型去理解物理世界，并在其中行动。&quot;</p>
-<p style="margin:0.8em 0">这是 Travis Kalanick 离开 Uber 之后的新公司。在接受《Founders》主持人 David Senra 的访谈时，他说自己并不反感&quot;人形机器人&quot;这个词，但他做的不是那个：&quot;我们做专用机器人——机器人和 AI 去攻克一个行业，一次只攻一个。&quot;</p>
+<p style="margin:0.8em 0">Atoms 的官网上写着这样一句话："物理世界自主性需要为物理世界而生的 AI——这种智能需要的算力我们还没发明出来，需要的效率我们现在还无法想象，还需要一些还不存在的深度学习模型去理解物理世界，并在其中行动。"</p>
+<p style="margin:0.8em 0">这是 Travis Kalanick 离开 Uber 之后的新公司。在接受《Founders》主持人 David Senra 的访谈时，他说自己并不反感"人形机器人"这个词，但他做的不是那个："我们做专用机器人——机器人和 AI 去攻克一个行业，一次只攻一个。"</p>
 <p style="margin:0.8em 0">从 2010 年创办 Uber，到 2017 年在自己公司最顶峰时与董事会开战，再到今天用 Atoms 改造食品、矿业与物流——Kalanick 在这期访谈里给出的，不是创业鸡汤，而是一套可以拆开用的框架：关于问题、关于管理能力、关于融资，以及关于物理世界的秩序。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">元问题：解决问题的速度，必须快过制造问题的速度</h2>
-<p style="margin:0.8em 0">Kalanick 有一个被他称为&quot;元问题&quot;（meta problem）的框架，用他的话说是&quot;像数学教授看待问题那样看待问题&quot;：</p>
+<p style="margin:0.8em 0">Kalanick 有一个被他称为"元问题"（meta problem）的框架，用他的话说是"像数学教授看待问题那样看待问题"：</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">问题解决速度对时间的导数，必须始终大于或等于问题创造速度对时间的导数。如果这个条件不成立，你就真有大麻烦了。</p>
 </blockquote>
 <p style="margin:0.8em 0">数学教授如果手头没有有趣的问题可解，会很失落——所以创造问题本身不是坏事。关键在于你要能预判：今天创造的问题，大约六个月后才会真正涌上来，甚至更久。你得准确预判问题的性质，以及自己的管理能力能不能接住它。等式一旦失衡，正确动作是停止创造问题、专心解决，别被淹死。</p>
-<p style="margin:0.8em 0">他说自己从来就偏爱&quot;超级难、超级复杂&quot;的事：&quot;有人告诉你某件事不可能，你心想，是吗？然后我就想，看好了。&quot;Uber 时期的复杂性——跟每一个监管机构死磕——本身就是吸引他的一部分，尽管他承认&quot;我没完全搞清楚它到底复杂在哪儿&quot;。</p>
+<p style="margin:0.8em 0">他说自己从来就偏爱"超级难、超级复杂"的事："有人告诉你某件事不可能，你心想，是吗？然后我就想，看好了。"Uber 时期的复杂性——跟每一个监管机构死磕——本身就是吸引他的一部分，尽管他承认"我没完全搞清楚它到底复杂在哪儿"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国一课：到了中国，连 GPS 都得重学</h2>
-<p style="margin:0.8em 0">2013 年初，Uber 成立不过两三年，Kalanick 带着一帮&quot;超级 OG 的老手&quot;住进中国的一间公寓，见所有能见的人。他第一次见到中国本土的创业者时，对方直接告诉他：&quot;你疯了，别干这事儿，这是史上最烂的主意。&quot;</p>
-<p style="margin:0.8em 0">他的反应是：&quot;那简直是最好的消息。&quot;</p>
-<p style="margin:0.8em 0">他去中国学到的最重要一课是：带着生意去中国，必须从零开始。&quot;很多人以为你可以把生意带到别处去&quot;——但中国的运作方式一切都不同。他举了一个最具体的例子：连 GPS 都不一样。&quot;如果我想了解车辆在空间里怎么移动，我就得换掉我的 GPS 系统才能做到。而这只是中国一百个不同之处里的一个。&quot;</p>
-<p style="margin:0.8em 0">所以去中国做 Uber，本质上是在重新创业。他给创业者的建议是：抱着&quot;我要学会在这个非常不同的地方用不同的方式做事&quot;的心态，并对差异感到兴奋和好奇——而不是试图复制。</p>
+<p style="margin:0.8em 0">2013 年初，Uber 成立不过两三年，Kalanick 带着一帮"超级 OG 的老手"住进中国的一间公寓，见所有能见的人。他第一次见到中国本土的创业者时，对方直接告诉他："你疯了，别干这事儿，这是史上最烂的主意。"</p>
+<p style="margin:0.8em 0">他的反应是："那简直是最好的消息。"</p>
+<p style="margin:0.8em 0">他去中国学到的最重要一课是：带着生意去中国，必须从零开始。"很多人以为你可以把生意带到别处去"——但中国的运作方式一切都不同。他举了一个最具体的例子：连 GPS 都不一样。"如果我想了解车辆在空间里怎么移动，我就得换掉我的 GPS 系统才能做到。而这只是中国一百个不同之处里的一个。"</p>
+<p style="margin:0.8em 0">所以去中国做 Uber，本质上是在重新创业。他给创业者的建议是：抱着"我要学会在这个非常不同的地方用不同的方式做事"的心态，并对差异感到兴奋和好奇——而不是试图复制。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017 年：当 VC 觉得世界末日要来了</h2>
-<p style="margin:0.8em 0">&quot;基本上在最顶峰的时候，二零一七年是我的问题之年。&quot;</p>
-<p style="margin:0.8em 0">Kalanick 说 Benchmark Capital 当时在搞一个&quot;作战室&quot;——一个不声张的激进投资者，每周制造一次危机，针对他，又不明说。他的判断是：他们要的是流动性，而且觉得他不会给。Uber 当时已经在准备 IPO，但没告诉他们——&quot;因为我们想先确保想清楚了，准备好了&quot;。</p>
-<p style="margin:0.8em 0">他把 Benchmark 的比尔·格利描述为&quot;有点末日论者的倾向，总觉得天要塌了&quot;：&quot;如果你总觉得世界末日要来了，那就会逼你做出一些很离谱的事儿，包括想把我干掉。&quot;</p>
-<p style="margin:0.8em 0">两人在融资节奏上的分歧早在 2014 年就埋下了。2013 年 8 月 Uber 完成 35 亿美元融资，引入谷歌和 TPG；九个月后，格利坚信世界末日要来，坚持&quot;随便拿一份 Term Sheet 就行&quot;，说 Uber 当时能拿到 60 亿美元的估值。Kalanick 拒绝：&quot;如果你直接去拿第一份 Term Sheet，这轮融资反而会拖得更久——因为没有别的选择，你没有备选方案。&quot;他执念的不是某个价格，而是过程：&quot;那个过程关乎卓越和融资。&quot;</p>
+<p style="margin:0.8em 0">"基本上在最顶峰的时候，二零一七年是我的问题之年。"</p>
+<p style="margin:0.8em 0">Kalanick 说 Benchmark Capital 当时在搞一个"作战室"——一个不声张的激进投资者，每周制造一次危机，针对他，又不明说。他的判断是：他们要的是流动性，而且觉得他不会给。Uber 当时已经在准备 IPO，但没告诉他们——"因为我们想先确保想清楚了，准备好了"。</p>
+<p style="margin:0.8em 0">他把 Benchmark 的比尔·格利描述为"有点末日论者的倾向，总觉得天要塌了"："如果你总觉得世界末日要来了，那就会逼你做出一些很离谱的事儿，包括想把我干掉。"</p>
+<p style="margin:0.8em 0">两人在融资节奏上的分歧早在 2014 年就埋下了。2013 年 8 月 Uber 完成 35 亿美元融资，引入谷歌和 TPG；九个月后，格利坚信世界末日要来，坚持"随便拿一份 Term Sheet 就行"，说 Uber 当时能拿到 60 亿美元的估值。Kalanick 拒绝："如果你直接去拿第一份 Term Sheet，这轮融资反而会拖得更久——因为没有别的选择，你没有备选方案。"他执念的不是某个价格，而是过程："那个过程关乎卓越和融资。"</p>
 <p style="margin:0.8em 0">结果是：两个月后，Uber 完成了一轮投前估值 175 亿美元的融资。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;绝对不该找 Benchmark 融资&quot;</h2>
-<p style="margin:0.8em 0">主持人追问：你会跟现在必须融一大笔钱的年轻创始人说什么？Kalanick 的回答毫不含糊：&quot;你得先放一箭——你绝对不该找 Benchmark Capital 融资。&quot;</p>
-<p style="margin:0.8em 0">他承认自己公众形象和真实的人差别很大——&quot;十年前公众形象和真实的人之间的差别，简直不能再大了&quot;。但他观察到一件耐人寻味的事：真正懂行的创始人对他评价很高，&quot;我听到的负面评价全都来自投资人&quot;。</p>
-<p style="margin:0.8em 0">他把这种冲突归结为结构性的：&quot;一个运营公司的操盘手，如果干得好，就是国际象棋大师。他每周花六十到八十个小时在这盘棋上，能看到很多步之后的变化。而 VC 只是个国际象棋爱好者，每三个月才来看一眼这盘棋，然后他们就想在世界上留下点印记。&quot;他补了一句：&quot;别去跟乔丹说怎么扣篮。&quot;</p>
-<p style="margin:0.8em 0">在他看来，VC 的极高标准应该是&quot;不伤害原则&quot;。但当一个 VC 手里攥着值一大笔钱的东西、却没有任何控制权、又不管理任何东西时，一旦他相信世界快完蛋了而创始人不同意，就可能&quot;走到一个地步，搞个作战室去毁掉他&quot;。他举了反例：创始人基金（Founders Fund）&quot;无论如何，他们永远不会罢免创始人，他们不会搞那种战争&quot;。</p>
-<p style="margin:0.8em 0">他还谈到了更大的背景变化：&quot;商业正在变成政治。你开始读到的关于商业的头条，都只是叙事，而且常常是捏造的，对事实有实质性的、重大的歪曲。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"绝对不该找 Benchmark 融资"</h2>
+<p style="margin:0.8em 0">主持人追问：你会跟现在必须融一大笔钱的年轻创始人说什么？Kalanick 的回答毫不含糊："你得先放一箭——你绝对不该找 Benchmark Capital 融资。"</p>
+<p style="margin:0.8em 0">他承认自己公众形象和真实的人差别很大——"十年前公众形象和真实的人之间的差别，简直不能再大了"。但他观察到一件耐人寻味的事：真正懂行的创始人对他评价很高，"我听到的负面评价全都来自投资人"。</p>
+<p style="margin:0.8em 0">他把这种冲突归结为结构性的："一个运营公司的操盘手，如果干得好，就是国际象棋大师。他每周花六十到八十个小时在这盘棋上，能看到很多步之后的变化。而 VC 只是个国际象棋爱好者，每三个月才来看一眼这盘棋，然后他们就想在世界上留下点印记。"他补了一句："别去跟乔丹说怎么扣篮。"</p>
+<p style="margin:0.8em 0">在他看来，VC 的极高标准应该是"不伤害原则"。但当一个 VC 手里攥着值一大笔钱的东西、却没有任何控制权、又不管理任何东西时，一旦他相信世界快完蛋了而创始人不同意，就可能"走到一个地步，搞个作战室去毁掉他"。他举了反例：创始人基金（Founders Fund）"无论如何，他们永远不会罢免创始人，他们不会搞那种战争"。</p>
+<p style="margin:0.8em 0">他还谈到了更大的背景变化："商业正在变成政治。你开始读到的关于商业的头条，都只是叙事，而且常常是捏造的，对事实有实质性的、重大的歪曲。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Atoms：一次只攻下一个行业</h2>
-<p style="margin:0.8em 0">为什么是 Atoms？Kalanick 的回答是：他一直偏爱超级难的事，而&quot;物理世界自主性&quot;正是那个既超级难、又可能的命题。他刻意用了&quot;元问题&quot;式的表述——Atoms 官网那句话本身就是宣言：理解物理世界并在其中行动的 AI 还不存在，需要先发明出来。</p>
-<p style="margin:0.8em 0">业务逻辑也很 Uber：专用机器人，一次攻一个行业，站稳脚跟再进下一个。&quot;我们想象力的唯一限制就是管理能力。&quot;食品是他第一个讲清楚的故事——一家美国大型食品供应商每年花 30 亿美元在&quot;开叉车搬托盘的人工&quot;上，而这还只是所有移动事物里的一小部分；货运、配送、外卖同理。他管这类机器叫&quot;关键任务底盘&quot;：&quot;如果你有专用机器，那些在物理世界里行动和移动的机器，那是我们吃饭的本行——你得把他们的移动方式自动化。&quot;</p>
-<p style="margin:0.8em 0">矿业是更远的故事：把矿物、材料和土地玩明白了，就擅长让土地产出——&quot;如果你把那个撬动世界的杠杆自动化了，那就是超级杠杆&quot;。他提到一张照片：一台满载超过两百万磅的机器，跟一栋楼那么大，自己在动。&quot;这个梦想，主要看马斯克愿不愿意——但总有一天他会派任务去小行星上采矿，也许我们能在某些方面帮上忙。&quot;</p>
-<p style="margin:0.8em 0">结构上，Atoms 延续了他在 Uber 的做法：在一家公司内部打造一大堆独立的公司。每个业务单元有一线负责人，直接向他汇报，再往下有子业务单元。他的管理方法是&quot;前期对齐，后期问责&quot;：先谈清楚要达成什么、怎么达成、哪些有风险，然后放手。Daniel Ek 曾评价他：你倾向于在一家公司内部打造一大堆独立的公司——&quot;这就是你的天性&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">首席问题解决者与&quot;那条线&quot;</h2>
-<p style="margin:0.8em 0">Kalanick 把自己的管理风格叫&quot;首席问题解决者&quot;：把时间花在那些最重要但还没人解决的问题上。这个角色层层下放——每个负责人都是自己领域里被授权的首席问题解决者，&quot;一直传导到最底层&quot;。</p>
-<p style="margin:0.8em 0">他还有一个叫&quot;那条线&quot;的框架。一边是秩序：很多规则、很多结构、很多流程，最后就是官僚主义；另一边是混乱：没有规则、没有流程、没有结构。两个极端都会让你走得慢、大家都很沮丧。&quot;秩序和混乱之间的那条线，就是快速且大规模的创新。每个领导者的工作就是找到那条线——而且它不是二维的，它像是八十维的。&quot;最通俗的描述是：&quot;用最少的规则同时避开混乱。&quot;</p>
-<p style="margin:0.8em 0">这条线在 Uber 开城时的具体形态，是他讲得最好的故事：前二三十个城市，他都深度参与。定价是所有战略的总和——监管、车型、平均工资、司机成本、城市通行时间，全部过一遍才能得出一个价格。伦敦上线前的定价电话能打八到十个小时，有的城市要打八个电话。&quot;但我从来没有两次解决同一个问题。一旦解决了，他就变成标准流程的一部分。&quot;到第二十个城市，定价电话五分钟搞定，他不再参加。</p>
-<p style="margin:0.8em 0">关键是年轻人：&quot;一个二十三岁的年轻人就能去开城。&quot;唯一规则是：定价电话上他点头之前，不能上线。&quot;他们知道如果没准备好，我就会说不行，那他们就完蛋了——所以他们把所有精力都放在把这件事儿做成上。&quot;他坚持招聘和赋能年轻人，把责任交给&quot;那些你知道的有冲劲的年轻人&quot;，因为规则越少，他们越会自己把事情组织对。</p>
+<p style="margin:0.8em 0">为什么是 Atoms？Kalanick 的回答是：他一直偏爱超级难的事，而"物理世界自主性"正是那个既超级难、又可能的命题。他刻意用了"元问题"式的表述——Atoms 官网那句话本身就是宣言：理解物理世界并在其中行动的 AI 还不存在，需要先发明出来。</p>
+<p style="margin:0.8em 0">业务逻辑也很 Uber：专用机器人，一次攻一个行业，站稳脚跟再进下一个。"我们想象力的唯一限制就是管理能力。"食品是他第一个讲清楚的故事——一家美国大型食品供应商每年花 30 亿美元在"开叉车搬托盘的人工"上，而这还只是所有移动事物里的一小部分；货运、配送、外卖同理。他管这类机器叫"关键任务底盘"："如果你有专用机器，那些在物理世界里行动和移动的机器，那是我们吃饭的本行——你得把他们的移动方式自动化。"</p>
+<p style="margin:0.8em 0">矿业是更远的故事：把矿物、材料和土地玩明白了，就擅长让土地产出——"如果你把那个撬动世界的杠杆自动化了，那就是超级杠杆"。他提到一张照片：一台满载超过两百万磅的机器，跟一栋楼那么大，自己在动。"这个梦想，主要看马斯克愿不愿意——但总有一天他会派任务去小行星上采矿，也许我们能在某些方面帮上忙。"</p>
+<p style="margin:0.8em 0">结构上，Atoms 延续了他在 Uber 的做法：在一家公司内部打造一大堆独立的公司。每个业务单元有一线负责人，直接向他汇报，再往下有子业务单元。他的管理方法是"前期对齐，后期问责"：先谈清楚要达成什么、怎么达成、哪些有风险，然后放手。Daniel Ek 曾评价他：你倾向于在一家公司内部打造一大堆独立的公司——"这就是你的天性"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">首席问题解决者与"那条线"</h2>
+<p style="margin:0.8em 0">Kalanick 把自己的管理风格叫"首席问题解决者"：把时间花在那些最重要但还没人解决的问题上。这个角色层层下放——每个负责人都是自己领域里被授权的首席问题解决者，"一直传导到最底层"。</p>
+<p style="margin:0.8em 0">他还有一个叫"那条线"的框架。一边是秩序：很多规则、很多结构、很多流程，最后就是官僚主义；另一边是混乱：没有规则、没有流程、没有结构。两个极端都会让你走得慢、大家都很沮丧。"秩序和混乱之间的那条线，就是快速且大规模的创新。每个领导者的工作就是找到那条线——而且它不是二维的，它像是八十维的。"最通俗的描述是："用最少的规则同时避开混乱。"</p>
+<p style="margin:0.8em 0">这条线在 Uber 开城时的具体形态，是他讲得最好的故事：前二三十个城市，他都深度参与。定价是所有战略的总和——监管、车型、平均工资、司机成本、城市通行时间，全部过一遍才能得出一个价格。伦敦上线前的定价电话能打八到十个小时，有的城市要打八个电话。"但我从来没有两次解决同一个问题。一旦解决了，他就变成标准流程的一部分。"到第二十个城市，定价电话五分钟搞定，他不再参加。</p>
+<p style="margin:0.8em 0">关键是年轻人："一个二十三岁的年轻人就能去开城。"唯一规则是：定价电话上他点头之前，不能上线。"他们知道如果没准备好，我就会说不行，那他们就完蛋了——所以他们把所有精力都放在把这件事儿做成上。"他坚持招聘和赋能年轻人，把责任交给"那些你知道的有冲劲的年轻人"，因为规则越少，他们越会自己把事情组织对。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">混乱是自然法则，秩序是人类梦想</h2>
-<p style="margin:0.8em 0">访谈接近尾声时，主持人念了 Atoms 网站上的另一句话：&quot;混乱是自然法则，秩序是人类梦想。&quot;他说听完整个对话，他理解了：Kalanick 是在把秩序强加给物理世界的混乱之上。</p>
-<p style="margin:0.8em 0">Kalanick 接住了这个解读，并把它推得更远：&quot;我几乎把它看作负熵。文明就是试图在局部减缓熵增，甚至可能让熵转为负值——它是在对抗趋向混乱的自然法则，建立结构。这就是文明的意义。&quot;</p>
-<p style="margin:0.8em 0">他说主持人让他想起洛克菲勒：炼油工业早期，整个行业集中在宾夕法尼亚州，一片混乱，洛克菲勒说：&quot;我要给这片混乱强加秩序。&quot;进步在某种意义上就是把世界组织起来、结构化，&quot;朝着人类幸福、自由和某种超越的方向前进&quot;。&quot;这是我对我们所做之事的看法。这可能是最高层面的意义。&quot;</p>
-<p style="margin:0.8em 0">对一个曾被公众叙事塑造成&quot;野蛮人&quot;的创始人来说，这是一个意外的收尾：他给自己的定义不是破坏者，而是秩序的建造者——只不过他选择建造秩序的方式，是先把自己扔进最混乱的地方。</p>
+<p style="margin:0.8em 0">访谈接近尾声时，主持人念了 Atoms 网站上的另一句话："混乱是自然法则，秩序是人类梦想。"他说听完整个对话，他理解了：Kalanick 是在把秩序强加给物理世界的混乱之上。</p>
+<p style="margin:0.8em 0">Kalanick 接住了这个解读，并把它推得更远："我几乎把它看作负熵。文明就是试图在局部减缓熵增，甚至可能让熵转为负值——它是在对抗趋向混乱的自然法则，建立结构。这就是文明的意义。"</p>
+<p style="margin:0.8em 0">他说主持人让他想起洛克菲勒：炼油工业早期，整个行业集中在宾夕法尼亚州，一片混乱，洛克菲勒说："我要给这片混乱强加秩序。"进步在某种意义上就是把世界组织起来、结构化，"朝着人类幸福、自由和某种超越的方向前进"。"这是我对我们所做之事的看法。这可能是最高层面的意义。"</p>
+<p style="margin:0.8em 0">对一个曾被公众叙事塑造成"野蛮人"的创始人来说，这是一个意外的收尾：他给自己的定义不是破坏者，而是秩序的建造者——只不过他选择建造秩序的方式，是先把自己扔进最混乱的地方。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">元问题框架</strong>：问题解决速度对时间的导数必须 ≥ 问题创造速度对时间的导数。创造问题不是坏事，但要预判它六个月后会以什么形态涌回来，并确保自己的管理能力接得住。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">融资的执念应该是过程，不是价格</strong>：直接拿第一份 Term Sheet 会让融资拖得更久——没有备选方案就没有谈判杠杆。Uber 拒绝 60 亿的&quot;末日融资&quot;，两个月后以 175 亿投前估值完成。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">创始人看 VC 的视角</strong>：操盘手是每周 60-80 小时的国际象棋大师，VC 是每三个月看一眼的爱好者；VC 的极高标准应该是&quot;不伤害原则&quot;，而末日论者会走到&quot;搞个作战室毁掉创始人&quot;的地步。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Atoms 的策略</strong>：专用机器人，一次攻一个行业（食品叉车/托盘 → 货运 → 矿业），&quot;关键任务底盘&quot;自动化所有物理移动；想象力的唯一限制是管理能力。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">那条线</strong>：秩序与混乱之间的线是快速创新的位置，它是 80 维的；最通俗的描述是用最少的规则同时避开混乱——Uber 开城的唯一规则是&quot;定价电话点头之前不能上线&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">融资的执念应该是过程，不是价格</strong>：直接拿第一份 Term Sheet 会让融资拖得更久——没有备选方案就没有谈判杠杆。Uber 拒绝 60 亿的"末日融资"，两个月后以 175 亿投前估值完成。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人看 VC 的视角</strong>：操盘手是每周 60-80 小时的国际象棋大师，VC 是每三个月看一眼的爱好者；VC 的极高标准应该是"不伤害原则"，而末日论者会走到"搞个作战室毁掉创始人"的地步。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Atoms 的策略</strong>：专用机器人，一次攻一个行业（食品叉车/托盘 → 货运 → 矿业），"关键任务底盘"自动化所有物理移动；想象力的唯一限制是管理能力。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">那条线</strong>：秩序与混乱之间的线是快速创新的位置，它是 80 维的；最通俗的描述是用最少的规则同时避开混乱——Uber 开城的唯一规则是"定价电话点头之前不能上线"。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">商业正在变成政治</strong>：2010 年代起，商业头条只是叙事，常常是捏造的、对事实有重大歪曲——创始人得学会把叙事和事实分开看。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] Rich Sutton：我们卡在了一个局部最优里</title><link>https://xlicz.github.io/podcast-rss/articles/Rich-Sutton-我们卡在了一个局部最优里-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_dc40fd821318</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>Rich Sutton：我们卡在了一个局部最优里</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Rich Sutton：我们卡在了一个局部最优里</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习之父谈 LLM 的边界、持续学习，以及 OK Lab 要做的"真正智能"</h2>
@@ -12610,7 +12611,8 @@ Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-21.html</link><guid isPermaLink="false">report:播客信号:2026-08-21:09c12129</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-21</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-21.html</link><guid isPermaLink="false">report:播客信号:2026-08-21:09c12129</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-21</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12673,7 +12675,8 @@ Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-21.html</link><guid isPermaLink="false">report:AI动态:2026-08-21:2df617f7</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-21</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-21.html</link><guid isPermaLink="false">report:AI动态:2026-08-21:2df617f7</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/21</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12716,62 +12719,694 @@ Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[跨国串门儿计划] 从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</title><link>https://xlicz.github.io/podcast-rss/articles/从Uber到Atoms-Travis-Kalanick的元问题思维-和他与VC的那场战争-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_da340c30ce56</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>从Uber到Atoms：Travis Kalanick的元问题思维，和他与VC的那场战争</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-21</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-21.html</link><guid isPermaLink="false">report:雪球动态:2026-08-21:6547e270</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 Uber 到 Atoms：Travis Kalanick 的元问题思维，和他与 VC 的那场战争</h1>
-<p style="margin:0.8em 0">副标题：问题创造的速度必须慢于解决的速度；物理世界自动化需要尚未发明的算力——而创始人看 VC，就像国际象棋大师看爱好者。</p>
-<p style="margin:0.8em 0">Atoms 的官网上写着这样一句话：&quot;物理世界自主性需要为物理世界而生的 AI——这种智能需要的算力我们还没发明出来，需要的效率我们现在还无法想象，还需要一些还不存在的深度学习模型去理解物理世界，并在其中行动。&quot;</p>
-<p style="margin:0.8em 0">这是 Travis Kalanick 离开 Uber 之后的新公司。在接受《Founders》主持人 David Senra 的访谈时，他说自己并不反感&quot;人形机器人&quot;这个词，但他做的不是那个：&quot;我们做专用机器人——机器人和 AI 去攻克一个行业，一次只攻一个。&quot;</p>
-<p style="margin:0.8em 0">从 2010 年创办 Uber，到 2017 年在自己公司最顶峰时与董事会开战，再到今天用 Atoms 改造食品、矿业与物流——Kalanick 在这期访谈里给出的，不是创业鸡汤，而是一套可以拆开用的框架：关于问题、关于管理能力、关于融资，以及关于物理世界的秩序。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">元问题：解决问题的速度，必须快过制造问题的速度</h2>
-<p style="margin:0.8em 0">Kalanick 有一个被他称为&quot;元问题&quot;（meta problem）的框架，用他的话说是&quot;像数学教授看待问题那样看待问题&quot;：</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-21 22:06</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">问题解决速度对时间的导数，必须始终大于或等于问题创造速度对时间的导数。如果这个条件不成立，你就真有大麻烦了。</p>
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：64条（首次运行全量） | 信号：🔥9 / 🔴4 / ⚪51</p>
 </blockquote>
-<p style="margin:0.8em 0">数学教授如果手头没有有趣的问题可解，会很失落——所以创造问题本身不是坏事。关键在于你要能预判：今天创造的问题，大约六个月后才会真正涌上来，甚至更久。你得准确预判问题的性质，以及自己的管理能力能不能接住它。等式一旦失衡，正确动作是停止创造问题、专心解决，别被淹死。</p>
-<p style="margin:0.8em 0">他说自己从来就偏爱&quot;超级难、超级复杂&quot;的事：&quot;有人告诉你某件事不可能，你心想，是吗？然后我就想，看好了。&quot;Uber 时期的复杂性——跟每一个监管机构死磕——本身就是吸引他的一部分，尽管他承认&quot;我没完全搞清楚它到底复杂在哪儿&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国一课：到了中国，连 GPS 都得重学</h2>
-<p style="margin:0.8em 0">2013 年初，Uber 成立不过两三年，Kalanick 带着一帮&quot;超级 OG 的老手&quot;住进中国的一间公寓，见所有能见的人。他第一次见到中国本土的创业者时，对方直接告诉他：&quot;你疯了，别干这事儿，这是史上最烂的主意。&quot;</p>
-<p style="margin:0.8em 0">他的反应是：&quot;那简直是最好的消息。&quot;</p>
-<p style="margin:0.8em 0">他去中国学到的最重要一课是：带着生意去中国，必须从零开始。&quot;很多人以为你可以把生意带到别处去&quot;——但中国的运作方式一切都不同。他举了一个最具体的例子：连 GPS 都不一样。&quot;如果我想了解车辆在空间里怎么移动，我就得换掉我的 GPS 系统才能做到。而这只是中国一百个不同之处里的一个。&quot;</p>
-<p style="margin:0.8em 0">所以去中国做 Uber，本质上是在重新创业。他给创业者的建议是：抱着&quot;我要学会在这个非常不同的地方用不同的方式做事&quot;的心态，并对差异感到兴奋和好奇——而不是试图复制。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2017 年：当 VC 觉得世界末日要来了</h2>
-<p style="margin:0.8em 0">&quot;基本上在最顶峰的时候，二零一七年是我的问题之年。&quot;</p>
-<p style="margin:0.8em 0">Kalanick 说 Benchmark Capital 当时在搞一个&quot;作战室&quot;——一个不声张的激进投资者，每周制造一次危机，针对他，又不明说。他的判断是：他们要的是流动性，而且觉得他不会给。Uber 当时已经在准备 IPO，但没告诉他们——&quot;因为我们想先确保想清楚了，准备好了&quot;。</p>
-<p style="margin:0.8em 0">他把 Benchmark 的比尔·格利描述为&quot;有点末日论者的倾向，总觉得天要塌了&quot;：&quot;如果你总觉得世界末日要来了，那就会逼你做出一些很离谱的事儿，包括想把我干掉。&quot;</p>
-<p style="margin:0.8em 0">两人在融资节奏上的分歧早在 2014 年就埋下了。2013 年 8 月 Uber 完成 35 亿美元融资，引入谷歌和 TPG；九个月后，格利坚信世界末日要来，坚持&quot;随便拿一份 Term Sheet 就行&quot;，说 Uber 当时能拿到 60 亿美元的估值。Kalanick 拒绝：&quot;如果你直接去拿第一份 Term Sheet，这轮融资反而会拖得更久——因为没有别的选择，你没有备选方案。&quot;他执念的不是某个价格，而是过程：&quot;那个过程关乎卓越和融资。&quot;</p>
-<p style="margin:0.8em 0">结果是：两个月后，Uber 完成了一轮投前估值 175 亿美元的融资。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;绝对不该找 Benchmark 融资&quot;</h2>
-<p style="margin:0.8em 0">主持人追问：你会跟现在必须融一大笔钱的年轻创始人说什么？Kalanick 的回答毫不含糊：&quot;你得先放一箭——你绝对不该找 Benchmark Capital 融资。&quot;</p>
-<p style="margin:0.8em 0">他承认自己公众形象和真实的人差别很大——&quot;十年前公众形象和真实的人之间的差别，简直不能再大了&quot;。但他观察到一件耐人寻味的事：真正懂行的创始人对他评价很高，&quot;我听到的负面评价全都来自投资人&quot;。</p>
-<p style="margin:0.8em 0">他把这种冲突归结为结构性的：&quot;一个运营公司的操盘手，如果干得好，就是国际象棋大师。他每周花六十到八十个小时在这盘棋上，能看到很多步之后的变化。而 VC 只是个国际象棋爱好者，每三个月才来看一眼这盘棋，然后他们就想在世界上留下点印记。&quot;他补了一句：&quot;别去跟乔丹说怎么扣篮。&quot;</p>
-<p style="margin:0.8em 0">在他看来，VC 的极高标准应该是&quot;不伤害原则&quot;。但当一个 VC 手里攥着值一大笔钱的东西、却没有任何控制权、又不管理任何东西时，一旦他相信世界快完蛋了而创始人不同意，就可能&quot;走到一个地步，搞个作战室去毁掉他&quot;。他举了反例：创始人基金（Founders Fund）&quot;无论如何，他们永远不会罢免创始人，他们不会搞那种战争&quot;。</p>
-<p style="margin:0.8em 0">他还谈到了更大的背景变化：&quot;商业正在变成政治。你开始读到的关于商业的头条，都只是叙事，而且常常是捏造的，对事实有实质性的、重大的歪曲。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Atoms：一次只攻下一个行业</h2>
-<p style="margin:0.8em 0">为什么是 Atoms？Kalanick 的回答是：他一直偏爱超级难的事，而&quot;物理世界自主性&quot;正是那个既超级难、又可能的命题。他刻意用了&quot;元问题&quot;式的表述——Atoms 官网那句话本身就是宣言：理解物理世界并在其中行动的 AI 还不存在，需要先发明出来。</p>
-<p style="margin:0.8em 0">业务逻辑也很 Uber：专用机器人，一次攻一个行业，站稳脚跟再进下一个。&quot;我们想象力的唯一限制就是管理能力。&quot;食品是他第一个讲清楚的故事——一家美国大型食品供应商每年花 30 亿美元在&quot;开叉车搬托盘的人工&quot;上，而这还只是所有移动事物里的一小部分；货运、配送、外卖同理。他管这类机器叫&quot;关键任务底盘&quot;：&quot;如果你有专用机器，那些在物理世界里行动和移动的机器，那是我们吃饭的本行——你得把他们的移动方式自动化。&quot;</p>
-<p style="margin:0.8em 0">矿业是更远的故事：把矿物、材料和土地玩明白了，就擅长让土地产出——&quot;如果你把那个撬动世界的杠杆自动化了，那就是超级杠杆&quot;。他提到一张照片：一台满载超过两百万磅的机器，跟一栋楼那么大，自己在动。&quot;这个梦想，主要看马斯克愿不愿意——但总有一天他会派任务去小行星上采矿，也许我们能在某些方面帮上忙。&quot;</p>
-<p style="margin:0.8em 0">结构上，Atoms 延续了他在 Uber 的做法：在一家公司内部打造一大堆独立的公司。每个业务单元有一线负责人，直接向他汇报，再往下有子业务单元。他的管理方法是&quot;前期对齐，后期问责&quot;：先谈清楚要达成什么、怎么达成、哪些有风险，然后放手。Daniel Ek 曾评价他：你倾向于在一家公司内部打造一大堆独立的公司——&quot;这就是你的天性&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">首席问题解决者与&quot;那条线&quot;</h2>
-<p style="margin:0.8em 0">Kalanick 把自己的管理风格叫&quot;首席问题解决者&quot;：把时间花在那些最重要但还没人解决的问题上。这个角色层层下放——每个负责人都是自己领域里被授权的首席问题解决者，&quot;一直传导到最底层&quot;。</p>
-<p style="margin:0.8em 0">他还有一个叫&quot;那条线&quot;的框架。一边是秩序：很多规则、很多结构、很多流程，最后就是官僚主义；另一边是混乱：没有规则、没有流程、没有结构。两个极端都会让你走得慢、大家都很沮丧。&quot;秩序和混乱之间的那条线，就是快速且大规模的创新。每个领导者的工作就是找到那条线——而且它不是二维的，它像是八十维的。&quot;最通俗的描述是：&quot;用最少的规则同时避开混乱。&quot;</p>
-<p style="margin:0.8em 0">这条线在 Uber 开城时的具体形态，是他讲得最好的故事：前二三十个城市，他都深度参与。定价是所有战略的总和——监管、车型、平均工资、司机成本、城市通行时间，全部过一遍才能得出一个价格。伦敦上线前的定价电话能打八到十个小时，有的城市要打八个电话。&quot;但我从来没有两次解决同一个问题。一旦解决了，他就变成标准流程的一部分。&quot;到第二十个城市，定价电话五分钟搞定，他不再参加。</p>
-<p style="margin:0.8em 0">关键是年轻人：&quot;一个二十三岁的年轻人就能去开城。&quot;唯一规则是：定价电话上他点头之前，不能上线。&quot;他们知道如果没准备好，我就会说不行，那他们就完蛋了——所以他们把所有精力都放在把这件事儿做成上。&quot;他坚持招聘和赋能年轻人，把责任交给&quot;那些你知道的有冲劲的年轻人&quot;，因为规则越少，他们越会自己把事情组织对。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">混乱是自然法则，秩序是人类梦想</h2>
-<p style="margin:0.8em 0">访谈接近尾声时，主持人念了 Atoms 网站上的另一句话：&quot;混乱是自然法则，秩序是人类梦想。&quot;他说听完整个对话，他理解了：Kalanick 是在把秩序强加给物理世界的混乱之上。</p>
-<p style="margin:0.8em 0">Kalanick 接住了这个解读，并把它推得更远：&quot;我几乎把它看作负熵。文明就是试图在局部减缓熵增，甚至可能让熵转为负值——它是在对抗趋向混乱的自然法则，建立结构。这就是文明的意义。&quot;</p>
-<p style="margin:0.8em 0">他说主持人让他想起洛克菲勒：炼油工业早期，整个行业集中在宾夕法尼亚州，一片混乱，洛克菲勒说：&quot;我要给这片混乱强加秩序。&quot;进步在某种意义上就是把世界组织起来、结构化，&quot;朝着人类幸福、自由和某种超越的方向前进&quot;。&quot;这是我对我们所做之事的看法。这可能是最高层面的意义。&quot;</p>
-<p style="margin:0.8em 0">对一个曾被公众叙事塑造成&quot;野蛮人&quot;的创始人来说，这是一个意外的收尾：他给自己的定义不是破坏者，而是秩序的建造者——只不过他选择建造秩序的方式，是先把自己扔进最混乱的地方。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">元问题框架</strong>：问题解决速度对时间的导数必须 ≥ 问题创造速度对时间的导数。创造问题不是坏事，但要预判它六个月后会以什么形态涌回来，并确保自己的管理能力接得住。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">融资的执念应该是过程，不是价格</strong>：直接拿第一份 Term Sheet 会让融资拖得更久——没有备选方案就没有谈判杠杆。Uber 拒绝 60 亿的&quot;末日融资&quot;，两个月后以 175 亿投前估值完成。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">创始人看 VC 的视角</strong>：操盘手是每周 60-80 小时的国际象棋大师，VC 是每三个月看一眼的爱好者；VC 的极高标准应该是&quot;不伤害原则&quot;，而末日论者会走到&quot;搞个作战室毁掉创始人&quot;的地步。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Atoms 的策略</strong>：专用机器人，一次攻一个行业（食品叉车/托盘 → 货运 → 矿业），&quot;关键任务底盘&quot;自动化所有物理移动；想象力的唯一限制是管理能力。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">那条线</strong>：秩序与混乱之间的线是快速创新的位置，它是 80 维的；最通俗的描述是用最少的规则同时避开混乱——Uber 开城的唯一规则是&quot;定价电话点头之前不能上线&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">商业正在变成政治</strong>：2010 年代起，商业头条只是叙事，常常是捏造的、对事实有重大歪曲——创始人得学会把叙事和事实分开看。</li>
-</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">核心信号</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 逸修1 — 心动公司(02400) | 预期差看多</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 市场按&quot;Q2业绩跌4&quot;定价，逸修1认为实际只跌1-2（弱票），下半年好于上半年</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;动子其实只要下半年比上半年好……无非就是弱票的1或2，但是市场在按4跌&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">Q2 下滑原因可分析、下半年可跟踪，实际降幅弱于市场预期 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人推理]</code></li>
+<li style="margin:0.3em 0">心动半年报：Q2 单季数据是全年最低基数，下半年环比改善 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理+财报节奏]</code></li>
+<li style="margin:0.3em 0">诡秘之主（快手）吊打遗忘之海（网易），反市场预期 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 市场线性外推 Q2 疲弱 → 定价&quot;跌4&quot;；逸修1 拆解 Q2 原因后认为真实降幅 1-2 → 预期差修复空间。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">市场按跌4定价</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">心动现价 42.6 港元(+3.9%)，市值 206 亿，PE_TTM 12.13</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">诡秘吊打遗忘之海</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">诡秘=快手(8/21公测，成本12亿)，遗忘之海=网易(成本~15亿)；首日在线数据需榜单旁证</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2025-06 珍惜100亿以下心动 → 2025-11 二条半主线（taptap+ADN 值200-250亿）→ 2026-07 RO2版号/付费游戏2-3亿 → 持续看多，本批为&quot;跌4vs1-2&quot;预期差修正。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 核心判断依赖其行业跟踪能力，但&quot;市场按4跌&quot;无法直接验证。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 亲爱的阿兰 — 焦煤/HCC | 板块看多</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 焦煤个位数 PE+股东回报不错，不一定比存储差；HCC Blue Creek 投产后首份财报</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;有些焦煤算下来就个位数 PE，股东回报也不错，不一定比存储差&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">焦煤个股位数 PE、股东回报好 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[估值数据]</code></li>
+<li style="margin:0.3em 0">HCC Blue Creek 投产后的第一份财报（08-05）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报事件]</code></li>
+<li style="margin:0.3em 0">回复@小吉他鱼&quot;淮北矿业买少了&quot;：阿兰表示焦煤股昨天已卖 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[持仓动作]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: AI 存储叙事 PE 高企，焦煤作为低估值+高股东回报资产具备相对配置价值。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">焦煤个位数PE</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">淮北矿业 18.03(+2.44%)，市值485亿；焦煤板块整体低PE</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HCC Blue Creek 投产</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2025-08 历史帖已跟踪，2026 投产兑现</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">已卖出焦煤仓位</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">原帖自述&quot;这个我昨天卖了&quot;</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2025-04 焦煤基金砸盘论 → 2025-08 HCC Blue Creek 未计价、70% 资本开支已自筹 → 持续跟踪 HCC。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 低 PE 可查，HCC 项目为其长期跟踪标的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 酒金岁月 — 洋河 | 看多（但模型数字过时）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 洋河打分 8 分 &gt; 茅台 7.5 分；江苏 550 亿市场容得下两家</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;打败洋河的不是今世缘，而是经济大环境……江苏550亿的市场规模，容得下两家本地企业&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">打分模型：基本面5分（茅台5/洋河3）+ 收益率5分 → 洋河 8 分 vs 茅台 7.5 分 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人模型]</code></li>
+<li style="margin:0.3em 0">洋河控量稳价、渠道库存降至健康区间 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[渠道数据]</code></li>
+<li style="margin:0.3em 0">今世缘打中端，洋河无强力大单品是结构问题非竞争问题 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业判断]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 洋河估值（PE 更低）+ 周期底部 → 收益率补偿基本面差距 → 性价比胜出。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">洋河净利60亿、PE20</td>
+  <td style="text-align:center">❌</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2025年报净利仅22.06亿(-66.94%)；PE_TTM 57.6（TTM净利~10亿）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台净利823亿、PE30</td>
+  <td style="text-align:center">❌</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026H1净利445.17亿(-1.95%)，Q2单季172.74亿环比-36%；现PE 19.5</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">江苏550亿市场</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">江苏白酒市场规模量级符合常识，无精确官方口径</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">渠道库存降至1.8-2.2个月</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第三方渠道调研口径（2026Q1末）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-06 假酒/责任论 → 2026-07 白酒走右侧、茅台周期风向标 → 2026-08-20 专栏&quot;投资洋河的理由&quot; → 持续看多洋河，但<strong style="font-weight:600">引用业绩数字严重过时</strong>（60亿为2023-24年水平）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 打分模型基于过时财务数字（净利60亿/PE20 vs 实际22亿/PE57.6），结论方向可参考但量化基础错误。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 酒金岁月 — 中药板块 | 看空</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 化药集采扫尾，中药集采才刚开始，按适应症集采&quot;影响将是致命的&quot;</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;中药集采才刚开始……一旦改为按适应症，影响将是致命的。千万，千万，千万不要太乐观&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">化药集采基本扫尾，中药集采刚开始 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[政策判断]</code></li>
+<li style="margin:0.3em 0">目前类化药品名方式影响有限，改按适应症则致命 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[政策推演]</code></li>
+<li style="margin:0.3em 0">多家中药股 Q2 营收下降（奇正、江中、桂林三金、昆药、健民、白云山）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 集采扩围路径化药→中药，品名→适应症，是确定性趋势；中药大单品当前高毛利不可持续。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中药集采扩围</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">政策方向与公开报道一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多家中药Q2营收下滑</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">需逐一核半年报，属可查证数据但未逐条验证</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 新增观点（历史库无中药专题）。与白酒看多形成&quot;消费结构分化&quot;组合。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 政策方向确定，个股影响幅度未量化。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 Tbills — 陕西能源(001286) | 产业价值看多（逆势）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 火电业务全拿掉，六大煤矿资产一级产业资本愿以高于市值买入</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;火电业务全拿掉，凉水井+赵石畔+园子沟+冯家塔+丈八+钱阳山，一级产业资本大概率愿意以高于当前市值的价格买入&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">煤矿资产清单：凉水井/赵石畔/园子沟/冯家塔/丈八/钱阳山 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公司资产]</code></li>
+<li style="margin:0.3em 0">一级市场产业资本定价 &gt; 二级市场当前市值 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[产业估值判断]</code></li>
+<li style="margin:0.3em 0">陕西能源半年报（8/20 披露）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 二级市场因 Q2 环比下滑抛售（今日-9.94% 跌停），但产业视角下煤矿资产重置价值被低估。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">煤矿资产清单</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年报：核定产能3000万吨/年，丈八400万吨+钱阳山600万吨矿业权</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">产业资本愿高于市值买入</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断，无法验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年报业绩</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">营收107.09亿(+8.58%)，净利13.48亿(+1.07%)；<strong style="font-weight:600">Q2净利4.6亿环比-48%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2025-07 陕能投背景优质项目投产逻辑 → 2025-11 陕西资源保护+丈八/园子沟同矿区 → 持续看多，今日跌停为最大压力测试。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 资产清单可验证，但&quot;产业资本定价&quot;为核心主观假设；Q2 环比-48% 是硬数据利空。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 Elon翻开每一页 — 富途(FUTU) | 财报看多</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: Q2&quot;很不错的财报&quot;，从用户规模/平台资产/变现/资本配置三方面分析</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;$富途控股(FUTU)$ 很不错的财报&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">有资产账户数 384 万，YoY +34%，QoQ +25.2万 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
+<li style="margin:0.3em 0">CAC 2600 港元，在全年指导 2500-3000 区间内 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
+<li style="margin:0.3em 0">新规资产流出约中个位数百分比，Q2 已基本吸收 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
+<li style="margin:0.3em 0">回复：hood 很好但贵，等待落难再买 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个股比较]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 用户增长+变现效率双轮驱动，监管冲击一次性消化 → 财报质量高。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">384万有资产客户+34%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2财报：注册3125万(+15%)、账户664万(+27%)、客户资产1.4万亿港元(+43.6%)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">CAC 2600港元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公司业绩会口径</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2 营收72亿港元+35.6%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日股价+7.43% 报121.11，盘前涨超10%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Non-GAAP 净利37.25亿+40.1%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公开财报</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2021 年即持有/跟踪富途期权 → 2025-11 季报现金流吐槽 → 本次为详细正面财报分析。长期跟踪标的。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 全部核心数据与公开财报一致。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 庶人哑士 — 泡泡玛特 | 逆势看多</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 商业模式持续性无需讨论，周期是 IP 生意特性，IP 不死生意长青</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;可持续性≠没有周期性≠业绩没有波动。周期本身就属于IP这门生意的特性，但周期性的另一面是IP不死，生意长青&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">借助 LABUBU 热度一年干成五年的事（破圈营销/拉新/拓店）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+<li style="margin:0.3em 0">团队搭建、线下精细化运营无法走捷径，管理层清醒 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人判断]</code></li>
+<li style="margin:0.3em 0">质疑商业模式持续性是对 IP 持续创造营收视而不见 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[反驳论证]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 市场把周期波动当模式崩塌；实际 IP 资产永续 + 管理层不冒进 → 股价下跌是周期不是终局。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泡泡商业模式持续</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026H1 营收171.7亿+23.8%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">但<strong style="font-weight:600">低于预期</strong>（市场预期199.8亿），净利50.4亿(+10.1%)低于预期66.4亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">海外收入</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">49.72亿 <strong style="font-weight:600">-11.6%</strong>，增长引擎切换回中国区(+47.3%)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">存货周转天数</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">123天→201天（半年报口径）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2025-07 称 Elon 为最懂泡泡的人 → 2026-04 游戏/SaaS 类比辩论 → 持续多头，但在泡泡 H1 低于预期、股价较峰值-55% 背景下逆势加码。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 核心为理念性看多；H1 营收低于预期 14%、海外负增长、存货周转恶化是硬利空，未正面回应。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 Penny010 — 快手/诡秘之主 | 看空</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 成本12亿的诡秘之主&quot;拉完了&quot;，换皮 MMO，慢脚gg</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;号称成本12亿，这诡秘之主拉完了。明明故事线可以做成3A大作，偏偏是换皮mmo，割都割不明白。慢脚gg&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">诡秘之主成本12亿，品质不符预期 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人评测]</code></li>
+<li style="margin:0.3em 0">换皮 MMO、商业化割韭菜 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人评测]</code></li>
+<li style="margin:0.3em 0">对快手游戏业务（慢脚）悲观 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业判断]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 高成本+低品质 → 快手游戏投入产出比差 → 拖累快手。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">成本12亿</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">官方口径（含推广，8/21公测）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">品质/换皮判断</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观评测，与逸修1&quot;吊打遗忘之海&quot;直接矛盾</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">对快手影响</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逸修1 称&quot;诡秘无论成绩好坏都对快手影响极小&quot;（快手市值1489亿）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2024-09 游戏行业稳定性论（腾讯网易顶尖稳定）→ 对具体产品挑剔，2026-08 看空快手游戏。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 成本可验证；品质判断主观，与逸修1 观点冲突，需榜单数据裁决。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 汤诗语 — 银行/AI资本开支 | 看多股份行</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: AI 资金需求启动 → 看股份行；腾讯阿里 FCF 转负迟早融资</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;如果AI产业的资金需求启动，那么就看股份行能否受益了……腾讯的自由现金流转负，阿里也转负了，迟早得融资，这时候银行、投行们就有事情做了&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">地方银行无能力/无产业服务 AI 企业，股份行受益 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业逻辑]</code></li>
+<li style="margin:0.3em 0">腾讯阿里 AI 资本开支 → 融资需求 → 银行/投行受益 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[资金流逻辑]</code></li>
+<li style="margin:0.3em 0">海外经验：AI 巨额投资下银行业受益匪浅 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[类比]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: AI 资本开支是新一轮信贷周期引擎，股份行+投行为主要承接者。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯FCF转负</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2 自由现金流 -138亿（含AI预付款口径）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">江苏/南京银行新高</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">江苏银行 11.94(+6.06 PE)、南京银行 11.78 均近期新高</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">银行受益AI信贷</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逻辑成立但国内银行不能混业经营，投行业务受限</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-06 五大厂烧FCF、硬件厂受益论 → 2026-08 银行新高印证 → 观点延续并落地。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 腾讯 FCF 数据可验证，银行受益链条为逻辑推演。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 浊静徐清 — 腾讯 | 看多（资本开支叙事）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 资本开支 3 年能回本，为什么砸 1000 亿给外卖？腾讯今年资本开支 2500 亿左右</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;是啊，资本开支3年能回本，为啥还去砸1000亿给外卖？&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">腾讯资本开支 ~2500亿/年 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[估算]</code></li>
+<li style="margin:0.3em 0">谷歌回本周期 1 年多，马斯克 1GW 算力投入年租 500 亿+ — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[类比]</code></li>
+<li style="margin:0.3em 0">看腾讯/阿里财报就看资本开支是否继续堆 + AI 产品是否&quot;心灵手巧&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code></li>
+<li style="margin:0.3em 0">腾讯 WorkBuddy 现金收入高速增长（业绩会）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: AI 资本开支回报周期短 → 投入正确 → 市场低估腾讯 AI 期权。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯今年资本开支2500亿</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2 资本开支 527.84亿(+176%)，上半年847亿已超2025全年792亿；美银预测2026全年2100亿/2027 2600亿 — 2500亿略高但量级合理</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">资本开支3年回本</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人测算，无独立验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WorkBuddy 现金收入高增长</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯业绩会口径</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-07 腾讯三年5000亿资本开支测算 → WorkBuddy 爆款重估 → HY3 万亿token → 持续看多腾讯 AI，本批为方法论强化。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 资本开支数据可验证，回本周期为核心假设。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 醉眼看人間 — 白酒（泸州老窖/茅台）| 看空</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 赞同&quot;白酒春天不再&quot;，机构未意识到；道不同不相为谋</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;这不是不同观点的，完全是道不同。善悟者生。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">泸州老窖月线 21 年后的震荡是消化估值 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[技术面]</code></li>
+<li style="margin:0.3em 0">机构尚未意识到白酒行业性变化 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[市场判断]</code></li>
+<li style="margin:0.3em 0">拼多多白酒越来越便宜，经销商日子难 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[渠道观察]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 白酒行业逻辑已变（非库存周期而是消费场景重构），估值消化≠见底。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒调整</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台 1272.83(-1.45%) PE19.5；泸州老窖 85.20(-1.06%) PE12.6</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机构未意识到</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台Q2环比-36%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026H1 净利445.17亿(-1.95%)，Q2 单季环比下滑</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-06 茅台股东会酒水讨论 → 2026-07 点赞&quot;白酒不能买&quot;、转发老窖股东会思考 → 持续看空白酒。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 财报数据支持，但&quot;机构未意识到&quot;无法验证。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 丹书铁券 — A股 | 宏观看空</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: A股成美股影子股，中美30年国债利差140%</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;目前中美30年期国债利率差是140%，A股市场居然走出影子市场的调调&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">中美30年期国债利率差 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[宏观数据]</code></li>
+<li style="margin:0.3em 0">A股跟随美股（影子市场）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[市场观察]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中美30年利差140%</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">表述存疑：中国30年~2.2%，美国30年~4.5-5%，利差约250-280bp（≈2.5个百分点），&quot;140%&quot;可能指比例或笔误</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">A股影子化</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2024-07 降存量房贷利率论 → 2025-04 国债空间论 → 宏观利率框架长期看空A股风险偏好。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 核心数字表述不清（140% 存疑），逻辑为宏观情绪判断。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号帖子摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+  <th style="text-align:center">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">谷歌收购安卓/DeepMind</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史事实陈述，无信号</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">字节token 180万亿/天</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">数据分享：字节霸榜下载前十</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里千问第一/HY3前二</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中国AI模型国际化判断</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">灰度测试中</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">某产品灰度（内容不明）</td>
+  <td style="text-align:center">❓</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">马车夫对汽车的看法</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI吃互联网历史类比</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黄酒两次全国化失败</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黄酒困守江浙沪，气泡酒新路线</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大闸蟹配黄酒</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黄酒推广制约：杂醇头疼</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">价值投资不要道德高地</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">方法论帖</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">一线白酒领导无所谓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">产品&gt;领导，保住下限</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">intern创业有感</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">感慨AI时代退场焦虑</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">MSTR老鬼抄底逻辑（转发）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">学习老鬼建仓逻辑，105以下定投</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泡泡选址护城河</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2016年签Molly，护城河讨论</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">旭辉跌99.5%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">民营地产时代眼泪感慨</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">内华达金矿调研</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">资源股调研帖（中国黄金国际/海油/紫金）</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泡泡上市至今思考</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">复盘帖：持股都比泡泡强</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">江苏/南京银行新高</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">强区域经济逻辑延续</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">王兴兴不喝酒</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒桌文化改写，白酒隐忧</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Elon翻开每一页</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">hood 太贵等待落难</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">对Robinhood观望</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月（洋河）</strong>: 打分模型数字全面过时——洋河净利60亿/PE20 是2023年水平，实际2025年报22.06亿、PE_TTM 57.6；茅台823亿/PE30 也已过时。模型结论或可参考，量化基础错误。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Penny010 vs 逸修1（诡秘之主）</strong>: 同一产品，一个说&quot;拉完了/慢脚gg&quot;，一个说&quot;吊打遗忘之海&quot;。成本12亿双方认可，品质与数据需等首周榜单裁决。快手市值1489亿，单款游戏影响边际有限（逸修1观点）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Tbills（陕西能源）</strong>: &quot;产业资本愿高于市值买入&quot;无法证伪也无法证实；Q2 净利环比-48% 是硬伤，跌停说明市场不买账。产业价值锚 vs 业绩环比崩塌，风险在后者。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">庶人哑士（泡泡玛特）</strong>: H1 营收低于预期 14%、海外 -11.6%、存货周转 123→201 天，三条硬数据全部恶化，理念性看多未回应基本面。王宁自称&quot;经营调整年&quot;。</li>
+</ol>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
