@@ -1,0 +1,47 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/22</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：DeepSeek 补多模态短板、智驾高管转具身加速、世界模型开源化、Anthropic 自研芯片落子、欧洲 Tier1 押注人形量产。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">DeepSeek 官方上线 v4-flash 视觉实验模型，低成本模型线补上多模态</li>
+<li style="margin:0.3em 0">蔚来自动驾驶负责人任少卿被曝创立具身机器人公司，智驾→具身人才流动再添一例</li>
+<li style="margin:0.3em 0">Lightricks 开源 22B 世界模型 LTX-2.5，权重已上线 HuggingFace</li>
+<li style="margin:0.3em 0">Anthropic 挖走 Google TPU 创始架构师，自研芯片推进</li>
+<li style="margin:0.3em 0">Schaeffler 计划 2027 量产人形机器人齿轮箱，欧洲 Tier1 密集入局</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. DeepSeek 发布 v4-flash 视觉实验模型 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">DeepSeek 官方 API 文档上线 Vision 指南，发布 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">deepseek-v4-flash-vision-exp</code>：模型接受图像+文本输入，可描述图片、读取截图文字、分析图表。通过 Responses API 使用（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">input_image</code> content parts），base_url 为 api.deepseek.com。HN 首页 448 分登顶。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方文档确认模型与能力 — <strong style="font-weight:600">关注</strong>: flash 低成本线补多模态，视觉 agent 推理成本下降</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://api-docs.deepseek.com/guides/vision/%EF%BC%88%F0%9F%9F%A2%E5%AE%98%E6%96%B9%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://api-docs.deepseek.com/guides/vision/（🟢官方）</a></li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 蔚来自动驾驶负责人任少卿被曝创立具身机器人公司 | 🔴 | [📰推测]</h3>
+<p style="margin:0.8em 0">汽车媒体 Red Probe 报道，蔚来高级副总裁、自动驾驶负责人任少卿已创立具身机器人公司，或已获得融资；公司名与金额未披露，其在蔚来的角色是否变化未知。任少卿系 ResNet / Faster R-CNN 作者之一、Momenta 联创（Momenta 上月港股上市），2020 年加入蔚来主导自研智驾与世界模型（NWM → NWM 2.5），2026 年升任 SVP。延续小鹏智驾负责人李力耘加入 EngineAI、理想智驾负责人郎咸朋与华为任庚创立昆仑星机器人的趋势。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CnEVPost 转载确认报道存在；🔴未证实 公司名/融资/离职状态均未官方确认</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://cnevpost.com/%EF%BC%88%F0%9F%94%B4%E4%BC%A0%E9%97%BB%EF%BC%8C%E8%BD%AC%E8%BD%BD" style="color:#2563eb;text-decoration:underline">https://cnevpost.com/（🔴传闻，转载</a> Red Probe）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Lightricks 开源 22B 世界模型 LTX-2.5 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Lightricks 发布 LTX-2.5 世界模型（22B 参数，可控视频生成），开源权重已上线 HuggingFace <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Lightricks/LTX-2.5</code>（updated 08/17，likes 1489）。Animation World Network、Open Source For You 等多家报道。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ HuggingFace 仓库确认 + 多家独立媒体报道 — <strong style="font-weight:600">关注</strong>: 世界模型开源化提速，可控视频生成门槛降低</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://huggingface.co/Lightricks/LTX-2.5%EF%BC%88%F0%9F%9F%A2%E5%AE%98%E6%96%B9%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://huggingface.co/Lightricks/LTX-2.5（🟢官方）</a></li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Anthropic 挖走 Google TPU 创始架构师，推进自研芯片 | 🟡 | [📰推测]</h3>
+<p style="margin:0.8em 0">Bloomberg 报道：Anthropic 聘请 Google 芯片老兵（Cryptonews 等媒体称其为 Google founding TPU chip architect），作为其硬件自研计划的一部分。此前有报道称 Anthropic 计算成本已超 $19B，公司 IPO 临近，自研芯片被视为降低对 NVIDIA 依赖的关键动作。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Bloomberg 领衔，5+ 独立媒体交叉确认；🔴未证实 具体人选姓名与芯片路线图未披露</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg / Seeking Alpha / Cryptonews / Investing.com（🟡可靠媒体）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Schaeffler 计划 2027 量产人形机器人齿轮箱 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">The Robot Report：德国零部件巨头 Schaeffler（舍弗勒）计划 2027 年量产人形机器人齿轮箱。同期动作：Schaeffler 与 Hexagon 在其工厂内训练 AEON 人形机器人（多家媒体 08/19 报道），Bosch 亦宣布 2027 年启动人形机器人量产。欧洲 Tier1 汽车供应链巨头密集切入人形机器人。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 多家独立媒体报道确认业务布局；🔴未证实 产能规模与客户细节未披露</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: The Robot Report / Assembly Magazine / Robotics &amp; Automation News（🟡可靠媒体）</li>
+</ul>
+
+</div>
