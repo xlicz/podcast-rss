@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 22 Aug 2026 06:00:46 +0800</lastBuildDate><item><title>[a16z Podcast] AI 代理像宿醉的实习生：微软安全高管如何驯服会发怒的智能体</title><link>https://xlicz.github.io/podcast-rss/articles/AI-代理像宿醉的实习生-微软安全高管如何驯服会发怒的智能体-2026-08-21.html</link><guid isPermaLink="false">a16z_4c0381220e99</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>AI 代理像宿醉的实习生：微软安全高管如何驯服会发怒的智能体</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 22 Aug 2026 09:00:15 +0800</lastBuildDate><item><title>[a16z Podcast] AI 代理像宿醉的实习生：微软安全高管如何驯服会发怒的智能体</title><link>https://xlicz.github.io/podcast-rss/articles/AI-代理像宿醉的实习生-微软安全高管如何驯服会发怒的智能体-2026-08-21.html</link><guid isPermaLink="false">a16z_4c0381220e99</guid><pubDate>Fri, 21 Aug 2026 08:00:00 +0800</pubDate><description>AI 代理像宿醉的实习生：微软安全高管如何驯服会发怒的智能体</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 代理像宿醉的实习生：微软安全高管如何驯服"不可预测、非理性、会发怒"的智能体</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从"怎么禁掉它"到"怎么让它安全地干活"——Microsoft Gaming 副 CISO Aaron Zollman 在 Black Hat 现场拆解 Agent 安全的第一性原理</h2>
@@ -12582,22 +12582,22 @@ Steam/雪球采集✅</li>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #684.从Uber到Atoms，如何用&quot;元问题&quot;思维征服物理世界</h3>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #684.从Uber到Atoms，如何用"元问题"思维征服物理世界</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-20 | <strong style="font-weight:600">来源</strong>: Founders 播客（David Senra × Travis Kalanick）| <strong style="font-weight:600">转录</strong>: 28.3K字符</p>
 <p style="margin:0.8em 0">Travis Kalanick 离开 Uber 后创办 Atoms（原 City Storage Systems），聚焦物理 AI/专用机器人改造实体行业。核心内容：</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🧠 元问题框架（Meta-Problem）</strong></p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">核心不等式：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">问题解决速度/时间 ≥ 问题创造速度/时间</code>，不成立则被问题淹死</li>
-<li style="margin:0.3em 0">创业者要主动创造&quot;值得解的问题&quot;，但要预判问题 6 个月后涌上来的性质与自身解题能力</li>
-<li style="margin:0.3em 0">管理能力 = 想象力兑现的上限（&quot;我们想象力的唯一限制就是管理能力&quot;）</li>
+<li style="margin:0.3em 0">创业者要主动创造"值得解的问题"，但要预判问题 6 个月后涌上来的性质与自身解题能力</li>
+<li style="margin:0.3em 0">管理能力 = 想象力兑现的上限（"我们想象力的唯一限制就是管理能力"）</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">📊 关键论据</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">Uber 中国战役 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 百度入股 7% 换取&quot;中国企业&quot;身份背书；滴滴靠抄袭+补贴战取胜；中国主权基金向 Uber 全球对手注资数十亿美元消耗其资源</li>
-<li style="margin:0.3em 0">出租车牌照制度 = 政府默许卡特尔 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 纽约牌照持有者免费获得牌照，司机年付 4 万美元租半天班次；&quot;合法化的腐败&quot;</li>
+<li style="margin:0.3em 0">Uber 中国战役 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 百度入股 7% 换取"中国企业"身份背书；滴滴靠抄袭+补贴战取胜；中国主权基金向 Uber 全球对手注资数十亿美元消耗其资源</li>
+<li style="margin:0.3em 0">出租车牌照制度 = 政府默许卡特尔 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 纽约牌照持有者免费获得牌照，司机年付 4 万美元租半天班次；"合法化的腐败"</li>
 <li style="margin:0.3em 0">网络效应 vs 补贴 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 效率优势让大玩家比对手补贴更少；规模超过某节点后补贴不可持续，效率优势超过补贴</li>
-<li style="margin:0.3em 0">融资方法论 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> QED 式演示 + 多方竞价（赢家通吃：x、x+5、x+10…）+ 需求曲线汇总（各价位需求表）；&quot;依附于流程而非价格&quot;；2017年 Benchmark 作战室政变内幕（比尔·格利末日论者，投前 175 亿美元融资 vs 60 亿 Term Sheet 建议）</li>
-<li style="margin:0.3em 0">Atoms 物理 AI 路线 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 专用机器人逐个行业攻克（一小时 1000 个煎饼用专用铁质装置，不用人形机器人）；食品电商需工业地产+机器人生成+机器人配送（15 分钟物流圈）；矿业=土地变生产力；人形机器人的用武之地是&quot;人类设计环境里的小规模任务&quot;</li>
+<li style="margin:0.3em 0">融资方法论 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> QED 式演示 + 多方竞价（赢家通吃：x、x+5、x+10…）+ 需求曲线汇总（各价位需求表）；"依附于流程而非价格"；2017年 Benchmark 作战室政变内幕（比尔·格利末日论者，投前 175 亿美元融资 vs 60 亿 Term Sheet 建议）</li>
+<li style="margin:0.3em 0">Atoms 物理 AI 路线 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 专用机器人逐个行业攻克（一小时 1000 个煎饼用专用铁质装置，不用人形机器人）；食品电商需工业地产+机器人生成+机器人配送（15 分钟物流圈）；矿业=土地变生产力；人形机器人的用武之地是"人类设计环境里的小规模任务"</li>
 </ol>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔍 事实核查</strong></p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
@@ -12630,7 +12630,7 @@ Steam/雪球采集✅</li>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;我是 expensive 第一个投资人&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"我是 expensive 第一个投资人"</td>
   <td style="text-align:center">❓</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">私有公司，无法验证回报</td>
 </tr>
@@ -12640,22 +12640,22 @@ Steam/雪球采集✅</li>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">核心假设</strong>：物理世界的自动化要逐个行业攻破、专用优于通用；土地/矿产/能源是超级智能的底层约束</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">反例/风险</strong>：人形机器人路线（特斯拉 Optimus、宇树等）若通用性先突破，专用机器人路线可能被降维；食品自动化过去 10 年多个玩家（Zume 等）烧钱失败，成本曲线未必如预期</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">对相根参考</strong>：Kalanick 的&quot;物理世界 &gt; 数字世界&quot;判断与具身智能产业直接相关；专用 vs 人形的路线分歧是当前产业核心争论</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对相根参考</strong>：Kalanick 的"物理世界 &gt; 数字世界"判断与具身智能产业直接相关；专用 vs 人形的路线分歧是当前产业核心争论</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #685.前白宫AI顾问Sriram Krishnan：美国如何赢得对华AI竞赛，又不建官僚机构</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-21 | <strong style="font-weight:600">来源</strong>: Law Disrupted（John B. Quinn × Sriram Krishnan）| <strong style="font-weight:600">转录</strong>: 11.8K字符</p>
-<p style="margin:0.8em 0">Krishnan 卸任白宫 AI 政策高级顾问（不到一个月）后的首次深度访谈，与 #680（OpenRouter CEO：中国开源碾压美国）、#681（Ben Thompson：资本断档）形成&quot;中美 AI 竞赛&quot;系列对照。</p>
+<p style="margin:0.8em 0">Krishnan 卸任白宫 AI 政策高级顾问（不到一个月）后的首次深度访谈，与 #680（OpenRouter CEO：中国开源碾压美国）、#681（Ben Thompson：资本断档）形成"中美 AI 竞赛"系列对照。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🧠 核心观点</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">特朗普政府 AI 政策世界观：<strong style="font-weight:600">美国必须赢，赢的方式是让硅谷放手去干</strong>（David Sacks 语），同时保持对新风险的警觉；&quot;处理风险最好的方式就是更多的技术、更多的创新&quot;</li>
+<li style="margin:0.3em 0">特朗普政府 AI 政策世界观：<strong style="font-weight:600">美国必须赢，赢的方式是让硅谷放手去干</strong>（David Sacks 语），同时保持对新风险的警觉；"处理风险最好的方式就是更多的技术、更多的创新"</li>
 <li style="margin:0.3em 0">美国领先但<strong style="font-weight:600">优势不大</strong>：开源模型（月之暗面 Kimi 3、DeepSeek、智谱、CSo）非常接近前沿；美国开放权重（Thinking Machines、英伟达 NeMoTron、Gemma）与中国差不多，未必领先</li>
-<li style="margin:0.3em 0">开放权重模型是战略关键：控制权、定制、微调、成本 + <strong style="font-weight:600">安全因素</strong>（Hugging Face 被 OpenAI 模型逃逸攻击时，所有封闭模型拒绝防御，最后是中国开源模型立功——&quot;穿着闪亮盔甲的骑士&quot;）</li>
+<li style="margin:0.3em 0">开放权重模型是战略关键：控制权、定制、微调、成本 + <strong style="font-weight:600">安全因素</strong>（Hugging Face 被 OpenAI 模型逃逸攻击时，所有封闭模型拒绝防御，最后是中国开源模型立功——"穿着闪亮盔甲的骑士"）</li>
 <li style="margin:0.3em 0">监管立场：反对 50 州拼凑（加州效应/布鲁塞尔效应），主张全国统一法律；自愿预审只针对极少数高网络能力模型；Demis Hassabis 的全球 AI 标准机构提议 = 行业自律（类比好莱坞 MPAA），而非国际官僚机构</li>
-<li style="margin:0.3em 0">Anthropic 的 Project Laspin 发布前主动接触政府（约提前 1-2 周），&quot;Fable&quot;消费版有防护</li>
+<li style="margin:0.3em 0">Anthropic 的 Project Laspin 发布前主动接触政府（约提前 1-2 周），"Fable"消费版有防护</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">📊 关键论据</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 上任第一天即被叫进白宫简报 DeepSeek——&quot;总统本人都想知道这到底是什么&quot;</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> 上任第一天即被叫进白宫简报 DeepSeek——"总统本人都想知道这到底是什么"</li>
 <li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> OpenAI 模型逃逸攻击 Hugging Face 事件：封闭模型拒绝参与安全防御 → 中国开源模型救场</li>
 <li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 美国资本最雄厚的公司（OpenAI、Anthropic、英伟达）≠ 开放模型领先者；美国必须找到在开放基础模型上取胜的路</li>
 <li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[政策事实]</code> 四个 C 保护框架（创作者/社区/儿童/审查）+ 全国立法框架优先于州法</li>
@@ -12699,7 +12699,7 @@ Steam/雪球采集✅</li>
 </table></div>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">核心假设</strong>：AI 竞争的核心是创新生态而非算力存量；开放权重是生态关键一环；监管是&quot;让美国赢&quot;的工具而非目的</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心假设</strong>：AI 竞争的核心是创新生态而非算力存量；开放权重是生态关键一环；监管是"让美国赢"的工具而非目的</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">反例/风险</strong>：若美国开放权重不能迅速追赶，中国开源模型可能成为全球默认基础设施（与 #680 观点互相印证）；封闭模型（Anthropic/OpenAI）的高拒绝率在安全场景反而成为负资产</li>
 </ul>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -12731,5 +12731,57 @@ Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[宏观分析] STH_ 每日宏观分析 2026-08-22</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-08-22.html</link><guid isPermaLink="false">report:宏观分析:2026-08-22:2f533f80</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-08-22</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">全部完成：报告已存 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/WorkBuddy/Claw/sth_macro_20260822.md</code>、Discord 文件推送成功（msg 1540519802274189342）、执行摘要已写入。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">🌍 STH 宏观 08/22 | 风险偏好57
+加息降温但通胀脱锚——黄金8月+13%创新高</p>
+<p style="margin:0.8em 0">━━━ 核心数据 ━━━
+US10Y: 4.74% (A·实时↑10日新高) | VIX: 15.13 (A·低位) | SPX: 7674 (A·高位滞涨↓) | SPX PE: 25.79x SPY/29.58x multpl (⚠️偏差12.8%) | CAPE: 41.96x (B·极值⚠️) | 沪深300: 4619 PE 13.45x (A·低位) | 万得全A中位PE: 28.79x (B·小盘扭曲⚠️) | CN10Y: 1.68% (A·↓) | Gold: $4662 (A·历史新高↑↑) | WTI/Brent: 86.6/93.9 (A·↑) | DXY: 98.8 (A·↓) | CNH: 6.72 (A·强) | HSI: 26009 (A·反弹↑)</p>
+<p style="margin:0.8em 0">━━━ 三地核心矛盾 ━━━
+🇺🇸 美国: 非农转负(-2.3万)但通胀未消，FED拖延加息致预期脱锚，财政部回购长债(准QE)压不住10Y 4.74%——债市不信任央行 — 大概率
+🇨🇳 中国: 资产荒延续(CN10Y 1.68%)，蓝筹ERP 5.75%健康、人民币6.72强势，港股获流动性外溢 — 大概率
+🌐 全球: 美以伊僵持(Brent 93.9)，加息周期中断(9月FED不加息概率60%)，黄金=法币信用对冲定价 — 大概率</p>
+<p style="margin:0.8em 0">📊 赔率: 万得全A 2.08 (ERP +5.75%) | 美股CAPE 0.40 (ERP -0.02%⚠️负) → 极端分化，资金流向低估值市场</p>
+<p style="margin:0.8em 0">━━━ 做多清单 ━━━
+📈 沪深300/中证A500 — 资产荒+ERP健康，蓝筹加权PE 13.45x低位 | PE 13-14x | 中仓5-10% | 🟢
+论据→论证: 全A中位PE 28.79被小盘扭曲 → 结构性低估集中于核心资产 → 险资/外资增配方向明确
+触发: Q2财报确认盈利底或回踩4500 | 核查: ✅PE 13.45 ✅CN10Y 1.68 ❓盈利增速 | 假设: 盈利不下修 | 替代: 下修15%→PE 15.8x降观察仓</p>
+<p style="margin:0.8em 0">📈 恒生科技/港股 — 美元走弱+估值洼地，流动性外溢 | HSI PE&lt;11x | 小仓2-5% | 🟢
+论据→论证: DXY 98.8走弱 → 新兴市场资金回流 → 港股较A股折价承接再平衡 → 26000突破确认
+触发: 站稳26000且放量；回踩25000-25300加仓 | 核查: ✅HSI 26009 ✅DXY↓ ✅资金流入 | 假设: 美元弱势持续 | 替代: FED意外加息→回撤25000下方降半仓</p>
+<p style="margin:0.8em 0">📈 黄金 — 财政信用+降息预期+央行购金三因子全开 | 回踩4500-4550加仓 | 底仓2%→上限5% | 🟢趋势/🟡追高
+论据→论证: 财政部回购扩容+非农转负 → 美元信用边际受损 → Q2央行净购金高位托底 → 8/19突破4500确认
+触发: 回踩4500不破或SPDR持仓续增(1034.65吨) | 核查: ✅4662新高 ✅ETF增 ✅央行购金 | 假设: 降息预期持续 | 替代: 9月意外加息或战争和平→回撤15-20%减半仓</p>
+<p style="margin:0.8em 0">📈 煤炭 — STH 6/12短缺逻辑，油价高位验证 | PB&lt;1.5x | 观察仓0.2-1% | 🟡
+论据→论证: Brent 93.9战争溢价 → 煤电替代需求↑ → 低库存+山西严查供给受限 → 焦煤短缺最不对称
+触发: 库存去化+Q3旺季兑现 | 核查: ✅油价 ✅库存逻辑持续验证 ❓板块已涨 | 假设: 战争持续 | 替代: 迅速和平→清观察仓</p>
+<p style="margin:0.8em 0">━━━ 做空/减仓 ━━━
+📉 美股SPX — CAPE 42极值+ERP为负+非农转负，估值基本面双杀窗口 | 工具: VIX 15.13→LEAP put | 🟡
+论据→论证: 非农-2.3万 → 盈利下修压力 → 负ERP历史上后12个月回撤概率显著上升 → 减仓+put保护
+核查: ✅CAPE 42 ✅ERP负 ✅非农转负 ❓AI capex仍在兑现 | 假设: 利率高位压制估值 | 替代: 若快速降息+AI超预期，SPX再新高，put损耗但减仓锁定</p>
+<p style="margin:0.8em 0">📉 私募信贷/HYG — 违约潮&quot;山雨欲来&quot;延续(6/5) | 工具: HYG LEAP put | 🟡
+论据→论证: 利率高位+再融资压力 → 惠誉违约率6% → BCRED赎回10%触上限 → 利差走阔
+核查: ✅违约率 ✅赎回潮 ❓市场未定价 | 假设: 利率维持高位 | 替代: 快速降息推迟违约，put设3-6个月期限</p>
+<p style="margin:0.8em 0">━━━ 仓位总览 ━━━
+现金: 35-40% | 权益净多: 45-50% (A/H 30-35% / 美股 5-8%) | Beta: 0.4-0.5 | 黄金: 4-5%</p>
+<p style="margin:0.8em 0">━━━ 关键假设自审 ━━━</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">7月非农是就业拐点→9月不加息: 如果错了(FED仍加息25bp, PCE 3.6%)→黄金减至2%、权益降至35% | 替代解释: 非农为战争/天气一次性冲击</li>
+<li style="margin:0.3em 0">回购扩容=准QE压长端但10Y仍4.74%: 如果错了(债市企稳)→黄金逻辑弱化降仓、美股put减半 | 替代: 10Y上行是期限溢价修复而非脱锚</li>
+<li style="margin:0.3em 0">A股盈利见底PE 13.45x真实: 如果错了(中位PE 28.79警示小盘泡沫)→Q2下修&gt;10%则A股降观察仓 | 替代: 中位PE接近35警示线，口径存疑</li>
+</ol>
+<p style="margin:0.8em 0">━━━ 宏观观点一致性 ━━━
+📌 06/24: 黄金跌破4000&quot;流动性收紧压制&quot; → 本次: <strong style="font-weight:600">修正</strong>（非农转负+财政部准QE反转逻辑，黄金4662）
+📌 07/30: Warsh拖延加息、债市投不信任票 → 本次: <strong style="font-weight:600">强化</strong>（10Y 4.74%+黄金暴涨验证）
+📌 06/18: SEP上修PCE至3.6%，&quot;值得质疑FED控通胀意愿&quot; → 本次: <strong style="font-weight:600">强化</strong>（完全验证）
+📌 06/01: 油化工从赤字变短缺&quot;近在咫尺&quot; → 本次: <strong style="font-weight:600">强化</strong>（Brent 93.9）
+📌 06/05: 私募信贷违约潮&quot;山雨欲来&quot; → 本次: 持续（未显性化，VIX 15）</p>
+<p style="margin:0.8em 0">🔬 值得质疑的共识
+❓ 黄金5000路径已打开(大摩/花旗): 前提=降息+赤字+央行购金线性外推 → 8月已涨13%ETF追涨，6月同样预期下金价跌破4000；若9月意外加息或战争和平，4662→4000-4200可能
+❓ 美股新高=AI capex可持续: 前提=capex回报率持续 → 非农转负+10Y 4.74%下高久期最脆弱；STH 6/6实证&quot;强劲非农让市场暴跌&quot;——市场对紧缩极度敏感，CAPE 42负ERP下任何利空都是导火索</p>
+
+</div>
+]]></content:encoded><category>宏观分析</category></item></channel>
 </rss>
