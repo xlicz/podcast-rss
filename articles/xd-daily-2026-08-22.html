@@ -1,0 +1,507 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-22（周六）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态: TapTap✅ / Apple✅ / Steam✅ / 逸修1✅ / 股价✅（腾讯源）
+⚠️ 8-21 日报缺失（cron生成中断），本日含 8-21 榜单+发言补判
+（fetch_stock.py 腾讯兜底✅；akshare东财⚠️5/5断连，连续5日）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日判断: <strong style="font-weight:600">无快信号触发，维持持有</strong>
+——先行指标压力暂缓: 回落第6日
+（8-16~8-21）后 8-22 企稳回升
+（9/11区环比回升）；股价+3.9%
+反弹，距52周低点+6.2%</li>
+<li style="margin:0.3em 0">关键数字: 股价42.60（+3.90%，
+8-21周五收盘）| 市值~193亿港元
+（≈175亿人民币）| 残差-43%低位
+（较8-20的-46%收窄3pt）</li>
+<li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E影响: 无修正</strong>——
+8-21 09:51&quot;市场按4跌&quot;=估值主张
+（市场过度悲观），无新量化折0；
+补判 8-20 23:31 高基数/mk归因=
+✅对（与25年财报吻合）；今日4条
+全为诡秘（行业）</li>
+<li style="margin:0.3em 0">最值得注意: ①榜单企稳回升但含
+周末效应，8-24周一验证 ②RO新游
+首周高位延续（菲#2/泰#3） ③半年报
+进入最后~1周窗口 ④火炬专家服
+脉冲后回落（8-21在线+38.6%→
+8-22 -13.9%）</li>
+<li style="margin:0.3em 0">行动: 持有不加不减（半年报前不变）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价 42.60（8-21 周五收盘；
+周六休市，此为最新）
+涨跌 +3.90%（+1.60，vs 8-20 的 41.00）
+市值 ~193亿港元（≈175亿人民币）
+52周区间: 40.10 - 92.45（距低点 +6.2%）
+近5日: 43.20→42.46→42.52→41.00
+→42.60（+3.9%为8月最大单日反弹，
+但&lt;5%不触发报警）</p>
+<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">v3.2校准3: 低位残差不调E（残差&lt;-30%
+持续&gt;3个月才复核；8月底半年报=复核点）
+位置: 175亿人民币在悲观锚区间内
+市场隐含E≈10.5亿 vs 我18.5亿
+（-43%，较8-20的-46%收窄3pt；
+股价+3.9%为主要驱动）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO首周稳</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️观察</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">回升待验</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①游戏收入2季下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">他自承-1亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-43%低位</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">收窄3pt</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">快慢判定:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">快信号: ④RO新游（世界之旅）首周
+第8日高位延续（菲#2/泰#3/马#6/
+印#9/港#17/台#13），首月未满继续
+追踪；⑤无新信息 → 均未触发</li>
+<li style="margin:0.3em 0">慢信号: ③维持⚠️（8-18自承
+tap+adn -1亿）；①②待半年报</li>
+<li style="margin:0.3em 0">先行: 回落第6日（8-16~8-21）后
+8-22企稳回升（11区在榜9区环比
+回升/持平，仅菲-4/巴-4）——但含
+周六周末效应，8-24周一确认；
+东南亚核心区（泰#12/印#18/菲#14）
+仍高于8-12基线（20/30/29），
+未跌破 → E下修预警未触发</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam）</h2>
+<p style="margin:0.8em 0">TapTap（vs 8-21）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: #6 小镇(+1) | #8 香肠(0)
+| #64 戴夫</li>
+<li style="margin:0.3em 0">新品: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约: #68 RO2守护永恒的爱2（心动
+自研，8-21前15不在榜→新出现）</li>
+<li style="margin:0.3em 0">热卖: #1 戴夫(0)</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs 8-21，回升日）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国畅销: #68 小镇国服(+1)</li>
+<li style="margin:0.3em 0">中国免费: #50 小镇(+6) | #97 香肠</li>
+<li style="margin:0.3em 0">香港畅销: #56 铃兰 | #74 小镇国际
+（8-21出榜1日后回榜）</li>
+<li style="margin:0.3em 0">台湾#44(+10) | 日本#80(+5)</li>
+<li style="margin:0.3em 0">韩国#44(+11) | 新加坡#61(+15)</li>
+<li style="margin:0.3em 0">泰国#12(+1) | 印尼#18(+7)</li>
+<li style="margin:0.3em 0">马来#39(+2) | 菲#14(-4) | 巴西#83(-4)</li>
+<li style="margin:0.3em 0">法/美/德/英/越: 无（连续）</li>
+<li style="margin:0.3em 0">RO新游(世界之旅): 菲#2(0)/泰#3(-1)
+/马#6(-3)/印#9(-1)/台#13(-3)/港#17
+(+4)/新#14(-4) — 首周高位延续，
+小幅回落属首周自然衰减</li>
+<li style="margin:0.3em 0">RO初心服: 今日16区top100无踪影
+（8-20泰#65/印#85/菲#34/巴#76
+→连续下滑出榜；老产品衰减观察项）</li>
+<li style="margin:0.3em 0">⚠️kr区iOS榜不代表韩服全貌
+（韩服安卓占比高），RO韩服判定
+须持此口径；kr区iOS榜无老RO
+M Classic踪影</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">火炬之光: 在线3740/峰4111/历史
+27296（留存14%）30日均4262
+（8-21为4528，-5.9%续回落；
+8-21专家服脉冲在线4344 vs
+8-20的3133=+38.6%→8-22回3740）</li>
+<li style="margin:0.3em 0">心动小镇: 在线14320/峰16411/历史
+65894（留存22%）30日均11127
+（8-21为11118，+0.08%企稳）</li>
+<li style="margin:0.3em 0">解读: 小镇PC企稳；火炬专家服脉冲
+一日游（+38.6%后-13.9%回落），
+30日均仍在下行通道</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断（v3.2校准2）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">E下修预警: <strong style="font-weight:600">未触发</strong>——回落第6日
+后8-22回升（需连续2周+≥3区同步；
+8-16~8-21为连续6日下滑，今日
+首次企稳，周末效应待8-24确认）</li>
+<li style="margin:0.3em 0">基线对照: 东南亚核心区仍高于
+8-12基线——泰#12vs20（高8位）
+/印#18vs30（高12）/菲#14vs29
+（高15）；港台日韩新巴在基线
+附近震荡；国服iOS#68（8-12为
+#12高位，已回落至中位区间）</li>
+<li style="margin:0.3em 0">出榜: 港小镇8-21出榜1日后回榜
+#74；法/美/德/英/越持续无</li>
+<li style="margin:0.3em 0">多区同步恶化: 否（今日9/11回升，
+第12采样点现拐点迹象，待确认）</li>
+<li style="margin:0.3em 0">复苏/脉冲: 疑似周末效应回升；
+8-21火炬专家服脉冲已退潮</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
+<p style="margin:0.8em 0">今日新增: 15条（8-21共11条补判 +
+8-22新增4条）+ 补判8-20尾班2条</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（15条中0条达E
+修正标准；无新量化主张）</li>
+<li style="margin:0.3em 0">方向信号: 心动正面1 / 中性1 /
+行业12（8-22全4条=诡秘之主，
+非心动口径）</li>
+<li style="margin:0.3em 0">可靠度: 🟡中——09:51为定性估值
+主张（&quot;市场按4跌&quot;），无量化；
+行业占比高（12/15）</li>
+<li style="margin:0.3em 0">对错统计: ✅1/⚠️1/❓2/❌0
+（另11条非心动口径不判）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（8-21补判11条）</h3>
+<p style="margin:0.8em 0">📌 08:40 财报季四档框架 | ⚪ 方法论</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;财报季表现大致有几种…市场在
+按4跌&quot;（1超预期2符合3弱4最差）
+主张: 财报季股价反应四档分类框架
+核查: 方法论框架，未套用心动
+结论: 对E无影响
+对错: 不判</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 09:51 动子H2&gt;H1/市场按4跌 | 🟡 核心条</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;动子其实只要下半年比上半年好…
+无非就是弱票的1或2 但是市场在
+按4跌&quot;
+主张: ①心动26H2&gt;26H1（重申）②市场
+按最差档（4）定价=低估
+核查: ⚠️方向可验证——H2事件密度
+公开可见: RO新游8-14上线首周
+菲#2/泰#3、8-21火炬专家服、8-29
+庆典、9月底大卡池；H1压力他自承
+（8-12&quot;增速持平/微增&quot;）→&quot;H2&gt;H1&quot;
+与公开节奏一致；&quot;市场按4跌&quot;=
+估值判断，今日残差-43%（隐含E
+≈10.5亿 vs 我18.5亿）=数据支持
+&quot;市场定价悲观&quot;；但&quot;只要H2&gt;H1&quot;
+忽略费用率/税率变量（他8-20
+23:31自承&quot;税率今年会上来&quot;）
+对照: 与8-19&quot;下半年比上半年好&quot;、
+8-20 19:43&quot;上低下高/一帆风顺&quot;
+完全一致（表2#20/#22同源）；
+连续第3日重申同口径=无新信息
+结论: 对E无修正；估值主张折30%
+后不构成修正；与⑦决策一致
+（🟡等待半年报裁决）
+对错: ⚠️半对（方向对——事件节奏+
+残差数据证实&quot;市场悲观定价&quot;；
+量级自估——&quot;只要H2&gt;H1就如何&quot;
+忽略费用/税率，无量化）</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 13:43 舆情机制自陈 | 🟡 心动相关</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;现在搞了这个账户，有谣言节奏
+什么的会第一时间回复…上次的
+节奏影响有限&quot;
+主张: ①建号应对舆情 ②上次节奏
+影响有限 ③对后续更好
+核查: ❓账号与&quot;影响有限&quot;均无法
+独立量化；承接8-07&quot;常态化舆情
+监控机制&quot;自陈
+对照: 与8-10&quot;事故影响至少3000-
+5000万&quot;（表2#17）并存——流水
+影响量化 vs 舆情影响淡化，口径
+不同不构成矛盾
+结论: 对E无影响；记档案（治理
+动作延续，无新颗粒度）
+对错: ❓不可证伪（自陈无独立数据）</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 15:53 诡秘tap pc在线 | 🟡 间接</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;诡秘tappc的在线数据，算是火矩、
+异环之后第三个重要产品&quot;
+主张: ①诡秘tap pc在线强 ②隐含:
+火炬之光=tap pc在线第一梯队
+核查: ❓tap pc在线无公开数据源
+可独立核验；间接印证: 火炬Steam
+在线3740有PC端在线基础，方向
+一致但不同平台
+结论: 对E无影响（间接正面——
+tap pc生态叙事，与8-14&quot;tap pc
+一年2-3亿&quot;同簇）
+对错: ❓不可证伪</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 09:42/10:33/10:44/13:25/14:00/
+16:31/22:21 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">慢脚泡泡跌幅/字节竞争论/网易/
+诡秘评价系列
+主张: 非心动标的（网易系/行业框架）
+结论: 对E无影响
+对错: 不判</p>
+</blockquote>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（8-22新增4条）</h3>
+<p style="margin:0.8em 0">📌 13:03/15:12 诡秘成本 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;研发成本10亿+宣发12亿左右，
+保本线全球首年20亿+&quot;
+主张: 诡秘（快手系）成本保本测算
+结论: 非心动标的；与心动tap pc
+叙事无关
+对错: 不判</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 18:43/20:19 诡秘PC占比 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;PC端用户占比50-60%，实际表现
+远超榜单；跨端全球流水摊薄&quot;
+主张: 诡秘PC主导+全球摊薄逻辑
+结论: 非心动标的；方法论（跨端
+摊薄）可回看火炬/小镇，无新口径
+对错: 不判</p>
+</blockquote>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（补判8-20尾班2条）</h3>
+<p style="margin:0.8em 0">📌 8-20 23:31 高基数/mk/税率 | 🟡 心动相关</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;动子大部分的问题都是去年上半年
+高基数导致…是表观问题，然后叠加
+上半年mk被放大；去年H1收入+39%
+（tap38%/游戏39%），去年H2收入
+-4%（tap13%/游戏-11%）；税率今年
+确实会上来一些&quot;
+主张: ①H1下滑=高基数（表观）+mk
+放大 ②25年H1收入+39% ③25年H2
+收入-4% ④26年税率上行
+核查: ✅②③与已披露25年财报吻合
+——表3信号①确认&quot;25H2同比-4%/
+环比-13%&quot;；tap 25年20-22亿
+（表2#3）与tap38%→13%增速口径
+一致；④税率=行业趋势，待26
+半年报验证
+对照: 与8-12&quot;增速持平/微增&quot;、
+8-13&quot;mk和tap的Q2短期一次性&quot;
+同簇（归因外移+报忧带转折）；
+&quot;表观问题&quot;=口径维持，非修正
+结论: 对E无影响；新承认: 首次
+明确&quot;税率今年上来&quot;（轻微，
+待半年报验证）
+对错: ✅对（25年财报数据公开
+证实：H1+39%/H2-4%与已披露
+一致）</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 8-20 23:54 阿里美团剧本 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;现在最好的剧本，阿里、美团各自
+安好&quot;
+主张: 行业判断
+结论: 对E无影响
+对错: 不判</p>
+</blockquote>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中(23:31)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中(2条)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">轻微(税率)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">明细:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">报忧必带转折: 8-20 23:31&quot;H1
+下滑是高基数+mk被放大&quot;→&quot;表观
+问题&quot;转折（补判）；8-21无报忧</li>
+<li style="margin:0.3em 0">归因外移: 23:31归因高基数/mk；
+09:51归因&quot;市场按4跌&quot;（市场
+过度悲观）——下行责任外移</li>
+<li style="margin:0.3em 0">承认递进: 轻微——23:31首次
+&quot;税率今年确实会上来一些&quot;
+（新颗粒度，待半年报验证）；
+13:43舆情机制=承接8-07无加深</li>
+<li style="margin:0.3em 0">预测更新: 无（09:51为第3日
+重申&quot;H2&gt;H1&quot;同口径，非更新）</li>
+<li style="margin:0.3em 0">历史锚定: 未命中（无&quot;很早强调&quot;
+式锚定句）</li>
+<li style="margin:0.3em 0">语境对照: 8-21股价+3.9%反弹日
+他输出&quot;市场按4跌&quot;（低估论），
+位置=反弹日非低位，叙事维护
+压力中等</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">未触发——8-22全4条为诡秘（非
+心动）；8-21心动正面仅1条
+（09:51）+间接1条（15:53），
+不成簇；8-21为反弹日&quot;市场按4跌&quot;
+属估值辩护非报喜簇 → 不记集中日</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">公司级利润10-15%: 不适用（无新
+公司级预测；8-18已折）</li>
+<li style="margin:0.3em 0">产品级流水30%: 不适用（无新流水
+数字）</li>
+<li style="margin:0.3em 0">对冲叙事Σ验证+50%: 不适用</li>
+<li style="margin:0.3em 0">估值结论30%: 适用——09:51&quot;市场
+按4跌&quot;=估值主张（市场悲观定价），
+折30%后无量化仍不构成E修正；
+残差-43%本身为数据事实非他主张</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 8-22~9-05）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">8-29: 小镇庆典活动（H2流水验证
+第一节点）</li>
+<li style="margin:0.3em 0">8-30: 小镇2周年+三丽鸥活动结束</li>
+<li style="margin:0.3em 0">8月底: 8月版号批次（例行）</li>
+<li style="margin:0.3em 0">8月底: 26半年报（核心验证: tap
+收入/ARR、mk费用、火炬欧美下滑、
+RO韩服贡献、税率、利润率20-30
+vs30-40）——<strong style="font-weight:600">已进入最后~1周
+窗口</strong></li>
+<li style="margin:0.3em 0">9月底: 小镇大卡池（H2流水验证点）</li>
+<li style="margin:0.3em 0">已发生: RO新游(世界之旅)8-14/15
+上线首月追踪中（第8日菲#2/泰#3）；
+8-21火炬专家服（脉冲+38.6%→
+8-22回落）；8-21诡秘上线（行业，
+tap热玩#1）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">新可证伪点: ①8-24（周一）榜单
+验证——8-22回升含周末效应，若
+周一回落且东南亚核心区（泰#12/
+印#18/菲#14）跌破8-12基线
+（20/30/29）→E下修预警登记；
+②RO新游第2周是否守住菲#2/泰#3
+（首月80%口径）；③火炬30日均
+4262续回落 vs 专家服脉冲失效</li>
+<li style="margin:0.3em 0">验证路径: 8-29庆典；26半年报
+（~1周内）</li>
+<li style="margin:0.3em 0">历史验证点: 进行中 13 个（表2
+#9/#11/#13/#14/#16/#17/#18/#19/
+#20/#21/#22/#23）</li>
+<li style="margin:0.3em 0">待观察: &quot;市场按4跌&quot;估值主张——
+半年报发布日即为裁决点（若
+半年报E≥17亿，市场悲观证伪；
+≤13亿，他的&quot;低估&quot;论证伪）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我18-19 / 他19-21（8-18
+下修1亿）/ 市场10-13（今日隐含
+≈10.5，股价+3.9%回升）→ 无变化
+小镇国际服: 我17 / 他17 / 市场
+10-12 → 无变化
+（8-22榜单企稳回升若延续，隐含E
+有修复空间；若8-24回落破基线
+→小镇国际服E下修风险重新登记）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底，
+进入最后~1周窗口）
+动作: 持有不加不减
+触发条件:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">半年报E≥17亿 → 🟢 259-333亿</li>
+<li style="margin:0.3em 0">半年报E≤13亿 → 🔴 150-200亿
+今日触发: 无（他E 19-21仍&gt;17触发线；
+先行未满2周且今日企稳；RO首月未满）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价单日&gt;5%: 无（+3.9%），但为
+8月最大单日反弹，自52周低点
+40.10反弹+6.2%，脱离紧贴低点
+状态</li>
+<li style="margin:0.3em 0">快信号: 无（④RO新游首周高位
+延续，首月未满；⑤无信息）</li>
+<li style="margin:0.3em 0">先行指标: 未触发（回落6日后
+8-22企稳回升，未满2周；周末
+效应待8-24确认）</li>
+<li style="margin:0.3em 0">出榜: 港小镇8-21出榜1日后回榜
+#74；法/美/德/英/越持续无</li>
+<li style="margin:0.3em 0">新承认/预测下修: 无下修；补判
+8-20 23:31&quot;税率今年上来&quot;=新
+承认（轻微，待半年报）</li>
+<li style="margin:0.3em 0">老产品观察项: RO初心服8-22全部
+出16区top100（8-20尚有泰#65/
+印#85/菲#34/巴#76，连续下滑），
+非快信号，记慢信号观察</li>
+<li style="margin:0.3em 0">数据源: 有——akshare东财源5/5
+断连（ProxyError，连续5日）→
+fetch_stock.py腾讯源兜底✅；
+TapTap/Apple/Steam/雪球采集✅；
+⚠️8-21日报缺失（cron生成中断，
+本日已补判8-21数据）</li>
+</ul>
+
+</div>
