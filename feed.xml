@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 09:00:15 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 23:00:13 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</h1>
 <p style="margin:0.8em 0">SpaceX 600 亿美元收购 Cursor、Stripe 拿下 OpenRouter——那个星期里，a16z 基础设施负责人 Martin Casado 拆解了两笔交易背后的同一个判断：AI 改变的不只是"公司能造什么"，而是"造公司这门生意的经济学"。</p>
@@ -12856,39 +12856,410 @@ TapTap/Apple/Steam/雪球采集✅；
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
-<p style="margin:0.8em 0">本周机器人赛道迎来历史性一周：宇树科技（Unitree）8/19 在上海科创板上市，首日暴涨 460-629%，估值最高达 660 亿美元，成为中国人形机器人行业首个标志性 IPO（尽管面临美国禁令）。8/22 第 2 届世界人形机器人运动会在北京开幕，2000+ 台机器人、16 国参赛。CEO 王兴兴同时表态机器人&quot;ChatGPT moment&quot;仍需数年。AI 工具链侧：DeepSeek 发布 MIT 许可的 agent harness（GitHub 18.5 万 stars），MCP 官方发布新路线图。</p>
+<p style="margin:0.8em 0">本周机器人赛道迎来历史性一周：宇树科技（Unitree）8/19 在上海科创板上市，首日暴涨 460-629%，估值最高达 660 亿美元，成为中国人形机器人行业首个标志性 IPO（尽管面临美国禁令）。8/22 第 2 届世界人形机器人运动会在北京开幕，2000+ 台机器人、16 国参赛。CEO 王兴兴同时表态机器人"ChatGPT moment"仍需数年。AI 工具链侧：DeepSeek 发布 MIT 许可的 agent harness（GitHub 18.5 万 stars），MCP 官方发布新路线图。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 宇树科技上海 IPO 首日暴涨，估值最高 $66B | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">宇树科技 8/19 在科创板上市，首日股价大涨。SCMP 报道涨 629%、估值达 660 亿美元；CNBC 报道涨 542%；Guardian/CoinDesk 报道涨约 600%；融资规模约 $0.9-1.3B（Bloomberg/AFR）。Reuters 称其为&quot;中国人形机器人行业的里程碑&quot;。报道普遍强调该上市发生在美国对华机器人禁令背景下，被视为中国科技&quot;本土融资&quot;战略的典型。</p>
+<p style="margin:0.8em 0">宇树科技 8/19 在科创板上市，首日股价大涨。SCMP 报道涨 629%、估值达 660 亿美元；CNBC 报道涨 542%；Guardian/CoinDesk 报道涨约 600%；融资规模约 $0.9-1.3B（Bloomberg/AFR）。Reuters 称其为"中国人形机器人行业的里程碑"。报道普遍强调该上市发生在美国对华机器人禁令背景下，被视为中国科技"本土融资"战略的典型。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 10+ 独立媒体（Reuters/CNBC/WSJ/Bloomberg/FT/AP/Guardian/SCMP）一致确认事件；🔴 涨幅/估值各源区间分歧（542%-629%，$50B-$66B），未核验交易所收盘原始数据 — <strong style="font-weight:600">关注</strong>: 人形机器人首个标杆 IPO，为赛道估值定锚</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / CNBC / WSJ / Bloomberg / SCMP 等（8/18-20）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 第 2 届世界人形机器人运动会北京开幕，2000+ 机器人参赛 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">8/22 第 2 届世界人形机器人运动会在北京开幕（首届 2025 年），2000+ 台机器人、16 国选手参赛，设短跑、足球、格斗等项目。BBC 报道百米赛跑中机器人成绩超越博尔特人类纪录（机器人赛道成绩口径）；Global Times 报道开幕式机器人射箭手点燃主火炬。China Daily/CGTN/Bloomberg 均以显著版面报道，称&quot;机器人奥运会&quot;。</p>
+<p style="margin:0.8em 0">8/22 第 2 届世界人形机器人运动会在北京开幕（首届 2025 年），2000+ 台机器人、16 国选手参赛，设短跑、足球、格斗等项目。BBC 报道百米赛跑中机器人成绩超越博尔特人类纪录（机器人赛道成绩口径）；Global Times 报道开幕式机器人射箭手点燃主火炬。China Daily/CGTN/Bloomberg 均以显著版面报道，称"机器人奥运会"。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 10+ 独立媒体（BBC/Bloomberg/China Daily/Global Times/CGTN/LATimes 等）一致确认；&quot;破博尔特纪录&quot;为机器人组别成绩口径，非与人类同场竞技 — <strong style="font-weight:600">关注</strong>: 具身智能年度最大展示场，量产进度集中检阅</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 10+ 独立媒体（BBC/Bloomberg/China Daily/Global Times/CGTN/LATimes 等）一致确认；"破博尔特纪录"为机器人组别成绩口径，非与人类同场竞技 — <strong style="font-weight:600">关注</strong>: 具身智能年度最大展示场，量产进度集中检阅</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: BBC / Bloomberg / Global Times / China Daily（8/22）</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 宇树 CEO：机器人&quot;ChatGPT moment&quot;仍需数年 | 🟡 | [🔮预测]</h3>
-<p style="margin:0.8em 0">宇树 CEO 王兴兴 8/20-21 接受多家媒体采访，称机器人大脑正接近&quot;ChatGPT moment&quot;，但各家引述时间表分歧明显：Reuters/Next Web 称&quot;接近&quot;；TrendForce 引述&quot;2-3 年最早&quot;；Business Insider 称&quot;最多 5 年&quot;；CNBC 引述&quot;可能 10 年&quot;。共识指向：VLA/具身大模型尚未到临界点，数据与模型能力仍是瓶颈。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 宇树 CEO：机器人"ChatGPT moment"仍需数年 | 🟡 | [🔮预测]</h3>
+<p style="margin:0.8em 0">宇树 CEO 王兴兴 8/20-21 接受多家媒体采访，称机器人大脑正接近"ChatGPT moment"，但各家引述时间表分歧明显：Reuters/Next Web 称"接近"；TrendForce 引述"2-3 年最早"；Business Insider 称"最多 5 年"；CNBC 引述"可能 10 年"。共识指向：VLA/具身大模型尚未到临界点，数据与模型能力仍是瓶颈。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 发言真实（Reuters/CNBC/BI/Fortune 多家独立报道）；🔴 各源引述时间表差异大，无法确定原始完整语境 — <strong style="font-weight:600">关注</strong>: 行业龙头对具身智能落地节奏的官方预期</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / CNBC / Business Insider / TrendForce（8/20-21）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. DeepSeek 发布 MIT 许可 agent harness：Everything is a Plugin | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">DeepSeek 8/17 发布 DeepSeek Harness developer preview——MIT 许可的开源 agent 框架，核心设计&quot;一切皆插件&quot;。GitHub 官方仓库 deepseek-ai/deepseek-harness 已确认存在（8/21 仍有更新，18.5 万 stars），描述为 &quot;DeepSeek Harness: Everything is a Plugin&quot;。MarkTechPost 等多家报道其架构为模块化插件体系，目标降低 agent 工具链构建门槛。</p>
+<p style="margin:0.8em 0">DeepSeek 8/17 发布 DeepSeek Harness developer preview——MIT 许可的开源 agent 框架，核心设计"一切皆插件"。GitHub 官方仓库 deepseek-ai/deepseek-harness 已确认存在（8/21 仍有更新，18.5 万 stars），描述为 "DeepSeek Harness: Everything is a Plugin"。MarkTechPost 等多家报道其架构为模块化插件体系，目标降低 agent 工具链构建门槛。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ GitHub API 直接核验仓库存在/许可/活跃度；MarkTechPost/KDnuggets 等媒体报道一致 — <strong style="font-weight:600">关注</strong>: DeepSeek 补齐 agent 工具链，开源生态竞争加剧</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: GitHub（deepseek-ai/deepseek-harness）/ MarkTechPost（8/17）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. MCP 官方发布新路线图 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Model Context Protocol 官方博客发布 &quot;The New MCP Roadmap&quot;，更新规范路线图与未来版本重点方向（HN 首页 170+ 分热帖）。Roadmap 聚焦 upcoming specification releases 的优先领域，MCP 生态已从 Anthropic 内部标准扩展为行业协作治理。具体版本条目未逐条核验。</p>
+<p style="margin:0.8em 0">Model Context Protocol 官方博客发布 "The New MCP Roadmap"，更新规范路线图与未来版本重点方向（HN 首页 170+ 分热帖）。Roadmap 聚焦 upcoming specification releases 的优先领域，MCP 生态已从 Anthropic 内部标准扩展为行业协作治理。具体版本条目未逐条核验。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客原文确认（blog.modelcontextprotocol.io/posts/mcp-roadmap/）；🔴 具体版本规划细节未逐条核验 — <strong style="font-weight:600">关注</strong>: Agent 互操作标准演进方向，工具生态风向标</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: blog.modelcontextprotocol.io（8/21-22）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-23.html</link><guid isPermaLink="false">report:雪球动态:2026-08-23:16e82468</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-23</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-23 22:05</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：48条 | 信号：🔥2组 / 🔴3组 / ⚪5组</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 逸修1 — 心动公司(02400)（2条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看多 — 诡秘之主数据强劲，TapTap 生态受益</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">诡秘之主周末两天新增 40 万下载（移动 37.3 万 + PC 3.2 万），在线峰值创新高，验证了 TapTap 分发能力，对心动构成利好。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">周末两天新增 40 万下载、在线峰值今天比昨天高 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[引用@月旨_投资笔记数据]</code></li>
+<li style="margin:0.3em 0">苹果商店收入约占总收入 15%，85% 是 PC 端和安卓官包直接收入 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code></li>
+<li style="margin:0.3em 0">《诡秘之主》推外观 1 折券 = &quot;血流成河的胜利&quot;；研发成本 10 亿 + 宣发 2 亿 ≈ 12 亿，保本线 = 全球首年流水 20 亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code></li>
+<li style="margin:0.3em 0">历史：2025-06 &quot;珍惜 200 亿及以下的心动&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史发言]</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">诡秘之主公测数据火爆 → TapTap 作为主要分发渠道获得流量/广告/分成收益 → 心动受益 → 看多。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">周末新增 40 万下载</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/21 公测开服 1 小时新增破 100 万、在线 70 万（腾讯新闻），周末两天 40 万量级合理</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">iOS 收入仅占 15%</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无第三方数据</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">保本线首年 20 亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人估算</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">诡秘之主与心动关系</strong></td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">游戏研发方为快手游戏（弹指宇宙工作室），非心动自研</strong>。逸修1 带 02400 代码 = TapTap 分发生态受益逻辑，属推断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：iOS 15% 占比、保本线 20 亿。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 把第三方游戏的火爆直接等同于心动受益，未量化 TapTap 分成弹性。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：诡秘之主在 TapTap 分发带来可观的渠道/广告收入增量。
+<strong style="font-weight:600">替代解释</strong>：快手游戏有自己的发行体系，TapTap 只是渠道之一；若游戏热度主要发生在官包/其他渠道，心动实际受益有限。且 TapTap 分成与广告是&quot;流量生意&quot;，对心动收入弹性远小于自研爆款。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 下载数据与公开报道吻合，但&quot;心动受益&quot;链条是推断。今日心动 +3.90%（42.6 港币，市值 206 亿），短期情绪已兑现。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 快手研发的游戏火爆，收益归快手；TapTap 渠道受益被市场高估。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 浊静徐清 — 腾讯(00700) WorkBuddy（10条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看多 — WB 是&quot;现象级产品&quot;，ARR 年底 40 亿 → 明年底 400 亿</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">WorkBuddy 扩张速度超过腾讯历史上所有产品，Token 消耗两个月翻 5 倍，年底 ARR 达 40 亿、明年底前后达 400 亿，是腾讯第三个现象级产品。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">TokenHub 两个月翻 5 倍；日 token 吞吐量六七万亿 → 年底逼近小微 15-16 万亿 → 明年一二季度 30 万亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[专家调研纪要/个人估算]</code></li>
+<li style="margin:0.3em 0">WB 毛利 52%（不考虑优惠更高）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人披露]</code></li>
+<li style="margin:0.3em 0">米歇尔业绩会确认：WB 收入主要来自 token 收费，现金收入高速增长、年内转化为腾讯云财报营收 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报电话会]</code></li>
+<li style="margin:0.3em 0">小微不直接收 token 费，从任务销售端分成 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人分析]</code></li>
+<li style="margin:0.3em 0">历史：8/3 各端口上线时间线；7/3 用户增长（5 月环比 4 月 +70%，6 月环比 +30-40%）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史发言]</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">业绩会确认 WB 现金收入高速增长 → 专家纪要给出具体增速（token 两月翻 5 倍）→ 外推 ARR：年底 40 亿 → 明年底 400 亿 → 看多腾讯。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WB &quot;爆发式增长&quot;</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/12 Q2 业绩会：管理层原话&quot;WorkBuddy 正在爆发式增长&quot;（每经）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">付费用户毛利&quot;相当不错&quot;</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">James Mitchell 业绩会原话：付费毛利可与腾讯云整体媲美（腾讯新闻 8/12）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">易观 6 月榜国内 AI 办公第一</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">月访问 2097 万次，超二三名之和</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">年底 ARR 40 亿 / 明年底 400 亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">专家纪要估算，无独立来源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">日 token 6-7 万亿 / 两月翻 5 倍</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无法独立验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">毛利 52%</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与业绩会&quot;付费部分毛利相当不错&quot;方向一致，数字未证实</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：ARR 40→400 亿、token 吞吐量、毛利 52%。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 只引用支持 WB 爆发的信息（专家纪要+业绩会），对免费用户补贴侵蚀利润、竞争（字节 Trae、阿里 Qoder）着墨极少。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：token 消耗增长能线性转化为收费收入，且 25% 月环比 ARR 增长可持续 12 个月以上。
+<strong style="font-weight:600">替代解释</strong>：腾讯用免费补贴拉份额（业绩会承认免费用户拉低毛利）；token 消耗量 ≠ 付费收入；400 亿 ARR 意味着一年内做到企业软件收入量级（对比：微盟年收入 20 亿+级别），极乐观。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 方向（WB 爆发）有财报电话会背书 ✅，但核心数字（40→400 亿）全系专家纪要估算 ❓，无法审计。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 专家纪要失真或免费转付费率不及预期，10 倍 ARR 外推崩盘。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 浊静徐清 — 阿里巴巴(09988)（4条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看空 — 电商烧钱 → 被迫配股，市值 12 年原地踏步</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">阿里电商打不过就该认，不要往窟窿里塞钱；没有塞那 1000 亿，何至于现在卖股求钱。经历移动互联网完整周期，市值仍停留在 12 年前上市那年，时间不是阿里的朋友。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;没有塞那 1000 亿，何至于现在卖股求钱&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">经历移动互联网波澜壮阔的十多年，市值仍停留在开始的地方 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史对比]</code></li>
+<li style="margin:0.3em 0">电商打不过，要认，不要往窟窿里面塞钱 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[主观判断]</code></li>
+</ol>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">800 亿港元配股</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/23 宣布，1 小时超额认购，100% 投 AI（新京报/证券时报）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">市值 12 年原地踏步</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2014 年 IPO 约 2300 亿美元 ≈ 1.8 万亿港币，现 2.36 万亿港币，涨幅 ~30%，考虑汇率/通胀近似原地</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">电商烧 1000 亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">外卖/电商补贴规模无法独立核实（市场报道称外卖补贴激烈）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经营利润恶化</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">FY27Q1 经营利润 151.61 亿元，<strong style="font-weight:600">同比 -57%</strong>（8/20 财报）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：电商塞 1000 亿的因果链。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> — 把配股归因于&quot;电商失败被迫融资&quot;，忽略 AI 军备竞赛主动融资需求。市场反应（1 小时超额认购、主权基金抢购）更接近&quot;主动窗口融资&quot;而非&quot;卖股求钱&quot;。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[非黑即白]</code> — &quot;电商打不过要认&quot;忽略了阿里 9% 收入增长和 AI ARR 495 亿的增量。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：配股 = 缺钱的信号。
+<strong style="font-weight:600">替代解释</strong>：新京报/券商报道称配售 100% 投 AI、capex 预计 2.5-3 年回本、主权财富基金抢购——市场定价为 AI 扩张融资，与&quot;被迫卖股&quot;相反。若 AI 投入兑现（ARR 下季度目标 100 亿美元），本次配股可能是低点融资而非利空。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 市值停滞、经营利润 -57% 可验证 ✅；但&quot;配股=求钱&quot;的核心解读与市场实际反应矛盾，可靠性打折。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 把主动 AI 融资误读为财务困境，错过基本面拐点。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 亲爱的阿兰 — 腾讯(00700)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看空/不买 — 优惠税率 + AI capex 难题，无吸引力</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">不买腾讯：部分很赚钱的业务享受优惠税率，哪天恢复到 25% 很正常；其他业务增长算不清楚，AI capex 是个大难题。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">优惠税率业务恢复 25% 风险 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人分析]</code></li>
+<li style="margin:0.3em 0">&quot;其他业务增长我也算不清楚，没什么吸引力&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[主观判断]</code></li>
+<li style="margin:0.3em 0">&quot;AI capex 是个大难题，并不简单&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+</ol>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯 Q2 capex 527.8 亿、同比 +176%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/12 财报（每经）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">部分业务享优惠税率（高新 15%）</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯多家子公司持高新资质，公开事实</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;恢复 25% 也很正常&quot;</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">政策走向主观判断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 用税率假设 + capex 不确定性否定整个公司，忽略 WB/微信生态的期权价值；与浊静徐清&quot;WB 爆发&quot;形成同一公司的完全相反结论。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：税率回归 + capex 高企 → 净利润增长不可持续。
+<strong style="font-weight:600">替代解释</strong>：capex 是 AI 时代入场券，若 WB/token 业务转化成功（业绩会：token 成本极低、正毛利），capex 反而是增长引擎而非难题。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 论据部分可验证，但&quot;不买&quot;结论依赖主观税率判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 税收政策假设落空 + AI 变现超预期，错过腾讯 AI 期权。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 酒金岁月 — 白酒（2条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 谨慎/降预期 — 白酒消费结构改变</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">经济、周期、消费因素交集：经济恢复常态、消费恢复日常，白酒消费还在萎缩 → 说明是消费结构改变。即使不离开也要降低收益预期。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">白酒消费还在萎缩，说明消费结构改变 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+<li style="margin:0.3em 0">&quot;等你听到布谷鸟叫了，春天已经过去。这轮白酒周期不典型：一线白酒年报业绩 25 年才负增长，股价 21 年就开始下跌&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史对比]</code>（8/19）</li>
+<li style="margin:0.3em 0">&quot;价值投资动辄看未来十年，很容易陷于盲信误区，一旦看错代价太大&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论反思]</code></li>
+</ol>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒消费萎缩</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与公开行业数据一致（白酒产量/社零酒类消费下滑）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">股价 21 年跌、业绩 25 年才负增长</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台 2021 年高点回落、2025 年报表负增长，时间线吻合</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">消费结构改变</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">长期判断，无法证伪</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：观点持续修正 — 7/26&quot;白酒在走右侧&quot;（偏多，茅台是风向标、去年 Q4 见底）→ 8/8&quot;茅台并不超人一等，高端白酒一体化&quot; → 8/19&quot;布谷鸟论，周期不典型&quot;（🔴）→ 今日&quot;消费结构改变&quot;（🔴）。一个月内从偏多转向明确谨慎。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 行业事实可验证，核心结论（结构改变）是长期判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 白酒周期见底反弹，作者在底部区域过度悲观。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 中性/无明确信号</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">一句话</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯 1% 澄清 + 泡泡玛特巡店</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;1% 的腾讯目前大概 400 亿出头，我确实没有过这么多&quot;（市值 4.16 万亿 ✅ 吻合）；&quot;那么小看大道？&quot;辟谣&quot;卖腾讯换泡泡玛特&quot;传言；泡泡玛特退换货建议、拆盲盒、甜品店体验 — 泡泡玛特长线看好不变</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里配股 + 中国资产</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;听完业绩会就预感一定会配股&quot; ✅（8/20 财报→8/23 配股兑现）；&quot;800 亿做 AI 我觉得钱有点少&quot;；中期假设人民币升到 5，优先持有优质中国资产；香港房产有吸引力（贷比租便宜）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逸修1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里配股点评</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;还是网易这类公司的好吧&quot;；&quot;某公司周五这种走势只有配股能解释…All in AI 对团子倒是好事，周五不知道在跌啥&quot;（配股前砸盘→消息泄露 ✅ 事后证实）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里 + 黄酒</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;你们觉得阿里巴巴会变成下一个 META 么？&quot;（引用批评：千亿买显卡算好三年回本 vs 外卖千亿当废纸撒，财务逻辑割裂）；黄酒价值回归闲聊（威士忌年份体系需涨 7 倍、酱香体系需涨 20 倍——metalslime 观点，郭未表态）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宏观持仓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">LP 账户 A 股 30%+（今年 0 交易）、港股 60%+（黄金铁头 + 港股 AI 牛股）、美国 85%+；今年收益靓丽，晒单为主</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒/泡泡玛特</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">顺鑫农业窖龄 90 品酒闲聊；&quot;没人能真正懂泡泡玛特&quot;讨论区站队</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小微/WB 细节</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小微轻调用、不收 token 费走任务分成；湾擎（广东政务枢纽）与 WB 并行；&quot;先打下城，再谈护城河&quot;</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山行</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 烧钱</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;大家终于知道，可以这么烧钱的玩家屈指可数&quot;（语境不明，疑指 AI 资本开支）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黑色面包</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">《奥德赛》影评</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无投资信号</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 本周值得质疑的观点（Top 3）</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（阿里）&quot;被迫卖股求钱&quot;因果链</strong> — 配股 800 亿被 1 小时超额认购、主权基金抢购、100% 投 AI、官方称 capex 2.5-3 年回本。市场解读为&quot;主动窗口融资&quot;，与&quot;卖股求钱&quot;叙事相反。经营利润 -57% 是事实，但把配股全归因电商失败是事后归因。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（腾讯 WB）ARR 40 亿 → 400 亿（10 倍）</strong> — 核心数字全部来自专家纪要，无法审计。40→400 亿意味着一年内月环比 25% 持续 12 个月，且 400 亿 ARR 已是企业软件头部量级。方向有业绩会背书，倍数无背书。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">逸修1（心动）诡秘之主数据挂靠</strong> — 游戏研发方是快手（弹指宇宙），心动受益仅限 TapTap 分发/广告。第三方爆款的渠道收益弹性远小于自研爆款，下载数据好看 ≠ 心动收入大增长。今日心动 +3.90% 已有情绪兑现迹象。</p>
+</li>
+</ol>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
