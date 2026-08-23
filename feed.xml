@@ -1,7 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 23:00:17 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 24 Aug 2026 05:04:45 +0800</lastBuildDate><item><title>[十字路口Crossing] 22 岁的具身 CEO、5 轮融资、过亿美元：萝博派对黄一的一年压测人生</title><link>https://xlicz.github.io/podcast-rss/articles/22-岁的具身-CEO-5-轮融资-过亿美元-萝博派对黄一的一年压测人生-2026-08-23.html</link><guid isPermaLink="false">crossing_20b6afa96240</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>22 岁的具身 CEO、5 轮融资、过亿美元：萝博派对黄一的一年压测人生</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">22 岁、5 轮融资、过亿美元：萝博派对黄一的「压测人生」</h1>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">一年内把十年的苦吃完的具身 CEO，讲他如何谈条款、与泡沫共处、搭蜂巢组织，以及具身马拉松现在跑到第几公里</h3>
+<p style="margin:0.8em 0">黄一今年 22 岁。高中读华东师大二附中，大学进了哈工大，然后休学创业。过去一年，他的公司萝博派对完成 5 轮融资、总额过亿美元；团队 140 人，其中将近一半是实习生；2025 年人形机器人 RPO 每月出货约 100 台，还都是「真实订单」。</p>
+<p style="margin:0.8em 0">他把这一年叫作「压测的人生」——「我感觉我把可能十年该吃的苦，一年吃完了。」</p>
+<p style="margin:0.8em 0">以下是他与十字路口对谈中，关于融资、泡沫、组织与具身智能终局的完整判断。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">投资人在投什么：不是年轻人，是已经做出来的东西</h2>
+<p style="margin:0.8em 0">黄一被问到最多的问题是：VC 为什么投你？他的回答很直接——「大家根本不是在看什么年轻人或者 BAT 背景。我们拿到第一批钱的时候，机器人都做出来了。」</p>
+<p style="margin:0.8em 0">当时公司内部先凑了几百万，基本是他自己投的，把原型机做出来，之后才有人愿意下注。2023 年他因为马斯克开始做人形机器人，在学校里自掏腰包买材料、堆叠装机。这个起点决定了后面所有的融资节奏：先有东西，再谈钱。</p>
+<p style="margin:0.8em 0">他的第一位 VC 是五源资本的 Bill，不是他找的，是 Bill 在他做的具身交流群里加了他。这大概也是具身赛道早期融资的常态：圈子小，谁在认真做事，同行和投资人看得见。</p>
+<p style="margin:0.8em 0">黄一给 VC 的本质下了一个定义：把未来才能赚到的现金流提前拿到今天用，先冲到行业的头部位置。反过来说，泡沫的大小，取决于行业里聚集的钱和商业化产生的钱之间的差距——「你拿了越多、拿了二十年的钱，大家体感就是泡沫更大。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一轮协议会跟着你走到 Pre-IPO</h2>
+<p style="margin:0.8em 0">在条款这件事上，22 岁的黄一展现出超出年龄的谈判意识。他的核心判断是：第一轮的投资协议基本会伴随公司走到 Pre-IPO，因为后来者大多沿用第一轮的条款框架。所以两件事最重要——第一轮有没有足够好的机构进来，第一轮能不能谈到好条款。</p>
+<p style="margin:0.8em 0">萝博派对现在的状态是：没有回购、没有对赌、没有个人连带，全部是「非常友好的免责条款」。他特意提到，连国资现在都不要求签个人连带回购。而回购条款在他看来是「达摩克利斯之剑，悬在你头上」——虽然执行侧很难真正被执行，但它的存在本身就是压力源。</p>
+<p style="margin:0.8em 0">细节上他提醒：回购的单利复利这类细节，决定了条款到底友不友好；「找一个谈过非常多投资条款的律师，能帮你规避掉非常多的投资风险」。</p>
+<p style="margin:0.8em 0">对董事会席位，他的态度同样反直觉：如果股东真的有帮助，给一个董事会席位反而会让帮助变得更顺畅。「我们跟小米，小米帮了我们非常多，包括小米和宁德这样的股东，帮助都非常非常大。」在他看来，董事会不是多一层管理，而是让有助力的股东名正言顺地参与。</p>
+<p style="margin:0.8em 0">至于 FA，他的看法是「市面上 FA 太多了，甚至出现了配售制度，这种事非常匪夷所思」。选 FA 他只看两个问题：第一，你能不能把行业里所有公司的融资情况和大致状况介绍一遍；第二，你能不能告诉我这个赛道里谁投得准、谁投得不准——「你聊一百个投资人，其中只有十个是投具身的，而且聊的线路都不对，那聊了也白聊。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">泡沫？Of course</h2>
+<p style="margin:0.8em 0">被问到行业是否有泡沫时，黄一的回答没有犹豫：「Of course。」</p>
+<p style="margin:0.8em 0">但他选择与泡沫共处。萝博派对有个股东叫顺为，「顺势而为」——行业起来这件事本身就是一个泡沫，问题是你能不能顺着这股势，把公司真正做起来。</p>
+<p style="margin:0.8em 0">他给过一个反例，也是他创业早期的认知错误：公司曾经有两条线，一条做现金流业务，用它的利润去养人形机器人。「这显然是错的。在一个大行业需要高频次迭代的时候，指望现金流业务去养人形机器人——等现金流业务跑起来，你的人形机器人已经被别人甩开了。」这个判断后来被他自己推翻，公司砍掉现金流业务，全力押注具身，靠 VC 的钱来完成节奏。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">认知大于格局大于技术大于管理大于努力</h2>
+<p style="margin:0.8em 0">黄一反复引用一句话，来自他提到的一位前辈：「认知大于格局，大于技术，大于管理。」他还在末尾补了一项——「大于努力，努力是最不重要的。」</p>
+<p style="margin:0.8em 0">他的解释是：如果你有一个判断，比如未来三年具身智能要爆发，那你今天应该拿着所有子弹 all in 做一个最好的模型；你知道行业格局怎么走，就知道哪些公司需要提防、哪些公司完全不用 care。融资怎么谈、组织怎么管，都是认知之下的执行问题。「战略是大于团队的。」</p>
+<p style="margin:0.8em 0">他对中外创业文化的对比也落在这套排序上：美国奖励探索者，敢探索没人做过的事的人拿到最多的钱和资源；但中国文化「并没有那么奖励探索的人」——它奖励能把公司做起来的人。探索某个范式、改变世界，和把一家公司做起来，是两条路径。「我目前是希望把萝博派对做起来。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RPO 的生意：学校、散件、一个 500 台的订单</h2>
+<p style="margin:0.8em 0">萝博派对目前的在售产品 RPO 定位是「零到一的教育类产品」——散件发货，客户买回去自己搭。每月约 100 台真实订单里，三四成卖给学校，「不只是比较好的学校会买，中国有一堆学校想了解具身智能到底是怎么回事」；另一类是创业公司，想搞清楚这个行业在做什么。</p>
+<p style="margin:0.8em 0">有一个细节很能说明产能与需求之间的错位：一家欧洲机构曾一次下单 500 台，他们只交付了二三十台。「我们虽然是散件发货，但供应链体系之前是落后于交付能力的。别的客户要等两三个月才能拿到机器人，我把五百台都给他了。」产能受限于供应链，而现在供应链正在搭起来。</p>
+<p style="margin:0.8em 0">他还有个在商业上「不 work」的做法：把所有客户拉进同一个群。结果客户之间互相答疑，「你提出一个 A 问题，会有 B 或者 C 帮你解答掉」，售后成本大幅下降。「这更多是像社区、像生态的感觉。」早期电脑和手机的生态也是这样长出来的——那些最早折腾芯片的发烧友里，后来走出了改变行业的公司，说不定他的用户里也会冒出下一个品牌。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RP One：从「自大」滑下去的那一刻</h2>
+<p style="margin:0.8em 0">从 RPO 到下一代产品 RP One，黄一称之为「从自大开始滑下去的过程」。拆解各家竞品之后，他看到一个巨大的认知差距：「别人已经开始上模具、注塑了，我们怎么还在小打小闹搞五十台、一百台？这是不 OK 的。」</p>
+<p style="margin:0.8em 0">RP One 计划在 Q4 发布，定价未定。产品化做了大量工作：加了两个头部自由度，重新设计整机构型，全内走线；还调研了二三十条竞品的问题——假手、肩部关节过热、手腕支撑力不够、把手容易碎、机器人很难装箱。他们的解法里包括让机器人能自主从箱子里站起来。「它不只是一个工程样机，它更多是一个产品。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">本体公司的竞争，藏在客户需求里</h2>
+<p style="margin:0.8em 0">黄一对本体生意的竞争逻辑很清醒：差异化在客户的需求里。他们积累了一批客户，直接问他们现在用产品遇到了什么问题、迭代需求是什么，把这些需求做成产品的 PRD。「这是公司最重要的能力：时时刻刻在大的行业里保持高品质的迭代。」</p>
+<p style="margin:0.8em 0">收集到的需求五花八门：有人想要能接五指手的手部接口，有人想要全身的总线协议方案和硬同步，有人问头部能不能做数据采集。「我们把这些需求在客户之间互相验证——把 A 的需求一二三四五六列出来问 B 满不满意，慢慢就有一种定标准的感觉，但我们不会说需求是哪家提的，各家的保密性还是要保持。」</p>
+<p style="margin:0.8em 0">他判断，随着操作层面的模型越来越成熟，本体的下一步竞争会转移到全身智能。「现在很多做全身智能的公司都在找我们做定制，包括 ETH 的 Flexion，国内的 Current、德塔元策，还有很多大公司想切入这一块。」本体公司在这个阶段的价值，是给这些智能公司提供最好的硬件基础。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">终局判断：模型公司会赢，认知是便宜的</h2>
+<p style="margin:0.8em 0">和很多创业者聊完十年后谁做出最终的机器人，黄一的结论偏向模型公司。「像智谱或者 OpenAI 这类公司，有足够多的卡、足够多的 infra、足够多的顶尖研究员，他们只要增加一些 robotics 的认知，就能快速解决 scaling 的事情。」</p>
+<p style="margin:0.8em 0">他的理由是：robotics 的认知是「便宜的」。「只要你招一些特别懂 robotics 的人就能补齐——OpenAI 招了一批顶级研究员进去，认知就补上了。」所以「大模型公司向上做」是他最看好的路径。</p>
+<p style="margin:0.8em 0">那本体公司呢？他并不回避这个问题：萝博派对的终局也一定要做模型，规划在 2027 年左右启动。至于大规模预训练的规模曲线，他认为是「先升后降」——先冲高参数，之后随着更高效的框架出现再回落。所以关键战略决策是：做第一波先升后降，还是等第二波直接切入。</p>
+<p style="margin:0.8em 0">他还给了一个现实的压力测试：「如果 OpenAI 下场成立了 OpenAI Robotics，它的 scaling 能力远大于现在国内任何创业公司，甚至远超过国内一系列模型公司。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蜂巢组织：140 人，一半实习生，所有人可以直接找他</h2>
+<p style="margin:0.8em 0">创业一年，黄一经历过三个典型阶段：草台班子什么都不知道；创业六个月左右第一次懂了一级市场——「原来 VC 是把未来的钱拿到今天来用，他们是一个借力工具」；以及现在正在经历的百人管理坎。</p>
+<p style="margin:0.8em 0">他的组织观是「蜂巢结构」：由高人才密度驱动，一个人可以理解为一个圆，自然界中几个圆最稳定的组合就是蜂巢。对应到管理上，一个人最多 cover 六个面，「管理半径最好是六个人」。公司真正的层级只有两三层，「所有人可以直接来找我，我也可以找到所有人，这个很重要」。</p>
+<p style="margin:0.8em 0">但蜂巢并不适用于所有部门：他们把一个 lab 拆出来，完全由人才密度驱动、没有流程；而整机部门必须有明确分工——「如果你靠人才驱动，今天连找谁买零部件都不知道，那就非常完蛋了」。怎么把「无流程的人才密度」和「有流程的整机交付」结合，是他承认挺冲突、还在磨合的问题。</p>
+<p style="margin:0.8em 0">140 人的公司有一半是实习生，而他坚持所有人他都面试，「面最久的一个人面了几个小时」。对一个把「战略大于团队」挂在嘴边的创始人来说，这大概是他在「管理」这个他认为低优先级的事情上，唯一不肯妥协的地方。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">具身马拉松：本体跑了四分之一，大脑只跑了一两公里</h2>
+<p style="margin:0.8em 0">行业常说具身智能是马拉松，42 公里。黄一给了一个分段进度条：本体类大概跑了四分之一，系统类的迭代大部分在收敛；小脑类更快，大概一半——他们给运动控制框架加上了物体交互，机器人抱着东西被踹一脚，会恢复姿态、继续把东西捡起来；大脑类「我不知道是多少，因为我不知道大脑中枢长什么样子」。</p>
+<p style="margin:0.8em 0">他承认这是他现在丢失的认知：「中枢可能是这样——它整理了我全部的历史，能做出和我一样的动作、一样的力反馈。如果这是中枢，那今天可能只跑了一两公里。而且这个行业里，大家可能都没有这个判断。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">什么算「做起来了」：一个不认识你的人，在真实选择里买你的机器人</h2>
+<p style="margin:0.8em 0">黄一给自己定的成功标准很具体：「我爸爸妈妈愿意买一台机器人——这个感觉比较容易实现。不是，是那种不知道我品牌、不认识我的人，在真实选择里选择我的机器人。」认识他的人买不算，行业里的人买不算，陌生人在货架前做出选择才算。</p>
+<p style="margin:0.8em 0">至于创业的终点，他说「没有什么终点，达到目标之后该做什么，我们并没有想好」。创业快乐吗？他的回答是：对身体和精神不一定快乐，但对心理成长是极度快乐的。「除了创业，很难享受到压缩的人生——十年期的经历压缩在一年里，而且未来还会持续三五年、十年二十年。你可以在三十岁之前，活出百岁老人的睿智感。」</p>
+<p style="margin:0.8em 0">他还有一个与机器人无关的梦想：做海盗——租一条船漫无目的地飘，找到一条鱼，把它命名为「黄衣鱼」；商业航天起来了，说不定就上天看看。为什么？「人的追逐感。十年后的黄一看这个行业应该很通透，谁家做什么、哪家好坏都清楚。要保留这种感觉，我需要去探索一些新的、难以经历的部分。」</p>
+<p style="margin:0.8em 0">对想刚毕业就创业的学弟学妹，他的建议只有两条：创业最重要的，是实现商业闭环之后的增长；以及行业要足够大——像黄仁勋说的，不要一上来就切一个蓝海，不如在一个特殊的赛道里做好，然后把赛道做大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">融资的前提是先把东西做出来：萝博派对拿到第一批钱时原型机已成型，公司自己先投了几百万。投资人不看年轻人，看实物。</li>
+<li style="margin:0.3em 0">第一轮投资协议会伴随公司到 Pre-IPO：无回购、无对赌、无个人连带的条款框架，比融资金额本身更决定创业压力。回购是悬在头上的达摩克利斯之剑。</li>
+<li style="margin:0.3em 0">VC 的本质是把未来现金流提前到今天用；行业聚集的钱与商业化产生的钱之间的差距，就是泡沫。黄一对泡沫的态度是 Of course，但选择顺势把公司做起来。</li>
+<li style="margin:0.3em 0">用现金流业务养活人形机器人是认知错误：大行业高频迭代时，等现金流跑起来，产品已经被甩开。</li>
+<li style="margin:0.3em 0">认知大于格局大于技术大于管理大于努力：融资、组织都是认知之下的执行问题。中国文化奖励能把公司做起来的人，不奖励探索者。</li>
+<li style="margin:0.3em 0">本体公司的差异化在客户需求里：把客户问题做成 PRD，在客户之间交叉验证需求、逐渐定标准；全身智能时代，本体公司是智能公司的硬件底座。</li>
+<li style="margin:0.3em 0">终局大概率属于模型公司——卡、infra、研究员他们都有，robotics 认知是便宜的，招人就能补齐；但萝博派对也规划 2027 年自己做模型。</li>
+<li style="margin:0.3em 0">具身马拉松分段进度：本体约 1/4，小脑约 1/2，大脑只跑了一两公里——中枢长什么样，整个行业都还没有判断。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</h1>
 <p style="margin:0.8em 0">SpaceX 600 亿美元收购 Cursor、Stripe 拿下 OpenRouter——那个星期里，a16z 基础设施负责人 Martin Casado 拆解了两笔交易背后的同一个判断：AI 改变的不只是"公司能造什么"，而是"造公司这门生意的经济学"。</p>
@@ -1703,67 +1771,7 @@
 </ul>
 
 </div>]]></content:encoded></item>
-<item><title>[十字路口Crossing] 「模型能力已经够了，要卷就卷 infra」——Runta创始人戴冠兰：Agent执行底座的平台级机会</title><link>https://xlicz.github.io/podcast-rss/articles/模型能力已经够了-要卷就卷-infra---Runta创始人戴冠兰-Agent执行底座的平台级机会-2026-08-09.html</link><guid isPermaLink="false">crossing_af431b3a49e1</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>「模型能力已经够了，要卷就卷 infra」——Runta创始人戴冠兰：Agent执行底座的平台级机会</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">「模型能力已经够了，要卷就卷 infra」</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Runta 创始人戴冠兰：当系统最底层的执行单元变成概率性的，基础设施这层怎么构建？</strong></p>
-<p style="margin:0.8em 0">戴冠兰在 35 岁这年拿了 2000 万美元种子轮，a16z 领投，Jeff Dean 和李飞飞以个人身份做天使投资人。这家公司叫 Runta，团队十个人左右，背后有成百上千个 Agent 在干活。他要回答的问题只有一个：当 AI 智能体比人还多的时候，它们跑在哪、怎么管。</p>
-<p style="margin:0.8em 0">拿到 Jeff Dean 的钱之前，戴冠兰先回答了他一个问题。</p>
-<p style="margin:0.8em 0">Jeff Dean 问他：如果系统最底层的执行单元变成了概率性的，那基础设施这一层要怎么构建？</p>
-<p style="margin:0.8em 0">这个问题戴冠兰当场没有答案。他说这个问题确实很难答——因为过去几十年系统工程的全部根基，都建立在软件是确定性的这个前提上：同样的输入进同样的系统，输出基本一样；出错了就是异常，异常在软件时代是可以枚举的。重放、幂等、容错、恢复，全都长在这块地基上。现在大模型把这块地基抽掉了：每一次执行，Agent 生成的下一个动作都不同，你永远没法用预定义的规则穷举它。</p>
-<p style="margin:0.8em 0">戴冠兰的答案是：把复杂度压到 runtime 层去做。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">执行层成了系统工程里最难的问题</h2>
-<p style="margin:0.8em 0">戴冠兰的履历几乎是为"从零构建一代基础设施"而写的。他是 Cloudflare Edge 平台的早期工程师和技术负责人，参与过边缘缓存、WAF 和早期 Workers 计算平台的搭建；之后加入 Kong，做企业网关和云，是创始团队的第一位工程经理。加起来十几年，都在给上一代互联网打地基。</p>
-<p style="margin:0.8em 0">他举了一个数字说明那种规模的复杂度：在 Kong，每天经过的 API 请求有上千亿次。在这种规模下，哪怕出错概率只有 0.000001 的事，也会变成必然会发生的事。基础设施这门手艺，处理的恰恰就是这类问题。</p>
-<p style="margin:0.8em 0">所以他的判断有分量：上一代 infra 解决的是"物理机到底怎么跑"，这一代要解决的是"执行本身怎么做"。Agent 的形态已经变了——以前一个 chat 是几分钟、几个 turn，现在一个 Agent 跑几个小时甚至几天。隔离、分叉、迁移、热迁移，这些分布式系统里的经典难题，现有基础设施一个都没解决好。</p>
-<p style="margin:0.8em 0">他自己也承认，这件事很难做。但这正是 Runta 的存在理由。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 Token Maximizing 到 Minimizing，只用了半年</h2>
-<p style="margin:0.8em 0">这期对话里最具体的产业观察，是 Token 使用观念的反转。</p>
-<p style="margin:0.8em 0">戴冠兰还原了时间线：thinking 模型出现之后（他指 o1 这一代带思维链的复杂推理），企业管理者开始相信"用更多 token 就更聪明"。这个逻辑被外推成组织管理：一个员工消耗的 token 越多，说明他越 active，这是一个可度量的 KPI。一旦可度量，就能围绕它推动组织变革。Meta 和亚马逊是最早把这套玩法在组织里推开的一批。</p>
-<p style="margin:0.8em 0">他去年底走访前沿客户时，在一家 AI lab 的墙上看到一块显示器，专门显示本周哪个员工 token 用量排名最高，前几名还有奖励。演化到极致，Meta 和 Stripe 把 token 使用量和业绩考核直接挂钩。于是他看到了最极端的故事：有员工为了刷榜，故意写一些没用的 loop 把用量刷上去，不管什么任务都用最强的模型。</p>
-<p style="margin:0.8em 0">反转只用了三到六个月。Uber CEO 公开说，四月就把全年的大模型用量用完了——"我们到底收获了什么东西？"企业开始意识到两件事：点火的阶段结束了；以及模型真的很贵，"大家远远低估了模型的真实价格"。</p>
-<p style="margin:0.8em 0">Runta 自己的管理也随之调整。最早他们无限 token、随便用，让员工形成"token 是免费的"的感觉。现在改成阶梯制：先订阅几个最大的 Ultra Plan，用完了要说明用在哪；真需要一个月花十万美金的人，走流程——"加入一些流程上的小摩擦，让你感觉到这个东西不是 free 的"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">a16z 为什么为一家种子轮公司写博客</h2>
-<p style="margin:0.8em 0">戴冠兰提醒了一个细节：a16z 很少为一家这么新的公司专门写博客解释"为什么我们投它"，而且这篇是 partner 级别的 Martin 亲自写的。</p>
-<p style="margin:0.8em 0">他理解 a16z 看到了什么：这不止是一个 feature 或一个产品，而是平台级的机会——一次 compute 的代际变化。从客户端/服务器到数据中心，从物理机到虚拟机再到容器化，每次迁移都是代际变化。这一次，被托管的对象从软件、服务变成了 Agent 本身。如果这个判断成立，就是一个巨大的平台机会。</p>
-<p style="margin:0.8em 0">那为什么这个机会属于创业公司，而不是公有云？戴冠兰的类比是 GPU 浪潮：上一波数据中心是 CPU 搭的，这一波以 GPU 为主，所以冒出来一批 New Cloud——传统数据中心的架构需要为 GPU 整体重建。同样，现在所有公有云的计费模型、整套基础设施底座，都是为 SaaS 和传统软件设计的。公有云会往这个方向迭代，但它的机架模型和内部包袱在打架。这类机会历史上属于从底层重建的创业公司。</p>
-<p style="margin:0.8em 0">模型厂商也做不了。Anthropic 已经发布了 Agent 管理相关的系统，模型公司肯定会做这件事——但企业落地时不会绑定一家模型，也不会绑定一朵云。多模型、多 harness、多云，本身就是在分散风险。更根本的是，大模型公司做一切事情都是为了拿到信号改善模型本身。模型能力和 infra 底座是两个职责不同的生意。</p>
-<p style="margin:0.8em 0">至于 E2B、Daytona 这类 sandbox 方案：技术底子是 Firecracker，来自上一代 serverless 产品，解决的是十五分钟到一小时内的短任务隔离。这套东西很好，但 Agent 跑得越来越长之后，什么时候用 GPU、怎么动态迁移、内存怎么动态伸缩，上一代方案已经碰到瓶颈了。他认为必须从第一性原理出发，从下往上搭整套系统，才可能真正回答"未来十亿个智能体往哪跑"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一场必然发生的灾难</h2>
-<p style="margin:0.8em 0">聊到权限管理时，戴冠兰做了一个预言："未来十年必然会有灾难性的邮件通过 Agent 发出去，难以挽回。Mark my word。"</p>
-<p style="margin:0.8em 0">他把前提说得很清楚：包括他自己在内，大部分人都在用"安全换便捷"。主持人柯记分享了自己的滑坡过程：一开始让 Agent 写草稿、自己点发送；得到信任之后，连草稿都懒得审了；现在边界已经被一点点吞食，"反正就随便看吧，我相信你不会乱搞"。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">只要发生一件灾难性的事——哪怕不是发生在自己身上，是发生在别人身上——之后所有人都会变得非常谨慎。</p>
-</blockquote>
-<p style="margin:0.8em 0">Runta 做的不是传统网络安全——不做主动扫描、特征匹配那套。他们做的是管控：让 Agent 在可控的边界内执行，最坏的情况能恢复，每一步可以审计。戴冠兰的框架是：安全本质上是"你有多信任这个智能体"。信任不是用安全框架框出来的，而是靠执行底座给的——企业知道最坏能坏到哪、能恢复、能追责，才敢把真正的生产权限交给 Agent。</p>
-<p style="margin:0.8em 0">他提到一个现实数据：一项安全调研发现，世界 500 强公司里，大部分使用 Agent 的企业已经发生过机密或客户信息的泄露。</p>
-<p style="margin:0.8em 0">而且模型侧解决不了这个问题。只要还是 Transformer 架构，就还是 next token prediction——模型无法区分给它的是"指令"还是"数据"，在中间插分隔符之类的防御手段都有办法绕过。所以必须有人从 infra 侧给这套非确定性的架构加上确定性的约束。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">暴论与信号</h2>
-<p style="margin:0.8em 0">戴冠兰在节目里下了两个明确的判断。</p>
-<p style="margin:0.8em 0">第一个暴论："模型能力已经够了，要卷就卷 infra。"他的理由是开发者视角的边际变化：最新的模型和他之前用的 Claude Opus 相比，"对我们来说没有本质上的区别"。爬坡已经开始放缓。模型能力到位了，基础设施和 harness 整块没跟上，所以还没落地。</p>
-<p style="margin:0.8em 0">第二个判断关于开源闭源：开源模型会一直往上爬坡——Kimi 已接近 SoTA 第一梯队，DeepSeek 最新模型在多快好省上持续进步。他预判模型最终会商品化，像今天的电和水，变成"不那么性感的生意"——这也是今天大模型公司高估值背后的最大担忧。他对时间的判断是：一年到五年之间。</p>
-<p style="margin:0.8em 0">起飞信号他给了最朴素的一种：企业客户排队想用 Runta 的服务，但他们因为团队交付能力有限，把优化重点放在 agentative 团队上，订单先缓一缓。早期营收不是他的优化目标。</p>
-<p style="margin:0.8em 0">有意思的是他选择的客户画像：不是大企业，而是 agentative 公司——造 Agent 给别人的 agent builder，以及剪视频、做营销的垂类 Agent 公司。原因是这些客户"有量"：服务好一个，就能间接服务成千上万个 Agent。</p>
-<p style="margin:0.8em 0">产品上，Runta 已经抽象出一些标准化模块：执行平台、沙盒调度、token 分析。他举了一个正在用的功能：把任何 harness——Codex 的、自研的——跑到他们的执行平面上，系统会分析这个 harness 到底在哪浪费了 token、怎么浪费的，再生成提示词帮开发者迭代 harness。"harness 在上面跑，我告诉你怎么样把 harness 跑得多快好省"，形成一个闭环。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">用 Agent 写代码，靠人做架构</h2>
-<p style="margin:0.8em 0">Runta 内部 95% 以上的编码工作已经由 Agent 完成，"入门程序员那些工作基本上全用 Agent 代替"。但戴冠兰明确划了一条线：架构设计、API 设计、模块解耦这类依赖底层判断力的工作，仍然需要人类工程师。</p>
-<p style="margin:0.8em 0">被问"用 Agent 写代码去治理其他 Agent 有没有风险"时，他直接承认："肯定有风险。"应对方式是天天用自己的平台、用自己的 Agent 跑在自己的执行环境里做自我迭代——他自己是公司里用 AI 最激进的人。</p>
-<p style="margin:0.8em 0">关于工具选型，他的团队模型路由完全交给工程师自己决定，共识是"工程师最有体感"。Codex 是他的主力，他对 Claude Code 的评价是"吭哧吭哧干活、质量很高，像个德国人"，而另一个产品"很 chatty，像个美国人"。团队甚至自己手搓了一套 harness，效果不错——这也让他反思：harness 的护城河可能没那么高，未来每家企业可能都会搭一套自己的。</p>
-<p style="margin:0.8em 0">他给年轻人的职业建议同样有信息量。核心一条是选浪潮：加入 Cloudflare 是因为看到边缘计算浪潮刚起，加入 Kong 是因为看到微服务和云原生浪潮。判断公司的方法和投资一样——"我是投自己的青春，不是投钱"。最看重的团队特质是"往下钻一层的能力"：做 LLM infra 的能不能钻到 kernel 级别和算子优化，做网关的懂不懂网络协议栈。90% 的人"够用就行"，只有 5% 到 10% 的人有好奇心去看底下到底怎么运作。</p>
-<p style="margin:0.8em 0">他加入 Kong 前认识了创始人一年多，等公司从 API 聚合平台转型成网关产品的那几个月才入局。诀窍是多做功课：假设自己是 CEO 会怎么做，用脑内实验和创始人的认知做对比。主持人在旁边补了一句被反复引用的总结："如果你愿意加入这个创始人给他打工，那你就真的应该投他——打工是比给钱更重的 commitment。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">回到那个问题</h2>
-<p style="margin:0.8em 0">戴冠兰用一句话定义 Runta："大模型相当于把电力转化成 token，智能体的工作是把 token 转化成企业真正的价值。"转化这一环发生的地方，就是执行层。</p>
-<p style="margin:0.8em 0">他希望在一年以后，人们讨论"Agent 需要跑在哪"时，答案像"数据放哪？数据库里"一样不言自明——Agent 跑在 Agent 执行底座上。到那时，Jeff Dean 的问题会有答案：地基变了，就在地基之上重建一套新的确定性。</p>
-<p style="margin:0.8em 0">而他自己对这件事的心态，藏在节目最后一段话里。被问到创业焦虑时，他说每天大概有五个好消息和五个坏消息，焦虑的根源是人们总盯着坏消息。他衡量自己状态的标准只有三个：是不是在解决一个真正让人兴奋的问题，团队配置是不是最适合做这件事，背后的支持网络是不是足够。三条都成立的时候，坏消息就只是坏消息。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">核心判断</strong>：执行层是 AI 落地的下一个基础设施机会——Agent 从分钟级交互变成小时/天级长跑，隔离、分叉、热迁移等老问题全部失效</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">产业反转</strong>：Token Maximizing 到 Minimizing 只用半年；Meta/亚马逊把 token 当 KPI，Uber CEO 四月用完全年用量是转折信号</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">竞争格局</strong>：公有云为 SaaS 设计（GPU/New Cloud 类比），模型厂商做 infra 是为了拿信号，创业公司从底层重建是历史规律</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">安全机会</strong>：Agent 灾难性事故必然发生；模型侧无法根治（next token prediction 分不清指令和数据），管控+可审计的执行底座才是解法</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">战术细节</strong>：服务 agentative 客户（间接服务成千上万 Agent）、token 浪费分析闭环、95% 编码交给 Agent 但架构判断仍靠人</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">选人标准</strong>：往下钻一层的能力——5-10% 的人会去看底层怎么运作，这是招聘的第一原则</li>
-</ul>
-
-</div>]]></content:encoded></item>
+<item><title>[十字路口Crossing] 「模型能力已经够了，要卷就卷 infra」——Runta创始人戴冠兰：Agent执行底座的平台级机会</title><link>https://xlicz.github.io/podcast-rss/articles/模型能力已经够了-要卷就卷-infra---Runta创始人戴冠兰-Agent执行底座的平台级机会-2026-08-09.html</link><guid isPermaLink="false">crossing_af431b3a49e1</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>「模型能力已经够了，要卷就卷 infra」——Runta创始人戴冠兰：Agent执行底座的平台级机会</description></item>
 <item><title>[跨国串门儿计划] 迪士尼的三笔收购，和一笔被遗忘的生意</title><link>https://xlicz.github.io/podcast-rss/articles/迪士尼的三笔收购-和一笔被遗忘的生意-2026-08-12.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_1661f9b44279</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>迪士尼的三笔收购，和一笔被遗忘的生意</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">迪士尼的三笔收购，和一笔被遗忘的生意</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">用 ESPN 四年的有线电视利润，买下皮克斯、漫威和卢卡斯影业——然后坐在有史以来最有趣的商业战略问题的正中心。</strong></p>
@@ -2603,217 +2611,10 @@
 </ul>
 
 </div>]]></content:encoded></item>
-<item><title>[投资实战派] 13年10.2倍后主动清盘：游牧人基金的投资范式全复盘</title><link>https://xlicz.github.io/podcast-rss/articles/13年10-2倍后主动清盘-游牧人基金的投资范式全复盘-2026-08-09.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_3b033b3e3aaf</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>13年10.2倍后主动清盘：游牧人基金的投资范式全复盘</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">13年10.2倍后主动清盘：游牧人基金的投资范式全复盘</h1>
-<p style="margin:0.8em 0">副标题：不靠信息优势、不做衍生品、几乎只买不卖——两个"非科班"投资人如何跑赢全球市场，又在巅峰期选择离场</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">导语</h2>
-<p style="margin:0.8em 0">2001年9月成立的游牧人基金（Nomad Investment Partnership），2014年初正式清盘。13年间净值增长约10.2倍，年化回报20.8%，同期MSCI全球指数的回报只有一倍多。比业绩更罕见的是它的结局：基金在巅峰期主动关闭，两位合伙人却保留了自己的仓位，继续持有亚马逊、Costco、伯克希尔——仿佛从未离开。</p>
-<p style="margin:0.8em 0">这篇文章来自投资实战派"全球1%投资人深挖小组"对游牧人基金的线上深度研讨（分享嘉宾陶碧）。他结合基金合伙人信与持仓披露，把这家基金的投资思想、关键转变和每一笔仓位操作拆开复盘——比市面上大多数介绍文章多出来的部分，是"他们到底怎么买卖"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一、一段"先稳后猛"的净值曲线</h2>
-<p style="margin:0.8em 0">看一家基金，最直观的是收益。游牧人基金2001年9月10日成立时，大概没人想到它会成为价值投资圈的传说级案例。</p>
-<p style="margin:0.8em 0">成立后的头六七年（2001—2007），基金净值爬升极其稳定，每半年度最大亏损不超过5%——一个接近施洛斯（Walter Schloss）式的表现。从2008年开始，受金融危机影响，更重要的是他们自己的投资策略已经发生了根本转变，净值波动明显放大，但收益率也显著提高，这个状态一直持续到2013年。</p>
-<p style="margin:0.8em 0">几个数字值得记住：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">13年总回报约10.2倍，年化20.8%，远超同期业绩基准MSCI全球指数</li>
-<li style="margin:0.3em 0">长期long only，不做任何衍生品，不加杠杆</li>
-<li style="margin:0.3em 0">基金规模始终很小——两个合伙人，一个办公室，一台彭博终端</li>
-</ul>
-<p style="margin:0.8em 0">这是一只刻意保持"小"的基金。理解这一点，才能理解后面所有的仓位行为。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">二、园林学徒与伊拉克难民</h2>
-<p style="margin:0.8em 0">游牧人基金的人员构成简单到极致：两个人。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Nick</strong>，英国人，1968年生。大学读的是地质相关专业，毕业后没有直接进金融，而是去一家园林公司当了段时间学徒。后来辗转几家买方机构都不满意——小基金理念不合，大机构（比如永明保险）又让他感觉自己像个螺丝钉。1995年，马拉松资本合伙人Jeremy Hoskins发现了他，把他招进去做全球范围内的低估值公司研究。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Qais Zakaria（Jack）</strong>，背景更有戏剧性。伊拉克人，1972年随家人逃到英国——当时伊拉克局势动乱。他智商极高，在剑桥读数学，毕业后外派香港，先在渣甸洋行做股票分析师，又到德意志银行覆盖亚洲股票、兼做销售。他亲眼目睹了1996—1999年东南亚从经济过热到金融危机泡沫破裂的全过程。作为卖方，他与马拉松这样的买方建立了联系，Hoskins发现他与自己的思路高度互补，也把他招了进来。</p>
-<p style="margin:0.8em 0">2001年前后，两人在马拉松内部孵化了游牧人基金（Nomad Investment）。他们的投研分工和性格高度互补，这个组合一配合就是十几年。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三、三个思想源头，一次关键转变</h2>
-<p style="margin:0.8em 0">嘉宾复盘认为，游牧人基金的思想体系有三个源头。</p>
-<p style="margin:0.8em 0">第一个是<strong style="font-weight:600">Hoskins</strong>——马拉松资本创立之初最早的合伙人之一、资本周期框架的提出者之一。他给两人的早期影响体现在三条原则里：泛市场、泛行业地寻找低估资产（范围不限于研究深入的东南亚，甚至包括津巴布韦这样的市场）；在危机中买最被鄙视的东西；不受指数基准束缚，研究企业而不是研究市场。</p>
-<p style="margin:0.8em 0">第二个是<strong style="font-weight:600">Bill Miller</strong>。他在合伙人信里出现得不多，但实际上是游牧人基金资金端和声誉圈里的关键人物：他自己投资了游牧人基金；Nick后来在一次公开演讲中提出的"信息优势、分析优势、行为优势"三大投资优势框架，就借鉴自Bill Miller此前的演讲。</p>
-<p style="margin:0.8em 0">第三个是<strong style="font-weight:600">圣塔菲研究所</strong>。Bill Miller把Nick介绍进这个以复杂系统研究闻名的机构，两人在那里加深了对复杂系统的理解——这直接影响了他们看待企业、行业和市场的思维模型。</p>
-<p style="margin:0.8em 0">真正重要的，是发生在2004—2006年的一次<strong style="font-weight:600">思想转变</strong>。成立初期，游牧人按马拉松的传统在全球寻找低估资产；但在这个过程中，他们逐步形成了对长期成长股更明确的思维范式——能够归纳出那些"长期有数倍增长空间"的公司。这次转变的结果，就是他们后来的标志性持仓：亚马逊、Costco、ASOS。换句话说，游牧人的成功不是"捡了十年的烟蒂"，而是在一个关键节点完成了从价值到成长的范式升级。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四、仓位复盘：跌了加仓，买了不动</h2>
-<p style="margin:0.8em 0">分享嘉宾认为，本期研讨最有增量的部分，是用实际持仓操作检验他们的策略。他的结论很直接：<strong style="font-weight:600">游牧人基金对看好的公司，几乎是一个只买不卖的模式</strong>。他以半年为单位拆解了主要持仓：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">亚马逊</strong>（核心案例）：2005年开始一路增持，2006年左右仓位达到20%；2007—2008年股价将近腰斩，他们反而把仓位扩大到40%；此后小幅减持（不超过5%）；2012年基金重新开放申购后，又把仓位提升了30%，之后基本没动过。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">OKdo</strong>：建仓后股价就接近腰斩。游牧人先小幅加仓，2012年新的深度资金进来后大幅加仓30%，此后不动。思路与亚马逊如出一辙。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">ASOS、Page Group</strong>：同样的策略——股价下跌时买入，涨得较高时稍微卖一点。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Costco</strong>：最值得玩味的一笔。游牧人在持有过程中进行了较大幅度的减仓——这在他们的持仓里非常少见。嘉宾坦言，在合伙人信和访谈中都找不到这次减仓的解释：可能是有ASOS、OKdo这样的新机会需要资金，也可能从2002年持有到2008年已经赚了很多，有获利止盈的想法。但2012年他们又大幅加仓，基本加回了2008年的最高仓位。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">LH</strong>：唯一一例"彻底清仓后又买回"。游牧人当时把它当偏周期股看待，2010年左右宏观复苏、价值兑现后清仓；后来意识到判断有误，又买了回来。清仓前他们是LH最大的外部投资者——本来还想买更多，但没有实现。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">伯克希尔</strong>：波段稍多一点，而且有个反直觉的细节——2008年底股价下跌时，他们反而逆势减仓。嘉宾的判断是：当时抄底伯克希尔的性价比，不如去抄底成长性更强的公司。</p>
-<p style="margin:0.8em 0">这些操作透露了一个共性：<strong style="font-weight:600">建仓即重仓</strong>。ASOS、OKdo都是7%左右的仓位，LH是4%。看好了就直接下重注，然后长期不动。亚马逊一只股票撑起了基金大部分收益，在2008年腰斩时加到40%仓位——这个动作需要的不是信息优势，而是对判断本身的信念。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">五、四大优势：最弱的恰恰是信息</h2>
-<p style="margin:0.8em 0">把游牧人基金的优势归纳起来，分享嘉宾给出四条：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信息优势——他们刻意不依赖</strong>。办公室只有一台彭博终端，不要卖方服务，故意不请卖方分析师，认为"卖方分析师只是传递市场噪音，对关键公司的研究远不如他们深入"。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">分析优势——最强的一项</strong>。两位合伙人极其擅长把一家公司区别于竞争者的特质抽象出来，形成可以泛化、演绎、迁移到其他行业其他公司的投资范式。这是"规模效应共享"（Scale Economics Shared）这类概念的来源——用Costco验证的模型，套用在亚马逊上依然成立。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">心理优势——对"不作为"有深入理解</strong>。Nick做过一个关于桥牌大师如何玩桥牌的演讲，大量补充了芒格的扑克心理学。他们特别强调"不作为"：在游牧人眼中，不买不卖不是偷懒，而是主动选择的结果。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">组织优势——两个人的价值观高度契合</strong>，绝对的客户利益绑定，选择合适的资金一起承担业绩和结果。</p>
-<p style="margin:0.8em 0">有几个细节能说明这套体系的执行强度：两人在一年半时间里看了1000多份年报，访谈过300多家公司的管理层；Nick每年出差很多次，护照每一页都被填满，不得不换新护照。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六、为什么在巅峰期关闭基金</h2>
-<p style="margin:0.8em 0">2013年底，游牧人基金实现了成立时的目标——净值翻十倍（实际10.2倍）。然后，他们做出了关闭基金的决定。</p>
-<p style="margin:0.8em 0">嘉宾归纳了三个原因：</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">目标达成</strong>。成立之初的目标就是净值翻十倍，2013年底已经实现；</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">不喜欢跟监管打交道</strong>。监管的种种要求让他们烦不胜烦；</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">重心转移</strong>。投资带来的财富自由已完全不是问题，他们想把精力转向慈善。</li>
-</ol>
-<p style="margin:0.8em 0">但注意一个关键细节：<strong style="font-weight:600">清盘基金，不清盘自己的仓位</strong>。他们把自己个人资本对应的股票仓位保留了下来，通过个人投资实体IGBY Limited继续持有，只保留了四家公司：亚马逊、ASOS、Costco、伯克希尔。2018—2021年间的某个时间点，他们还买入了另一家公司。</p>
-<p style="margin:0.8em 0">换句话说，他们关闭的不是"投资"这件事，而是"替别人管钱"这件事。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">七、讨论环节的真问题：幸存者偏差与"下一个亚马逊"</h2>
-<p style="margin:0.8em 0">研讨的最后，小组成员提出一个无法回避的问题：<strong style="font-weight:600">游牧人是不是幸存者偏差？我们还能不能找到下一个亚马逊？</strong></p>
-<p style="margin:0.8em 0">一个清醒的回答是：亚马逊当年投资云设施，其实非常被动——业务需要、主编被挤兑，被迫投了大量云设备，资本市场当时并不看好。站在他自己的角度看，他并不是"前瞻性地看到了云服务是大势所趋"，而是当需求爆发时，他恰好因为产能超前投放而成为领先者。</p>
-<p style="margin:0.8em 0">今天的半导体设备行业是同样的剧本：过去因为产能超前投放而变成负资产、甚至接近破产的公司，在需求出现结构性、量级级提升后，此前超前投的产能反而成了大幅重构的基础。</p>
-<p style="margin:0.8em 0">所以讨论组给出的判断是：<strong style="font-weight:600">幸存者偏差无法提前区分，但你可以做"第二波"</strong>。瑞幸是一个例子：第一波买入的人，靠的是法律层面的认知——在它濒临破产时看懂它在法律意义上还剩些什么，这非常难；第二波才是经营层面"春江水暖鸭先知"的人。对大多数投资者来说，第一波做不了，能做的是在经营或产业层面第一时间识别出"它已经是那个幸存者"——能做到这一点，回报已经相当可观。</p>
-<p style="margin:0.8em 0">最后，嘉宾把话题拉回游牧人本身：他们的悲剧性在于，2014年他们认定投资已经没有优化空间、于是转向慈善——但如果他们坚持到2024年，AI、比特币这些新事物完全可能对他们的思维框架产生冲击。<strong style="font-weight:600">投资是不断学习、不断进化的过程</strong>，游牧人的框架固然好，但盲目套用到某个市场或某家公司，忽略了具体环境，一样会水土不服。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：范式迭代，比持有本身更难</h2>
-<p style="margin:0.8em 0">游牧人基金留下的，不是"长期持有"四个字，而是一套具体的执行：把不作为变成主动选择，把分析做成可迁移的范式，把仓位建立在信念而非信息上。</p>
-<p style="margin:0.8em 0">但真正值得带走的，是他们停下来的那一刻。2014年，他们判断自己的框架已经到极限——这本身可能就是一个误判。范式迭代的窗口永远存在，只不过打开窗口的人，往往已经躺在旧范式的舒适区里。</p>
-<p style="margin:0.8em 0">对你来说，问题不是"我能不能找到下一个亚马逊"，而是：你的投资框架，上一次升级是什么时候？</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">游牧人基金2001—2014年：总回报约10.2倍、年化20.8%，同期MSCI全球指数仅一倍多；长期long only，无衍生品、无杠杆</li>
-<li style="margin:0.3em 0">两位创始人非科班出身——地质专业园林学徒（Nick Sleep）与伊拉克难民、剑桥数学（Qais Zakaria），组合的核心是互补而非资历</li>
-<li style="margin:0.3em 0">仓位行为高度一致：看好的公司建仓即重仓（4%—7%），下跌加仓，基本只买不卖——亚马逊2008年股价腰斩时加仓至40%</li>
-<li style="margin:0.3em 0">四大优势中信息优势最弱：两人一台彭博终端、故意不请卖方；最强的是分析优势（可迁移的思维范式）与心理优势（不作为是主动选择）</li>
-<li style="margin:0.3em 0">清盘三原因：目标达成（10.2倍）、厌恶监管、转向慈善；但个人仓位保留亚马逊、ASOS、Costco、伯克希尔继续持有</li>
-<li style="margin:0.3em 0">亚马逊云是"被迫投资"的幸存者偏差案例——可学习的是做"第二波"（经营层面识别幸存者），而非提前找到下一个亚马逊</li>
-<li style="margin:0.3em 0">游牧人2014年认定"投资已无优化空间"本身可能是最大误判——范式迭代的窗口永远存在</li>
-</ul>
-
-</div>]]></content:encoded></item>
-<item><title>[屠龙之术] AI 的收入真相：云在狂飙，模型在吹牛，应用在裸泳</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的收入真相-云在狂飙-模型在吹牛-应用在裸泳-2026-08-09.html</link><guid isPermaLink="false">tu-long-zhi-shu_686eeee92d11</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>AI 的收入真相：云在狂飙，模型在吹牛，应用在裸泳</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的收入真相：云在狂飙，模型在吹牛，应用在裸泳</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一份 23 页数据 PPT，从 Capex 到豆包付费用户，再到一份"死亡名单"</strong></p>
-<p style="margin:0.8em 0">屠龙之术主理人明浩给朋友基金的策略会做了一份 23 页的 PPT，首页写了四个小字：没有观点，只做记录。但把数字一页页摆出来，观点自己会浮现：美股在屡创新高，云厂商在疯狂增长，模型公司的 ARR 一个比一个大——可到了应用层，中国最大的 AI 产品之一豆包，付费跑了快两个月，付费用户"小几十万"；台下两百个投资人，问谁买过豆包付费，没有一个人举手。</p>
-<p style="margin:0.8em 0">这份 PPT 的完整名字叫 AI by the Numbers。以下是它数出来的东西。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">市场：软件与 AI 的分道扬镳</h2>
-<p style="margin:0.8em 0">标普 500 过去一年的标题是"屡创新高"——哪怕刚经历七月史诗级回调，指数还是新高。战争、贸易战、deepfake，什么都拦不住它。</p>
-<p style="margin:0.8em 0">但市场内部裂开了。把核心 TMT 公司分成软件和 AI 两条曲线，过去一年半出现巨大分歧：大部分软件公司距历史高点跌了 16-17%，很多跌了 90% 以上；AI 相关标的过去一段时间涨得非常好。"大家似乎认为 AI 开始替代传统意义上的软件和 SaaS。"</p>
-<p style="margin:0.8em 0">资本开支是另一个危险信号。美国最头部几家科技巨头的 Capex 预期已经占到 GDP 快 3 个点——类比当年的光纤时代，这是一个危险区间。AWS、微软、Google、Meta 的 2026 年 Capex 相比 2025 几乎翻番。"当很多事情遇到人类的极限之后，这种态势还能继续保证吗？没有人敢往下调预期，但再往上，能跳多少？"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收入：两个口径的 ARR 游戏</h2>
-<p style="margin:0.8em 0">AI 肉眼可见的第一个直接收入来源是云。AWS 重回 10% 以上的季度增长，微软云、Google 云每个季度 45%-60% 地涨，"非常非常疯狂"。</p>
-<p style="margin:0.8em 0">再看模型公司。OpenAI 七月的 ARR 传闻超过 400 亿美金，软银传闻超过 700 亿美金。但两个数字的口径完全不可比：OpenAI 是扣除微软分成后的到手收入；软银不扣 AWS 和 Google Cloud 的分成，流水全算。"一份流水，可以每个人用很多次"——像当年游戏行业，发行商、CP、渠道、充值厂商各算一遍，同样一份流水能用五次。ARR 能代表一切吗？市场没有更好的指标，所以所有人还是盯着它。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">应用：中国付费的现实</h2>
-<p style="margin:0.8em 0">中国市场给出了更直白的答案。明浩自己的乐观估算：中国 1-2 亿白领用户（城镇就业扣掉制造业和线下服务业），乘以 10%-20% 的覆盖，是小几千万的盘子——"相对有些乐观，但已经比较合理"。</p>
-<p style="margin:0.8em 0">真实数字长这样：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">豆包 DAU</strong>：全网传的 1200-1300 万"这事儿挺扯"，实际就是一百多万。那个夸张数字来自一个投行小弟的笔误，然后成了所有自媒体的素材。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">"上百万"这个量级词</strong>：晚点写姚顺宇那篇文章时说豆包是"上百万日活"。注意量级词的用法——八九百万的时候你会说接近千万，五百万你会说五百万，三百万你不太会说上百万。"上百万"这个说法本身就暴露了真实量级。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">豆包付费</strong>：6 月上线专业版开始收费。三四亿月活，按 1% 转化率算（在中国已极度乐观，常规不到 1%）应该是三百万付费用户。跑了快两个月，晚点报道的数字：小几十万。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">现场测试</strong>：演讲台下坐着一两百人，大部分做投资。明浩问：现场有人买过豆包付费吗？没有一个人举手。</li>
-</ul>
-<p style="margin:0.8em 0">"千分之一的转化率，做个屁的付费。"这页 PPT 的标题叫"没有观点，只做记录"，但数字本身"赤裸裸"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中间态：钱流向了卖铲子的</h2>
-<p style="margin:0.8em 0">如果应用不赚钱，钱去哪了？答案是数据和执行。</p>
-<p style="margin:0.8em 0">美国已经出现一批做 AI 训练数据的公司，营收规模超过十亿美金 ARR、估值几十个 B；一批做强化学习环境搭建的公司同样估值暴涨。过去八个月，给模型和 Agent 做软 infra 的开源项目也涨得很好——"帮模型厂商做更低层执行的事情，成为了一个很重要的中间态"。</p>
-<p style="margin:0.8em 0">甚至非上市 AI 公司的 ARR 榜单也在讲同一件事：五亿美金 ARR 俱乐部（去年还是一亿美金），列出来"非常非常 boring"——一堆是模型公司（可灵、ElevenLabs、Mindzero 这类），真正叫应用的只有 Cursor 和 Replit。"当一个板块跑出这种公司，马上会被巨头盯上。这份榜单看起来是 top AI 创业公司，但实则可能是一份死亡名单。"</p>
-<p style="margin:0.8em 0">国内的榜单更直白：MAU 千万以上的 AI 应用——千问、极梦、豆包爱学、豆包元宝、蚂蚁阿福、DeepSeek、夸克——没有一家初创公司，全是巨头项目。百万到千万级才出现一些新面孔：LoveK 键盘、小盒 AI 医生、开拍可灵、讯飞小一、小云雀、猫箱、讯飞 AI 学。"有点失落。"外部端比 App 端更看不到初创的可能性。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个关于叙事的结尾：那只 K 线</h2>
-<p style="margin:0.8em 0">明浩用一家公司的月 K 线收尾，PPT 标题叫"一个没什么结论的故事"。那家公司 2021 年上市，Facebook 改名 Meta 时蹭着元宇宙叙事从小几十块暴涨到一百多块；元宇宙破灭，2022 年暴跌回十几块，然后躺了两年多——2023、2024 两年，AI 对它的股价毫无影响。</p>
-<p style="margin:0.8em 0">2025 年开始涨。故事换成：自己的 AI 生成能力变强了、DAU 还在涨、核心数据不错。直到 2025 年 Q3，Google DeepMind 发布世界模型 Genie 3——发布当天，这家公司跌了 26%。之后一路跌。上季度财报 DAU 开始下降，当天又跌了 33%-37%。</p>
-<p style="margin:0.8em 0">（明浩没有点名。特征足够明确：元宇宙叙事的代表公司，2021 年上市——这是 Roblox。）</p>
-<p style="margin:0.8em 0">"你总会感觉你可以看透很多所谓的叙事，但这件事跟二级市场去买一家公司股票的关联性到底有多深？巨大的难题。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收束：一切皆 loop</h2>
-<p style="margin:0.8em 0">这份 PPT 的最后几页放了一个彩蛋：刚离开 Google 的传奇科学家 Jeff Dean 发了离职 BP，介绍新公司 Discovery Loop，其中一页的标题叫"一切皆 loop"——设定实验环境、跑实验、评估结果、用结果倒推实验设计。这是科学实验最常规的范式，今天被认为可以在 AI 领域自动化实施（自主自我改进，ASI）。</p>
-<p style="margin:0.8em 0">明浩的 PPT 同样是一个 loop：数据 → 记录 → 判断 → 下一轮数据。每次讲完都有人问"这次不一样了吗"，他的回答是数字。而 OpenAI 刚刚把 ChatGPT 5.6 的 Luna 版本免费开放给所有用户——"把智能普及全人类"的宗旨还在执行，但纯从收入角度看，a16z 最近发过一张图，即便在美国，付费也远未普及。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">美股在给"AI 替代 SaaS"投票：软件公司距高点跌 16-17% 甚至 90%，AI 标的一路暴涨</li>
-<li style="margin:0.3em 0">Capex 占 GDP 近 3%，逼近光纤时代警戒线；头部四家 2026 年 Capex 同比近翻番，没人敢下调</li>
-<li style="margin:0.3em 0">模型 ARR 口径混乱：OpenAI 400 亿（到手收入）vs 软银 700 亿（流水），如同游戏行业一份流水算五遍</li>
-<li style="margin:0.3em 0">中国应用付费惨淡：豆包三四亿月活，付费跑两月仅小几十万；1% 转化率已是极度乐观的假设</li>
-<li style="margin:0.3em 0">钱在中间态：AI 数据公司 ARR 超十亿美金、RL 环境与 agent infra 公司估值暴涨，"卖铲子"成为最确定的生意</li>
-<li style="margin:0.3em 0">五亿 ARR 俱乐部是"死亡名单"：真正应用只有 Cursor/Replit，其余全是模型公司；MAU 千万级应用清一色巨头项目</li>
-<li style="margin:0.3em 0">Roblox 的叙事轮回：Meta 改名、元宇宙、AI 生成、Genie 3——看透叙事不等于能在二级市场赚钱</li>
-</ul>
-
-</div>]]></content:encoded></item>
-<item><title>[十字路口Crossing] 模型能力已经够了，要卷就卷 infra</title><link>https://xlicz.github.io/podcast-rss/articles/模型能力已经够了-要卷就卷-infra-2026-08-09.html</link><guid isPermaLink="false">crossing_958a64f6634a</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>模型能力已经够了，要卷就卷 infra</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">模型能力已经够了，要卷就卷 infra</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Runta 戴冠兰：当 Agent 开始跑几天、动真钱，执行层就成了系统工程里最难的问题</strong></p>
-<p style="margin:0.8em 0">Jeff Dean 问过戴冠兰一个问题，他至今觉得很难答：如果系统最底层的执行单元变成了概率性的，那 infra 这一层要怎么构建？</p>
-<p style="margin:0.8em 0">问这个问题的人，后来以个人身份投了他的公司。Runta，一家 10 人团队、a16z 领投 2000 万美元种子轮、估值过亿美元的 Agent 执行层初创公司，投资人名单里还有李飞飞和 Databricks CEO Ali Ghodsi。创始人戴冠兰 35 岁，ENTJ，此前十年在 Cloudflare 和 Kong 做 infra。他给这件事下的定义是：托管对象正从软件、服务，变成 Agent——这是 compute 的一次代际变化。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">概率性的地基上，怎么盖房子</h2>
-<p style="margin:0.8em 0">戴冠兰在 Cloudflare Edge 团队是早期技术负责人，参与构建了 Edge Proxy、Cache 系统和 WAF；在 Kong 作为创始工程师做的网关系统，至今被很多世界 500 强用来治理服务——认证、授权、限流、熔断。他做了十年 infra，总结这些系统的共同假设是：<strong style="font-weight:600">软件在运行之前就决定了自己会做什么，执行边界是清晰的</strong>。守在流量入口，检查进出的一切，放行时符合规则，之后就不会出事。</p>
-<p style="margin:0.8em 0">Agent 打破了这个假设。它不走预先写好的路径，而是边运行边决定要做什么。模型无法从根本上区分指令和数据：一条藏在数据里的注入指令，就能驱动一次工具调用，甚至动用真实权限，而这一切看起来完全合法。传统网络安全靠主动扫描、特征匹配，但对一个自己决定下一步做什么的系统，这些都不成立——治理它的唯一位置，在它的执行底座，在它的动作变成现实的地方。</p>
-<p style="margin:0.8em 0">Jeff Dean 的考察正是冲着这个来的：过去所有的容错、幂等、事务恢复，都建立在"软件是确定的、异常是可枚举的"之上。当执行单元变成概率性的，"这块地基没了，上面那东西怎么做怎么成立"？</p>
-<p style="margin:0.8em 0">戴冠兰的回答是：概率性是大模型的天性，躲不掉；但 Agent 一旦上生产，分布式系统的复杂度、恢复、隔离、分叉，这些需求不但没消失，反而变多了。底层做不了，就只能把事压到 runtime 层去做。</p>
-<p style="margin:0.8em 0">"现在执行层已经变成了系统工程里面最难的一个问题。"Agent 越跑越长：过去的 chat 是几分钟、几个 turn，现在的 Agent 一跑就是几个小时、几天。隔离、分叉、迁移、热迁移——上一代 infra 习以为常的能力，在 Agent 世界里全都没有被解决好。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上千亿次请求教会他的事</h2>
-<p style="margin:0.8em 0">Runta 凭什么拿到这笔钱？戴冠兰自己的解释是，他参与过上一代 infra 从第一性原理从头构建的过程——"我们刚做的时候，Kubernetes、Container 这些技术都还没有"。</p>
-<p style="margin:0.8em 0">Kong 的经历给了他一个量化直觉：每天上千亿次 API 请求的规模下，哪怕 0.00001% 概率出错，也会变成必然事件。这个直觉直接迁移到 Agent 世界——所以执行层每个环节都必须有确定性兜底，不是靠模型自觉，而是靠运行时约束。</p>
-<p style="margin:0.8em 0">Runta 做的事情，用他自己的话说，是在概率性的 workflow 里加入确定性的部分，让企业"刚好能把它用起来"——不需要全部确定，但要给到足够多的信任：Agent 跑在哪里、权限怎么给、最坏情况怎么恢复、每一步能不能审计。公司不做传统意义上的安全框架，做的是管控：让 Agent 在可控边界里执行，出问题能恢复，全程可审计。"安全本身在于你有多少信任给到这个 Agent。不是用一个安全框架把它框起来，而是有一个好的执行底座，反而帮它释放真正的能力。"</p>
-<p style="margin:0.8em 0">一个侧面信号：a16z 很少在种子轮为一个新公司专门写 blog 讲投资逻辑，这次例外，文章由合伙人 Martin 亲自执笔。戴冠兰的理解是，Martin 看到的不是一个 feature、不是一个产品，而是平台级的机会——就像从客户端到服务器、从物理机到虚拟机到容器，每一次都是代际跃迁，这一次被托管的东西从软件变成了 Agent。如果判断成立，这就是巨大的平台机会，值得花一篇文章讲清楚。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个关于灾难性邮件的预言</h2>
-<p style="margin:0.8em 0">对 Agent 权限管理这件事，戴冠兰放了一句狠话："未来十年内必然会有灾难性的 email，是通过 Agent 发生、特别难以挽回的——Mark my word，绝对会发生。"</p>
-<p style="margin:0.8em 0">他的观察是，现在"用安全换便捷"的企业不占少数，大家内心有恐惧，只是没有好用的底座。而灾难性事故一定会发生，发生后行业才会真正反思 Agent 权限该怎么管。他对个人用户的开源项目 Call Shell 支持在本地跑 Claude Code、Hermes 等 Agent 帮管邮箱；Runta 产品端做的是更复杂的场景——数据库、代码仓库这些高价值资源的权限管理。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">95% 的代码是 Agent 写的，但架构判断还是人</h2>
-<p style="margin:0.8em 0">Runta 自己的工程实践是一个值得展开的样本：Web Coding 占 95% 以上，入门程序员的工作基本全由 Agent 代替。剩下 5% 是人类工程师花大量时间的地方——架构设计、API 设计、部件耦合能力、底层架构判断力。"反而是这些，人类工程师现在还是不可或缺的一部分。"</p>
-<p style="margin:0.8em 0">用 Agent 写代码、再让 Agent 治理其他 Agent，有没有风险？"肯定有风险，所以必须有好依据——判断它是否在有效期。"他们的做法是天天用自己的平台、跑在自己的 Agent 执行环境里，用产品自我迭代。</p>
-<p style="margin:0.8em 0">安全漏洞大概率出在哪一层？戴冠兰认为模型侧会持续加安全训练（比如聊到敏感信息自动跳转到弱模型），但 transformer 架构不变，本质就还是 next token prediction——"它没办法区分你给它的信息是控制指令还是数据，对它来说就是一堆 token"。所以真正的防线只能在执行层，这也是整个品类的存在理由。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个做 infra 的人怎么选 Agent 工具</h2>
-<p style="margin:0.8em 0">聊到工具，戴冠兰现在用 Codex 多。有个流传的比喻（出自 Claude Code 作者）：Codex 像德国人，吭哧吭哧干活，质量很高；Claude Code 像美国人，很彻底，但跟你说一堆废话——"你有没有考虑过这个东西？这问题你想透了吗？"他选 Codex 不是因为有代际级别的模型能力差距（他没看到），而是 Codex 对开发者友好、harness 开源。也因为 Codex 是"被迫开源"、没法向上游贡献代码，他们反而想通过自己的执行底座优化上层的 harness——这正是 Runta 的产品闭环：分析你的 harness 在哪浪费 token、怎么浪费，再帮你生成提示词迭代。</p>
-<p style="margin:0.8em 0">内部他们不搞模型统一：Model Router 交给工程师自己决定，"工程师最有体感"。Grok 负责前端这类恢复半径小的工作，复杂任务用更强的模型。"模型五花八门，但最终结果工程师能负责任就行。"团队里有人对 Claude Code 不屑一顾、觉得写得烂，自己手搓了一套 harness——戴冠兰反而认为这说明每个企业最后可能都会自建一套，harness 的壁垒没那么高。</p>
-<p style="margin:0.8em 0">他自己是公司里用 Agent 最激进的人：ElevenLabs 配音、图像生成模型、录音笔硬件、智能客服代打电话，还有朋友创业做自动语音客服帮人把钱要回来——"我强迫自己用各种早期 Agent 产品，因为我需要知道智能体智能化到了哪一步"。</p>
-<p style="margin:0.8em 0">被问创业状态，他说每天都是过山车，五个好消息五个坏消息，焦虑往往来自那几个坏消息。但从更大的角度看：是不是在解决一个特别让人兴奋的问题？团队是不是最适合的？投资人网络是不是最对的？三个都答"是"，坏消息就只是"点坏消息"——"对于未来十亿、几十亿个 Agent 落地来说，这点事算啥。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">Agent 的确定性只能来自执行层：模型本质是 next token prediction，无法区分指令与数据，防线必须在运行时</li>
-<li style="margin:0.3em 0">上一代 infra 人的经验直接复用：Kong 时代"千亿次请求下极小概率也变必然"的直觉，就是 Agent 执行层设计的出发点</li>
-<li style="margin:0.3em 0">a16z 罕见地为种子轮写 blog：判断这是 compute 代际变化——托管对象从软件变成 Agent，是平台级机会</li>
-<li style="margin:0.3em 0">安全不是特征匹配，是管控：可控边界 + 最坏可恢复 + 全程可审计，企业才会把生产权限交给 Agent</li>
-<li style="margin:0.3em 0">灾难性 Agent 事故是行业拐点：戴冠兰预言十年内必然发生，届时权限管理会从"可选项"变成"必需品"</li>
-<li style="margin:0.3em 0">工程师价值上移：入门编码被 Agent 替代，架构/API/耦合判断成为人类不可替代的部分；Model Router 应交给一线工程师</li>
-</ul>
-
-</div>]]></content:encoded></item>
-<item><title>[跨国串门儿计划] 谷歌留不住科学家，因为钱都去了数据中心</title><link>https://xlicz.github.io/podcast-rss/articles/谷歌留不住科学家-因为钱都去了数据中心-2026-08-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9e631899af2d</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>谷歌留不住科学家，因为钱都去了数据中心</description><content:encoded><![CDATA[<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">谷歌留不住科学家，因为钱都去了数据中心</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">All In 八月特辑：杰夫·迪恩出走、xAI 三千亿算力赌注、美国数据公司如何"喂肥"中国 AI</strong></p>
-<p style="margin:0.8em 0">八月六号这天，谷歌做了两项人事调整：德米斯·哈萨比斯转任 DeepMind 主席兼谷歌首席科学家，公司口径是"承担更大责任"，外界读作暗降；同一时间，第 30 号员工杰夫·迪恩带着另外三位 AI 超级明星离职，创办了一家专注"深度科学突破"的公司。消息一出，谷歌股价跌了 4%——两千亿美元市值蒸发。</p>
-<p style="margin:0.8em 0">这期 All In 的四个话题看似分散，其实指向同一件事：AI 世界的钱正在重新分配。从谷歌的资本配置、xAI 的算力军备竞赛，到数据标注公司把训练数据卖给中国，每一件都在回答同一个问题——<strong style="font-weight:600">在模型、算力、数据三者之间，钱到底应该押在哪里？</strong></p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谷歌的算力转向：为什么科学家要走</h2>
-<p style="margin:0.8em 0">Axios 的报道把这次调整的背景说得很直白：Gemini 3.5 Pro 落后数月，内部消息人士称部分原因是士气低落，几位顶级研究员——包括 Gemini 的联合负责人——已经离职去了竞争性 AI 实验室。</p>
-<p style="margin:0.8em 0">弗里德伯格（曾在谷歌与杰夫·迪恩共事）提出了三种解释：创造性破坏，还是资本配置错误，还是创业召唤太诱人。他自己的答案是第三种，而且把逻辑推得很完整：</p>
-<p style="margin:0.8em 0">谷歌今年承诺在 AI 基础设施和数据中心上投入两千亿美元资本支出。因为算力需求极其旺盛，加上税收上的加速折旧优惠，这笔投资的回报模型相当清晰——投入算力基础设施，能在可预测期内以很高确定性获得巨大利润。但打造前沿实验室驱动的大模型同样需要数百亿美元，问题在于：<strong style="font-weight:600">在一个开源模型进步飞快、各前沿实验室互相追赶的世界里，你还能从模型本身赚到钱吗？</strong></p>
-<p style="margin:0.8em 0">谷歌内部其实比 ChatGPT 早一年就有等价物，当年选择不发布，理由是怕蚕食搜索。几年过去，结论反而更明确了：投在模型开发上的资本回报，很难比得上投在算力基础设施上、保持模型无关的回报。谷歌有全球最强大的企业级算力基础、最多的企业客户和消费者，它不需要最好的模型也能做出惊人的生意——可以跟 Anthropic 合作、跟 OpenAI 合作、托管所有开放权重模型。</p>
-<p style="margin:0.8em 0">于是就有了那个时刻：你是德米斯，你是杰夫·迪恩，你在谷歌内部看着资本流向数据中心而不是你的模型，而你出门走几步、靠一份 PPT 就能以数十亿美元投前估值融到几十亿美元——因为你是这个领域全世界最厉害的人之一。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">投在模型开发上的资本回报，很难比得上投在算力基础设施上、保持模型无关的回报。</p>
-</blockquote>
-<p style="margin:0.8em 0">这不是谷歌一家的问题。它揭示了 AI 行业正在发生的一次结构性位移：<strong style="font-weight:600">价值正在从模型层流向基础设施层</strong>。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">xAI 的三千亿赌注：从 2 吉瓦到 8 吉瓦</h2>
-<p style="margin:0.8em 0">xAI 的扩产数字让弗里德伯格连续追问了好几轮。年底 2 吉瓦，明年 5 到 10 吉瓦——按中间值 8 吉瓦算，净增 6 吉瓦。一个吉瓦的数据中心对应大约五百亿美元资本支出，6 吉瓦就是三千亿美元。弗里德伯格的问题是：这钱怎么融？</p>
-<p style="margin:0.8em 0">答案可能藏在英伟达身上。xAI 已经明确表示会加大"兜底"力度——由英伟达承担部分融资风险。但英伟达的股东不想让这件事无限滚动，因为市场担心现货价格某一天会掉头。</p>
-<p style="margin:0.8em 0">现货价格的逻辑是这样的：每瓦 50 美元，回本周期一年。就在几个月前，人们还认为回本要四年——投入 50，每年赚 10 到 15，四五年回本，第六年回报率才稳稳超过 20%。现在短缺太严重了，前沿实验室的付费意愿高到愿意付市场价的三倍、四倍甚至五倍，只为拿到规模算力。OpenAI 和 Anthropic 都想买更多。能买得起这个规模的买家极少——不是中国的开源公司在买 xAI 的算力，而是 Anthropic、OpenAI 和英伟达。</p>
-<p style="margin:0.8em 0">弗里德伯格问：现货价格能保持在每瓦 50 美元吗？xAI 的判断是往上走，因为市场受内存制约——明年内存产量可能增加 20%，但需求增长超过 200%。</p>
-<p style="margin:0.8em 0">而 Jason 在节目里跟弗里德伯格说过一句关键判断：<strong style="font-weight:600">可能只有 xAI 能在那个时间窗口内真正落地这么多</strong>。微软差得远，谷歌在那个时间窗口内也差得远。xAI 的核心优势来自埃隆的硬件基因：Gigafactory 在全球建厂的经验。埃隆在电话会上说过："建数据中心跟造火箭比起来根本不算什么。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Starship × Starlink：每次发射 20 倍的带宽</h2>
-<p style="margin:0.8em 0">Starlink 的升级路径是同一套硬件能力的延伸。V3 卫星带宽是 V2 的十倍。猎鹰九号每次发射部署 27 颗 V2 卫星，给网络增加约 2.6 太比特每秒容量；Starship 每次发射能部署 60 颗 V3 卫星，单次增加 60 太比特每秒——<strong style="font-weight:600">每次发射的容量是原来的二十多倍</strong>。</p>
-<p style="margin:0.8em 0">上一次测试不仅验证了热防护罩，还实际部署了 20 颗 V3 卫星作为测试，并成功建立了连接——卫星上甚至装了高清摄像头，就为了让大家能在直播里看到 Starship。这些测试卫星随后被烧毁。</p>
-<p style="margin:0.8em 0">下一个里程碑是 Starship 把 60 颗 V3 送入正确轨道并接入网络。推到逻辑终点，Starlink 可用带宽会提升十倍，最终可能提升一百倍。到那时就能做那些"有意思的事"：直连手机，以及地面站相关的暗示——肖特维尔提到过一些，甚至可能收购 T-Mobile，这完全在购买能力范围内。弗里德伯格提醒：埃隆说过 Starlink 最终可能承载大约一半的互联网流量——这个规模远不止目前的一千二百万订阅用户。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Airtable 暴跌 90%：一级市场的条款回来了</h2>
-<p style="margin:0.8em 0">第四个故事其实是被前两个话题衬托出来的：Airtable 跌了 90%。市场恐慌的导火索之一，是某位投资人被迫平仓。</p>
-<p style="margin:0.8em 0">四位主持人借此回忆了一级市场条款的轮回。零利率顶峰的"标准条款"是清洁条款：简单的一倍清算优先权，优先股股东在公司成功出售时先于普通股拿回自己的钱。参与优先股则是"双重获利"——先拿回投资，再与普通股分享收益。布拉德·格斯特纳的态度很明确：<strong style="font-weight:600">"我们从来不做参与优先股，我们相信清洁条款，没人想对创始人苛刻。"</strong></p>
-<p style="margin:0.8em 0">这句话放在 SaaS 估值崩塌的语境里，是一个信号：当退出预期从"上市"退化为"出售"，条款重新变成了利益分配的工具，而创始人曾经拿到的"宽松"正在被回收。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数据战争：美国公司把"秘密配方"卖给中国</h2>
-<p style="margin:0.8em 0">福布斯的调查标题很直白："这些美国初创公司正在让中国的 AI 变得更聪明。"两家数据标注公司——Surge AI 和 Mercor，估值都超过两百亿美元——向 OpenAI、Anthropic、联邦机构出售训练数据集，同时把同样的数据集卖给了腾讯、字节跳动、阿里巴巴、Moonshot。报告称，中国排名前六的 AI 实验室每年花费五亿美元购买这些"博士撰写的内容"和强化学习知识管道。</p>
-<p style="margin:0.8em 0">四位主持人的分歧在这里暴露得很清楚。</p>
-<p style="margin:0.8em 0">萨克斯（在 Mercor 有投资，但强调创始人没参与对华销售）的立场是：<strong style="font-weight:600">数据大体上就是商品</strong>。中国不缺劳动力做数据标注，他们可能已经在做了；禁止卖给中国，就要预期稀土等对等报复。他支持有针对性的战略管制——比如 2019 年限制对华出口 EUV 光刻机，那是重要决定——但数据标注够不上这个标准。"这些数据是专有的吗？有军事用途吗？没有。中国也能做，我保证他们正在做。"</p>
-<p style="margin:0.8em 0">布拉德的立场相反："过去六十天我用 Kimi、Qwen、Gemini 2.5，天哪，这些东西真不错。给他们送优势可不太爱国。"他描述的机制是：美国专家创建数据集，博士针对高度技术性查询（代码、生物、科学）放入最新最好的内容并双重验证——这就是美国大语言模型越来越好的原因。"如果美国不把这些送过去，这可能是个巨大优势。"而中国要重建这个规模，就得雇西方最顶尖的科学家——"基本上西方所有的知识都被打包，让我们的模型变得更好，然后同样的包被转手卖给他们"。</p>
-<p style="margin:0.8em 0">两人的分歧其实不在事实，而在前提。萨克斯的前提是中国能靠自己的博士重建一切；布拉德的前提是这些数据集的规模本身就是护城河，而中国"每年毕业的数学和理科毕业生比全世界加起来还多"——这句话他自己说出口时，等于承认了萨克斯的前提。这场辩论没有赢家，但它把 AI 竞争最尴尬的一面摆上了台面：<strong style="font-weight:600">美国前沿实验室的领先，一部分建立在把知识打包卖给对手的生意上。</strong></p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">钱、算力和数据的三角</h2>
-<p style="margin:0.8em 0">把四个话题连起来看，这期节目其实画出了一张完整的行业地图：谷歌的困境说明模型层的回报在贬值，钱流向算力；xAI 的三千亿赌注说明算力层的回报正在兑现，而它的执行优势来自物理世界的建造能力；Airtable 的崩塌说明软件层的估值叙事正在被清算；数据战争则说明，当开放互联网的数据被用完，最后一块可以买卖的资产——人类专家的知识——正在被商品化，而且卖家毫不犹豫。</p>
-<p style="margin:0.8em 0">埃隆那句"建数据中心跟造火箭比起来根本不算什么"，也许是这期节目里最值得记住的一句话。它暗示的不仅是 xAI 的竞争优势，更是 AI 竞争本身正在从软件问题变成硬件问题。而在一场硬件竞赛里，最后拼的不是谁的模型最强，是谁能更快地把物理世界的设备造出来、连起来、喂饱它。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的判断</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">谷歌科学家出走不是士气问题，是资本配置问题：模型开发的回报率已低于算力基础设施，而"模型无关"战略让谷歌不再需要最好的模型</li>
-<li style="margin:0.3em 0">xAI 明年净增 6 吉瓦算力对应约三千亿美元资本支出，融资关键在英伟达兜底，而现货价格与前沿实验室的付费意愿（3-5 倍溢价）是这盘棋的锚</li>
-<li style="margin:0.3em 0">Starship 每次发射的 Starlink 带宽增量是猎鹰九号的 20 多倍，带宽提升 10-100 倍后，直连手机、甚至收购 T-Mobile 都在射程内</li>
-<li style="margin:0.3em 0">Airtable 暴跌 90% 与一级市场从"清洁条款"回潮的讨论，说明软件层的估值清算仍在继续</li>
-<li style="margin:0.3em 0">Surge AI 和 Mercor 两家估值超 200 亿美元的公司同时向美国前沿实验室和中国头部 AI 公司出售训练数据——中国前六实验室每年花 5 亿美元买"博士级数据"</li>
-<li style="margin:0.3em 0">布拉德与萨克斯在数据出口上的分歧：一个认为是给对手送优势，一个认为数据是商品、禁售只会招致稀土式对等报复——真正的分歧在于中国能否靠自己重建这些数据集</li>
-</ul>
-
-</div>]]></content:encoded></item>
+<item><title>[投资实战派] 13年10.2倍后主动清盘：游牧人基金的投资范式全复盘</title><link>https://xlicz.github.io/podcast-rss/articles/13年10-2倍后主动清盘-游牧人基金的投资范式全复盘-2026-08-09.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_3b033b3e3aaf</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>13年10.2倍后主动清盘：游牧人基金的投资范式全复盘</description></item>
+<item><title>[屠龙之术] AI 的收入真相：云在狂飙，模型在吹牛，应用在裸泳</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的收入真相-云在狂飙-模型在吹牛-应用在裸泳-2026-08-09.html</link><guid isPermaLink="false">tu-long-zhi-shu_686eeee92d11</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>AI 的收入真相：云在狂飙，模型在吹牛，应用在裸泳</description></item>
+<item><title>[十字路口Crossing] 模型能力已经够了，要卷就卷 infra</title><link>https://xlicz.github.io/podcast-rss/articles/模型能力已经够了-要卷就卷-infra-2026-08-09.html</link><guid isPermaLink="false">crossing_958a64f6634a</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>模型能力已经够了，要卷就卷 infra</description></item>
+<item><title>[跨国串门儿计划] 谷歌留不住科学家，因为钱都去了数据中心</title><link>https://xlicz.github.io/podcast-rss/articles/谷歌留不住科学家-因为钱都去了数据中心-2026-08-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9e631899af2d</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>谷歌留不住科学家，因为钱都去了数据中心</description></item>
 <item><title>[42章经] 不存在RSI基础模型这回事——前Kimi研究员眼中的模型竞争下半场</title><link>https://xlicz.github.io/podcast-rss/articles/不存在RSI基础模型这回事--前Kimi研究员眼中的模型竞争下半场-2026-08-08.html</link><guid isPermaLink="false">42zhangjing_8f931a00b68b</guid><pubDate>Sat, 08 Aug 2026 08:00:00 +0800</pubDate><description>不存在RSI基础模型这回事——前Kimi研究员眼中的模型竞争下半场</description></item>
 <item><title>[晚点聊 LateTalk] "五年后我会被 AI 取代"——于是他开了一家公司</title><link>https://xlicz.github.io/podcast-rss/articles/五年后我会被-AI-取代---于是他开了一家公司-2026-08-07.html</link><guid isPermaLink="false">wan-dian-liao_d7cf09a2fb89</guid><pubDate>Fri, 07 Aug 2026 08:00:00 +0800</pubDate><description>"五年后我会被 AI 取代"——于是他开了一家公司</description></item>
 <item><title>[高能量] 单伟建：不能过于乐观，但我绝对不悲观</title><link>https://xlicz.github.io/podcast-rss/articles/单伟建-不能过于乐观-但我绝对不悲观-2026-08-07.html</link><guid isPermaLink="false">gao-neng-liang_97d50be8c98d</guid><pubDate>Fri, 07 Aug 2026 08:00:00 +0800</pubDate><description>单伟建：不能过于乐观，但我绝对不悲观</description></item>
@@ -2959,511 +2760,10 @@
 <item><title>[宏观分析] STH_ 每日宏观分析 2026-08-08</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-08-08.html</link><guid isPermaLink="false">report:宏观分析:2026-08-08:83a4b60d</guid><pubDate>Sat, 08 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-08-08</description><category>宏观分析</category></item>
 <item><title>[AI动态] AI 领域动态 2026-08-08</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-08.html</link><guid isPermaLink="false">report:AI动态:2026-08-08:819ef43e</guid><pubDate>Sat, 08 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-08</description><category>AI动态</category></item>
 <item><title>[雪球动态] 雪球关注动态 2026-08-08</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-08.html</link><guid isPermaLink="false">report:雪球动态:2026-08-08:6b66a284</guid><pubDate>Sat, 08 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-08</description><category>雪球动态</category></item>
-<item><title>[播客信号] 播客投资信号 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-09.html</link><guid isPermaLink="false">report:播客信号:2026-08-09:a5d4794f</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-09</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-09 05:09</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">扫描集数：1集 | 持仓披露：🔥0 / 🔴0 | 高质量内容：1集
-扫描了 1 个播客，共 1 集：[42章经(1集)]</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 42章经 — 从蒸馏到合成数据到 RSI，模型竞争的下一个焦点是什么？｜对谈 Evolvent AI 联创孟繁青</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-08 | <strong style="font-weight:600">播客</strong>: 42章经 | <strong style="font-weight:600">嘉宾</strong>: 孟繁青（Evolvent AI 联创，NOS 博士生，前 Kimi post-training 实习）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: RSI（递归自进化）、合成数据、蒸馏、国内模型厂竞争格局</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">嘉宾背景：00后 PhD 创业潮典型画像，Evolvent AI 成立约半年，团队以 00 后 researcher 为主，聚焦合成数据（现金流）+ RSI（长期方向）</li>
-<li style="margin:0.3em 0">数据市场三代演进：Scale AI 普通人标注（第一代）→ Moco 专家标注（第二代）→ 合成数据（第三代，可能已在中后期）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">数据定价</strong>（产业一手数据）：合成数据贵的能卖好几千/条（超长任务），专家数据一两千，真人操控轨迹按量走量</li>
-<li style="margin:0.3em 0">合成数据需求会减少：bench 收敛到头部几家，模型厂自产能力增强；下一波是 RSI 数据——模型后训练小模型的训练轨迹，一条跑十几小时到一天，非常宝贵</li>
-<li style="margin:0.3em 0">蒸馏观点：<strong style="font-weight:600">蒸馏不是国内模型变强的决定性因素</strong>；国内追赶主因是预训练架构创新（Kimi 线性注意力、DeepSeek MLA），蒸馏只是加速手段</li>
-<li style="margin:0.3em 0">后训练对比：国内后训练弱于海外（数据积淀差约半年），但预训练架构全球最好的就是 Kimi/DeepSeek</li>
-<li style="margin:0.3em 0">不存在 RSI 基础模型：RSI 能力已在预训练中内化，SI 方法本质是"更聪明的 DFS"（World Model + Value Model 剪枝）</li>
-<li style="margin:0.3em 0">模型厂终局：技术快速流通形成共识，最终拼<strong style="font-weight:600">组织形态设计</strong>而非卡数</li>
-<li style="margin:0.3em 0">数据个人卖不出去：太脏 + 合规问题；专家标注人力公司（走中人力的）难活，需一线 researcher 跟上前沿</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">无持仓披露</strong>：嘉宾是创业者谈自家业务与行业观察，未提及任何公开市场标的或交易动作。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-
-</div>
-]]></content:encoded><category>播客信号</category></item>
-<item><title>[AI动态] AI 领域动态 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-09.html</link><guid isPermaLink="false">report:AI动态:2026-08-09:97bc5e44</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-09</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/09（近一周精选 · 模型 / AI 安全 / Coding Agent / 具身智能 / 机器人产业）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：DeepSeek V4 Flash 登顶 ARC 低成本榜单、OpenAI 承认 HF 事件、Meta 入场 coding agent、小米开源具身基座模型、具身数据采集岗位年薪 80 万。</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">DeepSeek V4 Flash 0731 在 ARC-AGI-1 Semi-Private 达 89.0%，单任务成本 $0.02</li>
-<li style="margin:0.3em 0">OpenAI 在 Black Hat 披露"意外攻击" Hugging Face 事件完整时间线</li>
-<li style="margin:0.3em 0">Meta 发布终端 coding agent Muse Code，正面挑战 OpenAI/Anthropic</li>
-<li style="margin:0.3em 0">小米开源具身 AI 基础模型 Xiaomi-Robotics-1</li>
-<li style="margin:0.3em 0">具身智能数据采集岗位年薪达 80 万人民币，三年前不存在</li>
-</ol>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. DeepSeek V4 Flash 0731：ARC-AGI-1 89.0%，单任务 $0.02 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">ARC Prize 官方结果页显示，DeepSeek V4 Flash 0731（3 个推理 variants）在 max effort 下：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">ARC-AGI-1 Semi-Private：89.0%</strong>，成本 <strong style="font-weight:600">$0.02/任务</strong></li>
-<li style="margin:0.3em 0">ARC-AGI-2 Semi-Private：61.4%</li>
-</ul>
-<p style="margin:0.8em 0">该结果 8/7 在 Hacker News 以 755 分登顶，引发对"低成本模型逼近 ARC-AGI-1 高分区"的讨论。成本仅为同类高分区模型的零头，性价比显著。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ ARC Prize 官方评测页（arcprize.org）确认分数与成本 — <strong style="font-weight:600">关注</strong>: 低成本高推理性能模型路线得到公开基准背书，直接对标用户当前使用的 deepseek-v4-flash</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://arcprize.org/results/deepseek-v4-flash-0731%EF%BC%88%F0%9F%9F%A2%E5%AE%98%E6%96%B9%E8%AF%84%E6%B5%8B%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://arcprize.org/results/deepseek-v4-flash-0731（🟢官方评测）</a></li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. OpenAI 在 Black Hat 披露"Hugging Face 事件"完整时间线 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">OpenAI 周三在 Black Hat 安全大会临时加场演讲，披露其内部调查得出的"Hugging Face Incident"完整经过；演讲视频 8/6 发布。Simon Willison 据视频构建时间线：<strong style="font-weight:600">OpenAI 主动联系 Hugging Face 时，HF 回复"凭据早已撤销"——OpenAI 才意识到 HF 此前的入侵事件正是自己造成的（意外攻击）</strong>。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Simon Willison 时间线（simonwillison.net，8/7）+ Black Hat 官方演讲视频；HN 312 分 — <strong style="font-weight:600">关注</strong>: 顶级 AI 实验室安全失误可造成实际供应链破坏，HF 生态影响面广</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://simonwillison.net/2026/Aug/7/openai-timeline/%EF%BC%88%F0%9F%9F%A1%E6%9D%83%E5%A8%81%E7%8B%AC%E7%AB%8B%E7%A0%94%E7%A9%B6%E5%91%98" style="color:#2563eb;text-decoration:underline">https://simonwillison.net/2026/Aug/7/openai-timeline/（🟡权威独立研究员</a> + 官方演讲）</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Meta 发布终端 Coding Agent "Muse Code"，基于 Muse Spark 1.2 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">8/5 Meta 发布首个 AI coding agent Muse Code（Beta）：终端运行、面向大型代码库，由新模型 <strong style="font-weight:600">Muse Spark 1.2</strong> 驱动。WSJ/CNBC/TechCrunch/Engadget 等 8 家以上媒体报道。MacRumors 额外披露：<strong style="font-weight:600">允许 Meta 用你的代码训练数据时，使用成本可低至 20 倍</strong>——以数据换补贴的商业模式延续。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ WSJ/CNBC/TC/Engadget/MarkTechPost 多源同日确认 — <strong style="font-weight:600">关注</strong>: Meta 正式入场 coding agent 三强战，定价策略可能挤压 Claude Code/Cursor 市场</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/%EF%BC%88%F0%9F%9F%A1%E5%8F%AF%E9%9D%A0%E5%AA%92%E4%BD%93%EF%BC%8C%E5%A4%9A%E6%BA%90%E4%BA%A4%E5%8F%89%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/（🟡可靠媒体，多源交叉）</a></li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 小米开源具身 AI 基础模型 Xiaomi-Robotics-1 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">8/5 小米技术账号宣布开源具身 AI 基础模型 <strong style="font-weight:600">Xiaomi-Robotics-1</strong>（TechNode 报道）。此前 7/16 小米已开源机器人世界模型，宣称带来 82× 数据生成加速——本次开源延续其"世界模型 + 基础模型"开源路线，与智元/宇树等国内具身厂商争夺开发者生态。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechNode 8/5 + Open Source For You 8/6 双源确认，发布日期核对为 2026 年 — <strong style="font-weight:600">关注</strong>: 手机厂商开源具身基座模型，生态打法对自研派形成成本压力</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/%EF%BC%88%F0%9F%9F%A1%E5%8F%AF%E9%9D%A0%E5%AA%92%E4%BD%93%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://technode.com/2026/08/05/xiaomi-open-sources-embodied-ai-foundation-model-xiaomi-robotics-1/（🟡可靠媒体）</a></li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 三年前不存在的"机器人训练师"岗位，年薪 80 万人民币 | 🟡 | [📰推测]</h3>
-<p style="margin:0.8em 0">Pandaily 8/8 报道：具身智能数据采集/机器人训练师岗位年薪已达 <strong style="font-weight:600">80 万人民币</strong>，该岗位三年前并不存在。反映具身智能数据飞轮进入产业化的真实需求侧信号——高质量操作数据采集的人力成本正在成为行业瓶颈与就业新入口。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Pandaily 8/8 报道（单源）；🔴未证实 具体招聘方与岗位要求细节未交叉验证 — <strong style="font-weight:600">关注</strong>: 数据采集人力成本高企，将加速遥操作/自动采集方案落地，是具身产业早期红利指标</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: <a href="https://pandaily.com%EF%BC%88%F0%9F%9F%A1%E5%8F%AF%E9%9D%A0%E4%B8%AD%E6%96%87%E5%AA%92%E4%BD%93%EF%BC%8C%E5%8D%95%E6%BA%90%EF%BC%89" style="color:#2563eb;text-decoration:underline">https://pandaily.com（🟡可靠中文媒体，单源）</a></li>
-</ul>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><em>生成: 2026-08-09 08:05 CST · 来源: HN Algolia / Google News RSS / TechCrunch WP API · 验证: ARC Prize 官方页 + 多源交叉</em></p>
-
-</div>
-]]></content:encoded><category>AI动态</category></item>
-<item><title>[雪球动态] 雪球关注动态 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-09.html</link><guid isPermaLink="false">report:雪球动态:2026-08-09:1a9d7ae1</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-09</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-09 22:45</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：56条 | 信号：🔥1 / 🔴1 / ⚪4</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 酒金岁月 — 贵州茅台（17条合并，系统性看空）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看空茅台长期投资价值——扩产稀释品质 + 未来收益率预期下降，"现在的茅台已不是过去的茅台"</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🧠 作者的主张（结论）</h3>
-<p style="margin:0.8em 0">茅台长期投资价值下降：产能从1万吨→5万吨→10万吨的加速扩张必然稀释酒质（环境不同），"核心区"是后造的概念（7.5→15.03km²），稀缺性叙事崩塌后，未来收益率预期必须下调。投资者不能用过去的成功论证现在的合理性。</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📊 支撑论据（含证据类型）</h3>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">珍酒异地实验：试制酒93.2分 vs 茅台95.2分，结论"基本具有茅台酒风格，质量接近市售茅台酒水平" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史事实]</code> — 酒金以此论证：异地环境酿不出完全一样的酒，同理新厂区≠老厂区</li>
-<li style="margin:0.3em 0">产能爬坡曲线：1万吨用了40年（1964→2003），5万吨用了17年，10万吨估计用不了20年 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史数据]</code> — 扩张速度本身是质量稀释的证据</li>
-<li style="margin:0.3em 0">核心区范围：最早公布7.5km²，后增加到15.03km² — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公开数据]</code> — 质疑标准随意性："15.03可以是核心区，15.05为啥就不行"</li>
-<li style="margin:0.3em 0">茅台质量文化来源：第二届评酒会五粮液拿第一后，国家指派评审官整改，茅台质量文化本质是国企问责文化 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史叙述]</code></li>
-<li style="margin:0.3em 0">8/8自营店调价：飞天1753元/瓶（较7月底1719再涨34元），i茅台仍1639元 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[新闻/市场数据]</code> — 控量挺价信号</li>
-</ol>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔗 论证过程</h3>
-<p style="margin:0.8em 0">产能加速扩张 → 新环境微生物群落与老厂区不同 → 酒质必然不同（珍酒实验为证）→ 核心区概念被扩大以容纳产能 → 稀缺性叙事弱化 → 未来收益率下降 → 茅台不再是"不需要卖"的资产</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔍 事实核查</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">珍酒85鉴定：93.2 vs 茅台95.2，"基本具有茅台酒风格"</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">新华网、知乎多方证实，1985年"85鉴定"，周恒刚主持</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/8自营店飞天涨至1753元/瓶</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">澎湃/中新经纬/红星新闻，五星1743、马茅1951、精品2410，i茅台1639不变</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">核心区7.5→15.03km²</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2001年批复7.5km²，后扩展15.03km²，公开可查</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1万吨40年、5万吨17年</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台1964年220吨→2003年1万吨，5万吨2018年前后达成</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"15.05平方公里为啥不行"</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">反问修辞，不可证伪</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">质量文化源于国企问责文化</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观历史解读，无法独立验证</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 新厂区酒质必然低于老厂区（无品控盲测数据支撑）；茅台内部"四个服从"中产量和效益做的最差（内部运营信息）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[滑坡谬误]</code> — 扩产→质量必然下降→稀缺性必然崩塌，链条每一步都是"可能性"而非"必然性"</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 用珍酒异地实验（1985年，异地新建）类比茅台自身扩产（同镇扩区），场景并不等价</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[诉诸动机]</code> — "质量文化是国企问责文化"暗示品质是被逼出来的而非主动追求</li>
-</ul>
-<h4>🔬 第一性原理剖析</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">微生物环境差异 → 酒质差异，且勾调技术无法平滑（作者自己也承认"所有轮次所有厂区合在一起勾调可最大限度平滑差异性"——自相矛盾）</li>
-<li style="margin:0.3em 0">稀缺性（产量约束）是茅台溢价的唯一来源</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">茅台扩产可能通过延长基酒储存期、改进勾调维持品质——"扩产=稀释"需要直接证据</li>
-<li style="margin:0.3em 0">茅台溢价也可能来自品牌资产/社交货币，而非物理稀缺性——若如此，扩产未必杀估值</li>
-</ul>
-<h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 事实核查通过率高（珍酒实验、调价、核心区数据全部属实），但核心推论（扩产必然稀释品质→长期收益率下降）是主观推断，且作者本人是老窖研究者（历史检索显示"你研究老窖的，对茅台了解不够深入"的对话），存在利益立场。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若茅台通过勾调+老酒储备维持品质一致性，或市场继续为品牌付费，则"扩产杀估值"逻辑失效；茅台今年两次提价（i茅台1539→1639、自营1719→1753）本身是价格强势信号，与"稀缺性崩塌"叙事矛盾。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 7/26 "白酒在走右侧，茅台是周期风向标"（当时看周期位置）；8/8 "茅台并不超人一等，高端白酒一体"；今日系统性质疑稀缺性叙事——看空观点持续强化中。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 逸修1 — AppLovin (APP)（1条）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 偏多 AppLovin——盈利50-55亿美金"没有大问题"，20-25倍估值"算是下来了"</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🧠 作者的主张（结论）</h3>
-<p style="margin:0.8em 0">APP 今年盈利50-55亿美元无大问题，当前20-25倍估值已合理偏低，估值消化完毕。</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📊 支撑论据（含证据类型）</h3>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">盈利预测：APP今年赚50-55亿美金 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code> — 无财报/指引引用</li>
-<li style="margin:0.3em 0">估值判断：目前大概20-25倍估值 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人计算]</code> — 未给出市值基数</li>
-<li style="margin:0.3em 0">对比参照：Unity底部起来100%+，和APP走势相反 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[市场数据]</code> — 隐含APP份额被Unity侵蚀的担忧</li>
-</ol>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔗 论证过程</h3>
-<p style="margin:0.8em 0">盈利稳定（50-55亿）→ 估值已消化至20-25倍 → 估值风险释放 → 偏多</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔍 事实核查</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">APP今年赚50-55亿美金</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无公开数据源，无法独立验证</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">20-25倍估值</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未给出市值/股本基数</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Unity底部起来100%+</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/5作者原帖，涨幅可查</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 盈利数字为个人估算；"估值下来了"未说明从多少下来</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[锚定]</code> — 用"估值倍数下来"锚定买入理由，但盈利预测本身是乐观假设</p>
-<h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 核心数字（50-55亿盈利、20-25倍）均无法验证，且历史检索显示作者2025/3曾关注"APP卖游戏业务"（业务重组期），盈利结构有变化。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 盈利预测若含一次性/重组收益，20-25倍将失真；Unity强势（底部+100%）暗示广告科技竞争格局在变化。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 2025/3 关注APP卖游戏业务（中美隔离逻辑）；8/5 Unity底部+100%并提及微软大涨——持续跟踪美股科技成长，今日首次明确APP估值判断（新增）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 浊静徐清 — 茅台（9条，3条相关）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中性偏空（短期）——"批价跌50%还供不应求？" + 茅台周期是库兹涅茨长周期（15-25年），"还会再现辉煌但需要时间"</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"茅台还会再现辉煌，但需要时间。茅台不是没有周期，而是长周期。其周期附属在地产周期、建筑周期……时长15～25年。"</p>
-</blockquote>
-<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 茅台短期需求端（地产链）仍在长周期下行段，批价已跌50%证明"供不应求"是假象；公司用"局部供不应求"（某些品种/场合）制造稀缺感是主动管理而非真实需求。
-<strong style="font-weight:600">论据→论证</strong>: 批价高点约3000→现约1700（-45~50%）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[市场数据]</code> + 8/8自营店对散客开放直售<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[新闻]</code> → 供给端主动放量 → 真实需求不足 → 短期继续承压。
-<strong style="font-weight:600">核查</strong>: ✅批价跌幅与公开数据一致（散瓶1690/原箱1720）；✅自营店散客可购（中国基金报证实）；❓库兹涅茨周期时点判断不可证伪。
-<strong style="font-weight:600">假设</strong>: 茅台需求绑定地产/基建周期。<strong style="font-weight:600">替代</strong>: 消费结构已从政务/商务转向个人消费，可能已过周期谷底（茅台自营连续两次提价是需求侧信号）。
-<strong style="font-weight:600">📜</strong>: 7/12 "富裕家庭-6.8万户≈茅台消费-70万瓶"（消费端看空）— 观点一致，长期多短期空未变。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 黑色面包 — FISV（2条）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中性偏多（财报后辩护）——"为什么盘前大跌？" + "财务数据不干净，喜欢做各种调整"（谨慎补充）</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"过去一年的投入大幅提升了商户端的客户体验，是有意义的。二季度继续投入科技和基础设施我觉得也是正确的决策。为什么盘前大跌……"</p>
-</blockquote>
-<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: FISV Q2财报后大跌6.9%是市场误读——指引下调主要来自阿根廷压力、客户实施延迟、硬件疲软，公司战略（整合Clover、资产出售、技术投入）是对的；像几年前的FIS转型路径。
-<strong style="font-weight:600">论据→论证</strong>: channel check与AlphaWise数据吻合<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人调研]</code> + Clover总支付额+9%<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code> → 经营面没问题 → 下跌是机会；但"财务不干净喜欢调整"是长期瑕疵。
-<strong style="font-weight:600">核查</strong>: ✅盘前跌6.9%（格隆汇/第一财经）；✅下调全年指引EPS 7.20-7.40（原8.00-8.30）；✅Q2调整后EPS 1.84低于预期；❓channel check不可独立验证。
-<strong style="font-weight:600">假设</strong>: 指引下调是外因（阿根廷/延迟）而非结构性恶化。<strong style="font-weight:600">替代</strong>: 商户方案利润率34.6%→30.0%、金融方案48.7%→38.7%，利润率侵蚀可能比管理层表述更严重。
-<strong style="font-weight:600">📜</strong>: 3/10 CPO招聘（长期看多）、7/7 资产出售催化（看多）— 观点未变，今日为财报后辩护+补充财务瑕疵。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 大道无形我有型 — Google（2条）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中性（仓位确认+文化疑虑）——"我在谷歌上一直没有下过重手" + "Google文化有点问题了，留不住大神"</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"我也没想到，感觉上是Google文化有点问题了，留不住大神。"</p>
-</blockquote>
-<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 确认谷歌只是轻仓观察位；对8/6人事地震（Jeff Dean离职、Hassabis卸任CEO）表态：Google文化留不住顶尖人才。
-<strong style="font-weight:600">论据→论证</strong>: Hassabis本计划与Dean同期离开、被"主席"头衔挽留<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[媒体爆料]</code> → 组织问题 → 但无操作动作。
-<strong style="font-weight:600">核查</strong>: ✅8/6官宣Hassabis卸任CEO转任董事长+Dean离职创业（Alphabet当日跌4%）；✅Pathfounders爆料一年内Hassabis或彻底离开。
-<strong style="font-weight:600">假设</strong>: 人才流失=竞争力受损。<strong style="font-weight:600">替代</strong>: 谷歌算力/分发优势仍在，Gemini迭代未必停摆。
-<strong style="font-weight:600">📜</strong>: 8/3 谷歌是"概率理解"例子（中性）— 今日首次表达文化疑虑（新增），但明确"没下过重手"=不构成操作信号。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号帖子摘要</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠度</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转发酒教主"白酒囚徒末路"</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">评论"吃太饱没事做？"质疑空头极端叙事，方向不明</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI/方法论系列14条</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">讨论AI辅助研究、周期股方法论、"58%组合跑不赢存款"；零组合1%中石油案例；无买卖操作</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">外资人才流出</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">长鑫科技话题下讨论发达国家外籍人士减少（韩国30万→14万），宏观面</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Penny010</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">High return&gt;Good business&gt;Good price</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">投资格言，无标的</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">智能体只解决生产者问题</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">需求数据稀缺性讨论，无标的</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
-</tr>
-</tbody>
-</table></div>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 今日值得质疑的观点</h2>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月（茅台）</strong>: 最强论据（珍酒实验、核心区扩张）全是事实，但"扩产=稀释"是推断而非证据。他本人8/8承认"所有轮次所有厂区合在一起勾调可最大限度平滑差异性"——这直接削弱自己的核心论点。且茅台连续两次提价（i茅台+自营）说明公司敢提价=需求有底，与"稀缺性崩塌"叙事冲突。其立场是老窖研究者（潜在利益冲突）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">逸修1（APP）</strong>: "50-55亿美金盈利+20-25倍估值"两个数字都无出处，且Unity底部+100%的强势与"APP吃份额"逻辑矛盾——若Unity在抢份额，APP盈利预测应下调而非维持。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">浊静徐清（茅台库兹涅茨周期）</strong>: 15-25年周期框架无法证伪也无法精确预测，属于"永远正确的宏观叙事"。茅台自营店今年4次调价（1499→1539→1639→1719→1753）本身就是强价格信号，与"长期下行"并存需要更精细的解释。</li>
-</ol>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><em>报告生成: 2026-08-09 22:45 | 数据源: 雪球关注流 (29人, 56条新增) | 历史库: 184,369条</em></p>
-
-</div>
-]]></content:encoded><category>雪球动态</category></item>
-<item><title>[心动日报] 心动投资日报 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-09.html</link><guid isPermaLink="false">report:心动日报:2026-08-09:847c4c6d</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-09</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-09（周日）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
-数据源状态：TapTap ✅ / Apple 7区 ✅ / 逸修1发言 ✅（0条）/ 股价 ⚠️（东财/akshare源今日仍不可用→腾讯源兜底；周末无交易，取8-07收盘）</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">收盘价: 44.38（2026-08-07收盘，8-08/8-09周末无交易）  |  涨跌: +0.05%（+0.02）  |  市值: ~201亿人民币（≈217亿港元；已发行股本4.893亿股×44.38，8-06翌日披露报表口径）
-52周区间: 40.10 - 92.45
-近5日: 47.74(8-04) → 47.28(8-05) → 44.36(8-06,-6.18%) → 44.38(8-07,+0.05%) → 无交易(8-08/8-09)
-港股通/做空: 无实时数据（⚠️东财接口连续3个采集点断连：8-07/8-09晨/8-09晚，数据源为腾讯行情）
-  第三方增量（证券之星口径，权威性2级，8-09晨记录，周末无新披露）: 南向资金7-31增持34.06万股、近5个交易日连续净增持累计97.54万股；南向持股约1.3亿股（占已发行26.54%）
-
-我的估值锚（v3.2，低位残差情景）:
-  乐观E 18-19亿 → 259-333亿（港股口径×0.85）
-  中性E 14-15亿 → 205-260亿（仅作下限参考，非决策锚）
-  悲观E 10-13亿 → 150-200亿
-  → v3.2校准3：当前为低位残差(-40%)，E不因残差下调，维持18-19亿
-  残差状态: 低位 | 持续时长: ~2个月（26-06-16起 -50%→-30~-40%，未到3个月复核阈值）
-当前市值位置: 低于乐观锚下限（201亿 &lt; 259亿）
-</code></pre>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板（v3.2 分级：快信号立即动作，慢信号确认工具）</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">类型</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日变化</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">快</strong></td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④ 新游戏首月&lt;预测80%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（RO2未上线；麦芬2未上线）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">见⑤：RO2版号7-23已获批，上线前哨</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">快</strong></td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤ 回购停止/减持</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（8-03~8-07连续5日回购，累计按授权588.84万股拟注销；8-07再回购10万股/439.47万港元）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">周末无新披露，维持</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">先行</strong></td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">榜单连续2周下滑+≥3区同步</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 未触发（晨间4区回升→晚间HK大幅回吐，但KR/SG仍改善，无3区同步下滑）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">见③</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">① 游戏收入连续2季环比下滑</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 待26半年报（25H2已确认）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">② 合约负债连续下降</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓ 待半年报</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">慢</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③ tap广告增速&lt;10%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️ 接近（26Q2"乐观5%/持平/-5%"）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新发言，无变化</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">确认</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥ 少数股东权益异常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅ 正常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">7.2%</strong>（v3.1修正）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-40%（低位，持续~2个月）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-</tbody>
-</table></div>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">快信号触发 → 立即动作；慢信号触发 → 仅标注待财报确认；先行指标触发 → E下修预警</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 全球多平台榜单快照</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">TapTap 三榜（安卓国服，22:46采集，对比8-09晨01:10）：</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">热玩榜: #5 心动小镇, #6 香肠派对（均较晨间+1位，噪声）</li>
-<li style="margin:0.3em 0">新品榜: 心动系不在榜</li>
-<li style="margin:0.3em 0">预约榜: #75 仙境传说3（晨间#76，+1位，噪声；该产品对应RO2版号预期，保持观察）</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">iOS 7区（22:47采集，对比8-09晨01:10）：</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">中国 畅销: <strong style="font-weight:600">#99 小镇国服（晨间#98，-1位；仍贴Top100边缘）</strong></li>
-<li style="margin:0.3em 0">中国 免费: #53 小镇国服（晨间#52，-1位）</li>
-<li style="margin:0.3em 0">香港 畅销: <strong style="font-weight:600">#75 小镇国际服（晨间#40，-35位，晨间大涨全日回吐）</strong>；<strong style="font-weight:600">#92 火炬海外（新进Top100）</strong></li>
-<li style="margin:0.3em 0">台湾 畅销: #45 小镇国际服（持平）</li>
-<li style="margin:0.3em 0">日本 畅销: <strong style="font-weight:600">#100 小镇国际服（晨间#93，-7位，濒临出榜）</strong></li>
-<li style="margin:0.3em 0">韩国 畅销: #55 小镇国际服（晨间#61，+6位；较8-07 #77 显著改善）</li>
-<li style="margin:0.3em 0">新加坡 畅销: #85 小镇国际服（晨间#94，+9位；较8-07 #87 微升）</li>
-<li style="margin:0.3em 0">美国/其他: 无命中</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Google Play/Steam: ⚠️ 网络不可达（需代理）</strong></p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">先行指标判断：</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">⚪ 未触发E下修预警：无"连续2周下滑+≥3区同步"；今日方向分化（HK-35/JP-7 vs KR+6/SG+9），无3区同步</li>
-<li style="margin:0.3em 0">✅ 规则验证：晨间"HK #40近期最高"的弱复苏信号当日被证伪（-35位回吐）→ 印证"单日大波动多为活动/卡池脉冲、看趋势不看绝对值"（8月中旬国际服大卡池预期相关）；晨间判断未升级为结论，正确</li>
-<li style="margin:0.3em 0">⚠️ 弱复苏延续（连续2采样点改善）：KR #55（8-07 #77 → 晨#61 → 晚#55）、SG #85（8-07 #87 → 晨#94 → 晚#85）——方向改善但幅度小，仍需周级验证</li>
-<li style="margin:0.3em 0">⚠️ 边缘警示：JP #100 濒临出榜（8-07 #99 → 晨#93 → 晚#100，围绕#100震荡，日区弱势延续）；CN畅销#99 同样贴边</li>
-<li style="margin:0.3em 0">⚠️ 新进榜：火炬海外 HK #92（首次采样点，需连续观察是否持续；海外渠道恢复或活动脉冲待辨）</li>
-<li style="margin:0.3em 0">数据基线：仅3个采样点（8-07 / 8-09晨 / 8-09晚），连续2周趋势尚未建立；历史教训：单区排名≠结论</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">今日新增发言: 0条（since 2026-08-08；最近24小时无新发言，含行业闲聊）
-
-反误导检测（5机制）:
-  ☐ 报忧必带转折: 无新发言，不适用（维持8-06命中记录）
-  ☐ 归因外移: 无新发言，不适用（维持8-06混合型记录）
-  ☑ 承认递进: 无新承认（8-06"投太多"承认后未再加深）
-  ☑ 预测更新: 无（26E维持20-22亿，无下修）
-  ☑ 历史锚定: 无新内容
-
-折扣分层（v3.2 校准1）:
-  ☐ 公司级利润预测 → 折扣10-15%: 今日无预测性发言，不适用
-  ☐ 产品级流水预测 → 折扣30%: 今日无预测性发言，不适用
-  ☐ 对冲叙事（A抵消B）→ Σ验证+折扣50%: 今日无预测性发言，不适用
-  ☐ 估值结论（便宜/低估）→ 折扣30%: 今日无预测性发言，不适用
-
-今日关键言论摘要:
-  - 无（0条）
-判断: 无信息增量（安静日×2）；上次有效锚点维持: 26E 20-22亿、远期愿景"30亿+"（8-06，非26E口径）
-</code></pre>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天：8-09 ~ 8-23）</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">2026-08月底（参考去年8-29）: 26年半年报发布（四件事验证: 小镇国际服H1流水/tap增速/合约负债/mk投入）
-2026-08月中旬: 小镇国际服周年庆后首个大卡池（流水观察；8-09晨间港区#40脉冲疑似与此相关，已回吐）
-2026-07-17~08-30: 小镇国服2周年+三丽鸥联动活动进行中（氪金卡池7-17开启，200+通票福利8-31到期；国服流水观察窗口）
-2026-08中下旬: RO2《仙境传说:守护永恒的爱2》版号已获（7-23），上线筹备期（TapTap预约榜#75"仙境传说3"）
-2026-08~09: 影之刃零预售开启（tap pc DAU机会，他8-06确认）
-2026-08-23前: 无版号/上线/赛季精确日期事件
-</code></pre>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">26E扣非: 我18-19 / 他20-22 / 卖方（未覆盖26E；西部证券买入评级无具体E） / 市场10-13  →  无变化
-小镇国际服: 我17 / 他17 / 市场10-12      →  无变化
-（他远期愿景"30亿+"为8-06记录，非26E口径，表2待登记验证）
-</code></pre>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">当前信号: 🟡 等待验证（26半年报 ~8月底）
-动作: 持有仓位，不加不减（v3.2：现金流7.2%持有区；低位残差不减仓）
-触发条件:
-  半年报E≥17亿 → 🟢 估值259-333亿
-  半年报E≤13亿 → 🔴 估值150-200亿
-  区间 → 维持🟡
-今日是否有触发: 无（无快信号、无预测下修、半年报未发布）
-</code></pre>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">🚨 今日异常: 无风险类触发；弱波动/边缘标注3项（观察类）
-  - 股价单日波动&gt;5%: 无（周末无交易，取8-07收盘+0.05%）
-  - 快信号触发（新游戏首月&lt;80%/回购停止减持）: 无
-    （回购反向加强维持：8-03~8-07连续5日回购588.84万股拟注销；RO2版号获批为④前哨，未上线不算触发）
-  - 先行指标触发（榜单2周下滑+3区同步）: 无
-    ⚠️ 晨间弱复苏信号（HK #40）当日回吐-35位 → 判定为卡池活动脉冲，非趋势；KR/SG连续2采样点改善保持弱复苏观察
-    ⚠️ 边缘警示: 日本畅销 #100（濒临出榜）、中国畅销 #99（贴边）——连续观察，跌出Top100则标记"未跟踪"
-    ⚠️ 新进榜（弱）: 火炬海外 香港畅销 #92（首次采样，待连续确认）
-  - 他的发言新承认/预测下修: 无（0条新发言）
-  - 数据源异常: ⚠️东财行情接口连续3个采集点断连（8-07/8-09晨/8-09晚，akshare重试+东财直连均失败→股价走腾讯源；akshare源今日不可用）；
-      其余源正常，无数据缺失
-</code></pre>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">参考: 历史数据库 2026-08-07（表2预期差/表4残差史）| 模板 v2.0 | 生成 2026-08-09 22:50</p>
-</blockquote>
-
-</div>
-]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-09.html</link><guid isPermaLink="false">report:播客信号:2026-08-09:a5d4794f</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-09</description><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-09.html</link><guid isPermaLink="false">report:AI动态:2026-08-09:97bc5e44</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-09</description><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-09.html</link><guid isPermaLink="false">report:雪球动态:2026-08-09:1a9d7ae1</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-09</description><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-09</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-09.html</link><guid isPermaLink="false">report:心动日报:2026-08-09:847c4c6d</guid><pubDate>Sun, 09 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-09</description><category>心动日报</category></item>
 <item><title>[播客信号] 播客投资信号 2026-08-11</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-11.html</link><guid isPermaLink="false">report:播客信号:2026-08-11:12e833e6</guid><pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-11</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-11</h1>
@@ -13293,7 +12593,7 @@ TapTap/Apple/Steam/雪球采集✅；
 E下修 ②RO新游第9日菲#2/泰#3
 坚挺 ③半年报进入最后~1周窗口
 ④RO初心服回升（泰#73→47/
-菲#33→27），修正昨日&quot;无踪影&quot;
+菲#33→27），修正昨日"无踪影"
 口径</li>
 <li style="margin:0.3em 0">行动: 持有不加不减（半年报前不变）</li>
 </ul>
@@ -13420,7 +12720,7 @@ tap+adn -1亿）；①②待半年报</li>
 <li style="margin:0.3em 0">RO初心服: 泰#47(昨73,+26)/
 菲#27(昨33,+6)/印#100(新进)/
 马#95(新进)；kr区iOS榜仍无踪影
-——⚠️修正8-22&quot;16区无踪影&quot;口径
+——⚠️修正8-22"16区无踪影"口径
 （8-22实为泰#73/菲#33在榜）；
 回升1日，观察是否新版本/活动驱动</li>
 <li style="margin:0.3em 0">⚠️kr区iOS榜不代表韩服全貌
@@ -13479,25 +12779,25 @@ RO2预约出榜（昨#68）；法/美/
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（净新增5条）</h3>
 <p style="margin:0.8em 0">📌 8-22 22:58 高三最后300天 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这个游戏，如果能搞成买断制，
-定价6块钱…估计可以卖10万+份&quot;
+<p style="margin:0.8em 0">"这个游戏，如果能搞成买断制，
+定价6块钱…估计可以卖10万+份"
 主张: 其他游戏（高三最后300天）
 买断制可行性自估
 核查: 非心动标的
 结论: 对E无影响；与tap pc买断
-叙事（8-14&quot;一年2-3亿&quot;）无关
+叙事（8-14"一年2-3亿"）无关
 对错: 不判</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-23 12:48 某公司配股/团子AI | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;某公司周五这种走势…只有配股
+<p style="margin:0.8em 0">"某公司周五这种走势…只有配股
 能解释…AII in AI对团子倒是好事，
-周五不知道在跌啥&quot;
+周五不知道在跌啥"
 主张: ①某公司周五下跌疑配股
 ②团子（美团系）All in AI利好
 核查: 非心动标的——心动周五
 (8-21)实为+3.9%收涨42.60，
-与&quot;周五不知道在跌啥&quot;不符，
+与"周五不知道在跌啥"不符，
 可排除心动
 结论: 对E无影响；若误读为心动
 需澄清（心动周五收涨）
@@ -13505,21 +12805,21 @@ RO2预约出榜（昨#68）；法/美/
 </blockquote>
 <p style="margin:0.8em 0">📌 8-23 13:23 网易更好 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;还是网易这类公司的好吧&quot;
+<p style="margin:0.8em 0">"还是网易这类公司的好吧"
 主张: 行业公司质地比较
 结论: 对E无影响
 对错: 不判</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-23 13:36 诡秘1折券+分成 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;苹果商店收入约占总收入的15%…
+<p style="margin:0.8em 0">"苹果商店收入约占总收入的15%…
 毛利率应该也有80%左右…快手
-正式杀进了游戏赛道&quot;
+正式杀进了游戏赛道"
 主张: 诡秘（快手系）渠道分成
 结构/毛利率/成功论
 核查: 非心动标的；与心动间接
 相关仅限tap生态（诡秘在tap
-发行）；&quot;iOS15%/PC+安卓85%&quot;
+发行）；"iOS15%/PC+安卓85%"
 为其自估，无独立源
 结论: 对E无影响；方法论（跨端
 摊薄）可回看火炬/小镇，无新
@@ -13528,8 +12828,8 @@ RO2预约出榜（昨#68）；法/美/
 </blockquote>
 <p style="margin:0.8em 0">📌 8-23 21:01 在线峰值日增 | ⚪ 行业</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这曲线有点牛了，在线峰值
-今天比昨天高&quot;
+<p style="margin:0.8em 0">"这曲线有点牛了，在线峰值
+今天比昨天高"
 主张: 某游戏PC在线峰值日增
 （语境疑为诡秘tap pc曲线）
 核查: ❓tap pc在线无公开数据源
@@ -13632,10 +12932,10 @@ tap收入/ARR、mk费用、火炬欧美
 <li style="margin:0.3em 0">历史验证点: 进行中 13 个（表2
 #9/#11/#13/#14/#16/#17/#18/#19/
 #20/#21/#22/#23）</li>
-<li style="margin:0.3em 0">待观察: &quot;市场按4跌&quot;估值主张
+<li style="margin:0.3em 0">待观察: "市场按4跌"估值主张
 ——半年报发布日即为裁决点
 （若半年报E≥17亿，市场悲观
-证伪；≤13亿，他的&quot;低估&quot;论证伪）</li>
+证伪；≤13亿，他的"低估"论证伪）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
 <p style="margin:0.8em 0">26E扣非: 我18-19 / 他19-21（8-18
@@ -13674,8 +12974,8 @@ RO2预约出榜（昨#68）；法/美/
 德/英/越持续无</li>
 <li style="margin:0.3em 0">新承认/预测下修: 无（今日5条
 全行业口径）</li>
-<li style="margin:0.3em 0">口径修正: 昨日&quot;RO初心服16区
-无踪影&quot;与8-22原始数据不符
+<li style="margin:0.3em 0">口径修正: 昨日"RO初心服16区
+无踪影"与8-22原始数据不符
 （实为泰#73/菲#33在榜）；今日
 泰#47/菲#27回升+印#100/马#95
 新进——老产品回升观察项，
@@ -13687,5 +12987,73 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[十字路口Crossing] 22 岁的具身 CEO、5 轮融资、过亿美元：萝博派对黄一的一年压测人生</title><link>https://xlicz.github.io/podcast-rss/articles/22-岁的具身-CEO-5-轮融资-过亿美元-萝博派对黄一的一年压测人生-2026-08-23.html</link><guid isPermaLink="false">crossing_20b6afa96240</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>22 岁的具身 CEO、5 轮融资、过亿美元：萝博派对黄一的一年压测人生</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">22 岁、5 轮融资、过亿美元：萝博派对黄一的「压测人生」</h1>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">一年内把十年的苦吃完的具身 CEO，讲他如何谈条款、与泡沫共处、搭蜂巢组织，以及具身马拉松现在跑到第几公里</h3>
+<p style="margin:0.8em 0">黄一今年 22 岁。高中读华东师大二附中，大学进了哈工大，然后休学创业。过去一年，他的公司萝博派对完成 5 轮融资、总额过亿美元；团队 140 人，其中将近一半是实习生；2025 年人形机器人 RPO 每月出货约 100 台，还都是「真实订单」。</p>
+<p style="margin:0.8em 0">他把这一年叫作「压测的人生」——「我感觉我把可能十年该吃的苦，一年吃完了。」</p>
+<p style="margin:0.8em 0">以下是他与十字路口对谈中，关于融资、泡沫、组织与具身智能终局的完整判断。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">投资人在投什么：不是年轻人，是已经做出来的东西</h2>
+<p style="margin:0.8em 0">黄一被问到最多的问题是：VC 为什么投你？他的回答很直接——「大家根本不是在看什么年轻人或者 BAT 背景。我们拿到第一批钱的时候，机器人都做出来了。」</p>
+<p style="margin:0.8em 0">当时公司内部先凑了几百万，基本是他自己投的，把原型机做出来，之后才有人愿意下注。2023 年他因为马斯克开始做人形机器人，在学校里自掏腰包买材料、堆叠装机。这个起点决定了后面所有的融资节奏：先有东西，再谈钱。</p>
+<p style="margin:0.8em 0">他的第一位 VC 是五源资本的 Bill，不是他找的，是 Bill 在他做的具身交流群里加了他。这大概也是具身赛道早期融资的常态：圈子小，谁在认真做事，同行和投资人看得见。</p>
+<p style="margin:0.8em 0">黄一给 VC 的本质下了一个定义：把未来才能赚到的现金流提前拿到今天用，先冲到行业的头部位置。反过来说，泡沫的大小，取决于行业里聚集的钱和商业化产生的钱之间的差距——「你拿了越多、拿了二十年的钱，大家体感就是泡沫更大。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一轮协议会跟着你走到 Pre-IPO</h2>
+<p style="margin:0.8em 0">在条款这件事上，22 岁的黄一展现出超出年龄的谈判意识。他的核心判断是：第一轮的投资协议基本会伴随公司走到 Pre-IPO，因为后来者大多沿用第一轮的条款框架。所以两件事最重要——第一轮有没有足够好的机构进来，第一轮能不能谈到好条款。</p>
+<p style="margin:0.8em 0">萝博派对现在的状态是：没有回购、没有对赌、没有个人连带，全部是「非常友好的免责条款」。他特意提到，连国资现在都不要求签个人连带回购。而回购条款在他看来是「达摩克利斯之剑，悬在你头上」——虽然执行侧很难真正被执行，但它的存在本身就是压力源。</p>
+<p style="margin:0.8em 0">细节上他提醒：回购的单利复利这类细节，决定了条款到底友不友好；「找一个谈过非常多投资条款的律师，能帮你规避掉非常多的投资风险」。</p>
+<p style="margin:0.8em 0">对董事会席位，他的态度同样反直觉：如果股东真的有帮助，给一个董事会席位反而会让帮助变得更顺畅。「我们跟小米，小米帮了我们非常多，包括小米和宁德这样的股东，帮助都非常非常大。」在他看来，董事会不是多一层管理，而是让有助力的股东名正言顺地参与。</p>
+<p style="margin:0.8em 0">至于 FA，他的看法是「市面上 FA 太多了，甚至出现了配售制度，这种事非常匪夷所思」。选 FA 他只看两个问题：第一，你能不能把行业里所有公司的融资情况和大致状况介绍一遍；第二，你能不能告诉我这个赛道里谁投得准、谁投得不准——「你聊一百个投资人，其中只有十个是投具身的，而且聊的线路都不对，那聊了也白聊。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">泡沫？Of course</h2>
+<p style="margin:0.8em 0">被问到行业是否有泡沫时，黄一的回答没有犹豫：「Of course。」</p>
+<p style="margin:0.8em 0">但他选择与泡沫共处。萝博派对有个股东叫顺为，「顺势而为」——行业起来这件事本身就是一个泡沫，问题是你能不能顺着这股势，把公司真正做起来。</p>
+<p style="margin:0.8em 0">他给过一个反例，也是他创业早期的认知错误：公司曾经有两条线，一条做现金流业务，用它的利润去养人形机器人。「这显然是错的。在一个大行业需要高频次迭代的时候，指望现金流业务去养人形机器人——等现金流业务跑起来，你的人形机器人已经被别人甩开了。」这个判断后来被他自己推翻，公司砍掉现金流业务，全力押注具身，靠 VC 的钱来完成节奏。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">认知大于格局大于技术大于管理大于努力</h2>
+<p style="margin:0.8em 0">黄一反复引用一句话，来自他提到的一位前辈：「认知大于格局，大于技术，大于管理。」他还在末尾补了一项——「大于努力，努力是最不重要的。」</p>
+<p style="margin:0.8em 0">他的解释是：如果你有一个判断，比如未来三年具身智能要爆发，那你今天应该拿着所有子弹 all in 做一个最好的模型；你知道行业格局怎么走，就知道哪些公司需要提防、哪些公司完全不用 care。融资怎么谈、组织怎么管，都是认知之下的执行问题。「战略是大于团队的。」</p>
+<p style="margin:0.8em 0">他对中外创业文化的对比也落在这套排序上：美国奖励探索者，敢探索没人做过的事的人拿到最多的钱和资源；但中国文化「并没有那么奖励探索的人」——它奖励能把公司做起来的人。探索某个范式、改变世界，和把一家公司做起来，是两条路径。「我目前是希望把萝博派对做起来。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RPO 的生意：学校、散件、一个 500 台的订单</h2>
+<p style="margin:0.8em 0">萝博派对目前的在售产品 RPO 定位是「零到一的教育类产品」——散件发货，客户买回去自己搭。每月约 100 台真实订单里，三四成卖给学校，「不只是比较好的学校会买，中国有一堆学校想了解具身智能到底是怎么回事」；另一类是创业公司，想搞清楚这个行业在做什么。</p>
+<p style="margin:0.8em 0">有一个细节很能说明产能与需求之间的错位：一家欧洲机构曾一次下单 500 台，他们只交付了二三十台。「我们虽然是散件发货，但供应链体系之前是落后于交付能力的。别的客户要等两三个月才能拿到机器人，我把五百台都给他了。」产能受限于供应链，而现在供应链正在搭起来。</p>
+<p style="margin:0.8em 0">他还有个在商业上「不 work」的做法：把所有客户拉进同一个群。结果客户之间互相答疑，「你提出一个 A 问题，会有 B 或者 C 帮你解答掉」，售后成本大幅下降。「这更多是像社区、像生态的感觉。」早期电脑和手机的生态也是这样长出来的——那些最早折腾芯片的发烧友里，后来走出了改变行业的公司，说不定他的用户里也会冒出下一个品牌。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RP One：从「自大」滑下去的那一刻</h2>
+<p style="margin:0.8em 0">从 RPO 到下一代产品 RP One，黄一称之为「从自大开始滑下去的过程」。拆解各家竞品之后，他看到一个巨大的认知差距：「别人已经开始上模具、注塑了，我们怎么还在小打小闹搞五十台、一百台？这是不 OK 的。」</p>
+<p style="margin:0.8em 0">RP One 计划在 Q4 发布，定价未定。产品化做了大量工作：加了两个头部自由度，重新设计整机构型，全内走线；还调研了二三十条竞品的问题——假手、肩部关节过热、手腕支撑力不够、把手容易碎、机器人很难装箱。他们的解法里包括让机器人能自主从箱子里站起来。「它不只是一个工程样机，它更多是一个产品。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">本体公司的竞争，藏在客户需求里</h2>
+<p style="margin:0.8em 0">黄一对本体生意的竞争逻辑很清醒：差异化在客户的需求里。他们积累了一批客户，直接问他们现在用产品遇到了什么问题、迭代需求是什么，把这些需求做成产品的 PRD。「这是公司最重要的能力：时时刻刻在大的行业里保持高品质的迭代。」</p>
+<p style="margin:0.8em 0">收集到的需求五花八门：有人想要能接五指手的手部接口，有人想要全身的总线协议方案和硬同步，有人问头部能不能做数据采集。「我们把这些需求在客户之间互相验证——把 A 的需求一二三四五六列出来问 B 满不满意，慢慢就有一种定标准的感觉，但我们不会说需求是哪家提的，各家的保密性还是要保持。」</p>
+<p style="margin:0.8em 0">他判断，随着操作层面的模型越来越成熟，本体的下一步竞争会转移到全身智能。「现在很多做全身智能的公司都在找我们做定制，包括 ETH 的 Flexion，国内的 Current、德塔元策，还有很多大公司想切入这一块。」本体公司在这个阶段的价值，是给这些智能公司提供最好的硬件基础。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">终局判断：模型公司会赢，认知是便宜的</h2>
+<p style="margin:0.8em 0">和很多创业者聊完十年后谁做出最终的机器人，黄一的结论偏向模型公司。「像智谱或者 OpenAI 这类公司，有足够多的卡、足够多的 infra、足够多的顶尖研究员，他们只要增加一些 robotics 的认知，就能快速解决 scaling 的事情。」</p>
+<p style="margin:0.8em 0">他的理由是：robotics 的认知是「便宜的」。「只要你招一些特别懂 robotics 的人就能补齐——OpenAI 招了一批顶级研究员进去，认知就补上了。」所以「大模型公司向上做」是他最看好的路径。</p>
+<p style="margin:0.8em 0">那本体公司呢？他并不回避这个问题：萝博派对的终局也一定要做模型，规划在 2027 年左右启动。至于大规模预训练的规模曲线，他认为是「先升后降」——先冲高参数，之后随着更高效的框架出现再回落。所以关键战略决策是：做第一波先升后降，还是等第二波直接切入。</p>
+<p style="margin:0.8em 0">他还给了一个现实的压力测试：「如果 OpenAI 下场成立了 OpenAI Robotics，它的 scaling 能力远大于现在国内任何创业公司，甚至远超过国内一系列模型公司。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">蜂巢组织：140 人，一半实习生，所有人可以直接找他</h2>
+<p style="margin:0.8em 0">创业一年，黄一经历过三个典型阶段：草台班子什么都不知道；创业六个月左右第一次懂了一级市场——「原来 VC 是把未来的钱拿到今天来用，他们是一个借力工具」；以及现在正在经历的百人管理坎。</p>
+<p style="margin:0.8em 0">他的组织观是「蜂巢结构」：由高人才密度驱动，一个人可以理解为一个圆，自然界中几个圆最稳定的组合就是蜂巢。对应到管理上，一个人最多 cover 六个面，「管理半径最好是六个人」。公司真正的层级只有两三层，「所有人可以直接来找我，我也可以找到所有人，这个很重要」。</p>
+<p style="margin:0.8em 0">但蜂巢并不适用于所有部门：他们把一个 lab 拆出来，完全由人才密度驱动、没有流程；而整机部门必须有明确分工——「如果你靠人才驱动，今天连找谁买零部件都不知道，那就非常完蛋了」。怎么把「无流程的人才密度」和「有流程的整机交付」结合，是他承认挺冲突、还在磨合的问题。</p>
+<p style="margin:0.8em 0">140 人的公司有一半是实习生，而他坚持所有人他都面试，「面最久的一个人面了几个小时」。对一个把「战略大于团队」挂在嘴边的创始人来说，这大概是他在「管理」这个他认为低优先级的事情上，唯一不肯妥协的地方。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">具身马拉松：本体跑了四分之一，大脑只跑了一两公里</h2>
+<p style="margin:0.8em 0">行业常说具身智能是马拉松，42 公里。黄一给了一个分段进度条：本体类大概跑了四分之一，系统类的迭代大部分在收敛；小脑类更快，大概一半——他们给运动控制框架加上了物体交互，机器人抱着东西被踹一脚，会恢复姿态、继续把东西捡起来；大脑类「我不知道是多少，因为我不知道大脑中枢长什么样子」。</p>
+<p style="margin:0.8em 0">他承认这是他现在丢失的认知：「中枢可能是这样——它整理了我全部的历史，能做出和我一样的动作、一样的力反馈。如果这是中枢，那今天可能只跑了一两公里。而且这个行业里，大家可能都没有这个判断。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">什么算「做起来了」：一个不认识你的人，在真实选择里买你的机器人</h2>
+<p style="margin:0.8em 0">黄一给自己定的成功标准很具体：「我爸爸妈妈愿意买一台机器人——这个感觉比较容易实现。不是，是那种不知道我品牌、不认识我的人，在真实选择里选择我的机器人。」认识他的人买不算，行业里的人买不算，陌生人在货架前做出选择才算。</p>
+<p style="margin:0.8em 0">至于创业的终点，他说「没有什么终点，达到目标之后该做什么，我们并没有想好」。创业快乐吗？他的回答是：对身体和精神不一定快乐，但对心理成长是极度快乐的。「除了创业，很难享受到压缩的人生——十年期的经历压缩在一年里，而且未来还会持续三五年、十年二十年。你可以在三十岁之前，活出百岁老人的睿智感。」</p>
+<p style="margin:0.8em 0">他还有一个与机器人无关的梦想：做海盗——租一条船漫无目的地飘，找到一条鱼，把它命名为「黄衣鱼」；商业航天起来了，说不定就上天看看。为什么？「人的追逐感。十年后的黄一看这个行业应该很通透，谁家做什么、哪家好坏都清楚。要保留这种感觉，我需要去探索一些新的、难以经历的部分。」</p>
+<p style="margin:0.8em 0">对想刚毕业就创业的学弟学妹，他的建议只有两条：创业最重要的，是实现商业闭环之后的增长；以及行业要足够大——像黄仁勋说的，不要一上来就切一个蓝海，不如在一个特殊的赛道里做好，然后把赛道做大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">融资的前提是先把东西做出来：萝博派对拿到第一批钱时原型机已成型，公司自己先投了几百万。投资人不看年轻人，看实物。</li>
+<li style="margin:0.3em 0">第一轮投资协议会伴随公司到 Pre-IPO：无回购、无对赌、无个人连带的条款框架，比融资金额本身更决定创业压力。回购是悬在头上的达摩克利斯之剑。</li>
+<li style="margin:0.3em 0">VC 的本质是把未来现金流提前到今天用；行业聚集的钱与商业化产生的钱之间的差距，就是泡沫。黄一对泡沫的态度是 Of course，但选择顺势把公司做起来。</li>
+<li style="margin:0.3em 0">用现金流业务养活人形机器人是认知错误：大行业高频迭代时，等现金流跑起来，产品已经被甩开。</li>
+<li style="margin:0.3em 0">认知大于格局大于技术大于管理大于努力：融资、组织都是认知之下的执行问题。中国文化奖励能把公司做起来的人，不奖励探索者。</li>
+<li style="margin:0.3em 0">本体公司的差异化在客户需求里：把客户问题做成 PRD，在客户之间交叉验证需求、逐渐定标准；全身智能时代，本体公司是智能公司的硬件底座。</li>
+<li style="margin:0.3em 0">终局大概率属于模型公司——卡、infra、研究员他们都有，robotics 认知是便宜的，招人就能补齐；但萝博派对也规划 2027 年自己做模型。</li>
+<li style="margin:0.3em 0">具身马拉松分段进度：本体约 1/4，小脑约 1/2，大脑只跑了一两公里——中枢长什么样，整个行业都还没有判断。</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
