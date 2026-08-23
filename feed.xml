@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 06:00:46 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 09:00:15 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</h1>
 <p style="margin:0.8em 0">SpaceX 600 亿美元收购 Cursor、Stripe 拿下 OpenRouter——那个星期里，a16z 基础设施负责人 Martin Casado 拆解了两笔交易背后的同一个判断：AI 改变的不只是"公司能造什么"，而是"造公司这门生意的经济学"。</p>
@@ -12764,16 +12764,16 @@ TapTap/Apple/Steam/雪球采集✅；
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-22 | <strong style="font-weight:600">时长</strong>: ~49K字符转录（约50分钟） | <strong style="font-weight:600">Podwise</strong>: <a href="https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM</a></p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">背景</strong>：Martin Casado（a16z 普通合伙人，基础设施业务负责人）接受 MTS 访谈。当周 SpaceX 以 600 亿美元收购 Cursor、Stripe 收购 OpenRouter（均为 a16z 支持公司）。</p>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🧠 嘉宾的主张（结论）</h3>
-<p style="margin:0.8em 0">AI 不只是改变公司能造什么，而是改变&quot;造公司&quot;本身的经济学——历史上第一次，20 人小团队能高效部署 20 亿美元资本并直接转化为增长。这是 Casado 职业生涯见过的最大财富解锁（超过 90 年代互联网浪潮）。不要用零和思维和财务指标（毛利/流失率/收入质量）看待转型期战略控制点，价值正在所有层同时创造。</p>
+<p style="margin:0.8em 0">AI 不只是改变公司能造什么，而是改变"造公司"本身的经济学——历史上第一次，20 人小团队能高效部署 20 亿美元资本并直接转化为增长。这是 Casado 职业生涯见过的最大财富解锁（超过 90 年代互联网浪潮）。不要用零和思维和财务指标（毛利/流失率/收入质量）看待转型期战略控制点，价值正在所有层同时创造。</p>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📊 支撑论据（含证据类型）</h3>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">20人团队 + 20亿美元造出流行多模态模型</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历/行业观察]</code> — 历史上工程行业从未有 20 人高效用掉 20 亿美元；资本 → 算力/数据/RL → 能力/使用量的直接转化</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">实验室赢面数据</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> — 3 年数据：OpenAI+Anthropic 已融资 2200-2400 亿美元，超过整个下游生态总和；美元加权份额 95%；前沿保持 epsilon 优势即可维持定价权（竞争均衡）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">自催化效应（非 RSI）</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> — AI 帮造 GPU kernel → 加速 AI 本身；实验室内部认为离开源越来越远，但 benchmark 无法度量（benchmark 是 AI-complete 问题）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">反方论据</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> — 真正跑通的服务域主要是代码+语言推理，其余域需要服务化（单组织难覆盖）；开源生态成熟；实验室靠廉价资本+GPU 供给约束占优，两者都会理性化/缓解</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">模型粘性高于预期</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> — &quot;换模型&quot;很少发生，采购动态（预购 credits）是主要原因；智能路由是 AI-complete 难题，现实收益在成本优化而非质量选择</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">OpenRouter 价值 = 双边市场非路由</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> — token 路径上的品牌垄断 + 聚合长尾；对上游&quot;我们带数百万用户来&quot;，对下游&quot;新模型都会上架&quot;；实际路由 arbitrage 收益不确定（定价动态、补贴、Pareto 效率模型一统）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Cursor 600 亿收购估值合理</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> — 私有独立估值同量级（&quot;我们很容易就能以这个估值融资&quot;）；Cursor 是产品公司（创始人 30-40% 时间花在招人+文化），非研究公司/服务公司，这是差异化关键</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型粘性高于预期</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> — "换模型"很少发生，采购动态（预购 credits）是主要原因；智能路由是 AI-complete 难题，现实收益在成本优化而非质量选择</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">OpenRouter 价值 = 双边市场非路由</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> — token 路径上的品牌垄断 + 聚合长尾；对上游"我们带数百万用户来"，对下游"新模型都会上架"；实际路由 arbitrage 收益不确定（定价动态、补贴、Pareto 效率模型一统）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Cursor 600 亿收购估值合理</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> — 私有独立估值同量级（"我们很容易就能以这个估值融资"）；Cursor 是产品公司（创始人 30-40% 时间花在招人+文化），非研究公司/服务公司，这是差异化关键</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">补贴 = 新 CMO</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> — CMO 角色 CFO 化：补贴/反补贴成为增长核心旋钮；中国出现专业套利操作（$200 套餐 3 天耗尽 → 取消 → 按比例退款 → 转卖服务），大厂与套利者的猫鼠游戏</li>
 </ol>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔗 论证过程</h3>
@@ -12781,18 +12781,18 @@ TapTap/Apple/Steam/雪球采集✅；
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔬 第一性原理剖析</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设1：AI 资本回报率持续为正且可规模化（&quot;10 美元进，X 美元出&quot;的因果链成立）</li>
+<li style="margin:0.3em 0">假设1：AI 资本回报率持续为正且可规模化（"10 美元进，X 美元出"的因果链成立）</li>
 <li style="margin:0.3em 0">假设2：供给约束（GPU）2028 年缓解，开源/长尾因此受益</li>
-<li style="margin:0.3em 0">假设3：转型期&quot;战略控制点&quot;价值 &gt; 当期财务指标（护城河/毛利）</li>
+<li style="margin:0.3em 0">假设3：转型期"战略控制点"价值 &gt; 当期财务指标（护城河/毛利）</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">若资本回报率不达预期（&quot;10 进 9 出&quot;），实验室融资链断裂，行业萎缩而非碎片化</li>
+<li style="margin:0.3em 0">若资本回报率不达预期（"10 进 9 出"），实验室融资链断裂，行业萎缩而非碎片化</li>
 <li style="margin:0.3em 0">Casado 是 a16z 基础设施负责人，组合重仓 Cursor/OpenRouter——对被收购标的的乐观评价存在利益相关（幸存者偏差 + 确认偏误）</li>
-<li style="margin:0.3em 0">&quot;价值在所有层创造&quot;与其 600 亿退出叙事同频，需打折看待</li>
+<li style="margin:0.3em 0">"价值在所有层创造"与其 600 亿退出叙事同频，需打折看待</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📈 投资信号可靠度</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 事实（并购金额、融资规模）可验证，但核心判断（2028 供给缓解、80/60 份额预测）是明确标注的&quot;个人猜测&quot;（&quot;totally guessing&quot;）
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 事实（并购金额、融资规模）可验证，但核心判断（2028 供给缓解、80/60 份额预测）是明确标注的"个人猜测"（"totally guessing"）
 <strong style="font-weight:600">风险</strong>: 若判断错了，最可能原因是 Casado 作为卖方（a16z 组合退出方）的系统性乐观偏差</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集（已处理，本轮跳过）</h2>
@@ -12848,5 +12848,47 @@ TapTap/Apple/Steam/雪球采集✅；
 <p style="margin:0.8em 0"><em>管线状态：transcript 完整性抽查通过（a16z/sv101 文件大小各异、标题与内容匹配）。无管线告警。</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-23</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-23.html</link><guid isPermaLink="false">report:AI动态:2026-08-23:66d512d6</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-23</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/23（近一周精选 · 机器人 IPO / 具身智能 / AI 工具链）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：宇树科技上海 IPO 首日暴涨成全球焦点、第 2 届世界人形机器人运动会北京开幕、DeepSeek 开源 agent harness、MCP 规范路线图更新。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">本周机器人赛道迎来历史性一周：宇树科技（Unitree）8/19 在上海科创板上市，首日暴涨 460-629%，估值最高达 660 亿美元，成为中国人形机器人行业首个标志性 IPO（尽管面临美国禁令）。8/22 第 2 届世界人形机器人运动会在北京开幕，2000+ 台机器人、16 国参赛。CEO 王兴兴同时表态机器人&quot;ChatGPT moment&quot;仍需数年。AI 工具链侧：DeepSeek 发布 MIT 许可的 agent harness（GitHub 18.5 万 stars），MCP 官方发布新路线图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 宇树科技上海 IPO 首日暴涨，估值最高 $66B | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">宇树科技 8/19 在科创板上市，首日股价大涨。SCMP 报道涨 629%、估值达 660 亿美元；CNBC 报道涨 542%；Guardian/CoinDesk 报道涨约 600%；融资规模约 $0.9-1.3B（Bloomberg/AFR）。Reuters 称其为&quot;中国人形机器人行业的里程碑&quot;。报道普遍强调该上市发生在美国对华机器人禁令背景下，被视为中国科技&quot;本土融资&quot;战略的典型。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 10+ 独立媒体（Reuters/CNBC/WSJ/Bloomberg/FT/AP/Guardian/SCMP）一致确认事件；🔴 涨幅/估值各源区间分歧（542%-629%，$50B-$66B），未核验交易所收盘原始数据 — <strong style="font-weight:600">关注</strong>: 人形机器人首个标杆 IPO，为赛道估值定锚</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / CNBC / WSJ / Bloomberg / SCMP 等（8/18-20）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 第 2 届世界人形机器人运动会北京开幕，2000+ 机器人参赛 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">8/22 第 2 届世界人形机器人运动会在北京开幕（首届 2025 年），2000+ 台机器人、16 国选手参赛，设短跑、足球、格斗等项目。BBC 报道百米赛跑中机器人成绩超越博尔特人类纪录（机器人赛道成绩口径）；Global Times 报道开幕式机器人射箭手点燃主火炬。China Daily/CGTN/Bloomberg 均以显著版面报道，称&quot;机器人奥运会&quot;。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 10+ 独立媒体（BBC/Bloomberg/China Daily/Global Times/CGTN/LATimes 等）一致确认；&quot;破博尔特纪录&quot;为机器人组别成绩口径，非与人类同场竞技 — <strong style="font-weight:600">关注</strong>: 具身智能年度最大展示场，量产进度集中检阅</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: BBC / Bloomberg / Global Times / China Daily（8/22）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 宇树 CEO：机器人&quot;ChatGPT moment&quot;仍需数年 | 🟡 | [🔮预测]</h3>
+<p style="margin:0.8em 0">宇树 CEO 王兴兴 8/20-21 接受多家媒体采访，称机器人大脑正接近&quot;ChatGPT moment&quot;，但各家引述时间表分歧明显：Reuters/Next Web 称&quot;接近&quot;；TrendForce 引述&quot;2-3 年最早&quot;；Business Insider 称&quot;最多 5 年&quot;；CNBC 引述&quot;可能 10 年&quot;。共识指向：VLA/具身大模型尚未到临界点，数据与模型能力仍是瓶颈。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 发言真实（Reuters/CNBC/BI/Fortune 多家独立报道）；🔴 各源引述时间表差异大，无法确定原始完整语境 — <strong style="font-weight:600">关注</strong>: 行业龙头对具身智能落地节奏的官方预期</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / CNBC / Business Insider / TrendForce（8/20-21）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. DeepSeek 发布 MIT 许可 agent harness：Everything is a Plugin | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">DeepSeek 8/17 发布 DeepSeek Harness developer preview——MIT 许可的开源 agent 框架，核心设计&quot;一切皆插件&quot;。GitHub 官方仓库 deepseek-ai/deepseek-harness 已确认存在（8/21 仍有更新，18.5 万 stars），描述为 &quot;DeepSeek Harness: Everything is a Plugin&quot;。MarkTechPost 等多家报道其架构为模块化插件体系，目标降低 agent 工具链构建门槛。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ GitHub API 直接核验仓库存在/许可/活跃度；MarkTechPost/KDnuggets 等媒体报道一致 — <strong style="font-weight:600">关注</strong>: DeepSeek 补齐 agent 工具链，开源生态竞争加剧</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: GitHub（deepseek-ai/deepseek-harness）/ MarkTechPost（8/17）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. MCP 官方发布新路线图 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Model Context Protocol 官方博客发布 &quot;The New MCP Roadmap&quot;，更新规范路线图与未来版本重点方向（HN 首页 170+ 分热帖）。Roadmap 聚焦 upcoming specification releases 的优先领域，MCP 生态已从 Anthropic 内部标准扩展为行业协作治理。具体版本条目未逐条核验。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客原文确认（blog.modelcontextprotocol.io/posts/mcp-roadmap/）；🔴 具体版本规划细节未逐条核验 — <strong style="font-weight:600">关注</strong>: Agent 互操作标准演进方向，工具生态风向标</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: blog.modelcontextprotocol.io（8/21-22）</li>
+</ul>
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
