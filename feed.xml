@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 23:00:13 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 23 Aug 2026 23:00:17 +0800</lastBuildDate><item><title>[a16z] 资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</title><link>https://xlicz.github.io/podcast-rss/articles/资本终于花得动了-Martin-Casado-谈-AI-时代的价值去向-2026-08-22.html</link><guid isPermaLink="false">a16z_ad625776e3cd</guid><pubDate>Sat, 22 Aug 2026 08:00:00 +0800</pubDate><description>资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">资本终于花得动了：Martin Casado 谈 AI 时代的价值去向</h1>
 <p style="margin:0.8em 0">SpaceX 600 亿美元收购 Cursor、Stripe 拿下 OpenRouter——那个星期里，a16z 基础设施负责人 Martin Casado 拆解了两笔交易背后的同一个判断：AI 改变的不只是"公司能造什么"，而是"造公司这门生意的经济学"。</p>
@@ -12905,8 +12905,8 @@ TapTap/Apple/Steam/雪球采集✅；
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0">周末两天新增 40 万下载、在线峰值今天比昨天高 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[引用@月旨_投资笔记数据]</code></li>
 <li style="margin:0.3em 0">苹果商店收入约占总收入 15%，85% 是 PC 端和安卓官包直接收入 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code></li>
-<li style="margin:0.3em 0">《诡秘之主》推外观 1 折券 = &quot;血流成河的胜利&quot;；研发成本 10 亿 + 宣发 2 亿 ≈ 12 亿，保本线 = 全球首年流水 20 亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code></li>
-<li style="margin:0.3em 0">历史：2025-06 &quot;珍惜 200 亿及以下的心动&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史发言]</code></li>
+<li style="margin:0.3em 0">《诡秘之主》推外观 1 折券 = "血流成河的胜利"；研发成本 10 亿 + 宣发 2 亿 ≈ 12 亿，保本线 = 全球首年流水 20 亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人估算]</code></li>
+<li style="margin:0.3em 0">历史：2025-06 "珍惜 200 亿及以下的心动" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史发言]</code></li>
 </ol>
 <h4>🔗 论证过程</h4>
 <p style="margin:0.8em 0">诡秘之主公测数据火爆 → TapTap 作为主要分发渠道获得流量/广告/分成收益 → 心动受益 → 看多。</p>
@@ -12954,13 +12954,13 @@ TapTap/Apple/Steam/雪球采集✅；
 </ul>
 <h4>🔬 第一性原理剖析</h4>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：诡秘之主在 TapTap 分发带来可观的渠道/广告收入增量。
-<strong style="font-weight:600">替代解释</strong>：快手游戏有自己的发行体系，TapTap 只是渠道之一；若游戏热度主要发生在官包/其他渠道，心动实际受益有限。且 TapTap 分成与广告是&quot;流量生意&quot;，对心动收入弹性远小于自研爆款。</p>
+<strong style="font-weight:600">替代解释</strong>：快手游戏有自己的发行体系，TapTap 只是渠道之一；若游戏热度主要发生在官包/其他渠道，心动实际受益有限。且 TapTap 分成与广告是"流量生意"，对心动收入弹性远小于自研爆款。</p>
 <h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 下载数据与公开报道吻合，但&quot;心动受益&quot;链条是推断。今日心动 +3.90%（42.6 港币，市值 206 亿），短期情绪已兑现。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 下载数据与公开报道吻合，但"心动受益"链条是推断。今日心动 +3.90%（42.6 港币，市值 206 亿），短期情绪已兑现。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 快手研发的游戏火爆，收益归快手；TapTap 渠道受益被市场高估。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 浊静徐清 — 腾讯(00700) WorkBuddy（10条合并）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看多 — WB 是&quot;现象级产品&quot;，ARR 年底 40 亿 → 明年底 400 亿</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 看多 — WB 是"现象级产品"，ARR 年底 40 亿 → 明年底 400 亿</p>
 <h4>🧠 作者的主张</h4>
 <p style="margin:0.8em 0">WorkBuddy 扩张速度超过腾讯历史上所有产品，Token 消耗两个月翻 5 倍，年底 ARR 达 40 亿、明年底前后达 400 亿，是腾讯第三个现象级产品。</p>
 <h4>📊 支撑论据</h4>
@@ -12986,13 +12986,13 @@ TapTap/Apple/Steam/雪球采集✅；
 <tbody>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WB &quot;爆发式增长&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WB "爆发式增长"</td>
   <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/12 Q2 业绩会：管理层原话&quot;WorkBuddy 正在爆发式增长&quot;（每经）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/12 Q2 业绩会：管理层原话"WorkBuddy 正在爆发式增长"（每经）</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">付费用户毛利&quot;相当不错&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">付费用户毛利"相当不错"</td>
   <td style="text-align:center">✅</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">James Mitchell 业绩会原话：付费毛利可与腾讯云整体媲美（腾讯新闻 8/12）</td>
 </tr>
@@ -13018,7 +13018,7 @@ TapTap/Apple/Steam/雪球采集✅；
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">毛利 52%</td>
   <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与业绩会&quot;付费部分毛利相当不错&quot;方向一致，数字未证实</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与业绩会"付费部分毛利相当不错"方向一致，数字未证实</td>
 </tr>
 </tbody>
 </table></div>
@@ -13040,7 +13040,7 @@ TapTap/Apple/Steam/雪球采集✅；
 <p style="margin:0.8em 0">阿里电商打不过就该认，不要往窟窿里塞钱；没有塞那 1000 亿，何至于现在卖股求钱。经历移动互联网完整周期，市值仍停留在 12 年前上市那年，时间不是阿里的朋友。</p>
 <h4>📊 支撑论据</h4>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">&quot;没有塞那 1000 亿，何至于现在卖股求钱&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">"没有塞那 1000 亿，何至于现在卖股求钱" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
 <li style="margin:0.3em 0">经历移动互联网波澜壮阔的十多年，市值仍停留在开始的地方 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史对比]</code></li>
 <li style="margin:0.3em 0">电商打不过，要认，不要往窟窿里面塞钱 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[主观判断]</code></li>
 </ol>
@@ -13084,14 +13084,14 @@ TapTap/Apple/Steam/雪球采集✅；
 <p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：电商塞 1000 亿的因果链。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> — 把配股归因于&quot;电商失败被迫融资&quot;，忽略 AI 军备竞赛主动融资需求。市场反应（1 小时超额认购、主权基金抢购）更接近&quot;主动窗口融资&quot;而非&quot;卖股求钱&quot;。</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[非黑即白]</code> — &quot;电商打不过要认&quot;忽略了阿里 9% 收入增长和 AI ARR 495 亿的增量。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> — 把配股归因于"电商失败被迫融资"，忽略 AI 军备竞赛主动融资需求。市场反应（1 小时超额认购、主权基金抢购）更接近"主动窗口融资"而非"卖股求钱"。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[非黑即白]</code> — "电商打不过要认"忽略了阿里 9% 收入增长和 AI ARR 495 亿的增量。</li>
 </ul>
 <h4>🔬 第一性原理剖析</h4>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：配股 = 缺钱的信号。
-<strong style="font-weight:600">替代解释</strong>：新京报/券商报道称配售 100% 投 AI、capex 预计 2.5-3 年回本、主权财富基金抢购——市场定价为 AI 扩张融资，与&quot;被迫卖股&quot;相反。若 AI 投入兑现（ARR 下季度目标 100 亿美元），本次配股可能是低点融资而非利空。</p>
+<strong style="font-weight:600">替代解释</strong>：新京报/券商报道称配售 100% 投 AI、capex 预计 2.5-3 年回本、主权财富基金抢购——市场定价为 AI 扩张融资，与"被迫卖股"相反。若 AI 投入兑现（ARR 下季度目标 100 亿美元），本次配股可能是低点融资而非利空。</p>
 <h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 市值停滞、经营利润 -57% 可验证 ✅；但&quot;配股=求钱&quot;的核心解读与市场实际反应矛盾，可靠性打折。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 市值停滞、经营利润 -57% 可验证 ✅；但"配股=求钱"的核心解读与市场实际反应矛盾，可靠性打折。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 把主动 AI 融资误读为财务困境，错过基本面拐点。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 亲爱的阿兰 — 腾讯(00700)</h2>
@@ -13101,8 +13101,8 @@ TapTap/Apple/Steam/雪球采集✅；
 <h4>📊 支撑论据</h4>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0">优惠税率业务恢复 25% 风险 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人分析]</code></li>
-<li style="margin:0.3em 0">&quot;其他业务增长我也算不清楚，没什么吸引力&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[主观判断]</code></li>
-<li style="margin:0.3em 0">&quot;AI capex 是个大难题，并不简单&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">"其他业务增长我也算不清楚，没什么吸引力" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[主观判断]</code></li>
+<li style="margin:0.3em 0">"AI capex 是个大难题，并不简单" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
 </ol>
 <h4>🔍 事实核查</h4>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
@@ -13129,7 +13129,7 @@ TapTap/Apple/Steam/雪球采集✅；
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;恢复 25% 也很正常&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"恢复 25% 也很正常"</td>
   <td style="text-align:center">❓</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">政策走向主观判断</td>
 </tr>
@@ -13137,13 +13137,13 @@ TapTap/Apple/Steam/雪球采集✅；
 </table></div>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 用税率假设 + capex 不确定性否定整个公司，忽略 WB/微信生态的期权价值；与浊静徐清&quot;WB 爆发&quot;形成同一公司的完全相反结论。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 用税率假设 + capex 不确定性否定整个公司，忽略 WB/微信生态的期权价值；与浊静徐清"WB 爆发"形成同一公司的完全相反结论。</li>
 </ul>
 <h4>🔬 第一性原理剖析</h4>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：税率回归 + capex 高企 → 净利润增长不可持续。
 <strong style="font-weight:600">替代解释</strong>：capex 是 AI 时代入场券，若 WB/token 业务转化成功（业绩会：token 成本极低、正毛利），capex 反而是增长引擎而非难题。</p>
 <h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 论据部分可验证，但&quot;不买&quot;结论依赖主观税率判断。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 论据部分可验证，但"不买"结论依赖主观税率判断。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 税收政策假设落空 + AI 变现超预期，错过腾讯 AI 期权。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 酒金岁月 — 白酒（2条合并）</h2>
@@ -13153,8 +13153,8 @@ TapTap/Apple/Steam/雪球采集✅；
 <h4>📊 支撑论据</h4>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0">白酒消费还在萎缩，说明消费结构改变 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
-<li style="margin:0.3em 0">&quot;等你听到布谷鸟叫了，春天已经过去。这轮白酒周期不典型：一线白酒年报业绩 25 年才负增长，股价 21 年就开始下跌&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史对比]</code>（8/19）</li>
-<li style="margin:0.3em 0">&quot;价值投资动辄看未来十年，很容易陷于盲信误区，一旦看错代价太大&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论反思]</code></li>
+<li style="margin:0.3em 0">"等你听到布谷鸟叫了，春天已经过去。这轮白酒周期不典型：一线白酒年报业绩 25 年才负增长，股价 21 年就开始下跌" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史对比]</code>（8/19）</li>
+<li style="margin:0.3em 0">"价值投资动辄看未来十年，很容易陷于盲信误区，一旦看错代价太大" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论反思]</code></li>
 </ol>
 <h4>🔍 事实核查</h4>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
@@ -13187,7 +13187,7 @@ TapTap/Apple/Steam/雪球采集✅；
 </tr>
 </tbody>
 </table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：观点持续修正 — 7/26&quot;白酒在走右侧&quot;（偏多，茅台是风向标、去年 Q4 见底）→ 8/8&quot;茅台并不超人一等，高端白酒一体化&quot; → 8/19&quot;布谷鸟论，周期不典型&quot;（🔴）→ 今日&quot;消费结构改变&quot;（🔴）。一个月内从偏多转向明确谨慎。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：观点持续修正 — 7/26"白酒在走右侧"（偏多，茅台是风向标、去年 Q4 见底）→ 8/8"茅台并不超人一等，高端白酒一体化" → 8/19"布谷鸟论，周期不典型"（🔴）→ 今日"消费结构改变"（🔴）。一个月内从偏多转向明确谨慎。</p>
 <h4>📈 投资信号可靠度</h4>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 行业事实可验证，核心结论（结构改变）是长期判断。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 白酒周期见底反弹，作者在底部区域过度悲观。</p>
@@ -13205,22 +13205,22 @@ TapTap/Apple/Steam/雪球采集✅；
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯 1% 澄清 + 泡泡玛特巡店</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;1% 的腾讯目前大概 400 亿出头，我确实没有过这么多&quot;（市值 4.16 万亿 ✅ 吻合）；&quot;那么小看大道？&quot;辟谣&quot;卖腾讯换泡泡玛特&quot;传言；泡泡玛特退换货建议、拆盲盒、甜品店体验 — 泡泡玛特长线看好不变</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"1% 的腾讯目前大概 400 亿出头，我确实没有过这么多"（市值 4.16 万亿 ✅ 吻合）；"那么小看大道？"辟谣"卖腾讯换泡泡玛特"传言；泡泡玛特退换货建议、拆盲盒、甜品店体验 — 泡泡玛特长线看好不变</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里配股 + 中国资产</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;听完业绩会就预感一定会配股&quot; ✅（8/20 财报→8/23 配股兑现）；&quot;800 亿做 AI 我觉得钱有点少&quot;；中期假设人民币升到 5，优先持有优质中国资产；香港房产有吸引力（贷比租便宜）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"听完业绩会就预感一定会配股" ✅（8/20 财报→8/23 配股兑现）；"800 亿做 AI 我觉得钱有点少"；中期假设人民币升到 5，优先持有优质中国资产；香港房产有吸引力（贷比租便宜）</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逸修1</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里配股点评</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;还是网易这类公司的好吧&quot;；&quot;某公司周五这种走势只有配股能解释…All in AI 对团子倒是好事，周五不知道在跌啥&quot;（配股前砸盘→消息泄露 ✅ 事后证实）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"还是网易这类公司的好吧"；"某公司周五这种走势只有配股能解释…All in AI 对团子倒是好事，周五不知道在跌啥"（配股前砸盘→消息泄露 ✅ 事后证实）</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里 + 黄酒</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;你们觉得阿里巴巴会变成下一个 META 么？&quot;（引用批评：千亿买显卡算好三年回本 vs 外卖千亿当废纸撒，财务逻辑割裂）；黄酒价值回归闲聊（威士忌年份体系需涨 7 倍、酱香体系需涨 20 倍——metalslime 观点，郭未表态）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"你们觉得阿里巴巴会变成下一个 META 么？"（引用批评：千亿买显卡算好三年回本 vs 外卖千亿当废纸撒，财务逻辑割裂）；黄酒价值回归闲聊（威士忌年份体系需涨 7 倍、酱香体系需涨 20 倍——metalslime 观点，郭未表态）</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
@@ -13230,17 +13230,17 @@ TapTap/Apple/Steam/雪球采集✅；
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒/泡泡玛特</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">顺鑫农业窖龄 90 品酒闲聊；&quot;没人能真正懂泡泡玛特&quot;讨论区站队</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">顺鑫农业窖龄 90 品酒闲聊；"没人能真正懂泡泡玛特"讨论区站队</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小微/WB 细节</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小微轻调用、不收 token 费走任务分成；湾擎（广东政务枢纽）与 WB 并行；&quot;先打下城，再谈护城河&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小微轻调用、不收 token 费走任务分成；湾擎（广东政务枢纽）与 WB 并行；"先打下城，再谈护城河"</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山行</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 烧钱</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;大家终于知道，可以这么烧钱的玩家屈指可数&quot;（语境不明，疑指 AI 资本开支）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"大家终于知道，可以这么烧钱的玩家屈指可数"（语境不明，疑指 AI 资本开支）</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黑色面包</td>
@@ -13252,7 +13252,7 @@ TapTap/Apple/Steam/雪球采集✅；
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 本周值得质疑的观点（Top 3）</h2>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（阿里）&quot;被迫卖股求钱&quot;因果链</strong> — 配股 800 亿被 1 小时超额认购、主权基金抢购、100% 投 AI、官方称 capex 2.5-3 年回本。市场解读为&quot;主动窗口融资&quot;，与&quot;卖股求钱&quot;叙事相反。经营利润 -57% 是事实，但把配股全归因电商失败是事后归因。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（阿里）"被迫卖股求钱"因果链</strong> — 配股 800 亿被 1 小时超额认购、主权基金抢购、100% 投 AI、官方称 capex 2.5-3 年回本。市场解读为"主动窗口融资"，与"卖股求钱"叙事相反。经营利润 -57% 是事实，但把配股全归因电商失败是事后归因。</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（腾讯 WB）ARR 40 亿 → 400 亿（10 倍）</strong> — 核心数字全部来自专家纪要，无法审计。40→400 亿意味着一年内月环比 25% 持续 12 个月，且 400 亿 ARR 已是企业软件头部量级。方向有业绩会背书，倍数无背书。</p>
 </li>
@@ -13261,5 +13261,431 @@ TapTap/Apple/Steam/雪球采集✅；
 </ol>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item></channel>
+]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-08-23</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-23.html</link><guid isPermaLink="false">report:心动日报:2026-08-23:a7591483</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-23</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-23（周日）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
+数据源状态: TapTap✅ / Apple✅ / Steam✅ / 逸修1✅ / 股价✅（腾讯源）
+周日休市，股价沿用 8-21 周五收盘 42.60
+（fetch_stock.py 腾讯兜底✅；akshare东财⚠️6/6断连，连续6日）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日判断: <strong style="font-weight:600">无快信号触发，维持持有</strong>
+——周日无交易，股价持平；
+8-22 回升疑为周末效应，
+8-23 东南亚核心区全线回落
+（泰/印/马/菲4区同步），
+8-24 周一为验证点</li>
+<li style="margin:0.3em 0">关键数字: 股价42.60（0%，周日
+休市）| 市值~193亿港元（≈175亿
+人民币）| 残差-43%低位（持平）</li>
+<li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E影响: 无修正</strong>——
+今日新增5条全为行业口径
+（诡秘快手系/网易/美团），
+0条心动主张；对错统计
+✅0/⚠️0/❓1/❌0（另4条不判）</li>
+<li style="margin:0.3em 0">最值得注意: ①8-22回升一日游
+风险——8-23 SEA核心区回落但
+仍高于8-12基线6-11位，未触发
+E下修 ②RO新游第9日菲#2/泰#3
+坚挺 ③半年报进入最后~1周窗口
+④RO初心服回升（泰#73→47/
+菲#33→27），修正昨日&quot;无踪影&quot;
+口径</li>
+<li style="margin:0.3em 0">行动: 持有不加不减（半年报前不变）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价 42.60（8-21 周五收盘；
+周日休市，此为最新）
+涨跌 0%（vs 8-22 日报，无交易）
+市值 ~193亿港元（≈175亿人民币）
+52周区间: 40.10 - 92.45（距低点 +6.2%）
+近5日: 43.20→42.46→42.52→41.00
+→42.60（不变，周日无交易）</p>
+<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">v3.2校准3: 低位残差不调E（残差&lt;-30%
+持续&gt;3个月才复核；8月底半年报=复核点）
+位置: 175亿人民币在悲观锚区间内
+市场隐含E≈10.4亿 vs 我18.5亿
+（-43%，与8-22持平；8-21股价+3.9%
+收窄3pt后无进一步变化）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO第9日稳</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️观察</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">回落待验</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①游戏收入2季下滑</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-43%低位</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">持平</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">快慢判定:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">快信号: ④RO新游(世界之旅)第9日
+菲#2(0)/泰#3(0)/马#5(+1)/印#11
+(-2)/台#10(+3)/港#21(-4)/新#15
+(-1)——首周高位延续，首月未满
+继续追踪；⑤无新信息 → 均未触发</li>
+<li style="margin:0.3em 0">慢信号: ③维持⚠️（8-18自承
+tap+adn -1亿）；①②待半年报</li>
+<li style="margin:0.3em 0">先行: 8-22回升（9/11区）后8-23
+回落——东南亚核心区泰#14(-2)/
+印#22(-4)/马#46(-7)/菲#18(-4)
+4区同步下滑，但对比8-12基线
+（20/30/29）仍高6-11位，未跌破
+→ E下修预警未触发；8-22回升疑
+周末效应，8-24周一确认方向</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam）</h2>
+<p style="margin:0.8em 0">TapTap（vs 8-22）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: #5 小镇(+1) | #6 香肠(+2)
+| #82 戴夫(-18)</li>
+<li style="margin:0.3em 0">新品: 心动系不在榜</li>
+<li style="margin:0.3em 0">预约: RO2守护永恒的爱2 出榜
+（8-22 #68 一日游后跌出）</li>
+<li style="margin:0.3em 0">热卖: #1 戴夫(0)</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs 8-22，回落日）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国畅销: #71 小镇国服(-3)</li>
+<li style="margin:0.3em 0">中国免费: #57 小镇(-7) | #98 香肠</li>
+<li style="margin:0.3em 0">香港畅销: #55 小镇国际(+19
+大幅回升) | 铃兰海外出榜(昨#56)</li>
+<li style="margin:0.3em 0">台湾#48(-4) | 日本#74(+6)</li>
+<li style="margin:0.3em 0">韩国#48(-4) | 新加坡#60(+1)</li>
+<li style="margin:0.3em 0">泰国#14(-2) | 印尼#22(-4)</li>
+<li style="margin:0.3em 0">马来#46(-7) | 菲#18(-4) | 巴西
+#77(+6)</li>
+<li style="margin:0.3em 0">法/美/德/英/越: 无（连续）</li>
+<li style="margin:0.3em 0">RO新游(世界之旅)第9日: 菲#2(0)/
+泰#3(0)/马#5(+1)/印#11(-2)/台#10
+(+3)/港#21(-4)/新#15(-1) — 高位
+延续，小幅波动属首周自然衰减</li>
+<li style="margin:0.3em 0">RO初心服: 泰#47(昨73,+26)/
+菲#27(昨33,+6)/印#100(新进)/
+马#95(新进)；kr区iOS榜仍无踪影
+——⚠️修正8-22&quot;16区无踪影&quot;口径
+（8-22实为泰#73/菲#33在榜）；
+回升1日，观察是否新版本/活动驱动</li>
+<li style="margin:0.3em 0">⚠️kr区iOS榜不代表韩服全貌
+（韩服安卓占比高），RO韩服判定
+须持此口径</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">火炬之光: 在线3407/24h峰3637/
+历史27296（留存12.5%）30日均
+4026（8-22为4262，-5.5%续回落；
+专家服脉冲退潮: 8-21 +38.6%→
+8-22 -13.9%→8-23 -8.9%）</li>
+<li style="margin:0.3em 0">心动小镇: 在线14068/24h峰14119/
+历史65894（留存21.4%）30日均
+11098（8-22为11127，-0.3%企稳）</li>
+<li style="margin:0.3em 0">解读: 小镇PC企稳；火炬30日均
+4026续下行通道，专家服脉冲
+完全失效</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断（v3.2校准2）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">E下修预警: <strong style="font-weight:600">未触发</strong>——8-22回升
+1日后8-23回落，需连续2周+≥3区
+同步才触发；当前核心区仍高于
+8-12基线（泰#14vs20高6/印#22vs30
+高8/菲#18vs29高11），8-24周一
+若续跌且破基线→登记预警</li>
+<li style="margin:0.3em 0">出榜: 铃兰海外出港榜（昨#56）；
+RO2预约出榜（昨#68）；法/美/
+德/英/越持续无</li>
+<li style="margin:0.3em 0">多区同步恶化: 部分（SEA 4区
+同步下滑，但港/日/巴回升；
+第13采样点，方向待8-24确认）</li>
+<li style="margin:0.3em 0">复苏/脉冲: 8-22疑似周末效应
+回升；8-23回落；火炬专家服
+脉冲完全退潮</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
+<p style="margin:0.8em 0">今日新增: 9条抓取，其中4条
+（8-22 13:03/15:12/18:43/20:19）
+昨日已判；净新增5条
+（8-22 22:58 ~ 8-23 21:01）</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论（先给判断，再给过程）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（5条中0条
+达E修正标准；无心动口径主张）</li>
+<li style="margin:0.3em 0">方向信号: 心动正面0 / 中性0 /
+行业5（诡秘快手系2、网易/美团
+系2、其他游戏1）</li>
+<li style="margin:0.3em 0">可靠度: 不适用（今日无心动
+口径主张可评估）</li>
+<li style="margin:0.3em 0">对错统计: ✅0/⚠️0/❓1/❌0
+（另4条非心动口径不判）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（净新增5条）</h3>
+<p style="margin:0.8em 0">📌 8-22 22:58 高三最后300天 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;这个游戏，如果能搞成买断制，
+定价6块钱…估计可以卖10万+份&quot;
+主张: 其他游戏（高三最后300天）
+买断制可行性自估
+核查: 非心动标的
+结论: 对E无影响；与tap pc买断
+叙事（8-14&quot;一年2-3亿&quot;）无关
+对错: 不判</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 8-23 12:48 某公司配股/团子AI | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;某公司周五这种走势…只有配股
+能解释…AII in AI对团子倒是好事，
+周五不知道在跌啥&quot;
+主张: ①某公司周五下跌疑配股
+②团子（美团系）All in AI利好
+核查: 非心动标的——心动周五
+(8-21)实为+3.9%收涨42.60，
+与&quot;周五不知道在跌啥&quot;不符，
+可排除心动
+结论: 对E无影响；若误读为心动
+需澄清（心动周五收涨）
+对错: 不判（非心动口径）</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 8-23 13:23 网易更好 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;还是网易这类公司的好吧&quot;
+主张: 行业公司质地比较
+结论: 对E无影响
+对错: 不判</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 8-23 13:36 诡秘1折券+分成 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;苹果商店收入约占总收入的15%…
+毛利率应该也有80%左右…快手
+正式杀进了游戏赛道&quot;
+主张: 诡秘（快手系）渠道分成
+结构/毛利率/成功论
+核查: 非心动标的；与心动间接
+相关仅限tap生态（诡秘在tap
+发行）；&quot;iOS15%/PC+安卓85%&quot;
+为其自估，无独立源
+结论: 对E无影响；方法论（跨端
+摊薄）可回看火炬/小镇，无新
+口径
+对错: 不判（行业）</p>
+</blockquote>
+<p style="margin:0.8em 0">📌 8-23 21:01 在线峰值日增 | ⚪ 行业</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;这曲线有点牛了，在线峰值
+今天比昨天高&quot;
+主张: 某游戏PC在线峰值日增
+（语境疑为诡秘tap pc曲线）
+核查: ❓tap pc在线无公开数据源
+可独立核验；附注: 若指心动系
+Steam游戏则与SteamCharts矛盾
+——小镇今日24h峰14119&lt;昨16411、
+火炬3637&lt;昨4111，均低于昨日
+结论: 对E无影响
+对错: ❓不可证伪（标的不可确认；
+若指心动系则❌与SteamCharts
+矛盾）</p>
+</blockquote>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">明细:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日5条全为行业口径，无心动
+报忧/报喜，5机制均不适用</li>
+<li style="margin:0.3em 0">语境对照: 8-23为休市日，他
+输出全在行业（诡秘/网易/美团），
+无心动叙事维护动作</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">未触发——今日无心动口径发言，
+无报喜簇；连续第2日（8-22起）
+无心动利好输出</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">公司级利润10-15%: 不适用
+（无公司级预测；8-18已折）</li>
+<li style="margin:0.3em 0">产品级流水30%: 不适用（无心动
+流水数字；诡秘为行业口径）</li>
+<li style="margin:0.3em 0">对冲叙事Σ验证+50%: 不适用</li>
+<li style="margin:0.3em 0">估值结论30%: 不适用（无心动
+估值主张）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 8-23~9-06）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">8-29: 小镇庆典活动（H2流水
+验证第一节点）</li>
+<li style="margin:0.3em 0">8-30: 小镇2周年+三丽鸥活动结束</li>
+<li style="margin:0.3em 0">8月底: 8月版号批次（例行）</li>
+<li style="margin:0.3em 0">8月底: 26半年报（核心验证:
+tap收入/ARR、mk费用、火炬欧美
+下滑、RO韩服贡献、税率、利润率
+20-30 vs30-40）——<strong style="font-weight:600">最后~1周
+窗口（8-24~8-31）</strong></li>
+<li style="margin:0.3em 0">9月底: 小镇大卡池（H2流水
+验证点）</li>
+<li style="margin:0.3em 0">已发生: RO新游(世界之旅)8-14/15
+上线首月追踪第9日（菲#2/泰#3）；
+8-21火炬专家服（脉冲已完全退潮）；
+8-21诡秘上线（行业，tap热玩#1）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">新可证伪点: ①8-24（周一）榜单
+验证——8-22回升疑周末效应，
+8-23已现回落，若周一续跌且
+东南亚核心区（泰#14/印#22/
+菲#18）跌破8-12基线（20/30/29）
+→E下修预警登记；②RO新游第
+10日能否守住菲#2/泰#3（首月
+80%口径）；③RO初心服回升是否
+延续（泰#47/菲#27，1日样本
+不构成趋势）</li>
+<li style="margin:0.3em 0">验证路径: 8-29庆典；26半年报
+（~1周内）</li>
+<li style="margin:0.3em 0">历史验证点: 进行中 13 个（表2
+#9/#11/#13/#14/#16/#17/#18/#19/
+#20/#21/#22/#23）</li>
+<li style="margin:0.3em 0">待观察: &quot;市场按4跌&quot;估值主张
+——半年报发布日即为裁决点
+（若半年报E≥17亿，市场悲观
+证伪；≤13亿，他的&quot;低估&quot;论证伪）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我18-19 / 他19-21（8-18
+下修1亿）/ 市场10-13（隐含≈10.4）
+→ 无变化
+小镇国际服: 我17 / 他17 / 市场
+10-12 → 无变化
+（8-23 SEA核心区回落，若8-24
+续跌破基线→小镇国际服E下修
+风险重新登记；当前仍高于基线）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底，
+进入最后~1周窗口）
+动作: 持有不加不减
+触发条件:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">半年报E≥17亿 → 🟢 259-333亿</li>
+<li style="margin:0.3em 0">半年报E≤13亿 → 🔴 150-200亿
+今日触发: 无（他E 19-21仍&gt;17触发线；
+先行未满2周且核心区未破基线；
+RO首月未满）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价单日&gt;5%: 无（周日休市，
+持平42.60）</li>
+<li style="margin:0.3em 0">快信号: 无（④RO新游第9日
+菲#2/泰#3坚挺，首月未满；
+⑤无信息）</li>
+<li style="margin:0.3em 0">先行指标: 未触发（8-23 SEA
+4区回落但核心区仍高于8-12
+基线6-11位；未满2周；8-24
+周一为验证点）</li>
+<li style="margin:0.3em 0">出榜: 铃兰海外出港榜（昨#56）；
+RO2预约出榜（昨#68）；法/美/
+德/英/越持续无</li>
+<li style="margin:0.3em 0">新承认/预测下修: 无（今日5条
+全行业口径）</li>
+<li style="margin:0.3em 0">口径修正: 昨日&quot;RO初心服16区
+无踪影&quot;与8-22原始数据不符
+（实为泰#73/菲#33在榜）；今日
+泰#47/菲#27回升+印#100/马#95
+新进——老产品回升观察项，
+非快信号</li>
+<li style="margin:0.3em 0">数据源: 有——akshare东财源
+6/6断连（ProxyError，连续6日）
+→ fetch_stock.py腾讯源兜底✅；
+TapTap/Apple/Steam/雪球采集✅</li>
+</ul>
+
+</div>
+]]></content:encoded><category>心动日报</category></item></channel>
 </rss>
