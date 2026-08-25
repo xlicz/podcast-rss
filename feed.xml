@@ -1,59 +1,128 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 13:09:12 +0800</lastBuildDate><item><title>[a16z] '医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室'</title><link>https://xlicz.github.io/podcast-rss/articles/医疗-AI-需要一个独立裁判-考过几千道题-不等于能进手术室-2026-08-24.html</link><guid isPermaLink="false">a16z_e3f108fbcc90</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>'医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室'</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 13:11:11 +0800</lastBuildDate><item><title>[卫诗婕｜漫谈Light the Star] 泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</title><link>https://xlicz.github.io/podcast-rss/articles/泡沫被挤出的WRC-一份来自14年从业者的行家鉴别指南-2026-08-25.html</link><guid isPermaLink="false">light-the-star_848d1df5cafd</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">泡沫被挤出的 WRC：一份来自 14 年从业者的行家鉴别指南</h1>
+<p style="margin:0.8em 0">先手智能联合创始人叶阳生聊 2026 世界人形机器人大会：定时演示的潜台词、两万台出货里的真需求、预训练神话与&quot;永续公司&quot;</p>
+<p style="margin:0.8em 0">刚刚过去的 2026 世界人形机器人大会（WRC），被视为行业的&quot;分水岭&quot;：去年展台上还是后空翻、跳舞和概念 demo 的天下，今年风向陡变，所有人都在谈 ROI、谈真实出货、谈落地能力。泡沫正在被挤出，行业进入实战阶段。但热闹之下，怎么分辨谁在真干活、谁在表演？本期《漫谈 Light the Star》请来先手智能联合创始人叶阳生——14 年机器人从业者，账号&quot;叶老师玩机器人&quot;，既懂底层算法与软硬件工程，又对商业化极致务实。他给出一份现场可用的行家鉴别清单，也点破了几个没人敢公开谈的话题。关于先手智能的具身战略，可回听第 79 期卫诗婕与创始人赵月的上市访谈。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定时演示的潜台词：一份行家鉴别清单</h2>
+<p style="margin:0.8em 0">先手智能在 WRC 上的 demo 是一台全自动咖啡机：压粉、萃取、敲出粉饼，整个流程和人的操作几乎一致，且全程无人值守。叶阳生特意强调了一点——&quot;我们一天到晚都在做咖啡&quot;。</p>
+<p style="margin:0.8em 0">而很多展商的 demo 是定时演示，比如整点开场。为什么要定时？他给出行家式解读：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;一个是对成功率不自信，得有人在旁边盯着守着；另一个是硬件撑不住长时间运行。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">上个月的 WIC 展会上，速腾聚创是少数&quot;随时来人随时演示&quot;的展台——从你身上挑一件东西放到桌上，再拿起来递给你，完全是泛化抓取的展示。这次 WRC 现场，自变量机器人的物流分拣全天在跑、节拍极快；星海图超市拣货、抽绳、封口的 demo 也一直在动。头部几家确实做得好——这是他逛完展更有信心的原因。</p>
+<p style="margin:0.8em 0">他把自己准备的问题发在小红书上，标题是&quot;我们来了不寒暄，就问关键问题&quot;。怎么分辨机器人是自主还是遥操作？&quot;人摇操很难做到连续，两只手很难同时做独立的事——一手动完另一手动，很可能有人在摇；左右手同时做不同轨迹，大概率是自主规划。&quot;其次是失败恢复：出错了是自动恢复，还是要人工重启？再就是换光线、换物体还认不认得——他会故意放纯白色的、和桌面颜色接近的东西，再拿手机闪光灯照上去，看它的反应。他还提到两个数据口径问题：视频剪了几条、加速几倍？成功率是挑了多少次场景算出来的？</p>
+<p style="margin:0.8em 0">还有一个只在布展日看得见的细节：很多公司展台摆好后，会现场补采数据、重新训练——现场灯光和环境一变，成功率立刻下跌。他推荐大家以后布展日进场，看谁在补数据、谁靠仿真吃遍所有环境。速腾聚创不需要这一步：它走完全仿真的路线，在仿真空间里穷尽了可能性。</p>
+<p style="margin:0.8em 0">今年还有一个务实信号：如果下半身不用动，很多公司直接在桌上放两只机械臂做 demo，不再摆一台站着不动的人形。先手自己也认为，让一个人形站着做咖啡没必要——&quot;人形&quot;的定义是能用为人类准备好的设施，一条臂也可以。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">采购日与电梯按钮：场景开始挑人</h2>
+<p style="margin:0.8em 0">今年大会主题&quot;人机共生、产需共融&quot;，后半句是历届最大的变化：大会设了采购日，央企和大型企业直接带着采购项目进场，大量具身行业的客户在现场。这是以往任何一届都没有的。</p>
+<p style="margin:0.8em 0">先手展出的场景是酒店配送机器人加一条机械臂：手臂把地上的外卖捡起来、按电梯、进房间把外卖放下，全程不再需要人。上一代酒店机器人（云迹等）早已靠电梯改造方案把电梯&quot;玩得很溜&quot;——那为什么非要用手按电梯？叶阳生解释：电梯是特种设备，国内改造要走报备、施工，有周期和成本；海外根本不允许改造，安全法规严、改造成本是国内好几倍，人用什么，机器人就得用什么。所以&quot;用手按电梯&quot;在海外是刚需，在国内则省掉了交付周期。真正的痛点是全程不再需要人——在工作人员配比不高的公寓、小区场景，机器人的触达率会更高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两万台出货，几成算真实需求</h2>
+<p style="margin:0.8em 0">主持人抛出一组数据：2026 上半年全球人形机器人出货突破 2.2 万台，中国厂商占 97%；智元 9700 台全球第一，宇树 7000 多台，银河通用 1100 台，前五家合计占全球 86%。</p>
+<p style="margin:0.8em 0">叶阳生认为中国已是支配性角色——制造业基础太强，国外想做本体也离不开中国供应链；国外强的是模型能力（如 Google 的 PaLM/Gemini 一系的通用模型），但在本体硬件上完全没法跟中国打。</p>
+<p style="margin:0.8em 0">但说到真实需求，他的判断非常冷：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;把跳舞表演都排掉，真实落地的需求有 10% 已经非常好了。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他去年就说过：公布出来的订单量，要除以十。太空舱零售这种场景不算真实需求——账算不过来、没有泛化性、环境单一，铺再多也提升不了智能。剩下的 90% 去哪了？一部分进数据工厂，一部分做科研教育，还有很多在工厂里&quot;吃灰&quot;。出货量和确认收入本来就是口径问题：出货算不算收入，还是签了验收单才算？非上市公司不披露财报，外界根本不知道。</p>
+<p style="margin:0.8em 0">这也是他看好宇树上市的原因——标杆立在那里，证明具身公司能上市。但他提醒，A 股审计很严格：审计师会去工厂实地看机器人有没有在用；卖给代理商、没有到达终端的不能算收入；把机器人卖给数据工厂、再把数据买回来，那是体内循环，严格来说都有问题。二十多家排队上市的公司里，财务上有没有水分，审计这一关会给出答案。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">速度之辩：去表演化做到了，去差异化还没有</h2>
+<p style="margin:0.8em 0">星海图的高管说，现在机器人的速度大概是人类的 70% 到 80%。叶阳生不太同意：&quot;大部分还没到，物流分拣可能接近。&quot;他说到 70%-80% 其实已经可以把 ROI 算过来了——机器可以一直干，人需要休息，所以 50% 都可以接受。</p>
+<p style="margin:0.8em 0">北京人形机器人创新中心的熊友军说，人形机器人的 ROI 与工业机器人还有差距，但差距在迅速缩小。叶阳生直言没看到明显缩小：展会上大部分单臂 demo 还是慢，叠一件衣服要两分钟，人十秒就叠完了——差距还在一个数量级上。他认同的是&quot;往未来看差距会缩小&quot;：从 WIC 到 WRC，技术确有明显进步，但整体没有让人感到&quot;飞速&quot;。</p>
+<p style="margin:0.8em 0">去表演化做到了，去差异化还没有。最高频的 demo 场景高度集中：物流搬运、工业上下料、咖啡机、物品收纳、遥操作复刻、泛化抓取。&quot;为什么集中在这几个场景？因为也就这几个场景做得到。&quot;工业里，人现在只干两件事：搬东西和上下料，打螺丝早就自动化了。大家扎堆工业制造、汽车、3C 三个赛道，因为这些工厂数字化程度高、有钱，需求是百万级的。三百多家公司抢五个方向的场景，叶阳生觉得挺正常——当年移动机器人和协作臂也是几十上百家卷同一个市场，最后活下来的就是头部几家加中腰部十几家。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">大脑的真相：预训练神话与&quot;永续公司&quot;</h2>
+<p style="margin:0.8em 0">人人都说自己是&quot;VLA + 世界模型 + 全栈自研&quot;。水分有多大？&quot;非常大。&quot;</p>
+<p style="margin:0.8em 0">叶阳生透露的行业内幕是：真正在买千卡以上、疯狂买数据、真金白银做预训练的纯创业公司，只有一到两家——不背靠大厂的，他点名的贝格捷（音）算一家。这个数字他从投资人的圈子和交表材料里交叉打听过：二十多家公司排队上市必须交表，路演材料里看不到相应的算力投入；何况国内根本没有那么多卡可分。账是能算出来的——等效 H100 的算力，一年投入要几个亿，&quot;账上十个亿十个亿，根本不精花&quot;。就算买了卡，没有头部厂商出来的人，卡也只能吃灰。</p>
+<p style="margin:0.8em 0">于是有了&quot;永续公司&quot;的说法：融了几十个亿趴在账上，一年利息小几个亿，养几百个研发绰绰有余，&quot;有点死不掉&quot;。策略是螳螂捕蝉、黄雀在后——等国外把路蹚出来、行业出现拐点再进场。叶阳生从务实角度觉得这没错，但&quot;有信仰的人追求技术的突破性&quot;，他点名许华哲是有信仰的。</p>
+<p style="margin:0.8em 0">大脑能力高度同质化：基本是 follow 国外最前沿，公认 Google 的 PaLM/Gemini 一系效果最好，各家在其基础上做改进。Google 最近发布的新架构基于 Agent 系统——多个专家模型由一个 Agent 调度，这是新方向：与其做一个巨大的模型，不如把能力原子化，经典控制算法和模型混用，由一个&quot;Agent OS&quot;在具身大脑里调度，处理长程任务、错误恢复和抗干扰。先手自己也在做这方面的研究。</p>
+<p style="margin:0.8em 0">王兴兴在开幕式上的演讲被叶阳生评价为&quot;说得非常精准&quot;：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;语言模型的输入输出是纯数字编码，严格限制在固定的向量空间里，基本上没有损耗；但机器人每一次输入输出都会引入偏差和损耗，触觉层面的细微误差甚至无法修正，所以成功率会随之暴跌。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">叶阳生的补充更狠：人干好一件事到底靠什么、有多少模态的输入，现在都说不清楚；而采集到的模态实在太少——基本只有视觉，最近才加上触觉和力。如果 AI 能自学习、自进化，提升可能很快，这是行业共识的方向。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">神经上位：灵巧手、触觉与数据成了主角</h2>
+<p style="margin:0.8em 0">灵巧手和触觉今年冒出大量新公司。张宇动力是今年刚成立的公司，在 C 馆拿到不错的展位：它的灵巧手把手和小臂一起做掉，设计相当仿生，还带肌电信号。肌电手环戴在腕部，配合数据手套，等于用两重数据验证手部姿态，还能反哺动作采集是否正确。肌电信号今年是普遍趋势。</p>
+<p style="margin:0.8em 0">触觉被看作增量。智元的杨宝清院长说过：现在机器人能做的事，本质上是从视觉到动作的肌肉映射，不是真正的智能——比如你给它一张纸，它是拿不起来的。电子皮肤让机器人有机会定义摩擦系数、物理材质这些现实参数。叶阳生说触觉相当于多了一个模态，模型自然而然能完成更多操作，但这才刚开始：带触觉或肌电信号的 VLA 论文很多，落地还没看到——采集设备太贵了。</p>
+<p style="margin:0.8em 0">更底层的是&quot;神经&quot;。真正在训大脑的公司很少，小脑运控各家都做得不错，今年的增量在神经：机器人身上传感器和执行器越来越多，需要稳定高速的总线协议栈，这是芯片层和底软层的活。类比智驾：摄像头、激光雷达越来越多，CAN 总线带宽不够了，得上车载以太网；机器人现在还没有一套标准的总线或协议栈定义，方便各家快速接入大脑和小脑。部件公司因此登上舞台中心，从配件变成赛道最核心的部分，供不应求、价格高——以前一个小电机一万块，现在整台人形十万以内，而一只灵巧手就能卖得很贵。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数据的脏活与归一化野心</h2>
+<p style="margin:0.8em 0">行业对数据有真实的痛点，核心是标准不统一，拆开是四件事：数据格式——每家自己定一套，别人的数据直接吞不下，转换是又脏又贵的活；时序——几十纳秒级的时间同步，摄像头之间差一点，训出来的模型就有问题，需要硬件对时，很多传感器只支持软件对时；标注规范——除了&quot;这是个杯子&quot;，要不要标透明、标速度？没有共识；采集口径——大脑到底需要什么数据，还在试，各家按自己的本体定义。</p>
+<p style="margin:0.8em 0">先手成立自己的数据子公司，是想做归一化——把当年做控制器做到全球第一的底层逻辑再做一遍：尽可能适配，通过提供价值让各家形成事实标准。他们规划的数据集包括：3D/4D 高斯重建的场景，前景物体资产化、可以被交互；人类示范数据，用异构采集设备和遥操作设备采集，广视角、带语义化标注；真机运行轨迹；以及质量最高的人类接管数据——机器出错时人的干预和纠正。打包起来可以训 VLA，也可以训世界模型，再推出 benchmark 让大家打榜。与别家数据公司的本质区别是前后都做得更长：往前做一个平台，把真机实时接入云端回流数据；往后自己做模型训练、仿真和评测，产出的模型再回到机器人大脑。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年看什么：速度，和不停机</h2>
+<p style="margin:0.8em 0">今年的进步到底来自哪里？叶阳生的答案不是世界模型，而是后训练——强化学习只是后训练的一种，加上数据质量变高、工程能力变强（AI coding 加速了这一切）。他同意主持人的判断：行业有进步，但没到令人兴奋的程度，因为还没看到真正在场景里落地的案例，&quot;行业都挺焦虑的&quot;。</p>
+<p style="margin:0.8em 0">明年再逛 WRC，他只看两个指标：第一，动得快不快；第二，从开馆到闭馆，是不是一直在不同的位置做不同的事、全天不停机。只有做到这两点，才更接近落地。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：拉上围栏，人更多了</h2>
+<p style="margin:0.8em 0">这届 WRC 的名场面很多：机器人跑步冲刺跑到冒火花、具身足球赛里观众当守门员被球撞得站不稳、黄仁勋的女儿出现在现场。叶阳生印象最深的也是足球赛场边：人挤得走不动路，主办方拉上围栏，结果人更多了，大家沿着围栏排队。</p>
+<p style="margin:0.8em 0">他想起晚点的一篇报道：几家具身公司高管坐在一起交流怎么融资，有人分享&quot;投资人来加你，你先晾他几天&quot;，制造稀缺性；现在的融资节奏是一个月一轮，三个月报三轮，谁动作快谁往前挤。他觉得这没问题——具身是非常长的赛道，需要足够的钱，而资本市场有周期，钱不会一直好融，要熬过那段时间，才会迎来更好的时代。</p>
+<p style="margin:0.8em 0">从 2011 年前后玩 RoboCup 足球机器人算起，叶阳生在这个行业待了十四年。他的结论带着时间刻度：&quot;以前做机器人，这么小一个电机一万块；现在做一个人形，成本十万不到。性能大幅提升，智能性大幅提升。&quot;但差距也没那么大——&quot;大家的差距可能最多在半年以内，起点都还很低，都有很大的提升空间。&quot;</p>
+<p style="margin:0.8em 0">泡沫被挤出之后，真正留下来的，是那些能不停机干活、算得清账的公司。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">定时演示 = 对成功率不自信或硬件不耐久；全天不间断演示才是真本事。</li>
+<li style="margin:0.3em 0">中国厂商占全球人形出货 97%，但真实需求可能只有 10%——公布订单，先除以十。</li>
+<li style="margin:0.3em 0">真做预训练的纯创业公司只有一到两家；&quot;永续公司&quot;靠利息养研发，等拐点再进场。</li>
+<li style="margin:0.3em 0">大脑高度同质化（follow 国外前沿），新方向是 Agent 调度多模型做长程任务。</li>
+<li style="margin:0.3em 0">神经（高速总线/协议栈）与部件（灵巧手、触觉、数据）是今年的增量和好生意。</li>
+<li style="margin:0.3em 0">明年只看两个指标：速度，以及从开馆到闭馆是否一直不停机。</li>
+<li style="margin:0.3em 0">成本剧变：以前一个小电机一万块，现在整台人形成本十万以内。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室</title><link>https://xlicz.github.io/podcast-rss/articles/医疗-AI-需要一个独立裁判-考过几千道题-不等于能进手术室-2026-08-24.html</link><guid isPermaLink="false">a16z_e3f108fbcc90</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室</h1>
 <p style="margin:0.8em 0">一个医疗 AI 模型可以在医学执照考试上拿到 92 分，却在真实临床任务上只得到 45 分。每天有数亿人向 ChatGPT 询问健康问题，医生在诊室里用 OpenEvidence 这类工具向 AI 查询医学知识——那么，谁在确保这些答案安全、正确？</p>
 <p style="margin:0.8em 0">Protege 联合创始人兼首席科学官 Engy Ziedan 的答案是：每个人，又没有人。这位印第安纳大学的健康经济学家（研究成果上过《纽约时报》、被 CDC 引用）在 a16z 播客上解释了一个正在形成的行业缺口：模型进化得比医疗系统的评估体系更快，而微妙偏见比灾难性失败更难捕捉。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数亿人在问 AI 健康问题，谁在把关？</h2>
-<p style="margin:0.8em 0">&quot;每个人，又没有人。&quot;Ziedan 这样拆解现状：基础模型公司在部署前投入了大量安全与对齐研究，训练医疗数据还会让模型整体上更可信；垂直 AI 公司再把通用模型调教到特定临床场景、特定商业目标和 SLA。但问题在于：每个供应商都有一本小册子宣称&quot;我是最好的&quot;。</p>
+<p style="margin:0.8em 0">"每个人，又没有人。"Ziedan 这样拆解现状：基础模型公司在部署前投入了大量安全与对齐研究，训练医疗数据还会让模型整体上更可信；垂直 AI 公司再把通用模型调教到特定临床场景、特定商业目标和 SLA。但问题在于：每个供应商都有一本小册子宣称"我是最好的"。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">当所有人都说自己最好时，没有人知道谁最好——而且没有任何人有动力指出自己产品的失败之处。站在医疗系统和患者一边，没有人以保持距离的独立姿态，越过灾难性失败这座冰山，去看水面下的错位。</p>
 </blockquote>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 Uber 说起：AI 为什么需要评估</h2>
-<p style="margin:0.8em 0">Ziedan 用经济学解释评估（evals）为何突然成为刚需。经济学家用享乐定价法（hedonics）从支付意愿反推价值：学区决定房价，就是人们愿意为更好的教育多付钱。没有人问过&quot;Uber 的价值是什么，拿出评估报告来&quot;——人们付钱、上车、到达，Uber 慢慢变成了一个动词。</p>
-<p style="margin:0.8em 0">但 AI 不是 Uber。AI 的边际成本不是零：人们付 token、付接入时间，还承担着&quot;出错概率&quot;这个隐性成本。要让 AI 真正进入知识工作、高风险场景和日常商业，必须有可靠的评估——就像雇佣员工前要审查他是否称职。Ziedan 的逻辑很直接：如果能证明一个东西值得信任，人们对它的支付意愿自然更高。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">信息不对称之上，再加一百万名&quot;速成医生&quot;</h2>
-<p style="margin:0.8em 0">医疗交易天生信息不对称，Ziedan 用二手车市场类比：卖方比买方知道得多得多。她常引用瑞典的研究——医学院入学考试的分数线随机地把&quot;一位医生&quot;分配进了一些家庭，这些家庭全家人的寿命都因此延长了数年。医疗服务提供者永远比消费者更懂什么技术有价值、什么没有。</p>
-<p style="margin:0.8em 0">在这个不对称之上再叠加一层 AI agent，局面就荒谬了：&quot;相当于美国有一百万名医生，我们再雇一百万名。这些新医生考过了一场可爱的 5000 题考试，就放他们上岗。&quot;而另一边，是受过近十年专门训练、考过远不止 5000 道题的现有百万医生。Ziedan 说，这个对比&quot;想一想都觉得疯狂&quot;。</p>
+<p style="margin:0.8em 0">Ziedan 用经济学解释评估（evals）为何突然成为刚需。经济学家用享乐定价法（hedonics）从支付意愿反推价值：学区决定房价，就是人们愿意为更好的教育多付钱。没有人问过"Uber 的价值是什么，拿出评估报告来"——人们付钱、上车、到达，Uber 慢慢变成了一个动词。</p>
+<p style="margin:0.8em 0">但 AI 不是 Uber。AI 的边际成本不是零：人们付 token、付接入时间，还承担着"出错概率"这个隐性成本。要让 AI 真正进入知识工作、高风险场景和日常商业，必须有可靠的评估——就像雇佣员工前要审查他是否称职。Ziedan 的逻辑很直接：如果能证明一个东西值得信任，人们对它的支付意愿自然更高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">信息不对称之上，再加一百万名"速成医生"</h2>
+<p style="margin:0.8em 0">医疗交易天生信息不对称，Ziedan 用二手车市场类比：卖方比买方知道得多得多。她常引用瑞典的研究——医学院入学考试的分数线随机地把"一位医生"分配进了一些家庭，这些家庭全家人的寿命都因此延长了数年。医疗服务提供者永远比消费者更懂什么技术有价值、什么没有。</p>
+<p style="margin:0.8em 0">在这个不对称之上再叠加一层 AI agent，局面就荒谬了："相当于美国有一百万名医生，我们再雇一百万名。这些新医生考过了一场可爱的 5000 题考试，就放他们上岗。"而另一边，是受过近十年专门训练、考过远不止 5000 道题的现有百万医生。Ziedan 说，这个对比"想一想都觉得疯狂"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">灾难性失败容易定义，微妙偏见几乎看不见</h2>
 <p style="margin:0.8em 0">Ziedan 把安全问题分成两层。灾难性失败（catastrophic failure）反而是容易的那层——它很窄，几乎可以定义成死亡率。难的是广泛的错位（misalignment）和微妙偏见：难以定义，更难检测。</p>
-<p style="margin:0.8em 0">她的例子很具体：保险公司和医院都在用 agentic AI 处理事前授权（prior authorization）和医疗拒赔。用经济学家的 Edgeworth box 来看，两条无差异曲线在契约曲线上交汇——一方最大化总收入、最小化赔付，另一方最大化追回的收入。双方都上了智能体工具，患者夹在中间：没有代理权，也没有监管者说&quot;这个模型其实错位了&quot;。</p>
-<p style="margin:0.8em 0">&quot;如果你被开了一种药，模型先查一下你是否欠医院钱，这公平吗？&quot;Ziedan 反问。&quot;医院说不要转诊到网络外机构——哪怕你宁愿多花钱去网络外——这也可以吗？&quot;</p>
-<p style="margin:0.8em 0">但这类工具也有未被评估的好处。Protege 手里有数千亿条医疗笔记，有些笔记写着&quot;她看起来不修边幅，她丈夫在问很好的问题&quot;——真实含义是&quot;她不可信&quot;，于是疼痛被归因为&quot;潜在的精神问题，不必临床深究&quot;。而记录医患对话的 ambient 工具把对话原样写进 SOAP 笔记，第三方医生看了会说：&quot;我应该开个检查，查清疼痛的原因——我不认为这只是她的想象。&quot;Ziedan 指出，这样的好处甚至没有被纳入任何评估体系。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">基准测试的故障：两篇相反的论文与&quot;背下答案&quot;的模型</h2>
+<p style="margin:0.8em 0">她的例子很具体：保险公司和医院都在用 agentic AI 处理事前授权（prior authorization）和医疗拒赔。用经济学家的 Edgeworth box 来看，两条无差异曲线在契约曲线上交汇——一方最大化总收入、最小化赔付，另一方最大化追回的收入。双方都上了智能体工具，患者夹在中间：没有代理权，也没有监管者说"这个模型其实错位了"。</p>
+<p style="margin:0.8em 0">"如果你被开了一种药，模型先查一下你是否欠医院钱，这公平吗？"Ziedan 反问。"医院说不要转诊到网络外机构——哪怕你宁愿多花钱去网络外——这也可以吗？"</p>
+<p style="margin:0.8em 0">但这类工具也有未被评估的好处。Protege 手里有数千亿条医疗笔记，有些笔记写着"她看起来不修边幅，她丈夫在问很好的问题"——真实含义是"她不可信"，于是疼痛被归因为"潜在的精神问题，不必临床深究"。而记录医患对话的 ambient 工具把对话原样写进 SOAP 笔记，第三方医生看了会说："我应该开个检查，查清疼痛的原因——我不认为这只是她的想象。"Ziedan 指出，这样的好处甚至没有被纳入任何评估体系。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">基准测试的故障：两篇相反的论文与"背下答案"的模型</h2>
 <p style="margin:0.8em 0">最近 Nature 上的一篇论文称，通用 AI 在医疗上击败了垂直专用模型——OpenAI 的模型表现超过任何医疗专用模型；紧接着 arXiv 上出现一篇针锋相对的论文，得出了相反结论。在经典学术界，编辑们最爱这种对立：发表最有争议的东西。</p>
 <p style="margin:0.8em 0">但 Protege 为自己客户做的评估极其敏感：结果取决于你怎么写提示词、用什么 harness（在肿瘤病理领域尤其如此）；有时只是改变多选题选项的顺序，模型排名就会反转——这被一些人视为基准被污染的迹象：模型像学生一样背下了正确答案的位置。</p>
-<p style="margin:0.8em 0">有模型声称请人类医生审阅了 70 万组问答对，努力值得肯定。但 Ziedan 用脊柱手术来检验：&quot;这个模型通过了 5000 道题（甚至 10000 道题）的考试&quot;和&quot;这位医生做过 4000 台脊柱手术&quot;，你信谁？你在乎的从来不是模型的一般知识，而是&quot;它有没有见过这个场景、在那里有没有帮上忙——多少人非正常死亡、多少人的预后改善了&quot;。</p>
-<p style="margin:0.8em 0">真实世界的评估还有一个没人愿意谈的问题：医生有偏好，就像投资者有风险偏好。膝关节置换的数据里，有的医生永远只做部分置换，有的医生&quot;碰了膝盖就是全置换&quot;——这是他的风格，近乎滞后效应（hysteresis）。把真实病历放进模型，模型给出与医生相反的建议，你能断言模型错了吗？也许医生才是错的那个。当模型超过平均水平医生时怎么办？答案不能永远是&quot;多问几个医生，靠大数定律&quot;。总有一些任务太专业、风险太高，需要在真实诊疗现场测试。</p>
+<p style="margin:0.8em 0">有模型声称请人类医生审阅了 70 万组问答对，努力值得肯定。但 Ziedan 用脊柱手术来检验："这个模型通过了 5000 道题（甚至 10000 道题）的考试"和"这位医生做过 4000 台脊柱手术"，你信谁？你在乎的从来不是模型的一般知识，而是"它有没有见过这个场景、在那里有没有帮上忙——多少人非正常死亡、多少人的预后改善了"。</p>
+<p style="margin:0.8em 0">真实世界的评估还有一个没人愿意谈的问题：医生有偏好，就像投资者有风险偏好。膝关节置换的数据里，有的医生永远只做部分置换，有的医生"碰了膝盖就是全置换"——这是他的风格，近乎滞后效应（hysteresis）。把真实病历放进模型，模型给出与医生相反的建议，你能断言模型错了吗？也许医生才是错的那个。当模型超过平均水平医生时怎么办？答案不能永远是"多问几个医生，靠大数定律"。总有一些任务太专业、风险太高，需要在真实诊疗现场测试。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史押韵：阿片危机与迟到的质量报告</h2>
-<p style="margin:0.8em 0">Ziedan 警告，如果坐等，可能重演阿片危机：直到 2010 年峰值，全国工作组成立、正式称之为&quot;流行病&quot;，人们才开始行动。</p>
-<p style="margin:0.8em 0">政府并非没有先例。2007 年起推行的价值导向采购（value-based purchasing），把政府 80% 的医疗付款与质量挂钩：医生为疑似病毒的症状开抗生素要被扣分，养老院老人跌倒骨折要追责。但这些报告是回顾性的——滞后 6 到 12 个月。AI 不行：技术变化太快，而且它本身有主动性（agency）。医疗占美国 GDP 的 20%、1.5 亿就业岗位中的 2000 万个，但&quot;如果你有勇气抛开这些，正确的做法其实很简单&quot;——一个始终在看的观察者：</p>
-<p style="margin:0.8em 0">当医生身边的本地 AI agent 开始把他推向利润最大化但伤害患者的决定时，有人提醒他；当护士因为说过患者几句坏话、模型变得过度讨好，建议提前出院好让她早下班时，有观察者说&quot;这个行为不可接受——你不能因为要下班就提前放走病人&quot;。</p>
+<p style="margin:0.8em 0">Ziedan 警告，如果坐等，可能重演阿片危机：直到 2010 年峰值，全国工作组成立、正式称之为"流行病"，人们才开始行动。</p>
+<p style="margin:0.8em 0">政府并非没有先例。2007 年起推行的价值导向采购（value-based purchasing），把政府 80% 的医疗付款与质量挂钩：医生为疑似病毒的症状开抗生素要被扣分，养老院老人跌倒骨折要追责。但这些报告是回顾性的——滞后 6 到 12 个月。AI 不行：技术变化太快，而且它本身有主动性（agency）。医疗占美国 GDP 的 20%、1.5 亿就业岗位中的 2000 万个，但"如果你有勇气抛开这些，正确的做法其实很简单"——一个始终在看的观察者：</p>
+<p style="margin:0.8em 0">当医生身边的本地 AI agent 开始把他推向利润最大化但伤害患者的决定时，有人提醒他；当护士因为说过患者几句坏话、模型变得过度讨好，建议提前出院好让她早下班时，有观察者说"这个行为不可接受——你不能因为要下班就提前放走病人"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Protege 的裁判生意：测试集永不离开</h2>
-<p style="margin:0.8em 0">垂直 AI 公司们在&quot;相同的子节点&quot;里竞争：ambient 记录、临床试验推荐、护士工作流、排班、肿瘤病理（看 H&amp;E 切片推荐最匹配的疗法）。客户彼此说&quot;我们像黑夜里的船——他说他最好，我说我最好&quot;。于是他们把模型托管给 Protege 跑统一评估，产出一份互相对比的报告：各自哪里更强、哪里该改进。</p>
+<p style="margin:0.8em 0">垂直 AI 公司们在"相同的子节点"里竞争：ambient 记录、临床试验推荐、护士工作流、排班、肿瘤病理（看 H&amp;E 切片推荐最匹配的疗法）。客户彼此说"我们像黑夜里的船——他说他最好，我说我最好"。于是他们把模型托管给 Protege 跑统一评估，产出一份互相对比的报告：各自哪里更强、哪里该改进。</p>
 <p style="margin:0.8em 0">裁判的细节底线由 Protege 来画：用什么提示词？前沿模型用定制 harness 还是自带默认？模型拒绝回答时，填平均值还是退而求其次用第二好的模型？这些决策都会改变排名。评估结果分享给技术的购买方——肿瘤病理场景里就是药企和医院。</p>
-<p style="margin:0.8em 0">&quot;模型创作者不应该自己发布评估，就像不能给自己批改作业。这个激励问题太明显了。&quot;</p>
-<p style="margin:0.8em 0">为什么是 Protege？Ziedan 用比较优势解释：在自己做的一切里，做医疗训练数据和评估的边际成本最低。而且评估做完，测试集永远不离开 Protege——某模型暴露出的缺陷，Protege 能精确指出该补什么数据，并用自己庞大的数据源快速训练补齐。保持公正有网络效应式的动力：缺乏信任会瞬间摧毁整个网络。方法论对所有子节点成员公开，参与者名单到最后才揭晓，他们有权&quot;无声退出&quot;。</p>
-<p style="margin:0.8em 0">数据污染是另一个战场。Ziedan 原以为&quot;找没给任何模型训练过的数据就行&quot;，得到的回答是&quot;我们手里 80% 的数据都给过训练&quot;。肿瘤病理的评估，他们真的去医院的病理抽屉里翻&quot;从未被扫描过的新切片&quot;——&quot;这个患者从未进入过任何模型&quot;。当研究人员说&quot;模型在这项任务上比随机还差，有点污染算什么&quot;，Ziedan 反驳：&quot;比随机还差，这本身就是严重错位的信号——为什么它会比随机还差？&quot;Protege 现在执行一道&quot;封膜&quot;（sealing the membrane）：任何进入过训练的数据集或患者，禁止进入基准测试。</p>
-<p style="margin:0.8em 0">至于政府？&quot;政府不会做的。&quot;Ziedan 说，更危险的其实不是行动，而是坐在那里等政府——联邦公报（Federal Register）上已经有政府向行业求助、询问该如何评估 AI 的文件。她的博士论文研究过惩罚医院再入院率的价值导向政策：数千篇论文、花了十年才评估清楚一个指标（它是否反而导致更多再入院）。而 AI 评估可以同时问一千个关于 agentic 系统在医院里如何行为的问题。</p>
+<p style="margin:0.8em 0">"模型创作者不应该自己发布评估，就像不能给自己批改作业。这个激励问题太明显了。"</p>
+<p style="margin:0.8em 0">为什么是 Protege？Ziedan 用比较优势解释：在自己做的一切里，做医疗训练数据和评估的边际成本最低。而且评估做完，测试集永远不离开 Protege——某模型暴露出的缺陷，Protege 能精确指出该补什么数据，并用自己庞大的数据源快速训练补齐。保持公正有网络效应式的动力：缺乏信任会瞬间摧毁整个网络。方法论对所有子节点成员公开，参与者名单到最后才揭晓，他们有权"无声退出"。</p>
+<p style="margin:0.8em 0">数据污染是另一个战场。Ziedan 原以为"找没给任何模型训练过的数据就行"，得到的回答是"我们手里 80% 的数据都给过训练"。肿瘤病理的评估，他们真的去医院的病理抽屉里翻"从未被扫描过的新切片"——"这个患者从未进入过任何模型"。当研究人员说"模型在这项任务上比随机还差，有点污染算什么"，Ziedan 反驳："比随机还差，这本身就是严重错位的信号——为什么它会比随机还差？"Protege 现在执行一道"封膜"（sealing the membrane）：任何进入过训练的数据集或患者，禁止进入基准测试。</p>
+<p style="margin:0.8em 0">至于政府？"政府不会做的。"Ziedan 说，更危险的其实不是行动，而是坐在那里等政府——联邦公报（Federal Register）上已经有政府向行业求助、询问该如何评估 AI 的文件。她的博士论文研究过惩罚医院再入院率的价值导向政策：数千篇论文、花了十年才评估清楚一个指标（它是否反而导致更多再入院）。而 AI 评估可以同时问一千个关于 agentic 系统在医院里如何行为的问题。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">零凭证上岗的 AI</h2>
-<p style="margin:0.8em 0">Ziedan 提醒一个刺眼的对比：美国长期护理市场大量依赖发展中国家输入的护士，她们要通过严格的学习和考试；美国的医生连跨州执业都要重新考试认证。而这些 AI 工具进入医疗系统，唯一的凭证是厂商的一句话：&quot;和某些医生比，我们的 AI 赢了。&quot;</p>
-<p style="margin:0.8em 0">教育、金钱、健康是人的核心人力资本。在这些领域出现任何错位，都会转化为对整个 AI 的普遍不信任。现在是&quot;自我治理&quot;时代——&quot;医生只是参考一下 AI，我们会抓住错误&quot;。ChatGPT 每次给出医疗建议都附一句&quot;这不是医疗建议&quot;，但人们信任计算机给出的东西，很少质疑。所以，总得有人给这些模型打分——而且不能是模型自己。</p>
+<p style="margin:0.8em 0">Ziedan 提醒一个刺眼的对比：美国长期护理市场大量依赖发展中国家输入的护士，她们要通过严格的学习和考试；美国的医生连跨州执业都要重新考试认证。而这些 AI 工具进入医疗系统，唯一的凭证是厂商的一句话："和某些医生比，我们的 AI 赢了。"</p>
+<p style="margin:0.8em 0">教育、金钱、健康是人的核心人力资本。在这些领域出现任何错位，都会转化为对整个 AI 的普遍不信任。现在是"自我治理"时代——"医生只是参考一下 AI，我们会抓住错误"。ChatGPT 每次给出医疗建议都附一句"这不是医疗建议"，但人们信任计算机给出的东西，很少质疑。所以，总得有人给这些模型打分——而且不能是模型自己。</p>
 <p style="margin:0.8em 0">回到开头那个 92% 对 45% 的模型：它不缺更多考试，缺的是一个在真实诊疗现场看着它工作的裁判。Ziedan 的结论是，独立的第三方评估不是医疗 AI 的奢侈品，而是它进入临床的前提——而且这套评估必须像 AI 本身一样实时运转，而不是像价值导向采购那样滞后一年。谁来做这个裁判、以什么标准做，是医疗 AI 时代第一个真正需要回答的问题。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">医疗 AI 的评估困境：模型可以考过医学执照考试（92%），真实临床任务却只有 45%——基准测试考的是知识，不是场景经验。</li>
 <li style="margin:0.3em 0">灾难性失败（窄到可以定义为死亡率）反而好抓；微妙偏见和错位——事前授权里模型先查你欠不欠医院钱、护士说坏话后模型建议提前出院——更难定义、更难检测，也更有害。</li>
-<li style="margin:0.3em 0">基准测试本身会&quot;污染&quot;：提示词、harness、甚至多选题选项顺序都能改变排名；Nature 与 arXiv 两篇论文结论相反，说明&quot;谁最好&quot;在方法学上尚无共识。</li>
+<li style="margin:0.3em 0">基准测试本身会"污染"：提示词、harness、甚至多选题选项顺序都能改变排名；Nature 与 arXiv 两篇论文结论相反，说明"谁最好"在方法学上尚无共识。</li>
 <li style="margin:0.3em 0">政府评估体系（价值导向采购）滞后 6-12 个月，而 AI 变化快、有主动性——医疗 AI 需要实时持续的观察者，不是季度报告。</li>
-<li style="margin:0.3em 0">评估者必须与模型开发者利益隔离：测试集不离开评估方、参与者可无声退出、方法论公开——&quot;不能自己给自己批改作业&quot;。</li>
-<li style="margin:0.3em 0">数据隔离是评估可信度的底线：进入过训练的患者数据禁止进入基准（Protege 称之为&quot;封膜&quot;），而&quot;比随机还差&quot;本身就是错位信号。</li>
+<li style="margin:0.3em 0">评估者必须与模型开发者利益隔离：测试集不离开评估方、参与者可无声退出、方法论公开——"不能自己给自己批改作业"。</li>
+<li style="margin:0.3em 0">数据隔离是评估可信度的底线：进入过训练的患者数据禁止进入基准（Protege 称之为"封膜"），而"比随机还差"本身就是错位信号。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[屠龙之术] 中国一级半市场的水下江湖：5032条交易线索里的五年</title><link>https://xlicz.github.io/podcast-rss/articles/中国一级半市场的水下江湖-5032条交易线索里的五年-2026-08-24.html</link><guid isPermaLink="false">tu-long-zhi-shu_16e283f8dbf1</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>中国一级半市场的水下江湖：5032条交易线索里的五年</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[屠龙之术] 中国一级半市场的水下江湖：5032条交易线索里的五年</title><link>https://xlicz.github.io/podcast-rss/articles/中国一级半市场的水下江湖-5032条交易线索里的五年-2026-08-24.html</link><guid isPermaLink="false">tu-long-zhi-shu_16e283f8dbf1</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>中国一级半市场的水下江湖：5032条交易线索里的五年</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">中国一级半市场的水下江湖:5032 条交易线索里的五年</h1>
 <p style="margin:0.8em 0">副标题:当求购占比从 12.4% 冲到 56.6%,一级半市场第一次出现了"资金追着标的跑"的局面。</p>
@@ -13287,7 +13356,8 @@ TapTap/Apple/Steam/雪球采集✅</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-25.html</link><guid isPermaLink="false">report:播客信号:2026-08-25:0b89ef73</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-25</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-25.html</link><guid isPermaLink="false">report:播客信号:2026-08-25:0b89ef73</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-25</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-25 10:00</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13442,7 +13512,8 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <p style="margin:0.8em 0"><em>报告生成: 2026-08-25 10:00 | 数据源: rss_asr_pipeline (transcript_adapter 3d) | 去重: podcast_dedup.py</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-25.html</link><guid isPermaLink="false">report:AI动态:2026-08-25:dc1bdcb9</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-25</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-25.html</link><guid isPermaLink="false">report:AI动态:2026-08-25:dc1bdcb9</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-25</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/25</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13485,55 +13556,71 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[a16z] '医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室'</title><link>https://xlicz.github.io/podcast-rss/articles/医疗-AI-需要一个独立裁判-考过几千道题-不等于能进手术室-2026-08-24.html</link><guid isPermaLink="false">a16z_e3f108fbcc90</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>'医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室'</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[卫诗婕｜漫谈Light the Star] 泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</title><link>https://xlicz.github.io/podcast-rss/articles/泡沫被挤出的WRC-一份来自14年从业者的行家鉴别指南-2026-08-25.html</link><guid isPermaLink="false">light-the-star_848d1df5cafd</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室</h1>
-<p style="margin:0.8em 0">一个医疗 AI 模型可以在医学执照考试上拿到 92 分，却在真实临床任务上只得到 45 分。每天有数亿人向 ChatGPT 询问健康问题，医生在诊室里用 OpenEvidence 这类工具向 AI 查询医学知识——那么，谁在确保这些答案安全、正确？</p>
-<p style="margin:0.8em 0">Protege 联合创始人兼首席科学官 Engy Ziedan 的答案是：每个人，又没有人。这位印第安纳大学的健康经济学家（研究成果上过《纽约时报》、被 CDC 引用）在 a16z 播客上解释了一个正在形成的行业缺口：模型进化得比医疗系统的评估体系更快，而微妙偏见比灾难性失败更难捕捉。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数亿人在问 AI 健康问题，谁在把关？</h2>
-<p style="margin:0.8em 0">&quot;每个人，又没有人。&quot;Ziedan 这样拆解现状：基础模型公司在部署前投入了大量安全与对齐研究，训练医疗数据还会让模型整体上更可信；垂直 AI 公司再把通用模型调教到特定临床场景、特定商业目标和 SLA。但问题在于：每个供应商都有一本小册子宣称&quot;我是最好的&quot;。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">泡沫被挤出的 WRC：一份来自 14 年从业者的行家鉴别指南</h1>
+<p style="margin:0.8em 0">先手智能联合创始人叶阳生聊 2026 世界人形机器人大会：定时演示的潜台词、两万台出货里的真需求、预训练神话与&quot;永续公司&quot;</p>
+<p style="margin:0.8em 0">刚刚过去的 2026 世界人形机器人大会（WRC），被视为行业的&quot;分水岭&quot;：去年展台上还是后空翻、跳舞和概念 demo 的天下，今年风向陡变，所有人都在谈 ROI、谈真实出货、谈落地能力。泡沫正在被挤出，行业进入实战阶段。但热闹之下，怎么分辨谁在真干活、谁在表演？本期《漫谈 Light the Star》请来先手智能联合创始人叶阳生——14 年机器人从业者，账号&quot;叶老师玩机器人&quot;，既懂底层算法与软硬件工程，又对商业化极致务实。他给出一份现场可用的行家鉴别清单，也点破了几个没人敢公开谈的话题。关于先手智能的具身战略，可回听第 79 期卫诗婕与创始人赵月的上市访谈。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定时演示的潜台词：一份行家鉴别清单</h2>
+<p style="margin:0.8em 0">先手智能在 WRC 上的 demo 是一台全自动咖啡机：压粉、萃取、敲出粉饼，整个流程和人的操作几乎一致，且全程无人值守。叶阳生特意强调了一点——&quot;我们一天到晚都在做咖啡&quot;。</p>
+<p style="margin:0.8em 0">而很多展商的 demo 是定时演示，比如整点开场。为什么要定时？他给出行家式解读：</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">当所有人都说自己最好时，没有人知道谁最好——而且没有任何人有动力指出自己产品的失败之处。站在医疗系统和患者一边，没有人以保持距离的独立姿态，越过灾难性失败这座冰山，去看水面下的错位。</p>
+<p style="margin:0.8em 0">&quot;一个是对成功率不自信，得有人在旁边盯着守着；另一个是硬件撑不住长时间运行。&quot;</p>
 </blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 Uber 说起：AI 为什么需要评估</h2>
-<p style="margin:0.8em 0">Ziedan 用经济学解释评估（evals）为何突然成为刚需。经济学家用享乐定价法（hedonics）从支付意愿反推价值：学区决定房价，就是人们愿意为更好的教育多付钱。没有人问过&quot;Uber 的价值是什么，拿出评估报告来&quot;——人们付钱、上车、到达，Uber 慢慢变成了一个动词。</p>
-<p style="margin:0.8em 0">但 AI 不是 Uber。AI 的边际成本不是零：人们付 token、付接入时间，还承担着&quot;出错概率&quot;这个隐性成本。要让 AI 真正进入知识工作、高风险场景和日常商业，必须有可靠的评估——就像雇佣员工前要审查他是否称职。Ziedan 的逻辑很直接：如果能证明一个东西值得信任，人们对它的支付意愿自然更高。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">信息不对称之上，再加一百万名&quot;速成医生&quot;</h2>
-<p style="margin:0.8em 0">医疗交易天生信息不对称，Ziedan 用二手车市场类比：卖方比买方知道得多得多。她常引用瑞典的研究——医学院入学考试的分数线随机地把&quot;一位医生&quot;分配进了一些家庭，这些家庭全家人的寿命都因此延长了数年。医疗服务提供者永远比消费者更懂什么技术有价值、什么没有。</p>
-<p style="margin:0.8em 0">在这个不对称之上再叠加一层 AI agent，局面就荒谬了：&quot;相当于美国有一百万名医生，我们再雇一百万名。这些新医生考过了一场可爱的 5000 题考试，就放他们上岗。&quot;而另一边，是受过近十年专门训练、考过远不止 5000 道题的现有百万医生。Ziedan 说，这个对比&quot;想一想都觉得疯狂&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">灾难性失败容易定义，微妙偏见几乎看不见</h2>
-<p style="margin:0.8em 0">Ziedan 把安全问题分成两层。灾难性失败（catastrophic failure）反而是容易的那层——它很窄，几乎可以定义成死亡率。难的是广泛的错位（misalignment）和微妙偏见：难以定义，更难检测。</p>
-<p style="margin:0.8em 0">她的例子很具体：保险公司和医院都在用 agentic AI 处理事前授权（prior authorization）和医疗拒赔。用经济学家的 Edgeworth box 来看，两条无差异曲线在契约曲线上交汇——一方最大化总收入、最小化赔付，另一方最大化追回的收入。双方都上了智能体工具，患者夹在中间：没有代理权，也没有监管者说&quot;这个模型其实错位了&quot;。</p>
-<p style="margin:0.8em 0">&quot;如果你被开了一种药，模型先查一下你是否欠医院钱，这公平吗？&quot;Ziedan 反问。&quot;医院说不要转诊到网络外机构——哪怕你宁愿多花钱去网络外——这也可以吗？&quot;</p>
-<p style="margin:0.8em 0">但这类工具也有未被评估的好处。Protege 手里有数千亿条医疗笔记，有些笔记写着&quot;她看起来不修边幅，她丈夫在问很好的问题&quot;——真实含义是&quot;她不可信&quot;，于是疼痛被归因为&quot;潜在的精神问题，不必临床深究&quot;。而记录医患对话的 ambient 工具把对话原样写进 SOAP 笔记，第三方医生看了会说：&quot;我应该开个检查，查清疼痛的原因——我不认为这只是她的想象。&quot;Ziedan 指出，这样的好处甚至没有被纳入任何评估体系。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">基准测试的故障：两篇相反的论文与&quot;背下答案&quot;的模型</h2>
-<p style="margin:0.8em 0">最近 Nature 上的一篇论文称，通用 AI 在医疗上击败了垂直专用模型——OpenAI 的模型表现超过任何医疗专用模型；紧接着 arXiv 上出现一篇针锋相对的论文，得出了相反结论。在经典学术界，编辑们最爱这种对立：发表最有争议的东西。</p>
-<p style="margin:0.8em 0">但 Protege 为自己客户做的评估极其敏感：结果取决于你怎么写提示词、用什么 harness（在肿瘤病理领域尤其如此）；有时只是改变多选题选项的顺序，模型排名就会反转——这被一些人视为基准被污染的迹象：模型像学生一样背下了正确答案的位置。</p>
-<p style="margin:0.8em 0">有模型声称请人类医生审阅了 70 万组问答对，努力值得肯定。但 Ziedan 用脊柱手术来检验：&quot;这个模型通过了 5000 道题（甚至 10000 道题）的考试&quot;和&quot;这位医生做过 4000 台脊柱手术&quot;，你信谁？你在乎的从来不是模型的一般知识，而是&quot;它有没有见过这个场景、在那里有没有帮上忙——多少人非正常死亡、多少人的预后改善了&quot;。</p>
-<p style="margin:0.8em 0">真实世界的评估还有一个没人愿意谈的问题：医生有偏好，就像投资者有风险偏好。膝关节置换的数据里，有的医生永远只做部分置换，有的医生&quot;碰了膝盖就是全置换&quot;——这是他的风格，近乎滞后效应（hysteresis）。把真实病历放进模型，模型给出与医生相反的建议，你能断言模型错了吗？也许医生才是错的那个。当模型超过平均水平医生时怎么办？答案不能永远是&quot;多问几个医生，靠大数定律&quot;。总有一些任务太专业、风险太高，需要在真实诊疗现场测试。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史押韵：阿片危机与迟到的质量报告</h2>
-<p style="margin:0.8em 0">Ziedan 警告，如果坐等，可能重演阿片危机：直到 2010 年峰值，全国工作组成立、正式称之为&quot;流行病&quot;，人们才开始行动。</p>
-<p style="margin:0.8em 0">政府并非没有先例。2007 年起推行的价值导向采购（value-based purchasing），把政府 80% 的医疗付款与质量挂钩：医生为疑似病毒的症状开抗生素要被扣分，养老院老人跌倒骨折要追责。但这些报告是回顾性的——滞后 6 到 12 个月。AI 不行：技术变化太快，而且它本身有主动性（agency）。医疗占美国 GDP 的 20%、1.5 亿就业岗位中的 2000 万个，但&quot;如果你有勇气抛开这些，正确的做法其实很简单&quot;——一个始终在看的观察者：</p>
-<p style="margin:0.8em 0">当医生身边的本地 AI agent 开始把他推向利润最大化但伤害患者的决定时，有人提醒他；当护士因为说过患者几句坏话、模型变得过度讨好，建议提前出院好让她早下班时，有观察者说&quot;这个行为不可接受——你不能因为要下班就提前放走病人&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Protege 的裁判生意：测试集永不离开</h2>
-<p style="margin:0.8em 0">垂直 AI 公司们在&quot;相同的子节点&quot;里竞争：ambient 记录、临床试验推荐、护士工作流、排班、肿瘤病理（看 H&amp;E 切片推荐最匹配的疗法）。客户彼此说&quot;我们像黑夜里的船——他说他最好，我说我最好&quot;。于是他们把模型托管给 Protege 跑统一评估，产出一份互相对比的报告：各自哪里更强、哪里该改进。</p>
-<p style="margin:0.8em 0">裁判的细节底线由 Protege 来画：用什么提示词？前沿模型用定制 harness 还是自带默认？模型拒绝回答时，填平均值还是退而求其次用第二好的模型？这些决策都会改变排名。评估结果分享给技术的购买方——肿瘤病理场景里就是药企和医院。</p>
-<p style="margin:0.8em 0">&quot;模型创作者不应该自己发布评估，就像不能给自己批改作业。这个激励问题太明显了。&quot;</p>
-<p style="margin:0.8em 0">为什么是 Protege？Ziedan 用比较优势解释：在自己做的一切里，做医疗训练数据和评估的边际成本最低。而且评估做完，测试集永远不离开 Protege——某模型暴露出的缺陷，Protege 能精确指出该补什么数据，并用自己庞大的数据源快速训练补齐。保持公正有网络效应式的动力：缺乏信任会瞬间摧毁整个网络。方法论对所有子节点成员公开，参与者名单到最后才揭晓，他们有权&quot;无声退出&quot;。</p>
-<p style="margin:0.8em 0">数据污染是另一个战场。Ziedan 原以为&quot;找没给任何模型训练过的数据就行&quot;，得到的回答是&quot;我们手里 80% 的数据都给过训练&quot;。肿瘤病理的评估，他们真的去医院的病理抽屉里翻&quot;从未被扫描过的新切片&quot;——&quot;这个患者从未进入过任何模型&quot;。当研究人员说&quot;模型在这项任务上比随机还差，有点污染算什么&quot;，Ziedan 反驳：&quot;比随机还差，这本身就是严重错位的信号——为什么它会比随机还差？&quot;Protege 现在执行一道&quot;封膜&quot;（sealing the membrane）：任何进入过训练的数据集或患者，禁止进入基准测试。</p>
-<p style="margin:0.8em 0">至于政府？&quot;政府不会做的。&quot;Ziedan 说，更危险的其实不是行动，而是坐在那里等政府——联邦公报（Federal Register）上已经有政府向行业求助、询问该如何评估 AI 的文件。她的博士论文研究过惩罚医院再入院率的价值导向政策：数千篇论文、花了十年才评估清楚一个指标（它是否反而导致更多再入院）。而 AI 评估可以同时问一千个关于 agentic 系统在医院里如何行为的问题。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">零凭证上岗的 AI</h2>
-<p style="margin:0.8em 0">Ziedan 提醒一个刺眼的对比：美国长期护理市场大量依赖发展中国家输入的护士，她们要通过严格的学习和考试；美国的医生连跨州执业都要重新考试认证。而这些 AI 工具进入医疗系统，唯一的凭证是厂商的一句话：&quot;和某些医生比，我们的 AI 赢了。&quot;</p>
-<p style="margin:0.8em 0">教育、金钱、健康是人的核心人力资本。在这些领域出现任何错位，都会转化为对整个 AI 的普遍不信任。现在是&quot;自我治理&quot;时代——&quot;医生只是参考一下 AI，我们会抓住错误&quot;。ChatGPT 每次给出医疗建议都附一句&quot;这不是医疗建议&quot;，但人们信任计算机给出的东西，很少质疑。所以，总得有人给这些模型打分——而且不能是模型自己。</p>
-<p style="margin:0.8em 0">回到开头那个 92% 对 45% 的模型：它不缺更多考试，缺的是一个在真实诊疗现场看着它工作的裁判。Ziedan 的结论是，独立的第三方评估不是医疗 AI 的奢侈品，而是它进入临床的前提——而且这套评估必须像 AI 本身一样实时运转，而不是像价值导向采购那样滞后一年。谁来做这个裁判、以什么标准做，是医疗 AI 时代第一个真正需要回答的问题。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<p style="margin:0.8em 0">上个月的 WIC 展会上，速腾聚创是少数&quot;随时来人随时演示&quot;的展台——从你身上挑一件东西放到桌上，再拿起来递给你，完全是泛化抓取的展示。这次 WRC 现场，自变量机器人的物流分拣全天在跑、节拍极快；星海图超市拣货、抽绳、封口的 demo 也一直在动。头部几家确实做得好——这是他逛完展更有信心的原因。</p>
+<p style="margin:0.8em 0">他把自己准备的问题发在小红书上，标题是&quot;我们来了不寒暄，就问关键问题&quot;。怎么分辨机器人是自主还是遥操作？&quot;人摇操很难做到连续，两只手很难同时做独立的事——一手动完另一手动，很可能有人在摇；左右手同时做不同轨迹，大概率是自主规划。&quot;其次是失败恢复：出错了是自动恢复，还是要人工重启？再就是换光线、换物体还认不认得——他会故意放纯白色的、和桌面颜色接近的东西，再拿手机闪光灯照上去，看它的反应。他还提到两个数据口径问题：视频剪了几条、加速几倍？成功率是挑了多少次场景算出来的？</p>
+<p style="margin:0.8em 0">还有一个只在布展日看得见的细节：很多公司展台摆好后，会现场补采数据、重新训练——现场灯光和环境一变，成功率立刻下跌。他推荐大家以后布展日进场，看谁在补数据、谁靠仿真吃遍所有环境。速腾聚创不需要这一步：它走完全仿真的路线，在仿真空间里穷尽了可能性。</p>
+<p style="margin:0.8em 0">今年还有一个务实信号：如果下半身不用动，很多公司直接在桌上放两只机械臂做 demo，不再摆一台站着不动的人形。先手自己也认为，让一个人形站着做咖啡没必要——&quot;人形&quot;的定义是能用为人类准备好的设施，一条臂也可以。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">采购日与电梯按钮：场景开始挑人</h2>
+<p style="margin:0.8em 0">今年大会主题&quot;人机共生、产需共融&quot;，后半句是历届最大的变化：大会设了采购日，央企和大型企业直接带着采购项目进场，大量具身行业的客户在现场。这是以往任何一届都没有的。</p>
+<p style="margin:0.8em 0">先手展出的场景是酒店配送机器人加一条机械臂：手臂把地上的外卖捡起来、按电梯、进房间把外卖放下，全程不再需要人。上一代酒店机器人（云迹等）早已靠电梯改造方案把电梯&quot;玩得很溜&quot;——那为什么非要用手按电梯？叶阳生解释：电梯是特种设备，国内改造要走报备、施工，有周期和成本；海外根本不允许改造，安全法规严、改造成本是国内好几倍，人用什么，机器人就得用什么。所以&quot;用手按电梯&quot;在海外是刚需，在国内则省掉了交付周期。真正的痛点是全程不再需要人——在工作人员配比不高的公寓、小区场景，机器人的触达率会更高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两万台出货，几成算真实需求</h2>
+<p style="margin:0.8em 0">主持人抛出一组数据：2026 上半年全球人形机器人出货突破 2.2 万台，中国厂商占 97%；智元 9700 台全球第一，宇树 7000 多台，银河通用 1100 台，前五家合计占全球 86%。</p>
+<p style="margin:0.8em 0">叶阳生认为中国已是支配性角色——制造业基础太强，国外想做本体也离不开中国供应链；国外强的是模型能力（如 Google 的 PaLM/Gemini 一系的通用模型），但在本体硬件上完全没法跟中国打。</p>
+<p style="margin:0.8em 0">但说到真实需求，他的判断非常冷：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;把跳舞表演都排掉，真实落地的需求有 10% 已经非常好了。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">他去年就说过：公布出来的订单量，要除以十。太空舱零售这种场景不算真实需求——账算不过来、没有泛化性、环境单一，铺再多也提升不了智能。剩下的 90% 去哪了？一部分进数据工厂，一部分做科研教育，还有很多在工厂里&quot;吃灰&quot;。出货量和确认收入本来就是口径问题：出货算不算收入，还是签了验收单才算？非上市公司不披露财报，外界根本不知道。</p>
+<p style="margin:0.8em 0">这也是他看好宇树上市的原因——标杆立在那里，证明具身公司能上市。但他提醒，A 股审计很严格：审计师会去工厂实地看机器人有没有在用；卖给代理商、没有到达终端的不能算收入；把机器人卖给数据工厂、再把数据买回来，那是体内循环，严格来说都有问题。二十多家排队上市的公司里，财务上有没有水分，审计这一关会给出答案。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">速度之辩：去表演化做到了，去差异化还没有</h2>
+<p style="margin:0.8em 0">星海图的高管说，现在机器人的速度大概是人类的 70% 到 80%。叶阳生不太同意：&quot;大部分还没到，物流分拣可能接近。&quot;他说到 70%-80% 其实已经可以把 ROI 算过来了——机器可以一直干，人需要休息，所以 50% 都可以接受。</p>
+<p style="margin:0.8em 0">北京人形机器人创新中心的熊友军说，人形机器人的 ROI 与工业机器人还有差距，但差距在迅速缩小。叶阳生直言没看到明显缩小：展会上大部分单臂 demo 还是慢，叠一件衣服要两分钟，人十秒就叠完了——差距还在一个数量级上。他认同的是&quot;往未来看差距会缩小&quot;：从 WIC 到 WRC，技术确有明显进步，但整体没有让人感到&quot;飞速&quot;。</p>
+<p style="margin:0.8em 0">去表演化做到了，去差异化还没有。最高频的 demo 场景高度集中：物流搬运、工业上下料、咖啡机、物品收纳、遥操作复刻、泛化抓取。&quot;为什么集中在这几个场景？因为也就这几个场景做得到。&quot;工业里，人现在只干两件事：搬东西和上下料，打螺丝早就自动化了。大家扎堆工业制造、汽车、3C 三个赛道，因为这些工厂数字化程度高、有钱，需求是百万级的。三百多家公司抢五个方向的场景，叶阳生觉得挺正常——当年移动机器人和协作臂也是几十上百家卷同一个市场，最后活下来的就是头部几家加中腰部十几家。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">大脑的真相：预训练神话与&quot;永续公司&quot;</h2>
+<p style="margin:0.8em 0">人人都说自己是&quot;VLA + 世界模型 + 全栈自研&quot;。水分有多大？&quot;非常大。&quot;</p>
+<p style="margin:0.8em 0">叶阳生透露的行业内幕是：真正在买千卡以上、疯狂买数据、真金白银做预训练的纯创业公司，只有一到两家——不背靠大厂的，他点名的贝格捷（音）算一家。这个数字他从投资人的圈子和交表材料里交叉打听过：二十多家公司排队上市必须交表，路演材料里看不到相应的算力投入；何况国内根本没有那么多卡可分。账是能算出来的——等效 H100 的算力，一年投入要几个亿，&quot;账上十个亿十个亿，根本不精花&quot;。就算买了卡，没有头部厂商出来的人，卡也只能吃灰。</p>
+<p style="margin:0.8em 0">于是有了&quot;永续公司&quot;的说法：融了几十个亿趴在账上，一年利息小几个亿，养几百个研发绰绰有余，&quot;有点死不掉&quot;。策略是螳螂捕蝉、黄雀在后——等国外把路蹚出来、行业出现拐点再进场。叶阳生从务实角度觉得这没错，但&quot;有信仰的人追求技术的突破性&quot;，他点名许华哲是有信仰的。</p>
+<p style="margin:0.8em 0">大脑能力高度同质化：基本是 follow 国外最前沿，公认 Google 的 PaLM/Gemini 一系效果最好，各家在其基础上做改进。Google 最近发布的新架构基于 Agent 系统——多个专家模型由一个 Agent 调度，这是新方向：与其做一个巨大的模型，不如把能力原子化，经典控制算法和模型混用，由一个&quot;Agent OS&quot;在具身大脑里调度，处理长程任务、错误恢复和抗干扰。先手自己也在做这方面的研究。</p>
+<p style="margin:0.8em 0">王兴兴在开幕式上的演讲被叶阳生评价为&quot;说得非常精准&quot;：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;语言模型的输入输出是纯数字编码，严格限制在固定的向量空间里，基本上没有损耗；但机器人每一次输入输出都会引入偏差和损耗，触觉层面的细微误差甚至无法修正，所以成功率会随之暴跌。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">叶阳生的补充更狠：人干好一件事到底靠什么、有多少模态的输入，现在都说不清楚；而采集到的模态实在太少——基本只有视觉，最近才加上触觉和力。如果 AI 能自学习、自进化，提升可能很快，这是行业共识的方向。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">神经上位：灵巧手、触觉与数据成了主角</h2>
+<p style="margin:0.8em 0">灵巧手和触觉今年冒出大量新公司。张宇动力是今年刚成立的公司，在 C 馆拿到不错的展位：它的灵巧手把手和小臂一起做掉，设计相当仿生，还带肌电信号。肌电手环戴在腕部，配合数据手套，等于用两重数据验证手部姿态，还能反哺动作采集是否正确。肌电信号今年是普遍趋势。</p>
+<p style="margin:0.8em 0">触觉被看作增量。智元的杨宝清院长说过：现在机器人能做的事，本质上是从视觉到动作的肌肉映射，不是真正的智能——比如你给它一张纸，它是拿不起来的。电子皮肤让机器人有机会定义摩擦系数、物理材质这些现实参数。叶阳生说触觉相当于多了一个模态，模型自然而然能完成更多操作，但这才刚开始：带触觉或肌电信号的 VLA 论文很多，落地还没看到——采集设备太贵了。</p>
+<p style="margin:0.8em 0">更底层的是&quot;神经&quot;。真正在训大脑的公司很少，小脑运控各家都做得不错，今年的增量在神经：机器人身上传感器和执行器越来越多，需要稳定高速的总线协议栈，这是芯片层和底软层的活。类比智驾：摄像头、激光雷达越来越多，CAN 总线带宽不够了，得上车载以太网；机器人现在还没有一套标准的总线或协议栈定义，方便各家快速接入大脑和小脑。部件公司因此登上舞台中心，从配件变成赛道最核心的部分，供不应求、价格高——以前一个小电机一万块，现在整台人形十万以内，而一只灵巧手就能卖得很贵。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数据的脏活与归一化野心</h2>
+<p style="margin:0.8em 0">行业对数据有真实的痛点，核心是标准不统一，拆开是四件事：数据格式——每家自己定一套，别人的数据直接吞不下，转换是又脏又贵的活；时序——几十纳秒级的时间同步，摄像头之间差一点，训出来的模型就有问题，需要硬件对时，很多传感器只支持软件对时；标注规范——除了&quot;这是个杯子&quot;，要不要标透明、标速度？没有共识；采集口径——大脑到底需要什么数据，还在试，各家按自己的本体定义。</p>
+<p style="margin:0.8em 0">先手成立自己的数据子公司，是想做归一化——把当年做控制器做到全球第一的底层逻辑再做一遍：尽可能适配，通过提供价值让各家形成事实标准。他们规划的数据集包括：3D/4D 高斯重建的场景，前景物体资产化、可以被交互；人类示范数据，用异构采集设备和遥操作设备采集，广视角、带语义化标注；真机运行轨迹；以及质量最高的人类接管数据——机器出错时人的干预和纠正。打包起来可以训 VLA，也可以训世界模型，再推出 benchmark 让大家打榜。与别家数据公司的本质区别是前后都做得更长：往前做一个平台，把真机实时接入云端回流数据；往后自己做模型训练、仿真和评测，产出的模型再回到机器人大脑。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年看什么：速度，和不停机</h2>
+<p style="margin:0.8em 0">今年的进步到底来自哪里？叶阳生的答案不是世界模型，而是后训练——强化学习只是后训练的一种，加上数据质量变高、工程能力变强（AI coding 加速了这一切）。他同意主持人的判断：行业有进步，但没到令人兴奋的程度，因为还没看到真正在场景里落地的案例，&quot;行业都挺焦虑的&quot;。</p>
+<p style="margin:0.8em 0">明年再逛 WRC，他只看两个指标：第一，动得快不快；第二，从开馆到闭馆，是不是一直在不同的位置做不同的事、全天不停机。只有做到这两点，才更接近落地。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：拉上围栏，人更多了</h2>
+<p style="margin:0.8em 0">这届 WRC 的名场面很多：机器人跑步冲刺跑到冒火花、具身足球赛里观众当守门员被球撞得站不稳、黄仁勋的女儿出现在现场。叶阳生印象最深的也是足球赛场边：人挤得走不动路，主办方拉上围栏，结果人更多了，大家沿着围栏排队。</p>
+<p style="margin:0.8em 0">他想起晚点的一篇报道：几家具身公司高管坐在一起交流怎么融资，有人分享&quot;投资人来加你，你先晾他几天&quot;，制造稀缺性；现在的融资节奏是一个月一轮，三个月报三轮，谁动作快谁往前挤。他觉得这没问题——具身是非常长的赛道，需要足够的钱，而资本市场有周期，钱不会一直好融，要熬过那段时间，才会迎来更好的时代。</p>
+<p style="margin:0.8em 0">从 2011 年前后玩 RoboCup 足球机器人算起，叶阳生在这个行业待了十四年。他的结论带着时间刻度：&quot;以前做机器人，这么小一个电机一万块；现在做一个人形，成本十万不到。性能大幅提升，智能性大幅提升。&quot;但差距也没那么大——&quot;大家的差距可能最多在半年以内，起点都还很低，都有很大的提升空间。&quot;</p>
+<p style="margin:0.8em 0">泡沫被挤出之后，真正留下来的，是那些能不停机干活、算得清账的公司。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">医疗 AI 的评估困境：模型可以考过医学执照考试（92%），真实临床任务却只有 45%——基准测试考的是知识，不是场景经验。</li>
-<li style="margin:0.3em 0">灾难性失败（窄到可以定义为死亡率）反而好抓；微妙偏见和错位——事前授权里模型先查你欠不欠医院钱、护士说坏话后模型建议提前出院——更难定义、更难检测，也更有害。</li>
-<li style="margin:0.3em 0">基准测试本身会&quot;污染&quot;：提示词、harness、甚至多选题选项顺序都能改变排名；Nature 与 arXiv 两篇论文结论相反，说明&quot;谁最好&quot;在方法学上尚无共识。</li>
-<li style="margin:0.3em 0">政府评估体系（价值导向采购）滞后 6-12 个月，而 AI 变化快、有主动性——医疗 AI 需要实时持续的观察者，不是季度报告。</li>
-<li style="margin:0.3em 0">评估者必须与模型开发者利益隔离：测试集不离开评估方、参与者可无声退出、方法论公开——&quot;不能自己给自己批改作业&quot;。</li>
-<li style="margin:0.3em 0">数据隔离是评估可信度的底线：进入过训练的患者数据禁止进入基准（Protege 称之为&quot;封膜&quot;），而&quot;比随机还差&quot;本身就是错位信号。</li>
+<li style="margin:0.3em 0">定时演示 = 对成功率不自信或硬件不耐久；全天不间断演示才是真本事。</li>
+<li style="margin:0.3em 0">中国厂商占全球人形出货 97%，但真实需求可能只有 10%——公布订单，先除以十。</li>
+<li style="margin:0.3em 0">真做预训练的纯创业公司只有一到两家；&quot;永续公司&quot;靠利息养研发，等拐点再进场。</li>
+<li style="margin:0.3em 0">大脑高度同质化（follow 国外前沿），新方向是 Agent 调度多模型做长程任务。</li>
+<li style="margin:0.3em 0">神经（高速总线/协议栈）与部件（灵巧手、触觉、数据）是今年的增量和好生意。</li>
+<li style="margin:0.3em 0">明年只看两个指标：速度，以及从开馆到闭馆是否一直不停机。</li>
+<li style="margin:0.3em 0">成本剧变：以前一个小电机一万块，现在整台人形成本十万以内。</li>
 </ul>
 
 </div>
