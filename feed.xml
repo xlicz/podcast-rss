@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 13:16:18 +0800</lastBuildDate><item><title>[投资实战派] 物理AI的GPT时刻还远</title><link>https://xlicz.github.io/podcast-rss/articles/物理AI的GPT时刻还远-2026-08-25.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_df7ae6067dec</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>物理AI的GPT时刻还远</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 23:00:27 +0800</lastBuildDate><item><title>[投资实战派] 物理AI的GPT时刻还远</title><link>https://xlicz.github.io/podcast-rss/articles/物理AI的GPT时刻还远-2026-08-25.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_df7ae6067dec</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>物理AI的GPT时刻还远</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">物理AI的GPT时刻还远</h1>
 <p style="margin:0.8em 0">一位跟踪特斯拉产业链四年的分析师，拆解人形机器人的落地排序、成本账与投资风险</p>
-<p style="margin:0.8em 0">2024年，黄仁勋说&quot;下一步的AI是物理AI&quot;；2026年CES上，他改成&quot;当机器开始理解推理、并在真实世界中行动时，物理AI的GPT时刻就到了&quot;。定义两年内变了两次，资本也跟着换了一波标的。本期嘉宾从2022年6月特斯拉发布第一代原型机起跟踪机器人产业链，四年采访上百家上下游公司。他的判断并不性感：以自动驾驶类比，物理AI只到L1级别；人形机器人长流程任务综合通过率不到10%；特斯拉百万台出货预期已从2025年推到2030年。</p>
+<p style="margin:0.8em 0">2024年，黄仁勋说"下一步的AI是物理AI"；2026年CES上，他改成"当机器开始理解推理、并在真实世界中行动时，物理AI的GPT时刻就到了"。定义两年内变了两次，资本也跟着换了一波标的。本期嘉宾从2022年6月特斯拉发布第一代原型机起跟踪机器人产业链，四年采访上百家上下游公司。他的判断并不性感：以自动驾驶类比，物理AI只到L1级别；人形机器人长流程任务综合通过率不到10%；特斯拉百万台出货预期已从2025年推到2030年。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">物理AI的定义在变，投资标的跟着换</h2>
-<p style="margin:0.8em 0">黄仁勋两次定义值得细看：2024年是&quot;理解物理规律、能够在我们身边工作的AI&quot;，2026年CES上变成&quot;理解推理并在真实世界中行动&quot;——从&quot;理解&quot;推进到&quot;行动&quot;。周总的比喻：大模型像鱼缸里的金鱼，能和你做文字、图片互动，但进不了现实世界；物理AI建立反馈机制后，相当于从鱼缸里走出来，与真实世界互动。</p>
-<p style="margin:0.8em 0">嘉宾的理解更工程化：物理AI就是&quot;物理化的AI&quot;，最简版本是智能驾驶的感知—决策—执行三段——本体在世界中感知，大脑决策，最后通过手、轮子等实体交互、改变世界。</p>
-<p style="margin:0.8em 0">那它和热门的&quot;具身智能&quot;是什么关系？嘉宾明确说不是一回事：具身智能是物理AI的分支，判断标准在于能否&quot;改变世界&quot;。小爱同学有本体、能语言交互，算具身智能，但无法通过动作和器官改变世界，所以不算物理AI。这也是为什么前几年炒具身智能，今年概念重新定义后资金换了一波公司——两者&quot;影响世界&quot;的维度有本质差别。</p>
-<p style="margin:0.8em 0">至于2026年算不算&quot;物理AI元年&quot;，嘉宾说取决于标准——雏形已出现，但离真正产生重要作用还需十年以上。</p>
+<p style="margin:0.8em 0">黄仁勋两次定义值得细看：2024年是"理解物理规律、能够在我们身边工作的AI"，2026年CES上变成"理解推理并在真实世界中行动"——从"理解"推进到"行动"。周总的比喻：大模型像鱼缸里的金鱼，能和你做文字、图片互动，但进不了现实世界；物理AI建立反馈机制后，相当于从鱼缸里走出来，与真实世界互动。</p>
+<p style="margin:0.8em 0">嘉宾的理解更工程化：物理AI就是"物理化的AI"，最简版本是智能驾驶的感知—决策—执行三段——本体在世界中感知，大脑决策，最后通过手、轮子等实体交互、改变世界。</p>
+<p style="margin:0.8em 0">那它和热门的"具身智能"是什么关系？嘉宾明确说不是一回事：具身智能是物理AI的分支，判断标准在于能否"改变世界"。小爱同学有本体、能语言交互，算具身智能，但无法通过动作和器官改变世界，所以不算物理AI。这也是为什么前几年炒具身智能，今年概念重新定义后资金换了一波公司——两者"影响世界"的维度有本质差别。</p>
+<p style="margin:0.8em 0">至于2026年算不算"物理AI元年"，嘉宾说取决于标准——雏形已出现，但离真正产生重要作用还需十年以上。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四类机器人，落地排序早已注定</h2>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">工业大于协作，大于人形，大于具身智能——这是整体落地角度的排序。</p>
 </blockquote>
 <p style="margin:0.8em 0">差异从结构和作用看。工业机器人固定在工位，靠核心电机、高重载减速器和夹爪完成设定工作，预编程、通用性最弱；协作机器人多一个灵活性维度，能在一条产线上各岗位交替工作；人形机器人靠大脑的泛化性在整个工厂甚至跨工厂实时调整工作，结构件复杂得多——还加了大脑芯片和感知模块。</p>
-<p style="margin:0.8em 0">从产业阶段看，前两类已不是高增长行业：疫情时增速甚至为负，如今更像周期行业，跟随下游扩产波动。人形机器人则在萌芽期：去年全球出货约1.8万台，大部分用于商业表演、数据采集和科研；今年中国预计出货约10万台，大头仍在数据采集，真正进工厂干活的极少。嘉宾举了头部电池厂商的例子：几十万工人的大厂，人形机器人需求只有两三百台，还在跑测试。现实是泛化性不足、稳定性可靠性离商业化有距离——一台机器人往往配两三个研发人员盯着调试，&quot;还在教一个小朋友走路&quot;。</p>
+<p style="margin:0.8em 0">从产业阶段看，前两类已不是高增长行业：疫情时增速甚至为负，如今更像周期行业，跟随下游扩产波动。人形机器人则在萌芽期：去年全球出货约1.8万台，大部分用于商业表演、数据采集和科研；今年中国预计出货约10万台，大头仍在数据采集，真正进工厂干活的极少。嘉宾举了头部电池厂商的例子：几十万工人的大厂，人形机器人需求只有两三百台，还在跑测试。现实是泛化性不足、稳定性可靠性离商业化有距离——一台机器人往往配两三个研发人员盯着调试，"还在教一个小朋友走路"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件基本能用，卡点全在大脑</h2>
 <p style="margin:0.8em 0">人形机器人相对蓝领工人的落后，要拆成软硬件看。硬件方面，新能源汽车产业链已备好三电、电机、电驱、电控，人形机器人站在现成供应链上，又准备了四年：典型指标是行星滚柱丝杠传动效率，特斯拉要求95%以上，实际只能做到不到85%，有gap但已能用——成本基本下来了，效率还有提升空间。</p>
 <p style="margin:0.8em 0">真正的卡点在软件、在大脑，有两个可监督的指标。</p>
 <p style="margin:0.8em 0">第一是长流程任务通过率。从A点走到B点，通过率接近100%；但让它煎一个鸡蛋——从冰箱拿鸡蛋、拿碗、打蛋、热锅——每个单动作正确率都能做到90%以上，层层叠加出现乘数效应后，综合通过率不到10%。所以工厂里机器人目前最多搬箱子、上下料。</p>
 <p style="margin:0.8em 0">第二是动作稳定性。插拔线束前两次准确率90%以上，良率95%；连续工作超三小时后，传感器和电机发热导致程序漂移，良率掉到80%。背后有硬件发热的问题，但更大的是大脑自动调节能力不足、泛化性差。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">硬件基本能用，软件受限于数据，现在整体还是&quot;婴儿状态&quot;。</p>
+<p style="margin:0.8em 0">硬件基本能用，软件受限于数据，现在整体还是"婴儿状态"。</p>
 </blockquote>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人形机器人和智能驾驶，谁先到L5？</h2>
 <p style="margin:0.8em 0">智能驾驶到今天L4都没实现，凭什么人形机器人跨过这道坎？嘉宾认为取决于两个方向相反的因素。正向是安全性：车在路上出错可能危及生命，法规先天严格；人形机器人在固定场景工作，容错空间大得多，新模型都能先在实验室用。反向是数据：智能驾驶是低模态——只有四个轮子；人形是高模态乃至全模态——特斯拉全身已接近四十个关节，对参数量和数据的量级要求指数上升。哪个占主导，只能跟踪。</p>
 <p style="margin:0.8em 0">数据问题最有前景的解法是英伟达今年2月的EgoScale论文：两万小时第一人称视角数据让人形机器人快速认知世界，之后喂小批量视频就能学会新习惯。采集方式是戴头套——家庭主妇、产线工人、快递小哥工作途中都能采集，低成本、标准化；论文显示一千到两万小时，数据规模与效果近似对数线性改善，官方R²达0.9983。</p>
-<p style="margin:0.8em 0">为何不能纯靠仿真？一是数据分布：仿真擅长视频充足的场景，但大量场景它没接触过，模型要泛化，高频和常规场景都得覆盖。二是幻觉：李飞飞提醒过，纯仿真训练会让机器人&quot;无中生有&quot;——物理世界的机器人产生幻觉，后果可能难以承受。</p>
-<p style="margin:0.8em 0">仿真与真机互不可缺：EgoScale只提供两三个模态（视频加惯性导航），而通用人形智能要求全模态——温度、触觉、语言都得覆盖。数据体量是天文数字：一个人活一百岁，睁眼约五十多万小时；头部公司真机数据最多十万小时级别，今年底可能达一百万小时，相当于两个人一生的视角；智源旗下数据公司提出2030年采集&quot;两万个人一生&quot;的数据量，极端条件可能要一千万人甚至一亿人一生。</p>
+<p style="margin:0.8em 0">为何不能纯靠仿真？一是数据分布：仿真擅长视频充足的场景，但大量场景它没接触过，模型要泛化，高频和常规场景都得覆盖。二是幻觉：李飞飞提醒过，纯仿真训练会让机器人"无中生有"——物理世界的机器人产生幻觉，后果可能难以承受。</p>
+<p style="margin:0.8em 0">仿真与真机互不可缺：EgoScale只提供两三个模态（视频加惯性导航），而通用人形智能要求全模态——温度、触觉、语言都得覆盖。数据体量是天文数字：一个人活一百岁，睁眼约五十多万小时；头部公司真机数据最多十万小时级别，今年底可能达一百万小时，相当于两个人一生的视角；智源旗下数据公司提出2030年采集"两万个人一生"的数据量，极端条件可能要一千万人甚至一亿人一生。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">特斯拉的十四万成本账</h2>
 <p style="margin:0.8em 0">市场习惯以特斯拉为参考系：第一个按工业化落地设计的人形机器人，多数人相信若真有一台跑向通用智能，最可能是它。特斯拉的目标是，在真正达到十万台、百万台以上时，机器人本体价格做到14万人民币以内。</p>
 <p style="margin:0.8em 0">这14万里，执行器占成本50%-60%，其中灵巧手至少占20%-30%。灵巧手是研发重心也是卡点——据说一半以上研发时间花在它上面。现在有22个自由度，每个自由度的构造是：微型电机靠减速器传导，再用丝杠把旋转运动变成直线运动，末端通过腱绳连接，最末端有力触觉传感器感知外界。</p>
@@ -40,12 +40,12 @@
 <p style="margin:0.8em 0">主持人提出一个常被忽略的疑问：机器人形态未必是人形——不需要双臂，脚也可以换成轮子。若2030年一千万台出货里人形只占5%-8%，价值量测算会完全不一样。</p>
 <p style="margin:0.8em 0">嘉宾回应分两层。量级上：二级市场对2030年的预测，100万台就不错；加上轮式和玩具机器人可能到大几百万台；纯to B工厂上限上百万台；上千万台必须进入家庭，去做保安、保洁、保姆。价值量上：哪怕只有上半身加轮子，芯片（一两万元以上）、至少10个自由度的手（一两万元）、旋转执行器都不可缺；减速器分RV、谐波、行星三类，精度要求低时十个左右、一百元一个就够，但要承担抱小孩、炒饭这类高精度操作，单机价值量能上五千元。</p>
 <p style="margin:0.8em 0">主持人快速测算：减速器BOM折中2000元，100万台就是20亿市场，按20%净利率只有4亿利润——相关公司估值却远不止这个数。嘉宾承认，市场框架就是按100万台给的：单机ASP×净利率×份额，再给20到30倍PE。以谐波减速器为例：1000元一个、一台20个，100万台对应200亿市场，按20%净利率、50%份额、30倍PE，就是600亿市值。</p>
-<p style="margin:0.8em 0">为什么锚定100万台？2022年6月特斯拉给产业链的预期是2025年达100万台——按10万台算，机器人利润弹性不到20%；按1000万台算，就只看机器人、不用管主业了。100万台恰好让主业市值占一半，第二曲线乐观时可翻倍。但各硬件环节估值加起来远超100万台对应的1400亿收入盘子（约200亿美元，任何大厂capex都远超此数）——行星滚柱丝杠一个环节，某阶段估值就超过1400亿。原因有二：一是大家真正买单的是&quot;亿台级&quot;终极叙事；二是各家机构相信的标的组合不同，份额预期相加超过100%，造成冗余投资。</p>
+<p style="margin:0.8em 0">为什么锚定100万台？2022年6月特斯拉给产业链的预期是2025年达100万台——按10万台算，机器人利润弹性不到20%；按1000万台算，就只看机器人、不用管主业了。100万台恰好让主业市值占一半，第二曲线乐观时可翻倍。但各硬件环节估值加起来远超100万台对应的1400亿收入盘子（约200亿美元，任何大厂capex都远超此数）——行星滚柱丝杠一个环节，某阶段估值就超过1400亿。原因有二：一是大家真正买单的是"亿台级"终极叙事；二是各家机构相信的标的组合不同，份额预期相加超过100%，造成冗余投资。</p>
 <p style="margin:0.8em 0">特斯拉指引一再延迟后，估值体系开始下修：丝杠单机价值量从曾经的五万、十万降到一两万甚至五六千。2022到2024年市场有信息不对称和滤镜，哪个环节边际变化大就给足估值；到2026年，人形机器人已炒了十几波，市场共识收敛到两个方向：一是大脑的重要性越来越强，盯住量产触发节点；二是硬件只找壁垒高、溢价能力强的环节——今年唯二跑出超额收益的人形标的，集中在深度相机与谐波减速器两家。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中美格局：赢家是大体量公司</h2>
 <p style="margin:0.8em 0">中美长板分明：中国是制造业规模、零部件供应、成本控制、快速工程迭代，以及把机器人送进真实产线反复打磨；美国是芯片、基础研究、通用模型与仿真新算法。</p>
 <p style="margin:0.8em 0">机器人的终局竞争和新能源汽车不同——最后拼的是大脑，而大脑由数据、算力、算法决定，最卡的还是数据。通用大脑若需一百亿小时以上数据，按每小时100元算，光采购成本就是一万亿；算力要上万卡。能跑通全链的只有两类公司：巨大的互联网模型公司，以及特斯拉这样既有汽车工厂又有机器人大脑的公司；小公司最好的出路是垂类人形机器人。</p>
-<p style="margin:0.8em 0">中美谁最终占优难下结论，但嘉宾态度偏乐观：去年马斯克说世界第一是特斯拉，第二到第十都是中国公司；中国还有制度优势——&quot;集中力量办大事&quot;，有可能解决数据采集最大的卡点&quot;场景&quot;问题（下游不愿开放产线厂房），而海外以利益为导向很难规模化。</p>
+<p style="margin:0.8em 0">中美谁最终占优难下结论，但嘉宾态度偏乐观：去年马斯克说世界第一是特斯拉，第二到第十都是中国公司；中国还有制度优势——"集中力量办大事"，有可能解决数据采集最大的卡点"场景"问题（下游不愿开放产线厂房），而海外以利益为导向很难规模化。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个跟踪指标，与科技股投资的五重风险</h2>
 <p style="margin:0.8em 0">对长期跟踪者，嘉宾给出两个指标。结果指标是机器人大脑综合正确率——现在低于60%，提升到L3、L4以上后，长流程复杂动作的正确率、通过率会持续提升，机器人才能进更多工厂和家庭。前瞻指标是真机数据量：现在全球约50万小时；按京东、星海图、智源等国内公司和Figure、特斯拉等海外公司的目标与调研，明年上半年可能采集到1000万小时——相当于ChatGPT 2.0到3.0所需的数据量，届时可能迎来智能化初步涌现。当然还要看数据质量：长尾覆盖、良率、模态多样性。</p>
 <p style="margin:0.8em 0">嘉宾提醒的行业风险有三条：一是进展不及预期——特斯拉2022年说2025年达到100万台，此后每年年底都推迟，今年能生产1万台就不错；二是技术路线变更——现在硬件投资基于特斯拉当前版本，两年前手部电机以空心杯为主，现在转向无刷有齿槽电机，未来谐波磁场电机、轴向磁通电机等新技术也可能颠覆现有路线；三是主业业绩不及预期——今年新能源车产业链不行，很多公司同环比营收下滑，市场难信远期目标，可能出现戴维斯双杀。</p>
@@ -53,10 +53,10 @@
 <p style="margin:0.8em 0"><strong style="font-weight:600">故事跑在利润前面。</strong> 特斯拉百万台预期从2025、2026年一路推到2030年——产业趋势在发生，兑现时间却有很强的不确定性。预期打得太满，正是这轮估值下修的原因。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">技术路线归零。</strong> 今天的主流技术路线明天可能被颠覆。公司可能没犯任何错误，但技术路线被淘汰，科技龙头同样会被淘汰。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">高波动是底色。</strong> 消费股波动大是意外，科技股波动大是本色表演，波动小反而才让人意外。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一致预期过强的拥挤。</strong> 当所有人都觉得&quot;这次不一样&quot;，拥挤的交易里，哪怕产业趋势判断对了，也可能在波动中亏损。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">幸存者偏差。</strong> 往期嘉宾谢志芬博士投半导体&quot;大杀四方&quot;，但他的成功建立在深度行业理解和穿越短期的洞察之上，不可简单复制。对普通投资者来说，产业跟踪要更紧密，仓位控制要更严格。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一致预期过强的拥挤。</strong> 当所有人都觉得"这次不一样"，拥挤的交易里，哪怕产业趋势判断对了，也可能在波动中亏损。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">幸存者偏差。</strong> 往期嘉宾谢志芬博士投半导体"大杀四方"，但他的成功建立在深度行业理解和穿越短期的洞察之上，不可简单复制。对普通投资者来说，产业跟踪要更紧密，仓位控制要更严格。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：GPT时刻，盯住两个数字</h2>
-<p style="margin:0.8em 0">回到开头的问题：物理AI的GPT时刻什么时候来？答案藏在两个数字里——大脑综合正确率何时稳定站上60%，真机数据何时越过一千万小时关口。在那之前，人形机器人的真实形态，是&quot;一台机器人配两三个工程师盯着、还在学走路的婴儿&quot;；黄仁勋的定义还会继续变，特斯拉的百万台预期可能还会往后推。但产业链的准备是真实的：一根丝杠从一万元降到小几百元，只用了四年。这既是机会，也是提醒——当故事跑在利润前面时，仓位控制比信仰更重要。</p>
+<p style="margin:0.8em 0">回到开头的问题：物理AI的GPT时刻什么时候来？答案藏在两个数字里——大脑综合正确率何时稳定站上60%，真机数据何时越过一千万小时关口。在那之前，人形机器人的真实形态，是"一台机器人配两三个工程师盯着、还在学走路的婴儿"；黄仁勋的定义还会继续变，特斯拉的百万台预期可能还会往后推。但产业链的准备是真实的：一根丝杠从一万元降到小几百元，只用了四年。这既是机会，也是提醒——当故事跑在利润前面时，仓位控制比信仰更重要。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">物理AI不等于具身智能：具身智能只是物理AI的分支，判断标准是能否通过实体动作改变世界——小爱同学有本体、能交互，但不算物理AI</li>
@@ -67,7 +67,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[卫诗婕｜漫谈Light the Star] 泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</title><link>https://xlicz.github.io/podcast-rss/articles/泡沫被挤出的WRC-一份来自14年从业者的行家鉴别指南-2026-08-25.html</link><guid isPermaLink="false">light-the-star_848d1df5cafd</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[卫诗婕｜漫谈Light the Star] 泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</title><link>https://xlicz.github.io/podcast-rss/articles/泡沫被挤出的WRC-一份来自14年从业者的行家鉴别指南-2026-08-25.html</link><guid isPermaLink="false">light-the-star_848d1df5cafd</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>泡沫被挤出的WRC：一份来自14年从业者的行家鉴别指南</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">泡沫被挤出的 WRC：一份来自 14 年从业者的行家鉴别指南</h1>
 <p style="margin:0.8em 0">先手智能联合创始人叶阳生聊 2026 世界人形机器人大会：定时演示的潜台词、两万台出货里的真需求、预训练神话与"永续公司"</p>
@@ -13623,71 +13624,291 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[投资实战派] 物理AI的GPT时刻还远</title><link>https://xlicz.github.io/podcast-rss/articles/物理AI的GPT时刻还远-2026-08-25.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_df7ae6067dec</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>物理AI的GPT时刻还远</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-25.html</link><guid isPermaLink="false">report:雪球动态:2026-08-25:d4229ab7</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-25</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">物理AI的GPT时刻还远</h1>
-<p style="margin:0.8em 0">一位跟踪特斯拉产业链四年的分析师，拆解人形机器人的落地排序、成本账与投资风险</p>
-<p style="margin:0.8em 0">2024年，黄仁勋说&quot;下一步的AI是物理AI&quot;；2026年CES上，他改成&quot;当机器开始理解推理、并在真实世界中行动时，物理AI的GPT时刻就到了&quot;。定义两年内变了两次，资本也跟着换了一波标的。本期嘉宾从2022年6月特斯拉发布第一代原型机起跟踪机器人产业链，四年采访上百家上下游公司。他的判断并不性感：以自动驾驶类比，物理AI只到L1级别；人形机器人长流程任务综合通过率不到10%；特斯拉百万台出货预期已从2025年推到2030年。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">物理AI的定义在变，投资标的跟着换</h2>
-<p style="margin:0.8em 0">黄仁勋两次定义值得细看：2024年是&quot;理解物理规律、能够在我们身边工作的AI&quot;，2026年CES上变成&quot;理解推理并在真实世界中行动&quot;——从&quot;理解&quot;推进到&quot;行动&quot;。周总的比喻：大模型像鱼缸里的金鱼，能和你做文字、图片互动，但进不了现实世界；物理AI建立反馈机制后，相当于从鱼缸里走出来，与真实世界互动。</p>
-<p style="margin:0.8em 0">嘉宾的理解更工程化：物理AI就是&quot;物理化的AI&quot;，最简版本是智能驾驶的感知—决策—执行三段——本体在世界中感知，大脑决策，最后通过手、轮子等实体交互、改变世界。</p>
-<p style="margin:0.8em 0">那它和热门的&quot;具身智能&quot;是什么关系？嘉宾明确说不是一回事：具身智能是物理AI的分支，判断标准在于能否&quot;改变世界&quot;。小爱同学有本体、能语言交互，算具身智能，但无法通过动作和器官改变世界，所以不算物理AI。这也是为什么前几年炒具身智能，今年概念重新定义后资金换了一波公司——两者&quot;影响世界&quot;的维度有本质差别。</p>
-<p style="margin:0.8em 0">至于2026年算不算&quot;物理AI元年&quot;，嘉宾说取决于标准——雏形已出现，但离真正产生重要作用还需十年以上。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四类机器人，落地排序早已注定</h2>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-25 22:04</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">工业大于协作，大于人形，大于具身智能——这是整体落地角度的排序。</p>
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：48条 | 信号：🔥4 / 🔴0 / ⚪2</p>
 </blockquote>
-<p style="margin:0.8em 0">差异从结构和作用看。工业机器人固定在工位，靠核心电机、高重载减速器和夹爪完成设定工作，预编程、通用性最弱；协作机器人多一个灵活性维度，能在一条产线上各岗位交替工作；人形机器人靠大脑的泛化性在整个工厂甚至跨工厂实时调整工作，结构件复杂得多——还加了大脑芯片和感知模块。</p>
-<p style="margin:0.8em 0">从产业阶段看，前两类已不是高增长行业：疫情时增速甚至为负，如今更像周期行业，跟随下游扩产波动。人形机器人则在萌芽期：去年全球出货约1.8万台，大部分用于商业表演、数据采集和科研；今年中国预计出货约10万台，大头仍在数据采集，真正进工厂干活的极少。嘉宾举了头部电池厂商的例子：几十万工人的大厂，人形机器人需求只有两三百台，还在跑测试。现实是泛化性不足、稳定性可靠性离商业化有距离——一台机器人往往配两三个研发人员盯着调试，&quot;还在教一个小朋友走路&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件基本能用，卡点全在大脑</h2>
-<p style="margin:0.8em 0">人形机器人相对蓝领工人的落后，要拆成软硬件看。硬件方面，新能源汽车产业链已备好三电、电机、电驱、电控，人形机器人站在现成供应链上，又准备了四年：典型指标是行星滚柱丝杠传动效率，特斯拉要求95%以上，实际只能做到不到85%，有gap但已能用——成本基本下来了，效率还有提升空间。</p>
-<p style="margin:0.8em 0">真正的卡点在软件、在大脑，有两个可监督的指标。</p>
-<p style="margin:0.8em 0">第一是长流程任务通过率。从A点走到B点，通过率接近100%；但让它煎一个鸡蛋——从冰箱拿鸡蛋、拿碗、打蛋、热锅——每个单动作正确率都能做到90%以上，层层叠加出现乘数效应后，综合通过率不到10%。所以工厂里机器人目前最多搬箱子、上下料。</p>
-<p style="margin:0.8em 0">第二是动作稳定性。插拔线束前两次准确率90%以上，良率95%；连续工作超三小时后，传感器和电机发热导致程序漂移，良率掉到80%。背后有硬件发热的问题，但更大的是大脑自动调节能力不足、泛化性差。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">硬件基本能用，软件受限于数据，现在整体还是&quot;婴儿状态&quot;。</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人形机器人和智能驾驶，谁先到L5？</h2>
-<p style="margin:0.8em 0">智能驾驶到今天L4都没实现，凭什么人形机器人跨过这道坎？嘉宾认为取决于两个方向相反的因素。正向是安全性：车在路上出错可能危及生命，法规先天严格；人形机器人在固定场景工作，容错空间大得多，新模型都能先在实验室用。反向是数据：智能驾驶是低模态——只有四个轮子；人形是高模态乃至全模态——特斯拉全身已接近四十个关节，对参数量和数据的量级要求指数上升。哪个占主导，只能跟踪。</p>
-<p style="margin:0.8em 0">数据问题最有前景的解法是英伟达今年2月的EgoScale论文：两万小时第一人称视角数据让人形机器人快速认知世界，之后喂小批量视频就能学会新习惯。采集方式是戴头套——家庭主妇、产线工人、快递小哥工作途中都能采集，低成本、标准化；论文显示一千到两万小时，数据规模与效果近似对数线性改善，官方R²达0.9983。</p>
-<p style="margin:0.8em 0">为何不能纯靠仿真？一是数据分布：仿真擅长视频充足的场景，但大量场景它没接触过，模型要泛化，高频和常规场景都得覆盖。二是幻觉：李飞飞提醒过，纯仿真训练会让机器人&quot;无中生有&quot;——物理世界的机器人产生幻觉，后果可能难以承受。</p>
-<p style="margin:0.8em 0">仿真与真机互不可缺：EgoScale只提供两三个模态（视频加惯性导航），而通用人形智能要求全模态——温度、触觉、语言都得覆盖。数据体量是天文数字：一个人活一百岁，睁眼约五十多万小时；头部公司真机数据最多十万小时级别，今年底可能达一百万小时，相当于两个人一生的视角；智源旗下数据公司提出2030年采集&quot;两万个人一生&quot;的数据量，极端条件可能要一千万人甚至一亿人一生。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">特斯拉的十四万成本账</h2>
-<p style="margin:0.8em 0">市场习惯以特斯拉为参考系：第一个按工业化落地设计的人形机器人，多数人相信若真有一台跑向通用智能，最可能是它。特斯拉的目标是，在真正达到十万台、百万台以上时，机器人本体价格做到14万人民币以内。</p>
-<p style="margin:0.8em 0">这14万里，执行器占成本50%-60%，其中灵巧手至少占20%-30%。灵巧手是研发重心也是卡点——据说一半以上研发时间花在它上面。现在有22个自由度，每个自由度的构造是：微型电机靠减速器传导，再用丝杠把旋转运动变成直线运动，末端通过腱绳连接，最末端有力触觉传感器感知外界。</p>
-<p style="margin:0.8em 0">执行器分两类。旋转执行器，第一代特斯拉有14个，核心硬件是电机、控制板、减速器三件，单机价值量一两千元。线性执行器模仿肌肉拉伸作用（比如肱二头肌），区别是把减速器换成丝杠。丝杠正是产业链四年准备的缩影：行星滚柱丝杠当年没国产化，单根卖一万元，如今降到小几百元一根——硬件在价格和产能上已准备好，剩下要提升精度和寿命。</p>
-<p style="margin:0.8em 0">执行器之外，价值量大的还有两块：一是轻量化壳体（PEEK塑料或镁铝合金）；二是芯片——80%以上的公司用英伟达AI芯片，单台2万到4万元。嘉宾判断：大部分硬件会像新能源汽车零部件一样批量供应、国产替代，但芯片价格会长期保持高位——机器人的最终价格本质上由芯片决定。整体算下来，稳态综合成本在10万元人民币左右。</p>
-<p style="margin:0.8em 0">电池和散热价值量小得多。电池用宁德时代或LG定制款，一台机器人只有2.3度电，价值量最多两三千元——对比新能源汽车五六十度电，弹性太小，所以人形机器人时代基本没人炒电池主题。散热分被动和主动：被动散热靠金属件散热沟道，价值量几十到几百元；主动散热分风冷和液冷，液冷需铺管路、限制关节运动、加大训练难度，未必会用，单机价值量预计两千元以内，风冷几百到一千元以内。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一百万台：测算框架与已经超配的估值</h2>
-<p style="margin:0.8em 0">主持人提出一个常被忽略的疑问：机器人形态未必是人形——不需要双臂，脚也可以换成轮子。若2030年一千万台出货里人形只占5%-8%，价值量测算会完全不一样。</p>
-<p style="margin:0.8em 0">嘉宾回应分两层。量级上：二级市场对2030年的预测，100万台就不错；加上轮式和玩具机器人可能到大几百万台；纯to B工厂上限上百万台；上千万台必须进入家庭，去做保安、保洁、保姆。价值量上：哪怕只有上半身加轮子，芯片（一两万元以上）、至少10个自由度的手（一两万元）、旋转执行器都不可缺；减速器分RV、谐波、行星三类，精度要求低时十个左右、一百元一个就够，但要承担抱小孩、炒饭这类高精度操作，单机价值量能上五千元。</p>
-<p style="margin:0.8em 0">主持人快速测算：减速器BOM折中2000元，100万台就是20亿市场，按20%净利率只有4亿利润——相关公司估值却远不止这个数。嘉宾承认，市场框架就是按100万台给的：单机ASP×净利率×份额，再给20到30倍PE。以谐波减速器为例：1000元一个、一台20个，100万台对应200亿市场，按20%净利率、50%份额、30倍PE，就是600亿市值。</p>
-<p style="margin:0.8em 0">为什么锚定100万台？2022年6月特斯拉给产业链的预期是2025年达100万台——按10万台算，机器人利润弹性不到20%；按1000万台算，就只看机器人、不用管主业了。100万台恰好让主业市值占一半，第二曲线乐观时可翻倍。但各硬件环节估值加起来远超100万台对应的1400亿收入盘子（约200亿美元，任何大厂capex都远超此数）——行星滚柱丝杠一个环节，某阶段估值就超过1400亿。原因有二：一是大家真正买单的是&quot;亿台级&quot;终极叙事；二是各家机构相信的标的组合不同，份额预期相加超过100%，造成冗余投资。</p>
-<p style="margin:0.8em 0">特斯拉指引一再延迟后，估值体系开始下修：丝杠单机价值量从曾经的五万、十万降到一两万甚至五六千。2022到2024年市场有信息不对称和滤镜，哪个环节边际变化大就给足估值；到2026年，人形机器人已炒了十几波，市场共识收敛到两个方向：一是大脑的重要性越来越强，盯住量产触发节点；二是硬件只找壁垒高、溢价能力强的环节——今年唯二跑出超额收益的人形标的，集中在深度相机与谐波减速器两家。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中美格局：赢家是大体量公司</h2>
-<p style="margin:0.8em 0">中美长板分明：中国是制造业规模、零部件供应、成本控制、快速工程迭代，以及把机器人送进真实产线反复打磨；美国是芯片、基础研究、通用模型与仿真新算法。</p>
-<p style="margin:0.8em 0">机器人的终局竞争和新能源汽车不同——最后拼的是大脑，而大脑由数据、算力、算法决定，最卡的还是数据。通用大脑若需一百亿小时以上数据，按每小时100元算，光采购成本就是一万亿；算力要上万卡。能跑通全链的只有两类公司：巨大的互联网模型公司，以及特斯拉这样既有汽车工厂又有机器人大脑的公司；小公司最好的出路是垂类人形机器人。</p>
-<p style="margin:0.8em 0">中美谁最终占优难下结论，但嘉宾态度偏乐观：去年马斯克说世界第一是特斯拉，第二到第十都是中国公司；中国还有制度优势——&quot;集中力量办大事&quot;，有可能解决数据采集最大的卡点&quot;场景&quot;问题（下游不愿开放产线厂房），而海外以利益为导向很难规模化。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个跟踪指标，与科技股投资的五重风险</h2>
-<p style="margin:0.8em 0">对长期跟踪者，嘉宾给出两个指标。结果指标是机器人大脑综合正确率——现在低于60%，提升到L3、L4以上后，长流程复杂动作的正确率、通过率会持续提升，机器人才能进更多工厂和家庭。前瞻指标是真机数据量：现在全球约50万小时；按京东、星海图、智源等国内公司和Figure、特斯拉等海外公司的目标与调研，明年上半年可能采集到1000万小时——相当于ChatGPT 2.0到3.0所需的数据量，届时可能迎来智能化初步涌现。当然还要看数据质量：长尾覆盖、良率、模态多样性。</p>
-<p style="margin:0.8em 0">嘉宾提醒的行业风险有三条：一是进展不及预期——特斯拉2022年说2025年达到100万台，此后每年年底都推迟，今年能生产1万台就不错；二是技术路线变更——现在硬件投资基于特斯拉当前版本，两年前手部电机以空心杯为主，现在转向无刷有齿槽电机，未来谐波磁场电机、轴向磁通电机等新技术也可能颠覆现有路线；三是主业业绩不及预期——今年新能源车产业链不行，很多公司同环比营收下滑，市场难信远期目标，可能出现戴维斯双杀。</p>
-<p style="margin:0.8em 0">主持人最后把话题拉回科技股投资，总结五重风险：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">故事跑在利润前面。</strong> 特斯拉百万台预期从2025、2026年一路推到2030年——产业趋势在发生，兑现时间却有很强的不确定性。预期打得太满，正是这轮估值下修的原因。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">技术路线归零。</strong> 今天的主流技术路线明天可能被颠覆。公司可能没犯任何错误，但技术路线被淘汰，科技龙头同样会被淘汰。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">高波动是底色。</strong> 消费股波动大是意外，科技股波动大是本色表演，波动小反而才让人意外。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一致预期过强的拥挤。</strong> 当所有人都觉得&quot;这次不一样&quot;，拥挤的交易里，哪怕产业趋势判断对了，也可能在波动中亏损。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">幸存者偏差。</strong> 往期嘉宾谢志芬博士投半导体&quot;大杀四方&quot;，但他的成功建立在深度行业理解和穿越短期的洞察之上，不可简单复制。对普通投资者来说，产业跟踪要更紧密，仓位控制要更严格。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：GPT时刻，盯住两个数字</h2>
-<p style="margin:0.8em 0">回到开头的问题：物理AI的GPT时刻什么时候来？答案藏在两个数字里——大脑综合正确率何时稳定站上60%，真机数据何时越过一千万小时关口。在那之前，人形机器人的真实形态，是&quot;一台机器人配两三个工程师盯着、还在学走路的婴儿&quot;；黄仁勋的定义还会继续变，特斯拉的百万台预期可能还会往后推。但产业链的准备是真实的：一根丝杠从一万元降到小几百元，只用了四年。这既是机会，也是提醒——当故事跑在利润前面时，仓位控制比信仰更重要。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">今日主线：泸州老窖 2026 半年报暴雷（8/25 晚发布）——营收104.72亿(-36.35%)、归母净利43.39亿(-43.37%)、Q2营收24.47亿(-65.54%)、Q2归母6.31亿(-79.45%)。多空双方围绕&quot;压货 vs 出清&quot;激烈交锋。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 醉眼看人間 — 泸州老窖/五粮液（26条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 长期资金布局周期底部，看多泸州老窖（已买入五粮液+泸州老窖）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 压货/去库存只是改变现金流的时间分布，不改变总量；长期价值=全生命周期自由现金流折现；短期业绩难看是消费低迷期出清的正常现象。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">泸州老窖上半年酒类营收104.11亿、毛利率85.51%，中高档酒92.00亿、毛利率90.74%几乎持平 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> ✅ 已验证（中高档酒收入与财报一致，毛利率细节待核对）</li>
+<li style="margin:0.3em 0">&quot;前期下跌已经买了不少五粮液泸州老窖，手上还有些...&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人操作]</code></li>
+<li style="margin:0.3em 0">转帖酒业家&quot;以价换量迎来拐点&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[新闻引用]</code></li>
+<li style="margin:0.3em 0">反驳&quot;年轻人不喝白酒&quot;论、人口论（90年代人口增长但白酒产量从千万吨跌到2003年300万吨） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">上半年营收104.72亿 -36.35%、归母43.39亿 -43.37%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多源确认（基金报/澎湃/每经）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2营收24.47亿 -65.54%、归母6.31亿 -79.45%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中高档酒92.00亿、同比-38.86%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">财报一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">毛利率85.51%、中高档90.74%持平</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">收入结构一致，毛利率数据以财报为准</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒产量曾从千万吨跌到2003年300万吨</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史数据合理但未直接核验</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>:</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">物理AI不等于具身智能：具身智能只是物理AI的分支，判断标准是能否通过实体动作改变世界——小爱同学有本体、能交互，但不算物理AI</li>
-<li style="margin:0.3em 0">硬件基本能用（丝杠四年从1万元降到小几百元），卡点在大脑：长流程综合通过率不到10%，工作3小时后良率从95%掉到80%</li>
-<li style="margin:0.3em 0">特斯拉目标：百万台以上时本体14万元以内，稳态综合成本约10万；执行器占成本50%-60%（灵巧手20%-30%、22自由度），芯片80%用英伟达、单台2-4万元</li>
-<li style="margin:0.3em 0">2030年二级市场主流预测100万台而非一千万台；各环节估值相加早已超过1400亿收入盘子，靠的是亿台级叙事和超100%的份额预期</li>
-<li style="margin:0.3em 0">跟踪就盯两个指标：大脑综合正确率（现在&lt;60%）与真机数据量（现在约50万小时，明年上半年或达1000万小时，相当于ChatGPT 2.0→3.0的数据量级）</li>
+<li style="margin:0.3em 0">核心假设：①白酒是长周期行业，产能收缩后头部集中（茅台五粮泸产能有限）；②压货本质是渠道库存腾挪，不毁品牌；③消费低迷期=出清期，出清后龙头复苏</li>
+<li style="margin:0.3em 0">替代解释：若需求中枢永久性下移（年轻人不喝白酒结构性成立），则&quot;周期&quot;实为&quot;衰退&quot;，现金流总量会被改变——这是其论证最脆弱处。他反驳人口论但未正面回应消费习惯代际切换</li>
 </ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 数据可验证、逻辑自洽，但核心判断依赖&quot;周期而非衰退&quot;的假设，无法短期证伪
+<strong style="font-weight:600">历史对照</strong>: 一致强化 — 6/30股东会&quot;看好老窖管理层&quot;、6/25高光新品、7/2反驳看空帖；持续多年看多老窖，本轮加仓是延续</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 酒金岁月 — 泸州老窖（5条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 财报暴雷是明牌，长期持有收息，看多</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 二季度承压股东会早已暗示（明牌），&quot;真压货就不是这个财报&quot;——五码合一技术管控串货+扫码返利绑定动销，这份财报恰恰说明没压货；茅台金融属性强有批零价差对冲，不会剧烈出清。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;股东会上说过的，就差明示了，二季度承压，下半年会好一些。还有分红这个时间，就卡在半年报的后一天&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人经验/股东会信息]</code></li>
+<li style="margin:0.3em 0">&quot;五码合一技术上管控串货，消费者扫码经销商自动解锁返利，利益上绑定动销&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业知识]</code></li>
+<li style="margin:0.3em 0">2014年老窖业绩下滑70%→2015年增长50%的周期先例 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史数据]</code></li>
+<li style="margin:0.3em 0">&quot;既然选择了长期持有，就老老实实持股收息，低买高卖交给小账户&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人策略]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年报 Q2 大幅下滑</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">已验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">分红卡在半年报后一天</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">每经明确&quot;半年度不派发现金红利&quot;——若指年度分红则时间对不上，存疑</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台年内-3%、五粮液-30%、老窖-26%</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史帖数据，未核验</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2014年-70%→2015年+50%</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史业绩大致可信，未精确核验</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设：五码合一真的锁死了压货行为；茅台批零价差足够对冲下跌</li>
+<li style="margin:0.3em 0">替代解释：五码合一可管串货但管不了&quot;压货到经销商仓库&quot;（返利解锁依赖消费者扫码，若终端动销弱则返利无法兑现，经销商实际承压更重）；&quot;没压货&quot;与经营现金流-65.68%、短期借款0→30.02亿并存，需解释钱去哪了</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 行业知识丰富但&quot;没压货&quot;论证与现金流恶化并存，核心判断偏主观
+<strong style="font-weight:600">历史对照</strong>: 一致 — 6/30&quot;不会改财报不会改分红&quot;、8/10老窖品牌史专栏、8/19年涨跌幅对比；长期持有老窖策略未变</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 逸修1 — 心动/TapTap（2条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 游戏行业跨端大作潮=TapTap PC历史性机遇；《诡秘之主》iOS畅销榜升至12，数据向好</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 下半年到明年跨端大作&quot;神仙打架&quot;，18个月每月排1-2个，TapTap PC 迎来历史机遇；《诡秘之主》真正优点是跨端+pvp/gvg，第一天iOS畅销25→最近四天15左右→今天12，走势健康。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;之前说10个左右都说少了，18个月基本可以保证每个月都排1-2个&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+<li style="margin:0.3em 0">诡秘之主第一天iOS畅销25、最近四天15左右、今天已到12 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[榜单数据]</code></li>
+<li style="margin:0.3em 0">诛仙世界是纯端游、逆水寒手游是手游，诡秘是跨端 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[品类对比]</code></li>
+<li style="margin:0.3em 0">&quot;苹果商店收入约占总收入15%，另外85%是PC端和安卓官包直接收入&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[官方口径]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">首日iOS畅销榜25</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">smzdm/搜狐多源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">上榜后升至15左右</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">游戏干线/DataEye确认8/23-24达TOP15</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今天(8/25)已到12</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与8/23-24趋势一致，排名波动±2-3属正常</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">iOS占比15%、85%来自PC+安卓官包</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">17173转官方声明确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">研发成本12亿、保本线全球首年流水20亿+</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">12亿官方口径确认；保本线为个人测算</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设：跨端大作供给潮真实存在且持续18个月；TapTap PC 能承接这波流量并转化为收入（付费游戏收入过去四年每年1亿出头→可做到2-3亿）</li>
+<li style="margin:0.3em 0">替代解释：大作潮也可能利好厂商自建 PC 端（快手85%收入绕过渠道即是反例——厂商越成功，渠道价值越被压缩）；诡秘是快手游戏非心动发行，利好 TapTap 的是平台流量而非发行收入</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 榜单数据可验证，但&quot;神仙打架18个月&quot;为行业预判，TapTap 变现转化待数据
+<strong style="font-weight:600">历史对照</strong>: 一致强化 — 7/24&quot;付费游戏收入1亿→tap pc后2-3亿&quot;、RO2版号；2025年起持续看多心动（珍惜100亿→200亿）；诡秘上线后高频跟踪榜单</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 庶人哑士 — ST人福（1条）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 麻药真刚需，看多 ST人福（转发半年报）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: &quot;经济再不好，麻药也是真刚需。都不生娃了，避孕药更是逆势涨。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">ST人福2026半年报 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报引用]</code></li>
+<li style="margin:0.3em 0">麻药刚需属性（手术麻醉不因经济下行减少） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业常识]</code></li>
+<li style="margin:0.3em 0">避孕药逆势涨（出生率下行逻辑） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年报营收120.61亿 -0.03%、归母13.30亿 +15.15%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多源确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">麻醉类营收约41亿、市场份额超60%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">蓝鲸新闻确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">资产负债率降至40%以下</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">蓝鲸新闻确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">避孕药逆势涨</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">杰士邦(安全套)已10.62亿清仓剥离(7/28)；两性健康仅剩葛店人福甾体激素管线，逻辑弱化</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设：麻醉管制药供给壁垒（定点生产+配额制）护城河仍在；招商局入主后资产瘦身提升盈利质量</li>
+<li style="margin:0.3em 0">替代解释：营收-0.03%持平，利润+15.15%主要靠降本+财务费用优化而非主业放量；&quot;避孕药逆势涨&quot;叙事与杰士邦剥离动作矛盾——公司自己都在退出两性健康</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 财报数据可验证，但&quot;逆势涨&quot;表述与公司实际剥离方向有张力
+<strong style="font-weight:600">历史对照</strong>: 一致 — 3/8深度研究人福（定点生产/配额制逻辑、宜昌人福增速10%估值15倍）；本次为半年报兑现确认</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 浊静徐清 — 腾讯 WorkBuddy（13条合并）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">数字分身是WorkBuddy终极目标系列（13条）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">看多腾讯WorkBuddy=AI时代入口、生态价值或为微信10倍、具身机器人中央控制系统——纯AI叙事无操作信号 → 🟡中（无标的操作建议，全部为愿景推演）</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ terryp57 — 携程（1条）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">携程客群分层（回复forcode）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">常旅客/高星/外籍客群携程粘性高，比价冲击有限 → 中性分析，🟡中</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月&quot;没压货&quot;论 vs 现金流数据</strong>：经营现金流-65.68%、短期借款0→30.02亿、半年度不分红——若真没压货，现金流为何恶化？&quot;没压货&quot;可能只指渠道库存（五码合一可证），但终端动销弱导致的应收/借款增加说明压力真实存在。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">醉眼看人間&quot;周期非衰退&quot;假设</strong>：90年代白酒产量下跌是政策（消费税/粮食政策）驱动，与当下人口+消费习惯代际切换不可类比。若年轻人不喝白酒结构性成立，白酒龙头估值中枢可能永久下移，其&quot;长期资金布局周期底部&quot;的容错率取决于仓位而非判断。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">逸修1的 TapTap 逻辑</strong>：诡秘之主85%收入绕开渠道（官方口径）→ 厂商自建 PC 端越成功，第三方渠道（TapTap PC）议价权越弱。TapTap 受益于&quot;跨端大作潮&quot;的方向对，但量级（付费游戏收入1亿→2-3亿）对心动利润贡献有限（&lt;5%），逻辑驱动不足。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">庶人哑士&quot;避孕药逆势涨&quot;</strong>：公司 7/28 刚以10.62亿清仓杰士邦，两性健康是公司正在剥离的方向——&quot;逆势涨&quot;叙事与公司战略反向。</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>数据验证：全球检索多源交叉（中国基金报/澎湃/每经/财联社/蓝鲸/游戏干线/DataEye/17173）</em>
+<em>历史检索：Phase 1 关键词（Hybrid 索引 SIGSEGV 回退）</em></p>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
