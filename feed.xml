@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 06:00:45 +0800</lastBuildDate><item><title>[屠龙之术] 中国一级半市场的水下江湖：5032条交易线索里的五年</title><link>https://xlicz.github.io/podcast-rss/articles/中国一级半市场的水下江湖-5032条交易线索里的五年-2026-08-24.html</link><guid isPermaLink="false">tu-long-zhi-shu_16e283f8dbf1</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>中国一级半市场的水下江湖：5032条交易线索里的五年</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 25 Aug 2026 09:00:14 +0800</lastBuildDate><item><title>[屠龙之术] 中国一级半市场的水下江湖：5032条交易线索里的五年</title><link>https://xlicz.github.io/podcast-rss/articles/中国一级半市场的水下江湖-5032条交易线索里的五年-2026-08-24.html</link><guid isPermaLink="false">tu-long-zhi-shu_16e283f8dbf1</guid><pubDate>Mon, 24 Aug 2026 08:00:00 +0800</pubDate><description>中国一级半市场的水下江湖：5032条交易线索里的五年</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">中国一级半市场的水下江湖:5032 条交易线索里的五年</h1>
 <p style="margin:0.8em 0">副标题:当求购占比从 12.4% 冲到 56.6%,一级半市场第一次出现了"资金追着标的跑"的局面。</p>
@@ -13390,5 +13390,48 @@ TapTap/Apple/Steam/雪球采集✅</li>
 <p style="margin:0.8em 0"><em>报告生成: 2026-08-25 10:00 | 数据源: rss_asr_pipeline (transcript_adapter 3d) | 去重: podcast_dedup.py</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-25</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-25.html</link><guid isPermaLink="false">report:AI动态:2026-08-25:dc1bdcb9</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-25</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/25</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：小鹏机器人首轮融资 $9 亿估值 $63 亿（阿里腾讯入场）；小米 Xring O3 3nm 芯片对标高通；神秘模型 Ox Alpha 免费现身 OpenRouter；Meta 将推 Hatch Agent 平台；蔚来投资任少卿具身智能初创。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">机器人/具身智能迎来资本密集期：小鹏 IRON 融资创物理 AI 纪录，蔚来正式入局具身智能。AI 侧两条线索：Meta 平台化 agent 战略落地，神秘开源模型 Ox Alpha 冲击闭源定价。AI 硬件端小米 3nm 芯片落地，单线程追平 Apple 核心。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 小鹏机器人首轮融资超 $9 亿，估值 $6.3B | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">小鹏机器人（XPENG Robotics）完成首轮融资 $900M+，估值超 $63 亿，获阿里巴巴、腾讯支持，创物理 AI 领域融资纪录。融资主要用于 IRON 人形机器人量产（目标 2026 年）。同期小鹏 Q2 净亏损同比扩大近 1.8 倍，市场对汽车主业与机器人估值分化反应明显（股价跌 7%）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters/Gasgoo/Seeking Alpha 等 7+ 家独立媒体确认融资金额与估值；✅ 阿里腾讯参投（Stock Titan）— <strong style="font-weight:600">关注</strong>: 头部车企人形机器人估值锚，IRON 量产兑现是关键</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters, SCMP, Gasgoo, Seeking Alpha</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 小米发布 Xring O3 3nm 芯片，单线程媲美 Apple 核心 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">小米发布自研 Xring O3：TSMC 3nm 工艺，全大核 CPU 设计，据称为首款支持 LPDDR6 的手机芯片，安兔兔跑分超 500 万，首发于 Xiaomi 18 Fold。Daniel Lemire 实测单线程追平 Apple 核心、多线程大幅领先，HN 热议（696 分/474 评论）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters/TrendForce/Android Authority 等 6+ 家确认规格与 TSMC 代工；✅ 单线程表现来自独立跑分（Daniel Lemire）— <strong style="font-weight:600">关注</strong>: 手机自研芯片第二极成形，直接挑战高通</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters, TrendForce, Tech Times, Android Authority</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 神秘模型 Ox Alpha 免费现身 OpenRouter，声称击败 Claude Fable | 🟡 | [📰推测]</h3>
+<p style="margin:0.8em 0">一个无人认领的 AI 模型 &quot;Ox Alpha&quot; 出现在 OpenRouter 上免费提供，支持 1M token 上下文，基准声称击败 Claude Fable。TechCrunch/Bloomberg/Decrypt 均无法确认开发者身份，引发开源透明度与安全性质疑（数据去向不明）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 模型存在且免费（OpenRouter/Quartz/Bloomberg 确认）；🔴 开发者身份与基准真实性未证实（无官方认领）— <strong style="font-weight:600">关注</strong>: 开源追赶闭源窗口缩短的又一信号，安全治理缺位</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg, TechCrunch, Decrypt, SiliconANGLE</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Meta 数周内推出 &quot;Hatch&quot; AI Agent 平台与 Watermelon 模型 | 🟡 | [📰推测]</h3>
+<p style="margin:0.8em 0">The Information 报道 Meta 计划未来数周发布 Hatch AI agent 平台及新模型 Watermelon，作为商业化变现推动的一部分。目前仅 The Information 独家信源，Meta 未官方确认。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 媒体报道存在；🔴 Meta 官方未确认平台与模型细节 — <strong style="font-weight:600">关注</strong>: Meta agent 平台化战略，与 OpenAI/Anthropic 正面竞争</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: The Information, Investing.com, TipRanks</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 蔚来被曝投资任少卿创立的具身智能初创 | 🟡 | [📰推测]</h3>
+<p style="margin:0.8em 0">据 CnEVPost 报道，蔚来将投资由智能驾驶负责人任少卿创立的具身智能公司，任少卿将留任蔚来智能驾驶负责人。蔚来成为又一家跨界入局具身智能的新势力车企，但交易细节未披露。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CnEVPost 报道；🔴 投资金额与股权结构未证实，仅 2 家媒体报道 — <strong style="font-weight:600">关注</strong>: 智驾人才流向具身智能，车企第二曲线竞争加剧</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CnEVPost, eletric-vehicles.com</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
