@@ -1,0 +1,51 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">医疗 AI 需要一个独立裁判：考过几千道题，不等于能进手术室</h1>
+<p style="margin:0.8em 0">一个医疗 AI 模型可以在医学执照考试上拿到 92 分，却在真实临床任务上只得到 45 分。每天有数亿人向 ChatGPT 询问健康问题，医生在诊室里用 OpenEvidence 这类工具向 AI 查询医学知识——那么，谁在确保这些答案安全、正确？</p>
+<p style="margin:0.8em 0">Protege 联合创始人兼首席科学官 Engy Ziedan 的答案是：每个人，又没有人。这位印第安纳大学的健康经济学家（研究成果上过《纽约时报》、被 CDC 引用）在 a16z 播客上解释了一个正在形成的行业缺口：模型进化得比医疗系统的评估体系更快，而微妙偏见比灾难性失败更难捕捉。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数亿人在问 AI 健康问题，谁在把关？</h2>
+<p style="margin:0.8em 0">&quot;每个人，又没有人。&quot;Ziedan 这样拆解现状：基础模型公司在部署前投入了大量安全与对齐研究，训练医疗数据还会让模型整体上更可信；垂直 AI 公司再把通用模型调教到特定临床场景、特定商业目标和 SLA。但问题在于：每个供应商都有一本小册子宣称&quot;我是最好的&quot;。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">当所有人都说自己最好时，没有人知道谁最好——而且没有任何人有动力指出自己产品的失败之处。站在医疗系统和患者一边，没有人以保持距离的独立姿态，越过灾难性失败这座冰山，去看水面下的错位。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从 Uber 说起：AI 为什么需要评估</h2>
+<p style="margin:0.8em 0">Ziedan 用经济学解释评估（evals）为何突然成为刚需。经济学家用享乐定价法（hedonics）从支付意愿反推价值：学区决定房价，就是人们愿意为更好的教育多付钱。没有人问过&quot;Uber 的价值是什么，拿出评估报告来&quot;——人们付钱、上车、到达，Uber 慢慢变成了一个动词。</p>
+<p style="margin:0.8em 0">但 AI 不是 Uber。AI 的边际成本不是零：人们付 token、付接入时间，还承担着&quot;出错概率&quot;这个隐性成本。要让 AI 真正进入知识工作、高风险场景和日常商业，必须有可靠的评估——就像雇佣员工前要审查他是否称职。Ziedan 的逻辑很直接：如果能证明一个东西值得信任，人们对它的支付意愿自然更高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">信息不对称之上，再加一百万名&quot;速成医生&quot;</h2>
+<p style="margin:0.8em 0">医疗交易天生信息不对称，Ziedan 用二手车市场类比：卖方比买方知道得多得多。她常引用瑞典的研究——医学院入学考试的分数线随机地把&quot;一位医生&quot;分配进了一些家庭，这些家庭全家人的寿命都因此延长了数年。医疗服务提供者永远比消费者更懂什么技术有价值、什么没有。</p>
+<p style="margin:0.8em 0">在这个不对称之上再叠加一层 AI agent，局面就荒谬了：&quot;相当于美国有一百万名医生，我们再雇一百万名。这些新医生考过了一场可爱的 5000 题考试，就放他们上岗。&quot;而另一边，是受过近十年专门训练、考过远不止 5000 道题的现有百万医生。Ziedan 说，这个对比&quot;想一想都觉得疯狂&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">灾难性失败容易定义，微妙偏见几乎看不见</h2>
+<p style="margin:0.8em 0">Ziedan 把安全问题分成两层。灾难性失败（catastrophic failure）反而是容易的那层——它很窄，几乎可以定义成死亡率。难的是广泛的错位（misalignment）和微妙偏见：难以定义，更难检测。</p>
+<p style="margin:0.8em 0">她的例子很具体：保险公司和医院都在用 agentic AI 处理事前授权（prior authorization）和医疗拒赔。用经济学家的 Edgeworth box 来看，两条无差异曲线在契约曲线上交汇——一方最大化总收入、最小化赔付，另一方最大化追回的收入。双方都上了智能体工具，患者夹在中间：没有代理权，也没有监管者说&quot;这个模型其实错位了&quot;。</p>
+<p style="margin:0.8em 0">&quot;如果你被开了一种药，模型先查一下你是否欠医院钱，这公平吗？&quot;Ziedan 反问。&quot;医院说不要转诊到网络外机构——哪怕你宁愿多花钱去网络外——这也可以吗？&quot;</p>
+<p style="margin:0.8em 0">但这类工具也有未被评估的好处。Protege 手里有数千亿条医疗笔记，有些笔记写着&quot;她看起来不修边幅，她丈夫在问很好的问题&quot;——真实含义是&quot;她不可信&quot;，于是疼痛被归因为&quot;潜在的精神问题，不必临床深究&quot;。而记录医患对话的 ambient 工具把对话原样写进 SOAP 笔记，第三方医生看了会说：&quot;我应该开个检查，查清疼痛的原因——我不认为这只是她的想象。&quot;Ziedan 指出，这样的好处甚至没有被纳入任何评估体系。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">基准测试的故障：两篇相反的论文与&quot;背下答案&quot;的模型</h2>
+<p style="margin:0.8em 0">最近 Nature 上的一篇论文称，通用 AI 在医疗上击败了垂直专用模型——OpenAI 的模型表现超过任何医疗专用模型；紧接着 arXiv 上出现一篇针锋相对的论文，得出了相反结论。在经典学术界，编辑们最爱这种对立：发表最有争议的东西。</p>
+<p style="margin:0.8em 0">但 Protege 为自己客户做的评估极其敏感：结果取决于你怎么写提示词、用什么 harness（在肿瘤病理领域尤其如此）；有时只是改变多选题选项的顺序，模型排名就会反转——这被一些人视为基准被污染的迹象：模型像学生一样背下了正确答案的位置。</p>
+<p style="margin:0.8em 0">有模型声称请人类医生审阅了 70 万组问答对，努力值得肯定。但 Ziedan 用脊柱手术来检验：&quot;这个模型通过了 5000 道题（甚至 10000 道题）的考试&quot;和&quot;这位医生做过 4000 台脊柱手术&quot;，你信谁？你在乎的从来不是模型的一般知识，而是&quot;它有没有见过这个场景、在那里有没有帮上忙——多少人非正常死亡、多少人的预后改善了&quot;。</p>
+<p style="margin:0.8em 0">真实世界的评估还有一个没人愿意谈的问题：医生有偏好，就像投资者有风险偏好。膝关节置换的数据里，有的医生永远只做部分置换，有的医生&quot;碰了膝盖就是全置换&quot;——这是他的风格，近乎滞后效应（hysteresis）。把真实病历放进模型，模型给出与医生相反的建议，你能断言模型错了吗？也许医生才是错的那个。当模型超过平均水平医生时怎么办？答案不能永远是&quot;多问几个医生，靠大数定律&quot;。总有一些任务太专业、风险太高，需要在真实诊疗现场测试。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">历史押韵：阿片危机与迟到的质量报告</h2>
+<p style="margin:0.8em 0">Ziedan 警告，如果坐等，可能重演阿片危机：直到 2010 年峰值，全国工作组成立、正式称之为&quot;流行病&quot;，人们才开始行动。</p>
+<p style="margin:0.8em 0">政府并非没有先例。2007 年起推行的价值导向采购（value-based purchasing），把政府 80% 的医疗付款与质量挂钩：医生为疑似病毒的症状开抗生素要被扣分，养老院老人跌倒骨折要追责。但这些报告是回顾性的——滞后 6 到 12 个月。AI 不行：技术变化太快，而且它本身有主动性（agency）。医疗占美国 GDP 的 20%、1.5 亿就业岗位中的 2000 万个，但&quot;如果你有勇气抛开这些，正确的做法其实很简单&quot;——一个始终在看的观察者：</p>
+<p style="margin:0.8em 0">当医生身边的本地 AI agent 开始把他推向利润最大化但伤害患者的决定时，有人提醒他；当护士因为说过患者几句坏话、模型变得过度讨好，建议提前出院好让她早下班时，有观察者说&quot;这个行为不可接受——你不能因为要下班就提前放走病人&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Protege 的裁判生意：测试集永不离开</h2>
+<p style="margin:0.8em 0">垂直 AI 公司们在&quot;相同的子节点&quot;里竞争：ambient 记录、临床试验推荐、护士工作流、排班、肿瘤病理（看 H&amp;E 切片推荐最匹配的疗法）。客户彼此说&quot;我们像黑夜里的船——他说他最好，我说我最好&quot;。于是他们把模型托管给 Protege 跑统一评估，产出一份互相对比的报告：各自哪里更强、哪里该改进。</p>
+<p style="margin:0.8em 0">裁判的细节底线由 Protege 来画：用什么提示词？前沿模型用定制 harness 还是自带默认？模型拒绝回答时，填平均值还是退而求其次用第二好的模型？这些决策都会改变排名。评估结果分享给技术的购买方——肿瘤病理场景里就是药企和医院。</p>
+<p style="margin:0.8em 0">&quot;模型创作者不应该自己发布评估，就像不能给自己批改作业。这个激励问题太明显了。&quot;</p>
+<p style="margin:0.8em 0">为什么是 Protege？Ziedan 用比较优势解释：在自己做的一切里，做医疗训练数据和评估的边际成本最低。而且评估做完，测试集永远不离开 Protege——某模型暴露出的缺陷，Protege 能精确指出该补什么数据，并用自己庞大的数据源快速训练补齐。保持公正有网络效应式的动力：缺乏信任会瞬间摧毁整个网络。方法论对所有子节点成员公开，参与者名单到最后才揭晓，他们有权&quot;无声退出&quot;。</p>
+<p style="margin:0.8em 0">数据污染是另一个战场。Ziedan 原以为&quot;找没给任何模型训练过的数据就行&quot;，得到的回答是&quot;我们手里 80% 的数据都给过训练&quot;。肿瘤病理的评估，他们真的去医院的病理抽屉里翻&quot;从未被扫描过的新切片&quot;——&quot;这个患者从未进入过任何模型&quot;。当研究人员说&quot;模型在这项任务上比随机还差，有点污染算什么&quot;，Ziedan 反驳：&quot;比随机还差，这本身就是严重错位的信号——为什么它会比随机还差？&quot;Protege 现在执行一道&quot;封膜&quot;（sealing the membrane）：任何进入过训练的数据集或患者，禁止进入基准测试。</p>
+<p style="margin:0.8em 0">至于政府？&quot;政府不会做的。&quot;Ziedan 说，更危险的其实不是行动，而是坐在那里等政府——联邦公报（Federal Register）上已经有政府向行业求助、询问该如何评估 AI 的文件。她的博士论文研究过惩罚医院再入院率的价值导向政策：数千篇论文、花了十年才评估清楚一个指标（它是否反而导致更多再入院）。而 AI 评估可以同时问一千个关于 agentic 系统在医院里如何行为的问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">零凭证上岗的 AI</h2>
+<p style="margin:0.8em 0">Ziedan 提醒一个刺眼的对比：美国长期护理市场大量依赖发展中国家输入的护士，她们要通过严格的学习和考试；美国的医生连跨州执业都要重新考试认证。而这些 AI 工具进入医疗系统，唯一的凭证是厂商的一句话：&quot;和某些医生比，我们的 AI 赢了。&quot;</p>
+<p style="margin:0.8em 0">教育、金钱、健康是人的核心人力资本。在这些领域出现任何错位，都会转化为对整个 AI 的普遍不信任。现在是&quot;自我治理&quot;时代——&quot;医生只是参考一下 AI，我们会抓住错误&quot;。ChatGPT 每次给出医疗建议都附一句&quot;这不是医疗建议&quot;，但人们信任计算机给出的东西，很少质疑。所以，总得有人给这些模型打分——而且不能是模型自己。</p>
+<p style="margin:0.8em 0">回到开头那个 92% 对 45% 的模型：它不缺更多考试，缺的是一个在真实诊疗现场看着它工作的裁判。Ziedan 的结论是，独立的第三方评估不是医疗 AI 的奢侈品，而是它进入临床的前提——而且这套评估必须像 AI 本身一样实时运转，而不是像价值导向采购那样滞后一年。谁来做这个裁判、以什么标准做，是医疗 AI 时代第一个真正需要回答的问题。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">医疗 AI 的评估困境：模型可以考过医学执照考试（92%），真实临床任务却只有 45%——基准测试考的是知识，不是场景经验。</li>
+<li style="margin:0.3em 0">灾难性失败（窄到可以定义为死亡率）反而好抓；微妙偏见和错位——事前授权里模型先查你欠不欠医院钱、护士说坏话后模型建议提前出院——更难定义、更难检测，也更有害。</li>
+<li style="margin:0.3em 0">基准测试本身会&quot;污染&quot;：提示词、harness、甚至多选题选项顺序都能改变排名；Nature 与 arXiv 两篇论文结论相反，说明&quot;谁最好&quot;在方法学上尚无共识。</li>
+<li style="margin:0.3em 0">政府评估体系（价值导向采购）滞后 6-12 个月，而 AI 变化快、有主动性——医疗 AI 需要实时持续的观察者，不是季度报告。</li>
+<li style="margin:0.3em 0">评估者必须与模型开发者利益隔离：测试集不离开评估方、参与者可无声退出、方法论公开——&quot;不能自己给自己批改作业&quot;。</li>
+<li style="margin:0.3em 0">数据隔离是评估可信度的底线：进入过训练的患者数据禁止进入基准（Protege 称之为&quot;封膜&quot;），而&quot;比随机还差&quot;本身就是错位信号。</li>
+</ul>
+
+</div>
