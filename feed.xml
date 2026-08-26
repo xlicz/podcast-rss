@@ -1,48 +1,107 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:06:53 +0800</lastBuildDate><item><title>[跨国串门儿计划] 两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</title><link>https://xlicz.github.io/podcast-rss/articles/两家实验室正在吞下全球算力-Dylan-Patel-的-2028-年推演-2026-08-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_02d19a8d7b7a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:08:19 +0800</lastBuildDate><item><title>[张小珺Jùn｜商业访谈录] Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</title><link>https://xlicz.github.io/podcast-rss/articles/Kimi-K3-背后的架构脉络-注意力谱系-改良型机器模型暴论与开源模型的边界-2026-08-26.html</link><guid isPermaLink="false">zhang-xiaojun_60af80f160db</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、&quot;改良型机器模型&quot;暴论与开源模型的边界</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">清华博士孙宇涛领读 K3 技术报告：为什么不用 sparse attention、MLA 会不会被淘汰、苏剑林与罗福莉的分歧，以及一个博士生为什么决定转向世界模型。</strong></p>
+<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是&quot;attention 加残差&quot;拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
+<p style="margin:0.8em 0">&quot;你是否还把这个东西叫做 Transformer？&quot;他自问自答：&quot;我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">注意力美学的三十年谱系</h2>
+<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得&quot;每一项背后都有一个历史因素&quot;，不把谱系打开根本看不懂为什么长这样。</p>
+<p style="margin:0.8em 0">这条谱系是：最朴素的线性注意力（外积相加，比 ResNet 还简单）→ RetNet 引入与位置相关的衰减项（语言的特性就是近的位置权重大）→ Mamba 把位置无关衰减变成位置相关 → DeltaNet 提高线性注意力的上下文容量 → Gated DeltaNet 融合高容量与衰减 → KV Learner 把标量衰减变成 channel-wise 的细粒度控制，表达能力严格更强。</p>
+<p style="margin:0.8em 0">代价在 kernel：标量衰减一个 tile 只有一个变量，tensor core 上处理极容易；channel-wise 衰减写 kernel 的难度陡增。K3 的解决方案是给衰减加一个 lower bound——在 16-token 的 tile 窗口内限制最大衰减量，保证数值不超出 BF16 精度范围。这在数学上可以证明，也让整个 kernelized 计算路径顺畅。</p>
+<p style="margin:0.8em 0">&quot;每一步都不是凭空来的，&quot;孙宇涛说，&quot;它每一项背后都是历史。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 K3 不用 sparse attention</h2>
+<p style="margin:0.8em 0">这是一个直接回答&quot;为什么三选二&quot;的问题。孙宇涛给的理由相当具体：</p>
+<p style="margin:0.8em 0">第一，硬件现实。DeepSeek V3.2 和 GLM-5 用的 DeepSeek Sparse Attention，在 Blackwell 上 decode 加速极小——求 index 这一步极其昂贵，越先进的 index overhead 越大，甚至跟 full attention 没有显著加速差。GLM 团队为此做了 Index Cache（把求 index 的计算跨层共享），孙宇涛自己的团队做过更极端的方案（index 也全部 one-hot 分摊），结论一致：必须跨层复用 sparse 结果才能吃到收益。</p>
+<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用&quot;是否有效、加速比是否够高，相当存疑&quot;。</p>
+<p style="margin:0.8em 0">第二，训练不兼容。Sparse Attention 基本无法 from-scratch 预训练，业界通行做法是 post-train 阶段从全注意力转换。对 K3 来说，留一个接口以后再做是更务实的选择。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">MLA 从来不是共识，只是一个选择</h2>
+<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是&quot;最 buy in 的一个点&quot;。</p>
+<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益&quot;不是正交的，甚至互相冲突&quot;。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
+<p style="margin:0.8em 0">&quot;MLA 从来也不是共识，它只是一个选择。&quot;孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是&quot;能跑的东西不要动&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Muon 与 outlier 之争：苏剑林一定会反对</h2>
+<p style="margin:0.8em 0">K3 在 MLP 中间引入 C2GO——把 SwiGLU 的自由线性投影换成 tanh 门控，用 soft clip 把中间激活严格 bound 住，从数学上控制 activation explosion。孙宇涛点出争议：用 Muon 优化器更容易出 outlier，所以必须从架构上限制。</p>
+<p style="margin:0.8em 0">&quot;如果我这么说，苏剑林一定会反对。&quot;孙宇涛自己补了一句，&quot;他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。&quot;</p>
+<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——&quot;也不需要去纠结更复杂的优化细节。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">工程取舍的细节，才是前沿模型的分水岭</h2>
+<p style="margin:0.8em 0">孙宇涛特意讲了几个&quot;paper 里一笔带过但实际决定成败&quot;的取舍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD&quot;任意扩展 token 数&quot;的优势被高估了——最优学习率本身就和 token 数相关。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文&quot;没有帮助甚至有负面影响&quot;，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文&quot;第二天就去复现了，很 work&quot;，审稿时直接给了 strong accept——&quot;我这几年都没给过几个。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。&quot;从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Vision encoder 不用现成初始化。</strong> 不用 CLIP 这类大规模训练好的 encoder 做初始化，而是 from-scratch 训。收敛慢、多用算力，但最后结果不损失甚至更好，且 norm 分布更稳定、兼容性更好。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到&quot;不需要小道消息&quot;</h2>
+<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是&quot;写得真详细&quot;——这本身是稀缺品。&quot;infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。&quot;</p>
+<p style="margin:0.8em 0">几个值得单拎出来的方案：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——&quot;感觉像是一个经典的数据结构与算法问题。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Linear Attention 的双层 chunk。</strong> 线性注意力的 chunk 可以任意拆分（数学上完全等价），所以可以做两层：机器间用大 chunk 并行，机器内 kernel level 再切小 chunk——这是 full attention 做不到的。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Latent MoE 带来通信红利。</strong> K3 用 latent MoE 把 dispatch 通信量降下来后，通信可以被 shared expert 的计算在一个 batch 内部 overlap 掉，不需要 DeepSeek 那种跨 batch 的精细重排。PP 的不对称问题也处理得很轻巧：把 memory 占用大的 PP rank 的激活转存到轻的 rank 上，规避了 DualPipe 的复杂度。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">大规模 offload。</strong> K3 把中间结果大量 offload 到 CPU，所有可 offload 的东西用 FP8 存储省一倍内存，满足 CPU-GPU 通信不等式后才能做到计算与通信完全 overlap。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与&quot;不怕杨植麟&quot;</h2>
+<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术：&quot;他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。&quot;</p>
+<p style="margin:0.8em 0">对 Kimi 的&quot;科学方法&quot;，他的解释落到组织：&quot;Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。&quot;</p>
+<p style="margin:0.8em 0">他观察到 Kimi 的一个特征：&quot;所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。&quot;</p>
+<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续：&quot;DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。&quot;</p>
+<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型：&quot;如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：为什么一个架构研究者转向了世界模型</h2>
+<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但&quot;只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义&quot;。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，&quot;如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。&quot;</p>
+<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人：&quot;大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。&quot;</p>
+<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用&quot;改良型的机器模型&quot;总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">K3 是架构的集大成而非突破</strong>：Kimi Delta Attention 是线性注意力三十年谱系（RetNet→Mamba→DeltaNet→Gated DeltaNet→KV Learner）的收敛点，每一项改动都有历史原因</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">不用 sparse attention 是硬件判断</strong>：Blackwell 上求 index 开销极大、hybrid interleave 结构跨层复用不显然、且 sparse 无法 from-scratch 预训练——三选二时，务实胜出</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为&quot;能跑的东西不要动&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">架构 vs 优化器之争</strong>：Muon 更易出 outlier，Kimi 用 C2GO 从架构上 bound 中间激活；苏剑林的观点是任何优化器都会出 outlier，必须从架构下手——两边其实殊途同归</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工程取舍定成败</strong>：cosine decay 优于 WSD（少一个超参）、NoPE 取代 RoPE（长文外推免调参）、低精度训练放到 SFT 阶段（更保险且无损失）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">100B 激活是魄力不是技术</strong>：K3 最大的赌注是把开源模型激活量级提升三倍多，这是一个组织决定</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因&quot;大模型改进空间不大&quot;转向世界模型</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] 两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</title><link>https://xlicz.github.io/podcast-rss/articles/两家实验室正在吞下全球算力-Dylan-Patel-的-2028-年推演-2026-08-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_02d19a8d7b7a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">每兆瓦收入从负毛利到 5000 万美元，OpenAI 与 Anthropic 明年将吃下新增算力的 40%—50%。SemiAnalysis 创始人拆解算力集中、利率冲击与主权债务危机的完整传导路径。</strong></p>
 <p style="margin:0.8em 0">一年一度的对谈开场，Dylan Patel 抛出一个让主持人愣住的数字：一座年产一吉瓦的晶圆厂，Capex 大约 60 亿美元；而一吉瓦算力现在每年能产生 1000 亿美元营收。即使把中间所有环节——数据中心、电力、运营成本、给 OpenAI 的研发费——分掉一半，晶圆厂投入与最终营收之间依然隔着约 100 倍的差距。</p>
-<p style="margin:0.8em 0">&quot;这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？&quot;Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
+<p style="margin:0.8em 0">"这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？"Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年年底，全球一半新增算力归两家实验室</h2>
 <p style="margin:0.8em 0">算力集中的速度远超大多数人的直觉。今年初，OpenAI 和 Anthropic 各自拥有约 2 吉瓦算力，年底都超过 5 吉瓦，一年增长三到四倍。今年全球新增算力（约 30 吉瓦）中，已有约三分之一流向了这两家；而根据已经白纸黑字签下的合同，明年这个比例将冲到 40%—50%。</p>
 <p style="margin:0.8em 0">集中化没有放缓迹象，只是供给方在变：SpaceX 明年将带着大量新建算力入局，大概率会把其中相当部分租给出价能力最高的 OpenAI 和 Anthropic；两家实验室也开始自建算力——OpenAI 用自己的芯片，Anthropic 用从谷歌采购的 TPU。</p>
-<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以&quot;明年吃掉 45% 新增算力&quot;的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
-<p style="margin:0.8em 0">&quot;我看不到任何能阻止它的因素。&quot;Patel 说。</p>
+<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以"明年吃掉 45% 新增算力"的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
+<p style="margin:0.8em 0">"我看不到任何能阻止它的因素。"Patel 说。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">盈利拐点：从负毛利到每兆瓦 5000 万美元</h2>
 <p style="margin:0.8em 0">一年半之前，在英伟达 Hopper GPU 上部署 GPT-4 给 OpenAI 带来的是负毛利率。今天局面完全不同：算力的基础成本约每兆瓦 1000 万—1500 万美元，而 Anthropic 每兆瓦收入已经达到 5000 万美元，OpenAI 部署 GPT-5.6、Anthropic 部署新模型时，收入远超增量成本。</p>
-<p style="margin:0.8em 0">&quot;如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。&quot;Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
+<p style="margin:0.8em 0">"如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。"Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">训练与推理的再分配：算力将越来越多留给内部</h2>
 <p style="margin:0.8em 0">Patel 给出了一个非共识判断：随着时间推移，实验室分配给推理的算力占比会越来越少。目前实验室算力预算大约是 60% 训练、40% 推理，其中训练又拆成约 50% 研究、10% 开发。但当每兆瓦能产生六七千万美元收入时，把 40% 的算力拿去做推理赚钱、然后分红回购，还是把算力转给内部研发去搏 AGI？</p>
-<p style="margin:0.8em 0">&quot;Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。&quot;</p>
+<p style="margin:0.8em 0">"Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。"</p>
 <p style="margin:0.8em 0">事实上这已经在发生。过去三个月，Anthropic 新增算力中流向研发的比例已经高于推理——他们不再是每个月新增 250 亿美元 ARR 了。一个关键约束是：训练单集群能有效利用的算力很有限。训练 Mithos 这类模型，预训练两个月实际消耗不到 200 兆瓦，RL 用的更少——虽然拥有好几个吉瓦，但跨站点多机房训练、RL 生成更多数据并不一定更好，这些原因让大部分算力事实上只能用于并行研究。只有当自动化编程和自动化研究员成熟后，训练占比才会真正抬高。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供应链牛鞭效应：谁的瓶颈在涨价</h2>
-<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格&quot;囤积&quot;算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
-<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——&quot;这是一根鞭子，信号传导到末端需要很长时间。&quot;</p>
+<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格"囤积"算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
+<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——"这是一根鞭子，信号传导到末端需要很长时间。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国的算力现实：差距比感知的大</h2>
-<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦&quot;完全合理&quot;——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
-<p style="margin:0.8em 0">Patel 承认，出口管制&quot;确实奏效了&quot;。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——&quot;现在这个差距没那么要紧&quot;。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
+<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦"完全合理"——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
+<p style="margin:0.8em 0">Patel 承认，出口管制"确实奏效了"。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——"现在这个差距没那么要紧"。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">5 万亿美元信贷：第二次沃尔克时刻</h2>
 <p style="margin:0.8em 0">把账算完，问题来了：2024—2029 年全球 AI 基础设施 Capex 总量约 11 万亿美元，其中约 6 万亿由现金流支持，仍有超过 5 万亿美元要靠发债。而超大规模云厂商已经不产生净现金了——谷歌、Meta 停止回购转而砸 Capex，微软即将跟进，所有人都在发债。</p>
-<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，&quot;他们完全愿意付 8%，毕竟要建的算力回报巨大&quot;。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
-<p style="margin:0.8em 0">&quot;美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。&quot;Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
-<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类&quot;稳健现金流股&quot;首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
+<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，"他们完全愿意付 8%，毕竟要建的算力回报巨大"。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
+<p style="margin:0.8em 0">"美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。"Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
+<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类"稳健现金流股"首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中心化的终局：单家实验室的 AI 劳动力将超过地球人口</h2>
-<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的&quot;有效 AI 人口&quot;每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——&quot;用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。&quot;</p>
-<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。&quot;在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。&quot;</p>
+<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的"有效 AI 人口"每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——"用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。"</p>
+<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。"在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。"</p>
 <p style="margin:0.8em 0">唯一的安慰是：今天大部分价值还没有被实验室捕获。Anthropic 每兆瓦赚 1 亿美元，但顶级量化机构从它购买的 token 里每兆瓦能捕获 3 亿—5 亿美元的价值，其余经济部门从这些模型上赚到的远多于 Anthropic 自己。换句话说，价值分配的中心化还远未完成——而这恰恰意味着实验室有更强的动机把算力收归内部。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">慢速起飞，是唯一的希望</h2>
-<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而&quot;六个月就是 100 倍差&quot;，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
-<p style="margin:0.8em 0">&quot;要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。&quot;Patel 说，&quot;很难想象出一种不会导致 AI 走向极度集中的框架。&quot;</p>
-<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是：&quot;我不知道。&quot;</p>
+<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而"六个月就是 100 倍差"，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
+<p style="margin:0.8em 0">"要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。"Patel 说，"很难想象出一种不会导致 AI 走向极度集中的框架。"</p>
+<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是："我不知道。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">算力集中速度</strong>：OpenAI + Anthropic 明年吃掉全球新增算力 40%—50%，2028 年底合计约 100 吉瓦、掌控全球大部分 flops；效率乘数（新芯片每瓦性能 3—5 倍）让集中度被低估</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">盈利拐点已到</strong>：Anthropic 每兆瓦收入 5000 万美元 vs 成本 1000—1500 万，推理投入 10 美元产出 50 美元收入，利润全部再投入训练</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择&quot;去做 AGI&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择"去做 AGI"</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜、燃气轮机、存储涨价是真正的卡点，牛鞭效应下台积电慢涨、存储与基板快涨，马斯克已把算力价格推到每兆瓦 2500—4000 万美元</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">中国差距</strong>：新增算力占比不足 10%，2028 年约 30 吉瓦；出口管制奏效，但金融体系补贴差异是长期变量</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">宏观冲击</strong>：2024—2029 年 11 万亿美元 Capex 中 5 万亿靠发债，利率上升可能重演沃尔克时刻，巴基斯坦、尼日利亚级国家先违约，非 AI 股票折现现金流崩盘</li>
@@ -14156,47 +14215,106 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">每兆瓦收入从负毛利到 5000 万美元，OpenAI 与 Anthropic 明年将吃下新增算力的 40%—50%。SemiAnalysis 创始人拆解算力集中、利率冲击与主权债务危机的完整传导路径。</strong></p>
 <p style="margin:0.8em 0">一年一度的对谈开场，Dylan Patel 抛出一个让主持人愣住的数字：一座年产一吉瓦的晶圆厂，Capex 大约 60 亿美元；而一吉瓦算力现在每年能产生 1000 亿美元营收。即使把中间所有环节——数据中心、电力、运营成本、给 OpenAI 的研发费——分掉一半，晶圆厂投入与最终营收之间依然隔着约 100 倍的差距。</p>
-<p style="margin:0.8em 0">&quot;这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？&quot;Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
+<p style="margin:0.8em 0">"这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？"Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年年底，全球一半新增算力归两家实验室</h2>
 <p style="margin:0.8em 0">算力集中的速度远超大多数人的直觉。今年初，OpenAI 和 Anthropic 各自拥有约 2 吉瓦算力，年底都超过 5 吉瓦，一年增长三到四倍。今年全球新增算力（约 30 吉瓦）中，已有约三分之一流向了这两家；而根据已经白纸黑字签下的合同，明年这个比例将冲到 40%—50%。</p>
 <p style="margin:0.8em 0">集中化没有放缓迹象，只是供给方在变：SpaceX 明年将带着大量新建算力入局，大概率会把其中相当部分租给出价能力最高的 OpenAI 和 Anthropic；两家实验室也开始自建算力——OpenAI 用自己的芯片，Anthropic 用从谷歌采购的 TPU。</p>
-<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以&quot;明年吃掉 45% 新增算力&quot;的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
-<p style="margin:0.8em 0">&quot;我看不到任何能阻止它的因素。&quot;Patel 说。</p>
+<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以"明年吃掉 45% 新增算力"的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
+<p style="margin:0.8em 0">"我看不到任何能阻止它的因素。"Patel 说。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">盈利拐点：从负毛利到每兆瓦 5000 万美元</h2>
 <p style="margin:0.8em 0">一年半之前，在英伟达 Hopper GPU 上部署 GPT-4 给 OpenAI 带来的是负毛利率。今天局面完全不同：算力的基础成本约每兆瓦 1000 万—1500 万美元，而 Anthropic 每兆瓦收入已经达到 5000 万美元，OpenAI 部署 GPT-5.6、Anthropic 部署新模型时，收入远超增量成本。</p>
-<p style="margin:0.8em 0">&quot;如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。&quot;Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
+<p style="margin:0.8em 0">"如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。"Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">训练与推理的再分配：算力将越来越多留给内部</h2>
 <p style="margin:0.8em 0">Patel 给出了一个非共识判断：随着时间推移，实验室分配给推理的算力占比会越来越少。目前实验室算力预算大约是 60% 训练、40% 推理，其中训练又拆成约 50% 研究、10% 开发。但当每兆瓦能产生六七千万美元收入时，把 40% 的算力拿去做推理赚钱、然后分红回购，还是把算力转给内部研发去搏 AGI？</p>
-<p style="margin:0.8em 0">&quot;Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。&quot;</p>
+<p style="margin:0.8em 0">"Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。"</p>
 <p style="margin:0.8em 0">事实上这已经在发生。过去三个月，Anthropic 新增算力中流向研发的比例已经高于推理——他们不再是每个月新增 250 亿美元 ARR 了。一个关键约束是：训练单集群能有效利用的算力很有限。训练 Mithos 这类模型，预训练两个月实际消耗不到 200 兆瓦，RL 用的更少——虽然拥有好几个吉瓦，但跨站点多机房训练、RL 生成更多数据并不一定更好，这些原因让大部分算力事实上只能用于并行研究。只有当自动化编程和自动化研究员成熟后，训练占比才会真正抬高。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供应链牛鞭效应：谁的瓶颈在涨价</h2>
-<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格&quot;囤积&quot;算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
-<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——&quot;这是一根鞭子，信号传导到末端需要很长时间。&quot;</p>
+<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格"囤积"算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
+<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——"这是一根鞭子，信号传导到末端需要很长时间。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国的算力现实：差距比感知的大</h2>
-<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦&quot;完全合理&quot;——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
-<p style="margin:0.8em 0">Patel 承认，出口管制&quot;确实奏效了&quot;。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——&quot;现在这个差距没那么要紧&quot;。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
+<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦"完全合理"——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
+<p style="margin:0.8em 0">Patel 承认，出口管制"确实奏效了"。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——"现在这个差距没那么要紧"。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">5 万亿美元信贷：第二次沃尔克时刻</h2>
 <p style="margin:0.8em 0">把账算完，问题来了：2024—2029 年全球 AI 基础设施 Capex 总量约 11 万亿美元，其中约 6 万亿由现金流支持，仍有超过 5 万亿美元要靠发债。而超大规模云厂商已经不产生净现金了——谷歌、Meta 停止回购转而砸 Capex，微软即将跟进，所有人都在发债。</p>
-<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，&quot;他们完全愿意付 8%，毕竟要建的算力回报巨大&quot;。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
-<p style="margin:0.8em 0">&quot;美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。&quot;Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
-<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类&quot;稳健现金流股&quot;首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
+<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，"他们完全愿意付 8%，毕竟要建的算力回报巨大"。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
+<p style="margin:0.8em 0">"美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。"Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
+<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类"稳健现金流股"首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中心化的终局：单家实验室的 AI 劳动力将超过地球人口</h2>
-<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的&quot;有效 AI 人口&quot;每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——&quot;用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。&quot;</p>
-<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。&quot;在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。&quot;</p>
+<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的"有效 AI 人口"每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——"用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。"</p>
+<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。"在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。"</p>
 <p style="margin:0.8em 0">唯一的安慰是：今天大部分价值还没有被实验室捕获。Anthropic 每兆瓦赚 1 亿美元，但顶级量化机构从它购买的 token 里每兆瓦能捕获 3 亿—5 亿美元的价值，其余经济部门从这些模型上赚到的远多于 Anthropic 自己。换句话说，价值分配的中心化还远未完成——而这恰恰意味着实验室有更强的动机把算力收归内部。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">慢速起飞，是唯一的希望</h2>
-<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而&quot;六个月就是 100 倍差&quot;，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
-<p style="margin:0.8em 0">&quot;要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。&quot;Patel 说，&quot;很难想象出一种不会导致 AI 走向极度集中的框架。&quot;</p>
-<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是：&quot;我不知道。&quot;</p>
+<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而"六个月就是 100 倍差"，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
+<p style="margin:0.8em 0">"要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。"Patel 说，"很难想象出一种不会导致 AI 走向极度集中的框架。"</p>
+<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是："我不知道。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">算力集中速度</strong>：OpenAI + Anthropic 明年吃掉全球新增算力 40%—50%，2028 年底合计约 100 吉瓦、掌控全球大部分 flops；效率乘数（新芯片每瓦性能 3—5 倍）让集中度被低估</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">盈利拐点已到</strong>：Anthropic 每兆瓦收入 5000 万美元 vs 成本 1000—1500 万，推理投入 10 美元产出 50 美元收入，利润全部再投入训练</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择&quot;去做 AGI&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择"去做 AGI"</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜、燃气轮机、存储涨价是真正的卡点，牛鞭效应下台积电慢涨、存储与基板快涨，马斯克已把算力价格推到每兆瓦 2500—4000 万美元</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">中国差距</strong>：新增算力占比不足 10%，2028 年约 30 吉瓦；出口管制奏效，但金融体系补贴差异是长期变量</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">宏观冲击</strong>：2024—2029 年 11 万亿美元 Capex 中 5 万亿靠发债，利率上升可能重演沃尔克时刻，巴基斯坦、尼日利亚级国家先违约，非 AI 股票折现现金流崩盘</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">中心化终局</strong>：AI 劳动力每年 ×10，单实验室等效人口本年代末将超过地球总人口；慢速起飞——监管与利率——是唯一能维持权力制衡的机制</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[张小珺Jùn｜商业访谈录] Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</title><link>https://xlicz.github.io/podcast-rss/articles/Kimi-K3-背后的架构脉络-注意力谱系-改良型机器模型暴论与开源模型的边界-2026-08-26.html</link><guid isPermaLink="false">zhang-xiaojun_60af80f160db</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、&quot;改良型机器模型&quot;暴论与开源模型的边界</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">清华博士孙宇涛领读 K3 技术报告：为什么不用 sparse attention、MLA 会不会被淘汰、苏剑林与罗福莉的分歧，以及一个博士生为什么决定转向世界模型。</strong></p>
+<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是&quot;attention 加残差&quot;拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
+<p style="margin:0.8em 0">&quot;你是否还把这个东西叫做 Transformer？&quot;他自问自答：&quot;我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">注意力美学的三十年谱系</h2>
+<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得&quot;每一项背后都有一个历史因素&quot;，不把谱系打开根本看不懂为什么长这样。</p>
+<p style="margin:0.8em 0">这条谱系是：最朴素的线性注意力（外积相加，比 ResNet 还简单）→ RetNet 引入与位置相关的衰减项（语言的特性就是近的位置权重大）→ Mamba 把位置无关衰减变成位置相关 → DeltaNet 提高线性注意力的上下文容量 → Gated DeltaNet 融合高容量与衰减 → KV Learner 把标量衰减变成 channel-wise 的细粒度控制，表达能力严格更强。</p>
+<p style="margin:0.8em 0">代价在 kernel：标量衰减一个 tile 只有一个变量，tensor core 上处理极容易；channel-wise 衰减写 kernel 的难度陡增。K3 的解决方案是给衰减加一个 lower bound——在 16-token 的 tile 窗口内限制最大衰减量，保证数值不超出 BF16 精度范围。这在数学上可以证明，也让整个 kernelized 计算路径顺畅。</p>
+<p style="margin:0.8em 0">&quot;每一步都不是凭空来的，&quot;孙宇涛说，&quot;它每一项背后都是历史。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 K3 不用 sparse attention</h2>
+<p style="margin:0.8em 0">这是一个直接回答&quot;为什么三选二&quot;的问题。孙宇涛给的理由相当具体：</p>
+<p style="margin:0.8em 0">第一，硬件现实。DeepSeek V3.2 和 GLM-5 用的 DeepSeek Sparse Attention，在 Blackwell 上 decode 加速极小——求 index 这一步极其昂贵，越先进的 index overhead 越大，甚至跟 full attention 没有显著加速差。GLM 团队为此做了 Index Cache（把求 index 的计算跨层共享），孙宇涛自己的团队做过更极端的方案（index 也全部 one-hot 分摊），结论一致：必须跨层复用 sparse 结果才能吃到收益。</p>
+<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用&quot;是否有效、加速比是否够高，相当存疑&quot;。</p>
+<p style="margin:0.8em 0">第二，训练不兼容。Sparse Attention 基本无法 from-scratch 预训练，业界通行做法是 post-train 阶段从全注意力转换。对 K3 来说，留一个接口以后再做是更务实的选择。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">MLA 从来不是共识，只是一个选择</h2>
+<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是&quot;最 buy in 的一个点&quot;。</p>
+<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益&quot;不是正交的，甚至互相冲突&quot;。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
+<p style="margin:0.8em 0">&quot;MLA 从来也不是共识，它只是一个选择。&quot;孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是&quot;能跑的东西不要动&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Muon 与 outlier 之争：苏剑林一定会反对</h2>
+<p style="margin:0.8em 0">K3 在 MLP 中间引入 C2GO——把 SwiGLU 的自由线性投影换成 tanh 门控，用 soft clip 把中间激活严格 bound 住，从数学上控制 activation explosion。孙宇涛点出争议：用 Muon 优化器更容易出 outlier，所以必须从架构上限制。</p>
+<p style="margin:0.8em 0">&quot;如果我这么说，苏剑林一定会反对。&quot;孙宇涛自己补了一句，&quot;他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。&quot;</p>
+<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——&quot;也不需要去纠结更复杂的优化细节。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">工程取舍的细节，才是前沿模型的分水岭</h2>
+<p style="margin:0.8em 0">孙宇涛特意讲了几个&quot;paper 里一笔带过但实际决定成败&quot;的取舍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD&quot;任意扩展 token 数&quot;的优势被高估了——最优学习率本身就和 token 数相关。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文&quot;没有帮助甚至有负面影响&quot;，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文&quot;第二天就去复现了，很 work&quot;，审稿时直接给了 strong accept——&quot;我这几年都没给过几个。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。&quot;从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Vision encoder 不用现成初始化。</strong> 不用 CLIP 这类大规模训练好的 encoder 做初始化，而是 from-scratch 训。收敛慢、多用算力，但最后结果不损失甚至更好，且 norm 分布更稳定、兼容性更好。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到&quot;不需要小道消息&quot;</h2>
+<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是&quot;写得真详细&quot;——这本身是稀缺品。&quot;infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。&quot;</p>
+<p style="margin:0.8em 0">几个值得单拎出来的方案：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——&quot;感觉像是一个经典的数据结构与算法问题。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Linear Attention 的双层 chunk。</strong> 线性注意力的 chunk 可以任意拆分（数学上完全等价），所以可以做两层：机器间用大 chunk 并行，机器内 kernel level 再切小 chunk——这是 full attention 做不到的。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Latent MoE 带来通信红利。</strong> K3 用 latent MoE 把 dispatch 通信量降下来后，通信可以被 shared expert 的计算在一个 batch 内部 overlap 掉，不需要 DeepSeek 那种跨 batch 的精细重排。PP 的不对称问题也处理得很轻巧：把 memory 占用大的 PP rank 的激活转存到轻的 rank 上，规避了 DualPipe 的复杂度。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">大规模 offload。</strong> K3 把中间结果大量 offload 到 CPU，所有可 offload 的东西用 FP8 存储省一倍内存，满足 CPU-GPU 通信不等式后才能做到计算与通信完全 overlap。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与&quot;不怕杨植麟&quot;</h2>
+<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术：&quot;他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。&quot;</p>
+<p style="margin:0.8em 0">对 Kimi 的&quot;科学方法&quot;，他的解释落到组织：&quot;Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。&quot;</p>
+<p style="margin:0.8em 0">他观察到 Kimi 的一个特征：&quot;所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。&quot;</p>
+<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续：&quot;DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。&quot;</p>
+<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型：&quot;如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：为什么一个架构研究者转向了世界模型</h2>
+<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但&quot;只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义&quot;。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，&quot;如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。&quot;</p>
+<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人：&quot;大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。&quot;</p>
+<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用&quot;改良型的机器模型&quot;总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">K3 是架构的集大成而非突破</strong>：Kimi Delta Attention 是线性注意力三十年谱系（RetNet→Mamba→DeltaNet→Gated DeltaNet→KV Learner）的收敛点，每一项改动都有历史原因</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">不用 sparse attention 是硬件判断</strong>：Blackwell 上求 index 开销极大、hybrid interleave 结构跨层复用不显然、且 sparse 无法 from-scratch 预训练——三选二时，务实胜出</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为&quot;能跑的东西不要动&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">架构 vs 优化器之争</strong>：Muon 更易出 outlier，Kimi 用 C2GO 从架构上 bound 中间激活；苏剑林的观点是任何优化器都会出 outlier，必须从架构下手——两边其实殊途同归</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工程取舍定成败</strong>：cosine decay 优于 WSD（少一个超参）、NoPE 取代 RoPE（长文外推免调参）、低精度训练放到 SFT 阶段（更保险且无损失）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">100B 激活是魄力不是技术</strong>：K3 最大的赌注是把开源模型激活量级提升三倍多，这是一个组织决定</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因&quot;大模型改进空间不大&quot;转向世界模型</li>
 </ul>
 
 </div>
