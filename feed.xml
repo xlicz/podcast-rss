@@ -1,62 +1,119 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:08:19 +0800</lastBuildDate><item><title>[张小珺Jùn｜商业访谈录] Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</title><link>https://xlicz.github.io/podcast-rss/articles/Kimi-K3-背后的架构脉络-注意力谱系-改良型机器模型暴论与开源模型的边界-2026-08-26.html</link><guid isPermaLink="false">zhang-xiaojun_60af80f160db</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:09:19 +0800</lastBuildDate><item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、&quot;改良型机器模型&quot;暴论与开源模型的边界</h1>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与&quot;夫妻店 SaaS&quot;</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Aneesh Acharya：模型不是商品、实验室会向下整合而非向上、B200 涨价说明需求无限——以及为什么&quot;大多数护城河依然有效&quot;。</strong></p>
+<p style="margin:0.8em 0">先说两个看起来矛盾的现象。一个是 B200——一款并不算最前沿的 GPU——按小时计费的价格在上涨。硬件本该是高度通缩的东西，价格上涨只说明一件事：供给极度受限，需求近乎无限。另一个是 Aneesh Acharya 的亲身经历：他睡前给 GrokBot 发了张自己牛仔裤的照片，说&quot;别花超过 500 美元，搞定它&quot;，第二天早上醒来，agent 已经研究完、找到同版型不同水洗的款式、用他的信用卡下单了。</p>
+<p style="margin:0.8em 0">&quot;这种 agent 的定义性特征是随机应变（resourcefulness）。&quot;Acharya 说，&quot;能力已经有了，接下来解锁的是产品架构——用消费者能理解的方式把能力交付出去。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">不是泡沫，问题可能是&quot;乐观不足&quot;</h2>
+<p style="margin:0.8em 0">Acharya 对泡沫论的态度很直接：&quot;泡沫的讨论已经充分了，真正没被讨论的是——如果我们乐观得还不够呢？&quot;</p>
+<p style="margin:0.8em 0">证据是那些二阶指标：GPU 价格逆势上涨、算力供给被提前数年锁死。至于 SaaS 的二月回调——当时一批 SaaS 公司跌了 30%—40%，他们当时说&quot;市场超卖了软件&quot;，现在很多名字已经涨回来 40%。他的判断没变：企业软件支出只占企业总支出的 8%—12%，用 coding agent 重写薪酬系统或 CRM 的上行空间不大，下行风险倒是无限的——&quot;今天的企业软件要求的是 coding agent 提供不了的精确度。&quot;</p>
+<p style="margin:0.8em 0">但潮水确实退了：大量 SaaS 公司靠 SVC（服务费）扭曲了经济表现，现在&quot;要么加速，要么死&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型不是商品：神经质模型与开放模型</h2>
+<p style="margin:0.8em 0">&quot;如果你每天都在用这些模型，你会意识到它们不是商品，它们在领域层面有比较优势。&quot;</p>
+<p style="margin:0.8em 0">Acharya 用大五人格来做类比：GLM-5.2 和 5.3 是&quot;高神经质&quot;的模型——极其字面，只做你让它们做的事，不多做；Kimi K3 则开放、有主见、有创造力。一个组织里两种心智都需要：会计问题你要神经质，设计问题你要开放性。&quot;你不能既高度开放又高度神经质，所以你需要多种模型。&quot;</p>
+<p style="margin:0.8em 0">xAI 在过去两周内&quot;从模型赛道上根本不算竞争者变成三强之一&quot;，从双雄争霸变成三国演义；Anthropic 一度强势到&quot;做什么都不会错&quot;，而 OpenAI 靠新模型、新的 Codex harness 和 ChatGPT 桌面应用度过了出色的三个月。实验室在向不同方向专业化，而且都增长得疯狂。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">护城河：七力依然成立，受威胁的是&quot;集成&quot;</h2>
+<p style="margin:0.8em 0">关于&quot;没有护城河了&quot;的讨论，Acharya 引用《七力》：&quot;绝大多数护城河根本不受廉价智能的影响。网络效应、规模效应（体现在分发上）、品牌效应——没有 coding agent 能让耐克不再是耐克。Instagram 的力量从来不是构建 Instagram app 的复杂度，而是背后的网络。&quot;</p>
+<p style="margin:0.8em 0">真正暴露的是集成护城河：SAP 的集成/迁移如此痛苦以至于成为存在性风险，coding agent 让这一切大幅改善；系统集成商和 GSIs 的历史价值就是&quot;集成的点&quot;，存在性问题真实存在。</p>
+<p style="margin:0.8em 0">企业内部的配置也随之清晰：创造 alpha 的岗位（产品、销售、工程、研究）应该用前沿 token——&quot;你永远不知道一个新功能或一个客户的价值是多少，实际上无上限，所以为哪怕聪明一个 IQ 点的模型付几乎任何价格都是经济理性的&quot;；而支持型岗位（法务、HR、财务）是有界上行问题——&quot;你不可能比准确更准确地关账&quot;——用开源权重加强化学习微调，走 Pareto 高效的性价比曲线。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能是原始资源，应用层把它变成经济结果</h2>
+<p style="margin:0.8em 0">Acharya 的核心框架：智能是原始资源，就像云计算。Salesforce 把 AWS 云变成 CRM，交付经济结果；Harvey 把智能原始资源变成法律行业的经济结果。信用社是很好的例子——它们不想裁掉一半员工，想翻倍，同时保持经济上可行。这是应用层的独特机会。</p>
+<p style="margin:0.8em 0">应用层的方式是&quot;把模型放进循环&quot;：agent 就是带工具和记忆的模型循环。编码已经演示了完整的循环——bug 上报、复现、生成修复、验证、低风险直接集成发货、客户收到邮件；然后是定价优化、采购这类天然业务循环；最宏大的版本是业务级循环——&quot;模型回来说：我们该在蒂华纳开个分店。模型不能自主做，但它能在整个企业的表层做出改变。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">实验室会向下整合，而不是向上</h2>
+<p style="margin:0.8em 0">2023 年 1 月 Anthropic 发布&quot;法律插件&quot;（其实就是一组 skill 文件、长 prompt）时，汤森路透们暴跌，市场恐慌实验室会垂直整合进应用层。Acharya 说实际发生的是相反的：&quot;他们在垂直整合，但是向下——整合进推理和算力。&quot;</p>
+<p style="margin:0.8em 0">逻辑事后看很清晰：推理负载高度同质化，可以在价值链的一个环节建巨大规模；而应用层有无数独特需求——定价、包装、产品化、市场怎么买——是&quot;难得多、opex 很重&quot;的生意。所以实验室向下比向上更合理。</p>
+<p style="margin:0.8em 0">这也是&quot;模型聚合 &gt; 各部分之和&quot;的原因：Expedia 比任何单个航空公司都有用；Cursor 用前沿模型做规划、次等模型做执行；ElevenLabs 做语音、Black Forest 做视频，正确的产品是把它们放进一个壳里；研究场景里用非重叠数据训练的多个模型对抗性跑同一查询、再用一个模型收敛——应用层是唯一能提供 best-of-breed 的地方，实验室在结构和激励上都只能提供自家模型。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">消费者的三个障碍与一个拐点</h2>
+<p style="margin:0.8em 0">&quot;我们说了三年这是消费者的季度，但这次可能真的是。&quot;Acharya 拆了三个历史障碍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">消费者不爱为软件付费，而 AI 软件的边际成本有时很高。</strong> 他做了一个浏览 X 时间线的 app，每 onboarding 一个用户要花 250 美元——&quot;即使 CAC 为零，也很难做免费的大众产品&quot;。开源权重让模型成本戏剧性下降，这个正在改变。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">从来没有 AI 原生的分发渠道。</strong> 没有 AI 的 app store。这个产品周期更像 Web 2.0——你必须把渠道和产品一起建，而不是像移动时代那样有一个中央分发点。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">命令行是 AI 的 DOS 时代。</strong> &quot;要让消费者完全拥抱这些能力，我们需要 Windows。&quot;围绕产品与设计 craft 有大量工作要做。</p>
+<p style="margin:0.8em 0">拐点已经出现：编码 agent 让&quot;数字原生的创业者&quot;成为现实。十年前&quot;孩子们想当 YouTube 创作者&quot;引发道德恐慌，Acharya 的解读是：在互联网长大的一代人想在网上做生意，而当时唯一的方式就是当创作者。现在，一个非程序员可以用 coding agent 建出年收入 10 万到 100 万美元的软件产品——&quot;这不是风投能投的生意，但这是正在出现的夫妻店 SaaS 机会，对这个国家来说非常酷。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">个人 agent：从新员工到资深员工</h2>
+<p style="margin:0.8em 0">Acharya 投资组合里的 Talon 演示了个人 agent 的复利逻辑：第一天用，它像刚入职的新员工；第 30 天，它吸收了 30 天的上下文、记忆和技能，&quot;能替你做出很好的假设&quot;——像一个资深员工。&quot;新员工可能很聪明甚至更便宜，但我们都懂资深员工的价值。&quot;</p>
+<p style="margin:0.8em 0">他自己的体验是：把 Talon 接进那个两万封未读邮件的私人邮箱后，他不再检查了——重要的东西 agent 会浮出来，订阅清理自动做，甚至会主动建议&quot;这个订阅在花这么多钱，你可以这样省&quot;。</p>
+<p style="margin:0.8em 0">至于最终是单一平台还是多 agent 操作系统：&quot;你想要你的 CFA 拥有的性格，和你想要派对策划者的性格不一样。表面太宽了。GrokBot 在产品上演示得很好——多个指向不同方向的 bot 协调出全局最优结果。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">投资判断：无收入不投、想法太小是最大风险</h2>
+<p style="margin:0.8em 0">Acharya 的投资纪律很朴素：尽量不投完全没有收入的公司；&quot;任何阶段的 pitch 不展示 live product 都是不合格的——现在建东西太容易了&quot;。他的模型是：一旦有了统计显著的销售和产品，就做外推，判断价格和风险。</p>
+<p style="margin:0.8em 0">消费者的支付意愿在改变：&quot;历史上 20 美元/月是天花板，现在要问 200 美元/月是什么样？2000 美元呢？软件的 Birkin 包是什么？&quot;与 2009 年 iPhone 时刻相似——消费者兴奋地下载新软件，但这次不是 99 美分，他们愿意付 200 美元/月。</p>
+<p style="margin:0.8em 0">创始人原型也在变：更少 MBA，更多研究者。&quot;商业 sophistication 可以教，技术 sophistication 通常教不会。&quot;年轻创始人没有先入为主的限制——Ben 说得好：过去最大的风险是想法太大，现在最大的风险是想法太小。</p>
+<p style="margin:0.8em 0">资本规模同样需要重估。历史智慧是给太多钱会毁掉公司——约束在于人才不够，资本是强制聚焦的方式。现在资本可以买不同的产品/模型权衡：&quot;一个融了 1 亿美元、聚焦使用、交付不同价值主张的公司，可能是同一团队拿 2000 万做不到的。&quot;</p>
+<p style="margin:0.8em 0">最后，SME 市场最有趣的不是存量，而是新企业形成——目前处于除疫情峰值外的历史高位：&quot;不是 55 岁的水管工，而是 25 岁的、以前会当 YouTube 创作者的人，现在给邻里、城市、高中建 SaaS。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：这是消费者的季度</h2>
+<p style="margin:0.8em 0">&quot;我们 40 年来的技术都在提升智力和生产力，但没有触碰人性——而现在这个原始资源能在情感和人际领域运作，你可以和 Claude、OpenAI 或 K3 对话并感受到感觉。这是完全不同的技术面，非常宽。&quot;</p>
+<p style="margin:0.8em 0">实验室和大厂在文化上够不着的领域（谷歌不会发布一个可能不同意你、带性暗示的陪伴产品——有一千个委员会就是为了阻止这种事），正是初创公司独特的空间。</p>
+<p style="margin:0.8em 0">至于娱乐，Acharya 的提醒值得带走：&quot;大多数人想花时间，不想省时间。消费者对生产力没那么感兴趣。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">不是泡沫，是乐观不足</strong>：B200 价格逆势上涨说明供给受限 + 需求无限；企业软件支出仅占 8%—12%，编码 agent 替代的上行空间被高估</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型不是商品</strong>：GLM 类&quot;神经质&quot;模型与 Kimi K3 类&quot;开放&quot;模型各有领域，大五人格框架下会计问题要神经质、设计问题要开放性——多模型是组织刚需</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">护城河大多完好</strong>：网络/规模/品牌效应不受廉价智能影响；真正暴露的是集成护城河（SAP、SI/GSI）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">实验室向下整合</strong>：推理负载同质化可规模化，应用层异质化 opex 重——实验室去建算力比抢应用层更合理，应用聚合（Expedia 模式）是应用层的结构性优势</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">消费者复兴的三个解锁</strong>：开源权重降低边际成本、无 AI app store（更像 Web 2.0）、&quot;DOS 时代需要 Windows&quot;的产品 craft 缺口</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">夫妻店 SaaS 崛起</strong>：coding agent 让个人能建年收入 10 万—100 万美元的产品；个人 agent 的记忆复利（新员工 → 资深员工）是留存与定价权的来源</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">投资范式变化</strong>：无 live product 的 pitch 不合格；支付意愿从 20 美元跳到 200 美元/月；1 亿美元资本可以买到 2000 万买不到的价值主张；最大风险从想法太大变成想法太小</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[张小珺Jùn｜商业访谈录] Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</title><link>https://xlicz.github.io/podcast-rss/articles/Kimi-K3-背后的架构脉络-注意力谱系-改良型机器模型暴论与开源模型的边界-2026-08-26.html</link><guid isPermaLink="false">zhang-xiaojun_60af80f160db</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、"改良型机器模型"暴论与开源模型的边界</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">清华博士孙宇涛领读 K3 技术报告：为什么不用 sparse attention、MLA 会不会被淘汰、苏剑林与罗福莉的分歧，以及一个博士生为什么决定转向世界模型。</strong></p>
-<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是&quot;attention 加残差&quot;拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
-<p style="margin:0.8em 0">&quot;你是否还把这个东西叫做 Transformer？&quot;他自问自答：&quot;我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。&quot;</p>
+<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是"attention 加残差"拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
+<p style="margin:0.8em 0">"你是否还把这个东西叫做 Transformer？"他自问自答："我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">注意力美学的三十年谱系</h2>
-<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得&quot;每一项背后都有一个历史因素&quot;，不把谱系打开根本看不懂为什么长这样。</p>
+<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得"每一项背后都有一个历史因素"，不把谱系打开根本看不懂为什么长这样。</p>
 <p style="margin:0.8em 0">这条谱系是：最朴素的线性注意力（外积相加，比 ResNet 还简单）→ RetNet 引入与位置相关的衰减项（语言的特性就是近的位置权重大）→ Mamba 把位置无关衰减变成位置相关 → DeltaNet 提高线性注意力的上下文容量 → Gated DeltaNet 融合高容量与衰减 → KV Learner 把标量衰减变成 channel-wise 的细粒度控制，表达能力严格更强。</p>
 <p style="margin:0.8em 0">代价在 kernel：标量衰减一个 tile 只有一个变量，tensor core 上处理极容易；channel-wise 衰减写 kernel 的难度陡增。K3 的解决方案是给衰减加一个 lower bound——在 16-token 的 tile 窗口内限制最大衰减量，保证数值不超出 BF16 精度范围。这在数学上可以证明，也让整个 kernelized 计算路径顺畅。</p>
-<p style="margin:0.8em 0">&quot;每一步都不是凭空来的，&quot;孙宇涛说，&quot;它每一项背后都是历史。&quot;</p>
+<p style="margin:0.8em 0">"每一步都不是凭空来的，"孙宇涛说，"它每一项背后都是历史。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 K3 不用 sparse attention</h2>
-<p style="margin:0.8em 0">这是一个直接回答&quot;为什么三选二&quot;的问题。孙宇涛给的理由相当具体：</p>
+<p style="margin:0.8em 0">这是一个直接回答"为什么三选二"的问题。孙宇涛给的理由相当具体：</p>
 <p style="margin:0.8em 0">第一，硬件现实。DeepSeek V3.2 和 GLM-5 用的 DeepSeek Sparse Attention，在 Blackwell 上 decode 加速极小——求 index 这一步极其昂贵，越先进的 index overhead 越大，甚至跟 full attention 没有显著加速差。GLM 团队为此做了 Index Cache（把求 index 的计算跨层共享），孙宇涛自己的团队做过更极端的方案（index 也全部 one-hot 分摊），结论一致：必须跨层复用 sparse 结果才能吃到收益。</p>
-<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用&quot;是否有效、加速比是否够高，相当存疑&quot;。</p>
+<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用"是否有效、加速比是否够高，相当存疑"。</p>
 <p style="margin:0.8em 0">第二，训练不兼容。Sparse Attention 基本无法 from-scratch 预训练，业界通行做法是 post-train 阶段从全注意力转换。对 K3 来说，留一个接口以后再做是更务实的选择。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">MLA 从来不是共识，只是一个选择</h2>
-<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是&quot;最 buy in 的一个点&quot;。</p>
-<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益&quot;不是正交的，甚至互相冲突&quot;。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
-<p style="margin:0.8em 0">&quot;MLA 从来也不是共识，它只是一个选择。&quot;孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是&quot;能跑的东西不要动&quot;。</p>
+<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是"最 buy in 的一个点"。</p>
+<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益"不是正交的，甚至互相冲突"。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
+<p style="margin:0.8em 0">"MLA 从来也不是共识，它只是一个选择。"孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是"能跑的东西不要动"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Muon 与 outlier 之争：苏剑林一定会反对</h2>
 <p style="margin:0.8em 0">K3 在 MLP 中间引入 C2GO——把 SwiGLU 的自由线性投影换成 tanh 门控，用 soft clip 把中间激活严格 bound 住，从数学上控制 activation explosion。孙宇涛点出争议：用 Muon 优化器更容易出 outlier，所以必须从架构上限制。</p>
-<p style="margin:0.8em 0">&quot;如果我这么说，苏剑林一定会反对。&quot;孙宇涛自己补了一句，&quot;他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。&quot;</p>
-<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——&quot;也不需要去纠结更复杂的优化细节。&quot;</p>
+<p style="margin:0.8em 0">"如果我这么说，苏剑林一定会反对。"孙宇涛自己补了一句，"他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。"</p>
+<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——"也不需要去纠结更复杂的优化细节。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">工程取舍的细节，才是前沿模型的分水岭</h2>
-<p style="margin:0.8em 0">孙宇涛特意讲了几个&quot;paper 里一笔带过但实际决定成败&quot;的取舍：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD&quot;任意扩展 token 数&quot;的优势被高估了——最优学习率本身就和 token 数相关。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文&quot;没有帮助甚至有负面影响&quot;，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文&quot;第二天就去复现了，很 work&quot;，审稿时直接给了 strong accept——&quot;我这几年都没给过几个。&quot;</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。&quot;从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。&quot;</p>
+<p style="margin:0.8em 0">孙宇涛特意讲了几个"paper 里一笔带过但实际决定成败"的取舍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD"任意扩展 token 数"的优势被高估了——最优学习率本身就和 token 数相关。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文"没有帮助甚至有负面影响"，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文"第二天就去复现了，很 work"，审稿时直接给了 strong accept——"我这几年都没给过几个。"</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。"从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。"</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Vision encoder 不用现成初始化。</strong> 不用 CLIP 这类大规模训练好的 encoder 做初始化，而是 from-scratch 训。收敛慢、多用算力，但最后结果不损失甚至更好，且 norm 分布更稳定、兼容性更好。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到&quot;不需要小道消息&quot;</h2>
-<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是&quot;写得真详细&quot;——这本身是稀缺品。&quot;infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到"不需要小道消息"</h2>
+<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是"写得真详细"——这本身是稀缺品。"infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。"</p>
 <p style="margin:0.8em 0">几个值得单拎出来的方案：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——&quot;感觉像是一个经典的数据结构与算法问题。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——"感觉像是一个经典的数据结构与算法问题。"</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Linear Attention 的双层 chunk。</strong> 线性注意力的 chunk 可以任意拆分（数学上完全等价），所以可以做两层：机器间用大 chunk 并行，机器内 kernel level 再切小 chunk——这是 full attention 做不到的。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Latent MoE 带来通信红利。</strong> K3 用 latent MoE 把 dispatch 通信量降下来后，通信可以被 shared expert 的计算在一个 batch 内部 overlap 掉，不需要 DeepSeek 那种跨 batch 的精细重排。PP 的不对称问题也处理得很轻巧：把 memory 占用大的 PP rank 的激活转存到轻的 rank 上，规避了 DualPipe 的复杂度。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">大规模 offload。</strong> K3 把中间结果大量 offload 到 CPU，所有可 offload 的东西用 FP8 存储省一倍内存，满足 CPU-GPU 通信不等式后才能做到计算与通信完全 overlap。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与&quot;不怕杨植麟&quot;</h2>
-<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术：&quot;他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。&quot;</p>
-<p style="margin:0.8em 0">对 Kimi 的&quot;科学方法&quot;，他的解释落到组织：&quot;Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。&quot;</p>
-<p style="margin:0.8em 0">他观察到 Kimi 的一个特征：&quot;所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。&quot;</p>
-<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续：&quot;DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。&quot;</p>
-<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型：&quot;如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与"不怕杨植麟"</h2>
+<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术："他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。"</p>
+<p style="margin:0.8em 0">对 Kimi 的"科学方法"，他的解释落到组织："Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。"</p>
+<p style="margin:0.8em 0">他观察到 Kimi 的一个特征："所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。"</p>
+<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续："DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。"</p>
+<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型："如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：为什么一个架构研究者转向了世界模型</h2>
-<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但&quot;只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义&quot;。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，&quot;如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。&quot;</p>
-<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人：&quot;大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。&quot;</p>
-<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用&quot;改良型的机器模型&quot;总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
+<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但"只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义"。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，"如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。"</p>
+<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人："大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。"</p>
+<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用"改良型的机器模型"总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">K3 是架构的集大成而非突破</strong>：Kimi Delta Attention 是线性注意力三十年谱系（RetNet→Mamba→DeltaNet→Gated DeltaNet→KV Learner）的收敛点，每一项改动都有历史原因</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">不用 sparse attention 是硬件判断</strong>：Blackwell 上求 index 开销极大、hybrid interleave 结构跨层复用不显然、且 sparse 无法 from-scratch 预训练——三选二时，务实胜出</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为&quot;能跑的东西不要动&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为"能跑的东西不要动"</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">架构 vs 优化器之争</strong>：Muon 更易出 outlier，Kimi 用 C2GO 从架构上 bound 中间激活；苏剑林的观点是任何优化器都会出 outlier，必须从架构下手——两边其实殊途同归</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">工程取舍定成败</strong>：cosine decay 优于 WSD（少一个超参）、NoPE 取代 RoPE（长文外推免调参）、低精度训练放到 SFT 阶段（更保险且无损失）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">100B 激活是魄力不是技术</strong>：K3 最大的赌注是把开源模型激活量级提升三倍多，这是一个组织决定</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因&quot;大模型改进空间不大&quot;转向世界模型</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因"大模型改进空间不大"转向世界模型</li>
 </ul>
 
 </div>
@@ -2041,200 +2098,9 @@
 </div>
 ]]></content:encoded></item>
 <item><title>[Acquired] 迪士尼：从文艺复兴到帝国，与一台渐渐熄火的印钞机</title><link>https://xlicz.github.io/podcast-rss/articles/迪士尼-从文艺复兴到帝国-与一台渐渐熄火的印钞机-2026-08-10.html</link><guid isPermaLink="false">acquired_9cc4f83b1043</guid><pubDate>Mon, 10 Aug 2026 08:00:00 +0800</pubDate><description>迪士尼：从文艺复兴到帝国，与一台渐渐熄火的印钞机</description></item>
-<item><title>[跨国串门儿计划] 马斯克：四五年内，AI 将占 SpaceX 价值的 99%</title><link>https://xlicz.github.io/podcast-rss/articles/马斯克-四五年内-AI-将占-SpaceX-价值的-99-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6d943f78f584</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>马斯克：四五年内，AI 将占 SpaceX 价值的 99%</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">马斯克：四五年内，AI 将占 SpaceX 价值的 99%</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">SpaceX 全员会内部讲话全记录——从猎鹰一号的仓库到星舰，从"没人相信助推器能回收"到太空 AI 推理。</strong></p>
-<p style="margin:0.8em 0">2026 年 8 月的 SpaceX 全员会上，马斯克先为上次全员会隔了太久道了个歉——他解释说，自己现在尽量每三个月开一次，因为"基本上只有到那个时间点我才被允许谈论这些事情"。然后他讲了一句让满屋子火箭工程师安静下来的话：下个月，SpaceX 的 AI 收入将超过公司所有其他业务收入的总和。到了第四季度，这个差距会大幅拉开。</p>
-<p style="margin:0.8em 0">一家以火箭回收闻名的公司，最大收入来源即将是 AI。而他把这句话放在了一场横跨二十多年公司史的复盘之后——这个顺序本身就是信息。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">起点：没人教你怎么造火箭</h2>
-<p style="margin:0.8em 0">SpaceX 的起点是埃尔塞贡多（El Segundo）的一间小仓库。"说实话，SpaceX 刚起步的时候，我们根本不知道该怎么造火箭。"马斯克说，"很明显，我们在最终进入轨道之前，炸掉了三枚火箭。现在回头看，那样子甚至有点可爱。"</p>
-<p style="margin:0.8em 0">真正让团队脱层皮的是助推器回收。把轨道级助推器带回来、复飞，花了漫长的努力，背后是无数次尝试。他提醒员工，当初做这件事的时候，"航空航天行业里很多专家跟我说：这事儿你们做不成，就算你们做成了，也不会有人买一枚用过的火箭。"</p>
-<p style="margin:0.8em 0">马斯克给这个反对意见的回应只有一句类比——飞机一直都在重复飞行。他补了一句个人判断："我宁愿坐一架飞过一千次的飞机，也不愿意坐它的首飞。"为了绕开"用过"这个词的心理障碍，公司后来把回收助推器改叫"飞行验证助推器"。</p>
-<p style="margin:0.8em 0">结果放在 2026 年看：每隔几天，就有一枚助推器起飞、着陆、被回收。猎鹰即将迎来第 700 次飞行。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一辆车、一个假人、一千万年</h2>
-<p style="margin:0.8em 0">猎鹰重型的故事里有个细节值得单独讲。</p>
-<p style="margin:0.8em 0">首飞之前，马斯克"原本完全预料这次飞行会失败"。载荷上放什么，成了一个需要想象力的问题——"波音之类的公司可能会放一块混凝土块，那太无聊了。"于是他们把一辆车送上了天：马斯克在洛杉矶开了大约三年的那辆车，驾驶座上坐着假人 Starman。</p>
-<p style="margin:0.8em 0">车现在还在太空中，运行在地球和火星之间。"我觉得它会在上面待至少一千万年。"马斯克说这话时带着一种漫不经心的得意。火箭首飞失败的预案里，藏着 SpaceX 做事的方式：即便预期失败，也不放一块无聊的混凝土。</p>
-<p style="margin:0.8em 0">猎鹰重型在星舰出现之前，是世界上推力最大的在役火箭。然后是龙飞船——第一艘与国际空间站对接的私人开发航天器，第一位商业宇航员由此诞生。至今龙飞船已经搭载了 78 名成员进入轨道。马斯克说，用不了多久，他们送进轨道再返回的宇航员会超过一百人。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">星链：在太空里重建一遍互联网</h2>
-<p style="margin:0.8em 0">如果有一枚能飞很多次的火箭，那该往上面装什么？马斯克给出的答案是：互联网本身。</p>
-<p style="margin:0.8em 0">星链从零开始建起了一套高带宽全球互联网系统——"有史以来第一个"。他的说法是，这等于"把整个互联网在太空里重建一遍，所有硬件、所有软件"。往远了看，他判断星链最终会承载互联网的大部分流量："到最后，星链可能会承载超过 90% 的全部互联网流量。"</p>
-<p style="margin:0.8em 0">支撑这个判断的是两组数字。第一组在轨道上：近 11,000 颗卫星，比全世界其他所有人加起来的卫星数量还多一倍以上；随着星链 B3 及后续版本，卫星总数要做到 10 万颗。第二组在地上：167 个国家，2,200 万移动用户，1,300 万高带宽用户。马斯克说这些数字未来会增长超过十倍。</p>
-<p style="margin:0.8em 0">他还顺手抛出一个更激进的前瞻：按照目前的增长速度，五年后 AI 流量可能是人类互联网流量的 1000 倍。"你想想看，这得多震撼，那可是海量的 AI。"</p>
-<p style="margin:0.8em 0">星盾（Starshield）只被提了一句——"出于显而易见的原因，不能多说"，它已经属于绝密级别，成为美国国家安全的关键组成部分。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">星舰：最难的事，和它要求的数字</h2>
-<p style="margin:0.8em 0">讲到星舰时，马斯克先给了它一个定性："人类有史以来尝试过的最难的事情。"</p>
-<p style="margin:0.8em 0">然后是数字：星舰每年向轨道运送超过 100 万吨货物的"可能性非常高"，而且很可能接近每年 1,000 万吨。这两个数字不是炫技，而是多行星文明的门槛——要把文明扩展到月球、火星和更远的地方，你需要的就是这样的运载量。如果没法把数百万吨货物送上地球轨道，也就没法把数百万吨货物送上月球和火星。</p>
-<p style="margin:0.8em 0">"我觉得未来的 AI 回头看会说：对一群人类来说，干得不错。"这是他对星舰的第二个评价，语气里既有骄傲，也预告了接下来整场讲话真正的主题。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">未来是 AI 和机器人</h2>
-<p style="margin:0.8em 0">"未来从根本上说，就是 AI 和机器人。"这是马斯克给 SpaceX 划出的方向。</p>
-<p style="margin:0.8em 0">他的量级判断一如既往地大胆：如果继续进步，数字智能的总量可能会超过生物智能一万亿倍。"不是跟人类智能差不多，而是可能高出一万亿倍。十亿倍是个很保守的预测。"</p>
-<p style="margin:0.8em 0">他用能源的尺度来推演这件事。人类把文明的能源使用量提高一百万倍，用掉的仍然不到太阳能量输出的一百万分之一——绝大部分能量还在深空。而 AI 本质上是把太阳能转化为智能的数字计算机。他引用物理学家卡尔达舍夫的框架：判断一个文明的发展程度，就看它能利用自己行星的大部分能量、恒星的大部分能量，还是星系的大部分能量。</p>
-<p style="margin:0.8em 0">这就是 SpaceX AI 业务的战略位置：AI 训练继续留在地面，但 AI 推理——AI 的日常使用——要放到太空去。他给了具体时间表：到明年年底，太空 AI 达到十几吉瓦的规模；每瓦价值大约 30 到 50 美元，折算下来每年就是 3,000 亿到 5,000 亿美元的收入。训练侧同样激进：SpaceX 已经建成全球最强大的 AI 训练集群，预计明年年底的规模是现在的十倍。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Grok 是 SpaceX 的亲儿子</h2>
-<p style="margin:0.8em 0">整场讲话里，马斯克说"这也许是我今天最想传达的信息"的那一段，讲的不是火箭。</p>
-<p style="margin:0.8em 0">他把 Grok 称为"SpaceX 亲儿子式的 AI"。理由是一个训练决策：用 SpaceX 全部信息的汇总来训练 Grok。这意味着"你们实际上会成为这个 AI 的父母，他会继承你们的想法、观念和信念"。他说他相信 SpaceX 汇集了地球上最优秀的一批人——"无论是能力、道德还是善良"——而他们想要的是一个由那种能力、道德和善良孕育出来的 AI。</p>
-<p style="margin:0.8em 0">这个"父母"隐喻背后是对 AI 控制权问题的明确立场：最终人类无法控制这个 AI，"他太聪明了，控制不了"。但就像面对一个超级天才的孩子，你仍然可以把你认为好的、对的价值观灌输给他。"所以这就是为什么我们必须在 Grok 上取得成功，这一点极其重要。"</p>
-<p style="margin:0.8em 0">产品节奏也顺带交代了：Grok 4.5 已经发布，4.6 大概一周后推出，4.7"应该会相当特别"。他鼓励每个 SpaceX 员工去用 AI、让它变得更好。</p>
-<p style="margin:0.8em 0">最后是一个估值判断，也是全场最极端的一句：四五年之内，AI 会占到 SpaceX 价值的 99%。"而 SpaceX 的价值会是一个天文数字。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：一个有知觉的太阳</h2>
-<p style="margin:0.8em 0">马斯克给这场动员的落点，比商业判断更远。</p>
-<p style="margin:0.8em 0">"有时候我会想，我们的目的是什么？也许我们的目的就是人类的目的——孕育出一个心灵，一个有知觉的太阳。"他提到罗伯特·海因莱因《严厉的月亮》里质量驱动器的构想：把 AI 计算机送上月球，再发射到深空。"我真的很想看到那东西真正运转起来。"</p>
-<p style="margin:0.8em 0">动员的最后一环落在员工身上：任何 SpaceX 员工，只要想去月球或者火星，将来都能去。"我说话算话。在月球上开个派对会很好玩，对吧？到处蹦跶。"</p>
-<p style="margin:0.8em 0">然后他回到开场时提的那个问题——世界需要一些鼓舞人心的东西，"生活不能只是解决一个又一个问题"。这就是他讲这场长达二十多年公司史的真正目的：先让所有人看见从仓库到星舰的距离，再问一句，这个故事接下来的章节是什么。</p>
-<p style="margin:0.8em 0">按他的版本，答案是：成为航天文明，然后让 AI 帮人类走到群星之间——去遇见外星文明，或者探索那些延续了一百万年却在千万年前消亡的文明的遗迹。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">SpaceX 的 AI 收入将在 9 月超过公司所有其他业务总和，Q4 大幅拉开；马斯克判断四五年内 AI 占公司价值 99%。</li>
-<li style="margin:0.3em 0">太空 AI 推理的账：明年年底十几吉瓦上线，每瓦 30-50 美元，对应年收入 3,000-5,000 亿美元；AI 训练集群明年年底扩到现在的 10 倍。</li>
-<li style="margin:0.3em 0">用 SpaceX 全部信息汇总训练 Grok，是整场讲话里马斯克自认"最想传达的信息"——在 AI 无法被控制的前提下，把价值观的灌输类比为养育超级天才的孩子。</li>
-<li style="margin:0.3em 0">星链现有近 11,000 颗卫星（超过全球其他卫星总和一倍以上），覆盖 167 国、2,200 万移动用户；马斯克判断它最终承载 90% 以上互联网流量，且五年后 AI 流量可能是人类流量的 1000 倍。</li>
-<li style="margin:0.3em 0">星舰的年运力判断：向轨道运送超过 100 万吨的可能性非常高，可能接近 1,000 万吨/年——这是多行星文明的门槛数字。</li>
-<li style="margin:0.3em 0">公司史复盘里的两个细节：猎鹰一号时代"根本不知道该怎么造火箭"、连炸三枚；猎鹰重型首飞预料会失败，于是放了一辆特斯拉（Starman 至今在地球与火星之间运行，马斯克预计它会待至少一千万年）。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
-<item><title>[a16z] 灯塔还是圈地：AI 公司卖软件的两条路</title><link>https://xlicz.github.io/podcast-rss/articles/灯塔还是圈地-AI-公司卖软件的两条路-2026-08-13.html</link><guid isPermaLink="false">a16z_89008eae292b</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>灯塔还是圈地：AI 公司卖软件的两条路</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">灯塔还是圈地：AI 公司卖软件的两条路</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：a16z 的 Joe Schmidt 与 Samsara/Meraki 销售老将 Andy McCall 拆解两种销售打法——什么时候靠信誉，什么时候靠数学，以及什么时候该停止想策略、开始打电话。</strong></p>
-<p style="margin:0.8em 0">Joe Schmidt 写这篇文章的起因，是开车上 101 高速时的一个观察：路两边各有一家公司，卖的是同一款软件，而两家公司都认定，全世界值得卖的对象只有旧金山的那一批公司。</p>
-<p style="margin:0.8em 0">这还不算最夸张的。现在高速上的每辆巴士都被包了广告，天上还有飞机拉着初创公司的横幅。Joe 说这些都很聪明，但全都瞄准同一种销售动作。</p>
-<p style="margin:0.8em 0">「现实是，你不必总是把东西卖给旧金山同一批公司。你也可以去卖俄亥俄，卖芝加哥，卖圣路易斯——去找真正需要你方案的人。」</p>
-<p style="margin:0.8em 0">他把两种打法命名为灯塔（Lighthouse）和圈地（Landgrab），用一个 2x2 矩阵区分。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个 2x2 矩阵：信誉驱动还是数学驱动</h2>
-<p style="margin:0.8em 0">矩阵的纵轴是「买家的风险敞口」（buyer's exposure）。这个词刻意选成「敞口」：买错方案的后果、方案在公司内部的暴露程度——你卖的产品最终会不会上线、会不会展示给终端客户，以及买这款软件的整体风险。从高到低。</p>
-<p style="margin:0.8em 0">横轴是「证明能否在市场上传播」（does proof travel）：你赢下一个客户，其他客户会不会因为这件事而更敢买。</p>
-<p style="margin:0.8em 0">右上角——风险高、证明会传播——是灯塔市场。典型特征是受监管行业、logo 数量有限。买家买错了，后果严重到可能被监管找麻烦。左下角——风险低、证明不传播——是圈地市场：有既有的预算、人们习惯了为某类服务付费，你要做的是走到买家面前把数学摊开：我的方案比你现在的（软件或者人力）更好。</p>
-<p style="margin:0.8em 0">一句话概括：灯塔市场卖的是「证明」（proof），圈地市场卖的是「数学」（math）。</p>
-<p style="margin:0.8em 0">灯塔的典型是 Harvey。法律行业是最难卖进去的市场之一：你在用 AI 增强人力、自动化初级律师的日常工作，理论上风险极高。但 Harvey 赢下了市场里最初几个关键律所之后，证明的传播是爆发式的——那些风险敞口巨大的买家突然意识到：「买这个方案是安全的。」</p>
-<p style="margin:0.8em 0">另一个例子是 Further AI，卖进保险行业。保险业从来不是技术的先行采用者，但 Further AI 拿下了一批全球最大的保险公司。它的打法是把 AI 方案做成「政府级安全、治理优先」的形态，然后用前向部署团队陪客户落地。这是灯塔，不是圈地：先吃下最大的保险公司，拿到社会证明，再向长尾渗透。</p>
-<p style="margin:0.8em 0">圈地的典型是 Stu，一家做应收账款（AR）催收的公司。催收不性感，但历史上一直有人力团队和大型软件公司在这个市场。Stu 的洞察是：AI 擅长跟人对话、擅长内部信息检索，可以把催收流程端到端重做。于是他们带着数学出门——「我们比你们现在的方案和人力团队更有效」，并算清楚能改善多少营运资金。买家中端市场居多，销售周期短。Joe 说那两位创始人是他见过的最好的销售之一，「跑客户的能力跟任何人一样强」。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Samsara 的运气：强制令把整个行业变成了买家</h2>
-<p style="margin:0.8em 0">Andy McCall 在 Samsara 和 Meraki 都建过销售组织，这两家公司的故事是这个框架最好的注脚。</p>
-<p style="margin:0.8em 0">Samsara 2015 年成立，做物联网传感器。赶上了一个几乎不可复制的时点：2016 到 2019 年，美国联邦政府分阶段实施 ELD 强制令——长途卡车司机过去用纸质行车日志记录驾驶时长，现在必须用电子记录设备。两年时间里，整个行业突然必须找出预算来买这类设备。</p>
-<p style="margin:0.8em 0">「水涨船高，它帮了所有人。但如果你是新进入者，帮助尤其大——因为整个行业突然都得买东西，而其中一定比例的人会说，看看市面上有什么新玩意儿。」</p>
-<p style="margin:0.8em 0">有一个细节容易被忽略：强制令没有让大客户变得好卖。Andy 说得很实在——一个成立 18 个月、没人听说过的公司，打几通冷电话进最大的卡车运输公司，听到的都是「我们不买你」。于是他们很快想明白该卖给谁：中端市场。</p>
-<p style="margin:0.8em 0">理由有三条。中端市场不需要那么多社会证明，只关心「你的远程信息方案能不能满足我的需求」；销售周期短，成交快；部署快、反馈快——大客户部署周期长，反馈循环就长，中端市场的快速反馈直接帮助了产品创新。</p>
-<p style="margin:0.8em 0">Andy 的总结是：「别把太多光环套在我们头上。当时没多少战略。我们只是听客户的——谁愿意付钱，就卖给谁。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Meraki 的免费路由器：让客户自己发现</h2>
-<p style="margin:0.8em 0">Meraki 的故事更极端。2006 年，几个 MIT 博士生把 RoofNet 研究项目做成了公司，做云网络设备。2009 年前后，所有人都觉得他们疯了：「企业网络市场十年前就被 Cisco 和 HP 赢走了。」</p>
-<p style="margin:0.8em 0">他们没有任何机会进大企业——大企业的网络设备全被 Cisco 和 HP 锁死了。但他们的差异化对中端市场有意义：没有大型 IT 团队的公司，买不起需要命令行配置的设备。「我们能配置、能部署得更快，更简单。」谁在乎？中端市场在乎。</p>
-<p style="margin:0.8em 0">问题是怎么让买家明白这个差异。答案是让他们试。Meraki 办线上研讨会，宣布：来参加，送你一个免费的接入点，插上试试。</p>
-<p style="margin:0.8em 0">「如果他们试了，灯泡就亮了——哇，这比我正在用的简单太多了。这个策略在很长一段时间里极其成功。即使公司成熟以后，我们对试用和评估都非常慷慨，因为你从根本上希望客户体验到技术，然后自己发现它比替代品更好。」</p>
-<p style="margin:0.8em 0">这个策略在 AI 时代有一个麻烦：可配置性。Andy 的比喻是，给客户一台法拉利，他可能不知道怎么点火。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">POC 的纪律：结束日期 + 成功标准</h2>
-<p style="margin:0.8em 0">AI 产品的试用比网络设备危险得多。第一，产品每天都在变。第二，客户一旦上手就停不下来：「能不能做这个？做给我看看？再做那个？」——而答案往往是「也许可以」。结果就是 POC 变成科学项目，永远没有尽头。</p>
-<p style="margin:0.8em 0">Andy 给的两条规则很简单：</p>
-<p style="margin:0.8em 0">**必须有结束日期。**30 天、45 天、60 天，结束就是结束。时长取决于产品复杂度——如果部署要两周，你就不能做两周的试用。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">必须定义成功标准。</strong>「我们要证明的是：这里是我们能为你做到的事，双方都同意，45 天后如果它做到了，就算成功，你就往下走。」</p>
-<p style="margin:0.8em 0">Joe 补充了执行层面的难题：AI 自动化一个从未被自动化过的工作流，配置成本很高，产品可能没问题但部署不当，或者结果需要超过 45 天才显现。这就出现了两层风险——产品本身行不行，和客户用得对不对。他认为现在做得最好的是 Decagon：进客户之前就把要命中的基准（benchmarks）讲清楚，然后按期命中。「客服其实是个高风险敞口市场，你不想搞砸，他们把它做得很好。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">什么时候从圈地转向灯塔</h2>
-<p style="margin:0.8em 0">Meraki 和 Samsara 都从圈地起步，成熟后垂直化，切进灯塔打法。最典型的切换场景是公立学区。</p>
-<p style="margin:0.8em 0">「如果你卖给过学区，就知道他们全都互相认识。你要找的是每个州最大的学区。把它拿下，它下面的每个学区都会问：那个最大的买了什么？社会证明瞬间就有了。」</p>
-<p style="margin:0.8em 0">为什么必须切换而不是让同一支团队顺手做？因为销售动作根本不同：销售周期不同、决策人不同、采购流程不同。让卖中端市场的团队去卖一个城市、一个县、一个学区，「就是不一样」。这时应该换打法，甚至换人。</p>
-<p style="margin:0.8em 0">两种打法需要两种人。灯塔策略——盯住金融行业排名前 15 的账户、每个季度往里打——需要资深的企业销售，懂大账户的销售周期和采购周期。圈地策略只需要「态度 + 悟性」：可以招职业生涯早期的人，让他们尽可能快地去砸尽可能多的客户，因为你在打一个大市场，要的是尽快堆战果。</p>
-<p style="margin:0.8em 0">Lighthouse 能不能一直做下去？可以，但有前提：多产品策略，不断出新品、不断打新垂直。如果只有一个产品，灯塔拿下前五之后自然要向下铺开——「我拿下了全球前五的金融公司，接下来就是顺着名单往下打」。那已经变成另一种销售动作：花更少的时间在大 logo 上，花更多的时间在「这是参考客户，我的产品最好，买吧」。也有公司永远停在灯塔模式，比如 Applied Intuition：全世界买自动驾驶软件的买家数量是固定的，每一个都是巨大的 ACV，必须对每个客户极度用心。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么现在又到了「卖大软件」的时刻</h2>
-<p style="margin:0.8em 0">Joe 认为今天的 AI 公司处在一个特殊的时点上。过去十五年，PLG（产品驱动增长）是主旋律，但那是因为大平台机会——CRM、人力资源、ITSM——在 2000 到 2010 年间被占完了。后来的公司只能做楔形产品切入，再慢慢扩张，所以「land and expand」流行了十几年。</p>
-<p style="margin:0.8em 0">更重要的是，从本地部署到云，是一个足够大的转变，值得客户换供应商。但从云到云不值得：「按钮是绿的还是蓝的，我不在乎。」</p>
-<p style="margin:0.8em 0">AI 改变了这个局面。现在大公司内部有一种疯狂的动能——每个企业都有 AI 委员会，都在说「我们必须买什么、必须在什么时间前买」。这甚至不是强制令级别的外生冲击，但它足够接近：CEO 们正扮演当年 ELD 强制令的角色。</p>
-<p style="margin:0.8em 0">「我们谈论的不再是拟物化的一对一替换，绿按钮换蓝按钮。我们谈的是：人将做完全不同的、更高价值的事，而 Agent 将接手大量重复劳动。所以现在是重新去卖大软件、去卖平台的时刻。」</p>
-<p style="margin:0.8em 0">与之配套的是买家的变化。Andy 观察到的长期趋势：每一次技术转型，买家都比上一次更懂。今天的买家比五年前、十年前清楚得多地知道自己要什么。这意味着销售任务变了——不再是把客户领上一整段教育旅程，而是在他进入决策模式的那一刻击中他，说服他你是对的解决方案。卖起来应该更容易。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最大的错误：在策略上花太多时间</h2>
-<p style="margin:0.8em 0">「卖摩根大通听起来比卖俄亥俄的某家公司性感得多。」</p>
-<p style="margin:0.8em 0">Joe 说这是创始人早期犯的最大错误，但它的表现形式不是选错策略，而是<strong style="font-weight:600">想太久</strong>。「策略重要，但你应该花 1% 的时间选策略，99% 的时间执行。」与其坐着权衡灯塔还是圈地，不如出门跟客户聊，找出谁愿意为你的产品——以它今天的功能——付钱，然后追那条路。</p>
-<p style="margin:0.8em 0">「营收没有辛苦加分。你不会因为拿下一个大 logo 就获得收入倍数加成。去追你能追到的客户，持续改进产品，一年后回头看里程碑，再重新评估策略。」</p>
-<p style="margin:0.8em 0">Andy 的版本是：Samsara 和 Meraki 当年根本没纠结过这个问题。冷电话打出去，谁愿意买，答案自然浮现。</p>
-<p style="margin:0.8em 0">快问快答里有一个问题值得单独摘出来：早期公司的销售团队应该有多少人达标？Andy 的答案是接近 100%。「早期销售团队靠动量运转。你要雇赢家，给他们赢的机会。」如果你看到一家公司的销售团队只有 40% 到 50% 的人达标，要么是 quota 定太高，要么是招聘画像错了。另外，他建议公司尽早雇一个销售运营——一个人就够，不一定是完整的团队——负责区域划分、名单、佣金机制这些事。等进入规模化阶段，这些工作要么已经理顺，要么就会变成绊脚石。</p>
-<p style="margin:0.8em 0">Andy 给年轻销售的建议同样反直觉：不要追最高的佣金、最热的赛道、最大的头衔。「找你能找到的最好的公司去工作。公司会增长，你会跟着它一起长——那是一部职业电梯。我早期犯的错就是去追钱和头衔。」</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">灯塔市场卖「证明」，圈地市场卖「数学」：纵轴是买家风险敞口，横轴是证明能否在市场上传播。</li>
-<li style="margin:0.3em 0">判断你在打哪一局的试金石：客户有没有既有预算？是替代品还是品类创造？前者偏圈地，后者偏灯塔。</li>
-<li style="margin:0.3em 0">Samsara 的 ELD 强制令启示：外生冲击会突然把所有买家推向市场，新进入者靠中端市场快速成交和快速反馈循环起量。</li>
-<li style="margin:0.3em 0">Meraki 的免费接入点启示：让客户自己发现产品更好，比说服有效得多——但 AI 产品的 POC 必须有结束日期和成功标准，否则会变成没完没了的科学项目。</li>
-<li style="margin:0.3em 0">圈地和灯塔需要不同的人：圈地要「态度+悟性」的早期职业者快速铺量，灯塔要资深企业销售懂采购周期。</li>
-<li style="margin:0.3em 0">垂直化是切换的时机：学区、市政的采购逻辑和中端市场完全不同，换打法也换人。</li>
-<li style="margin:0.3em 0">过去 15 年 PLG 是主旋律，但 AI 是一次足够大的重置——现在是重新卖大软件的时刻。</li>
-<li style="margin:0.3em 0">1% 时间选策略，99% 时间执行。营收没有辛苦加分，先追愿意付钱的客户。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
-<item><title>[跨国串门儿计划] 你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</title><link>https://xlicz.github.io/podcast-rss/articles/你招到的从来不是最顶尖的-20--Cursor-人才负责人的-50-人名单-招聘法-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a6fdcd93356</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Adam Ward 把每次招聘都当成高管猎聘来做——先定义全世界最适合这个岗位的 50 个人，再花几年时间死缠烂打。</strong></p>
-<p style="margin:0.8em 0">在硅谷，招聘被想成一个漏斗：联系一百个人，二十个回复，逐轮筛掉一批，最后雇下剩下的。</p>
-<p style="margin:0.8em 0">Adam Ward 说这个漏斗应该叫「厄运漏斗」。他是 Cursor 的人才负责人，此前创办的招聘公司 Growth by Design 去年被 Cursor 全资收购——这种事情很少发生，收购一家招聘机构，等于把「找最好的人」这件事买进公司内部。再往前，他在 Pinterest 把团队从两百人招到两千多人，在 Facebook 领导一支横跨十个办公室、六十五人的全球招聘团队，帮技术组织从一千人扩张到一万多人。</p>
-<p style="margin:0.8em 0">他的判断是：那二十个回复你的人，按定义不是最顶尖的百分之二十。他们只是碰巧赶上不顺心日子的二十个人。而你雇的是漏斗底部剩下的那个。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">厄运漏斗为什么是错的</h2>
-<p style="margin:0.8em 0">这个概念来自 1998 年。Adam 当时是实习生，在一家以招聘闻名的公司 Trilogy 做全国校园巡回，他的第一个经理 Jeff Daniel 发明了「厄运漏斗」这个词。</p>
-<p style="margin:0.8em 0">问题不在筛选环节本身。假设你的面试流程、评估标准都很好，那么随着量上来，你招到的人会稳定地回归均值。一个从宽漏斗里筛出来的团队，长期下来只能略高于平均水平。</p>
-<p style="margin:0.8em 0">替代思路是把漏斗反过来：如果你一开始就有信心知道最顶尖的那百分之二十是谁，然后用评估流程去验证这个判断呢？</p>
-<p style="margin:0.8em 0">「你心里想的是：全世界有五十个人能干这活儿，那就去找那五十个人。把精力集中在激活这些人上，而不是试图从厄运漏斗里把他们捞出来。」</p>
-<p style="margin:0.8em 0">这个思路其实来自高管猎聘的成熟打法，只是没人把它用到普通岗位上。高管寻访通常分三步：明确需求、画出市场地图、不懈追求。Adam 的整个方法论就是这三步的规模化。</p>
-<p style="margin:0.8em 0">**第一步，明确需求。**大多数人说自己「一看就知道优秀长什么样」，Adam 说你看不出来——你没有花时间客观定义过优秀。定义需求就是：这个岗位需要什么技能，按优先级排好；需要什么经验，按优先级排好；这个岗位为什么重要、成功长什么样、为什么能产生巨大影响。这一切要在接触任何候选人之前搞清楚，因为它决定寻源策略、决定推销话术、决定评估标准。</p>
-<p style="margin:0.8em 0">有意思的是，这些定义里没有一条是「来自哪家公司」。Adam 反复提醒别盯着简历上的公司 logo。有些公司确实有黄金时期，用 logo 做快速判断的捷径听起来合理，但大多数公司几乎第一时间就跳到了这个结论上——你其实在借用别人对优秀的定义，而那个定义未必适合你的产品和你的阶段。</p>
-<p style="margin:0.8em 0">**第二步，画地图。**这是提问的艺术。大多数公司会问：「你认识的最好的产品工程师是谁？」Adam 说这是你能问出的最烂的问题。</p>
-<p style="margin:0.8em 0">更好的问法是：「在你共事过的所有产品工程师里，谁跟设计师协作最默契？谁能把框架转化成产品，转化得比任何人都好？」</p>
-<p style="margin:0.8em 0">把具体的特质、技能、团队需求放进问题里，对方才容易想到具体的人。当你对一群信任其品味的人问同样精准的问题，名字会开始三角验证——Lenny 提了他，Sally 也提了他，这个人进名单。你还可以反向操作：把定义好的特质拿去搜全世界的招聘职位描述，看哪些公司同样强调这些特质，那些公司里可能藏着你要找的人。</p>
-<p style="margin:0.8em 0">**第三步，不懈追求。**Adam 把这称为「播种」。五十个人会以不同的速度成熟，有人几周，有人几个月，有人几年。关键是你必须启动那个计时器。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">关心是免费的，而且是最锋利的武器</h2>
-<p style="margin:0.8em 0">播种的具体形态是：对方说「现在时机不好，也许深秋」，你回答「那太好了」——然后问能不能来喝杯咖啡、看看办公室，能不能把他介绍给团队里另一位对他的工作特别感兴趣的人。</p>
-<p style="margin:0.8em 0">即使深秋是真的，也不意味着你不能持续对话。如果什么都不做等到深秋，最好的情况是他还在，最坏的情况是他已经被别人抢走了。</p>
-<p style="margin:0.8em 0">Adam 有一句话贯穿整个流程：「关心是免费的。」市场上各种招聘策略成本各不相同，但比任何人都更关心候选人这件事，不用花钱，而且是公司内在能力。他看历史数据：候选人满意度评分里，排第一位的永远是「公司真的想要我，他们让我觉得我属于那里」。</p>
-<p style="margin:0.8em 0">这与厄运漏斗的心态正好对立。陷在漏斗里的人被数字困住——「我需要联系一百个人才能有二十个回复，十个面试才能有四个进现场」。Adam 提醒团队的是：这个职位只需要一个人。「我们是为这个职位招一个人，不是十个人。别被那十个人困住，专注于那一个人。」</p>
-<p style="margin:0.8em 0">这句话听着像鸡汤，直到你看到具体操作。</p>
-<p style="margin:0.8em 0">Cursor 内部有个叫「招聘创意」的 Slack 频道。团队成员在路上碰到一个让人印象深刻的东西——一个产品、一篇文章、烧烤聚会上听到的一个人——就把资料丢进频道。然后聚集效应发生：有人认识他，有人知道他会被什么吸引，大家快速形成一个接触策略。这个频道不是招聘团队发起的，是公司里的非招聘人员丢想法进去，整个公司跟着一起推动。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">候选人体验应该是双向的</h2>
-<p style="margin:0.8em 0">大多数公司的现场面试几乎总是在索取：我们在评估，我们在提取信息，没怎么回馈给候选人。</p>
-<p style="margin:0.8em 0">Cursor 给某些岗位安排很长的现场体验：候选人做一个项目，和团队并肩工作。Adam 说这是最强信号——研究早就表明工作样本是预测在职成功的最高指标——但多数公司仍然把大量时间花在面对面问答上。</p>
-<p style="margin:0.8em 0">并肩工作的价值不只是技术信号。在一段时间的真实协作里，你能拿到核心价值观、协作能力这些可能比技术技能更重要的信号。</p>
-<p style="margin:0.8em 0">他们把体验设计得极其刻意：精心挑选候选人会见到谁，谁来迎接，午餐时谁坐在旁边。面试尽量安排在一顿饭周围。「隔着桌子分享一顿饭，是一种让人放下戒备、拉近关系的举动。」</p>
-<p style="margin:0.8em 0">Adam 讲了一个反证。他看过一个关于 Michael Truog 的采访：公司曾经试图取消工作适用环节，因为它增加了很大的负担，有些人不想做。结果是信号质量完全毁了，不得不把它带回来。「这确实很贵，对候选人也是很大的要求。但它是建立信心的功能。如果人才是你最重要的事儿，这就是值得投入的时间。」</p>
-<p style="margin:0.8em 0">配套设计：每个职能有对应的版本——市场拓展团队做挑战赛，一对一和招聘经理解决一个棘手客户问题；产品团队做项目性合作。给候选人一组问题可选，保留方向和自主权。对「你在免费帮他们解决问题」的批评，Adam 的回答是：他们在选问题上有自主权，公司也愿意根据候选人的可用性调整规模，「我们有时也会用周六」。</p>
-<p style="margin:0.8em 0">这套体验有一个飞轮效应：员工自己经历过这种待遇，于是他们知道怎么给下一批人传递同样的体验。一个朋友告诉 Lenny，他申请 Cursor 工作，那是他经历过的最好的候选人体验。按定义，被 Cursor 筛选过的人都是最优秀的一批——即使没加入，他们也会成为分量最重的推荐者。「你做得好，你的磁力就越来越强，激活成本越来越低。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">促成是一场团队运动</h2>
-<p style="margin:0.8em 0">在 Cursor，促成不是最后关头的谈判，而是全程推销。核心是在前期就非常清楚地了解这个人的动机——他可能因为什么跳槽——然后确保整个体验都围绕这些点展开。最后的 offer 只是水到渠成的下一步。</p>
-<p style="margin:0.8em 0">当候选人是高关注度对象时，团队会围绕他开每日站会，十分钟，讨论「我们在做什么能让他点头」。参与者有招聘经理、招聘专员，可能还有他以前的同事。每个候选人有一个专属 Slack 频道。</p>
-<p style="margin:0.8em 0">Adam 讲了本周发生的一个故事。团队在跟一位纽约的候选人接触，过程中了解到他上过表演艺术高中，是个受过古典训练的小提琴手，特别喜欢弦乐器。于是有人在纽约找到一家特色店，买了一把土耳其吉他——大概是吉他和小提琴结合的那种乐器——约了顿晚饭，在给 offer 的时候把礼物送给了他。几百美元，跟 offer 的规模和这个人可能带来的影响比起来不算什么。但「候选人回想最好的体验时，会觉得：哇，这感觉像是为我量身定做的」。</p>
-<p style="margin:0.8em 0">同样的逻辑延伸到 offer 之后。Adam 观察到一个正在变多的现象：接受 offer 后的毁约。职位越高，接受 offer 到入职之间的时间差越长，往往超过两周，中间是一个很大的窗口期。很多公司候选人一接受 offer 就去忙下一个了。Cursor 的应对是把它当成第二个动作：跟其他已接受 offer 的人一起吃饭、建立社群，寄一台 Cursor 笔记本电脑，「有种你已经加入了的既视感」——既是为了确保交付真的发生，也是让归属感提前开始。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给创始人的三条组织建议</h2>
-<p style="margin:0.8em 0">**第一，不要招一个「银弹式」的人才负责人。**创始人第一次招招聘人员时，通常已经落后于招聘进度——积压了五个、十个、十五个职位。同时他又希望这个人能搭建一套体系。这两个诉求是冲突的：新人想证明自己，会拼命填坑，体系搭不起来；或者搭了体系，一个都没招进来。Adam 的建议是拆开：招一个能搭对体系的人，短期配外包招聘人员推进度；或者先找人打好基础，再招一个执行力强的个人贡献者。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第二，找在 90% 到 110% 负荷下表现最好的人。</strong>「如果招聘专员只有一半的招聘量，他们基本就废了。」这种人喜欢在肾上腺素飙升、忙得脚不沾地的状态里工作。超出范围也很糟糕——超过 110% 只会被淹没。你要找的就是那个甜区。</p>
-<p style="margin:0.8em 0">**第三，记住招聘人员是信心引擎，不是决策引擎。**很多公司把招聘目标挂在招聘团队身上，但 Adam 没见过哪家公司是由招聘人员做招聘决策的——做决策的是招聘经理、领导者或委员会。招聘人员的真正工作是帮招聘经理建立信心，做出正确的决定。当公司把整个招聘职能外包给一个部门时，主线就丢了：没有人应该比招聘经理和那个团队更在乎一次招聘，没有人在好招聘和坏招聘里感受到同样的喜悦或痛苦。</p>
-<p style="margin:0.8em 0">所以他还有一个观点：招聘团队应该是公司里薪资最高的团队之一。「真正有战略眼光的招聘人员现在存在供需危机，因为这些年我们把招聘做得太事务性了。能以这种方式工作的招聘人员供应量非常小。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">当下市场：双城记</h2>
-<p style="margin:0.8em 0">Adam 对 2026 年人才市场的判断，从一条观察开始：你可以连着读到两条头条——一条是给应届博士开出 NBA 级别的薪资，下一条是某家蓝筹公司裁员百分之十。</p>
-<p style="margin:0.8em 0">这两件事同时成立，是因为行业正在经历一轮重新洗牌。最紧俏的衡量单位不是钱，是时间：「这是一场跟时钟赛跑，去抢模型、抢人才。」</p>
-<p style="margin:0.8em 0">什么在上升？前向部署工程师（FDE）。这类人技术功底深、懂产品，能跟销售配合，也能走进满是高管的会议室，帮客户部署一个技术化甚至有点吓人的产品——或者帮公司想清楚怎么从 token 最大化转向优化。「这是个新技能，因为现在 CFO 们开始收到账单了。」Adam 认为这是当前供需失衡最严重的岗位。三到五年前的全栈工程师，现在可能就成了 FDE：从终端里走出来，走进客户和用户中间。对合适的人来说，这超级有干劲，像职业生涯里一个意想不到的篇章。</p>
-<p style="margin:0.8em 0">什么在降温？过度专精的窄深人才——「工程师、产品、设计正在某种程度上被挤压到一起」，公司想要的是技术极深但产品感更强的工程师。刚毕业的新人也在降温，因为他们还没攒够经验去做那些事，而 Cursor 这样的产品现在能替他们做一部分工作。</p>
-<p style="margin:0.8em 0">高影响力个人贡献者正在回归。过去十二个月，品味、判断力、解决问题的能力重新浮出水面。Adam 称之为「回归到做事的匠心本身」——这也解释了为什么 Cursor 自己从标签自动补全到云端 Agent 只用了几个月，每次都能抢在变化前面。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人才密度是团队的属性</h2>
-<p style="margin:0.8em 0">最后回到那个词：人才密度。Adam 的提醒是，很多公司过度关注某一个人。「人才密度不是指某一个人。一个十倍的人不可能待在一个烂团队里——那根本不存在。」优秀的领导者是拼图高手，组建互补的团队，帮每个人发挥所长。所以他更愿意谈团队层面的十倍，而不是个人十倍。</p>
-<p style="margin:0.8em 0">这大概就是整套方法论最底层的东西：招聘的原子单位是人，不是职位描述，不是岗位编号。当你把范围从「一百个候选人」缩小到「全世界最适合的五十个人」时，流程变成一棵决策树而不是流水线——下一场对话跟谁聊、聊什么，都根据这个人的情况临时编排。这套做法在厄运漏斗的大规模操作下不可能成立。但当你的名单足够精准、铺垫足够长，人们在流程里走得更快，人数也更少，「你在整个漏斗上花的总时间，其实只是把它挪到了不同的地方」。</p>
-<p style="margin:0.8em 0">Adam 说自己一直在努力做个有用的人。任何创始人来找他，他都会回邮件、打十分钟电话。「我希望人们来找我寻求帮助和建议，而且是找对了人。现在我也开始收获回报了——有人愿意加入我们的团队。」</p>
-<p style="margin:0.8em 0">这套系统最难复制的部分，可能就在这里：它不是一套流程，而是一种把「关心」作为核心产能的组织能力。流程可以抄，用心抄不走。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">招聘漏斗的数学是错的：回复你的 20 个人不是最顶尖的 20%，而是随机样本。批量筛选长期回归均值。</li>
-<li style="margin:0.3em 0">把每次招聘当高管猎聘做：定义需求（客观定义「优秀」）→ 画地图（精准提问做三角验证）→ 播种（几周到几年，持续触达）。</li>
-<li style="margin:0.3em 0">问「谁跟设计师协作最默契」而不是「谁是最好的产品工程师」——问题越具体，答案越可用。</li>
-<li style="margin:0.3em 0">候选人体验是双向的：工作样本 + 并肩工作是最强信号，曾取消过，信号质量崩了，又恢复了。</li>
-<li style="margin:0.3em 0">促成是团队运动：每日站会、每人专属 Slack 频道、几百美元的土耳其吉他——「关心是免费的」。</li>
-<li style="margin:0.3em 0">接受 offer 后还有第二个动作：毁约在变多，窗口期要预入职、建社群、寄电脑。</li>
-<li style="margin:0.3em 0">招聘人员是信心引擎不是决策引擎；要招在 90–110% 负荷下表现最好的人。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 马斯克：四五年内，AI 将占 SpaceX 价值的 99%</title><link>https://xlicz.github.io/podcast-rss/articles/马斯克-四五年内-AI-将占-SpaceX-价值的-99-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6d943f78f584</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>马斯克：四五年内，AI 将占 SpaceX 价值的 99%</description></item>
+<item><title>[a16z] 灯塔还是圈地：AI 公司卖软件的两条路</title><link>https://xlicz.github.io/podcast-rss/articles/灯塔还是圈地-AI-公司卖软件的两条路-2026-08-13.html</link><guid isPermaLink="false">a16z_89008eae292b</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>灯塔还是圈地：AI 公司卖软件的两条路</description></item>
+<item><title>[跨国串门儿计划] 你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</title><link>https://xlicz.github.io/podcast-rss/articles/你招到的从来不是最顶尖的-20--Cursor-人才负责人的-50-人名单-招聘法-2026-08-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a6fdcd93356</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>你招到的从来不是最顶尖的 20%：Cursor 人才负责人的「50 人名单」招聘法</description></item>
 <item><title>[张小珺Jùn｜商业访谈录] 做到 Cosmos 97</title><link>https://xlicz.github.io/podcast-rss/articles/做到-Cosmos-97-2026-08-12.html</link><guid isPermaLink="false">zhang-xiaojun_3194e0a74708</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>做到 Cosmos 97</description></item>
 <item><title>[Money Stuff: The Podcast] 最懂AI的人被自己的融资结构杀死了——Situational Awareness爆仓、CVR乌龙与SpaceX结构化票据</title><link>https://xlicz.github.io/podcast-rss/articles/最懂AI的人被自己的融资结构杀死了--Situational-Awareness爆仓-CVR乌龙与SpaceX结构化票据-2026-07-31.html</link><guid isPermaLink="false">money-stuff_7f9691986c77</guid><pubDate>Fri, 31 Jul 2026 08:00:00 +0800</pubDate><description>最懂AI的人被自己的融资结构杀死了——Situational Awareness爆仓、CVR乌龙与SpaceX结构化票据</description></item>
 <item><title>[a16z] 一个人怎么变成四百个人——YC总裁Garry Tan：Agent时代创始人别再追热点</title><link>https://xlicz.github.io/podcast-rss/articles/一个人怎么变成四百个人--YC总裁Garry-Tan-Agent时代创始人别再追热点-2026-08-12.html</link><guid isPermaLink="false">a16z_46187d275187</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>一个人怎么变成四百个人——YC总裁Garry Tan：Agent时代创始人别再追热点</description></item>
@@ -2408,419 +2274,10 @@
 <item><title>[播客信号] 播客投资信号 2026-08-12</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-12.html</link><guid isPermaLink="false">report:播客信号:2026-08-12:d8e3ba2a</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-12</description><category>播客信号</category></item>
 <item><title>[AI动态] AI 领域动态 2026-08-12</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-12.html</link><guid isPermaLink="false">report:AI动态:2026-08-12:4e3cfefa</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-12</description><category>AI动态</category></item>
 <item><title>[心动日报] 心动投资日报 2026-08-12</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-12.html</link><guid isPermaLink="false">report:心动日报:2026-08-12:14a840e5</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-12</description><category>心动日报</category></item>
-<item><title>[播客信号] 播客投资信号 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-13.html</link><guid isPermaLink="false">report:播客信号:2026-08-13:97631248</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-13</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-13 05:05</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">扫描了 4 个播客，共 9 集（5 集已处理跳过，4 集新）：a16z(1集), 跨国串门儿计划(1集), 高能量(1集), Acquired(1集)
-持仓披露：🔥0 / 🔴0 | 高质量内容：3 集 | 管线完整性抽查：✅ 通过（4 源文件尺寸均异）</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 高能量 — Vol.229 宏观漫谈109｜我们正处于一个美元主导的资本周期上升阶段尾部（8.6录制）</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-12 | <strong style="font-weight:600">嘉宾</strong>: 李丰（峰瑞资本） | <strong style="font-weight:600">信号</strong>: ⚪ 纯宏观分析，无持仓/交易披露</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">边界句甄别（疑似但未过门禁）</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">「我们做股票而言，不太敢买股指期货来对冲」— 第一人称回避动作，但属个人操作习惯自述，非持仓披露、非建议</li>
-<li style="margin:0.3em 0">「所有这些事儿的硬币的另外一面就是黄金……都会指向了黄金」— 对黄金隐含看多，但为央行/外储行为分析结论，无动作动词</li>
-<li style="margin:0.3em 0">「最后这一波钱是很难赚的」— 对美元广义资产警示，无具体标的+动作</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">嘉宾主张（核心宏观判断）</strong>：全球处于美元主导资本周期「上升阶段尾部」——2020-21 大放水+2022 加息+俄乌冲突吸来的增量资金已耗尽，美元广义资产（美股/美债）进入存量博弈，特征是板块快速轮动、波动加剧，难再现 2023-25 式普涨；等待黑天鹅打断脆弱平衡。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>：</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">财政算术（推算）：40万亿美债×~4%年息≈1.45万亿，加国防1.4万亿≈3万亿，占联邦收入一半以上 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推算]</code></li>
-<li style="margin:0.3em 0">发行困境（市场数据）：10Y 4.7%、30Y 破5.2%，6-9月需发约8000亿债，缩表+买家变少 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[市场数据]</code></li>
-<li style="margin:0.3em 0">需求枯竭（财报证据）：谷歌Q2自由现金流转负，大厂从买美债变为发私募债抢流动性 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报]</code></li>
-<li style="margin:0.3em 0">日美死循环（现象）：日本干预汇率需卖美债→推高收益率；加息则引爆套息交易平仓，两头堵 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观察]</code></li>
-<li style="margin:0.3em 0">存量博弈（市场观察）：美债美股负相关性达历史极值；4-5月美元指数与存储芯片同涨是最后抽血 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观察]</code></li>
-<li style="margin:0.3em 0">三只黑天鹅（风险列举）：日元套息反转、数据中心私募债暴雷、霍尔木兹停航持久化 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[列举]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">论证逻辑链</strong>：大类资产普涨需持续增量资金 → 全球可抽调流动性已耗尽 → 美联储既难加息（债务成本）也难降息（通胀），吸钱路径穷尽 → 存量博弈+高波动 → 尾部特征成立 → 黑天鹅将打断平衡但时间不可知。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>：✅ 谷歌Q2 FCF转负、Oracle数据中心私募债利率走高、日本干预消耗千亿美金级、中国央行卖美债增持黄金、大行恢复五年期大额存单（~2%）、汇金买卖宽基ETF。❓ 存疑：石油战略储备「27天→4个多月」口径、汇金「卖出仓位90%以上」、港币换锚条件、30Y 5.2%、美股70万亿/全球债务350万亿为口算估算。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：美元资产无法吸引超过2025年的更大流动性规模；大放水存量即全球流动性总量上限。
-<strong style="font-weight:600">风险点</strong>：叙事不可证伪、时点不可知（嘉宾自认「不知道什么和什么时候」）；无标的与仓位建议，无法据此直接操作。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 — 叙事内部自洽、数据点多为真实公开信息，但周期位置判断属后验命题，部分数字为粗略估算。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：宏观漫谈系列观点收口——Vol.218(05-24)「AI资本热潮挑战石油美元体系」→ Vol.219(06-03)「美元潮汐周期+AI资本狂欢」→ 本期(08-06录制)明确「上升阶段尾部、存量博弈、等黑天鹅」。从「AI吸金周期中段」演进到「周期尾部」，方向一致、程度加重。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] Acquired — Disney: The Renaissance and the Empire（同内容中文克隆版：跨国串门儿计划 #672）</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-10（英文原版）/ 08-12（中文克隆） | <strong style="font-weight:600">信号</strong>: ⚪ 公司史叙事，无持仓披露（仅模板免责声明「David and I may have investments in the companies we discuss」，未披露具体标的/仓位）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心商业叙事</strong>：</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">1984 濒临拆分</strong>：沃尔特去世后18年衰败，1983年股价从$82跌至$52；巴斯家族入股~25%，联合罗伊·迪士尼政变赶走CEO罗恩·米勒，请来艾斯纳+威尔斯+卡森伯格</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">文艺复兴（1984-1994）</strong>：乐园涨价现金流反哺电影，低预算高票房（《狮子王》）重启「电影→衍生品→乐园」飞轮，1994年市值$220亿（10倍）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">1995 收购 ABC/Capital Cities（$190亿，当时史上第二大）</strong>：核心资产 ESPN——「转播费」模式发明者，但公司失去战略清晰度</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">艾格时代 IP 军备竞赛</strong>：2006 皮克斯$74亿股票 → 2009 漫威$40亿 → 2012 卢卡斯影业$40亿 → 2017 福克斯$520亿→$713亿（康卡斯特搅局多付$190亿）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">流媒体转型</strong>：Disney+/Hulu/ESPN 转型累计亏损~$130亿，现已扭亏（去年赚~$10亿）；股价11年持平 vs 标普涨3.5倍</li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">投资者参考数据点</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">收购价：ABC $190亿（1995）/ 皮克斯 $74亿股票（乔布斯成最大个人股东，净额$64亿）/ 漫威 $40亿（2009）/ 卢卡斯 $40亿（2012）/ 福克斯 $520→$713亿</li>
-<li style="margin:0.3em 0">市值轨迹：1984 约$20亿 → 1994 $220亿 → 艾斯纳离任~$500亿 → 2015 $2000亿 → 2017 ~$1700亿</li>
-<li style="margin:0.3em 0">艾斯纳任期：营收$17亿→$310亿（20年15% CAGR），净利$0.97亿→$25亿；艾格前十年：营收$320亿→$520亿，营业利润$47亿→$147亿</li>
-<li style="margin:0.3em 0">ESPN：订户峰值~1亿（2015年流失300万至9200万）；早期月转播费&lt;$1，每两年涨价~20%</li>
-<li style="margin:0.3em 0">内容经济学：《狮子王》成本$4500万、票房$7.5亿；《玩具总动员》IP 周边零售$300亿（5%授权费）；《海底总动员》DVD售6500万张×$30=$20亿</li>
-<li style="margin:0.3em 0">现状：年营收$940亿、净利$130亿；乐园与体验板块去年营业利润$100亿</li>
-<li style="margin:0.3em 0">主持人独立判断：漫威当时「应该付得少得多」（产出衰减），星战挖掘空间有限</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：06-22 已归档第一部《The Walt Disney Company》（sig=none, tick=['DIS']，IP飞轮模型）。本期为第二部，主题延续，结论一致：DIS 公开交易但无个人持仓披露。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — Garry Tan on Taste, Agents and Founder Ambition</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-12 | <strong style="font-weight:600">嘉宾</strong>: Garry Tan（YC CEO） | <strong style="font-weight:600">信号</strong>: ⚪ 无持仓披露（提及 Microsoft/Palantir/Apple/Reddit 均为职业轶事与行业案例，无买卖表述；片尾 a16z 免责声明为模板条款）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">「别追逐热点，跟随你独特所知」— 拒绝 Palantir 早期 7 万美元支票自评「20-40 亿美元的失误」；依据地图（共识）决策而非第一手经验 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
-<li style="margin:0.3em 0">「一个人可抵四百人」— markdown 文件就是一名员工；2-3 人+数百 agents 的公司 4 个月做到 $1500 万 ARR <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
-<li style="margin:0.3em 0">品味与 agency 空前重要且可练习 — 「代码不再珍贵」，辨别力成稀缺资产 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观点]</code></li>
-<li style="margin:0.3em 0">纯按席位收费的 SaaS 或在 5-10 年内消失 — 须叠加数据/网络效应护城河 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自述分析]</code></li>
-<li style="margin:0.3em 0">「白色药丸」论 — AI 吞噬的是官僚层而非人类；token 价格崩塌将引爆消费者 AI 软件与「浏览器战争 2.0」 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[趋势判断]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：a16z 源此前多期转录损坏（Grant Sanderson stale 污染，已修复），本期内容与标题验证一致，无信号与既往预期一致。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 管线与数据</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">完整性抽查：✅ 通过（a16z/高能量/跨国串门儿计划/Acquired 四源最近 3 文件尺寸各异、标题与首段主题匹配）</li>
-<li style="margin:0.3em 0">已处理跳过：5 集（跨国串门儿计划 #665/#667/#668/#670、硅谷101 E248）</li>
-</ul>
-
-</div>
-]]></content:encoded><category>播客信号</category></item>
-<item><title>[AI动态] AI 领域动态 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-13.html</link><guid isPermaLink="false">report:AI动态:2026-08-13:b538a6fc</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-13</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/13</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：Unitree IPO 认购狂潮定调具身智能资本温度；中国占全球人形机器人出货 97% 的产业格局被多方确认；AI coding 赛道估值加速（Lovable $13.3B / Cognition $40B）；Cerebras 财报暴跌暴露 AI 硬件"块状需求"风险。</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
-<p style="margin:0.8em 0">今日最大信号在具身智能：Unitree（宇树）IPO 认购倍数定格 8,288 倍、散户冻结资金 $118B，中签率仅 0.0181%，资本对中国人形机器人标的的饥渴达到极致。同期 Bloomberg 报告确认中国厂商占 H1 全球人形机器人出货 97%，出货量同比 +272%——"出货霸榜"与"IPO 狂热"同时成立，但 Tech Times 指出 Unitree 招股书自认机器人暂不能干实际工作，产业真实生产力与资本定价之间存在显著剪刀差。</p>
-<p style="margin:0.8em 0">AI coding 赛道同日两条融资新闻：Lovable 官方确认 $400M Series C、估值 $13.3B；Cognition（Devin）据传洽谈 $40B 估值新融资，距 $26B 估值仅 3 个月，Devin 收入目标 $1B。AI 硬件方面，Cerebras Q2 财报后暴跌 14-16%——inference cloud 收入近 4 倍增长但硬件业务下滑，市场开始对"块状需求"定价。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Unitree IPO 超购 8,288 倍，散户认购 $118B，中签率 0.0181% | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">宇树科技（Unitree）IPO 打新结果公布：网上认购倍数 8,288 倍，散户冻结资金约 $118B，最终中签率 0.0181%。Global Times、FT、Bloomberg 等多源确认。中信证券此前预计 IPO 后市值超 $7.4B。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 认购倍数 8,288x 与中签率 0.0181% 由 Global Times 官方确认；✅ $118B 认购金额 Tech Times 等多家引用 — <strong style="font-weight:600">关注</strong>: 具身智能一级/二级资本热度风向标</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Global Times / Bloomberg / FT (🟡 多源交叉验证)</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 中国厂商占 H1 全球人形机器人出货 97%，出货量 +272% | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Bloomberg 援引研究报告：2026 上半年全球人形机器人出货中 97% 来自中国厂商，出货量同比增 272%。TechNode、Forbes、TechRepublic 等 10+ 家媒体独立报道同一数据。Forbes 评论指出"销售战赢了但暂不重要"——多数出货为演示/试点用途。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 97% 份额与 +272% 增速由 Bloomberg 报告 + TechNode/TechRepublic 独立确认 — <strong style="font-weight:600">关注</strong>: 出货霸榜≠真实生产力，试点与量产差距待观察</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg / TechNode / TechRepublic (🟡)</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Lovable 确认 $400M Series C，估值 $13.3B | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">AI 应用搭建平台 Lovable 官方博客 + TechCrunch 确认：$400M Series C，估值 $13.3B。HN 首页 87 pts 同步讨论。Menlo Ventures 领投方也发布了官方声明。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 金额与估值由 Lovable 官方博客与 Menlo VC 双官方源确认 — <strong style="font-weight:600">关注</strong>: AI coding 工具估值中位线持续上移</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Lovable 官方博客 / TechCrunch (🟢)</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Cognition 据传洽谈 $40B 估值新融资，Devin 收入目标 $1B | 🟡 | [📰推测]</h3>
-<p style="margin:0.8em 0">Bloomberg 首发、TechCrunch 跟进：AI coding 公司 Cognition（Devin）已在洽谈新一轮融资，估值至少 $40B——距其 $26B 估值仅约 3 个月。报道称其 Devin 收入目标达 $1B。公司未正式回应。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: 🔴 未证实 — 融资洽谈属 Bloomberg 信源报道，公司未确认；✅ $26B 前轮估值为已确认历史事实 — <strong style="font-weight:600">关注</strong>: 3 个月估值 +54%，AI coding 泡沫指标</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg / TechCrunch (🟡 媒体报道，未经公司确认)</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Cerebras Q2 财报后暴跌 14-16%，硬件业务下滑 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Cerebras（$CBRS）8/12 盘后发布 Q2 财报：总营收创纪录、inference cloud 业务同比近 4 倍增长，但硬件销售业务下滑，市场解读为"块状需求"（lumpy demand）。股价盘后/次日暴跌 14-16%。公司披露 $25.4B backlog 与产能瓶颈并存。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 暴跌幅度由 CNBC/Reuters/Barron's 多源确认；✅ cloud 业务 4x 增长为公司财报口径 — <strong style="font-weight:600">关注</strong>: AI 推理需求强≠硬件收入线性，交付节奏风险</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNBC / Reuters / Bloomberg (🟡)</li>
-</ul>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-
-</div>
-]]></content:encoded><category>AI动态</category></item>
-<item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-13.html</link><guid isPermaLink="false">report:STH解码:2026-08-13:b26a6e05</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-13</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🔴 STH_ 每日解析阻塞 — 雪球 Cookie 过期（需人工干预）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">2026-08-13 22:42 | 状态：BLOCKED | 未写幂等锁（cookie 刷新后当日可重试）</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">诊断结论</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">雪球登录态失效，API 返回 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Error 10022</code>（需登录），连续两晚 crawl 失败。</strong></p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">证据</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">数值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">EDITED CSV 最新帖</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-08-10（陈旧 3 天）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8-12 22:52 crawl</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第 1 页成功后 10022 失败</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日 22:41 crawl</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第 1 页即 10022，get_cookie 自动刷新循环</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日下载尝试</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">600s 超时（10022→get_cookie→EOFError 无限循环）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">数据文件</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">完好（1640 行，latest=8-10），无残留进程</td>
-</tr>
-</tbody>
-</table></div>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">根因</h2>
-<p style="margin:0.8em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">get_cookie.py</code> 需人工滑动验证/登录，cron headless 环境无 stdin，自动恢复通道失效。这是 skill 已定义的已知阻断场景，非爬虫 bug。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Action Item</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">人工在 macOS GUI 执行一次（任选其一）：</strong></p>
-<pre style="background:#1e293b;color:#e2e8f0;padding:16px;border-radius:6px;overflow-x:auto;font-size:14px;line-height:1.5"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">cd ~/Developer/xueqiu-crawler &amp;&amp; ./venv/bin/python download/get_cookie.py
-# 或
-python3 ~/.hermes/scripts/setup_xueqiu_login.py
-</code></pre>
-<p style="margin:0.8em 0">完成滑动验证/登录后，当日 cron 重试即可恢复；8-11~8-13 的 STH_ 发言将在下次成功 crawl 时补齐（append 模式）。</p>
-
-</div>
-]]></content:encoded><category>STH解码</category></item>
-<item><title>[心动日报] 心动投资日报 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-13.html</link><guid isPermaLink="false">report:心动日报:2026-08-13:5b3f693a</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-13</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-13（周四）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | 自动采集+LLM增量标注 | cron 99e406e539e7
-数据源状态: TapTap ✅ / Apple ✅ / Steam ✅ / 逸修1 ✅ / 股价 ✅（akshare东财断连3次→fetch_stock.py兜底）</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">今日判断：<strong style="font-weight:600">无新增触发信号，维持持有</strong>；先行指标第4采样点转混合（3区回归+2区连续出榜），E下修预警未触发</li>
-<li style="margin:0.3em 0">关键数字：股价 42.46（-0.84%）| 市值 ~193亿港元（≈176亿人民币）| 残差 -44%低位（昨-43%）</li>
-<li style="margin:0.3em 0">发言结论：<strong style="font-weight:600">对E影响：无修正</strong>——新承认"tap的Q2=差的方面"是事实确认（Q2已在版图内）非增量下修；"短期或一次性"=对冲叙事，Σ验证前折扣50%，不计入E</li>
-<li style="margin:0.3em 0">最值得注意：逸修1首次点名"tap的Q2"为差的方面（承认递进），但归因仍外移（信息不透明/小作文/恐慌踩踏）</li>
-<li style="margin:0.3em 0">行动：持有不加不减（半年报前不变）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
-<p style="margin:0.8em 0">收盘价 42.46（8-13 周四）
-涨跌 -0.84%（-0.36）| 市值 ~193亿港元（≈176亿人民币）
-52周区间: 40.10 - 92.45（现价距低点 +5.9%）
-近6日: 44.36(8-06,-6.18%) → 44.38(8-07)
-→ 44.54(8-10) → 43.70(8-11) → 42.82(8-12) → 42.46(8-13)</p>
-<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
-<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
-<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
-<li style="margin:0.3em 0">v3.2校准3：低位残差不调E（残差&lt;-30%持续&gt;3个月才复核）
-位置: 176亿人民币 &lt; 乐观锚下限259亿；市场隐含E≈10.4亿 vs 我18.5亿（-44%）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO2未上线</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未触发</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新信息</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️接近</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第4点混合</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①收入2季下滑</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️待半年报</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">❓待半年报</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️版本上修</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2差获承认</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-44%低位</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">昨-43%</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0">快慢判定: ③为慢信号→仅标注（新承认"tap的Q2差"为定性，不触发立即动作）；先行指标仍为慢确认工具，未满2周阈值。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam PC，8-13 22:50）</h2>
-<p style="margin:0.8em 0">TapTap（vs 8-12）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">热玩: #6 小镇(持平) | #8 香肠(+3) | #87 戴夫(-4)</li>
-<li style="margin:0.3em 0">新品: 心动系不在榜</li>
-<li style="margin:0.3em 0">预约: 心动系不在榜</li>
-<li style="margin:0.3em 0">热卖: #1 潜水员戴夫（买断制）</li>
-</ul>
-<p style="margin:0.8em 0">iOS 16区（vs 8-12）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">中国畅销: 小镇国服 出榜（连续2日）</li>
-<li style="margin:0.3em 0">中国免费: #46 小镇(-3) | #95 香肠(+4)</li>
-<li style="margin:0.3em 0">香港畅销: #89 小镇国际服（回归，昨出榜）</li>
-<li style="margin:0.3em 0">台湾畅销: #85 小镇国际服（回归，昨出榜）</li>
-<li style="margin:0.3em 0">日本畅销: 出榜（连续2日）</li>
-<li style="margin:0.3em 0">韩国畅销: #92（-20，逼近出榜）</li>
-<li style="margin:0.3em 0">新加坡畅销: #47（回归，前连续2日出榜）</li>
-<li style="margin:0.3em 0">泰/印尼/马来/菲: #26(-6) | #31(-1) | #59(-8) | #27(+2)</li>
-<li style="margin:0.3em 0">美/英/德/法/巴西/越南: 无</li>
-</ul>
-<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">火炬之光: 在线4192/峰4264/历史27296
-近30日均 6482（昨6338）</li>
-<li style="margin:0.3em 0">心动小镇: 在线13367/峰13744/历史65894
-近30日均 11664（昨11927）</li>
-<li style="margin:0.3em 0">解读: 双端在线回落5-8%，属周中正常波动；小镇PC在线仍为火炬3倍</li>
-</ul>
-<p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">E下修预警: <strong style="font-weight:600">未触发</strong>（第4采样点，连续下滑未满2周）</li>
-<li style="margin:0.3em 0">混合信号: HK/TW/SG三区回归 vs KR单日-20、JP+中国畅销连续2日出榜</li>
-<li style="margin:0.3em 0">复苏/脉冲: 部分区回归（首次，与昨日"8区同步恶化"相反）</li>
-<li style="margin:0.3em 0">结论: 恶化斜率放缓，转为拉锯；继续按慢确认工具跟踪，不动作</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控（8-13 新增 10 条；8-12 22:47 前已覆盖）</h2>
-<p style="margin:0.8em 0">今日新增: 10条（8-12 23:49 ~ 8-13 22:38）</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（10条中 0 条达E修正标准）</li>
-<li style="margin:0.3em 0">方向信号: 心动相关仅1条（22:38 动子现状）；其余9条无关心动（腾讯资本开支4/网易1/美团2/AI行业1/市场1）</li>
-<li style="margin:0.3em 0">可靠度: 🟡中——#19 为定性叙事+历史锚定，无新数字；"短期或一次性"待半年报裁决</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定</h3>
-<p style="margin:0.8em 0">📌 22:38 动子现状盘点 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"信息暂时不透明…各种小作文…恐慌和踩踏…差的方面（比如mk和tap的Q2）很多都是短期或一次性"
-主张: 股价下跌主因=信息差+小作文+恐慌踩踏；问题（mk/tap Q2/小镇年初事故）多为短期或一次性；此前预期已验证（小镇国服恢复、曝光7月恢复）
-核查: ❓定性无数字/待半年报
-对照: 表2#16（"Q2两核心问题7月开始改善"）→ 方向一致；表2#10/#17 再确认。与昨日版本（"变现未解决"）相比 → <strong style="font-weight:600">承认递进</strong>（tap的Q2首次明确归入"差的方面"，且首次说"需要成绩证明"）
-结论: 承认递进=正向信号；但"短期或一次性"=对冲叙事，Σ验证前折扣+50%；对E无修正</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 23:49/00:29/00:42/16:39 | ⚪ 无关
-结论: 腾讯资本开支讨论（下半年资本开支增加、利润或下滑、AI高capex正定价条件）——无关心动</p>
-<p style="margin:0.8em 0">📌 10:58 市场正常化 | ⚪ 无关
-结论: "谁有业绩有逻辑估值有性价比谁就能涨"——行业评论，无关心动</p>
-<p style="margin:0.8em 0">📌 15:25 网易梦幻畅玩服移动端 | ⚪ 无关（行业）
-结论: 8-21上线、与诡秘同日；行业新品供给，仅tap流量弱相关</p>
-<p style="margin:0.8em 0">📌 18:56 "接近预告上限" | ⚪ 无关
-结论: 行业财报评论（网易类），无关心动</p>
-<p style="margin:0.8em 0">📌 22:04/22:29 外卖行业 | ⚪ 无关
-结论: 美团外卖第三名无价值论、美团优选对比——无关心动</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制）</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（"差的方面很多都是短期或一次性"）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（信息不透明/小作文/恐慌踩踏）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">加深（tap的Q2首次归入"差的方面"+"需要成绩证明"）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无（维持持平/微增版本）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">命中（"之前预期已验证：小镇国服恢复、曝光7月恢复"）</td>
-</tr>
-</tbody>
-</table></div>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">非集中日：心动利好0条；#19为防御性叙事（维护"市场误解"论），非利好输出</li>
-<li style="margin:0.3em 0">语境: 股价42.46距52周低点40.10仅+5.9%，低位叙事维护动机存在</li>
-<li style="margin:0.3em 0">记入反误导档案（表5）；次日观察是否延续"市场误解"输出</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">公司级利润 10-15%: 不适用（无新利润预测）</li>
-<li style="margin:0.3em 0">产品级流水 30%: 不适用（无新产品流水预测）</li>
-<li style="margin:0.3em 0">对冲叙事 Σ验证+50%: 适用（"差的方面短期或一次性"未验证→折扣后仅作定性参考，不计入E）</li>
-<li style="margin:0.3em 0">估值结论 30%: 不适用</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天 8-14~8-27）</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">8-21: 网易梦幻畅玩服移动端上线（逸修提及；行业）</li>
-<li style="margin:0.3em 0">8-21: 诡秘手游同日上线（行业竞争，tap流量观察）</li>
-<li style="margin:0.3em 0">8月中下旬: RO2上线筹备（版号已批）</li>
-<li style="margin:0.3em 0">8月中下旬: 小镇周年庆后首个大卡池（观察窗口）</li>
-<li style="margin:0.3em 0">8-30: 小镇2周年+三丽鸥活动结束（14天外，临近）</li>
-<li style="margin:0.3em 0">8月底: 26半年报（核心验证: tap增速/mk/事故影响）</li>
-<li style="margin:0.3em 0">8~9月: 影之刃零预售（定价268，预期首年300-500万份）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">新可证伪点: "mk和tap的Q2差=短期或一次性" → 半年报/电话会裁决（是否一次性 vs 趋势性）</li>
-<li style="margin:0.3em 0">验证路径: 26半年报（8月底）tap收入增速+mk费用结构；Q3 tap榜单/曝光持续性</li>
-<li style="margin:0.3em 0">历史验证点: 进行中 6 个（表2#9/#11/#13/#14/#16/#17 + 26E）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
-<p style="margin:0.8em 0">26E扣非: 我18-19 / 他20-22 / 卖方(未覆盖26E) / 市场10-13 → 无变化
-小镇国际服: 我17 / 他17 / 市场10-12 → 无变化
-（他远期愿景非26E口径，不调E；今日无新E数字）</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
-<p style="margin:0.8em 0">信号: 🟡 等待验证（26半年报 ~8月底）
-动作: 持有不加不减
-触发条件:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">半年报E≥17亿 → 🟢 259-333亿</li>
-<li style="margin:0.3em 0">半年报E≤13亿 → 🔴 150-200亿
-今日触发: 无（先行指标第4采样点混合，未达2周阈值）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">股价单日&gt;5%: 无（-0.84%）</li>
-<li style="margin:0.3em 0">快信号: 无（④⑤均未触发；③为慢信号仅标注）</li>
-<li style="margin:0.3em 0">先行指标: 未触发（第4采样点: 3区回归+2区连续出榜，拉锯）</li>
-<li style="margin:0.3em 0">出榜: 有（小镇国际服 日本 连续2日 | 小镇国服 中国畅销 连续2日）</li>
-<li style="margin:0.3em 0">新承认: 有（tap的Q2首次明确归入"差的方面"）</li>
-<li style="margin:0.3em 0">预测下修: 无</li>
-<li style="margin:0.3em 0">数据源异常: akshare东财API断连3次→fetch_stock.py兜底✅（东财push2实时源正常）</li>
-</ul>
-
-</div>
-]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-13.html</link><guid isPermaLink="false">report:播客信号:2026-08-13:97631248</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-13</description><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-13.html</link><guid isPermaLink="false">report:AI动态:2026-08-13:b538a6fc</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-13</description><category>AI动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-13.html</link><guid isPermaLink="false">report:STH解码:2026-08-13:b26a6e05</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-13</description><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-13</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-13.html</link><guid isPermaLink="false">report:心动日报:2026-08-13:5b3f693a</guid><pubDate>Thu, 13 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-13</description><category>心动日报</category></item>
 <item><title>[播客信号] 播客投资信号 2026-08-14</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-14.html</link><guid isPermaLink="false">report:播客信号:2026-08-14:98143157</guid><pubDate>Fri, 14 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-14</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-14 05:05</h1>
@@ -14261,60 +13718,117 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 </div>
 ]]></content:encoded></item><item><title>[张小珺Jùn｜商业访谈录] Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</title><link>https://xlicz.github.io/podcast-rss/articles/Kimi-K3-背后的架构脉络-注意力谱系-改良型机器模型暴论与开源模型的边界-2026-08-26.html</link><guid isPermaLink="false">zhang-xiaojun_60af80f160db</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>Kimi K3 背后的架构脉络：注意力谱系、改良型机器模型暴论与开源模型的边界</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、&quot;改良型机器模型&quot;暴论与开源模型的边界</h1>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Kimi K3 背后的架构脉络：注意力谱系、"改良型机器模型"暴论与开源模型的边界</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">清华博士孙宇涛领读 K3 技术报告：为什么不用 sparse attention、MLA 会不会被淘汰、苏剑林与罗福莉的分歧，以及一个博士生为什么决定转向世界模型。</strong></p>
-<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是&quot;attention 加残差&quot;拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
-<p style="margin:0.8em 0">&quot;你是否还把这个东西叫做 Transformer？&quot;他自问自答：&quot;我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。&quot;</p>
+<p style="margin:0.8em 0">孙宇涛抛出的第一个判断不是技术，是哲学。他把 Transformer 比作忒修斯之船：2017 年这条船刚下水时，是"attention 加残差"拼起来的；行驶了八九年，部件一块块被换掉——线性注意力、门控、新的连接方式、新的归一化——到今天，这条船和当年的 Transformer 相似度已经很低了。</p>
+<p style="margin:0.8em 0">"你是否还把这个东西叫做 Transformer？"他自问自答："我的判断比较暴论——大模型可能没有本质的上限了，后面都是一些改良性的机器模型。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">注意力美学的三十年谱系</h2>
-<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得&quot;每一项背后都有一个历史因素&quot;，不把谱系打开根本看不懂为什么长这样。</p>
+<p style="margin:0.8em 0">Kimi Delta Attention 是 K3 的招牌架构，但它的公式极其复杂。孙宇涛说，直接读公式会觉得"每一项背后都有一个历史因素"，不把谱系打开根本看不懂为什么长这样。</p>
 <p style="margin:0.8em 0">这条谱系是：最朴素的线性注意力（外积相加，比 ResNet 还简单）→ RetNet 引入与位置相关的衰减项（语言的特性就是近的位置权重大）→ Mamba 把位置无关衰减变成位置相关 → DeltaNet 提高线性注意力的上下文容量 → Gated DeltaNet 融合高容量与衰减 → KV Learner 把标量衰减变成 channel-wise 的细粒度控制，表达能力严格更强。</p>
 <p style="margin:0.8em 0">代价在 kernel：标量衰减一个 tile 只有一个变量，tensor core 上处理极容易；channel-wise 衰减写 kernel 的难度陡增。K3 的解决方案是给衰减加一个 lower bound——在 16-token 的 tile 窗口内限制最大衰减量，保证数值不超出 BF16 精度范围。这在数学上可以证明，也让整个 kernelized 计算路径顺畅。</p>
-<p style="margin:0.8em 0">&quot;每一步都不是凭空来的，&quot;孙宇涛说，&quot;它每一项背后都是历史。&quot;</p>
+<p style="margin:0.8em 0">"每一步都不是凭空来的，"孙宇涛说，"它每一项背后都是历史。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 K3 不用 sparse attention</h2>
-<p style="margin:0.8em 0">这是一个直接回答&quot;为什么三选二&quot;的问题。孙宇涛给的理由相当具体：</p>
+<p style="margin:0.8em 0">这是一个直接回答"为什么三选二"的问题。孙宇涛给的理由相当具体：</p>
 <p style="margin:0.8em 0">第一，硬件现实。DeepSeek V3.2 和 GLM-5 用的 DeepSeek Sparse Attention，在 Blackwell 上 decode 加速极小——求 index 这一步极其昂贵，越先进的 index overhead 越大，甚至跟 full attention 没有显著加速差。GLM 团队为此做了 Index Cache（把求 index 的计算跨层共享），孙宇涛自己的团队做过更极端的方案（index 也全部 one-hot 分摊），结论一致：必须跨层复用 sparse 结果才能吃到收益。</p>
-<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用&quot;是否有效、加速比是否够高，相当存疑&quot;。</p>
+<p style="margin:0.8em 0">但 K3 的 Hybrid Attention 是 interleave 结构——每层线性注意力和全注意力之间隔着很多层，跨层复用"是否有效、加速比是否够高，相当存疑"。</p>
 <p style="margin:0.8em 0">第二，训练不兼容。Sparse Attention 基本无法 from-scratch 预训练，业界通行做法是 post-train 阶段从全注意力转换。对 K3 来说，留一个接口以后再做是更务实的选择。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">MLA 从来不是共识，只是一个选择</h2>
-<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是&quot;最 buy in 的一个点&quot;。</p>
-<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益&quot;不是正交的，甚至互相冲突&quot;。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
-<p style="margin:0.8em 0">&quot;MLA 从来也不是共识，它只是一个选择。&quot;孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是&quot;能跑的东西不要动&quot;。</p>
+<p style="margin:0.8em 0">K3 沿用了 DeepSeek V2 起家的 MLA，并在其上叠加了千问团队引入的 Gated Attention——后者带来额外计算开销，但大幅提升训练稳定性，这也是"最 buy in 的一个点"。</p>
+<p style="margin:0.8em 0">但 MLA 的未来并不牢靠。孙宇涛转述罗福莉的判断：MLA 本质上就是大号 MQA，并没有带来新的东西，只是一个更好的 trick；它为了达到同样的计算效果需要更多 tensor 计算弥补；在推理阶段计算远大于实际能力，有浪费，而 MTP 恰好能利用这些剩余算力——两者收益"不是正交的，甚至互相冲突"。DeepSeek V4 不再用 MLA，用的是大号 MQA，本质区别不大。</p>
+<p style="margin:0.8em 0">"MLA 从来也不是共识，它只是一个选择。"孙宇涛说。K3 沿用它也是合理的选择——K2 当时 follow DeepSeek 把模型跑出来，K2 到 K3 之间是"能跑的东西不要动"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Muon 与 outlier 之争：苏剑林一定会反对</h2>
 <p style="margin:0.8em 0">K3 在 MLP 中间引入 C2GO——把 SwiGLU 的自由线性投影换成 tanh 门控，用 soft clip 把中间激活严格 bound 住，从数学上控制 activation explosion。孙宇涛点出争议：用 Muon 优化器更容易出 outlier，所以必须从架构上限制。</p>
-<p style="margin:0.8em 0">&quot;如果我这么说，苏剑林一定会反对。&quot;孙宇涛自己补了一句，&quot;他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。&quot;</p>
-<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——&quot;也不需要去纠结更复杂的优化细节。&quot;</p>
+<p style="margin:0.8em 0">"如果我这么说，苏剑林一定会反对。"孙宇涛自己补了一句，"他肯定会说，对于任何优化器来说都一定会出现 outlier，因为你从模型架构上是控制不了的。想严格控制，必须直接从模型架构下手。"</p>
+<p style="margin:0.8em 0">这正是 Kimi 在 K2/Moonlight 时代就讨论过的老问题：Muon 下 QK cache 更容易爆炸，Moonlight 用特化的 QK 处理压制 outlier。孙宇涛的判断是：与其纠结优化器细节，不如直接在架构上把中间激活 bound 住——"也不需要去纠结更复杂的优化细节。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">工程取舍的细节，才是前沿模型的分水岭</h2>
-<p style="margin:0.8em 0">孙宇涛特意讲了几个&quot;paper 里一笔带过但实际决定成败&quot;的取舍：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD&quot;任意扩展 token 数&quot;的优势被高估了——最优学习率本身就和 token 数相关。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文&quot;没有帮助甚至有负面影响&quot;，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文&quot;第二天就去复现了，很 work&quot;，审稿时直接给了 strong accept——&quot;我这几年都没给过几个。&quot;</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。&quot;从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。&quot;</p>
+<p style="margin:0.8em 0">孙宇涛特意讲了几个"paper 里一笔带过但实际决定成败"的取舍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">WSD 还是 cosine decay？</strong> MiniCPM 的 WSD 把好数据放在 decay 阶段，且支持训练中途自由切换总 token 数。但 Kimi 选了更经典的 cosine decay，理由很实际：WSD 多一个超参（decay 比例），cosine 更容易找到 hyperparameter setting；而且 WSD"任意扩展 token 数"的优势被高估了——最优学习率本身就和 token 数相关。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">NoPE 取代 RoPE。</strong> 这是孙宇涛最欣赏的设计之一：Hybrid Attention 里线性注意力部分已经引入了位置信息，全注意力部分可以干脆去掉位置编码。RoPE 只对短上下文建模有效，对长文"没有帮助甚至有负面影响"，扩展长度还要调参；NoPE 直接外推，不用调任何参数。他当时看到这篇论文"第二天就去复现了，很 work"，审稿时直接给了 strong accept——"我这几年都没给过几个。"</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">低精度训练何时引入。</strong> DeepSeek V3 原生 FP8，V4 原生 W4A8；Kimi 反着来：高精度预训练，SFT 阶段再引入低精度 QAT。"从项目管理角度，高精度是更保险的方案——大规模训练出了问题不可控；从技术角度，from-scratch 引入低精度并不会带来能力提升，只要你过了足够多的训练量，结果都差不多。"</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Vision encoder 不用现成初始化。</strong> 不用 CLIP 这类大规模训练好的 encoder 做初始化，而是 from-scratch 训。收敛慢、多用算力，但最后结果不损失甚至更好，且 norm 分布更稳定、兼容性更好。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到&quot;不需要小道消息&quot;</h2>
-<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是&quot;写得真详细&quot;——这本身是稀缺品。&quot;infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">infra 的确定性：把工程做到"不需要小道消息"</h2>
+<p style="margin:0.8em 0">孙宇涛对 infra 章节的评价是"写得真详细"——这本身是稀缺品。"infra 上的事情本质上没有什么难的，它是高度确定性的东西。你写出来，大家就不需要找小道消息了。"</p>
 <p style="margin:0.8em 0">几个值得单拎出来的方案：</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——&quot;感觉像是一个经典的数据结构与算法问题。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">MoEP（动态 EP）。</strong> 传统 EP 每个 token 自由选专家，专家负载不均导致执行时间不等、通信多一个阶段。MoEP 的做法是加少量冗余专家，用 online planning 提前规划，从数学上证明只需小比例冗余就能让各卡 token 数完全对齐——"感觉像是一个经典的数据结构与算法问题。"</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Linear Attention 的双层 chunk。</strong> 线性注意力的 chunk 可以任意拆分（数学上完全等价），所以可以做两层：机器间用大 chunk 并行，机器内 kernel level 再切小 chunk——这是 full attention 做不到的。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Latent MoE 带来通信红利。</strong> K3 用 latent MoE 把 dispatch 通信量降下来后，通信可以被 shared expert 的计算在一个 batch 内部 overlap 掉，不需要 DeepSeek 那种跨 batch 的精细重排。PP 的不对称问题也处理得很轻巧：把 memory 占用大的 PP rank 的激活转存到轻的 rank 上，规避了 DualPipe 的复杂度。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">大规模 offload。</strong> K3 把中间结果大量 offload 到 CPU，所有可 offload 的东西用 FP8 存储省一倍内存，满足 CPU-GPU 通信不等式后才能做到计算与通信完全 overlap。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与&quot;不怕杨植麟&quot;</h2>
-<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术：&quot;他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。&quot;</p>
-<p style="margin:0.8em 0">对 Kimi 的&quot;科学方法&quot;，他的解释落到组织：&quot;Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。&quot;</p>
-<p style="margin:0.8em 0">他观察到 Kimi 的一个特征：&quot;所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。&quot;</p>
-<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续：&quot;DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。&quot;</p>
-<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型：&quot;如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织的判断：100B 激活的魄力与"不怕杨植麟"</h2>
+<p style="margin:0.8em 0">被问到 K3 最 impressive 的地方，孙宇涛的回答不是任何技术："他们把计划搞到 100B 激活，比预期大。这个不依赖任何能力——你具体定多少激活本身不是技术性的东西，看你想达到什么效果。在已有开源模型基础上提升一个数量级，这个决定需要魄力。"</p>
+<p style="margin:0.8em 0">对 Kimi 的"科学方法"，他的解释落到组织："Kimi 是公开里最强调模型内科的团队——让不同行为的 trace 能可靠获取，让不稳定或 collapse 现象能明确归因。不科学是什么？基于利益需求把科学的方式干掉，就是不科学。"</p>
+<p style="margin:0.8em 0">他观察到 Kimi 的一个特征："所有人好像都不怕杨植麟。为什么要怕？有谁有道理谁说了算。它是一个集体的工作，不依赖于个人英雄主义。"</p>
+<p style="margin:0.8em 0">Kimi 与 DeepSeek 的分化，他判断会继续："DeepSeek 更强调性价比，flash 模型做得很好；Kimi 的首要精力是提升开源模型的能力上限，API 也比别人贵很多。技术上的东西不存在太多秘密，好就是好；组织的走向取决于人的选择。"</p>
+<p style="margin:0.8em 0">至于新团队还有没有机会重做一个模型："如果团队足够好、氛围足够好、单兵作战能力足够强，有机会。但这个条件大概率不存在——好的人和好的组织文化有历史局限，leader 的性格决定团队氛围。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：为什么一个架构研究者转向了世界模型</h2>
-<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但&quot;只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义&quot;。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，&quot;如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。&quot;</p>
-<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人：&quot;大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。&quot;</p>
-<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用&quot;改良型的机器模型&quot;总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
+<p style="margin:0.8em 0">孙宇涛对未来的判断带着一种清醒的悲观：模型 size 会继续扩大，但"只要大家能定义一个能力，就能达到——AGI 最大的问题就是它没有被定义"。模型不可能无限大——人类互联网能集结的信息量是有限的，从数学上模型没有必要无限。具身智能是更大的 gap，"如果你把 AGI 定义为真实物理世界交互，差距大得多；但如果只在 language model 的 scope 里讨论，问题不大。"</p>
+<p style="margin:0.8em 0">而他本人已经决定转向世界模型。理由很个人："大模型没有太大的改进空间了，没有大的突破就没有 credit。从职业生涯上讲，这不是一个能做出太大贡献的领域了。世界模型问题更大，但至少是一个新的东西。"</p>
+<p style="margin:0.8em 0">一个把 Kimi Delta Attention 的每条脉络都拆开讲透的博士生，用"改良型的机器模型"总结这个行业，然后转身走向一个更大的问题——这大概就是 2026 年架构研究者的真实处境。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">K3 是架构的集大成而非突破</strong>：Kimi Delta Attention 是线性注意力三十年谱系（RetNet→Mamba→DeltaNet→Gated DeltaNet→KV Learner）的收敛点，每一项改动都有历史原因</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">不用 sparse attention 是硬件判断</strong>：Blackwell 上求 index 开销极大、hybrid interleave 结构跨层复用不显然、且 sparse 无法 from-scratch 预训练——三选二时，务实胜出</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为&quot;能跑的东西不要动&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">MLA 是选择不是共识</strong>：本质是大号 MQA，罗福莉认为其推理计算浪费、与 MTP 收益冲突，DeepSeek V4 已弃用，K3 沿用是因为"能跑的东西不要动"</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">架构 vs 优化器之争</strong>：Muon 更易出 outlier，Kimi 用 C2GO 从架构上 bound 中间激活；苏剑林的观点是任何优化器都会出 outlier，必须从架构下手——两边其实殊途同归</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">工程取舍定成败</strong>：cosine decay 优于 WSD（少一个超参）、NoPE 取代 RoPE（长文外推免调参）、低精度训练放到 SFT 阶段（更保险且无损失）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">100B 激活是魄力不是技术</strong>：K3 最大的赌注是把开源模型激活量级提升三倍多，这是一个组织决定</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因&quot;大模型改进空间不大&quot;转向世界模型</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新团队的窗口大概率已关</strong>：好的人和好的组织文化有历史局限；孙宇涛本人因"大模型改进空间不大"转向世界模型</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与&quot;夫妻店 SaaS&quot;</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Aneesh Acharya：模型不是商品、实验室会向下整合而非向上、B200 涨价说明需求无限——以及为什么&quot;大多数护城河依然有效&quot;。</strong></p>
+<p style="margin:0.8em 0">先说两个看起来矛盾的现象。一个是 B200——一款并不算最前沿的 GPU——按小时计费的价格在上涨。硬件本该是高度通缩的东西，价格上涨只说明一件事：供给极度受限，需求近乎无限。另一个是 Aneesh Acharya 的亲身经历：他睡前给 GrokBot 发了张自己牛仔裤的照片，说&quot;别花超过 500 美元，搞定它&quot;，第二天早上醒来，agent 已经研究完、找到同版型不同水洗的款式、用他的信用卡下单了。</p>
+<p style="margin:0.8em 0">&quot;这种 agent 的定义性特征是随机应变（resourcefulness）。&quot;Acharya 说，&quot;能力已经有了，接下来解锁的是产品架构——用消费者能理解的方式把能力交付出去。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">不是泡沫，问题可能是&quot;乐观不足&quot;</h2>
+<p style="margin:0.8em 0">Acharya 对泡沫论的态度很直接：&quot;泡沫的讨论已经充分了，真正没被讨论的是——如果我们乐观得还不够呢？&quot;</p>
+<p style="margin:0.8em 0">证据是那些二阶指标：GPU 价格逆势上涨、算力供给被提前数年锁死。至于 SaaS 的二月回调——当时一批 SaaS 公司跌了 30%—40%，他们当时说&quot;市场超卖了软件&quot;，现在很多名字已经涨回来 40%。他的判断没变：企业软件支出只占企业总支出的 8%—12%，用 coding agent 重写薪酬系统或 CRM 的上行空间不大，下行风险倒是无限的——&quot;今天的企业软件要求的是 coding agent 提供不了的精确度。&quot;</p>
+<p style="margin:0.8em 0">但潮水确实退了：大量 SaaS 公司靠 SVC（服务费）扭曲了经济表现，现在&quot;要么加速，要么死&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型不是商品：神经质模型与开放模型</h2>
+<p style="margin:0.8em 0">&quot;如果你每天都在用这些模型，你会意识到它们不是商品，它们在领域层面有比较优势。&quot;</p>
+<p style="margin:0.8em 0">Acharya 用大五人格来做类比：GLM-5.2 和 5.3 是&quot;高神经质&quot;的模型——极其字面，只做你让它们做的事，不多做；Kimi K3 则开放、有主见、有创造力。一个组织里两种心智都需要：会计问题你要神经质，设计问题你要开放性。&quot;你不能既高度开放又高度神经质，所以你需要多种模型。&quot;</p>
+<p style="margin:0.8em 0">xAI 在过去两周内&quot;从模型赛道上根本不算竞争者变成三强之一&quot;，从双雄争霸变成三国演义；Anthropic 一度强势到&quot;做什么都不会错&quot;，而 OpenAI 靠新模型、新的 Codex harness 和 ChatGPT 桌面应用度过了出色的三个月。实验室在向不同方向专业化，而且都增长得疯狂。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">护城河：七力依然成立，受威胁的是&quot;集成&quot;</h2>
+<p style="margin:0.8em 0">关于&quot;没有护城河了&quot;的讨论，Acharya 引用《七力》：&quot;绝大多数护城河根本不受廉价智能的影响。网络效应、规模效应（体现在分发上）、品牌效应——没有 coding agent 能让耐克不再是耐克。Instagram 的力量从来不是构建 Instagram app 的复杂度，而是背后的网络。&quot;</p>
+<p style="margin:0.8em 0">真正暴露的是集成护城河：SAP 的集成/迁移如此痛苦以至于成为存在性风险，coding agent 让这一切大幅改善；系统集成商和 GSIs 的历史价值就是&quot;集成的点&quot;，存在性问题真实存在。</p>
+<p style="margin:0.8em 0">企业内部的配置也随之清晰：创造 alpha 的岗位（产品、销售、工程、研究）应该用前沿 token——&quot;你永远不知道一个新功能或一个客户的价值是多少，实际上无上限，所以为哪怕聪明一个 IQ 点的模型付几乎任何价格都是经济理性的&quot;；而支持型岗位（法务、HR、财务）是有界上行问题——&quot;你不可能比准确更准确地关账&quot;——用开源权重加强化学习微调，走 Pareto 高效的性价比曲线。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能是原始资源，应用层把它变成经济结果</h2>
+<p style="margin:0.8em 0">Acharya 的核心框架：智能是原始资源，就像云计算。Salesforce 把 AWS 云变成 CRM，交付经济结果；Harvey 把智能原始资源变成法律行业的经济结果。信用社是很好的例子——它们不想裁掉一半员工，想翻倍，同时保持经济上可行。这是应用层的独特机会。</p>
+<p style="margin:0.8em 0">应用层的方式是&quot;把模型放进循环&quot;：agent 就是带工具和记忆的模型循环。编码已经演示了完整的循环——bug 上报、复现、生成修复、验证、低风险直接集成发货、客户收到邮件；然后是定价优化、采购这类天然业务循环；最宏大的版本是业务级循环——&quot;模型回来说：我们该在蒂华纳开个分店。模型不能自主做，但它能在整个企业的表层做出改变。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">实验室会向下整合，而不是向上</h2>
+<p style="margin:0.8em 0">2023 年 1 月 Anthropic 发布&quot;法律插件&quot;（其实就是一组 skill 文件、长 prompt）时，汤森路透们暴跌，市场恐慌实验室会垂直整合进应用层。Acharya 说实际发生的是相反的：&quot;他们在垂直整合，但是向下——整合进推理和算力。&quot;</p>
+<p style="margin:0.8em 0">逻辑事后看很清晰：推理负载高度同质化，可以在价值链的一个环节建巨大规模；而应用层有无数独特需求——定价、包装、产品化、市场怎么买——是&quot;难得多、opex 很重&quot;的生意。所以实验室向下比向上更合理。</p>
+<p style="margin:0.8em 0">这也是&quot;模型聚合 &gt; 各部分之和&quot;的原因：Expedia 比任何单个航空公司都有用；Cursor 用前沿模型做规划、次等模型做执行；ElevenLabs 做语音、Black Forest 做视频，正确的产品是把它们放进一个壳里；研究场景里用非重叠数据训练的多个模型对抗性跑同一查询、再用一个模型收敛——应用层是唯一能提供 best-of-breed 的地方，实验室在结构和激励上都只能提供自家模型。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">消费者的三个障碍与一个拐点</h2>
+<p style="margin:0.8em 0">&quot;我们说了三年这是消费者的季度，但这次可能真的是。&quot;Acharya 拆了三个历史障碍：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">消费者不爱为软件付费，而 AI 软件的边际成本有时很高。</strong> 他做了一个浏览 X 时间线的 app，每 onboarding 一个用户要花 250 美元——&quot;即使 CAC 为零，也很难做免费的大众产品&quot;。开源权重让模型成本戏剧性下降，这个正在改变。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">从来没有 AI 原生的分发渠道。</strong> 没有 AI 的 app store。这个产品周期更像 Web 2.0——你必须把渠道和产品一起建，而不是像移动时代那样有一个中央分发点。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">命令行是 AI 的 DOS 时代。</strong> &quot;要让消费者完全拥抱这些能力，我们需要 Windows。&quot;围绕产品与设计 craft 有大量工作要做。</p>
+<p style="margin:0.8em 0">拐点已经出现：编码 agent 让&quot;数字原生的创业者&quot;成为现实。十年前&quot;孩子们想当 YouTube 创作者&quot;引发道德恐慌，Acharya 的解读是：在互联网长大的一代人想在网上做生意，而当时唯一的方式就是当创作者。现在，一个非程序员可以用 coding agent 建出年收入 10 万到 100 万美元的软件产品——&quot;这不是风投能投的生意，但这是正在出现的夫妻店 SaaS 机会，对这个国家来说非常酷。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">个人 agent：从新员工到资深员工</h2>
+<p style="margin:0.8em 0">Acharya 投资组合里的 Talon 演示了个人 agent 的复利逻辑：第一天用，它像刚入职的新员工；第 30 天，它吸收了 30 天的上下文、记忆和技能，&quot;能替你做出很好的假设&quot;——像一个资深员工。&quot;新员工可能很聪明甚至更便宜，但我们都懂资深员工的价值。&quot;</p>
+<p style="margin:0.8em 0">他自己的体验是：把 Talon 接进那个两万封未读邮件的私人邮箱后，他不再检查了——重要的东西 agent 会浮出来，订阅清理自动做，甚至会主动建议&quot;这个订阅在花这么多钱，你可以这样省&quot;。</p>
+<p style="margin:0.8em 0">至于最终是单一平台还是多 agent 操作系统：&quot;你想要你的 CFA 拥有的性格，和你想要派对策划者的性格不一样。表面太宽了。GrokBot 在产品上演示得很好——多个指向不同方向的 bot 协调出全局最优结果。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">投资判断：无收入不投、想法太小是最大风险</h2>
+<p style="margin:0.8em 0">Acharya 的投资纪律很朴素：尽量不投完全没有收入的公司；&quot;任何阶段的 pitch 不展示 live product 都是不合格的——现在建东西太容易了&quot;。他的模型是：一旦有了统计显著的销售和产品，就做外推，判断价格和风险。</p>
+<p style="margin:0.8em 0">消费者的支付意愿在改变：&quot;历史上 20 美元/月是天花板，现在要问 200 美元/月是什么样？2000 美元呢？软件的 Birkin 包是什么？&quot;与 2009 年 iPhone 时刻相似——消费者兴奋地下载新软件，但这次不是 99 美分，他们愿意付 200 美元/月。</p>
+<p style="margin:0.8em 0">创始人原型也在变：更少 MBA，更多研究者。&quot;商业 sophistication 可以教，技术 sophistication 通常教不会。&quot;年轻创始人没有先入为主的限制——Ben 说得好：过去最大的风险是想法太大，现在最大的风险是想法太小。</p>
+<p style="margin:0.8em 0">资本规模同样需要重估。历史智慧是给太多钱会毁掉公司——约束在于人才不够，资本是强制聚焦的方式。现在资本可以买不同的产品/模型权衡：&quot;一个融了 1 亿美元、聚焦使用、交付不同价值主张的公司，可能是同一团队拿 2000 万做不到的。&quot;</p>
+<p style="margin:0.8em 0">最后，SME 市场最有趣的不是存量，而是新企业形成——目前处于除疫情峰值外的历史高位：&quot;不是 55 岁的水管工，而是 25 岁的、以前会当 YouTube 创作者的人，现在给邻里、城市、高中建 SaaS。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声：这是消费者的季度</h2>
+<p style="margin:0.8em 0">&quot;我们 40 年来的技术都在提升智力和生产力，但没有触碰人性——而现在这个原始资源能在情感和人际领域运作，你可以和 Claude、OpenAI 或 K3 对话并感受到感觉。这是完全不同的技术面，非常宽。&quot;</p>
+<p style="margin:0.8em 0">实验室和大厂在文化上够不着的领域（谷歌不会发布一个可能不同意你、带性暗示的陪伴产品——有一千个委员会就是为了阻止这种事），正是初创公司独特的空间。</p>
+<p style="margin:0.8em 0">至于娱乐，Acharya 的提醒值得带走：&quot;大多数人想花时间，不想省时间。消费者对生产力没那么感兴趣。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">不是泡沫，是乐观不足</strong>：B200 价格逆势上涨说明供给受限 + 需求无限；企业软件支出仅占 8%—12%，编码 agent 替代的上行空间被高估</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型不是商品</strong>：GLM 类&quot;神经质&quot;模型与 Kimi K3 类&quot;开放&quot;模型各有领域，大五人格框架下会计问题要神经质、设计问题要开放性——多模型是组织刚需</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">护城河大多完好</strong>：网络/规模/品牌效应不受廉价智能影响；真正暴露的是集成护城河（SAP、SI/GSI）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">实验室向下整合</strong>：推理负载同质化可规模化，应用层异质化 opex 重——实验室去建算力比抢应用层更合理，应用聚合（Expedia 模式）是应用层的结构性优势</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">消费者复兴的三个解锁</strong>：开源权重降低边际成本、无 AI app store（更像 Web 2.0）、&quot;DOS 时代需要 Windows&quot;的产品 craft 缺口</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">夫妻店 SaaS 崛起</strong>：coding agent 让个人能建年收入 10 万—100 万美元的产品；个人 agent 的记忆复利（新员工 → 资深员工）是留存与定价权的来源</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">投资范式变化</strong>：无 live product 的 pitch 不合格；支付意愿从 20 美元跳到 200 美元/月；1 亿美元资本可以买到 2000 万买不到的价值主张；最大风险从想法太大变成想法太小</li>
 </ul>
 
 </div>
