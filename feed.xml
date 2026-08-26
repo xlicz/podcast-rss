@@ -1,7 +1,56 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:00:11 +0800</lastBuildDate><item><title>[跨国串门儿计划] OpenAI内部视角：那个想按就按的额度重置按钮，和它背后的算力逻辑</title><link>https://xlicz.github.io/podcast-rss/articles/OpenAI内部视角-那个想按就按的额度重置按钮-和它背后的算力逻辑-2026-08-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_e67c4f730f09</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>OpenAI内部视角：那个想按就按的额度重置按钮，和它背后的算力逻辑</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 26 Aug 2026 23:06:53 +0800</lastBuildDate><item><title>[跨国串门儿计划] 两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</title><link>https://xlicz.github.io/podcast-rss/articles/两家实验室正在吞下全球算力-Dylan-Patel-的-2028-年推演-2026-08-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_02d19a8d7b7a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">每兆瓦收入从负毛利到 5000 万美元，OpenAI 与 Anthropic 明年将吃下新增算力的 40%—50%。SemiAnalysis 创始人拆解算力集中、利率冲击与主权债务危机的完整传导路径。</strong></p>
+<p style="margin:0.8em 0">一年一度的对谈开场，Dylan Patel 抛出一个让主持人愣住的数字：一座年产一吉瓦的晶圆厂，Capex 大约 60 亿美元；而一吉瓦算力现在每年能产生 1000 亿美元营收。即使把中间所有环节——数据中心、电力、运营成本、给 OpenAI 的研发费——分掉一半，晶圆厂投入与最终营收之间依然隔着约 100 倍的差距。</p>
+<p style="margin:0.8em 0">&quot;这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？&quot;Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年年底，全球一半新增算力归两家实验室</h2>
+<p style="margin:0.8em 0">算力集中的速度远超大多数人的直觉。今年初，OpenAI 和 Anthropic 各自拥有约 2 吉瓦算力，年底都超过 5 吉瓦，一年增长三到四倍。今年全球新增算力（约 30 吉瓦）中，已有约三分之一流向了这两家；而根据已经白纸黑字签下的合同，明年这个比例将冲到 40%—50%。</p>
+<p style="margin:0.8em 0">集中化没有放缓迹象，只是供给方在变：SpaceX 明年将带着大量新建算力入局，大概率会把其中相当部分租给出价能力最高的 OpenAI 和 Anthropic；两家实验室也开始自建算力——OpenAI 用自己的芯片，Anthropic 用从谷歌采购的 TPU。</p>
+<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以&quot;明年吃掉 45% 新增算力&quot;的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
+<p style="margin:0.8em 0">&quot;我看不到任何能阻止它的因素。&quot;Patel 说。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">盈利拐点：从负毛利到每兆瓦 5000 万美元</h2>
+<p style="margin:0.8em 0">一年半之前，在英伟达 Hopper GPU 上部署 GPT-4 给 OpenAI 带来的是负毛利率。今天局面完全不同：算力的基础成本约每兆瓦 1000 万—1500 万美元，而 Anthropic 每兆瓦收入已经达到 5000 万美元，OpenAI 部署 GPT-5.6、Anthropic 部署新模型时，收入远超增量成本。</p>
+<p style="margin:0.8em 0">&quot;如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。&quot;Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">训练与推理的再分配：算力将越来越多留给内部</h2>
+<p style="margin:0.8em 0">Patel 给出了一个非共识判断：随着时间推移，实验室分配给推理的算力占比会越来越少。目前实验室算力预算大约是 60% 训练、40% 推理，其中训练又拆成约 50% 研究、10% 开发。但当每兆瓦能产生六七千万美元收入时，把 40% 的算力拿去做推理赚钱、然后分红回购，还是把算力转给内部研发去搏 AGI？</p>
+<p style="margin:0.8em 0">&quot;Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。&quot;</p>
+<p style="margin:0.8em 0">事实上这已经在发生。过去三个月，Anthropic 新增算力中流向研发的比例已经高于推理——他们不再是每个月新增 250 亿美元 ARR 了。一个关键约束是：训练单集群能有效利用的算力很有限。训练 Mithos 这类模型，预训练两个月实际消耗不到 200 兆瓦，RL 用的更少——虽然拥有好几个吉瓦，但跨站点多机房训练、RL 生成更多数据并不一定更好，这些原因让大部分算力事实上只能用于并行研究。只有当自动化编程和自动化研究员成熟后，训练占比才会真正抬高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供应链牛鞭效应：谁的瓶颈在涨价</h2>
+<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格&quot;囤积&quot;算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
+<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——&quot;这是一根鞭子，信号传导到末端需要很长时间。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国的算力现实：差距比感知的大</h2>
+<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦&quot;完全合理&quot;——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
+<p style="margin:0.8em 0">Patel 承认，出口管制&quot;确实奏效了&quot;。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——&quot;现在这个差距没那么要紧&quot;。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">5 万亿美元信贷：第二次沃尔克时刻</h2>
+<p style="margin:0.8em 0">把账算完，问题来了：2024—2029 年全球 AI 基础设施 Capex 总量约 11 万亿美元，其中约 6 万亿由现金流支持，仍有超过 5 万亿美元要靠发债。而超大规模云厂商已经不产生净现金了——谷歌、Meta 停止回购转而砸 Capex，微软即将跟进，所有人都在发债。</p>
+<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，&quot;他们完全愿意付 8%，毕竟要建的算力回报巨大&quot;。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
+<p style="margin:0.8em 0">&quot;美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。&quot;Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
+<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类&quot;稳健现金流股&quot;首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中心化的终局：单家实验室的 AI 劳动力将超过地球人口</h2>
+<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的&quot;有效 AI 人口&quot;每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——&quot;用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。&quot;</p>
+<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。&quot;在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。&quot;</p>
+<p style="margin:0.8em 0">唯一的安慰是：今天大部分价值还没有被实验室捕获。Anthropic 每兆瓦赚 1 亿美元，但顶级量化机构从它购买的 token 里每兆瓦能捕获 3 亿—5 亿美元的价值，其余经济部门从这些模型上赚到的远多于 Anthropic 自己。换句话说，价值分配的中心化还远未完成——而这恰恰意味着实验室有更强的动机把算力收归内部。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">慢速起飞，是唯一的希望</h2>
+<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而&quot;六个月就是 100 倍差&quot;，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
+<p style="margin:0.8em 0">&quot;要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。&quot;Patel 说，&quot;很难想象出一种不会导致 AI 走向极度集中的框架。&quot;</p>
+<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是：&quot;我不知道。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力集中速度</strong>：OpenAI + Anthropic 明年吃掉全球新增算力 40%—50%，2028 年底合计约 100 吉瓦、掌控全球大部分 flops；效率乘数（新芯片每瓦性能 3—5 倍）让集中度被低估</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">盈利拐点已到</strong>：Anthropic 每兆瓦收入 5000 万美元 vs 成本 1000—1500 万，推理投入 10 美元产出 50 美元收入，利润全部再投入训练</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择&quot;去做 AGI&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜、燃气轮机、存储涨价是真正的卡点，牛鞭效应下台积电慢涨、存储与基板快涨，马斯克已把算力价格推到每兆瓦 2500—4000 万美元</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中国差距</strong>：新增算力占比不足 10%，2028 年约 30 吉瓦；出口管制奏效，但金融体系补贴差异是长期变量</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">宏观冲击</strong>：2024—2029 年 11 万亿美元 Capex 中 5 万亿靠发债，利率上升可能重演沃尔克时刻，巴基斯坦、尼日利亚级国家先违约，非 AI 股票折现现金流崩盘</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中心化终局</strong>：AI 劳动力每年 ×10，单实验室等效人口本年代末将超过地球总人口；慢速起飞——监管与利率——是唯一能维持权力制衡的机制</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] OpenAI内部视角：那个想按就按的额度重置按钮，和它背后的算力逻辑</title><link>https://xlicz.github.io/podcast-rss/articles/OpenAI内部视角-那个想按就按的额度重置按钮-和它背后的算力逻辑-2026-08-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_e67c4f730f09</guid><pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate><description>OpenAI内部视角：那个想按就按的额度重置按钮，和它背后的算力逻辑</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">OpenAI 内部视角：那个"想按就按"的额度重置按钮，和它背后的算力逻辑</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">他管着 Codex 和 ChatGPT，解释了为什么补偿用户、提前两年押注算力、用模型优化模型，是同一套逻辑</h2>
@@ -13606,8 +13655,8 @@ akshare东财API代理失败已切换）</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">今日判断: <strong style="font-weight:600">无快信号触发，维持持有</strong>
 ——[17]他首次承认市场悲观剧本
-（H1利润6-7亿）&quot;概率挺大、中报前
-无法反驳&quot;=承认递进加深；先行指标
+（H1利润6-7亿）"概率挺大、中报前
+无法反驳"=承认递进加深；先行指标
 ⚠️: 国际服连续4日回落+港台日巴
 4区出榜，菲#28距8-12基线29仅1位</li>
 <li style="margin:0.3em 0">关键数字: 股价42.42（-0.56%）|
@@ -13620,7 +13669,7 @@ akshare东财API代理失败已切换）</p>
 AI亏损/税增）待半年报裁决</li>
 <li style="margin:0.3em 0">最值得注意: ①小镇国服畅销#92破
 #90（连降4日71→78→83→92，
-&quot;回巅峰&quot;声称走弱确认）②菲#28
+"回巅峰"声称走弱确认）②菲#28
 逼近基线 ③RO新游第12日仍高位
 （th#2）④半年报进入最后~1周</li>
 <li style="margin:0.3em 0">行动: 持有不加不减（半年报前不变）</li>
@@ -13707,9 +13756,9 @@ th#2(+1)/ph#4(-1)/my#8(-4)/id#9(0)/
 sg#15(0)/tw#23(-7)/hk#30(-6)——高位
 小幅回落、自然衰减，首月未满继续
 追踪；⑤无新信息 → 均未触发</li>
-<li style="margin:0.3em 0">慢信号: ③⚠️加深——8-25&quot;tap环比
-应该不会降&quot;→8-26[17]承认市场剧本
-&quot;tap-5%概率挺大&quot;（口径更新）；
+<li style="margin:0.3em 0">慢信号: ③⚠️加深——8-25"tap环比
+应该不会降"→8-26[17]承认市场剧本
+"tap-5%概率挺大"（口径更新）；
 ①②待半年报</li>
 <li style="margin:0.3em 0">先行: ⚠️升级——8-23~8-26连续4日
 回落，港/台/日/巴4区出榜（各连续
@@ -13808,34 +13857,34 @@ pc/[10]单款利润/[16]小票）+承压3
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（8-26 新增12条）</h3>
 <p style="margin:0.8em 0">📌 8-26 22:06 中报四条件剧本 | 🟡 核心</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;动子的中报业绩预期是：1、tap收入
+<p style="margin:0.8em 0">"动子的中报业绩预期是：1、tap收入
 下滑5%左右 2、游戏下滑5%左右 3、AI
 投入造成几千万亏损 4、税会增加不少
 …利润下滑10-20%很正常 也就是近8亿
 下滑到6-7亿，概率还挺大 而且在看到
-中报之前，好像还没法反驳&quot;
+中报之前，好像还没法反驳"
 主张: 市场悲观剧本四条件→H1利润
 6-7亿概率大、中报前无法反驳
 核查: ①四条件均无独立数据（待
-半年报裁决）②与其8-25[2]&quot;tap环比
-应该不会降&quot;口径冲突（同一人两日）
-③&quot;税增加&quot;为25年报税率趋势延续
+半年报裁决）②与其8-25[2]"tap环比
+应该不会降"口径冲突（同一人两日）
+③"税增加"为25年报税率趋势延续
 （待核）
 对照: 表2#23（8-18下修19-21）——
 今日无正式下修；表5新增承认递进行
 结论: 对E无修正但方向承压——H1 6.5亿
 +H2 12亿=18.5亿仍贴其下限；半年报
-（~1周）裁决；触发⑧&quot;新承认&quot;
+（~1周）裁决；触发⑧"新承认"
 对错: ❓不可证伪（待半年报）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 10:56 tap单款利润增厚 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;扑街了，少的投几百万，多的1000-
+<p style="margin:0.8em 0">"扑街了，少的投几百万，多的1000-
 2000万；成绩可以，少的2000-3000万，
 多得3000-5000万。诡秘没扑就挺
-超预期&quot;
+超预期"
 主张: tap单款利润增厚2000-5000万/款
-核查: 量级自估无公开数据；&quot;诡秘没扑&quot;
+核查: 量级自估无公开数据；"诡秘没扑"
 与榜单一致（cn免费#1/畅销#14）
 结论: 对E无修正（产品级，折30%后
 量级0.15-0.35亿）；验证=9月投流
@@ -13843,12 +13892,12 @@ pc/[10]单款利润/[16]小票）+承压3
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 17:17 9月排期+伊瑟并表 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;光9月就伊莫和王者万象棋…去年9月
+<p style="margin:0.8em 0">"光9月就伊莫和王者万象棋…去年9月
 是伊瑟，内部投流，并表抵消了的
-诡秘现在这成绩，9月也会投不少&quot;
+诡秘现在这成绩，9月也会投不少"
 主张: 9月tap pc大作排期；伊瑟投流
 并表抵消；诡秘9月投流
-核查: &quot;内部投流并表抵消&quot;会计逻辑✅
+核查: "内部投流并表抵消"会计逻辑✅
 （自研游戏投流属内部交易）；
 排期无独立源
 结论: 对E无修正；tap广告受益叙事
@@ -13857,20 +13906,20 @@ pc/[10]单款利润/[16]小票）+承压3
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 11:21 流放2对火炬无影响 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;流放2下赛季12.11号，基本是半年
+<p style="margin:0.8em 0">"流放2下赛季12.11号，基本是半年
 一个赛季，对火矩10月赛季倒是没
-影响了&quot;
+影响了"
 主张: POE2赛季12-11启动，不影响
 火炬10月赛季
-核查: POE2赛季时间无独立源；&quot;半年
-一赛季&quot;为行业常识
+核查: POE2赛季时间无独立源；"半年
+一赛季"为行业常识
 结论: 对E无影响（竞品）
 对错: ❓不可证伪</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 13:13 伊莫上线定档 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;《伊莫》全球上线定档：PC端9月
-16日，移动端9月23号&quot;
+<p style="margin:0.8em 0">"《伊莫》全球上线定档：PC端9月
+16日，移动端9月23号"
 主张: 伊莫PC 9.16/移动9.23上线
 核查: 无独立源
 结论: 对E无影响（行业）；登记⑤
@@ -13879,23 +13928,23 @@ pc/[10]单款利润/[16]小票）+承压3
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 15:30 财报季强弱票框架 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;动子也是典型[弱票]…弱票的1、2
-情况更容易出现…慢脚属于这种[4]&quot;
+<p style="margin:0.8em 0">"动子也是典型[弱票]…弱票的1、2
+情况更容易出现…慢脚属于这种[4]"
 主张: 动子=弱票，最优路径=Q2不差+
 H2更好
-核查: 框架性定性；&quot;慢脚=4类&quot;无数据
+核查: 框架性定性；"慢脚=4类"无数据
 结论: 对E无修正；隐含其预期动子走
-&quot;弱票2&quot;路径（Q2略差+H2更好）
+"弱票2"路径（Q2略差+H2更好）
 对错: ❓不可证伪</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 15:53 tap pc DAU路径 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;下半年pc端还是主要跟用户量，看
+<p style="margin:0.8em 0">"下半年pc端还是主要跟用户量，看
 dau什么时候到100万左右 下半年tap
-的收入还会是原来的贡献&quot;
+的收入还会是原来的贡献"
 主张: tap pc DAU 100万=成长阈值；
 下半年tap收入仍是原贡献
-核查: DAU未披露；&quot;原贡献&quot;与其8-18
+核查: DAU未披露；"原贡献"与其8-18
 tap+adn -1亿口径自洽
 结论: 对E无修正；新增量化阈值
 （DAU 100万）
@@ -13903,9 +13952,9 @@ tap+adn -1亿口径自洽
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 21:37 小票更容易超预期 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这次财报中小票业绩更容易超预期
+<p style="margin:0.8em 0">"这次财报中小票业绩更容易超预期
 主要原因有二：1、大票受到宏观的
-影响更大 2、大票需要卷AI&quot;
+影响更大 2、大票需要卷AI"
 主张: 小票财报季易超预期
 核查: 定性判断
 结论: 对E无影响；隐含利好动子叙事
@@ -13913,9 +13962,9 @@ tap+adn -1亿口径自洽
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 09:03/09:16/09:32 行业3条 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;无限大27年.1月15号…7月在tap pc上
+<p style="margin:0.8em 0">"无限大27年.1月15号…7月在tap pc上
 发测试信息的游戏真是米哈游的源初
-之结…三七这业绩还有400亿左右市值&quot;
+之结…三七这业绩还有400亿左右市值"
 主张: 网易无限大上线时间/米哈游tap
 测试/三七市值
 核查: 均无独立源（非心动系）
@@ -13924,9 +13973,9 @@ tap+adn -1亿口径自洽
 </blockquote>
 <p style="margin:0.8em 0">📌 8-26 22:25 报表技巧方法论 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;看报表是需要一些技巧的…大额的
+<p style="margin:0.8em 0">"看报表是需要一些技巧的…大额的
 投资收益/亏损…大额的补税/税收优惠
-等等&quot;
+等等"
 主张: 扣非口径需还原一次性因素
 核查: 方法论陈述，无具体主张
 结论: 对E无影响；与其[2]爆雷阈值
@@ -13970,24 +14019,24 @@ tap+adn -1亿口径自洽
 <p style="margin:0.8em 0">明细:</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">报忧必带转折: 命中——[17]悲观剧本
-后&quot;按有些人的言论，谁能保证不会
-发生呢？&quot;（反讽转折）；[2]&quot;都等着
-中报爆大雷&quot;→&quot;没爆大雷或只有小假雷
-就有意思&quot;</li>
+后"按有些人的言论，谁能保证不会
+发生呢？"（反讽转折）；[2]"都等着
+中报爆大雷"→"没爆大雷或只有小假雷
+就有意思"</li>
 <li style="margin:0.3em 0">归因外移: 命中——[17]把四条件归为
-&quot;有些人的言论&quot;（市场预期），自身
-立场维持&quot;不太可能&quot;（[2]）；[13]
-动子归类&quot;弱票&quot;（市场语境）</li>
-<li style="margin:0.3em 0">承认递进: 加深——8-19&quot;不算成功&quot;
+"有些人的言论"（市场预期），自身
+立场维持"不太可能"（[2]）；[13]
+动子归类"弱票"（市场语境）</li>
+<li style="margin:0.3em 0">承认递进: 加深——8-19"不算成功"
 →8-26首次承认市场悲观剧本（H1
-6-7亿）&quot;概率还挺大、中报前无法
-反驳&quot;</li>
+6-7亿）"概率还挺大、中报前无法
+反驳"</li>
 <li style="margin:0.3em 0">预测更新: 有——tap环比口径 8-25
-&quot;应该不会降&quot;→8-26承认市场剧本
-&quot;-5%概率大&quot;（版本更新）；新增量化
+"应该不会降"→8-26承认市场剧本
+"-5%概率大"（版本更新）；新增量化
 [10]单款2000-5000万/[14]DAU 100万</li>
-<li style="margin:0.3em 0">历史锚定: 命中——[2]&quot;说明老外他们
-对了——这当然不太可能嘛&quot;（锚定
+<li style="margin:0.3em 0">历史锚定: 命中——[2]"说明老外他们
+对了——这当然不太可能嘛"（锚定
 其E系统性乐观史）；[18]锚定估值贴</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
@@ -14008,10 +14057,10 @@ H1 6-7亿+H2 8-9亿=14-16亿路径（若
 <li style="margin:0.3em 0">产品级流水30%: 适用——[0]诡秘首月
 3-5亿（行业）、[10]单款2000-5000万</li>
 <li style="margin:0.3em 0">对冲叙事Σ验证+50%: 适用——[1][4]
-&quot;诡秘利好动子&quot;（tap渠道受益，
+"诡秘利好动子"（tap渠道受益，
 验证=9月投流/半年报tap广告）</li>
-<li style="margin:0.3em 0">估值结论30%: 适用——[2]&quot;没爆大雷
-就有意思&quot;（隐含市场错杀）、[13]
+<li style="margin:0.3em 0">估值结论30%: 适用——[2]"没爆大雷
+就有意思"（隐含市场错杀）、[13]
 动子弱票</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 8-26~9-09）</h2>
@@ -14041,7 +14090,7 @@ RO韩服贡献、税率、利润率20-30vs
 半年报裁决（~1周内）；②菲#28距
 基线29仅1位——破29=核心区破基线
 首个→登记E下修预警；③小镇国服
-破#90后走势（&quot;回巅峰&quot;声称走弱
+破#90后走势（"回巅峰"声称走弱
 确认，观察回稳或续跌）；④RO初心
 服回升终止后是否续跌（泰#30/印
 #58/马#99）</li>
@@ -14051,10 +14100,10 @@ RO韩服贡献、税率、利润率20-30vs
 #9/#11/#13/#14/#16/#17/#18/#19/
 #20/#21/#22/#23/#24）；今日无新增
 表2条目（[17]入表5反误导档案）</li>
-<li style="margin:0.3em 0">待观察: &quot;市场按4跌&quot;估值主张——
+<li style="margin:0.3em 0">待观察: "市场按4跌"估值主张——
 半年报发布日即为裁决点（若半年报
 E≥17亿，市场悲观证伪；≤13亿，
-他的&quot;低估&quot;论证伪）</li>
+他的"低估"论证伪）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
 <p style="margin:0.8em 0">26E扣非: 我18-19 / 他19-21（8-18
@@ -14093,14 +14142,63 @@ th#2/ph#4坚挺，首月未满；⑤无
 <li style="margin:0.3em 0">新承认/预测下修: 无正式下修；新承认
 ——[17]首次承认市场悲观剧本（H1
 tap-5%/游戏-5%/AI亏损/税增→6-7亿）
-&quot;概率挺大、中报前无法反驳&quot;（承认
+"概率挺大、中报前无法反驳"（承认
 递进加深）；tap环比口径更新（8-25
-&quot;不降&quot;→8-26承认市场剧本-5%）</li>
+"不降"→8-26承认市场剧本-5%）</li>
 <li style="margin:0.3em 0">数据源: 全部✅（TapTap/Apple/Steam/
 雪球/股价腾讯源兜底）；⚠️akshare
 东财API代理失败，已切换腾讯源</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</title><link>https://xlicz.github.io/podcast-rss/articles/两家实验室正在吞下全球算力-Dylan-Patel-的-2028-年推演-2026-08-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_02d19a8d7b7a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">两家实验室正在吞下全球算力：Dylan Patel 的 2028 年推演</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">每兆瓦收入从负毛利到 5000 万美元，OpenAI 与 Anthropic 明年将吃下新增算力的 40%—50%。SemiAnalysis 创始人拆解算力集中、利率冲击与主权债务危机的完整传导路径。</strong></p>
+<p style="margin:0.8em 0">一年一度的对谈开场，Dylan Patel 抛出一个让主持人愣住的数字：一座年产一吉瓦的晶圆厂，Capex 大约 60 亿美元；而一吉瓦算力现在每年能产生 1000 亿美元营收。即使把中间所有环节——数据中心、电力、运营成本、给 OpenAI 的研发费——分掉一半，晶圆厂投入与最终营收之间依然隔着约 100 倍的差距。</p>
+<p style="margin:0.8em 0">&quot;这就是资本主义。人们能把 1 美元变成 100 美元，难道会想不出办法造更多的反射镜吗？&quot;Patel 说。瓶颈在于阿斯麦光刻机的 EUV 反射镜——蔡司到 2020 年代末需要造出 100 台 EUV 设备所需的镜片，而他们年初甚至没想过需要这么多。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年年底，全球一半新增算力归两家实验室</h2>
+<p style="margin:0.8em 0">算力集中的速度远超大多数人的直觉。今年初，OpenAI 和 Anthropic 各自拥有约 2 吉瓦算力，年底都超过 5 吉瓦，一年增长三到四倍。今年全球新增算力（约 30 吉瓦）中，已有约三分之一流向了这两家；而根据已经白纸黑字签下的合同，明年这个比例将冲到 40%—50%。</p>
+<p style="margin:0.8em 0">集中化没有放缓迹象，只是供给方在变：SpaceX 明年将带着大量新建算力入局，大概率会把其中相当部分租给出价能力最高的 OpenAI 和 Anthropic；两家实验室也开始自建算力——OpenAI 用自己的芯片，Anthropic 用从谷歌采购的 TPU。</p>
+<p style="margin:0.8em 0">这里还有一层被低估的效率乘数。今年新部署的 GB300、TPU v7、Trainium 3，每瓦性能是上一代芯片的三到五倍。所以&quot;明年吃掉 45% 新增算力&quot;的实际含义是：到 2027 年底，他们拿下的新增算力性能超过此前全球所有存量算力之和。按 Patel 的推演，照此趋势——全球算力每年翻倍，前沿实验室每年翻三倍——到 2028 年底，两家实验室合计将拥有约 100 吉瓦，直接掌控全球大部分可用 flops。</p>
+<p style="margin:0.8em 0">&quot;我看不到任何能阻止它的因素。&quot;Patel 说。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">盈利拐点：从负毛利到每兆瓦 5000 万美元</h2>
+<p style="margin:0.8em 0">一年半之前，在英伟达 Hopper GPU 上部署 GPT-4 给 OpenAI 带来的是负毛利率。今天局面完全不同：算力的基础成本约每兆瓦 1000 万—1500 万美元，而 Anthropic 每兆瓦收入已经达到 5000 万美元，OpenAI 部署 GPT-5.6、Anthropic 部署新模型时，收入远超增量成本。</p>
+<p style="margin:0.8em 0">&quot;如果我在推理算力上花 10 美元，实际上能产生 50 美元的收入，然后我转过头就能把这笔利润全部追加投入到训练里。&quot;Patel 说。Anthropic 已在二季度实现盈利，OpenAI 预计三季度盈利——一年前它们还是完全靠风投输血、亏损经营的公司。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">训练与推理的再分配：算力将越来越多留给内部</h2>
+<p style="margin:0.8em 0">Patel 给出了一个非共识判断：随着时间推移，实验室分配给推理的算力占比会越来越少。目前实验室算力预算大约是 60% 训练、40% 推理，其中训练又拆成约 50% 研究、10% 开发。但当每兆瓦能产生六七千万美元收入时，把 40% 的算力拿去做推理赚钱、然后分红回购，还是把算力转给内部研发去搏 AGI？</p>
+<p style="margin:0.8em 0">&quot;Anthropic 和 OpenAI 的答案很明显，不仅是高管层，董事会也是：去做 AGI，因为那要赚钱得多。&quot;</p>
+<p style="margin:0.8em 0">事实上这已经在发生。过去三个月，Anthropic 新增算力中流向研发的比例已经高于推理——他们不再是每个月新增 250 亿美元 ARR 了。一个关键约束是：训练单集群能有效利用的算力很有限。训练 Mithos 这类模型，预训练两个月实际消耗不到 200 兆瓦，RL 用的更少——虽然拥有好几个吉瓦，但跨站点多机房训练、RL 生成更多数据并不一定更好，这些原因让大部分算力事实上只能用于并行研究。只有当自动化编程和自动化研究员成熟后，训练占比才会真正抬高。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供应链牛鞭效应：谁的瓶颈在涨价</h2>
+<p style="margin:0.8em 0">价值捕获沿供应链传导存在明显的牛鞭效应。台积电涨价很慢，存储厂商和基板厂商涨价很快。伊隆·马斯克把算力从每兆瓦 1500 万美元卖到 2500 万甚至 4000 万美元——SpaceX 以每吉瓦 400 亿美元卖给谷歌的算力，明年年底还能卖更贵。Meta 和 SpaceX 成为唯一有资格&quot;囤积&quot;算力的第三方：他们有资产负债表，能先建算力再决定是内部使用还是以极高利润率租给 Anthropic、OpenAI。</p>
+<p style="margin:0.8em 0">市场上已经出现套利行为：有人买下燃气轮机（数据中心供电瓶颈）转卖，有人出 4 亿美元买一台 EUV 设备等升值到 10 亿美元以上。但供应链反应很慢——&quot;这是一根鞭子，信号传导到末端需要很长时间。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中国的算力现实：差距比感知的大</h2>
+<p style="margin:0.8em 0">中国在新增算力中的占比已从 2022 年的 30%—35% 跌到今天不足 10%，2028 年大概率只拥有 30 吉瓦甚至更少。2026 年主要靠走私芯片撑局面，2027—2028 年中芯国际、长鑫存储等本土晶圆厂起来后，国产芯片年产能可达几百万颗，2029 年新增 50 吉瓦&quot;完全合理&quot;——但国产芯片存在折算系数：50 吉瓦国产算力实际相当于美国芯片的 20 吉瓦。</p>
+<p style="margin:0.8em 0">Patel 承认，出口管制&quot;确实奏效了&quot;。中国头部实验室总共只有一两百兆瓦算力（字节跳动是唯一特例），Kimi 没有在接近一吉瓦的规模上运行，而 Anthropic 年底约 5 吉瓦。但模型差距没有算力差距那么大——&quot;现在这个差距没那么要紧&quot;。真正的风险在更远处：如果美国起飞放缓、补贴持续的金融体系差异让中国半导体行业（其补贴超过全世界其他国家半导体补贴总和）在更长时间内追赶，算力差距会在某个时点转化为模型差距。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">5 万亿美元信贷：第二次沃尔克时刻</h2>
+<p style="margin:0.8em 0">把账算完，问题来了：2024—2029 年全球 AI 基础设施 Capex 总量约 11 万亿美元，其中约 6 万亿由现金流支持，仍有超过 5 万亿美元要靠发债。而超大规模云厂商已经不产生净现金了——谷歌、Meta 停止回购转而砸 Capex，微软即将跟进，所有人都在发债。</p>
+<p style="margin:0.8em 0">这 5 万亿美元债务会把利率推高。Meta 现在融资成本约 5%—6%，&quot;他们完全愿意付 8%，毕竟要建的算力回报巨大&quot;。而利率每升 250 个基点，经济里所有人的借贷成本都会跟着涨。美国联邦税收支出已有 20% 用于偿债，利率涨 5 个百分点这个比例就会升到 40% 以上，再叠加每年 2 万亿美元的新增赤字，很快 60% 的税收将只够还利息。</p>
+<p style="margin:0.8em 0">&quot;美国会没事的，只要允许在国内建数据中心，税基会扩大。但其他国家就彻底完蛋了。&quot;Patel 引用经济学家 Basil Hoppen 的观点：我们可能看到第二次沃尔克时刻——1980 年代沃尔克把实际利率提到 8%，导致约 40 个拉美国家违约；这次轮到巴基斯坦、尼日利亚这类高负债、低税收、债务频繁到期的国家。</p>
+<p style="margin:0.8em 0">利率上升还有第二层杀伤：折现率从 3%—5% 抬到 8%—10%，所有非 AI 股票的折现现金流暴跌——强生、铁路公司、伯克希尔这类&quot;稳健现金流股&quot;首当其冲。AI 信徒的逻辑是：如果美光、海力士只有两三倍市盈率，那恰恰说明我们处在 AI 剧烈改变经济的市场里——那时所有东西的估值倍数都该是两三倍，股市整体该崩盘。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中心化的终局：单家实验室的 AI 劳动力将超过地球人口</h2>
+<p style="margin:0.8em 0">最令人不安的推演在劳动力维度。前沿算力每年增长四五倍，达到同等能力所需算力每年下降约三分之一，两者叠加，前沿实验室的&quot;有效 AI 人口&quot;每年同比增加约十倍。OpenAI 拥有的 AI 劳工今年约一千万，明年一亿，后年十亿——&quot;用不了多少年，每家公司各自的等效劳动力就会超过地球上的总人口，这完全有可能在本年代末发生。&quot;</p>
+<p style="margin:0.8em 0">Patel 说，训练规模效应（一次训练成本被数十亿次使用分摊）、算力稀缺溢价、部署中学习获得的数据优势、以及模型帮模型进步的 RSI，所有力量全部指向中心化。&quot;在世界的所有可能走向里，八万种世界只有一种不是 Anthropic 掌控整个世界。&quot;</p>
+<p style="margin:0.8em 0">唯一的安慰是：今天大部分价值还没有被实验室捕获。Anthropic 每兆瓦赚 1 亿美元，但顶级量化机构从它购买的 token 里每兆瓦能捕获 3 亿—5 亿美元的价值，其余经济部门从这些模型上赚到的远多于 Anthropic 自己。换句话说，价值分配的中心化还远未完成——而这恰恰意味着实验室有更强的动机把算力收归内部。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">慢速起飞，是唯一的希望</h2>
+<p style="margin:0.8em 0">Patel 承认这一切存在巨大的下行阻力：政府监管（纽约禁止数据中心、德州暂停令、俄亥俄州要求数据中心为周边居民交房产税）、政客与选民的愤怒、实验室出于安全不发布最强模型、利率上升本身。他担心的不是快速起飞，而是慢速起飞被彻底阻断——政府让实验室的模型公开发布延后六个月，而&quot;六个月就是 100 倍差&quot;，公司在内部搞递归自我改进，公众却用着落后数年的模型。</p>
+<p style="margin:0.8em 0">&quot;要么资源极度集中，我们只能祈祷那一家公司把什么都做对；要么政府把一切都放慢。&quot;Patel 说，&quot;很难想象出一种不会导致 AI 走向极度集中的框架。&quot;</p>
+<p style="margin:0.8em 0">当被问及什么能阻止这一切，他的回答是：&quot;我不知道。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力集中速度</strong>：OpenAI + Anthropic 明年吃掉全球新增算力 40%—50%，2028 年底合计约 100 吉瓦、掌控全球大部分 flops；效率乘数（新芯片每瓦性能 3—5 倍）让集中度被低估</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">盈利拐点已到</strong>：Anthropic 每兆瓦收入 5000 万美元 vs 成本 1000—1500 万，推理投入 10 美元产出 50 美元收入，利润全部再投入训练</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">非共识判断</strong>：实验室将把越来越少的算力分配给外部推理——内部研发每兆瓦创造的价值更高，投资者与董事会都会选择&quot;去做 AGI&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜、燃气轮机、存储涨价是真正的卡点，牛鞭效应下台积电慢涨、存储与基板快涨，马斯克已把算力价格推到每兆瓦 2500—4000 万美元</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中国差距</strong>：新增算力占比不足 10%，2028 年约 30 吉瓦；出口管制奏效，但金融体系补贴差异是长期变量</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">宏观冲击</strong>：2024—2029 年 11 万亿美元 Capex 中 5 万亿靠发债，利率上升可能重演沃尔克时刻，巴基斯坦、尼日利亚级国家先违约，非 AI 股票折现现金流崩盘</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中心化终局</strong>：AI 劳动力每年 ×10，单实验室等效人口本年代末将超过地球总人口；慢速起飞——监管与利率——是唯一能维持权力制衡的机制</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
