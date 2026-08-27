@@ -1,0 +1,63 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Cursor 解剖：一场在微软眼皮底下完成的&quot;代际公司&quot;押注</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两年前，押注一家独立 AI 编码公司看起来几乎不理性；a16z 三位合伙人复盘他们为什么敢、又看到了什么</h2>
+<p style="margin:0.8em 0">2024 年初的共识很吓人：编码工具的头号玩家是 GitHub Copilot，微软同时握着 VS Code、OpenAI 的权重和 2 亿开发者。任何人想在这个市场里独立活下来，都像在跟地心引力谈判。可 a16z 在 2024 年 5 月领投了 Cursor 的 A 轮，10 月又做完了 B 轮——半年内两轮，然后是第三轮、第四轮，&quot;每一轮我们都投了，金额越来越大&quot;。</p>
+<p style="margin:0.8em 0">在最新一期播客里，Martin Casado、Sarah Wang、Matt Bornstein 三个人坐在一起，重新拆解这笔交易背后的判断：为什么他们敢跟微软对赌，为什么 Cursor 能在两年内从 IDE 自我颠覆成 Agent 平台再变成模型平台，以及这家公司的招聘、销售、收购到底哪里和其他公司不一样。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;我们追逐的是全世界最大的市场，永远会有可怕的对手，这吓不到我们。&quot;——Cursor 创始人 Michael 对 Claude Code 竞争的回答</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个&quot;每个问题都有答案&quot;的创始人</h2>
+<p style="margin:0.8em 0">Casado 回忆第一次见 Michael（Cursor 创始人之一）时问了一个问题：工作之外你做什么消遣？&quot;他几乎没听懂这个问题，反问我'什么意思'。我说，不在办公室的时候。他说：'什么意思？'&quot;</p>
+<p style="margin:0.8em 0">这个细节不是段子。a16z 团队在 Cursor 身上看到的第一个信号，是一组创始人对历史的极端熟悉。他们太年轻，互联网浪潮发生时还是孩子——Casado 记得投资后一起吃饭，他聊起当年的互联网岁月，Michael 的反应是&quot;那时候我才五岁&quot;——但这批人把这段历史当功课研究透了。Casado 说，这是他们见过的所有顶级创始人共有的特质：能从过去发生的事里真正学到东西。</p>
+<p style="margin:0.8em 0">Matt Bornstein 的观察更早。他领投了早期轮次，比市场早了大概六个月看到价值。当时他说了一句话：&quot;他们每个问题都有好答案。&quot;这不是客套——当创始人对自己做的事有透彻理解时，他们的回答会高度一致、经得起反复追问，而不是每次换个说法。</p>
+<p style="margin:0.8em 0">&quot;人们以为风险投资是个人运动，完全不是。&quot;Bornstein 说，他们团队为 Cursor 组了一个专门小组，跟了一年多。&quot;这些人聪明到离谱，能在技术和市场之间无缝切换，消化历史数据和当下信息，然后行动得非常快。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么敢 fork 微软拥有的东西</h2>
+<p style="margin:0.8em 0">决策发生时，竞争格局&quot;近乎荒谬&quot;：微软有规模化的公司、有 OpenAI 的权重、有企业销售历史上最强的分发渠道，还有 2 亿开发者。&quot;他们 literally 拥有每一块拼图。&quot;</p>
+<p style="margin:0.8em 0">但 a16z 有个历史原则：在大市场里，只要存在领先的独立玩家，就永远押独立玩家——即使在位者看起来很吓人。Casado 说这是团队反复验证过的打法。</p>
+<p style="margin:0.8em 0">支持这个判断的还有微观证据。团队里 Marco 组了个饭局，Amon 坐在 John Schulman 旁边，聊起 Cursor。Schulman 说：&quot;我试过 Cursor，但我们的代码库——monorepo 直接把它干死了，连代码库都加载不出来。&quot;第二天，Amon 回来说：&quot;他们改了些东西，你再看。&quot;（Amon 当时在 Anthropic。）</p>
+<p style="margin:0.8em 0">&quot;这种迭代速度，加上'全世界最聪明的人试过插件路线都不行'这个事实，让我们确信：做插件、或者基于 VS Code 写东西，是明确走不通的。&quot;Casado 说。Cursor 从一开始就选了一条更难的路——做独立产品，而不是插件。</p>
+<p style="margin:0.8em 0">这背后是他们对&quot;公司形态&quot;的极端清晰。Casado 说，大多数他们看到的公司是&quot;拼凑品&quot;：插件也做、服务也做、什么都试试，不知道什么会 work。而 Cursor 明确知道自己是一家产品公司，产品本身就是获客方式。&quot;作为创始人我们都想雄心勃勃，想推到帕累托前沿，但你必须知道曲线长什么样。他们就是知道曲线在哪，而且不被产品以外的事分心。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;偏执，但不动摇&quot;：两年里那串轮换的对手</h2>
+<p style="margin:0.8em 0">Copilot 是第一座山。然后是 Windsurf——&quot;他们去了 YC，YC 用户大量使用，形成了一场运动&quot;。然后是 Cognition，做 agent 的明星公司，真的掀起了波澜。然后是 2025 年 5 月 Claude Code 带着水花登场，&quot;一开始没有立刻起势，但显然 formidable&quot;。</p>
+<p style="margin:0.8em 0">每个阶段都有&quot;若隐若现的生存威胁&quot;。但 Casado 的评价是：跟完全不动摇的创始人合作是种享受。&quot;通常这种时候创始人会打电话来，有点慌。他们百分之百不动摇——偏执，但不动摇。&quot;</p>
+<p style="margin:0.8em 0">Claude Code 发布三个月后，Casado 问 Michael 怎么看。Michael 的回答让他印象深刻：&quot;我们追逐的是全世界最大的市场，会有竞争者。事实上从一开始就有一串轮换的角色：微软 Copilot 是第一个，Claude Code 只是其中之一。我们相信大市场里永远会有可怕的对手，这吓不到我们。&quot;</p>
+<p style="margin:0.8em 0">&quot;谦逊和虚张声势的混合体——这就是你去挑战巨头时需要的组合。&quot;Casado 说，&quot;像 Bezos 那句话：如果你又聪明又正确，这种态度会给你信心和专注。&quot;</p>
+<p style="margin:0.8em 0">当然也有&quot;oh fuck&quot;时刻，全都发生在模型侧：Opus 4.5 发布时，全世界都在度假，&quot;每个人心里都在想，操，这些东西跑得比我们任何人想的都快&quot;；新一代模型预发布、人们拿到访问权时，同样如此。模型进步的速度不断超出预期，但团队始终保持同一姿态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先有技术转型，后有商业模式</h2>
+<p style="margin:0.8em 0">2025 年夏天，X 上有大量关于 Cursor 毛利率的负面讨论；Opus 4.5 之后、大概 2026 年 1 月，又有一轮。Sarah Wang 直接开了炮：&quot;X 是由追尾的肾上腺素和幸灾乐祸驱动的，上面说的和业务实际表现之间有巨大脱节。业务一直做得很好。&quot;</p>
+<p style="margin:0.8em 0">Martin Casado 给了更框架性的判断：&quot;技术转型总是先于商业模式被搞清楚。想想互联网——我们很长时间都不知道怎么变现，别说毛利了，怎么赚钱都不知道。而这里你看到的是无限需求、无限增长、还有毛利。每一波浪潮里都有投资人想说点听起来聪明的话，去拆解一个新生技术转型的商业模式——历史上他们总是被证明错了。&quot;</p>
+<p style="margin:0.8em 0">他引用了自己的话：&quot;先是技术转型，然后是商业模式。&quot;Cursor 的策略正是这个顺序的教科书版本：以创纪录的速度拿下所有用户，然后手里就有了资产、数据、know-how，足以自建模型。&quot;反过来做是不行的，除非你一开始就是前沿实验室。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从&quot;拒绝销售&quot;到&quot;历史上增长最快的销售团队&quot;</h2>
+<p style="margin:0.8em 0">早期 Michael 对销售的态度近乎倔强。Casado 劝过他好几次&quot;你得投销售&quot;，他回答：&quot;不，我不打算这么做。&quot;他们真的只挂了个 enterprise@cursor.com 邮箱，企业客户自己找上门。</p>
+<p style="margin:0.8em 0">转折来自对市场结构的理解：大实验室会补贴或免费提供个人档（single serve tier），但他们在企业端和第三方渠道赚取丰厚毛利。Cursor 的顶层漏斗引擎已经建成，毛利集中在企业端——&quot;这是存在性的、重要的&quot;。一旦决定进入，他们全力推进：&quot;那可能是地球历史上增长最快的销售团队。&quot;</p>
+<p style="margin:0.8em 0">结果：超过 50% 的财富 500 强公司成为客户，&quot;比我们见过的任何公司都快&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">40% 时间招聘：把招聘当成产品做</h2>
+<p style="margin:0.8em 0">Sarah Wang 参与了 Cursor 的早期招聘，她看到的画面是：Jordan 和 Roman 的团队从零搭建了招聘引擎——&quot;我合作过的最不可思议的人&quot;。技术产品型创始人把 40% 的时间花在招聘上，&quot;我从未见过&quot;。</p>
+<p style="margin:0.8em 0">方法不是传统的。&quot;how you do anything is how you do everything&quot;——他们对招聘的讲究程度与对产品的讲究程度完全一致：</p>
+<p style="margin:0.8em 0">先做密集研究：找出&quot;在这类销售上做得最好的十家公司&quot;，再下沉到这些公司里最好的十个团队，再锁定其中驱动了这一切的第一名、第二名 AE。然后 back channel、back channel、back channel——问他们的老板、老板的老板、老板的老板的老板：&quot;这是个超级明星 AE 吗？&quot;</p>
+<p style="margin:0.8em 0">Bornstein 点出这套方法最精妙的一层：要识别&quot;公司或人职业生涯的不同阶段，谁是那个关键齿轮&quot;。早期需要的是能承受不确定性的 founding AE，而不是能跑成熟 playbook 的人；后期才需要另一类人。&quot;在正确的时间找到正确的明星，极难——它把你的候选池收窄到几乎没有，但 Jordan、Roman 和早期团队做到了，所以能快速扩张而不稀释 Cursor 文化。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">品味延伸到办公室、活动、和说&quot;不&quot;</h2>
+<p style="margin:0.8em 0">关于文化，Casado 有一个修正：他不认为创始团队是工作狂。&quot;他们不是痴迷于工作，他们是真的爱写代码、爱系统。你问他们下班干什么，答案是'那也是写代码'。&quot;但他同时强调，Michael 一直&quot;aware of the game&quot;——知道做一个持久的公司不只是产品执念，商业上必须正确。</p>
+<p style="margin:0.8em 0">这种&quot;做什么都做到位&quot;的特质延伸到所有角落：办公室要脱鞋换拖鞋、北欧 hygge 风格、连二手家具都要从特定渠道淘——&quot;二十几岁的人这么在意空间，不是常态&quot;。营销上他们极擅长说&quot;不&quot;：&quot;我们不用 X 那个调性&quot;&quot;我们不做那种 spammy 的事&quot;，a16z 团队提了一堆活动建议，被拒绝的理由都是&quot;那不是我们的风格&quot;。</p>
+<p style="margin:0.8em 0">人员上同样果断：&quot;不合适的人，很快做掉。创始团队里极少见到这种一致性。&quot;Casado 说这可能是公司最被低估的长处——一旦做出决定，不管多难，都会执行到底：不进某个市场、限制自己做什么、谁留下谁离开。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">M&amp;A：把创始人&quot;接进来&quot;，而不是&quot;塞进 IC 岗位&quot;</h2>
+<p style="margin:0.8em 0">人才战争让 talent-acquisition 成为巨大优势。早期 Cursor 的收购逻辑就是&quot;好团队就收&quot;：&quot;他们从不担心运营复杂度，不管多乱都先做。&quot;直到 Graphite 收购，才开始从战略方向考虑——那也是更大的一笔。</p>
+<p style="margin:0.8em 0">Sarah Wang 提到一个细节：Cursor 从 Qala 引入了 Tito，从人才侧引入了 Adam Ward——把&quot;实际上是创始人 CEO 级别&quot;的人整合进来，并让他们真正以这种方式建公司，而不只是塞进 IC 角色。&quot;Anthropic 现在常被贴上这个标签，但 Cursor 才是先这么做的，而且操作上极其复杂。&quot;</p>
+<p style="margin:0.8em 0">Casado 的评价是：&quot;这不是别人觉得难、其实容易的事；这是真的难，他们真的做到了。&quot;在一个同时与微软和 Anthropic 竞争、产品方法根本性演进、GTM 彻底改变、还完成了业界最复杂并购的公司里——&quot;这一切发生在两年内&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语：SpaceX 式的平行线</h2>
+<p style="margin:0.8em 0">2019 年，a16z 团队见到 SpaceX。当时它纯粹是家发射公司，但团队说：我们要做全球通信，为全世界每个人提供互联网。&quot;天上什么都没有，一颗 Starlink 都没有。&quot;后来他们当然做到了，而且超额完成每一个预测。</p>
+<p style="margin:0.8em 0">Casado 说 Cursor 和 SpaceX 的平行线多得惊人：速度快、追逐大市场、在看似不可能的对手面前赢下市场、文化上对唱衰者的坚持——&quot;两个案例里，共识都无数次宣告过两家公司的死亡&quot;。</p>
+<p style="margin:0.8em 0">编码市场是 Casado 口中&quot;医疗保健级别&quot;的终极赛道——人类一切思想的经济表达形式。&quot;有比编码竞争更激烈的市场吗？想象一下，很难。&quot;从跟微软竞争，到最终跟 Anthropic 竞争，中间还要完成产品范式转换、销售组织建设和最复杂的并购——能在两年内走完这条路，并且每一步都踩在点上，这是&quot;代际公司&quot;这个词配得上的含义。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">独立产品而非插件是 Cursor 的第一个生死决策</strong>：插件路线被全世界最聪明的人验证过走不通，产品即获客，公司形态的清晰度本身就是壁垒。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">a16z 的赌注原则</strong>：大市场里只要存在领先的独立玩家，永远押独立玩家——即使对手是拥有 2 亿开发者、VS Code、OpenAI 权重和企业渠道的微软。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;先是技术转型，然后是商业模式&quot;</strong>：对新兴技术转型的商业模式挑刺是投资圈的惯性，历史上每一波都被证伪；Cursor 用&quot;先抢用户、后建模型&quot;的顺序验证了这一点。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人把 40% 时间花在招聘上</strong>，用研究驱动的方法锁定&quot;在正确阶段做正确事情的人&quot;，从而快速扩张而不稀释文化。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">自我吞噬是生存方式</strong>：两年内从 IDE 到 Agent 平台再到模型平台，每次转型都是对上一代产品的 cannibalization，这比任何外部竞争都难。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">M&amp;A 的真正杠杆是把创始人 CEO 级的人&quot;接进&quot;公司并让他们掌舵，而非降级成 IC 角色</strong>——操作上极其复杂，Cursor 是少数真的做到的。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对唱衰者的坚持</strong>：X 上的舆论与业务实际表现之间存在巨大脱节，业务数据才是唯一可靠的信号。</li>
+</ul>
+
+</div>
