@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 27 Aug 2026 06:00:45 +0800</lastBuildDate><item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 27 Aug 2026 09:00:13 +0800</lastBuildDate><item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与"夫妻店 SaaS"</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Aneesh Acharya：模型不是商品、实验室会向下整合而非向上、B200 涨价说明需求无限——以及为什么"大多数护城河依然有效"。</strong></p>
@@ -13691,20 +13691,20 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #689.Dylan Patel：2028 年两家 AI 实验室如何吞下全球算力，并把世界推向高利率时代</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-26 | <strong style="font-weight:600">来源</strong>: SemiAnalysis 创始人 Dylan Patel 年度对话（AI 翻译中文版）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：OpenAI + Anthropic 两家将在 2028 年底吃下全球新增算力的 70-80%（合计 ~100GW）；算力集中 → 巨额发债 → 利率上行 → 非 AI 资产 DCF 崩盘（&quot;第二次沃尔克时刻&quot;）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：OpenAI + Anthropic 两家将在 2028 年底吃下全球新增算力的 70-80%（合计 ~100GW）；算力集中 → 巨额发债 → 利率上行 → 非 AI 资产 DCF 崩盘（"第二次沃尔克时刻"）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">关键论据</strong>：</p>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">算力集中加速</strong>：今年新增算力 30% 归 OpenAI+Anthropic，明年 40-50%（白纸黑字合同），2028 年 70-80%；两家算力从年初 ~2GW → 年底 ~5-6GW → 2027 底 18 → 2028 底 54GW</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">实验室盈利拐点</strong>：Anthropic Q2 开始盈利，OpenAI 预计 Q3 盈利（含 Codex/5.6 增长）；Anthropic 每 MW 收入已达 5000 万美元（成本 1000-1500 万），2027 底或达 7000-8000 万</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Capex 规模</strong>：2026 年 ~1 万亿美元，2028 年超 2 万亿；2024-2029 累计 ~11 万亿，其中现金支持 6 万亿、发债 5 万亿；算上提前建的数据中心/发电厂，年 Capex 或近 10 万亿（美国经济 1/4-1/3）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">新玩家</strong>：SpaceX 大规模建算力租给两大实验室（Elon 按每 GW 400 亿美元卖给谷歌）、Meta 囤算力成第三名、OpenAI 自研芯片、Anthropic 用 Google TPU</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜（蔡司 2030 年 100 台目标）、燃气轮机套利（买进转卖）；英伟达定价权（Elon 与 Jensen &quot;独家&quot;传闻）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">供应链瓶颈</strong>：EUV 反射镜（蔡司 2030 年 100 台目标）、燃气轮机套利（买进转卖）；英伟达定价权（Elon 与 Jensen "独家"传闻）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">监管放缓</strong>：OpenAI 暂停训练两周、未发布 Astra（内部都未部署）；Anthropic 未发布 MITHOS 下一代、暂停向外籍员工提供</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">中国</strong>：2028 年 AI 算力 ≤30GW（占全球 &lt;10%），出口管制&quot;显著成功&quot;；2029 年或新增 50GW（国产芯片质量打折，折算仅相当于美国 20GW）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">存储悖论</strong>：美光/海力士/铠侠 2-3 倍 PE——&quot;如果你真信 AI，经济中一切应 2-3 倍 PE 交易，股市该崩盘；若不信，则存储盈利超常&quot;——他以此论证存储好但不应再涨 10 倍</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中国</strong>：2028 年 AI 算力 ≤30GW（占全球 &lt;10%），出口管制"显著成功"；2029 年或新增 50GW（国产芯片质量打折，折算仅相当于美国 20GW）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">存储悖论</strong>：美光/海力士/铠侠 2-3 倍 PE——"如果你真信 AI，经济中一切应 2-3 倍 PE 交易，股市该崩盘；若不信，则存储盈利超常"——他以此论证存储好但不应再涨 10 倍</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 劳动力</strong>：前沿算力 flops 年增 4-5 倍 + 同等能力所需算力年降 1/3 → 有效 AI 人口年增 10 倍，单实验室等效劳动力本年代末或超地球人口</li>
 </ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">论证链</strong>：模型持续进步（每 MW 收入 5000万→1 亿美元）→ 算力 ROI 极高 → 所有资本涌入 AI Capex → 5 万亿发债推高利率 → 挤出非 AI 经济体 → 非 AI 股票（强生/铁路等长期现金流型）DCF 崩盘 → 发展中国家（巴基斯坦/尼日利亚）违约 → 政治/监管/利率成下行阻力 → 慢速起飞是&quot;希望&quot;而非预测</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证链</strong>：模型持续进步（每 MW 收入 5000万→1 亿美元）→ 算力 ROI 极高 → 所有资本涌入 AI Capex → 5 万亿发债推高利率 → 挤出非 AI 经济体 → 非 AI 股票（强生/铁路等长期现金流型）DCF 崩盘 → 发展中国家（巴基斯坦/尼日利亚）违约 → 政治/监管/利率成下行阻力 → 慢速起飞是"希望"而非预测</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>：</p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
@@ -13732,7 +13732,7 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2029 年 11 万亿 Capex / 5 万亿信贷</td>
   <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">本人自认&quot;凭感觉估的数字&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">本人自认"凭感觉估的数字"</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
@@ -13752,7 +13752,7 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>：</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">核心假设：模型能力持续提升 + 实验室每 MW 营收持续增长 + 算力集中不可逆 + 市场按纯经济学运转</li>
-<li style="margin:0.3em 0">反例/风险：他自己承认&quot;也许我们根本不会允许这种情况发生&quot;——政治、监管、利率、信贷市场四大阻力都可能把曲线大幅下压；若监管持续（模型发布推迟 6 个月），每 MW 营收停滞，集中化逻辑瓦解</li>
+<li style="margin:0.3em 0">反例/风险：他自己承认"也许我们根本不会允许这种情况发生"——政治、监管、利率、信贷市场四大阻力都可能把曲线大幅下压；若监管持续（模型发布推迟 6 个月），每 MW 营收停滞，集中化逻辑瓦解</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 7/11 #623 基础设施分析（DRAM 毛利 85-90%）+ 7/1 #607 软硬件协同 — 观点一贯偏 AI 超级周期，本次<strong style="font-weight:600">新增</strong>利率/主权债务/沃尔克时刻视角，且明确承认下行阻力。一致 + 新增。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 行业第一手信息（SemiAnalysis 数据源），但核心判断是远期推演，且承认数字为估算。无持仓披露。</p>
@@ -13762,13 +13762,13 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：模型竞争从两强变三强（xAI 加入）；模型不是商品（领域级比较优势）；应用层能捕获显著价值；消费级 AI 进入复兴期。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">关键论据</strong>：</p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">竞争格局</strong>：xAI 两周内从非竞争者进入三强（open weight）；Anthropic 从&quot;不可战胜&quot;到 OpenAI 强势反超（新模型 + Codex harness + ChatGPT 桌面端）；<strong style="font-weight:600">Anthropic 今年晚些时候 IPO</strong></li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">泡沫论反转</strong>：&quot;泡沫论已被充分讨论，更少被讨论的是——如果我们不够乐观呢？&quot; B200（非尖端 GPU）价格按小时上涨，反常（通常高度通缩）→ 供应极度紧张 + 近乎无限需求</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">SaaS</strong>：2 月 30-40% 回撤后已反弹 40%；企业软件支出仅占企业开支 8-12%，&quot;加速或死&quot;，SVC 扭曲的经济暴露</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">竞争格局</strong>：xAI 两周内从非竞争者进入三强（open weight）；Anthropic 从"不可战胜"到 OpenAI 强势反超（新模型 + Codex harness + ChatGPT 桌面端）；<strong style="font-weight:600">Anthropic 今年晚些时候 IPO</strong></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">泡沫论反转</strong>："泡沫论已被充分讨论，更少被讨论的是——如果我们不够乐观呢？" B200（非尖端 GPU）价格按小时上涨，反常（通常高度通缩）→ 供应极度紧张 + 近乎无限需求</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">SaaS</strong>：2 月 30-40% 回撤后已反弹 40%；企业软件支出仅占企业开支 8-12%，"加速或死"，SVC 扭曲的经济暴露</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">护城河</strong>：网络效应/规模效应/品牌（Nike/Instagram）不受 coding agent 影响；唯一受威胁的是集成护城河（SAP 迁移复杂度）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">垂直整合方向</strong>：实验室向下整合推理/算力（同质工作负载可规模化），而非向上进应用层（异质需求、opex 重）——这解释了为何应用层有空间</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">模型非商品</strong>：GLM-5.2/5.3（&quot;神经质&quot;型，精确执行）vs Kimi K3（&quot;开放性/创造性&quot;型）；RL 特化可形成领域复合优势（Harvey 法律）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">消费级复兴</strong>：GrokBots 买牛仔裤（&lt;500 美元，Aneesh 亲测）；Talon 免费 40 credits；支付意愿从 $20/月历史天花板 → $200/月 → $2000/月&quot;Birkenbag of software&quot;；新业务创办率历史高位（除疫情峰值外最高）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型非商品</strong>：GLM-5.2/5.3（"神经质"型，精确执行）vs Kimi K3（"开放性/创造性"型）；RL 特化可形成领域复合优势（Harvey 法律）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">消费级复兴</strong>：GrokBots 买牛仔裤（&lt;500 美元，Aneesh 亲测）；Talon 免费 40 credits；支付意愿从 $20/月历史天花板 → $200/月 → $2000/月"Birkenbag of software"；新业务创办率历史高位（除疫情峰值外最高）</li>
 </ol>
 <p style="margin:0.8em 0"><strong style="font-weight:600">论证链</strong>：模型竞争多元化 → 实验室无单方定价权 → 应用层可做模型聚合（Expedia 比喻）+ 行业特化（Harvey/Decagon）→ 捕获价值；同时消费级 AI 因 open weight 边际成本下降 + 支付意愿上升 → 消费创业者复兴</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>：</p>
@@ -13818,7 +13818,7 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理剖析</strong>：</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">核心假设：模型层竞争保持多元（无单一垄断）+ 实验室垂直整合停留在算力层 + 消费者支付意愿结构性上升</li>
-<li style="margin:0.3em 0">反例/风险：若某实验室模型代际领先（如 Anthropic/OpenAI 垄断级优势），应用层毛利仍会被抽走（他自己承认 2023 年单模型世界&quot;实验室会拿走你 100% 毛利&quot;）；消费级支付意愿可能被证明是少数早期用户</li>
+<li style="margin:0.3em 0">反例/风险：若某实验室模型代际领先（如 Anthropic/OpenAI 垄断级优势），应用层毛利仍会被抽走（他自己承认 2023 年单模型世界"实验室会拿走你 100% 毛利"）；消费级支付意愿可能被证明是少数早期用户</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 8/17 #678 All-In 讨论 Anthropic 2 万亿 IPO — 本集 a16z 自家口径确认 IPO 时间线；新增 xAI 三强论 + 应用层/消费级框架。修正/补充。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 生态位信息（Anthropic IPO、xAI 竞争）可靠，但观点带机构利益。无持仓披露。</p>
@@ -13847,5 +13847,94 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0">无。各源文件大小互异、title 与 transcript 主题匹配，管线正常。</p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-27.html</link><guid isPermaLink="false">report:AI动态:2026-08-27:f35b86cf</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-27</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/27</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：OpenAI 自研推理芯片 Jalapeño 亮剑 Hot Chips；Z.ai 神秘模型 Ox Alpha 揭晓为 GLM-5.3-Flash 且全量跑国产芯片；阿里 Qwen4 架构预览开源；小鹏机器人单元 9 亿美元融资；深圳 AIRS 开源具身智能框架入 Linux 基金会。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI 发布自研推理 ASIC Jalapeño（700W，Broadcom 合作）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方+多源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Z.ai 揭晓 Ox Alpha = GLM-5.3-Flash，国产芯片全量推理</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里开源 Qwen3.8-Flash-Next（Qwen4 架构预览，6B 激活）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小鹏机器人单元 Dogotix 首轮融资超 $9 亿，估值 $6.3B</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方+Reuters</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">深圳 AIRS 发起 AIRSEAI 开源具身智能框架入 LF</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. OpenAI 发布自研推理芯片 Jalapeño | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">OpenAI 在 Hot Chips 2026（8/25）公布与 Broadcom 合作的自研推理 ASIC + 系统 Jalapeño，定位&quot;推理平台&quot;而非裸加速器：700W TDP（对比 NVIDIA GB200 1.2kW、GB300/MI355X 1.4kW），围绕 time-to-last-token 与 tokens/joule 两项指标设计，采用 HBM4 与空间编程模型。项目节奏极快：2024 年底架构概念 → 2025 年 RTL freeze → 2025 年底 tapeout → 2026 年初 Codex 已在其上运行，随后 ChatGPT 上芯片。SemiAnalysis 以 InferenceX 功率归一化基准评价&quot;优于 NVIDIA Blackwell&quot;；Tom's Hardware 报道其每千瓦吞吐量达 NVIDIA 1.4kW 旗舰的 1.9 倍。CNBC 称定制芯片对 NVIDIA 利润率构成新威胁。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅OpenAI 官方博客 + Bloomberg/CNBC/Axios/SemiAnalysis/ServeTheHome 多源一致 — 性能数字为厂商自测，独立复测未出 🔴未证实（1.9x per kW 为 Tom's Hardware 转述官方声称）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 推理 ASIC 9 个月走完流片，agentic 推理成本曲线将被改写</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.com / SemiAnalysis / CNBC / ServeTheHome</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Z.ai 揭晓神秘模型 Ox Alpha = GLM-5.3-Flash | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Z.ai（智谱）8/26 发布 GLM-5.3-Flash：GLM-5 系列首个原生多模态模型，320B 总参数/18B 激活（对比 GLM-5.2 的 744B/40B），混合稀疏+线性注意力架构 + mHC 连接，30T token 多模态语料。AI Index v4.1.1 得分 57 @ $0.045/task（约 1/10 价格），DeepSWE v1.1 63.4 vs GLM-5.2 的 46.2，编码/agentic 基准接近 Claude Opus 4.8。发布前以 &quot;ox-alpha&quot; 匿名在 OpenCode/OpenRouter 测试并成为当周最热模型——关键点是<strong style="font-weight:600">该流量全部由中国 AI 芯片集群承载</strong>：数万颗国产加速器 + 自研 EPD 分离式推理栈，端到端性能较基线提升 3×，每 token 成本与主流 NVIDIA GPU 相当。权重 MIT 协议开源（HF）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Z.ai 官方博客 + TestingCatalog（MIT license）+ Wccftech 独立确认 Ox Alpha 对应关系；性能数字为官方自测 🔴未证实独立复现</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 国产芯片承载前沿模型推理已经济可行，中美算力脱钩加速</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: z.ai/blog/glm-5.3-flash / TestingCatalog / Wccftech</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 阿里开源 Qwen3.8-Flash-Next | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Qwen 团队 8/26 发布 Qwen3.8-Flash-Next 开源权重：125B 总参数 + 51B N-gram Embedding、每 token 仅激活 6B 的多模态 MoE，作为 Qwen4 架构先导预览（Gated DeltaNet + Gated Attention 混合结构，四项系统升级：Attention/Residual 四分支/Embedding 可卸载/优化器分工）。训练开销约为 Qwen3.7-Plus 的 1/9，编码与办公任务反超。原生 262K 上下文，YaRN 可扩 1M。生产版 Qwen3.8-Flash 已在千问平台以输入 1 元/输出 3 元每百万 tokens 开放（默认 1M 上下文）。DeepSWE 1.1 58.7、SWE-bench Pro 62.5，具身智能基准 ERQA 72.3。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Qwen 官方博客 + Reuters + NVIDIA Developer 博客多源一致；基准为官方自测 🔴未证实独立复现</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 6B 激活成本直逼 1 元/百万 tokens，Flash 级模型价格战下探</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: qwen.ai/blog / Reuters / the-decoder.com</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 小鹏机器人单元 Dogotix 首轮融资超 $9 亿 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">XPENG 官方确认机器人单元 Dogotix（人形机器人 IRON）完成首轮融资超 $9 亿（约合人民币 64 亿+），Reuters 报道该轮后估值超 $6.3B，为具身/人形赛道近年单笔最大融资之一。SCMP 称小鹏在季度亏损扩大背景下仍加码人形；华尔街（CnEVPost 转述）视机器人融资为集团价值解锁催化剂。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅XPENG 官方公告 + Reuters（$6.3B 估值）+ The Robot Report/SCMP 多源一致</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 车企分拆机器人独立融资逻辑再获验证，与华为车BU/云鲸模式同构</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: xpeng.com / Reuters / The Robot Report</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 深圳 AIRS 开源具身智能框架 AIRSEAI 加入 Linux 基金会 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">LF AI &amp; Data Foundation 8/26 宣布接纳 AIRSEAI：由深圳市人工智能与机器人研究院（AIRS）发起的开源具身 AI 项目，旨在解决机器人生态碎片化——专有平台、硬件绑定软件栈、孤立数据集。三阶段路线图：模块化单机器人智能 → 数据驱动双臂操作（AIRSEAI 2.0，含视觉触觉感知与弹性模型库）→ 异构机器人分布式协作（3.0）。发起人为 AIRS 具身智能主任 Shaoshan Liu。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Linux Foundation 官方新闻稿 + HPCwire 转载</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 开源中立标准若成气候，或重塑具身软件栈与数据互操作格局</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: linuxfoundation.org / HPCwire</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
