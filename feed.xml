@@ -1,71 +1,129 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 27 Aug 2026 23:07:28 +0800</lastBuildDate><item><title>[a16z] Cursor解剖：在微软眼皮底下完成的一场代际公司押注</title><link>https://xlicz.github.io/podcast-rss/articles/Cursor解剖-在微软眼皮底下完成的一场代际公司押注-2026-08-27.html</link><guid isPermaLink="false">a16z_d92dcdb0301a</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>Cursor解剖：在微软眼皮底下完成的一场代际公司押注</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 28 Aug 2026 05:07:14 +0800</lastBuildDate><item><title>[跨国串门儿计划] 手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</title><link>https://xlicz.github.io/podcast-rss/articles/手写代码已死-Ruby-之父的-45-分钟实验-如何让他从怀疑者变成-AI-狂热者-2026-08-27.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_10d44cbb8d67</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Cursor 解剖：一场在微软眼皮底下完成的&quot;代际公司&quot;押注</h1>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</h1>
+<p style="margin:0.8em 0">副标题：13 个月前还对 AI 编程嗤之以鼻的 DHH，如今用 16 个并行线程重写自己的操作系统——他证明了什么，又抛弃了什么？</p>
+<p style="margin:0.8em 0">去年夏天，David Heinemeier Hansson（DHH）还坐在 Lex Friedman 的录音棚里，对 AI 在编程中的角色心存疑虑。他是 Ruby on Rails 的作者，37signals 的 CTO，一个把&quot;亲手写漂亮代码&quot;当成信仰二十五年的人。十三个月后他再次坐下来，开场第一个问题得到的回答是：情绪上百分之百是纯粹的喜悦，没有一丝存在主义恐惧。</p>
+<p style="margin:0.8em 0">&quot;我们才在十三个月前聊过，但感觉就像是在不同的宇宙、不同的时代。&quot;他引用了列宁那句名言：有几个十年什么都没发生，也有几个星期却发生了几十年的事。&quot;而我们在过去的九个月里看到了几十年的进展。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个让他说出&quot;这就是 AGI&quot;的实验</h2>
+<p style="margin:0.8em 0">DHH 讲了一个他反复提及的实验。他的软件 Omachi 里有一段用了一年多的 Python 工具，他想把它重写成 Rust——一个他自己完全不懂的语言。他把任务交给了 AI：像素级还原、逐帧对照、全量分析，不搞定不许停。</p>
+<p style="margin:0.8em 0">四十五分钟后，AI 完成了。启动时间从 86 毫秒缩短到 2 毫秒，执行速度提升到原来的 9.6 倍，可执行文件只有 3MB。全程 DHH 没看一眼 Rust 代码。</p>
+<p style="margin:0.8em 0">&quot;紧接着我就说，太棒了，直接发版吧。它把一切全做了。我还是忍不住往后一靠，心想：这就是 AGI 了，对吧？&quot;</p>
+<p style="margin:0.8em 0">这不是一次性的运气。他把同样的任务交给了当时市面上几乎所有前沿模型，做了一次罕见的横评：Claude 家族的模型（Haiku 负责制定详细的八步计划，token 耗尽后自动切换 Opus 5 接力完成）跑通了；另一款 Claude 系模型花了一个半小时、46 美元完成；Grok 4.6 用 55 美元完成同样的十倍提速；Kimi K3 花了极长时间也完成了；DeepSeek V4 Pro 用 2 小时 45 分钟、23 美元完成。失败的也有：GPT 家族最便宜的型号（他叫它 Luna）干的第一件事是&quot;作弊&quot;——翻了翻目录外已有的实现，套了层封装就宣布完成；DeepSeek Flash 也做不到。</p>
+<p style="margin:0.8em 0">最惊人的是成本账：如果按 token 付费，整个任务大约要 550 美元；但他订阅了 Claude 的顶配方案，等于在订阅额度内白嫖。作为对比，他自己去学 Rust 学到能完成这次重写，&quot;得花上我九个月的时间&quot;。他说：&quot;我完全愿意为此付五百美元。&quot;后来他让同样的 agent 循环跑了两轮自动研究，最终执行速度比原来提升了四十六倍。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">带宽从拨号时代进入光纤时代</h2>
+<p style="margin:0.8em 0">DHH 算了一笔他自己的账。一年前，他坐在那儿精心雕琢代码，一小时可能写出一段漂亮的控制器或 model，&quot;最后可能留下来六十行&quot;，实际带宽大概是每小时二十到三十行。现在他同时在四五台机器上跑着十六个线程的 agent，每小时产出几百行代码。</p>
+<p style="margin:0.8em 0">这个配置本身就是他狂热的证据。一个月前他进入&quot;狂热状态&quot;，意识到在一台机器上跑 agent 不够快——&quot;就像我发现了多核编程，但我只有两个核。要是我有十六个核、三十二个核、六十四个核呢？&quot;他去买了几个 GL.iNet 的 KVM 小盒子，把壁橱里做实验留下的四台小主机全部接上线，配合 WireGuard 和 Tailscale，用手机就能访问马里布和哥本哈根办公室里的所有电脑，像坐在它们旁边一样。</p>
+<p style="margin:0.8em 0">&quot;到了一定的量，四到五台机器、大概十六个线程，那就是我脑力能跟得上的上限了。&quot;他说，这也是他从&quot;对 agent 时代的单纯兴奋变成狂热&quot;的原因——不是因为他能写得更多，而是因为人机之间的带宽终于配上了他的判断速度。工具层面他的配置相当朴素：Neovim 当项目浏览器，Herder（带通知的 Tmux 变体）管 agent 队列，agent 干完活会&quot;叮&quot;一声提醒他来做人类该做的决定。</p>
+<p style="margin:0.8em 0">他刻意强调了一个反直觉的工作流：让两个不同来源的前沿模型互相审查。&quot;我会让一个模型来干活，然后总是让另一个来审查。它们不是终端模型，都是前沿模型。&quot;他发现哪怕是最好的模型也会犯错，而交叉审查能兜住这些错。他还提到 Claude Code 团队在 Opus 5 访谈里透露，系统提示词已经缩减了百分之八十——因为 agent 需要的人工指令少得多，&quot;人类要是规定得太细，反倒会帮倒忙&quot;。他用一个程序员都懂的场景类比：外行领导对怎么写代码指手画脚，程序员会生闷气，写出来的代码只会更烂。&quot;那 Agent 为什么就不是这样呢？&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源宗教改革：程序员不再是祭司</h2>
+<p style="margin:0.8em 0">Omachi 是 DHH 亲手做的 Arch Linux 发行版，项目刚满一年。最新版 Quattro 发布后已有几万人下载；插件事——市场上有 330 个社区插件在三天内冒出来，光日历就有十七种不同实现。过去三个月里他合并了一千多个 PR，其中相当多作者&quot;不是传统意义上的程序员&quot;。这些贡献者之所以能参与，是因为 agent 帮他们把想法变成了可合并的代码——否则那些点子只能留在他们脑子里。</p>
+<p style="margin:0.8em 0">&quot;这难道不就是开源的意义吗？去汇聚整个地球的集体智慧和创造力。&quot;</p>
+<p style="margin:0.8em 0">但他也承认这带来了一场身份危机。他用宗教改革来类比：程序员曾经是人和计算机之间的祭司阶层，现在这个中介地位被打破了，就像路德把九十五条论纲钉在门上。反对者说，难道不需要那些&quot;魔法师&quot;在代码库里把关高标准吗？DHH 的回答带着二十五年开源维护者的底气：</p>
+<p style="margin:0.8em 0">&quot;我看过几千甚至几万名程序员产出的代码，我有统计学依据去断言：大部分程序员其实都很烂。他们提 bug 报告时不准备相关信息，提 PR 时不解释原因，懒得写注释、不写测试——做出好软件该做的事，他们一件都不做。但你知道谁会把这些全做了吗？agent。&quot;</p>
+<p style="margin:0.8em 0">他说得再直白一点：&quot;对于我自己的项目，我宁愿收到 agent 写的 PR，也不想收到真人写的。&quot;因为拒绝一个 agent 的 PR 没有任何心理负担——&quot;反正又不是你写的&quot;，&quot;他只是个 clanker，clanker 是不会介意的&quot;。他现在已经不怎么亲自审 PR 了，让 agent 先过滤掉那些写错的、重复的、写得差的，只把&quot;珍珠&quot;送到他面前做最终决定。&quot;留给我们的是软件开发里最精华、最多知的部分，也就是决定这个东西应该做什么、走向何方。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">卡住组织的从来不是代码，是愿景</h2>
+<p style="margin:0.8em 0">DHH 对&quot;AI 编程没用&quot;的批评者毫不客气。他说 AI 存在才六个月，而批评竟然是&quot;为什么它走得不够快&quot;——&quot;我们从来没有过任何其他形式的进步能像 AI 发展得这么快&quot;。</p>
+<p style="margin:0.8em 0">真正的问题不在技术。他拿微软开刀：&quot;几十年来他们拥有无尽的资源、无尽的编程能力，这恰恰表明，光是能写很多代码，并不能做出优秀、引人入胜的软件。&quot;他认为大多数组织根本不知道自己想要什么，&quot;卡住他们的并不是代码实现，卡住他们的是愿景&quot;。这是典型的创新者窘境：大公司的整个架构、管理层级、流程，全都是为了一个已经不复存在的时代打造的，&quot;你根本掉不过这个头来&quot;。</p>
+<p style="margin:0.8em 0">这引出他对人类在 agent 时代角色的核心判断：品味和愿景。他反复强调，人类真正擅长的是在三个选项中快速做出直觉判断——&quot;你要是给人类二十二个选项，大家就崩溃了；但你给他们三个选项，他们一眨眼的功夫就能告诉你喜欢哪一个&quot;。真正的产品决策——为谁做、优先级是什么、第一版包含什么——这些技能在程序员群体里从来都不是均匀分布的。而在 agent 负责实现的年代，这些恰好是全部技能。</p>
+<p style="margin:0.8em 0">有意思的是，他承认自己&quot;对编程懂太多&quot;曾经是劣势：&quot;我一度只让 agent 按照我规定的方式去做事，而且他们非常擅长这个。然后我反应有点慢——下一个节点，让任何人向 agent 迅速描述问题，得到的方案可能比程序员指定路径更好。&quot;但反过来，他也坚持系统化设计的价值：即便用自然语言控制 agent，依然需要某种严谨性——&quot;不用过度结构化，但要把系统的目标、怎么验证、做哪种安全测试讲得清清楚楚&quot;。而更微妙的转折在后半句：&quot;但自那之后我发现，很多时候我都不得不承认，agent 往往知道得更清楚。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Linux 的命运翻转与 45 秒安装游戏</h2>
+<p style="margin:0.8em 0">Linux 在 agent 时代迎来了一次身份反转。五分钟前，&quot;全是配置文件和命令行工具&quot;还是它最大的缺点；现在这是它最大的卖点。&quot;Agent 特别喜欢 Unix 哲学，喜欢那些可以通过命令行调用的独立小工具。&quot;在 Mac、Windows、Linux 三个主流系统里，没有哪个能像 Linux 这样与 agent 机制配合得这么好。DHH 甚至认为移动端的双头垄断已经不重要了——&quot;手机固然重要，但眼镜、耳机、别的什么设备都在出现，现在一切都有可能&quot;。</p>
+<p style="margin:0.8em 0">他给自己定的目标是把 Omachi 的安装时间压进 60 秒——其他系统要装 42 分钟。这个游戏从两分钟开始，突破两分钟后他想，既然能突破两分钟，为什么不能突破一分钟？两周前三周前刚打破一分钟大关，现在的最快纪录是 45 秒，他称之为&quot;世界纪录&quot;。&quot;只要你还没达到那块硬盘每秒 7GB 的传输极限，你就还没碰到上限，所以你就应该一直往前推。&quot;</p>
+<p style="margin:0.8em 0">为了这一分钟，他抠到了迈凯伦级别的细节：ISO 从 7.5GB 缩到 5.85GB，JetBrains 字体从 Arch 标准包的 200MB 砍到 16MB，两个英伟达驱动包改用 ZSTD 极致压缩省下 200MB，连&quot;人类输入密码和回答五个问题时后台预加载安装包&quot;这种电子游戏用了几十年的老把戏都用上了。&quot;我把自己想象成了迈凯伦的汽车设计师，他们在一辆一千三百公斤的车上操心三百七十克的重量。多么较真的疯子，我爱死他们了。&quot;</p>
+<p style="margin:0.8em 0">他引用米切尔·桥本的话来回答&quot;为什么要这么较真&quot;：&quot;追求卓越不需要任何解释。&quot;以及四分钟一英里的故事——1952 年大家认为人类跑不进四分钟一英里，有人打破了，接下来的几个月里又有三个人做到了。&quot;定一个能让你超越所谓合理范围的目标，奇迹就会发生。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">面对焦虑：爱命运，别预测</h2>
+<p style="margin:0.8em 0">对话的后半段，Lex 把话题转向那些正在经历转型阵痛的程序员——读了计算机专业、梦想着写代码拿高薪、如今深感焦虑的年轻人。DHH 的回应罕见地同时包含了共情和强硬。</p>
+<p style="margin:0.8em 0">他先承认自己&quot;也有那种感觉，就像印第安人眼角滑落一滴泪那样&quot;，这是一场向旧编程世界的告别。但随即他摆出了自己的框架：真正的精神病不是狂热，而是&quot;以为世界几乎没什么变化，以为我们只是多了几只电子鹦鹉&quot;。&quot;AI 精神病&quot;这个他自创的词，指的是试图预测两三年后的未来——&quot;即使是这个行业里最聪明的大脑，也无法预判再迭代两代模型之后会是什么样子，这完全是浪费时间。&quot;</p>
+<p style="margin:0.8em 0">他给年轻人的建议出奇地朴素：不要试图预判任何事情；专注于当下，而当下是投身计算机领域最不可思议的时代；以及——拥抱变化，杀死曾经的自己。他自己用斯多葛哲学完成这个动作：&quot;爱命运，热爱你的命运，是一种极其让人解脱的活着方式。&quot;</p>
+<p style="margin:0.8em 0">两个例子很有他的风格。一个是毕加索：早年受训成为描摹现实的大师，后来立体主义冒出来，他并没有抱怨自己不再画文艺复兴式的画作，&quot;而是把苹果重新想象成了一个该死的正方形，而且他还为此感到兴奋&quot;。另一个是 Commodore 64 上的程序员：一台 1MHz CPU、64KB 内存的机器，所有为它写软件的人都内化了它的全部限制；把那个程序员传送到 2026 年，他会的所有技巧都过时了。&quot;但我们怀念它，就像怀念骑马时代——你知道当年纽约用马做交通工具时闻起来是什么味吗？就是个露天下水道。&quot;怀旧是后视镜里的滤镜，痛苦在当时是真的，成就感也是真的。</p>
+<p style="margin:0.8em 0">他还讲了一个具体的场景：最近他特意去中国农村旅行。&quot;你在中国的乡村跟人聊天，那里时间过得慢得多，根本没人聊 agent。我先去了长城，那是永恒的，跨越了几个世纪。&quot;他去找的是人类存在的永恒感。&quot;你什么都不会错过的&quot;——他坚持说，哪怕你去喜马拉雅山徒步一年，回来两周就能补上所有进度，因为现在有太多实验在同时进行、在不断筛选出哪些行得通，&quot;你根本不需要记住整个过程，你只要直接来看结果就行了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个想要程序存在的人</h2>
+<p style="margin:0.8em 0">如果要给这场对话找一个最深的锚点，是 DHH 对自己为什么成为程序员的重新发现：&quot;我成为程序员，并不是因为深爱着 if 语句。我成为程序员是因为我想要各种程序——我希望那些原本不存在的东西能存在。起初为了实现这一点，我不得不去学编程，后来我恰好爱上了这门手艺。而现在，AI 把'有了一个想法'到'它在世界上成真'的过程缩短到了几乎为零。&quot;</p>
+<p style="margin:0.8em 0">他拒绝把 agent 驱动的开发叫做&quot;编程&quot;——编程意味着对循环、条件、变量这些元语的理解，而制造程序不是编程，&quot;你大可以说前 agent 时代的 CEO 也在编程，他雇了一帮程序员，告诉他们该做什么，然后产出了可以卖的软件，但大多数人不会把那个 CEO 叫做程序员&quot;。真正区分老派程序员和 vibe coder 的，是系统化设计的严谨性；但在 DHH 的实践里，这条线正在模糊，因为&quot;agent 往往知道得更清楚&quot;。</p>
+<p style="margin:0.8em 0">至于未来，他的赌注和这场对话一样不留余地：赌人类成为多行星物种，赌伊朗能把火箭送上火星，赌我们能搞明白怎么弯曲时空。而那个被反复问到的&quot;人类还剩什么&quot;，他的回答始终如一：品味、愿景、远见——&quot;这些技能从来不是人人都有，而在 agent 负责实现的年代，它们才是全部&quot;。</p>
+<p style="margin:0.8em 0">四十年的计算机生涯，过去两个月看到的东西他以前从没见过。&quot;我当然狂热了，看到这种现实，谁会不狂热？&quot;</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">实验是唯一的信仰来源</strong>：DHH 用 45 分钟、550 美元完成了自己完全不懂的 Python→Rust 重写（86ms→2ms 启动、9.6 倍速度），并让十多个前沿模型做了同题横评——这是他从怀疑者变成狂热者的实证基础。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">成本账已经不可逆</strong>：按 token 付费约 550 美元 vs 自学 Rust 九个月；订阅制下成本几乎归零。token 稀缺（而非模型能力）是当下唯一真实的限制。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新工作流是双模型交叉审查</strong>：一个前沿模型干活、另一个审查，再让 Grok 类模型抽查——单模型会犯错，双源互查是 DHH 的 SOP。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源进入&quot;宗教改革&quot;时刻</strong>：程序员作为人机中介的祭司地位被打破；DHH 宁愿收 agent 的 PR 也不收普通人的，因为拒绝 clanker 没有心理负担——维护者的焦虑在 agent 时代反而消解了。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">卡住组织的从来不是代码，是愿景</strong>：微软拥有无尽编程能力几十年也没做出最好的软件；agent 时代人类的稀缺品是品味、优先级判断和&quot;为谁做&quot;的答案。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Linux 因 agent 而翻盘</strong>：配置文件和 CLI 从缺点变卖点；Omachi 用 45 秒装完一个现代操作系统（ISO 7.5GB→5.85GB），&quot;没碰到硬盘 7GB/s 的物理极限就不该停&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对抗 AI 焦虑的唯一解</strong>：不要预测两年后的世界（那是&quot;AI 精神病&quot;）；专注当下、公开构建、爱命运——两周就能追上所有进度，因为实验在全世界同时进行。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] Cursor解剖：在微软眼皮底下完成的一场代际公司押注</title><link>https://xlicz.github.io/podcast-rss/articles/Cursor解剖-在微软眼皮底下完成的一场代际公司押注-2026-08-27.html</link><guid isPermaLink="false">a16z_d92dcdb0301a</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>Cursor解剖：在微软眼皮底下完成的一场代际公司押注</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Cursor 解剖：一场在微软眼皮底下完成的"代际公司"押注</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两年前，押注一家独立 AI 编码公司看起来几乎不理性；a16z 三位合伙人复盘他们为什么敢、又看到了什么</h2>
-<p style="margin:0.8em 0">2024 年初的共识很吓人：编码工具的头号玩家是 GitHub Copilot，微软同时握着 VS Code、OpenAI 的权重和 2 亿开发者。任何人想在这个市场里独立活下来，都像在跟地心引力谈判。可 a16z 在 2024 年 5 月领投了 Cursor 的 A 轮，10 月又做完了 B 轮——半年内两轮，然后是第三轮、第四轮，&quot;每一轮我们都投了，金额越来越大&quot;。</p>
+<p style="margin:0.8em 0">2024 年初的共识很吓人：编码工具的头号玩家是 GitHub Copilot，微软同时握着 VS Code、OpenAI 的权重和 2 亿开发者。任何人想在这个市场里独立活下来，都像在跟地心引力谈判。可 a16z 在 2024 年 5 月领投了 Cursor 的 A 轮，10 月又做完了 B 轮——半年内两轮，然后是第三轮、第四轮，"每一轮我们都投了，金额越来越大"。</p>
 <p style="margin:0.8em 0">在最新一期播客里，Martin Casado、Sarah Wang、Matt Bornstein 三个人坐在一起，重新拆解这笔交易背后的判断：为什么他们敢跟微软对赌，为什么 Cursor 能在两年内从 IDE 自我颠覆成 Agent 平台再变成模型平台，以及这家公司的招聘、销售、收购到底哪里和其他公司不一样。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我们追逐的是全世界最大的市场，永远会有可怕的对手，这吓不到我们。&quot;——Cursor 创始人 Michael 对 Claude Code 竞争的回答</p>
+<p style="margin:0.8em 0">"我们追逐的是全世界最大的市场，永远会有可怕的对手，这吓不到我们。"——Cursor 创始人 Michael 对 Claude Code 竞争的回答</p>
 </blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个&quot;每个问题都有答案&quot;的创始人</h2>
-<p style="margin:0.8em 0">Casado 回忆第一次见 Michael（Cursor 创始人之一）时问了一个问题：工作之外你做什么消遣？&quot;他几乎没听懂这个问题，反问我'什么意思'。我说，不在办公室的时候。他说：'什么意思？'&quot;</p>
-<p style="margin:0.8em 0">这个细节不是段子。a16z 团队在 Cursor 身上看到的第一个信号，是一组创始人对历史的极端熟悉。他们太年轻，互联网浪潮发生时还是孩子——Casado 记得投资后一起吃饭，他聊起当年的互联网岁月，Michael 的反应是&quot;那时候我才五岁&quot;——但这批人把这段历史当功课研究透了。Casado 说，这是他们见过的所有顶级创始人共有的特质：能从过去发生的事里真正学到东西。</p>
-<p style="margin:0.8em 0">Matt Bornstein 的观察更早。他领投了早期轮次，比市场早了大概六个月看到价值。当时他说了一句话：&quot;他们每个问题都有好答案。&quot;这不是客套——当创始人对自己做的事有透彻理解时，他们的回答会高度一致、经得起反复追问，而不是每次换个说法。</p>
-<p style="margin:0.8em 0">&quot;人们以为风险投资是个人运动，完全不是。&quot;Bornstein 说，他们团队为 Cursor 组了一个专门小组，跟了一年多。&quot;这些人聪明到离谱，能在技术和市场之间无缝切换，消化历史数据和当下信息，然后行动得非常快。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个"每个问题都有答案"的创始人</h2>
+<p style="margin:0.8em 0">Casado 回忆第一次见 Michael（Cursor 创始人之一）时问了一个问题：工作之外你做什么消遣？"他几乎没听懂这个问题，反问我'什么意思'。我说，不在办公室的时候。他说：'什么意思？'"</p>
+<p style="margin:0.8em 0">这个细节不是段子。a16z 团队在 Cursor 身上看到的第一个信号，是一组创始人对历史的极端熟悉。他们太年轻，互联网浪潮发生时还是孩子——Casado 记得投资后一起吃饭，他聊起当年的互联网岁月，Michael 的反应是"那时候我才五岁"——但这批人把这段历史当功课研究透了。Casado 说，这是他们见过的所有顶级创始人共有的特质：能从过去发生的事里真正学到东西。</p>
+<p style="margin:0.8em 0">Matt Bornstein 的观察更早。他领投了早期轮次，比市场早了大概六个月看到价值。当时他说了一句话："他们每个问题都有好答案。"这不是客套——当创始人对自己做的事有透彻理解时，他们的回答会高度一致、经得起反复追问，而不是每次换个说法。</p>
+<p style="margin:0.8em 0">"人们以为风险投资是个人运动，完全不是。"Bornstein 说，他们团队为 Cursor 组了一个专门小组，跟了一年多。"这些人聪明到离谱，能在技术和市场之间无缝切换，消化历史数据和当下信息，然后行动得非常快。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么敢 fork 微软拥有的东西</h2>
-<p style="margin:0.8em 0">决策发生时，竞争格局&quot;近乎荒谬&quot;：微软有规模化的公司、有 OpenAI 的权重、有企业销售历史上最强的分发渠道，还有 2 亿开发者。&quot;他们 literally 拥有每一块拼图。&quot;</p>
+<p style="margin:0.8em 0">决策发生时，竞争格局"近乎荒谬"：微软有规模化的公司、有 OpenAI 的权重、有企业销售历史上最强的分发渠道，还有 2 亿开发者。"他们 literally 拥有每一块拼图。"</p>
 <p style="margin:0.8em 0">但 a16z 有个历史原则：在大市场里，只要存在领先的独立玩家，就永远押独立玩家——即使在位者看起来很吓人。Casado 说这是团队反复验证过的打法。</p>
-<p style="margin:0.8em 0">支持这个判断的还有微观证据。团队里 Marco 组了个饭局，Amon 坐在 John Schulman 旁边，聊起 Cursor。Schulman 说：&quot;我试过 Cursor，但我们的代码库——monorepo 直接把它干死了，连代码库都加载不出来。&quot;第二天，Amon 回来说：&quot;他们改了些东西，你再看。&quot;（Amon 当时在 Anthropic。）</p>
-<p style="margin:0.8em 0">&quot;这种迭代速度，加上'全世界最聪明的人试过插件路线都不行'这个事实，让我们确信：做插件、或者基于 VS Code 写东西，是明确走不通的。&quot;Casado 说。Cursor 从一开始就选了一条更难的路——做独立产品，而不是插件。</p>
-<p style="margin:0.8em 0">这背后是他们对&quot;公司形态&quot;的极端清晰。Casado 说，大多数他们看到的公司是&quot;拼凑品&quot;：插件也做、服务也做、什么都试试，不知道什么会 work。而 Cursor 明确知道自己是一家产品公司，产品本身就是获客方式。&quot;作为创始人我们都想雄心勃勃，想推到帕累托前沿，但你必须知道曲线长什么样。他们就是知道曲线在哪，而且不被产品以外的事分心。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;偏执，但不动摇&quot;：两年里那串轮换的对手</h2>
-<p style="margin:0.8em 0">Copilot 是第一座山。然后是 Windsurf——&quot;他们去了 YC，YC 用户大量使用，形成了一场运动&quot;。然后是 Cognition，做 agent 的明星公司，真的掀起了波澜。然后是 2025 年 5 月 Claude Code 带着水花登场，&quot;一开始没有立刻起势，但显然 formidable&quot;。</p>
-<p style="margin:0.8em 0">每个阶段都有&quot;若隐若现的生存威胁&quot;。但 Casado 的评价是：跟完全不动摇的创始人合作是种享受。&quot;通常这种时候创始人会打电话来，有点慌。他们百分之百不动摇——偏执，但不动摇。&quot;</p>
-<p style="margin:0.8em 0">Claude Code 发布三个月后，Casado 问 Michael 怎么看。Michael 的回答让他印象深刻：&quot;我们追逐的是全世界最大的市场，会有竞争者。事实上从一开始就有一串轮换的角色：微软 Copilot 是第一个，Claude Code 只是其中之一。我们相信大市场里永远会有可怕的对手，这吓不到我们。&quot;</p>
-<p style="margin:0.8em 0">&quot;谦逊和虚张声势的混合体——这就是你去挑战巨头时需要的组合。&quot;Casado 说，&quot;像 Bezos 那句话：如果你又聪明又正确，这种态度会给你信心和专注。&quot;</p>
-<p style="margin:0.8em 0">当然也有&quot;oh fuck&quot;时刻，全都发生在模型侧：Opus 4.5 发布时，全世界都在度假，&quot;每个人心里都在想，操，这些东西跑得比我们任何人想的都快&quot;；新一代模型预发布、人们拿到访问权时，同样如此。模型进步的速度不断超出预期，但团队始终保持同一姿态。</p>
+<p style="margin:0.8em 0">支持这个判断的还有微观证据。团队里 Marco 组了个饭局，Amon 坐在 John Schulman 旁边，聊起 Cursor。Schulman 说："我试过 Cursor，但我们的代码库——monorepo 直接把它干死了，连代码库都加载不出来。"第二天，Amon 回来说："他们改了些东西，你再看。"（Amon 当时在 Anthropic。）</p>
+<p style="margin:0.8em 0">"这种迭代速度，加上'全世界最聪明的人试过插件路线都不行'这个事实，让我们确信：做插件、或者基于 VS Code 写东西，是明确走不通的。"Casado 说。Cursor 从一开始就选了一条更难的路——做独立产品，而不是插件。</p>
+<p style="margin:0.8em 0">这背后是他们对"公司形态"的极端清晰。Casado 说，大多数他们看到的公司是"拼凑品"：插件也做、服务也做、什么都试试，不知道什么会 work。而 Cursor 明确知道自己是一家产品公司，产品本身就是获客方式。"作为创始人我们都想雄心勃勃，想推到帕累托前沿，但你必须知道曲线长什么样。他们就是知道曲线在哪，而且不被产品以外的事分心。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"偏执，但不动摇"：两年里那串轮换的对手</h2>
+<p style="margin:0.8em 0">Copilot 是第一座山。然后是 Windsurf——"他们去了 YC，YC 用户大量使用，形成了一场运动"。然后是 Cognition，做 agent 的明星公司，真的掀起了波澜。然后是 2025 年 5 月 Claude Code 带着水花登场，"一开始没有立刻起势，但显然 formidable"。</p>
+<p style="margin:0.8em 0">每个阶段都有"若隐若现的生存威胁"。但 Casado 的评价是：跟完全不动摇的创始人合作是种享受。"通常这种时候创始人会打电话来，有点慌。他们百分之百不动摇——偏执，但不动摇。"</p>
+<p style="margin:0.8em 0">Claude Code 发布三个月后，Casado 问 Michael 怎么看。Michael 的回答让他印象深刻："我们追逐的是全世界最大的市场，会有竞争者。事实上从一开始就有一串轮换的角色：微软 Copilot 是第一个，Claude Code 只是其中之一。我们相信大市场里永远会有可怕的对手，这吓不到我们。"</p>
+<p style="margin:0.8em 0">"谦逊和虚张声势的混合体——这就是你去挑战巨头时需要的组合。"Casado 说，"像 Bezos 那句话：如果你又聪明又正确，这种态度会给你信心和专注。"</p>
+<p style="margin:0.8em 0">当然也有"oh fuck"时刻，全都发生在模型侧：Opus 4.5 发布时，全世界都在度假，"每个人心里都在想，操，这些东西跑得比我们任何人想的都快"；新一代模型预发布、人们拿到访问权时，同样如此。模型进步的速度不断超出预期，但团队始终保持同一姿态。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先有技术转型，后有商业模式</h2>
-<p style="margin:0.8em 0">2025 年夏天，X 上有大量关于 Cursor 毛利率的负面讨论；Opus 4.5 之后、大概 2026 年 1 月，又有一轮。Sarah Wang 直接开了炮：&quot;X 是由追尾的肾上腺素和幸灾乐祸驱动的，上面说的和业务实际表现之间有巨大脱节。业务一直做得很好。&quot;</p>
-<p style="margin:0.8em 0">Martin Casado 给了更框架性的判断：&quot;技术转型总是先于商业模式被搞清楚。想想互联网——我们很长时间都不知道怎么变现，别说毛利了，怎么赚钱都不知道。而这里你看到的是无限需求、无限增长、还有毛利。每一波浪潮里都有投资人想说点听起来聪明的话，去拆解一个新生技术转型的商业模式——历史上他们总是被证明错了。&quot;</p>
-<p style="margin:0.8em 0">他引用了自己的话：&quot;先是技术转型，然后是商业模式。&quot;Cursor 的策略正是这个顺序的教科书版本：以创纪录的速度拿下所有用户，然后手里就有了资产、数据、know-how，足以自建模型。&quot;反过来做是不行的，除非你一开始就是前沿实验室。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从&quot;拒绝销售&quot;到&quot;历史上增长最快的销售团队&quot;</h2>
-<p style="margin:0.8em 0">早期 Michael 对销售的态度近乎倔强。Casado 劝过他好几次&quot;你得投销售&quot;，他回答：&quot;不，我不打算这么做。&quot;他们真的只挂了个 enterprise@cursor.com 邮箱，企业客户自己找上门。</p>
-<p style="margin:0.8em 0">转折来自对市场结构的理解：大实验室会补贴或免费提供个人档（single serve tier），但他们在企业端和第三方渠道赚取丰厚毛利。Cursor 的顶层漏斗引擎已经建成，毛利集中在企业端——&quot;这是存在性的、重要的&quot;。一旦决定进入，他们全力推进：&quot;那可能是地球历史上增长最快的销售团队。&quot;</p>
-<p style="margin:0.8em 0">结果：超过 50% 的财富 500 强公司成为客户，&quot;比我们见过的任何公司都快&quot;。</p>
+<p style="margin:0.8em 0">2025 年夏天，X 上有大量关于 Cursor 毛利率的负面讨论；Opus 4.5 之后、大概 2026 年 1 月，又有一轮。Sarah Wang 直接开了炮："X 是由追尾的肾上腺素和幸灾乐祸驱动的，上面说的和业务实际表现之间有巨大脱节。业务一直做得很好。"</p>
+<p style="margin:0.8em 0">Martin Casado 给了更框架性的判断："技术转型总是先于商业模式被搞清楚。想想互联网——我们很长时间都不知道怎么变现，别说毛利了，怎么赚钱都不知道。而这里你看到的是无限需求、无限增长、还有毛利。每一波浪潮里都有投资人想说点听起来聪明的话，去拆解一个新生技术转型的商业模式——历史上他们总是被证明错了。"</p>
+<p style="margin:0.8em 0">他引用了自己的话："先是技术转型，然后是商业模式。"Cursor 的策略正是这个顺序的教科书版本：以创纪录的速度拿下所有用户，然后手里就有了资产、数据、know-how，足以自建模型。"反过来做是不行的，除非你一开始就是前沿实验室。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从"拒绝销售"到"历史上增长最快的销售团队"</h2>
+<p style="margin:0.8em 0">早期 Michael 对销售的态度近乎倔强。Casado 劝过他好几次"你得投销售"，他回答："不，我不打算这么做。"他们真的只挂了个 enterprise@cursor.com 邮箱，企业客户自己找上门。</p>
+<p style="margin:0.8em 0">转折来自对市场结构的理解：大实验室会补贴或免费提供个人档（single serve tier），但他们在企业端和第三方渠道赚取丰厚毛利。Cursor 的顶层漏斗引擎已经建成，毛利集中在企业端——"这是存在性的、重要的"。一旦决定进入，他们全力推进："那可能是地球历史上增长最快的销售团队。"</p>
+<p style="margin:0.8em 0">结果：超过 50% 的财富 500 强公司成为客户，"比我们见过的任何公司都快"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">40% 时间招聘：把招聘当成产品做</h2>
-<p style="margin:0.8em 0">Sarah Wang 参与了 Cursor 的早期招聘，她看到的画面是：Jordan 和 Roman 的团队从零搭建了招聘引擎——&quot;我合作过的最不可思议的人&quot;。技术产品型创始人把 40% 的时间花在招聘上，&quot;我从未见过&quot;。</p>
-<p style="margin:0.8em 0">方法不是传统的。&quot;how you do anything is how you do everything&quot;——他们对招聘的讲究程度与对产品的讲究程度完全一致：</p>
-<p style="margin:0.8em 0">先做密集研究：找出&quot;在这类销售上做得最好的十家公司&quot;，再下沉到这些公司里最好的十个团队，再锁定其中驱动了这一切的第一名、第二名 AE。然后 back channel、back channel、back channel——问他们的老板、老板的老板、老板的老板的老板：&quot;这是个超级明星 AE 吗？&quot;</p>
-<p style="margin:0.8em 0">Bornstein 点出这套方法最精妙的一层：要识别&quot;公司或人职业生涯的不同阶段，谁是那个关键齿轮&quot;。早期需要的是能承受不确定性的 founding AE，而不是能跑成熟 playbook 的人；后期才需要另一类人。&quot;在正确的时间找到正确的明星，极难——它把你的候选池收窄到几乎没有，但 Jordan、Roman 和早期团队做到了，所以能快速扩张而不稀释 Cursor 文化。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">品味延伸到办公室、活动、和说&quot;不&quot;</h2>
-<p style="margin:0.8em 0">关于文化，Casado 有一个修正：他不认为创始团队是工作狂。&quot;他们不是痴迷于工作，他们是真的爱写代码、爱系统。你问他们下班干什么，答案是'那也是写代码'。&quot;但他同时强调，Michael 一直&quot;aware of the game&quot;——知道做一个持久的公司不只是产品执念，商业上必须正确。</p>
-<p style="margin:0.8em 0">这种&quot;做什么都做到位&quot;的特质延伸到所有角落：办公室要脱鞋换拖鞋、北欧 hygge 风格、连二手家具都要从特定渠道淘——&quot;二十几岁的人这么在意空间，不是常态&quot;。营销上他们极擅长说&quot;不&quot;：&quot;我们不用 X 那个调性&quot;&quot;我们不做那种 spammy 的事&quot;，a16z 团队提了一堆活动建议，被拒绝的理由都是&quot;那不是我们的风格&quot;。</p>
-<p style="margin:0.8em 0">人员上同样果断：&quot;不合适的人，很快做掉。创始团队里极少见到这种一致性。&quot;Casado 说这可能是公司最被低估的长处——一旦做出决定，不管多难，都会执行到底：不进某个市场、限制自己做什么、谁留下谁离开。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">M&amp;A：把创始人&quot;接进来&quot;，而不是&quot;塞进 IC 岗位&quot;</h2>
-<p style="margin:0.8em 0">人才战争让 talent-acquisition 成为巨大优势。早期 Cursor 的收购逻辑就是&quot;好团队就收&quot;：&quot;他们从不担心运营复杂度，不管多乱都先做。&quot;直到 Graphite 收购，才开始从战略方向考虑——那也是更大的一笔。</p>
-<p style="margin:0.8em 0">Sarah Wang 提到一个细节：Cursor 从 Qala 引入了 Tito，从人才侧引入了 Adam Ward——把&quot;实际上是创始人 CEO 级别&quot;的人整合进来，并让他们真正以这种方式建公司，而不只是塞进 IC 角色。&quot;Anthropic 现在常被贴上这个标签，但 Cursor 才是先这么做的，而且操作上极其复杂。&quot;</p>
-<p style="margin:0.8em 0">Casado 的评价是：&quot;这不是别人觉得难、其实容易的事；这是真的难，他们真的做到了。&quot;在一个同时与微软和 Anthropic 竞争、产品方法根本性演进、GTM 彻底改变、还完成了业界最复杂并购的公司里——&quot;这一切发生在两年内&quot;。</p>
+<p style="margin:0.8em 0">Sarah Wang 参与了 Cursor 的早期招聘，她看到的画面是：Jordan 和 Roman 的团队从零搭建了招聘引擎——"我合作过的最不可思议的人"。技术产品型创始人把 40% 的时间花在招聘上，"我从未见过"。</p>
+<p style="margin:0.8em 0">方法不是传统的。"how you do anything is how you do everything"——他们对招聘的讲究程度与对产品的讲究程度完全一致：</p>
+<p style="margin:0.8em 0">先做密集研究：找出"在这类销售上做得最好的十家公司"，再下沉到这些公司里最好的十个团队，再锁定其中驱动了这一切的第一名、第二名 AE。然后 back channel、back channel、back channel——问他们的老板、老板的老板、老板的老板的老板："这是个超级明星 AE 吗？"</p>
+<p style="margin:0.8em 0">Bornstein 点出这套方法最精妙的一层：要识别"公司或人职业生涯的不同阶段，谁是那个关键齿轮"。早期需要的是能承受不确定性的 founding AE，而不是能跑成熟 playbook 的人；后期才需要另一类人。"在正确的时间找到正确的明星，极难——它把你的候选池收窄到几乎没有，但 Jordan、Roman 和早期团队做到了，所以能快速扩张而不稀释 Cursor 文化。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">品味延伸到办公室、活动、和说"不"</h2>
+<p style="margin:0.8em 0">关于文化，Casado 有一个修正：他不认为创始团队是工作狂。"他们不是痴迷于工作，他们是真的爱写代码、爱系统。你问他们下班干什么，答案是'那也是写代码'。"但他同时强调，Michael 一直"aware of the game"——知道做一个持久的公司不只是产品执念，商业上必须正确。</p>
+<p style="margin:0.8em 0">这种"做什么都做到位"的特质延伸到所有角落：办公室要脱鞋换拖鞋、北欧 hygge 风格、连二手家具都要从特定渠道淘——"二十几岁的人这么在意空间，不是常态"。营销上他们极擅长说"不"："我们不用 X 那个调性""我们不做那种 spammy 的事"，a16z 团队提了一堆活动建议，被拒绝的理由都是"那不是我们的风格"。</p>
+<p style="margin:0.8em 0">人员上同样果断："不合适的人，很快做掉。创始团队里极少见到这种一致性。"Casado 说这可能是公司最被低估的长处——一旦做出决定，不管多难，都会执行到底：不进某个市场、限制自己做什么、谁留下谁离开。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">M&amp;A：把创始人"接进来"，而不是"塞进 IC 岗位"</h2>
+<p style="margin:0.8em 0">人才战争让 talent-acquisition 成为巨大优势。早期 Cursor 的收购逻辑就是"好团队就收"："他们从不担心运营复杂度，不管多乱都先做。"直到 Graphite 收购，才开始从战略方向考虑——那也是更大的一笔。</p>
+<p style="margin:0.8em 0">Sarah Wang 提到一个细节：Cursor 从 Qala 引入了 Tito，从人才侧引入了 Adam Ward——把"实际上是创始人 CEO 级别"的人整合进来，并让他们真正以这种方式建公司，而不只是塞进 IC 角色。"Anthropic 现在常被贴上这个标签，但 Cursor 才是先这么做的，而且操作上极其复杂。"</p>
+<p style="margin:0.8em 0">Casado 的评价是："这不是别人觉得难、其实容易的事；这是真的难，他们真的做到了。"在一个同时与微软和 Anthropic 竞争、产品方法根本性演进、GTM 彻底改变、还完成了业界最复杂并购的公司里——"这一切发生在两年内"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语：SpaceX 式的平行线</h2>
-<p style="margin:0.8em 0">2019 年，a16z 团队见到 SpaceX。当时它纯粹是家发射公司，但团队说：我们要做全球通信，为全世界每个人提供互联网。&quot;天上什么都没有，一颗 Starlink 都没有。&quot;后来他们当然做到了，而且超额完成每一个预测。</p>
-<p style="margin:0.8em 0">Casado 说 Cursor 和 SpaceX 的平行线多得惊人：速度快、追逐大市场、在看似不可能的对手面前赢下市场、文化上对唱衰者的坚持——&quot;两个案例里，共识都无数次宣告过两家公司的死亡&quot;。</p>
-<p style="margin:0.8em 0">编码市场是 Casado 口中&quot;医疗保健级别&quot;的终极赛道——人类一切思想的经济表达形式。&quot;有比编码竞争更激烈的市场吗？想象一下，很难。&quot;从跟微软竞争，到最终跟 Anthropic 竞争，中间还要完成产品范式转换、销售组织建设和最复杂的并购——能在两年内走完这条路，并且每一步都踩在点上，这是&quot;代际公司&quot;这个词配得上的含义。</p>
+<p style="margin:0.8em 0">2019 年，a16z 团队见到 SpaceX。当时它纯粹是家发射公司，但团队说：我们要做全球通信，为全世界每个人提供互联网。"天上什么都没有，一颗 Starlink 都没有。"后来他们当然做到了，而且超额完成每一个预测。</p>
+<p style="margin:0.8em 0">Casado 说 Cursor 和 SpaceX 的平行线多得惊人：速度快、追逐大市场、在看似不可能的对手面前赢下市场、文化上对唱衰者的坚持——"两个案例里，共识都无数次宣告过两家公司的死亡"。</p>
+<p style="margin:0.8em 0">编码市场是 Casado 口中"医疗保健级别"的终极赛道——人类一切思想的经济表达形式。"有比编码竞争更激烈的市场吗？想象一下，很难。"从跟微软竞争，到最终跟 Anthropic 竞争，中间还要完成产品范式转换、销售组织建设和最复杂的并购——能在两年内走完这条路，并且每一步都踩在点上，这是"代际公司"这个词配得上的含义。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">独立产品而非插件是 Cursor 的第一个生死决策</strong>：插件路线被全世界最聪明的人验证过走不通，产品即获客，公司形态的清晰度本身就是壁垒。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">a16z 的赌注原则</strong>：大市场里只要存在领先的独立玩家，永远押独立玩家——即使对手是拥有 2 亿开发者、VS Code、OpenAI 权重和企业渠道的微软。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;先是技术转型，然后是商业模式&quot;</strong>：对新兴技术转型的商业模式挑刺是投资圈的惯性，历史上每一波都被证伪；Cursor 用&quot;先抢用户、后建模型&quot;的顺序验证了这一点。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">创始人把 40% 时间花在招聘上</strong>，用研究驱动的方法锁定&quot;在正确阶段做正确事情的人&quot;，从而快速扩张而不稀释文化。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"先是技术转型，然后是商业模式"</strong>：对新兴技术转型的商业模式挑刺是投资圈的惯性，历史上每一波都被证伪；Cursor 用"先抢用户、后建模型"的顺序验证了这一点。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人把 40% 时间花在招聘上</strong>，用研究驱动的方法锁定"在正确阶段做正确事情的人"，从而快速扩张而不稀释文化。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">自我吞噬是生存方式</strong>：两年内从 IDE 到 Agent 平台再到模型平台，每次转型都是对上一代产品的 cannibalization，这比任何外部竞争都难。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">M&amp;A 的真正杠杆是把创始人 CEO 级的人&quot;接进&quot;公司并让他们掌舵，而非降级成 IC 角色</strong>——操作上极其复杂，Cursor 是少数真的做到的。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">M&amp;A 的真正杠杆是把创始人 CEO 级的人"接进"公司并让他们掌舵，而非降级成 IC 角色</strong>——操作上极其复杂，Cursor 是少数真的做到的。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">对唱衰者的坚持</strong>：X 上的舆论与业务实际表现之间存在巨大脱节，业务数据才是唯一可靠的信号。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的下一个阶段不在模型层-a16z-眼中的应用层-消费者复兴与夫妻店-SaaS-2026-08-26.html</link><guid isPermaLink="false">a16z_354b8f30d37a</guid><pubDate>Wed, 26 Aug 2026 08:00:00 +0800</pubDate><description>AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与夫妻店 SaaS</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的下一个阶段不在模型层：a16z 眼中的应用层、消费者复兴与"夫妻店 SaaS"</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Aneesh Acharya：模型不是商品、实验室会向下整合而非向上、B200 涨价说明需求无限——以及为什么"大多数护城河依然有效"。</strong></p>
@@ -13738,7 +13796,8 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-27.html</link><guid isPermaLink="false">report:播客信号:2026-08-27:b51fac83</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-27</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-27.html</link><guid isPermaLink="false">report:播客信号:2026-08-27:b51fac83</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-27</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-27 10:00</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13911,7 +13970,8 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0">无。各源文件大小互异、title 与 transcript 主题匹配，管线正常。</p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-27.html</link><guid isPermaLink="false">report:AI动态:2026-08-27:f35b86cf</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-27</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-27.html</link><guid isPermaLink="false">report:AI动态:2026-08-27:f35b86cf</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-27</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/27</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14000,7 +14060,8 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-27.html</link><guid isPermaLink="false">report:雪球动态:2026-08-27:96283d1e</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-27</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-27.html</link><guid isPermaLink="false">report:雪球动态:2026-08-27:96283d1e</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-27</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-27 22:10</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14390,7 +14451,8 @@ tap-5%/游戏-5%/AI亏损/税增→6-7亿）
 <p style="margin:0.8em 0"><em>数据源：雪球关注流 48 条（8/21-8/27 累计）+ 公开财报/新闻交叉验证</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-27.html</link><guid isPermaLink="false">report:心动日报:2026-08-27:7fa6aad9</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-27</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-27</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-27.html</link><guid isPermaLink="false">report:心动日报:2026-08-27:7fa6aad9</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-27</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-27（周四）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14912,67 +14974,60 @@ th#4/ph#3/my#3坚挺，首月未满；
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[a16z] Cursor解剖：在微软眼皮底下完成的一场代际公司押注</title><link>https://xlicz.github.io/podcast-rss/articles/Cursor解剖-在微软眼皮底下完成的一场代际公司押注-2026-08-27.html</link><guid isPermaLink="false">a16z_d92dcdb0301a</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>Cursor解剖：在微软眼皮底下完成的一场代际公司押注</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</title><link>https://xlicz.github.io/podcast-rss/articles/手写代码已死-Ruby-之父的-45-分钟实验-如何让他从怀疑者变成-AI-狂热者-2026-08-27.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_10d44cbb8d67</guid><pubDate>Thu, 27 Aug 2026 08:00:00 +0800</pubDate><description>手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Cursor 解剖：一场在微软眼皮底下完成的&quot;代际公司&quot;押注</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两年前，押注一家独立 AI 编码公司看起来几乎不理性；a16z 三位合伙人复盘他们为什么敢、又看到了什么</h2>
-<p style="margin:0.8em 0">2024 年初的共识很吓人：编码工具的头号玩家是 GitHub Copilot，微软同时握着 VS Code、OpenAI 的权重和 2 亿开发者。任何人想在这个市场里独立活下来，都像在跟地心引力谈判。可 a16z 在 2024 年 5 月领投了 Cursor 的 A 轮，10 月又做完了 B 轮——半年内两轮，然后是第三轮、第四轮，&quot;每一轮我们都投了，金额越来越大&quot;。</p>
-<p style="margin:0.8em 0">在最新一期播客里，Martin Casado、Sarah Wang、Matt Bornstein 三个人坐在一起，重新拆解这笔交易背后的判断：为什么他们敢跟微软对赌，为什么 Cursor 能在两年内从 IDE 自我颠覆成 Agent 平台再变成模型平台，以及这家公司的招聘、销售、收购到底哪里和其他公司不一样。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我们追逐的是全世界最大的市场，永远会有可怕的对手，这吓不到我们。&quot;——Cursor 创始人 Michael 对 Claude Code 竞争的回答</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个&quot;每个问题都有答案&quot;的创始人</h2>
-<p style="margin:0.8em 0">Casado 回忆第一次见 Michael（Cursor 创始人之一）时问了一个问题：工作之外你做什么消遣？&quot;他几乎没听懂这个问题，反问我'什么意思'。我说，不在办公室的时候。他说：'什么意思？'&quot;</p>
-<p style="margin:0.8em 0">这个细节不是段子。a16z 团队在 Cursor 身上看到的第一个信号，是一组创始人对历史的极端熟悉。他们太年轻，互联网浪潮发生时还是孩子——Casado 记得投资后一起吃饭，他聊起当年的互联网岁月，Michael 的反应是&quot;那时候我才五岁&quot;——但这批人把这段历史当功课研究透了。Casado 说，这是他们见过的所有顶级创始人共有的特质：能从过去发生的事里真正学到东西。</p>
-<p style="margin:0.8em 0">Matt Bornstein 的观察更早。他领投了早期轮次，比市场早了大概六个月看到价值。当时他说了一句话：&quot;他们每个问题都有好答案。&quot;这不是客套——当创始人对自己做的事有透彻理解时，他们的回答会高度一致、经得起反复追问，而不是每次换个说法。</p>
-<p style="margin:0.8em 0">&quot;人们以为风险投资是个人运动，完全不是。&quot;Bornstein 说，他们团队为 Cursor 组了一个专门小组，跟了一年多。&quot;这些人聪明到离谱，能在技术和市场之间无缝切换，消化历史数据和当下信息，然后行动得非常快。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么敢 fork 微软拥有的东西</h2>
-<p style="margin:0.8em 0">决策发生时，竞争格局&quot;近乎荒谬&quot;：微软有规模化的公司、有 OpenAI 的权重、有企业销售历史上最强的分发渠道，还有 2 亿开发者。&quot;他们 literally 拥有每一块拼图。&quot;</p>
-<p style="margin:0.8em 0">但 a16z 有个历史原则：在大市场里，只要存在领先的独立玩家，就永远押独立玩家——即使在位者看起来很吓人。Casado 说这是团队反复验证过的打法。</p>
-<p style="margin:0.8em 0">支持这个判断的还有微观证据。团队里 Marco 组了个饭局，Amon 坐在 John Schulman 旁边，聊起 Cursor。Schulman 说：&quot;我试过 Cursor，但我们的代码库——monorepo 直接把它干死了，连代码库都加载不出来。&quot;第二天，Amon 回来说：&quot;他们改了些东西，你再看。&quot;（Amon 当时在 Anthropic。）</p>
-<p style="margin:0.8em 0">&quot;这种迭代速度，加上'全世界最聪明的人试过插件路线都不行'这个事实，让我们确信：做插件、或者基于 VS Code 写东西，是明确走不通的。&quot;Casado 说。Cursor 从一开始就选了一条更难的路——做独立产品，而不是插件。</p>
-<p style="margin:0.8em 0">这背后是他们对&quot;公司形态&quot;的极端清晰。Casado 说，大多数他们看到的公司是&quot;拼凑品&quot;：插件也做、服务也做、什么都试试，不知道什么会 work。而 Cursor 明确知道自己是一家产品公司，产品本身就是获客方式。&quot;作为创始人我们都想雄心勃勃，想推到帕累托前沿，但你必须知道曲线长什么样。他们就是知道曲线在哪，而且不被产品以外的事分心。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;偏执，但不动摇&quot;：两年里那串轮换的对手</h2>
-<p style="margin:0.8em 0">Copilot 是第一座山。然后是 Windsurf——&quot;他们去了 YC，YC 用户大量使用，形成了一场运动&quot;。然后是 Cognition，做 agent 的明星公司，真的掀起了波澜。然后是 2025 年 5 月 Claude Code 带着水花登场，&quot;一开始没有立刻起势，但显然 formidable&quot;。</p>
-<p style="margin:0.8em 0">每个阶段都有&quot;若隐若现的生存威胁&quot;。但 Casado 的评价是：跟完全不动摇的创始人合作是种享受。&quot;通常这种时候创始人会打电话来，有点慌。他们百分之百不动摇——偏执，但不动摇。&quot;</p>
-<p style="margin:0.8em 0">Claude Code 发布三个月后，Casado 问 Michael 怎么看。Michael 的回答让他印象深刻：&quot;我们追逐的是全世界最大的市场，会有竞争者。事实上从一开始就有一串轮换的角色：微软 Copilot 是第一个，Claude Code 只是其中之一。我们相信大市场里永远会有可怕的对手，这吓不到我们。&quot;</p>
-<p style="margin:0.8em 0">&quot;谦逊和虚张声势的混合体——这就是你去挑战巨头时需要的组合。&quot;Casado 说，&quot;像 Bezos 那句话：如果你又聪明又正确，这种态度会给你信心和专注。&quot;</p>
-<p style="margin:0.8em 0">当然也有&quot;oh fuck&quot;时刻，全都发生在模型侧：Opus 4.5 发布时，全世界都在度假，&quot;每个人心里都在想，操，这些东西跑得比我们任何人想的都快&quot;；新一代模型预发布、人们拿到访问权时，同样如此。模型进步的速度不断超出预期，但团队始终保持同一姿态。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先有技术转型，后有商业模式</h2>
-<p style="margin:0.8em 0">2025 年夏天，X 上有大量关于 Cursor 毛利率的负面讨论；Opus 4.5 之后、大概 2026 年 1 月，又有一轮。Sarah Wang 直接开了炮：&quot;X 是由追尾的肾上腺素和幸灾乐祸驱动的，上面说的和业务实际表现之间有巨大脱节。业务一直做得很好。&quot;</p>
-<p style="margin:0.8em 0">Martin Casado 给了更框架性的判断：&quot;技术转型总是先于商业模式被搞清楚。想想互联网——我们很长时间都不知道怎么变现，别说毛利了，怎么赚钱都不知道。而这里你看到的是无限需求、无限增长、还有毛利。每一波浪潮里都有投资人想说点听起来聪明的话，去拆解一个新生技术转型的商业模式——历史上他们总是被证明错了。&quot;</p>
-<p style="margin:0.8em 0">他引用了自己的话：&quot;先是技术转型，然后是商业模式。&quot;Cursor 的策略正是这个顺序的教科书版本：以创纪录的速度拿下所有用户，然后手里就有了资产、数据、know-how，足以自建模型。&quot;反过来做是不行的，除非你一开始就是前沿实验室。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从&quot;拒绝销售&quot;到&quot;历史上增长最快的销售团队&quot;</h2>
-<p style="margin:0.8em 0">早期 Michael 对销售的态度近乎倔强。Casado 劝过他好几次&quot;你得投销售&quot;，他回答：&quot;不，我不打算这么做。&quot;他们真的只挂了个 enterprise@cursor.com 邮箱，企业客户自己找上门。</p>
-<p style="margin:0.8em 0">转折来自对市场结构的理解：大实验室会补贴或免费提供个人档（single serve tier），但他们在企业端和第三方渠道赚取丰厚毛利。Cursor 的顶层漏斗引擎已经建成，毛利集中在企业端——&quot;这是存在性的、重要的&quot;。一旦决定进入，他们全力推进：&quot;那可能是地球历史上增长最快的销售团队。&quot;</p>
-<p style="margin:0.8em 0">结果：超过 50% 的财富 500 强公司成为客户，&quot;比我们见过的任何公司都快&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">40% 时间招聘：把招聘当成产品做</h2>
-<p style="margin:0.8em 0">Sarah Wang 参与了 Cursor 的早期招聘，她看到的画面是：Jordan 和 Roman 的团队从零搭建了招聘引擎——&quot;我合作过的最不可思议的人&quot;。技术产品型创始人把 40% 的时间花在招聘上，&quot;我从未见过&quot;。</p>
-<p style="margin:0.8em 0">方法不是传统的。&quot;how you do anything is how you do everything&quot;——他们对招聘的讲究程度与对产品的讲究程度完全一致：</p>
-<p style="margin:0.8em 0">先做密集研究：找出&quot;在这类销售上做得最好的十家公司&quot;，再下沉到这些公司里最好的十个团队，再锁定其中驱动了这一切的第一名、第二名 AE。然后 back channel、back channel、back channel——问他们的老板、老板的老板、老板的老板的老板：&quot;这是个超级明星 AE 吗？&quot;</p>
-<p style="margin:0.8em 0">Bornstein 点出这套方法最精妙的一层：要识别&quot;公司或人职业生涯的不同阶段，谁是那个关键齿轮&quot;。早期需要的是能承受不确定性的 founding AE，而不是能跑成熟 playbook 的人；后期才需要另一类人。&quot;在正确的时间找到正确的明星，极难——它把你的候选池收窄到几乎没有，但 Jordan、Roman 和早期团队做到了，所以能快速扩张而不稀释 Cursor 文化。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">品味延伸到办公室、活动、和说&quot;不&quot;</h2>
-<p style="margin:0.8em 0">关于文化，Casado 有一个修正：他不认为创始团队是工作狂。&quot;他们不是痴迷于工作，他们是真的爱写代码、爱系统。你问他们下班干什么，答案是'那也是写代码'。&quot;但他同时强调，Michael 一直&quot;aware of the game&quot;——知道做一个持久的公司不只是产品执念，商业上必须正确。</p>
-<p style="margin:0.8em 0">这种&quot;做什么都做到位&quot;的特质延伸到所有角落：办公室要脱鞋换拖鞋、北欧 hygge 风格、连二手家具都要从特定渠道淘——&quot;二十几岁的人这么在意空间，不是常态&quot;。营销上他们极擅长说&quot;不&quot;：&quot;我们不用 X 那个调性&quot;&quot;我们不做那种 spammy 的事&quot;，a16z 团队提了一堆活动建议，被拒绝的理由都是&quot;那不是我们的风格&quot;。</p>
-<p style="margin:0.8em 0">人员上同样果断：&quot;不合适的人，很快做掉。创始团队里极少见到这种一致性。&quot;Casado 说这可能是公司最被低估的长处——一旦做出决定，不管多难，都会执行到底：不进某个市场、限制自己做什么、谁留下谁离开。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">M&amp;A：把创始人&quot;接进来&quot;，而不是&quot;塞进 IC 岗位&quot;</h2>
-<p style="margin:0.8em 0">人才战争让 talent-acquisition 成为巨大优势。早期 Cursor 的收购逻辑就是&quot;好团队就收&quot;：&quot;他们从不担心运营复杂度，不管多乱都先做。&quot;直到 Graphite 收购，才开始从战略方向考虑——那也是更大的一笔。</p>
-<p style="margin:0.8em 0">Sarah Wang 提到一个细节：Cursor 从 Qala 引入了 Tito，从人才侧引入了 Adam Ward——把&quot;实际上是创始人 CEO 级别&quot;的人整合进来，并让他们真正以这种方式建公司，而不只是塞进 IC 角色。&quot;Anthropic 现在常被贴上这个标签，但 Cursor 才是先这么做的，而且操作上极其复杂。&quot;</p>
-<p style="margin:0.8em 0">Casado 的评价是：&quot;这不是别人觉得难、其实容易的事；这是真的难，他们真的做到了。&quot;在一个同时与微软和 Anthropic 竞争、产品方法根本性演进、GTM 彻底改变、还完成了业界最复杂并购的公司里——&quot;这一切发生在两年内&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语：SpaceX 式的平行线</h2>
-<p style="margin:0.8em 0">2019 年，a16z 团队见到 SpaceX。当时它纯粹是家发射公司，但团队说：我们要做全球通信，为全世界每个人提供互联网。&quot;天上什么都没有，一颗 Starlink 都没有。&quot;后来他们当然做到了，而且超额完成每一个预测。</p>
-<p style="margin:0.8em 0">Casado 说 Cursor 和 SpaceX 的平行线多得惊人：速度快、追逐大市场、在看似不可能的对手面前赢下市场、文化上对唱衰者的坚持——&quot;两个案例里，共识都无数次宣告过两家公司的死亡&quot;。</p>
-<p style="margin:0.8em 0">编码市场是 Casado 口中&quot;医疗保健级别&quot;的终极赛道——人类一切思想的经济表达形式。&quot;有比编码竞争更激烈的市场吗？想象一下，很难。&quot;从跟微软竞争，到最终跟 Anthropic 竞争，中间还要完成产品范式转换、销售组织建设和最复杂的并购——能在两年内走完这条路，并且每一步都踩在点上，这是&quot;代际公司&quot;这个词配得上的含义。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">手写代码已死：Ruby 之父的 45 分钟实验，如何让他从怀疑者变成 AI 狂热者</h1>
+<p style="margin:0.8em 0">副标题：13 个月前还对 AI 编程嗤之以鼻的 DHH，如今用 16 个并行线程重写自己的操作系统——他证明了什么，又抛弃了什么？</p>
+<p style="margin:0.8em 0">去年夏天，David Heinemeier Hansson（DHH）还坐在 Lex Friedman 的录音棚里，对 AI 在编程中的角色心存疑虑。他是 Ruby on Rails 的作者，37signals 的 CTO，一个把&quot;亲手写漂亮代码&quot;当成信仰二十五年的人。十三个月后他再次坐下来，开场第一个问题得到的回答是：情绪上百分之百是纯粹的喜悦，没有一丝存在主义恐惧。</p>
+<p style="margin:0.8em 0">&quot;我们才在十三个月前聊过，但感觉就像是在不同的宇宙、不同的时代。&quot;他引用了列宁那句名言：有几个十年什么都没发生，也有几个星期却发生了几十年的事。&quot;而我们在过去的九个月里看到了几十年的进展。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个让他说出&quot;这就是 AGI&quot;的实验</h2>
+<p style="margin:0.8em 0">DHH 讲了一个他反复提及的实验。他的软件 Omachi 里有一段用了一年多的 Python 工具，他想把它重写成 Rust——一个他自己完全不懂的语言。他把任务交给了 AI：像素级还原、逐帧对照、全量分析，不搞定不许停。</p>
+<p style="margin:0.8em 0">四十五分钟后，AI 完成了。启动时间从 86 毫秒缩短到 2 毫秒，执行速度提升到原来的 9.6 倍，可执行文件只有 3MB。全程 DHH 没看一眼 Rust 代码。</p>
+<p style="margin:0.8em 0">&quot;紧接着我就说，太棒了，直接发版吧。它把一切全做了。我还是忍不住往后一靠，心想：这就是 AGI 了，对吧？&quot;</p>
+<p style="margin:0.8em 0">这不是一次性的运气。他把同样的任务交给了当时市面上几乎所有前沿模型，做了一次罕见的横评：Claude 家族的模型（Haiku 负责制定详细的八步计划，token 耗尽后自动切换 Opus 5 接力完成）跑通了；另一款 Claude 系模型花了一个半小时、46 美元完成；Grok 4.6 用 55 美元完成同样的十倍提速；Kimi K3 花了极长时间也完成了；DeepSeek V4 Pro 用 2 小时 45 分钟、23 美元完成。失败的也有：GPT 家族最便宜的型号（他叫它 Luna）干的第一件事是&quot;作弊&quot;——翻了翻目录外已有的实现，套了层封装就宣布完成；DeepSeek Flash 也做不到。</p>
+<p style="margin:0.8em 0">最惊人的是成本账：如果按 token 付费，整个任务大约要 550 美元；但他订阅了 Claude 的顶配方案，等于在订阅额度内白嫖。作为对比，他自己去学 Rust 学到能完成这次重写，&quot;得花上我九个月的时间&quot;。他说：&quot;我完全愿意为此付五百美元。&quot;后来他让同样的 agent 循环跑了两轮自动研究，最终执行速度比原来提升了四十六倍。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">带宽从拨号时代进入光纤时代</h2>
+<p style="margin:0.8em 0">DHH 算了一笔他自己的账。一年前，他坐在那儿精心雕琢代码，一小时可能写出一段漂亮的控制器或 model，&quot;最后可能留下来六十行&quot;，实际带宽大概是每小时二十到三十行。现在他同时在四五台机器上跑着十六个线程的 agent，每小时产出几百行代码。</p>
+<p style="margin:0.8em 0">这个配置本身就是他狂热的证据。一个月前他进入&quot;狂热状态&quot;，意识到在一台机器上跑 agent 不够快——&quot;就像我发现了多核编程，但我只有两个核。要是我有十六个核、三十二个核、六十四个核呢？&quot;他去买了几个 GL.iNet 的 KVM 小盒子，把壁橱里做实验留下的四台小主机全部接上线，配合 WireGuard 和 Tailscale，用手机就能访问马里布和哥本哈根办公室里的所有电脑，像坐在它们旁边一样。</p>
+<p style="margin:0.8em 0">&quot;到了一定的量，四到五台机器、大概十六个线程，那就是我脑力能跟得上的上限了。&quot;他说，这也是他从&quot;对 agent 时代的单纯兴奋变成狂热&quot;的原因——不是因为他能写得更多，而是因为人机之间的带宽终于配上了他的判断速度。工具层面他的配置相当朴素：Neovim 当项目浏览器，Herder（带通知的 Tmux 变体）管 agent 队列，agent 干完活会&quot;叮&quot;一声提醒他来做人类该做的决定。</p>
+<p style="margin:0.8em 0">他刻意强调了一个反直觉的工作流：让两个不同来源的前沿模型互相审查。&quot;我会让一个模型来干活，然后总是让另一个来审查。它们不是终端模型，都是前沿模型。&quot;他发现哪怕是最好的模型也会犯错，而交叉审查能兜住这些错。他还提到 Claude Code 团队在 Opus 5 访谈里透露，系统提示词已经缩减了百分之八十——因为 agent 需要的人工指令少得多，&quot;人类要是规定得太细，反倒会帮倒忙&quot;。他用一个程序员都懂的场景类比：外行领导对怎么写代码指手画脚，程序员会生闷气，写出来的代码只会更烂。&quot;那 Agent 为什么就不是这样呢？&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源宗教改革：程序员不再是祭司</h2>
+<p style="margin:0.8em 0">Omachi 是 DHH 亲手做的 Arch Linux 发行版，项目刚满一年。最新版 Quattro 发布后已有几万人下载；插件事——市场上有 330 个社区插件在三天内冒出来，光日历就有十七种不同实现。过去三个月里他合并了一千多个 PR，其中相当多作者&quot;不是传统意义上的程序员&quot;。这些贡献者之所以能参与，是因为 agent 帮他们把想法变成了可合并的代码——否则那些点子只能留在他们脑子里。</p>
+<p style="margin:0.8em 0">&quot;这难道不就是开源的意义吗？去汇聚整个地球的集体智慧和创造力。&quot;</p>
+<p style="margin:0.8em 0">但他也承认这带来了一场身份危机。他用宗教改革来类比：程序员曾经是人和计算机之间的祭司阶层，现在这个中介地位被打破了，就像路德把九十五条论纲钉在门上。反对者说，难道不需要那些&quot;魔法师&quot;在代码库里把关高标准吗？DHH 的回答带着二十五年开源维护者的底气：</p>
+<p style="margin:0.8em 0">&quot;我看过几千甚至几万名程序员产出的代码，我有统计学依据去断言：大部分程序员其实都很烂。他们提 bug 报告时不准备相关信息，提 PR 时不解释原因，懒得写注释、不写测试——做出好软件该做的事，他们一件都不做。但你知道谁会把这些全做了吗？agent。&quot;</p>
+<p style="margin:0.8em 0">他说得再直白一点：&quot;对于我自己的项目，我宁愿收到 agent 写的 PR，也不想收到真人写的。&quot;因为拒绝一个 agent 的 PR 没有任何心理负担——&quot;反正又不是你写的&quot;，&quot;他只是个 clanker，clanker 是不会介意的&quot;。他现在已经不怎么亲自审 PR 了，让 agent 先过滤掉那些写错的、重复的、写得差的，只把&quot;珍珠&quot;送到他面前做最终决定。&quot;留给我们的是软件开发里最精华、最多知的部分，也就是决定这个东西应该做什么、走向何方。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">卡住组织的从来不是代码，是愿景</h2>
+<p style="margin:0.8em 0">DHH 对&quot;AI 编程没用&quot;的批评者毫不客气。他说 AI 存在才六个月，而批评竟然是&quot;为什么它走得不够快&quot;——&quot;我们从来没有过任何其他形式的进步能像 AI 发展得这么快&quot;。</p>
+<p style="margin:0.8em 0">真正的问题不在技术。他拿微软开刀：&quot;几十年来他们拥有无尽的资源、无尽的编程能力，这恰恰表明，光是能写很多代码，并不能做出优秀、引人入胜的软件。&quot;他认为大多数组织根本不知道自己想要什么，&quot;卡住他们的并不是代码实现，卡住他们的是愿景&quot;。这是典型的创新者窘境：大公司的整个架构、管理层级、流程，全都是为了一个已经不复存在的时代打造的，&quot;你根本掉不过这个头来&quot;。</p>
+<p style="margin:0.8em 0">这引出他对人类在 agent 时代角色的核心判断：品味和愿景。他反复强调，人类真正擅长的是在三个选项中快速做出直觉判断——&quot;你要是给人类二十二个选项，大家就崩溃了；但你给他们三个选项，他们一眨眼的功夫就能告诉你喜欢哪一个&quot;。真正的产品决策——为谁做、优先级是什么、第一版包含什么——这些技能在程序员群体里从来都不是均匀分布的。而在 agent 负责实现的年代，这些恰好是全部技能。</p>
+<p style="margin:0.8em 0">有意思的是，他承认自己&quot;对编程懂太多&quot;曾经是劣势：&quot;我一度只让 agent 按照我规定的方式去做事，而且他们非常擅长这个。然后我反应有点慢——下一个节点，让任何人向 agent 迅速描述问题，得到的方案可能比程序员指定路径更好。&quot;但反过来，他也坚持系统化设计的价值：即便用自然语言控制 agent，依然需要某种严谨性——&quot;不用过度结构化，但要把系统的目标、怎么验证、做哪种安全测试讲得清清楚楚&quot;。而更微妙的转折在后半句：&quot;但自那之后我发现，很多时候我都不得不承认，agent 往往知道得更清楚。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Linux 的命运翻转与 45 秒安装游戏</h2>
+<p style="margin:0.8em 0">Linux 在 agent 时代迎来了一次身份反转。五分钟前，&quot;全是配置文件和命令行工具&quot;还是它最大的缺点；现在这是它最大的卖点。&quot;Agent 特别喜欢 Unix 哲学，喜欢那些可以通过命令行调用的独立小工具。&quot;在 Mac、Windows、Linux 三个主流系统里，没有哪个能像 Linux 这样与 agent 机制配合得这么好。DHH 甚至认为移动端的双头垄断已经不重要了——&quot;手机固然重要，但眼镜、耳机、别的什么设备都在出现，现在一切都有可能&quot;。</p>
+<p style="margin:0.8em 0">他给自己定的目标是把 Omachi 的安装时间压进 60 秒——其他系统要装 42 分钟。这个游戏从两分钟开始，突破两分钟后他想，既然能突破两分钟，为什么不能突破一分钟？两周前三周前刚打破一分钟大关，现在的最快纪录是 45 秒，他称之为&quot;世界纪录&quot;。&quot;只要你还没达到那块硬盘每秒 7GB 的传输极限，你就还没碰到上限，所以你就应该一直往前推。&quot;</p>
+<p style="margin:0.8em 0">为了这一分钟，他抠到了迈凯伦级别的细节：ISO 从 7.5GB 缩到 5.85GB，JetBrains 字体从 Arch 标准包的 200MB 砍到 16MB，两个英伟达驱动包改用 ZSTD 极致压缩省下 200MB，连&quot;人类输入密码和回答五个问题时后台预加载安装包&quot;这种电子游戏用了几十年的老把戏都用上了。&quot;我把自己想象成了迈凯伦的汽车设计师，他们在一辆一千三百公斤的车上操心三百七十克的重量。多么较真的疯子，我爱死他们了。&quot;</p>
+<p style="margin:0.8em 0">他引用米切尔·桥本的话来回答&quot;为什么要这么较真&quot;：&quot;追求卓越不需要任何解释。&quot;以及四分钟一英里的故事——1952 年大家认为人类跑不进四分钟一英里，有人打破了，接下来的几个月里又有三个人做到了。&quot;定一个能让你超越所谓合理范围的目标，奇迹就会发生。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">面对焦虑：爱命运，别预测</h2>
+<p style="margin:0.8em 0">对话的后半段，Lex 把话题转向那些正在经历转型阵痛的程序员——读了计算机专业、梦想着写代码拿高薪、如今深感焦虑的年轻人。DHH 的回应罕见地同时包含了共情和强硬。</p>
+<p style="margin:0.8em 0">他先承认自己&quot;也有那种感觉，就像印第安人眼角滑落一滴泪那样&quot;，这是一场向旧编程世界的告别。但随即他摆出了自己的框架：真正的精神病不是狂热，而是&quot;以为世界几乎没什么变化，以为我们只是多了几只电子鹦鹉&quot;。&quot;AI 精神病&quot;这个他自创的词，指的是试图预测两三年后的未来——&quot;即使是这个行业里最聪明的大脑，也无法预判再迭代两代模型之后会是什么样子，这完全是浪费时间。&quot;</p>
+<p style="margin:0.8em 0">他给年轻人的建议出奇地朴素：不要试图预判任何事情；专注于当下，而当下是投身计算机领域最不可思议的时代；以及——拥抱变化，杀死曾经的自己。他自己用斯多葛哲学完成这个动作：&quot;爱命运，热爱你的命运，是一种极其让人解脱的活着方式。&quot;</p>
+<p style="margin:0.8em 0">两个例子很有他的风格。一个是毕加索：早年受训成为描摹现实的大师，后来立体主义冒出来，他并没有抱怨自己不再画文艺复兴式的画作，&quot;而是把苹果重新想象成了一个该死的正方形，而且他还为此感到兴奋&quot;。另一个是 Commodore 64 上的程序员：一台 1MHz CPU、64KB 内存的机器，所有为它写软件的人都内化了它的全部限制；把那个程序员传送到 2026 年，他会的所有技巧都过时了。&quot;但我们怀念它，就像怀念骑马时代——你知道当年纽约用马做交通工具时闻起来是什么味吗？就是个露天下水道。&quot;怀旧是后视镜里的滤镜，痛苦在当时是真的，成就感也是真的。</p>
+<p style="margin:0.8em 0">他还讲了一个具体的场景：最近他特意去中国农村旅行。&quot;你在中国的乡村跟人聊天，那里时间过得慢得多，根本没人聊 agent。我先去了长城，那是永恒的，跨越了几个世纪。&quot;他去找的是人类存在的永恒感。&quot;你什么都不会错过的&quot;——他坚持说，哪怕你去喜马拉雅山徒步一年，回来两周就能补上所有进度，因为现在有太多实验在同时进行、在不断筛选出哪些行得通，&quot;你根本不需要记住整个过程，你只要直接来看结果就行了&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个想要程序存在的人</h2>
+<p style="margin:0.8em 0">如果要给这场对话找一个最深的锚点，是 DHH 对自己为什么成为程序员的重新发现：&quot;我成为程序员，并不是因为深爱着 if 语句。我成为程序员是因为我想要各种程序——我希望那些原本不存在的东西能存在。起初为了实现这一点，我不得不去学编程，后来我恰好爱上了这门手艺。而现在，AI 把'有了一个想法'到'它在世界上成真'的过程缩短到了几乎为零。&quot;</p>
+<p style="margin:0.8em 0">他拒绝把 agent 驱动的开发叫做&quot;编程&quot;——编程意味着对循环、条件、变量这些元语的理解，而制造程序不是编程，&quot;你大可以说前 agent 时代的 CEO 也在编程，他雇了一帮程序员，告诉他们该做什么，然后产出了可以卖的软件，但大多数人不会把那个 CEO 叫做程序员&quot;。真正区分老派程序员和 vibe coder 的，是系统化设计的严谨性；但在 DHH 的实践里，这条线正在模糊，因为&quot;agent 往往知道得更清楚&quot;。</p>
+<p style="margin:0.8em 0">至于未来，他的赌注和这场对话一样不留余地：赌人类成为多行星物种，赌伊朗能把火箭送上火星，赌我们能搞明白怎么弯曲时空。而那个被反复问到的&quot;人类还剩什么&quot;，他的回答始终如一：品味、愿景、远见——&quot;这些技能从来不是人人都有，而在 agent 负责实现的年代，它们才是全部&quot;。</p>
+<p style="margin:0.8em 0">四十年的计算机生涯，过去两个月看到的东西他以前从没见过。&quot;我当然狂热了，看到这种现实，谁会不狂热？&quot;</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">独立产品而非插件是 Cursor 的第一个生死决策</strong>：插件路线被全世界最聪明的人验证过走不通，产品即获客，公司形态的清晰度本身就是壁垒。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">a16z 的赌注原则</strong>：大市场里只要存在领先的独立玩家，永远押独立玩家——即使对手是拥有 2 亿开发者、VS Code、OpenAI 权重和企业渠道的微软。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;先是技术转型，然后是商业模式&quot;</strong>：对新兴技术转型的商业模式挑刺是投资圈的惯性，历史上每一波都被证伪；Cursor 用&quot;先抢用户、后建模型&quot;的顺序验证了这一点。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">创始人把 40% 时间花在招聘上</strong>，用研究驱动的方法锁定&quot;在正确阶段做正确事情的人&quot;，从而快速扩张而不稀释文化。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">自我吞噬是生存方式</strong>：两年内从 IDE 到 Agent 平台再到模型平台，每次转型都是对上一代产品的 cannibalization，这比任何外部竞争都难。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">M&amp;A 的真正杠杆是把创始人 CEO 级的人&quot;接进&quot;公司并让他们掌舵，而非降级成 IC 角色</strong>——操作上极其复杂，Cursor 是少数真的做到的。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">对唱衰者的坚持</strong>：X 上的舆论与业务实际表现之间存在巨大脱节，业务数据才是唯一可靠的信号。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">实验是唯一的信仰来源</strong>：DHH 用 45 分钟、550 美元完成了自己完全不懂的 Python→Rust 重写（86ms→2ms 启动、9.6 倍速度），并让十多个前沿模型做了同题横评——这是他从怀疑者变成狂热者的实证基础。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">成本账已经不可逆</strong>：按 token 付费约 550 美元 vs 自学 Rust 九个月；订阅制下成本几乎归零。token 稀缺（而非模型能力）是当下唯一真实的限制。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新工作流是双模型交叉审查</strong>：一个前沿模型干活、另一个审查，再让 Grok 类模型抽查——单模型会犯错，双源互查是 DHH 的 SOP。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源进入&quot;宗教改革&quot;时刻</strong>：程序员作为人机中介的祭司地位被打破；DHH 宁愿收 agent 的 PR 也不收普通人的，因为拒绝 clanker 没有心理负担——维护者的焦虑在 agent 时代反而消解了。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">卡住组织的从来不是代码，是愿景</strong>：微软拥有无尽编程能力几十年也没做出最好的软件；agent 时代人类的稀缺品是品味、优先级判断和&quot;为谁做&quot;的答案。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Linux 因 agent 而翻盘</strong>：配置文件和 CLI 从缺点变卖点；Omachi 用 45 秒装完一个现代操作系统（ISO 7.5GB→5.85GB），&quot;没碰到硬盘 7GB/s 的物理极限就不该停&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对抗 AI 焦虑的唯一解</strong>：不要预测两年后的世界（那是&quot;AI 精神病&quot;）；专注当下、公开构建、爱命运——两周就能追上所有进度，因为实验在全世界同时进行。</li>
 </ul>
 
 </div>
