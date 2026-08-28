@@ -1,7 +1,64 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 28 Aug 2026 23:04:49 +0800</lastBuildDate><item><title>[硅谷101] mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</title><link>https://xlicz.github.io/podcast-rss/articles/mRNA的第二战场-人类第一次在三期临床验证疫苗能治癌-2026-08-28.html</link><guid isPermaLink="false">sv101_ca31cc5680d1</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 28 Aug 2026 23:08:17 +0800</lastBuildDate><item><title>[跨国串门儿计划] 企业级销售 15 步全流程：90% 的人照着销售书做错了</title><link>https://xlicz.github.io/podcast-rss/articles/企业级销售-15-步全流程-90--的人照着销售书做错了-2026-08-28.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a86d0f05a34</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>企业级销售 15 步全流程：90% 的人照着销售书做错了</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业级销售 15 步全流程：90% 的人照着销售书做错了</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">破单率超过 35%，说明你的定价太便宜了</h2>
+<p style="margin:0.8em 0">Jen Abel 说这句话的时候没有开玩笑的意思。她做了多年企业级销售，从 Jellyfish 联合创始人做到 State Farm 的企业级销售总经理，是 Lenny's Podcast 三次返场的嘉宾——这一次，她要做的是一件她从没见过其他播客做过的事：把企业级销售的整个生命周期，从第一次约见到签字收款，一步一步完整走一遍。</p>
+<p style="margin:0.8em 0">大多数人以为销售流程是五步：初次沟通、演示、方案、合同、成交。实际上它接近十五步，而大多数人忽略的恰恰是中间那些决定成败的步骤。Jen 给了一个直接戳破幻觉的数字：企业级销售的健康破单率是 25%-35%。从一百个合格线索里成交三十个左右，是正常的。如果你的破单率比这还高，说明你定价太便宜了。</p>
+<p style="margin:0.8em 0">另一个数字更扎心：她估计百分之九十的人做销售的方式完全错了。大家去读销售书、参加销售培训，试图套用别人的打法，从来都行不通。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一步到第三步：约见高管、第一通电话、把演示变成情报战</h2>
+<p style="margin:0.8em 0">整个流程用一个案例贯穿：向 SpaceX 的法务部门卖一个十万美元的方案。Jen 强调，不管卖十万还是一百万美元，流程完全一样。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一步是约到第一次会议，只瞄准两个层级：决策者本人，或离他只有一级的人。</strong> 对法务部门来说，就是首席法务官和 N-1。再往下走，你就面临&quot;传话游戏&quot;的风险——你联系的人根本接触不到预算和高管讨论，你了解到的只是用户价值，而不是高管价值。而一笔十万美元的交易，需要一位高管赞助人签字划拨预算。触达时，你的两三句话必须聚焦在超额收益上：这位高管引入一个全新工具，能发现并释放什么价值？&quot;帮你们缩短任务时间&quot;格局不够大，高管需要的是能向董事会汇报的东西。</p>
+<p style="margin:0.8em 0">这里有一个她称为&quot;前行模式&quot;（pincer）的打法：创始人去联系高管，AE 去联系 N-1，两边同时推进。因为层级只差一级，他们通常会互相拉上对方，你的邮件就从一个陌生人的推销，变成了两个方向都有人呼应的事情。找人本身也有技巧：可以让 OpenAI、Anthropic 的模型做快速扫描找出目标人选，再凭自己的判断核对。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二步是初次沟通电话——所有电话里最重要的一通。</strong> 因为你在定调子：决定了对方怎么看你、多尊重你，以及愿意在第一通电话里告诉你什么信息。越往后推进，他们越会闭口不谈，因为开始感觉像走销售流程了。所以作为销售，你能获取的所有信息优势全在第一通电话里。</p>
+<p style="margin:0.8em 0">做法反直觉：非常随意，什么都不给他们看，不演示、不放幻灯片，就做一场三十分钟的一对一对话。开场白是&quot;我们今天就聊得轻松随意一点，我只想互相做个介绍&quot;。然后一定要让他们先说。他们说得越多，你越能顺藤摸瓜抓住重点。用开放性问题撬开话匣子：&quot;进入 2027 年，相比 2026 年，有什么是需要改变的吗？&quot;&quot;如果成功做到了，内部会是什么样？&quot;&quot;你们手头事情这么多，为什么是现在？&quot;——最后这个问题通常能让他们开始真正引导你，告诉你他们想怎么搭建团队。</p>
+<p style="margin:0.8em 0">前二十分钟收集情报，最后十分钟介绍自己是做什么的。而且——千万别带录音工具。他们不会在可能被录音的情况下展示脆弱，而脆弱的信息恰恰是你最需要的。Jen 说，大概每四次通话里有两到三次存在实质需求，有一次纯粹是成熟度不够——&quot;等你们有机会把那个问题解决掉之后，我很想一年后再来聊聊&quot;。</p>
+<p style="margin:0.8em 0">还有一个纪律：BANT（预算、决策权、需求、时间点）这类销售话术应该留在你自己脑子里，绝不能照着去问客户。沦为同质化最快的方式，就是套用教科书话术。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三步是初次沟通后的跟进——大多数人直接跳过的关键一步。</strong> 大家通常从初次沟通直接跳到产品演示，每个人都想看看你那个厉害的东西。但你的任务是在演示之前，确保对的人都在场，而且演示内容是对的。做法是跟你的内部推动者（champion）再打一个十五分钟的预备电话：根据我们之前的对话，你觉得哪些内容会让团队产生共鸣？演示时讲到这个，你可以在会上问这个问题吗？</p>
+<p style="margin:0.8em 0">这时候你是在跟客户内部的伙伴一起打磨这场演示。你的竞争对手没有一个人在这么做。他们通过这些对话提供给你的情报，现在成了你的超额收益——用 Jen 的话说，这就是你的 alpha，你的竞争对手拿不到的信息优势。做大企业客户时，你必须假设自己永远面对竞争对手：对方什么都不做、某个竞品、或既有的老牌厂商，大概率是后者。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">演示与试用：只展示 20% 的功能，48 小时试用期缩短两周周期</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">正式演示前，先弄清楚有哪些人参加、他们关心什么、对你来说是雷区的是什么。</strong> 直接问：&quot;你们团队平时觉得什么样的演示算做得好？讨论三十分钟、演示十分钟，还是讨论十分钟、产品里走四十分钟？&quot;到了演示那天，一定会有从没参加过任何沟通的新面孔——你的任务是先退一步重新开头：我们是谁、为什么做这件事，完全站在他们的语境里讲。他们不知道你已经跟这帮人聊过很多轮、摸清了所有痛点，只觉得&quot;这简直就是专门为我们做的&quot;。</p>
+<p style="margin:0.8em 0">演示本身要克制：百分之八十的价值来自百分之二十的功能，而你已经在之前的沟通里摸清了那百分之二十。除非有特殊原因，千万别什么都演示。大企业会说&quot;我不知道要不要花这么多钱买一个一半功能都用不上的工具&quot;，你之前所有努力就全白费了。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">演示一结束，立刻发短信给内部推动者：我能在五分钟后给你打个电话吗？</strong> 趁热复盘，要最直接的真实反应：你觉得效果怎么样？有没有谁是我们需要多花时间的？组织里总有人想把单子搅黄，你必须尽量防住这一点。演示后的这通电话，是所有人都忽略、但决定成交概率的一步。</p>
+<p style="margin:0.8em 0">试用期同样有讲究。Jen 的做法是只放三到四个人进去，用两三天（48-72 小时），并且明确告诉他们进去做哪三项具体任务、一起定义什么叫成功——绝不只是&quot;登录随便逛逛&quot;。别把你的高管放进产品里，他们不是使用者。两三天就能拿到价值，能把销售周期缩短两周。如果产品需要深度对接、一个月才能体现价值，那就收费，然后在后续推进中抵扣回去——客户愿意付费本身就是极其重大的信号。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定价与合同：采购部门是唯一能给你钱的人</h2>
+<p style="margin:0.8em 0">定价的时机很讲究：尽量忍住别谈价格，直到演示之后。演示完、试用期过了、大家都兴奋了，再谈价格。如果客户追着要，给个大致范围——Jen 的语境里，这个范围大约是一百五十到两百五十（K）之间——但要跟内部推动者一对一地谈：你打算怎么为这个价格辩护？我怎么帮你做一页支持方案的幻灯片？如果他说&quot;我不知道自己能不能全力争取&quot;，别主动打折，把问题抛回去：&quot;我需要你帮我出出主意，怎么把这事儿谈成。&quot;他可能会回来说&quot;能不能少两万&quot;，而你心里知道，你本来准备让的比这多得多。不要自己跟自己砍价。</p>
+<p style="margin:0.8em 0">定价应该基于你的销售周期：如果能九十天做成一笔十万的单子，就一直这么做；如果做成一笔要九个月，你就应该收二十五万、三十万。</p>
+<p style="margin:0.8em 0">合同阶段有三个关键动作。第一，发 Word 文档，千万别发 PDF——大公司的法务和采购每次都要做合同修订，只有 Word 能改。第二，在试用期前就倒推出签约时间节点，给个&quot;在这个日期前签就有额外优惠&quot;的甜头，制造紧迫感。第三，采购部门通常是个三十天左右的流程，而<strong style="font-weight:600">采购部门是唯一能让你拿到钱的人</strong>——业务负责人不能直接给你打钱，钱要从预算里拨出来。所以签完合同之前，千万别开工：不做实施部署，不派人入驻。很多人没意识到，客户内部的人会用采购当借口回避你：&quot;哎呀采购那边卡住了&quot;——但采购的职责不是枪毙交易，只是确保交易符合他们的采购方式。</p>
+<p style="margin:0.8em 0">合同修订来了以后，别来回发邮件。拉上法务开个实时电话会，逐条过一遍：&quot;我们已经完成百分之八十了，重点放在影响业务的事情上，其他不是特别重要的放过去。&quot;对方模板里塞满苛刻条款是常态——比如一千万美元的责任险——这一切都可以谈，但选好你的战场。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字基准：每个阶段流失多少，是能算出来的</h2>
+<p style="margin:0.8em 0">Jen 给了整条漏斗的流失基准，这是整期节目里最值钱的部分之一：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">从合格线索到完成 demo：流失约一半</li>
+<li style="margin:0.3em 0">demo 之后能剩下约 30%</li>
+<li style="margin:0.3em 0">试用期阶段流失约 20%，试用期后有 80% 能成</li>
+<li style="margin:0.3em 0">如果试用期后成交率低于 80%，要么试用期流程有问题，要么前面的资格审查没做清楚——你把客户说得太心动了，产品却没到位</li>
+<li style="margin:0.3em 0">约 25% 丢掉的大单，一年后会像回旋镖一样回来</li>
+<li style="margin:0.3em 0">整个周期应该在九十天内推进完</li>
+</ul>
+<p style="margin:0.8em 0">如果成交率比基准高，别高兴太早——那说明你定价太便宜了。市场会互通消息：&quot;最糟糕的做法就是收某人的朋友五十，收另一个人五十万，他们会交流的。&quot;保持高价、接受一部分客户因为成熟度不够而流失，比压低价格提高破单率健康得多。</p>
+<p style="margin:0.8em 0">签约后的爽感只有五分钟，然后就是下一个单子——以及增购。第二年从十万或二十五万做到三十五万或五十万，才算是真正的企业级销售动作。别忘了专业服务：每家公司都在乎 ARR，但服务依然是企业预算里最大的一项支出——客户本来就习惯为服务付费，预算是永远留着的。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">销售的本质是信息优势，AI 热潮没有改变这一点</h2>
+<p style="margin:0.8em 0">这期节目录到结尾，Lenny 才意识到一件事：整场对话几乎没提 AI——这在现在的播客里太罕见了。Jen 的观点很明确：好多人给客户做 AI 报告、AI 图片、各种花样，但谁都能做这个，一股推销味儿。你的 alpha 在哪儿？她自己写邮件和短信，不用套话模板、不用 AI。邮件是有生命的——别人读邮件的时候，能脑补出你把这些话念出来的样子。</p>
+<p style="margin:0.8em 0">把整个流程串起来看，企业级销售的本质是极其紧凑的项目管理：每一步都在收集情报，每一步都在替客户分担工作（&quot;你要帮他们分担百分之九十九的工作&quot;），每一步都在让客户觉得&quot;是自己在主动买，而不是被人推销&quot;。信息收集得越多，你的演示越像量身定做，你的价格越站得住。</p>
+<p style="margin:0.8em 0">这也是为什么最成功的销售往往不是科班出身的销售。受过的销售培训越多，感觉就越不自然。创始人天然擅长这件事——他们挖掘信息、顺藤摸瓜、用愿景让人兴奋，没人能比他们做得更好。他们只是低估了自己。</p>
+<p style="margin:0.8em 0">以及，AI 短期内取代不了这个角色。这行里有太多东西纯粹是人与人的互动：你跟这个人合得来吗？对方喜不喜欢你的沟通方式？总有人不喜欢，那也没关系——销售是一对一的事，你面对的是一个变量，另一个人。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">企业级销售不是 5 步，是接近 15 步；健康的破单率是 25%-35%，高于 35% 说明定价太便宜</li>
+<li style="margin:0.3em 0">初次沟通电话是最重要的一通：三十分钟、不演示、让对方先说、绝不录音——信息优势全在第一通电话里</li>
+<li style="margin:0.3em 0">演示只展示 20% 的核心功能，演示后 5 分钟立刻找内部推动者复盘；试用期放 3-4 个人进去用 48-72 小时</li>
+<li style="margin:0.3em 0">价格在演示后谈，跟内部推动者一对一谈，绝不自己跟自己砍价</li>
+<li style="margin:0.3em 0">发 Word 别发 PDF；采购部门是唯一能给你钱的人，签完合同前别开工</li>
+<li style="margin:0.3em 0">流失漏斗基准：合格线索到 demo 流失一半，demo 后剩 30%，试用期后 80% 成交</li>
+<li style="margin:0.3em 0">你的 alpha 是竞争对手拿不到的情报，不是 AI 生成的套话邮件</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[硅谷101] mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</title><link>https://xlicz.github.io/podcast-rss/articles/mRNA的第二战场-人类第一次在三期临床验证疫苗能治癌-2026-08-28.html</link><guid isPermaLink="false">sv101_ca31cc5680d1</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">mRNA的第二战场：人类第一次在三期临床验证"疫苗能治癌"</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个数字读懂这次突破：177%</h2>
@@ -14932,7 +14989,7 @@ ph#1(+2)/sg#3(+19)/my#2(+1)/th#3
 （8-11已注销205.8万股）→ 均未触发</li>
 <li style="margin:0.3em 0">慢信号: ③🔴确认——26H1广告-0.4%
 （深度解析裁决: 增长引擎熄火非崩盘，
-他8-27&quot;7月爬出低谷&quot;待9月数据）；
+他8-27"7月爬出低谷"待9月数据）；
 ①✅证伪——游戏总收入23亿+（+12%），
 但国内游戏-22.3%结构性萎缩🔴</li>
 <li style="margin:0.3em 0">先行: ⚠️观察——菲#32破基线29连续
@@ -15018,8 +15075,8 @@ id(1日)/my(2日)；RO守爱 hk(1日)；
 ≈18.5亿（[38]H1 8.5亿+H2 10亿+），
 相对8-18的19-21亿再下修；连续第3次
 （8-17火炬→8-18公司级→8-28隐含）；
-18.5亿正落深度解析&quot;着陆带17-18.5亿&quot;
-上沿，其&quot;必再下修&quot;预判今日兑现</li>
+18.5亿正落深度解析"着陆带17-18.5亿"
+上沿，其"必再下修"预判今日兑现</li>
 <li style="margin:0.3em 0">方向信号: 利好14（半年报点评几乎
 全利好）+中性13+利空0——<strong style="font-weight:600">报喜集中日</strong></li>
 <li style="margin:0.3em 0">可靠度: 🟢高——今日可验证主张13条
@@ -15031,21 +15088,21 @@ id(1日)/my(2日)；RO守爱 hk(1日)；
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（35条，核心条目前置）</h3>
 <p style="margin:0.8em 0">📌 12:03-12:23 补税定性 | 🟢</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;9000多万补税 这是一次性的&quot;+&quot;經自
+<p style="margin:0.8em 0">"9000多万补税 这是一次性的"+"經自
 我評估後…人民幣96.7百萬元已確認為
-本期所得稅開支&quot;
+本期所得稅開支"
 主张: 补税96.7百万一次性，非经营
 核查: ✅PDF附注9原文一字不差；
-96.7百万=0.967亿，&quot;9000多万&quot;精确
+96.7百万=0.967亿，"9000多万"精确
 结论: 对E无影响（剔补税归母+7.3%
 与深度解析一致）
 对错: ✅对</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 12:32 半年报数字盘点 | 🟢 核心</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;扣非归母7.72亿…补税0.967亿，加
-回来8.687亿&quot;+&quot;游戏收入23亿+，同比
-增长12%&quot;
+<p style="margin:0.8em 0">"扣非归母7.72亿…补税0.967亿，加
+回来8.687亿"+"游戏收入23亿+，同比
+增长12%"
 主张: H1扣非7.72亿/补税0.967亿/
 加回8.687亿；游戏23亿+（+12%）；
 tap收入10亿（广告持平）；营销7.7亿
@@ -15061,8 +15118,8 @@ tap收入10亿（广告持平）；营销7.7亿
 </blockquote>
 <p style="margin:0.8em 0">📌 13:35 游戏业务45亿 | 🟢</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我给游戏业务拍的是45亿左右，今年
-上半年23亿左右&quot;
+<p style="margin:0.8em 0">"我给游戏业务拍的是45亿左右，今年
+上半年23亿左右"
 主张: 26年游戏收入45亿/H1 23亿
 核查: ✅v2.2定案游戏45.0亿；
 H1 21.68亿总额+1.14亿净额=22.82亿
@@ -15071,8 +15128,8 @@ H1 21.68亿总额+1.14亿净额=22.82亿
 </blockquote>
 <p style="margin:0.8em 0">📌 13:48 合约负债 | 🟢</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上半年合约负债2.92亿，去年底是
-2.48亿，多了4000多万&quot;
+<p style="margin:0.8em 0">"上半年合约负债2.92亿，去年底是
+2.48亿，多了4000多万"
 主张: 合约负债环比+4400万
 核查: ✅291.7 vs 248.2百万（+17.5%）
 与深度解析验证项#3完全一致
@@ -15082,9 +15139,9 @@ H1 21.68亿总额+1.14亿净额=22.82亿
 </blockquote>
 <p style="margin:0.8em 0">📌 14:25 少数股东+净额收入 | 🟢/⚠️</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;少数股东权益只有1000万左右…
+<p style="margin:0.8em 0">"少数股东权益只有1000万左右…
 上半年净额收入1.14亿…下半年因为
-ro初心服韩服的增量…有可能到1.5亿&quot;
+ro初心服韩服的增量…有可能到1.5亿"
 主张: 少数股东1000万✅；净额1.14亿
 ✅；国内游戏下滑2亿出头✅（麦芬
 国服基本没了）；H2净额1.5亿预测⚠️
@@ -15100,10 +15157,10 @@ ro初心服韩服的增量…有可能到1.5亿&quot;
 </blockquote>
 <p style="margin:0.8em 0">📌 16:54 隐含26E 18.5亿 | 🟡 核心</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上半年扣非归母8.5亿左右…下半年
+<p style="margin:0.8em 0">"上半年扣非归母8.5亿左右…下半年
 游戏业务只要还是6亿+、tap+adn4亿
 +、mk等亏损比上半年低，就是10亿+
-&quot;
+"
 主张: H1扣非8.5亿；H2 10亿+→全年
 ≈18.5亿（隐含）
 核查: H1 8.5亿≈加回口径8.687亿✅；
@@ -15123,15 +15180,15 @@ tap利润假设
 </blockquote>
 <p style="margin:0.8em 0">📌 13:39 mk误判承认 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我今年的预测唯一的问题就是我在Q1
+<p style="margin:0.8em 0">"我今年的预测唯一的问题就是我在Q1
 拍的时候没给mk估值…到Q2的时候发现
-这玩意是有不少负贡献的&quot;
+这玩意是有不少负贡献的"
 主张: 唯一错误=Q1未给mk估值（Q2
-发现负贡献）；&quot;补税1亿不到无所谓&quot;
-核查: ✅方向——深度解析&quot;mk用力过猛
+发现负贡献）；"补税1亿不到无所谓"
+核查: ✅方向——深度解析"mk用力过猛
 证伪、真正投太多=研发+16.5%/AI
-0.7→71.1百万&quot;，他承认颗粒度精确
-到科目+时点；&quot;补税无所谓&quot;=口径
+0.7→71.1百万"，他承认颗粒度精确
+到科目+时点；"补税无所谓"=口径
 选择（他扣非口径不含一次性，成立）
 结论: 承认递进加深（表5登记）；
 对E无直接影响
@@ -15139,14 +15196,14 @@ tap利润假设
 </blockquote>
 <p style="margin:0.8em 0">📌 18:42/21:23 电话会议转述 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;7月和去年7月差不多，8月会有一些
-好转&quot;+&quot;AI成本下半年明显下降…
-TapTap Maker下半年有信心&quot;
+<p style="margin:0.8em 0">"7月和去年7月差不多，8月会有一些
+好转"+"AI成本下半年明显下降…
+TapTap Maker下半年有信心"
 主张: 广告不给指引；7月≈去年7月；
 mk/AI亏损H2明显减少；税率中长期
 15-25%
 核查: mk/AI亏损收窄✅（公司原话
-[43]，戴&quot;单月成本已明显减少&quot;）；
+[43]，戴"单月成本已明显减少"）；
 7月广告数❓待9月初；税率15-25%⚠️
 vs深度解析12-13%（偏高2-3pct，
 影响年利润1-2%）
@@ -15157,19 +15214,19 @@ vs深度解析12-13%（偏高2-3pct，
 </blockquote>
 <p style="margin:0.8em 0">📌 19:05 补税=净现金 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;补税、罚款…并不是让你今年的主营
+<p style="margin:0.8em 0">"补税、罚款…并不是让你今年的主营
 业务盈利能力真的减少了，而是让你的
-账上净现金减少了&quot;
+账上净现金减少了"
 主张: 补税只减现金不减主营盈利
 核查: ✅方向正确（深度解析: 剔补税
 归母+7.3%）；量级0.95亿 vs 净现金
-39.0亿=2.4%，&quot;不用考虑&quot;略夸大
+39.0亿=2.4%，"不用考虑"略夸大
 结论: 估值结论折扣30%后不构成修正
 对错: ⚠️半对</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 其余21条简判 | 混合</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">✅: [12:03&quot;给力&quot;]股价+1.52%属实；
+<li style="margin:0.3em 0">✅: [12:03"给力"]股价+1.52%属实；
 [13:35游戏45亿]见上；[13:36小作文
 证伪]游戏总收入+12%确实未下滑（但
 国内-22.3%他亦承认）；[15:32基数
@@ -15221,22 +15278,22 @@ vs深度解析12-13%（偏高2-3pct，
 </table></div>
 <p style="margin:0.8em 0">明细:</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">报忧必带转折: 命中——[13:39]&quot;唯一
-的问题&quot;→&quot;他们后面也调整了&quot;；
-[16:54]补税/账面低→&quot;下半年10亿+&quot;</li>
+<li style="margin:0.3em 0">报忧必带转折: 命中——[13:39]"唯一
+的问题"→"他们后面也调整了"；
+[16:54]补税/账面低→"下半年10亿+"</li>
 <li style="margin:0.3em 0">归因外移: 命中——[12:51]tap持平=
 基数+mk；[13:29]线性推错；[22:04]
 Q2算法漏洞；[19:05]补税=净现金</li>
-<li style="margin:0.3em 0">承认递进: 加深——&quot;唯一的问题就是
-Q1没给mk估值&quot;（首次精确到科目+
+<li style="margin:0.3em 0">承认递进: 加深——"唯一的问题就是
+Q1没给mk估值"（首次精确到科目+
 时点；8-06投太多→8-12三问题→
 8-19不算成功→今日唯一问题）</li>
 <li style="margin:0.3em 0">预测更新: 有——隐含26E 18.5亿
-（H2拆分10亿）；&quot;7月≈去年7月+
-8月好转，9月初见数&quot;（新验证节点）</li>
+（H2拆分10亿）；"7月≈去年7月+
+8月好转，9月初见数"（新验证节点）</li>
 <li style="margin:0.3em 0">历史锚定: 命中——[12:25]回顾年初
 20-22亿预测链条；[19:02]净现金
-估值方法论；[21:47]&quot;最低估值&quot;旧文</li>
+估值方法论；[21:47]"最低估值"旧文</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
 <ul style="padding-left:1.5em">
@@ -15272,7 +15329,7 @@ H2 1.5亿（RO韩服增量）；
 归母+7.3%）+业绩电话会已开
 （他转述: AI成本H2下降/mk亏损收窄）</li>
 <li style="margin:0.3em 0">9月初: 8月tap广告数据（他: 9月初
-见数，&quot;8月好转&quot;验证点）</li>
+见数，"8月好转"验证点）</li>
 <li style="margin:0.3em 0">9-10: 王者万象棋上线（他8-27披露）</li>
 <li style="margin:0.3em 0">9-16: 伊莫PC上线（他8-26披露）</li>
 <li style="margin:0.3em 0">9-17: 阿b抓宠游戏（竞品，他8-27）</li>
@@ -15286,9 +15343,9 @@ H2 1.5亿（RO韩服增量）；
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">新可证伪点: ①他隐含26E 18.5亿 vs
-我15.5±1（26年报裁决）；②&quot;7月
-广告≈去年7月+8月好转&quot;→9月初数；
-③&quot;mk/AI亏损H2明显减少&quot;→H2财报；
+我15.5±1（26年报裁决）；②"7月
+广告≈去年7月+8月好转"→9月初数；
+③"mk/AI亏损H2明显减少"→H2财报；
 ④RO新游ph#1可持续性（首月流水）</li>
 <li style="margin:0.3em 0">验证路径: 9月初广告数/9月中RO首月/
 8-29小镇庆典</li>
@@ -15297,7 +15354,7 @@ H2 1.5亿（RO韩服增量）；
 表2#23（19-21亿）<strong style="font-weight:600">今日再下修至
 ~18.5亿</strong>；#13/#16/#17/#20/#21/
 #22/#24进行中；今日新增——表2#25
-（&quot;H1扣非8.5亿+H2 10亿+&quot;，验证=
+（"H1扣非8.5亿+H2 10亿+"，验证=
 26年报）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比（半年报后更新）</h2>
@@ -15336,15 +15393,15 @@ RMB持续，无减持）</li>
 日/巴4日+tw1日出榜；sg回榜#90；
 未满2周+未达3区同步</li>
 <li style="margin:0.3em 0">出榜: 小镇国服 cn畅销（连降5日
-#99后正式出榜——&quot;8月回巅峰&quot;声称
+#99后正式出榜——"8月回巅峰"声称
 再受挫）；小镇国际服 港(4日)/日
 (4日)/巴(4日)/tw(1日)；RO初心服
 id(1日)/my(2日)；RO守爱 hk(1日)</li>
 <li style="margin:0.3em 0">新承认/预测下修: <strong style="font-weight:600">有——他隐含26E
 ≈18.5亿（连续第3次下修，着陆带
-上沿）</strong>；新承认&quot;唯一的问题=Q1没
-给mk估值&quot;（颗粒度加深）；新预测
-&quot;7月≈去年7月+8月好转，9月初见数&quot;</li>
+上沿）</strong>；新承认"唯一的问题=Q1没
+给mk估值"（颗粒度加深）；新预测
+"7月≈去年7月+8月好转，9月初见数"</li>
 <li style="margin:0.3em 0">数据源: 全部✅（TapTap/Apple/
 Steam/逸修1）；⚠️akshare东财
 spot+kline代理断连→腾讯源兜底
@@ -15352,5 +15409,62 @@ spot+kline代理断连→腾讯源兜底
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 企业级销售 15 步全流程：90% 的人照着销售书做错了</title><link>https://xlicz.github.io/podcast-rss/articles/企业级销售-15-步全流程-90--的人照着销售书做错了-2026-08-28.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a86d0f05a34</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>企业级销售 15 步全流程：90% 的人照着销售书做错了</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业级销售 15 步全流程：90% 的人照着销售书做错了</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">破单率超过 35%，说明你的定价太便宜了</h2>
+<p style="margin:0.8em 0">Jen Abel 说这句话的时候没有开玩笑的意思。她做了多年企业级销售，从 Jellyfish 联合创始人做到 State Farm 的企业级销售总经理，是 Lenny's Podcast 三次返场的嘉宾——这一次，她要做的是一件她从没见过其他播客做过的事：把企业级销售的整个生命周期，从第一次约见到签字收款，一步一步完整走一遍。</p>
+<p style="margin:0.8em 0">大多数人以为销售流程是五步：初次沟通、演示、方案、合同、成交。实际上它接近十五步，而大多数人忽略的恰恰是中间那些决定成败的步骤。Jen 给了一个直接戳破幻觉的数字：企业级销售的健康破单率是 25%-35%。从一百个合格线索里成交三十个左右，是正常的。如果你的破单率比这还高，说明你定价太便宜了。</p>
+<p style="margin:0.8em 0">另一个数字更扎心：她估计百分之九十的人做销售的方式完全错了。大家去读销售书、参加销售培训，试图套用别人的打法，从来都行不通。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一步到第三步：约见高管、第一通电话、把演示变成情报战</h2>
+<p style="margin:0.8em 0">整个流程用一个案例贯穿：向 SpaceX 的法务部门卖一个十万美元的方案。Jen 强调，不管卖十万还是一百万美元，流程完全一样。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一步是约到第一次会议，只瞄准两个层级：决策者本人，或离他只有一级的人。</strong> 对法务部门来说，就是首席法务官和 N-1。再往下走，你就面临&quot;传话游戏&quot;的风险——你联系的人根本接触不到预算和高管讨论，你了解到的只是用户价值，而不是高管价值。而一笔十万美元的交易，需要一位高管赞助人签字划拨预算。触达时，你的两三句话必须聚焦在超额收益上：这位高管引入一个全新工具，能发现并释放什么价值？&quot;帮你们缩短任务时间&quot;格局不够大，高管需要的是能向董事会汇报的东西。</p>
+<p style="margin:0.8em 0">这里有一个她称为&quot;前行模式&quot;（pincer）的打法：创始人去联系高管，AE 去联系 N-1，两边同时推进。因为层级只差一级，他们通常会互相拉上对方，你的邮件就从一个陌生人的推销，变成了两个方向都有人呼应的事情。找人本身也有技巧：可以让 OpenAI、Anthropic 的模型做快速扫描找出目标人选，再凭自己的判断核对。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二步是初次沟通电话——所有电话里最重要的一通。</strong> 因为你在定调子：决定了对方怎么看你、多尊重你，以及愿意在第一通电话里告诉你什么信息。越往后推进，他们越会闭口不谈，因为开始感觉像走销售流程了。所以作为销售，你能获取的所有信息优势全在第一通电话里。</p>
+<p style="margin:0.8em 0">做法反直觉：非常随意，什么都不给他们看，不演示、不放幻灯片，就做一场三十分钟的一对一对话。开场白是&quot;我们今天就聊得轻松随意一点，我只想互相做个介绍&quot;。然后一定要让他们先说。他们说得越多，你越能顺藤摸瓜抓住重点。用开放性问题撬开话匣子：&quot;进入 2027 年，相比 2026 年，有什么是需要改变的吗？&quot;&quot;如果成功做到了，内部会是什么样？&quot;&quot;你们手头事情这么多，为什么是现在？&quot;——最后这个问题通常能让他们开始真正引导你，告诉你他们想怎么搭建团队。</p>
+<p style="margin:0.8em 0">前二十分钟收集情报，最后十分钟介绍自己是做什么的。而且——千万别带录音工具。他们不会在可能被录音的情况下展示脆弱，而脆弱的信息恰恰是你最需要的。Jen 说，大概每四次通话里有两到三次存在实质需求，有一次纯粹是成熟度不够——&quot;等你们有机会把那个问题解决掉之后，我很想一年后再来聊聊&quot;。</p>
+<p style="margin:0.8em 0">还有一个纪律：BANT（预算、决策权、需求、时间点）这类销售话术应该留在你自己脑子里，绝不能照着去问客户。沦为同质化最快的方式，就是套用教科书话术。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三步是初次沟通后的跟进——大多数人直接跳过的关键一步。</strong> 大家通常从初次沟通直接跳到产品演示，每个人都想看看你那个厉害的东西。但你的任务是在演示之前，确保对的人都在场，而且演示内容是对的。做法是跟你的内部推动者（champion）再打一个十五分钟的预备电话：根据我们之前的对话，你觉得哪些内容会让团队产生共鸣？演示时讲到这个，你可以在会上问这个问题吗？</p>
+<p style="margin:0.8em 0">这时候你是在跟客户内部的伙伴一起打磨这场演示。你的竞争对手没有一个人在这么做。他们通过这些对话提供给你的情报，现在成了你的超额收益——用 Jen 的话说，这就是你的 alpha，你的竞争对手拿不到的信息优势。做大企业客户时，你必须假设自己永远面对竞争对手：对方什么都不做、某个竞品、或既有的老牌厂商，大概率是后者。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">演示与试用：只展示 20% 的功能，48 小时试用期缩短两周周期</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">正式演示前，先弄清楚有哪些人参加、他们关心什么、对你来说是雷区的是什么。</strong> 直接问：&quot;你们团队平时觉得什么样的演示算做得好？讨论三十分钟、演示十分钟，还是讨论十分钟、产品里走四十分钟？&quot;到了演示那天，一定会有从没参加过任何沟通的新面孔——你的任务是先退一步重新开头：我们是谁、为什么做这件事，完全站在他们的语境里讲。他们不知道你已经跟这帮人聊过很多轮、摸清了所有痛点，只觉得&quot;这简直就是专门为我们做的&quot;。</p>
+<p style="margin:0.8em 0">演示本身要克制：百分之八十的价值来自百分之二十的功能，而你已经在之前的沟通里摸清了那百分之二十。除非有特殊原因，千万别什么都演示。大企业会说&quot;我不知道要不要花这么多钱买一个一半功能都用不上的工具&quot;，你之前所有努力就全白费了。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">演示一结束，立刻发短信给内部推动者：我能在五分钟后给你打个电话吗？</strong> 趁热复盘，要最直接的真实反应：你觉得效果怎么样？有没有谁是我们需要多花时间的？组织里总有人想把单子搅黄，你必须尽量防住这一点。演示后的这通电话，是所有人都忽略、但决定成交概率的一步。</p>
+<p style="margin:0.8em 0">试用期同样有讲究。Jen 的做法是只放三到四个人进去，用两三天（48-72 小时），并且明确告诉他们进去做哪三项具体任务、一起定义什么叫成功——绝不只是&quot;登录随便逛逛&quot;。别把你的高管放进产品里，他们不是使用者。两三天就能拿到价值，能把销售周期缩短两周。如果产品需要深度对接、一个月才能体现价值，那就收费，然后在后续推进中抵扣回去——客户愿意付费本身就是极其重大的信号。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定价与合同：采购部门是唯一能给你钱的人</h2>
+<p style="margin:0.8em 0">定价的时机很讲究：尽量忍住别谈价格，直到演示之后。演示完、试用期过了、大家都兴奋了，再谈价格。如果客户追着要，给个大致范围——Jen 的语境里，这个范围大约是一百五十到两百五十（K）之间——但要跟内部推动者一对一地谈：你打算怎么为这个价格辩护？我怎么帮你做一页支持方案的幻灯片？如果他说&quot;我不知道自己能不能全力争取&quot;，别主动打折，把问题抛回去：&quot;我需要你帮我出出主意，怎么把这事儿谈成。&quot;他可能会回来说&quot;能不能少两万&quot;，而你心里知道，你本来准备让的比这多得多。不要自己跟自己砍价。</p>
+<p style="margin:0.8em 0">定价应该基于你的销售周期：如果能九十天做成一笔十万的单子，就一直这么做；如果做成一笔要九个月，你就应该收二十五万、三十万。</p>
+<p style="margin:0.8em 0">合同阶段有三个关键动作。第一，发 Word 文档，千万别发 PDF——大公司的法务和采购每次都要做合同修订，只有 Word 能改。第二，在试用期前就倒推出签约时间节点，给个&quot;在这个日期前签就有额外优惠&quot;的甜头，制造紧迫感。第三，采购部门通常是个三十天左右的流程，而<strong style="font-weight:600">采购部门是唯一能让你拿到钱的人</strong>——业务负责人不能直接给你打钱，钱要从预算里拨出来。所以签完合同之前，千万别开工：不做实施部署，不派人入驻。很多人没意识到，客户内部的人会用采购当借口回避你：&quot;哎呀采购那边卡住了&quot;——但采购的职责不是枪毙交易，只是确保交易符合他们的采购方式。</p>
+<p style="margin:0.8em 0">合同修订来了以后，别来回发邮件。拉上法务开个实时电话会，逐条过一遍：&quot;我们已经完成百分之八十了，重点放在影响业务的事情上，其他不是特别重要的放过去。&quot;对方模板里塞满苛刻条款是常态——比如一千万美元的责任险——这一切都可以谈，但选好你的战场。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字基准：每个阶段流失多少，是能算出来的</h2>
+<p style="margin:0.8em 0">Jen 给了整条漏斗的流失基准，这是整期节目里最值钱的部分之一：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">从合格线索到完成 demo：流失约一半</li>
+<li style="margin:0.3em 0">demo 之后能剩下约 30%</li>
+<li style="margin:0.3em 0">试用期阶段流失约 20%，试用期后有 80% 能成</li>
+<li style="margin:0.3em 0">如果试用期后成交率低于 80%，要么试用期流程有问题，要么前面的资格审查没做清楚——你把客户说得太心动了，产品却没到位</li>
+<li style="margin:0.3em 0">约 25% 丢掉的大单，一年后会像回旋镖一样回来</li>
+<li style="margin:0.3em 0">整个周期应该在九十天内推进完</li>
+</ul>
+<p style="margin:0.8em 0">如果成交率比基准高，别高兴太早——那说明你定价太便宜了。市场会互通消息：&quot;最糟糕的做法就是收某人的朋友五十，收另一个人五十万，他们会交流的。&quot;保持高价、接受一部分客户因为成熟度不够而流失，比压低价格提高破单率健康得多。</p>
+<p style="margin:0.8em 0">签约后的爽感只有五分钟，然后就是下一个单子——以及增购。第二年从十万或二十五万做到三十五万或五十万，才算是真正的企业级销售动作。别忘了专业服务：每家公司都在乎 ARR，但服务依然是企业预算里最大的一项支出——客户本来就习惯为服务付费，预算是永远留着的。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">销售的本质是信息优势，AI 热潮没有改变这一点</h2>
+<p style="margin:0.8em 0">这期节目录到结尾，Lenny 才意识到一件事：整场对话几乎没提 AI——这在现在的播客里太罕见了。Jen 的观点很明确：好多人给客户做 AI 报告、AI 图片、各种花样，但谁都能做这个，一股推销味儿。你的 alpha 在哪儿？她自己写邮件和短信，不用套话模板、不用 AI。邮件是有生命的——别人读邮件的时候，能脑补出你把这些话念出来的样子。</p>
+<p style="margin:0.8em 0">把整个流程串起来看，企业级销售的本质是极其紧凑的项目管理：每一步都在收集情报，每一步都在替客户分担工作（&quot;你要帮他们分担百分之九十九的工作&quot;），每一步都在让客户觉得&quot;是自己在主动买，而不是被人推销&quot;。信息收集得越多，你的演示越像量身定做，你的价格越站得住。</p>
+<p style="margin:0.8em 0">这也是为什么最成功的销售往往不是科班出身的销售。受过的销售培训越多，感觉就越不自然。创始人天然擅长这件事——他们挖掘信息、顺藤摸瓜、用愿景让人兴奋，没人能比他们做得更好。他们只是低估了自己。</p>
+<p style="margin:0.8em 0">以及，AI 短期内取代不了这个角色。这行里有太多东西纯粹是人与人的互动：你跟这个人合得来吗？对方喜不喜欢你的沟通方式？总有人不喜欢，那也没关系——销售是一对一的事，你面对的是一个变量，另一个人。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">企业级销售不是 5 步，是接近 15 步；健康的破单率是 25%-35%，高于 35% 说明定价太便宜</li>
+<li style="margin:0.3em 0">初次沟通电话是最重要的一通：三十分钟、不演示、让对方先说、绝不录音——信息优势全在第一通电话里</li>
+<li style="margin:0.3em 0">演示只展示 20% 的核心功能，演示后 5 分钟立刻找内部推动者复盘；试用期放 3-4 个人进去用 48-72 小时</li>
+<li style="margin:0.3em 0">价格在演示后谈，跟内部推动者一对一谈，绝不自己跟自己砍价</li>
+<li style="margin:0.3em 0">发 Word 别发 PDF；采购部门是唯一能给你钱的人，签完合同前别开工</li>
+<li style="margin:0.3em 0">流失漏斗基准：合格线索到 demo 流失一半，demo 后剩 30%，试用期后 80% 成交</li>
+<li style="margin:0.3em 0">你的 alpha 是竞争对手拿不到的情报，不是 AI 生成的套话邮件</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
