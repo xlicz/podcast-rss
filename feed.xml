@@ -1,7 +1,51 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 28 Aug 2026 23:08:17 +0800</lastBuildDate><item><title>[跨国串门儿计划] 企业级销售 15 步全流程：90% 的人照着销售书做错了</title><link>https://xlicz.github.io/podcast-rss/articles/企业级销售-15-步全流程-90--的人照着销售书做错了-2026-08-28.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a86d0f05a34</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>企业级销售 15 步全流程：90% 的人照着销售书做错了</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 29 Aug 2026 06:00:42 +0800</lastBuildDate><item><title>[a16z] a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</title><link>https://xlicz.github.io/podcast-rss/articles/a16z-机器时代基金-AI-的瓶颈不在模型-在芯片-电力与铜矿-2026-08-28.html</link><guid isPermaLink="false">a16z_429daa5e4e8e</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">内存厂商说：今天的订单，要三年产能才供得上</h2>
+<p style="margin:0.8em 0">这不是未来的需求，是今天的订单。领先内存厂商在 Hot Chips（芯片行业旗舰会议）上给出的数字让 Ben Horowitz 印象极深——当前的需求量，需要三年的产能才能供上。与此同时，GPU 在二级市场被以四倍买入价转售，超大规模厂商今年的资本开支合计约七千亿美元，明年预计突破一万亿；新建数据中心的电力缺口，到 2028 年可能达到上百吉瓦——而一吉瓦是什么概念？足以点亮并空调一个四到六万人口的小镇。</p>
+<p style="margin:0.8em 0">这就是 a16z 宣布"机器时代基金"（Machine Age Fund）的原因。新基金专门投向支撑下一代 AI 的基础设施。Ben Horowitz、Raghu Raghuram 和 Martin Casado 三个人在播客里解释为什么是现在——核心判断只有一句话：<strong style="font-weight:600">AI 的下一个瓶颈不是模型，是模型之下的一切</strong>：芯片、内存、网络、电力、冷却、数据中心，一路延伸到铜矿。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">瓶颈南移：模型不再是瓶颈</h2>
+<p style="margin:0.8em 0">过去三年，模型能力持续跃升，而且模型本身在 AI 的帮助下迭代得越来越快。瓶颈因此"南移"到了所有支撑模型的系统上——而这些系统没有一样是为 AI 设计的。</p>
+<p style="margin:0.8em 0">这不是简单的缺货。Raghu 指出一个结构性错配：半导体行业习惯了 20%-30% 的年增长，而 AI 软件侧的需求是三位数增长。芯片周期三到四年，数据中心从破土到通电四到五年，还要自己建发电设施——"即使我们有一个完美的预言机，从模型开始工作的那一天起，我们也建不出足够的产能，没有任何办法。"</p>
+<p style="margin:0.8em 0">供给侧的紧张程度是这个行业从未见过的。互联网泡沫时期的大规模建设大部分是投机性的——当年满地的暗光纤（dark fiber）没人用。现在恰恰相反：每一块正在生产的 GPU 都已经被预售出去。整个行业被订满到 2028 年，甚至有公司为了几千块 GPU 参加多日拍卖。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">需求侧没有天花板：token 年增近 1000%</h2>
+<p style="margin:0.8em 0">为什么需求如此确定？因为 AI 的每一次进化都在成倍地吞噬 token。从聊天到推理、到 agent、到多 agent 协作，单个任务消耗的 token 数量按数量级增长：聊天一百个 token，agent 就是几千个。Raghu 的估计是 token 需求每年增长接近 1000%——没有任何供给能追得上这个速度。</p>
+<p style="margin:0.8em 0">需求扩张是双边的：一方面单个任务越来越"费 token"，另一方面使用人数在指数级扩大。ChatGPT 已经有十亿周活跃用户、约三千万开发者，而下一个前沿是十亿知识工作者——他们背后的流程自动化、agent 化，每一个都对应一个数量级的新需求。Martin Casado 用 GrokBot 的例子说明 AI 的形态正在发生第三次转变：最早是产品里的搜索条；然后变成"你的延伸"——分享你的密钥、替你做事；而 GrokBot 真正做对的是——把它当成一个员工。它有自己的电脑和浏览器，不需要你的特殊权限，因为它是世界上最聪明的模型之一，它能做任何员工能做的事。</p>
+<p style="margin:0.8em 0">Martin 自己上周末用它更新信用卡信息、取消了一堆拖延已久的订阅。"这不是写代码，这是真正的计算机使用。"他在 a16z 内部把 agent 落地的经验浓缩成一句话：把它们当人对待。这是被验证过最持久的方式。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">旧规则失效：资本可以直接变成智能</h2>
+<p style="margin:0.8em 0">Ben Horowitz 说，创业圈有一条铁律：如果我领先你两年，你试图用一千个工程师砸死我，你会毁掉自己的公司。人月神话——九个女人一个月生不出孩子。这个规则现在失效了。</p>
+<p style="margin:0.8em 0">不是靠十万个工程师，而是拿出三十亿美元点亮一个庞大的集群，然后 Grok 突然就出现了，Kimi 突然就出现了。你可以把钱砸向几乎任何问题，而且真的有用。这是这个行业从未经历过的事情。"在过去的语境里，钱投进去、遇到工程问题、通常要两年、经常失败，然后产品出来。现在，钱投进去和硬件产出智能之间，什么都没有了——我们只被供应能力限制。"</p>
+<p style="margin:0.8em 0">Raghu 说得更极端："任何问题都可以用足够的基础设施解决。你可以用电力和金钱去解决它，直到我们耗尽问题之前，我们不会耗尽需求。"AI 变强的方式就是使用更多 AI——推理是它反复使用的基本积木，这是自催化效应，连"用 AI 造 AI"（比如生成 GPU kernel）本身就是更多推理。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件的新经济学：每个模型值得一块专属 ASIC</h2>
+<p style="margin:0.8em 0">Martin 给了一个理解当前局面的思维模型。训练一个前沿模型现在要花三十到五十亿美元；推理至少得赚回两倍，也就是一百亿美元才划算。如果你能在推理效率上省下 20%，那就是二十亿美元——而你完全可以用二十亿美元造一块 ASIC。</p>
+<p style="margin:0.8em 0">于是行业到了一个奇怪的节点：<strong style="font-weight:600">为一个模型单独造一块芯片是划算的</strong>，因为投入在那个模型上的资本体量已经大到足以支撑定制硬件。这在整个行业历史上从未发生过：我们从未创造过一个直接吸收了五十亿美元的数字工件。这会带来对硬件最苛刻的要求——机架功率从 5-10 千瓦跳到 100-150 千瓦，计算密度提升约 70 倍，冷却从风冷变成液冷（最先进的数据中心已经是标配），然后液冷还必须环保，因为"数据中心不能再当社会的寄生者"。</p>
+<p style="margin:0.8em 0">到了这个功率等级，连供电方式都变了：交流电不再可用，数据中心要转入 800 伏直流电。讽刺的是，直流电恰恰是当年爱迪生宣称交流电危险时推广的方案——他用在动物身上做电击实验来证明。现在直流电确实极危险：全美国只有 2% 的电工有直流电认证。Meta 已经启动了一个免费培训项目，像当年的 Job Corps 一样大规模培养电工。而建筑本身也在过时：800 伏电压让施工变得危险，加固混凝土的价格在以罕见速度上涨，数据中心还要加厚墙壁——"它真的很吵，吵到任何州都不会允许它扰民。"到 Feynman 时代（原文指更高功率密度的新阶段），今天的数据中心只有很小一部分还能继续工作。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">谁在赢：市场扩张的碎片化定律</h2>
+<p style="margin:0.8em 0">为什么英伟达这样的巨头不会吞掉所有机会？Ben 讲了一个定律：市场扩张时碎片化，增长放缓时整合——汽车行业是最好的例子。1913 年福特在 Rouge River 建了垂直一体化工厂，煤、水、橡胶树进去，汽车出来；他甚至在亚马逊丛林买下橡胶种植园，建了一座美国化的福特兰迪亚城，一度运转良好，直到他要求工人们准时上班。而今天汽车行业有无数层级的供应商。AI 基础设施也一样：一个简单架构的时代结束了，系统如此复杂，一定存在大量用不同方式优化的空间。</p>
+<p style="margin:0.8em 0">Alex Rampell 创业时想把服务卖给 Facebook，当时负责企业发展的 Dan Rose 说："听起来你能收集很多银砖，但我的金砖多到捡不过来——我怎么会去看银砖？"英伟达就是那个位置。但即便巨头占据了最大的市场，边缘的 5% 也足以支撑庞大的私营公司——况且巨头有充分的理由不做边缘创新："他们聚焦在同样驱动增长的 90% 上。"</p>
+<p style="margin:0.8em 0">创始人的画像也在变。Raghu 观察到，顶尖创始人中做硬件的比例从大约 5% 上升到 20%-30%——"创始人群体通常比 VC 聪明得多，他们已经识别出这是创新的活跃地带。"但这些创始人与软件时代不同：他们是系统型创始人，从设计芯片的第一天就要想清楚怎么制造、谁来供应、整个生态怎么跑。黄仁勋是这个领域的迈克尔·乔丹。另一个变化是环境：实验室们太饥渴了，会在硬件产品还没出来之前就与初创公司签约——五年前你根本不可能把一套不成熟硬件卖给 Google；同时资本供给大幅松动。而机器时代还会催生新一代硬件创始人——就像 SpaceX 之于工业界：马斯克最大的遗产可能不是公司本身，而是从 SpaceX 走出来的创业者群体改变了整个工业界。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么叫"机器时代"：AI 是错误的名字</h2>
+<p style="margin:0.8em 0">Ben Horowitz 有一个直白的观点：AI 是错误的名字，它应该是机器智能。"它不是人类思考的方式，它是人类思考的缓存——它从我们已经学到的一切里学习，然后以有用的方式使用。"而且 AI 这个词在计算机科学里已经用了七十年，背着科幻小说和 Bostrom 式末日叙事的一堆包袱。强调"机器"的部分，也是在向这波浪潮里硬件的重要性致敬——"我们到了这样一个地方：你往里砸钱，然后被下面真正的机器限制住。下一波突破将由机器的质量决定。"</p>
+<p style="margin:0.8em 0">基金的投资范围很明确：计算机科学基础设施——模型运行其上的一切，芯片、网络互联、存储，一路到电力。具身智能也算：AI 最大的突破是让计算机与物理世界交互，它能看、能听、能说，这意味着新平台——边缘设备、机器人，任何把 AI 推向更远的计算机科学平台。基金已经投了 SpaceX、Anduril、Waymo——这些只是早期支票，而新基金是第一次系统化地聚焦。</p>
+<p style="margin:0.8em 0">回到开头 Marc Andreessen 的那句话——这是他一生的职业生涯里最大的技术革命，比互联网更大，它的对标物是微处理器、蒸汽机和电力。五到十年后世界会怎样？Ben 的答案是：希望美国赢下这场基础设施竞赛，遍地是环保高效的超级数据中心、充足的芯片、内存和电力。"美国是一个特别的地方——如果你失去技术领先，我们就进入了另一个时代，另一个国家，也许他们有另一套价值观。"这不是修辞。整个机器时代的赌注，都押在这句话上。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">a16z 发布机器时代基金，专注 AI 基础设施：芯片、内存、网络、电力、冷却、数据中心，一路到铜矿</li>
+<li style="margin:0.3em 0">瓶颈已从模型南移到基础设施：内存厂商今天的订单需三年产能，整个行业被订满到 2028，GPU 转售四倍价</li>
+<li style="margin:0.3em 0">token 需求年增近 1000%，无供给可追；AI 变强的方式就是消耗更多 AI（自催化）</li>
+<li style="margin:0.3em 0">旧规则失效：资本直接转化为算力、算力转化为智能——人月神话在 AI 时代不成立</li>
+<li style="margin:0.3em 0">训练一个前沿模型 30-50 亿美元，推理需赚回百亿——省 20% 效率就值得为每个模型单独造 ASIC</li>
+<li style="margin:0.3em 0">机架功率 5-10KW→100-150KW，冷却转液冷，800V 直流电，全美仅 2% 电工有认证</li>
+<li style="margin:0.3em 0">市场扩张碎片化定律保证新公司空间；硬件创始人占比从 5% 升到 20-30%</li>
+</ul>
+
+</div>
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 企业级销售 15 步全流程：90% 的人照着销售书做错了</title><link>https://xlicz.github.io/podcast-rss/articles/企业级销售-15-步全流程-90--的人照着销售书做错了-2026-08-28.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a86d0f05a34</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>企业级销售 15 步全流程：90% 的人照着销售书做错了</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业级销售 15 步全流程：90% 的人照着销售书做错了</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">破单率超过 35%，说明你的定价太便宜了</h2>
@@ -10,24 +54,24 @@
 <p style="margin:0.8em 0">另一个数字更扎心：她估计百分之九十的人做销售的方式完全错了。大家去读销售书、参加销售培训，试图套用别人的打法，从来都行不通。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一步到第三步：约见高管、第一通电话、把演示变成情报战</h2>
 <p style="margin:0.8em 0">整个流程用一个案例贯穿：向 SpaceX 的法务部门卖一个十万美元的方案。Jen 强调，不管卖十万还是一百万美元，流程完全一样。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第一步是约到第一次会议，只瞄准两个层级：决策者本人，或离他只有一级的人。</strong> 对法务部门来说，就是首席法务官和 N-1。再往下走，你就面临&quot;传话游戏&quot;的风险——你联系的人根本接触不到预算和高管讨论，你了解到的只是用户价值，而不是高管价值。而一笔十万美元的交易，需要一位高管赞助人签字划拨预算。触达时，你的两三句话必须聚焦在超额收益上：这位高管引入一个全新工具，能发现并释放什么价值？&quot;帮你们缩短任务时间&quot;格局不够大，高管需要的是能向董事会汇报的东西。</p>
-<p style="margin:0.8em 0">这里有一个她称为&quot;前行模式&quot;（pincer）的打法：创始人去联系高管，AE 去联系 N-1，两边同时推进。因为层级只差一级，他们通常会互相拉上对方，你的邮件就从一个陌生人的推销，变成了两个方向都有人呼应的事情。找人本身也有技巧：可以让 OpenAI、Anthropic 的模型做快速扫描找出目标人选，再凭自己的判断核对。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一步是约到第一次会议，只瞄准两个层级：决策者本人，或离他只有一级的人。</strong> 对法务部门来说，就是首席法务官和 N-1。再往下走，你就面临"传话游戏"的风险——你联系的人根本接触不到预算和高管讨论，你了解到的只是用户价值，而不是高管价值。而一笔十万美元的交易，需要一位高管赞助人签字划拨预算。触达时，你的两三句话必须聚焦在超额收益上：这位高管引入一个全新工具，能发现并释放什么价值？"帮你们缩短任务时间"格局不够大，高管需要的是能向董事会汇报的东西。</p>
+<p style="margin:0.8em 0">这里有一个她称为"前行模式"（pincer）的打法：创始人去联系高管，AE 去联系 N-1，两边同时推进。因为层级只差一级，他们通常会互相拉上对方，你的邮件就从一个陌生人的推销，变成了两个方向都有人呼应的事情。找人本身也有技巧：可以让 OpenAI、Anthropic 的模型做快速扫描找出目标人选，再凭自己的判断核对。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">第二步是初次沟通电话——所有电话里最重要的一通。</strong> 因为你在定调子：决定了对方怎么看你、多尊重你，以及愿意在第一通电话里告诉你什么信息。越往后推进，他们越会闭口不谈，因为开始感觉像走销售流程了。所以作为销售，你能获取的所有信息优势全在第一通电话里。</p>
-<p style="margin:0.8em 0">做法反直觉：非常随意，什么都不给他们看，不演示、不放幻灯片，就做一场三十分钟的一对一对话。开场白是&quot;我们今天就聊得轻松随意一点，我只想互相做个介绍&quot;。然后一定要让他们先说。他们说得越多，你越能顺藤摸瓜抓住重点。用开放性问题撬开话匣子：&quot;进入 2027 年，相比 2026 年，有什么是需要改变的吗？&quot;&quot;如果成功做到了，内部会是什么样？&quot;&quot;你们手头事情这么多，为什么是现在？&quot;——最后这个问题通常能让他们开始真正引导你，告诉你他们想怎么搭建团队。</p>
-<p style="margin:0.8em 0">前二十分钟收集情报，最后十分钟介绍自己是做什么的。而且——千万别带录音工具。他们不会在可能被录音的情况下展示脆弱，而脆弱的信息恰恰是你最需要的。Jen 说，大概每四次通话里有两到三次存在实质需求，有一次纯粹是成熟度不够——&quot;等你们有机会把那个问题解决掉之后，我很想一年后再来聊聊&quot;。</p>
+<p style="margin:0.8em 0">做法反直觉：非常随意，什么都不给他们看，不演示、不放幻灯片，就做一场三十分钟的一对一对话。开场白是"我们今天就聊得轻松随意一点，我只想互相做个介绍"。然后一定要让他们先说。他们说得越多，你越能顺藤摸瓜抓住重点。用开放性问题撬开话匣子："进入 2027 年，相比 2026 年，有什么是需要改变的吗？""如果成功做到了，内部会是什么样？""你们手头事情这么多，为什么是现在？"——最后这个问题通常能让他们开始真正引导你，告诉你他们想怎么搭建团队。</p>
+<p style="margin:0.8em 0">前二十分钟收集情报，最后十分钟介绍自己是做什么的。而且——千万别带录音工具。他们不会在可能被录音的情况下展示脆弱，而脆弱的信息恰恰是你最需要的。Jen 说，大概每四次通话里有两到三次存在实质需求，有一次纯粹是成熟度不够——"等你们有机会把那个问题解决掉之后，我很想一年后再来聊聊"。</p>
 <p style="margin:0.8em 0">还有一个纪律：BANT（预算、决策权、需求、时间点）这类销售话术应该留在你自己脑子里，绝不能照着去问客户。沦为同质化最快的方式，就是套用教科书话术。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">第三步是初次沟通后的跟进——大多数人直接跳过的关键一步。</strong> 大家通常从初次沟通直接跳到产品演示，每个人都想看看你那个厉害的东西。但你的任务是在演示之前，确保对的人都在场，而且演示内容是对的。做法是跟你的内部推动者（champion）再打一个十五分钟的预备电话：根据我们之前的对话，你觉得哪些内容会让团队产生共鸣？演示时讲到这个，你可以在会上问这个问题吗？</p>
 <p style="margin:0.8em 0">这时候你是在跟客户内部的伙伴一起打磨这场演示。你的竞争对手没有一个人在这么做。他们通过这些对话提供给你的情报，现在成了你的超额收益——用 Jen 的话说，这就是你的 alpha，你的竞争对手拿不到的信息优势。做大企业客户时，你必须假设自己永远面对竞争对手：对方什么都不做、某个竞品、或既有的老牌厂商，大概率是后者。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">演示与试用：只展示 20% 的功能，48 小时试用期缩短两周周期</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">正式演示前，先弄清楚有哪些人参加、他们关心什么、对你来说是雷区的是什么。</strong> 直接问：&quot;你们团队平时觉得什么样的演示算做得好？讨论三十分钟、演示十分钟，还是讨论十分钟、产品里走四十分钟？&quot;到了演示那天，一定会有从没参加过任何沟通的新面孔——你的任务是先退一步重新开头：我们是谁、为什么做这件事，完全站在他们的语境里讲。他们不知道你已经跟这帮人聊过很多轮、摸清了所有痛点，只觉得&quot;这简直就是专门为我们做的&quot;。</p>
-<p style="margin:0.8em 0">演示本身要克制：百分之八十的价值来自百分之二十的功能，而你已经在之前的沟通里摸清了那百分之二十。除非有特殊原因，千万别什么都演示。大企业会说&quot;我不知道要不要花这么多钱买一个一半功能都用不上的工具&quot;，你之前所有努力就全白费了。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">正式演示前，先弄清楚有哪些人参加、他们关心什么、对你来说是雷区的是什么。</strong> 直接问："你们团队平时觉得什么样的演示算做得好？讨论三十分钟、演示十分钟，还是讨论十分钟、产品里走四十分钟？"到了演示那天，一定会有从没参加过任何沟通的新面孔——你的任务是先退一步重新开头：我们是谁、为什么做这件事，完全站在他们的语境里讲。他们不知道你已经跟这帮人聊过很多轮、摸清了所有痛点，只觉得"这简直就是专门为我们做的"。</p>
+<p style="margin:0.8em 0">演示本身要克制：百分之八十的价值来自百分之二十的功能，而你已经在之前的沟通里摸清了那百分之二十。除非有特殊原因，千万别什么都演示。大企业会说"我不知道要不要花这么多钱买一个一半功能都用不上的工具"，你之前所有努力就全白费了。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">演示一结束，立刻发短信给内部推动者：我能在五分钟后给你打个电话吗？</strong> 趁热复盘，要最直接的真实反应：你觉得效果怎么样？有没有谁是我们需要多花时间的？组织里总有人想把单子搅黄，你必须尽量防住这一点。演示后的这通电话，是所有人都忽略、但决定成交概率的一步。</p>
-<p style="margin:0.8em 0">试用期同样有讲究。Jen 的做法是只放三到四个人进去，用两三天（48-72 小时），并且明确告诉他们进去做哪三项具体任务、一起定义什么叫成功——绝不只是&quot;登录随便逛逛&quot;。别把你的高管放进产品里，他们不是使用者。两三天就能拿到价值，能把销售周期缩短两周。如果产品需要深度对接、一个月才能体现价值，那就收费，然后在后续推进中抵扣回去——客户愿意付费本身就是极其重大的信号。</p>
+<p style="margin:0.8em 0">试用期同样有讲究。Jen 的做法是只放三到四个人进去，用两三天（48-72 小时），并且明确告诉他们进去做哪三项具体任务、一起定义什么叫成功——绝不只是"登录随便逛逛"。别把你的高管放进产品里，他们不是使用者。两三天就能拿到价值，能把销售周期缩短两周。如果产品需要深度对接、一个月才能体现价值，那就收费，然后在后续推进中抵扣回去——客户愿意付费本身就是极其重大的信号。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定价与合同：采购部门是唯一能给你钱的人</h2>
-<p style="margin:0.8em 0">定价的时机很讲究：尽量忍住别谈价格，直到演示之后。演示完、试用期过了、大家都兴奋了，再谈价格。如果客户追着要，给个大致范围——Jen 的语境里，这个范围大约是一百五十到两百五十（K）之间——但要跟内部推动者一对一地谈：你打算怎么为这个价格辩护？我怎么帮你做一页支持方案的幻灯片？如果他说&quot;我不知道自己能不能全力争取&quot;，别主动打折，把问题抛回去：&quot;我需要你帮我出出主意，怎么把这事儿谈成。&quot;他可能会回来说&quot;能不能少两万&quot;，而你心里知道，你本来准备让的比这多得多。不要自己跟自己砍价。</p>
+<p style="margin:0.8em 0">定价的时机很讲究：尽量忍住别谈价格，直到演示之后。演示完、试用期过了、大家都兴奋了，再谈价格。如果客户追着要，给个大致范围——Jen 的语境里，这个范围大约是一百五十到两百五十（K）之间——但要跟内部推动者一对一地谈：你打算怎么为这个价格辩护？我怎么帮你做一页支持方案的幻灯片？如果他说"我不知道自己能不能全力争取"，别主动打折，把问题抛回去："我需要你帮我出出主意，怎么把这事儿谈成。"他可能会回来说"能不能少两万"，而你心里知道，你本来准备让的比这多得多。不要自己跟自己砍价。</p>
 <p style="margin:0.8em 0">定价应该基于你的销售周期：如果能九十天做成一笔十万的单子，就一直这么做；如果做成一笔要九个月，你就应该收二十五万、三十万。</p>
-<p style="margin:0.8em 0">合同阶段有三个关键动作。第一，发 Word 文档，千万别发 PDF——大公司的法务和采购每次都要做合同修订，只有 Word 能改。第二，在试用期前就倒推出签约时间节点，给个&quot;在这个日期前签就有额外优惠&quot;的甜头，制造紧迫感。第三，采购部门通常是个三十天左右的流程，而<strong style="font-weight:600">采购部门是唯一能让你拿到钱的人</strong>——业务负责人不能直接给你打钱，钱要从预算里拨出来。所以签完合同之前，千万别开工：不做实施部署，不派人入驻。很多人没意识到，客户内部的人会用采购当借口回避你：&quot;哎呀采购那边卡住了&quot;——但采购的职责不是枪毙交易，只是确保交易符合他们的采购方式。</p>
-<p style="margin:0.8em 0">合同修订来了以后，别来回发邮件。拉上法务开个实时电话会，逐条过一遍：&quot;我们已经完成百分之八十了，重点放在影响业务的事情上，其他不是特别重要的放过去。&quot;对方模板里塞满苛刻条款是常态——比如一千万美元的责任险——这一切都可以谈，但选好你的战场。</p>
+<p style="margin:0.8em 0">合同阶段有三个关键动作。第一，发 Word 文档，千万别发 PDF——大公司的法务和采购每次都要做合同修订，只有 Word 能改。第二，在试用期前就倒推出签约时间节点，给个"在这个日期前签就有额外优惠"的甜头，制造紧迫感。第三，采购部门通常是个三十天左右的流程，而<strong style="font-weight:600">采购部门是唯一能让你拿到钱的人</strong>——业务负责人不能直接给你打钱，钱要从预算里拨出来。所以签完合同之前，千万别开工：不做实施部署，不派人入驻。很多人没意识到，客户内部的人会用采购当借口回避你："哎呀采购那边卡住了"——但采购的职责不是枪毙交易，只是确保交易符合他们的采购方式。</p>
+<p style="margin:0.8em 0">合同修订来了以后，别来回发邮件。拉上法务开个实时电话会，逐条过一遍："我们已经完成百分之八十了，重点放在影响业务的事情上，其他不是特别重要的放过去。"对方模板里塞满苛刻条款是常态——比如一千万美元的责任险——这一切都可以谈，但选好你的战场。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字基准：每个阶段流失多少，是能算出来的</h2>
 <p style="margin:0.8em 0">Jen 给了整条漏斗的流失基准，这是整期节目里最值钱的部分之一：</p>
 <ul style="padding-left:1.5em">
@@ -38,11 +82,11 @@
 <li style="margin:0.3em 0">约 25% 丢掉的大单，一年后会像回旋镖一样回来</li>
 <li style="margin:0.3em 0">整个周期应该在九十天内推进完</li>
 </ul>
-<p style="margin:0.8em 0">如果成交率比基准高，别高兴太早——那说明你定价太便宜了。市场会互通消息：&quot;最糟糕的做法就是收某人的朋友五十，收另一个人五十万，他们会交流的。&quot;保持高价、接受一部分客户因为成熟度不够而流失，比压低价格提高破单率健康得多。</p>
+<p style="margin:0.8em 0">如果成交率比基准高，别高兴太早——那说明你定价太便宜了。市场会互通消息："最糟糕的做法就是收某人的朋友五十，收另一个人五十万，他们会交流的。"保持高价、接受一部分客户因为成熟度不够而流失，比压低价格提高破单率健康得多。</p>
 <p style="margin:0.8em 0">签约后的爽感只有五分钟，然后就是下一个单子——以及增购。第二年从十万或二十五万做到三十五万或五十万，才算是真正的企业级销售动作。别忘了专业服务：每家公司都在乎 ARR，但服务依然是企业预算里最大的一项支出——客户本来就习惯为服务付费，预算是永远留着的。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">销售的本质是信息优势，AI 热潮没有改变这一点</h2>
 <p style="margin:0.8em 0">这期节目录到结尾，Lenny 才意识到一件事：整场对话几乎没提 AI——这在现在的播客里太罕见了。Jen 的观点很明确：好多人给客户做 AI 报告、AI 图片、各种花样，但谁都能做这个，一股推销味儿。你的 alpha 在哪儿？她自己写邮件和短信，不用套话模板、不用 AI。邮件是有生命的——别人读邮件的时候，能脑补出你把这些话念出来的样子。</p>
-<p style="margin:0.8em 0">把整个流程串起来看，企业级销售的本质是极其紧凑的项目管理：每一步都在收集情报，每一步都在替客户分担工作（&quot;你要帮他们分担百分之九十九的工作&quot;），每一步都在让客户觉得&quot;是自己在主动买，而不是被人推销&quot;。信息收集得越多，你的演示越像量身定做，你的价格越站得住。</p>
+<p style="margin:0.8em 0">把整个流程串起来看，企业级销售的本质是极其紧凑的项目管理：每一步都在收集情报，每一步都在替客户分担工作（"你要帮他们分担百分之九十九的工作"），每一步都在让客户觉得"是自己在主动买，而不是被人推销"。信息收集得越多，你的演示越像量身定做，你的价格越站得住。</p>
 <p style="margin:0.8em 0">这也是为什么最成功的销售往往不是科班出身的销售。受过的销售培训越多，感觉就越不自然。创始人天然擅长这件事——他们挖掘信息、顺藤摸瓜、用愿景让人兴奋，没人能比他们做得更好。他们只是低估了自己。</p>
 <p style="margin:0.8em 0">以及，AI 短期内取代不了这个角色。这行里有太多东西纯粹是人与人的互动：你跟这个人合得来吗？对方喜不喜欢你的沟通方式？总有人不喜欢，那也没关系——销售是一对一的事，你面对的是一个变量，另一个人。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -58,7 +102,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[硅谷101] mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</title><link>https://xlicz.github.io/podcast-rss/articles/mRNA的第二战场-人类第一次在三期临床验证疫苗能治癌-2026-08-28.html</link><guid isPermaLink="false">sv101_ca31cc5680d1</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[硅谷101] mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</title><link>https://xlicz.github.io/podcast-rss/articles/mRNA的第二战场-人类第一次在三期临床验证疫苗能治癌-2026-08-28.html</link><guid isPermaLink="false">sv101_ca31cc5680d1</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>mRNA的第二战场：人类第一次在三期临床验证疫苗能治癌</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">mRNA的第二战场：人类第一次在三期临床验证"疫苗能治癌"</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个数字读懂这次突破：177%</h2>
@@ -14568,7 +14613,8 @@ th#4/ph#3/my#3坚挺，首月未满；
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-28.html</link><guid isPermaLink="false">report:雪球动态:2026-08-28:d3d32300</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-28</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-28.html</link><guid isPermaLink="false">report:雪球动态:2026-08-28:d3d32300</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-28</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-28 22:06</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14748,7 +14794,8 @@ th#4/ph#3/my#3坚挺，首月未满；
 <p style="margin:0.8em 0"><em>数据来源：雪球关注流64条（2026-08-28 22:06抓取）+ 公开财报/新闻验证。报告由 Monica 自动生成。</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-28.html</link><guid isPermaLink="false">report:STH解码:2026-08-28:06c8e794</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-28</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-08-28.html</link><guid isPermaLink="false">report:STH解码:2026-08-28:06c8e794</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-08-28</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年08月28日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14873,7 +14920,8 @@ th#4/ph#3/my#3坚挺，首月未满；
 </ul>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-28.html</link><guid isPermaLink="false">report:心动日报:2026-08-28:974fc9a7</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-28</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-28</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-28.html</link><guid isPermaLink="false">report:心动日报:2026-08-28:974fc9a7</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-28</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-28（周五）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15409,62 +15457,116 @@ spot+kline代理断连→腾讯源兜底
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 企业级销售 15 步全流程：90% 的人照着销售书做错了</title><link>https://xlicz.github.io/podcast-rss/articles/企业级销售-15-步全流程-90--的人照着销售书做错了-2026-08-28.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4a86d0f05a34</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>企业级销售 15 步全流程：90% 的人照着销售书做错了</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-29</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-29.html</link><guid isPermaLink="false">report:播客信号:2026-08-29:6311edba</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-29</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业级销售 15 步全流程：90% 的人照着销售书做错了</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">破单率超过 35%，说明你的定价太便宜了</h2>
-<p style="margin:0.8em 0">Jen Abel 说这句话的时候没有开玩笑的意思。她做了多年企业级销售，从 Jellyfish 联合创始人做到 State Farm 的企业级销售总经理，是 Lenny's Podcast 三次返场的嘉宾——这一次，她要做的是一件她从没见过其他播客做过的事：把企业级销售的整个生命周期，从第一次约见到签字收款，一步一步完整走一遍。</p>
-<p style="margin:0.8em 0">大多数人以为销售流程是五步：初次沟通、演示、方案、合同、成交。实际上它接近十五步，而大多数人忽略的恰恰是中间那些决定成败的步骤。Jen 给了一个直接戳破幻觉的数字：企业级销售的健康破单率是 25%-35%。从一百个合格线索里成交三十个左右，是正常的。如果你的破单率比这还高，说明你定价太便宜了。</p>
-<p style="margin:0.8em 0">另一个数字更扎心：她估计百分之九十的人做销售的方式完全错了。大家去读销售书、参加销售培训，试图套用别人的打法，从来都行不通。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第一步到第三步：约见高管、第一通电话、把演示变成情报战</h2>
-<p style="margin:0.8em 0">整个流程用一个案例贯穿：向 SpaceX 的法务部门卖一个十万美元的方案。Jen 强调，不管卖十万还是一百万美元，流程完全一样。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第一步是约到第一次会议，只瞄准两个层级：决策者本人，或离他只有一级的人。</strong> 对法务部门来说，就是首席法务官和 N-1。再往下走，你就面临&quot;传话游戏&quot;的风险——你联系的人根本接触不到预算和高管讨论，你了解到的只是用户价值，而不是高管价值。而一笔十万美元的交易，需要一位高管赞助人签字划拨预算。触达时，你的两三句话必须聚焦在超额收益上：这位高管引入一个全新工具，能发现并释放什么价值？&quot;帮你们缩短任务时间&quot;格局不够大，高管需要的是能向董事会汇报的东西。</p>
-<p style="margin:0.8em 0">这里有一个她称为&quot;前行模式&quot;（pincer）的打法：创始人去联系高管，AE 去联系 N-1，两边同时推进。因为层级只差一级，他们通常会互相拉上对方，你的邮件就从一个陌生人的推销，变成了两个方向都有人呼应的事情。找人本身也有技巧：可以让 OpenAI、Anthropic 的模型做快速扫描找出目标人选，再凭自己的判断核对。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第二步是初次沟通电话——所有电话里最重要的一通。</strong> 因为你在定调子：决定了对方怎么看你、多尊重你，以及愿意在第一通电话里告诉你什么信息。越往后推进，他们越会闭口不谈，因为开始感觉像走销售流程了。所以作为销售，你能获取的所有信息优势全在第一通电话里。</p>
-<p style="margin:0.8em 0">做法反直觉：非常随意，什么都不给他们看，不演示、不放幻灯片，就做一场三十分钟的一对一对话。开场白是&quot;我们今天就聊得轻松随意一点，我只想互相做个介绍&quot;。然后一定要让他们先说。他们说得越多，你越能顺藤摸瓜抓住重点。用开放性问题撬开话匣子：&quot;进入 2027 年，相比 2026 年，有什么是需要改变的吗？&quot;&quot;如果成功做到了，内部会是什么样？&quot;&quot;你们手头事情这么多，为什么是现在？&quot;——最后这个问题通常能让他们开始真正引导你，告诉你他们想怎么搭建团队。</p>
-<p style="margin:0.8em 0">前二十分钟收集情报，最后十分钟介绍自己是做什么的。而且——千万别带录音工具。他们不会在可能被录音的情况下展示脆弱，而脆弱的信息恰恰是你最需要的。Jen 说，大概每四次通话里有两到三次存在实质需求，有一次纯粹是成熟度不够——&quot;等你们有机会把那个问题解决掉之后，我很想一年后再来聊聊&quot;。</p>
-<p style="margin:0.8em 0">还有一个纪律：BANT（预算、决策权、需求、时间点）这类销售话术应该留在你自己脑子里，绝不能照着去问客户。沦为同质化最快的方式，就是套用教科书话术。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">第三步是初次沟通后的跟进——大多数人直接跳过的关键一步。</strong> 大家通常从初次沟通直接跳到产品演示，每个人都想看看你那个厉害的东西。但你的任务是在演示之前，确保对的人都在场，而且演示内容是对的。做法是跟你的内部推动者（champion）再打一个十五分钟的预备电话：根据我们之前的对话，你觉得哪些内容会让团队产生共鸣？演示时讲到这个，你可以在会上问这个问题吗？</p>
-<p style="margin:0.8em 0">这时候你是在跟客户内部的伙伴一起打磨这场演示。你的竞争对手没有一个人在这么做。他们通过这些对话提供给你的情报，现在成了你的超额收益——用 Jen 的话说，这就是你的 alpha，你的竞争对手拿不到的信息优势。做大企业客户时，你必须假设自己永远面对竞争对手：对方什么都不做、某个竞品、或既有的老牌厂商，大概率是后者。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">演示与试用：只展示 20% 的功能，48 小时试用期缩短两周周期</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">正式演示前，先弄清楚有哪些人参加、他们关心什么、对你来说是雷区的是什么。</strong> 直接问：&quot;你们团队平时觉得什么样的演示算做得好？讨论三十分钟、演示十分钟，还是讨论十分钟、产品里走四十分钟？&quot;到了演示那天，一定会有从没参加过任何沟通的新面孔——你的任务是先退一步重新开头：我们是谁、为什么做这件事，完全站在他们的语境里讲。他们不知道你已经跟这帮人聊过很多轮、摸清了所有痛点，只觉得&quot;这简直就是专门为我们做的&quot;。</p>
-<p style="margin:0.8em 0">演示本身要克制：百分之八十的价值来自百分之二十的功能，而你已经在之前的沟通里摸清了那百分之二十。除非有特殊原因，千万别什么都演示。大企业会说&quot;我不知道要不要花这么多钱买一个一半功能都用不上的工具&quot;，你之前所有努力就全白费了。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">演示一结束，立刻发短信给内部推动者：我能在五分钟后给你打个电话吗？</strong> 趁热复盘，要最直接的真实反应：你觉得效果怎么样？有没有谁是我们需要多花时间的？组织里总有人想把单子搅黄，你必须尽量防住这一点。演示后的这通电话，是所有人都忽略、但决定成交概率的一步。</p>
-<p style="margin:0.8em 0">试用期同样有讲究。Jen 的做法是只放三到四个人进去，用两三天（48-72 小时），并且明确告诉他们进去做哪三项具体任务、一起定义什么叫成功——绝不只是&quot;登录随便逛逛&quot;。别把你的高管放进产品里，他们不是使用者。两三天就能拿到价值，能把销售周期缩短两周。如果产品需要深度对接、一个月才能体现价值，那就收费，然后在后续推进中抵扣回去——客户愿意付费本身就是极其重大的信号。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">定价与合同：采购部门是唯一能给你钱的人</h2>
-<p style="margin:0.8em 0">定价的时机很讲究：尽量忍住别谈价格，直到演示之后。演示完、试用期过了、大家都兴奋了，再谈价格。如果客户追着要，给个大致范围——Jen 的语境里，这个范围大约是一百五十到两百五十（K）之间——但要跟内部推动者一对一地谈：你打算怎么为这个价格辩护？我怎么帮你做一页支持方案的幻灯片？如果他说&quot;我不知道自己能不能全力争取&quot;，别主动打折，把问题抛回去：&quot;我需要你帮我出出主意，怎么把这事儿谈成。&quot;他可能会回来说&quot;能不能少两万&quot;，而你心里知道，你本来准备让的比这多得多。不要自己跟自己砍价。</p>
-<p style="margin:0.8em 0">定价应该基于你的销售周期：如果能九十天做成一笔十万的单子，就一直这么做；如果做成一笔要九个月，你就应该收二十五万、三十万。</p>
-<p style="margin:0.8em 0">合同阶段有三个关键动作。第一，发 Word 文档，千万别发 PDF——大公司的法务和采购每次都要做合同修订，只有 Word 能改。第二，在试用期前就倒推出签约时间节点，给个&quot;在这个日期前签就有额外优惠&quot;的甜头，制造紧迫感。第三，采购部门通常是个三十天左右的流程，而<strong style="font-weight:600">采购部门是唯一能让你拿到钱的人</strong>——业务负责人不能直接给你打钱，钱要从预算里拨出来。所以签完合同之前，千万别开工：不做实施部署，不派人入驻。很多人没意识到，客户内部的人会用采购当借口回避你：&quot;哎呀采购那边卡住了&quot;——但采购的职责不是枪毙交易，只是确保交易符合他们的采购方式。</p>
-<p style="margin:0.8em 0">合同修订来了以后，别来回发邮件。拉上法务开个实时电话会，逐条过一遍：&quot;我们已经完成百分之八十了，重点放在影响业务的事情上，其他不是特别重要的放过去。&quot;对方模板里塞满苛刻条款是常态——比如一千万美元的责任险——这一切都可以谈，但选好你的战场。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数字基准：每个阶段流失多少，是能算出来的</h2>
-<p style="margin:0.8em 0">Jen 给了整条漏斗的流失基准，这是整期节目里最值钱的部分之一：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">从合格线索到完成 demo：流失约一半</li>
-<li style="margin:0.3em 0">demo 之后能剩下约 30%</li>
-<li style="margin:0.3em 0">试用期阶段流失约 20%，试用期后有 80% 能成</li>
-<li style="margin:0.3em 0">如果试用期后成交率低于 80%，要么试用期流程有问题，要么前面的资格审查没做清楚——你把客户说得太心动了，产品却没到位</li>
-<li style="margin:0.3em 0">约 25% 丢掉的大单，一年后会像回旋镖一样回来</li>
-<li style="margin:0.3em 0">整个周期应该在九十天内推进完</li>
-</ul>
-<p style="margin:0.8em 0">如果成交率比基准高，别高兴太早——那说明你定价太便宜了。市场会互通消息：&quot;最糟糕的做法就是收某人的朋友五十，收另一个人五十万，他们会交流的。&quot;保持高价、接受一部分客户因为成熟度不够而流失，比压低价格提高破单率健康得多。</p>
-<p style="margin:0.8em 0">签约后的爽感只有五分钟，然后就是下一个单子——以及增购。第二年从十万或二十五万做到三十五万或五十万，才算是真正的企业级销售动作。别忘了专业服务：每家公司都在乎 ARR，但服务依然是企业预算里最大的一项支出——客户本来就习惯为服务付费，预算是永远留着的。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">销售的本质是信息优势，AI 热潮没有改变这一点</h2>
-<p style="margin:0.8em 0">这期节目录到结尾，Lenny 才意识到一件事：整场对话几乎没提 AI——这在现在的播客里太罕见了。Jen 的观点很明确：好多人给客户做 AI 报告、AI 图片、各种花样，但谁都能做这个，一股推销味儿。你的 alpha 在哪儿？她自己写邮件和短信，不用套话模板、不用 AI。邮件是有生命的——别人读邮件的时候，能脑补出你把这些话念出来的样子。</p>
-<p style="margin:0.8em 0">把整个流程串起来看，企业级销售的本质是极其紧凑的项目管理：每一步都在收集情报，每一步都在替客户分担工作（&quot;你要帮他们分担百分之九十九的工作&quot;），每一步都在让客户觉得&quot;是自己在主动买，而不是被人推销&quot;。信息收集得越多，你的演示越像量身定做，你的价格越站得住。</p>
-<p style="margin:0.8em 0">这也是为什么最成功的销售往往不是科班出身的销售。受过的销售培训越多，感觉就越不自然。创始人天然擅长这件事——他们挖掘信息、顺藤摸瓜、用愿景让人兴奋，没人能比他们做得更好。他们只是低估了自己。</p>
-<p style="margin:0.8em 0">以及，AI 短期内取代不了这个角色。这行里有太多东西纯粹是人与人的互动：你跟这个人合得来吗？对方喜不喜欢你的沟通方式？总有人不喜欢，那也没关系——销售是一对一的事，你面对的是一个变量，另一个人。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-29</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描集数：4集（新增） | 持仓披露：🔥0 / 🔴0 | 高质量内容：2集
+扫描了 4 个播客，共 4 集：[a16z(1集), 硅谷101(1集), 高能量(1集), 跨国串门儿计划(1集)]</p>
+</blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
+</blockquote>
+<p style="margin:0.8em 0">（4 集均为行业讨论/方法论内容，无嘉宾披露个人二级市场持仓或交易动作）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] a16z — The Infrastructure Behind the Machine Age</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-28 | <strong style="font-weight:600">语言</strong>: English (parakeet-tdt-1.1b) | <strong style="font-weight:600">URL</strong>: <a href="https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: a16z 宣布「Machine Age Fund」——专门投向 AI 基础设施的新基金。嘉宾：Ben Horowitz、Raghul Raghuram（NVIDIA 前高管）、Martin Casado（a16z GP, infra 负责人）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">企业级销售不是 5 步，是接近 15 步；健康的破单率是 25%-35%，高于 35% 说明定价太便宜</li>
-<li style="margin:0.3em 0">初次沟通电话是最重要的一通：三十分钟、不演示、让对方先说、绝不录音——信息优势全在第一通电话里</li>
-<li style="margin:0.3em 0">演示只展示 20% 的核心功能，演示后 5 分钟立刻找内部推动者复盘；试用期放 3-4 个人进去用 48-72 小时</li>
-<li style="margin:0.3em 0">价格在演示后谈，跟内部推动者一对一谈，绝不自己跟自己砍价</li>
-<li style="margin:0.3em 0">发 Word 别发 PDF；采购部门是唯一能给你钱的人，签完合同前别开工</li>
-<li style="margin:0.3em 0">流失漏斗基准：合格线索到 demo 流失一半，demo 后剩 30%，试用期后 80% 成交</li>
-<li style="margin:0.3em 0">你的 alpha 是竞争对手拿不到的情报，不是 AI 生成的套话邮件</li>
+<li style="margin:0.3em 0">AI 下一个瓶颈不是模型，而是模型下面的一切：芯片、内存、网络、电力、冷却、数据中心，都被推到原设计极限之外</li>
+<li style="margin:0.3em 0">基础设施的定义延伸：从服务器/存储/网络一直到矿山、铜矿——资源约束正在取代工程问题</li>
+<li style="margin:0.3em 0">「资本可以直接转化为算力，算力转化为更聪明的智能」——技术领域旧规则（砸钱不能加速工程）正在被 AI 改写</li>
+<li style="margin:0.3em 0">内存厂商反馈：当前需求需要 3 年产能才能供应</li>
+<li style="margin:0.3em 0">NVIDIA 等现有巨头是否通吃？——讨论结论：即使 NVIDIA 占市场 90%，剩下 10% 也是巨大市场（「NVIDIA 万亿市值，5% 也是 massive private company 规模」）；NVIDIA 专注于 90% 高增长部分，未必进入长尾</li>
+<li style="margin:0.3em 0">类比历史：云时代「为什么 Amazon 不做 X」的问题，最终留给新公司大量空间</li>
 </ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">与历史对照</strong>: 8/22 集 Martin Casado on Where the Value Is Going in AI（标的 NVDA）——观点延续与强化：从「AI 价值在哪里」到「专门成立基础设施基金下注」。Martin Casado 是连续两集核心人物。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号判断</strong>: ⚪ 无持仓披露。a16z 是私募基金，基金募集公告 ≠ 二级市场个股操作。NVIDIA 讨论为行业分析（「nvidia could do that but why would they」），非买入建议。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 硅谷101 — E250｜mRNA的第二战场：对话英博，拆解Moderna人类首个肿瘤疫苗三期突破</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-28 | <strong style="font-weight:600">语言</strong>: Chinese (qwen3-asr-0.6b) | <strong style="font-weight:600">URL</strong>: <a href="https://sv101.fireside.fm/263" style="color:#2563eb;text-decoration:underline">https://sv101.fireside.fm/263</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: Moderna (MRNA) 8/19 单日股价 +177%（250亿→690亿美元市值），因 INTerpath-001 三期临床积极结果：mRNA 个性化肿瘤疫苗在黑色素瘤术后辅助治疗中验证疗效。嘉宾：殷博博士（爱博生物创始人，前 Moderna 高级科学家/项目负责人）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">Moderna 天花板重估：不再是传染病疫苗公司（天花板可预期），肿瘤疫苗+肿瘤治疗打开第二曲线</li>
+<li style="margin:0.3em 0">INTerpath-001：黑色素瘤术后无复发生存期显著获益（与 PD-1 对比），一人一药的个性化疫苗路线首次在三期验证</li>
+<li style="margin:0.3em 0">赛道格局：Moderna 与 BioNTech 同时布局个性化+现货型肿瘤疫苗；国内艾博生物、云顶新药同步押注</li>
+<li style="margin:0.3em 0">AI 角色：核酸药物是最可能被 AI 驱动的药种（四进制计算设计，无复杂三维结构）；LNP 递送颗粒的 AI 计算仍受算力限制</li>
+<li style="margin:0.3em 0">风险提示（节目内）：三期只是初步关键结果，HR 风险比与亚组数据未披露；暴涨后几个交易日已回吐部分涨幅；获批+临床使用仍需完整数据披露和监管审评</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">MRNA 8/19 单日 +177%，250→690亿市值</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主持人开场数据，公开可查</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">INTerpath-001 三期达主要终点</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公开临床公告</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">殷博为爱博生物创始人、前 Moderna 科学家</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公开背景</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号判断</strong>: ⚪ 无持仓披露。殷博为创业者（私有公司爱博生物），讨论行业格局与其公司战略判断，未披露个人二级市场持仓；主持人/研究员为记者视角。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">投资参考价值</strong>: 高。若押注 MRNA 主题，需关注：HR 数据披露（学术会议）、回吐幅度、BioNTech 对照组、以及「资本市场热情跑在完整数据前面」的纪律提醒。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 高能量 — Vol.231 一个中年人决定为摇滚买单：与马智勇聊中国摇滚、线下演出和音乐行业之变</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-28 | <strong style="font-weight:600">语言</strong>: Chinese (qwen3-asr-0.6b)</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主题</strong>: 马智勇（音乐制作人/演出策划人）谈《摇滚编年史》大型演出与音乐行业变化。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>（行业观察，非投资建议）：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">26 年音乐节取消约一半（行业下行）；摇滚编年史第一届口碑票房成功，第二届票房不达预期（自述「亏掉几辆法拉利」，自己为主要出资人）</li>
+<li style="margin:0.3em 0">演唱会经济特征：企划占 80%，卖票到开场仅一个月，无翻盘机会；票房「开票即定生死」</li>
+<li style="margin:0.3em 0">音乐行业新公司仍层出不穷（发行公司如回声丹 5-6 年做大体量），但头部平台（网易云/腾讯音乐）垄断版权后竞争加剧</li>
+<li style="margin:0.3em 0">艺人经济：新人出圈概率从 1% 降至 ~0.1%，公司投入更谨慎</li>
+<li style="margin:0.3em 0">提及「马上要上市的泰和」等音乐公司（行业上市潮信号）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号判断</strong>: ⚪ 无持仓披露。全部为行业叙述，无嘉宾股票操作披露。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#691.Jen Abel：10万美元企业大单完整路径</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">企业级销售 15 步方法论（Lenny × Jellyfish 联创），无投资内容</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>管线状态: 正常（各源转录完整性抽查通过，无字节级重复文件）</em></p>
 
 </div>
-]]></content:encoded></item></channel>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
