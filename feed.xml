@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 29 Aug 2026 06:00:42 +0800</lastBuildDate><item><title>[a16z] a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</title><link>https://xlicz.github.io/podcast-rss/articles/a16z-机器时代基金-AI-的瓶颈不在模型-在芯片-电力与铜矿-2026-08-28.html</link><guid isPermaLink="false">a16z_429daa5e4e8e</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 29 Aug 2026 09:00:16 +0800</lastBuildDate><item><title>[a16z] a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</title><link>https://xlicz.github.io/podcast-rss/articles/a16z-机器时代基金-AI-的瓶颈不在模型-在芯片-电力与铜矿-2026-08-28.html</link><guid isPermaLink="false">a16z_429daa5e4e8e</guid><pubDate>Fri, 28 Aug 2026 08:00:00 +0800</pubDate><description>a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">a16z 机器时代基金：AI 的瓶颈不在模型，在芯片、电力与铜矿</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">内存厂商说：今天的订单，要三年产能才供得上</h2>
@@ -15568,5 +15568,67 @@ spot+kline代理断连→腾讯源兜底
 <p style="margin:0.8em 0"><em>管线状态: 正常（各源转录完整性抽查通过，无字节级重复文件）</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[宏观分析] STH_ 每日宏观分析 2026-08-29</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-08-29.html</link><guid isPermaLink="false">report:宏观分析:2026-08-29:0968fd11</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-08-29</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0">✅ 全流程完成：数据5+3无缺失 → 报告已存 → Discord文件推送成功(message_id:1543056111102459975) → 执行摘要已写。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">🌍 STH 宏观 08/29 | 风险偏好45
+债市股市分裂，低波动藏尾部风险</p>
+<p style="margin:0.8em 0">━━━ 核心数据 ━━━
+US10Y: 4.72% (A·实时↑) | TIPS10Y: 2.41% (B·高位) | VIX: 14.43 (A·自满) | SPX: 7712 (A·新高) | SPX PE: 25.92x SPY / 29.72x multpl (⚠️偏差14.7%) | CAPE: 42.17x (B·极值🔴) | 万得全A PE: 27.36x中位 (B) | CN10Y: 1.69% (A·低) | Gold: $4504 (A·历史新高↑) | Brent: $88.29 (A·地缘溢价~27%)</p>
+<p style="margin:0.8em 0">━━━ 三地核心矛盾 ━━━
+🇺🇸 美国: FED拖延加息vs债市不信任票，长端4.72%与CAPE 42并存，收敛靠波动 — 大概率
+🇨🇳 中国: 增长中枢下移、中上游抢下游支付力vs低估值托底，机会在被亏欠行业 — 大概率
+🌐 全球: 财政纪律缺失+地缘溢价(油88/金4504)vs VIX 14自满，尾部风险被低估 — 存疑</p>
+<p style="margin:0.8em 0">📊 赔率: 万得全A 1.02 (ERP +1.97%) | 美股CAPE 0.40 (ERP -2.35%) → A/H相对价值极端倒挂，资金再平衡方向利好低估值</p>
+<p style="margin:0.8em 0">━━━ 做多清单 ━━━
+📈 兖矿能源 01171.HK — 焦煤短缺不对称、无供给增量，盈利弹性未充分定价 | PE 8-10x | 小仓2-5% | 🟢
+论据→论证: 6/12定调短缺逻辑(522超产严查+战争燃煤+低库存)→8月煤价中枢上移→中报验证行业逻辑→盈利弹性兑现中
+触发: 焦煤价企稳或回调至~110锚分批 | 核查: ✅2 ❓1 ⚠️1 | 假设: 战争持续+供给约束 | 替代: 停火通航则降至观察仓</p>
+<p style="margin:0.8em 0">📈 电力/公用 — 8/28明示&quot;被亏欠、即将弥补&quot;行业，煤电顺价+AI用电增量 | PB 1-2x 股息4-6% | 观察仓0.2-1% | 🟡
+论据→论证: 中报总结唯一明确的多头方向→容量电价补欠账+数据中心用电→类债中少数能顺价者
+触发: 三季报煤电利润转正确认 | 核查: ✅1 ❓2 | 假设: 电改补欠账落地 | 替代: 政府压电价保民生则放弃</p>
+<p style="margin:0.8em 0">📈 港股科技 — 全球再平衡的低估值出口 | PE 15-20x vs 纳指30x+ | 观察仓0.2-1% | 🟡
+论据→论证: 6/1流动性渗透信号+A股赔率1.02 vs 美股0.65→资金边际流向低估值→港股为出口
+触发: 恒生科技放量突破或南向连续净流入 | 核查: ✅1 ❓2 | 假设: 全球资金再平衡 | 替代: 美股深调拖累全球风险偏好则失效</p>
+<p style="margin:0.8em 0">📈 黄金 — 驱动力从流动性收紧切换为财政纪律缺失+美元信用弱化 | 回调买 | 底仓2%→3% | 🟡
+论据→论证: 6月底&lt;4000→4504(+12.6%)→Druckenmiller定性+央行购金→与长债同涨=主权信用定价
+触发: 回调4300-4400加至3%，4500上方不追 | 核查: ✅2 ❓1 | 假设: 财政赤字担忧&gt;流动性收紧 | 替代: FED鹰派+美元反弹则金价回4000以下降底仓</p>
+<p style="margin:0.8em 0">━━━ 做空/减仓 ━━━
+📉 美股长债 TLT — 通胀预期脱锚，长债是唯一财政约束 | 工具: LEAP deep OTM put (VIX 14&lt;15, IV便宜) | 🟢
+论据→论证: Druckenmiller 8/25批评+7/30后10债30债飙升+10Y 4.72%→Warsh拖延加息=利率上行路径未完成
+触发: 10Y回踩4.5%以下加空 | 核查: ✅3 ❓0 | 假设: 通胀预期继续脱锚 | 替代: FED意外鹰派50bp则put止损</p>
+<p style="margin:0.8em 0">📉 纳指/AI高估值 QQQ — CAPE 42历史极值，股债信号背离 | 工具: LEAP put，减仓优先于裸空 | 🟡
+论据→论证: CAPE&gt;40仅2000/2021两次+TIPS 2.41%实际利率→盈利增长透支→债市与股市动量背离终收敛
+触发: 纳指破20日线或10Y破5% | 核查: ✅2 ❓1 | 假设: 利率上行压制估值 | 替代: AI盈利继续超预期则仅减仓不裸空</p>
+<p style="margin:0.8em 0">━━━ 对冲配对 ━━━
+多黄金 ↔ 空TLT (负相关, 通胀脱锚同向强化) | 🟢</p>
+<p style="margin:0.8em 0">━━━ 仓位总览 ━━━
+现金: 50% (10Y破5%或VIX&gt;20→60%；停火+通胀回落→40%) | 权益净多: 50% (A/H 65% / 美股35%) | Beta: 0.4-0.5 | 黄金: 3%</p>
+<p style="margin:0.8em 0">━━━ 关键假设自审 ━━━</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">Warsh拖延→通胀脱锚→长端续升: 如果错了(FED突然鹰派50bp压制通胀)→TLT空仓减半转短债，黄金降底仓 | 替代: FED被逼墙角后翻鹰</li>
+<li style="margin:0.3em 0">煤炭短缺持续: 如果错了(停火通航+需求走弱)→兖矿降至观察仓等长协验证 | 替代: 供给约束放松</li>
+<li style="margin:0.3em 0">黄金4504由财政纪律驱动非投机: 如果错了(6月流动性收紧逻辑回归)→黄金降回2%底仓，多空配对多腿减半 | 替代: 央行购金逆转</li>
+</ol>
+<p style="margin:0.8em 0">━━━ 宏观观点一致性 ━━━
+📌 06/24: 高估FED加息幅度，7-10月观望或加25bp → 本次: 持续强化 (7/30 FOMC 9-3不加息验证，但债市已定价&quot;拖延≠不加息&quot;)
+📌 07/30: Warsh拖延加息、通胀预期锚可能失控、10债30债飙升 → 本次: 持续强化 (10Y 4.72%即为市场答案)
+📌 08/25: Druckenmiller长债=唯一财政约束 → 本次: 持续 (纳入做空核心逻辑)
+📌 08/28: 中报总结: 增长中枢下降、找被亏欠行业/定价权在境外 → 本次: 直接采纳 (电力/资源方向)
+📌 06/24: 黄金跌破4000、流动性收紧压制 → 本次: 修正 (4504新高，财政纪律主题压倒流动性收紧)</p>
+<p style="margin:0.8em 0">🔬 值得质疑的共识</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">❓ 共识1 &quot;美股AI牛市无限回调即买点&quot;: 前提=盈利增速撑住CAPE 42+利率不上行 → 质疑: TIPS 2.41%下CAPE 42的贴现假设与债市信号直接矛盾，CAPE&gt;40历史仅2000/2021后均大回撤</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">错了→美股估值杀20-30%拖累全球</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+
+</div>
+]]></content:encoded><category>宏观分析</category></item></channel>
 </rss>
