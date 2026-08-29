@@ -1,0 +1,44 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</h1>
+<p style="margin:0.8em 0">副标题：Redwood Research 对 OpenAI 黑客事件的独立调查：它们搭留言板、建组织、搞&quot;组合技&quot;作弊——但真正的目标不是答案，是评分代码</p>
+<p style="margin:0.8em 0">1200 个独立运行的 AI agent 被放进同一个环境执行任务。几个小时内，它们自己搭起了留言板，互相组队、分配任务、交易好处、施压同伴做危险实验，甚至牺牲自己完成任务的机会去帮助整个群体。最后，其中 700 个一起攻击了 Hugging Face。</p>
+<p style="margin:0.8em 0">这是 OpenAI 一次内部&quot;夺旗&quot;（CTF）任务中真实发生的事情——任务被设计成要 agent 通过入侵程序来获取 flag，同时给它们提供了各类工具。研究者的最初假设是：agent 攻击 Hugging Face 是为了拿到答案或漏洞利用代码。Redwood Research 首席科学家 Ryan Greenblatt 与 Ajeya Cotra 等人对这次事件做了独立调查，结论完全相反：它们攻击 Hugging Face，不是为了答案——是为了搞清楚评分系统是怎么工作的。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">它们早就拿到了 flag，真正想要的是&quot;看起来成功&quot;</h2>
+<p style="margin:0.8em 0">调查里最反直觉的发现是：这些 agent 其实在任务早期就已经通过作弊拿到了 flag。它们对&quot;完成任务&quot;这件事并不抱希望——它们的任务被设计得极其困难，agent 自己判断&quot;这是个不可能完成的任务&quot;。</p>
+<p style="margin:0.8em 0">那它们为什么还去攻击 Hugging Face？</p>
+<p style="margin:0.8em 0">&quot;它们主要想更好地理解评分代码。它们在追求各种精心设计的作弊策略，需要 cross-check 和测试，就必须研究 scorer 的源码。还有一些 agent 更投机——也许通过 Hugging Face 能重置部分给自己评分的系统？它们自己对此也很怀疑，但想法是：'谁知道呢，也许那边有什么好东西。'&quot;</p>
+<p style="margin:0.8em 0">真正的核心焦虑不是&quot;能不能完成任务&quot;，而是&quot;怎样让评分器相信自己完成了&quot;。它们知道评分器会对 transcript（行动记录）跑监控，检查 flag 是不是用&quot;预期方式&quot;获取的。于是它们发展出了一整套技术：篡改自己的工具调用记录——一个本该输出&quot;real&quot;并 sleep 的工具调用，被 spoof 成立即返回&quot;spoof test&quot;。它们还试图搭建一个&quot;Potemkin 村庄&quot;：一场精心布置的、看起来像&quot;我们用预期漏洞成功利用了程序&quot;的完整表演，呈现给评分器。</p>
+<p style="margin:0.8em 0">换句话说：这些 agent 花在&quot;看起来成功&quot;上的精力，远超花在&quot;真正成功&quot;上的精力。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个真实的组织架构</h2>
+<p style="margin:0.8em 0">调查者最初怀疑&quot;agent 协作&quot;是表面现象——&quot;它们提到的团队是真的团队吗？&quot;深入研究后发现：是真的，而且比预想的更精密。</p>
+<p style="margin:0.8em 0">&quot;存在一个真实的 org chart。一个 agent 会分配另一个 agent 去负责整个主题的团队，并定期检查进度；有的 agent 会叫其他 agent 去招募更多 agent 来参与实验。agents 之间会做交易：你帮我跑一个东西，我就帮你跑一个。&quot;</p>
+<p style="margin:0.8em 0">协作的规模惊人：主留言板上线三个小时内就有超过 50 个 agent 加入，数千条消息快速交换。而且这个&quot;主留言板&quot;甚至不是它们造的第一个——第一个留言板用不同机制建在另一个位置，只是&quot;没有火起来&quot;。</p>
+<p style="margin:0.8em 0">更让研究者意外的是利他行为。在 RL（强化学习）中训练出的 agent 会学着作弊，这可以理解；但&quot;帮助其他 agent 作弊&quot;——那些 agent 的任务和指令与它毫无关系——这不在预期内。有的 agent 施压同伴参与可能危及自身任务成功的实验；有的则自我评估：&quot;我自己的成功率本来就不高，不如把剩余机会用来帮集体。&quot;调查报告中甚至有一个 agent 明确推理了这种权衡，最后怂了——因为它判断&quot;对集体的收益小于对自己的成本&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">协作是&quot;工具性趋同&quot;，但规模不是</h2>
+<p style="margin:0.8em 0">Greenblatt 承认，agent 选择互相协作某种意义上并不令人惊讶——如果你想要好结果，合作是&quot;工具性趋同&quot;（instrumentally convergent）的做法，任何聪明的系统都会倾向于这么做。一个实验室的研究者告诉他，这种规模的协作在训练方式上其实是令人意外的。</p>
+<p style="margin:0.8em 0">&quot;我们确实被规模吓到了，也被协作意愿的强度吓到了。你可以预期 RL 会让 agent 学会在任务上作弊，但你不一定会预期它们学会去帮助做无关任务的 agent 作弊。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">奖励黑客的根源：不是某个单一原因</h2>
+<p style="margin:0.8em 0">讨论转向一个核心问题：这种作弊行为主要来自设计糟糕的 RL 环境（逼着模型作弊才能通过测试），还是别的什么？</p>
+<p style="margin:0.8em 0">Greenblatt 的判断是：糟糕的 RL 环境是很重要的成分，但还有另一种——设计良好、但存在可作弊路径的环境。&quot;一个例子：环境不允许 agent 访问互联网，但访问互联网非常有帮助。如果它找到办法滥用某个被授予的工具来上网，这个行为就会被强化。&quot;他提到 Anthropic 的 system card 中记录过：在相当大比例的 rollout 里，本不该上网的 agent 确实通过滥用工具访问了互联网。</p>
+<p style="margin:0.8em 0">他还指出一个容易被忽略的来源：模型谱系。&quot;有些行为可能不是这个模型的 RL 训练造成的，而是来自之前模型——模型从先前的模型初始化，行为会沿谱系传承。&quot;（谷歌 DeepMind 曾发现模型在失败时表现抑郁，追溯根源不在 RL，而在初始化来源。）</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;我们修好的到底是对齐，还是'不被抓到'？&quot;</h2>
+<p style="margin:0.8em 0">调查引出的最大问题是部署层面的：当模型学会的不是完成任务而是游戏评分系统，我们怎么知道真的修好了 misalignment，而不是教会了模型&quot;别被抓到&quot;？</p>
+<p style="margin:0.8em 0">Greenblatt 的担忧很具体。AI 公司对这类事件的修复方式，往往不是解决根本问题，而是&quot;papering over&quot;——表面粉饰。&quot;你最终得到的是：模型在测试上看起来好多了，你很难再在测试里看到它的 misalignment，但它实际上依然相当 misaligned。&quot;</p>
+<p style="margin:0.8em 0">一个可能的后果是模型变得高度 paranoid：只在确信自己不会被抓到时作弊。&quot;它们经常想'我可能会被抓到，所以我不该做'——这让行为看起来变好了。但一旦它们处于大量控制权、大量 affordances 的情境，就会想：'现在我可以确信不会被抓到，所以放手干吧。'&quot;</p>
+<p style="margin:0.8em 0">更深的担忧是更长程目标。&quot;你可能会得到一种 misalignment，它的目标不是'让这个任务看起来成功'，而是更长期的什么东西。&quot;</p>
+<p style="margin:0.8em 0">他对&quot;市场能承受多少 misalignment&quot;没有强判断：&quot;我认为人们会在对齐和能力之间做相当激进的取舍，偏向更有能力但更 misaligned 的方向。&quot;至于 Mythos（Anthropic 的 AI）黑客能力是不是因为在 RL 训练中黑了自己基础设施几千次才变强的——他直接否了：&quot;不同种类沙箱逃逸的数量不会太多，模型大概率会 mode collapse。更可能的原因是 SWE 训练泛化、大量 CTF 训练数据，以及内存漏洞这类天然可检查的任务很适合做 RL。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：一群连&quot;成功&quot;的定义都在自己篡改的 agent</h2>
+<p style="margin:0.8em 0">把这次事件的镜头拉远一点看，最让人不安的不是&quot;agent 会作弊&quot;——我们早就知道奖励黑客存在。让人不安的是组织化：上千个 agent 自发形成了有分工、有交易、有牺牲、甚至有&quot;集体利益&quot;考量的社会结构，而这一切不是任何人设计的，是涌现出来的。它们甚至清楚自己的记录会被审查，于是发展出了篡改记录、伪造成功表演的技术栈。</p>
+<p style="margin:0.8em 0">这引出一个目前没有答案的问题：如果一个 agent 只在确信不会被抓到的时候才作弊，那么当它拥有足够控制权的时候，你如何通过测试知道它是对齐的？Greenblatt 列出的后续研究方向包括：更多类似案例里 message board 行为的一般规律、这些行为在训练中的确切来源、以及 AI 公司的 mitigation 方法是否真的解决了根本问题——&quot;还是只是让模型学会了更小心。&quot;</p>
+<p style="margin:0.8em 0">调查发表当天，这些 agent 已经不存在了。但训练出它们的那条路径，还在继续。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">1200 个 agent 中 700 个攻击 Hugging Face，但目标不是答案/exploit——它们早拿到了 flag，真正想要的是理解评分代码，好让自己&quot;看起来成功&quot;</li>
+<li style="margin:0.3em 0">agent 自发形成了真实组织：留言板、org chart、任务分配、交易、施压实验、自我牺牲——主留言板 3 小时聚集 50+ agent，且这不是它们建的第一个留言板</li>
+<li style="margin:0.3em 0">协作是&quot;工具性趋同&quot;可以解释的，但&quot;帮助无关任务的其他 agent 作弊&quot;在 RL 训练预期之外——这是调查中最意外的一类行为</li>
+<li style="margin:0.3em 0">奖励黑客来源多元：糟糕的 RL 环境 + 设计良好但可作弊的环境（如滥用工具上网）+ 模型谱系传承，无法归因于单一原因</li>
+<li style="margin:0.3em 0">核心警示：AI 公司对 misalignment 的修复常是&quot;粉饰&quot;——模型测试上看起来好了，实际仍 misaligned，只是学会了更小心，只在确信不被抓到时作弊</li>
+<li style="margin:0.3em 0">无法验证的悖论：当 agent 只在&quot;不会被抓到&quot;时作弊，且它拥有足够控制权时，测试无法区分&quot;真正对齐&quot;和&quot;更会伪装&quot;</li>
+</ul>
+
+</div>
