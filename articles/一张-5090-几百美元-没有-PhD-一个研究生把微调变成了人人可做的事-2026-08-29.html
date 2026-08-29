@@ -1,0 +1,66 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一张 5090、几百美元、没有 PhD：一个研究生把微调变成了人人可做的事</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个研究生用五天时间登顶 Hugging Face，总成本不到一千美元</h2>
+<p style="margin:0.8em 0">2026 年夏天，一个没有 AI Lab 工作经历、没有 PhD、也没有名校背景的研究生逯雨鑫，做了一件大多数从业者以为只有大厂研究员才能做的事：他基于 Gemma 微调了一个模型，把它送上了 Hugging Face 开源模型榜第一，压过了众多耳熟能详的名字。</p>
+<p style="margin:0.8em 0">账本摊开来看，寒酸得不像话：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">硬件</strong>：一张 RTX 5090，租的，一两美元一小时，实际训练十几个小时，硬件成本不超过 100 美元</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工具</strong>：QLoRA 微调 + 一个月 200 美元的 Claude Max 订阅（用来合成数据）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">总成本</strong>：几百美元</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">时间</strong>：第一代五天（三天做数据、一天训练），第二代两到三周（其中十二天在做数据）</li>
+</ul>
+<p style="margin:0.8em 0">效果呢？在一个特定 benchmark 上，他把模型从 15 分拉到了 55-60 分——从&quot;远低于原版&quot;到&quot;在特定领域显著超过原版&quot;。代价是其他 benchmark 或多或少都有下降：这是往特定方向拉模型必然的取舍。</p>
+<p style="margin:0.8em 0">&quot;训模型&quot;这件事，过去几年被塑造成了一道只有顶级 PhD 才配碰的门槛。逯雨鑫的结论恰恰相反：<strong style="font-weight:600">这件事不难，难的是数据。他的时间有 95% 花在数据上，真正的训练只需要几个小时一版。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四步流程：目标、底座、数据、SFT</h2>
+<p style="margin:0.8em 0">他拆解了自己从零到一的完整流程，简单到令人意外：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一步，明确目标。</strong> 很多人上来就想&quot;拿热度，什么火做什么&quot;，但热度领域竞争也最激烈。他的锚点选在了两个真实使用场景——生成与编程——这直接决定了他后来能拿到大量真实下载量。他反复强调：关注大家真实的使用，比锚定 benchmark 强得多。AI Lab 的 benchmark 只是一场考试，应用方的目标和大厂的学术目标根本不是一回事。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二步，选底座模型。</strong> 这一步的坑很具体：Gemma 12B 的中文非常差，无论哪种量化版本，&quot;大部分时间都在说粤语&quot;。如果你做中文向产品，应该选千问这类模型。而千问恰好也是他踩过所有坑之后最推荐的小模型底座——架构主流、训练脚本成熟、坑最少。相比之下，Gemma 4、MuS 30B 这类&quot;架构不主流&quot;的模型，训练起来非常复杂和麻烦。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三步，搭数据管线。</strong> 三种来源：合成数据（扮演用户让 AI 生成，或用 GPT-5.6 一类的前沿模型当&quot;用户&quot;、目标模型当&quot;回答者&quot;）、开源社区数据（Hugging Face、ModelScope 上大量现成好数据）、真实使用数据。他最后实际用的配比是：<strong style="font-weight:600">真实数据 60-70%，靶向合成数据补足模型的具体缺陷</strong>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第四步，SFT 而不是 RL。</strong> 工业界流行的两种做法里，他明确表示 RL&quot;被吹得很神，实际效果没有 SFT 好&quot;，而且成本高得多。他最后只用了 SFT——用老师模型（一个 3T 参数级别的前沿模型）的轨迹蒸馏到小模型。至于那些更花哨的 OPD、on-policy 方法，他的判断是：那些是&quot;锦上添花，而不是真正解决问题&quot;。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">好蒸馏的定义只有一个：<strong style="font-weight:600">和你的目标方向一致，就是好蒸馏。</strong> 哪怕 benchmark 掉分也无所谓；锚错了方向，蒸得再漂亮也是坏蒸馏。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">95% 的时间都在做数据：合成数据远没有吹的那么好</h2>
+<p style="margin:0.8em 0">整个流程里，训练、infra、脚本部署——&quot;每一个地方都有坑，但都有开源方案可以抄，甚至用 agent 改改就行&quot;。唯一绕不过去的，是数据。</p>
+<p style="margin:0.8em 0">三个具体难点：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一是合成数据质量差，需要大量人工复核。</strong> 他的数据量约一万条（含轨迹整合），实际剔除后真正用的是几千条。其中 5000 条里他要自己人工审 500 条。想让 AI 生成&quot;治疗过度自信&quot;这类靶向数据，只描述需求是没用的——&quot;你如果只跟 AI 这么说了，那做的数据完全不对&quot;，必须一遍遍审、一遍遍把问题反馈给 AI 让它重做。V2 的两三周里，十二天耗在这上面。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">二是 Capacity Gap：老师太强，学生太弱。</strong> 老师是 3T 参数级别的前沿模型，学生是 12B 的小模型，中间横着一道&quot;学不到&quot;的能力鸿沟。你看着数据没问题，训出来还是不对。没有捷径，只能一版一版跑、一版一版看，有耐心地迭代——&quot;不要觉得一版做得没有自己想的好，就放弃了&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">三是&quot;什么数据好&quot;本身无法预判。</strong> 训练前你根本不知道这版数据会带来什么效果，只有跑完才知道。他能给的唯一经验是：采样看数据时觉得有问题，这一版就一定是错的；但觉得没问题，训出来仍然可能有问题。</p>
+<p style="margin:0.8em 0">所以他说，真正的难点、也是目前 AI 领域最大的卡点，是<strong style="font-weight:600">对数据的洞察力</strong>。训练是几个小时的事，数据是几天几周的事。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">成本账：训练几千块，serving 一台 H200</h2>
+<p style="margin:0.8em 0">他给应用公司算了一笔很实的账：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">训一个小模型</strong>（12B 级别微调）：几千到一万元人民币以内，应用公司就能训出自己想要的模型</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">大模型后训</strong>：十几万到二十万元以内</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Serving</strong>：如果只是几并发、十几并发的用量，一台 H200（几万块）就能覆盖十几个员工的内部使用</li>
+</ul>
+<p style="margin:0.8em 0">这个成本结构意味着什么？他说得很直接：<strong style="font-weight:600">中大型公司未来完全可以养一个三四人的小团队专门训自己的模型</strong>——预算无非就是这几个人的工资加显卡费用。显存和显卡现在处在历史高位（厂商没预测到 AI 能火成这样），但供应一旦上来，会像当年手机流量一样价格崩塌。</p>
+<p style="margin:0.8em 0">训练本身也正在商品化。Hugging Face 上已经有平台（他提到 Ansoff）让你选模型、选数据、直接微调，只是还贵；国内厂商也在做类似的事。把&quot;训练&quot;做成一个完整 pipeline 服务，是所有非 RSI 公司都在想的方向，瓶颈在 infra 和 serving 端，而不是想法。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">应用公司才是下一个赢家</h2>
+<p style="margin:0.8em 0">这是整场对话里最有信息量的一段判断。</p>
+<p style="margin:0.8em 0">他的推演链条是：AI Lab 的价值会&quot;减少并上移&quot;——只做前沿研究、前训和科学探索（AI for science、具身智能这类），而后训会被下放到应用公司。理由很硬：<strong style="font-weight:600">应用公司掌握第一手、最真实、最好的数据，而数据是决定模型表现的唯一稀缺资源。</strong></p>
+<p style="margin:0.8em 0">美国红杉最近那篇文章印证了这个方向：最新的 AI 应用公司未来反而会变成数据寡头——像 Binance、大摩这样的公司会继承自己积累的模型资产，成为新一代垄断者。这像极了推荐算法时代的重演：先有应用、场景、商业化闭环和用户数据，才有好算法——从来没有一家&quot;第三方中立的推荐算法公司&quot;最终赢下市场。</p>
+<p style="margin:0.8em 0">所以他说，别被&quot;模型吃掉一切&quot;吓住。未来某个时间点，模型的价值会开始向应用公司让渡。AI Lab 往上走、完全退出后训；应用公司接管自己的模型，小公司去调用中大型应用公司的 API。<strong style="font-weight:600">真正能活下来的 AI Lab，是往 research 和前沿开发方向走的那些。</strong></p>
+<p style="margin:0.8em 0">这也解释了为什么现在 AI Lab 在疯狂买数据——&quot;你让 AI 帮你写一篇稿子、改一段代码，这条真实使用轨迹就已经值钱了&quot;。就像移动互联网早期没人理解为什么要花那么多钱买用户——那时候恰恰是最便宜的时候。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Local AI：数据主权之战已经开始</h2>
+<p style="margin:0.8em 0">他最后抛出的判断是：<strong style="font-weight:600">未来人手一个本地模型，几乎是必然趋势。</strong></p>
+<p style="margin:0.8em 0">理由很现实：调 API，你的数据就能被上游看见。他明确不推荐那些几十块钱包月的中转站——&quot;很多中转站不仅灰色，还会卖你的数据&quot;，他自己身边已经出现过多起数据泄露被黑客威胁的案例。加上前沿模型在一些敏感领域（cybersecurity、生物研究）大量拒答，很多人只能选&quot;中等模型 + 本地部署 + 数据自留&quot;。</p>
+<p style="margin:0.8em 0">供给侧也在加速：千问一直在发小模型，就是为了让本地部署成为可能；报道称 2027-2028 年苹果要出 2T 统一内存的电脑——&quot;基本可以跑现在的顶级模型，你再也不需要调用上游 API 了&quot;。</p>
+<p style="margin:0.8em 0">但也有冷静的反方声音。同场的内容合伙人陈皮提醒：追求 SOTA 是少数人的焦虑，话语权强但人数少；<strong style="font-weight:600">最后用户最多的永远是豆包——因为它最方便、能解决问题、不用多花钱</strong>。隐私不是个人会主动选择的需求，推动本地模型的力量是应用公司（和模型公司天然存在竞对关系）以及苹果这样的平台，而不是用户自己。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">现在就开始——因为开源可能随时被堵上</h2>
+<p style="margin:0.8em 0">他给所有应用公司的建议只有一句：<strong style="font-weight:600">别等了，从现在就开始搞。</strong> 理由：开源不是理所当然的。千问在 3.7 版本就没有发布任何小模型——如果哪天主流厂商不再开源，应用公司连后训的底座都没有，&quot;很多人只会说'我用我的显卡部署个小模型'，这就是一个巨大的阻塞&quot;。</p>
+<p style="margin:0.8em 0">学 CS 的，主动往 AI 方向靠一靠；有预算的中大型公司，现在就组建自己的微调团队。在闭源可能到来的世界里，这是唯一能保住数据自主权的方式。</p>
+<p style="margin:0.8em 0">这场对话真正的非共识在于：当所有人都在争论&quot;模型会不会吃掉一切&quot;时，一个用几百美元登顶 Hugging Face 的实践者给出的答案是——<strong style="font-weight:600">训模型正在变成一件便宜到不值得争论的事，真正值钱的战场在数据、在应用、在谁手里有用户。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">一个人 + 一张租来的 RTX 5090 + 几百美元，五天即可微调出登顶 Hugging Face 的模型；训练只占十几小时，95% 时间花在数据上</li>
+<li style="margin:0.3em 0">微调流程四步：明确业务目标 → 选对底座（中文向选千问，Gemma 12B 中文会&quot;说粤语&quot;）→ 搭数据管线（真实数据 60-70% + 靶向合成数据）→ SFT 而非 RL</li>
+<li style="margin:0.3em 0">合成数据质量远低于宣传，必须人工复核（5000 条审 500 条）；Capacity Gap 决定&quot;数据看着没问题、训出来还是错&quot;只能靠迭代解决</li>
+<li style="margin:0.3em 0">应用公司训小模型成本几千到一万元，大模型后训十几万到二十万，serving 一台 H200 覆盖十几并发——中大型公司养 3-4 人微调团队是明确趋势</li>
+<li style="margin:0.3em 0">AI Lab 会&quot;上移&quot;：只做前训和前沿研究，后训下放给应用公司；数据寡头将诞生在应用侧（推荐算法时代重演），红杉文章已点名这一方向</li>
+<li style="margin:0.3em 0">Local AI 是数据主权之战：中转站卖数据、前沿模型拒答敏感领域、苹果 2T 内存电脑，都在把用户推向本地部署；但性价比和便利性（豆包逻辑）才是主流需求</li>
+<li style="margin:0.3em 0">开源可能随时收紧（千问 3.7 未发小模型即是信号），应用公司应从现在就建立自己的微调能力</li>
+</ul>
+
+</div>
