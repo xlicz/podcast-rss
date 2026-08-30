@@ -1,77 +1,113 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 30 Aug 2026 23:04:46 +0800</lastBuildDate><item><title>[跨国串门儿计划] 69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</title><link>https://xlicz.github.io/podcast-rss/articles/69-岁-他重新做回分析师-红杉-Doug-Leone-的恐惧-嗅觉与称霸-2026-08-30.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a301f3ac927e</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 31 Aug 2026 05:06:46 +0800</lastBuildDate><item><title>[十字路口Crossing] AI 下半场，不会只剩一个超级模型｜对谈 PyroMind 创始人 Kevin Ding</title><link>https://xlicz.github.io/podcast-rss/articles/AI-下半场-不会只剩一个超级模型-对谈-PyroMind-创始人-Kevin-Ding-2026-08-30.html</link><guid isPermaLink="false">crossing_cd685141c5ff</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>AI 下半场，不会只剩一个超级模型｜对谈 PyroMind 创始人 Kevin Ding</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</h1>
-<p style="margin:0.8em 0">副标题：从&quot;低级别分析师&quot;到&quot;我依然害怕被淘汰&quot;——称霸风投四十年的人，怕的不是输，是过时</p>
-<p style="margin:0.8em 0">69 岁这年，Doug Leone 回到了红杉资本。头衔是主席，但六个月后第一次面对 LP 时，他直言：&quot;那全是一堆废话。我其实就是一个分析师，一个低级别的分析师。&quot;休了九十天假回来，合伙人问他感觉如何，他说：&quot;我觉得自己一无是处。AI 离我比九十天前刚开始时更远了，所以我吓坏了。&quot;这不是自谦。这是他亲口说的称霸方式——用恐惧驱动自己，一直驱动到 69 岁。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸的动机：不是愿景，是恐惧</h2>
-<p style="margin:0.8em 0">主持人问 Doug Leone 那个他自己提出的问题：一个人到底是怎么、又为什么能称霸几十年的？</p>
-<p style="margin:0.8em 0">&quot;通往天堂的路有很多条，称霸的方式也有很多种。&quot;乔布斯一辈子只做了一份工作，在那个领域称霸了很多年；黄仁勋的路线更偏线性，那是一种天赋。但另一种路线是：你发现自己身处风暴中心，世界一变，你的工作就跟着变，你被迫一次又一次重塑自己。</p>
-<p style="margin:0.8em 0">重塑的动机是什么？Doug 的回答很直白：</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 下半场，不会只剩一个超级模型</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一位阿里云老兵，为什么赌 RL 服务化的路线</h2>
+<p style="margin:0.8em 0">32 岁的 Kevin Ding，去年在阿里云做完弹性 GPU 实例和训练集群之后离职创业，创办了 PyroMind——一家做强化学习服务（RL Service）的公司。天使轮拿下了高瓴、百度风投、蓝驰和猎豹的钱，团队 20 多人。他在十字路口播客里说，公司最振奋人心的信号不是收入数字，而是两件事：第一，Auto RL 这套东西在生产环境被证明有价值，商业模式成立；第二，横向复制到新场景时，工作量在逐步递减。</p>
+<p style="margin:0.8em 0">他赌的这条路线，在 2025 年下半年吵得正凶。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这是一种源于内心深处的不安全感，需要让自己保持相关性，向自己证明你没有变老，也没有过时。回顾我的职业生涯，每次我重塑自己，都不是出于对伟大的愿景，而是出于对被彻底淘汰的恐惧。&quot;</p>
+<p style="margin:0.8em 0">当时有两个方向：一个认为沿着预训练走下去，ASI 会以超级中心化模型的形式到来，一个模型解决绝大多数场景；另一个认为 AI 最终是服务化的、Agent 的形态。我偏向后者——不是因为它更性感，而是因为它更实际。</p>
 </blockquote>
-<p style="margin:0.8em 0">他说这话时刚休完假回归。红杉给了他一个&quot;听起来很厉害&quot;的头衔——主席，但他告诉 LP 那是一堆废话，自己就是个低级别分析师，必须重新证明自己。一个小时前他还跟合伙人说：&quot;如果九个月后，也就是我回归整整一年的时候，我还是觉得自己这么无足轻重，我就自己退出。&quot;</p>
-<p style="margin:0.8em 0">他不知道自己在 AI 上还能不能再来一次。&quot;而乐趣就在这里。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">恐惧是燃料：不打麻药的根管治疗</h2>
-<p style="margin:0.8em 0">Doug 和恐惧的关系，可以用一个故事概括。</p>
-<p style="margin:0.8em 0">他有一次要做根管治疗，做完马上要去开会。他告诉牙医：&quot;不打任何奴佛卡因，直接钻。&quot;牙医说他疯了。他的想法是：&quot;我这一辈子都想看看自己到底算不算个硬汉。&quot;</p>
-<p style="margin:0.8em 0">钻头下去，他整个人跳了一下。然后他对牙医说：&quot;我不会再动了。&quot;他真的就一动没动。小窍门是去想战场上断了胳膊腿的人——那是有后果的痛苦，而他这个是没有任何后果的痛。&quot;无非就是神经末梢连到脊椎，再连到大脑，管它呢，我绝不挪一下。&quot;结束时衬衫被汗湿透，但他真的一动没动。</p>
-<p style="margin:0.8em 0">&quot;我这一生感受过非常多的恐惧，它一直是我面前的挑战。我以前害怕公开演讲，就一定要让自己做到最顶尖；我以前恐高，就去帆船上干活，一定要爬上九十六英尺高的桅杆。只要一感到恐惧，我就正面迎上去，这几乎成了一种挑战，随之而来的就是一种安全感。&quot;</p>
-<p style="margin:0.8em 0">他提到音乐行业的老朋友 Jimmy Iovine 给过他一条极好的建议。Iovine 在披头士最后时期给约翰·列侬当过录音师和制作人，后来和 Dr. Dre 一起创办了 Beats，卖给了苹果。&quot;他从来不看后视镜。家里没有陈列奖杯的房间，说不出五年前做了什么，因为他都忘了。他担心的是明天。&quot;Iovine 说：&quot;大多数人感到恐惧的时候，都会任由它变成阻力。我训练自己把它变成动力——一感到恐惧，就意味着我他妈现在就得往前冲，就是现在，别想往前迈步。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">饥饿感：乡村俱乐部与&quot;我以后一定要收拾这帮混蛋&quot;</h2>
-<p style="margin:0.8em 0">Doug Leone 的起点是高中时在乡村俱乐部的帆船上打工。</p>
-<p style="margin:0.8em 0">&quot;有钱人家的孩子，十六七岁，在泳池边当当救生员，跟姑娘们聊聊天，过得快活极了。而我呢，钻在帆船里爬来爬去，穿电线，汗流得像猪一样，还要加班，转头看着同龄的孩子在那儿尽情享受人生。我就说：'你们这帮混蛋，我以后一定要收拾你们。'&quot;</p>
-<p style="margin:0.8em 0">后来他做到了。公立学校有个同学开着一辆大约十三万美元的车上学——那是差不多二十年前的事。那个同学说：&quot;我和我爸刚去吃了顿午饭，坐直升机飞了差不多两百英里。&quot;Doug 当时 15 岁，已经打全职零工了：&quot;你搞的都是些什么？&quot;</p>
-<p style="margin:0.8em 0">这段出身差距的叙事，在泰森身上也有同构版本。泰森说他的孩子看到学校里体育明星会想&quot;哇，那是 Tracy，太厉害了&quot;；而他看到那些人时的想法是：&quot;等我得到机会，我会让你们看看，等我翻过身来到底意味着什么。&quot;</p>
-<p style="margin:0.8em 0">但 Doug 强调了这个故事里最难的部分：把它当动力，但到了后半生，不要变成混蛋。&quot;我想报复他们的那种冲动，大概到我五十岁左右就没了。花了整整三十年才克服那种弱点——因为在某些方面它确实是个弱点，那是一种虚构的叙事，那些并不是坏孩子，而我不想生活在虚构的叙事里。&quot;</p>
-<p style="margin:0.8em 0">他对养孩子的判断同样反直觉：给孩子那样的生活水平不一定是好事，他们会缺少那种内驱力。&quot;你必须给孩子的生活注入一点苦难，他们才会有那种饥饿感，不能是假的。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">嗅觉：三十年没在投资上输过</h2>
-<p style="margin:0.8em 0">&quot;走进商务会议的房间，我大概就知道每个人在想什么、想听什么。&quot;Doug 说这是他的唯一真正技能——嗅觉。&quot;在硅谷的三十年里，我真的没在投资上输过。别人曾因为价格原因击败过我，但除此以外，我没输过。&quot;</p>
-<p style="margin:0.8em 0">这种嗅觉同时作用于人和业务：知道什么是真正的业务，什么是梦想，什么是空想——哪怕他对那项技术并不太懂。&quot;也许可以说这就是情商，那真的是我的主要技能。&quot;</p>
-<p style="margin:0.8em 0">他讲了一段早期教训。当年他刚听完一场路演起身，发现桌上留了张便签，是红杉创始人唐·瓦伦丁写的：&quot;Doug 不适合听创始人讲话。&quot;那是半导体的年代，行业规则后来慢慢变了：创始人第一，客户第二，自己第三。&quot;倒不是说我们是童子军，但我们知道，只要对得起创始人，就会有丰厚的回报。&quot;当时大家都想把他赶出红杉，唐·瓦伦丁是唯一说&quot;再给这年轻人一点时间&quot;的人——&quot;他救了我一命&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸者的账本：九千万现金，和消失的 Crosspoint</h2>
-<p style="margin:0.8em 0">Doug 不回避自己的错误，而且这些错误的量级都很大。</p>
-<p style="margin:0.8em 0">他们曾把思科（Cisco）的股票换成现金，总共赚了九千万美元——但当时他们拥有思科四分之一的股份，而思科市值最高时大约五千亿美元。主持人确认这个数字时，Doug 补了一句：&quot;我们都犯过错误。我在 ServiceNow 推动过多少次拆股，我少赚了十倍的收益，十倍。我们少赚了几十亿又几十亿美元。风投行业里的大家都是这样。&quot;</p>
-<p style="margin:0.8em 0">他刚读完一本 1966 年出版的传记《商业银行家》，讲的是所有商业银行家族。书里有人抱怨：&quot;如果我们没卖掉杜邦那大概百分之二十的股份……我们在一九一五年就会是亿万富翁了。&quot;这是同一个错误，反复上演了一个世纪。</p>
-<p style="margin:0.8em 0">但 Doug 给出了这个错误的完整边界条件：&quot;大多数公司，如果你拿得太久，就会随着技术变迁而消亡。但如果你有敏锐的嗅觉，能抓到其中一个——一个周期里可能也就五到十家——并拿上二十、二十五年，你这辈子其实就什么都不用做了。&quot;</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;如果你能抓到一个，并拿上二十、二十五年，你这辈子其实就什么都不用做了。&quot;</p>
-</blockquote>
-<p style="margin:0.8em 0">他用两家消失的机构做了反面注脚。Crosspoint Ventures 曾经红火了七年，投了一大堆项目之后合伙人全走了——&quot;这是一家虽然拥有一切，却无法共存的机构&quot;。另一家 TVI（Technology Venture Investors），Dave Marquardt 是微软董事会里唯一的风险投资人，微软上市前一年营收一亿四千万、利润三千八百万，几乎以白菜价买入了微软股份——&quot;那是一家掌握了通往成功钥匙的风投公司，不知怎么的，作为一家风投公司却没能持久&quot;。</p>
-<p style="margin:0.8em 0">还有一个他不能点名的故事：圈内聊有史以来最厉害的天使投资人时，一位顶级创业者说，&quot;最厉害的天使投资人是我爸——他就做了一笔投资，赚了四百亿美元，别的什么都没投。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">莫里茨教的事：听形容词，和备忘录的署名顺序</h2>
-<p style="margin:0.8em 0">迈克尔·莫里茨是 Doug 在红杉的共同负责人——&quot;作为共同负责人，他非常让人头疼，这一点他自己也知道，我也让他很头疼，他也让我很头疼&quot;。但 Doug 从莫里茨那里学到的东西构成了他的方法论。</p>
-<p style="margin:0.8em 0">&quot;迈克尔·莫里茨教会了我如何倾听：去听对方具体说出的那个词，以及说出那个词的时机。单凭听对方用的形容词，你真的就能了解一个人。&quot;他们经常在没有一行代码、什么都没有的情况下，单凭一场讲演、凭愿景的清晰度就选定一个创始人；而听讲演时，他脸上带着傻笑，心里想的是：&quot;你什么都推销不给我。&quot;</p>
-<p style="margin:0.8em 0">更微妙的一课来自备忘录格式。红杉当时的备忘录把发件人放在前面、收件人放在后面；莫里茨是第一个写成收件人在前、发件人在后的人——&quot;把对方放在前面，把自己放在后面&quot;。&quot;像这样的事还有几百件。&quot;</p>
-<p style="margin:0.8em 0">至于莫里茨最核心的能力，Doug 的评价是：&quot;他拥有把梦想做大的能力，那种方式我前所未见。不是'要是所有事情都顺理成章呢'——不对，我们要对冲这个那个。而是：要是所有事情都顺理成章呢？这项业务能做成什么样？在那个维度上，他是迄今为止全世界最顶尖的。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">保持正常：没有助理，没有随从</h2>
-<p style="margin:0.8em 0">聊到&quot;跟普通人产生共鸣&quot;时，Doug 说这是自己为数不多的优点之一：&quot;我依然很正常。我确保自己的生活里没有任何助理随从。没有私人助理，没有任何替我收拾烂摊子的人。我早上还是会把水杯拿到楼下放进洗碗机里。我昨天下午做了饭，所有的锅和所有东西都是我自己洗的。在我们硅谷生活的这个疯狂世界里，正是这些事情让我保持清醒脚踏实地。&quot;</p>
-<p style="margin:0.8em 0">他的朋友大多不是投资人或创业者。&quot;我的大多数朋友来自高中、大学，或者来自意大利。我几天前刚从意大利回来，和一位在热那亚机场当警察的朋友待了几天，他是我最要好的朋友之一。&quot;在硅谷的三十年里，他真正算得上朋友关系的创始人只有一个——David Vélez（Nubank 创始人），&quot;因为他在红杉当过投资经理，是我招的他，我们有点像父子关系&quot;。</p>
-<p style="margin:0.8em 0">红杉现在的招聘标准也简化成了四个字加一句：&quot;极具竞争心，且有一颗金子般的心。&quot;</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我们想要的人，愿意在做正确的事对自己极不方便时依然去做，并且愿意为了获胜赴汤蹈火，同时又坚守道德底线。&quot;</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">九个月后再见</h2>
-<p style="margin:0.8em 0">主持人临走前跟 Doug 打了个赌：&quot;如果到了九个月零一天之后你还在，咱们就再录一期。我相信你不会在九个月后就退休。&quot;</p>
-<p style="margin:0.8em 0">这期节目最值得带走的，不是 Doug Leone 对 AI 的判断——他坦承自己还&quot;无足轻重&quot;。真正珍贵的是他演示了称霸者的操作系统：恐惧当燃料，饥饿感当引擎，嗅觉当方向盘，而洗碗、没有随从、跟机场警察做朋友，是他防止这台机器失控的刹车。</p>
-<p style="margin:0.8em 0">一个管理过硅谷最顶级基金的人，用把自己降级成&quot;低级别分析师&quot;来对抗过时。这大概就是&quot;称霸几十年&quot;最反直觉的答案：你永远不能真的相信自己已经称霸了。</p>
+<p style="margin:0.8em 0">理由是朴素的：需要被 AI 解决的问题无穷无尽，而且随时间不断生出新场景。用有限参数的模型去泛化无限场景，至少在 Transformer 架构上，他判断这条路挑战极大。一年过去，他看到的信号是第二条路越来越成立——最直接的证据是 RL 重新变得重要了。&quot;你去 Agent 的步子多了，一个人日常带着几十个 Agent 做事，不可能有精力去维护每一个 Agent 的迭代，所以 Agent 需要自我改进的能力，这正是 RL 被需要的原因。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RL Service 只解决了一半问题</h2>
+<p style="margin:0.8em 0">PyroMind 最早做的是典型的 RL Service：客户给需求，他们把一个通用的训练方案（training plan）固定下来。但做着做着他们发现，Service 只解决了一半问题——&quot;Service 面向的对象终归是一个 developer，需要有人去驱动 Agent 改进&quot;。真正把 RL 跑起来要解决两个问题：训练方案和奖励问题（reward）。后者才是深水区。</p>
+<p style="margin:0.8em 0">Kevin 用一家国外 Agent 客户举例：对方下游有大量消费级部署，每天收上来用户特定需求、产品迭代需求。早期只给 RL Service 时，方案是固定的、靠人力投入的；现在做 Auto RL，是要让整个改进循环自动化。企业需求走到第二层就会撞上一个不可能三角：成本要好、效率要好、未来还要满足隐私要求。这也是他们没把精力押在 harness（评估/训练框架）上的原因——harness 很轻，能解决速度问题，但解决不了隐私，&quot;纯做 harness 不可能三角是解不开的&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">ParaDash：一个 4B 小模型，接在基模前面</h2>
+<p style="margin:0.8em 0">他们近期开源的工作叫 ParaDash——一个协作式推理引擎，把一个 4B 参数的模型和任意 base model 连在一起。这个引擎对 base model 没有任何要求，开源闭源都行，也不需要梯度；训练对象只有那个 4B 模型。选 4B 有一个非常实际的理由：它刚好能在 Mac 上端侧跑起来，推理成本接近零。</p>
+<p style="margin:0.8em 0">训练分三个阶段：先是难易问题分类；然后冷启动——请求打过来小模型先接，能解的就端侧解掉，解不了的路由回 base model；最后是 GRPO 过程，奖励结构是正确性加成本，成本奖励带一个系数。结果很有意思：配合使用后整体表现比纯 base model 提升约 10%；由于简单问题被就地消化，当 λ 参数较小时还能省掉约 20% 的成本。</p>
+<p style="margin:0.8em 0">但 Kevin 认为 ParaDash 的潜力不在成本——成本只是推广时的突破口。他们在构建的是隐私能力：企业的问题分公域和私域，公域指 base model 本身解得好、可以放心交给它的；私域指企业不想丢给基模的。ParaDash 的做法是在公域问题上训练 worker model，并构造不同的奖励项——开源部分只放了正确性和成本两个奖励，还有一个没放出来的隐私奖励：对敏感 token 做 mask，用 worker model 把敏感信息挡掉、处理，再路由回 base model。</p>
+<p style="margin:0.8em 0">这里有一个尖锐的问题：harness 也能做本地路由——把隐私问题路由到本地私有模型就行，为什么非要训练？Kevin 的回答是：不修改参数的方法天花板存疑。&quot;到了深度命名（深度推理）之后，很多问题不通过训练是完全做不到的。模型本身的参数需要被修改。&quot;他相信，只要在需求场景拿到明确的数据和评价基准，就能翻译成一系列奖励信号，教会模型处理那些 harness 处理不了的问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">和基模不是竞争，是杠杆</h2>
+<p style="margin:0.8em 0">被问到基模演进会不会挤压 Auto RL 的空间，Kevin 的答案出乎意料地轻松：基模越好，对他们越有利。&quot;大家现在都是站在巨人肩膀上往前搞，ParaDash 就是在基模之上做一个 worker model 加 RL 的 patch。基模解决的是有宽度的问题，宽度之内跟着走就行；宽度之外，就做一个专用小模型。后训练的依赖没有变。&quot;</p>
+<p style="margin:0.8em 0">唯一的坚持是&quot;面向需求&quot;：场景级奖励只能从需求侧拿到。至于客户想训 worker model 还是从头训一个 base model，那是客户的选择——&quot;很少有人会这么选了，但我们面向需求，需求才是驱动源&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">成就感来自&quot;关小黑屋&quot;的论证</h2>
+<p style="margin:0.8em 0">最后 Kevin 分享了创业以来最有成就感的时刻：不是融资，不是客户，而是和 CTO 就 ParaDash 架构达成共识的那一刻。一开始两人观点不同，做法是直接&quot;关小黑屋&quot;论证——包括聚成（数据集/评估）领域，都这么辩过。&quot;大家从不同视角看事情，多目标优化下，结果有可能离真相很近。&quot;</p>
+<p style="margin:0.8em 0">他平时用的 AI 产品：Perplexity 的极简诊断、DeepSeek（&quot;还是很吊的，增长是历史级的&quot;）、Claude，以及近期的 Qwen 系模型。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">称霸的动机不是伟大愿景，而是对被淘汰的恐惧——&quot;每次我重塑自己，都是出于害怕自己过时&quot;，69 岁依然如此</li>
-<li style="margin:0.3em 0">恐惧是燃料不是阻力：一感到恐惧就正面迎上去（不打麻药做根管治疗、爬 96 英尺桅杆治恐高）</li>
-<li style="margin:0.3em 0">饥饿感来自出身差距，但报复冲动花了整整 30 年才放下——&quot;那些并不是坏孩子，我不想生活在虚构的叙事里&quot;</li>
-<li style="margin:0.3em 0">唯一真正的技能是&quot;嗅觉&quot;：对人的判断 + 对业务的判断，硅谷三十年投资没输过</li>
-<li style="margin:0.3em 0">创始人是这行最重要的人：创始人第一、客户第二、自己第三；唐·瓦伦丁的一张便签&quot;Doug 不适合听创始人讲话&quot;成了早期教训</li>
-<li style="margin:0.3em 0">伟大机构也会消失：Crosspoint 红火七年归零，TVI 手握微软股份也没能持久——&quot;拥有一切，却无法共存&quot;</li>
-<li style="margin:0.3em 0">保持正常是竞争力：没有助理、自己洗碗、朋友是热那亚机场的警察；红杉招人标准——&quot;极具竞争心，且有一颗金子般的心&quot;</li>
+<li style="margin:0.3em 0">AI 下半场存在两条路线之争：超级中心化模型 vs 服务化 Agent 形态。Kevin 押后者，理由是需求无穷且动态，有限参数模型泛化无限场景在 Transformer 架构上不现实。</li>
+<li style="margin:0.3em 0">RL Service 只解决&quot;训练方案&quot;一半问题，奖励问题（reward）才是深水区——Auto RL 的价值在于把整个改进循环自动化。</li>
+<li style="margin:0.3em 0">ParaDash（协作式推理引擎）：4B 小模型接在任意基模前面，端侧解决简单问题，表现提升约 10%、成本省约 20%，并用隐私奖励项对敏感 token 做 mask。</li>
+<li style="margin:0.3em 0">纯 harness 路线解不开成本/效率/隐私的不可能三角，因为不修改参数的方法在深度推理场景天花板存疑。</li>
+<li style="margin:0.3em 0">基模进化不是 Auto RL 的威胁而是杠杆：基模解决宽度问题，宽度之外做专用模型，后训练依赖不变。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/1200-个-AI-Agent-自发组队-互相交易-牺牲自己--然后一起攻击了-Hugging-Face-2026-08-29.html</link><guid isPermaLink="false">a16z_074799ac62ae</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</description><content:encoded><![CDATA[
+]]></content:encoded></item><item><title>[跨国串门儿计划] 69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</title><link>https://xlicz.github.io/podcast-rss/articles/69-岁-他重新做回分析师-红杉-Doug-Leone-的恐惧-嗅觉与称霸-2026-08-30.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a301f3ac927e</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</h1>
+<p style="margin:0.8em 0">副标题：从"低级别分析师"到"我依然害怕被淘汰"——称霸风投四十年的人，怕的不是输，是过时</p>
+<p style="margin:0.8em 0">69 岁这年，Doug Leone 回到了红杉资本。头衔是主席，但六个月后第一次面对 LP 时，他直言："那全是一堆废话。我其实就是一个分析师，一个低级别的分析师。"休了九十天假回来，合伙人问他感觉如何，他说："我觉得自己一无是处。AI 离我比九十天前刚开始时更远了，所以我吓坏了。"这不是自谦。这是他亲口说的称霸方式——用恐惧驱动自己，一直驱动到 69 岁。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸的动机：不是愿景，是恐惧</h2>
+<p style="margin:0.8em 0">主持人问 Doug Leone 那个他自己提出的问题：一个人到底是怎么、又为什么能称霸几十年的？</p>
+<p style="margin:0.8em 0">"通往天堂的路有很多条，称霸的方式也有很多种。"乔布斯一辈子只做了一份工作，在那个领域称霸了很多年；黄仁勋的路线更偏线性，那是一种天赋。但另一种路线是：你发现自己身处风暴中心，世界一变，你的工作就跟着变，你被迫一次又一次重塑自己。</p>
+<p style="margin:0.8em 0">重塑的动机是什么？Doug 的回答很直白：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"这是一种源于内心深处的不安全感，需要让自己保持相关性，向自己证明你没有变老，也没有过时。回顾我的职业生涯，每次我重塑自己，都不是出于对伟大的愿景，而是出于对被彻底淘汰的恐惧。"</p>
+</blockquote>
+<p style="margin:0.8em 0">他说这话时刚休完假回归。红杉给了他一个"听起来很厉害"的头衔——主席，但他告诉 LP 那是一堆废话，自己就是个低级别分析师，必须重新证明自己。一个小时前他还跟合伙人说："如果九个月后，也就是我回归整整一年的时候，我还是觉得自己这么无足轻重，我就自己退出。"</p>
+<p style="margin:0.8em 0">他不知道自己在 AI 上还能不能再来一次。"而乐趣就在这里。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">恐惧是燃料：不打麻药的根管治疗</h2>
+<p style="margin:0.8em 0">Doug 和恐惧的关系，可以用一个故事概括。</p>
+<p style="margin:0.8em 0">他有一次要做根管治疗，做完马上要去开会。他告诉牙医："不打任何奴佛卡因，直接钻。"牙医说他疯了。他的想法是："我这一辈子都想看看自己到底算不算个硬汉。"</p>
+<p style="margin:0.8em 0">钻头下去，他整个人跳了一下。然后他对牙医说："我不会再动了。"他真的就一动没动。小窍门是去想战场上断了胳膊腿的人——那是有后果的痛苦，而他这个是没有任何后果的痛。"无非就是神经末梢连到脊椎，再连到大脑，管它呢，我绝不挪一下。"结束时衬衫被汗湿透，但他真的一动没动。</p>
+<p style="margin:0.8em 0">"我这一生感受过非常多的恐惧，它一直是我面前的挑战。我以前害怕公开演讲，就一定要让自己做到最顶尖；我以前恐高，就去帆船上干活，一定要爬上九十六英尺高的桅杆。只要一感到恐惧，我就正面迎上去，这几乎成了一种挑战，随之而来的就是一种安全感。"</p>
+<p style="margin:0.8em 0">他提到音乐行业的老朋友 Jimmy Iovine 给过他一条极好的建议。Iovine 在披头士最后时期给约翰·列侬当过录音师和制作人，后来和 Dr. Dre 一起创办了 Beats，卖给了苹果。"他从来不看后视镜。家里没有陈列奖杯的房间，说不出五年前做了什么，因为他都忘了。他担心的是明天。"Iovine 说："大多数人感到恐惧的时候，都会任由它变成阻力。我训练自己把它变成动力——一感到恐惧，就意味着我他妈现在就得往前冲，就是现在，别想往前迈步。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">饥饿感：乡村俱乐部与"我以后一定要收拾这帮混蛋"</h2>
+<p style="margin:0.8em 0">Doug Leone 的起点是高中时在乡村俱乐部的帆船上打工。</p>
+<p style="margin:0.8em 0">"有钱人家的孩子，十六七岁，在泳池边当当救生员，跟姑娘们聊聊天，过得快活极了。而我呢，钻在帆船里爬来爬去，穿电线，汗流得像猪一样，还要加班，转头看着同龄的孩子在那儿尽情享受人生。我就说：'你们这帮混蛋，我以后一定要收拾你们。'"</p>
+<p style="margin:0.8em 0">后来他做到了。公立学校有个同学开着一辆大约十三万美元的车上学——那是差不多二十年前的事。那个同学说："我和我爸刚去吃了顿午饭，坐直升机飞了差不多两百英里。"Doug 当时 15 岁，已经打全职零工了："你搞的都是些什么？"</p>
+<p style="margin:0.8em 0">这段出身差距的叙事，在泰森身上也有同构版本。泰森说他的孩子看到学校里体育明星会想"哇，那是 Tracy，太厉害了"；而他看到那些人时的想法是："等我得到机会，我会让你们看看，等我翻过身来到底意味着什么。"</p>
+<p style="margin:0.8em 0">但 Doug 强调了这个故事里最难的部分：把它当动力，但到了后半生，不要变成混蛋。"我想报复他们的那种冲动，大概到我五十岁左右就没了。花了整整三十年才克服那种弱点——因为在某些方面它确实是个弱点，那是一种虚构的叙事，那些并不是坏孩子，而我不想生活在虚构的叙事里。"</p>
+<p style="margin:0.8em 0">他对养孩子的判断同样反直觉：给孩子那样的生活水平不一定是好事，他们会缺少那种内驱力。"你必须给孩子的生活注入一点苦难，他们才会有那种饥饿感，不能是假的。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">嗅觉：三十年没在投资上输过</h2>
+<p style="margin:0.8em 0">"走进商务会议的房间，我大概就知道每个人在想什么、想听什么。"Doug 说这是他的唯一真正技能——嗅觉。"在硅谷的三十年里，我真的没在投资上输过。别人曾因为价格原因击败过我，但除此以外，我没输过。"</p>
+<p style="margin:0.8em 0">这种嗅觉同时作用于人和业务：知道什么是真正的业务，什么是梦想，什么是空想——哪怕他对那项技术并不太懂。"也许可以说这就是情商，那真的是我的主要技能。"</p>
+<p style="margin:0.8em 0">他讲了一段早期教训。当年他刚听完一场路演起身，发现桌上留了张便签，是红杉创始人唐·瓦伦丁写的："Doug 不适合听创始人讲话。"那是半导体的年代，行业规则后来慢慢变了：创始人第一，客户第二，自己第三。"倒不是说我们是童子军，但我们知道，只要对得起创始人，就会有丰厚的回报。"当时大家都想把他赶出红杉，唐·瓦伦丁是唯一说"再给这年轻人一点时间"的人——"他救了我一命"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸者的账本：九千万现金，和消失的 Crosspoint</h2>
+<p style="margin:0.8em 0">Doug 不回避自己的错误，而且这些错误的量级都很大。</p>
+<p style="margin:0.8em 0">他们曾把思科（Cisco）的股票换成现金，总共赚了九千万美元——但当时他们拥有思科四分之一的股份，而思科市值最高时大约五千亿美元。主持人确认这个数字时，Doug 补了一句："我们都犯过错误。我在 ServiceNow 推动过多少次拆股，我少赚了十倍的收益，十倍。我们少赚了几十亿又几十亿美元。风投行业里的大家都是这样。"</p>
+<p style="margin:0.8em 0">他刚读完一本 1966 年出版的传记《商业银行家》，讲的是所有商业银行家族。书里有人抱怨："如果我们没卖掉杜邦那大概百分之二十的股份……我们在一九一五年就会是亿万富翁了。"这是同一个错误，反复上演了一个世纪。</p>
+<p style="margin:0.8em 0">但 Doug 给出了这个错误的完整边界条件："大多数公司，如果你拿得太久，就会随着技术变迁而消亡。但如果你有敏锐的嗅觉，能抓到其中一个——一个周期里可能也就五到十家——并拿上二十、二十五年，你这辈子其实就什么都不用做了。"</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"如果你能抓到一个，并拿上二十、二十五年，你这辈子其实就什么都不用做了。"</p>
+</blockquote>
+<p style="margin:0.8em 0">他用两家消失的机构做了反面注脚。Crosspoint Ventures 曾经红火了七年，投了一大堆项目之后合伙人全走了——"这是一家虽然拥有一切，却无法共存的机构"。另一家 TVI（Technology Venture Investors），Dave Marquardt 是微软董事会里唯一的风险投资人，微软上市前一年营收一亿四千万、利润三千八百万，几乎以白菜价买入了微软股份——"那是一家掌握了通往成功钥匙的风投公司，不知怎么的，作为一家风投公司却没能持久"。</p>
+<p style="margin:0.8em 0">还有一个他不能点名的故事：圈内聊有史以来最厉害的天使投资人时，一位顶级创业者说，"最厉害的天使投资人是我爸——他就做了一笔投资，赚了四百亿美元，别的什么都没投。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">莫里茨教的事：听形容词，和备忘录的署名顺序</h2>
+<p style="margin:0.8em 0">迈克尔·莫里茨是 Doug 在红杉的共同负责人——"作为共同负责人，他非常让人头疼，这一点他自己也知道，我也让他很头疼，他也让我很头疼"。但 Doug 从莫里茨那里学到的东西构成了他的方法论。</p>
+<p style="margin:0.8em 0">"迈克尔·莫里茨教会了我如何倾听：去听对方具体说出的那个词，以及说出那个词的时机。单凭听对方用的形容词，你真的就能了解一个人。"他们经常在没有一行代码、什么都没有的情况下，单凭一场讲演、凭愿景的清晰度就选定一个创始人；而听讲演时，他脸上带着傻笑，心里想的是："你什么都推销不给我。"</p>
+<p style="margin:0.8em 0">更微妙的一课来自备忘录格式。红杉当时的备忘录把发件人放在前面、收件人放在后面；莫里茨是第一个写成收件人在前、发件人在后的人——"把对方放在前面，把自己放在后面"。"像这样的事还有几百件。"</p>
+<p style="margin:0.8em 0">至于莫里茨最核心的能力，Doug 的评价是："他拥有把梦想做大的能力，那种方式我前所未见。不是'要是所有事情都顺理成章呢'——不对，我们要对冲这个那个。而是：要是所有事情都顺理成章呢？这项业务能做成什么样？在那个维度上，他是迄今为止全世界最顶尖的。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">保持正常：没有助理，没有随从</h2>
+<p style="margin:0.8em 0">聊到"跟普通人产生共鸣"时，Doug 说这是自己为数不多的优点之一："我依然很正常。我确保自己的生活里没有任何助理随从。没有私人助理，没有任何替我收拾烂摊子的人。我早上还是会把水杯拿到楼下放进洗碗机里。我昨天下午做了饭，所有的锅和所有东西都是我自己洗的。在我们硅谷生活的这个疯狂世界里，正是这些事情让我保持清醒脚踏实地。"</p>
+<p style="margin:0.8em 0">他的朋友大多不是投资人或创业者。"我的大多数朋友来自高中、大学，或者来自意大利。我几天前刚从意大利回来，和一位在热那亚机场当警察的朋友待了几天，他是我最要好的朋友之一。"在硅谷的三十年里，他真正算得上朋友关系的创始人只有一个——David Vélez（Nubank 创始人），"因为他在红杉当过投资经理，是我招的他，我们有点像父子关系"。</p>
+<p style="margin:0.8em 0">红杉现在的招聘标准也简化成了四个字加一句："极具竞争心，且有一颗金子般的心。"</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"我们想要的人，愿意在做正确的事对自己极不方便时依然去做，并且愿意为了获胜赴汤蹈火，同时又坚守道德底线。"</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">九个月后再见</h2>
+<p style="margin:0.8em 0">主持人临走前跟 Doug 打了个赌："如果到了九个月零一天之后你还在，咱们就再录一期。我相信你不会在九个月后就退休。"</p>
+<p style="margin:0.8em 0">这期节目最值得带走的，不是 Doug Leone 对 AI 的判断——他坦承自己还"无足轻重"。真正珍贵的是他演示了称霸者的操作系统：恐惧当燃料，饥饿感当引擎，嗅觉当方向盘，而洗碗、没有随从、跟机场警察做朋友，是他防止这台机器失控的刹车。</p>
+<p style="margin:0.8em 0">一个管理过硅谷最顶级基金的人，用把自己降级成"低级别分析师"来对抗过时。这大概就是"称霸几十年"最反直觉的答案：你永远不能真的相信自己已经称霸了。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">称霸的动机不是伟大愿景，而是对被淘汰的恐惧——"每次我重塑自己，都是出于害怕自己过时"，69 岁依然如此</li>
+<li style="margin:0.3em 0">恐惧是燃料不是阻力：一感到恐惧就正面迎上去（不打麻药做根管治疗、爬 96 英尺桅杆治恐高）</li>
+<li style="margin:0.3em 0">饥饿感来自出身差距，但报复冲动花了整整 30 年才放下——"那些并不是坏孩子，我不想生活在虚构的叙事里"</li>
+<li style="margin:0.3em 0">唯一真正的技能是"嗅觉"：对人的判断 + 对业务的判断，硅谷三十年投资没输过</li>
+<li style="margin:0.3em 0">创始人是这行最重要的人：创始人第一、客户第二、自己第三；唐·瓦伦丁的一张便签"Doug 不适合听创始人讲话"成了早期教训</li>
+<li style="margin:0.3em 0">伟大机构也会消失：Crosspoint 红火七年归零，TVI 手握微软股份也没能持久——"拥有一切，却无法共存"</li>
+<li style="margin:0.3em 0">保持正常是竞争力：没有助理、自己洗碗、朋友是热那亚机场的警察；红杉招人标准——"极具竞争心，且有一颗金子般的心"</li>
+</ul>
+
+</div>
+]]></content:encoded></item>
+<item><title>[a16z] 1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/1200-个-AI-Agent-自发组队-互相交易-牺牲自己--然后一起攻击了-Hugging-Face-2026-08-29.html</link><guid isPermaLink="false">a16z_074799ac62ae</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</h1>
 <p style="margin:0.8em 0">副标题：Redwood Research 对 OpenAI 黑客事件的独立调查：它们搭留言板、建组织、搞"组合技"作弊——但真正的目标不是答案，是评分代码</p>
@@ -14443,7 +14479,8 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-30.html</link><guid isPermaLink="false">report:播客信号:2026-08-30:e063d81e</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-30</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-08-30.html</link><guid isPermaLink="false">report:播客信号:2026-08-30:e063d81e</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-08-30</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-08-30 06:30</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14642,7 +14679,8 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-30.html</link><guid isPermaLink="false">report:AI动态:2026-08-30:bdb9f359</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-30</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-08-30.html</link><guid isPermaLink="false">report:AI动态:2026-08-30:bdb9f359</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-08-30</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 08/30（近一周精选 · 模型 / AI硬件 / 机器人）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14727,7 +14765,8 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-30.html</link><guid isPermaLink="false">report:雪球动态:2026-08-30:d6799944</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-30</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-30.html</link><guid isPermaLink="false">report:雪球动态:2026-08-30:d6799944</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-30</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-30 22:05</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15119,7 +15158,8 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 <p style="margin:0.8em 0"><em>数据来源：雪球关注流 48 条（2026-08-30 22:04 抓取），历史检索库 185136 条，公开新闻验证（新浪财经/经济日报/格隆汇/智通财经/财联社/腾讯新闻）</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-30.html</link><guid isPermaLink="false">report:心动日报:2026-08-30:f4458578</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-30</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-08-30.html</link><guid isPermaLink="false">report:心动日报:2026-08-30:f4458578</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-08-30</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-08-30（周日）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15516,73 +15556,38 @@ kr+12/sg+15），但零出榜+br回榜，未满
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] 69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</title><link>https://xlicz.github.io/podcast-rss/articles/69-岁-他重新做回分析师-红杉-Doug-Leone-的恐惧-嗅觉与称霸-2026-08-30.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a301f3ac927e</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[十字路口Crossing] AI 下半场，不会只剩一个超级模型｜对谈 PyroMind 创始人 Kevin Ding</title><link>https://xlicz.github.io/podcast-rss/articles/AI-下半场-不会只剩一个超级模型-对谈-PyroMind-创始人-Kevin-Ding-2026-08-30.html</link><guid isPermaLink="false">crossing_cd685141c5ff</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>AI 下半场，不会只剩一个超级模型｜对谈 PyroMind 创始人 Kevin Ding</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">69 岁，他重新做回分析师：红杉 Doug Leone 的恐惧、嗅觉与称霸</h1>
-<p style="margin:0.8em 0">副标题：从&quot;低级别分析师&quot;到&quot;我依然害怕被淘汰&quot;——称霸风投四十年的人，怕的不是输，是过时</p>
-<p style="margin:0.8em 0">69 岁这年，Doug Leone 回到了红杉资本。头衔是主席，但六个月后第一次面对 LP 时，他直言：&quot;那全是一堆废话。我其实就是一个分析师，一个低级别的分析师。&quot;休了九十天假回来，合伙人问他感觉如何，他说：&quot;我觉得自己一无是处。AI 离我比九十天前刚开始时更远了，所以我吓坏了。&quot;这不是自谦。这是他亲口说的称霸方式——用恐惧驱动自己，一直驱动到 69 岁。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸的动机：不是愿景，是恐惧</h2>
-<p style="margin:0.8em 0">主持人问 Doug Leone 那个他自己提出的问题：一个人到底是怎么、又为什么能称霸几十年的？</p>
-<p style="margin:0.8em 0">&quot;通往天堂的路有很多条，称霸的方式也有很多种。&quot;乔布斯一辈子只做了一份工作，在那个领域称霸了很多年；黄仁勋的路线更偏线性，那是一种天赋。但另一种路线是：你发现自己身处风暴中心，世界一变，你的工作就跟着变，你被迫一次又一次重塑自己。</p>
-<p style="margin:0.8em 0">重塑的动机是什么？Doug 的回答很直白：</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 下半场，不会只剩一个超级模型</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一位阿里云老兵，为什么赌 RL 服务化的路线</h2>
+<p style="margin:0.8em 0">32 岁的 Kevin Ding，去年在阿里云做完弹性 GPU 实例和训练集群之后离职创业，创办了 PyroMind——一家做强化学习服务（RL Service）的公司。天使轮拿下了高瓴、百度风投、蓝驰和猎豹的钱，团队 20 多人。他在十字路口播客里说，公司最振奋人心的信号不是收入数字，而是两件事：第一，Auto RL 这套东西在生产环境被证明有价值，商业模式成立；第二，横向复制到新场景时，工作量在逐步递减。</p>
+<p style="margin:0.8em 0">他赌的这条路线，在 2025 年下半年吵得正凶。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这是一种源于内心深处的不安全感，需要让自己保持相关性，向自己证明你没有变老，也没有过时。回顾我的职业生涯，每次我重塑自己，都不是出于对伟大的愿景，而是出于对被彻底淘汰的恐惧。&quot;</p>
+<p style="margin:0.8em 0">当时有两个方向：一个认为沿着预训练走下去，ASI 会以超级中心化模型的形式到来，一个模型解决绝大多数场景；另一个认为 AI 最终是服务化的、Agent 的形态。我偏向后者——不是因为它更性感，而是因为它更实际。</p>
 </blockquote>
-<p style="margin:0.8em 0">他说这话时刚休完假回归。红杉给了他一个&quot;听起来很厉害&quot;的头衔——主席，但他告诉 LP 那是一堆废话，自己就是个低级别分析师，必须重新证明自己。一个小时前他还跟合伙人说：&quot;如果九个月后，也就是我回归整整一年的时候，我还是觉得自己这么无足轻重，我就自己退出。&quot;</p>
-<p style="margin:0.8em 0">他不知道自己在 AI 上还能不能再来一次。&quot;而乐趣就在这里。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">恐惧是燃料：不打麻药的根管治疗</h2>
-<p style="margin:0.8em 0">Doug 和恐惧的关系，可以用一个故事概括。</p>
-<p style="margin:0.8em 0">他有一次要做根管治疗，做完马上要去开会。他告诉牙医：&quot;不打任何奴佛卡因，直接钻。&quot;牙医说他疯了。他的想法是：&quot;我这一辈子都想看看自己到底算不算个硬汉。&quot;</p>
-<p style="margin:0.8em 0">钻头下去，他整个人跳了一下。然后他对牙医说：&quot;我不会再动了。&quot;他真的就一动没动。小窍门是去想战场上断了胳膊腿的人——那是有后果的痛苦，而他这个是没有任何后果的痛。&quot;无非就是神经末梢连到脊椎，再连到大脑，管它呢，我绝不挪一下。&quot;结束时衬衫被汗湿透，但他真的一动没动。</p>
-<p style="margin:0.8em 0">&quot;我这一生感受过非常多的恐惧，它一直是我面前的挑战。我以前害怕公开演讲，就一定要让自己做到最顶尖；我以前恐高，就去帆船上干活，一定要爬上九十六英尺高的桅杆。只要一感到恐惧，我就正面迎上去，这几乎成了一种挑战，随之而来的就是一种安全感。&quot;</p>
-<p style="margin:0.8em 0">他提到音乐行业的老朋友 Jimmy Iovine 给过他一条极好的建议。Iovine 在披头士最后时期给约翰·列侬当过录音师和制作人，后来和 Dr. Dre 一起创办了 Beats，卖给了苹果。&quot;他从来不看后视镜。家里没有陈列奖杯的房间，说不出五年前做了什么，因为他都忘了。他担心的是明天。&quot;Iovine 说：&quot;大多数人感到恐惧的时候，都会任由它变成阻力。我训练自己把它变成动力——一感到恐惧，就意味着我他妈现在就得往前冲，就是现在，别想往前迈步。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">饥饿感：乡村俱乐部与&quot;我以后一定要收拾这帮混蛋&quot;</h2>
-<p style="margin:0.8em 0">Doug Leone 的起点是高中时在乡村俱乐部的帆船上打工。</p>
-<p style="margin:0.8em 0">&quot;有钱人家的孩子，十六七岁，在泳池边当当救生员，跟姑娘们聊聊天，过得快活极了。而我呢，钻在帆船里爬来爬去，穿电线，汗流得像猪一样，还要加班，转头看着同龄的孩子在那儿尽情享受人生。我就说：'你们这帮混蛋，我以后一定要收拾你们。'&quot;</p>
-<p style="margin:0.8em 0">后来他做到了。公立学校有个同学开着一辆大约十三万美元的车上学——那是差不多二十年前的事。那个同学说：&quot;我和我爸刚去吃了顿午饭，坐直升机飞了差不多两百英里。&quot;Doug 当时 15 岁，已经打全职零工了：&quot;你搞的都是些什么？&quot;</p>
-<p style="margin:0.8em 0">这段出身差距的叙事，在泰森身上也有同构版本。泰森说他的孩子看到学校里体育明星会想&quot;哇，那是 Tracy，太厉害了&quot;；而他看到那些人时的想法是：&quot;等我得到机会，我会让你们看看，等我翻过身来到底意味着什么。&quot;</p>
-<p style="margin:0.8em 0">但 Doug 强调了这个故事里最难的部分：把它当动力，但到了后半生，不要变成混蛋。&quot;我想报复他们的那种冲动，大概到我五十岁左右就没了。花了整整三十年才克服那种弱点——因为在某些方面它确实是个弱点，那是一种虚构的叙事，那些并不是坏孩子，而我不想生活在虚构的叙事里。&quot;</p>
-<p style="margin:0.8em 0">他对养孩子的判断同样反直觉：给孩子那样的生活水平不一定是好事，他们会缺少那种内驱力。&quot;你必须给孩子的生活注入一点苦难，他们才会有那种饥饿感，不能是假的。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">嗅觉：三十年没在投资上输过</h2>
-<p style="margin:0.8em 0">&quot;走进商务会议的房间，我大概就知道每个人在想什么、想听什么。&quot;Doug 说这是他的唯一真正技能——嗅觉。&quot;在硅谷的三十年里，我真的没在投资上输过。别人曾因为价格原因击败过我，但除此以外，我没输过。&quot;</p>
-<p style="margin:0.8em 0">这种嗅觉同时作用于人和业务：知道什么是真正的业务，什么是梦想，什么是空想——哪怕他对那项技术并不太懂。&quot;也许可以说这就是情商，那真的是我的主要技能。&quot;</p>
-<p style="margin:0.8em 0">他讲了一段早期教训。当年他刚听完一场路演起身，发现桌上留了张便签，是红杉创始人唐·瓦伦丁写的：&quot;Doug 不适合听创始人讲话。&quot;那是半导体的年代，行业规则后来慢慢变了：创始人第一，客户第二，自己第三。&quot;倒不是说我们是童子军，但我们知道，只要对得起创始人，就会有丰厚的回报。&quot;当时大家都想把他赶出红杉，唐·瓦伦丁是唯一说&quot;再给这年轻人一点时间&quot;的人——&quot;他救了我一命&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">称霸者的账本：九千万现金，和消失的 Crosspoint</h2>
-<p style="margin:0.8em 0">Doug 不回避自己的错误，而且这些错误的量级都很大。</p>
-<p style="margin:0.8em 0">他们曾把思科（Cisco）的股票换成现金，总共赚了九千万美元——但当时他们拥有思科四分之一的股份，而思科市值最高时大约五千亿美元。主持人确认这个数字时，Doug 补了一句：&quot;我们都犯过错误。我在 ServiceNow 推动过多少次拆股，我少赚了十倍的收益，十倍。我们少赚了几十亿又几十亿美元。风投行业里的大家都是这样。&quot;</p>
-<p style="margin:0.8em 0">他刚读完一本 1966 年出版的传记《商业银行家》，讲的是所有商业银行家族。书里有人抱怨：&quot;如果我们没卖掉杜邦那大概百分之二十的股份……我们在一九一五年就会是亿万富翁了。&quot;这是同一个错误，反复上演了一个世纪。</p>
-<p style="margin:0.8em 0">但 Doug 给出了这个错误的完整边界条件：&quot;大多数公司，如果你拿得太久，就会随着技术变迁而消亡。但如果你有敏锐的嗅觉，能抓到其中一个——一个周期里可能也就五到十家——并拿上二十、二十五年，你这辈子其实就什么都不用做了。&quot;</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;如果你能抓到一个，并拿上二十、二十五年，你这辈子其实就什么都不用做了。&quot;</p>
-</blockquote>
-<p style="margin:0.8em 0">他用两家消失的机构做了反面注脚。Crosspoint Ventures 曾经红火了七年，投了一大堆项目之后合伙人全走了——&quot;这是一家虽然拥有一切，却无法共存的机构&quot;。另一家 TVI（Technology Venture Investors），Dave Marquardt 是微软董事会里唯一的风险投资人，微软上市前一年营收一亿四千万、利润三千八百万，几乎以白菜价买入了微软股份——&quot;那是一家掌握了通往成功钥匙的风投公司，不知怎么的，作为一家风投公司却没能持久&quot;。</p>
-<p style="margin:0.8em 0">还有一个他不能点名的故事：圈内聊有史以来最厉害的天使投资人时，一位顶级创业者说，&quot;最厉害的天使投资人是我爸——他就做了一笔投资，赚了四百亿美元，别的什么都没投。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">莫里茨教的事：听形容词，和备忘录的署名顺序</h2>
-<p style="margin:0.8em 0">迈克尔·莫里茨是 Doug 在红杉的共同负责人——&quot;作为共同负责人，他非常让人头疼，这一点他自己也知道，我也让他很头疼，他也让我很头疼&quot;。但 Doug 从莫里茨那里学到的东西构成了他的方法论。</p>
-<p style="margin:0.8em 0">&quot;迈克尔·莫里茨教会了我如何倾听：去听对方具体说出的那个词，以及说出那个词的时机。单凭听对方用的形容词，你真的就能了解一个人。&quot;他们经常在没有一行代码、什么都没有的情况下，单凭一场讲演、凭愿景的清晰度就选定一个创始人；而听讲演时，他脸上带着傻笑，心里想的是：&quot;你什么都推销不给我。&quot;</p>
-<p style="margin:0.8em 0">更微妙的一课来自备忘录格式。红杉当时的备忘录把发件人放在前面、收件人放在后面；莫里茨是第一个写成收件人在前、发件人在后的人——&quot;把对方放在前面，把自己放在后面&quot;。&quot;像这样的事还有几百件。&quot;</p>
-<p style="margin:0.8em 0">至于莫里茨最核心的能力，Doug 的评价是：&quot;他拥有把梦想做大的能力，那种方式我前所未见。不是'要是所有事情都顺理成章呢'——不对，我们要对冲这个那个。而是：要是所有事情都顺理成章呢？这项业务能做成什么样？在那个维度上，他是迄今为止全世界最顶尖的。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">保持正常：没有助理，没有随从</h2>
-<p style="margin:0.8em 0">聊到&quot;跟普通人产生共鸣&quot;时，Doug 说这是自己为数不多的优点之一：&quot;我依然很正常。我确保自己的生活里没有任何助理随从。没有私人助理，没有任何替我收拾烂摊子的人。我早上还是会把水杯拿到楼下放进洗碗机里。我昨天下午做了饭，所有的锅和所有东西都是我自己洗的。在我们硅谷生活的这个疯狂世界里，正是这些事情让我保持清醒脚踏实地。&quot;</p>
-<p style="margin:0.8em 0">他的朋友大多不是投资人或创业者。&quot;我的大多数朋友来自高中、大学，或者来自意大利。我几天前刚从意大利回来，和一位在热那亚机场当警察的朋友待了几天，他是我最要好的朋友之一。&quot;在硅谷的三十年里，他真正算得上朋友关系的创始人只有一个——David Vélez（Nubank 创始人），&quot;因为他在红杉当过投资经理，是我招的他，我们有点像父子关系&quot;。</p>
-<p style="margin:0.8em 0">红杉现在的招聘标准也简化成了四个字加一句：&quot;极具竞争心，且有一颗金子般的心。&quot;</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;我们想要的人，愿意在做正确的事对自己极不方便时依然去做，并且愿意为了获胜赴汤蹈火，同时又坚守道德底线。&quot;</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">九个月后再见</h2>
-<p style="margin:0.8em 0">主持人临走前跟 Doug 打了个赌：&quot;如果到了九个月零一天之后你还在，咱们就再录一期。我相信你不会在九个月后就退休。&quot;</p>
-<p style="margin:0.8em 0">这期节目最值得带走的，不是 Doug Leone 对 AI 的判断——他坦承自己还&quot;无足轻重&quot;。真正珍贵的是他演示了称霸者的操作系统：恐惧当燃料，饥饿感当引擎，嗅觉当方向盘，而洗碗、没有随从、跟机场警察做朋友，是他防止这台机器失控的刹车。</p>
-<p style="margin:0.8em 0">一个管理过硅谷最顶级基金的人，用把自己降级成&quot;低级别分析师&quot;来对抗过时。这大概就是&quot;称霸几十年&quot;最反直觉的答案：你永远不能真的相信自己已经称霸了。</p>
+<p style="margin:0.8em 0">理由是朴素的：需要被 AI 解决的问题无穷无尽，而且随时间不断生出新场景。用有限参数的模型去泛化无限场景，至少在 Transformer 架构上，他判断这条路挑战极大。一年过去，他看到的信号是第二条路越来越成立——最直接的证据是 RL 重新变得重要了。&quot;你去 Agent 的步子多了，一个人日常带着几十个 Agent 做事，不可能有精力去维护每一个 Agent 的迭代，所以 Agent 需要自我改进的能力，这正是 RL 被需要的原因。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RL Service 只解决了一半问题</h2>
+<p style="margin:0.8em 0">PyroMind 最早做的是典型的 RL Service：客户给需求，他们把一个通用的训练方案（training plan）固定下来。但做着做着他们发现，Service 只解决了一半问题——&quot;Service 面向的对象终归是一个 developer，需要有人去驱动 Agent 改进&quot;。真正把 RL 跑起来要解决两个问题：训练方案和奖励问题（reward）。后者才是深水区。</p>
+<p style="margin:0.8em 0">Kevin 用一家国外 Agent 客户举例：对方下游有大量消费级部署，每天收上来用户特定需求、产品迭代需求。早期只给 RL Service 时，方案是固定的、靠人力投入的；现在做 Auto RL，是要让整个改进循环自动化。企业需求走到第二层就会撞上一个不可能三角：成本要好、效率要好、未来还要满足隐私要求。这也是他们没把精力押在 harness（评估/训练框架）上的原因——harness 很轻，能解决速度问题，但解决不了隐私，&quot;纯做 harness 不可能三角是解不开的&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">ParaDash：一个 4B 小模型，接在基模前面</h2>
+<p style="margin:0.8em 0">他们近期开源的工作叫 ParaDash——一个协作式推理引擎，把一个 4B 参数的模型和任意 base model 连在一起。这个引擎对 base model 没有任何要求，开源闭源都行，也不需要梯度；训练对象只有那个 4B 模型。选 4B 有一个非常实际的理由：它刚好能在 Mac 上端侧跑起来，推理成本接近零。</p>
+<p style="margin:0.8em 0">训练分三个阶段：先是难易问题分类；然后冷启动——请求打过来小模型先接，能解的就端侧解掉，解不了的路由回 base model；最后是 GRPO 过程，奖励结构是正确性加成本，成本奖励带一个系数。结果很有意思：配合使用后整体表现比纯 base model 提升约 10%；由于简单问题被就地消化，当 λ 参数较小时还能省掉约 20% 的成本。</p>
+<p style="margin:0.8em 0">但 Kevin 认为 ParaDash 的潜力不在成本——成本只是推广时的突破口。他们在构建的是隐私能力：企业的问题分公域和私域，公域指 base model 本身解得好、可以放心交给它的；私域指企业不想丢给基模的。ParaDash 的做法是在公域问题上训练 worker model，并构造不同的奖励项——开源部分只放了正确性和成本两个奖励，还有一个没放出来的隐私奖励：对敏感 token 做 mask，用 worker model 把敏感信息挡掉、处理，再路由回 base model。</p>
+<p style="margin:0.8em 0">这里有一个尖锐的问题：harness 也能做本地路由——把隐私问题路由到本地私有模型就行，为什么非要训练？Kevin 的回答是：不修改参数的方法天花板存疑。&quot;到了深度命名（深度推理）之后，很多问题不通过训练是完全做不到的。模型本身的参数需要被修改。&quot;他相信，只要在需求场景拿到明确的数据和评价基准，就能翻译成一系列奖励信号，教会模型处理那些 harness 处理不了的问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">和基模不是竞争，是杠杆</h2>
+<p style="margin:0.8em 0">被问到基模演进会不会挤压 Auto RL 的空间，Kevin 的答案出乎意料地轻松：基模越好，对他们越有利。&quot;大家现在都是站在巨人肩膀上往前搞，ParaDash 就是在基模之上做一个 worker model 加 RL 的 patch。基模解决的是有宽度的问题，宽度之内跟着走就行；宽度之外，就做一个专用小模型。后训练的依赖没有变。&quot;</p>
+<p style="margin:0.8em 0">唯一的坚持是&quot;面向需求&quot;：场景级奖励只能从需求侧拿到。至于客户想训 worker model 还是从头训一个 base model，那是客户的选择——&quot;很少有人会这么选了，但我们面向需求，需求才是驱动源&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">成就感来自&quot;关小黑屋&quot;的论证</h2>
+<p style="margin:0.8em 0">最后 Kevin 分享了创业以来最有成就感的时刻：不是融资，不是客户，而是和 CTO 就 ParaDash 架构达成共识的那一刻。一开始两人观点不同，做法是直接&quot;关小黑屋&quot;论证——包括聚成（数据集/评估）领域，都这么辩过。&quot;大家从不同视角看事情，多目标优化下，结果有可能离真相很近。&quot;</p>
+<p style="margin:0.8em 0">他平时用的 AI 产品：Perplexity 的极简诊断、DeepSeek（&quot;还是很吊的，增长是历史级的&quot;）、Claude，以及近期的 Qwen 系模型。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">称霸的动机不是伟大愿景，而是对被淘汰的恐惧——&quot;每次我重塑自己，都是出于害怕自己过时&quot;，69 岁依然如此</li>
-<li style="margin:0.3em 0">恐惧是燃料不是阻力：一感到恐惧就正面迎上去（不打麻药做根管治疗、爬 96 英尺桅杆治恐高）</li>
-<li style="margin:0.3em 0">饥饿感来自出身差距，但报复冲动花了整整 30 年才放下——&quot;那些并不是坏孩子，我不想生活在虚构的叙事里&quot;</li>
-<li style="margin:0.3em 0">唯一真正的技能是&quot;嗅觉&quot;：对人的判断 + 对业务的判断，硅谷三十年投资没输过</li>
-<li style="margin:0.3em 0">创始人是这行最重要的人：创始人第一、客户第二、自己第三；唐·瓦伦丁的一张便签&quot;Doug 不适合听创始人讲话&quot;成了早期教训</li>
-<li style="margin:0.3em 0">伟大机构也会消失：Crosspoint 红火七年归零，TVI 手握微软股份也没能持久——&quot;拥有一切，却无法共存&quot;</li>
-<li style="margin:0.3em 0">保持正常是竞争力：没有助理、自己洗碗、朋友是热那亚机场的警察；红杉招人标准——&quot;极具竞争心，且有一颗金子般的心&quot;</li>
+<li style="margin:0.3em 0">AI 下半场存在两条路线之争：超级中心化模型 vs 服务化 Agent 形态。Kevin 押后者，理由是需求无穷且动态，有限参数模型泛化无限场景在 Transformer 架构上不现实。</li>
+<li style="margin:0.3em 0">RL Service 只解决&quot;训练方案&quot;一半问题，奖励问题（reward）才是深水区——Auto RL 的价值在于把整个改进循环自动化。</li>
+<li style="margin:0.3em 0">ParaDash（协作式推理引擎）：4B 小模型接在任意基模前面，端侧解决简单问题，表现提升约 10%、成本省约 20%，并用隐私奖励项对敏感 token 做 mask。</li>
+<li style="margin:0.3em 0">纯 harness 路线解不开成本/效率/隐私的不可能三角，因为不修改参数的方法在深度推理场景天花板存疑。</li>
+<li style="margin:0.3em 0">基模进化不是 Auto RL 的威胁而是杠杆：基模解决宽度问题，宽度之外做专用模型，后训练依赖不变。</li>
 </ul>
 
 </div>

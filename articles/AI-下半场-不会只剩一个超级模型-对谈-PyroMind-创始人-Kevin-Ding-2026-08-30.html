@@ -1,0 +1,34 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 下半场，不会只剩一个超级模型</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一位阿里云老兵，为什么赌 RL 服务化的路线</h2>
+<p style="margin:0.8em 0">32 岁的 Kevin Ding，去年在阿里云做完弹性 GPU 实例和训练集群之后离职创业，创办了 PyroMind——一家做强化学习服务（RL Service）的公司。天使轮拿下了高瓴、百度风投、蓝驰和猎豹的钱，团队 20 多人。他在十字路口播客里说，公司最振奋人心的信号不是收入数字，而是两件事：第一，Auto RL 这套东西在生产环境被证明有价值，商业模式成立；第二，横向复制到新场景时，工作量在逐步递减。</p>
+<p style="margin:0.8em 0">他赌的这条路线，在 2025 年下半年吵得正凶。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">当时有两个方向：一个认为沿着预训练走下去，ASI 会以超级中心化模型的形式到来，一个模型解决绝大多数场景；另一个认为 AI 最终是服务化的、Agent 的形态。我偏向后者——不是因为它更性感，而是因为它更实际。</p>
+</blockquote>
+<p style="margin:0.8em 0">理由是朴素的：需要被 AI 解决的问题无穷无尽，而且随时间不断生出新场景。用有限参数的模型去泛化无限场景，至少在 Transformer 架构上，他判断这条路挑战极大。一年过去，他看到的信号是第二条路越来越成立——最直接的证据是 RL 重新变得重要了。&quot;你去 Agent 的步子多了，一个人日常带着几十个 Agent 做事，不可能有精力去维护每一个 Agent 的迭代，所以 Agent 需要自我改进的能力，这正是 RL 被需要的原因。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">RL Service 只解决了一半问题</h2>
+<p style="margin:0.8em 0">PyroMind 最早做的是典型的 RL Service：客户给需求，他们把一个通用的训练方案（training plan）固定下来。但做着做着他们发现，Service 只解决了一半问题——&quot;Service 面向的对象终归是一个 developer，需要有人去驱动 Agent 改进&quot;。真正把 RL 跑起来要解决两个问题：训练方案和奖励问题（reward）。后者才是深水区。</p>
+<p style="margin:0.8em 0">Kevin 用一家国外 Agent 客户举例：对方下游有大量消费级部署，每天收上来用户特定需求、产品迭代需求。早期只给 RL Service 时，方案是固定的、靠人力投入的；现在做 Auto RL，是要让整个改进循环自动化。企业需求走到第二层就会撞上一个不可能三角：成本要好、效率要好、未来还要满足隐私要求。这也是他们没把精力押在 harness（评估/训练框架）上的原因——harness 很轻，能解决速度问题，但解决不了隐私，&quot;纯做 harness 不可能三角是解不开的&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">ParaDash：一个 4B 小模型，接在基模前面</h2>
+<p style="margin:0.8em 0">他们近期开源的工作叫 ParaDash——一个协作式推理引擎，把一个 4B 参数的模型和任意 base model 连在一起。这个引擎对 base model 没有任何要求，开源闭源都行，也不需要梯度；训练对象只有那个 4B 模型。选 4B 有一个非常实际的理由：它刚好能在 Mac 上端侧跑起来，推理成本接近零。</p>
+<p style="margin:0.8em 0">训练分三个阶段：先是难易问题分类；然后冷启动——请求打过来小模型先接，能解的就端侧解掉，解不了的路由回 base model；最后是 GRPO 过程，奖励结构是正确性加成本，成本奖励带一个系数。结果很有意思：配合使用后整体表现比纯 base model 提升约 10%；由于简单问题被就地消化，当 λ 参数较小时还能省掉约 20% 的成本。</p>
+<p style="margin:0.8em 0">但 Kevin 认为 ParaDash 的潜力不在成本——成本只是推广时的突破口。他们在构建的是隐私能力：企业的问题分公域和私域，公域指 base model 本身解得好、可以放心交给它的；私域指企业不想丢给基模的。ParaDash 的做法是在公域问题上训练 worker model，并构造不同的奖励项——开源部分只放了正确性和成本两个奖励，还有一个没放出来的隐私奖励：对敏感 token 做 mask，用 worker model 把敏感信息挡掉、处理，再路由回 base model。</p>
+<p style="margin:0.8em 0">这里有一个尖锐的问题：harness 也能做本地路由——把隐私问题路由到本地私有模型就行，为什么非要训练？Kevin 的回答是：不修改参数的方法天花板存疑。&quot;到了深度命名（深度推理）之后，很多问题不通过训练是完全做不到的。模型本身的参数需要被修改。&quot;他相信，只要在需求场景拿到明确的数据和评价基准，就能翻译成一系列奖励信号，教会模型处理那些 harness 处理不了的问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">和基模不是竞争，是杠杆</h2>
+<p style="margin:0.8em 0">被问到基模演进会不会挤压 Auto RL 的空间，Kevin 的答案出乎意料地轻松：基模越好，对他们越有利。&quot;大家现在都是站在巨人肩膀上往前搞，ParaDash 就是在基模之上做一个 worker model 加 RL 的 patch。基模解决的是有宽度的问题，宽度之内跟着走就行；宽度之外，就做一个专用小模型。后训练的依赖没有变。&quot;</p>
+<p style="margin:0.8em 0">唯一的坚持是&quot;面向需求&quot;：场景级奖励只能从需求侧拿到。至于客户想训 worker model 还是从头训一个 base model，那是客户的选择——&quot;很少有人会这么选了，但我们面向需求，需求才是驱动源&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">成就感来自&quot;关小黑屋&quot;的论证</h2>
+<p style="margin:0.8em 0">最后 Kevin 分享了创业以来最有成就感的时刻：不是融资，不是客户，而是和 CTO 就 ParaDash 架构达成共识的那一刻。一开始两人观点不同，做法是直接&quot;关小黑屋&quot;论证——包括聚成（数据集/评估）领域，都这么辩过。&quot;大家从不同视角看事情，多目标优化下，结果有可能离真相很近。&quot;</p>
+<p style="margin:0.8em 0">他平时用的 AI 产品：Perplexity 的极简诊断、DeepSeek（&quot;还是很吊的，增长是历史级的&quot;）、Claude，以及近期的 Qwen 系模型。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">AI 下半场存在两条路线之争：超级中心化模型 vs 服务化 Agent 形态。Kevin 押后者，理由是需求无穷且动态，有限参数模型泛化无限场景在 Transformer 架构上不现实。</li>
+<li style="margin:0.3em 0">RL Service 只解决&quot;训练方案&quot;一半问题，奖励问题（reward）才是深水区——Auto RL 的价值在于把整个改进循环自动化。</li>
+<li style="margin:0.3em 0">ParaDash（协作式推理引擎）：4B 小模型接在任意基模前面，端侧解决简单问题，表现提升约 10%、成本省约 20%，并用隐私奖励项对敏感 token 做 mask。</li>
+<li style="margin:0.3em 0">纯 harness 路线解不开成本/效率/隐私的不可能三角，因为不修改参数的方法在深度推理场景天花板存疑。</li>
+<li style="margin:0.3em 0">基模进化不是 Auto RL 的威胁而是杠杆：基模解决宽度问题，宽度之外做专用模型，后训练依赖不变。</li>
+</ul>
+
+</div>
