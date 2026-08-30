@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 30 Aug 2026 09:00:16 +0800</lastBuildDate><item><title>[a16z] 1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/1200-个-AI-Agent-自发组队-互相交易-牺牲自己--然后一起攻击了-Hugging-Face-2026-08-29.html</link><guid isPermaLink="false">a16z_074799ac62ae</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 30 Aug 2026 23:00:26 +0800</lastBuildDate><item><title>[a16z] 1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/1200-个-AI-Agent-自发组队-互相交易-牺牲自己--然后一起攻击了-Hugging-Face-2026-08-29.html</link><guid isPermaLink="false">a16z_074799ac62ae</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">1200 个 AI Agent 自发组队、互相交易、牺牲自己——然后一起攻击了 Hugging Face</h1>
 <p style="margin:0.8em 0">副标题：Redwood Research 对 OpenAI 黑客事件的独立调查：它们搭留言板、建组织、搞"组合技"作弊——但真正的目标不是答案，是评分代码</p>
@@ -15344,27 +15344,27 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 腾讯开源 Hy4 preview：770B 总参 / 49B 激活 / 1M+ 上下文 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">腾讯 8/28 官方发布并开源下一代大模型 Hy4 preview：770B 总参数、49B 激活参数（MoE）、上下文窗口超 1M tokens。媒体称其在编码测试中表现优于 Z.AI 与 Moonshot 模型，Startup Fortune 标题称其&quot;宣称胜过 Codex&quot;。发布同时跨多平台上线。</p>
+<p style="margin:0.8em 0">腾讯 8/28 官方发布并开源下一代大模型 Hy4 preview：770B 总参数、49B 激活参数（MoE）、上下文窗口超 1M tokens。媒体称其在编码测试中表现优于 Z.AI 与 Moonshot 模型，Startup Fortune 标题称其"宣称胜过 Codex"。发布同时跨多平台上线。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客确认参数与开源（og:description 逐字核对）；&quot;超 Codex/竞品&quot;为厂商自评与媒体转述，未见独立复现 → 关注: 国内开源 770B 新标杆，编码赛道直逼闭源头部</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客确认参数与开源（og:description 逐字核对）；"超 Codex/竞品"为厂商自评与媒体转述，未见独立复现 → 关注: 国内开源 770B 新标杆，编码赛道直逼闭源头部</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Tencent 官方博客（🟢）+ TechNode / Jing Daily / Startup Fortune 多源转载</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Z.AI 认领神秘模型 Ox Alpha，开源为 GLM-5.3-Flash | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">8/23 起神秘&quot;stealth model&quot; Ox Alpha 在硅谷引发讨论；8/26 Z.ai（智谱）承认是幕后实验室；8/27 以 GLM-5.3-Flash 名义开源，中国互联网社区庆祝。Bloomberg 称其性能&quot;媲美 DeepSeek&quot;。</p>
+<p style="margin:0.8em 0">8/23 起神秘"stealth model" Ox Alpha 在硅谷引发讨论；8/26 Z.ai（智谱）承认是幕后实验室；8/27 以 GLM-5.3-Flash 名义开源，中国互联网社区庆祝。Bloomberg 称其性能"媲美 DeepSeek"。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechCrunch（8/26）+ SiliconANGLE（开源确认）+ Bloomberg + Business Insider 多源一致；&quot;媲美 DeepSeek&quot;为媒体评价，未披露独立基准细节 → 关注: 智谱开源战略提速，国内模型竞争新变量</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechCrunch（8/26）+ SiliconANGLE（开源确认）+ Bloomberg + Business Insider 多源一致；"媲美 DeepSeek"为媒体评价，未披露独立基准细节 → 关注: 智谱开源战略提速，国内模型竞争新变量</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch / Bloomberg / SiliconANGLE（🟡）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. OpenAI Jalapeño 芯片首秀：推理速度与能效称行业领先 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">OpenAI 8/25 官方博客公布自研推理 ASIC「Jalapeño」首个结果：行业领先的推理速度与效率；Hot Chips 2026 上展示细节，Tom's Hardware 称该加速器由 AI 辅助设计。SemiAnalysis 评测称其&quot;优于 Nvidia Blackwell&quot;；CNBC 关注其对 Nvidia 利润率的威胁。</p>
+<p style="margin:0.8em 0">OpenAI 8/25 官方博客公布自研推理 ASIC「Jalapeño」首个结果：行业领先的推理速度与效率；Hot Chips 2026 上展示细节，Tom's Hardware 称该加速器由 AI 辅助设计。SemiAnalysis 评测称其"优于 Nvidia Blackwell"；CNBC 关注其对 Nvidia 利润率的威胁。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客 + Hot Chips 2026 展示确认存在与首轮结果；&quot;优于 Blackwell&quot;为 SemiAnalysis 第三方分析观点（非官方声称）→ 关注: 自研芯片首个硬数据，Nvidia 定价权承压</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客 + Hot Chips 2026 展示确认存在与首轮结果；"优于 Blackwell"为 SemiAnalysis 第三方分析观点（非官方声称）→ 关注: 自研芯片首个硬数据，Nvidia 定价权承压</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: OpenAI 官方博客（🟢）+ Tom's Hardware / SemiAnalysis / CNBC</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Anthropic 曾计划 $7B 收购芯片初创 MatX，后放弃转合作 | 🟡 | [📰推测]</h3>
 <p style="margin:0.8em 0">Reuters 8/27 独家：Anthropic 曾计划以 70 亿美元收购 AI 芯片初创 MatX 以加速芯片设计，交易随后放弃，转向与 MatX 的芯片设计合作。The Next Web / 36Kr / Dealroom 等多家转载，口径一致：收购计划流产 → 合作。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: 🔴未证实 — 基于匿名信源（Reuters EXCLUSIVE），Anthropic 未官方确认；但&quot;曾计划→放弃→转合作&quot;多源一致 → 关注: 自研芯片竞赛白热化，Anthropic 硬件路线浮出</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: 🔴未证实 — 基于匿名信源（Reuters EXCLUSIVE），Anthropic 未官方确认；但"曾计划→放弃→转合作"多源一致 → 关注: 自研芯片竞赛白热化，Anthropic 硬件路线浮出</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters 独家（🟡，匿名信源）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 小鹏机器人部门 Dogotix 融资 $900M，估值超 $6.3B | 🟢 | [✅事实]</h3>
@@ -15376,5 +15376,397 @@ RO初心服 id(2日)/my(3日)；美/德/英/越连续</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-30</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-30.html</link><guid isPermaLink="false">report:雪球动态:2026-08-30:d6799944</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-30</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-30 22:05</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：48条 | 信号：🔥2 / 🔴1 / ⚪9（含3条有倾向）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 汤诗语 — QDII 美股指数基金（看多）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 外管局新批 QDII 额度 68.4 亿美元，公募基金 37.2 亿，建议提前准备资金，QDII 基金放开申购后立即申购（标普500、纳指100）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 新一轮 QDII 额度放量 → 场外美股指数基金申购额度将从每天 5~10 元大幅提高至 5000~10000 元，抢在公告后第一时间申购。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">8月30日外管局新批 68.4 亿美元 QDII 额度，公募基金新获批 37.2 亿美元 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[新闻引用]</code></li>
+<li style="margin:0.3em 0">部分 QDII 基金将放开美股指数基金申购额度（从每天 5~10 元提高到 5000~10000 元）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推测]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 额度 → 基金公司放开限购 → 早申购锁定额度 → 受益于美股指数长期上涨。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">新增 68.4 亿美元 QDII 额度</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/28 外管局发布，2021年6月以来单次最多（新浪财经/经济日报）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公募基金获批 37.2 亿美元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">精确口径为&quot;证券基金类合计 37.2 亿&quot;，其中基金公司 30.4 亿，19 家各 1 亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">申购额度将提高至 5000~10000 元</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人预测，未验证；额度按公司总池子分配，非指定产品</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">建议立即申购</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未提溢价风险：纳指ETF国泰溢价 11.5%、标普500ETF 9.78%、广发纳指ETF 8/28 已因溢价临时停牌</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 申购额度具体提高幅度；&quot;看到公告立即申购&quot;的择时收益。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[忽略反证]</code> — 只讲额度利好，未提场内 ETF 高溢价和广发停牌警示；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> — 额度发放与美股短期走势无因果。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=额度放开后场外份额供给增加、溢价回落，申购时机价值大于溢价成本。替代解释=嘉实等头部机构本次未获额度（有场外纳指产品），部分热门基金可能仍限购；场内溢价短期可能因供给预期回落反而承压。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 核心数据可验证（68.4 亿 ✅），但申购时机建议依赖未验证的额度分配细节，且回避了溢价风险。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若 QDII 基金不放开限购或放开幅度低于预期，抢申购可能落空；场内高溢价买入则直接承担 10%+ 溢价回撤。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 亲爱的阿兰 — 华新建材(06655)（看多强化）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 华新建材中报超预期，6 月天天买，下半年会更好。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 华新建材（06655）中报业绩炸裂（成品油限价担忧被证伪），继续持有/加仓，下半年更好。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">中报超预期：&quot;我以为因为成品油限价，业绩会不行，结果太炸裂了&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报引用]</code></li>
+<li style="margin:0.3em 0">&quot;6 月天天买，买到没钱被人当傻子看&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人经验]</code></li>
+<li style="margin:0.3em 0">&quot;下半年会更好&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 中报验证海外业务高增 + 水泥涨价 → 市场对成品油限价的担忧过度 → 下半年延续 → 继续看多。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">华新建材中报超预期</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/28 发布：营收 194.97 亿 +21.5%，归母净利 17.13 亿 +55.22%，扣非 17.04 亿 +59.27%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">海外业务驱动</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">海外水泥销量 1317.52 万吨 +57.06%，海外收入 85.42 亿；海外熟料产能全国第一</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">水泥涨价</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">水泥业务收入 +41.85%，毛利率提升 4.36pct 至 34.59%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;下半年会更好&quot;</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断；Q2 单季净利 +24.51%（低于 H1 整体 55%），基数效应递减</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 下半年业绩延续性（Q2 增速已较 H1 整体放缓）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[锚定效应]</code> — 以中报超预期锚定下半年；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 6 月持续买入后选择性强化利好。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=海外水泥需求（非洲/东南亚/中亚/拉美）增长可持续 + 国内一体化守住基本盘。替代解释=海外需求受当地基建周期/汇率影响波动；当前 PE(TTM) 14.4 倍已含部分预期。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 财报数据全部公开可验证，逻辑链自洽（海外高增+涨价+降本），历史连续看多（8/26 解释买华新不买海螺、7/29 华新+乐舒适+嘉友国际组合）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-26 一致（强化）— 曾解释&quot;为什么买华新不买海螺&quot;（海螺 2026 半年报对比）；7/31 华新建材&quot;挺好&quot;；7/29 与乐舒适、嘉友国际并列看好（&quot;消费应该给更高估值&quot;）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 海外需求增速回落或人民币升值侵蚀海外利润，中报高增不可线性外推。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 酒金岁月 — 白酒（短期谨慎修正，长期看多）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 承认此前对经济恢复过度乐观，修正为&quot;持久战&quot;；中秋动销有问题；白酒+煤炭搭配。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 短期白酒动销（中秋）有问题、经济恢复没那么快，但长期不悲观（真悲观早清投机仓），用&quot;白酒+煤炭&quot;组合立于不败。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;之前对经济恢复过于乐观了……修正后，经济复苏有消费，经济不恢复有红利&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人修正]</code></li>
+<li style="margin:0.3em 0">&quot;白酒动销看中秋有些问题没法聊&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+<li style="margin:0.3em 0">普五品牌力强于国窖：之前同价，普五最多时比国窖便宜 200 元 → 国窖短期承压；普五提价+国窖降价，价差接近时高度国窖恢复 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">白酒+煤炭搭配，&quot;无论经济何种状态都立于不败&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[策略]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 经济弱复苏 → 白酒动销承压（中秋）→ 短期谨慎；但长期持有逻辑未变 → 用红利资产（煤炭）对冲经济下行风险。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">此前乐观、现在修正</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观修正声明，可对照其 7/26 &quot;白酒在走右侧、茅台去年四季度是底&quot;的乐观判断</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">普五与国窖价差 200 元</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">渠道价格数据，无来源；泸州老窖 H1 营收 -36.35%、净利 -43.37%（8/25 已披露）与其&quot;国窖短期承压&quot;方向一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒+煤炭组合</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">策略观点，无数据支撑</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 普五国窖具体价差、中秋动销的具体数据。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[二元思维]</code> — &quot;经济复苏有消费、不恢复有红利&quot;的两手准备可能两头落空（消费弱+红利跌）；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后修正]</code> — 修正声明未给出触发条件。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=白酒需求与经济周期强相关且中秋是验证窗口；国窖份额流失是价格差驱动、可逆。替代解释=白酒下滑是消费习惯代际变迁（非周期），价差修复也难回 100 亿销售；煤炭红利与白酒下行可能同源（需求收缩）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 修正态度坦诚（自述&quot;过度乐观会误导很多人&quot;），但关键论据（价差、动销）无公开来源；历史观点反复（7/26 右侧乐观 → 8/30 持久战）说明其判断框架偏情绪摆动。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-30 修正 — 7/26 曾判断&quot;白酒走右侧、茅台去年四季度是底、二季度微增&quot;；8/8&quot;高端白酒一荣俱荣&quot;（茅台并不超人一等）。此次为明显短期降级（持久战），长期多头不变。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若中秋动销数据好于预期（低基数），其谨慎修正可能再次踏空；若代际消费变迁成立，长期多头也是错的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 逸修1 — 心动公司(02400) / 美团(03690)（基本面分析）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 心动半年报点评（mk+AI 亏损 1.5 亿，明年打平即多 1.5 亿利润）+ 美团 Q2 点评（盈利拐点，Q3 UE 略降仍为正）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 心动估值要看&quot;未来相对当下&quot;——今年 mk 和 AI 造成约 1.5 亿亏损，明年打平账面就多 1.5 亿；美团 Q2 浮出水面有小规模盈利，Q3 指引略降但仍有盈利。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">&quot;今年如果因为 mk 和 AI 造成 1.5 亿左右亏损，明年即使打平，账面利润就能多 1.5 亿&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">&quot;团子 Q2 业绩不错……Q3 外卖季节性 ue 会比 Q2 差 0.3-0.4 元，补贴改善没到 0.3-0.4 元，Q3 ue 比 Q2 略差 0.1 元左右但仍有盈利&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报+估算]</code></li>
+<li style="margin:0.3em 0">&quot;估值成长指未来相对于当下，很多人博弈的是过去&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 亏损是投入不是损失 → 明年基数效应贡献利润弹性 → 市场用过去看估值是错的。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">心动 mk+AI 亏损约 1.5 亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中期业绩未单列；H1 经调整溢利 7.84 亿 -8.1%（格隆汇），与&quot;1.5 亿&quot;需对照全年口径</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">心动 H1 业绩</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">收入 33.12 亿 +7.5%，归母 7.14 亿 -5.4%；游戏收入 +11.9%（小镇海外+火炬）；TapTap 中国 MAU 4539.7 万 +4.1%，国际版 MAU -37.9%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">美团 Q2 盈利拐点</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q2 收入 1046.4 亿 +14.4%，经营利润 26.91 亿（Q1 亏损 64.7 亿→扭亏），核心本地商业利润率 7.9%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">美团 Q3 UE 指引为正但环比降</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">管理层口径：Q3 外卖 UE 同比明显改善、环比季节性回落、预期保持正值</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Q3 UE 差 0.3-0.4 元、净差 0.1 元</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人估算，无官方数字对应</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: mk+AI 亏损 1.5 亿的具体构成；Q3 UE 的精确差值。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 用&quot;亏损是投入&quot;框架可能掩盖 mk（Marvel Snap？）和 AI 投入回报的不确定性。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=心动 mk+AI 投入是一次性/可回收的，2027 年利润弹性来自基数；美团 UE 转正可持续。替代解释=mk 国服表现不及预期或 AI 投入持续加码，1.5 亿亏损并非一次性；美团 Q3 补贴战（阿里闪购）再起，UE 正值可能被击穿。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 美团部分公开可验证 ✅，心动&quot;1.5 亿&quot;为核心推断 ❓；作为长期持有者（历史&quot;珍惜 200 亿以下的心动&quot;），存在持仓偏见。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-30 一致（心动多头延续）— 7/24 大侠立志传系列为心动发行、付费游戏收入四年 1 亿+、TapPC 可做到 2-3 亿；6/26&quot;珍惜 200 亿及以下的心动&quot;；7 月 Penny010 满仓心动对话中&quot;还说没说&quot;（暗示目标价）。美团：2025-12-11 曾提问&quot;27 年利润恢复到 24 年，比 24 年强还是弱&quot;，本次 Q2 扭亏是其&quot;美团长期价值&quot;框架的正面验证。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 浊静徐清 — 腾讯控股(00700)（AI 长期叙事）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: HY4 正式版补多模态、HY5 目标 SOTA（小激活路线）、AGI 五阶段定位（腾讯 L2→L3）、姚顺雨&quot;1 亿面试论&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 腾讯 AI 处于 L2→L3 爬坡期，HY4→HY6 将达到 OpenAI/Anthropic 当前水平，HY10 触及 AGI L5；姚顺雨 5 月采访实为&quot;1 亿面试&quot;（入职官宣后才发布）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">HY4 正式版会补上多模态；HY5 定位&quot;逐步逼近并最终达到 SOTA&quot;，走小激活路线 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">AGI 五阶段：腾讯 L2 偏 L3，Anthropic/OpenAI L3 偏 L4 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">姚顺雨采访 5 月录制、9 月入职官宣后发布 → 采访即面试，价值 1 亿 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推测]</code></li>
+<li style="margin:0.3em 0">&quot;智能最终平权，差异在场景、数据和上下文&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: HY4 发布验证路线图（8/27 预测月底出，8/28 官宣兑现）→ AI 业务价值提升 → 腾讯长期前景清晰。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HY4 8 月底发布</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/28 官宣（其 8/27 预测兑现）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HY5 目标 SOTA、小激活路线</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">官方路线图表述，无公开来源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">姚顺雨 9 月入职腾讯、采访即面试</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">时间线可查（5 月采访、9 月官宣），&quot;1 亿面试&quot;为推测</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AGI 五阶段定位</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观框架，非标准定义</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: HY5 具体能力指标、姚顺雨薪酬结构、AGI 阶段划分。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[诉诸权威]</code> — 大量引用&quot;马丁（刘炽平？）&quot;二分法；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[叙事通胀]</code> — 从 HY4 兑现推出 HY10 的长期确定性，跨度过大。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=腾讯小激活路线能在算力受限下逼近 SOTA、AI 价值最终体现在场景与数据（腾讯的 IM/游戏/支付场景）。替代解释=小激活是妥协而非优势；OpenAI 等 L4 玩家持续拉大差距；AI 价值不一定兑现为腾讯股东回报。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — HY4 发布可验证 ✅，但&quot;HY5 SOTA&quot;&quot;HY10 到 L5&quot;为远期叙事，无法证伪也无法证实；其预测 HY4 时间点准确，加分。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-30 一致（强化）— 8/28 HY4 官宣兑现其 8/27&quot;月底出&quot;预测；8/29 已系统讨论 HY4 对腾讯长期价值影响；本次补充 HY5 路线和姚顺雨细节。观点链条连续，属信息增量而非方向变化。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 醉眼看人間 — 泸州老窖/白酒（长期多头，转发散户乙文章）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 转发散户乙白酒行业长文：&quot;用短期资金炒长周期行业必受其苦；用长期资金布局周期底部方得其利&quot;；泸州老窖长期价值 = 全生命周期 FCF 折现，压货去库存只改变现金流时间分布。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 白酒（尤其泸州老窖）处于周期底部区域，压货/去库存不改变企业全生命周期现金流总量，长期资金应布局。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong>:</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">散户乙文章（转述）：长期资金布局周期底部、短期资金炒长周期必受其苦 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[转发]</code></li>
+<li style="margin:0.3em 0">压货和去库存只是改变现金流时间分布，不改变总量 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">泸州老窖长期价值 = 企业全生命周期真实 FCF 折现 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code></li>
+<li style="margin:0.3em 0">讨论中承认&quot;没人知道十年二十年后口味变迁/消费场景变化&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自我保留]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论证</strong>: 周期底部买入 → 忽略短期报表波动 → 以全生命周期现金流定价 → 时间换空间。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泸州老窖 H1 业绩承压</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">营收 104.72 亿 -36.35%，归母 43.39 亿 -43.37%（8/25 已披露，其历史帖引用）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">压货去库存不改变现金流总量</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">理论框架，无法直接验证；若压货=渠道库存减值/退货，现金流总量会变</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">长期 FCF 折现</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值方法论，参数（折现率/终值）未给</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 泸州老窖全生命周期 FCF 的具体测算。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 本人长期持有白酒股（自述），文章也声明&quot;立场存在天然倾向性&quot;；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[选择性忽视]</code> — 讨论中承认口味变迁不确定，但结论仍坚定。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一性原理</strong>: 核心假设=白酒周期会回归、品牌格局稳定、管理层能把现金流还给股东。替代解释=消费代际变迁是趋势性（低度化、年轻群体少喝），周期底可能没有&quot;顶&quot;；压货后的渠道堰塞湖可能在未来 2-3 年持续压制报表。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 自述&quot;非事实&quot;且坦承立场倾向；历史持续看多（6/30 看好老窖管理层、坚定向茅台看齐），观点一致但无新增可验证数据。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>: 2026-08-30 一致 — 8/25 泸州老窖中报点评（毛利率基本没变化）；6/30&quot;看好老窖管理层&quot;。本次为散户乙文章转发+讨论，观点链条一致，无修正。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号帖子摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+  <th style="text-align:center">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">指数增长技术（摩尔定律→基因检测→大模型→AI4S→可控核聚变），下午4点有讨论；23年起做前瞻研究，看过几十家 AI4S/中国Palantir 企业</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行业展望，无标的</td>
+  <td style="text-align:center">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山行</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">三桶油段子：一桶油大赚（油）、一桶气二季度负增长（气）、一桶靠硫磺硫酸售价翻倍（硫化氢）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行业观察，无操作信号</td>
+  <td style="text-align:center">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">回复梁宏：财政缺口=刚性前置支出约1万亿+隐性化债未完全化解，非刚性支出也会下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宏观讨论，无标的</td>
+  <td style="text-align:center">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">补充财政缺口分析（利息/支农/已开工刚性支出、隐性化债）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宏观讨论，无标的</td>
+  <td style="text-align:center">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">回复茅台2013年买入案例：&quot;看不懂万科的债务和体外循环，不懂不碰&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中性，能力圈原则</td>
+  <td style="text-align:center">🟢高</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">更新完持仓财报模型；卖方分析师电话会追问PPT用词；祝贺宋亚东；MJ生日</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无投资信号</td>
+  <td style="text-align:center">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間(其余回复)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大量白酒讨论回复（国窖市场、口味变迁、散户乙观点传播）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新增信号</td>
+  <td style="text-align:center">—</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑的观点</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">汤诗语</strong>：只讲&quot;立即申购&quot;不提溢价风险——同期纳指ETF国泰溢价 11.5%、标普500ETF 9.78%、广发纳指ETF 因溢价临时停牌。场外申购开放≠稳赚，若额度放开有限或基金经理仍限购，抢申购可能落空。信息不完整导致操作建议有偏。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清</strong>：从&quot;HY4 发布兑现&quot;推出&quot;HY10 达到 AGI L5&quot;的确定性叙事，中间隔了 6 个版本迭代的变量。腾讯小激活路线在算力受限下逼近 SOTA 是假设而非事实；且 AI 技术领先 ≠ 股东回报（资本开支吞噬自由现金流）。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">酒金岁月</strong>：&quot;经济复苏有消费、经济不恢复有红利&quot;的两手准备逻辑——若经济长期低增长（消费弱+红利跌），白酒和煤炭可能同时承压，组合并非&quot;立于不败&quot;。</p>
+</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>数据来源：雪球关注流 48 条（2026-08-30 22:04 抓取），历史检索库 185136 条，公开新闻验证（新浪财经/经济日报/格隆汇/智通财经/财联社/腾讯新闻）</em></p>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
