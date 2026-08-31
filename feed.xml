@@ -1,7 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 31 Aug 2026 23:00:27 +0800</lastBuildDate><item><title>[a16z] 为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</title><link>https://xlicz.github.io/podcast-rss/articles/为什么-a16z-推出-11-亿美元的机器时代基金-对谈-Jen-Kha-2026-08-30.html</link><guid isPermaLink="false">a16z_881751e9592c</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 31 Aug 2026 23:13:29 +0800</lastBuildDate><item><title>[高能量] 具身智能的下一步，为什么先发生在实验室里</title><link>https://xlicz.github.io/podcast-rss/articles/具身智能的下一步-为什么先发生在实验室里-2026-08-31.html</link><guid isPermaLink="false">gao-neng-liang_1ac50d92a6ae</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>具身智能的下一步，为什么先发生在实验室里</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">具身智能的下一步，为什么先发生在实验室里</h1>
+<p style="margin:0.8em 0">副标题：从 Vicarious、Google X 到 Figure 的连续创业者连文昭，在 2026 世界机器人大会上给出的行业判断：几百家企业还在做几百个平行实验，而真正的收敛，将发生在&quot;最难考场&quot;上。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">2026 年 8 月的世界机器人大会（WRC）上，一个细节让元洛科技创始人连文昭印象深刻：展馆里几百家企业，正在做几百个平行的实验。有人在做搬箱分拣，有人在搞工业装配，有人让机器人做饭、端茶倒水，方法上更是百花齐放——端到端纯预编程、视觉语言动作模型、生成世界模型，谁都没有收敛。</p>
+<p style="margin:0.8em 0">&quot;这是件好事。&quot;他在与丰瑞资本合伙人李峰的对谈中说，&quot;证明行业的天花板是有共识的——一定很高。但怎么把预期兑现，从 demo 走向真正的生产力，大家还在各自回答。&quot;</p>
+<p style="margin:0.8em 0">两年前这期播客录制时，机器人行业&quot;刚火未火&quot;；两年后，宇树上市、WRC 人潮涌动、连半岛电视台都专程跑到中国厂商的展台前聊合作。行业最热闹的时刻，恰恰是判断最分散的时刻。而连文昭给出的选择是：把最难的问题当作练兵场——AI for Science 泛实验室场景。这不是情怀，而是一套从不可能三角推导出来的技术路线。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">今年 WRC 最大的变化：从&quot;会表演&quot;到&quot;愿意开机&quot;</h2>
+<p style="margin:0.8em 0">连续两年参展，连文昭对现场变化的判断很明确：展示的能力其实差不多，变的是场景化程度。&quot;之前更多是展示性，今年明显场景化了。&quot;去年大家还在做叠衣服、倒咖啡的小 demo，今年厂商开始谈论具体的落地场景，谈论操作层从能力走向可靠性——双足跳舞依然是热闹的情绪价值，但他关注的&quot;上肢操作&quot;这一层，行业目标明显在往可靠性牵引。</p>
+<p style="margin:0.8em 0">另一个信号是国际化。欧洲、日本、韩国、中东、东南亚的访客明显增多，而且多数带着商业目的：希望在当地引入中国产的智能机器人，做集成商或经销商。&quot;半岛电视台特地跑到我们站台，一直跟我们聊怎么在他们那边推广。&quot;他接触到的需求，绝大多数能力上都能做到——工厂上料、装配、超市服务、制药，&quot;前提是你愿意付出足够的成本&quot;。</p>
+<p style="margin:0.8em 0">但成本能否覆盖，最终由可靠性决定。他给了一个朴素到极致的检验标准：&quot;把机器人推到客户那儿，跑了一天，第二天它是不是还愿意开机？如果它自己愿意开机，付费意愿就强；如果非要你们的工程师到场才开机，成本就高。&quot;过去两年行业传递的信心偏高，市场预期也因此偏高——&quot;但这也是好事，让我们能从一个更大的池子里筛选需求&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;直觉物理&quot;两年后成了风口，但路线已经分叉</h2>
+<p style="margin:0.8em 0">两年前，连文昭在节目里提过一个当时几乎没人做的概念：直觉物理——人知道怎么拿东西、用什么姿态、什么力道。今天，这个概念对应的赛道已经成了全球最热的机器人创业方向：世界模型、物理模型，估值在过去六个月快速上涨。</p>
+<p style="margin:0.8em 0">他对此并不意外，但指出了两条路线的本质差异。机器人要做的事只有两件：知道该动到哪里，以及如何安全可靠地动过去。VLA（视觉语言动作）模型走的是捷径——采集大量数据后直接做回归，从观测直接生成动作，&quot;绕过了理解&quot;。结果就是泛化性不如预期。他特意纠正了行业里对&quot;泛化&quot;的降级理解：&quot;从一个物体左移零点五厘米还能抓，那不叫泛化，那是本该有的能力。&quot;</p>
+<p style="margin:0.8em 0">世界模型想补回理解，但早期的做法是 pixel-to-pixel 重建——预测所有像素，模型把大量表达能力消耗在重建上。&quot;这不是直觉物理，是反直觉物理。&quot;元洛的做法是以物体为中心，只预测关键状态，并且把&quot;力&quot;作为一个核心模态建模：力与本体动作完全耦合，施加多大力就反馈多大力，因此预测的力可以跟实测的力做闭环比较，不断反哺纠正对交互规律的理解。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收敛的方向：零样本泛化，加上绝对安全</h2>
+<p style="margin:0.8em 0">整个行业还没收敛，但连文昭认为可以从终局倒推。最终目标只有两个：零样本、小样本泛化——扔进一个新环境，一次展示甚至零展示就能动起来；以及绝对安全——机器人知道自己的边界，异常时能处理。倒推回来，就是两条路线：数据效率最大化的路线，和能自主评估输出不确定性边界的路线。</p>
+<p style="margin:0.8em 0">数据效率的探索已经在多条线上展开：让数据采集更便宜（元洛 2023 年就在采集 ego-centric 自中心视角数据）；让数据信息密度更高（物体为中心而非像素，从多视角 2D 隐式推出更本质的 3D 理解）；以及从纯视觉扩展到力觉、触觉——行业里开始出现触觉手套和各类传感器数据集，元洛则自己搭了视觉-力觉-触觉融合的采集链路。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件比体感快，软件比看起来慢</h2>
+<p style="margin:0.8em 0">一个反直觉的判断：硬件上的进展，实质比大家体感快得多。</p>
+<p style="margin:0.8em 0">&quot;很多人会说还是那些谐波行星关节，但供应链、设计、系统集成的实质发展远超想象。&quot;连文昭说，新一代机器人的重复定位精度和绝对定位精度，已经能逼近以往工业机器人的级别——&quot;两年前不敢想象&quot;。硬件迭代速度已经逼近软件迭代曲线，这得益于国内上游机加工、电子、传感器的成熟生态。</p>
+<p style="margin:0.8em 0">软件侧则是另一个故事：演示漂亮程度提升极快，但拉长时间看，研发范式没有颠覆——大家还在用大语言模型的方式训练具身智能模型。&quot;语言是一个很特殊的问题：观测空间和预测空间一致，都是文本 token。但机器人输入空间极大——力觉、触觉、关节状态、看不见的液位和电器开关——输出空间是控制信号，这跟 LLM 本质不同。&quot;</p>
+<p style="margin:0.8em 0">他给出了一个更本质的区分：语言是逻辑关系，解空间大，有很多局部最优，&quot;一句话可以用无数种表达达到同一个意思&quot;；机器人是逻辑加几何加物理——几何是运动学约束（关节转多少度、末端动多少厘米），物理是动力学约束（施多大力、推多远、摩擦多少）。&quot;具身智能就是在很多约束条件下改变目标物体的状态，它经常有精确解：做到就是做到，没做到就是没做到。语言可以模棱两可，机器人不行。&quot;</p>
+<p style="margin:0.8em 0">可以借鉴 LLM 的&quot;用关联近似因果&quot;的预测范式，但必须补上两样东西：因果约束和时间维度。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最难的考场：为什么是 AI for Science</h2>
+<p style="margin:0.8em 0">场景选择背后是&quot;不可能三角&quot;：通用性、可靠性、速度。元洛的选择是——速度达到阈值即可，通用性不追求一次解决一万件事，几十件、上百件就够，但场景必须&quot;难&quot;：长序列、强逻辑、高精度、高柔性，能牵引研发，又不把天花板杀死。&quot;如果这些都能做好，未来走向家用的一万件事自然能解决。&quot;</p>
+<p style="margin:0.8em 0">这个&quot;最难考场&quot;就是泛实验室：生化环材、生物医药。痛点非常具体——实验不可复现。&quot;人做实验，即使流程写清楚，不同人理解都不一样：A、B、C 在 25 度混匀，有人从 4 度冰箱拿出来等一小时，有人直接就在 25 度环境做，反应条件自然不同，更别提打个喷嚏。&quot;行业里流传一句话：十年十个亿，成功率百分之十。</p>
+<p style="margin:0.8em 0">第二个痛点是仪器利用率。实验室依赖人操作仪器，人朝九晚五下班，仪器就闲置，整体利用率只有百分之三四十，而仪器往往非常昂贵。机器人做实验助理，可以天然地把异构仪器串联、调动起来——&quot;人是实验室最好的 API，能调度所有接口；智能机器人提供了同样的接口，对老实验室零改造成本嵌入&quot;。</p>
+<p style="margin:0.8em 0">当前能力已经覆盖常见实验流程的八成以上，部分环节能做到小闭环：PI 或博士生发一个指令，机器人调度实验室要素完成局部闭环、导出结果，供研究者决策下一步。他把它类比成辅助驾驶 L2——&quot;晚上六点做一组实验，不用半夜两点回来换液，第二天早上九点结果已经读出来了&quot;。</p>
+<p style="margin:0.8em 0">已验证的客户包括华大智造和中科院。精度难题的归因也很清晰：硬件保下限（精度达不到，一切免谈，元洛自研初期抖动也压不下来），软件模型提上限（用多大成本教会一个模型做一件事）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">撕保鲜膜与物理基座</h2>
+<p style="margin:0.8em 0">最难的场景长什么样？他举了一个来自真实需求的例子：撕保鲜膜。&quot;又高透、又高反、又薄、一撕就破，感知上就很难，对力的要求还高。&quot;现在硬做也能做，但属于&quot;硬着头皮上&quot;。这类单点需求，元洛选择用核心能力慢慢拓宽，有机扩展。</p>
+<p style="margin:0.8em 0">更大的叙事是数据闭环。机器人一旦开始稳定复现实验，产出的数据就是标准化、可信赖的——这构成了一个&quot;物理基座&quot;。他反复用 GPU 类比：GPU 不只是让矩阵计算快几倍，而是解锁了以前不敢想的事情（大规模图像、视频、语音处理）；机器人进入实验室，不光是替代人操作，而是解锁过去不敢设计的实验——干实验（AI 提出假设）与湿实验（机器人执行验证）形成闭环，数据反哺模型迭代，螺旋上升。</p>
+<p style="margin:0.8em 0">&quot;现在 AI 已经能在一个极大的搜索空间里提假设，但假设越来越多，不可能靠人海一个个验证。数字 AI 和物理世界之间有一个 gap，我们提供的就是那个物理界面。&quot;行业里已有苗头：Moderna 个性化肿瘤疫苗三期临床报出显著结果，新闻里提到筛选中用了 AI；越来越多的文章指出，AI 改变科学发现后，最大瓶颈来到了实验本身——恰好是元洛的位置。</p>
+<p style="margin:0.8em 0">商业化接受度上，他观察到三个层次：降本增效（算一个人工划不划算）最容易被接受；仪器利用率提升（通量上来）也能被接受；而&quot;AI 提出更好的假设、数据质量提高形成更好闭环&quot;——价值最大，但目前未被广泛接受。&quot;它未来可能是最大的价值来源。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年此时：原点计划</h2>
+<p style="margin:0.8em 0">对明年的期待，连文昭的答案是&quot;原点计划&quot;：跟垂直行业的机构和企业共建生态，共享物理技能和数据，把物理 AI 平台做成科学智能的基础设施——&quot;类似于 GPU 之于计算&quot;。&quot;希望明年这个时候，这个生态已经形成。&quot;</p>
+<p style="margin:0.8em 0">他自己给公司的状态做了一个定位：长期乐观、短期务实。&quot;下线已经很稳，上线到了可部署可交付的状态&quot;，下一步是继续提升泛化、逼近零样本。这大概是整个行业当前处境的缩影——预期共识已经很高，收敛远未完成，而最扎实的路径，往往不是最性感的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最值得带走的五点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">WRC 两年最大的变化不是能力展示，而是场景化：行业从&quot;会表演&quot;转向&quot;愿意开机&quot;，可靠性开始决定付费意愿和成本覆盖。</li>
+<li style="margin:0.3em 0">VLA 是绕过理解的捷径，pixel-to-pixel 世界模型是&quot;反直觉物理&quot;；以物体为中心、把力作为核心模态做闭环预测，才是贴近直觉物理的路线。</li>
+<li style="margin:0.3em 0">机器人比 LLM 本质更难：语言是逻辑（解空间大、可模棱两可），机器人是逻辑+几何+物理（精确解，做到就是做到）。</li>
+<li style="margin:0.3em 0">硬件实质进展比体感快（定位精度逼近工业机器人），软件演示提升快但研发范式未颠覆——仍欠机器人自己的训练推理范式。</li>
+<li style="margin:0.3em 0">AI for Science 是&quot;最难考场&quot;：实验不可复现（十年十个亿成功率 10%）、仪器利用率仅 30-40%，机器人的价值不止替代人，而是标准化数据构成的&quot;物理基座&quot;，解锁过去不敢设计的实验。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</title><link>https://xlicz.github.io/podcast-rss/articles/为什么-a16z-推出-11-亿美元的机器时代基金-对谈-Jen-Kha-2026-08-30.html</link><guid isPermaLink="false">a16z_881751e9592c</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">11 亿美元押注"机器时代"：a16z 为什么把硬件拉回风险投资的核心</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">华尔街最淡的季节，发布了最重的基金</h2>
@@ -15715,16 +15765,16 @@ kr+12/sg+15），但零出榜+br回榜，未满
 | 市值194亿港元≈176亿人民币
 | 残差-27%低位</li>
 <li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E无修正</strong>——8-31新增4条
-无硬数字；[11:40]首次量化&quot;小镇国际服
-H1宣发费2亿左右/H2至少少1亿&quot;，与8-30
+无硬数字；[11:40]首次量化"小镇国际服
+H1宣发费2亿左右/H2至少少1亿"，与8-30
 mk+AI亏1.5亿叠加=费用削减对冲叙事，
 折50%后仅27E期权，不动26E</li>
 <li style="margin:0.3em 0">最值得注意: ①小镇国际服7区同步回落第2
 天（hk-32最大）+fr/br出榜，9月初若延续
 →先行升级 ②RO世界之旅8区全在榜且港台
 回升（hk+6/tw+7） ③火炬30日均连降4日
-（3293→2991） ④TapTap预约新现&quot;RO守
-护永恒的爱2&quot;（xd系，bundle com.xd.recat）</li>
+（3293→2991） ④TapTap预约新现"RO守
+护永恒的爱2"（xd系，bundle com.xd.recat）</li>
 <li style="margin:0.3em 0">行动: 持有不加不减（验证点: 9月初广告
 数/9-13 RO首月/9-5流放2闪回）</li>
 </ul>
@@ -15889,13 +15939,13 @@ RO初心服回榜#61</li>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论（先给判断，再给过程）</h3>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>——8-31四条无新硬
-数字；[11:40]首次量化&quot;小镇国际服H1
-宣发费2亿左右、H2至少少1亿&quot;，与8-30
-&quot;mk+AI亏1.5亿&quot;叠加=费用削减对冲叙事
+数字；[11:40]首次量化"小镇国际服H1
+宣发费2亿左右、H2至少少1亿"，与8-30
+"mk+AI亏1.5亿"叠加=费用削减对冲叙事
 （折50%后计入27E期权，不动26E）；
 [13:08]AI视频观察非心动主张</li>
 <li style="margin:0.3em 0">方向信号: 利好2（宣发削减/费用对冲）
-+中性2（&quot;挺好&quot;&quot;舒服&quot;情绪词无信息量）</li>
++中性2（"挺好""舒服"情绪词无信息量）</li>
 <li style="margin:0.3em 0">可靠度: 🟡中——宣发费量级与H1推广费
 总额自洽但分产品无独立数据；H2预测
 不可验证🔴</li>
@@ -15904,17 +15954,17 @@ RO初心服回榜#61</li>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（新增4条）</h3>
 <p style="margin:0.8em 0">📌 8-31 11:40 宣发费量化 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上半年小镇国际服的宣发费用是2亿左右
+<p style="margin:0.8em 0">"上半年小镇国际服的宣发费用是2亿左右
 （即使没到2亿，也会有接近2亿）下半年
-至少可以少1亿左右吧&quot;
+至少可以少1亿左右吧"
 主张: ①H1小镇国际服宣发费~2亿
 ②H2至少少1亿
 核查: ⚠️H1整体推广费6.68亿（同比
-+0.58亿）为硬数据，&quot;2亿&quot;占比~30%
++0.58亿）为硬数据，"2亿"占比~30%
 量级自洽但分产品科目无公开披露；
 ②为预测❓（26年报销售费用可裁决）
-对照: 历史库表5——承接8-30&quot;mk+AI
-亏损1.5亿&quot;的费用削减叙事，今日补
+对照: 历史库表5——承接8-30"mk+AI
+亏损1.5亿"的费用削减叙事，今日补
 产品级细节；新预测登记表2#28
 结论: 量级合理但不可独立证实；H2-1亿
 折30%后计入27E期权；26年报裁决
@@ -15923,17 +15973,17 @@ RO初心服回榜#61</li>
 </blockquote>
 <p style="margin:0.8em 0">📌 8-31 13:08 AI视频观察 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;AI视频已经炒起来了。。。可能也不叫
-炒，毕竟是有作品落地的&quot;
+<p style="margin:0.8em 0">"AI视频已经炒起来了。。。可能也不叫
+炒，毕竟是有作品落地的"
 主张: AI视频概念行情升温且有作品落地
 核查: ❓行业观察，无心动产品主张；与
-8-30&quot;mk+AI亏损1.5亿&quot;语境相关（AI
+8-30"mk+AI亏损1.5亿"语境相关（AI
 是心动投入方向）但无独立行情核验
 对照: 非E输入；记语境
 结论: 对心动E无影响；不判定为修正输入
 对错: ❓不可证伪（无独立核验；对E无影响）</p>
 </blockquote>
-<p style="margin:0.8em 0">📌 8-31 10:09 &quot;挺好&quot; / 11:34 &quot;舒服&quot; | —</p>
+<p style="margin:0.8em 0">📌 8-31 10:09 "挺好" / 11:34 "舒服" | —</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">双情绪短句，无主张、无数字
 主张: 无（可能为对持仓/行情情绪反馈）
@@ -15978,8 +16028,8 @@ RO初心服回榜#61</li>
 纯正面短句（挺好/舒服/宣发少1亿）</li>
 <li style="margin:0.3em 0">归因外移: 未命中——无归因表述</li>
 <li style="margin:0.3em 0">承认递进: 无——无新承认</li>
-<li style="margin:0.3em 0">预测更新: 有——[11:40]新增&quot;H2小镇
-国际服宣发至少少1亿&quot;（表2#28），
+<li style="margin:0.3em 0">预测更新: 有——[11:40]新增"H2小镇
+国际服宣发至少少1亿"（表2#28），
 与8-30 mk+AI口径同向</li>
 <li style="margin:0.3em 0">历史锚定: 未命中</li>
 </ul>
@@ -15995,13 +16045,13 @@ RO初心服回榜#61</li>
 宣发-1亿（费用→利润项）</li>
 <li style="margin:0.3em 0">产品级流水30%: 不适用（今日无流水预测）</li>
 <li style="margin:0.3em 0">对冲叙事Σ验证+50%: 适用——[11:40]
-&quot;宣发少1亿&quot;+[8-30]&quot;mk+AI少亏1.5亿&quot;
-+[8-30]&quot;明年打平&quot;三叠费用削减对冲</li>
+"宣发少1亿"+[8-30]"mk+AI少亏1.5亿"
++[8-30]"明年打平"三叠费用削减对冲</li>
 <li style="margin:0.3em 0">估值结论30%: 不适用（今日无估值结论）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 8-31~9-14）</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">9月初: 8月tap广告数据（&quot;8月好转&quot;
+<li style="margin:0.3em 0">9月初: 8月tap广告数据（"8月好转"
 验证点；tap H2回10-20%裁决）</li>
 <li style="margin:0.3em 0">9-5: 流放2闪回赛季开始（竞品，
 持续≈至12-5）</li>
@@ -16018,8 +16068,8 @@ RO初心服回榜#61</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">新可证伪点: ①&quot;小镇国际服H1宣发2亿/
-H2少1亿&quot;→26年报销售费用结构；②回落
+<li style="margin:0.3em 0">新可证伪点: ①"小镇国际服H1宣发2亿/
+H2少1亿"→26年报销售费用结构；②回落
 是否延续——若9-1小镇国际服继续跌+
 ≥3区同步→先行指标升级观察第3天</li>
 <li style="margin:0.3em 0">验证路径: 榜单日更 / 9月初广告数 /
@@ -16064,7 +16114,7 @@ jp-22/kr-25/sg-29），fr/br出榜；未满
 美/德/英/越连续；RO新游零出榜；br
 RO初心服回榜#61</li>
 <li style="margin:0.3em 0">新承认/预测下修: 无E下修；新预测——
-[11:40]&quot;H2小镇国际服宣发至少少1亿&quot;
+[11:40]"H2小镇国际服宣发至少少1亿"
 （表2#28）；[13:08]AI视频观察</li>
 <li style="margin:0.3em 0">数据源: TapTap/Apple/Steam/逸修1✅；
 ⚠️akshare东财spot+kline代理断连→
@@ -16072,5 +16122,55 @@ RO初心服回榜#61</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[高能量] 具身智能的下一步，为什么先发生在实验室里</title><link>https://xlicz.github.io/podcast-rss/articles/具身智能的下一步-为什么先发生在实验室里-2026-08-31.html</link><guid isPermaLink="false">gao-neng-liang_1ac50d92a6ae</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>具身智能的下一步，为什么先发生在实验室里</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">具身智能的下一步，为什么先发生在实验室里</h1>
+<p style="margin:0.8em 0">副标题：从 Vicarious、Google X 到 Figure 的连续创业者连文昭，在 2026 世界机器人大会上给出的行业判断：几百家企业还在做几百个平行实验，而真正的收敛，将发生在&quot;最难考场&quot;上。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">2026 年 8 月的世界机器人大会（WRC）上，一个细节让元洛科技创始人连文昭印象深刻：展馆里几百家企业，正在做几百个平行的实验。有人在做搬箱分拣，有人在搞工业装配，有人让机器人做饭、端茶倒水，方法上更是百花齐放——端到端纯预编程、视觉语言动作模型、生成世界模型，谁都没有收敛。</p>
+<p style="margin:0.8em 0">&quot;这是件好事。&quot;他在与丰瑞资本合伙人李峰的对谈中说，&quot;证明行业的天花板是有共识的——一定很高。但怎么把预期兑现，从 demo 走向真正的生产力，大家还在各自回答。&quot;</p>
+<p style="margin:0.8em 0">两年前这期播客录制时，机器人行业&quot;刚火未火&quot;；两年后，宇树上市、WRC 人潮涌动、连半岛电视台都专程跑到中国厂商的展台前聊合作。行业最热闹的时刻，恰恰是判断最分散的时刻。而连文昭给出的选择是：把最难的问题当作练兵场——AI for Science 泛实验室场景。这不是情怀，而是一套从不可能三角推导出来的技术路线。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">今年 WRC 最大的变化：从&quot;会表演&quot;到&quot;愿意开机&quot;</h2>
+<p style="margin:0.8em 0">连续两年参展，连文昭对现场变化的判断很明确：展示的能力其实差不多，变的是场景化程度。&quot;之前更多是展示性，今年明显场景化了。&quot;去年大家还在做叠衣服、倒咖啡的小 demo，今年厂商开始谈论具体的落地场景，谈论操作层从能力走向可靠性——双足跳舞依然是热闹的情绪价值，但他关注的&quot;上肢操作&quot;这一层，行业目标明显在往可靠性牵引。</p>
+<p style="margin:0.8em 0">另一个信号是国际化。欧洲、日本、韩国、中东、东南亚的访客明显增多，而且多数带着商业目的：希望在当地引入中国产的智能机器人，做集成商或经销商。&quot;半岛电视台特地跑到我们站台，一直跟我们聊怎么在他们那边推广。&quot;他接触到的需求，绝大多数能力上都能做到——工厂上料、装配、超市服务、制药，&quot;前提是你愿意付出足够的成本&quot;。</p>
+<p style="margin:0.8em 0">但成本能否覆盖，最终由可靠性决定。他给了一个朴素到极致的检验标准：&quot;把机器人推到客户那儿，跑了一天，第二天它是不是还愿意开机？如果它自己愿意开机，付费意愿就强；如果非要你们的工程师到场才开机，成本就高。&quot;过去两年行业传递的信心偏高，市场预期也因此偏高——&quot;但这也是好事，让我们能从一个更大的池子里筛选需求&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;直觉物理&quot;两年后成了风口，但路线已经分叉</h2>
+<p style="margin:0.8em 0">两年前，连文昭在节目里提过一个当时几乎没人做的概念：直觉物理——人知道怎么拿东西、用什么姿态、什么力道。今天，这个概念对应的赛道已经成了全球最热的机器人创业方向：世界模型、物理模型，估值在过去六个月快速上涨。</p>
+<p style="margin:0.8em 0">他对此并不意外，但指出了两条路线的本质差异。机器人要做的事只有两件：知道该动到哪里，以及如何安全可靠地动过去。VLA（视觉语言动作）模型走的是捷径——采集大量数据后直接做回归，从观测直接生成动作，&quot;绕过了理解&quot;。结果就是泛化性不如预期。他特意纠正了行业里对&quot;泛化&quot;的降级理解：&quot;从一个物体左移零点五厘米还能抓，那不叫泛化，那是本该有的能力。&quot;</p>
+<p style="margin:0.8em 0">世界模型想补回理解，但早期的做法是 pixel-to-pixel 重建——预测所有像素，模型把大量表达能力消耗在重建上。&quot;这不是直觉物理，是反直觉物理。&quot;元洛的做法是以物体为中心，只预测关键状态，并且把&quot;力&quot;作为一个核心模态建模：力与本体动作完全耦合，施加多大力就反馈多大力，因此预测的力可以跟实测的力做闭环比较，不断反哺纠正对交互规律的理解。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收敛的方向：零样本泛化，加上绝对安全</h2>
+<p style="margin:0.8em 0">整个行业还没收敛，但连文昭认为可以从终局倒推。最终目标只有两个：零样本、小样本泛化——扔进一个新环境，一次展示甚至零展示就能动起来；以及绝对安全——机器人知道自己的边界，异常时能处理。倒推回来，就是两条路线：数据效率最大化的路线，和能自主评估输出不确定性边界的路线。</p>
+<p style="margin:0.8em 0">数据效率的探索已经在多条线上展开：让数据采集更便宜（元洛 2023 年就在采集 ego-centric 自中心视角数据）；让数据信息密度更高（物体为中心而非像素，从多视角 2D 隐式推出更本质的 3D 理解）；以及从纯视觉扩展到力觉、触觉——行业里开始出现触觉手套和各类传感器数据集，元洛则自己搭了视觉-力觉-触觉融合的采集链路。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件比体感快，软件比看起来慢</h2>
+<p style="margin:0.8em 0">一个反直觉的判断：硬件上的进展，实质比大家体感快得多。</p>
+<p style="margin:0.8em 0">&quot;很多人会说还是那些谐波行星关节，但供应链、设计、系统集成的实质发展远超想象。&quot;连文昭说，新一代机器人的重复定位精度和绝对定位精度，已经能逼近以往工业机器人的级别——&quot;两年前不敢想象&quot;。硬件迭代速度已经逼近软件迭代曲线，这得益于国内上游机加工、电子、传感器的成熟生态。</p>
+<p style="margin:0.8em 0">软件侧则是另一个故事：演示漂亮程度提升极快，但拉长时间看，研发范式没有颠覆——大家还在用大语言模型的方式训练具身智能模型。&quot;语言是一个很特殊的问题：观测空间和预测空间一致，都是文本 token。但机器人输入空间极大——力觉、触觉、关节状态、看不见的液位和电器开关——输出空间是控制信号，这跟 LLM 本质不同。&quot;</p>
+<p style="margin:0.8em 0">他给出了一个更本质的区分：语言是逻辑关系，解空间大，有很多局部最优，&quot;一句话可以用无数种表达达到同一个意思&quot;；机器人是逻辑加几何加物理——几何是运动学约束（关节转多少度、末端动多少厘米），物理是动力学约束（施多大力、推多远、摩擦多少）。&quot;具身智能就是在很多约束条件下改变目标物体的状态，它经常有精确解：做到就是做到，没做到就是没做到。语言可以模棱两可，机器人不行。&quot;</p>
+<p style="margin:0.8em 0">可以借鉴 LLM 的&quot;用关联近似因果&quot;的预测范式，但必须补上两样东西：因果约束和时间维度。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最难的考场：为什么是 AI for Science</h2>
+<p style="margin:0.8em 0">场景选择背后是&quot;不可能三角&quot;：通用性、可靠性、速度。元洛的选择是——速度达到阈值即可，通用性不追求一次解决一万件事，几十件、上百件就够，但场景必须&quot;难&quot;：长序列、强逻辑、高精度、高柔性，能牵引研发，又不把天花板杀死。&quot;如果这些都能做好，未来走向家用的一万件事自然能解决。&quot;</p>
+<p style="margin:0.8em 0">这个&quot;最难考场&quot;就是泛实验室：生化环材、生物医药。痛点非常具体——实验不可复现。&quot;人做实验，即使流程写清楚，不同人理解都不一样：A、B、C 在 25 度混匀，有人从 4 度冰箱拿出来等一小时，有人直接就在 25 度环境做，反应条件自然不同，更别提打个喷嚏。&quot;行业里流传一句话：十年十个亿，成功率百分之十。</p>
+<p style="margin:0.8em 0">第二个痛点是仪器利用率。实验室依赖人操作仪器，人朝九晚五下班，仪器就闲置，整体利用率只有百分之三四十，而仪器往往非常昂贵。机器人做实验助理，可以天然地把异构仪器串联、调动起来——&quot;人是实验室最好的 API，能调度所有接口；智能机器人提供了同样的接口，对老实验室零改造成本嵌入&quot;。</p>
+<p style="margin:0.8em 0">当前能力已经覆盖常见实验流程的八成以上，部分环节能做到小闭环：PI 或博士生发一个指令，机器人调度实验室要素完成局部闭环、导出结果，供研究者决策下一步。他把它类比成辅助驾驶 L2——&quot;晚上六点做一组实验，不用半夜两点回来换液，第二天早上九点结果已经读出来了&quot;。</p>
+<p style="margin:0.8em 0">已验证的客户包括华大智造和中科院。精度难题的归因也很清晰：硬件保下限（精度达不到，一切免谈，元洛自研初期抖动也压不下来），软件模型提上限（用多大成本教会一个模型做一件事）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">撕保鲜膜与物理基座</h2>
+<p style="margin:0.8em 0">最难的场景长什么样？他举了一个来自真实需求的例子：撕保鲜膜。&quot;又高透、又高反、又薄、一撕就破，感知上就很难，对力的要求还高。&quot;现在硬做也能做，但属于&quot;硬着头皮上&quot;。这类单点需求，元洛选择用核心能力慢慢拓宽，有机扩展。</p>
+<p style="margin:0.8em 0">更大的叙事是数据闭环。机器人一旦开始稳定复现实验，产出的数据就是标准化、可信赖的——这构成了一个&quot;物理基座&quot;。他反复用 GPU 类比：GPU 不只是让矩阵计算快几倍，而是解锁了以前不敢想的事情（大规模图像、视频、语音处理）；机器人进入实验室，不光是替代人操作，而是解锁过去不敢设计的实验——干实验（AI 提出假设）与湿实验（机器人执行验证）形成闭环，数据反哺模型迭代，螺旋上升。</p>
+<p style="margin:0.8em 0">&quot;现在 AI 已经能在一个极大的搜索空间里提假设，但假设越来越多，不可能靠人海一个个验证。数字 AI 和物理世界之间有一个 gap，我们提供的就是那个物理界面。&quot;行业里已有苗头：Moderna 个性化肿瘤疫苗三期临床报出显著结果，新闻里提到筛选中用了 AI；越来越多的文章指出，AI 改变科学发现后，最大瓶颈来到了实验本身——恰好是元洛的位置。</p>
+<p style="margin:0.8em 0">商业化接受度上，他观察到三个层次：降本增效（算一个人工划不划算）最容易被接受；仪器利用率提升（通量上来）也能被接受；而&quot;AI 提出更好的假设、数据质量提高形成更好闭环&quot;——价值最大，但目前未被广泛接受。&quot;它未来可能是最大的价值来源。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">明年此时：原点计划</h2>
+<p style="margin:0.8em 0">对明年的期待，连文昭的答案是&quot;原点计划&quot;：跟垂直行业的机构和企业共建生态，共享物理技能和数据，把物理 AI 平台做成科学智能的基础设施——&quot;类似于 GPU 之于计算&quot;。&quot;希望明年这个时候，这个生态已经形成。&quot;</p>
+<p style="margin:0.8em 0">他自己给公司的状态做了一个定位：长期乐观、短期务实。&quot;下线已经很稳，上线到了可部署可交付的状态&quot;，下一步是继续提升泛化、逼近零样本。这大概是整个行业当前处境的缩影——预期共识已经很高，收敛远未完成，而最扎实的路径，往往不是最性感的。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">最值得带走的五点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">WRC 两年最大的变化不是能力展示，而是场景化：行业从&quot;会表演&quot;转向&quot;愿意开机&quot;，可靠性开始决定付费意愿和成本覆盖。</li>
+<li style="margin:0.3em 0">VLA 是绕过理解的捷径，pixel-to-pixel 世界模型是&quot;反直觉物理&quot;；以物体为中心、把力作为核心模态做闭环预测，才是贴近直觉物理的路线。</li>
+<li style="margin:0.3em 0">机器人比 LLM 本质更难：语言是逻辑（解空间大、可模棱两可），机器人是逻辑+几何+物理（精确解，做到就是做到）。</li>
+<li style="margin:0.3em 0">硬件实质进展比体感快（定位精度逼近工业机器人），软件演示提升快但研发范式未颠覆——仍欠机器人自己的训练推理范式。</li>
+<li style="margin:0.3em 0">AI for Science 是&quot;最难考场&quot;：实验不可复现（十年十个亿成功率 10%）、仪器利用率仅 30-40%，机器人的价值不止替代人，而是标准化数据构成的&quot;物理基座&quot;，解锁过去不敢设计的实验。</li>
+</ul>
+
+</div>
+]]></content:encoded></item></channel>
 </rss>
