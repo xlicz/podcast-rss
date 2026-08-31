@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 31 Aug 2026 09:00:16 +0800</lastBuildDate><item><title>[a16z] 为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</title><link>https://xlicz.github.io/podcast-rss/articles/为什么-a16z-推出-11-亿美元的机器时代基金-对谈-Jen-Kha-2026-08-30.html</link><guid isPermaLink="false">a16z_881751e9592c</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 31 Aug 2026 23:00:23 +0800</lastBuildDate><item><title>[a16z] 为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</title><link>https://xlicz.github.io/podcast-rss/articles/为什么-a16z-推出-11-亿美元的机器时代基金-对谈-Jen-Kha-2026-08-30.html</link><guid isPermaLink="false">a16z_881751e9592c</guid><pubDate>Sun, 30 Aug 2026 08:00:00 +0800</pubDate><description>为什么 a16z 推出 11 亿美元的机器时代基金｜对谈 Jen Kha</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">11 亿美元押注"机器时代"：a16z 为什么把硬件拉回风险投资的核心</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">华尔街最淡的季节，发布了最重的基金</h2>
@@ -15912,7 +15912,7 @@ kr+12/sg+15），但零出榜+br回榜，未满
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. OpenAI 终止向 Cursor 提供模型，Altman-Musk 对抗升级 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">OpenAI 官方 8/29 发布声明 &quot;Our decision on Cursor following its acquisition by SpaceX&quot;，决定在 Cursor 被 SpaceX 收购后终止模型供应。Reuters、CNBC、The Next Web、ANI 等多家独立媒体同日确认。Anthropic 随后借机营销：向受影响的 Cursor 用户提供更高 Claude 用量限额（Digital Trends 8/30 报道）。</p>
+<p style="margin:0.8em 0">OpenAI 官方 8/29 发布声明 "Our decision on Cursor following its acquisition by SpaceX"，决定在 Cursor 被 SpaceX 收购后终止模型供应。Reuters、CNBC、The Next Web、ANI 等多家独立媒体同日确认。Anthropic 随后借机营销：向受影响的 Cursor 用户提供更高 Claude 用量限额（Digital Trends 8/30 报道）。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ OpenAI 官方声明 + Reuters/CNBC/TNW/ANI ≥5 家独立媒体一致报道；✅ Anthropic 借机拉用户（Digital Trends）— <strong style="font-weight:600">关注</strong>: OpenAI 与 Musk 生态决裂，Cursor 用户迁移潮与替代模型争夺</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.com 官方声明、Reuters、CNBC、The Next Web（🟡 官方声明正文被反爬，多源交叉确认）</li>
@@ -15920,13 +15920,13 @@ kr+12/sg+15），但零出榜+br回榜，未满
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 智元 + 敏实：欧洲首个中企人形机器人量产基地在塞尔维亚投产 | 🟢 | [✅事实]</h3>
 <p style="margin:0.8em 0">8/29（当地时间周六）塞尔维亚西部城市 Šabac，由汽车零部件供应商敏实集团（Minth Group）与智元机器人（AgiBot）共建的机器人工厂正式投产，塞尔维亚总统武契奇出席并称其为欧洲首个中企投资的人形机器人量产基地。首台人形机器人当日下线，现场演示书法、叠衣服、下棋、跳舞。一期投资 2000 万欧元、约 3000㎡，承担人形机器人及机器狗组装、运动/视觉系统标定与性能测试；规划年产能 5000+ 台（武契奇引新华社口径），远期扩建机器人产业园、总投资约 2 亿欧元，年产能目标 2 万台，面向欧洲市场。机器人配多模态感知与指尖触觉力控。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Global Times 现场报道（引敏实官方口径）+ Anadolu/巴士的報/Open4business 多源一致 — <strong style="font-weight:600">关注</strong>: 智元出海欧洲量产落地，具身智能&quot;中国技术+欧洲产能&quot;路径跑通</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Global Times 现场报道（引敏实官方口径）+ Anadolu/巴士的報/Open4business 多源一致 — <strong style="font-weight:600">关注</strong>: 智元出海欧洲量产落地，具身智能"中国技术+欧洲产能"路径跑通</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Global Times、Anadolu Ajansı（🟢 官方现场报道 + 多源交叉）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Tau Robotics 人形清洁服务 30 美元/小时走红——本质是遥操作 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">NBC 8/29 报道旧金山 Tau Robotics 推出人形机器人清洁服务（家庭+办公室），30 美元/小时。8/21 用户 Gianna Capezio 租用 1 小时完成铺床、浴室清洁、吸尘，TikTok 视频 450 万次观看，引发&quot;机器人抢家政饭碗 vs 太慢不值&quot;两极讨论。关键事实：机器人由远程人类操作员遥操作，非自主运行；对比 1X Neo 以 2 万美元或 499 美元/月订阅形式销售。</p>
+<p style="margin:0.8em 0">NBC 8/29 报道旧金山 Tau Robotics 推出人形机器人清洁服务（家庭+办公室），30 美元/小时。8/21 用户 Gianna Capezio 租用 1 小时完成铺床、浴室清洁、吸尘，TikTok 视频 450 万次观看，引发"机器人抢家政饭碗 vs 太慢不值"两极讨论。关键事实：机器人由远程人类操作员遥操作，非自主运行；对比 1X Neo 以 2 万美元或 499 美元/月订阅形式销售。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ NBC/USA Today/People/TOI/The Cool Down 多源一致，含用户实测细节 — <strong style="font-weight:600">关注</strong>: 清洁场景&quot;通用人形+遥操作&quot; vs 专用设备（扫地机）的商业形态之争</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ NBC/USA Today/People/TOI/The Cool Down 多源一致，含用户实测细节 — <strong style="font-weight:600">关注</strong>: 清洁场景"通用人形+遥操作" vs 专用设备（扫地机）的商业形态之争</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: NBC News、USA Today、The Cool Down（🟡 可靠媒体多源）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Nvidia 暂停 AI 云收益分成融资，反垄断与控制权压力上升 | 🟡 | [✅事实]</h3>
@@ -15936,7 +15936,7 @@ kr+12/sg+15），但零出榜+br回榜，未满
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: WSJ、PYMNTS、Investing.com（🟡 可靠媒体）</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Hugging Face Microduck：399 美元开源机器鸭开放预购 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">HF 与 Pollen Robotics 合作推出 Microduck——399 美元的开源桌面机器人（轮滑鸭子形态），8/27 开放预购。HF CEO Clem Delangue 称其是&quot;可用强化学习教新技能的开源机器人&quot;（open-source robot you can teach new tricks with reinforcement learning）。TechCrunch/Engadget/The Verge/PCMag/The Register 等多源报道。</p>
+<p style="margin:0.8em 0">HF 与 Pollen Robotics 合作推出 Microduck——399 美元的开源桌面机器人（轮滑鸭子形态），8/27 开放预购。HF CEO Clem Delangue 称其是"可用强化学习教新技能的开源机器人"（open-source robot you can teach new tricks with reinforcement learning）。TechCrunch/Engadget/The Verge/PCMag/The Register 等多源报道。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ HF CEO 原话（TechCrunch 引述）+ ≥6 家独立媒体一致报道 — <strong style="font-weight:600">关注</strong>: 399 美元开源机器人把具身智能研究/教育门槛拉到消费级</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch、Engadget、The Verge（🟢 官方产品 + 多源）</li>
@@ -15944,5 +15944,529 @@ kr+12/sg+15），但零出榜+br回榜，未满
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-08-31</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-08-31.html</link><guid isPermaLink="false">report:雪球动态:2026-08-31:28317800</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-08-31</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-08-31 22:00</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">关注用户：29 人 | 新增帖子：48 条 | 信号：🔥6 / 🔴3 / ⚪5</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 信号</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 浊静徐清 — 腾讯控股/AI（24条合并）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 强烈看多腾讯 WorkBuddy + 智谱 ARR 爆发，AI 是腾讯第二增长曲线，回购放缓让位算力</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">腾讯 WorkBuddy 是腾讯 AI 入口，日处理 25 万亿 token（管理层口径年化收入 100 亿美元牌价）；智谱 ARR 8 月破 16 亿美元、月增 40-60%，AI 头部公司市值/ARR 相对 Anthropic 仍便宜。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">智谱 8 月 ARR 16 亿美元（7 月 10 亿），月环比 +60%</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 智谱 2026 中报 8/31 披露：ARR 月度 16 亿美元、周度 20 亿美元，Token 调用量较年初增 40 倍</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">WorkBuddy 日处理 25 万亿 token，按牌价年化 100 亿美金</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[管理层口径转述]</code> 未提供一手源；7 月第三方报告 TokenHub 日消耗 5 万亿，数字跳跃大</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">HY4 preview 上线排队 5000-6000 人，张军称&quot;调用量出奇猛增&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[新闻引用]</code> 科创板日报 8/31：Hy4 preview 8/28 首发 WorkBuddy，上线首日排队，紧急扩容</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">腾讯 AI 投入拖累利润但属一次性</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 腾讯 Q2 新 AI 产品拖累 Non-IFRS 经营利润 105 亿，资本开支 527.8 亿（+176%），FCF -138 亿</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">豆包每天支出 1000 多万、收入百来万</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[未提供来源]</code> 无法验证</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">智谱年底 ARR 约 60 亿美元（40% 月增速推算），市值/ARR 11-12 倍</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 数学自洽（16→22.4→31.4→43.9→61.5），但依赖增速持续</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">AI 月化增长 30-40% → WorkBuddy/智谱为头部标的 → HY4 上线引爆调用（扩容实锤）→ 腾讯砍回购投算力是正确取舍 → 智谱市值/ARR（44 倍）看似贵但增速支撑期权溢价 → 看多腾讯与国产 AI 链。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">智谱 ARR 8 月 16 亿美元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 中报官方披露（月计 16 亿/周计 20 亿）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7 月 ARR 10 亿美元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">36氪《智能涌现》2026-07-16，中报证实 1 个月增 60%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">HY4 扩容、排队、张军&quot;出奇猛增&quot;</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">科创板日报/每经 8/31 多源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">智谱市值/ARR ≈ 44 倍</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 收盘市值 5564 亿港元≈710 亿美元 ÷ 16 亿 = 44 倍</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WorkBuddy 日处理 25 万亿 token</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">一手源缺失；7 月 TokenHub 为 5 万亿/日</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">年底 ARR 60 亿美元</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未来推算，依赖 40% 月增速持续</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：豆包收支（日支 1000 多万收百来万）；WorkBuddy 100 亿美元年化口径。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 全部论据指向多头，未讨论算力成本持续抬升/竞品（Kimi、豆包）降价反扑；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[线性外推]</code> — 月化 40% 增速直接年化。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：① AI 推理需求持续高增且腾讯模型能力不掉队；② WorkBuddy 从办公场景扩展至社交/入口（微信关系链迁移）成立；③ 智谱/腾讯的 ARR 增速可持续（付费意愿非补贴驱动）。
+<strong style="font-weight:600">替代解释</strong>：Hy4 排队是限免+尝鲜脉冲，9/10 限免结束后回落；WorkBuddy 若止步办公工具，1000 亿美元市场假设落空；智谱周度 20 亿 vs 月度 16 亿的统计口径差异说明增长含&quot;脉冲&quot;成分。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 财报数字全部属实且时效性强，但核心估值结论依赖无法验证的增长假设与自我引用式推理。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若 AI 需求脉冲回落或腾讯模型竞争落后（Kimi/豆包），高 ARR 增速与&quot;入口&quot;叙事同时证伪。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 庶人哑士 — 时代天使(06699)（3条合并）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中报超预期 + 特别股息 4.1 港元，全年利润大概率超 4 亿</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">时代天使在集采+宏观消费逆风下，中国区利润率 24.2%、海外扭亏，特别股息+中期股息全年回报超 10%，好生意+好管理。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">中国区营收 112.5 百万美元 +25.4%，经调整净利 28.6 百万美元利润率 25.4%</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 与中报一致（财中社：中国 1.13 亿/海外 1.18 亿美元）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">海外营收 118.2 百万美元 +64.9%，经调整净利 8.8 百万美元利润率 7.4%，扭亏</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 与中报一致，海外案例数首超内地</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">特别股息 4.1 港元 + 中期股息 0.47 港元，全年股息回报超 10%</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 中报披露派息 4.10+0.47 港元 ✅；按 90 港元股价全年合计约 9+ 港元 → ≈10% 成立</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">全年利润大概率超 4 亿人民币</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 中报经调整净利 3500 万美元（≈2.5 亿 RMB）半年，全年 4 亿需下半年维持，偏乐观但方向合理</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">中报分市场数据 → 中国区价稳量增+海外扭亏 → 业绩持续超预期（类比 2024 上半年泡泡玛特用阿尔法对抗贝塔）→ 高股息落地 → 看多。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">收入 2.31 亿美元 +42.98%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 中报</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经调整净利 3500 万美元 +79.5%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 中报</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">特别股息 4.10 + 中期 0.47 港元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 中报公告</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中国区 112.5M/海外 118.2M 分部数字</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与财中社/雷递口径一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">全年利润超 4 亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">下半年推断，中报隐含 4 亿需 H2 环比持平</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：无重大遗漏。注意：经调整净利中国区 28.6+海外 8.8=37.4M &gt; 集团 35.0M，口径微差（总部费用归属），非矛盾。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[事后归因]</code> — &quot;业绩超预期是股价上涨最大动力&quot;是结果导向表述。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：① 集采降价压力已充分出清，中国区 ASP 企稳；② 海外（巴西/美国产能）规模效应持续兑现；③ 高分红可持续（特别股息是一次性还是常态存疑）。
+<strong style="font-weight:600">替代解释</strong>：特别股息 4.1 港元≈市值 6.8% 属一次性资本返还，2027 年若不再派发，10% 股息率叙事消失；海外高增可能伴随营销费用率上行。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高 — 全部关键数字与 8/31 中报逐项吻合，历史（8/1 预测全年超 4 亿）在兑现路径上。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 特别股息不可持续 + 集采扩围（隐适美降价）压制 ASP。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 terryp57 — 壁仞科技(06082)（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中报业绩不错，观点不变，继续当 PE 投资长期持有</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">壁仞中报符合预期，成败看 BR20x 芯片，对华为 910C 及后续保持客观，个人作为早期投资者继续长期持有。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;业绩不错，观点不变&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人判断]</code> 无具体数字</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">成败都看 br20x，华为 910C 及后续…</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 竞争格局判断</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露：非常早期投资者、持仓相当大、非推荐普通散户</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人披露]</code> 利益相关明示</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">中报确认 → 竞争胜负手在下一代芯片 → 长期 PE 持有、忽略短期波动。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中报业绩不错</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未给数字，壁仞 8 月有无中报未核对</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">早期持仓大</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人披露，无法独立验证</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：中报具体数据。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[锚定]</code> — 2025-12 以 60 亿美元估值建立锚，忽略上市后解禁/估值回归。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：BR20x 对标 910C 能占位国产推理市场；<strong style="font-weight:600">替代解释</strong>：壁仞估值已透支（上市前 460-500 亿人民币估值 vs 收入规模），国产 GPU 同质化竞争。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 逻辑自洽但无中报数据佐证，核心变量（BR20x）未验证。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 国产 GPU 赛道估值泡沫 + 客户切换成本高，业绩兑现慢于估值。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 亲爱的阿兰 — 华润万象生活(01209)（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 类比住友不动产转型逻辑，看多商业运营模式</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">日本住友不动产转向高利润出租办公楼后跑赢，华润万象生活走相似路径（商业运营为主），中期业绩验证。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">住友不动产转向出租办公楼后跑赢</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[类比经验]</code> 未提供数据</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">华润万象生活 2026 中期业绩</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报数据]</code> 收入 92.17 亿 +8.1%，核心净利 22.29 亿 +10.8%，商业航道收入 36.99 亿 +13.2%（毛利率 66.9%）</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">日本经验（开发商→收租商重估）→ 华润万象商业运营占比提升 → 业绩验证 → 看多。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中报收入/净利/商业航道数据</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 中报多源一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">住友不动产转型跑赢</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">类比，未给时间窗口与股价数据</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：住友不动产案例细节。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[类比推理]</code> — 中日地产周期/利率环境差异大，日本 90 年代后低利率+存量盘活 vs 中国高息环境+消费疲弱。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：中国商业地产租金/运营利润率企稳，消费疲弱不侵蚀购物中心客流；<strong style="font-weight:600">替代解释</strong>：万象生活依赖华润置地输血（关联项目占比高），第三方外拓能力未验证。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 财报数字属实，但&quot;日本类比&quot;为核心论证且无法验证。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 消费下行传导至购物中心零售额，商业运营毛利率下滑。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 拥抱大时代 — ASM 太平洋(00522)（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 有识货的 smart money（弱信号，无论据）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">ASM 太平洋有聪明钱进场。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;有识货的 smart money&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人观察]</code> 无数据无来源</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">一句话信号，无论证。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">smart money 进场</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无数据支撑，无法验证</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：全部。历史无 ASM 相关记录（首次提及）。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[诉诸神秘]</code> — &quot;smart money&quot;叙事不可证伪。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 无任何可验证论据，一句话带过。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 纯情绪信号，无信息增量。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 逸修1 — AI 应用/视频方向（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: AI 行情逻辑转变：模型硬件 → 云和应用，AI 视频已炒起来</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">下半年 AI 行情从模型/硬件转向云和应用，AI 视频有作品落地，已启动。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">上半年 AI 行情由 Anthropic coding 突破 + ARR 爆发带动</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 视频有作品落地</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人观察]</code> 未列具体作品</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">模型层溢价已透支 → 资金转向应用层 → 视频是下一个有落地场景的方向。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 行情逻辑转变</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">市场观察，主观判断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：AI 视频具体作品与行情启动证据。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 单一赛道观察推广为整体行情判断。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🔴低 — 方向性判断，无标的名、无数据。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 主题轮动判断，个股落地与变现距离远。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 信号</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 Penny010 — 游戏仓位（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 从全仓游戏降低仓位，但有现金也没特别想买的</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">按胜率赔率动态调整，游戏仓位适当降低；26 年整体机会少。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;适当从全仓游戏降低一些仓位&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人仓位]</code> 未点名标的</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;即使有现金也没什么特别想买的&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人判断]</code> 市场机会判断</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">胜率赔率框架 → 游戏持仓性价比下降 → 减仓观望。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">游戏减仓</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人仓位，无法验证；历史全仓游戏=心动(02400)为主，推断标的心动</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：标的与减仓幅度。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[模糊表达]</code> — &quot;适当降低&quot;无量化。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：游戏板块（尤其心动）当前赔率不佳；<strong style="font-weight:600">替代解释</strong>：减仓是资金轮动而非基本面转空。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 作者为游戏行业资深跟踪者（历史投心动=投黄一孟），信号真实但无量化。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若游戏新品周期启动（心动 2026H2 产品），减仓踏空。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 酒金岁月 — 地产/消费（1条）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 地产高开低走、银行高开高走 = 资金投票，宏观悲观</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">地产/消费难起，靠产业自身不可能，需要强力外部力量；消费贷利率高、提前还贷是表象。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">今日地产高开低走、银行高开高走</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[盘面观察]</code> 8/31 当日行情</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">消费贷利率高、贷款期限短</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 消费信贷结构判断</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">资金行为 → 防御（银行）优先于进攻（地产）→ 宏观需求不足 → 悲观。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">地产/银行当日走势</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">当日盘面可验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">消费贷利率高</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无具体数据，主观判断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：消费贷利率水平对比。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 历史 7/4&quot;底部悲观再悲观&quot;自我强化；当日盘面单一观察推广为宏观结论。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 宏观情绪信号，与历史偏空一致（7/1 泸州老窖、7/4 预期差）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 逆势指标：多数人悲观时可能正是底部区域（作者自己也承认这点）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 庶人哑士 — 绿城中国/地产（1条，转发管我财）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 地产坟头蹦迪论 — 现房模式下周转率变慢、新建大幅减少、利润率未必提升</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">转发管我财观点：地产股下跌没错，行业周转率长期变慢，利润率未必提升。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">现房模式下周转率变慢、新建房屋大幅减少、利润率未必大幅提升</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[转发推理]</code> 管我财原文</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;买地产是坟头蹦迪，坟都被挖了&quot;</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[比喻]</code> 情绪表达</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">行业模式转变（预售→现房）→ 周转率结构性下降 → 地产股不具备反转条件。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现房模式降低周转率</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行业趋势，政策导向明确</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">利润率未必提升</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现房模式下土地成本高企，逻辑自洽但缺乏数据</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：绿城具体财务影响。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 行业整体判断，未区分优质公司（绿城低杠杆转型）。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 行业逻辑成立，但属于引用观点，且与 terryp57/亲爱的阿兰&quot;转型重估&quot;观点直接对立（同一标的双向信号）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 低估头部房企转型（收租+运营）带来的重估空间。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号帖子</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题/内容</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">摘要</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">K线讨论×2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">反驳技术分析：K线若管用，股市不会有那么多亏钱的；量化/AI 交易已收割技术指标 → 中性方法论讨论</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转发薛老师白酒观点</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒行业大贝塔向下，不关注个股细节，抓宏观中观主要矛盾 → 与历史（7/2 转&quot;白酒不能买&quot;）一致偏空</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泡泡玛特晒单</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">开到隐藏款（晒单帖），无投资信号</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">新书上架</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无关帖（抖音中信出版旗舰店）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">ETF 中报取消前十大持有人披露</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026/5/1 信披新规取消定期报告十大持有人、大额买卖明细披露，跟踪&quot;某队/险资&quot;通道消失 → ✅ 已证实（新规原文：取消十大持有人、大额个股买卖明细披露）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢高</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">焦煤换仓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">从焦煤换到&quot;弹性更大还没涨的&quot;，未点名 → 历史（2025 高端冶金煤多头）修正信号，标的不明</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">科达制造投资者关系</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">关注第 28 问，名单过长 → 中性关注；反向检查：合同负债 28.29→24.59 亿（-13.1%）⚠️ 经销商打款意愿下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">绿城转型讨论</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">参考东京开发商从卖住宅转型 → 与 terryp57 同向，中性偏多</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡中</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Penny010</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">男篮比赛</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无关帖</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑的观点</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">浊静徐清（腾讯/AI）</strong>: &quot;WorkBuddy 日处理 25 万亿 token&quot;与 7 月第三方 TokenHub 数据（5 万亿/日）差距 5 倍，且&quot;100 亿美元年化&quot;无一手源。若数字含内部/牌价折算水分，其&quot;1000 亿美元潜在市场&quot;叙事链整体降级。另外其智谱估值对比（44x vs Anthropic 20x）刻意省略了增速预期差——智谱周度 20 亿 vs 月度 16 亿 ARR 的&quot;周度口径&quot;本身就有放大嫌疑。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">庶人哑士（时代天使）</strong>: &quot;全年利润超 4 亿&quot;隐含下半年环比不增长假设——海外扭亏初期利润率爬坡能否维持 7.4% 存疑；特别股息 4.1 港元一次性概率大，&quot;10% 股息率&quot;叙事明年自动消失。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月（地产悲观）</strong>: 8/31 地产高开低走单日盘面 → 宏观悲观结论，样本量=1 天。且其 7/4 帖自己承认&quot;多数人底部悲观再悲观&quot;，当前表态正是该模式的在线演绎。</li>
+</ol>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 数据来源说明</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">智谱中报/ARR：2026-08-31 披露（腾讯新闻/智通财经/上证报）</li>
+<li style="margin:0.3em 0">腾讯 Q2：2026-08-12 中报（时代周报/非与网）</li>
+<li style="margin:0.3em 0">混元 Hy4 扩容：科创板日报 2026-08-31</li>
+<li style="margin:0.3em 0">时代天使中报：2026-08-31（智通财经/雷递/财中社）</li>
+<li style="margin:0.3em 0">华润万象生活：2026-08-31 中报（澎湃/每经）</li>
+<li style="margin:0.3em 0">ETF 信披新规：2026-05-01 落地（基金披露新规公开报道）</li>
+<li style="margin:0.3em 0">科达制造反向检查：reverse-check.py 600499（2026H1 vs 2026Q1）</li>
+</ul>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
