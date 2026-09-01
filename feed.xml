@@ -1,87 +1,150 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 23:19:00 +0800</lastBuildDate><item><title>[跨国串门儿计划] AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-需求远未见顶-算力短缺将如何重塑全球产业-Gavin-Baker-2026-09-01.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f21c13069f40</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 23:20:12 +0800</lastBuildDate><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 解出的数学题越来越多，但数学的价值不是解题</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个让数学家集体改观的结果</h2>
+<p style="margin:0.8em 0">今年五月中旬，AI 完成了第一个让多伦多大学数学家 Daniel Litt 真心认可的自主数学结果：Erdős 单位距离问题的反例。</p>
+<p style="margin:0.8em 0">在 a16z 播客里，Litt 对这个结果的评价很谨慎，但充满敬意。他说，过去很多 AI 数学成果是&quot;最后一英里&quot;式的——一组人类数学家做了很深的工作，AI 只负责走最后一步。这个结果不一样。第一，它有点出乎意料：领域内的人普遍认为这个猜想是真的，结果它被推翻了。第二，它从另一个数学领域引入了技术——&quot;那些技术不算特别深，也不是新东西，是六十年代的经典思想，但对研究平面点构型这个领域来说是全新的&quot;。第三，它事后被证明富有成果：一批数学家拿着这些想法，接连找到了其他有趣开放问题的反例，比如实数上的和积猜想。</p>
+<p style="margin:0.8em 0">&quot;这才是我想看到的东西：事后回看，AI 引入的新想法能不能用来做别的事？能不能改进我们对某个东西的理解？&quot;</p>
+<p style="margin:0.8em 0">这句话几乎概括了他整场对话的立场。过去几个月，AI 数学的头条新闻密集得让圈外人无法分辨好坏。Litt 反复做的，就是拆解这些头条：哪些是炒作，哪些真正推进了理解，以及——更重要的——<strong style="font-weight:600">解出问题和理解问题，从来不是一回事</strong>。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型擅长什么、不擅长什么</h2>
+<p style="margin:0.8em 0">Litt 是数学家，也是 AI 数学领域最直言不讳的实践观察者之一。他先说了一个对 AI 界友好的判断：前沿模型做数学主要靠自然语言推理，而不是 Lean 形式化证明。&quot;很多人说'数学是可验证的领域，所以进步快'。我的感觉恰恰相反——因为它们主要在扩展非形式化推理，这些技术很可能顺利泛化到其他领域。&quot;</p>
+<p style="margin:0.8em 0">他对比了 OpenAI 和 Anthropic 的模型：能力差不多，解决的也是同一小部分问题。&quot;经常是 OpenAI 发布一个问题的解答，Anthropic 马上说我们也有——它们解决的其实是同一批问题，而这批问题只占人类数学家所做工作的一小部分。&quot;</p>
+<p style="margin:0.8em 0">模型的强项非常清晰：长时间碾压式计算、从大量论文中汇集技术想法——&quot;有些论文人类数学家可能根本没读过&quot;。弱项同样清晰：直觉、大局观、发展新理论、判断哪些问题值得问。</p>
+<p style="margin:0.8em 0">&quot;我作为数学家做的大量工作是：我有一个非常不严谨的哲学，比如'这个东西和那个东西是类比的'，然后我花大量时间想办法把它变得精确。到目前为止，即使在最好的 AI 结果里，你也看不到多少这种推理。它们更像是极其擅长应用已知技术——当然，擅长应用所有已知技术本身是件非常强大的事，有些数学家一辈子靠这个做出高质量工作。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数学家在做的，从来不是符号推演</h2>
+<p style="margin:0.8em 0">Litt 花了不少篇幅纠正一个朴素印象：数学家的工作不是按逻辑规则推符号。那是强化学习如此适合数学的原因——验证成本相对低、规则清晰——但也是大众对数学的最大误解。</p>
+<p style="margin:0.8em 0">真实的工作至少有三类。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">类比</strong>。他举了自己的领域：代数簇的上同调与基本群表示之间的类比。三十多年来，Carl Simpson、望月新一等数学家沿着这个类比发展出了大量漂亮的结果——&quot;一边出现的任何现象，在另一边都能找到对应物&quot;。这里甚至没有一个悬而未决的开放问题作为目标，&quot;只有一个哲学，一个你想实现的愿景，而那个哲学完全不严谨，根本不是符号推演&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">找到正确的问题</strong>。&quot;你有一个对象，觉得不理解它，搞清楚自己不懂什么，这件事本身极其困难。&quot;他举了 Birch–Swinnerton-Dyer 猜想——千禧年问题之一——&quot;它其实是第一个大数据猜想&quot;：六十年代，Birch 和 Swinnerton-Dyer 在椭圆曲线上做统计、画图，发现图上某条线的斜率与某个他们已知的代数不变量相关，猜想由此诞生。&quot;大量时候你在做科学：跑一个实验，然后试图为这个实验找到解释。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">做实验</strong>。而恰恰是这些活动，决定了 AI 在哪些地方有用。&quot;现象越模糊、你心里越没有一个精确的问题，AI 就越没用。&quot;他给了一个诚实的自述：五年前开始想的问题，AI 基本帮不上忙，&quot;它主要是个 Google 的替代品，省了点时间，但没有在替我做什么深度智力工作&quot;。</p>
+<p style="margin:0.8em 0">但有一个例外：编程。&quot;我写代码很烂，现在我有了一个特别擅长写代码的好朋友。&quot;过去他遇到需要写代码的问题会拖延六个月，现在全部捡起来了。&quot;模型特别擅长大规模并行的事：你让它并行跑一千个例子，一次十个 subagent，这对找例子极其有用。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">无法证明的引理，如何变成更好的结果</h2>
+<p style="margin:0.8em 0">整场对话最精彩的部分，是 Litt 讲的一个亲身案例——一个关于&quot;什么算真正理解&quot;的微型实验。</p>
+<p style="margin:0.8em 0">他当时想证明一个引理，所有前沿模型都做不到。于是他亲自上手算了一大堆例子，算着算着意识到：&quot;等等，也许这里有某种原因让这个引理可能是真的&quot;——他找到了一个更好的陈述。然后，模型很快就证明了那个更好的陈述。</p>
+<p style="margin:0.8em 0">&quot;我们无法证明它，反而导致了结果的改进。&quot;他把这个当作&quot;理解&quot;价值的证据：他最初的引理是对的，但笨拙；是因为人类做不了那个计算、被迫寻找另一个论证，才发现了那个漂亮的、概念性的解释——&quot;我们找到更好的证明，是因为我们做不了那个计算&quot;。</p>
+<p style="margin:0.8em 0">他自己也承认这有点虚伪：&quot;我一边抱怨丑陋的证明，一边发现那个可怕的暴力计算其实能行，但我不肯亲手去做，于是去找另一个论证。&quot;可这恰恰是问题的核心：<strong style="font-weight:600">数学进步不只是关于能不能证明，而是关于能否在证明的过程中获得理解。</strong> 如果一切都外包给模型，得到的会是&quot;十页毫无洞见的暴力计算&quot;——&quot;完全没问题的证明，但不会带来发现&quot;。</p>
+<p style="margin:0.8em 0">这个案例让他对能力曲线保持乐观但清醒：&quot;我不怀疑轨迹会继续向上。理论构建目前不行，但可能只需要一个不同的强化学习环境。能力会增长，我不是怀疑者。&quot;但增长到什么方向，取决于社区怎么用。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">八百页 AI 证明，与&quot;能验证的东西&quot;的边界</h2>
+<p style="margin:0.8em 0">关于 AI 数学的一个残酷事实：模型产出短而巧妙的东西，是因为那是人类能验证的。</p>
+<p style="margin:0.8em 0">arXiv 上最近有人贴了一份声称解决正特征奇点消解的证明——八百页 AI 生成的论证。&quot;我还没读，但绝对不可能是对的。这会是个重大结果，以当前模型的能力，任何校准正常的人都知道不可能。而且肯定没有任何人类读过它。&quot;</p>
+<p style="margin:0.8em 0">Litt 认为这说明的是能力前沿而非别的：&quot;长而费力的东西，模型能造出来，但不可验证。&quot;他用一个相邻领域的类比：Cursor 曾经测试过让模型在长视野 harness 下用 Rust 复现 SQLite——&quot;非常有说明性：任务很长，每一步都要验证，你需要一个 harness，原始模型做不到，而且不同模型的规划能力差异明显&quot;。</p>
+<p style="margin:0.8em 0">更麻烦的是验证这件事本身。人类检查一篇论文，从来不是逐行读——&quot;两百五十页的论文你也无法逐行可靠地检查&quot;。人类做的事是：理解论证的整体结构，然后做压力测试——&quot;这个论证会不会推出一个我知道是假的命题？它在特殊情形下成立吗？&quot;Litt 说，模型还做不了这种&quot;模糊的证明单元测试&quot;。</p>
+<p style="margin:0.8em 0">他有一个私人的测试案例：一篇几年前发表的论文，错误藏得极深——&quot;它证明的东西太强了，我和一堆专家立刻意识到它不可能是对的，但具体错误非常难找&quot;。大家来回折腾，最后才定位到那个微妙的错误。&quot;到目前为止，模型做不了这件事——既找不到那个具体错误，也做不了这种大图景检查。&quot;这正好对应代码领域：&quot;模型擅长语法，但高层架构仍然很弱。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数学社区要怎么适应：防止&quot;一个数学家复制一千次&quot;</h2>
+<p style="margin:0.8em 0">对话的后半段，Litt 转向一个更尖锐的问题：假设模型能力继续上升，数学社区该如何适应？</p>
+<p style="margin:0.8em 0">第一层，是激励结构必须改变。&quot;学术数学内部本身就存在产生 slop 的激励，AI 只是把它放大了。&quot;大量低质量论文在 arXiv 上泛滥，人们不得不花时间排查&quot;这个问题到底解决了没有&quot;。</p>
+<p style="margin:0.8em 0">但他对非专家产生的 slop 态度出人意料地宽容：&quot;大量人因为 AI 而对数学感到兴奋，这本身是件积极的事。突然有聚光灯照在数学上，我可以更多地沉迷数学了，这很好。&quot;</p>
+<p style="margin:0.8em 0">第二层，也是最危险的，是他反复强调的&quot;百花齐放&quot;问题。数学的进步很大程度上来自大量不同好奇心驱动的探索——&quot;让一千朵花绽放，知识边界以某种大致均匀的方式扩展，然后机会主义地，突然得到应用或旧问题的答案&quot;。</p>
+<p style="margin:0.8em 0">他的担忧是：<strong style="font-weight:600">如果数学探索被模型主导，你得到的可能不是&quot;一百万个数学家做一百万件事&quot;，而是&quot;一个数学家复制一千次&quot;。</strong> 模型的能力来自技术性地调用同一片文献，它们的直觉来自实践数学家——那么新的、涌现的、多样化的直觉从哪里来？&quot;我没有一个好理论说它从哪来。如果整个领域变成模型的同质化扩张，我不确定在没有人类参与的情况下，数学还能不能持续产生卓越结果。&quot;</p>
+<p style="margin:0.8em 0">第三层，是即使模型全面超越人类，问题依然存在。&quot;假设模型真的稳健地超人——我仍然主张我们需要优秀的数学家。&quot;理由不是技术性的，而是社会设计性的：&quot;最优不意味着会发生。如果我们把数学研究完全交给模型，没有任何理由认为它们会去追求广泛多样、有趣的开放研究，而不是走捷径。我们正在设计社会，而选择权应该握在人类手里。&quot;</p>
+<p style="margin:0.8em 0">他给出的处方很朴素：&quot;保持一个兴趣广泛的社区，让他们推动模型、帮助设计我们想要的社会。人类不应该被彻底剥夺权力——未来的方向应该由人类的兴趣驱动。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">对秩三十椭圆曲线：谨慎，但保持兴奋</h2>
+<p style="margin:0.8em 0">采访当天恰好传来一个新闻：AI 帮助找到了秩 30 的椭圆曲线——人类纪录被刷新（此前 Elkies 和 Klagsbrun 刚找到秩 29 的例子）。</p>
+<p style="margin:0.8em 0">Litt 的回应相当冷静：&quot;我们还没有任何方法细节。据说是 Claude 系的模型被 Levent Alpoge 和他的合作者提示出来的，自主程度不明——我的感觉是其中一些是半自主而不是全自主。不知道方法，就很难判断它有多重要。&quot;</p>
+<p style="margin:0.8em 0">他给了一个圈内视角：&quot;历史上这类纪录结果通常去的地方是某人的纪录网站，而不是《数学年刊》。它是很酷的构造，但社区通常不会把它当作大事。&quot;Noam Elkies 是这类问题的传奇人物——&quot;有少数极有天赋的数学家专门做这类问题&quot;。</p>
+<p style="margin:0.8em 0">但他仍然很高兴：&quot;模型能做这种事很酷。人们喜欢它。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：数学的目标不是论文，而是理解</h2>
+<p style="margin:0.8em 0">&quot;数学的目标不是产出数学论文，而是产出某种理解。&quot;Litt 说，&quot;如果最终那些理解存在于模型权重里——对我来说，那相当不满足。我做数学的动机，是满足我个人的好奇心。我认为每个人都应该有这个能力。&quot;</p>
+<p style="margin:0.8em 0">他有一个更私人的注脚：他女儿一岁半的时候，家里给了她一个正二十面体玩具——&quot;她很快就学会了柏拉图立体&quot;；他打算教她加减法时，&quot;在一般群的语境里教，至少给出动机，大多数人都会跳过那部分&quot;。</p>
+<p style="margin:0.8em 0">&quot;也许这就是数学研究生可以做的事：训练下一代更年轻的人，用 AI 服务于真正更好地学数学——而不是缺乏理解。&quot;</p>
+<p style="margin:0.8em 0">而他自己最担心的事，与能力无关：&quot;随着 AI 上升，我们没开发出合适的'人体工学'界面来鼓励自己继续当好的思考者。把思考交给模型太容易了——模型目前甚至做不了最高层的结构思考，但放弃思考依然极其容易。竞争性的语言可能不好听，但现实就是：你必须在模型上升的同时继续发展自己的思考设施，用它们去提升这些设施，而不是放弃它们。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的判断</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">解出问题 ≠ 理解问题</strong>：AI 擅长的是&quot;最后一英里&quot;和应用已知技术；真正让数学家改观的是 Erdős 单位距离问题——它引入了新领域的思想，事后还推动了其他猜想。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型的强弱项分明</strong>：强在长时间计算、跨领域汇集技术；弱在直觉、大局观、发展新理论、判断哪些问题值得问——而后者恰恰是数学家的日常。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">一个反直觉的案例</strong>：Litt 的一个引理所有模型都证不出来，他被迫自己算例子，结果找到了更好的陈述，模型随即证明——&quot;我们无法证明它，反而导致了结果的改进&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">八百页 AI 证明基本不可信</strong>：模型产出短而巧妙的东西，是因为那是我们能验证的；长而费力的输出既不可验证，也没有人类能检查——连&quot;模糊的大图景检查&quot;模型都还做不到。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">最危险的未来不是模型太强，而是&quot;一个数学家复制一千次&quot;</strong>：数学进步依赖百花齐放；如果探索被同质化的模型主导，新的多样直觉没有来源。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">即使模型全面超人，仍需要优秀数学家</strong>：最优不意味着会发生——把数学研究交给模型，没有任何理由相信它们会追求广泛多样的研究；选择权应该握在人类手里。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">slop 泛滥不全是坏事</strong>：大量人对数学产生兴奋本身就是积极信号；真正的威胁是激励结构——以及人类放弃思考的惰性。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-需求远未见顶-算力短缺将如何重塑全球产业-Gavin-Baker-2026-09-01.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f21c13069f40</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 需求远未见顶：算力短缺将如何重塑全球产业</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个夏天，一个问题，没有人答得上来</h2>
-<p style="margin:0.8em 0">Gavin Baker 这个夏天在西海岸来回奔波，见遍了 AI 行业最重要的操盘手。他见谁都会问同一个问题：&quot;你能不能给我一个你业务中正在恶化的量化指标？就一个。&quot;</p>
-<p style="margin:0.8em 0">七月的答案是&quot;没有&quot;，八月的答案还是&quot;没有&quot;。Anthropic 处于 IPO 静默期，可能稍微放慢了披露节奏，但其他人都在加速——OpenAI 在加速，开源模型加速得更厉害，Grok 在 Grok 发布之后出现了大幅加速。Gavin 的判断是：AI 整体在七月加速，八月也在加速。</p>
-<p style="margin:0.8em 0">&quot;它不可能永远这么一直加速下去，&quot;他在 a16z 播客里对主持人 David George 说，&quot;但过去两个月公开市场股票跌成那样，确实有点匪夷所思。这就好比就算一条河平均只有两英尺深，你走过去也一样会被淹死。&quot;</p>
+<p style="margin:0.8em 0">Gavin Baker 这个夏天在西海岸来回奔波，见遍了 AI 行业最重要的操盘手。他见谁都会问同一个问题："你能不能给我一个你业务中正在恶化的量化指标？就一个。"</p>
+<p style="margin:0.8em 0">七月的答案是"没有"，八月的答案还是"没有"。Anthropic 处于 IPO 静默期，可能稍微放慢了披露节奏，但其他人都在加速——OpenAI 在加速，开源模型加速得更厉害，Grok 在 Grok 发布之后出现了大幅加速。Gavin 的判断是：AI 整体在七月加速，八月也在加速。</p>
+<p style="margin:0.8em 0">"它不可能永远这么一直加速下去，"他在 a16z 播客里对主持人 David George 说，"但过去两个月公开市场股票跌成那样，确实有点匪夷所思。这就好比就算一条河平均只有两英尺深，你走过去也一样会被淹死。"</p>
 <p style="margin:0.8em 0">指数层面波动不大，但个别 AI 股票回撤相当深，八月反弹了一些，回撤依然很大。而与此同时，产业的基本面指标一个恶化的都没有。这是整场对话的起点：市场在定价某种减速，而一线数据完全相反。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">需求侧：三千万用户撑起一千八百亿营收，才刚刚起步</h2>
-<p style="margin:0.8em 0">先看现在的需求到底有多大。Gavin 估算，当前这些 AI 公司的总营收大约一千八百亿美元，支撑它的，是大概三千万真正重度付费、获得真实价值的用户——甚至可能不到一千万。他说自己看得很细：&quot;老牌银行在 token 上的花费可能只占人力成本的百分之一，非常前沿的科技公司会花到高个位数。但你再去看公司内部工程师之间的分布，花费最高的工程师比中位数工程师多花十倍，有时甚至一百倍。&quot;</p>
+<p style="margin:0.8em 0">先看现在的需求到底有多大。Gavin 估算，当前这些 AI 公司的总营收大约一千八百亿美元，支撑它的，是大概三千万真正重度付费、获得真实价值的用户——甚至可能不到一千万。他说自己看得很细："老牌银行在 token 上的花费可能只占人力成本的百分之一，非常前沿的科技公司会花到高个位数。但你再去看公司内部工程师之间的分布，花费最高的工程师比中位数工程师多花十倍，有时甚至一百倍。"</p>
 <p style="margin:0.8em 0">a16z 被投公司的数据同样悬殊：最好的公司每月 token 花费相当于人力薪酬的高个位数，有些 AI 原生的公司能到百分之十以上，传统经济里做得不错的，大约百分之一。</p>
 <p style="margin:0.8em 0">而全球有十五亿知识工作者。</p>
-<p style="margin:0.8em 0">&quot;感觉我们在需求侧才刚刚起步，而供给侧受到严重制约。&quot;Gavin 自己的公司 Atreides 就是样本：内部 token 消耗从三月到八月涨了一百倍。他们刚拿到 Grok 的企业版权限，就两个人用，看起来一个月内 token 花费还会再涨十到二十倍——&quot;而且这不是浪费 token，我们的重度用户用起来极其有成效&quot;。</p>
-<p style="margin:0.8em 0">他的个人体验是另一组数字：用 Claude Code 搭一个工具要花几个小时，用 Grok 七到十二秒，效果还更好。他把 AI 比作当年教父母用 iPhone——&quot;我都五十岁了，那些二十三岁的小年轻用 AI 的方式完全就是顺手拈来、原生原长的，我觉得可能不管我怎么努力，都永远达不到那个程度。&quot;</p>
+<p style="margin:0.8em 0">"感觉我们在需求侧才刚刚起步，而供给侧受到严重制约。"Gavin 自己的公司 Atreides 就是样本：内部 token 消耗从三月到八月涨了一百倍。他们刚拿到 Grok 的企业版权限，就两个人用，看起来一个月内 token 花费还会再涨十到二十倍——"而且这不是浪费 token，我们的重度用户用起来极其有成效"。</p>
+<p style="margin:0.8em 0">他的个人体验是另一组数字：用 Claude Code 搭一个工具要花几个小时，用 Grok 七到十二秒，效果还更好。他把 AI 比作当年教父母用 iPhone——"我都五十岁了，那些二十三岁的小年轻用 AI 的方式完全就是顺手拈来、原生原长的，我觉得可能不管我怎么努力，都永远达不到那个程度。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供给侧：回本周期不到一年，瓦特和焦耳才是瓶颈</h2>
 <p style="margin:0.8em 0">需求在暴增，供给端的账算下来却异常诱人。Gavin 反复强调一个数字：<strong style="font-weight:600">算力投资的回本周期已经压缩到一年以内</strong>。</p>
 <p style="margin:0.8em 0">Nebius 和 CoreWeave 都披露过相关数据：上线一吉瓦算力成本约五百亿美元，客户预付百分之五十到六十，剩下的放到现货市场变现，回本比九到十个月还快得多。SpaceX 因为建了超大规模集群、上线速度快，回本周期甚至更短。</p>
-<p style="margin:0.8em 0">&quot;在我的投资生涯里，真没有过多少这样的机会——公司投入几百亿、几千亿美元，却能在不到一年内回本。这挺疯狂的。&quot;</p>
+<p style="margin:0.8em 0">"在我的投资生涯里，真没有过多少这样的机会——公司投入几百亿、几千亿美元，却能在不到一年内回本。这挺疯狂的。"</p>
 <p style="margin:0.8em 0">资金成本还在不断降低。黑石、KKR、阿波罗这些机构在给算力项目提供融资，利率很低，因为芯片使用寿命在延长、模型越好每吉瓦变现率越高，真正的股权回本周期远不到一年。</p>
-<p style="margin:0.8em 0">但瓶颈是物理的。Gavin 和同事聊&quot;瓦特和焦耳&quot;——电力和能源——这才是根本约束。&quot;现在每个做铜的人都有一个 AI 逻辑。如果我们聊的这些有百分之十成真，我们现在已经处于严重的短缺中。现在是几百万人引发全球算力短缺，等变成五亿人的时候，我们得建多少铜矿来支撑这一切？&quot;</p>
-<p style="margin:0.8em 0">他对供需的判断和主流相反：&quot;到 2028 年，即便算上所有在建项目，也没有多余的容量可用，考虑到现在的政治动态，这些建设可能还会被推迟。大家都在担心供过于求，我其实更担心供不应求，极度供不应求。&quot;</p>
-<p style="margin:0.8em 0">如果严重短缺真的出现，token 价格可能大幅上涨——&quot;这和大家认为的发展方向完全相反&quot;。而短缺有一个讽刺的后果：那些主张缩减数据中心的人，最终会制造出真正的算力不平等，大公司和有钱人才能用得起算力。&quot;两年后他们又会拿这个做文章——'这其实是你们造成的，因为当初是你们不让我们建数据中心的。'&quot;</p>
+<p style="margin:0.8em 0">但瓶颈是物理的。Gavin 和同事聊"瓦特和焦耳"——电力和能源——这才是根本约束。"现在每个做铜的人都有一个 AI 逻辑。如果我们聊的这些有百分之十成真，我们现在已经处于严重的短缺中。现在是几百万人引发全球算力短缺，等变成五亿人的时候，我们得建多少铜矿来支撑这一切？"</p>
+<p style="margin:0.8em 0">他对供需的判断和主流相反："到 2028 年，即便算上所有在建项目，也没有多余的容量可用，考虑到现在的政治动态，这些建设可能还会被推迟。大家都在担心供过于求，我其实更担心供不应求，极度供不应求。"</p>
+<p style="margin:0.8em 0">如果严重短缺真的出现，token 价格可能大幅上涨——"这和大家认为的发展方向完全相反"。而短缺有一个讽刺的后果：那些主张缩减数据中心的人，最终会制造出真正的算力不平等，大公司和有钱人才能用得起算力。"两年后他们又会拿这个做文章——'这其实是你们造成的，因为当初是你们不让我们建数据中心的。'"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">正和博弈：不是零和，是兼得</h2>
 <p style="margin:0.8em 0">市场上流行的叙事是非此即彼：开源会杀死前沿实验室，或者前沿模型会垄断一切。Gavin 认为这全是错的。</p>
-<p style="margin:0.8em 0">&quot;这不是单选题，这是个兼得的事情。前沿模型会发展得非常好，N 减一代模型会发展得非常好，开源也会发展得非常好，会有一大批应用层公司发展得非常好，云厂商大概也没问题，那五家实验室公司大概也会做得非常好。而英伟达就处在这一切的核心。&quot;</p>
-<p style="margin:0.8em 0">他和 LP 的每一次对话都以&quot;这事儿到底会怎么搞砸&quot;开头——大模型实验室会因为开源而完蛋吗？他的回答是：过去二十六年给我的教训就是，不要做空黄仁勋。</p>
-<p style="margin:0.8em 0">一个被很多人误解的事实：开源 token 并不是免费的，它消耗完全一样的算力。&quot;在其他条件相同的情况下，同等规模的模型生成一个开源 token 和生成一个前沿模型 token，所需算力是一样的，问题只在于上面加了多少利润率。&quot;他甚至举了一个反直觉的例子：Kimi 的许可证规定抽取百分之三十的收入分成，因为它是开放权重而不是开源——但就算这样，用它的任务级效率更低，成本非常高。</p>
-<p style="margin:0.8em 0">泡沫呢？Gavin 承认每一次真正深刻的新技术都会带来泡沫——南海泡沫、铁路、汽车、电视、收音机、互联网、个人电脑，无一例外。&quot;市场变得极度兴奋，东西被估值过高，这种高估导致过度建设。&quot;但这一次有一个关键区别：&quot;这里面的大部分依然是用经营现金流在支撑，而不是债务。靠借债驱动的建设要求立竿见影的投资回报，时间点上容不得偏差。&quot;</p>
+<p style="margin:0.8em 0">"这不是单选题，这是个兼得的事情。前沿模型会发展得非常好，N 减一代模型会发展得非常好，开源也会发展得非常好，会有一大批应用层公司发展得非常好，云厂商大概也没问题，那五家实验室公司大概也会做得非常好。而英伟达就处在这一切的核心。"</p>
+<p style="margin:0.8em 0">他和 LP 的每一次对话都以"这事儿到底会怎么搞砸"开头——大模型实验室会因为开源而完蛋吗？他的回答是：过去二十六年给我的教训就是，不要做空黄仁勋。</p>
+<p style="margin:0.8em 0">一个被很多人误解的事实：开源 token 并不是免费的，它消耗完全一样的算力。"在其他条件相同的情况下，同等规模的模型生成一个开源 token 和生成一个前沿模型 token，所需算力是一样的，问题只在于上面加了多少利润率。"他甚至举了一个反直觉的例子：Kimi 的许可证规定抽取百分之三十的收入分成，因为它是开放权重而不是开源——但就算这样，用它的任务级效率更低，成本非常高。</p>
+<p style="margin:0.8em 0">泡沫呢？Gavin 承认每一次真正深刻的新技术都会带来泡沫——南海泡沫、铁路、汽车、电视、收音机、互联网、个人电脑，无一例外。"市场变得极度兴奋，东西被估值过高，这种高估导致过度建设。"但这一次有一个关键区别："这里面的大部分依然是用经营现金流在支撑，而不是债务。靠借债驱动的建设要求立竿见影的投资回报，时间点上容不得偏差。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">英伟达：AI 的美联储，与九款芯片的战争</h2>
 <p style="margin:0.8em 0">Gavin 对英伟达的看法几乎是宗教性的，但每一层都有数字支撑。</p>
-<p style="margin:0.8em 0">供应端：英伟达锁定了全球百分之七十到八十的算力供应，锁定了台积电产能、DRAM 产能、HBM、激光器、电容器——&quot;它掌握了制造机架所需的一切&quot;。黄仁勋十五年前说&quot;我每两年下二三十亿美元的赌注，动作非常快&quot;，现在他下的是数千亿美元的赌注，拉着整条供应链跟他一起走，把融资渠道也标准化了——&quot;黑石、KKR、阿波罗、高盛、摩根士丹利、摩根大通那些极其聪明的人，很容易就能给英伟达的数据中心提供融资&quot;。</p>
-<p style="margin:0.8em 0">资本成本是最大的护城河：&quot;英伟达的数据中心，你只需要开一张一百五十亿美元的股权支票，剩下三百五十亿可以做债权融资，还有残值担保。只要残值担保金额少于他把芯片卖进数据中心赚到的毛利，对他来说就是极高的正 NPV，风险很小，还能拿营收分成。TPU 可能是第二容易融资的，但至少需要两倍的股权出资，利率也更高。&quot;</p>
-<p style="margin:0.8em 0">他给半导体公司的建议只有一句：&quot;你唯一该说的话就是：谢谢你，黄仁勋，谢谢你创造了这个机会。每百分之一的份额现在就值一千亿，没必要和他硬碰硬，找个细分领域拿下你的百分之一，确保那块饼非常大。&quot;</p>
-<p style="margin:0.8em 0">英伟达有九款芯片——多种加速芯片、CPU、以太网交换机、两种 GPU。最聪明的自研 ASIC 团队也只是赢下了其中一款的竞争。&quot;这就像扯超人的披风：你变得自信，开始说点垃圾话，超人呢，有时候就直接飞走了。TPU 团队当年的遭遇就是这样。&quot;他提到最近某家大厂的自研 ASIC 让他刮目相看，是他见过的除 TPU 和 Trainium 之外第一个像样的大厂芯片，花的时间也短——&quot;但它也只是能和英伟达九款芯片里的其中一款竞争。要在系统层面上真正竞争，你得再做另外八款芯片。&quot;</p>
-<p style="margin:0.8em 0">硅谷研究机构 Simon Analytics 的 Dylan 有个说法：英伟达是 AI 的银行、AI 的中央银行、AI 的美联储。Gavin 深以为然，并由此解释马斯克的决定：&quot;马斯克没有选择去和一个对手竞争，而是选择和一个利益完全一致的人合作——历史会证明那是个明智的决定。&quot;</p>
+<p style="margin:0.8em 0">供应端：英伟达锁定了全球百分之七十到八十的算力供应，锁定了台积电产能、DRAM 产能、HBM、激光器、电容器——"它掌握了制造机架所需的一切"。黄仁勋十五年前说"我每两年下二三十亿美元的赌注，动作非常快"，现在他下的是数千亿美元的赌注，拉着整条供应链跟他一起走，把融资渠道也标准化了——"黑石、KKR、阿波罗、高盛、摩根士丹利、摩根大通那些极其聪明的人，很容易就能给英伟达的数据中心提供融资"。</p>
+<p style="margin:0.8em 0">资本成本是最大的护城河："英伟达的数据中心，你只需要开一张一百五十亿美元的股权支票，剩下三百五十亿可以做债权融资，还有残值担保。只要残值担保金额少于他把芯片卖进数据中心赚到的毛利，对他来说就是极高的正 NPV，风险很小，还能拿营收分成。TPU 可能是第二容易融资的，但至少需要两倍的股权出资，利率也更高。"</p>
+<p style="margin:0.8em 0">他给半导体公司的建议只有一句："你唯一该说的话就是：谢谢你，黄仁勋，谢谢你创造了这个机会。每百分之一的份额现在就值一千亿，没必要和他硬碰硬，找个细分领域拿下你的百分之一，确保那块饼非常大。"</p>
+<p style="margin:0.8em 0">英伟达有九款芯片——多种加速芯片、CPU、以太网交换机、两种 GPU。最聪明的自研 ASIC 团队也只是赢下了其中一款的竞争。"这就像扯超人的披风：你变得自信，开始说点垃圾话，超人呢，有时候就直接飞走了。TPU 团队当年的遭遇就是这样。"他提到最近某家大厂的自研 ASIC 让他刮目相看，是他见过的除 TPU 和 Trainium 之外第一个像样的大厂芯片，花的时间也短——"但它也只是能和英伟达九款芯片里的其中一款竞争。要在系统层面上真正竞争，你得再做另外八款芯片。"</p>
+<p style="margin:0.8em 0">硅谷研究机构 Simon Analytics 的 Dylan 有个说法：英伟达是 AI 的银行、AI 的中央银行、AI 的美联储。Gavin 深以为然，并由此解释马斯克的决定："马斯克没有选择去和一个对手竞争，而是选择和一个利益完全一致的人合作——历史会证明那是个明智的决定。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从交易结构看真实偏好：供应链受限时，客户什么都买</h2>
-<p style="margin:0.8em 0">在一个供应受限的世界里，很难看出客户的真实偏好——&quot;只要你做出来，他们什么都要，连老旧的 H100 二手价格都高得离谱&quot;。Gavin 的方法是看交易类型：</p>
-<p style="margin:0.8em 0">第一种是芯片公司直接投资客户——谷歌和亚马逊对 Anthropic 就是这么做的，&quot;这给他们的业务带来巨大优势，也帮芯片升级了，因为芯片总得被用起来，只要投的钱少于毛利就不会亏钱&quot;。</p>
+<p style="margin:0.8em 0">在一个供应受限的世界里，很难看出客户的真实偏好——"只要你做出来，他们什么都要，连老旧的 H100 二手价格都高得离谱"。Gavin 的方法是看交易类型：</p>
+<p style="margin:0.8em 0">第一种是芯片公司直接投资客户——谷歌和亚马逊对 Anthropic 就是这么做的，"这给他们的业务带来巨大优势，也帮芯片升级了，因为芯片总得被用起来，只要投的钱少于毛利就不会亏钱"。</p>
 <p style="margin:0.8em 0">第二种是残值担保融资，黑石、阿波罗、KKR、高盛出钱，只要担保额少于毛利就是好生意，还能拿分成。</p>
-<p style="margin:0.8em 0">第三种是赠送与每百万 token 固定价格挂钩的认股权证——&quot;只要你芯片的性能跑赢了股票的表现，你就表现不错；如果你只是白送认股权证，NPV 可能是负的，因为股价表现越好，对方补货的价值就越多。&quot;</p>
-<p style="margin:0.8em 0">黄仁勋做残值担保，还有一个战略动机：如果他不这么做，世界会被 Anthropic 和 OpenAI 主导——它们能为算力出最高的价。残值担保让其他人也有机会拿到算力，&quot;就像他一开始扶持新型云厂商一样。这是让算力普及化，对世界有好处&quot;。</p>
+<p style="margin:0.8em 0">第三种是赠送与每百万 token 固定价格挂钩的认股权证——"只要你芯片的性能跑赢了股票的表现，你就表现不错；如果你只是白送认股权证，NPV 可能是负的，因为股价表现越好，对方补货的价值就越多。"</p>
+<p style="margin:0.8em 0">黄仁勋做残值担保，还有一个战略动机：如果他不这么做，世界会被 Anthropic 和 OpenAI 主导——它们能为算力出最高的价。残值担保让其他人也有机会拿到算力，"就像他一开始扶持新型云厂商一样。这是让算力普及化，对世界有好处"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">轨道数据中心：一架飞机大小的机架，二〇二八年见</h2>
-<p style="margin:0.8em 0">整场对话最&quot;科幻&quot;的部分，Gavin 讲得异常具体。</p>
-<p style="margin:0.8em 0">先破除想象：&quot;轨道数据中心不是太空里的巨型大楼，不是死星，也不是飘在太空里的五角大楼。它就是一架飞机的大小——一个放了七十二块芯片的机架，大概相当于五个人站在一起那么大。飞机那部分像机翼，配上太阳能板，让它保持在太阳同步轨道上，散热器一直处在机架的阴影里，这就是散热方式。&quot;</p>
-<p style="margin:0.8em 0">账是这样算的：每吉瓦算力五百亿美元，其中三百五十亿是 IT 设备（送上太空还会稍微涨一点），剩下的一百五十亿是电力、冷却、人工——而在太空中这些全都不需要。更关键的是，地球上那一百五十亿在通胀：电工薪酬、原材料、铜、光学器件全在涨。要对比的只有发射成本：有了星舰的可复用性，发射成本能降到十亿以下，&quot;经济模型瞬间就反转了&quot;。</p>
-<p style="margin:0.8em 0">马斯克说过，他和黄仁勋共同设计了一款 Rubin 机架，计划在 2027 年第四季度发射——就算延期两个季度，也就是 2028 年。&quot;退一步说那也已经很快了。根本没人真正关注这件事，而它就这么明晃晃地发生着。&quot;</p>
-<p style="margin:0.8em 0">训练必须留在地球上——&quot;GPU 紧挨在一起有优势，光速限制是客观存在的，延迟很重要，地球上的数据中心不会消失&quot;。但全球算力中越来越大的比例会上轨道。Gavin 对星舰复用极其乐观：&quot;每个发射台一天发射两次，他们设计的发射台能力还不止这个数——一年几千次发射的能力，这感觉非常科幻。&quot;</p>
-<p style="margin:0.8em 0">甚至有人质疑物理可行性时，他的反驳是：&quot;我有个天体物理学博士的投资人朋友，说他绝对不可能做到。后来他去了 SpaceX 开放日，跟工程师聊完回来说：是我错了。哪怕你是博士，智商比我高一百分，但这个问题你想过一个小时吗？想过十个小时吗？SpaceX 有一万名全世界最顶尖的工程师，每个人都琢磨了成百上千个小时，这在他们眼里是已经解决掉的问题，比星链卫星还简单。&quot;</p>
+<p style="margin:0.8em 0">整场对话最"科幻"的部分，Gavin 讲得异常具体。</p>
+<p style="margin:0.8em 0">先破除想象："轨道数据中心不是太空里的巨型大楼，不是死星，也不是飘在太空里的五角大楼。它就是一架飞机的大小——一个放了七十二块芯片的机架，大概相当于五个人站在一起那么大。飞机那部分像机翼，配上太阳能板，让它保持在太阳同步轨道上，散热器一直处在机架的阴影里，这就是散热方式。"</p>
+<p style="margin:0.8em 0">账是这样算的：每吉瓦算力五百亿美元，其中三百五十亿是 IT 设备（送上太空还会稍微涨一点），剩下的一百五十亿是电力、冷却、人工——而在太空中这些全都不需要。更关键的是，地球上那一百五十亿在通胀：电工薪酬、原材料、铜、光学器件全在涨。要对比的只有发射成本：有了星舰的可复用性，发射成本能降到十亿以下，"经济模型瞬间就反转了"。</p>
+<p style="margin:0.8em 0">马斯克说过，他和黄仁勋共同设计了一款 Rubin 机架，计划在 2027 年第四季度发射——就算延期两个季度，也就是 2028 年。"退一步说那也已经很快了。根本没人真正关注这件事，而它就这么明晃晃地发生着。"</p>
+<p style="margin:0.8em 0">训练必须留在地球上——"GPU 紧挨在一起有优势，光速限制是客观存在的，延迟很重要，地球上的数据中心不会消失"。但全球算力中越来越大的比例会上轨道。Gavin 对星舰复用极其乐观："每个发射台一天发射两次，他们设计的发射台能力还不止这个数——一年几千次发射的能力，这感觉非常科幻。"</p>
+<p style="margin:0.8em 0">甚至有人质疑物理可行性时，他的反驳是："我有个天体物理学博士的投资人朋友，说他绝对不可能做到。后来他去了 SpaceX 开放日，跟工程师聊完回来说：是我错了。哪怕你是博士，智商比我高一百分，但这个问题你想过一个小时吗？想过十个小时吗？SpaceX 有一万名全世界最顶尖的工程师，每个人都琢磨了成百上千个小时，这在他们眼里是已经解决掉的问题，比星链卫星还简单。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数据中心的另一面：美国工薪阶层经历过的最好的事</h2>
-<p style="margin:0.8em 0">Gavin 对反数据中心运动的态度近乎愤怒：&quot;你反对建数据中心，但你知道吗？这可能是美国工薪阶层经历过的最好的事了。&quot;</p>
-<p style="margin:0.8em 0">他举了两个例子。弗吉尼亚州劳登县——全美人均收入最高的县，数据中心密度也是全美最高，当地从数据中心获得巨额税收。&quot;一个极力反对数据中心的人说'我倒想看看把数据中心建在收入最高的县会怎样'，然后有人说：其实全美收入最高的县，人均数据中心集中度就是最高的。我们已经这么做了，而且效果非常好。对方就说：别拿细节来烦我。&quot;</p>
-<p style="margin:0.8em 0">教育层面也在反转：&quot;现在读大学的 NPV 可能明显是负的。你去做电工、水管工、暖通空调技工，就能赚大把大把的钱。&quot;数据中心落地一个小镇，税收不是翻一倍，而是能涨到十倍——&quot;所有这些快要衰退的小镇正在重新焕发生机&quot;。加上美国天然气价格两到三美元、欧洲亚洲二十五美元的价差，霍尔木兹海峡的封锁反而让美国在制造的基本投入上获得巨大成本优势：&quot;我们正在让美国重新工业化，这是两党所有人都想要的——把工业带回来。&quot;</p>
-<p style="margin:0.8em 0">但他认为 AI 行业讲故事的能力糟糕透顶。&quot;唯一能讲出 AI 行业真相的人，唯一的群体就是 AI 行业本身。&quot;他推崇 Meta 的模式：谢丽尔·桑德伯格在财报电话会上逐一列举具体的小企业故事——德梅因的蛋糕烘焙坊，两位单亲妈妈，现在十五家分店、五十个员工。&quot;我很想看 SpaceX、Anthropic、OpenAI、谷歌、Meta 都站出来说：这些是真实的企业，真实的美国人，这对他们的生活产生了非常积极的影响。&quot;</p>
-<p style="margin:0.8em 0">&quot;真理必叫你们得以自由——但前提是你得把它说出来。&quot;</p>
+<p style="margin:0.8em 0">Gavin 对反数据中心运动的态度近乎愤怒："你反对建数据中心，但你知道吗？这可能是美国工薪阶层经历过的最好的事了。"</p>
+<p style="margin:0.8em 0">他举了两个例子。弗吉尼亚州劳登县——全美人均收入最高的县，数据中心密度也是全美最高，当地从数据中心获得巨额税收。"一个极力反对数据中心的人说'我倒想看看把数据中心建在收入最高的县会怎样'，然后有人说：其实全美收入最高的县，人均数据中心集中度就是最高的。我们已经这么做了，而且效果非常好。对方就说：别拿细节来烦我。"</p>
+<p style="margin:0.8em 0">教育层面也在反转："现在读大学的 NPV 可能明显是负的。你去做电工、水管工、暖通空调技工，就能赚大把大把的钱。"数据中心落地一个小镇，税收不是翻一倍，而是能涨到十倍——"所有这些快要衰退的小镇正在重新焕发生机"。加上美国天然气价格两到三美元、欧洲亚洲二十五美元的价差，霍尔木兹海峡的封锁反而让美国在制造的基本投入上获得巨大成本优势："我们正在让美国重新工业化，这是两党所有人都想要的——把工业带回来。"</p>
+<p style="margin:0.8em 0">但他认为 AI 行业讲故事的能力糟糕透顶。"唯一能讲出 AI 行业真相的人，唯一的群体就是 AI 行业本身。"他推崇 Meta 的模式：谢丽尔·桑德伯格在财报电话会上逐一列举具体的小企业故事——德梅因的蛋糕烘焙坊，两位单亲妈妈，现在十五家分店、五十个员工。"我很想看 SpaceX、Anthropic、OpenAI、谷歌、Meta 都站出来说：这些是真实的企业，真实的美国人，这对他们的生活产生了非常积极的影响。"</p>
+<p style="margin:0.8em 0">"真理必叫你们得以自由——但前提是你得把它说出来。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能的抽象层：商业史上竞争最激烈的位置</h2>
-<p style="margin:0.8em 0">对话的最后部分，Gavin 把目光投向应用层：谁会成为&quot;全球企业的智能仲裁者&quot;——那个面向组织和用户的抽象层。</p>
-<p style="margin:0.8em 0">他看好微软的多模型组合策略：&quot;萨提亚十八个月前说'我们会有非常有竞争力的自研模型'，他们没做出来。但未来的方向是模型组合：没有任何一个模型能在所有方面做到最好。全球前一千大企业未来的做法，可能是直接用最好的开源模型——也许很快那个最好的开源模型就是英伟达的。&quot;</p>
-<p style="margin:0.8em 0">关键逻辑是数据主权：&quot;你拿一个能力很强的开源模型，用自己的数据做大量的强化学习和监督微调，你就拥有了它——它是属于你自己的模型。如果智能是你业务里极其重要的投入项，你会希望拥有并掌控自己的智能、它的能力和它的成本。&quot;零数据保留政策改变之后，把企业上下文共享给前沿实验室，可能危及财务健康。</p>
-<p style="margin:0.8em 0">Fireworks 的 Nexus 产品就是这个思路：客户可以挑选前沿模型，用强化学习针对自己的数据训练——高盛、摩根士丹利、摩根大通、富达各有各的模型，数据完全自持，&quot;你掌控自己的智能，路由器让这一切无缝运行&quot;。</p>
-<p style="margin:0.8em 0">竞争激烈到什么程度？&quot;Kirkland &amp; Ellis 说我们要花五亿美元自己造这个。祝他们好运，这非常难——那是一个必须不断更新基础模型、一切都要无感进行的系统。但这件事本身说明蛋糕真的很大。&quot;Harvey 在法律领域做得极好——法律文档记录完备、一定程度上可验证——税务领域也会出现类似的东西。而微软、Databricks、Snowflake、Salesforce 全都会挤进来。&quot;最后就看谁的执行力最强、谁的成本最低。&quot;</p>
-<p style="margin:0.8em 0">Gavin 用零售打了个比方：&quot;大家都觉得开大连锁店很容易。你只需要在五十个气候和消费者偏好截然不同的州开出一千家店，在合适的时间以合适的价格备好合适的商品，店里配上态度友好、业务懂行、不偷东西的员工——哪怕年离职率百分之一百——然后五百亿美元就到手了。在整个美国商业史上，能做到的公司一只手数得过来。把那个抽象层做出来、跑通、无缝衔接，比大家想象的要难得多。&quot;</p>
-<p style="margin:0.8em 0">而所有做 Agent 的公司——Cursor、Cognition、Harvey——&quot;在内心深处都想成为服务所有人的那个抽象层&quot;。</p>
+<p style="margin:0.8em 0">对话的最后部分，Gavin 把目光投向应用层：谁会成为"全球企业的智能仲裁者"——那个面向组织和用户的抽象层。</p>
+<p style="margin:0.8em 0">他看好微软的多模型组合策略："萨提亚十八个月前说'我们会有非常有竞争力的自研模型'，他们没做出来。但未来的方向是模型组合：没有任何一个模型能在所有方面做到最好。全球前一千大企业未来的做法，可能是直接用最好的开源模型——也许很快那个最好的开源模型就是英伟达的。"</p>
+<p style="margin:0.8em 0">关键逻辑是数据主权："你拿一个能力很强的开源模型，用自己的数据做大量的强化学习和监督微调，你就拥有了它——它是属于你自己的模型。如果智能是你业务里极其重要的投入项，你会希望拥有并掌控自己的智能、它的能力和它的成本。"零数据保留政策改变之后，把企业上下文共享给前沿实验室，可能危及财务健康。</p>
+<p style="margin:0.8em 0">Fireworks 的 Nexus 产品就是这个思路：客户可以挑选前沿模型，用强化学习针对自己的数据训练——高盛、摩根士丹利、摩根大通、富达各有各的模型，数据完全自持，"你掌控自己的智能，路由器让这一切无缝运行"。</p>
+<p style="margin:0.8em 0">竞争激烈到什么程度？"Kirkland &amp; Ellis 说我们要花五亿美元自己造这个。祝他们好运，这非常难——那是一个必须不断更新基础模型、一切都要无感进行的系统。但这件事本身说明蛋糕真的很大。"Harvey 在法律领域做得极好——法律文档记录完备、一定程度上可验证——税务领域也会出现类似的东西。而微软、Databricks、Snowflake、Salesforce 全都会挤进来。"最后就看谁的执行力最强、谁的成本最低。"</p>
+<p style="margin:0.8em 0">Gavin 用零售打了个比方："大家都觉得开大连锁店很容易。你只需要在五十个气候和消费者偏好截然不同的州开出一千家店，在合适的时间以合适的价格备好合适的商品，店里配上态度友好、业务懂行、不偷东西的员工——哪怕年离职率百分之一百——然后五百亿美元就到手了。在整个美国商业史上，能做到的公司一只手数得过来。把那个抽象层做出来、跑通、无缝衔接，比大家想象的要难得多。"</p>
+<p style="margin:0.8em 0">而所有做 Agent 的公司——Cursor、Cognition、Harvey——"在内心深处都想成为服务所有人的那个抽象层"。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：二十一世纪，属于马斯克和黄仁勋</h2>
-<p style="margin:0.8em 0">&quot;当二十一世纪的历史被书写时，就像过去有维多利亚时代一样，我觉得这会是属于马斯克和黄仁勋的时代——他们正在从根本上改变人类社会和文明的结构。&quot;Gavin 说这话的时候语气很平静，像一个陈述事实的人。</p>
-<p style="margin:0.8em 0">&quot;黄仁勋是个伟大的爱国者，伟大的美国人。我们能有他和马斯克真的很幸运。&quot;星链让世界上最贫困的社区用上低成本互联网——&quot;以前在经济上根本说不通，现在可以了，而且未来的任何新增互联网容量都不会再按传统方式去建，而是会来自太空&quot;。</p>
-<p style="margin:0.8em 0">至于更远的未来，他提到小行星 Psyche：&quot;它所含的金、银、铂以及各种贵金属比地壳里存在的还要多。有了星舰，你将能够捕获它，带回地球同步轨道，用 Optimus 机器人干活，运送回地球几乎免费。&quot;还有贝索斯那句十五年前的话：&quot;未来地球将被划分为纯居住区，所有重工业都在外太空进行。&quot;</p>
-<p style="margin:0.8em 0">以及那个他描述得极具画面感的场景：未来几年——往宽了算八年——会有一支星舰机队降落在火星，改装版的火星殖民运输船伸出坡道，Optimus 机器人拿着美国国旗走下来，搬出太阳能电池板、电池、一机架一机架的算力设备，一路部署星链，传回 4K 视频——&quot;然后就会有人类上去了&quot;。</p>
-<p style="margin:0.8em 0">&quot;想想当年的登月，这个场面还要更大一些。&quot;</p>
+<p style="margin:0.8em 0">"当二十一世纪的历史被书写时，就像过去有维多利亚时代一样，我觉得这会是属于马斯克和黄仁勋的时代——他们正在从根本上改变人类社会和文明的结构。"Gavin 说这话的时候语气很平静，像一个陈述事实的人。</p>
+<p style="margin:0.8em 0">"黄仁勋是个伟大的爱国者，伟大的美国人。我们能有他和马斯克真的很幸运。"星链让世界上最贫困的社区用上低成本互联网——"以前在经济上根本说不通，现在可以了，而且未来的任何新增互联网容量都不会再按传统方式去建，而是会来自太空"。</p>
+<p style="margin:0.8em 0">至于更远的未来，他提到小行星 Psyche："它所含的金、银、铂以及各种贵金属比地壳里存在的还要多。有了星舰，你将能够捕获它，带回地球同步轨道，用 Optimus 机器人干活，运送回地球几乎免费。"还有贝索斯那句十五年前的话："未来地球将被划分为纯居住区，所有重工业都在外太空进行。"</p>
+<p style="margin:0.8em 0">以及那个他描述得极具画面感的场景：未来几年——往宽了算八年——会有一支星舰机队降落在火星，改装版的火星殖民运输船伸出坡道，Optimus 机器人拿着美国国旗走下来，搬出太阳能电池板、电池、一机架一机架的算力设备，一路部署星链，传回 4K 视频——"然后就会有人类上去了"。</p>
+<p style="margin:0.8em 0">"想想当年的登月，这个场面还要更大一些。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的判断</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">需求远未见顶</strong>：约 1800 亿营收只靠不到 3000 万重度用户支撑，而全球有 15 亿知识工作者；内部 token 消耗三月到八月涨了 100 倍。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">供给侧极度受限</strong>：算力回本周期已不到一年，但到 2028 年即便算上所有在建项目也没有多余容量；真正的瓶颈是电力和能源，不是芯片。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">这是正和博弈</strong>：前沿实验室、开源、云厂商、应用层、英伟达可以同时赢；&quot;过去二十六年的教训：不要做空黄仁勋&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">这是正和博弈</strong>：前沿实验室、开源、云厂商、应用层、英伟达可以同时赢；"过去二十六年的教训：不要做空黄仁勋"。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">英伟达是 AI 的美联储</strong>：锁定 70-80% 供应，每 1% 份额值 1000 亿，数据中心是最容易融资的资产；自研 ASIC 最多只能赢它九款芯片里的一款。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">轨道算力不是幻想</strong>：每吉瓦 500 亿的账本里，150 亿的地面成本在太空为零，星舰复用让发射成本降到 10 亿以下；Rubin 机架 2027Q4 发射，训练留地球、推理上轨道。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">反数据中心 = 制造算力不平等</strong>：短缺的最大赢家是大公司和有钱人，两年后买单的是所有人；数据中心正在让美国小镇税收翻十倍。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">下一场大战是&quot;智能抽象层&quot;</strong>：谁能成为企业和消费者的智能仲裁者——微软、英伟达开源模型、Fireworks、Harvey、Cognition 都在争夺，这比所有人想象的难。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">下一场大战是"智能抽象层"</strong>：谁能成为企业和消费者的智能仲裁者——微软、英伟达开源模型、Fireworks、Harvey、Cognition 都在争夺，这比所有人想象的难。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：</strong> a16z 对话 Gavin Baker——为什么 AI 是正和市场、为什么真正的风险是供给不足、以及轨道数据中心如何改写算力经济学</p>
@@ -15223,7 +15286,8 @@ RO初心服回榜#61</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-01.html</link><guid isPermaLink="false">report:播客信号:2026-09-01:d2ccb49c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-01</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-01.html</link><guid isPermaLink="false">report:播客信号:2026-09-01:d2ccb49c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-01</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-01</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15488,7 +15552,8 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><em>报告生成: 2026-09-01 | 管线: RSS→ASR 本地 pipeline (transcript_adapter.py v0.5) | 完整性检查: 通过（无同尺寸污染）</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-01.html</link><guid isPermaLink="false">report:AI动态:2026-09-01:0acc030c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-01</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-01.html</link><guid isPermaLink="false">report:AI动态:2026-09-01:0acc030c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-01</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/01</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15530,7 +15595,8 @@ RO初心服回榜#61</li>
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-01.html</link><guid isPermaLink="false">report:雪球动态:2026-09-01:72632d6c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-01</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-01.html</link><guid isPermaLink="false">report:雪球动态:2026-09-01:72632d6c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-01</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-01 22:05</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15959,7 +16025,8 @@ RO初心服回榜#61</li>
 </ul>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-01.html</link><guid isPermaLink="false">report:心动日报:2026-09-01:a35bea4a</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-01</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-01.html</link><guid isPermaLink="false">report:心动日报:2026-09-01:a35bea4a</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-01</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-01（周二）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -16407,83 +16474,65 @@ RO守护永恒的爱2（预约榜，8-31
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[跨国串门儿计划] AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-需求远未见顶-算力短缺将如何重塑全球产业-Gavin-Baker-2026-09-01.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f21c13069f40</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 需求远未见顶：算力短缺将如何重塑全球产业（Gavin Baker）</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 需求远未见顶：算力短缺将如何重塑全球产业</h1>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个夏天，一个问题，没有人答得上来</h2>
-<p style="margin:0.8em 0">Gavin Baker 这个夏天在西海岸来回奔波，见遍了 AI 行业最重要的操盘手。他见谁都会问同一个问题：&quot;你能不能给我一个你业务中正在恶化的量化指标？就一个。&quot;</p>
-<p style="margin:0.8em 0">七月的答案是&quot;没有&quot;，八月的答案还是&quot;没有&quot;。Anthropic 处于 IPO 静默期，可能稍微放慢了披露节奏，但其他人都在加速——OpenAI 在加速，开源模型加速得更厉害，Grok 在 Grok 发布之后出现了大幅加速。Gavin 的判断是：AI 整体在七月加速，八月也在加速。</p>
-<p style="margin:0.8em 0">&quot;它不可能永远这么一直加速下去，&quot;他在 a16z 播客里对主持人 David George 说，&quot;但过去两个月公开市场股票跌成那样，确实有点匪夷所思。这就好比就算一条河平均只有两英尺深，你走过去也一样会被淹死。&quot;</p>
-<p style="margin:0.8em 0">指数层面波动不大，但个别 AI 股票回撤相当深，八月反弹了一些，回撤依然很大。而与此同时，产业的基本面指标一个恶化的都没有。这是整场对话的起点：市场在定价某种减速，而一线数据完全相反。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">需求侧：三千万用户撑起一千八百亿营收，才刚刚起步</h2>
-<p style="margin:0.8em 0">先看现在的需求到底有多大。Gavin 估算，当前这些 AI 公司的总营收大约一千八百亿美元，支撑它的，是大概三千万真正重度付费、获得真实价值的用户——甚至可能不到一千万。他说自己看得很细：&quot;老牌银行在 token 上的花费可能只占人力成本的百分之一，非常前沿的科技公司会花到高个位数。但你再去看公司内部工程师之间的分布，花费最高的工程师比中位数工程师多花十倍，有时甚至一百倍。&quot;</p>
-<p style="margin:0.8em 0">a16z 被投公司的数据同样悬殊：最好的公司每月 token 花费相当于人力薪酬的高个位数，有些 AI 原生的公司能到百分之十以上，传统经济里做得不错的，大约百分之一。</p>
-<p style="margin:0.8em 0">而全球有十五亿知识工作者。</p>
-<p style="margin:0.8em 0">&quot;感觉我们在需求侧才刚刚起步，而供给侧受到严重制约。&quot;Gavin 自己的公司 Atreides 就是样本：内部 token 消耗从三月到八月涨了一百倍。他们刚拿到 Grok 的企业版权限，就两个人用，看起来一个月内 token 花费还会再涨十到二十倍——&quot;而且这不是浪费 token，我们的重度用户用起来极其有成效&quot;。</p>
-<p style="margin:0.8em 0">他的个人体验是另一组数字：用 Claude Code 搭一个工具要花几个小时，用 Grok 七到十二秒，效果还更好。他把 AI 比作当年教父母用 iPhone——&quot;我都五十岁了，那些二十三岁的小年轻用 AI 的方式完全就是顺手拈来、原生原长的，我觉得可能不管我怎么努力，都永远达不到那个程度。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">供给侧：回本周期不到一年，瓦特和焦耳才是瓶颈</h2>
-<p style="margin:0.8em 0">需求在暴增，供给端的账算下来却异常诱人。Gavin 反复强调一个数字：<strong style="font-weight:600">算力投资的回本周期已经压缩到一年以内</strong>。</p>
-<p style="margin:0.8em 0">Nebius 和 CoreWeave 都披露过相关数据：上线一吉瓦算力成本约五百亿美元，客户预付百分之五十到六十，剩下的放到现货市场变现，回本比九到十个月还快得多。SpaceX 因为建了超大规模集群、上线速度快，回本周期甚至更短。</p>
-<p style="margin:0.8em 0">&quot;在我的投资生涯里，真没有过多少这样的机会——公司投入几百亿、几千亿美元，却能在不到一年内回本。这挺疯狂的。&quot;</p>
-<p style="margin:0.8em 0">资金成本还在不断降低。黑石、KKR、阿波罗这些机构在给算力项目提供融资，利率很低，因为芯片使用寿命在延长、模型越好每吉瓦变现率越高，真正的股权回本周期远不到一年。</p>
-<p style="margin:0.8em 0">但瓶颈是物理的。Gavin 和同事聊&quot;瓦特和焦耳&quot;——电力和能源——这才是根本约束。&quot;现在每个做铜的人都有一个 AI 逻辑。如果我们聊的这些有百分之十成真，我们现在已经处于严重的短缺中。现在是几百万人引发全球算力短缺，等变成五亿人的时候，我们得建多少铜矿来支撑这一切？&quot;</p>
-<p style="margin:0.8em 0">他对供需的判断和主流相反：&quot;到 2028 年，即便算上所有在建项目，也没有多余的容量可用，考虑到现在的政治动态，这些建设可能还会被推迟。大家都在担心供过于求，我其实更担心供不应求，极度供不应求。&quot;</p>
-<p style="margin:0.8em 0">如果严重短缺真的出现，token 价格可能大幅上涨——&quot;这和大家认为的发展方向完全相反&quot;。而短缺有一个讽刺的后果：那些主张缩减数据中心的人，最终会制造出真正的算力不平等，大公司和有钱人才能用得起算力。&quot;两年后他们又会拿这个做文章——'这其实是你们造成的，因为当初是你们不让我们建数据中心的。'&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">正和博弈：不是零和，是兼得</h2>
-<p style="margin:0.8em 0">市场上流行的叙事是非此即彼：开源会杀死前沿实验室，或者前沿模型会垄断一切。Gavin 认为这全是错的。</p>
-<p style="margin:0.8em 0">&quot;这不是单选题，这是个兼得的事情。前沿模型会发展得非常好，N 减一代模型会发展得非常好，开源也会发展得非常好，会有一大批应用层公司发展得非常好，云厂商大概也没问题，那五家实验室公司大概也会做得非常好。而英伟达就处在这一切的核心。&quot;</p>
-<p style="margin:0.8em 0">他和 LP 的每一次对话都以&quot;这事儿到底会怎么搞砸&quot;开头——大模型实验室会因为开源而完蛋吗？他的回答是：过去二十六年给我的教训就是，不要做空黄仁勋。</p>
-<p style="margin:0.8em 0">一个被很多人误解的事实：开源 token 并不是免费的，它消耗完全一样的算力。&quot;在其他条件相同的情况下，同等规模的模型生成一个开源 token 和生成一个前沿模型 token，所需算力是一样的，问题只在于上面加了多少利润率。&quot;他甚至举了一个反直觉的例子：Kimi 的许可证规定抽取百分之三十的收入分成，因为它是开放权重而不是开源——但就算这样，用它的任务级效率更低，成本非常高。</p>
-<p style="margin:0.8em 0">泡沫呢？Gavin 承认每一次真正深刻的新技术都会带来泡沫——南海泡沫、铁路、汽车、电视、收音机、互联网、个人电脑，无一例外。&quot;市场变得极度兴奋，东西被估值过高，这种高估导致过度建设。&quot;但这一次有一个关键区别：&quot;这里面的大部分依然是用经营现金流在支撑，而不是债务。靠借债驱动的建设要求立竿见影的投资回报，时间点上容不得偏差。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">英伟达：AI 的美联储，与九款芯片的战争</h2>
-<p style="margin:0.8em 0">Gavin 对英伟达的看法几乎是宗教性的，但每一层都有数字支撑。</p>
-<p style="margin:0.8em 0">供应端：英伟达锁定了全球百分之七十到八十的算力供应，锁定了台积电产能、DRAM 产能、HBM、激光器、电容器——&quot;它掌握了制造机架所需的一切&quot;。黄仁勋十五年前说&quot;我每两年下二三十亿美元的赌注，动作非常快&quot;，现在他下的是数千亿美元的赌注，拉着整条供应链跟他一起走，把融资渠道也标准化了——&quot;黑石、KKR、阿波罗、高盛、摩根士丹利、摩根大通那些极其聪明的人，很容易就能给英伟达的数据中心提供融资&quot;。</p>
-<p style="margin:0.8em 0">资本成本是最大的护城河：&quot;英伟达的数据中心，你只需要开一张一百五十亿美元的股权支票，剩下三百五十亿可以做债权融资，还有残值担保。只要残值担保金额少于他把芯片卖进数据中心赚到的毛利，对他来说就是极高的正 NPV，风险很小，还能拿营收分成。TPU 可能是第二容易融资的，但至少需要两倍的股权出资，利率也更高。&quot;</p>
-<p style="margin:0.8em 0">他给半导体公司的建议只有一句：&quot;你唯一该说的话就是：谢谢你，黄仁勋，谢谢你创造了这个机会。每百分之一的份额现在就值一千亿，没必要和他硬碰硬，找个细分领域拿下你的百分之一，确保那块饼非常大。&quot;</p>
-<p style="margin:0.8em 0">英伟达有九款芯片——多种加速芯片、CPU、以太网交换机、两种 GPU。最聪明的自研 ASIC 团队也只是赢下了其中一款的竞争。&quot;这就像扯超人的披风：你变得自信，开始说点垃圾话，超人呢，有时候就直接飞走了。TPU 团队当年的遭遇就是这样。&quot;他提到最近某家大厂的自研 ASIC 让他刮目相看，是他见过的除 TPU 和 Trainium 之外第一个像样的大厂芯片，花的时间也短——&quot;但它也只是能和英伟达九款芯片里的其中一款竞争。要在系统层面上真正竞争，你得再做另外八款芯片。&quot;</p>
-<p style="margin:0.8em 0">硅谷研究机构 Simon Analytics 的 Dylan 有个说法：英伟达是 AI 的银行、AI 的中央银行、AI 的美联储。Gavin 深以为然，并由此解释马斯克的决定：&quot;马斯克没有选择去和一个对手竞争，而是选择和一个利益完全一致的人合作——历史会证明那是个明智的决定。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从交易结构看真实偏好：供应链受限时，客户什么都买</h2>
-<p style="margin:0.8em 0">在一个供应受限的世界里，很难看出客户的真实偏好——&quot;只要你做出来，他们什么都要，连老旧的 H100 二手价格都高得离谱&quot;。Gavin 的方法是看交易类型：</p>
-<p style="margin:0.8em 0">第一种是芯片公司直接投资客户——谷歌和亚马逊对 Anthropic 就是这么做的，&quot;这给他们的业务带来巨大优势，也帮芯片升级了，因为芯片总得被用起来，只要投的钱少于毛利就不会亏钱&quot;。</p>
-<p style="margin:0.8em 0">第二种是残值担保融资，黑石、阿波罗、KKR、高盛出钱，只要担保额少于毛利就是好生意，还能拿分成。</p>
-<p style="margin:0.8em 0">第三种是赠送与每百万 token 固定价格挂钩的认股权证——&quot;只要你芯片的性能跑赢了股票的表现，你就表现不错；如果你只是白送认股权证，NPV 可能是负的，因为股价表现越好，对方补货的价值就越多。&quot;</p>
-<p style="margin:0.8em 0">黄仁勋做残值担保，还有一个战略动机：如果他不这么做，世界会被 Anthropic 和 OpenAI 主导——它们能为算力出最高的价。残值担保让其他人也有机会拿到算力，&quot;就像他一开始扶持新型云厂商一样。这是让算力普及化，对世界有好处&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">轨道数据中心：一架飞机大小的机架，二〇二八年见</h2>
-<p style="margin:0.8em 0">整场对话最&quot;科幻&quot;的部分，Gavin 讲得异常具体。</p>
-<p style="margin:0.8em 0">先破除想象：&quot;轨道数据中心不是太空里的巨型大楼，不是死星，也不是飘在太空里的五角大楼。它就是一架飞机的大小——一个放了七十二块芯片的机架，大概相当于五个人站在一起那么大。飞机那部分像机翼，配上太阳能板，让它保持在太阳同步轨道上，散热器一直处在机架的阴影里，这就是散热方式。&quot;</p>
-<p style="margin:0.8em 0">账是这样算的：每吉瓦算力五百亿美元，其中三百五十亿是 IT 设备（送上太空还会稍微涨一点），剩下的一百五十亿是电力、冷却、人工——而在太空中这些全都不需要。更关键的是，地球上那一百五十亿在通胀：电工薪酬、原材料、铜、光学器件全在涨。要对比的只有发射成本：有了星舰的可复用性，发射成本能降到十亿以下，&quot;经济模型瞬间就反转了&quot;。</p>
-<p style="margin:0.8em 0">马斯克说过，他和黄仁勋共同设计了一款 Rubin 机架，计划在 2027 年第四季度发射——就算延期两个季度，也就是 2028 年。&quot;退一步说那也已经很快了。根本没人真正关注这件事，而它就这么明晃晃地发生着。&quot;</p>
-<p style="margin:0.8em 0">训练必须留在地球上——&quot;GPU 紧挨在一起有优势，光速限制是客观存在的，延迟很重要，地球上的数据中心不会消失&quot;。但全球算力中越来越大的比例会上轨道。Gavin 对星舰复用极其乐观：&quot;每个发射台一天发射两次，他们设计的发射台能力还不止这个数——一年几千次发射的能力，这感觉非常科幻。&quot;</p>
-<p style="margin:0.8em 0">甚至有人质疑物理可行性时，他的反驳是：&quot;我有个天体物理学博士的投资人朋友，说他绝对不可能做到。后来他去了 SpaceX 开放日，跟工程师聊完回来说：是我错了。哪怕你是博士，智商比我高一百分，但这个问题你想过一个小时吗？想过十个小时吗？SpaceX 有一万名全世界最顶尖的工程师，每个人都琢磨了成百上千个小时，这在他们眼里是已经解决掉的问题，比星链卫星还简单。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数据中心的另一面：美国工薪阶层经历过的最好的事</h2>
-<p style="margin:0.8em 0">Gavin 对反数据中心运动的态度近乎愤怒：&quot;你反对建数据中心，但你知道吗？这可能是美国工薪阶层经历过的最好的事了。&quot;</p>
-<p style="margin:0.8em 0">他举了两个例子。弗吉尼亚州劳登县——全美人均收入最高的县，数据中心密度也是全美最高，当地从数据中心获得巨额税收。&quot;一个极力反对数据中心的人说'我倒想看看把数据中心建在收入最高的县会怎样'，然后有人说：其实全美收入最高的县，人均数据中心集中度就是最高的。我们已经这么做了，而且效果非常好。对方就说：别拿细节来烦我。&quot;</p>
-<p style="margin:0.8em 0">教育层面也在反转：&quot;现在读大学的 NPV 可能明显是负的。你去做电工、水管工、暖通空调技工，就能赚大把大把的钱。&quot;数据中心落地一个小镇，税收不是翻一倍，而是能涨到十倍——&quot;所有这些快要衰退的小镇正在重新焕发生机&quot;。加上美国天然气价格两到三美元、欧洲亚洲二十五美元的价差，霍尔木兹海峡的封锁反而让美国在制造的基本投入上获得巨大成本优势：&quot;我们正在让美国重新工业化，这是两党所有人都想要的——把工业带回来。&quot;</p>
-<p style="margin:0.8em 0">但他认为 AI 行业讲故事的能力糟糕透顶。&quot;唯一能讲出 AI 行业真相的人，唯一的群体就是 AI 行业本身。&quot;他推崇 Meta 的模式：谢丽尔·桑德伯格在财报电话会上逐一列举具体的小企业故事——德梅因的蛋糕烘焙坊，两位单亲妈妈，现在十五家分店、五十个员工。&quot;我很想看 SpaceX、Anthropic、OpenAI、谷歌、Meta 都站出来说：这些是真实的企业，真实的美国人，这对他们的生活产生了非常积极的影响。&quot;</p>
-<p style="margin:0.8em 0">&quot;真理必叫你们得以自由——但前提是你得把它说出来。&quot;</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能的抽象层：商业史上竞争最激烈的位置</h2>
-<p style="margin:0.8em 0">对话的最后部分，Gavin 把目光投向应用层：谁会成为&quot;全球企业的智能仲裁者&quot;——那个面向组织和用户的抽象层。</p>
-<p style="margin:0.8em 0">他看好微软的多模型组合策略：&quot;萨提亚十八个月前说'我们会有非常有竞争力的自研模型'，他们没做出来。但未来的方向是模型组合：没有任何一个模型能在所有方面做到最好。全球前一千大企业未来的做法，可能是直接用最好的开源模型——也许很快那个最好的开源模型就是英伟达的。&quot;</p>
-<p style="margin:0.8em 0">关键逻辑是数据主权：&quot;你拿一个能力很强的开源模型，用自己的数据做大量的强化学习和监督微调，你就拥有了它——它是属于你自己的模型。如果智能是你业务里极其重要的投入项，你会希望拥有并掌控自己的智能、它的能力和它的成本。&quot;零数据保留政策改变之后，把企业上下文共享给前沿实验室，可能危及财务健康。</p>
-<p style="margin:0.8em 0">Fireworks 的 Nexus 产品就是这个思路：客户可以挑选前沿模型，用强化学习针对自己的数据训练——高盛、摩根士丹利、摩根大通、富达各有各的模型，数据完全自持，&quot;你掌控自己的智能，路由器让这一切无缝运行&quot;。</p>
-<p style="margin:0.8em 0">竞争激烈到什么程度？&quot;Kirkland &amp; Ellis 说我们要花五亿美元自己造这个。祝他们好运，这非常难——那是一个必须不断更新基础模型、一切都要无感进行的系统。但这件事本身说明蛋糕真的很大。&quot;Harvey 在法律领域做得极好——法律文档记录完备、一定程度上可验证——税务领域也会出现类似的东西。而微软、Databricks、Snowflake、Salesforce 全都会挤进来。&quot;最后就看谁的执行力最强、谁的成本最低。&quot;</p>
-<p style="margin:0.8em 0">Gavin 用零售打了个比方：&quot;大家都觉得开大连锁店很容易。你只需要在五十个气候和消费者偏好截然不同的州开出一千家店，在合适的时间以合适的价格备好合适的商品，店里配上态度友好、业务懂行、不偷东西的员工——哪怕年离职率百分之一百——然后五百亿美元就到手了。在整个美国商业史上，能做到的公司一只手数得过来。把那个抽象层做出来、跑通、无缝衔接，比大家想象的要难得多。&quot;</p>
-<p style="margin:0.8em 0">而所有做 Agent 的公司——Cursor、Cognition、Harvey——&quot;在内心深处都想成为服务所有人的那个抽象层&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：二十一世纪，属于马斯克和黄仁勋</h2>
-<p style="margin:0.8em 0">&quot;当二十一世纪的历史被书写时，就像过去有维多利亚时代一样，我觉得这会是属于马斯克和黄仁勋的时代——他们正在从根本上改变人类社会和文明的结构。&quot;Gavin 说这话的时候语气很平静，像一个陈述事实的人。</p>
-<p style="margin:0.8em 0">&quot;黄仁勋是个伟大的爱国者，伟大的美国人。我们能有他和马斯克真的很幸运。&quot;星链让世界上最贫困的社区用上低成本互联网——&quot;以前在经济上根本说不通，现在可以了，而且未来的任何新增互联网容量都不会再按传统方式去建，而是会来自太空&quot;。</p>
-<p style="margin:0.8em 0">至于更远的未来，他提到小行星 Psyche：&quot;它所含的金、银、铂以及各种贵金属比地壳里存在的还要多。有了星舰，你将能够捕获它，带回地球同步轨道，用 Optimus 机器人干活，运送回地球几乎免费。&quot;还有贝索斯那句十五年前的话：&quot;未来地球将被划分为纯居住区，所有重工业都在外太空进行。&quot;</p>
-<p style="margin:0.8em 0">以及那个他描述得极具画面感的场景：未来几年——往宽了算八年——会有一支星舰机队降落在火星，改装版的火星殖民运输船伸出坡道，Optimus 机器人拿着美国国旗走下来，搬出太阳能电池板、电池、一机架一机架的算力设备，一路部署星链，传回 4K 视频——&quot;然后就会有人类上去了&quot;。</p>
-<p style="margin:0.8em 0">&quot;想想当年的登月，这个场面还要更大一些。&quot;</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 解出的数学题越来越多，但数学的价值不是解题</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个让数学家集体改观的结果</h2>
+<p style="margin:0.8em 0">今年五月中旬，AI 完成了第一个让多伦多大学数学家 Daniel Litt 真心认可的自主数学结果：Erdős 单位距离问题的反例。</p>
+<p style="margin:0.8em 0">在 a16z 播客里，Litt 对这个结果的评价很谨慎，但充满敬意。他说，过去很多 AI 数学成果是&quot;最后一英里&quot;式的——一组人类数学家做了很深的工作，AI 只负责走最后一步。这个结果不一样。第一，它有点出乎意料：领域内的人普遍认为这个猜想是真的，结果它被推翻了。第二，它从另一个数学领域引入了技术——&quot;那些技术不算特别深，也不是新东西，是六十年代的经典思想，但对研究平面点构型这个领域来说是全新的&quot;。第三，它事后被证明富有成果：一批数学家拿着这些想法，接连找到了其他有趣开放问题的反例，比如实数上的和积猜想。</p>
+<p style="margin:0.8em 0">&quot;这才是我想看到的东西：事后回看，AI 引入的新想法能不能用来做别的事？能不能改进我们对某个东西的理解？&quot;</p>
+<p style="margin:0.8em 0">这句话几乎概括了他整场对话的立场。过去几个月，AI 数学的头条新闻密集得让圈外人无法分辨好坏。Litt 反复做的，就是拆解这些头条：哪些是炒作，哪些真正推进了理解，以及——更重要的——<strong style="font-weight:600">解出问题和理解问题，从来不是一回事</strong>。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型擅长什么、不擅长什么</h2>
+<p style="margin:0.8em 0">Litt 是数学家，也是 AI 数学领域最直言不讳的实践观察者之一。他先说了一个对 AI 界友好的判断：前沿模型做数学主要靠自然语言推理，而不是 Lean 形式化证明。&quot;很多人说'数学是可验证的领域，所以进步快'。我的感觉恰恰相反——因为它们主要在扩展非形式化推理，这些技术很可能顺利泛化到其他领域。&quot;</p>
+<p style="margin:0.8em 0">他对比了 OpenAI 和 Anthropic 的模型：能力差不多，解决的也是同一小部分问题。&quot;经常是 OpenAI 发布一个问题的解答，Anthropic 马上说我们也有——它们解决的其实是同一批问题，而这批问题只占人类数学家所做工作的一小部分。&quot;</p>
+<p style="margin:0.8em 0">模型的强项非常清晰：长时间碾压式计算、从大量论文中汇集技术想法——&quot;有些论文人类数学家可能根本没读过&quot;。弱项同样清晰：直觉、大局观、发展新理论、判断哪些问题值得问。</p>
+<p style="margin:0.8em 0">&quot;我作为数学家做的大量工作是：我有一个非常不严谨的哲学，比如'这个东西和那个东西是类比的'，然后我花大量时间想办法把它变得精确。到目前为止，即使在最好的 AI 结果里，你也看不到多少这种推理。它们更像是极其擅长应用已知技术——当然，擅长应用所有已知技术本身是件非常强大的事，有些数学家一辈子靠这个做出高质量工作。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数学家在做的，从来不是符号推演</h2>
+<p style="margin:0.8em 0">Litt 花了不少篇幅纠正一个朴素印象：数学家的工作不是按逻辑规则推符号。那是强化学习如此适合数学的原因——验证成本相对低、规则清晰——但也是大众对数学的最大误解。</p>
+<p style="margin:0.8em 0">真实的工作至少有三类。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">类比</strong>。他举了自己的领域：代数簇的上同调与基本群表示之间的类比。三十多年来，Carl Simpson、望月新一等数学家沿着这个类比发展出了大量漂亮的结果——&quot;一边出现的任何现象，在另一边都能找到对应物&quot;。这里甚至没有一个悬而未决的开放问题作为目标，&quot;只有一个哲学，一个你想实现的愿景，而那个哲学完全不严谨，根本不是符号推演&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">找到正确的问题</strong>。&quot;你有一个对象，觉得不理解它，搞清楚自己不懂什么，这件事本身极其困难。&quot;他举了 Birch–Swinnerton-Dyer 猜想——千禧年问题之一——&quot;它其实是第一个大数据猜想&quot;：六十年代，Birch 和 Swinnerton-Dyer 在椭圆曲线上做统计、画图，发现图上某条线的斜率与某个他们已知的代数不变量相关，猜想由此诞生。&quot;大量时候你在做科学：跑一个实验，然后试图为这个实验找到解释。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">做实验</strong>。而恰恰是这些活动，决定了 AI 在哪些地方有用。&quot;现象越模糊、你心里越没有一个精确的问题，AI 就越没用。&quot;他给了一个诚实的自述：五年前开始想的问题，AI 基本帮不上忙，&quot;它主要是个 Google 的替代品，省了点时间，但没有在替我做什么深度智力工作&quot;。</p>
+<p style="margin:0.8em 0">但有一个例外：编程。&quot;我写代码很烂，现在我有了一个特别擅长写代码的好朋友。&quot;过去他遇到需要写代码的问题会拖延六个月，现在全部捡起来了。&quot;模型特别擅长大规模并行的事：你让它并行跑一千个例子，一次十个 subagent，这对找例子极其有用。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">无法证明的引理，如何变成更好的结果</h2>
+<p style="margin:0.8em 0">整场对话最精彩的部分，是 Litt 讲的一个亲身案例——一个关于&quot;什么算真正理解&quot;的微型实验。</p>
+<p style="margin:0.8em 0">他当时想证明一个引理，所有前沿模型都做不到。于是他亲自上手算了一大堆例子，算着算着意识到：&quot;等等，也许这里有某种原因让这个引理可能是真的&quot;——他找到了一个更好的陈述。然后，模型很快就证明了那个更好的陈述。</p>
+<p style="margin:0.8em 0">&quot;我们无法证明它，反而导致了结果的改进。&quot;他把这个当作&quot;理解&quot;价值的证据：他最初的引理是对的，但笨拙；是因为人类做不了那个计算、被迫寻找另一个论证，才发现了那个漂亮的、概念性的解释——&quot;我们找到更好的证明，是因为我们做不了那个计算&quot;。</p>
+<p style="margin:0.8em 0">他自己也承认这有点虚伪：&quot;我一边抱怨丑陋的证明，一边发现那个可怕的暴力计算其实能行，但我不肯亲手去做，于是去找另一个论证。&quot;可这恰恰是问题的核心：<strong style="font-weight:600">数学进步不只是关于能不能证明，而是关于能否在证明的过程中获得理解。</strong> 如果一切都外包给模型，得到的会是&quot;十页毫无洞见的暴力计算&quot;——&quot;完全没问题的证明，但不会带来发现&quot;。</p>
+<p style="margin:0.8em 0">这个案例让他对能力曲线保持乐观但清醒：&quot;我不怀疑轨迹会继续向上。理论构建目前不行，但可能只需要一个不同的强化学习环境。能力会增长，我不是怀疑者。&quot;但增长到什么方向，取决于社区怎么用。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">八百页 AI 证明，与&quot;能验证的东西&quot;的边界</h2>
+<p style="margin:0.8em 0">关于 AI 数学的一个残酷事实：模型产出短而巧妙的东西，是因为那是人类能验证的。</p>
+<p style="margin:0.8em 0">arXiv 上最近有人贴了一份声称解决正特征奇点消解的证明——八百页 AI 生成的论证。&quot;我还没读，但绝对不可能是对的。这会是个重大结果，以当前模型的能力，任何校准正常的人都知道不可能。而且肯定没有任何人类读过它。&quot;</p>
+<p style="margin:0.8em 0">Litt 认为这说明的是能力前沿而非别的：&quot;长而费力的东西，模型能造出来，但不可验证。&quot;他用一个相邻领域的类比：Cursor 曾经测试过让模型在长视野 harness 下用 Rust 复现 SQLite——&quot;非常有说明性：任务很长，每一步都要验证，你需要一个 harness，原始模型做不到，而且不同模型的规划能力差异明显&quot;。</p>
+<p style="margin:0.8em 0">更麻烦的是验证这件事本身。人类检查一篇论文，从来不是逐行读——&quot;两百五十页的论文你也无法逐行可靠地检查&quot;。人类做的事是：理解论证的整体结构，然后做压力测试——&quot;这个论证会不会推出一个我知道是假的命题？它在特殊情形下成立吗？&quot;Litt 说，模型还做不了这种&quot;模糊的证明单元测试&quot;。</p>
+<p style="margin:0.8em 0">他有一个私人的测试案例：一篇几年前发表的论文，错误藏得极深——&quot;它证明的东西太强了，我和一堆专家立刻意识到它不可能是对的，但具体错误非常难找&quot;。大家来回折腾，最后才定位到那个微妙的错误。&quot;到目前为止，模型做不了这件事——既找不到那个具体错误，也做不了这种大图景检查。&quot;这正好对应代码领域：&quot;模型擅长语法，但高层架构仍然很弱。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数学社区要怎么适应：防止&quot;一个数学家复制一千次&quot;</h2>
+<p style="margin:0.8em 0">对话的后半段，Litt 转向一个更尖锐的问题：假设模型能力继续上升，数学社区该如何适应？</p>
+<p style="margin:0.8em 0">第一层，是激励结构必须改变。&quot;学术数学内部本身就存在产生 slop 的激励，AI 只是把它放大了。&quot;大量低质量论文在 arXiv 上泛滥，人们不得不花时间排查&quot;这个问题到底解决了没有&quot;。</p>
+<p style="margin:0.8em 0">但他对非专家产生的 slop 态度出人意料地宽容：&quot;大量人因为 AI 而对数学感到兴奋，这本身是件积极的事。突然有聚光灯照在数学上，我可以更多地沉迷数学了，这很好。&quot;</p>
+<p style="margin:0.8em 0">第二层，也是最危险的，是他反复强调的&quot;百花齐放&quot;问题。数学的进步很大程度上来自大量不同好奇心驱动的探索——&quot;让一千朵花绽放，知识边界以某种大致均匀的方式扩展，然后机会主义地，突然得到应用或旧问题的答案&quot;。</p>
+<p style="margin:0.8em 0">他的担忧是：<strong style="font-weight:600">如果数学探索被模型主导，你得到的可能不是&quot;一百万个数学家做一百万件事&quot;，而是&quot;一个数学家复制一千次&quot;。</strong> 模型的能力来自技术性地调用同一片文献，它们的直觉来自实践数学家——那么新的、涌现的、多样化的直觉从哪里来？&quot;我没有一个好理论说它从哪来。如果整个领域变成模型的同质化扩张，我不确定在没有人类参与的情况下，数学还能不能持续产生卓越结果。&quot;</p>
+<p style="margin:0.8em 0">第三层，是即使模型全面超越人类，问题依然存在。&quot;假设模型真的稳健地超人——我仍然主张我们需要优秀的数学家。&quot;理由不是技术性的，而是社会设计性的：&quot;最优不意味着会发生。如果我们把数学研究完全交给模型，没有任何理由认为它们会去追求广泛多样、有趣的开放研究，而不是走捷径。我们正在设计社会，而选择权应该握在人类手里。&quot;</p>
+<p style="margin:0.8em 0">他给出的处方很朴素：&quot;保持一个兴趣广泛的社区，让他们推动模型、帮助设计我们想要的社会。人类不应该被彻底剥夺权力——未来的方向应该由人类的兴趣驱动。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">对秩三十椭圆曲线：谨慎，但保持兴奋</h2>
+<p style="margin:0.8em 0">采访当天恰好传来一个新闻：AI 帮助找到了秩 30 的椭圆曲线——人类纪录被刷新（此前 Elkies 和 Klagsbrun 刚找到秩 29 的例子）。</p>
+<p style="margin:0.8em 0">Litt 的回应相当冷静：&quot;我们还没有任何方法细节。据说是 Claude 系的模型被 Levent Alpoge 和他的合作者提示出来的，自主程度不明——我的感觉是其中一些是半自主而不是全自主。不知道方法，就很难判断它有多重要。&quot;</p>
+<p style="margin:0.8em 0">他给了一个圈内视角：&quot;历史上这类纪录结果通常去的地方是某人的纪录网站，而不是《数学年刊》。它是很酷的构造，但社区通常不会把它当作大事。&quot;Noam Elkies 是这类问题的传奇人物——&quot;有少数极有天赋的数学家专门做这类问题&quot;。</p>
+<p style="margin:0.8em 0">但他仍然很高兴：&quot;模型能做这种事很酷。人们喜欢它。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：数学的目标不是论文，而是理解</h2>
+<p style="margin:0.8em 0">&quot;数学的目标不是产出数学论文，而是产出某种理解。&quot;Litt 说，&quot;如果最终那些理解存在于模型权重里——对我来说，那相当不满足。我做数学的动机，是满足我个人的好奇心。我认为每个人都应该有这个能力。&quot;</p>
+<p style="margin:0.8em 0">他有一个更私人的注脚：他女儿一岁半的时候，家里给了她一个正二十面体玩具——&quot;她很快就学会了柏拉图立体&quot;；他打算教她加减法时，&quot;在一般群的语境里教，至少给出动机，大多数人都会跳过那部分&quot;。</p>
+<p style="margin:0.8em 0">&quot;也许这就是数学研究生可以做的事：训练下一代更年轻的人，用 AI 服务于真正更好地学数学——而不是缺乏理解。&quot;</p>
+<p style="margin:0.8em 0">而他自己最担心的事，与能力无关：&quot;随着 AI 上升，我们没开发出合适的'人体工学'界面来鼓励自己继续当好的思考者。把思考交给模型太容易了——模型目前甚至做不了最高层的结构思考，但放弃思考依然极其容易。竞争性的语言可能不好听，但现实就是：你必须在模型上升的同时继续发展自己的思考设施，用它们去提升这些设施，而不是放弃它们。&quot;</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得带走的判断</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">需求远未见顶</strong>：约 1800 亿营收只靠不到 3000 万重度用户支撑，而全球有 15 亿知识工作者；内部 token 消耗三月到八月涨了 100 倍。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">供给侧极度受限</strong>：算力回本周期已不到一年，但到 2028 年即便算上所有在建项目也没有多余容量；真正的瓶颈是电力和能源，不是芯片。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">这是正和博弈</strong>：前沿实验室、开源、云厂商、应用层、英伟达可以同时赢；&quot;过去二十六年的教训：不要做空黄仁勋&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达是 AI 的美联储</strong>：锁定 70-80% 供应，每 1% 份额值 1000 亿，数据中心是最容易融资的资产；自研 ASIC 最多只能赢它九款芯片里的一款。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">轨道算力不是幻想</strong>：每吉瓦 500 亿的账本里，150 亿的地面成本在太空为零，星舰复用让发射成本降到 10 亿以下；Rubin 机架 2027Q4 发射，训练留地球、推理上轨道。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">反数据中心 = 制造算力不平等</strong>：短缺的最大赢家是大公司和有钱人，两年后买单的是所有人；数据中心正在让美国小镇税收翻十倍。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">下一场大战是&quot;智能抽象层&quot;</strong>：谁能成为企业和消费者的智能仲裁者——微软、英伟达开源模型、Fireworks、Harvey、Cognition 都在争夺，这比所有人想象的难。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">解出问题 ≠ 理解问题</strong>：AI 擅长的是&quot;最后一英里&quot;和应用已知技术；真正让数学家改观的是 Erdős 单位距离问题——它引入了新领域的思想，事后还推动了其他猜想。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型的强弱项分明</strong>：强在长时间计算、跨领域汇集技术；弱在直觉、大局观、发展新理论、判断哪些问题值得问——而后者恰恰是数学家的日常。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">一个反直觉的案例</strong>：Litt 的一个引理所有模型都证不出来，他被迫自己算例子，结果找到了更好的陈述，模型随即证明——&quot;我们无法证明它，反而导致了结果的改进&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">八百页 AI 证明基本不可信</strong>：模型产出短而巧妙的东西，是因为那是我们能验证的；长而费力的输出既不可验证，也没有人类能检查——连&quot;模糊的大图景检查&quot;模型都还做不到。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">最危险的未来不是模型太强，而是&quot;一个数学家复制一千次&quot;</strong>：数学进步依赖百花齐放；如果探索被同质化的模型主导，新的多样直觉没有来源。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">即使模型全面超人，仍需要优秀数学家</strong>：最优不意味着会发生——把数学研究交给模型，没有任何理由相信它们会追求广泛多样的研究；选择权应该握在人类手里。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">slop 泛滥不全是坏事</strong>：大量人对数学产生兴奋本身就是积极信号；真正的威胁是激励结构——以及人类放弃思考的惰性。</li>
 </ul>
 
 </div>
