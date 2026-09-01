@@ -1,0 +1,41 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/01</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Nvidia 35 亿美元投资联发科切入定制 AI 芯片代工、Perceptron 发布 36B 开源具身基础模型 Isaac 0.5、Apple 因企业 AI 需求意外提前发布 Mac mini/Studio、五角大楼上线 ChatGPT Mil 与 Grok for Government、YC S26 新秀 Hebbian Robotics 切入机器人数据管线。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">今日动态集中在 AI 硬件与具身智能两个方向。最重磅的是 Nvidia 以 35 亿美元投资联发科，将其 NVLink Fusion 生态输出给定制芯片设计——这是 Nvidia 对冲 AWS/Google/OpenAI 等大厂自研芯片潮的关键一步。具身智能方向，Perceptron 发布 Isaac 0.5（36B 稀疏参数开源模型），声称用 100 万小时通用视频可将所需遥操作数据从 5,900 小时降至 28 小时（210×），该 scaling law 若被独立复现将直接影响机器人数据飞轮成本结构。Apple 提前发布 Mac mini/Mac Studio 且 The Information 归因于企业 AI 推理需求，本地 AI 硬件需求拐点信号值得跟踪。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Nvidia 35 亿美元投资联发科，切入定制 AI 芯片代工 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Nvidia 向台湾芯片设计商 MediaTek 投资 35 亿美元。作为交易一部分，MediaTek 将采用 Nvidia 的 NVLink Fusion 技术栈，为 AI 公司和云厂商（hyperscaler）设计定制芯片，且可直接接入 Nvidia 数据中心。背景是 Amazon、Google、Microsoft、OpenAI、Anthropic 均在自研芯片以降低对 Nvidia GPU 的依赖。上周 Nvidia 刚宣布与 AWS 的类似合作（无直接投资）：AWS 追加部署 200 万张 Nvidia GPU 并集成 NVLink Fusion。Nvidia 高管称&quot;每个云、每个模型厂商都在以某种形式部署我们的平台&quot;，此举让定制芯片与 Nvidia 机架级架构共存于同一标准平台。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅TechCrunch 正文全文核验（8/31，记者 Rebecca Bellan）— <strong style="font-weight:600">关注</strong>: Nvidia 以生态换份额，对冲大厂自研芯片潮</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Perceptron 发布 Isaac 0.5：36B 开源具身基础模型 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Perceptron AI 发布 Isaac 0.5，自称首个处于多模态视频理解、具身推理与机器人控制前沿的开源模型。36B 参数稀疏模型，输入图像/视频/语言指令/机器人状态/历史动作，支持视频问答、物体指认与跟踪、任务进度报告、生成机器人动作。训练数据：35+ 机器人系统、100K 小时机器人经验、100 万小时通用视频、3T 多模态 tokens。核心声称：通用视频从 1,000 小时扩至 100 万小时，达成同等 action loss 所需遥操作从约 5,900 小时降至 28 小时（210×），形成&quot;视频数据替换昂贵遥操作&quot;的 scaling law。checkpoints、训练/推理代码经 LeRobot 发布。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官网博客正文核验；⚠️210× scaling law 为厂商自述实验，未独立复现 — <strong style="font-weight:600">关注</strong>: 视频替代遥操作若成立，直接改写数据飞轮成本</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: perceptron.inc 官方博客（🟢）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Apple 因 AI 需求意外提前发布 Mac mini/Mac Studio | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Apple 本周罕见地在秋季惯例窗口（10-11 月）之前发布新款 Mac mini 与 Mac Studio。The Information 报道：企业级 AI 硬件需求意外旺盛（Mac Studio/mini 销量 AI 驱动增长）是提前发布的原因。该消息登顶 HN 首页（268+ 分），印证开发者社区关注度。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅MacRumors 文章（引 The Information）— <strong style="font-weight:600">关注</strong>: 本地 AI 推理硬件需求拐点信号</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: MacRumors / The Information</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 五角大楼上线 ChatGPT Mil 与 Grok for Government | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">美国国防部在 GenAI.mil 安全门户（去年上线，原仅提供 Google Gemini）新增 OpenAI 定制版 ChatGPT Mil 与 xAI 的 Grok for Government，面向 300 万军民人员，已 onboarding 超过 170 万独立用户。军方版本豁免消费级产品难以避免的数据收集。值得注意的是 Anthropic 的 Claude 缺席——特朗普政府将 Anthropic 列为供应链风险（Anthropic 正提起诉讼），因其拒绝放弃安全护栏。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅TechCrunch 正文全文核验（8/31）— <strong style="font-weight:600">关注</strong>: 军方 AI 落地加速，前沿模型安全立场与政府关系张力</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Hebbian Robotics (YC S26) 发布 HFlow 机器人数据管线 SDK | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">YC S26 团队 Brandon 与 Kingston 发布 HFlow：将机器人和人类操作员的多模态录制转换为标准化、质量检查过的 episodes 与可查询数据集 manifest 的 SDK，直击机器人训练数据基建。团队此前已有 openpi-flash（openpi 实时推理引擎）、SigLIP2 嵌入式服务等开源作品。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Launch HN 官方帖（8/31，36 分）；GitHub 仓库因网络受限未能直接核验 stars — <strong style="font-weight:600">关注</strong>: 机器人数据基建成创业新切口</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: HN Launch HN（🟢）/ GitHub</li>
+</ul>
+
+</div>

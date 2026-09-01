@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 06:00:42 +0800</lastBuildDate><item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 09:00:11 +0800</lastBuildDate><item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：</strong> a16z 对话 Gavin Baker——为什么 AI 是正和市场、为什么真正的风险是供给不足、以及轨道数据中心如何改写算力经济学</p>
@@ -16412,21 +16412,21 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">背景</strong>: Gavin Baker（Atreides Management 创始人，前 Fidelity 传奇科技基金经理）与 a16z 合伙人 David George 对谈。核心命题：AI 需求为何持续跑赢算力供给、当前 AI 资产回撤是否合理。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">整个夏天向 AI 公司 CEO 问同一个问题&quot;能否给出一个在变差的量化数据点&quot;——无人能给出（Anthropic 静默期除外）。OpenAI/开源/Grok 均在加速，AI 总体在 7-8 月持续加速，与公开 AI 股近两月深度回撤背离</li>
-<li style="margin:0.3em 0">正和思维：前沿实验室、开源模型、应用公司、云厂商、&quot;五家实验室&quot;、NVDA 可以全部赢——&quot;this is not an or thing, it's an and thing&quot;</li>
-<li style="margin:0.3em 0">算力供给侧经济学：数据中心 payback &lt; 1 年（Nebius 9-10 个月；SpaceX 集群更快），Blackstone/KKR/Apollo 低资本成本融资 + RVG（残值担保）结构，&quot;你无法输钱，只要 RVG 小于芯片毛利&quot;</li>
-<li style="margin:0.3em 0">NVDA 生态中心论：锁定 70-80% 供给 + 全供应链（fab/DRAM/NAND/激光器/电容）+ 可融资性 = 联邦储备银行式地位；&quot;26 年投资生涯教会我不要赌 Jensen 输&quot;</li>
-<li style="margin:0.3em 0">需求侧：真正重度付费用户约 3000 万（可能被高估，实际或 &lt;1000 万），渗透率极低——&quot;ten-year stretch, we're nowhere&quot;</li>
-<li style="margin:0.3em 0">OpenAI/Anthropic 上市对市场是好事（透明度、可建模）；微软的&quot;ensembling/开放模型+自有数据&quot;未来比双寡头世界更友好</li>
-<li style="margin:0.3em 0">xAI Grokbot：Atreides 内部 token 消耗 3-8 月涨 100x，个人效率工具体验&quot;ChatGPT 时刻&quot;</li>
+<li style="margin:0.3em 0">整个夏天向 AI 公司 CEO 问同一个问题"能否给出一个在变差的量化数据点"——无人能给出（Anthropic 静默期除外）。OpenAI/开源/Grok 均在加速，AI 总体在 7-8 月持续加速，与公开 AI 股近两月深度回撤背离</li>
+<li style="margin:0.3em 0">正和思维：前沿实验室、开源模型、应用公司、云厂商、"五家实验室"、NVDA 可以全部赢——"this is not an or thing, it's an and thing"</li>
+<li style="margin:0.3em 0">算力供给侧经济学：数据中心 payback &lt; 1 年（Nebius 9-10 个月；SpaceX 集群更快），Blackstone/KKR/Apollo 低资本成本融资 + RVG（残值担保）结构，"你无法输钱，只要 RVG 小于芯片毛利"</li>
+<li style="margin:0.3em 0">NVDA 生态中心论：锁定 70-80% 供给 + 全供应链（fab/DRAM/NAND/激光器/电容）+ 可融资性 = 联邦储备银行式地位；"26 年投资生涯教会我不要赌 Jensen 输"</li>
+<li style="margin:0.3em 0">需求侧：真正重度付费用户约 3000 万（可能被高估，实际或 &lt;1000 万），渗透率极低——"ten-year stretch, we're nowhere"</li>
+<li style="margin:0.3em 0">OpenAI/Anthropic 上市对市场是好事（透明度、可建模）；微软的"ensembling/开放模型+自有数据"未来比双寡头世界更友好</li>
+<li style="margin:0.3em 0">xAI Grokbot：Atreides 内部 token 消耗 3-8 月涨 100x，个人效率工具体验"ChatGPT 时刻"</li>
 <li style="margin:0.3em 0">轨道计算：Starship 可复用使发射成本 &lt;10 亿/gig，轨道算力成为摇摆产能（2027Q4 Ruben rack 目标）</li>
 <li style="margin:0.3em 0">投资方法：越来越多看 hyperscaler 的 EV/Net PPE（AI 版 price-to-book）</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">持仓/动作线索</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">&quot;when we first invested in spacex&quot;——Atreides 为 SpaceX 早期投资人（历史披露，非当前动作）</li>
-<li style="margin:0.3em 0">&quot;my firm atreides has a pretty big portfolio of private semiconductor companies&quot;——私有半导体组合（不可交易）</li>
-<li style="margin:0.3em 0">对 NVDA：明确看多但表述为观点（&quot;not to bet against jensen&quot;），未披露当前仓位动作</li>
+<li style="margin:0.3em 0">"when we first invested in spacex"——Atreides 为 SpaceX 早期投资人（历史披露，非当前动作）</li>
+<li style="margin:0.3em 0">"my firm atreides has a pretty big portfolio of private semiconductor companies"——私有半导体组合（不可交易）</li>
+<li style="margin:0.3em 0">对 NVDA：明确看多但表述为观点（"not to bet against jensen"），未披露当前仓位动作</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔍 事实核查</strong>：</p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
@@ -16467,7 +16467,7 @@ RO初心服回榜#61</li>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">重度付费 AI 用户 ~3000 万</td>
   <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;我们公司内部看到&quot;的估计</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"我们公司内部看到"的估计</td>
 </tr>
 </tbody>
 </table></div>
@@ -16475,8 +16475,8 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong>：</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">核心假设 1</strong>: 算力需求由 scaling law 持续驱动，且供给弹性有限（电力/供应链/fab）——若 scaling law 收益递减提前到来，供给逻辑崩塌</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">核心假设 2</strong>: 融资结构（RVG/残值担保）可无限复制——若信贷周期转向（他自己承认&quot;唯一风险是信贷&quot;），数据中心融资冻结</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">反例</strong>: 移动互联网基建周期 2000 年光纤泡沫——overbuild 后供给价格崩盘；他对此的回应是&quot;AI 需求渗透率仍 &lt;1%，与 2000 年需求已饱和不同&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心假设 2</strong>: 融资结构（RVG/残值担保）可无限复制——若信贷周期转向（他自己承认"唯一风险是信贷"），数据中心融资冻结</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">反例</strong>: 移动互联网基建周期 2000 年光纤泡沫——overbuild 后供给价格崩盘；他对此的回应是"AI 需求渗透率仍 &lt;1%，与 2000 年需求已饱和不同"</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">📈 可靠度</strong>: 🟡 中 — 历史持仓（SpaceX）可查、部分数据点（Nebius）可验证，但核心判断（供给锁定比例、变现率）依赖内部信息。风险：若他低估了模型商品化速度或高估融资永续性，NVDA 生态中心论会遭受估值回归。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -16484,13 +16484,13 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-31 | <strong style="font-weight:600">转录</strong>: 19K 字符 | <strong style="font-weight:600">嘉宾</strong>: 李峰（丰瑞资本合伙人）x 连文昭（元洛科技 CEO，上海交大教授，前 Figure/Google X Intrinsic/Vicarious）</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">WRC 2026 观察：行业从&quot;展示能力&quot;转向&quot;场景化落地&quot;，海外买家（欧洲/中东/日韩）大量涌入，寻求中国机器人当地代理/集成——&quot;中国机器人出海是新出口潜在增项&quot;</li>
-<li style="margin:0.3em 0">世界模型/物理模型路线之争：VLA 是&quot;绕过理解的捷径&quot;，泛化性不及预期（&quot;左移 0.5cm 能抓就叫泛化？这是本该有的能力&quot;）；未来收敛方向 = 物体为中心 + 力模态闭环（预测力 + 实测力反馈）</li>
-<li style="margin:0.3em 0">元洛科技（私有）定位：AI4S 泛实验室场景，长序列/高柔性/高精度操作，已与华大智造、中科院合作落地；对标&quot;物理 AI 的 GPU 时刻&quot;——机器人 = 实验室物理基座，解锁干湿闭环数据循环</li>
-<li style="margin:0.3em 0">行业痛点：实验不可复现（&quot;十年十个亿成功率 10%&quot;）、仪器利用率仅 30-40%；AI 制药已验证发现效率，瓶颈转移到实验环节</li>
+<li style="margin:0.3em 0">WRC 2026 观察：行业从"展示能力"转向"场景化落地"，海外买家（欧洲/中东/日韩）大量涌入，寻求中国机器人当地代理/集成——"中国机器人出海是新出口潜在增项"</li>
+<li style="margin:0.3em 0">世界模型/物理模型路线之争：VLA 是"绕过理解的捷径"，泛化性不及预期（"左移 0.5cm 能抓就叫泛化？这是本该有的能力"）；未来收敛方向 = 物体为中心 + 力模态闭环（预测力 + 实测力反馈）</li>
+<li style="margin:0.3em 0">元洛科技（私有）定位：AI4S 泛实验室场景，长序列/高柔性/高精度操作，已与华大智造、中科院合作落地；对标"物理 AI 的 GPU 时刻"——机器人 = 实验室物理基座，解锁干湿闭环数据循环</li>
+<li style="margin:0.3em 0">行业痛点：实验不可复现（"十年十个亿成功率 10%"）、仪器利用率仅 30-40%；AI 制药已验证发现效率，瓶颈转移到实验环节</li>
 <li style="margin:0.3em 0">Moderna 个性化肿瘤疫苗三期显著结果（本周）——AI+生物医药范式验证</li>
 </ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">持仓线索</strong>: 李峰披露丰瑞资本投过晶泰/剂泰（AI 制药，已上市）及多间世界模型初创（&quot;估值 6 个月大涨&quot;）——<strong style="font-weight:600">均为历史 VC 投资，无当前交易动作</strong>，不构成可交易信号。元洛科技为私有公司（无 ticker）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">持仓线索</strong>: 李峰披露丰瑞资本投过晶泰/剂泰（AI 制药，已上市）及多间世界模型初创（"估值 6 个月大涨"）——<strong style="font-weight:600">均为历史 VC 投资，无当前交易动作</strong>，不构成可交易信号。元洛科技为私有公司（无 ticker）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔍 事实核查</strong>：</p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
@@ -16526,7 +16526,7 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong>：</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">核心假设</strong>: 湿实验数据闭环是 AI 药物发现的下一个瓶颈——若生成式假设能力（数字 AI）提升速度超过机器人实验能力，瓶颈转移的时点会推迟</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">风险</strong>: 元洛选择的场景&quot;最难考场&quot;策略——通用性牺牲换取可靠性，若行业共识转向通用操作，其路径可能被边缘化（连文昭本人承认&quot;局部最优很多&quot;）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">风险</strong>: 元洛选择的场景"最难考场"策略——通用性牺牲换取可靠性，若行业共识转向通用操作，其路径可能被边缘化（连文昭本人承认"局部最优很多"）</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">📈 可靠度</strong>: 🟡 中 — 行业事实可验证，但公司层面信息（元洛、合作方）为单方披露。对相根的参考价值：<strong style="font-weight:600">具身智能第一落地场景（AI4S/实验室）与 VC 估值水温（世界模型初创 6 个月估值大涨）的一手产业观察</strong>。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -16534,8 +16534,8 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-31 | <strong style="font-weight:600">转录</strong>: 11K 字符 | <strong style="font-weight:600">来源</strong>: 屠龙之术 solo</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">模型&quot;吃掉&quot;的是单点功能（抠图/扩图/模板化已是模型默认能力），吃不掉的是<strong style="font-weight:600">反复场景下的结果交付</strong>——留下来的是把模型/场景/流程/支付组织成&quot;用户反复购买结果&quot;的公司</li>
-<li style="margin:0.3em 0">AI 应用公司四步范式：选模型（路由）→ 拆任务 → 控结果（一致性）→ 交付可发布成果；用户不应承担选模型的复杂度（&quot;让用户选模型是弯路&quot;）</li>
+<li style="margin:0.3em 0">模型"吃掉"的是单点功能（抠图/扩图/模板化已是模型默认能力），吃不掉的是<strong style="font-weight:600">反复场景下的结果交付</strong>——留下来的是把模型/场景/流程/支付组织成"用户反复购买结果"的公司</li>
+<li style="margin:0.3em 0">AI 应用公司四步范式：选模型（路由）→ 拆任务 → 控结果（一致性）→ 交付可发布成果；用户不应承担选模型的复杂度（"让用户选模型是弯路"）</li>
 <li style="margin:0.3em 0">市场恐惧的四个来源：单点功能被吃、成本先于收入（毛利最低）、长线≠留存、增长≠兑现（现金流/定价权）</li>
 <li style="margin:0.3em 0">反例证：Figma 收入连续 3 季度 +40%+，市值从 ~700 亿跌至 ~150 亿（-88%，低于 IPO 发行价）——基本面与市场叙事背离的极端案例</li>
 </ul>
@@ -16543,11 +16543,11 @@ RO初心服回榜#61</li>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">收入 22.1 亿（+22.1%），净利 6.35 亿（+~40%）</li>
 <li style="margin:0.3em 0">生产力应用 MAU 3300 万（+43.5%），付费订阅 235 万（付费率 ~7-8%，+29.8%）</li>
-<li style="margin:0.3em 0">AI 相关 ARR 6.2 亿（&quot;马上进入 1 亿美金 ARR 俱乐部&quot;）</li>
+<li style="margin:0.3em 0">AI 相关 ARR 6.2 亿（"马上进入 1 亿美金 ARR 俱乐部"）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">自研模型生成内容占比 96%</strong>，第三方 API token 成本占收入个位数%——毛利保护的核心证据</li>
 <li style="margin:0.3em 0">待回答问题：生产力第二曲线（收入占比 18%）能否成为主曲线、单位经济、全球化高 ARPU 用户留存</li>
 </ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">持仓线索</strong>: 无——行业分析，无&quot;我持有/买入&quot;动作。作者以美图为样本论证&quot;成熟底盘 + AI 原生新产品矩阵&quot;模式（同逻辑适用于他自述的&quot;古典移动互联网公司&quot;）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">持仓线索</strong>: 无——行业分析，无"我持有/买入"动作。作者以美图为样本论证"成熟底盘 + AI 原生新产品矩阵"模式（同逻辑适用于他自述的"古典移动互联网公司"）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔍 事实核查</strong>：</p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
@@ -16585,18 +16585,18 @@ RO初心服回榜#61</li>
 </tr>
 </tbody>
 </table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 美图为首次覆盖（历史库 0 条）。Canva/Figma 曾在&quot;一级半市场&quot;话题中出现（08-24 期：5032 条交易线索），本次升级为应用公司命运的系统论证。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📈 可靠度</strong>: 🟢 高 — 美图数据全部来自财报可验证；Figma/Canva 为公开市场/一级市场可查数据。<strong style="font-weight:600">对相根的参考价值：美图作为&quot;成熟底盘 + AI 第二曲线&quot;样本，自研模型占比 96% 是毛利护城河的关键定量证据</strong>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 美图为首次覆盖（历史库 0 条）。Canva/Figma 曾在"一级半市场"话题中出现（08-24 期：5032 条交易线索），本次升级为应用公司命运的系统论证。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📈 可靠度</strong>: 🟢 高 — 美图数据全部来自财报可验证；Figma/Canva 为公开市场/一级市场可查数据。<strong style="font-weight:600">对相根的参考价值：美图作为"成熟底盘 + AI 第二曲线"样本，自研模型占比 96% 是毛利护城河的关键定量证据</strong>。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 卫诗婕｜漫谈Light the Star — 85.和蚂蚁、千问、吉利、OPPO、vivo 的五位总裁，聊 Agent 的商业元年、漏斗与放大器</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-08-31 | <strong style="font-weight:600">转录</strong>: 13K 字符 | <strong style="font-weight:600">来源</strong>: 支付宝 AI 生态合作伙伴大会闭门圆桌</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">蚂蚁 CEO 韩星毅：流量见顶 + 流量太贵是核心矛盾，智能补上&quot;信息转化效率&quot;最后一环；Agent 生态最大挑战不是技术而是<strong style="font-weight:600">收益分享机制</strong>；判断：商家 3 个月内初步感知 Agent 落地价值，明年春节后规模化，<strong style="font-weight:600">爆发点明年下半年</strong></li>
-<li style="margin:0.3em 0">阿里千问总裁吴佳：终端离用户更近；千问自研 AI 眼镜 + 开放合作方案；开放平台三原则（共享上下文/透明认证/用户编排权）；&quot;规模今天第一位&quot;</li>
-<li style="margin:0.3em 0">吉利任向飞：汽车 = 具身智能（感知/规划/生态），从流量时代进入&quot;服务交付经济&quot;，车厂对端到端结果负责（vs 手机时代 APP 方负责）；A2A 生态协同 + 按价值贡献分配</li>
-<li style="margin:0.3em 0">OPPO 唐凯：产业组织能力已跟不上模型能力；终端从&quot;应用入口&quot;→&quot;意图入口&quot;；与支付宝 AHA 协议合作使 OPPO 手机支付宝日活 +200 万</li>
-<li style="margin:0.3em 0">vivo 周维：手机行业 9 月&quot;交作业&quot;，3 万 skill 适配（对比 PC 端）一个不能少；DeepSeek 4 Pro 级 MOE 端侧化 1-2 年周期</li>
+<li style="margin:0.3em 0">蚂蚁 CEO 韩星毅：流量见顶 + 流量太贵是核心矛盾，智能补上"信息转化效率"最后一环；Agent 生态最大挑战不是技术而是<strong style="font-weight:600">收益分享机制</strong>；判断：商家 3 个月内初步感知 Agent 落地价值，明年春节后规模化，<strong style="font-weight:600">爆发点明年下半年</strong></li>
+<li style="margin:0.3em 0">阿里千问总裁吴佳：终端离用户更近；千问自研 AI 眼镜 + 开放合作方案；开放平台三原则（共享上下文/透明认证/用户编排权）；"规模今天第一位"</li>
+<li style="margin:0.3em 0">吉利任向飞：汽车 = 具身智能（感知/规划/生态），从流量时代进入"服务交付经济"，车厂对端到端结果负责（vs 手机时代 APP 方负责）；A2A 生态协同 + 按价值贡献分配</li>
+<li style="margin:0.3em 0">OPPO 唐凯：产业组织能力已跟不上模型能力；终端从"应用入口"→"意图入口"；与支付宝 AHA 协议合作使 OPPO 手机支付宝日活 +200 万</li>
+<li style="margin:0.3em 0">vivo 周维：手机行业 9 月"交作业"，3 万 skill 适配（对比 PC 端）一个不能少；DeepSeek 4 Pro 级 MOE 端侧化 1-2 年周期</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">持仓线索</strong>: 无——高管产业讨论，无个人/公司交易动作。OPPO 支付宝日活 +200 万为唯一可验证业务数据。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">🔍 事实核查</strong>：</p>
@@ -16646,7 +16646,7 @@ RO初心服回榜#61</li>
 <tr>
   <td style="text-align:center">⭐</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#698.美国 1968：在撕裂与混乱中，谁能赢得&quot;沉默的大多数&quot;？</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#698.美国 1968：在撕裂与混乱中，谁能赢得"沉默的大多数"？</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1968 美国大选历史（越南战争/约翰逊倒台），无投资相关性</td>
 </tr>
 </tbody>
@@ -16655,5 +16655,47 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0"><em>报告生成: 2026-09-01 | 管线: RSS→ASR 本地 pipeline (transcript_adapter.py v0.5) | 完整性检查: 通过（无同尺寸污染）</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-01.html</link><guid isPermaLink="false">report:AI动态:2026-09-01:0acc030c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-01</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/01</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Nvidia 35 亿美元投资联发科切入定制 AI 芯片代工、Perceptron 发布 36B 开源具身基础模型 Isaac 0.5、Apple 因企业 AI 需求意外提前发布 Mac mini/Studio、五角大楼上线 ChatGPT Mil 与 Grok for Government、YC S26 新秀 Hebbian Robotics 切入机器人数据管线。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">今日动态集中在 AI 硬件与具身智能两个方向。最重磅的是 Nvidia 以 35 亿美元投资联发科，将其 NVLink Fusion 生态输出给定制芯片设计——这是 Nvidia 对冲 AWS/Google/OpenAI 等大厂自研芯片潮的关键一步。具身智能方向，Perceptron 发布 Isaac 0.5（36B 稀疏参数开源模型），声称用 100 万小时通用视频可将所需遥操作数据从 5,900 小时降至 28 小时（210×），该 scaling law 若被独立复现将直接影响机器人数据飞轮成本结构。Apple 提前发布 Mac mini/Mac Studio 且 The Information 归因于企业 AI 推理需求，本地 AI 硬件需求拐点信号值得跟踪。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Nvidia 35 亿美元投资联发科，切入定制 AI 芯片代工 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Nvidia 向台湾芯片设计商 MediaTek 投资 35 亿美元。作为交易一部分，MediaTek 将采用 Nvidia 的 NVLink Fusion 技术栈，为 AI 公司和云厂商（hyperscaler）设计定制芯片，且可直接接入 Nvidia 数据中心。背景是 Amazon、Google、Microsoft、OpenAI、Anthropic 均在自研芯片以降低对 Nvidia GPU 的依赖。上周 Nvidia 刚宣布与 AWS 的类似合作（无直接投资）：AWS 追加部署 200 万张 Nvidia GPU 并集成 NVLink Fusion。Nvidia 高管称&quot;每个云、每个模型厂商都在以某种形式部署我们的平台&quot;，此举让定制芯片与 Nvidia 机架级架构共存于同一标准平台。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅TechCrunch 正文全文核验（8/31，记者 Rebecca Bellan）— <strong style="font-weight:600">关注</strong>: Nvidia 以生态换份额，对冲大厂自研芯片潮</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Perceptron 发布 Isaac 0.5：36B 开源具身基础模型 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Perceptron AI 发布 Isaac 0.5，自称首个处于多模态视频理解、具身推理与机器人控制前沿的开源模型。36B 参数稀疏模型，输入图像/视频/语言指令/机器人状态/历史动作，支持视频问答、物体指认与跟踪、任务进度报告、生成机器人动作。训练数据：35+ 机器人系统、100K 小时机器人经验、100 万小时通用视频、3T 多模态 tokens。核心声称：通用视频从 1,000 小时扩至 100 万小时，达成同等 action loss 所需遥操作从约 5,900 小时降至 28 小时（210×），形成&quot;视频数据替换昂贵遥操作&quot;的 scaling law。checkpoints、训练/推理代码经 LeRobot 发布。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官网博客正文核验；⚠️210× scaling law 为厂商自述实验，未独立复现 — <strong style="font-weight:600">关注</strong>: 视频替代遥操作若成立，直接改写数据飞轮成本</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: perceptron.inc 官方博客（🟢）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Apple 因 AI 需求意外提前发布 Mac mini/Mac Studio | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Apple 本周罕见地在秋季惯例窗口（10-11 月）之前发布新款 Mac mini 与 Mac Studio。The Information 报道：企业级 AI 硬件需求意外旺盛（Mac Studio/mini 销量 AI 驱动增长）是提前发布的原因。该消息登顶 HN 首页（268+ 分），印证开发者社区关注度。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅MacRumors 文章（引 The Information）— <strong style="font-weight:600">关注</strong>: 本地 AI 推理硬件需求拐点信号</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: MacRumors / The Information</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 五角大楼上线 ChatGPT Mil 与 Grok for Government | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">美国国防部在 GenAI.mil 安全门户（去年上线，原仅提供 Google Gemini）新增 OpenAI 定制版 ChatGPT Mil 与 xAI 的 Grok for Government，面向 300 万军民人员，已 onboarding 超过 170 万独立用户。军方版本豁免消费级产品难以避免的数据收集。值得注意的是 Anthropic 的 Claude 缺席——特朗普政府将 Anthropic 列为供应链风险（Anthropic 正提起诉讼），因其拒绝放弃安全护栏。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅TechCrunch 正文全文核验（8/31）— <strong style="font-weight:600">关注</strong>: 军方 AI 落地加速，前沿模型安全立场与政府关系张力</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Hebbian Robotics (YC S26) 发布 HFlow 机器人数据管线 SDK | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">YC S26 团队 Brandon 与 Kingston 发布 HFlow：将机器人和人类操作员的多模态录制转换为标准化、质量检查过的 episodes 与可查询数据集 manifest 的 SDK，直击机器人训练数据基建。团队此前已有 openpi-flash（openpi 实时推理引擎）、SigLIP2 嵌入式服务等开源作品。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Launch HN 官方帖（8/31，36 分）；GitHub 仓库因网络受限未能直接核验 stars — <strong style="font-weight:600">关注</strong>: 机器人数据基建成创业新切口</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: HN Launch HN（🟢）/ GitHub</li>
+</ul>
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
