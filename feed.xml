@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 09:00:11 +0800</lastBuildDate><item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 01 Sep 2026 23:00:07 +0800</lastBuildDate><item><title>[a16z] Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</title><link>https://xlicz.github.io/podcast-rss/articles/Gavin-Baker-我整个夏天都在问-AI-高管一个问题-没人能给出答案-2026-08-31.html</link><guid isPermaLink="false">a16z_2282eeb34f4c</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Gavin Baker：我整个夏天都在问 AI 高管一个问题，没人能给出答案</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：</strong> a16z 对话 Gavin Baker——为什么 AI 是正和市场、为什么真正的风险是供给不足、以及轨道数据中心如何改写算力经济学</p>
@@ -16666,13 +16666,13 @@ RO初心服回榜#61</li>
 <p style="margin:0.8em 0">今日动态集中在 AI 硬件与具身智能两个方向。最重磅的是 Nvidia 以 35 亿美元投资联发科，将其 NVLink Fusion 生态输出给定制芯片设计——这是 Nvidia 对冲 AWS/Google/OpenAI 等大厂自研芯片潮的关键一步。具身智能方向，Perceptron 发布 Isaac 0.5（36B 稀疏参数开源模型），声称用 100 万小时通用视频可将所需遥操作数据从 5,900 小时降至 28 小时（210×），该 scaling law 若被独立复现将直接影响机器人数据飞轮成本结构。Apple 提前发布 Mac mini/Mac Studio 且 The Information 归因于企业 AI 推理需求，本地 AI 硬件需求拐点信号值得跟踪。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Nvidia 35 亿美元投资联发科，切入定制 AI 芯片代工 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">Nvidia 向台湾芯片设计商 MediaTek 投资 35 亿美元。作为交易一部分，MediaTek 将采用 Nvidia 的 NVLink Fusion 技术栈，为 AI 公司和云厂商（hyperscaler）设计定制芯片，且可直接接入 Nvidia 数据中心。背景是 Amazon、Google、Microsoft、OpenAI、Anthropic 均在自研芯片以降低对 Nvidia GPU 的依赖。上周 Nvidia 刚宣布与 AWS 的类似合作（无直接投资）：AWS 追加部署 200 万张 Nvidia GPU 并集成 NVLink Fusion。Nvidia 高管称&quot;每个云、每个模型厂商都在以某种形式部署我们的平台&quot;，此举让定制芯片与 Nvidia 机架级架构共存于同一标准平台。</p>
+<p style="margin:0.8em 0">Nvidia 向台湾芯片设计商 MediaTek 投资 35 亿美元。作为交易一部分，MediaTek 将采用 Nvidia 的 NVLink Fusion 技术栈，为 AI 公司和云厂商（hyperscaler）设计定制芯片，且可直接接入 Nvidia 数据中心。背景是 Amazon、Google、Microsoft、OpenAI、Anthropic 均在自研芯片以降低对 Nvidia GPU 的依赖。上周 Nvidia 刚宣布与 AWS 的类似合作（无直接投资）：AWS 追加部署 200 万张 Nvidia GPU 并集成 NVLink Fusion。Nvidia 高管称"每个云、每个模型厂商都在以某种形式部署我们的平台"，此举让定制芯片与 Nvidia 机架级架构共存于同一标准平台。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅TechCrunch 正文全文核验（8/31，记者 Rebecca Bellan）— <strong style="font-weight:600">关注</strong>: Nvidia 以生态换份额，对冲大厂自研芯片潮</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Perceptron 发布 Isaac 0.5：36B 开源具身基础模型 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Perceptron AI 发布 Isaac 0.5，自称首个处于多模态视频理解、具身推理与机器人控制前沿的开源模型。36B 参数稀疏模型，输入图像/视频/语言指令/机器人状态/历史动作，支持视频问答、物体指认与跟踪、任务进度报告、生成机器人动作。训练数据：35+ 机器人系统、100K 小时机器人经验、100 万小时通用视频、3T 多模态 tokens。核心声称：通用视频从 1,000 小时扩至 100 万小时，达成同等 action loss 所需遥操作从约 5,900 小时降至 28 小时（210×），形成&quot;视频数据替换昂贵遥操作&quot;的 scaling law。checkpoints、训练/推理代码经 LeRobot 发布。</p>
+<p style="margin:0.8em 0">Perceptron AI 发布 Isaac 0.5，自称首个处于多模态视频理解、具身推理与机器人控制前沿的开源模型。36B 参数稀疏模型，输入图像/视频/语言指令/机器人状态/历史动作，支持视频问答、物体指认与跟踪、任务进度报告、生成机器人动作。训练数据：35+ 机器人系统、100K 小时机器人经验、100 万小时通用视频、3T 多模态 tokens。核心声称：通用视频从 1,000 小时扩至 100 万小时，达成同等 action loss 所需遥操作从约 5,900 小时降至 28 小时（210×），形成"视频数据替换昂贵遥操作"的 scaling law。checkpoints、训练/推理代码经 LeRobot 发布。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官网博客正文核验；⚠️210× scaling law 为厂商自述实验，未独立复现 — <strong style="font-weight:600">关注</strong>: 视频替代遥操作若成立，直接改写数据飞轮成本</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: perceptron.inc 官方博客（🟢）</li>
@@ -16697,5 +16697,434 @@ RO初心服回榜#61</li>
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-01</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-01.html</link><guid isPermaLink="false">report:雪球动态:2026-09-01:72632d6c</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-01</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-01 22:05</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：48条 | 信号：🔥4 / 🔴1 / ⚪7</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 浊静徐清 — 腾讯控股(00700) / 燧原科技(688801)（8条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 燧原科技 IPO 定价落地 + HY4/WorkBuddy 数据 → 腾讯 AI 资产价值重估看多</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">腾讯在 AI 上的押注（燧原+混元+WorkBuddy）正在兑现为可定价的资产：燧原 IPO 让腾讯系持股获得公开市场定价，单一项目最终可能带来 1000 亿以上投资回报；HY4 正式版有望成为全球开源第一。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">燧原 IPO 发行价 142.18 元，腾讯战配 2.48 亿元（174.71 万股）锁 36 个月 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">新闻引用</code></li>
+<li style="margin:0.3em 0">燧原芯片&quot;差不多直供腾讯&quot;，腾讯出约 20% 的钱吃掉整个芯片产能 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">个人判断</code></li>
+<li style="margin:0.3em 0">&quot;阿里 AI 目前定价 1.2 万亿港币，约等于阿里市值减拼多多市值，腾讯 AI 应该估值多少&quot; — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">主观估值</code></li>
+<li style="margin:0.3em 0">WorkBuddy 7 月总使用次数是字节约 10 倍、字节是阿里约 10 倍；8 月月活翻一倍多 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">无来源数据</code></li>
+<li style="margin:0.3em 0">老外测评 HY4 预览版评价高，全球开源前三、正式版可能老大 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">测评转述</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">燧原 IPO 定价（事实）→ 腾讯 20%+ 持股获市场定价（事实）→ 若燧原成长为拼多多/美团级投资（类比）→ 1000 亿回报（愿景）→ 腾讯 AI 整体被低估（结论）。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">燧原发行价 142.18 元/股</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/31 公告，科创板 688801，9/2 申购；发行 4303.52 万股、募资 61.19 亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯 2.48 亿战配锁 36 个月</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">上海启善获配 174.71 万股=2.48 亿元，限售 36 个月（财新/上证报）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯系持股 ~20.26-20.66%，市值约 126 亿</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">发行后市值 611.87 亿，腾讯系按发行价约 126.45 亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">单一项目 1000 亿以上投资回报</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">愿景非测算：按发行价腾讯系仅 126 亿市值，赚 1000 亿需市值 ~5300 亿（10x IPO 价）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;阿里 AI 定价 1.2 万亿港币&quot;</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观估值口径，无公开锚</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">WorkBuddy 使用次数 10x/10x、月活翻倍</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无第三方数据源，无法核实</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;腾讯出 20% 的钱吃全部产能&quot;</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯系 20.26% 属实且为第一大客户，但&quot;全部产能&quot;夸大（其他客户：小米/中兴/华虹等战配+外部客户）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：1000 亿回报（依赖燧原成长为千亿利润公司）；WorkBuddy 月度数据。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[乐观偏差/锚定]</code> — 用拼多多/美团历史回报锚定燧原未来，忽略 AI 芯片竞争烈度（英伟达 35 亿投联发科同日公告）与燧原未盈利现状（2026H1 净利 -6.32 亿）。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：① 燧原 DSA 架构能在英伟达生态外建立规模盈利；② 腾讯 AI 叙事可独立定价。
+<strong style="font-weight:600">替代解释</strong>：燧原 2026H1 营收 11.2 亿（+279%）但亏损 6.32 亿，市销率 61.8x；若收入增速回落，612 亿市值对应的定价可能已透支。腾讯持股 126 亿对腾讯 4 万亿+ 市值影响 &lt;0.3%。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — IPO 数字全部属实（✅3 项），但核心结论（1000 亿回报、腾讯 AI 低估）依赖主观愿景与不可验证数据。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若燧原收入放量不能转化为毛利/现金流（61.8x PS），或腾讯 AI 叙事被市场证伪，&quot;1000 亿回报&quot;将停留在愿景层面。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 庶人哑士 — 乐舒适(02698)（3条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中报 EPS/派息数据验证 → 看多（成长+高分红）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">乐舒适上半年 EPS 0.12 美金、派息 0.08 美金、半年度股息率约 2%；上市不足一年派息融资比接近 100%，&quot;论迹不论心&quot;，管理层回报意愿强。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">上半年 EPS 0.12 美金，派息 0.08 美金，半年度股息率约 2% — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">财报数据</code></li>
+<li style="margin:0.3em 0">去年 IPO 融 1.21 亿美金；去年年报+今年半年报合计派息 1.05 亿美金 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">财报数据</code></li>
+<li style="margin:0.3em 0">纸尿裤/卫生巾无壁垒，但非洲当地生产+渠道铺开难（7/29 观点延续）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">行业推理</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">中报派息数据（事实）→ 派息融资比近 100%（计算）→ 管理层愿意分钱（推断）→ 成长中的海外消费品公司值得持有（结论）。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">H1 EPS 0.12 美金</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">实际 12.2 美分（2026 中报，智通/格隆汇）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中期股息 0.08 美金</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">每股 8 美分，合计约 4970 万美元，派息率约 66%，9/18 派发</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年度股息率约 2%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/19 收 31.92 港元，0.08 美元≈0.62 港元 → 约 1.9-2.0%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">去年 IPO 融 1.21 亿美金</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未检索到直接公告数字；2025-11 上市募资量级相符，无法直接确认</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">年报+半年报合计派息 1.05 亿美金</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">半年报 4970 万✅；年报派息金额未获直接来源，若约 5500 万则成立</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">营收 3.33 亿(+30.7%)、净利 7582 万(+46%)、毛利率 35.8%(+1.6pct)</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026 中报公开数据</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：IPO 融资额与年报派息额（两数字相乘得&quot;派息融资比近 100%&quot;）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code> — 高分红推断&quot;管理层靠谱&quot;为时过早（上市不足一年，分红率 66% 可持续性未验证；业绩会管理层自认最大难题是核心高管人才）。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：非洲/拉美卫品渗透率提升逻辑延续（人口红利+渠道壁垒），汇率利好（加纳塞地/赞比亚克瓦查走强）可持续。
+<strong style="font-weight:600">替代解释</strong>：2026H1 利润高增含 IPO 利息收入 680 万美元与上市开支消失的一次性因素；界面新闻提示&quot;部分利好因素 2027 年可能不延续&quot;；公司长期目标仅 15% 年增长（vs H1 30.7%）。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢高（核心财报数字全对）— 数据均来自公开中报，逻辑链自洽；仅 IPO 融资额/年报派息两处次要数字未直接验证。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 非洲地缘/汇率/人才瓶颈任一恶化，30%+ 增速不可持续，高分红率届时难以为继。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 terryp57 — 申洲国际(02313)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 中报利空出尽判断 → 看多（&quot;下有底，上面赔率不错&quot;）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">申洲利润底部扎实：Nike/Puma 不会破产，Nike 放弃大中华区也就影响 12%；产能可调、多重利空已同来，此刻赔率好。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">中报净利 -40%，&quot;多重利空同来&quot;（汇兑+订单审慎+人工+原料）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">财报数据</code></li>
+<li style="margin:0.3em 0">Nike/Puma 不会破产；Nike 大中华区全放弃影响约 12% — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">推理</code></li>
+<li style="margin:0.3em 0">产能可调（越南/柬埔寨扩张）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">财报信息</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">利空全部显现（事实）→ 底部夯实（推断）→ 风险收益比改善（结论）。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中报净利 19.05 亿，同比 -40%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/25 公告：销售额 141.79 亿(-5.3%)、毛利率 22.6%(-4.5pct)、中期息 0.88 港元(-36.2%)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多重利空：汇兑/订单/人工/原料</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公司公告归因一致（人民币升值+客户审慎+薪资上涨+化纤原料涨）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;利润底部扎实&quot;</td>
+  <td style="text-align:center">🟡</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断；银河纺服亦判断&quot;下半年订单有望环比改善&quot;，但 H1 毛利率已跌至 22.6%</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Nike/Puma 破产传闻</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未检索到权威来源支撑&quot;Nike/Puma 即将破产&quot;的传言本身</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Nike 大中华区占 12%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与中国区收入占比口径大致相符（2026H1 国内销售 34.57 亿/141.79 亿≈24%，但 Nike 自身大中华区占比低于此，口径待确认）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：底部判断依赖&quot;利空已全部暴露&quot;，但汇兑（人民币继续升值）、品牌客户下单继续审慎均可能延续。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[抄底思维/乐观偏差]</code> — &quot;多重利空同来=底部&quot;是情绪判断，非量化证据；净利 -40% 含汇兑账面损失（美元净流动资产重估），若汇率反转反而有回冲弹性，作者未区分经营性 vs 非经营性下滑。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：欧美运动需求走弱见底、客户补库周期重启。
+<strong style="font-weight:600">替代解释</strong>：运动类收入 -10.7% 反映的是欧美需求结构性走弱（非一次性）；TTM PE 11.8x 对应 -40% 利润，若 2027 盈利不能修复，低估值是价值陷阱而非机会。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 财报数字准确，但&quot;底部&quot;判断是定性博弈，历史对照显示作者 2025-10 曾小幅减持申洲（代工收息股重排）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 欧美订单继续走弱或人民币续升，底部逻辑失效；40% 利润下滑中经营性 vs 汇兑性占比未拆解。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 逸修1 — 心动公司(02400)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 上半年三个经营问题出清 → 偏多（负贡献确定收窄）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">小镇国服运营事故已恢复；MK/AI 投入负贡献暑期调整完毕；下半年负贡献大幅减少&quot;是确定的&quot;（能否转正不确定）。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">小镇国服运营事故，已恢复差不多 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">行业跟踪</code></li>
+<li style="margin:0.3em 0">MK 和 AI 投入负贡献，暑期调整好（7 月底开发者大会老黄官宣、半年报老戴说更清楚）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">财报/发布会</code></li>
+<li style="margin:0.3em 0">下半年负贡献大减确定，正贡献未定 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">推断</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">三个利空逐一出清（事实）→ 下半年利润弹性来自费用端收窄（推断）→ 业绩低点已过（结论）。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中报营收 33.12 亿(+7.5%)</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/28 中报：游戏收入 23.18 亿(+11.9%)，小镇全球上线受欢迎</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归母溢利 7.14 亿(-5.4%)、经调整 7.84 亿(-8.1%)</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">格隆汇口径；智通口径经调整 7.72 亿(-3%)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;MK/AI 负贡献&quot;</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经调整溢利下降与费用投入吻合；毛利率 70.3%(-2.8pct)</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小镇国服运营事故已恢复</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">事故细节无公开报道直接对应；&quot;tap 熄火&quot;系 maker 失误（相根🔒），中报显示小镇海外成功</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">下半年负贡献大减</td>
+  <td style="text-align:center">🟡</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">前瞻判断；H1 经调整 7.84 亿 vs 全年锚 18.1 亿中枢 → H2 需 ~10.3 亿，仍依赖小镇海外增量</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：运营事故细节；下半年费用节奏。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误]</code> — 长期跟踪者易把每个季度利空都解读为&quot;最后一次出清&quot;。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：TapTap 平台价值 + 小镇海外放量能支撑 H2 利润环比跳升。
+<strong style="font-weight:600">替代解释</strong>：H1 网游收入 +11% 主要靠小镇海外，老游戏用户下滑被掩盖（&quot;部分被现有游戏用户数据减少抵销&quot;）；若小镇海外买量成本高企，经调整利润弹性有限。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 中报数字全对，逻辑与用户锚（26E 营收 67.4 亿/扣非 18.1 亿中枢，H2 需 34.3 亿/10.3 亿）自洽；但&quot;负贡献收窄&quot;节奏为预测。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 小镇海外增量不及预期或买量成本失控，H2 利润无法追平全年锚。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 Tbills — 煤炭行业（短期谨慎）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 当前煤炭情景类似&quot;小号的 21 年下半年&quot; → 短期偏空提示</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h4>🧠 作者的主张（结论）</h4>
+<p style="margin:0.8em 0">煤炭行业当前处境类似 2021 年 H2 的缩小版：烈度与波动弱于当时，产业/政策/金融三端都有学习效应、行动瞻前顾后；仅从国内政策解读，后续情景需要谨慎。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">类比 21H2（煤价见顶回落阶段）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">历史类比</code></li>
+<li style="margin:0.3em 0">烈度弱于当时、各方有学习效应 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">判断</code></li>
+<li style="margin:0.3em 0">仅从国内政策解读未来情景有局限（不考虑其他因素）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">方法论声明</code></li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">21H2 情景复盘（历史）→ 当前相似但弱化（类比）→ 需考虑政策以外因素（开放性）→ 谨慎对待（结论）。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">类 21H2 情景</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史类比，无法验证；21H2 后煤价经历了大幅下行，若类比成立则对周期股是实质警示</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">烈度弱于当时</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：类比本身（无量化锚）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[类比偏差]</code> — &quot;像 21H2&quot; 若被市场接受会成为自我实现叙事；但 Tbills 同时声明&quot;无任何投资建议&quot;并承认政策外因素，方法论上较克制。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：国内政策端（增产/限价/保供）进入类似 2021 年的宽松周期。
+<strong style="font-weight:600">替代解释</strong>：Tbills 历史观点（重置成本上升、成本曲线陡峭、新疆井工时刻、海外投资不足）支持煤炭长期产能价值；本次是短期情景提示而非逻辑反转。用户锚 E=中枢下沿（STH 670-700）与&quot;类 21H2&quot;并不矛盾——周期股 E 用中枢下沿正是为下行情景准备。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 定性类比；但作者为能源大宗深度研究者（用户组合兖矿/神华持仓直接相关），历史供给分析质量高。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 类比 21H2 过度悲观，若政策实际偏紧（保供力度低于预期），煤炭盈利韧性超预期。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ STH_ — 持仓组合状态更新（无买卖信号，防御性信息）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 组合年化股东回报比两个月前底部少约 2%（股价、EPS、公司股东回报比例三因素）；中报小部分公司上修、大部分中低幅下修（税率/兑汇/经济大盘）；通胀、长债、加息、流动性风险均上升；以保护组合购买力为目标，对货币贬值（原文截断）…</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核查</strong>: 组合自述，无法独立验证（❓）；但框架与历史一致：2026-05-15&quot;股东回报权重略高于成长&quot;、2026-04-29&quot;年化股东回报 8%+，类债类现金&quot;。<strong style="font-weight:600">📜 一致</strong> — 防御姿态强化（回报率下修+风险上升→保护购买力优先）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键点</strong>: 这是 STH 框架下&quot;风险预算&quot;信号——与 Tbills 煤炭谨慎共振（宏观流动性风险上升）。用户可用自身组合表核对：E 列规则（周期股 E=中枢下沿）+ 单票 35% 现金 35% 上限是否已覆盖该类下修情景。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 汤诗语 — 保险中报调仓（中国平安/中国人寿）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 人寿股票+基金（不含货基）配置比例 16.89%→19.14%，接近 20%，A 股高波动下超 20% 难；各险企中报&quot;估计都调仓了，科技换红利&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核查</strong>: ✅ 16.89%→19.14% 与中报原文一致（中国人寿 2026 中报，8/27 披露；归母净利 1344.89 亿 +228.6%）；⚠️ &quot;科技换红利&quot;为推断——中国人寿官方归因为&quot;稳步推进权益资产长期布局+市值波动&quot;，且每经报道多家险企高管称&quot;下半年继续加码科技成长与新质生产力&quot;，方向并不一致。<strong style="font-weight:600">📜 一致</strong> — 延续 7/30&quot;300 红利修复&quot;、8/11&quot;300 红利/成长镜像、场内资金折腾&quot;观点。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">假设</strong>: 中报持仓变化反映主动调仓而非市值被动波动。<strong style="font-weight:600">替代</strong>: 上半年科技股涨幅大，权益占比上升可能主要来自市值被动扩张。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 亲爱的阿兰 — 港股通红利税澄清（中远海控 01919 / 东方海外 00316）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>: 港股通下中远海控（H 股）股息按 20% 扣税由公司代扣；东方海外（百慕大注册、非 H 股）同样按 20% 扣税由中国结算代扣——纠正&quot;注册地在香港就不收 20% 个税&quot;的说法。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核查</strong>: ✅ H 股 20% 由公司代扣与既有规则一致；❓ 东方海外&quot;同样 20%&quot;存疑——既有规则中非 H 股（红筹）股息税是&quot;盲盒&quot;：多数红筹按 10%（香港居民企业），少数 28%（20%+10% 预提叠加），统一 20% 的说法未检索到新政原文。⚠️ 注意 9/1 财政部/税务总局 2026 年 27 号公告（外籍个人分红免税取消、统一 20%）针对外商投资企业外籍股东，与港股通 H 股股息税是两回事，勿混淆。<strong style="font-weight:600">📜 一致</strong> — 7/28 曾复盘 21 年 7 月中远海控。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">假设</strong>: 存在新发文明文统一非 H 股 20%。<strong style="font-weight:600">替代</strong>: 若无新文，东方海外实际扣税仍为 10% 或 28%，&quot;同样 20%&quot;错误。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 酒金岁月 — 商品周期高位例证 + 泸州老窖长期多头（个人操作）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张 1</strong>: &quot;比如石油 120 美元、黄金 6000 美元，纵观历史在周期偏高位置，据此卖出算投资还是投机&quot;——投资/投机定义之辩。
+<strong style="font-weight:600">核查</strong>: ⚠️ 举例数字与实际不符：2026-09-01 现货黄金约 4448-4458 美元/盎司（8 月高点 4697），布伦特原油约 83-92 美元（8/7 收 83.55、霍尔木兹遇袭后冲 92），而非 6000/120。若以此判断&quot;周期高位&quot;需大幅下调幅度。<strong style="font-weight:600">主张 2</strong>: 老窖底仓浮仓高抛低吸历史（20-28/25-40/70-150 三次差价），现改全部长期持有+加码攒股，&quot;近 300 元也不卖&quot;。<strong style="font-weight:600">核查</strong>: ❓ 个人操作陈述；隐含泸州老窖从高位大幅回撤（&quot;300 的老窖拿到 75&quot;为他人对白）。<strong style="font-weight:600">📜 新</strong>（酒金岁月历史库无石油/黄金记录）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">假设</strong>: 商品已在周期高位。<strong style="font-weight:600">替代</strong>: 若中东冲突（霍尔木兹遇袭 8/31）推升油价至 92+，短期仍有上行风险，卖出的机会成本可能很高。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 其他无信号帖（8 条合并摘要）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标题</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结论</th>
+  <th style="text-align:center">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转发字节员工&quot;AI 叙事要塌&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转述他人看空（成本大增效率未提），本人立场相反（转述帖本身无独立信号）</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山行</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">油轮 vs 存储/海狗比较</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转发笨笨的投资者2 油轮量化算账，问油轮&quot;还不如海狗？&quot;，无方向</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">孤独进化体</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道至简（ALDI 书评）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">书是职业经理人时期出版，&quot;看这本书就像在看拼多多&quot;，无投资动作</td>
+  <td style="text-align:center">⚪</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間 ×6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">啤酒/美剧/生活</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无信号（白酒多头但今日纯生活帖）</td>
+  <td style="text-align:center">⚪</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月 ×4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">价值投资定义/巴菲特/老窖</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">理念讨论，无新标的信号</td>
+  <td style="text-align:center">⚪</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Penny010</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">戴总的故事</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无内容（转发）</td>
+  <td style="text-align:center">⚪</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 本日值得质疑的观点</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清&quot;燧原 1000 亿回报&quot;</strong>：腾讯系持股按发行价仅 126 亿市值，1000 亿回报需要燧原市值 5300 亿+（约 10 倍于 IPO 价）且腾讯不减持。用拼多多/美团历史回报锚定未盈利芯片公司，忽略了 AI 芯片竞争烈度（英伟达 35 亿美元投联发科同日公告）与 61.8x PS 的定价透支风险。126 亿对腾讯市值影响 &lt;0.3%，&quot;腾讯 AI 价值重估&quot;叙事强度超过资产本身量级。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">Tbills&quot;类 21H2 小号&quot;</strong>：历史类比无法证伪也无法证实，但 21H2→22 年煤价腰斩的教训在前。对持有兖矿/神华的用户：这正是&quot;周期股 E=中枢下沿&quot;纪律的应用场景，而非仓促减仓理由——Tbills 本人也强调&quot;烈度弱于当时+学习效应&quot;。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">酒金岁月价格数字失真</strong>：黄金 6000 美元/油价 120 美元 vs 实际 4450/90 左右，偏差 35-45%。若其&quot;周期高位&quot;判断基于此，则高位程度被夸大；但霍尔木兹遇袭（8/31）后油价确有上行风险，&quot;卖在周期顶&quot;的难度同样被低估。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">亲爱的阿兰&quot;东方海外同样 20%&quot;</strong>：非 H 股股息税实际是 10%/28% 盲盒，统一 20% 需新政原文支撑。若用户按此测算东方海外股息现金流，建议先核实 9/1 发文原文（财政部/税务总局），避免股息预期偏差 ±8%。</p>
+</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📎 数据源说明</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">燧原科技：发行公告 8/31（上交所 688801），财新/上证报/中证报 2026-09-01</li>
+<li style="margin:0.3em 0">乐舒适：2026 中报 8/19（港交所 02698），智通/格隆汇/财华社/每经 8/19-8/24</li>
+<li style="margin:0.3em 0">申洲国际：2026 中报 8/25（港交所 02313），证券时报/智通/银河纺服</li>
+<li style="margin:0.3em 0">心动公司：2026 中报 8/28（港交所 02400），格隆汇/智通/金吾财讯</li>
+<li style="margin:0.3em 0">中国人寿：2026 中报 8/27（上交所 601628），环球网/证券时报/新京报</li>
+<li style="margin:0.3em 0">港股通红利税：知乎税务问答（国金证券/开户经理），财政部 2026-09-01 第 27 号公告（外籍股东事项）</li>
+<li style="margin:0.3em 0">黄金/油价：汇通网/知乎 2026-09-01（现货金 4448-4458，布油 83-92）</li>
+<li style="margin:0.3em 0">历史对照：雪球 Monitor 本地库（185232 条，41 源），Phase 1 关键词检索</li>
+</ul>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
