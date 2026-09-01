@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 02 Sep 2026 05:00:37 +0800</lastBuildDate><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 02 Sep 2026 06:00:47 +0800</lastBuildDate><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 解出的数学题越来越多，但数学的价值不是解题</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个让数学家集体改观的结果</h2>
@@ -16402,28 +16402,201 @@ RO守护永恒的爱2（预约榜，8-31
 </blockquote>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📜 历史检索结果</h2>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">关键词&quot;组合 股东回报 换现金 减仓 防御&quot; → 命中5条 → 2024-02-06 &quot;昨天减仓加仓各三只…手里还有15%+现金，再恐慌一点吧&quot;；2025-04-08 &quot;用现金买入股权=锁定现金流回报，也让渡了未来的购买力…回购注销即刻生效边际roi接近7%&quot;</li>
-<li style="margin:0.3em 0">关键词&quot;通胀 长债 加息 流动性 现金 购买力&quot; → 命中5条 → 2025-06-06 &quot;我的解法是权益+资源+法币…组合第一性原理=在任何情景的购买力最大受损率&quot;；2026-06-24 &quot;黄金跌破4000，FED 7-10月观望或加25bp观望概率大&quot;；2026-05-21 &quot;法币信用危机可能性存在且持续提升，黄金可能前低后高&quot;</li>
+<li style="margin:0.3em 0">关键词"组合 股东回报 换现金 减仓 防御" → 命中5条 → 2024-02-06 "昨天减仓加仓各三只…手里还有15%+现金，再恐慌一点吧"；2025-04-08 "用现金买入股权=锁定现金流回报，也让渡了未来的购买力…回购注销即刻生效边际roi接近7%"</li>
+<li style="margin:0.3em 0">关键词"通胀 长债 加息 流动性 现金 购买力" → 命中5条 → 2025-06-06 "我的解法是权益+资源+法币…组合第一性原理=在任何情景的购买力最大受损率"；2026-06-24 "黄金跌破4000，FED 7-10月观望或加25bp观望概率大"；2026-05-21 "法币信用危机可能性存在且持续提升，黄金可能前低后高"</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">核心判断</h2>
-<p style="margin:0.8em 0">STH_ 9-1 发组合调仓帖：年化股东回报较两月前底部降约2%（股价变化+EPS调整+股东回报比例调整三因素），中报业绩&quot;小部分上修、大部分中低幅度下修&quot;，通胀/长债/加息/流动性四风险齐升 → 动作=&quot;换了点现金&quot;。<strong style="font-weight:600">这不是转空</strong>：组合第一性原理=保护购买力（2025-06-06），现金是流动性危机时最无可替代的购买力；且他明说&quot;对货币贬值敞口充足、对升值敞口不足&quot;——换现金是在补升值/流动性短板，属加息事件前的预期管理式小额防御（估≤5%仓位），非方向性看空。</p>
+<p style="margin:0.8em 0">STH_ 9-1 发组合调仓帖：年化股东回报较两月前底部降约2%（股价变化+EPS调整+股东回报比例调整三因素），中报业绩"小部分上修、大部分中低幅度下修"，通胀/长债/加息/流动性四风险齐升 → 动作="换了点现金"。<strong style="font-weight:600">这不是转空</strong>：组合第一性原理=保护购买力（2025-06-06），现金是流动性危机时最无可替代的购买力；且他明说"对货币贬值敞口充足、对升值敞口不足"——换现金是在补升值/流动性短板，属加息事件前的预期管理式小额防御（估≤5%仓位），非方向性看空。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">逐条分析</h2>
 <p style="margin:0.8em 0">📌 <strong style="font-weight:600">持仓组合防御性调仓帖（原发）</strong> | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;算了下：整个持仓组合比两个月前的底部少了约2%年化股东回报（股价变化、eps调整、公司股东回报比例调整），中期业绩与内生性增速小部分公司上修、大部分中低幅度下修（税率、兑汇、经济大盘增速等因素）。通胀、长债、加息、市场流动性风险都上升一些。以保护组合购买力的目标出发，对货币贬值风险敞口充足（法币对实物与资产购买力），对货币升值风险敞口不足。基本面略恶化或确定性下降、赔率下降、宏观风险上升=换了点现金。&quot;</p>
+<p style="margin:0.8em 0">"算了下：整个持仓组合比两个月前的底部少了约2%年化股东回报（股价变化、eps调整、公司股东回报比例调整），中期业绩与内生性增速小部分公司上修、大部分中低幅度下修（税率、兑汇、经济大盘增速等因素）。通胀、长债、加息、市场流动性风险都上升一些。以保护组合购买力的目标出发，对货币贬值风险敞口充足（法币对实物与资产购买力），对货币升值风险敞口不足。基本面略恶化或确定性下降、赔率下降、宏观风险上升=换了点现金。"</p>
 </blockquote>
 <p style="margin:0.8em 0">[A2.8, A3仓位, A7宏观, A1.8钱流]
 主张: 组合股东回报小幅回落+宏观风险上升 → 小额换现金，购买力保护框架内的风险再平衡
 → 论据: ①年化股东回报-2%，三因素精确拆解（股价涨摊薄股息率/eps中报下修/公司股东回报比例调整）②中报业绩修正方向：小部分上修、大部分中低幅度下修（税率、兑汇、经济大盘增速）③四风险齐升：通胀、长债、加息、市场流动性 ④敞口结构自评：对法币贬值敞口充足（重实物/资产），对升值敞口不足
-→ 推理链: 9月第二轮加息潮落地在即（8-29帖：ECB 98%/BOJ 88%/FED 46-57%）→ 长债收益率与流动性风险上行 → 组合购买力最大受损情景从&quot;通胀/贬值&quot;向&quot;流动性危机+法币升值&quot;偏移 → 现金=流动性危机最无可替代的购买力（2025-06-06原话）→ 换一点现金补短板
-核查: ✅与8-28中报总结一致（增长中枢下移、大部分公司确定性&quot;差一点&quot;）| ✅与8-29宏观主线闭环（9月加息概率已定价）| ❓换现金比例未披露（&quot;了点&quot;=小额）| ⚠️&quot;-2%年化股东回报&quot;含股价上涨摊薄效应（被动稀释，非主动减配），且两月前底部=高股息率峰值，基数效应需注意
+→ 推理链: 9月第二轮加息潮落地在即（8-29帖：ECB 98%/BOJ 88%/FED 46-57%）→ 长债收益率与流动性风险上行 → 组合购买力最大受损情景从"通胀/贬值"向"流动性危机+法币升值"偏移 → 现金=流动性危机最无可替代的购买力（2025-06-06原话）→ 换一点现金补短板
+核查: ✅与8-28中报总结一致（增长中枢下移、大部分公司确定性"差一点"）| ✅与8-29宏观主线闭环（9月加息概率已定价）| ❓换现金比例未披露（"了点"=小额）| ⚠️"-2%年化股东回报"含股价上涨摊薄效应（被动稀释，非主动减配），且两月前底部=高股息率峰值，基数效应需注意
 假设: 9月加息落地+长债利率上行 | 替代: 若FED不加息（46-57%概率，偏谨慎），流动性风险缓和，现金机会成本上升、防御过早
-📜 历史对照: 2025-06-06 &quot;权益+资源+法币…任何情景购买力最大受损率&quot; → 本次调仓=该框架日常执行 → ✅一致 | 2024-02-06 &quot;手里还有15%+现金，再恐慌一点吧&quot; → 历史用现金比例管理风险，当时15%+，本次属低位补一点 → ✅一致 | 2026-05-21 &quot;法币信用危机…黄金前低后高&quot; → 本次&quot;对货币贬值敞口充足&quot;=黄金/资源配置未变 → ✅一致 | 2026-06-24 &quot;FED 7-10月观望或加25bp概率大&quot; → 本次&quot;加息风险上升&quot;=9月概率重估后转谨慎 → 🔄微调</p>
+📜 历史对照: 2025-06-06 "权益+资源+法币…任何情景购买力最大受损率" → 本次调仓=该框架日常执行 → ✅一致 | 2024-02-06 "手里还有15%+现金，再恐慌一点吧" → 历史用现金比例管理风险，当时15%+，本次属低位补一点 → ✅一致 | 2026-05-21 "法币信用危机…黄金前低后高" → 本次"对货币贬值敞口充足"=黄金/资源配置未变 → ✅一致 | 2026-06-24 "FED 7-10月观望或加25bp概率大" → 本次"加息风险上升"=9月概率重估后转谨慎 → 🔄微调</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">综合研判</h2>
-<p style="margin:0.8em 0">单帖核心=组合会计+风控动作，STH_ 在9月加息落地前做小额防御性换现金，与其购买力保护第一性原理完全自洽。三个信号：①核心配置未变（仍重实物/资源，贬值敞口充足，黄金/资源逻辑未被动摇）②现金从低位小幅提升=流动性保险，不是看空 ③坦率承认&quot;升值敞口不足&quot;=组合风险盲区在法币升值情景，留现金的动机之一。对跟踪者含义：STH_ 进入加息事件前防御姿态，若9月加息落地+长债上行，可能继续调仓——后续关注是否披露具体减仓标的。</p>
+<p style="margin:0.8em 0">单帖核心=组合会计+风控动作，STH_ 在9月加息落地前做小额防御性换现金，与其购买力保护第一性原理完全自洽。三个信号：①核心配置未变（仍重实物/资源，贬值敞口充足，黄金/资源逻辑未被动摇）②现金从低位小幅提升=流动性保险，不是看空 ③坦率承认"升值敞口不足"=组合风险盲区在法币升值情景，留现金的动机之一。对跟踪者含义：STH_ 进入加息事件前防御姿态，若9月加息落地+长债上行，可能继续调仓——后续关注是否披露具体减仓标的。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">关注标的</h2>
 <p style="margin:0.8em 0">无新增个股信号（组合层面动作，未点名标的）</p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item></channel>
+]]></content:encoded><category>STH解码</category></item><item><title>[播客信号] 播客投资信号 2026-09-02</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-02.html</link><guid isPermaLink="false">report:播客信号:2026-09-02:1e9d1064</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-02</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-02</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描集数：2集（新） | 持仓披露：🔥0 / 🔴0 | 高质量内容：1集
+扫描了 2 个播客，共 2 集：[a16z(1集), 跨国串门儿计划(1集)]</p>
+</blockquote>
+<p style="margin:0.8em 0">管线完整性：✅ 正常（各源最近3个转录文件大小/title/内容匹配，无全同文件告警）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #699. Gavin Baker：AI 需求远未见顶，算力短缺将如何重塑全球产业</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-01 | <strong style="font-weight:600">来源</strong>: RSS→Qwen3-ASR 转录 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6a969582f03e74ee6b03456a" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6a969582f03e74ee6b03456a</a>
+<strong style="font-weight:600">相关性</strong>: 9/10 | <strong style="font-weight:600">信号</strong>: ⚪（无新持仓披露）</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">注：本集为 a16z 播客 Gavin Baker 访谈的中文版（08-31 英文原版已处理）。Gavin Baker = Atreides Management CIO/创始合伙人，AI 主题知名基金投资人。</p>
+</blockquote>
+<h4>🧠 嘉宾的主张（结论）</h4>
+<p style="margin:0.8em 0">AI 需求持续远超供给，公开市场 AI 股 8 月深度回撤与基本面背离；这是一个正和市场（前沿实验室/开源/云厂商/应用层/英伟达可以全赢），不是零和；数据中心回本周期 &lt;1 年且融资成本极低，建设潮可持续；英伟达处在一切的核心，垂直整合+横向开放的策略几乎无法被挑战；微软在&quot;多模型+开源基座+自有数据微调&quot;的未来中地位有利；SpaceX 轨道算力（2027Q4 发射 Rubin 机架）将把全球算力格局推向太空。</p>
+<h4>📊 支撑论据（含证据类型）</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">7-8 月问遍 AI 领袖无人能给出恶化数据点</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> Gavin 整个夏天标准问题：&quot;你业务中正在恶化的量化数据指标是什么？&quot;至少 7-8 月无人能答。OpenAI 在加速、开源在加速、Grok（尤其 Grokbot 之后）大幅加速。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据中心回本 &lt;1 年</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> Nebius 回本周期 9-10 个月（客户预付 50-60% 算力费）；现货市场更快；SpaceX 超大规模集群回本更快。其投资生涯罕见&quot;几百亿几千亿美元投入不到一年回本&quot;的机会。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达锁定全球 70-80% 供应</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 提前锁定晶圆代工/DRAM/激光器/电容器/机架全供应链产能；其数据中心融资最容易（Blackstone/KKR/Apollo 提供残值担保 RVG 融资，股权出资仅约 30%，TPU 需至少 2 倍股权+更高利率）→ 资本成本是巨大优势。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">需求渗透才刚起步</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据+推理]</code> 全球 15 亿知识工作者，重度付费用户仅约 1000-3000 万；Atreides 内部 token 消耗 3-8 月涨 100 倍；最顶尖工程师 AI 完成代码比例从 20% 升至 95%+。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Kimi 开放权重许可证抽 30% 收入分成</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 开放权重≠开源，商业条款可抽成；token 消耗算力相同，只是利润率差异。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">轨道算力经济账反转</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 每 GW 500 亿美元（IT 设备 350 亿 + 地面电力/冷却/人工 150 亿且面临通胀），星舰可复用后发射成本 &lt;10 亿 → 空间成本优势逆转；马斯克与黄仁勋共同设计 Rubin 机架（ASR 音译&quot;Ruben&quot;），计划 2027Q4 发射。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">云厂商估值框架</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[估值方法]</code> EV/固定资产净值 ≈ AI 版市净率，超大规模云厂商中存在&quot;明显低效之处&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">历史规律</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 从南海泡沫到铁路/汽车/互联网，每次变革性技术都有泡沫+过度建设，但本次建设大部分由经营现金流支撑而非债务。</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">供给严重受限（电力/晶圆/光刻/DRAM/电工人工）→ 需求端 15 亿知识工作者渗透率极低（重度用户仅千万级）→ 回本周期 &lt;1 年 + 低资本成本 → 供给侧投资回报率极高（罕见的高 ROI 资本支出）→ 建设潮可持续而非泡沫 → 正和格局下英伟达是唯一&quot;所有赢家都要经过&quot;的基础设施 → 8 月 AI 股回撤 = 与基本面背离 → 看多 AI 基础设施（隐含）</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">嘉宾声称的事实</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Kimi 许可证抽取 30% 收入分成</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">开放权重模型按收入分成抽成非常规做法，需查 Moonshot 最新商业条款</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Nebius 回本 9-10 个月</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Gavin 称有信息披露，未给出处</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">英伟达锁定 70-80% 供应</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估算值，多家机构口径不同（60-80%）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Rubin 机架 2027Q4 太空发射</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">重大声明，&quot;Ruben&quot;为 ASR 音译（应为 NVIDIA Rubin 平台）；方向可信但时间表待验证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Atreides token 消耗 3-8 月涨 100 倍</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">自述，第一手数据</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">工程师 AI 完成代码 20%→95%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">自述（其公司内部）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8 月 AI 股大幅回撤</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">公开市场可查（2026-08 AI 股回调）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：轨道数据中心规模（&quot;几十亿瓦中位数&quot;）；SpaceX 发射能力一天两次/年 5000 次；小行星 Psyche 采矿（远期愿景）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[同温层/确认偏误]</code> — 问的&quot;所有 AI 公司&quot;均为圈内玩家，其业务恶化时未必会如实回答；Gavin 自己重仓 AI 基础设施，问的问题本身带有立场</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> — &quot;过去 26 年不要做空黄仁勋&quot;是事后总结，忽略同时代做空者爆仓/其他芯片王者陨落（Intel）</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[过度乐观类比]</code> — 南海泡沫案例中他承认&quot;跟郁金香狂热更像&quot;，但未将其应用于当前 AI 定价</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">假设1: Scaling Law 持续有效，模型能力每代提升 → token 需求单调扩张</li>
+<li style="margin:0.3em 0">假设2: token 变现率不 collapse（每 GW 变现 1000 亿美元水平维持）</li>
+<li style="margin:0.3em 0">假设3: 融资成本维持低位（黑石/KKR/阿波罗持续低利率供给）</li>
+<li style="margin:0.3em 0">假设4: 需求扩散路径：重度用户从千万级 → 15 亿知识工作者中的多数</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">若算力过剩（需求扩散不及预期），正和市场反转：Nebius/SpaceX 回本周期拉长 → 供给逻辑崩塌 → 设备残值低于担保额 → RVG 融资链反噬</li>
+<li style="margin:0.3em 0">实验室若把推理算力转训练（营收 480→120 亿，Gavin 自己承认这种可能），公开市场对&quot;收入可预测性&quot;的定价会剧烈重估</li>
+<li style="margin:0.3em 0">利率上行会直接打击&quot;股权出资 30%+债务 70%&quot;的杠杆结构</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">历史对照</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">日期</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">观点</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">对照</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">08-04</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿 #663</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">看多 NVDA（远期 PE 十年最低，市场抛售与基本面背离）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">一致，强化</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">08-17</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿 #678</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">非 Anthropic 股东（xAI 阵营）；SpaceX 早期投资者主导第二轮 100 亿融资</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">一致，背景补充</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">08-31</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z 英文原版</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">同主题（正和、回本&lt;1年、NVDA 70-80%）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">本次=中文翻译版，无新增内容</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#699 中文版</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新披露；新增细节：Rubin 机架 2027Q4 轨道发射、微软多模型抽象层论述</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">观点强化非修正</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 核心判断与其持仓利益一致（Atreides 重仓半导体/AI），数据点部分可验证但关键数字（Nebius 回本、70-80% 份额）无独立出处；历史一致性高（连续 4 次表述不变）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">风险</strong>: 判断错了最可能的原因 = 需求扩散速度不及预期 + 利率上行 → 算力过剩 → 正和叙事被证伪。Gavin 是 AI 基建最大的多头之一，其观点需打折使用。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Daniel Litt: The Mathematician's Guide to AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">数学家视角谈 AI 推理与数学研究，纯学术讨论，无投资内容</td>
+</tr>
+</tbody>
+</table></div>
+
+</div>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
