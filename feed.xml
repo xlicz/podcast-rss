@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 02 Sep 2026 06:00:47 +0800</lastBuildDate><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 02 Sep 2026 09:00:16 +0800</lastBuildDate><item><title>[a16z] AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</title><link>https://xlicz.github.io/podcast-rss/articles/AI-解出的数学题越来越多-但数学的价值不是解题-Daniel-Litt-2026-09-01.html</link><guid isPermaLink="false">a16z_94ac460f7eac</guid><pubDate>Tue, 01 Sep 2026 08:00:00 +0800</pubDate><description>AI 解出的数学题越来越多，但数学的价值不是解题（Daniel Litt）</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 解出的数学题越来越多，但数学的价值不是解题</h1>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个让数学家集体改观的结果</h2>
@@ -16447,20 +16447,20 @@ RO守护永恒的爱2（预约榜，8-31
 <p style="margin:0.8em 0">注：本集为 a16z 播客 Gavin Baker 访谈的中文版（08-31 英文原版已处理）。Gavin Baker = Atreides Management CIO/创始合伙人，AI 主题知名基金投资人。</p>
 </blockquote>
 <h4>🧠 嘉宾的主张（结论）</h4>
-<p style="margin:0.8em 0">AI 需求持续远超供给，公开市场 AI 股 8 月深度回撤与基本面背离；这是一个正和市场（前沿实验室/开源/云厂商/应用层/英伟达可以全赢），不是零和；数据中心回本周期 &lt;1 年且融资成本极低，建设潮可持续；英伟达处在一切的核心，垂直整合+横向开放的策略几乎无法被挑战；微软在&quot;多模型+开源基座+自有数据微调&quot;的未来中地位有利；SpaceX 轨道算力（2027Q4 发射 Rubin 机架）将把全球算力格局推向太空。</p>
+<p style="margin:0.8em 0">AI 需求持续远超供给，公开市场 AI 股 8 月深度回撤与基本面背离；这是一个正和市场（前沿实验室/开源/云厂商/应用层/英伟达可以全赢），不是零和；数据中心回本周期 &lt;1 年且融资成本极低，建设潮可持续；英伟达处在一切的核心，垂直整合+横向开放的策略几乎无法被挑战；微软在"多模型+开源基座+自有数据微调"的未来中地位有利；SpaceX 轨道算力（2027Q4 发射 Rubin 机架）将把全球算力格局推向太空。</p>
 <h4>📊 支撑论据（含证据类型）</h4>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">7-8 月问遍 AI 领袖无人能给出恶化数据点</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> Gavin 整个夏天标准问题：&quot;你业务中正在恶化的量化数据指标是什么？&quot;至少 7-8 月无人能答。OpenAI 在加速、开源在加速、Grok（尤其 Grokbot 之后）大幅加速。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">数据中心回本 &lt;1 年</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> Nebius 回本周期 9-10 个月（客户预付 50-60% 算力费）；现货市场更快；SpaceX 超大规模集群回本更快。其投资生涯罕见&quot;几百亿几千亿美元投入不到一年回本&quot;的机会。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">7-8 月问遍 AI 领袖无人能给出恶化数据点</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code> Gavin 整个夏天标准问题："你业务中正在恶化的量化数据指标是什么？"至少 7-8 月无人能答。OpenAI 在加速、开源在加速、Grok（尤其 Grokbot 之后）大幅加速。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据中心回本 &lt;1 年</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code> Nebius 回本周期 9-10 个月（客户预付 50-60% 算力费）；现货市场更快；SpaceX 超大规模集群回本更快。其投资生涯罕见"几百亿几千亿美元投入不到一年回本"的机会。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">英伟达锁定全球 70-80% 供应</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 提前锁定晶圆代工/DRAM/激光器/电容器/机架全供应链产能；其数据中心融资最容易（Blackstone/KKR/Apollo 提供残值担保 RVG 融资，股权出资仅约 30%，TPU 需至少 2 倍股权+更高利率）→ 资本成本是巨大优势。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">需求渗透才刚起步</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据+推理]</code> 全球 15 亿知识工作者，重度付费用户仅约 1000-3000 万；Atreides 内部 token 消耗 3-8 月涨 100 倍；最顶尖工程师 AI 完成代码比例从 20% 升至 95%+。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">Kimi 开放权重许可证抽 30% 收入分成</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> 开放权重≠开源，商业条款可抽成；token 消耗算力相同，只是利润率差异。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">轨道算力经济账反转</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 每 GW 500 亿美元（IT 设备 350 亿 + 地面电力/冷却/人工 150 亿且面临通胀），星舰可复用后发射成本 &lt;10 亿 → 空间成本优势逆转；马斯克与黄仁勋共同设计 Rubin 机架（ASR 音译&quot;Ruben&quot;），计划 2027Q4 发射。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">云厂商估值框架</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[估值方法]</code> EV/固定资产净值 ≈ AI 版市净率，超大规模云厂商中存在&quot;明显低效之处&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">轨道算力经济账反转</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 每 GW 500 亿美元（IT 设备 350 亿 + 地面电力/冷却/人工 150 亿且面临通胀），星舰可复用后发射成本 &lt;10 亿 → 空间成本优势逆转；马斯克与黄仁勋共同设计 Rubin 机架（ASR 音译"Ruben"），计划 2027Q4 发射。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">云厂商估值框架</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[估值方法]</code> EV/固定资产净值 ≈ AI 版市净率，超大规模云厂商中存在"明显低效之处"。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">历史规律</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> 从南海泡沫到铁路/汽车/互联网，每次变革性技术都有泡沫+过度建设，但本次建设大部分由经营现金流支撑而非债务。</li>
 </ol>
 <h4>🔗 论证过程</h4>
-<p style="margin:0.8em 0">供给严重受限（电力/晶圆/光刻/DRAM/电工人工）→ 需求端 15 亿知识工作者渗透率极低（重度用户仅千万级）→ 回本周期 &lt;1 年 + 低资本成本 → 供给侧投资回报率极高（罕见的高 ROI 资本支出）→ 建设潮可持续而非泡沫 → 正和格局下英伟达是唯一&quot;所有赢家都要经过&quot;的基础设施 → 8 月 AI 股回撤 = 与基本面背离 → 看多 AI 基础设施（隐含）</p>
+<p style="margin:0.8em 0">供给严重受限（电力/晶圆/光刻/DRAM/电工人工）→ 需求端 15 亿知识工作者渗透率极低（重度用户仅千万级）→ 回本周期 &lt;1 年 + 低资本成本 → 供给侧投资回报率极高（罕见的高 ROI 资本支出）→ 建设潮可持续而非泡沫 → 正和格局下英伟达是唯一"所有赢家都要经过"的基础设施 → 8 月 AI 股回撤 = 与基本面背离 → 看多 AI 基础设施（隐含）</p>
 <h4>🔍 事实核查</h4>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
@@ -16494,7 +16494,7 @@ RO守护永恒的爱2（预约榜，8-31
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Rubin 机架 2027Q4 太空发射</td>
   <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">重大声明，&quot;Ruben&quot;为 ASR 音译（应为 NVIDIA Rubin 平台）；方向可信但时间表待验证</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">重大声明，"Ruben"为 ASR 音译（应为 NVIDIA Rubin 平台）；方向可信但时间表待验证</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
@@ -16516,12 +16516,12 @@ RO守护永恒的爱2（预约榜，8-31
 </tr>
 </tbody>
 </table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：轨道数据中心规模（&quot;几十亿瓦中位数&quot;）；SpaceX 发射能力一天两次/年 5000 次；小行星 Psyche 采矿（远期愿景）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：轨道数据中心规模（"几十亿瓦中位数"）；SpaceX 发射能力一天两次/年 5000 次；小行星 Psyche 采矿（远期愿景）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[同温层/确认偏误]</code> — 问的&quot;所有 AI 公司&quot;均为圈内玩家，其业务恶化时未必会如实回答；Gavin 自己重仓 AI 基础设施，问的问题本身带有立场</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> — &quot;过去 26 年不要做空黄仁勋&quot;是事后总结，忽略同时代做空者爆仓/其他芯片王者陨落（Intel）</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[过度乐观类比]</code> — 南海泡沫案例中他承认&quot;跟郁金香狂热更像&quot;，但未将其应用于当前 AI 定价</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[同温层/确认偏误]</code> — 问的"所有 AI 公司"均为圈内玩家，其业务恶化时未必会如实回答；Gavin 自己重仓 AI 基础设施，问的问题本身带有立场</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> — "过去 26 年不要做空黄仁勋"是事后总结，忽略同时代做空者爆仓/其他芯片王者陨落（Intel）</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[过度乐观类比]</code> — 南海泡沫案例中他承认"跟郁金香狂热更像"，但未将其应用于当前 AI 定价</li>
 </ul>
 <h4>🔬 第一性原理剖析</h4>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
@@ -16534,8 +16534,8 @@ RO守护永恒的爱2（预约榜，8-31
 <p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">若算力过剩（需求扩散不及预期），正和市场反转：Nebius/SpaceX 回本周期拉长 → 供给逻辑崩塌 → 设备残值低于担保额 → RVG 融资链反噬</li>
-<li style="margin:0.3em 0">实验室若把推理算力转训练（营收 480→120 亿，Gavin 自己承认这种可能），公开市场对&quot;收入可预测性&quot;的定价会剧烈重估</li>
-<li style="margin:0.3em 0">利率上行会直接打击&quot;股权出资 30%+债务 70%&quot;的杠杆结构</li>
+<li style="margin:0.3em 0">实验室若把推理算力转训练（营收 480→120 亿，Gavin 自己承认这种可能），公开市场对"收入可预测性"的定价会剧烈重估</li>
+<li style="margin:0.3em 0">利率上行会直接打击"股权出资 30%+债务 70%"的杠杆结构</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">历史对照</h3>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
@@ -16598,5 +16598,48 @@ RO守护永恒的爱2（预约榜，8-31
 </table></div>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-02</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-02.html</link><guid isPermaLink="false">report:AI动态:2026-09-02:b23a415e</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-02</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/02</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Anthropic Fable 5.1 发布降价、Nvidia $3.5B 入股联发科锁定 AI 芯片生态、优必选 H1 人形机器人出货 921 台、OpenAI Astra 跨过网安临界、World Labs Atlas 世界模型。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<p style="margin:0.8em 0">9/1-9/2 窗口内五大动态：① Anthropic 发布 Fable 5.1/Mythos 5.1，agentic 工作成本降 45%、缓存读取降价 75%，HN 榜首；② Nvidia 以 $3.5B 可转债入股联发科（史上最大海外直接投资），联合推进 NVLink Fusion 定制芯片生态，联发科股价涨 10%；③ 优必选 H1 营收 12.7 亿元，全尺寸人形机器人售出 921 台、相关营收同比 +1,445%，亏损收窄 20%+；④ OpenAI 预告 Astra 为首个达到其&quot;网安临界阈值&quot;的 LLM，可在无人类指导下自主发现并利用未知漏洞；⑤ World Labs 发布 Atlas omni 世界模型（多模态自回归扩散 transformer），面向空间智能与机器人规划。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Anthropic 发布 Claude Fable 5.1 / Mythos 5.1：更强更便宜 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">9/1 发布，Fable 5.1 为公开可用版本，Mythos 5.1 仅限注册的网安/生命科学合作伙伴。核心变化：agentic 工作成本最高降 45%，Fable 缓存读取降价 75%；Terminal-Bench-Science 得分 52.6%（较前代翻倍以上）；Artificial Analysis Intelligence Index 66 分，超 Opus 5 三个点；新增零数据保留选项；减少安全护栏误报（false-positive restrictions）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Anthropic 官方博客 + The Verge/Bloomberg/VentureBeat/SiliconANGLE 等 20+ 独立源一致报道 — <strong style="font-weight:600">关注</strong>: agent 成本大幅下降，直接影响 coding agent 经济模型</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: anthropic.com（🟢）/ The Verge、Bloomberg（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Nvidia $3.5B 入股联发科：史上最大海外直接投资，锁定定制芯片生态 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Nvidia 购买联发科 $3.5B 可转债，为史上最大海外直接投资。双方深化 NVLink Fusion 合作——联发科定制 AI 芯片（XPU）接入 Nvidia 互连生态，覆盖云、PC、汽车全线。消息公布后联发科股价涨 10%。市场解读：Nvidia 以投资方式对抗云厂商自研芯片，将互连标准做成&quot;收费站&quot;；黄仁勋称对定制芯片&quot;不感到威胁&quot;。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CNBC/Bloomberg/Nikkei/ServeTheHome/Forbes 等 40+ 独立源一致，金额与结构（可转债、NVLink Fusion）多源吻合 — <strong style="font-weight:600">关注</strong>: AI 硬件生态战升级，互连标准成争夺核心</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNBC、Bloomberg（🟡）/ Nvidia 声明（🟢）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 优必选 H1 2026：人形机器人营收暴增 1,445%，出货 921 台 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">优必选 H1 营收 12.7 亿元（1.27B 元），全尺寸人形机器人出货 921 台，人形机器人相关营收同比 +1,445%，亏损同比收窄超 20%。Counterpoint 数据：2026 H1 全球人形机器人出货量同比 +300%，商用部署驱动。优必选目标 FY27 盈利。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ KrASIA + gasgoo + Seeking Alpha 多源数字一致（921 台 / 1,445% / 12.7 亿） — <strong style="font-weight:600">关注</strong>: 人形机器人从 demo 走向量产放量的首个规模化数据点</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: KrASIA、gasgoo、Seeking Alpha（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. OpenAI 预告 Astra：首个跨过&quot;网安临界阈值&quot;的模型 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">OpenAI 官方博客预告 Astra 即将发布，称其为首个达到公司&quot;critical cybersecurity threshold&quot;的 LLM：能在无人类指导下自主发现并利用计算机系统未知安全漏洞。Astra 最高级网安能力将受限开放。此前 Anthropic 曾对 Mythos 模型提出同类担忧。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ OpenAI 官方博客 + TechCrunch 确认；与 Anthropic Mythos 安全路线对照成立 — <strong style="font-weight:600">关注</strong>: 前沿模型网安能力分水岭，agent 控制问题成行业焦点</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: OpenAI 博客（🟢）/ TechCrunch（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. World Labs 发布 Atlas：空间智能 omni 世界模型 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">李飞飞创立的 World Labs 发布 Atlas——从零预训练的 omni 世界模型，多模态自回归扩散 transformer（multimodal autoregressive diffusion transformer），所有输入合并到共享空间上下文，生成内容保持 3D 一致性。官方定位：渲染想象世界、高保真模拟现实世界、帮助机器人规划动作。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ World Labs 官方博客（HN 132 分独立社区热度确认）— <strong style="font-weight:600">关注</strong>: 世界模型直指机器人规划与空间智能，与具身智能技术栈直接相关</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: worldlabs.ai（🟢）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
