@@ -1,0 +1,47 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的钱在推理层，不在模型权重：Box CEO Aaron Levie 为什么说开源模型威胁论是错的</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">当 Jensen Huang 牵头、Box 等公司联署的 open weights 公开信被解读为&quot;美国科技界向开源投降&quot;时，Aaron Levie 给出了一个更冷静的框架：开源与闭源不是零和博弈，因为 AI 行业的钱几乎都流向了推理层——而推理层不分模型开源还是闭源。</strong></p>
+<p style="margin:0.8em 0">a16z 播客请到 Box 联合创始人兼 CEO Aaron Levie 时，正值两个重磅消息叠加：黄仁勋联合多家公司发布 open weights 公开信，以及几大前沿实验室的模型竞赛进入新一轮。Levie 既是最早一批企业级 AI 应用的公司掌门人（Box 每天在评测 Claude、GPT 系模型），也是公开信的联署方。他把这场争论从&quot;爱国叙事 vs 安全恐惧&quot;拉回到一个他反复强调的行业事实：无论模型开源还是闭源，算力账单都一样要付，而最大的商业价值在模型之外。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源不是零和：它只是把 AI 的用例盘子做大</h2>
+<p style="margin:0.8em 0">Levie 对 open weights 公开信的理解分成两层。第一层是行业常识：开源权重驱动 AI 进步，带来更多创新、更多可定制选项——公司可以拿开源模型针对自己的场景做后训练。他说他几乎无条件站在这边：更多的开源创新对整个 AI 生态是好事，它甚至倒逼闭源厂商创新更快。&quot;我觉得每个人某种程度上都是赢家。&quot;</p>
+<p style="margin:0.8em 0">第二层被他称为&quot;对美国的号召&quot;——美国需要在 open weights 上投入更多，而不是纠结于怎么看待中国的开源模型。他特意点出信中一个容易被人忽略的态度：<strong style="font-weight:600">蒸馏并不总是坏事，大家可以在这个问题上冷静一点。</strong></p>
+<p style="margin:0.8em 0">Levie 的蒸馏立场相当鲜明，甚至有些反直觉。他认为几乎不可能在伦理上论证&quot;AI 模型可以用公共互联网训练，但另一个 AI 模型不能用 AI 的输出训练&quot;——&quot;你看不出这两者有什么有意义的区别&quot;。如果他是实验室负责人，他会用尽一切防御手段锁死自家模型的蒸馏，但&quot;我不认为你能令人信服地说这里有一条被越过的伦理线&quot;——因为那等于否定了这些模型自身训练的前提：大部分人的数据也从未被征求过同意。</p>
+<p style="margin:0.8em 0">他抛出一个思维实验：一个人开一万个账号调用 API 做蒸馏，和所有人用 AI 生成代码、这些代码最终进入公共仓库，这两者之间有什么本质区别？后一种场景下，下一代模型照样会学到这些 AI 产出的内容。&quot;我不明白为什么两者之间会有一条伦理线。&quot;</p>
+<p style="margin:0.8em 0">更直白的一点：蒸馏者使用 API 是要付费的，&quot;Anthropic 从蒸馏上赚到的钱，比它历史上任何一次原始训练 run 赚到的都多&quot;。与其指责蒸馏，不如问实验室打算怎么设计 API 策略。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">封锁中国 AI 的思维实验：iPhone 该卖五千美元吗</h2>
+<p style="margin:0.8em 0">主持人抛出另一个角度的担忧：如今最强的开源模型大多来自中国，如果美国创业生态变得依赖中国开源模型，而中国某天停止发布新权重，或者中国模型靠低价挤压美国公司利润，这是不是国家安全问题？</p>
+<p style="margin:0.8em 0">Levie 承认这些是&quot;很好的论点&quot;，然后反问：那你要怎么办？&quot;有人说 iPhone 应该卖五千美元而不是一千美元，因为我们不该依赖中国的制造进步。&quot;他顺着这个逻辑推演：如果封锁中国，你实际在主张的是美国用很贵的 AI、世界其他地区用很便宜的 AI，&quot;我们来看看接下来五到十年这样竞争会是什么结果&quot;。</p>
+<p style="margin:0.8em 0">他的核心判断建立在黄仁勋那场与 Dwarkesh 的对谈上——那场对话被他形容为&quot;tech 真人秀级别的名场面&quot;（黄仁勋那句&quot;我不是失败者，你不是在跟一个醒来就是输家的人说话&quot;被他反复引用）。Levie 明确站 Jensen 这边：中国不会放弃 AI，它有战略决心、有海量人才（美国实验室里的中国 AI 研究员比中国本土实验室还多）、有造芯片和晶圆厂的工业能力，训练数据更不是问题——&quot;你甚至可以雇十万人去生成海量数据&quot;。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">封锁的结果不是中国 AI 停下来，而是这些模型换一套硬件栈继续训练——而那套硬件栈，最终会部署进主权云里。</p>
+</blockquote>
+<p style="margin:0.8em 0">更现实的判断是差距在缩小而不是扩大——他举了 Kimi K3 等近期模型的例子。Levie 认为最佳情景是美国出现一个愿意砸一百亿美元建 open lab 的人（&quot;我们自己的 moonshot&quot;），&quot;我一直在等这一天，但还在等&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么说闭源实验室也应该做&quot;快跟开源&quot;</h2>
+<p style="margin:0.8em 0">Levie 关于 AI 商业结构的判断是整个访谈的支点：<strong style="font-weight:600">AI 行业真正的印钞机是推理（inference），不是模型本身。</strong></p>
+<p style="margin:0.8em 0">他算了一笔账：只要美国存在三到五个把领先模型视为生存问题的玩家（他数出 SpaceX、Google、Anthropic、OpenAI、Meta 五家），竞争就会把 token 价格长期压向基础设施成本加价 20%–40% 的区间——&quot;不是零，我绝不相信没有利润，但不会是 70%–90% 的毛利&quot;。</p>
+<p style="margin:0.8em 0">在这个前提下，开源一个模型并不意味着放弃收入：如果开源模型跑在你提供的首选基础设施上，后训练环境由你搭建，企业客户认你为部署开源模型的&quot;安全品牌&quot;——你赚到的钱和闭源几乎一样多。他甚至建议 OpenAI、Anthropic 这类实验室用更快的节奏把上一代模型开源，&quot;你会更有竞争力，因为更多用例会留在你的生态里&quot;。</p>
+<p style="margin:0.8em 0">那为什么 Anthropic 从不开源？Levie 的判断是：这不是市场策略，而是安全理念——他们认为必须有一个实体控制 token 流，才能防御 prompt injection、才能按查询类型做模型路由，而这些在开源权重世界里都做不到。&quot;他们大概永远不会开源，这跟 Anthropic 成立的初衷绑在一起。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Box 的模型评测：Opus 5 的跃升，和 Fable 的降级问题</h2>
+<p style="margin:0.8em 0">作为重度企业用户，Levie 分享了 Box 的实测：他们跑了一两周评测，Claude Opus 5 相比此前同代最强的 Opus 4.8 是&quot;有意义的跃升&quot;，在行业垂直测试（生命科学、法律、银行文档）和横向能力两个轴上都更强。他同时评价 GPT-5.6 的工作同样出色。</p>
+<p style="margin:0.8em 0">但他对 Fable（Anthropic 的旗舰）提出了一个尖锐的产品问题：<strong style="font-weight:600">它太频繁地把查询降级到旧模型。</strong> 某些能力触发安全审查后，用户拿到的其实是低一档模型的输出——&quot;你事先很难知道它是否触发了某个安全警告&quot;。他听说生物医药领域的人实际上无法使用 Fable，因为查询被降级的频率太高，拿不到旗舰级的智能。</p>
+<p style="margin:0.8em 0">他赞赏 Anthropic 向政府提出的多要点能力风险框架提案，但追问了一个没人能回答的问题：谁来定义这个风险框架？&quot;如果把 Fable 现在降级和拦截的水平定格下来，对 AI 的未来是不可持续的——人们会干脆不用 AI。&quot;他的倾向是：现在这个阶段锁死模型太早了。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">软件工程师反而更不够用了</h2>
+<p style="margin:0.8em 0">被问到 AI 是否减少 Box 的工程师招聘时，Levie 给出一个与裁员叙事相反的答案：<strong style="font-weight:600">他仍然强烈看多软件工程，因为 AI 让公司想做的事变多了。</strong></p>
+<p style="margin:0.8em 0">他描述了产品规划心态的转变：以前项目分成两档——&quot;太小不值得做&quot;和&quot;太大做不了&quot;，中间只有 1 到 6 个月的浅层项目值得启动。现在，多年期项目不再需要多年（因为复杂度被 AI 吸收），一周级的琐事两小时就能做完，Box 启动了&quot;几十个没有 AI 根本不会启动的项目&quot;。</p>
+<p style="margin:0.8em 0">&quot;如果你认为 AI 消除了对软件工程师的需求，那只能说明你的产品路线图还不够有野心。&quot;他坦言现在唯一的约束是财务——其他业务线也在抢预算——而不是人才供给。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型路由：企业 AI 的下一个默认形态</h2>
+<p style="margin:0.8em 0">访谈收尾在模型路由上。模型发布频率越来越快、各家轮流领先，Levie 认为企业对单一供应商的忠诚不再成立，价值会向&quot;能理解任务、能拿到数据、能编排工作流&quot;的应用层迁移——这正是 Box 所在的位置。Cognition、Factory、Cursor、Replit 这些玩家在战略上都押注同一个未来：多个模型各有擅长（成本调优的干苦力的模型、超级前沿的编排模型），一个任务需要多个模型协作完成。</p>
+<p style="margin:0.8em 0">路由层的价值不只是省成本，Levie 指出它还有一个反直觉的作用：<strong style="font-weight:600">缓解企业客户的&quot;分析瘫痪&quot;。</strong> 模型太多、互相 leapfrog，企业反而不敢押注任何一家。应用层替客户做了这个决定——&quot;你不用选，先把工作流跑起来，今天想用 Fable 就用 Fable，想路由到 GPT-5.6 或 Grok 4.5 也行&quot;。这让 AI 的扩散更快，也让应用层成为未来价值创造最密集的地方。</p>
+<p style="margin:0.8em 0">结尾处主持人感叹这是疯狂的一周——&quot;OpenAI 四天前还黑了 Hugging Face&quot;。Levie 笑说还有至少十个小时可以发生更多事。在模型的新闻密度已经高到让人失真的当下，他这篇访谈的价值恰恰在于把视角拉长：别盯着模型权重的输赢，推理层的账本才是 AI 行业真正的战场。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源与闭源不是零和</strong>：开源扩大 AI 用例总量，甚至倒逼闭源厂商创新更快；蒸馏付费给实验室，Anthropic 从蒸馏赚的钱超过任何一次原始训练。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">封锁中国的逻辑不成立</strong>：中国有战略决心、人才与工业能力，封锁只会让模型换硬件栈训练并进入主权云；美国需要的是自己的 open lab。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 的钱在推理层</strong>：五家美国实验室的竞争会把 token 价格压向基础设施成本 +20%–40%，开源 + 提供推理基础设施可以赚到与闭源几乎相同的钱。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">闭源实验室该做快跟开源</strong>：前代模型开源能把用例留在自家生态，OpenAI、Anthropic 都应考虑——Anthropic 不开源是安全理念而非商业判断。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 让软件工程师更稀缺而非更过剩</strong>：多年项目不再多年、琐事两小时做完，Box 因此启动了数十个原本不会做的项目。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型路由将成为企业 AI 默认</strong>：它替企业承担&quot;选哪家&quot;的决策，缓解模型过剩带来的分析瘫痪，价值向应用层集中。</li>
+</ul>
+
+</div>
