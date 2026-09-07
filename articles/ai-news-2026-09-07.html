@@ -1,0 +1,48 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/07（近一周精选 · GPT-6 Astra / 具身数据 / 扫地机 / 芯片）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：OpenAI GPT-6 Astra 正式落地（9/3 发布，本周持续扩展与争议）；基础模型直接操控机械臂的第三方对比出炉；机器人训练数据公司 XDOF 估值火箭式上升；iRobot 在 IFA 2026 发布&quot;母舰+子机&quot;扫地形态创新；三星与 Arm 联手 2nm 端侧 AI 芯片。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">GPT-6 Astra</strong>（OpenAI，9/3）：ARC-AGI-3 得分 62.7% 为 SOTA、动作效率超人类基线；OpenAI 高调称&quot;欢迎来到 AGI 时代&quot;，同时因 ExploitBench 100% 与高级网络能力发出安全警告。9/6 Sam Altman 为 rollout 混乱（锁定付费用户）道歉。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">GPT-6 Astra 操控机械臂</strong>（RoboCurve 第三方评测，9/6）：同一 YAM 双臂上，Astra 放块入碗任务完成率远超 Claude Fable 5.1、单次成本约半（$0.94 vs $2.12）；精细插入任务两者同样卡壳（2/20）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">XDOF 融资</strong>（9/4）：机器人遥操作数据公司出 stealth 仅 3 个月即谈判 Series B，估值约 $1.2B（8VC 领投），年化收入逼近 $50M，被称&quot;物理机器人界的 Scale AI&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">iRobot Roomba Duo</strong>（IFA 2026，9/4）：洗地母舰 + 机械臂部署迷你 Roomba 钻沙发底，双机协同形态创新。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Samsung × Arm</strong>（9/4）：合作开发 2nm 端侧定制 AI 芯片，OpenAI 传闻为潜在关键客户（未证实）。</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. OpenAI GPT-6 Astra：ARC-AGI-3 SOTA 与&quot;AGI era&quot;宣言 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">9/3 OpenAI 发布新一代旗舰模型 GPT-6 Astra（openai.com/index/gpt-6-astra/），随后 GitHub Copilot（9/4）、Microsoft Foundry（9/3）、OpenRouter 全面上线。ARC Prize 官方评测：ARC-AGI-3 Semi-Private 得分 62.7%（$26K 成本），动作效率超人类基线——96% 关卡用少于人类中位数动作数；评测观察到 Astra 会把陌生环境转译为紧凑符号世界模型并自建 DSL 规划。OpenAI（Axios 引述）称&quot;欢迎来到 AGI 时代&quot;，这是其首次用该措辞描述自家模型。但争议同步升温：CNBC 报道 OpenAI 警告其高级网络攻击能力，The Hacker News 称 ExploitBench 100% 且官方阻止 PoC 请求；Fortune 报道发布后悄然调整部分 eval 指标；9/6 Altman 为 rollout 混乱（锁定付费用户）公开道歉。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客 + ARC Prize 独立评测 + Reuters/CNBC/Axios 多源；⚠️ eval 指标调整与 ExploitBench 100% 来自媒体单源（Fortune/The Hacker News），待官方回应 — <strong style="font-weight:600">关注</strong>: 模型代际跃迁确立，安全治理与评测可信度成新战场</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.com（🟢）、arcprize.org（🟢）、Reuters/CNBC/Axios/Fortune（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. GPT-6 Astra 直接操控双臂机器人：第三方对比出炉 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">独立评测机构 RoboCurve（openai.robocurve.org，9/6）给 GPT-6 Astra 与 Claude Fable 5.1 / Fable 5 相同 YAM 双臂（6-DoF×2，IK 控制，三相机+本体感觉）同一 agent policy，两项任务各 20 次：&quot;红块放入碗中&quot; Astra 完成率大幅领先 Fable 5.1，单次成本约半（$0.94 vs $2.12）、耗时 2.5min vs 6.8min；&quot;圆形拼图块插入凹槽&quot;两者均为 2/20，同在最后一步卡死。评测方披露局限：两次实验非同交错、碗任务 rig 不同、人工评分非盲。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ RoboCurve 独立评测全文可查（HN 231 分社区验证）；⚠️ 非官方数据、方法局限已自披露 — <strong style="font-weight:600">关注</strong>: 通用 LLM→IK 直接操控路线在&quot;粗放操作&quot;逼近甚至超过专用模型，精细插入仍是共同瓶颈，VLA 路线承压</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.robocurve.org（🟡 独立第三方）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. XDOF：出 stealth 3 个月即谈 $1.2B Series B | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">机器人遥操作训练数据公司 XDOF（UC Berkeley Philipp Wu/ Fred Shentu 创立，2024）9/4 被 TechCrunch 报道正与 8VC 领投方谈判 Series B、估值约 $1.2B——距 6 月 $70M Series A（Thrive/a16z/Lux/Spark）仅 3 个月。驱动因素：年化收入逼近 $50M，20+ 客户含数家 frontier AI 实验室。定位&quot;物理机器人界的 Scale AI/Mercor&quot;：远程遥操作 + 人体传感器采集折衣、压纸箱等日常任务数据，并与 UC Berkeley AI Research 合作发布号称最大的高质量机器人训练数据集。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechCrunch 独家 + Dealroom/SiliconANGLE 独立印证；8VC 未回应（金额条款未最终）— <strong style="font-weight:600">关注</strong>: 数据瓶颈是具身智能最大约束，遥操作数据公司被资本抢筹，估值增速远超 AI 软件层</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch（🟡）、Dealroom/SiliconANGLE（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. iRobot Roomba Duo：母舰+机械臂+子机，扫地机形态重构 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">IFA 2026（9/4）iRobot 发布 Roomba Duo：大型洗地机器人为&quot;母舰&quot;，内置机械臂部署迷你 Roomba 子机钻入沙发底/低矮空间清洁，双机协同覆盖单一机身无法到达区域。The Verge/CNET/PCMag/Tom's Guide/Vacuum Wars 等 5+ 媒体现场一致报道，CNET 实拍&quot;母舰用机械臂部署 Roomba&quot;过程。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ iRobot 官方 MediaKit + 5+ 独立媒体现场报道一致；⚠️ Vacuum Wars 称 concept，量产/定价未披露 — <strong style="font-weight:600">关注</strong>: 中国厂商主导&quot;扫地机+具身&quot;叙事下，iRobot 用形态创新（母舰/子机+机械臂）回应低矮空间与覆盖率痛点</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: iRobot MediaKit（🟢）、The Verge/CNET/PCMag/Tom's Guide（🟡）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Samsung × Arm 联手 2nm 端侧定制 AI 芯片 | 🟡 | [📰推测]</h3>
+<p style="margin:0.8em 0">9/4 多家报道三星电子与 Arm 合作开发 2nm on-device（端侧）定制 AI 芯片，目标直指边缘/端侧 AI 推理，OpenAI 被传为潜在关键客户（未证实）。三星在代工+存储优势上叠加 Arm IP，瞄准苹果/高通主导的端侧 AI 芯片市场。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 合作事实多源一致（Moomoo/TradingKey 等）；🔴 OpenAI 为客户仍为传闻，无官方确认 — <strong style="font-weight:600">关注</strong>: 端侧 AI 芯片军备升级，三星-Arm 联盟若成将改变边缘推理格局；OpenAI 是否下场端侧硬件待验证</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Moomoo/TradingKey/finance.biggo（🟡 转述为主）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
