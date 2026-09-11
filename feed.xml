@@ -1,7 +1,96 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 08 Sep 2026 23:00:19 +0800</lastBuildDate><item><title>[十字路口Crossing] 被骗过、被救过、被算法裹挟过，陈安妮要在AI时代重造故事</title><link>https://xlicz.github.io/podcast-rss/articles/被骗过-被救过-被算法裹挟过-陈安妮要在AI时代重造故事-2026-09-06.html</link><guid isPermaLink="false">crossing_b9470d4bd163</guid><pubDate>Sun, 06 Sep 2026 08:00:00 +0800</pubDate><description>被骗过、被救过、被算法裹挟过，陈安妮要在AI时代重造故事</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 11 Sep 2026 10:31:40 +0800</lastBuildDate><item><title>[高能量] 流动性见顶，与一场正在收官的四年金融转身</title><link>https://xlicz.github.io/podcast-rss/articles/流动性见顶-与一场正在收官的四年金融转身-2026-09-07.html</link><guid isPermaLink="false">gao-neng-liang_2267aac539af</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>流动性见顶，与一场正在收官的四年金融转身</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">流动性见顶，与一场正在收官的四年金融转身</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从港股破发率说起：九月的第一天，市场同时亮起两盏灯</h2>
+<p style="margin:0.8em 0">2026 年 9 月初，香港两天之内上了两家备受关注的新股——一家工业机器人公司，一家跨境电商公司——结果双双破发。参与打新的朋友亏了钱，跑来问峰叔：香港打新为什么会亏钱？</p>
+<p style="margin:0.8em 0">答案不在打新本身，而在一个被大多数人当成噪音的指标：破发率。</p>
+<p style="margin:0.8em 0">今年上半年，港股新股破发率只有百分之十几。这个数字低得不正常。一家注册制市场里，上市定价由买卖双方博弈出来，纯靠运气也应该是一半对一半。破发率极低，说明有大量短期投机套利资金在"打新"——用炒两周赚百分之几十的确定性，把愿意等一年赚百分之十的长钱全部挤走了。李翔和峰叔从一个半月前开始盯这个指标：什么时候破发率回到正常水平，钱才从短期回到长期。</p>
+<p style="margin:0.8em 0">结果是，最近两周半，港股几乎零新股上市——供给被主动掐住了。与此同时，一个规模十亿、专炒 IPO 基石的基金出了问题，投资人的钱拿不出来。</p>
+<p style="margin:0.8em 0">在峰叔看来，这像是同一个信号的两面：市场正在用最粗暴的方式，把投机资金赶出短期游戏。但即便供给收缩，破发依然发生——这暴露了更深一层的问题：不是某只股票定价错了，而是整个市场缺新钱。</p>
+<p style="margin:0.8em 0">录制这期节目之前，峰叔对李翔说了一句话："有点风雨飘摇。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一笔不加杠杆的英伟达空仓：不是看空 AI，是做一次流动性实验</h2>
+<p style="margin:0.8em 0">针对这个判断，峰叔做了一个动作：买了"一点点"英伟达空仓。特意强调：不加杠杆。</p>
+<p style="margin:0.8em 0">不加杠杆的空仓没有磨损——跌 10% 就赚 10%，涨 8% 就亏 8%。不像杠杆产品，波动一大就把收益磨光。他说得很清楚，这纯粹是"做一个流动性实验"，与是否看空 AI 无关。AI 有价值，AI 股票和 AI 公司，是两回事。</p>
+<p style="margin:0.8em 0">他的推理链值得完整复述，因为每一步都对应一个可以验证的现象：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一季度：资本市场奖励激进者。</strong> 全球主要 AI 大公司——包括微软——在一季度末集中宣布激进的数据中心资本开支计划。当时谁花钱激进，市场就给谁高估值。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">二季度：全产业链 FOMO。</strong> 所有人一边坚信算力必然涨价，一边疯狂囤货、砸钱。这是"花钱最狠的一个季度"，但恰恰是英伟达毛利受影响最小的季度——大家卖的是涨价前备好的库存。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">半年报发布后：风向突变，谁激进惩罚谁。</strong> 7 月市场经历超高波动，随后中大型互联网公司公布半年报。凡是资本开支激进到打光自由现金流的公司，一律被折价——谷歌没能幸免，增发的阿里也被冷眼。与一季度之前完全相反。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">三季度：所有不利因素同时回来。</strong> 美国的 AI 数据中心建设开始被环评、州政府审批、电网配套、周边居民反对拖慢——年初说要建一百个的，二季度拼命把钱先花出去怕涨价封路，三季度发现很多项目要延迟甚至无法开工；库存消耗殆尽，涨价冲击开始真正体现。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">然后是最关键的信号：英伟达开始"以租代买"。</strong> 2000 年互联网泡沫崩盘前半年，思科和北电都干过同样的事——帮客户征信、担保贷款，把机器的租赁收入提前记为销售收入。巴伦周刊最近一篇文章问了一个尖锐的问题：英伟达财报这么好，自由现金流去哪了？环比又少了一半，账上挂着远超历史水平的应收款项。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">周期性高资本开支行业，"当看起来最赚钱的时候，基本就是要出问题的时候"。</p>
+</blockquote>
+<p style="margin:0.8em 0">峰叔用存储行业的历史周期解释：这种行业看 PE 没用，要看 PB；当 PE 来到个位数——尤其低单个位数——往往就是见顶信号。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">万亿级资金在抢同一池水</h2>
+<p style="margin:0.8em 0">所以流动性见顶是什么意思？峰叔的定义朴素而准确：<strong style="font-weight:600">新钱不够了</strong>。</p>
+<p style="margin:0.8em 0">任何市场上涨都需要新钱注入资产。越往上涨，每推高一层的代价越大——新钱要更冒险，因为止盈离场的人越积越多。当"发再好的报表也涨不动"成为普遍现象，就是流动性见顶的表征。过去几天，欧美日韩英的债券收益率集体飙升——全球债券在遭抛售；全球资本市场要么波动向下，要么涨不动。</p>
+<p style="margin:0.8em 0">但最麻烦的是，现在有好几拨人在抢这池水：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">美债</strong>需要流动性，否则政府发不出去债——第一优先级；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">美股</strong>市值已超 70 万亿美元，是 GDP 的 2.3 倍以上，维持这个价格本身就需要大量新钱；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 数据中心</strong>的资本开支主要靠债务融资，还需要万亿美金级别的钱；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">全球各经济体</strong>都在高息环境中互相抢钱，避免被美元虹吸。</li>
+</ul>
+<p style="margin:0.8em 0">在美国内部，私募信贷（主要投向数据中心）、资本市场、美债三方，每一方要的都是万亿级以上的增量。小国凑不出一万亿美金，中国拿出十万亿人民币级别也吃力。峰叔的结论是：这个问题"风雨飘摇之后怎么办，我也不知道"。</p>
+<p style="margin:0.8em 0">他唯一能确定的，是各国央行行长的处境——一条极难走的独木桥：美元必须保持强势，否则资金会逃离美元资产；但既不能升息（打破无数平衡），也不能降息（主动示弱）。剩下只有两个选项：拼命喊话维护美元强势预期，或者制造风险让避险资金回流。这也是为什么过去一个月，从 G20 财长会到杰克逊霍尔，所有人都在"踩独木桥"。</p>
+<p style="margin:0.8em 0">顺带解释了黄金的跷跷板：美元有强势预期时，资金优先去美元——它是有利息的避险资产；当连短债收益率都开始飙升、长期不确定性加大时，资金才去黄金——它没有利息，只有公允的价值属性。巴菲特不认为黄金是资产，原因就在这里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一次半泡沫：五十年央行进化史的终点</h2>
+<p style="margin:0.8em 0">李翔问了一个所有关心流动性的人都想问的问题：疫情时各国印了那么多钱，都去哪了？未来还会那样印吗？</p>
+<p style="margin:0.8em 0">峰叔把镜头拉回到 1971 年——美元脱离黄金，全球进入信用货币时代，印钞从此没有锚。之后的历史是一部央行行长越来越自信的进化史：石油危机、卡特滞胀、沃尔克用超高的指导利率把通胀压回 2%——那是"最后一个守纪律的联储主席"。此后资金全球自由流转，每一次危机都由量化宽松收场：2008 年之后，美联储花了三年半、分了三次半，谨慎地完成 QE；2020 年 3 月，一次无上限 QE 直接到位，七个月印完了当年金融危机后三年半的总量，还叠加了直接发钱。</p>
+<p style="margin:0.8em 0">特朗普上一任打断了本该到来的升息周期——他阻止鲍威尔加息，用减税换取支持。于是上一次堆积的泡沫还没消散，就叠上了一次更大的、毫不犹豫的全量放水。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这是一次半的泡沫——上一次没破，这一次更大，摞在一个十五年的周期里。</p>
+</blockquote>
+<p style="margin:0.8em 0">后果就是今天看到的一切：除中国以外全球通胀，且几乎无法抑制；美股 70 万亿市值对着 29 万亿 GDP；贫富差距在各国极化——这是所有民粹的底层原因。</p>
+<p style="margin:0.8em 0">峰叔把它称为"两把达摩克里斯之剑"：第一把，泡沫理论上最少要破一次半，跌一个狠的——但央行行长不会允许，于是大概率再来一次更大的量宽，结果可能是滞胀以某种形式长期存在，"直到把炮消掉"；第二把，社会结构的分裂与分化几乎不可逆，除非把泡沫一把清掉。</p>
+<p style="margin:0.8em 0">至于"寄希望于 AI 技术革命来解决"——峰叔的回应很冷静：那是一个叙事过程，很难。他特意把两件事分开：AI 是毫无疑问的技术创新，但 AI 叙事正在被资本市场泡沫周期放大，这是两个问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四年金融转身：五类经济主体的集体转向</h2>
+<p style="margin:0.8em 0">讲完全球，峰叔把话题拉回中国——这才是本期真正的重点。他抛出一个框架：中国的金融结构调整，正借这一次 AI 加资本周期，在四年内完成一场罕见的集体转向。</p>
+<p style="margin:0.8em 0">中国的市场主体分五层：政府、金融机构、规上企业、小微企业、个人。峰叔逐一观察了它们的"观念转换"：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">政府</strong>：从土地财政扭向股权财政。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">金融机构</strong>：连银行都开始转做直投。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">规上企业</strong>：大量主营业务与科技无关的上市公司，纷纷下场布局热门科技赛道——自己组织、参与基金或直接直投。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">小微企业</strong>：本身就是经济转型里"K"的那个主体。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">个人（中高净值人群）</strong>：今年上半年热门赛道融到百亿以上时，大量专项基金出现——中高净值人群募来只投单个项目的基金。最近一个半月，甚至有人在微信上问峰叔："你们有没有 DeepSeek 的份额？"他提醒：专项基金没有资产配置逻辑，一个项目不行就全亏，协会备案正在卡这个口子。</p>
+<p style="margin:0.8em 0">这些钱是从哪来的？答案很有趣：2020 到 2022 年募集的基金——那是募资最高潮的时期——在 2022、2023 年几乎没出手，2025 年起"稀里哗啦都出来了"。触发机制是心理层面的"刺激效应"：长鑫、长存这些财富故事最大的公司，当初在没人投的时候是国资投的，国资赚到了最多的钱；市场化资金一看"你都能行，我也能行"，于是把落后进度条的子弹全部打了出来。</p>
+<p style="margin:0.8em 0">数据上，中国融资结构的变化已经发生：7 月金融数据里，银行贷款占当期社融 60%，直接融资占 30% 出头——五年前还是 72:28。美国的参照系是先有资本市场、后有央行，直接融资占 80% 以上。峰叔的预测：中国会走向"五和四"的结构，居民资产的配置转移将是一个十年以上、几十万亿级别的过程。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">居民资产负债表：把消费者从融资对象还原成消费者</h2>
+<p style="margin:0.8em 0">7 月金融数据里还藏着另一个信号：居民贷款规模减少，居民存款减少，而没有完全对应上的，是非银金融机构存款增加。高盛据此写过一篇文章：中国面临未来十年以上几十万亿的居民资产配置转移。</p>
+<p style="margin:0.8em 0">居民为什么提前还贷、不借钱了？峰叔的解释不是简单的"消费不振"：两三年期的高息定存陆续到期，大家拿到钱第一件事是提前还掉 4% 甚至 6% 利率的商业贷款。这对应的是央行行长 6 月在《求是》上第一次明示的概念——"居民资产负债表的再平衡与修复"。此后几个月出台的一大堆政策，都可以归拢到同一件事上：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一，砍掉高息负债。</strong> 清理互联网助贷、多头借贷等高风险个贷消费贷，一次性切除银行个贷中的潜在风险——手法上像极了 1999-2000 年用 AMC 勾掉银行坏账。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二，定向贴息。</strong> 财政部千亿级财政资金，此前市场猜会不会贴房贷——结果贴向了消费贷、小微企业科创贷和科创债。逻辑与政府化债一致：把久期和利率不匹配的负债换出来——借 10% 的市场化资金修一条要 30 年回本、年化只有 2-3% 的路，这种错配必须被置换。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三，房地产新政。</strong> 这是最近被讨论最多的政策。坊间研究说房企收益率会降到 4%，峰叔看到的本质是另一件事：<strong style="font-weight:600">把整个房地产链条推回市场化，把消费者从"融资对象"还原成纯粹的消费者</strong>。预售制时代，老百姓通过按揭贷款在投资驱动 GDP 的循环里承担了融资方角色——相当于被预加了杠杆、预参与了资金流转。新政之后，买现房的人承担的只是消费贷角色，融资风险由开发链条和金融机构自己消化。</p>
+<p style="margin:0.8em 0">为什么要在这个时点做？因为房价已经在底部区域（年初的判断是年中见底），在接近底部时拆开链条才不会引发恐慌；同时新房供给收缩会带动二手房止跌——这是在稳定居民资产负债表的分母。日本 90 年代之后经历过一模一样的过程，煤炭、矿产行业也走过国资接盘整合的路径。</p>
+<p style="margin:0.8em 0">修复资产负债表的目的，是为居民挪出空间进入"新循环"：一是消费；二是资产端的长期再配置——从 70% 房产，慢慢转向金融资产：保险、证券、公募、固收理财。中国居民负债率因此在过去一年降了接近两个百分点——大家先还了商贷，其次滚存定存，再买 2% 的银行理财，然后是分红险。</p>
+<p style="margin:0.8em 0">峰叔还补了一句关键判断：居民金融资产配置比例低，与其说是风险偏好问题，不如说是<strong style="font-weight:600">资产缺失问题</strong>——"K 型复苏"上面那个 K（高附加值产业）还没有足够多的可投标的。但他的历史参照系是乐观的：三年前没人相信中国医药研发的对外授权总金额能占全球三分之二，今天已成事实；2019 年李斌还是"最惨的男人"，两年后新能源车从年出口一百多万辆变成千万辆。手机、新能源车都是靠内需市场起来的，医药差的那一环同样是内需——这又回到金融结构：医保保基础，商保才能保消费升级，商保创新是居民资产配置转移的出口之一。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">保险：居民资产负债表的转换器</h2>
+<p style="margin:0.8em 0">谁来完成"从不动产到金融资产"的搬运？峰叔的答案：保险——可能还有券商，以及未来的更多金融机构。</p>
+<p style="margin:0.8em 0">今年上半年保险业的财报形态与券商极其相似：主营业务收入增长平平，贡献利润的主要是投资收益。券商是因为科创板跟投和直投赚了大钱（那些大芯片大模型公司背后有大量券商直投）；保险则因为分红险大卖——老百姓把保险当理财买，分红险承诺 2.5% 左右的收益，而国债平均只能给到 1.8%，缺口靠什么补？配权益。监管正好放开了口子，保险权益配置比例已经可以到 30%。</p>
+<p style="margin:0.8em 0">这就是为什么国家队从茅台退出时，接盘的几乎全是保险公司——它们不参与按月按周的排名，分红率 4% 以上的蓝筹对它们是合理资产。</p>
+<p style="margin:0.8em 0">两周前保险还出了一条新规，2027 年 1 月 1 日起施行：负债端与资产端要做久期、收益、流动性匹配——长钱长投、中钱中投、短钱短投。这像极了 2018 年资管新规对银行资金池的约束：不能用老百姓的短钱去投十年期低流动性股权。保险还面临自己的历史包袱：2022-23 年高息时代卖出的保单陆续到期，在债收益掉了很多的今天，息差损要靠投资收益来补——这反过来又强化了它配置权益的动力。</p>
+<p style="margin:0.8em 0">在峰叔的观察里，中国资本市场正在形成一种理想化的四层筹码结构：最底层是保险资金——动的频率最低的基础筹码；上面一层是公募和指数基金——接近小平准；再上是汇金证金——专职平准；最上面才是散户、私募和主动公募的频繁交易筹码。他猜测，监管近期一口气批了十几只主动管理型指数基金，部分原因正是国家队买宽基平准的尴尬——二季度指数上涨是极少数"站在光里的公司"拉起来的，宽基里却不主要包含它们，一卖宽基就把已经很惨的蓝筹卖得更惨；主动 ETF 可以在配置层面挑着买，理论上未来可以用"AI 硬件宽基"这种工具实现定向平准。</p>
+<p style="margin:0.8em 0">慢牛从来不是"又慢又牛"那么简单，它需要一个先把筹码结构搭好的前提。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两把达摩克里斯之下</h2>
+<p style="margin:0.8em 0">回到开头。这期宏观漫谈录于 9 月 2 日——8 月金融数据未出，7 月数据已出半个月。峰叔说，他观察到的中国，正在做一件全球独一份的事：借 AI 加资本周期的窗口，用四年时间（两年没人投的冷淡期，加两年超高热情的退出期），把政府到个人的五类经济主体，集体扭向了直接融资——国家层面调整金融结构，居民层面再平衡资产负债表，两者是同一枚硬币。</p>
+<p style="margin:0.8em 0">而硬币的另一面，是全球"一次半泡沫"的流动性困境：央行行长们已经习惯了用更大的量宽去接住上一次的泡沫，贫富分化在不可逆地改变社会结构。AI 是被寄予厚望的终极解法，但峰叔提醒：把技术叙事和资本周期叙事分开看，才不会在同一个泡沫里把两件事一起押错。</p>
+<p style="margin:0.8em 0">他买的那一点不加杠杆的英伟达空仓，最终会告诉他答案——一二三四五，哪些判断兑现了，哪些没有。这本身就是一个等待被验证的实验。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">港股破发率是流动性的温度计：上半年 10%+ 的破发率是投机资金主导的病态信号，回到 50% 左右才是长钱回归。</li>
+<li style="margin:0.3em 0">英伟达"以租代买"是 2000 年思科、北电崩盘前用过的招数；自由现金流环比减半、应收高企，比利润表更值得警惕。</li>
+<li style="margin:0.3em 0">全球流动性见顶的本质是"新钱不够"：美债、70 万亿市值的美股、万亿级数据中心 Capex 在抢同一池水。</li>
+<li style="margin:0.3em 0">自 1971 年美元脱钩黄金，央行行长从"摸着石头过河"进化为"直接不摸"——2020 年一次无上限 QE 叠加出"一次半泡沫"，滞胀可能是长期宿命。</li>
+<li style="margin:0.3em 0">中国正借 AI 资本周期用四年完成金融结构转身：五类经济主体集体从间接融资扭向直接融资，社融中贷款占比已从 72% 降到 60%。</li>
+<li style="margin:0.3em 0">房地产新政的本质是把消费者从"融资对象"还原为纯消费者，配合砍高息贷、定向贴息，共同修复居民资产负债表。</li>
+<li style="margin:0.3em 0">保险是居民资产从房产转向金融资产的转换器：分红险倒逼权益配置，2027 年新规要求久期匹配，慢牛的前提是先把四层筹码结构搭好。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[十字路口Crossing] 被骗过、被救过、被算法裹挟过，陈安妮要在AI时代重造故事</title><link>https://xlicz.github.io/podcast-rss/articles/被骗过-被救过-被算法裹挟过-陈安妮要在AI时代重造故事-2026-09-06.html</link><guid isPermaLink="false">crossing_b9470d4bd163</guid><pubDate>Sun, 06 Sep 2026 08:00:00 +0800</pubDate><description>被骗过、被救过、被算法裹挟过，陈安妮要在AI时代重造故事</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被骗过、被救过、被算法裹挟过，陈安妮要在AI时代重造故事</h1>
 <p style="margin:0.8em 0">副标题：快看漫画创始人谈新作 LIVO——一个实时活着的 AI 世界，与创业 12 年换来的三个判断</p>
@@ -17099,13 +17188,13 @@ sg回榜/id企稳/my+8=下跌面收窄，未满
 -24%低位（脱离-30%线第2日）</li>
 <li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E无修正</strong>——今日实质新增
 3条(9-7六条昨日已判)；13:18给小游戏
-市场空间首次量化&quot;今年大几百亿→明年
-1000亿&quot;与第三方吻合(DataEye 610亿/
+市场空间首次量化"今年大几百亿→明年
+1000亿"与第三方吻合(DataEye 610亿/
 白皮书2027破千亿)，tap拿5-10%份额=
 远期愿景折30%后不构成修正</li>
 <li style="margin:0.3em 0">行动: 持有不加不减（回吐不动作；裁决
 点未到: RO首月9-13~15 / 8月tap广告 /
-&quot;焚决&quot;帖窗口）</li>
+"焚决"帖窗口）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
 <p style="margin:0.8em 0">收盘价 43.58（9-8 周二）
@@ -17205,7 +17294,7 @@ cn畅销连续2日缺席(9-7#93→今日100外)+
 国际服4/7区续降(tw-8/kr-14/th-4/ph-5)，
 但sg回榜#91(连2出榜后回)/id企稳(0)/
 my+8独升=下跌面收窄(5→4区)；未满
-&quot;连续2周+3区同步&quot;规则，明日续跌面扩
+"连续2周+3区同步"规则，明日续跌面扩
 大才确认回落重启</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam）</h2>
@@ -17278,14 +17367,14 @@ br/vn/us/gb/de（jp/fr/br连出延续）；
 13:18首给小游戏市场空间量化（今年
 大几百亿/明年1000亿）与第三方机构吻
 合✅，但tap拿5-10%份额=平台级远期愿
-景，折30%后不构成修正；&quot;明年1000亿&quot;
+景，折30%后不构成修正；"明年1000亿"
 归因AI为自估</li>
 <li style="margin:0.3em 0">方向信号: 利好1（13:18市场空间叙事）/
 中性2（00:21疑问+09:59盘面观察）</li>
 <li style="margin:0.3em 0">可靠度: 🟡中——小游戏市场总量=独立
 机构可验✅（伽马535亿/DataEye 610亿/
-抖音白皮书2027破千亿）；&quot;tap 5-10%
-份额&quot;无实据；09:59恒科权重无当日指
+抖音白皮书2027破千亿）；"tap 5-10%
+份额"无实据；09:59恒科权重无当日指
 数数据</li>
 <li style="margin:0.3em 0">对错统计: ✅0/⚠️1/❓2/❌0（今日实质
 新增3条口径；9-7六条统计见昨日报
@@ -17297,8 +17386,8 @@ br/vn/us/gb/de（jp/fr/br连出延续）；
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（今日新增3条）</h3>
 <p style="margin:0.8em 0">📌 9-8 00:21 AI游戏爆发自问 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;为啥AI游戏的爆发点刚好是最近这段时
-间？而且GPT-6 Astra后又加速了&quot;
+<p style="margin:0.8em 0">"为啥AI游戏的爆发点刚好是最近这段时
+间？而且GPT-6 Astra后又加速了"
 主张: 暗示AI小游戏爆发=GPT-6催化（自问
 式引子，无结论句）
 核查: ✅现象实锤——GPT-6Astra 9-7发布
@@ -17310,8 +17399,8 @@ br/vn/us/gb/de（jp/fr/br连出延续）；
 </blockquote>
 <p style="margin:0.8em 0">📌 9-8 09:59 恒科权重变化 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;恒科里互联网公司的权重和影响越来越小
-了&quot;
+<p style="margin:0.8em 0">"恒科里互联网公司的权重和影响越来越小
+了"
 主张: 恒科指数互联网权重下降→恒科对心动
 参考意义减弱（言外之意）
 核查: ❓恒科最新权重构成无当日公开数据；
@@ -17319,30 +17408,30 @@ br/vn/us/gb/de（jp/fr/br连出延续）；
 微盟-6%/MiniMax-5%=AI应用股集体回调）为
 实；❤️语境: 心动-3.24%跑输恒科当日，此
 条可读为开脱/降参考系
-对照: 与持仓信心类发言同族（8-30起&quot;估
-值理念/持股体验&quot;持续输出）
+对照: 与持仓信心类发言同族（8-30起"估
+值理念/持股体验"持续输出）
 结论: 盘面观察无数字主张；对E无影响
 对错: ❓</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-8 13:18 做自己/1%份额长文 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;小游戏市场今年已经是大几百亿一年，在
+<p style="margin:0.8em 0">"小游戏市场今年已经是大几百亿一年，在
 AI帮助下，明年到1000亿左右都可能…
 tap能凭借AI游戏拿到这部分10%甚至5%的
-市场都是一个大的增量&quot;
+市场都是一个大的增量"
 主张: ①小游戏今年大几百亿 ②明年~1000
 亿(AI帮助) ③tap拿5-10%份额=大增量
 ④只做自己1% ⑤行业需政策变化盼大厂推动
 核查: ✅①2025年535-610亿（伽马535.35/
-DataEye 610，权威口径）；✅②&quot;明年1000
-亿&quot;与2026抖音白皮书&quot;2027破千亿&quot;预测一
+DataEye 610，权威口径）；✅②"明年1000
+亿"与2026抖音白皮书"2027破千亿"预测一
 致（2027=明年✓），但归因AI加速=自估附
 加；❓③tap 5-10%份额=平台级愿景无实据
 （TapTap AI游戏占比当前无公开口径，榜单
 潮持续&lt;1周不可外推）④观点 ⑤外部依赖
-对照: 承接9-6&quot;受损→受益&quot;翻转+9-7设身
+对照: 承接9-6"受损→受益"翻转+9-7设身
 处地爆火——首次给市场空间量化（5-10%
-份额），与&quot;AI受益股&quot;标签同源加固
+份额），与"AI受益股"标签同源加固
 结论: 论据（市场总量）✅且引数准确；核
 心推论（5-10%份额）无时间表无口径=平台
 级收入愿景折30%后不构成E修正；⑤归因外
@@ -17381,11 +17470,11 @@ DataEye 610，权威口径）；✅②&quot;明年1000
 </tbody>
 </table></div>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">命中细节: 13:18&quot;游戏行业需要政策层面
-变化…大厂推动最好&quot;=把行业关键变量外
-移给大厂/政策（呼应9-5&quot;大厂下场&quot;长文
-同源）；&quot;做股东不用这么累/不懂不碰/拿
-到1%&quot;=估值理念+持股信心重申（8-30以来
+<li style="margin:0.3em 0">命中细节: 13:18"游戏行业需要政策层面
+变化…大厂推动最好"=把行业关键变量外
+移给大厂/政策（呼应9-5"大厂下场"长文
+同源）；"做股东不用这么累/不懂不碰/拿
+到1%"=估值理念+持股信心重申（8-30以来
 第N次，历史锚定）；今日无报忧无新承认，
 5机制整体低活跃</li>
 </ul>
@@ -17395,18 +17484,18 @@ DataEye 610，权威口径）；✅②&quot;明年1000
 御/13:18利好）=利好1条&lt;3条门槛；9-7报
 喜日(6条,已登记昨日报)今日未延续，发言
 强度回落至3条/日；语境=大涨后回吐日，
-输出反而降温，非典型&quot;低位维护&quot;模式</li>
+输出反而降温，非典型"低位维护"模式</li>
 <li style="margin:0.3em 0">结论不变，记入反误导档案观察</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">公司级利润10-15%: 不适用（无公司级新
 预测；13:18为远期行业空间叙事非26E口径）</li>
-<li style="margin:0.3em 0">产品级流水30%: 适用——&quot;tap凭AI游戏拿
-5-10%小游戏市场&quot;=平台级收入愿景（无兑
+<li style="margin:0.3em 0">产品级流水30%: 适用——"tap凭AI游戏拿
+5-10%小游戏市场"=平台级收入愿景（无兑
 现时间表），折30%后无E修正</li>
 <li style="margin:0.3em 0">对冲叙事Σ验证+50%: 部分适用——13:18
-隐含&quot;巨头夹缝中拿份额&quot;对冲叙事（与微
+隐含"巨头夹缝中拿份额"对冲叙事（与微
 信/抖音存量竞争下tap增量逻辑），需H2
 tap小游戏/广告月度数据Σ验证</li>
 <li style="margin:0.3em 0">估值结论30%: 不适用（今日无估值结论类
@@ -17416,7 +17505,7 @@ tap小游戏/广告月度数据Σ验证</li>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">9月上旬: 8月tap广告数据发布（③🔴裁决
 点=他口中短期唯一扭转点）</li>
-<li style="margin:0.3em 0">9-8~9-12: 他&quot;焚决&quot;帖窗口（9-7预告本
+<li style="margin:0.3em 0">9-8~9-12: 他"焚决"帖窗口（9-7预告本
 周交）；设身处地是否重新上架/第二游戏
 动向；AI应用股回调情绪是否蔓延</li>
 <li style="margin:0.3em 0">9-10: 王者万象棋上线（腾讯竞品，TapTap
@@ -17445,7 +17534,7 @@ RO守爱2上线日待查（预约榜连续缺席）</li>
 <li style="margin:0.3em 0">④GPT-6行情回吐深度: 2日累计
 (+12.66%→-3.24%)，量能2.4亿HKD观察缩
 量与否</li>
-<li style="margin:0.3em 0">⑤他&quot;焚决&quot;帖（9-7预告）——若含新E/
+<li style="margin:0.3em 0">⑤他"焚决"帖（9-7预告）——若含新E/
 目标价=预测更新重点监控</li>
 <li style="margin:0.3em 0">⑥8月tap广告数据窗口（③裁决）</li>
 <li style="margin:0.3em 0">验证路径: 榜单日更 / 9月上旬广告数据 /
@@ -17498,7 +17587,7 @@ RO守爱2上线日待查（预约榜连续缺席）</li>
 未满2周规则；RO SEA走强正向抵消）</li>
 <li style="margin:0.3em 0">出榜: 小镇——cn畅销(连2)/hk连7/jp/fr/
 br连出延续；香肠——cn免费(连2)</li>
-<li style="margin:0.3em 0">新承认/预测下修: 无（&quot;焚决&quot;未落地；
+<li style="margin:0.3em 0">新承认/预测下修: 无（"焚决"未落地；
 13:18无下修为新市场空间叙事）</li>
 <li style="margin:0.3em 0">数据源: TapTap/Apple/Steam/逸修1 ✅；
 ⚠️akshare东财断连第13日→腾讯源兜底成
@@ -17507,5 +17596,186 @@ br连出延续；香肠——cn免费(连2)</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[高能量] 流动性见顶，与一场正在收官的四年金融转身</title><link>https://xlicz.github.io/podcast-rss/articles/流动性见顶-与一场正在收官的四年金融转身-2026-09-07.html</link><guid isPermaLink="false">gao-neng-liang_2267aac539af</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>流动性见顶，与一场正在收官的四年金融转身</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">流动性见顶，与一场正在收官的四年金融转身</h1>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从港股破发率说起：九月的第一天，市场同时亮起两盏灯</h2>
+<p style="margin:0.8em 0">2026 年 9 月初，香港两天之内上了两家备受关注的新股——一家工业机器人公司，一家跨境电商公司——结果双双破发。参与打新的朋友亏了钱，跑来问峰叔：香港打新为什么会亏钱？</p>
+<p style="margin:0.8em 0">答案不在打新本身，而在一个被大多数人当成噪音的指标：破发率。</p>
+<p style="margin:0.8em 0">今年上半年，港股新股破发率只有百分之十几。这个数字低得不正常。一家注册制市场里，上市定价由买卖双方博弈出来，纯靠运气也应该是一半对一半。破发率极低，说明有大量短期投机套利资金在"打新"——用炒两周赚百分之几十的确定性，把愿意等一年赚百分之十的长钱全部挤走了。李翔和峰叔从一个半月前开始盯这个指标：什么时候破发率回到正常水平，钱才从短期回到长期。</p>
+<p style="margin:0.8em 0">结果是，最近两周半，港股几乎零新股上市——供给被主动掐住了。与此同时，一个规模十亿、专炒 IPO 基石的基金出了问题，投资人的钱拿不出来。</p>
+<p style="margin:0.8em 0">在峰叔看来，这像是同一个信号的两面：市场正在用最粗暴的方式，把投机资金赶出短期游戏。但即便供给收缩，破发依然发生——这暴露了更深一层的问题：不是某只股票定价错了，而是整个市场缺新钱。</p>
+<p style="margin:0.8em 0">录制这期节目之前，峰叔对李翔说了一句话："有点风雨飘摇。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一笔不加杠杆的英伟达空仓：不是看空 AI，是做一次流动性实验</h2>
+<p style="margin:0.8em 0">针对这个判断，峰叔做了一个动作：买了"一点点"英伟达空仓。特意强调：不加杠杆。</p>
+<p style="margin:0.8em 0">不加杠杆的空仓没有磨损——跌 10% 就赚 10%，涨 8% 就亏 8%。不像杠杆产品，波动一大就把收益磨光。他说得很清楚，这纯粹是"做一个流动性实验"，与是否看空 AI 无关。AI 有价值，AI 股票和 AI 公司，是两回事。</p>
+<p style="margin:0.8em 0">他的推理链值得完整复述，因为每一步都对应一个可以验证的现象：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一季度：资本市场奖励激进者。</strong> 全球主要 AI 大公司——包括微软——在一季度末集中宣布激进的数据中心资本开支计划。当时谁花钱激进，市场就给谁高估值。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">二季度：全产业链 FOMO。</strong> 所有人一边坚信算力必然涨价，一边疯狂囤货、砸钱。这是"花钱最狠的一个季度"，但恰恰是英伟达毛利受影响最小的季度——大家卖的是涨价前备好的库存。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">半年报发布后：风向突变，谁激进惩罚谁。</strong> 7 月市场经历超高波动，随后中大型互联网公司公布半年报。凡是资本开支激进到打光自由现金流的公司，一律被折价——谷歌没能幸免，增发的阿里也被冷眼。与一季度之前完全相反。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">三季度：所有不利因素同时回来。</strong> 美国的 AI 数据中心建设开始被环评、州政府审批、电网配套、周边居民反对拖慢——年初说要建一百个的，二季度拼命把钱先花出去怕涨价封路，三季度发现很多项目要延迟甚至无法开工；库存消耗殆尽，涨价冲击开始真正体现。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">然后是最关键的信号：英伟达开始"以租代买"。</strong> 2000 年互联网泡沫崩盘前半年，思科和北电都干过同样的事——帮客户征信、担保贷款，把机器的租赁收入提前记为销售收入。巴伦周刊最近一篇文章问了一个尖锐的问题：英伟达财报这么好，自由现金流去哪了？环比又少了一半，账上挂着远超历史水平的应收款项。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">周期性高资本开支行业，"当看起来最赚钱的时候，基本就是要出问题的时候"。</p>
+</blockquote>
+<p style="margin:0.8em 0">峰叔用存储行业的历史周期解释：这种行业看 PE 没用，要看 PB；当 PE 来到个位数——尤其低单个位数——往往就是见顶信号。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">万亿级资金在抢同一池水</h2>
+<p style="margin:0.8em 0">所以流动性见顶是什么意思？峰叔的定义朴素而准确：<strong style="font-weight:600">新钱不够了</strong>。</p>
+<p style="margin:0.8em 0">任何市场上涨都需要新钱注入资产。越往上涨，每推高一层的代价越大——新钱要更冒险，因为止盈离场的人越积越多。当"发再好的报表也涨不动"成为普遍现象，就是流动性见顶的表征。过去几天，欧美日韩英的债券收益率集体飙升——全球债券在遭抛售；全球资本市场要么波动向下，要么涨不动。</p>
+<p style="margin:0.8em 0">但最麻烦的是，现在有好几拨人在抢这池水：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">美债</strong>需要流动性，否则政府发不出去债——第一优先级；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">美股</strong>市值已超 70 万亿美元，是 GDP 的 2.3 倍以上，维持这个价格本身就需要大量新钱；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 数据中心</strong>的资本开支主要靠债务融资，还需要万亿美金级别的钱；</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">全球各经济体</strong>都在高息环境中互相抢钱，避免被美元虹吸。</li>
+</ul>
+<p style="margin:0.8em 0">在美国内部，私募信贷（主要投向数据中心）、资本市场、美债三方，每一方要的都是万亿级以上的增量。小国凑不出一万亿美金，中国拿出十万亿人民币级别也吃力。峰叔的结论是：这个问题"风雨飘摇之后怎么办，我也不知道"。</p>
+<p style="margin:0.8em 0">他唯一能确定的，是各国央行行长的处境——一条极难走的独木桥：美元必须保持强势，否则资金会逃离美元资产；但既不能升息（打破无数平衡），也不能降息（主动示弱）。剩下只有两个选项：拼命喊话维护美元强势预期，或者制造风险让避险资金回流。这也是为什么过去一个月，从 G20 财长会到杰克逊霍尔，所有人都在"踩独木桥"。</p>
+<p style="margin:0.8em 0">顺带解释了黄金的跷跷板：美元有强势预期时，资金优先去美元——它是有利息的避险资产；当连短债收益率都开始飙升、长期不确定性加大时，资金才去黄金——它没有利息，只有公允的价值属性。巴菲特不认为黄金是资产，原因就在这里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一次半泡沫：五十年央行进化史的终点</h2>
+<p style="margin:0.8em 0">李翔问了一个所有关心流动性的人都想问的问题：疫情时各国印了那么多钱，都去哪了？未来还会那样印吗？</p>
+<p style="margin:0.8em 0">峰叔把镜头拉回到 1971 年——美元脱离黄金，全球进入信用货币时代，印钞从此没有锚。之后的历史是一部央行行长越来越自信的进化史：石油危机、卡特滞胀、沃尔克用超高的指导利率把通胀压回 2%——那是"最后一个守纪律的联储主席"。此后资金全球自由流转，每一次危机都由量化宽松收场：2008 年之后，美联储花了三年半、分了三次半，谨慎地完成 QE；2020 年 3 月，一次无上限 QE 直接到位，七个月印完了当年金融危机后三年半的总量，还叠加了直接发钱。</p>
+<p style="margin:0.8em 0">特朗普上一任打断了本该到来的升息周期——他阻止鲍威尔加息，用减税换取支持。于是上一次堆积的泡沫还没消散，就叠上了一次更大的、毫不犹豫的全量放水。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这是一次半的泡沫——上一次没破，这一次更大，摞在一个十五年的周期里。</p>
+</blockquote>
+<p style="margin:0.8em 0">后果就是今天看到的一切：除中国以外全球通胀，且几乎无法抑制；美股 70 万亿市值对着 29 万亿 GDP；贫富差距在各国极化——这是所有民粹的底层原因。</p>
+<p style="margin:0.8em 0">峰叔把它称为"两把达摩克里斯之剑"：第一把，泡沫理论上最少要破一次半，跌一个狠的——但央行行长不会允许，于是大概率再来一次更大的量宽，结果可能是滞胀以某种形式长期存在，"直到把炮消掉"；第二把，社会结构的分裂与分化几乎不可逆，除非把泡沫一把清掉。</p>
+<p style="margin:0.8em 0">至于"寄希望于 AI 技术革命来解决"——峰叔的回应很冷静：那是一个叙事过程，很难。他特意把两件事分开：AI 是毫无疑问的技术创新，但 AI 叙事正在被资本市场泡沫周期放大，这是两个问题。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四年金融转身：五类经济主体的集体转向</h2>
+<p style="margin:0.8em 0">讲完全球，峰叔把话题拉回中国——这才是本期真正的重点。他抛出一个框架：中国的金融结构调整，正借这一次 AI 加资本周期，在四年内完成一场罕见的集体转向。</p>
+<p style="margin:0.8em 0">中国的市场主体分五层：政府、金融机构、规上企业、小微企业、个人。峰叔逐一观察了它们的"观念转换"：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">政府</strong>：从土地财政扭向股权财政。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">金融机构</strong>：连银行都开始转做直投。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">规上企业</strong>：大量主营业务与科技无关的上市公司，纷纷下场布局热门科技赛道——自己组织、参与基金或直接直投。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">小微企业</strong>：本身就是经济转型里"K"的那个主体。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">个人（中高净值人群）</strong>：今年上半年热门赛道融到百亿以上时，大量专项基金出现——中高净值人群募来只投单个项目的基金。最近一个半月，甚至有人在微信上问峰叔："你们有没有 DeepSeek 的份额？"他提醒：专项基金没有资产配置逻辑，一个项目不行就全亏，协会备案正在卡这个口子。</p>
+<p style="margin:0.8em 0">这些钱是从哪来的？答案很有趣：2020 到 2022 年募集的基金——那是募资最高潮的时期——在 2022、2023 年几乎没出手，2025 年起"稀里哗啦都出来了"。触发机制是心理层面的"刺激效应"：长鑫、长存这些财富故事最大的公司，当初在没人投的时候是国资投的，国资赚到了最多的钱；市场化资金一看"你都能行，我也能行"，于是把落后进度条的子弹全部打了出来。</p>
+<p style="margin:0.8em 0">数据上，中国融资结构的变化已经发生：7 月金融数据里，银行贷款占当期社融 60%，直接融资占 30% 出头——五年前还是 72:28。美国的参照系是先有资本市场、后有央行，直接融资占 80% 以上。峰叔的预测：中国会走向"五和四"的结构，居民资产的配置转移将是一个十年以上、几十万亿级别的过程。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">居民资产负债表：把消费者从融资对象还原成消费者</h2>
+<p style="margin:0.8em 0">7 月金融数据里还藏着另一个信号：居民贷款规模减少，居民存款减少，而没有完全对应上的，是非银金融机构存款增加。高盛据此写过一篇文章：中国面临未来十年以上几十万亿的居民资产配置转移。</p>
+<p style="margin:0.8em 0">居民为什么提前还贷、不借钱了？峰叔的解释不是简单的"消费不振"：两三年期的高息定存陆续到期，大家拿到钱第一件事是提前还掉 4% 甚至 6% 利率的商业贷款。这对应的是央行行长 6 月在《求是》上第一次明示的概念——"居民资产负债表的再平衡与修复"。此后几个月出台的一大堆政策，都可以归拢到同一件事上：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一，砍掉高息负债。</strong> 清理互联网助贷、多头借贷等高风险个贷消费贷，一次性切除银行个贷中的潜在风险——手法上像极了 1999-2000 年用 AMC 勾掉银行坏账。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二，定向贴息。</strong> 财政部千亿级财政资金，此前市场猜会不会贴房贷——结果贴向了消费贷、小微企业科创贷和科创债。逻辑与政府化债一致：把久期和利率不匹配的负债换出来——借 10% 的市场化资金修一条要 30 年回本、年化只有 2-3% 的路，这种错配必须被置换。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三，房地产新政。</strong> 这是最近被讨论最多的政策。坊间研究说房企收益率会降到 4%，峰叔看到的本质是另一件事：<strong style="font-weight:600">把整个房地产链条推回市场化，把消费者从"融资对象"还原成纯粹的消费者</strong>。预售制时代，老百姓通过按揭贷款在投资驱动 GDP 的循环里承担了融资方角色——相当于被预加了杠杆、预参与了资金流转。新政之后，买现房的人承担的只是消费贷角色，融资风险由开发链条和金融机构自己消化。</p>
+<p style="margin:0.8em 0">为什么要在这个时点做？因为房价已经在底部区域（年初的判断是年中见底），在接近底部时拆开链条才不会引发恐慌；同时新房供给收缩会带动二手房止跌——这是在稳定居民资产负债表的分母。日本 90 年代之后经历过一模一样的过程，煤炭、矿产行业也走过国资接盘整合的路径。</p>
+<p style="margin:0.8em 0">修复资产负债表的目的，是为居民挪出空间进入"新循环"：一是消费；二是资产端的长期再配置——从 70% 房产，慢慢转向金融资产：保险、证券、公募、固收理财。中国居民负债率因此在过去一年降了接近两个百分点——大家先还了商贷，其次滚存定存，再买 2% 的银行理财，然后是分红险。</p>
+<p style="margin:0.8em 0">峰叔还补了一句关键判断：居民金融资产配置比例低，与其说是风险偏好问题，不如说是<strong style="font-weight:600">资产缺失问题</strong>——"K 型复苏"上面那个 K（高附加值产业）还没有足够多的可投标的。但他的历史参照系是乐观的：三年前没人相信中国医药研发的对外授权总金额能占全球三分之二，今天已成事实；2019 年李斌还是"最惨的男人"，两年后新能源车从年出口一百多万辆变成千万辆。手机、新能源车都是靠内需市场起来的，医药差的那一环同样是内需——这又回到金融结构：医保保基础，商保才能保消费升级，商保创新是居民资产配置转移的出口之一。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">保险：居民资产负债表的转换器</h2>
+<p style="margin:0.8em 0">谁来完成"从不动产到金融资产"的搬运？峰叔的答案：保险——可能还有券商，以及未来的更多金融机构。</p>
+<p style="margin:0.8em 0">今年上半年保险业的财报形态与券商极其相似：主营业务收入增长平平，贡献利润的主要是投资收益。券商是因为科创板跟投和直投赚了大钱（那些大芯片大模型公司背后有大量券商直投）；保险则因为分红险大卖——老百姓把保险当理财买，分红险承诺 2.5% 左右的收益，而国债平均只能给到 1.8%，缺口靠什么补？配权益。监管正好放开了口子，保险权益配置比例已经可以到 30%。</p>
+<p style="margin:0.8em 0">这就是为什么国家队从茅台退出时，接盘的几乎全是保险公司——它们不参与按月按周的排名，分红率 4% 以上的蓝筹对它们是合理资产。</p>
+<p style="margin:0.8em 0">两周前保险还出了一条新规，2027 年 1 月 1 日起施行：负债端与资产端要做久期、收益、流动性匹配——长钱长投、中钱中投、短钱短投。这像极了 2018 年资管新规对银行资金池的约束：不能用老百姓的短钱去投十年期低流动性股权。保险还面临自己的历史包袱：2022-23 年高息时代卖出的保单陆续到期，在债收益掉了很多的今天，息差损要靠投资收益来补——这反过来又强化了它配置权益的动力。</p>
+<p style="margin:0.8em 0">在峰叔的观察里，中国资本市场正在形成一种理想化的四层筹码结构：最底层是保险资金——动的频率最低的基础筹码；上面一层是公募和指数基金——接近小平准；再上是汇金证金——专职平准；最上面才是散户、私募和主动公募的频繁交易筹码。他猜测，监管近期一口气批了十几只主动管理型指数基金，部分原因正是国家队买宽基平准的尴尬——二季度指数上涨是极少数"站在光里的公司"拉起来的，宽基里却不主要包含它们，一卖宽基就把已经很惨的蓝筹卖得更惨；主动 ETF 可以在配置层面挑着买，理论上未来可以用"AI 硬件宽基"这种工具实现定向平准。</p>
+<p style="margin:0.8em 0">慢牛从来不是"又慢又牛"那么简单，它需要一个先把筹码结构搭好的前提。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两把达摩克里斯之下</h2>
+<p style="margin:0.8em 0">回到开头。这期宏观漫谈录于 9 月 2 日——8 月金融数据未出，7 月数据已出半个月。峰叔说，他观察到的中国，正在做一件全球独一份的事：借 AI 加资本周期的窗口，用四年时间（两年没人投的冷淡期，加两年超高热情的退出期），把政府到个人的五类经济主体，集体扭向了直接融资——国家层面调整金融结构，居民层面再平衡资产负债表，两者是同一枚硬币。</p>
+<p style="margin:0.8em 0">而硬币的另一面，是全球"一次半泡沫"的流动性困境：央行行长们已经习惯了用更大的量宽去接住上一次的泡沫，贫富分化在不可逆地改变社会结构。AI 是被寄予厚望的终极解法，但峰叔提醒：把技术叙事和资本周期叙事分开看，才不会在同一个泡沫里把两件事一起押错。</p>
+<p style="margin:0.8em 0">他买的那一点不加杠杆的英伟达空仓，最终会告诉他答案——一二三四五，哪些判断兑现了，哪些没有。这本身就是一个等待被验证的实验。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">港股破发率是流动性的温度计：上半年 10%+ 的破发率是投机资金主导的病态信号，回到 50% 左右才是长钱回归。</li>
+<li style="margin:0.3em 0">英伟达"以租代买"是 2000 年思科、北电崩盘前用过的招数；自由现金流环比减半、应收高企，比利润表更值得警惕。</li>
+<li style="margin:0.3em 0">全球流动性见顶的本质是"新钱不够"：美债、70 万亿市值的美股、万亿级数据中心 Capex 在抢同一池水。</li>
+<li style="margin:0.3em 0">自 1971 年美元脱钩黄金，央行行长从"摸着石头过河"进化为"直接不摸"——2020 年一次无上限 QE 叠加出"一次半泡沫"，滞胀可能是长期宿命。</li>
+<li style="margin:0.3em 0">中国正借 AI 资本周期用四年完成金融结构转身：五类经济主体集体从间接融资扭向直接融资，社融中贷款占比已从 72% 降到 60%。</li>
+<li style="margin:0.3em 0">房地产新政的本质是把消费者从"融资对象"还原为纯消费者，配合砍高息贷、定向贴息，共同修复居民资产负债表。</li>
+<li style="margin:0.3em 0">保险是居民资产从房产转向金融资产的转换器：分红险倒逼权益配置，2027 年新规要求久期匹配，慢牛的前提是先把四层筹码结构搭好。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[AI动态] AI 领域动态 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-11.html</link><guid isPermaLink="false">report:AI动态:2026-09-11:c958fbd5</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-11</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/11（补跑 09/09–09/11 · Navier-Stokes / 人形量产 / 蒸馏风波）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：OpenAI 宣布&quot;AI 用 88 小时攻破 Navier-Stokes 千禧年难题&quot;（1 万 agent 蜂群 + Lean 4 形式化验证），旋陷&quot;抢跑/抄袭&quot;风波；小鹏 IRON 自主走下全球首条高阶人形机器人自动化产线；Anthropic 报告点名阿里（1.51 亿次）/DeepSeek/小米/Moonshot 非法蒸馏，美机构背书；台积电 8 月营收创单月纪录。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI 宣布 AI 攻破 Navier-Stokes 千禧年难题，陷&quot;抢跑&quot;争议</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小鹏 IRON 自主走下产线：全球首条高阶人形自动化产线启用</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人/具身</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Anthropic 点名阿里/DeepSeek/小米/Moonshot 非法蒸馏</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">台积电 8 月营收同比 +53.3% 创单月纪录</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Cognition SWE-2：Kimi K3 底座，&quot;1/4 成本逼近 GPT-6 Astra&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. OpenAI 宣布 AI 攻破 Navier-Stokes 千禧年难题，陷&quot;抢跑&quot;争议 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/08 OpenAI 宣布：AI 系统以 <strong style="font-weight:600">88 小时</strong>、约 <strong style="font-weight:600">1 万个 agent</strong> 蜂群协作，完成 Navier-Stokes 方程证明（解可在有限时间爆破），产出 <strong style="font-weight:600">166 页论文</strong>，并附 <strong style="font-weight:600">Lean 4 形式化验证</strong>——机器核验仅约 17 小时（人工形式化估计约需 13 万工时）。OpenAI 公开论文，并声明<strong style="font-weight:600">不申领</strong> Clay 研究所百万美元千禧奖。Quanta 称&quot;AI 已解决一个百万美元千禧年难题&quot;，BBC 称&quot;88 小时破解 90 年难题&quot;。</p>
+<p style="margin:0.8em 0">争议同样猛烈：[📰推测] 一名从事相关证明的数学家称其借助 Codex 的既有工作影响了 OpenAI 方向（泰晤士报：&quot;抄袭风波&quot;；FT：&quot;相互竞争的主张&quot;；VentureBeat：OpenAI 无法排除受益于研究者私有 Codex 数据）。HN 686 分热帖追问：未发表的数学成果能否被信任。焦点：未经同行评审的&quot;解决&quot;宣布与署名规则。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ BBC/NYT/Quanta/FT/qz 多源标题级一致；✅ openai.com 官方页面 + Lean 4 形式化（多方技术分析）；🔴 抢跑指控为研究者一方说法，双方各执一词 — <strong style="font-weight:600">关注</strong>: 千禧级数学成果的验证与署名规则成新战场</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.com / BBC / NYT / Quanta / FT / VentureBeat / Hacker News</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 小鹏 IRON 自主走下产线：全球首条高阶人形机器人自动化产线启用 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/08 小鹏宣布位于广州的人形机器人产线正式启用：IRON 完成自动化总装后<strong style="font-weight:600">自主走下产线</strong>；核心工序自动化率 <strong style="font-weight:600">&gt;80%</strong>；小鹏称其为&quot;全球首条高阶人形机器人自动化产线&quot;（公司口径），导入整车级质量体系。规划：<strong style="font-weight:600">2026 年底启动量产</strong>，<strong style="font-weight:600">2027 年正式上市交付</strong>（国内+海外）。Electrek 对比称 Tesla Optimus 进展迟缓——&quot;人形竞赛进入量产关&quot;。（背景：IRON 2025/11 亮相时步态逼真曾被质疑&quot;装人&quot;，工程师现场切开腿部自证。）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 小鹏官方 + CnEVPost/Electrek/CleanTechnica/IBD + 东方财富/观察者/证券时报 多源；🔴 &quot;全球首条&quot;为公司口径，无第三方认定 — <strong style="font-weight:600">关注</strong>: 中国厂商从&quot;表演&quot;转向&quot;产线交付&quot;，量产能力成胜负手</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: xpeng.com / CnEVPost / Electrek / 东方财富 / 观察者网</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Anthropic 报告点名阿里/DeepSeek/小米/Moonshot 非法蒸馏，美机构背书 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/10 Anthropic 发布《Countering misuse of AI: September 2026》威胁情报报告（覆盖 2025/12–2026/08、七个危害领域），&quot;非法蒸馏&quot;（Illicit distillation）单列一章，高置信度归因 PRC 实验室：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">阿里（Qwen / 通义实验室）</strong>：&quot;我们测量到的最大规模蒸馏行动&quot;——针对 Opus 4.6/4.7 思维链，2026/05–07 观测到超 <strong style="font-weight:600">1.51 亿次</strong>交互；使用代理、一次性邮箱、虚拟卡规避封禁，被封后迅速换池。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Moonshot AI</strong>：将 Kimi 用户请求<strong style="font-weight:600">静默转发给 Claude</strong>，再把 Claude 回复作为自身输出展示，以收集训练数据。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">DeepSeek、小米</strong>：经同一代理网络注入对话（部分含个人与跨国公司敏感信息）。</li>
+</ul>
+<p style="margin:0.8em 0">合计近 <strong style="font-weight:600">2 亿次</strong>交互；另有俄语系行动被处置。背景：09/09 NBC 报道美方机构称中国头部 AI 公司系统性复制美国模型（thestack：CISA/FBI 背书相关指控）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 报告原文可下载（本节均引自正文）；✅ TC/CNBC/Reuters/NBC 多源；🔴 指控为 Anthropic 单方归因，未经独立裁定 — <strong style="font-weight:600">关注</strong>: 中美模型安全对峙升级，&quot;蒸馏&quot;被定性为数据黑产</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: anthropic.com / TechCrunch / CNBC / Reuters / NBC News</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 台积电 8 月营收同比 +53.3% 创单月纪录 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/10 台积电公布 8 月营收：约 <strong style="font-weight:600">NT$5,148 亿</strong>（≈ <strong style="font-weight:600">163.5 亿美元</strong>），同比 <strong style="font-weight:600">+53.3%</strong>，创单月历史新高；Bloomberg 标题直指&quot;AI 芯片需求超出供应&quot;。AI 资本开支上行周期未见拐点。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CNBC/Bloomberg/SBS/IBTimes 一致（+53.3%、创纪录）；✅ 绝对数字（NT$514.8B）多源 — <strong style="font-weight:600">关注</strong>: AI 算力需求未见拐点，先进制程持续紧绷</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNBC / Bloomberg / SBS / TechStock²</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Cognition SWE-2：&quot;Kimi K3 底座 + 1/4 成本&quot;的性价比屠榜 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/10 Cognition（Devin 团队）发布 SWE-2 编码模型：<strong style="font-weight:600">FrontierCode 1.1 Main 50.0%</strong>（距 Fable 5.1 仅 1 分、成本低 <strong style="font-weight:600">64%</strong>）、<strong style="font-weight:600">DeepSWE 1.1 73.0%</strong>（超 Grok 4.6 / Fable 5.1）；<strong style="font-weight:600">底座为 Kimi K3（2.8T）后训练</strong>——首次将 RL 扩展至&quot;多万亿参数&quot;规模、单次训练覆盖全部推理档位；以约 <strong style="font-weight:600">1/4 成本</strong>逼近 GPT-6 Astra（53.3%）。HN 当日热度第 2（357 分）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客基准表（数字均为官方口径）；✅ HN 357 分；🔴 外部独立复现暂无 — <strong style="font-weight:600">关注</strong>: &quot;中国开源底座 + 美国后训练&quot;范式浮现，coding 性价比战升级</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: cognition.com / Hacker News</li>
+</ul>
+<p style="margin:0.8em 0">📅 覆盖时段: 09/09–09/11（补跑合并）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
