@@ -1,0 +1,55 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">当 AI 真的开始做数学：与 OpenAI 两位数学家的对话</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">从球体堆积到 sofic 群——一场&quot;够得着的文艺复兴&quot;如何发生，数学界又该如何接住它</strong></p>
+<p style="margin:0.8em 0">不久前，OpenAI 披露了原型模型 Astra 给出的十道数学难题解答：从高维空间里的球体堆积，到困扰群论几十年的 sofic 群问题。对数学家来说，面对这类新闻，默认态度本该是怀疑——除非有人把机制拆开讲清楚。</p>
+<p style="margin:0.8em 0">Mehtaab Sawhney 和 Mark Sellke 是 OpenAI 的两位数学家，两人很早就认识彼此，还合写过论文。在这场对话里，他们把&quot;内部机制&quot;讲了一遍：这些结果为什么会出现、模型到底靠什么赢、以及数学界还没有准备好的那部分——怎么接住它们。</p>
+<p style="margin:0.8em 0">提醒一句：两位受访者都在 OpenAI 工作，谈的是自家模型的成果；但细节足够具体——包括模型&quot;懒得往下推&quot;的时刻——这本身就是可信度的一部分。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;够得着的文艺复兴&quot;</h2>
+<p style="margin:0.8em 0">两位数学家都是被模型&quot;转化&quot;的。其中一位的起点很小：在 Erdős 问题网站上翻问题时，他常遇到一种恼人的情况——一个问题标着&quot;未解决&quot;，但他没法确认它是不是真的还没被解决，&quot;因为文献太难检索了&quot;。有一次把问题丢给 GPT-5，五分钟后模型找到一个引用。&quot;我和几个朋友花了几个小时，都不确定它够不够得着——然后它告诉我：够得着，这么做。&quot;他把这件事告诉另一位，两人随后又找出十个类似案例。</p>
+<p style="margin:0.8em 0">在他们的观察里，AI 做数学的相对优势至少有四层。</p>
+<p style="margin:0.8em 0">第一，<strong style="font-weight:600">熟悉一切</strong>。对文献、对领域内所有已建立连接的掌握，是模型的天然强项——&quot;人类做这种检索级别的连接，本身就很难&quot;。</p>
+<p style="margin:0.8em 0">第二，<strong style="font-weight:600">执行不迷路</strong>。一个想法变成证明，中间要做大量&quot;把细节对齐&quot;的工作（&quot;epsilon 比 delta 小这类琐事&quot;）——人类很容易在这些细节里迷失，而模型&quot;总能把这类论证钉死&quot;。</p>
+<p style="margin:0.8em 0">第三，<strong style="font-weight:600">风险回报的结构变了</strong>。人类数学家是在&quot;和问题赌博&quot;：一个方向试了几周没有眉目，就该放弃，因为不知道值不值。&quot;你也有可能像 Andrew Wiles 那样，独自花十年做成一件大事——但对多数人算不过来。&quot;模型没有这个约束：&quot;人类告诉我做这个？那就做这个。&quot;——这就是为什么现在处在一种&quot;够得着的结果（reachable results）的文艺复兴&quot;里。</p>
+<p style="margin:0.8em 0">第四——这一条最容易被低估——<strong style="font-weight:600">它没有被污染的上下文</strong>。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">你没法把上周的自己克隆出来，对他说&quot;别做这个，换条路，重新建立你的直觉&quot;——但让 AI 这么做非常容易。</p>
+</blockquote>
+<p style="margin:0.8em 0">人类在一条错路上花过时间，失败经验会持续污染之后的判断；模型可以随时&quot;重启一个干净的分身&quot;，甚至并行跑几个智能体。它也会犯错、回退，&quot;但它比人类更擅长更新一条路径的胜率&quot;——&quot;非常精于计算，非常正确。&quot;</p>
+<p style="margin:0.8em 0">至于&quot;品味&quot;，两位给了一个实用主义定义：能做出更好的判断、解出更难的问题，就是有品味。他们承认模型有个小毛病：&quot;明明做出了突破，却不一口气推到极限——因为那不是你要求的。&quot;它本质上是任务导向的。这引出一种可能的组织方式：一个模型负责品味和方向，另一个模型负责长时间坐冷板凳——&quot;这两件事不该互相污染上下文&quot;。</p>
+<p style="margin:0.8em 0">还有一个反直觉的细节：数学论文其实是训练&quot;思维&quot;的糟糕素材。&quot;论文太干净了——就像很多人说的，别用 Rudin 学实分析：它已经太清晰、太利落，你看不到当初定义被逼出来的那场挣扎。&quot;数学学习真正的课程，并不在数学家留下的那些成品里。但模型还是涌现出了像样的数学判断——&quot;因为这是通用推理能力，不是数学专有的。&quot;他们公开摘要版思维链的原因也在这里：让外界看到，&quot;它不是用某种疯狂的方式在猜——它推理的样子，像极了人类专家&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">案例一：高维空间里的球体堆积</h2>
+<p style="margin:0.8em 0">十道题里，一位数学家的最爱是球体堆积——&quot;因为它极其简单，而我们对它几乎一无所知。&quot;</p>
+<p style="margin:0.8em 0">在一维，问题没意思；二维是蜂窝一样的六边形排列，看起来&quot;显然&quot;，其实直到六十年代才被证明；三维就是超市堆橙子的方式，Hales 在两千年前后给出证明——&quot;最短的证明也有几百页，而且出了名地丑。&quot;八维和二十四维是仅有的两个有精确答案的高维情形，答案来自两个特别漂亮的晶格（E8 和 Leech），直到近年才被证明。它们之外，人类&quot;几乎什么都不知道&quot;。</p>
+<p style="margin:0.8em 0">只知道一件事：维度越高，空隙越大，效率以指数速率衰减。而长期以来最好的界，是 1978 年两位苏联数学家在一两页纸里给出的——数字长这样：2 的 -0.599d 次方。&quot;很难找到他们的论文，他们不写细节。&quot;此外还有 Cohn 和 Elkies 的线性规划框架：只要构造出满足两个简单性质的函数，就能给堆积效率定上界。后来有多位数学家做数值实验，猜到高维下的最优形式应该是什么——&quot;但没人知道原因。&quot;</p>
+<p style="margin:0.8em 0">Astra 做了什么？&quot;你告诉它：分析这个高维线性规划，去玩吧。&quot;它先构造出一个达到某个界的函数，然后证明了不存在更好的函数——&quot;这个不等式非常强。&quot;换句话说，在这个框架内，最优解被钉死了，而且证明解释了那个神秘数字从哪里来。整件事&quot;相当了不起&quot;。</p>
+<p style="margin:0.8em 0">&quot;我知道好几个人试过这个问题，&quot;其中一位说，&quot;我读博时在它上面想过六个月，零进展。看到证明时你会想：天哪，为什么之前没人想到？&quot;那个&quot;不能更好&quot;的证明只有几页，用的是复分析——&quot;你先看到它，然后觉得不可思议，然后明白为什么自己没做出来：因为它是恰好正确的那条路。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">案例二：sofic 群——把&quot;希望&quot;推翻的反例</h2>
+<p style="margin:0.8em 0">第二个案例更反直觉。群，是&quot;对称性&quot;的抽象：一组元素加一个乘法运算，可以是旋转、矩阵，也可以无限。一个群是&quot;sofic（索菲克）&quot;的，粗略说，意味着它可以用有限群一步步近似——就像整数可以用&quot;整数模 n&quot;的圆圈来近似一样。</p>
+<p style="margin:0.8em 0">数学家们原本希望：也许所有群都是 sofic 的——&quot;因为如果是真的，很多漂亮的性质就能从有限群'近似'到无限群上。&quot;但 Astra 证明了：存在非 sofic 群。</p>
+<p style="margin:0.8em 0">这个结果的意义要看对比。一个更宽泛、更弱的猜想（Aldous–Lyons）在两年前被推翻，那是一场四百多页、动用量子复杂性理论的&quot;巨作&quot;，&quot;没有多少人能真正读懂&quot;。而&quot;存在非 sofic 群&quot;的证明只有大约十五页，完全留在群论的地界里，建立在 Kun 和 Thom 等人的已有结果上。&quot;前面的人其实已经怀疑到了正确的目标——某种具体的组合障碍；模型做了最后一步：加上一条额外的代数事实，那种奇怪的'阴谋'就不可能发生了。&quot;</p>
+<p style="margin:0.8em 0">它需要同时做对三件事：给出正确的命题、知道该用哪篇文献、把执行做到位。缺一不可。</p>
+<p style="margin:0.8em 0">有一个耐人寻味的模式：到目前为止，AI 产出的定理普遍偏短、偏精巧——&quot;你本来会担心它们生成一大堆一千页、没人能理解的东西，结果恰恰相反。&quot;</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">两百页量级的证明，暂时还是人类专属。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">数学界怎么接住</h2>
+<p style="margin:0.8em 0">回到更大的问题：共同体该怎么吸收这些东西。</p>
+<p style="margin:0.8em 0">两位数学家观察到，多数同行现在的态度已经变成&quot;AI 明显在做非平凡的事，不承认反而吃亏&quot;。真正麻烦的是流程性问题：合著与署名怎么算；以及&quot;它生成的速度，快过了消化的速度&quot;。</p>
+<p style="margin:0.8em 0">但他们更想说乐观的一面。第一，吸收也变容易了：&quot;我读 arXiv 想搞懂一个证明，把 PDF 丢给模型、让它给我证明策略，比以前快得多。&quot;第二，更多人能参与数学了——不需要成为职业数学家，也能理解正在发生什么、用上需要的数学：&quot;过去这需要找一个世界级专家，现在门槛低了很多。&quot;</p>
+<p style="margin:0.8em 0">第三，也是最深的一层：<strong style="font-weight:600">数学家的角色会被重新定价</strong>。&quot;以前证明太难，'理解'是搭便车的——你能证出来，就自动理解得很深，也自然负责把它讲给别人。现在主要瓶颈没了，那些其他约束就浮现出来：理解、传播、把知识组织进合适的框架。&quot;这些能力会从&quot;隐含价值&quot;变成&quot;显式价值&quot;。他们甚至认为这会让数学更像一门'围绕大谜题'的学科——&quot;数学问题的难度天花板极高，也许 P vs NP 永远不会被解决；领域的重心，会移向那些大谜团，而不是例行的小谜团。&quot;</p>
+<p style="margin:0.8em 0">两位受访者的兴奋是真实的。其中一位说：&quot;有些我研究生时苦想数月、数年的问题，这辈子有些能知道答案了——我挺开心的。&quot;另一位说：&quot;对不把数学当职业的人来说，能做的'数学活动'也变多了。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声</h2>
+<p style="margin:0.8em 0">这场对话最值得带走的，可能是一句不显眼的话——其中一位提到，当他们做完结果复盘、去理解模型到底干了什么时，&quot;这个过程本身会催生更多数学&quot;。就像人类数学史上每一次那样：结果不重要，接力才重要。</p>
+<p style="margin:0.8em 0">而如果这些工具让应用数学&quot;快很多&quot;——用他们的话说，&quot;对世界来说是件好事&quot;。这件事可能已经在发生。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">OpenAI 原型模型 Astra 解出十道长期未决问题：高维球体堆积、编码理论、非 sofic 群等。</li>
+<li style="margin:0.3em 0">AI 的四个相对优势：熟悉全部文献、细节执行不迷路、没有人类&quot;赌不赌&quot;的风险约束、上下文可&quot;克隆重启&quot;。</li>
+<li style="margin:0.3em 0">&quot;够得着的文艺复兴&quot;：人类会放弃的方向，模型会一直做下去。</li>
+<li style="margin:0.3em 0">球体堆积：证明了高维下线性规划界的最优性；&quot;我读博时想过六个月，零进展&quot;。</li>
+<li style="margin:0.3em 0">非 sofic 群：十五页的短证明，对比更弱猜想的四百多页&quot;巨作&quot;——AI 的定理普遍短而精巧。</li>
+<li style="margin:0.3em 0">数学的新分工：生产不再是瓶颈，理解、传播、组织知识成为显式价值；更多人能参与数学。</li>
+<li style="margin:0.3em 0">复盘 AI 的证明过程本身&quot;会催生更多数学&quot;——接力的逻辑没有变。</li>
+</ul>
+
+</div>
