@@ -1,0 +1,50 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：从为什么用 Rust 写、为什么敢全程开源，到 Code Review 为什么正在变成「意图评审」——OpenAI 内部视角的一次完整展开。</strong></p>
+<p style="margin:0.8em 0">在 ChatGPT 发布大约一年前，DeepMind 内部已经有一个几乎一样的对话机器人。一个小团队认定「海量文本语料库就是一切」，把语言模型的规模推到极致，并做出一套给研究员调试输入输出的对话系统。它像野火一样传开——几乎每个人都在内部分享零碎的对话记录。但它没能变成产品：DeepMind 根本不是为做产品设计的，谷歌有一套成熟到极致、也严格到极致的合规流程，「作为环境，要真正去创新非常非常困难。」</p>
+<p style="margin:0.8em 0">Tibo 就是从这个背景里走出来的。如今他带领 OpenAI 的 Codex 团队——从 Codex 还是一个产品雏形时起就是。在这期 The Pragmatic Engineer 播客里，他把 Codex 一路上的关键决定几乎全部讲了一遍：语言选型、开源、模型无关、Harness 与模型的协同设计、以及那场把本地 agent 塞进十亿人产品的合并。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Rust 与「边界」：为还没到来的模型做准备</h2>
+<p style="margin:0.8em 0">最反直觉的一个决定是语言。Codex 用 Rust 写成，而当时模型并没有针对 Rust 的分布充分训练过——它在 Python、TypeScript 上的表现明显更好。大多数同行恰恰相反，把 Harness 建在模型最擅长的语言上。</p>
+<p style="margin:0.8em 0">Tibo 的逻辑是第一性原理式的：<strong style="font-weight:600">把「agent 内核」和「产品」当作两件事。</strong>「把 agent 核心做得足够健壮、足够安全，为了效率和规模化做工程设计——只要不过度牺牲研发速度，早期的决定到头来往往相当关键。」Rust 带来编译期的静态校验，这些特性对 agent 非常好；团队里有产出极高的 Rust 工程师，内部模型写 Rust 也不差。「事实证明，只要我们愿意投入精力，Rust 很快就能变得非常适合 agent。我们主要关注的是正确性，同时也关注效率。」</p>
+<p style="margin:0.8em 0">更关键的是那道「边界」：如果所有东西写在同一个代码库、用同一种语言，就会写得糙一点、缠得过深，阻碍后续创新。「就算用 TypeScript 甚至 Python 也能做成，无非是后面某个节点再重写。但把 agent 和产品清晰隔离、让它脱离产品也能独立存在——这是一个非常重要的原则。Rust 设下的这道边界，在这方面非常有帮助。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源的代价与「靠真本事赢」</h2>
+<p style="margin:0.8em 0">Codex 把 CLI、SDK、应用服务器全部开源——这在头部实验室里是独一份。同期不少竞争对手的 Harness 选择闭源。</p>
+<p style="margin:0.8em 0">理由有四层：第一，你做的本来就是一个「写代码的 agent」，显然会拿它来写它自己，开源能聚拢一个贡献者社区，用它来改进它；第二，<strong style="font-weight:600">开源本身会改变代码的作用</strong>，「身处这个社区之中很重要，而不是跟它脱节——如果你不亲身体验那些问题，就很难真正解决它们」；第三，当时非常早期，「我们并没有掌握所有答案。一个好的 Harness 应该长什么样？很坦诚地告诉大家，我们也不知道」；第四，给外面的人才一个公平的竞技场，鼓励动手折腾。</p>
+<p style="margin:0.8em 0">收益出乎意料地实在：每个新加入 Codex 的人，之前都翻过这个仓库、看过 PR，「入职培训直接完成了」；外部贡献源源不断；公开构建带来一种特殊的活力。代价也坦率：<strong style="font-weight:600">「我们被各种乱七八糟的贡献淹没了」；跨仓库协作要人为划界；以及——「当我们做某个特别让人兴奋的东西，还在公开构建时，会发现别人在我们来得及发布之前就抄走了。这多少有点让人难过，但也是其中的一部分。你既然在公开构建，这就相当于你签下的契约。」</strong></p>
+<p style="margin:0.8em 0">同样的逻辑延伸到了模型选择：Codex 不绑定 OpenAI 自家的模型，你可以在里面用别的模型。为什么？「作为社区的一员、在做最好的编程 Harness，把它和自家模型绑死，感觉挺违和的。」如果给用户制造障碍，只会逼大家去用社区 fork——「仅仅为了改十行代码支持另一个模型提供商而搞一个 fork，太蠢了。」而且这种选择权对合作的公司也很重要。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">我喜欢靠真本事去赢，而不是靠绑定去赢。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Harness 总比模型快一步</h2>
+<p style="margin:0.8em 0">被问及「每个版本是怎么变好的、Harness 和模型是什么关系」时，Tibo 给了一个精确的回答：<strong style="font-weight:600">Harness 总是比模型稍微领先一点。</strong></p>
+<p style="margin:0.8em 0">模型具备某些能力，但你要给它架上几根「拐杖」，让它真正把事情做成、达到可靠度、符合用户预期——护栏、效率、可控性，以及每一轮对话开始时注入上下文的 Developer Message。「你看到的很多效果，其实是 Harness 和模型共同作用的结果。一开始它不跑测试，得提醒它去跑；后来我们训出了更好的模型，你就不需要提醒了。<strong style="font-weight:600">随着时间推移，Developer Message 在变小，Harness 也在变薄。</strong>」</p>
+<p style="margin:0.8em 0">这决定了 Codex 团队的工作方式：研究和工程协同设计，每个需求都要过一次判断——「这应该是个 harness 层的改动，还是模型层的改动？如果是模型层的，我们多快能拿到？一个月、三个月还是六个月？在哪个训练阶段解决？」有时候结论是：<strong style="font-weight:600">什么都不做，等模型来搞定。</strong></p>
+<p style="margin:0.8em 0">为了让这个判断有依据，他们用 agent 分析整个编程领域的海量反馈，也分析财务、公关、市场等所有用户场景，梳理主题、确定优先级。「随着预训练模型变好，整体表现都会水涨船高。但有时我们也会对某些方面多倾注一点精力。」团队甚至为极难问题做了一条「长跑」指令，让模型盯住单一目标、连续跑上几天甚至几周——而到新一代模型，这层拐杖也不再需要：「你只要跟它说『去忙上一周吧』，它就真的坐下来干。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Code Review 的下一站：从看代码到聊意图</h2>
+<p style="margin:0.8em 0">Tibo 早期在 Codex 做的一个项目，就是和研究团队一起开发 <strong style="font-weight:600">Code Review 模型</strong>：让它能发现逻辑和推理层面的错误——那种需要沿依赖关系深挖三四个层级、发现「文档写错了」或「第三方依赖的实现和预期不一样」才能抓出来的 bug，「除非你是那个库的专家，否则根本不会知道。于是就有了 bug。」这些能力后来直接融进主线模型。跑分时，它们在 Code Review 上的表现「超乎常人」——正确性和安全皆然。「现在 OpenAI 所有 PR 都必须过这一关，只要标记出安全问题，直接拦截，不许合并。全部自动化。」</p>
+<p style="margin:0.8em 0">那人的部分呢？他的拆解很清晰：Code Review 的核心一直是确保正确性和「东西能跑通」，但它同时也是一种<strong style="font-weight:600">小小的仪式</strong>——交换信息、拉起认知、鼓励讨论。「有时候大家只有看到具体代码才会去聊，因为一旦合并，它可真就在生产环境里干活了，然后就得维护它。」</p>
+<p style="margin:0.8em 0">正在发生的变化是：正确性和安全性交给自动化；<strong style="font-weight:600">剩下的讨论转向意图</strong>——「你到底想做什么？」这类对话完全可以脱离代码进行，在 PR 之外、在设计环节发生。「代码本身没那么重要了。」</p>
+<p style="margin:0.8em 0">他给的心智模型是一个**「带不变式的盒子」**：大家就这个盒子该干什么、必须满足哪些约束（资源占用、数据访问、安全性）达成共识，盒子里面怎么写、怎么改，都不再需要每次讨论。「一旦定好这些，在盒子里改动任何东西都不需要这种讨论了。这真的能省下很多精力。」</p>
+<p style="margin:0.8em 0">维护——那种「为了不让东西烂掉而长期付的税」——同样在变。依赖升级、安全补丁，以前是往后拖的苦差事，「现在模型两小时能把代码库全改完」。彻底重构曾经要花好几年，「现在大大加快了，犯错的成本在下降」。但经典原则反而更重要：做好抽象、画对边界。「设计时就要考虑到快速迭代和变更」——这种过去属于架构师和资深工程师的长期思考，现在每个工程师都得有。Tibo 提到了 Peter Steinberger 的例子：他自称不怎么读代码，但架构全在他脑子里——他频繁重构、保持模块化，让一百个贡献者各做各的而互不冲突。「模型现在也开始有能力把这些想得很周全了。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把本地 agent 塞进十亿人的产品</h2>
+<p style="margin:0.8em 0">Codex 搬进 ChatGPT 的「Merge」项目，是另一场硬仗。技术栈完全不同：ChatGPT 是全托管、为规模与效率打造的系统；Codex 是完全本地的编程 agent。核心问题是——<strong style="font-weight:600">怎么把这个本地 agent 的能力，做成一个云端产品，让几千万、几亿用户都能用，同时效率维持得住，最后塞进每月 20 美元的 Plus 套餐。</strong></p>
+<p style="margin:0.8em 0">结果就是 ChatGPT Work：本质上是在云端跑完整的 Codex Harness，外加一台云端电脑。「只要 Prompt 写得有创意，你就能让它在里面训练另一个模型」；还能装上 Blender 做 3D 建模——「权力放得很开」。终极目标是一个统一系统：「不应该有事在 Codex 里能做、在 ChatGPT 里不能做。同样的智能，你用你想要的方式触达。」</p>
+<p style="margin:0.8em 0">这场合并还有一个有趣的副产品：**Codex 自己充当了项目的记录员。**它存在于所有 Slack 讨论和文档里，于是把每一步、每场争论都记录了下来——「该怎么做、该叫什么名字、什么时候以什么方式推出、把什么合并进什么」，全部有案可查，团队内部称之为「开关篇章」。主持人对此的评价是：有点「老大哥」的味道；但也承认，在未来的初创公司里，这很可能会成为新常态。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">心流、手艺与五个为什么</h2>
+<p style="margin:0.8em 0">Tibo 的工作方式已经彻底手机化：想记的东西直接说给 ChatGPT Work；有问题就问它、要报告；它带着一整套自定义 skill 和指令，按他最容易吸收的风格产出。他不觉得有什么问题不能问——口碑、日志用量、该弃用的清单、某个团队在忙什么，「不管我有什么问题，差不多三十分钟内都能拿到答案。」周末他做代码探索和原型：「某天醒来，我想『我们应该去探索一下做这个会是什么样』，然后一天之内把它做出来、摆在大家面前，让他们推敲、批评，说不定还能受到启发。这绝不是说一定要发布——我把这个念头做出来了，然后接着去干别的。」</p>
+<p style="margin:0.8em 0">聊到「模型变得擅长你做了一辈子的东西，心里会不会刺痛」，他没有回避那种手艺人的情结：偶尔还是会打开编辑器写写代码，想起深夜对着 vim 疯狂输出、喝着零度可乐、除了眼前的难题什么都不用想的时刻。「但我真觉得关键还是在于心流和解决问题。<strong style="font-weight:600">把代码看作解决问题的工具，你就能解决多得多的问题。</strong>」比如以前想做个基准测试，不确定结果会怎样就犹豫；「现在你可以随时去做，花不到三十秒在后台跑起来，拿到靠谱的数据，做出更好的权衡。」他说至今没碰到有人说这样不好、没意思——因为面前的问题远比能搞定的多，「长期之内都不会缺问题」。</p>
+<p style="margin:0.8em 0">给想进 Codex、OpenAI 或者 AI 初创公司的人，他的建议只有两条，但都不轻：<strong style="font-weight:600">一是对事物运作方式抱有极深的好奇心；二是训练自己快速理解一个系统的能力。</strong>「在 OpenAI 做得极其出色的人，都是能迅速把一个系统吃透、扎进一个新代码库里把它理清楚的人。关键是提出好问题，追问五个为什么——你可以一直挖，一直挖。」另外一条常被低估：和你服务的社区保持同频，对品味和需求保持敏锐，「如果你说不清楚自己想要达成什么、和社区没有连接，想做出出色的工作就会难得多。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾</h2>
+<p style="margin:0.8em 0">把这五个决定放在一起看，它们共享同一个逻辑：**为下一代模型做准备，而不是为这一代模型做优化。**Rust 是为未来的正确性布线，开源是为未来的社区布线，模型无关是为未来的选择权布线，变薄的 Harness 则承认自己终将被吸收。真正被留给人的，是这些决定所指向的最后一块阵地——意图、品味，以及盒子里那些必须永远成立的不变式。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">Harness 定律</strong>：Harness 总比模型快一步，然后被更强的模型吃掉——Developer Message 越来越小、Harness 越来越薄，判断「这个改动该落在 Harness 还是模型」是 Codex 团队的核心工序。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Rust 的赌注</strong>：为正确性和未来买单；agent 内核与产品之间的「边界」比语言本身更重要。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源的账本</strong>：收益是社区、入职即完成、公开构建的活力；代价是噪音贡献、仓库摩擦，以及功能被抢先复制——「你既然在公开构建，这就是你签下的契约」。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Code Review 的演化</strong>：正确性与安全交给自动化（OpenAI 全部 PR 强制过安全关）；人类保留的是意图讨论——「带不变式的盒子」是最实用的心智模型。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">维护成本正在塌缩</strong>：依赖升级、安全补丁、重新架构都从「数月苦工」变成「小时级自动化」；架构与抽象能力从资深岗位扩散到所有工程师。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Merge 的启示</strong>：本地 agent 塞进十亿级产品、压进 20 美元月费的工程路径 = 云端 Harness + 云端电脑；Codex 自己还充当了项目的记录员。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">给构建者的两条建议</strong>：极深的好奇心 + 快速吃透系统的能力；以及——「把代码看作解决问题的工具，你就能解决多得多的问题」。</li>
+</ul>
+
+</div>
