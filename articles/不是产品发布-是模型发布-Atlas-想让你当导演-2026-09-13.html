@@ -1,0 +1,68 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">不是产品发布，是模型发布：Atlas 想让你当导演</h1>
+<p style="margin:0.8em 0">World Labs 联合创始人 Justin Johnson 详解 Atlas 的生成、重建、模拟三种能力、与 Marble 的架构切割，以及&quot;五张照片、几分钟&quot;的机器人工作流。</p>
+<p style="margin:0.8em 0">9 月 13 日，World Labs 发布 Atlas——被介绍为&quot;首个多模态世界模型&quot;：生成带像素级精确相机控制的图像与视频帧，把真实空间重建进虚拟世界，并模拟空间与时间。发布当天，联合创始人 Justin Johnson 出现在 a16z 播客上，用一句话给这件事定了性：&quot;这不是产品发布，是模型发布。&quot;</p>
+<p style="margin:0.8em 0">产品都要往后排，先来的是底座——生成、重建、模拟三种能力，长在同一个模型里。本刊 9 月初写过李飞飞那一期的 Atlas，那里是愿景侧；这一篇是工程侧：架构选择、两条并行的技术路线，以及机器人如何用五张手机照片、在几分钟内适配一个真实空间。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;这不是产品发布，是模型发布&quot;</h2>
+<p style="margin:0.8em 0">Atlas 能做的事，Justin 讲得很干脆，就三件。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">生成</strong>：从一段文本或一张图片出发，造出一个此前不存在的世界，然后你操纵相机在其中飞行——面向 VFX、游戏，以及所有&quot;创作新东西&quot;的场景。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">重建</strong>：给真实空间做稀疏重建。输入可以少到一张照片，多到一百张以上；给得越多，还原得越准。目标是把现实里的空间搬进 VR 或虚拟世界。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">模拟</strong>：把已有空间在三维里重建出来，再模拟一台机器人在其中会如何行动。这条线同时通向 VFX 和机器人。发布博客里，三类能力各有演示用例。</p>
+<p style="margin:0.8em 0">三种能力共用一个底座——这就是&quot;世界模型&quot;这个词在这里的全部含义。Justin 的论证方式，是把语言模型拉出来对位：语言模型是处理离散文本 token 流的通用横向引擎，今天几乎所有我们熟悉的应用都从它长出来：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">我们相信还存在另一类模型，叫世界模型——它应该建立在视觉理解上，建立在物理理解上，可以用来生成、模拟、重建世界。如果能把它做到足够通用，它就能作用于很多行业：从娱乐、VR、建筑，到机器人。</p>
+</blockquote>
+<p style="margin:0.8em 0">他的落点是一个朴素的事实：人就生活在物理建成的空间里，&quot;我们需要模型也能帮我们处理这些事&quot;。注意&quot;横向&quot;和&quot;通用&quot;这两个词——它想做的不是某个垂直场景的专用工具，而是与语言模型并列的另一层基础设施。这也正是&quot;不是产品发布&quot;这句话真正的分量。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">它为什么不是&quot;视频生成&quot;</h2>
+<p style="margin:0.8em 0">主持人提出了一个经验观察：视频模型有个众所周知的毛病——生成到十秒左右，画面就开始走样、跑偏、按自己的方向幻觉，给了一张参考图之后往往更明显。这类模型为什么撑不住更长的时间？</p>
+<p style="margin:0.8em 0">Justin 的回答指向设计的最底层：Atlas 是围绕空间控制、围绕**空间上下文（spatial context）**构建的。给它参考图时，那些图不是普通图片——它们被锚定在三维空间里。你可以把每张参考图&quot;摆&quot;到 3D 中的指定位置；生成视频时，你给模型的不只是一段文本提示，而是一路操纵相机：往这边飞、再往那边转，精确到像素。</p>
+<p style="margin:0.8em 0">效果是：即使生成到长达一分钟，模型依然在你手里。你甚至可以沿途在三维空间里&quot;撒面包屑&quot;，继续补充参考图，让视频沿着你铺好的路径长出来。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这不是一台老虎机：你在生成，也在导演，真正控制着模型输出什么。</p>
+</blockquote>
+<p style="margin:0.8em 0">支撑这种控制感的，是一套 World Labs 尚未公开的内部工具：把图片拖进界面，界面里是一块三维空间画布，所有输入图在 3D 中形成&quot;代理几何&quot;（proxy geometry），然后用第一人称射击游戏式的操作方式操控相机，决定镜头最终怎么走。Justin 承认这套交互&quot;相当复杂&quot;，产品化还需要多轮迭代——但方向是明确的：与其把结果交给运气，不如把镜头交给使用者。</p>
+<p style="margin:0.8em 0">他还补了一个容易被低估的点：三维的价值不止在输出侧。哪怕最终输出是 2D 画面的 VFX 镜头，把 3D 控制面交给导演也依然有用——因为&quot;推近、拉远、向左横移&quot;这样的文字描述不出你真正想要的运镜，你要的是能抓住相机、让它精确地按你的方式动。Atlas 把相机做成原生输入模态之一，理由就在这里。</p>
+<p style="margin:0.8em 0">最能说明这套相机能力上限的，是团队自己都没料到效果的&quot;子弹时间&quot;：三台 iPhone 同步拍摄一段真实事件，冻结时间、镜头飞进去环绕——输入只有三个视角。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">与 Marble 的区别：把 2D/3D 的分岔口提前</h2>
+<p style="margin:0.8em 0">Atlas 不是 Marble 的版本更新，而是一次推倒重来。两代模型共享同一个中心命题——多模态进、多模态出——但架构的中心完全不同：Marble 把高斯泼溅放在了机器的正中心。它能输出视频、三维场景、网格，但无论输出什么，都要先过一遍高斯泼溅这道闸：生成视频，意味着先生成一个高斯场景，再把高斯渲染回图像和视频。</p>
+<p style="margin:0.8em 0">Atlas 从底层重新设计，要的就是切断这条依赖：架构更统一、更容易扩展，<strong style="font-weight:600">2D 与 3D 的分岔口被提前</strong>。生成 2D 或视频输出时，模型直接给像素，不再绕道高斯场景；只有明确需要三维的应用，才把结果提升到 3D。</p>
+<p style="margin:0.8em 0">他对高斯泼溅的定位也随之清楚：一种工具，和其他工具一样，用对地方就行。VFX 的最终产物是 2D 图像或视频，&quot;也许你要的只是这个&quot;；但在另一些场景里，高斯和显式三维表示仍不可替代——移动端、VR 这类嵌入式设备上的实时应用需要客户端渲染，与既有的三维工作流、管线对接也需要它们。</p>
+<p style="margin:0.8em 0">这里还有一个务实的注脚。他描述过一个更远的未来：所有像素都从强力服务器上的模型里实时流出来。&quot;我们还没到那一步；就算到了，那也会非常贵。&quot;所以在相当长一段时间里，客户端的渲染要交给高斯或网格，模型负责的是通用能力。</p>
+<p style="margin:0.8em 0">他对行业迁移节奏的判断同样务实：游戏、VFX、设计、建筑都有自己跑得通的既有工作流，建立在三维表示之上；与其要求他们一夜之间切换到&quot;AI 原生&quot;，不如让 AI 进入他们的工序，在他们站的地方会合。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两条路线，与创新者的窘境</h2>
+<p style="margin:0.8em 0">主持人提起一个病毒式传播的项目：一位在 OpenAI 工作的朋友做过&quot;GTA 版旧金山&quot;——一整座城市的高斯泼溅，你可以在里面走路、抢车、开车、飞行；分辨率不高，&quot;肯定比不上 Atlas&quot;。问题随之而来：Atlas 最终能做到这个吗？</p>
+<p style="margin:0.8em 0">Justin 的回答，把 World Labs 的技术策略摊开了：这里有两条路线，而 Atlas 同时为两条路而建。</p>
+<p style="margin:0.8em 0">第一条是显式三维路线：模型生成高斯泼溅或点云场景，作为明确的资产导入游戏引擎，游戏围绕它搭建。Atlas 能生成三维高斯场景，直接可用。第二条是跳过引擎：画面里不再有显式三维资产，模型直接一帧帧输出——游戏画面本身就是生成的。Justin 说 Atlas 同样能做，&quot;它是一个模型，需要 2D 时处理 2D，需要 3D 时处理 3D，以原生方式处理两种模态&quot;。</p>
+<p style="margin:0.8em 0">主持人接着拿微软飞行模拟器追问：那个游戏用卫星数据重建了整个世界，如果要实时、动态地生成这样的世界，Atlas 距离那一步还差什么？这甚至是对的技术树吗？Justin 的答案是&quot;它会比你预期来得更早&quot;，并指出飞行模拟器的两条升级路径 Atlas 都已覆盖：要么生成高斯或点云场景、在客户端做插值，要么直接把帧流式生成出去——&quot;这个，我觉得很快就能做到&quot;。</p>
+<p style="margin:0.8em 0">同一条&quot;两条腿走路&quot;的逻辑也出现在更下游：他们想让这些模型开放给尽量多的人，既能被人消费，也能被 agent 消费，还能与其他工具互操作。Justin 的设想是：把模拟、重建、生成这些通用能力都给到模型，让一个编程 agent 把它们拼接起来，人们就能快速迭代出新的体验。主持人打趣说，现在大家还只是在 vibe coding 网站；Justin 说，&quot;我们正在朝那个方向走。&quot;</p>
+<p style="margin:0.8em 0">机器人话题之后，主持人抛出了当晚最尖锐的问题。他的判断是：2023、2024 年初代 Sora 发布时，OpenAI 那篇技术报告的标题就叫《视频生成模型即世界模拟器》（Video generation models as world simulators），和 World Labs 今天的命题几乎重合；但后来 Sora 走向了消费产品，Sora 2 在他眼里更像&quot;TikTok 的模仿者&quot;，&quot;世界模拟器&quot;这条研究路线看起来被搁下了——为什么会这样？</p>
+<p style="margin:0.8em 0">Justin 的第一步是划界：&quot;我不想专门评论 OpenAI，我也不太了解他们内部的战略和讨论。&quot;然后是框架：也许这里有一点&quot;创新者的窘境&quot;——你手里握着 LLM，它非常强大、你正领先，未必有理由去投下一件事。&quot;但对我们来说，这是另一类模型，外面有大量机会，我们想成为去抓住它们的人。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">机器人：五张照片、一句自然语言、几分钟适配一个空间</h2>
+<p style="margin:0.8em 0">机器人是这期对话里最具体的一段，因为 Justin 把它拆成了一个可以照着做的工作流。</p>
+<p style="margin:0.8em 0">先讲为什么仿真重要。机器人最终一定要在它真正的工作环境里被评测：如果一台机器人要在一个特定工厂、面对一台特定设备干活，你就必须确保它在那个环境里能用。这就是仿真在&quot;最后一公里&quot;的角色——建一个尽可能贴近真实用例的仿真，然后做两件事：要么在这个贴合终局的仿真里直接微调机器人基础模型，要么用它做评测。与&quot;攒演示数据&quot;（真机演示，或人工遥操作）相比，仿真提供的是&quot;另一个角度&quot;的确定性：数据不在物理世界里攒，在数字世界里造。</p>
+<p style="margin:0.8em 0">然后是 real-to-sim-to-real 的完整流程：拿手机在目标空间里随手拍几段视频或几张照片——&quot;比如五张照片&quot;；传给 Atlas 重建这个空间；用自然语言描述你希望机器人完成的任务；让一个 agent 去把仿真搭出来；再用强化学习微调你的通用机器人基础模型。结果是：几分钟之内，你就有了一个&quot;完全适配这个空间&quot;的机器人。他管这个叫&quot;非常快的 onboarding&quot;。</p>
+<p style="margin:0.8em 0">他把它和另一条技术树并列：完全依赖上下文学习——给机器人演示一次任务该怎么做，把演示塞进上下文，让机器人自己学会。而 real-to-sim-to-real 的甜点区，是&quot;这一个特定环境&quot;的适配：&quot;这间工作室、这张桌子、搬动这支麦克风&quot;。</p>
+<p style="margin:0.8em 0">值得停下来算一笔账：适配一个具体环境的成本，过去主要是物理世界里的时间——布场、收集、试错、再来一轮。现在这个流程被压缩成&quot;五张照片、一句自然语言、一次强化学习微调&quot;。仿真买下的，正是这&quot;最后一公里&quot;的确定性。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">方向盘后面的人：艺术、VR，与还没试过的黑洞</h2>
+<p style="margin:0.8em 0">对话快结束时，主持人抛了一个挑衅的判断：GTA 6 会不会是&quot;最后一部由人类写出来的伟大软件&quot;，之后所有游戏都在生成中即兴产出？Justin 明确不同意：&quot;视频游戏是一门艺术。&quot;主持人补了一句：不是说没有人类参与，而是那种全手工缝合、往游戏里手工摆放几百万个资产的做法会消失。Justin 把这件事放进技术史——早期迪士尼动画要一格一格手绘，最早的迪士尼长片第一次实现音画同步，然后是 Pixar 的 CG 时代，再后来是 AI。在他看来，这些都是新的创作工具，人的位置不会消失：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">视频游戏是一门艺术；方向盘后面，总会坐着想创造新体验的创意人。</p>
+</blockquote>
+<p style="margin:0.8em 0">主持人想象过一个&quot;3D 可漫游空间里的 Pixar&quot;——那大概概括了这类模型最有想象力的去处：不是替你生成内容，而是给你一个能走进去、能执导的媒介。</p>
+<p style="margin:0.8em 0">顺着&quot;怎么走进去&quot;，主持人说 VR 才是导航、乃至提示世界模型的自然模态，WASD 加鼠标只是过渡。Justin 的回应带着现场感：&quot;Marble 已经在 VR 里跑了快一年。那是一种真正的变革性体验——戴上头显，我就在一个由 AI 生成、由我创造的完整世界里。相当震撼。&quot;</p>
+<p style="margin:0.8em 0">工具越强，边界越清晰。主持人把自己代入了难缠的物理场景——黑洞、意大利面化。Justin 说还没试过，&quot;说不定今天下午就试试，然后发条推&quot;。他给了一个分层判断：大致符合牛顿力学的场景都在预训练数据里，凡是&quot;大致牛顿&quot;却不工作的，&quot;大概一次快速的 SFT（监督微调）就能解决&quot;；非牛顿的（比如黑洞物理），或者微观量子尺度，就要回头重新考虑架构和数据——纳米级&quot;大概还不行&quot;。头发呢？&quot;头发相当不错。&quot;</p>
+<p style="margin:0.8em 0">还有一个他们创立公司时的玩笑：做三维世界模型，然后用一个三维世界模型设计一颗芯片，再用这颗芯片训练下一代世界模型。玩笑的闭环本身就是一种定位——在他们眼里，世界模型不是终点的应用，而是可能反哺下一代计算的一层。</p>
+<p style="margin:0.8em 0">发布日结束时，Atlas 还不是一件能买到的产品。它是 World Labs 押下的一个命题：当生成一个世界、重建一个空间、适配一台机器人的门槛，被压到&quot;五张照片&quot;的量级，会发生什么。Justin 说他等不及看答案——答案要等 Atlas 完全开放之后，才会开始长出来。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">生成、重建、模拟三种能力共用同一个底座，是 Atlas 被称作&quot;世界模型&quot;的全部含义：它瞄准的是语言模型之外的第二类横向引擎，而不是垂直场景工具。</li>
+<li style="margin:0.3em 0">与视频生成的根本差别在控制方式：参考图被锚定在 3D 空间、相机是原生输入模态，模型可以&quot;执导&quot;，不是抽奖。</li>
+<li style="margin:0.3em 0">与 Marble 的差别是架构级的：切断&quot;一切输出必经高斯泼溅&quot;的依赖，2D/3D 分岔提前，高斯从机器中心退回工具箱。</li>
+<li style="margin:0.3em 0">World Labs 不押单一技术路线：显式 3D 资产进游戏引擎、跳过引擎直接生成帧，Atlas 两条都做；对飞行模拟器级别的实时世界，Justin 的判断是&quot;比你预期更早&quot;。</li>
+<li style="margin:0.3em 0">对&quot;OpenAI 为什么不做了&quot;，Justin 拒绝评论公司内部，但给出了&quot;创新者的窘境&quot;框架：握着领先的 LLM，未必有动力去投下一件事。</li>
+<li style="margin:0.3em 0">机器人工作流已经具体到可执行：五张手机照片重建空间，自然语言描述任务，agent 搭建仿真，强化学习微调基础模型，几分钟完成适配。</li>
+<li style="margin:0.3em 0">团队的自我要求是&quot;导演工具&quot;而非&quot;生成老虎机&quot;；GTA 6 之后人类的位置，Justin 用迪士尼到 Pixar 的技术史作答。</li>
+</ul>
+
+</div>
