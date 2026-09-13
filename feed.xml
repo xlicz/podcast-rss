@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 13 Sep 2026 06:00:41 +0800</lastBuildDate><item><title>[跨国串门儿计划] Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-总比模型快一步-Codex-团队负责人-Tibo-的五个关键决定-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_66d26530bb3f</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 13 Sep 2026 09:00:31 +0800</lastBuildDate><item><title>[跨国串门儿计划] Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-总比模型快一步-Codex-团队负责人-Tibo-的五个关键决定-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_66d26530bb3f</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：从为什么用 Rust 写、为什么敢全程开源，到 Code Review 为什么正在变成「意图评审」——OpenAI 内部视角的一次完整展开。</strong></p>
@@ -16747,38 +16747,38 @@ tap iOS榜位（月度Σ）</li>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #715. a16z x 李飞飞：新视角预测通向空间智能</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-10 | <strong style="font-weight:600">时长</strong>: 42:56 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa2814f9d32647781671622" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa2814f9d32647781671622</a></p>
-<p style="margin:0.8em 0">World Labs 发布新一代世界模型 <strong style="font-weight:600">Atlas</strong>。团队（Justin Johnson、Ben Mildenhall 等）对谈核心：<strong style="font-weight:600">&quot;新视角预测（Next View Prediction）&quot;是与 Next Token Prediction 同级的 AI 完全（AI-complete）元语</strong>——就像 Next Token Prediction 能表述任何语言智能任务，新视角预测可表述任何空间/物理智能任务（&quot;给一部电影的所有帧，让模型预测走入镜头的是谁&quot;）。</p>
+<p style="margin:0.8em 0">World Labs 发布新一代世界模型 <strong style="font-weight:600">Atlas</strong>。团队（Justin Johnson、Ben Mildenhall 等）对谈核心：<strong style="font-weight:600">"新视角预测（Next View Prediction）"是与 Next Token Prediction 同级的 AI 完全（AI-complete）元语</strong>——就像 Next Token Prediction 能表述任何语言智能任务，新视角预测可表述任何空间/物理智能任务（"给一部电影的所有帧，让模型预测走入镜头的是谁"）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">Atlas 三项能力</strong>：①相机条件生成（输入图像+相机轨迹，从任意视角生成视频帧）；②稀疏 3D 重建（1~100 帧输入，重建出可穿行的新视角视频或显式 3D）；③模拟（子弹时间视频、机器人模拟）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">生成与重建首次统一</strong>：计算机视觉领域半个多世纪以来&quot;像素生成&quot;与&quot;3D 重建&quot;分立（NeRF/高斯泼溅属重建赛道）；Atlas 通过锚定视点与视点估计把两者结合。Demo：3~25 张地面视角照片重建斯坦福主方院，展示用鸟瞰视角全部由模型生成。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;子弹时间&quot;成本革命</strong>：《黑客帝国》名镜头用几百台相机+绿幕+昂贵标定；Atlas 最少 3 台 iPhone 三脚架即可。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">扩展仍在早期</strong>：扩展主要受限于训练算力，&quot;才刚起步&quot;；发布版本的规模受 deadline 约束而非能力上限；上一代 Marble 世界模型仍在运营（&quot;去年发布&quot;）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">进化视角</strong>：大自然给动物眼睛而不给树木——因为移动会产生新视点，&quot;新视角预测&quot;正是进化必须解决的问题。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">生成与重建首次统一</strong>：计算机视觉领域半个多世纪以来"像素生成"与"3D 重建"分立（NeRF/高斯泼溅属重建赛道）；Atlas 通过锚定视点与视点估计把两者结合。Demo：3~25 张地面视角照片重建斯坦福主方院，展示用鸟瞰视角全部由模型生成。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"子弹时间"成本革命</strong>：《黑客帝国》名镜头用几百台相机+绿幕+昂贵标定；Atlas 最少 3 台 iPhone 三脚架即可。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">扩展仍在早期</strong>：扩展主要受限于训练算力，"才刚起步"；发布版本的规模受 deadline 约束而非能力上限；上一代 Marble 世界模型仍在运营（"去年发布"）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">进化视角</strong>：大自然给动物眼睛而不给树木——因为移动会产生新视点，"新视角预测"正是进化必须解决的问题。</li>
 </ol>
 <p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 模型能力与官方博客一致，可查证；❓ 部分人名 ASR 失真（Justin/Ben = World Labs 联合创始人，待核）；⚠️ 前沿模型技术讨论，无投资披露。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #718. RSI：人工智能研究人员就当前范式能走多远展开辩论</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-12 | <strong style="font-weight:600">时长</strong>: 1:30:10 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa56b809d32647781681ac0" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa56b809d32647781681ac0</a></p>
-<p style="margin:0.8em 0">三位开放实验室研究者（含 Thinking Machines 联合创始人 John Schulman 一类人物，ASR 待核）辩论：<strong style="font-weight:600">如果到 2036 年没有出现超级智能，最可能的技术原因是什么？</strong> 主流答案：莫拉维克悖论式停滞——AI 对放进基准/环境的一切极其擅长，但&quot;真正的泛化火花&quot;始终未出现。</p>
+<p style="margin:0.8em 0">三位开放实验室研究者（含 Thinking Machines 联合创始人 John Schulman 一类人物，ASR 待核）辩论：<strong style="font-weight:600">如果到 2036 年没有出现超级智能，最可能的技术原因是什么？</strong> 主流答案：莫拉维克悖论式停滞——AI 对放进基准/环境的一切极其擅长，但"真正的泛化火花"始终未出现。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">RSI 数据瓶颈</strong>：RSI 本身数据难生成、成本高；实际路径是把通用元学习能力（判断什么重要、培养品味、长周期工作）与海量算力和参数空间结合做迁移。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">&quot;模拟环境+RL&quot;（sim RL）范式短期必须主导</strong>，但很多任务难模拟（尤其涉及与大量真人的实时交互），其长期主导地位存疑。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"模拟环境+RL"（sim RL）范式短期必须主导</strong>，但很多任务难模拟（尤其涉及与大量真人的实时交互），其长期主导地位存疑。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">数据效率将比算力效率更重要</strong>：高质量预训练数据开始见底；稀疏度存在最优平衡点，总参数 vs 激活参数是两种资源，缩放定律理论仍不完善。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">架构是解锁数据的钥匙</strong>：没有 GQA 就没有 100 万上下文（成本离谱），也就拿不到超长上下文数据；脱离架构谈&quot;数据 vs 规模&quot;会得出误导结论。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">架构是解锁数据的钥匙</strong>：没有 GQA 就没有 100 万上下文（成本离谱），也就拿不到超长上下文数据；脱离架构谈"数据 vs 规模"会得出误导结论。</li>
 </ol>
 <p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 技术讨论逻辑自洽；❓ 嘉宾机构名多为 ASR 音译，需以原节目为准；⚠️ 纯研究讨论，无投资内容。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #716. Stripe：企业 AI 的关键是治理</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-10 | <strong style="font-weight:600">时长</strong>: 43:12 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa2f77c9d3264778167435b" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa2f77c9d3264778167435b</a></p>
-<p style="margin:0.8em 0">Stripe 工程经理 Sharat（How I AI 播客）拆解 Stripe 自建公司级 agent <strong style="font-weight:600">&quot;Kai&quot;</strong>（公司大脑）：为什么大公司要从头自建、以及&quot;治理&quot;如何成为企业 AI 的胜负手。</p>
+<p style="margin:0.8em 0">Stripe 工程经理 Sharat（How I AI 播客）拆解 Stripe 自建公司级 agent <strong style="font-weight:600">"Kai"</strong>（公司大脑）：为什么大公司要从头自建、以及"治理"如何成为企业 AI 的胜负手。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">真正的难题不是技术</strong>：2026 年初工具大爆发（Claude Code 席卷全球）后，Stripe 意识到核心问题不是&quot;用什么工具&quot;，而是&quot;如何在大规模下复刻一家公司的运作方式&quot;——Stripe 业务极其复杂（全球、产品线繁多）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Project 作为治理单元</strong>：权限、数据、审批流、模型路由都在项目层配置并可跨用户共享；给&quot;有创造力的员工&quot;划边界，减少&quot;不许用工具&quot;带来的阻力与影子 AI 风险。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Skill 构建平台 &gt; skill 本身</strong>：不只造一个 skill，而是给全团队造&quot;构建 skill 的平台&quot;，让自动化与工作流能在公司内共享复用。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">云端安全沙盒</strong>：agent 跑在云端（非笔记本），会话间隔离（&quot;你的画布和我的画布互不干扰&quot;），提供沙盒内工具（grep 等）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">真正的难题不是技术</strong>：2026 年初工具大爆发（Claude Code 席卷全球）后，Stripe 意识到核心问题不是"用什么工具"，而是"如何在大规模下复刻一家公司的运作方式"——Stripe 业务极其复杂（全球、产品线繁多）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Project 作为治理单元</strong>：权限、数据、审批流、模型路由都在项目层配置并可跨用户共享；给"有创造力的员工"划边界，减少"不许用工具"带来的阻力与影子 AI 风险。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Skill 构建平台 &gt; skill 本身</strong>：不只造一个 skill，而是给全团队造"构建 skill 的平台"，让自动化与工作流能在公司内共享复用。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">云端安全沙盒</strong>：agent 跑在云端（非笔记本），会话间隔离（"你的画布和我的画布互不干扰"），提供沙盒内工具（grep 等）。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">数据边界用户自控</strong>：敏感数据（如私信）导入权限由员工自行开关——分享者本人就是选择关闭部分权限的人之一。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">吃自己的狗粮</strong>：要给客户打造优秀 agent，先学会给自己打造优秀 agent。</li>
 </ol>
@@ -16786,52 +16786,52 @@ tap iOS榜位（月度Σ）</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #717. AI 助手：未来的数字入口只剩一两个</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-11 | <strong style="font-weight:600">时长</strong>: 1:09:04 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa3ef709d3264778167ae68" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa3ef709d3264778167ae68</a></p>
-<p style="margin:0.8em 0">20VC（Harry Stebbings）对话 Town 创始人 John Dennis（JD）：AI 助手赛道正&quot;商品化&quot;，消费级和企业级走向何处。</p>
+<p style="margin:0.8em 0">20VC（Harry Stebbings）对话 Town 创始人 John Dennis（JD）：AI 助手赛道正"商品化"，消费级和企业级走向何处。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">赛道估值热度 vs 变现质疑</strong>：消费级 Instinct 按 25 亿美元估值融资（Index、Benchmark 领投）但无变现；企业级 Town（邮箱/日历内 AI 助手，上线约 3 个月）称自己&quot;有营收也有增长&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">融资公关伦理</strong>：Harry（天使投资人视角）批评估值游戏——&quot;见过一些交易按 2 亿定价，官宣估值 5 亿，实际 6500 万里只有 500 万按 5 亿进的&quot;；建议融资和营收里程碑拆成两个公关节点。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Token 经济实测</strong>：朋友 Jason Lemkin 买 $299 Anthropic Pro Max 套餐能烧掉约 $15,000 的 tokens，是&quot;Anthropic 最亏的客户&quot;；Town 定价 $14/$49/$99/$199，$15 档单客经济最差（引流款）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">赛道估值热度 vs 变现质疑</strong>：消费级 Instinct 按 25 亿美元估值融资（Index、Benchmark 领投）但无变现；企业级 Town（邮箱/日历内 AI 助手，上线约 3 个月）称自己"有营收也有增长"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">融资公关伦理</strong>：Harry（天使投资人视角）批评估值游戏——"见过一些交易按 2 亿定价，官宣估值 5 亿，实际 6500 万里只有 500 万按 5 亿进的"；建议融资和营收里程碑拆成两个公关节点。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Token 经济实测</strong>：朋友 Jason Lemkin 买 $299 Anthropic Pro Max 套餐能烧掉约 $15,000 的 tokens，是"Anthropic 最亏的客户"；Town 定价 $14/$49/$99/$199，$15 档单客经济最差（引流款）。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">企业 AI 支出基准</strong>：Salesforce 每年在 Anthropic 上花 $3 亿、工程预算 $60 亿（约 5%），相当于每工程师 $7.5 万/年（含 Claude Code、Cursor、Devin、Codex 等）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">竞争格局</strong>：过去两三周已有 4~5 家&quot;欧洲版 Town / Instinct&quot;团队在找 Harry 聊。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">竞争格局</strong>：过去两三周已有 4~5 家"欧洲版 Town / Instinct"团队在找 Harry 聊。</li>
 </ol>
 <p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 关键数字（$2.5B、$300M、5%）具体可交叉验证；❓ 收入规模嘉宾拒答；⚠️ 全部为私有公司，无公开标的。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny's Podcast</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-12 | <strong style="font-weight:600">时长</strong>: 1:18:04 | <strong style="font-weight:600">链接</strong>: <a href="https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70</a></p>
-<p style="margin:0.8em 0">a16z 消费 GP Anish Acharya（前 SocialDeck 创始人，售予 Google）在 Lenny's Podcast：<strong style="font-weight:600">公司组织正在变成&quot;一系列循环&quot;</strong>（prompts → agents → loops → 业务循环）。</p>
+<p style="margin:0.8em 0">a16z 消费 GP Anish Acharya（前 SocialDeck 创始人，售予 Google）在 Lenny's Podcast：<strong style="font-weight:600">公司组织正在变成"一系列循环"</strong>（prompts → agents → loops → 业务循环）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">级联结构</strong>：一人一 loop → 一职能一 loop → 跨业务单元 → &quot;跑大半个公司&quot;的 loop。Agent = 模型+工具+记忆+skill 文件构成的循环；下一级是 graph。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">人类的角色</strong>：loop 帮你爬到局部最优就会平台化，需要人类直觉/分布外思考&quot;跳到下一座山脚&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">案例</strong>：Kavak（墨西哥二手车平台）&quot;Jedi Academy&quot;——连技师在内全员 6 周培训用 AI 工具并要求出货一个项目；某公司&quot;每客户一个 agent，卡住时 agent 直接打电话给人类求助&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">反恐惧叙事</strong>：&quot;AI 永久下层阶级&quot;是硅谷的黑暗幻想；技术放大能动性、把&quot;技能&quot;与&quot;意愿&quot;解绑；不重要的是（小写 i 的 important）持续投入反而更好。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">消费 AI 机会</strong>：&quot;船往往是被发现而不是被建造的&quot;（boats are discovered rather than built）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">级联结构</strong>：一人一 loop → 一职能一 loop → 跨业务单元 → "跑大半个公司"的 loop。Agent = 模型+工具+记忆+skill 文件构成的循环；下一级是 graph。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">人类的角色</strong>：loop 帮你爬到局部最优就会平台化，需要人类直觉/分布外思考"跳到下一座山脚"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">案例</strong>：Kavak（墨西哥二手车平台）"Jedi Academy"——连技师在内全员 6 周培训用 AI 工具并要求出货一个项目；某公司"每客户一个 agent，卡住时 agent 直接打电话给人类求助"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">反恐惧叙事</strong>："AI 永久下层阶级"是硅谷的黑暗幻想；技术放大能动性、把"技能"与"意愿"解绑；不重要的是（小写 i 的 important）持续投入反而更好。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">消费 AI 机会</strong>："船往往是被发现而不是被建造的"（boats are discovered rather than built）。</li>
 </ol>
 <p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 嘉宾身份、公司案例可查；❓ 理念框架为主，非数据论证；⚠️ VC 立场+节目自带免责声明（非投资建议）。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 卫诗婕｜漫谈Light the Star — 87.蓝色光标 x AhaCreator官宣后首次访谈：营销巨头、AI 原生，与出海增长进行时</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-12 | <strong style="font-weight:600">时长</strong>: 2:06:14 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa3c67d492687f6aad866a4" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa3c67d492687f6aad866a4</a></p>
-<p style="margin:0.8em 0">蓝色光标 CEO 潘飞 x 00 后创始人 K（AI 原生达人营销平台，啊哈/AhaCreator）：战略投资官宣后首次同台访谈。投资人与投后组合的&quot;化学反应&quot;实录。</p>
+<p style="margin:0.8em 0">蓝色光标 CEO 潘飞 x 00 后创始人 K（AI 原生达人营销平台，啊哈/AhaCreator）：战略投资官宣后首次同台访谈。投资人与投后组合的"化学反应"实录。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">蓝标的 AI 战略与投资标准</strong>： AI 投资部三条标准——①只投 AI 原生公司（不受传统经验浸染）；②偏爱非共识、年轻、&quot;眼里有光&quot;的团队；③最重要的一条——&quot;找到有可能颠覆、未来干掉蓝标的新一批 AI 原生公司&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">蓝标现状自述</strong>：30 年历史，数百亿收入但利润薄，&quot;资本市场老是被拿出来说&quot;；AI 被视为第二曲线（&quot;当你是个做 AI 的人，不要只想省成本，要想边界性突破&quot;）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">AhaCreator 进展</strong>：约 10 万创作者入驻；蓝标、朱啸虎、景秋基金等投资（&quot;见过一面我们就投了他&quot;）；与 Meta、YouTube 等头部平台的数据合作（符合资质前提下平台主动开放）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">创始人复盘</strong>：K 承认早期公开传播&quot;用力过猛&quot;（颠覆者人设与实际不符），过去两年把时间和钱all-in产品，仅 5~10% 投入市场动作；信任是出海核心。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">行业判断</strong>：达人营销从&quot;不透明、人工撮合&quot;转向 AI 驱动、透明化；AI+全球化带来原生平台与商业模式的大机会。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">蓝标的 AI 战略与投资标准</strong>： AI 投资部三条标准——①只投 AI 原生公司（不受传统经验浸染）；②偏爱非共识、年轻、"眼里有光"的团队；③最重要的一条——"找到有可能颠覆、未来干掉蓝标的新一批 AI 原生公司"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">蓝标现状自述</strong>：30 年历史，数百亿收入但利润薄，"资本市场老是被拿出来说"；AI 被视为第二曲线（"当你是个做 AI 的人，不要只想省成本，要想边界性突破"）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AhaCreator 进展</strong>：约 10 万创作者入驻；蓝标、朱啸虎、景秋基金等投资（"见过一面我们就投了他"）；与 Meta、YouTube 等头部平台的数据合作（符合资质前提下平台主动开放）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">创始人复盘</strong>：K 承认早期公开传播"用力过猛"（颠覆者人设与实际不符），过去两年把时间和钱all-in产品，仅 5~10% 投入市场动作；信任是出海核心。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">行业判断</strong>：达人营销从"不透明、人工撮合"转向 AI 驱动、透明化；AI+全球化带来原生平台与商业模式的大机会。</li>
 </ol>
-<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 蓝标为 A 股上市公司（300058.SZ），可对照公开信息；❓ &quot;数百亿收入&quot;、&quot;10 万作者&quot;等为嘉宾口述（ASR 转写待核）；⚠️ 潘飞投资动作仅针对私有公司 AhaCreator——无 ticker，不构成公开市场信号。</p>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 蓝标为 A 股上市公司（300058.SZ），可对照公开信息；❓ "数百亿收入"、"10 万作者"等为嘉宾口述（ASR 转写待核）；⚠️ 潘飞投资动作仅针对私有公司 AhaCreator——无 ticker，不构成公开市场信号。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] Money Stuff: The Podcast — What's the Concern?</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-11 | <strong style="font-weight:600">时长</strong>: 40:39 | <strong style="font-weight:600">链接</strong>: <a href="https://omny.fm/shows/money-stuff-the-podcast/whats-the-concern" style="color:#2563eb;text-decoration:underline">https://omny.fm/shows/money-stuff-the-podcast/whats-the-concern</a></p>
 <p style="margin:0.8em 0">Matt Levine + Max Abelson：股票代币化争议（Robinhood vs AMC）、BTC DAT 套利反转与代理权官司、Cede &amp; Co/街名持股冷知识、PE 融资成本论文。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点：</strong></p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">Robinhood vs AMC</strong>：RH 在境外发行&quot;股票代币&quot;（有真实股票背书），AMC CEO Adam Aron 怒斥&quot;假股票&quot;，RH CEO Tenev 反击——标题出处：&quot;the quasi fake market you're creating on the island of jersey… what's the concern?&quot;（Levine 认为&quot;只有公司能创造自己的股票&quot;的直觉并不成立：远期/衍生品同样能&quot;造股&quot;）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">BTC DAT 套利反转</strong>：从&quot;1 美元 BTC 装进 DAT 变 2 美元股票&quot;到反向&quot;90 美分股票换 1 美元 BTC&quot;。激进套利者（delta 中性：多 DAT、空 BTC）推动清算套利，公司拒其董事候选资格→法庭：激进方可参选（但对其通信记录问题作出制裁）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Cede &amp; Co / 街名持股</strong>：大多数股票由 Cede &amp; Co（DTC  nominee）名义持有；纸质股票遗产、股票凭证&quot;召回&quot;等趣闻。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">PE 论文</strong>：最激进 sponsor 的 portfolio 公司支付显著更高的融资成本（&quot;zealous not aggressive&quot;）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Robinhood vs AMC</strong>：RH 在境外发行"股票代币"（有真实股票背书），AMC CEO Adam Aron 怒斥"假股票"，RH CEO Tenev 反击——标题出处："the quasi fake market you're creating on the island of jersey… what's the concern?"（Levine 认为"只有公司能创造自己的股票"的直觉并不成立：远期/衍生品同样能"造股"）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">BTC DAT 套利反转</strong>：从"1 美元 BTC 装进 DAT 变 2 美元股票"到反向"90 美分股票换 1 美元 BTC"。激进套利者（delta 中性：多 DAT、空 BTC）推动清算套利，公司拒其董事候选资格→法庭：激进方可参选（但对其通信记录问题作出制裁）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Cede &amp; Co / 街名持股</strong>：大多数股票由 Cede &amp; Co（DTC  nominee）名义持有；纸质股票遗产、股票凭证"召回"等趣闻。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">PE 论文</strong>：最激进 sponsor 的 portfolio 公司支付显著更高的融资成本（"zealous not aggressive"）。</li>
 </ol>
 <p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>：✅ 多数为公开新闻/可核事件；❓ 论文细节未给引用；⚠️ 评论性质内容，无持仓披露。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -16845,5 +16845,90 @@ tap iOS榜位（月度Σ）</li>
 </blockquote>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-13</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-13.html</link><guid isPermaLink="false">report:AI动态:2026-09-13:c04d5e42</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-13</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/13（Amodei 呼吁&quot;放缓前沿&quot; / Altman 宣布 2026 不 IPO / 小鹏 IRON 产线投运 / 京东 300 万机器人 / 富士通 AI 芯片出海）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：Anthropic CEO Amodei 发布《We Must Pace the Frontier》，主张主动放慢前沿模型能力推进速度，提出&quot;嵌入式评估员 → 美国同行协调 → 政府间协调&quot;三步框架，Anthropic 单边承诺先行；OpenAI CEO Altman 同日附议，并宣布 OpenAI 2026 年不会 IPO。小鹏 IRON 人形机器人产线投运、首台自主走下产线，目标年底 1,000 台/月；京东发布&quot;物理世界 AI&quot;蓝图：5 年 300 万机器人 + 100 万无人车；富士通拟最早明年向美亚出口&quot;富岳&quot;系 AI 芯片。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Amodei《We Must Pace the Frontier》：三步&quot;放缓&quot;框架，Anthropic 单边承诺先行</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Altman：OpenAI 2026 年不 IPO——&quot;现在是'不明智'的上市时点&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小鹏 IRON 产线投运：首台自主下线，目标年底 1,000 台/月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">京东 5 年 300 万机器人 + 100 万无人车；建全球最大具身数据采集中心</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">富士通拟向美亚出口&quot;富岳&quot;系 AI 芯片，主攻推理需求</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Amodei 发布《We Must Pace the Frontier》：主张&quot;放缓前沿&quot;，Anthropic 单边承诺嵌入式评估员 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/12 Anthropic CEO Dario Amodei 发布长文《We Must Pace the Frontier》：称&quot;近几个月确信&quot;必须主动放慢 AI 模型能力的推进速度（&quot;We must slow the pace at which we improve the capabilities of AI models&quot;），提出三步框架——① 各前沿公司向第三方<strong style="font-weight:600">嵌入式评估员</strong>开放&quot;员工级&quot;权限（核查安全实践、报告事件、发现可公开发布且不受公司编辑控制），Anthropic <strong style="font-weight:600">单边承诺率先实施</strong>，并呼吁政府要求其他前沿公司对齐；② 美国前沿公司在政府有限反垄断豁免下协调共同安全标准与推进速度上限；③ 民主国家政府与威权政府协调（承认核查困难）。文章称&quot;放缓换来的 1-2 年&quot;可用于：训练运营卓越（近期事故部分源于 RL 环境过滤不完善）、对齐、可解释性、评测体系；同时强调维持对威权国家的 AI 领先（芯片出口管制、反蒸馏、权重安全）。同日 OpenAI CEO Altman 回应：&quot;我同意 Dario，需要 pace the frontier——这是 OpenAI 近几周讨论的核心议题&quot;；Musk 称&quot;Dario is right&quot;。背景：Anthropic 研究员 Jacob Coxon 因安全担忧辞职（TechCrunch）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 原文（darioamodei.com）+ TechCrunch/The Guardian/Politico/CoinDesk 多源一致；✅ Altman/Musk 回应经 TechCrunch 报道 — <strong style="font-weight:600">关注</strong>: &quot;减速共识&quot;改写前沿竞争节奏</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: darioamodei.com / TechCrunch / The Guardian / Politico / CoinDesk</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Altman：OpenAI 2026 年不会 IPO——&quot;现在是'不明智'的上市时点&quot; | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/12 Fortune 活动上，Altman 表示 OpenAI <strong style="font-weight:600">已保密提交 IPO 文件</strong>，但今年不会上市：&quot;We're not rushing into an IPO... given everything happening with safety, right now would be an ill-advised moment to go public&quot;；上市要等&quot;业务准备好、社会对这项技术的接受度到位&quot;；被追问确认&quot;<strong style="font-weight:600">not 2026, yeah</strong>&quot;。背景：NYT 6 月称其原目标为 2026 Q3-Q4，因科技股波动与自身财务压力倾向 <strong style="font-weight:600">2027</strong>。同日他还表态支持 Amodei 的&quot;放缓前沿&quot;。Reuters、Bloomberg、Axios、Politico 次日跟进。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Fortune 现场直击 + Reuters/Bloomberg/TechCrunch/Axios 多源一致；🔴 推迟后的具体时间表未定 — <strong style="font-weight:600">关注</strong>: 安全叙事进入资本决策，IPO 预期后移</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch / Fortune / Reuters / Bloomberg / Axios</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 小鹏 IRON 人形机器人产线投运：首台自主走下产线，目标年底 1,000 台/月 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">小鹏广州 IRON 人形机器人自动化产线已投运（09/08 周二开机）：首台 IRON 完成自动总装后<strong style="font-weight:600">无人搀扶自主步下产线</strong>（CGTN 视频）；产线 <strong style="font-weight:600">80%+ 核心工序无人化</strong>。IRON 规格：<strong style="font-weight:600">76 自由度</strong>（单臂 21）、3 颗自研 Turing 芯片、算力至 <strong style="font-weight:600">2,250 TOPS</strong>、可自主运行 Physical AI 模型。计划：<strong style="font-weight:600">2026 年底爬坡至 1,000 台/月</strong>（报道口径），先部署自家门店/园区，<strong style="font-weight:600">2027 年</strong>对外销售（中国及其他市场）；管理层称机器人业务毛利率&quot;最终将高于汽车&quot;。背景：机器人子公司 8 月以 <strong style="font-weight:600">$63 亿投后估值</strong>完成 <strong style="font-weight:600">超 $9 亿融资</strong>（IDG 领投、腾讯/阿里等参与）；当周港股 XPEV 受机器人叙事提振上涨。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CGTN 视频 + NBC News/CnEVPost/hi-Tech.ua/ad-hoc-news.de 多源；✅ $9 亿融资经 SCMP/Bloomberg/CnEVPost 交叉确认；🔴 &quot;1,000 台/月&quot;&quot;毛利率高于汽车&quot;为公司目标口径 — <strong style="font-weight:600">关注</strong>: 人形机器人进入&quot;产线级&quot;量产竞速</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CGTN / NBC News / CnEVPost / hi-Tech.ua / ad-hoc-news.de</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 京东押注&quot;物理世界 AI&quot;：5 年 300 万机器人 + 100 万无人车，建全球最大具身数据采集中心 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/09-10 北京 JDDiscovery 2026：京东发布面向&quot;物理世界&quot;的 AI 蓝图（主题&quot;JoyAI: Leaping into the Physical World&quot;），目标建成&quot;全球最大的物理世界运营平台&quot;，并宣布：① 未来 5 年部署 <strong style="font-weight:600">300 万机器人 + 100 万辆无人驾驶车辆</strong>，自动化物流网络（SCMP/digitaltoday 等）；② 京东云 <strong style="font-weight:600">2 年</strong>建成全球最大具身 AI 数据采集中心——收集 <strong style="font-weight:600">&gt;1,000 万小时</strong>真实人类活动视频；③ 京东产发 5 年建 <strong style="font-weight:600">80+ &quot;RoboBase&quot; 机器人产业基地</strong>；④ 京东工业发起机器人产业链联盟，目标成为&quot;全球最大机器人零部件供应商&quot;。JD Logistics 同期发布&quot;狼群&quot;系列五款机器人，目标建成&quot;全球最大具身机器人队群&quot;；Meta Brain 3.0 把亿级包裹路径计算从分钟级降至秒级。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 京东官方博客（计划细则）+ SCMP/ForkLog/YourStory/digitaltoday 多源；🔴 &quot;300 万&quot;等为规划目标，执行细节未披露 — <strong style="font-weight:600">关注</strong>: 电商巨头把具身智能推向规模部署</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: JD Corporate Blog / SCMP / ForkLog / YourStory / digitaltoday</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 富士通拟向美亚出口&quot;富岳&quot;系 AI 芯片，主攻推理需求 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/13 Nikkei 独家：<strong style="font-weight:600">富士通最早明年（2027）起向美国与亚洲出口</strong>基于其超级计算机&quot;<strong style="font-weight:600">富岳（Fugaku）</strong>&quot;技术开发的 AI 半导体，瞄准 AI <strong style="font-weight:600">推理环节对 CPU 的新增需求</strong>；公司寻求扩大在全球半导体市场（逻辑半导体）的份额。这是日本半导体阵营重返全球 AI 芯片竞赛的最新动作。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Nikkei Asia 原文核对（&quot;as early as next year&quot;、美国+亚洲、推理 CPU）；🔴 尚未官宣产品与客户细则 — <strong style="font-weight:600">关注</strong>: 日本重装入场 AI 芯片出海竞争</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Nikkei Asia</li>
+</ul>
+<p style="margin:0.8em 0">📅 覆盖时段: 09/09–09/13</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
