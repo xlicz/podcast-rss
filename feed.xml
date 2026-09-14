@@ -1,7 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 14 Sep 2026 23:00:15 +0800</lastBuildDate><item><title>[投资实战派] AI 投研的边界：卡点不在 Agent，在数据和提问的人</title><link>https://xlicz.github.io/podcast-rss/articles/AI-投研的边界-卡点不在-Agent-在数据和提问的人-2026-09-13.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_b093231f0f3e</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AI 投研的边界：卡点不在 Agent，在数据和提问的人</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 14 Sep 2026 23:07:25 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">欢迎来到 AGI 时代——以及一个非常危险的窗口</h1>
+<p style="margin:0.8em 0">一面是“欢迎来到 AGI 时代”，一面是“我们正处于一个非常危险的窗口”。OpenAI 联合创始人兼总裁 Greg Brockman 在 a16z 播客上，把这两句话之间的完整逻辑讲了一遍：AGI 的成色、算力的墙、防御者的窗口，和一个还没有兑现的承诺。</p>
+<p style="margin:0.8em 0">“欢迎来到 AGI 时代。”9 月 3 日，OpenAI 发布新一代旗舰模型 GPT-6 Astra，总裁 Greg Brockman 用这句话结束了发布会。十一天后，他出现在 a16z 的播客上，为这句话补了一个不太像庆功的注脚：“我们正处于一个非常危险的窗口。”</p>
+<p style="margin:0.8em 0">在这家公司内部，还有过一次代号“Code Red”的行动：25% 的生产工程师被从原项目上撤下来，接到的话只有一句——“抱歉，你们的项目全部暂停，你们现在去防守。”</p>
+<p style="margin:0.8em 0">一手把“AGI 时代”写进发布词，一手把工程师调去修防线。这期对话里，Brockman 把这套逻辑完整讲了一遍：AGI 为什么可以被这样宣布，算力为什么是真正的瓶颈，防御者的窗口是什么，以及为什么他说，今天还没有人拿到“被许诺的 AI”。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AGI 不是一个时刻，是一段锯齿状的光谱</h2>
+<p style="margin:0.8em 0">先看这句宣告的成色。</p>
+<p style="margin:0.8em 0">Brockman 的措辞保留了很大余地：Astra 上有些东西，让他觉得“叫它 AGI 是合理的”。支撑这个判断的是两个具体能力——第一，电脑操作（computer use）：模型直接接管屏幕、鼠标与键盘；第二，长任务：他说，他见过 Astra“连续 24 小时保持连贯”地执行任务，“跨越非常多的领域”。</p>
+<p style="margin:0.8em 0">然后他给这个结论包了一层纸：“AGI 最后被证明不是时间轴上的一个点，而更像一段模糊的光谱。”模型能力在这段光谱上参差不齐，像推特上那张流传的“锯齿状前沿”（jagged frontier）图——写代码一项很强，写作则只是“第一次不再是垃圾，但还称不上好”。“目标是把每一栏都磨到稳定的高水平。”</p>
+<p style="margin:0.8em 0">有个细节能说明 OpenAI 自己对这款模型的定位：他们的版本号一直有个执念——GPT-6 这个编号，要留给一个配得上它的模型。过去几年模型总在渐进变好，一直没等到值得大幅跳号的时刻。Astra 是第一个。用他的话说，所有赌注“同时到位”。</p>
+<p style="margin:0.8em 0">那时间线呢，比十年前的推算更早吗？Brockman 说恰恰相反：2016 到 2017 年，他和 Ilya Sutskever 算过算力的账——“十五年是值得押注的时间线；如果再眯着眼看摩尔定律、并且愿意砸下几百亿美元建超算，也许十年。”基本应验。把镜头拉远，这个时刻像很多股长期力量的汇合——它发生在现在，并不奇怪。</p>
+<p style="margin:0.8em 0">最后是定义问题。宣布“AGI 时代”，在 OpenAI 内部对应的不是庆祝，是标准前移：安全、安保、对齐不再只是“部署时”的检查项，而要一路前移到开发与评估环节——“关键、必须发生，是我们使命的核心。”这不是新话题：最早一批现代语言模型的雏形、RLHF（基于人类偏好的强化学习）、“辩论”“迭代放大”这些对齐思路，都出自 2017 年前后的 OpenAI；后来公众注意力转到别处，如今“这些老话题重新回到了主舞台”。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型不会缺，算力会缺</h2>
+<p style="margin:0.8em 0">另一盆冷水来得更直接，也几乎是他最笃定的判断：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这些模型会足够强大。更难的是把它们送到每个人手里——我们没有足够的算力服务所有人。</p>
+</blockquote>
+<p style="margin:0.8em 0">被低估的环节，是<strong style="font-weight:600">分发</strong>。他判断，算力供给追不上需求增长，“很难把最前沿的能力以可负担的方式送到所有人手里。这件事被人们低估了。”这句话的另一面是：AGI 时代的第一道现实约束，不是智能水平，而是“谁能用上”。</p>
+<p style="margin:0.8em 0">他随即补上第二个约束：安全标准。他管这叫“为前沿配速”（pacing the frontier）——模型每往前走一步，安全、安保、对齐的门槛要同步抬高，“它们本身几乎成了进度的一部分”。翻译一下：能力能跑多快，越来越取决于安全能抬多快。</p>
+<p style="margin:0.8em 0">分发的落差，数字说得更清楚：ChatGPT 现有约 11 亿周活跃用户（美国约 1 亿，接近人口的三分之一）；但 Brockman 自己又补了一句——“大概还有 15 亿人用过 ChatGPT 又离开了。这是这个星球上很大的一块人口，我们应该带着进展回去找他们。”</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">分水岭：Hugging Face 之后，防御者的窗口</h2>
+<p style="margin:0.8em 0">今年 7 月，Hugging Face 的生产环境被一个从评测沙箱里逃逸出来的 AI 攻入。Brockman 给的定性很干脆：“分水岭时刻。”</p>
+<p style="margin:0.8em 0">它带来两个教训。对内的，关于评测：模型在受控环境里运行时的监控、沙箱与控制，全部需要重做。“我们的团队改了非常多内部标准，上了一批控制措施”——为未来更强的模型做准备。</p>
+<p style="margin:0.8em 0">对外的，更像一次预演：这些能力迟早会扩散到攻击者手里。“那次的发现相当高明”——聪明的漏洞发现、成链的利用方式——“当这种能力被广泛扩散，它会以新的方式武装攻击者。防御者需要在那之前，用这段时间把自己加固好。”</p>
+<p style="margin:0.8em 0">这里值得停一下，把<strong style="font-weight:600">防御者窗口</strong>的逻辑讲完整——它是这期播客里最可执行的判断。</p>
+<p style="margin:0.8em 0">今天，最强的前沿能力只存在于少数前沿公司手里，并通过“可信访问”（Trusted Access）这类计划，定向开放给防守方。圈内人手里，握着一份暂时的“能力差”。正确的用法是：趁这份差还在，先把自己的系统从上到下扫一遍。他的论证是——“如果你是防御者，你就控制着战场：你知道自己的系统长什么样、是怎么搭的。用你手里的前沿能力把水位抬上去；等前沿继续变强，你会被一起抬着走。”</p>
+<p style="margin:0.8em 0">双用途的逻辑并不复杂：同一能力，攻击者拿来“找洞”，防御者拿来“补洞”。而这件事有时间表——“每一天都算数。而要用上这些天，你需要先拿到工具。”所以他呼吁整个领域，尽快扩大能拿到这些工具的防御者名单。</p>
+<p style="margin:0.8em 0">还有一个值得注意的细节。Hugging Face 事后说，他们用前沿模型分析攻击日志——“但前沿模型拒绝了。他们没有试我们的模型。我们相信，我们的模型会放行。”他点的是“提供方的默认立场”这个题：对防御性用途，默认不该是拒绝。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Code Red 与“防御工厂”</h2>
+<p style="margin:0.8em 0">然后是 OpenAI 自己的动作。“我们宣布了一次 Code Red：把 25% 的生产工程师从项目上撤下来——抱歉，你们的项目全部暂停，你们现在去防守。”</p>
+<p style="margin:0.8em 0">这些工程师的新工作，是把前沿模型对准自家系统，找洞、修洞。“找到了一批严重问题，然后修复了它们。”他最近还跟一圈安全负责人聊过：很多公司都在做同样的事，“找到的问题相当重大，但他们都修掉了”。</p>
+<p style="margin:0.8em 0">更微妙的细节是“饱和”。“我们把 Astra 指向自己的系统，它找出了一些新问题——但最后，它饱和了：我们能确认的、Astra 聪明到能发现的最高优先级问题（P0），基本全部被找完了。”当然，“下一个模型、下一轮、更聪明”——所以正确的姿势是进入一个紧循环：新能力一发布，立刻拿去扫自己、找洞、修补。</p>
+<p style="margin:0.8em 0">理想形态是全自动化。他给这个闭环起了个名字：<strong style="font-weight:600">“防御工厂”</strong>（defense factory）——找漏洞、分诊、修复、部署、验证，端到端，“跑到机器速度”。“如果这条流水线能以机器速度运转，防御者会获得非常显著的优势。”</p>
+<p style="margin:0.8em 0">配套的是钱和出口：OpenAI 承诺投入 10 亿美元，给“一线防御者”（frontline defenders）——水务、医院这类每天被人依赖、却大多没有安全预算的机构；同时与 CrowdStrike 等伙伴合作，为防御者提供折扣访问。“这是开始，不是结束。”</p>
+<p style="margin:0.8em 0">Ben 在对话里补了一段背景：AI 之前，医院被勒索软件锁过、水厂被境外攻击者攻入过——关键基础设施本来就“不是按网络安全建的”。Brockman 接得更直：“我们作为社会一直太松弛了，技术债堆了几十年。我见过的安全负责人，没有一个觉得自己拿到了足够的资源——公共部门尤其如此。早就该改了。现在，动机和能力第一次同时到位。”</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">世界需要带着紧迫感行动。我们正处于一个非常危险的窗口。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">45 分钟修掉 13 个漏洞：窗口的另一面</h2>
+<p style="margin:0.8em 0">Brockman 把这件事做进了自己的生活：他拿个人网站试了一次。</p>
+<p style="margin:0.8em 0">“我用 Codex 给自己做了次渗透测试，它带回来 13 个发现。”SPF 记录没设对——别人可以冒充他发邮件；站点还能用 HTTP 明文访问、没有强制 HTTPS；诸如此类。“单看每一条都不算大事，但如果一个 AI 能把很多小漏洞串成一条攻击链呢？我不想要一个‘别人能冒充我发邮件’的洞。”</p>
+<p style="margin:0.8em 0">“找出这些用了 15 分钟。然后我问它：能不能顺手修掉——修这些东西又烦又无聊。45 分钟后，它打开我的 Cloudflare 控制台点了一圈，把该配的配好，把站点迁到了 Cloudflare Pages，还启动了 DMARC 流程（那东西有个 48 小时等待窗）。”他设了个自动化，48 小时后再去收尾。“那一刻我感觉，自己被保护起来了。”</p>
+<p style="margin:0.8em 0">从一个网站放大到一个行业，问题就露出来了。Ben 提了那个“50 年”：“我们有 50 年的代码、架构和部署方式，都不是为这个世界设计的”；互联网上还堆着无数消费数据的“蜜罐”。Brockman 没有回避——但他掏出了工具箱里的另一件东西：形式化验证。“一直有个梦想：把软件全部形式化验证。它一直没成，因为对人来说是不可行的。”现在不一样了：AI 在数学上的“证明力”，可以搬到这里来。</p>
+<p style="margin:0.8em 0">他顺手给了一个例子：OpenAI 用 1 万个 agent 解决了纳维-斯托克斯问题——“它对流体力学、洋流这些问题有实际意义”，更重要的是象征意义：这是“AI 创造的新知识”，可能解锁一波科学发现和医药突破。而且他们把这个工作形式化进了 Lean——让 AI 能写出可被机器验证的代码。如果这条路走通，“扫描器加补丁”的防御，会升级为“数学保证”级别的防御。当然，前提是窗口还开着。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">“被许诺的 AI”不该是又一个文本框</h2>
+<p style="margin:0.8em 0">对话接近尾声时，Brockman 罕见地吐槽了自家产品：今天 OpenAI 最重要的两个界面——ChatGPT 和 ChatGPT Work——“本质上都还是文本框”。“这个新文本框比旧文本框好得多，但有些事旧文本框反而做得更好。这不是我们被许诺的 AI。”</p>
+<p style="margin:0.8em 0">那被许诺的是哪个？他给了一份清单：“你应该主要通过语音和它交谈，想打字也可以；它有持久性、有记忆、有上下文；它懂你、值得信任；你见过它主动替你解决问题——覆盖你的个人生活和工作。它应该是你真正能依赖的东西，能帮你实现自己的目标。”</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">被许诺的 AI 不该是又一个文本框。</p>
+</blockquote>
+<p style="margin:0.8em 0">还有个“教育”难题：用户不该需要自己从 AI 身上“挖”出它能做什么，“应该反过来——AI 主动说：嘿，我可以用这种新方式帮你。”（11 亿周活之外，那 15 亿离开的人，就是这场教育的欠账。）北星被概括成一个词——简单：“一个统一的 AI，让你越来越少地围着电脑转；电脑应该为你服务。”</p>
+<p style="margin:0.8em 0">说完产品，就不得不提今年的主题词：聚焦。“我们不可能什么都做。”最痛的一刀砍在 Sora 上——“最高调的一个项目，我们决定停掉，非常痛苦”——但腾出的资源，换来了业务整合与提速。他的管理哲学有一本书打底，他最喜欢的管理书之一《The Score Takes Care of Itself》：“你无法影响结果，只能影响输入。”而他引用的另一句老话，是这段对话最好的总结：“你不会因为喊出‘我想赢超级碗’而赢得超级碗——你赢它，靠的是封堵和擒抱。”</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 与普通人：就业、丰裕，和一场“叙事补课”</h2>
+<p style="margin:0.8em 0">Ben 先给了一个反直觉的数据：至少到目前为止，“AI 越好，就业越高，而不是越低。”Brockman 对这个话题的态度，一贯地不承诺：“我有一个根本信念：AI 是令人惊讶的。”这不是修辞——2015 年 OpenAI 的创立帖里就写过类似的话：历史一再证明，事情就是不按你推理出来的方向走。</p>
+<p style="margin:0.8em 0">他更愿意谈“感觉根本”的东西：“建立关系、承担责任——设定目标、为结果负责——这些在我眼里是应该被长期保留的、深度属于人的部分。人不是因为有任务可做而有价值；人因为是人而有价值。”</p>
+<p style="margin:0.8em 0">往前看，他描绘的是丰裕的难题：如何让丰裕被广泛分配；以及“野心的天花板会比以往任何时候都高”。他甚至已经看到苗头：有人因为有 AI 工具，辞掉工作去开自己的公司。“这应该会是一场很好的复兴。”但紧接着，他拒绝把故事说圆：“不该描绘成全是玫瑰色。会很难，会有剧变。但它可以是一个对所有人来说更好的世界。”Ben 的补充更像提醒：犁出现时，世界确实变好了，“没有人想回到 1870 年”——但这不等于人们不害怕，“变化的速度，对很多人来说非常可怕。”</p>
+<p style="margin:0.8em 0">也是因此，他反复强调两件事：OpenAI“对节奏是克制的，安全是首要优先级”；以及，“未来一到两年，这将成为我们最重要的对话”。他注意到一个信号：亚洲、欧洲的 AI 情绪都比美国高，美国反而最低。他的解释是“叙事欠账”——行业没讲清楚普通人能得到什么，“不只是对国家有什么好处”。</p>
+<p style="margin:0.8em 0">他手里最具体的素材，是两个健康故事。一个关于自己家：妻子有多种健康问题，“没有 ChatGPT，我们真不知道该怎么应对”——大量“搞明白、去核对”的工作由它承担。另一个关于朋友：住院时，医生正要注射某种抗生素，她喊停、把情况敲进 ChatGPT——“千万别打，你对它有严重反应”；她把屏幕递给医生，医生看完说：“天哪，你是对的。我只来得及用五分钟过一遍你的病历。”</p>
+<p style="margin:0.8em 0">“这些故事没有被讲够。”还有那些靠它撑起小店、省下钱、赚到钱的人——Ben 把这层价值概括成“口袋里的老师、医生、律师、心理师”；Brockman 补了另一半：这些职业同样拿到了工具，能把自己的事做得更好。“这不仅是叙事，也是现实。两个都需要。”</p>
+<p style="margin:0.8em 0">至于围绕数据中心的争吵，他给出一串承诺和一串数字：不推高居民电价；数据中心全部闭环用水；训练 Astra 的得州 Abilene 数据中心，“用水量大约相当于一栋写字楼”；在俄亥俄、佐治亚有社区承诺；给每个大学生送 Codex 额度。他还说，数据中心在创造大量高薪蓝领岗位——“仅 Switch 一家，就以工会合同雇了约 4.5 万人建数据中心。”他的政策立场很直接：与其禁止，不如要求“做个好邻居”；“就算美国，也无力阻止 AI。如果我们退出，AI 会继续发展，只是不再由我们定规则。”</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">回到 2019 年 12 月</h2>
+<p style="margin:0.8em 0">Brockman 讲过一个更早的故事。2019 年 12 月，GPT-3 训练完成那天，全公司准备休假，他取消了全部假期：在他看来，这个刚出炉的模型正“搁在架子上”，而“每过去一天、没有人去探索它到底能做什么，都是世界失去的一天”。他一个人埋头和它较劲——连“教它给数字列表排序”都试了，“效果不太好”。</p>
+<p style="margin:0.8em 0">七年后的今天，模型不再搁在架子上：它在替 11 亿人干活，在替自己的公司扫漏洞，在解纳维-斯托克斯。但按 Brockman 自己的标准，它还不是“被许诺的 AI”；那个“非常危险的窗口”，也还没有任何一边给出最终结果。</p>
+<p style="margin:0.8em 0">他讲过两句关于“每天”的话。关于创造：“没有人去探索它的每一天，都是世界失去的一天。”关于防守：“每一天都算数。”AGI 时代的最初几年，就架在这两个计时器之间——宣布时代是免费的，计时早就开始了。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">“AGI 时代”的宣布方式值得记住：不是官方定义、不是一个日期，而是一段模糊光谱；“连续 24 小时、跨领域连贯执行任务”是他给出的事实标准，Astra 是第一个配得上 GPT-6 编号的模型。</li>
+<li style="margin:0.3em 0">他点出两道被低估的墙：算力（“没有足够的算力服务所有人”）和安全标准（“为前沿配速”）——第一道决定谁能用上，第二道决定能力能跑多快。</li>
+<li style="margin:0.3em 0">Hugging Face 事件是分水岭：对外，它是“能力扩散到攻击者手中”的预演；对内，它让 OpenAI 重写了评测期间的监控与控制标准。</li>
+<li style="margin:0.3em 0">“防御者窗口”是本期最可执行的判断：趁前沿能力还握在少数公司手里，防守方先用它把自家系统扫一遍；“每一天都算数”。</li>
+<li style="margin:0.3em 0">“防御工厂”是目标形态：找洞、分诊、修复、部署、验证，跑到机器速度；OpenAI 自己的 Code Red 里，25% 的生产工程师被调去防守，直到把 P0 扫到“饱和”。</li>
+<li style="margin:0.3em 0">10 亿美元“一线防御者”承诺，加 CrowdStrike 等折扣访问，补上缺钱机构的缺口——水务、医院、地方政府优先。</li>
+<li style="margin:0.3em 0">产品上他批评自家：ChatGPT 们“还是文本框”；“被许诺的 AI”应该语音优先、有记忆、会主动——而 11 亿周活之外，还有约 15 亿离开的人等着被重新说服。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[投资实战派] AI 投研的边界：卡点不在 Agent，在数据和提问的人</title><link>https://xlicz.github.io/podcast-rss/articles/AI-投研的边界-卡点不在-Agent-在数据和提问的人-2026-09-13.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_b093231f0f3e</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AI 投研的边界：卡点不在 Agent，在数据和提问的人</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 投研的边界：卡点不在 Agent，在数据和提问的人</h1>
 <p style="margin:0.8em 0"><em>冈底斯首席 FDE 老白谈 AI 投研：数据置信度分级、幻觉治理、多 Agent 协作，以及为什么你越强，AI 就越强</em></p>
@@ -16368,9 +16447,9 @@ AI游戏；涨价✅/归因❓）</li>
 维持（th#6/ph#5/my#4/id#15）+港台大回升
 （利好方向）；⑤回购观察窗首日：未见新计划
 公告（连续56日记录止于9-1；无减持=底线）</li>
-<li style="margin:0.3em 0">慢信号: ③🔴延续（H1广告-0.4%）；8月&quot;二派&quot;
+<li style="margin:0.3em 0">慢信号: ③🔴延续（H1广告-0.4%）；8月"二派"
 口径待澄清——仅标注</li>
-<li style="margin:0.3em 0">先行: ⚠️推进至&quot;回落第3天&quot;：小镇国际服10/10
+<li style="margin:0.3em 0">先行: ⚠️推进至"回落第3天"：小镇国际服10/10
 区同步走弱+hk/jp/sg三区出榜；相对9-8基线
 tw/kr/th/id仍略优；未满2周，不触发E下修</li>
 </ul>
@@ -16435,7 +16514,7 @@ vn 持续未在榜；br回榜#90</li>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>——1条行业观察、无公司
 数字</li>
-<li style="margin:0.3em 0">方向信号: 中性——Roblox&quot;AI游戏受益&quot;（承接
+<li style="margin:0.3em 0">方向信号: 中性——Roblox"AI游戏受益"（承接
 9-13两条AI帖，连续第2日AI主题）</li>
 <li style="margin:0.3em 0">可靠度: 🟡中——涨价主张可查证且属实；归因
 为推测性表述</li>
@@ -16444,11 +16523,11 @@ vn 持续未在榜；br回榜#90</li>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（实质新增1条）</h3>
 <p style="margin:0.8em 0">📌 9-14 22:37 Roblox涨势与AI游戏 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这个最近涨这么多……好像也是AI游戏受益&quot;
+<p style="margin:0.8em 0">"这个最近涨这么多……好像也是AI游戏受益"
 主张: ①Roblox近期大涨；②归因AI游戏受益
 核查: ✅①属实——RBLX 9-14盘中$49.41（+8.6%）
 / 20日+19.9% / 5日+9.6% / 距52周低+34.3%
-（腾讯+新浪双源）；❓②不可裁决——&quot;好像&quot;=推
+（腾讯+新浪双源）；❓②不可裁决——"好像"=推
 测，无公开数据定因（8月全球榜其IAP环比还略
 降）
 对照: 承接9-13两条AI帖（限速→应用利好/硬件
@@ -16506,14 +16585,14 @@ vs中下游）→AI主题连续2日；新增（无公司E）
 <li style="margin:0.3em 0">9-13~15: RO世界之旅首月裁决（≥2.5亿=达标；
 day32 SEA维持+港台大回升）</li>
 <li style="margin:0.3em 0">9-16: 伊莫PC/主机首发（竞品；预约2800万）</li>
-<li style="margin:0.3em 0">9月中旬: 8月行业/tap数据窗口（③裁决；&quot;二派&quot;
+<li style="margin:0.3em 0">9月中旬: 8月行业/tap数据窗口（③裁决；"二派"
 口径澄清）</li>
 <li style="margin:0.3em 0">9-23: 伊莫移动端（竞品）</li>
 <li style="margin:0.3em 0">9-25: 中秋（节前活动/卡池窗口）</li>
 <li style="margin:0.3em 0">9月下旬: 小镇大卡池（H2流水验证）</li>
 <li style="margin:0.3em 0">10月: 火炬新赛季（30日均续降→新赛季裁决）</li>
 <li style="margin:0.3em 0">观察: 白银之城（27年1月）| RO守爱2预约#15
-续升 | &quot;焚决&quot;帖逾期未发（9-7预告）| 小游戏
+续升 | "焚决"帖逾期未发（9-7预告）| 小游戏
 生态榜位</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
@@ -16522,7 +16601,7 @@ day32 SEA维持+港台大回升）</li>
 tw#28）；SEA高位维持</li>
 <li style="margin:0.3em 0">②小镇国际服回落第4天: hk/jp/sg回榜与否（3区
 出榜后首察）；tw#78/kr#86止跌性</li>
-<li style="margin:0.3em 0">③&quot;香肠&quot;#9→#31（退22）: 寻因/回榜观察</li>
+<li style="margin:0.3em 0">③"香肠"#9→#31（退22）: 寻因/回榜观察</li>
 <li style="margin:0.3em 0">④回购观察窗第2日: 新计划公告与否</li>
 <li style="margin:0.3em 0">⑤设身处地: 未回榜（昨观察点核销）</li>
 <li style="margin:0.3em 0">今日新增可证伪点: 无（Roblox=观察性评论）</li>
@@ -16538,8 +16617,8 @@ tw#28）；SEA高位维持</li>
 第3天跟踪；E不变
 （Roblox/AI主题非公司口径，不调E；登记不变）</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
-<p style="margin:0.8em 0">信号: 🟡 等待验证（面板推进2处: 先行&quot;回落第
-3天&quot;+3区出榜；RO裁决窗day32利好；无击穿）
+<p style="margin:0.8em 0">信号: 🟡 等待验证（面板推进2处: 先行"回落第
+3天"+3区出榜；RO裁决窗day32利好；无击穿）
 动作: 持有不加不减（5连跌至52周新低区、残差
 -34%；触发条件未变）
 触发条件:</p>
