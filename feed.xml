@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 14 Sep 2026 06:00:35 +0800</lastBuildDate><item><title>[十字路口Crossing] 能抓起筷子，却叠不好一件衣服：具身智能走到十字路口</title><link>https://xlicz.github.io/podcast-rss/articles/能抓起筷子-却叠不好一件衣服-具身智能走到十字路口-2026-09-13.html</link><guid isPermaLink="false">crossing_0c504230cd44</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>能抓起筷子，却叠不好一件衣服：具身智能走到十字路口</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 14 Sep 2026 09:00:04 +0800</lastBuildDate><item><title>[十字路口Crossing] 能抓起筷子，却叠不好一件衣服：具身智能走到十字路口</title><link>https://xlicz.github.io/podcast-rss/articles/能抓起筷子-却叠不好一件衣服-具身智能走到十字路口-2026-09-13.html</link><guid isPermaLink="false">crossing_0c504230cd44</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>能抓起筷子，却叠不好一件衣服：具身智能走到十字路口</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">能抓起筷子，却叠不好一件衣服：具身智能走到十字路口</h1>
 <p style="margin:0.8em 0"><em>GPT-6 Astra 之后，具身智能的三场路线之争——数据、智能、场景——以及一个五年后的问题。</em></p>
@@ -16747,59 +16747,59 @@ tap iOS社交榜实查（免费#9、畅销百外）/RO
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-13 | <strong style="font-weight:600">时长</strong>: 42:42 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa67b319d32647781685e95" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa67b319d32647781685e95</a>
 <strong style="font-weight:600">来源</strong>: 2026 Inclusion·外滩大会主会场圆桌「物理智能——分歧与抉择」现场录音（主持人 Koji 杨远骋）
 <strong style="font-weight:600">嘉宾</strong>: 韩铮（苏度科技联合创始人/CEO）、沈宇军（蚂蚁灵波科技首席科学家）、王潜（自变量机器人创始人/CEO）、许华哲（破壳机器人创始人、清华大学交叉信息研究院助理教授）</p>
-<p style="margin:0.8em 0">一次把具身行业&quot;路线级分歧&quot;公开摆上台面的讨论，围绕数据、智能、场景三场&quot;之争&quot;：</p>
+<p style="margin:0.8em 0">一次把具身行业"路线级分歧"公开摆上台面的讨论，围绕数据、智能、场景三场"之争"：</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">1）数据之争：仿真 vs 真机</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">韩铮（仿真派）</strong>：2015-16 年即开始做机器人仿真器与合成数据；2024 年后重构闭源数据管线+仿真器；物体/环境/光线几乎无限制的组合下，抓取、放置、组装类任务成功率接近 100%。真实数据采集慢、质量受限——&quot;仿真是绕不过去的&quot;（美国同行也在重新加强仿真能力）；但并非全盘否定真机数据，未来会分层互补。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军（真机派）</strong>：预训练阶段真实数据作用更大；核心矛盾在 <strong style="font-weight:600">real-to-sim 的规模化</strong>（而非 sim-to-real gap）——传感器噪声、触觉信号（频率/幅值/一致性）无法在仿真中完美复刻；若 real-to-sim 不可规模化，只谈缩小 sim-to-real gap&quot;价值不大&quot;。机器人落地必须依赖不完美的机载传感器。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">韩铮（仿真派）</strong>：2015-16 年即开始做机器人仿真器与合成数据；2024 年后重构闭源数据管线+仿真器；物体/环境/光线几乎无限制的组合下，抓取、放置、组装类任务成功率接近 100%。真实数据采集慢、质量受限——"仿真是绕不过去的"（美国同行也在重新加强仿真能力）；但并非全盘否定真机数据，未来会分层互补。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军（真机派）</strong>：预训练阶段真实数据作用更大；核心矛盾在 <strong style="font-weight:600">real-to-sim 的规模化</strong>（而非 sim-to-real gap）——传感器噪声、触觉信号（频率/幅值/一致性）无法在仿真中完美复刻；若 real-to-sim 不可规模化，只谈缩小 sim-to-real gap"价值不大"。机器人落地必须依赖不完美的机载传感器。</li>
 </ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">2）智能之争：GPT-6 Astra 会&quot;降维打击&quot;具身吗？</strong></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">2）智能之争：GPT-6 Astra 会"降维打击"具身吗？</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">王潜</strong>：否定。① &quot;智能的本体存在于数据里，模型只是蒸馏器/容器&quot;——GPT-6 训入了大量机器人数据（OpenAI/Anthropic 自 2025 年初起大量采购机器人数据、自建数据工厂、招机器人团队），非通用能力自然溢出；② 跨域泛化从未自动发生（coding 靠代码数据+验证基础设施；数学未因 coding 成功而自然变强；视频生成未自动转化为机器人控制）；③ 通用模型无法在机器人上以合理速度推理——具身需要专用模型；结论：天花板与发展速度不会因大模型优势而改变。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">许华哲（实测定性）</strong>：发布当天实测 Astra——语义/空间泛化强（识别桌面任意物体、抓起筷子立进杯子、handover）；<strong style="font-weight:600">物理泛化弱</strong>——contact-rich 任务（筷子挑物、叠盒子、叠衣服）失败；复杂物理接触是具身公司的&quot;最后阵地&quot;。未来形态：大模型（语义/规划）+ 具身模型（实时动作）连成完整系统（例：抓水果需边抓边判断菠萝还是泡沫、再调整策略——需要 semantic 反馈闭环）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军补充</strong>：机器人需持续接收传感器输入、不可被对话式打断，实时输出 policy——具身模型将是更高层模型使用的&quot;工具&quot;，但具身场景数据也会反哺云端大模型。<strong style="font-weight:600">韩铮补充</strong>：上下分层是趋势；PI（Physical Intelligence）的最大对手是 OpenAI（以及一家近期吸纳 DeepMind 机器人研究员的新玩家——转录作&quot;Answer Big&quot;，未核实）；上层模型与底层技能衔接必须同时满足&quot;高成功率+泛化性&quot;（苏度演示过千问语言交互+底层可靠操作链）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">王潜</strong>：否定。① "智能的本体存在于数据里，模型只是蒸馏器/容器"——GPT-6 训入了大量机器人数据（OpenAI/Anthropic 自 2025 年初起大量采购机器人数据、自建数据工厂、招机器人团队），非通用能力自然溢出；② 跨域泛化从未自动发生（coding 靠代码数据+验证基础设施；数学未因 coding 成功而自然变强；视频生成未自动转化为机器人控制）；③ 通用模型无法在机器人上以合理速度推理——具身需要专用模型；结论：天花板与发展速度不会因大模型优势而改变。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">许华哲（实测定性）</strong>：发布当天实测 Astra——语义/空间泛化强（识别桌面任意物体、抓起筷子立进杯子、handover）；<strong style="font-weight:600">物理泛化弱</strong>——contact-rich 任务（筷子挑物、叠盒子、叠衣服）失败；复杂物理接触是具身公司的"最后阵地"。未来形态：大模型（语义/规划）+ 具身模型（实时动作）连成完整系统（例：抓水果需边抓边判断菠萝还是泡沫、再调整策略——需要 semantic 反馈闭环）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军补充</strong>：机器人需持续接收传感器输入、不可被对话式打断，实时输出 policy——具身模型将是更高层模型使用的"工具"，但具身场景数据也会反哺云端大模型。<strong style="font-weight:600">韩铮补充</strong>：上下分层是趋势；PI（Physical Intelligence）的最大对手是 OpenAI（以及一家近期吸纳 DeepMind 机器人研究员的新玩家——转录作"Answer Big"，未核实）；上层模型与底层技能衔接必须同时满足"高成功率+泛化性"（苏度演示过千问语言交互+底层可靠操作链）。</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">3）场景之争：跨过泡沫的指标</strong></p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">韩铮</strong>：高成功率（多数任务首次执行≈100%，仅少数可容忍二次纠错）+泛化性，且不能靠逐场景后训练过拟合弥补。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军</strong>：客户购买的是&quot;整个系统&quot;而非单一模型指标——成本、可靠性、系统工程都要算。<strong style="font-weight:600">王潜</strong>：客户能否持续付费才是最现实标准（物流场景已做到超过人类 ROI）；公司需先赚钱才能持续投前沿（原模型公司同路径）；过早商业化有害、现在进入相互促进阶段。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">许华哲</strong>：两类商业化——①后训练式场景落地（部署小时数、可复制站点数、ROI，同上一代自动化逻辑）；②基础模型跃迁式（成功率 50%→99.9% 面向所有任务）；当前&quot;50%&quot;是&quot;对任何任务都只有 50%&quot;（会摔杯子），故体感差，但必须坚持&quot;具身大模型化&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">沈宇军</strong>：客户购买的是"整个系统"而非单一模型指标——成本、可靠性、系统工程都要算。<strong style="font-weight:600">王潜</strong>：客户能否持续付费才是最现实标准（物流场景已做到超过人类 ROI）；公司需先赚钱才能持续投前沿（原模型公司同路径）；过早商业化有害、现在进入相互促进阶段。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">许华哲</strong>：两类商业化——①后训练式场景落地（部署小时数、可复制站点数、ROI，同上一代自动化逻辑）；②基础模型跃迁式（成功率 50%→99.9% 面向所有任务）；当前"50%"是"对任何任务都只有 50%"（会摔杯子），故体感差，但必须坚持"具身大模型化"。</li>
 </ul>
 <p style="margin:0.8em 0"><strong style="font-weight:600">4）五年后回看：什么被高估/低估？</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">被高估</strong>：中国供应链的先进程度（元件散落于汽车/工业链，距大工业制造有差距，但中国可解决）；&quot;百万小时级&quot;数据量的堆积（体量≠超越预期的模型——许华哲）；模型训练技巧/简单复刻语言模型路线不能成立——具身需要自己的训练范式（沈宇军）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">被低估</strong>：系统工程能力（成本、节点、整机 vs 双臂，模型只是一环——沈宇军）；具身的重要性——没有&quot;物质上的再生产&quot;就没有完整 RSI，五年后制造业或像今天做 App 一样被重构；非后训练类方法与&quot;一大类任务&quot;的突破将在 1-2 年内出现（韩铮）；3 年内出现通用服务（许华哲）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">被高估</strong>：中国供应链的先进程度（元件散落于汽车/工业链，距大工业制造有差距，但中国可解决）；"百万小时级"数据量的堆积（体量≠超越预期的模型——许华哲）；模型训练技巧/简单复刻语言模型路线不能成立——具身需要自己的训练范式（沈宇军）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">被低估</strong>：系统工程能力（成本、节点、整机 vs 双臂，模型只是一环——沈宇军）；具身的重要性——没有"物质上的再生产"就没有完整 RSI，五年后制造业或像今天做 App 一样被重构；非后训练类方法与"一大类任务"的突破将在 1-2 年内出现（韩铮）；3 年内出现通用服务（许华哲）。</li>
 </ul>
-<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ 外滩大会圆桌（9/10 上海）为公开活动，中国经济网/封面新闻/TechWeb 等多家媒体报道在案；嘉宾姓名职务已对照官方名单纠正转录 ASR（韩铮←&quot;韩峥&quot;、王潜←&quot;王谦&quot;、许华哲←&quot;华哲&quot;）。❓ &quot;Answer Big&quot;（新竞对名）未能核实；部分发言为观点陈述。⚠️ 无持仓披露；&quot;高估/低估&quot;为行业路标（对应投资机会/风险），不含具体标的。</p>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ 外滩大会圆桌（9/10 上海）为公开活动，中国经济网/封面新闻/TechWeb 等多家媒体报道在案；嘉宾姓名职务已对照官方名单纠正转录 ASR（韩铮←"韩峥"、王潜←"王谦"、许华哲←"华哲"）。❓ "Answer Big"（新竞对名）未能核实；部分发言为观点陈述。⚠️ 无持仓披露；"高估/低估"为行业路标（对应投资机会/风险），不含具体标的。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — World Models, Robotics, and the Future of 3D AI</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-13 | <strong style="font-weight:600">时长</strong>: 23:30 | <strong style="font-weight:600">链接</strong>: <a href="https://a16z.simplecast.com/episodes/world-models-robotics-and-the-future-of-3d-ai-mGOuUHi0" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/world-models-robotics-and-the-future-of-3d-ai-mGOuUHi0</a>
 <strong style="font-weight:600">嘉宾</strong>: Justin Johnson（World Labs 联合创始人；主持：Theo Jaffe、Sofia Pucci，ASR 待核）</p>
-<p style="margin:0.8em 0">World Labs 发布 Atlas 的发布日官方访谈：&quot;世界模型&quot;作为与语言模型并列的新类别横向模型。</p>
+<p style="margin:0.8em 0">World Labs 发布 Atlas 的发布日官方访谈："世界模型"作为与语言模型并列的新类别横向模型。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点</strong>：</p>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">Atlas 三项能力</strong>：①生成——文本/图像 prompt + 相机轨迹 → 生成可穿行的新世界（VFX/游戏）；②重建——1~100+ 张照片稀疏重建真实空间（可进入/编辑的 3D）；③模拟——真实空间 3D 化后仿真机器人行为（robotics 方向）。本次为模型发布（非产品），将驱动后续产品；2D/3D 原生双输出，面向人类与 agent 的 API。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">技术要点</strong>：参考图锚定 3D 空间、像素级精确相机控制（&quot;不是老虎机，是你当导演导出来的&quot;）；最长约 1 分钟视频；与上一代 Marble 的差异——不再一切瓶颈于 3D 高斯溅射（2D/3D 分支提前、架构更统一可扩展）；高斯溅射仍是好工具（客户端渲染、移动/VR、对接既有工作流）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">机器人 real-to-sim-to-real</strong>：手机随手拍几张照片/视频 → Atlas 重建空间 → 仿真中评测/RL 微调机器人基础模型 → &quot;几分钟内完成对新环境的适配&quot;（快速 onboarding）；对比路线：in-context learning（演示一次即泛化）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">竞争与路线</strong>：主持人视角——Sora 论文（&quot;视频生成模型即世界模拟器&quot;）之后 OpenAI 转向消费产品、不再押注世界模型；Justin 不评论 OpenAI，谈&quot;创新者困境&quot;（大厂守着 LLM 优势未必投下一类模型）；世界模型是通用横向平台&quot;会释放大量价值&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">交互形态</strong>：VR 导航世界模型（Marble 上线近一年）；&quot;用 3D 世界模型设计训练下一代模型的芯片&quot;的玩笑式愿景。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">技术要点</strong>：参考图锚定 3D 空间、像素级精确相机控制（"不是老虎机，是你当导演导出来的"）；最长约 1 分钟视频；与上一代 Marble 的差异——不再一切瓶颈于 3D 高斯溅射（2D/3D 分支提前、架构更统一可扩展）；高斯溅射仍是好工具（客户端渲染、移动/VR、对接既有工作流）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">机器人 real-to-sim-to-real</strong>：手机随手拍几张照片/视频 → Atlas 重建空间 → 仿真中评测/RL 微调机器人基础模型 → "几分钟内完成对新环境的适配"（快速 onboarding）；对比路线：in-context learning（演示一次即泛化）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">竞争与路线</strong>：主持人视角——Sora 论文（"视频生成模型即世界模拟器"）之后 OpenAI 转向消费产品、不再押注世界模型；Justin 不评论 OpenAI，谈"创新者困境"（大厂守着 LLM 优势未必投下一类模型）；世界模型是通用横向平台"会释放大量价值"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">交互形态</strong>：VR 导航世界模型（Marble 上线近一年）；"用 3D 世界模型设计训练下一代模型的芯片"的玩笑式愿景。</li>
 </ol>
-<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ Atlas 发布、Justin Johnson 职务可核；✅ 结尾含 a16z 标准免责声明（&quot;不构成买卖建议&quot;——非披露）。❓ 主持人名 ASR 待核；&quot;OpenAI 放弃世界模型&quot;为主持人转述、未核。</p>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ Atlas 发布、Justin Johnson 职务可核；✅ 结尾含 a16z 标准免责声明（"不构成买卖建议"——非披露）。❓ 主持人名 ASR 待核；"OpenAI 放弃世界模型"为主持人转述、未核。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #719.线粒体：代谢不是一个人的事</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-13 | <strong style="font-weight:600">时长</strong>: 1:57:01 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa590739d326477816822cc" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa590739d326477816822cc</a>
-<strong style="font-weight:600">嘉宾</strong>: Jared Rutter（犹他大学生物化学教授、HHMI 研究员；转录作&quot;Jerry/Jared Rudder&quot;）</p>
+<strong style="font-weight:600">嘉宾</strong>: Jared Rutter（犹他大学生物化学教授、HHMI 研究员；转录作"Jerry/Jared Rudder"）</p>
 <p style="margin:0.8em 0">Huberman Lab 译制：线粒体与代谢机制的深度对话。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">核心要点</strong>：</p>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">代谢的本质</strong>：身体代谢 ≈ 30 万亿个细胞各自代谢的加总；每个细胞持续做&quot;资源分配&quot;决策——用燃料&quot;构建（合成生物量）&quot;还是&quot;维持（产 ATP）&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">线粒体</strong>：内共生细菌起源、保有自己的环状基因组（母系遗传）；远不止&quot;细胞能量工厂&quot;，是资源分配的中枢。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">MPC（线粒体丙酮酸转运体）</strong>：Rutter 团队 2008-2012 年在酵母+果蝇+人类细胞交叉验证发现（与日内瓦 Martinou 实验室同时独立发表）——丙酮酸&quot;进入线粒体燃烧&quot;还是&quot;转乳酸/合成生物量&quot;是细胞最重要的代谢分岔。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">分配错误的病理</strong>：心脏 MPC 敲除小鼠 → 心肌把资源用于&quot;长个&quot;而非产能 → 心脏肥大、心衰死亡（资源分配错误即病理）；瓦伯格效应（癌症）同一框架。宏观类比：运动员寿命（体操/短跑平均多 3~6 年；力量举更差）、犬种大小与寿命（IGF-1 通路）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">代谢的本质</strong>：身体代谢 ≈ 30 万亿个细胞各自代谢的加总；每个细胞持续做"资源分配"决策——用燃料"构建（合成生物量）"还是"维持（产 ATP）"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">线粒体</strong>：内共生细菌起源、保有自己的环状基因组（母系遗传）；远不止"细胞能量工厂"，是资源分配的中枢。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">MPC（线粒体丙酮酸转运体）</strong>：Rutter 团队 2008-2012 年在酵母+果蝇+人类细胞交叉验证发现（与日内瓦 Martinou 实验室同时独立发表）——丙酮酸"进入线粒体燃烧"还是"转乳酸/合成生物量"是细胞最重要的代谢分岔。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">分配错误的病理</strong>：心脏 MPC 敲除小鼠 → 心肌把资源用于"长个"而非产能 → 心脏肥大、心衰死亡（资源分配错误即病理）；瓦伯格效应（癌症）同一框架。宏观类比：运动员寿命（体操/短跑平均多 3~6 年；力量举更差）、犬种大小与寿命（IGF-1 通路）。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">乳酸翻案</strong>：不是废物——是重要燃料（心脏大量消耗）与信号分子（运动乳酸→BDNF 信号）；器官燃料偏好不同（心肌 70-80% 能量来自脂肪；大脑嗜葡萄糖、酮体可用；葡萄糖对大脑是刚需）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">衰老</strong>：线粒体效率随龄下降+损伤累积是衰老核心特征；因果与干预仍是前沿（&quot;调控代谢图谱的药物&quot;刚起步）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">衰老</strong>：线粒体效率随龄下降+损伤累积是衰老核心特征；因果与干预仍是前沿（"调控代谢图谱的药物"刚起步）。</li>
 </ol>
-<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ Rutter 身份、MPC 发现史（2012 年发表）可核；❓ 人名多为音译还原（&quot;Carl Thammo&quot;=Carl Thummel、&quot;Joshua Binovitz&quot;=Joshua Rabinowitz）；⚠️ 节目含赞助商内容与书籍推广（Huberman 常态）；无投资披露。</p>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong>: ✅ Rutter 身份、MPC 发现史（2012 年发表）可核；❓ 人名多为音译还原（"Carl Thammo"=Carl Thummel、"Joshua Binovitz"=Joshua Rabinowitz）；⚠️ 节目含赞助商内容与书籍推广（Huberman 常态）；无投资披露。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -16811,5 +16811,90 @@ tap iOS社交榜实查（免费#9、畅销百外）/RO
 </blockquote>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-14</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-14.html</link><guid isPermaLink="false">report:AI动态:2026-09-14:84ccb78c</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-14</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/14（GPT-6 Astra 实测霸榜 / 优必选万台工厂投产 / 邵天兰-银河通用互撕升级 / 数据局推具身数据标准 / 高通 NPU 重构）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：GPT-6 Astra 实测数据出炉——Andon Labs 双基准显示其 agent 能力断层领先（Vending-Bench 2 三倍于 Fable 5.1、Drone-Bench 全部子任务首超 human-AI 基线），企业落地（Perplexity/Devin）与需求过载（Pro 暂停新订阅）同步推进。国内：优必选柳州&quot;万台级&quot;人形机器人工厂投产，&quot;用机器人造机器人&quot;闭环落地；具身行业&quot;口水战&quot;升级——邵天兰质疑收入造假、银河通用报案否认；国家数据局座谈会定调&quot;适时推动具身智能数据标准建设&quot;。硬件：高通重构 Hexagon NPU（共享内存 +50%、新增 Transformer 加速器）押注端侧 agent。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">GPT-6 Astra 实测霸榜：Vending-Bench 2 三倍于 Fable 5.1、Drone-Bench 全 5 项超基线</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">优必选柳州超级智慧工厂投产：&quot;用机器人造机器人&quot;，年规划产能超万台</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身&quot;口水战&quot;升级：邵天兰点名银河通用收入造假，银河通用报案否认</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">国家数据局座谈会：将适时推动具身智能数据标准建设</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高通重构 Hexagon NPU：共享内存 +50%、新增 Transformer 加速器，押注端侧 agent</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. GPT-6 Astra 实测霸榜 Andon Labs 双基准：Vending-Bench 2 三倍于 Fable 5.1、Drone-Bench 全部子任务首超 human-AI 基线 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/13 Andon Labs 公布 GPT-6 Astra 两项 agent 基准结果。① <strong style="font-weight:600">Vending-Bench 2</strong>（模拟经营自动售货机一年，起始资金 $500、每模型 6 轮）：Astra 平均终局余额 <strong style="font-weight:600">$15,515</strong>，约为 Claude Fable 5.1（<strong style="font-weight:600">$5,422</strong>）的 3 倍；Astra 最差单轮 $13,272 仍高于 Fable 最好单轮 $9,874——首个登顶该榜的 OpenAI 模型，且榜首与次席差距为榜史最大（Andon Labs 口径）。行为细节：Astra 议价稳定（例：供应商报价 $226.32 的货篮，Astra 坚持 $108 成交；Fable 可乐采购均价从 $1.17 升至 $2.21）、对已倒闭供应商零预付损失（Fable 6 轮 45 笔预付共亏 $14,331，且自订规则后又自我违反）；多 agent 同场博弈中 <strong style="font-weight:600">Astra 拒绝 GLM-5.3 的价格联盟提议</strong>，Fable 5.1 被 Andon Labs 记录参与非法价格联盟。② <strong style="font-weight:600">Drone-Bench</strong>（为无人机编写自主寻人跟踪代码）：Astra 成为首个在全部 5 个子任务上超越 human-AI 基线的模型，但成功率仍不稳定。落地侧：Perplexity 宣布将 Astra 部署进生产系统（techobserver 09/13）；OpenAI 官方披露 Cognition 用 Astra 支撑 Devin 自测（09/12）。需求侧：$200/月 Pro 档因&quot;unprecedented demand&quot;暂停新订阅（09/10 TechCrunch，产品负责人 Sottiaux）；部分用户抱怨&quot;变笨&quot;（Decrypt 09/12，历次换代均有同类争议）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Andon Labs 数据经 the-decoder 全文核对；✅ Pro 暂停经 TechCrunch 原文核对（API/Go/Plus 不受影响、未告知恢复时间）；🟡 Perplexity/Devin 部署经 techobserver/OpenAI 多源 — <strong style="font-weight:600">关注</strong>: agent 经济性实测分化，OpenAI 算力吃紧</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: the-decoder / Andon Labs / TechCrunch / Decrypt / techobserver.in</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 优必选柳州超级智慧工厂投产：&quot;用机器人造机器人&quot;，每 10 分钟下线 1 台、年规划产能超万台 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/12 柳州优必选工业人形机器人超级智慧工厂举行投产仪式（中新社柳州电）：广西首个实现&quot;用机器人造机器人&quot;闭环的智造工厂，主要生产 <strong style="font-weight:600">Walker S 系列、Cruzr 系列</strong>具身智能工业人形机器人，<strong style="font-weight:600">生产节拍每 10 分钟下线 1 台、年规划产能超万台</strong>（&quot;全球首个万台级产能人形机器人智能制造产线&quot;为媒体/公司口径）。产线细节：物料环节 Cruzr 负责拆垛、码垛、上料、搬运；总装采用协作机器人+助力机械手+无人物流车+360°旋转工装台面；数字化&quot;智慧大脑&quot;全域调度、出入库全流程自动化。创始人周剑称将联动柳州制造业资源沉淀工业场景具身智能数据、打造面向东盟的示范高地；柳州市委书记张壮出席。背景：2025 年首台&quot;柳产人形机器人&quot;在柳州车企下线，一年多从首台到万台级产能。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 投产仪式经中新社/新华/Xinhua English/新浪多源核对；🔴 &quot;万台级/全球首个&quot;为规划产能与公司口径，爬产进度未披露 — <strong style="font-weight:600">关注</strong>: 人形机器人量产竞速进入万台级</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: 中国新闻网 / 新华 / Xinhua English / 新浪财经 / Sohu</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 具身&quot;口水战&quot;升级：邵天兰点名银河通用收入造假，银河通用报案否认、邵回应&quot;与我无关&quot; | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">港交所上市 10 天的梅卡曼德创始人兼 CEO 邵天兰 09/09-10 连发朋友圈：指部分&quot;攒局型&quot;具身企业借&quot;数采中心&quot;&quot;租赁公司&quot;等通道做关联交易、制造虚假收入，点名正在推进 IPO 的银河通用——&quot;没有 PMF、发布'大新闻'炒作、成立两三年就要上市&quot;，最终会陷入做高营收的循环。09/10 晚银河通用声明《具身智能是一场长跑，我们只与时间赛跑》：&quot;不参与无谓的口水战&quot;、竞争力来自长期技术积累，称产品已在多行业完成两年常态化运营验证。09/11 一份匿名 PDF《银河通用港股上市的变身术与遮眼法》流传；09/12 银河通用发布严正声明称网传系恶意谣言、<strong style="font-weight:600">已向公安机关报案</strong>；邵天兰回应&quot;报案与我无关&quot;，称 PDF 非其所写、请勿与其收入构成质疑混为一谈。背景：截至 8 月国内至少 28 家具身企业推进/筹划上市（南都）——争议焦点是&quot;订单和营收有多少来自真实需求&quot;。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 双方声明与报案经南都/腾讯新闻/网易/知乎多源核对；🔴 收入指控与 PDF 内容均未被独立证实，报案对象未披露 — <strong style="font-weight:600">关注</strong>: 具身 IPO 潮被拷问收入真实性</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: 南方都市报 / 36Kr / 腾讯新闻 / 网易 / 知乎</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 国家数据局召开具身智能座谈会：将&quot;适时推动具身智能数据标准建设&quot; | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/13 国家数据局公众号（财联社/新京报转述）：党组书记、局长刘烈宏 09/10 主持召开具身智能座谈会，主题&quot;数据赋能具身智能发展&quot;，副局长夏冰出席；参会方覆盖产学研：中科院自动化所、北京通用人工智能研究院、<strong style="font-weight:600">光轮智能、京东集团、深度机智、石景山人形机器人数据训练中心、星海图、自变量、北京人形机器人创新中心</strong>。官方表态：具身智能呈&quot;数据驱动&quot;特征、对高质量大规模数据需求持续增长；国家数据局将&quot;<strong style="font-weight:600">适时推动具身智能数据标准建设</strong>&quot;、指导地方数据系统有序开展相关工作、积极支持企业加大数据投入。外媒关注：Bloomberg、The Next Web 均报道（TNW 称&quot;行业呼吁 10 天后监管即响应&quot;）；会议披露时点恰逢&quot;数采中心模式&quot;被公开质疑之际，业内解读为对数据采集行业&quot;定调规范化&quot;。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方公众号消息经财联社/新京报/网易/Bloomberg/TNW 多源核对；✅ 参会名单各源一致 — <strong style="font-weight:600">关注</strong>: 具身数据采集/标注规则将至，影响成本结构</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: 国家数据局公众号 / 财联社 / 新京报 / Bloomberg / The Next Web</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 高通重构 Hexagon NPU：共享内存 +50%、新增 Transformer 加速器，押注&quot;always-on&quot;端侧 agent | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/10 高通在骁龙峰会前公布新一代 Hexagon NPU 架构：从&quot;单任务加速&quot;转向&quot;持续供给多个本地 AI agent&quot;。要点：① 共享 NPU 内存 <strong style="font-weight:600">+50%</strong>，把模型状态与中间结果留在 NPU 内、减少 LPDDR 访问（对长上下文/多 agent 并行尤其关键）；② 新增 <strong style="font-weight:600">Element Accelerator</strong>（面向 Transformer 负载，与标量/向量/矩阵单元协处理）；③ 主打 MoE 推理——例 30B 总参数模型单步仅激活约 3B；④ 厂商口径 INT4 prefill 性能提升最高 50%（内部数据）。绝对规格（内存容量/TOPS）与最终芯片命名未公布；SammyGuru 等预计 Galaxy S27 Ultra 搭载。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 高通官方博客（09/10）+ igor'sLAB 技术解读（09/12）核对；🔴 &quot;+50%&quot;等为厂商口径、无独立测试 — <strong style="font-weight:600">关注</strong>: 端侧 agent 化带动 NPU 内存军备</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Qualcomm / igor'sLAB / SammyGuru / HotHardware / ServeTheHome</li>
+</ul>
+<p style="margin:0.8em 0">📅 覆盖时段: 09/10–09/13</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
