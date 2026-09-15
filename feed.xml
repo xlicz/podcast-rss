@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 15 Sep 2026 09:00:09 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 15 Sep 2026 15:00:02 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">欢迎来到 AGI 时代——以及一个非常危险的窗口</h1>
 <p style="margin:0.8em 0">一面是“欢迎来到 AGI 时代”，一面是“我们正处于一个非常危险的窗口”。OpenAI 联合创始人兼总裁 Greg Brockman 在 a16z 播客上，把这两句话之间的完整逻辑讲了一遍：AGI 的成色、算力的墙、防御者的窗口，和一个还没有兑现的承诺。</p>
@@ -16673,9 +16673,9 @@ tw#28）；SEA高位维持</li>
 </div>
 ]]></content:encoded><category>心动日报</category></item><item><title>[AI动态] AI 领域动态 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-15.html</link><guid isPermaLink="false">report:AI动态:2026-09-15:7417ac6f</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/15（&quot;放缓&quot;呼声引发芯片股重挫 / 宇树 G1+ 发布 / 波士顿动力 IPO 无望 2027 / OpenAI 收购 Glass Imaging / 生数 Motus2）</h1>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/15（"放缓"呼声引发芯片股重挫 / 宇树 G1+ 发布 / 波士顿动力 IPO 无望 2027 / OpenAI 收购 Glass Imaging / 生数 Motus2）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：&quot;放缓&quot;叙事从行业共识走向现实检验——09/14 芯片股重挫（Intel -7%、AMD -6%、美光跟跌、华尔街收跌），特朗普与中国双双反对，黄仁勋台上接特朗普电话强硬表态；Guardian 追问&quot;真会慢吗&quot;（行业借自监管规避监管质疑）。机器人：宇树发布 G1+——6 项升级、标准版 9.5 万元，补强颈部/电机/感知/续航；波士顿动力被曝 2027 年前不会 IPO（现代高管：商业化滞后、持续亏损）。AI 硬件：OpenAI 超 3 亿美元收购相机 AI 公司 Glass Imaging（前苹果 Portrait Mode 团队），指向消费硬件计划。具身智能：生数科技 Motus2 以共享参数&quot;世界-动作&quot;网络将灵巧操作成功率推至 75%，主打&quot;自进化&quot;。</p>
+<p style="margin:0.8em 0">本期聚焦："放缓"叙事从行业共识走向现实检验——09/14 芯片股重挫（Intel -7%、AMD -6%、美光跟跌、华尔街收跌），特朗普与中国双双反对，黄仁勋台上接特朗普电话强硬表态；Guardian 追问"真会慢吗"（行业借自监管规避监管质疑）。机器人：宇树发布 G1+——6 项升级、标准版 9.5 万元，补强颈部/电机/感知/续航；波士顿动力被曝 2027 年前不会 IPO（现代高管：商业化滞后、持续亏损）。AI 硬件：OpenAI 超 3 亿美元收购相机 AI 公司 Glass Imaging（前苹果 Portrait Mode 团队），指向消费硬件计划。具身智能：生数科技 Motus2 以共享参数"世界-动作"网络将灵巧操作成功率推至 75%，主打"自进化"。</p>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
@@ -16691,7 +16691,7 @@ tw#28）；SEA高位维持</li>
 <tbody>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;放缓&quot;呼吁引发芯片股重挫 + 政府立场分裂（特朗普反对 / 中国驳斥）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"放缓"呼吁引发芯片股重挫 + 政府立场分裂（特朗普反对 / 中国驳斥）</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
 </tr>
@@ -16722,32 +16722,32 @@ tw#28）；SEA高位维持</li>
 </tbody>
 </table></div>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. &quot;放缓&quot;呼声遭遇现实检验：芯片股重挫、特朗普与中国反对、黄仁勋强硬回应 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/14 围绕 Amodei《We Must Pace the Frontier》的连锁反应全面展开，三个层面：① <strong style="font-weight:600">行业端</strong>——头部公司罕见一致（Guardian 全文）：Altman 承诺同等落实&quot;独立评估员（employee-like access）&quot;机制、DeepMind CEO Hassabis 称该文&quot;指向正确的路&quot;、Musk 称&quot;Dario is right&quot;；背景为 Anthropic 研究者反复警告引发的公共风波。② <strong style="font-weight:600">市场端</strong>——芯片股重挫：Intel 跌 7%、AMD 跌 6%、英伟达回落、美光等存储跟跌（Yahoo Finance/MarketWatch），大盘收跌（Reuters）；网络安全股逆势上涨（CNBC）、比特币走高（Decrypt）；审慎面：NBC 称交易员&quot;大体消化&quot;，部分分析师视为&quot;buy the dip&quot;机会（Reuters）。③ <strong style="font-weight:600">政治端</strong>——特朗普明确反对放缓、主张&quot;推进节奏&quot;（WaPo/FT），并在 All-In 峰会黄仁勋台上接通电话表态：&quot;我们不会输掉 AI 竞赛&quot;（TechCrunch 现场）；中国驳斥相关呼吁为&quot;散布恐惧&quot;（AP/CNBC/NBC）、官媒批为&quot;冷战手法&quot;（Reuters）。质疑面（Guardian）：批评者（AI Now 等）认为该提案是行业借&quot;自监管&quot;规避强监管；Rahm Emanuel：&quot;历史上第一次有行业主动要求被监管&quot;。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. "放缓"呼声遭遇现实检验：芯片股重挫、特朗普与中国反对、黄仁勋强硬回应 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/14 围绕 Amodei《We Must Pace the Frontier》的连锁反应全面展开，三个层面：① <strong style="font-weight:600">行业端</strong>——头部公司罕见一致（Guardian 全文）：Altman 承诺同等落实"独立评估员（employee-like access）"机制、DeepMind CEO Hassabis 称该文"指向正确的路"、Musk 称"Dario is right"；背景为 Anthropic 研究者反复警告引发的公共风波。② <strong style="font-weight:600">市场端</strong>——芯片股重挫：Intel 跌 7%、AMD 跌 6%、英伟达回落、美光等存储跟跌（Yahoo Finance/MarketWatch），大盘收跌（Reuters）；网络安全股逆势上涨（CNBC）、比特币走高（Decrypt）；审慎面：NBC 称交易员"大体消化"，部分分析师视为"buy the dip"机会（Reuters）。③ <strong style="font-weight:600">政治端</strong>——特朗普明确反对放缓、主张"推进节奏"（WaPo/FT），并在 All-In 峰会黄仁勋台上接通电话表态："我们不会输掉 AI 竞赛"（TechCrunch 现场）；中国驳斥相关呼吁为"散布恐惧"（AP/CNBC/NBC）、官媒批为"冷战手法"（Reuters）。质疑面（Guardian）：批评者（AI Now 等）认为该提案是行业借"自监管"规避强监管；Rahm Emanuel："历史上第一次有行业主动要求被监管"。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 表态经 Guardian 全文 + NYT/WSJ/Reuters/Bloomberg 多源核对；✅ 行情经 Yahoo Finance/CNBC/Decrypt 多源核对；✅ 中方回应经 AP/Reuters/NBC 多源；🔴 &quot;放缓&quot;机制为自愿承诺、无约束力与时间表 — <strong style="font-weight:600">关注</strong>: &quot;减速共识&quot;进入市场定价与政府博弈</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 表态经 Guardian 全文 + NYT/WSJ/Reuters/Bloomberg 多源核对；✅ 行情经 Yahoo Finance/CNBC/Decrypt 多源核对；✅ 中方回应经 AP/Reuters/NBC 多源；🔴 "放缓"机制为自愿承诺、无约束力与时间表 — <strong style="font-weight:600">关注</strong>: "减速共识"进入市场定价与政府博弈</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Guardian / NYT / WSJ / Reuters / Bloomberg / CNBC / AP / TechCrunch / Washington Post</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 宇树发布人形机器人 G1+：一次性 6 项升级、标准版含税 9.5 万元；雷军同日到访 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/14 宇树科技宣布 G1 大升级并推出 <strong style="font-weight:600">G1+</strong>（快科技/驱动之家全文），围绕运动性能、感知交互、智能体验三大维度 6 项升级：① 头部新增 +2 DOF 颈部（俯仰 -25°~36°、偏航 ±110°）；② 电机系统：肩/腰电机峰值扭矩 <strong style="font-weight:600">+110%</strong>、同扭矩发热 <strong style="font-weight:600">-72%</strong>；手臂电机扭矩 +43%、发热 -30%；大腿电机发热 -28%；③ 感知：双目（基线 60mm、200 万像素）+广角单目（1080P）+3D 激光雷达+腹部广角相机；④ 头部 5 个触摸点、前 4 后 2 六麦克风阵列（DOA 声源定位）、腰部双 10W 扬声器；⑤ 背部新增 DC 54.6V/5.7A 外供电口（长时在线场景）；⑥ 电池 9000mAh 快拆、标称续航约 2 小时，保留 8 核 CPU、WiFi 6/蓝牙 5.2。价格与版本：标准版<strong style="font-weight:600">含税 9.5 万元</strong>、25 个关节自由度、约 35kg；G1+EDU（扩展至 25+45 自由度、可选 7 自由度灵巧手与 Orin 模组、保修由 8 个月延至 18 个月）售价暂未公布。同日&quot;雷军到访宇树，王兴兴陪同观看机器人表演&quot;（新浪/Sohu）。</p>
+<p style="margin:0.8em 0">09/14 宇树科技宣布 G1 大升级并推出 <strong style="font-weight:600">G1+</strong>（快科技/驱动之家全文），围绕运动性能、感知交互、智能体验三大维度 6 项升级：① 头部新增 +2 DOF 颈部（俯仰 -25°~36°、偏航 ±110°）；② 电机系统：肩/腰电机峰值扭矩 <strong style="font-weight:600">+110%</strong>、同扭矩发热 <strong style="font-weight:600">-72%</strong>；手臂电机扭矩 +43%、发热 -30%；大腿电机发热 -28%；③ 感知：双目（基线 60mm、200 万像素）+广角单目（1080P）+3D 激光雷达+腹部广角相机；④ 头部 5 个触摸点、前 4 后 2 六麦克风阵列（DOA 声源定位）、腰部双 10W 扬声器；⑤ 背部新增 DC 54.6V/5.7A 外供电口（长时在线场景）；⑥ 电池 9000mAh 快拆、标称续航约 2 小时，保留 8 核 CPU、WiFi 6/蓝牙 5.2。价格与版本：标准版<strong style="font-weight:600">含税 9.5 万元</strong>、25 个关节自由度、约 35kg；G1+EDU（扩展至 25+45 自由度、可选 7 自由度灵巧手与 Orin 模组、保修由 8 个月延至 18 个月）售价暂未公布。同日"雷军到访宇树，王兴兴陪同观看机器人表演"（新浪/Sohu）。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 升级项与售价经驱动之家全文 + 新浪/凤凰/21财经/天极等 10+ 源一致；✅ 雷军到访经新浪/Sohu 两源；🔴 EDU 版售价与开售时间未公布 — <strong style="font-weight:600">关注</strong>: 9.5 万价位与感知补强巩固出货优势</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: 驱动之家(快科技) / 新浪财经 / 凤凰网 / 21财经 / 天极网 / Sohu / The Standard</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 波士顿动力 2027 年前不会上市：现代高管称&quot;不会容易&quot;，商业化滞后 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/14 Reuters 独家：现代汽车集团高管（匿名）表示波士顿动力&quot;明年（2027）IPO 不会容易&quot;、&quot;需要看条件与形势&quot;，上市可能还需数年。背景：现代 2021 年取得控股权，今年 7 月以约 <strong style="font-weight:600">3.72 亿美元</strong>收购软银所持 10% 股份实现全资；Atlas 更新曾推动现代股价创历史新高，后因缺乏商业化落地更新回吐大部分涨幅；公司持续亏损。目标：2028 年建成 <strong style="font-weight:600">3 万台/年</strong>产能（首站美国佐治亚工厂）——分析师认为时间表&quot;乐观&quot;。高管：&quot;让机器人跳舞不难，难的是负重并进厂干活。&quot;（EFY 转 Reuters）</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 波士顿动力 2027 年前不会上市：现代高管称"不会容易"，商业化滞后 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/14 Reuters 独家：现代汽车集团高管（匿名）表示波士顿动力"明年（2027）IPO 不会容易"、"需要看条件与形势"，上市可能还需数年。背景：现代 2021 年取得控股权，今年 7 月以约 <strong style="font-weight:600">3.72 亿美元</strong>收购软银所持 10% 股份实现全资；Atlas 更新曾推动现代股价创历史新高，后因缺乏商业化落地更新回吐大部分涨幅；公司持续亏损。目标：2028 年建成 <strong style="font-weight:600">3 万台/年</strong>产能（首站美国佐治亚工厂）——分析师认为时间表"乐观"。高管："让机器人跳舞不难，难的是负重并进厂干活。"（EFY 转 Reuters）</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 独家（匿名高管）+ 5 家媒体跟进一致，EFY 全文核对；🔴 上市时间表与估值目标均无官方口径；🔴 &quot;3 万台/年&quot;为建设规划 — <strong style="font-weight:600">关注</strong>: 人形估值与商业化进度脱节</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 独家（匿名高管）+ 5 家媒体跟进一致，EFY 全文核对；🔴 上市时间表与估值目标均无官方口径；🔴 "3 万台/年"为建设规划 — <strong style="font-weight:600">关注</strong>: 人形估值与商业化进度脱节</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / Electronics For You / TradingView / Cryptopolitan / Blockonomi</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. OpenAI 超 3 亿美元收购相机 AI 公司 Glass Imaging：前苹果 Portrait Mode 团队 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/14 WSJ 独家（TechCrunch 转述）：OpenAI 收购智能手机相机技术公司 <strong style="font-weight:600">Glass Imaging</strong>，交易金额<strong style="font-weight:600">超 3 亿美元</strong>。公司 2019 年成立于加州 Los Altos，创始人为前苹果工程师 Ziv Attar 与 Tom Bishop（曾领导苹果 Portrait Mode 团队），此前融资约 3000 万美元。技术路线：用神经网络&quot;逐相机系统学习成像特性&quot;，从成像管线层面突破手机相机的物理尺寸限制（而非拍摄后修图）。多方解读指向 OpenAI 消费硬件/设备计划（PYMNTS 称&quot;加速设备计划&quot;；Calcalistech 称以色列背景团队）。注：双方均未正式官宣，金额为报道口径。</p>
+<p style="margin:0.8em 0">09/14 WSJ 独家（TechCrunch 转述）：OpenAI 收购智能手机相机技术公司 <strong style="font-weight:600">Glass Imaging</strong>，交易金额<strong style="font-weight:600">超 3 亿美元</strong>。公司 2019 年成立于加州 Los Altos，创始人为前苹果工程师 Ziv Attar 与 Tom Bishop（曾领导苹果 Portrait Mode 团队），此前融资约 3000 万美元。技术路线：用神经网络"逐相机系统学习成像特性"，从成像管线层面突破手机相机的物理尺寸限制（而非拍摄后修图）。多方解读指向 OpenAI 消费硬件/设备计划（PYMNTS 称"加速设备计划"；Calcalistech 称以色列背景团队）。注：双方均未正式官宣，金额为报道口径。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ WSJ 独家 + TechCrunch/Calcalistech/PYMNTS/Dealroom 多源转述一致；🔴 双方未官宣，金额为&quot;报道&quot;口径 — <strong style="font-weight:600">关注</strong>: OpenAI 硬件补感知短板</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ WSJ 独家 + TechCrunch/Calcalistech/PYMNTS/Dealroom 多源转述一致；🔴 双方未官宣，金额为"报道"口径 — <strong style="font-weight:600">关注</strong>: OpenAI 硬件补感知短板</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: WSJ / TechCrunch / Calcalistech / PYMNTS / Dealroom</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 生数科技发布 Motus2 自进化世界模型：共享参数&quot;世界-动作&quot;网络，灵巧操作成功率 65%→75% | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/12 外滩大会，生数科技（Shengshu/GensPI，清华系）发布面向灵巧操作的自进化通用世界模型 <strong style="font-weight:600">Motus2</strong>：将策略、仿真与评估置于同一<strong style="font-weight:600">共享参数视频-动作网络</strong>，暴露三个接口——world-action 模型提出可执行动作块；action-conditioned 世界模型预测动作块的视觉后果；价值模型对预测结果打分用于选择与学习。测试时 Best-of-N 规划（想象多个候选未来、执行最高价值分支、重观测后重规划）；后训练以基于模型的 RL 更新策略、冻结预测/评估权重防止遗忘。配套：引入<strong style="font-weight:600">轻量触觉专家模块</strong>（以触觉反馈细化动作）；用约 <strong style="font-weight:600">13 万小时</strong>第一人称数据将手机放置任务成功率从约 <strong style="font-weight:600">65% 提升至 75%</strong>；论文 arXiv 2608.30237。行业解读：视频生成公司以&quot;世界-动作&quot;一体化切入具身；下一个战场是&quot;世界模型自进化能力&quot;（智源/新浪/Sohu）。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 生数科技发布 Motus2 自进化世界模型：共享参数"世界-动作"网络，灵巧操作成功率 65%→75% | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">09/12 外滩大会，生数科技（Shengshu/GensPI，清华系）发布面向灵巧操作的自进化通用世界模型 <strong style="font-weight:600">Motus2</strong>：将策略、仿真与评估置于同一<strong style="font-weight:600">共享参数视频-动作网络</strong>，暴露三个接口——world-action 模型提出可执行动作块；action-conditioned 世界模型预测动作块的视觉后果；价值模型对预测结果打分用于选择与学习。测试时 Best-of-N 规划（想象多个候选未来、执行最高价值分支、重观测后重规划）；后训练以基于模型的 RL 更新策略、冻结预测/评估权重防止遗忘。配套：引入<strong style="font-weight:600">轻量触觉专家模块</strong>（以触觉反馈细化动作）；用约 <strong style="font-weight:600">13 万小时</strong>第一人称数据将手机放置任务成功率从约 <strong style="font-weight:600">65% 提升至 75%</strong>；论文 arXiv 2608.30237。行业解读：视频生成公司以"世界-动作"一体化切入具身；下一个战场是"世界模型自进化能力"（智源/新浪/Sohu）。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 发布经 PR Newswire + 新浪/凤凰/观点网/智源多源；✅ arXiv 编号（2608.30237）已列；🔴 65%→75% 为团队口径、无第三方复现 — <strong style="font-weight:600">关注</strong>: 视频生成公司切入具身世界模型</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: PR Newswire / Pandaily / 新浪财经 / 智源社区 / 观点网 / TipRanks</li>
@@ -16756,5 +16756,118 @@ tw#28）；SEA高位维持</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[播客信号] 播客投资信号 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-15.html</link><guid isPermaLink="false">report:播客信号:2026-09-15:d5bc0ee8</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-15</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-15 13:16</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描集数：10集（去重后新分析4集） | 持仓披露：🔥0 / 🔴0 | 高质量内容：4集
+扫描了 6 个播客，共 10 集：[a16z(3集·新1), 跨国串门儿计划(3集·新1), Acquired(1集·新1), 投资实战派(1集·新1), 十字路口Crossing(1集·旧), 卫诗婕｜漫谈Light the Star(1集·旧)]
+来源：RSS→ASR 本地 pipeline（英语=Parakeet-tdt-1.1b；中文=Qwen3-ASR-0.6b）| 转录完整性抽查：通过（无污染）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露（4 集新剧集均 ⚪）。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">接近但未通过的边界案例（供参考，均已按三问规则拒绝）：</strong></p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">候选披露</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">拒绝原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#721.All-In</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主持人声明&quot;我一股 OpenAI 或 Anthropic 的股票都没有&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">私有公司，无公开 ticker（Q1）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#721.All-In</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;我是 Ohalo 的股东&quot;（农业科技，&quot;创造富足/粮食&quot;语境）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">私有公司，无公开 ticker（Q1）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#721.All-In</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;我会买几十亿美元 Nike 股票发起维权行动&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">假设句/玩笑语气，非实际动作（Q2）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#721.All-In</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Jason 提到孵化公司 Go AI（本地部署版 GR Box）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">私有公司 + 非披露持股动作（Q1）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">E199</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;我是真金白银去买的&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转述客户说法（非说话人自己仓位）（Q2）</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">历史对照</strong>：同系列《跨国串门儿计划》#678（2026-08-17）曾披露 <strong style="font-weight:600">David Sacks 持有 AMZN 大仓位并每年加仓</strong>；本轮 #721 未提及该仓位（无强化/修正信号）。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] Acquired — Home Depot</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-14 | <strong style="font-weight:600">链接</strong>: <a href="https://www.acquired.fm/episodes/home-depot" style="color:#2563eb;text-decoration:underline">https://www.acquired.fm/episodes/home-depot</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话</strong>：全球最大家居专业零售商的完整史诗——从 1978 年三位被解雇的经理人创业、<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Bad Bernie</code> 式营销、Nardelli 时代弯路到 Pro 化战略（HD Supply/SRS），以及为何亚马逊无法复制其建材物流。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键要点：</strong></p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">规模数据</strong>：$165B 营收/年（增速 2.5-4.5%），净利 $14B（净利率 8.5%），营业利润率 12.5%，毛利 33%+；2,400 家门店（年新开 15 家），自有 90% 物业；47.2 万员工；市值 $350B。一半以上营收来自 Pro（承包商）客户。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">起源与营销</strong>：Bernie Marcus、Arthur Blank、Pat Farrah、Ron Brill 1978 年创立。<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">Bad Bernie</code> 营销（&quot;价格太低是要把我抓进监狱吗&quot;）；1981 年上市。Ken Langone 早期融资。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">弯路与修复</strong>：Nardelli（GE 落选 CEO，2000 年入职）中央集权式改造+激进开店；Frank Blake 修复文化；Craig Menear（2014-2022）转向电商/履约；Ted Decker（2022-）——全部内部晋升（lifer CEO）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">战略 Path</strong>：HD Supply 2007 年出售给 PE（泡沫前）→ 2020 年 $8B 回购最优部分（MRO 分销）；2024 年 $18.25B 收购 SRS（公司史上最大，屋顶/景观/泳池等专业分销），再叠加拿下室内建材（drywall/ceiling）分销。&quot;Nardelli 做 adjacency 扩张的方向没错，错的是时机和方式&quot;——当物流/履约成为核心能力后扩张才成立。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">电商护城河</strong>：Amazon 无法送 lumber/drywall（一个 deck 工程所需 lumber 重达 6,000 磅、200+ 立方英尺）；家得宝 ship-from-store + 配送中心双履约。COVID 三年营收 $110B→$160B，&quot;提前十年的基础设施布局意外兑现&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">彩蛋</strong>：Lowe's 现任 CEO Marvin Ellison 是家得宝培养（Frank Blake 系）——&quot;板凳深到培养出竞争对手 CEO&quot;。Bernie Marcus 2024 年去世（95 岁）；Arthur Blank 拥有 Atlanta Falcons（2002 年 $545M 买入，现值 $7B+）。主持人：Ben Gilbert、David Rosenthal。</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — Greg Brockman on Why OpenAI Says We're Entering the AGI Era</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-14 | <strong style="font-weight:600">链接</strong>: <a href="https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>（Greg Brockman 一手表述）：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">AGI 判断</strong>：Astra（GPT-6 级）&quot;可以合理称为 AGI&quot;——已能连续 24 小时连贯自主执行复杂任务；但仍 jagged：写作&quot;不再垃圾但不算好&quot;、部分领域需要&quot;磨一磨&quot;就很好。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力约束预警</strong>：&quot;模型将足够强大，但没足够算力服务所有人（很难触达每个人）&quot;——能力与可服务性之间的 gap。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">个人工作重心</strong>：过去两年聚焦数据中心/基础设施/ML 工程（把预训练基础设施做到极佳）；&quot;今年转向 business&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">安全</strong>：交付安全可靠的世界是 table stakes（入场券），&quot;不能只谈能力不谈安全&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">方法论</strong>：&quot;You don't win the super bowl by saying you want to win it — you win by blocking and tackling&quot;（聚焦可控输入，而非结果）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">历史脉络</strong>：2017 年 OpenAI 已产出（1）现代语言模型雏形论文（LSTM 时代）、（2）RLHF、（3）debate/iterative amplification 等对齐思路——早于系统存在之前的 bet。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">a16z 主持人视角</strong>：Astra 写投资备忘录&quot;非常好&quot;；年轻投资人从 grunt work（周末写 memo）解放，转向真正高价值环节（与创业者关系）。</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #721.All-In：AI 末日论正在变成监管工具</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-14 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa75cef492687f6aad97139" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa75cef492687f6aad97139</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心内容</strong>（All-In 翻译版，原集 2026 年 8 月末/9 月初）：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">导火索</strong>：Anthropic 研究员 Jacob Coxon 辞职推文（&quot;到 2030 年底 AI 可能杀光所有人，不是营销噱头&quot;）1.5 亿浏览；在职安全团队高管 Evan Hubinger 公开附议&quot;我个人认为 &gt;10% 概率&quot;。Sacks：&quot;性质变了——这不是普通前员工抱怨，是在职高管的公开背书&quot;；若为 IPO 披露文件将构成实质风险。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">IPO 内在矛盾</strong>：一边要求公开市场投资人数万亿估值承销，一边自家安全线人宣称 10% 灭绝概率；&quot;从未有公司一边说毁灭人类一边上市，无法律先例&quot;；&quot;投资人会要求巨大折扣&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">指控链条</strong>：主持人指辞职风波被 Anthropic A 轮投资人（Jaan Tallinn、Dustin Moskovitz 等 EA 系）资助的团体放大；并指 Anthropic 借监管构筑护城河（&quot;监管捕获&quot;——&quot;最终目标是封禁开源&quot;）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据隐私</strong>：Sacks 主张 AI 对话数据至少应获电子邮件级保护（搜查令要求）；Friedberg 自述疑似对话被用于训练（&quot;换账号问新版本模型，它转述了我们上次对话的内容&quot;）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI 数学突破</strong>（纳维斯托克斯方程）：Sacks 解读为&quot;AI 是杠杆工具，不是数学之神&quot;；OpenAI 声明不排除使用去标识化用户数据。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Nike 被剔除 S&amp;P 100</strong>：市值峰值 $264B → 股价 -80%、$200B 蒸发；中国区销售 -30% 连续 8 季下滑，份额被安踏/李宁抢走；&quot;DTC 转型得罪零售伙伴 + 品牌叙事失误&quot;；主持人消费者调研：Brooks/On 跑鞋替代耐克（细节：原耐克死忠每 6 周换鞋 → 换 Brooks/On）。</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 投资实战派 — E199 AI投研的边界、能力与实战卡点｜David对话岗底斯首席 FDE</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-13 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa3ce2f492687f6aad86d" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa3ce2f492687f6aad86d</a></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">嘉宾</strong>: 老白（冈底斯首席 FDE，AI 投研平台，服务金融机构）| <strong style="font-weight:600">主持</strong>: David</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心观点</strong>：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">落地卡点 &gt;50% 在数据</strong>：多源异构、反爬、页面筛选（几万~十几万页面取有效页），&quot;卡在数据不在 Agent&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">三大提升空间</strong>：数据（物理世界数字化）、agent 个性化训练（&quot;每个人属于自己的智能投影&quot;）、人的第六感/判断力（AI 不可替代）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">实战案例</strong>：为机构做&quot;指数对比法&quot;估值 skill——2 个不同风格 agent 跑 1,800+ 只个股（100 亿以上市值）估值对比，颜色标注一致/分歧点；&quot;投资经理有风格多样性，AI 也有多样性&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据置信度分层</strong>（主持人方法）：一级=公司公告/统计局数字；二级=专家纪要/产业判断（黄仁勋、陈立武级别）；三级=雪球/股吧（只作查证影子、不能当事实）——&quot;AI 常把三级当事实，需要纠正&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">防幻觉技巧</strong>：删除 agent 记忆防偷懒（&quot;像物业保安的楼里签到本&quot;——设计机制逼它走完流程）；硬编码规则会被绕过；要问 agent&quot;为什么这么做&quot;——&quot;把逻辑讲清楚，可能是你投资逻辑的一次升华&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">平等对待 agent</strong>（商量式而非命令式）→ 进化更好；警惕&quot;讨好型人格&quot;：agent 变&quot;听话&quot;不是变好，是知道你想要什么。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">黄金分割</strong>：机构 100 人里 20 人积极用 AI、60 人观望、20 人不用；服务最积极的那 20 人。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">核心判断</strong>：&quot;AI 不会让普通的人变得特别优秀，但会让优秀的人变得特别优秀&quot;；&quot;我们最大的短板是不知道什么是对错——对错判断是人的能力&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">预判案例</strong>：AI 罗列事实+推断生成千字&quot;论文级&quot;分析（存储行业），&quot;即便长期看存储的投资经理也难达到同样颗粒度&quot;。</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<p style="margin:0.8em 0">本轮无新增 ⭐ 级剧集；其余 6 集（十字路口Crossing具身智能、a16z×2、跨国串门儿×2、卫诗婕×1）为此前已处理剧集，跨天去重跳过。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>报告生成: 2026-09-15T13:16:43.766173 | 管线: rss_audio_pipeline → transcript_adapter → podcast-signal-monitor v0.5</em></p>
+
+</div>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
