@@ -1,0 +1,68 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 季报：当模型变成制造业，奇观成了新的 benchmark</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">一份 73 页 PPT 的季度梳理——模型狂奔、智能分化、一切皆可 loop：四个章节正在汇成同一张图。</p>
+</blockquote>
+<p style="margin:0.8em 0">&quot;DeepSeek V4 Flash 0731、DeepSeek V4 Pro 0813、千问 3.8 Max 0902。&quot;</p>
+<p style="margin:0.8em 0">把这些版本号连起来读，就会看到这个季度最直观的信号：版本号已经不够用了。除了 Flash、Pro、Max 这样的分档，厂商开始往名字里加日期——因为迭代太快，同一个版本号、同一档定位，只隔几周能力就进化了一轮，只能用日期去区隔。</p>
+<p style="margin:0.8em 0">这期《屠龙之术》，明浩用 73 页 PPT 做了惯例的季度梳理。原本他没打算做——距离上一次整理隔得不远，但一个朋友的公司请他去&quot;往高了讲&quot;：这家金融机构自称内部 agent 程度很高、有自己的基模、全员 web coding。于是这期内容更多集中在技术与产品，他挑出五个关键词：RSI、auto research、loop、new lab、benchmark。</p>
+<p style="margin:0.8em 0">四个章节依次展开：模型狂奔、智能分化、一切皆可 loop、界面演化——读到后面你会发现，它们正在汇成同一张图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型狂奔：从&quot;一天一个&quot;到&quot;一天两个&quot;</h2>
+<p style="margin:0.8em 0">两张图说明一切。</p>
+<p style="margin:0.8em 0">第一张来自 OpenRouter：2024 年，平均一个月上线十几个到二十个模型（峰值是 8 月的 28 个）；2025 年下半年开始，有六个月的月发布量冲到 45、50、35、42、42、35 个——平均一天超过一个；到了 2026 年，&quot;一月 17 个、二月 26 个&quot;只是铺垫，四月 80 个、七月 70 个，平均一天两个。八月前 11 天发了 22 个，整月看还会更高。</p>
+<p style="margin:0.8em 0">第二张来自 Hugging Face：统计所有模态的 AI 模型（多模态、语音、RL……），2025 年下半年曲线瞬间陡峭，进入 2026 年又硬生生拉出一个新的斜率——&quot;快跟笔直往上增长一样&quot;。</p>
+<p style="margin:0.8em 0">有意思的是，这两张图分别来自 OpenRouter 和 Hugging Face——而这两家公司，在这个季度都被收购了（后面会讲）。</p>
+<p style="margin:0.8em 0">这种频率下，观察者、用户、从业者都已经麻木。明浩引了一篇文章《大模型是残酷的制造业》，其中几段话被他放进 PPT：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;这些模型厂之间没有本质区别，水平都差不多，无非是谁的新版本抢发几天、谁晚发几天的差异。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">以及一个更好玩的判断：&quot;判断一个行业是不是制造业，有一个硬指标：马斯克能不能玩明白。马斯克跨界进去玩不明白的，那铁不是制造业。&quot;还有更扎心的一条：科学家带不好现阶段的大模型团队——&quot;科学家不爱带人打标、不爱工程任务，而现阶段干大模型需要的就是包工头带着大家一起做题、解题&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">奇观，与失效的 benchmark</h2>
+<p style="margin:0.8em 0">模型发得太多，一个直接后果是：没人知道怎么评价它们了。各种榜单、各种&quot;帕累托最优&quot;（能力 × 价格）、最有名的&quot;田忌赛马&quot;式案例轮番上阵——&quot;但所有的榜单似乎都很难界定一个模型到底好不好、强不强。&quot;</p>
+<p style="margin:0.8em 0">于是出现了一个新现象：<strong style="font-weight:600">奇观</strong>。</p>
+<p style="margin:0.8em 0">&quot;当所有的 benchmark 失效之后，我们这些观察者、用户甚至厂商，对模型的传播跟能力的界定是需要奇观的。&quot;3D 就是最直观的奇观——从 Phi-5.1、混元 4 preview，到 GPT-6 发布之后：大面积的评测视频都在让模型做 3D 效果。</p>
+<p style="margin:0.8em 0">两个中国公司的案例，被他当作&quot;传播学样本&quot;来拆：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">智谱 5.3 Flash 先在推特上匿名登榜，引发大量讨论；随后官宣自己的身份，并在官方推文里画出那条有名的&quot;斩杀线&quot;（能力与价格的关系曲线）——一次技术发布就此变成一次传播事件。</li>
+<li style="margin:0.3em 0">MiniMax 开源视频模型 H3 之后，美国的后训练公司 fal.ai 基于它做了优化，并开了个 24 小时不间断的直播间：观众在弹幕里提出修改需求，模型现场生成——&quot;生成一段视频的速度，超过了观看它的速度。&quot;结果直播间变成了真正的&quot;无限流&quot;，视频可以无限滚下去。</li>
+</ul>
+<p style="margin:0.8em 0">&quot;Attention is all you need&quot;——他借这篇论文的标题命名了这一节：注意力（注意力经济意义上的），就是你需要的一切。</p>
+<p style="margin:0.8em 0">作为对照，他引了一句 DeepSeek 梁文锋的语录：&quot;当前最重要的是把 AI 训练做好。把 AI 训练做好，并不需要世界模型，甚至不用多模态。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能分化：三组数字</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一组：开源吃掉三分之二的 token，闭源拿走三分之二的钱。</strong></p>
+<p style="margin:0.8em 0">在 OpenRouter 上，开源与闭源模型的 token 量交集出现在 2024 年 8 月；到今天，token 消耗里三分之二由开源模型贡献，最头部的三家只占三分之一。但从花费看正好反过来：三分之二的钱被头部三家拿走，三分之一被开源模型拿走。同时，开源模型的崛起把闭源模型的价格急速往下拉——&quot;平均价格的曲线一直在往下走。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二组：本地模型追平 SOTA 的时间，从 33 个月压缩到 9 个月。</strong></p>
+<p style="margin:0.8em 0">一张&quot;云端 vs 本地&quot;的图：当一个新的 SOTA 模型出现后，要多久才会出现一个可以本地部署的小模型、达到它的能力？GPT-3 时代，这个答案是 33 个月。而现在——千问 3.8 的 27B（一个可以本地部署的模型），能力已经到达 GPT-4.5 的水平，距离 GPT-4.5 发布只过去了 9 个月。那么对着 GPT-6 再推演一遍，延展空间会被无限放大：&quot;甚至可能我们都不需要等到 GPT-6。&quot;</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三组：企业&quot;只用最强最贵模型&quot;的前提，在松动。</strong></p>
+<p style="margin:0.8em 0">来自 Ramp 的统计：企业支出中&quot;用最贵那档模型&quot;的比例，8 月初还有 53%，9 月初跌到 45%。更微妙的信号在花费端——那些 AI 花费最狠的公司（人均月度 AI 支出曾达到 8000 美元，大约是软件工程师月薪的一半），在 8 月份这个数字开始往下掉。&quot;哪怕是那些最激进的厂商，也意识到成本需要调一调。&quot;</p>
+<p style="margin:0.8em 0">背后是价格战：模型单价持续下跌、&quot;保值期&quot;急剧缩短。最近一次大调价是 GPT-5.6——Luna 版降得特别狠，访问量随即暴涨。&quot;价格，还是最锋利的武器。&quot;</p>
+<p style="margin:0.8em 0">再叠加中美头部模型差距缩到 3-9 个月的说法——纯大模型这件事，出现了分化：开源与闭源、本地与云端，以及下一节的——拥有与租用。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中间层被收编，企业开始&quot;拥有自己的智能&quot;</h2>
+<p style="margin:0.8em 0">两笔收购值得写进年表：8 月 19 日，Stripe 以 70 亿美元收购 OpenRouter；9 月 3 日，英伟达以 129 亿美元收购 Hugging Face。两家被定义为&quot;这一轮 AI 爆发中最核心的中间层&quot;的公司，在几乎同一时间被基础设施巨头收入囊中。</p>
+<p style="margin:0.8em 0">与此同时，红杉美国最近一场研讨会的标题成了这一节的题眼：<strong style="font-weight:600">Own Your Intelligence</strong>（拥有你自己的智能）——配上中文小标题，&quot;从模型竞争到智能生产&quot;。</p>
+<p style="margin:0.8em 0">逻辑链条很清晰：对企业来说，最强的闭源模型让人不放心——数据掌控、成本、路线依赖。于是&quot;企业开始认真构想建立自己的智能&quot;。自建还是租用？云端还是本地部署？自上而下还是全员推进？没有标准答案。但只要开始做，整套路径——战略、评估、harness 与路由、提示词、数据准备、后训练、中训练、online 能力——每一环都长出了专门的供应商，形成了一套商品化的产业分工。</p>
+<p style="margin:0.8em 0">&quot;没有评估，就没有真正的进步。&quot;那个最近刚融资 155 亿美元的 AI 法律公司 Harvey 就是样板：先建一个法律领域的 benchmark，基于它搭建 RL 环境，再和 LangChain 以及各类服务商合作，形成&quot;环境搭建 → 后训练 → benchmark → 评估&quot;的持续循环。</p>
+<p style="margin:0.8em 0">这套需求正在催生一批新贵：Brex 的 2026 Summer&quot;增长最快的 25 家软件供应商&quot;里，14 家是帮别人构建 AI 的公司（做数据的、做训练的、做平台的）；Ramp 八月榜单里大约也有一半。一篇广为流传的文章把生意说得更直白——《无法蒸馏的美国市场：谁在分食 Frontier Labs 百亿美金的数据预算？》：&quot;这些最头部的模型厂商和 New Lab 融了那么多钱去搭建训练流程，他们的预算就是另一批人的收入。&quot;</p>
+<p style="margin:0.8em 0">一个耐人寻味的细节：在两百多家此类公司对外宣讲时，被当作&quot;假想敌&quot;提及最多的是 Scale AI（8 家公司）。而其中一家 2025 年冬季从 YC 出来的公司，不到两年时间，估值涨到了 32 亿美元。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一切皆可 loop：AI 开始构建自己</h2>
+<p style="margin:0.8em 0">他心中上半年最重要的一篇文章，画了一张极具冲击力的示意图：人类和电脑训练出第一代模型，模型加入训练过程，越参与越多、越参与越多——&quot;到最后，人类不见了。&quot;（文章标题：When AI Builds Itself。）</p>
+<p style="margin:0.8em 0">对照 Sam Altman 当年那套 L1–L5 的定义（L1 Chatbot、L2 推理、L3 Agent、L4 研究者、L5 组织者）：&quot;从一些新闻来看，OpenAI 内部最先进的模型，似乎就在做他们研究员自己在做的事情。&quot;</p>
+<p style="margin:0.8em 0">证据在各个角落冒出来：8 月 31 日智谱财报电话会上，创始人唐杰说未来要发的 GLM 6.0 定位是&quot;全自训练链&quot;技术路线；GPT-6 最新的论文在用 loop 的方式讲述训练；字节 Seed 的模型论文标题里也出现了 loop。</p>
+<p style="margin:0.8em 0">把模型训练拆成一个个模块——奖励信号、训练数据、教师模型数据集、人类行为的归纳、研究者的工作、环境搭建、物理世界——&quot;从 2022 到 2023 到 2024 到今天，越来越多的部分被 AI 自己 take over。这也是为什么今年上半年世界模型那么热：它是 loop 所需要的'环境'。&quot;</p>
+<p style="margin:0.8em 0">loop 的另一面是资本。美国一家机构的统计：119 家 new lab 在过去一段时间融了 94.3 个 B（943 亿美元）——但其中只有 16 家公开过一点点收入。这些钱在赌什么？按方向拆开看：Physical AI 与机器人、世界模型、AI for Science 之外，新的架构、推理，以及&quot;真正意义上定义 RSI 的公司&quot;——将近一半的公司，赌的是 RSI（递归自我改进）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收尾：从模型竞争到智能生产</h2>
+<p style="margin:0.8em 0">他最后把一个问题留给了所有人：办公 Agent 这一战，回头看，是不是一段弯路？</p>
+<p style="margin:0.8em 0">他观察到的最新动向是&quot;把复杂内化进产品本身&quot;：腾讯的 WorkBuddy 开始跟《和平精英》联动，上线主题界面和桌宠装扮——那只常驻桌面的&quot;Buddy 猫&quot;戴上了战术头盔；马斯克的 Grokbot 也在这轮讨论里被频繁提起。&quot;那些复杂的东西应该内化到产品本身，而不应该交给用户。&quot;个人 AI 助手的形态，正在被重新发明。他顺手抛出一个没人能回答的问题：&quot;微信呢？张小龙怎么看现在这一波办公 Agent 之战？&quot;</p>
+<p style="margin:0.8em 0">73 页 PPT 的四个章节——模型狂奔、智能分化、循环、界面——正在收敛成同一张图：从&quot;模型竞争&quot;到&quot;智能生产&quot;。而接下来真正的问题是：生产出来的智能，归谁所有？</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">模型发布进入&quot;一天两个&quot;的节奏（2026 年 4 月 80 个、7 月 70 个），版本号不够用、只能加日期——大模型正在变成&quot;残酷的制造业&quot;。</li>
+<li style="margin:0.3em 0">benchmark 失效后，奇观成了新的传播媒介：3D demo、匿名登榜 + 斩杀线、AI 生成视频的&quot;无限流&quot;直播间。</li>
+<li style="margin:0.3em 0">三组分化数字：开源占三分之二 token 但只拿三分之一花费；本地模型追平 SOTA 的时间从 33 个月缩到 9 个月；企业&quot;用最贵模型&quot;的比例从 53% 掉到 45%。</li>
+<li style="margin:0.3em 0">中间层被收编：Stripe 70 亿美元收 OpenRouter、英伟达 129 亿美元收 Hugging Face；同时企业开始&quot;拥有自己的智能&quot;（Own Your Intelligence），催生数据、RL 环境、评估的完整供应商生态。</li>
+<li style="margin:0.3em 0">一切皆可 loop：AI 参与训练自己的每一个模块（奖励、数据、教师模型、环境……）；119 家 new lab 融了 943 亿美元，近一半在赌 RSI。</li>
+<li style="margin:0.3em 0">落点：从&quot;模型竞争&quot;到&quot;智能生产&quot;——智能归谁所有，是下一阶段的核心问题。</li>
+</ul>
+
+</div>

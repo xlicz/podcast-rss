@@ -1,86 +1,233 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 17 Sep 2026 05:12:02 +0800</lastBuildDate><item><title>[十字路口Crossing] 24 岁，他在回答"具身的智能是什么"</title><link>https://xlicz.github.io/podcast-rss/articles/24-岁-他在回答-具身的智能是什么-2026-09-16.html</link><guid isPermaLink="false">crossing_bf09c16621f9</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>24 岁，他在回答"具身的智能是什么"</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 17 Sep 2026 06:00:39 +0800</lastBuildDate><item><title>[屠龙之术] AI 季报：当模型变成制造业，奇观成了新的 benchmark</title><link>https://xlicz.github.io/podcast-rss/articles/AI-季报-当模型变成制造业-奇观成了新的-benchmark-2026-09-15.html</link><guid isPermaLink="false">tu-long-zhi-shu_2330f64803d2</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 季报：当模型变成制造业，奇观成了新的 benchmark</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">24 岁，他在回答&quot;具身的智能是什么&quot;</h1>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 季报：当模型变成制造业，奇观成了新的 benchmark</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">一份 73 页 PPT 的季度梳理——模型狂奔、智能分化、一切皆可 loop：四个章节正在汇成同一张图。</p>
+</blockquote>
+<p style="margin:0.8em 0">"DeepSeek V4 Flash 0731、DeepSeek V4 Pro 0813、千问 3.8 Max 0902。"</p>
+<p style="margin:0.8em 0">把这些版本号连起来读，就会看到这个季度最直观的信号：版本号已经不够用了。除了 Flash、Pro、Max 这样的分档，厂商开始往名字里加日期——因为迭代太快，同一个版本号、同一档定位，只隔几周能力就进化了一轮，只能用日期去区隔。</p>
+<p style="margin:0.8em 0">这期《屠龙之术》，明浩用 73 页 PPT 做了惯例的季度梳理。原本他没打算做——距离上一次整理隔得不远，但一个朋友的公司请他去"往高了讲"：这家金融机构自称内部 agent 程度很高、有自己的基模、全员 web coding。于是这期内容更多集中在技术与产品，他挑出五个关键词：RSI、auto research、loop、new lab、benchmark。</p>
+<p style="margin:0.8em 0">四个章节依次展开：模型狂奔、智能分化、一切皆可 loop、界面演化——读到后面你会发现，它们正在汇成同一张图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型狂奔：从"一天一个"到"一天两个"</h2>
+<p style="margin:0.8em 0">两张图说明一切。</p>
+<p style="margin:0.8em 0">第一张来自 OpenRouter：2024 年，平均一个月上线十几个到二十个模型（峰值是 8 月的 28 个）；2025 年下半年开始，有六个月的月发布量冲到 45、50、35、42、42、35 个——平均一天超过一个；到了 2026 年，"一月 17 个、二月 26 个"只是铺垫，四月 80 个、七月 70 个，平均一天两个。八月前 11 天发了 22 个，整月看还会更高。</p>
+<p style="margin:0.8em 0">第二张来自 Hugging Face：统计所有模态的 AI 模型（多模态、语音、RL……），2025 年下半年曲线瞬间陡峭，进入 2026 年又硬生生拉出一个新的斜率——"快跟笔直往上增长一样"。</p>
+<p style="margin:0.8em 0">有意思的是，这两张图分别来自 OpenRouter 和 Hugging Face——而这两家公司，在这个季度都被收购了（后面会讲）。</p>
+<p style="margin:0.8em 0">这种频率下，观察者、用户、从业者都已经麻木。明浩引了一篇文章《大模型是残酷的制造业》，其中几段话被他放进 PPT：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"这些模型厂之间没有本质区别，水平都差不多，无非是谁的新版本抢发几天、谁晚发几天的差异。"</p>
+</blockquote>
+<p style="margin:0.8em 0">以及一个更好玩的判断："判断一个行业是不是制造业，有一个硬指标：马斯克能不能玩明白。马斯克跨界进去玩不明白的，那铁不是制造业。"还有更扎心的一条：科学家带不好现阶段的大模型团队——"科学家不爱带人打标、不爱工程任务，而现阶段干大模型需要的就是包工头带着大家一起做题、解题"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">奇观，与失效的 benchmark</h2>
+<p style="margin:0.8em 0">模型发得太多，一个直接后果是：没人知道怎么评价它们了。各种榜单、各种"帕累托最优"（能力 × 价格）、最有名的"田忌赛马"式案例轮番上阵——"但所有的榜单似乎都很难界定一个模型到底好不好、强不强。"</p>
+<p style="margin:0.8em 0">于是出现了一个新现象：<strong style="font-weight:600">奇观</strong>。</p>
+<p style="margin:0.8em 0">"当所有的 benchmark 失效之后，我们这些观察者、用户甚至厂商，对模型的传播跟能力的界定是需要奇观的。"3D 就是最直观的奇观——从 Phi-5.1、混元 4 preview，到 GPT-6 发布之后：大面积的评测视频都在让模型做 3D 效果。</p>
+<p style="margin:0.8em 0">两个中国公司的案例，被他当作"传播学样本"来拆：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">智谱 5.3 Flash 先在推特上匿名登榜，引发大量讨论；随后官宣自己的身份，并在官方推文里画出那条有名的"斩杀线"（能力与价格的关系曲线）——一次技术发布就此变成一次传播事件。</li>
+<li style="margin:0.3em 0">MiniMax 开源视频模型 H3 之后，美国的后训练公司 fal.ai 基于它做了优化，并开了个 24 小时不间断的直播间：观众在弹幕里提出修改需求，模型现场生成——"生成一段视频的速度，超过了观看它的速度。"结果直播间变成了真正的"无限流"，视频可以无限滚下去。</li>
+</ul>
+<p style="margin:0.8em 0">"Attention is all you need"——他借这篇论文的标题命名了这一节：注意力（注意力经济意义上的），就是你需要的一切。</p>
+<p style="margin:0.8em 0">作为对照，他引了一句 DeepSeek 梁文锋的语录："当前最重要的是把 AI 训练做好。把 AI 训练做好，并不需要世界模型，甚至不用多模态。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能分化：三组数字</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一组：开源吃掉三分之二的 token，闭源拿走三分之二的钱。</strong></p>
+<p style="margin:0.8em 0">在 OpenRouter 上，开源与闭源模型的 token 量交集出现在 2024 年 8 月；到今天，token 消耗里三分之二由开源模型贡献，最头部的三家只占三分之一。但从花费看正好反过来：三分之二的钱被头部三家拿走，三分之一被开源模型拿走。同时，开源模型的崛起把闭源模型的价格急速往下拉——"平均价格的曲线一直在往下走。"</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二组：本地模型追平 SOTA 的时间，从 33 个月压缩到 9 个月。</strong></p>
+<p style="margin:0.8em 0">一张"云端 vs 本地"的图：当一个新的 SOTA 模型出现后，要多久才会出现一个可以本地部署的小模型、达到它的能力？GPT-3 时代，这个答案是 33 个月。而现在——千问 3.8 的 27B（一个可以本地部署的模型），能力已经到达 GPT-4.5 的水平，距离 GPT-4.5 发布只过去了 9 个月。那么对着 GPT-6 再推演一遍，延展空间会被无限放大："甚至可能我们都不需要等到 GPT-6。"</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三组：企业"只用最强最贵模型"的前提，在松动。</strong></p>
+<p style="margin:0.8em 0">来自 Ramp 的统计：企业支出中"用最贵那档模型"的比例，8 月初还有 53%，9 月初跌到 45%。更微妙的信号在花费端——那些 AI 花费最狠的公司（人均月度 AI 支出曾达到 8000 美元，大约是软件工程师月薪的一半），在 8 月份这个数字开始往下掉。"哪怕是那些最激进的厂商，也意识到成本需要调一调。"</p>
+<p style="margin:0.8em 0">背后是价格战：模型单价持续下跌、"保值期"急剧缩短。最近一次大调价是 GPT-5.6——Luna 版降得特别狠，访问量随即暴涨。"价格，还是最锋利的武器。"</p>
+<p style="margin:0.8em 0">再叠加中美头部模型差距缩到 3-9 个月的说法——纯大模型这件事，出现了分化：开源与闭源、本地与云端，以及下一节的——拥有与租用。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">中间层被收编，企业开始"拥有自己的智能"</h2>
+<p style="margin:0.8em 0">两笔收购值得写进年表：8 月 19 日，Stripe 以 70 亿美元收购 OpenRouter；9 月 3 日，英伟达以 129 亿美元收购 Hugging Face。两家被定义为"这一轮 AI 爆发中最核心的中间层"的公司，在几乎同一时间被基础设施巨头收入囊中。</p>
+<p style="margin:0.8em 0">与此同时，红杉美国最近一场研讨会的标题成了这一节的题眼：<strong style="font-weight:600">Own Your Intelligence</strong>（拥有你自己的智能）——配上中文小标题，"从模型竞争到智能生产"。</p>
+<p style="margin:0.8em 0">逻辑链条很清晰：对企业来说，最强的闭源模型让人不放心——数据掌控、成本、路线依赖。于是"企业开始认真构想建立自己的智能"。自建还是租用？云端还是本地部署？自上而下还是全员推进？没有标准答案。但只要开始做，整套路径——战略、评估、harness 与路由、提示词、数据准备、后训练、中训练、online 能力——每一环都长出了专门的供应商，形成了一套商品化的产业分工。</p>
+<p style="margin:0.8em 0">"没有评估，就没有真正的进步。"那个最近刚融资 155 亿美元的 AI 法律公司 Harvey 就是样板：先建一个法律领域的 benchmark，基于它搭建 RL 环境，再和 LangChain 以及各类服务商合作，形成"环境搭建 → 后训练 → benchmark → 评估"的持续循环。</p>
+<p style="margin:0.8em 0">这套需求正在催生一批新贵：Brex 的 2026 Summer"增长最快的 25 家软件供应商"里，14 家是帮别人构建 AI 的公司（做数据的、做训练的、做平台的）；Ramp 八月榜单里大约也有一半。一篇广为流传的文章把生意说得更直白——《无法蒸馏的美国市场：谁在分食 Frontier Labs 百亿美金的数据预算？》："这些最头部的模型厂商和 New Lab 融了那么多钱去搭建训练流程，他们的预算就是另一批人的收入。"</p>
+<p style="margin:0.8em 0">一个耐人寻味的细节：在两百多家此类公司对外宣讲时，被当作"假想敌"提及最多的是 Scale AI（8 家公司）。而其中一家 2025 年冬季从 YC 出来的公司，不到两年时间，估值涨到了 32 亿美元。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一切皆可 loop：AI 开始构建自己</h2>
+<p style="margin:0.8em 0">他心中上半年最重要的一篇文章，画了一张极具冲击力的示意图：人类和电脑训练出第一代模型，模型加入训练过程，越参与越多、越参与越多——"到最后，人类不见了。"（文章标题：When AI Builds Itself。）</p>
+<p style="margin:0.8em 0">对照 Sam Altman 当年那套 L1–L5 的定义（L1 Chatbot、L2 推理、L3 Agent、L4 研究者、L5 组织者）："从一些新闻来看，OpenAI 内部最先进的模型，似乎就在做他们研究员自己在做的事情。"</p>
+<p style="margin:0.8em 0">证据在各个角落冒出来：8 月 31 日智谱财报电话会上，创始人唐杰说未来要发的 GLM 6.0 定位是"全自训练链"技术路线；GPT-6 最新的论文在用 loop 的方式讲述训练；字节 Seed 的模型论文标题里也出现了 loop。</p>
+<p style="margin:0.8em 0">把模型训练拆成一个个模块——奖励信号、训练数据、教师模型数据集、人类行为的归纳、研究者的工作、环境搭建、物理世界——"从 2022 到 2023 到 2024 到今天，越来越多的部分被 AI 自己 take over。这也是为什么今年上半年世界模型那么热：它是 loop 所需要的'环境'。"</p>
+<p style="margin:0.8em 0">loop 的另一面是资本。美国一家机构的统计：119 家 new lab 在过去一段时间融了 94.3 个 B（943 亿美元）——但其中只有 16 家公开过一点点收入。这些钱在赌什么？按方向拆开看：Physical AI 与机器人、世界模型、AI for Science 之外，新的架构、推理，以及"真正意义上定义 RSI 的公司"——将近一半的公司，赌的是 RSI（递归自我改进）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收尾：从模型竞争到智能生产</h2>
+<p style="margin:0.8em 0">他最后把一个问题留给了所有人：办公 Agent 这一战，回头看，是不是一段弯路？</p>
+<p style="margin:0.8em 0">他观察到的最新动向是"把复杂内化进产品本身"：腾讯的 WorkBuddy 开始跟《和平精英》联动，上线主题界面和桌宠装扮——那只常驻桌面的"Buddy 猫"戴上了战术头盔；马斯克的 Grokbot 也在这轮讨论里被频繁提起。"那些复杂的东西应该内化到产品本身，而不应该交给用户。"个人 AI 助手的形态，正在被重新发明。他顺手抛出一个没人能回答的问题："微信呢？张小龙怎么看现在这一波办公 Agent 之战？"</p>
+<p style="margin:0.8em 0">73 页 PPT 的四个章节——模型狂奔、智能分化、循环、界面——正在收敛成同一张图：从"模型竞争"到"智能生产"。而接下来真正的问题是：生产出来的智能，归谁所有？</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">模型发布进入"一天两个"的节奏（2026 年 4 月 80 个、7 月 70 个），版本号不够用、只能加日期——大模型正在变成"残酷的制造业"。</li>
+<li style="margin:0.3em 0">benchmark 失效后，奇观成了新的传播媒介：3D demo、匿名登榜 + 斩杀线、AI 生成视频的"无限流"直播间。</li>
+<li style="margin:0.3em 0">三组分化数字：开源占三分之二 token 但只拿三分之一花费；本地模型追平 SOTA 的时间从 33 个月缩到 9 个月；企业"用最贵模型"的比例从 53% 掉到 45%。</li>
+<li style="margin:0.3em 0">中间层被收编：Stripe 70 亿美元收 OpenRouter、英伟达 129 亿美元收 Hugging Face；同时企业开始"拥有自己的智能"（Own Your Intelligence），催生数据、RL 环境、评估的完整供应商生态。</li>
+<li style="margin:0.3em 0">一切皆可 loop：AI 参与训练自己的每一个模块（奖励、数据、教师模型、环境……）；119 家 new lab 融了 943 亿美元，近一半在赌 RSI。</li>
+<li style="margin:0.3em 0">落点：从"模型竞争"到"智能生产"——智能归谁所有，是下一阶段的核心问题。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[硅谷101] 推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</title><link>https://xlicz.github.io/podcast-rss/articles/推理芯片之战-Groq-Cerebras-与-OpenAI-的三条路线-2026-09-16.html</link><guid isPermaLink="false">sv101_7bd5a5f49e31</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">训练是一场赌局，推理是一道算术题。而这道算术题的核心不是算力，是"把数据放在哪"——用 Bill Dally 的话说，一切都是 location。</p>
+</blockquote>
+<p style="margin:0.8em 0">录制这期节目的当天，OpenAI 发布了它的第一颗推理芯片。嘉宾们当时只来得及说一句"它的存储选择和我们判断的不太一样"；节目发出前，他们又专门补录了一段，把这颗芯片拆开来讲。</p>
+<p style="margin:0.8em 0">两位嘉宾自己就在做 AI 推理芯片的创业，还在更早的阶段——所以 Groq、Cerebras、OpenAI 这些公司，对他们来说既是研究对象，也是参照系。Mark 负责硬件与系统架构，是斯坦福博士、Bill Dally 的学生，毕业后在国内一家芯片大厂做过三年通用 GPU 类芯片；子阳负责软件与编译器，普林斯顿博士，上一份工作在亚马逊 Annapurna Labs 做训练芯片的软件栈，从算子编译优化一直做到模型如何在集群上切分部署。而 Bill Dally——现代 GPU 并行架构最重要的奠基者之一——的方法论，是这场对话的另一条主线。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">训练与推理，是两个生意</h2>
+<p style="margin:0.8em 0">理解推理芯片，先要看懂一个商业差异。</p>
+<p style="margin:0.8em 0">"在训练的时代，大家没有办法依靠训练获得任何商业上的回报。"所以当大家计算训练成本时，这个东西是没法量化的——所有人的期望都是赌一个最强大的训练集群。"而推理时，从商业上角度来讲，这是一件可以很容易、很清楚算明白账的事情"：用户愿意为每百万 token 付多少钱，你的推理系统产出这些 token 要花多少成本（买芯片的钱＋电费）。推理追求的是性价比，而不是极致的性能。</p>
+<p style="margin:0.8em 0">技术层面，差异同样本质。一次推理分两个阶段。<strong style="font-weight:600">Prefill</strong> 阶段，整句 prompt 的所有 token 都是已知的，有充足的并行度——把模型权重从 HBM 读进计算单元一次，就能同时处理一批 token，算力可以吃得很满。但到了<strong style="font-weight:600">逐 token 生成</strong>（decode）阶段，语言模型是严格自回归的："我必须知道我当前 token 推出来的结果是什么，把它作为输入喂回模型，它才能告诉我下一个 token 是什么。"每吐一个 token，都要把整个 1.6T 参数的模型从存储介质里读上来一遍。</p>
+<p style="margin:0.8em 0">一句话读一次，还是一个词读一次，读的量都是整个模型。</p>
+<p style="margin:0.8em 0">这也解释了一个日常体验：为什么单独一个用户的推理会那么慢。GPU 接受不了"读一次模型只服务一个 token"，所以它靠批量化（batch）——收集一万个用户的请求，把所有人第一个词、第二个词并行地一起算。"你不仅在等 GPU 推理完你自己这个 token，你还在等同一批里其他九千九百九十九个用户的 token。"</p>
+<p style="margin:0.8em 0">"推理芯片"因此是一个极泛的词。推理不是钢板一块：里面有算力密集的部分（比如处理 prompt），也有带宽密集、对延迟敏感的部分。他们相信未来的推理系统里会包含多种芯片——用最合适的硬件做对应部分的事。</p>
+<p style="margin:0.8em 0">关于"快"，这里有一个反直觉的视角。今天的系统都是冲着"人读得完"的速度设计的——人读到 100 token/s 就已经读不完了。但 agent 时代不一样：大量产出的 token 不再给人看——思维链是模型给自己看的，agent 产生的 token 是给别的 agent 看的。"这个速度其实一定程度上没有上限，越快越好。"黄仁勋 PPT 里那张图，横轴标的不是速度，而是 "smarter AI"——在同样一分钟的交互里，更快的推理意味着模型可以跑十倍的 token 做内部思考，"所以推理芯片做得好，可以让模型更聪明"。而时间之所以是硬约束，是因为"世界不会慢下来"：让 AI 判断明天的股票市场，它要是想两天，这个答案就毫无意义。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三个词：DRAM、HBM、SRAM</h2>
+<p style="margin:0.8em 0">整场对话反复出现的三个词，最简单的理解方式是这样的——它们都是存数据的地方，区别是"离干活的地方有多远"。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">DRAM</strong>：电脑里的内存条。能装很多，但离得远，来回取数据要花时间。方向是便宜，但慢。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">HBM</strong>：把 DRAM 搬到计算芯片旁边，还开了很多条通道。容量大、速度快，英伟达高端 GPU 用的就是它。代价是贵，而且全球产能紧张、抢不到货。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">SRAM</strong>：直接坐在计算芯片里面，是最快的方案，快很多。致命缺点是太占地方——存同样的数据，SRAM 需要的芯片面积是 DRAM 的几十倍到上百倍。六个晶体管才能存一个比特。它最快，但装不下。</p>
+<p style="margin:0.8em 0">为什么他们判断业界推理芯片的方案在向 SRAM 收敛？因为从带宽这个角度看，SRAM"无论是绝对的数量，还是每块钱能买到的性价比，都非常高"——比起 HBM 有两到三个数量级的芯片层优势。而更本质的原因是局部性：HBM 是把存储和计算放进了同一个封装；他们想要的是把存储直接放进计算芯片内部。"带宽的核心是连线的密度以及频率——当你把线从封装的走线变成计算芯片内部光刻的线，这两种线在密度、成本、能耗上都有本质差别。"</p>
+<p style="margin:0.8em 0">这不是孤例。"现在其他美国的 AI 推理芯片创业公司，包括 d-Matrix、MatX，也在往 SRAM 方向走；大厂的 TPU、Tenstorrent 也是——每一代芯片的 SRAM 都在变得越来越大。"只是每家的用法不同：比如谷歌会拿 SRAM 更多去存 KV cache。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Groq 与 Cerebras：一个共同的思想实验，两条分岔路</h2>
+<p style="margin:0.8em 0">Groq 和 Cerebras 都看到了同一个问题：未来会有一部分 AI 系统对带宽有极大的需求，而把带宽做得更便宜、更高，最后大家都会落到 SRAM 上。但做这件事要"跳出局部最优，损失一点东西"——SRAM 损失的是单芯片容量。怎么补容量？最直接的办法：把系统做巨大，几百颗、几千颗芯片，就为把模型权重全放进 SRAM 里。可系统一大，"瓶颈就卡在了怎么做通信上"。</p>
+<p style="margin:0.8em 0">这时候两条路线分岔了。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Groq 的答案：把调度放到运行之前。</strong> 运行时调度开销很大，那就换到编译器时间——在编译期就把未来整个系统里所有计算和通信想明白：哪个时钟周期做什么计算、哪个时钟周期开始通信，全部排布好；实际运行时就没有调度问题了。为此它把确定性（determinism）和静态时钟同步做到极致——"从存储介质里把东西读出来，是一百纳秒还是几百纳秒，这个抖动在 DRAM 里更明显，而 Groq 用 SRAM 加芯片设计把它压到极致。"这一切都围绕一个目标：让编译器能看到整个系统。创始人 Jonathan Ross 本身出自谷歌编译器团队，也是 TPU 的奠基人之一；Groq 成立于 2016 年，那时最难的技术问题是图像和语音，还没有人知道 Transformer 会统治一切。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Cerebras 的答案：既然一个柜子里几百颗芯片通信贵，那就把它们塞进一整片晶圆。</strong>"物理距离和能出的线的带宽都会变得更好。"简单粗暴，但代价是良率与成本：Cerebras 的核心工程壁垒在于"即使晶圆上有 30% 的点是坏的，产品仍然能用"；而一旦整片达不到良率门槛，整片作废——这推高了实际生产的成本。此外软件要能绕过坏块，整个系统还要重新设计怎么插进机柜。</p>
+<p style="margin:0.8em 0">也有时代的错位。两家做技术决策时，都不知道未来会出现 MoE 这种动态性极强的模型：128 个专家里选 8 个，选谁由运行时不同的 token 决定，编译期预测不了。"你想用静态的方式解决动态性，一种思路是保守地全发——那就有一部分在空转；另一种是换一种方式切模型——但现在的模型很难用其他维度切得干净。"不过空转只影响性价比，不影响"快"。而今天的市场上，Groq 和 Cerebras 的定位恰恰就是"快"：低延迟。商业逻辑是——"如果我做的推理比别人快几倍（别人 100 token/s，Cerebras 能到 750、甚至 2000），那我就可以为此付非常多的溢价。"至于性价比，"其实没有被拿到台面上讨论"。而"当你能做出一个比别人更快、还更便宜的东西时，你不会告诉别人你的成本其实更低"。</p>
+<p style="margin:0.8em 0">一个耐人寻味的折扣结构：Groq 要为它的确定性打折；Cerebras 要为它复杂的良率成本打折。"可能单芯片成本做到英伟达的十分之一、带宽做到十倍，但制造那部分的成本太高——十倍带宽，三倍 HBM 的成本。"所有这些折扣，最终都会打到 token 的成本上。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么今天做一颗新芯片是个好时候</h2>
+<p style="margin:0.8em 0">八十年代就有人想做晶圆级芯片，失败了；Intel 的 Itanium 也是一场灾难。为什么今天不一样？</p>
+<p style="margin:0.8em 0">**第一，经济性。**以前做芯片，要面对几百家公司、几千款应用的 benchmark，任何一款应用掉队都会影响成败；而今天"只有一个单一的大的应用，甚至这个大应用里只有一个比较大的模型分类——Transformer"——结构还特别简单，几十层几乎一模一样的层。"单一超大应用让研发和流片成本变得可以摊薄：几百万美金、上亿的研发费用，放在今天的 AI 系统开销里都不算大数。"</p>
+<p style="margin:0.8em 0">**第二，软件栈的门槛大幅降低。**只需要把 Transformer 的算子在新芯片上写出来，模型就能跑了；"有了 AI 的加持，针对算子和运行时的开发大大加速"。他们的结论很干脆："推理芯片绕过 CUDA，是百分百会发生的。"TPU、亚马逊 Trainium 没有一丁点兼容 CUDA 的意思；Anthropic 大量采购 TPU，传说是因为很多工程师是从谷歌过去的、知道 JAX 怎么用；DeepSeek 明明用 GPU，却愿意去写很底层的 PTX 汇编做优化。逻辑在于："训练时代和推理时代，大家为'软件好用'和'绝对 token 成本'买单的意愿变了——推理时代，天平会更偏向性能与性价比。"</p>
+<p style="margin:0.8em 0">顺带一提芯片设计这件事本身的流程：先梳理需求（这颗芯片定位是什么、解决什么问题），再到高层架构（可能交付的是服务器甚至集群，要拆到互联、再拆到每颗芯片），然后微架构、指令集、存储放哪儿……一份详细的 feature list 之后才是编码——"大家说做芯片要一两年，实际编码可能就两三个月，大部分时间花在前期的需求和架构上。"之后是验证（大量测试或形式化证明）、后端布局布线、流片、封装测试，最后还有整机与集群的供电、散热、组网。"门槛极高、成本极高、供应链紧张——但赔率足够大。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">英伟达的两百亿美元补丁，与 OpenAI 的"小辣椒"</h2>
+<p style="margin:0.8em 0">2025 年底，英伟达花约两百亿美元把 Groq 整个 acqui-hire 了。为什么？"很 straightforward：推理带来了新的大带宽需求，是 GPU 架构没办法很好解决的。Jensen 非常清楚地意识到，未来推理里算力不一定是唯一的——他需要补充带宽这部分技术能力。"</p>
+<p style="margin:0.8em 0">为什么是买，而不是自己做？"NVIDIA Research 其实很早就做大量架构层面的创新，CGRA 之类的论文发了很多；但在一个成熟公司里，把一个研究颠覆式地推给产品团队，难度非常大。"CUDA 对英伟达"既是很强的护城河，某种程度上也是创新的包袱"——干脆买一个和原来团队没有关系的新技术团队。</p>
+<p style="margin:0.8em 0">OpenAI 的 Jalapeño（"小辣椒"）则是另一种打法的样本。它是一颗<strong style="font-weight:600">通用的 AI 推理芯片</strong>——通用到可以跑各种模型、甚至演示跑游戏。几个侧重点：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">电效率优先。</strong>"美国数据中心缺的不是资本和空间，是电的供给。"所以它需要在同样的电产能下，产出更多 token——也就是更多收入。据官方口径，它每瓦产出的 token 数高于英伟达对应的 Rubin 架构。</li>
+<li style="margin:0.3em 0">**芯片内异构。**它把以往分散在不同芯片上的事——prefill、decode、attention、FFN——用一颗芯片全包了，还引入了"暗硅"（dark silicon）思路：做不同的事时关掉或降低某些部分的功耗，用电效率换成本。从"每块钱"的角度它不占优，但从"每瓦"的角度它是好方案。</li>
+<li style="margin:0.3em 0">**小 batch 性能。**它强化了小维度矩阵乘法的支持，在 batch size 比较小的时候性能依然好——这对低延迟场景很关键。</li>
+<li style="margin:0.3em 0">**工程速度。**从项目启动到流片只用了九个月；Triton 写的 kernel，很多优化大量交给了 Codex，部分 AI 写的 kernel 甚至比人写得还好。下一代还计划支持训练。</li>
+</ul>
+<p style="margin:0.8em 0">最有意思的是存储选择：业界在向 SRAM 收敛，但 Jalapeño 走了"最贵"的那条路——HBM4，把单封装带宽堆到 15.4TB/s。为什么？"因为它的第一约束是电，对资本开销没那么敏感。"这背后是两本不同的账：中国的数据中心成本里电费大约占三分之一，美国则接近三分之二。"美国电的供给有明确上限——在确定的电产能内产出更多 token，就要更关心'电转换成 token'的效率。"加上 SRAM 容量受限、和"通用性"的需求天然冲突；而 KV cache 这类动态增长的需求也不在 SRAM 的舒适区间——"DeepSeek 新模型的第一张图就是：每个 token 的 KV cache 在每一代都往下缩，这次缩到了原来的四分之一到八分之一，但这个需求终究是动态的、会随人数和上下文不断变大。"所以他们的判断不变：对带宽要求极高、带宽性价比优先的地方，仍会向 SRAM 收敛；电是第一限制的地方，OpenAI 的方案就是好方案——"异构发生在系统级还是芯片内，取决于不同的市场条件。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Bill Dally 的方法论：一切都是 location</h2>
+<p style="margin:0.8em 0">Mark 大四时被一位即将毕业的师兄拉进组，做模型剪枝与压缩方向的算法研究——让模型更高效地跑在硬件上。他每周和 Bill Dally 有例会。"第一反应：非常聪明的人。第二：他看的都是一些很本质的问题。"Dally 没有发论文的压力，关心的往往是那些很难做、但一旦做出来对整个领域影响极大的方向。</p>
+<p style="margin:0.8em 0">对 Mark 影响最大的，是 Dally 关于芯片设计的一句话：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"计算机体系结构就像房地产——一切都是 location，location，location。"</p>
+</blockquote>
+<p style="margin:0.8em 0">时间局部性、空间局部性——CPU 的 cache 设计本质上就是这两种局部性的应用。而在 AI 推理的 decode 阶段，"算法上的时间局部性和空间局部性都被抹平了"：每吐一个 token 都要重读全模型，没有天然的数据复用。所以必须在架构上、在硬件里重建局部性——这正是他们要用 SRAM 把权重放进计算芯片的原因。</p>
+<p style="margin:0.8em 0">Dally 的做研究逻辑也被 Mark 总结成一条：<strong style="font-weight:600">找到最难的事情，找到对整个系统影响最大的那个点，然后去解决它。</strong>"当你只做微小提升时，你可以保全大局；但如果你要做数量级的提升，你一定要想明白：哪些是可以牺牲的，哪些是真正关键的。只有想明白这些，才能跳出局部最优（local minimum）。"做过程中当然会失败很多次，但"失败不会否定你解决的问题是正确的问题，只是你可能还没找到解法，甚至解法可能不存在"。</p>
+<p style="margin:0.8em 0">他还有两条更实用的箴言。其一，研究的本质是"用最小的代价获取最多的知识"：发论文并不需要真的去流片——"流片之前你已经获得了 99% 的知识"，而剩下 1% 的工程实现，会在创业时耗掉你 99% 的精力。其二，关于创业："Bill 给我的建议是——一定不要用 PhD 写的代码。这是他在上一次创业里的惨痛教训。"</p>
+<p style="margin:0.8em 0">子阳补充了亚马逊的另一套哲学：从系统反推硬件，加上 customer obsession。"以终为始——你要先想清楚这款加速器要加速的 workload 是什么、未来两三年会用到什么模型，再一层层反推回去。"他提到一个关键参数：计算带宽与访存带宽的比值，它决定了"读一份数据要在这份数据上做多少次计算"，也就决定了哪类模型能在这款芯片上跑到最好。"芯片是长周期的事，你要为它出生那一天的市场设计。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">终局：速度、供应链，和两本电费账</h2>
+<p style="margin:0.8em 0">他们自己的方案，是这场对话的一个注脚：单颗芯片上是几百 MB 级的 SRAM（公开信息），而现在模型 FP8 量化后大约 1TB——除一除，需要上千颗芯片才能在容量上装下整个模型。他们要做的，是"把这上千颗芯片用某种拓扑连接起来，使芯片之间的连接不成为瓶颈，让每颗芯片 SRAM 的带宽被充分利用"。同时保留系统级异构：模型被拆成注意力与非注意力（FFN）两半，后一半用类似 Groq 的思路做，前一半留给 GPU——"我们解决 90% 的问题，把 10% 留给 GPU。"</p>
+<p style="margin:0.8em 0">对行业上限，他们给了一个数字：更理想的推理系统有机会在单用户速度上做到现在 GPU 架构的两到三个数量级提升（从几十 token/s 到一千甚至一万），以及约十倍的性价比提升。</p>
+<p style="margin:0.8em 0">供应链被他们视为真正的成败关键："未来两到三年，国内芯片市场会长期供小于求。能不能成功不一定取决于芯片设计得多好，很可能取决于能不能造出足够多的芯片。"他们的底气来自架构创新对制程的宽容：大胆的设计放松了对最先进制程的要求——"用成熟工艺，也能做出在 token/s、token/$ 上比先进工艺更好的系统。"</p>
+<p style="margin:0.8em 0">至于为什么回国创业，Mark 的理由是层层递进的：国内供应链完善、供应商多；搭基础设施的能力强——"数据中心在哪儿、怎么建、用水用电，中国有非常强的优势"；还有大市场本身。但他补了一个芯片之外的视角：Groq、Cerebras 们推进商业化时的困境在于——"美国最主流的模型不是开源的。你做出一颗新芯片，要说服不懂你芯片的人适配模型，或者强行让芯片适配一个你看不到的模型，都不现实；你更希望有开源的东西拿来跑出效果。"而美国当时最好的开源模型并不是市场主流，商业化短期只能看到一小块开源市场。"在国内反而是倒过来的——最强的模型里，DeepSeek、智谱，在架构层面都更开放。"</p>
+<p style="margin:0.8em 0">最后，问到推理芯片市场会不会一直是英伟达的天下，子阳的答案里有克制，也有野心：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">"我们当然不希望它是英伟达的天下。我们希望整个 AI 芯片变得更多彩一些，方案变得更多一些。"</p>
+</blockquote>
+<p style="margin:0.8em 0">那一天的到来，可能不取决于哪条路线"赢"——而取决于一个更朴素的问题：在电最便宜的地方，把最多的 token 产出来；在最贵的地方，让每一瓦电产出最多的智能。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">训练与推理是两个生意：训练没有直接回报、成本不可量化；推理是一道算得清的性价比算术题。技术上，decode 阶段每吐一个 token 都要重读整个模型权重——这是带宽成为核心矛盾的原因。</li>
+<li style="margin:0.3em 0">三种存储的取舍：DRAM 便宜但慢；HBM 快但贵且缺货；SRAM 最快但装不下（6 个晶体管存 1 比特）。业界判断推理芯片向 SRAM 收敛，本质是用局部性换带宽性价比——"计算机体系结构就像房地产：location, location, location"。</li>
+<li style="margin:0.3em 0">Groq 与 Cerebras 是同一个思想实验的两条分岔：Groq 用编译期静态调度＋确定性解决通信问题，但遇上 MoE 的动态性有错位；Cerebras 用整片晶圆消灭物理距离，但良率与成本是最大挑战。两者都在为各自的选择"打折"，折扣最终打到 token 成本上。</li>
+<li style="margin:0.3em 0">今天是做新芯片的好时候：单一超大应用（Transformer）让天量研发成本可以摊薄；软件栈门槛被 AI 大幅降低——"绕过 CUDA 是百分百会发生的"。</li>
+<li style="margin:0.3em 0">英伟达花约两百亿美元 acqui-hire Groq，补的是"带宽"这块拼图；OpenAI 的 Jalapeño 走"电效率优先＋芯片内异构"路线，选最贵的 HBM 是因为它的第一约束是电（美国电费约占数据中心成本 2/3，中国约 1/3）。</li>
+<li style="margin:0.3em 0">两条终局判断：对带宽极致敏感的场景向 SRAM 收敛；电是第一约束的场景接受更贵的方案并换每瓦效率。中国按 token/$ 优化、美国按 token/w 优化的分野，会直接塑造两个市场的芯片路线。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[十字路口Crossing] 24 岁，他在回答"具身的智能是什么"</title><link>https://xlicz.github.io/podcast-rss/articles/24-岁-他在回答-具身的智能是什么-2026-09-16.html</link><guid isPermaLink="false">crossing_bf09c16621f9</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>24 岁，他在回答"具身的智能是什么"</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">24 岁，他在回答"具身的智能是什么"</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">深朴智能首席科学家王家伟：从少年班到 DeepSeek、字节 Seed，再到一家做家庭机器人的公司。先定义智能，再谈一切。</p>
 </blockquote>
 <p style="margin:0.8em 0">快问快答，第一个问题是年龄。</p>
-<p style="margin:0.8em 0">&quot;二十四周岁，下个月过二十五岁生日。&quot;</p>
+<p style="margin:0.8em 0">"二十四周岁，下个月过二十五岁生日。"</p>
 <p style="margin:0.8em 0">第二个问题是求学经历：小学和初中在小县城，高中考进合肥一中，高二参加高考，进中科大少年班；本科选计算机，之后是中科大与微软亚洲研究院的联合培养博士——先在 MSRA 做文档智能（OCR、表单理解，多项算法后来被应用到微软云上的 API），2024 年去 DeepSeek 实习（多模态、Agent、强化学习），后来又去了字节 Seed 的前沿组，2026 年刚刚博士毕业。</p>
-<p style="margin:0.8em 0">现在，他是深朴智能（Simple AI）的首席科学家。公司约 70 人，一句话定位：面向家庭的通用具身智能机器人公司。Slogan 是 &quot;keeps the world simple&quot;。</p>
+<p style="margin:0.8em 0">现在，他是深朴智能（Simple AI）的首席科学家。公司约 70 人，一句话定位：面向家庭的通用具身智能机器人公司。Slogan 是 "keeps the world simple"。</p>
 <p style="margin:0.8em 0">这场对话里最反直觉的一点：聊具身智能，他几乎不聊本体，也不聊融资。他把问题往回收了一步——</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;你很难说一个机械臂把一个水杯提起来，它就是智能。&quot;</p>
+<p style="margin:0.8em 0">"你很难说一个机械臂把一个水杯提起来，它就是智能。"</p>
 </blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从&quot;舒适区&quot;出走：风浪越大，鱼越贵</h2>
-<p style="margin:0.8em 0">少年班那套选拔，他至今讲得津津有味：先考&quot;吸收—转化&quot;的速度，给你上几节大学课程，看你能不能快速消化；再和院长一对一聊开放问题。大约一百个人进来，最后留下三四十个。这套体系让他&quot;摆脱了高三&quot;——大一先上数学、物理、甚至一部分化学的基础课，了解自己的兴趣之后再选专业。他选了计算机，本科就跟着老师做跨学科科研：用计算模拟研究生物分子马达里的相变。他还当了很长时间班长，&quot;比较会跟人沟通&quot;。</p>
-<p style="margin:0.8em 0">他坦承自己最大的短板是硬件。&quot;我父亲是计算机老师，所以我从小对软件感兴趣；但比如焊板子、搭电路，我一直没提起兴趣。&quot;而现在做机器人，绕不过硬件——&quot;所以我会经常跟硬件团队的人请教问题，尽量寻求他们的帮助。&quot;他对&quot;聪明&quot;的定义，一部分就是从这里来的：</p>
-<p style="margin:0.8em 0">&quot;聪明的人会提好问题；第二个，聪明的人是知道自己的不足是什么，并且愿意直面它。&quot;</p>
-<p style="margin:0.8em 0">从大模型转向具身，是他口中&quot;最 tough 的十字路口&quot;。在大模型领域——包括在 Seed 实习时——工作方式是稳定的：一个 new grad 进去，更多是执行已经定好的计划，很难去做一个自己特别感兴趣的突破。他曾在 Seed 想推&quot;自进化&quot;：让模型通过服务收集用户反馈、自我迭代；但在大公司里，这需要跨很多部门协商、前期做足 POC，&quot;能拿到的资源其实不多&quot;。他由此确认了一件事：在已经相对收敛的领域，一个刚毕业的人很难自己定义事情。</p>
-<p style="margin:0.8em 0">具身不一样。&quot;整个行业都是一个非常没有收敛（的状态），你在里面其实有非常多去做研究的机会。&quot;代价他算得很清楚：放弃 Seed 里&quot;很多很多的卡&quot;、优渥的薪资，出来之后 infra、模型设计、团队搭建都要从零做起。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从"舒适区"出走：风浪越大，鱼越贵</h2>
+<p style="margin:0.8em 0">少年班那套选拔，他至今讲得津津有味：先考"吸收—转化"的速度，给你上几节大学课程，看你能不能快速消化；再和院长一对一聊开放问题。大约一百个人进来，最后留下三四十个。这套体系让他"摆脱了高三"——大一先上数学、物理、甚至一部分化学的基础课，了解自己的兴趣之后再选专业。他选了计算机，本科就跟着老师做跨学科科研：用计算模拟研究生物分子马达里的相变。他还当了很长时间班长，"比较会跟人沟通"。</p>
+<p style="margin:0.8em 0">他坦承自己最大的短板是硬件。"我父亲是计算机老师，所以我从小对软件感兴趣；但比如焊板子、搭电路，我一直没提起兴趣。"而现在做机器人，绕不过硬件——"所以我会经常跟硬件团队的人请教问题，尽量寻求他们的帮助。"他对"聪明"的定义，一部分就是从这里来的：</p>
+<p style="margin:0.8em 0">"聪明的人会提好问题；第二个，聪明的人是知道自己的不足是什么，并且愿意直面它。"</p>
+<p style="margin:0.8em 0">从大模型转向具身，是他口中"最 tough 的十字路口"。在大模型领域——包括在 Seed 实习时——工作方式是稳定的：一个 new grad 进去，更多是执行已经定好的计划，很难去做一个自己特别感兴趣的突破。他曾在 Seed 想推"自进化"：让模型通过服务收集用户反馈、自我迭代；但在大公司里，这需要跨很多部门协商、前期做足 POC，"能拿到的资源其实不多"。他由此确认了一件事：在已经相对收敛的领域，一个刚毕业的人很难自己定义事情。</p>
+<p style="margin:0.8em 0">具身不一样。"整个行业都是一个非常没有收敛（的状态），你在里面其实有非常多去做研究的机会。"代价他算得很清楚：放弃 Seed 里"很多很多的卡"、优渥的薪资，出来之后 infra、模型设计、团队搭建都要从零做起。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">风浪越大，鱼越贵。</p>
 </blockquote>
-<p style="margin:0.8em 0">他给自己算的最大风险是时间：&quot;如果你方向真的踏错了，探索了几年，发现完全是在一个错误的路上走，这个对个人的打击会比较大。&quot;做决定前他跟导师聊过，导师的态度是：年轻人就应该去闯一闯，失败了无所谓，从头再来。</p>
-<p style="margin:0.8em 0">还有一段组织文化的观察值得一提。在 DeepSeek 实习时他印象很深的，是&quot;工作强度确实不大，但能做出很好的工作&quot;——对 research 来说，工作强度不是产出的必要前提；而且因为人少，你能接触到很底层的代码，比如推理代码。到了 Seed 这样的大组织，一切都像&quot;非常精密的仪器&quot;，每个人负责自己的那个点，很难 touch 到范围之外的事。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;具身的智能&quot;是什么？他们给出的三个能力</h2>
-<p style="margin:0.8em 0">&quot;具身的智能到底体现在哪儿？&quot;——这是他来之后最想搞清楚的问题，也是深朴内部反复讨论的问题。他们最后给出了三个能力，并沿着它们设计基础模型：</p>
+<p style="margin:0.8em 0">他给自己算的最大风险是时间："如果你方向真的踏错了，探索了几年，发现完全是在一个错误的路上走，这个对个人的打击会比较大。"做决定前他跟导师聊过，导师的态度是：年轻人就应该去闯一闯，失败了无所谓，从头再来。</p>
+<p style="margin:0.8em 0">还有一段组织文化的观察值得一提。在 DeepSeek 实习时他印象很深的，是"工作强度确实不大，但能做出很好的工作"——对 research 来说，工作强度不是产出的必要前提；而且因为人少，你能接触到很底层的代码，比如推理代码。到了 Seed 这样的大组织，一切都像"非常精密的仪器"，每个人负责自己的那个点，很难 touch 到范围之外的事。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">"具身的智能"是什么？他们给出的三个能力</h2>
+<p style="margin:0.8em 0">"具身的智能到底体现在哪儿？"——这是他来之后最想搞清楚的问题，也是深朴内部反复讨论的问题。他们最后给出了三个能力，并沿着它们设计基础模型：</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">适应能力</strong>——zero-shot、few-shot，应对完全分布外（OOD）的场景。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可控性（steerability）</strong>——不只是语言操控，还包括图像和视频：&quot;给它一段视频，它能很快 follow 住。&quot;他有个配套说法：小脑要做成可控性极强的模型，大脑才能自然地调度它。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">上下文理解能力</strong>——他直接点出行业现状的不足：很多具身工作假设&quot;根据当前的 observation 就能把事情做了&quot;，忽视了 context 里蕴含的因果信息。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可控性（steerability）</strong>——不只是语言操控，还包括图像和视频："给它一段视频，它能很快 follow 住。"他有个配套说法：小脑要做成可控性极强的模型，大脑才能自然地调度它。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">上下文理解能力</strong>——他直接点出行业现状的不足：很多具身工作假设"根据当前的 observation 就能把事情做了"，忽视了 context 里蕴含的因果信息。</p>
 <p style="margin:0.8em 0">关于第三点，他给了三层非常具体的例子。</p>
-<p style="margin:0.8em 0">第一层是秒级因果。第一次夹一个水杯没夹紧，杯子往下滑，模型把这一整套看在眼里——&quot;它很自然就能学到：原来我这样做错了，下次应该怎么做对。&quot;这一切可能在一秒钟之内发生，但 context 里全是因果。</p>
+<p style="margin:0.8em 0">第一层是秒级因果。第一次夹一个水杯没夹紧，杯子往下滑，模型把这一整套看在眼里——"它很自然就能学到：原来我这样做错了，下次应该怎么做对。"这一切可能在一秒钟之内发生，但 context 里全是因果。</p>
 <p style="margin:0.8em 0">第二层是会话级记忆。桌上摆着几个一模一样的咖啡杯，第一次试出合适的夹持宽度，拿第二、第三个时就不用再试错了。</p>
-<p style="margin:0.8em 0">第三层是长期记忆。&quot;我把一个东西放在抽屉里，人类的伙伴要把它找出来——没有记忆能力，它每次都得重新学、重新被告诉东西在哪儿。&quot;</p>
-<p style="margin:0.8em 0">context 的工程代价是实打实的：token 变多，推理延迟和训练效率都会恶化，而机器人是&quot;对执行很敏感&quot;的系统。他说他们在数据侧和模型侧都做了&quot;很 special 的设计&quot;，没有展开细节。</p>
-<p style="margin:0.8em 0">这种&quot;先定义、再动手&quot;的风格，也解释了他为什么偏爱简单——公司 slogan 就是 &quot;keeps the world simple&quot;，他的诠释是爱因斯坦那句&quot;让事情保持简单，但不要太简单&quot;。他讲了个前两天遇到的研究员的故事：对方为多模态设计了一套非常综合的架构，结果 DeepSeek R1 发布后，团队花了两周删掉 90% 的代码——&quot;发现不需要那么多复杂的设计。&quot;</p>
+<p style="margin:0.8em 0">第三层是长期记忆。"我把一个东西放在抽屉里，人类的伙伴要把它找出来——没有记忆能力，它每次都得重新学、重新被告诉东西在哪儿。"</p>
+<p style="margin:0.8em 0">context 的工程代价是实打实的：token 变多，推理延迟和训练效率都会恶化，而机器人是"对执行很敏感"的系统。他说他们在数据侧和模型侧都做了"很 special 的设计"，没有展开细节。</p>
+<p style="margin:0.8em 0">这种"先定义、再动手"的风格，也解释了他为什么偏爱简单——公司 slogan 就是 "keeps the world simple"，他的诠释是爱因斯坦那句"让事情保持简单，但不要太简单"。他讲了个前两天遇到的研究员的故事：对方为多模态设计了一套非常综合的架构，结果 DeepSeek R1 发布后，团队花了两周删掉 90% 的代码——"发现不需要那么多复杂的设计。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先造手套，再造模型</h2>
 <p style="margin:0.8em 0">深朴的数据故事，是从一次不成功的采购开始的。</p>
-<p style="margin:0.8em 0">他们原本想用市面上最好的数采设备，或者找合作伙伴——&quot;测了很多很多，发现（精度和时间同步）达不到自己的要求&quot;。于是自研：一套超高精度的采集手套，采集员戴着带夹爪的手套操作，轨迹被完整记录下来当训练语料（这类&quot;夹爪手套&quot;的公开方案，最早来自宋舒然团队）。</p>
+<p style="margin:0.8em 0">他们原本想用市面上最好的数采设备，或者找合作伙伴——"测了很多很多，发现（精度和时间同步）达不到自己的要求"。于是自研：一套超高精度的采集手套，采集员戴着带夹爪的手套操作，轨迹被完整记录下来当训练语料（这类"夹爪手套"的公开方案，最早来自宋舒然团队）。</p>
 <p style="margin:0.8em 0">两个关键设计：</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">抛弃基站。</strong> 之前的很多工作要在桌面上摆好几个基站做定位，轨迹才能到毫米级；他们用相机就做到了毫米级定位。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">微秒级时间同步。</strong> &quot;我们数据从源头上就已经很准了。&quot;——这样在模型侧才能控制变量、做更干净的研究。</p>
-<p style="margin:0.8em 0">硬件布局上是六路相机：头部双目负责定位，手部上下多枚相机防遮挡——&quot;上下相机的设计，让正遮挡很少。&quot;为什么要这么密的视角？他解释得很实用：对夹爪的精确操作来说，无遮挡的视角是必须的；头部相机则撑起了高精度定位和数据采集的迁移。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">微秒级时间同步。</strong> "我们数据从源头上就已经很准了。"——这样在模型侧才能控制变量、做更干净的研究。</p>
+<p style="margin:0.8em 0">硬件布局上是六路相机：头部双目负责定位，手部上下多枚相机防遮挡——"上下相机的设计，让正遮挡很少。"为什么要这么密的视角？他解释得很实用：对夹爪的精确操作来说，无遮挡的视角是必须的；头部相机则撑起了高精度定位和数据采集的迁移。</p>
 <p style="margin:0.8em 0">产出和反馈都很直接。他们开源了 2000 小时数据（内部已经到几万小时量级，整套事做了大约半年），在 Hugging Face 和 ModelScope 上累计下载 50 多万。收到的反馈具体到有点好笑：定位 marker 做得太大、影响视觉；手套在真机上发热有点严重。还有一批邮件——想买数据，海内外公司都有。</p>
-<p style="margin:0.8em 0">一个容易被忽略的细节是：这批开源数据里没有触觉。原因不是没做，而是&quot;触觉传感器还没有太收敛&quot;——不同传感器的分辨率不一样、点位不一样；今天投一百套设备采数据，几个月后出了更好的传感器换上去，之前的数据怎么用就是问题。加上二指夹爪遮挡少、视觉基本能判断&quot;夹没夹紧&quot;，他们选择先不大规模铺触觉，但一直在试——他顺带预告了一期播客：嘉宾是研究量子点的科学家（其博导因量子点技术拿了诺贝尔化学奖），方向是&quot;用量子点来感受触觉&quot;。</p>
-<p style="margin:0.8em 0">数据路线上的一个关键克制：他们至今没有贸然去做 Ego（第一人称人类视频）数据。他举了 Dyna-2 的例子——一百万小时的第一人称数据，还有一些公司宣称了同等规模。他不跟的理由是笔账：Ego 数据买起来可能便宜（差不多 30 块钱一小时），但后续标注、训练的投入非常贵，&quot;它付出的代价和获得的效果到底成不成正比、斜率怎么样，非常值得验证&quot;。而自采的路线，数据质量高、清洗压力小，规模适中反而让他们能把不同数据量配比、不同参数下的模型表现验证得更充分。</p>
+<p style="margin:0.8em 0">一个容易被忽略的细节是：这批开源数据里没有触觉。原因不是没做，而是"触觉传感器还没有太收敛"——不同传感器的分辨率不一样、点位不一样；今天投一百套设备采数据，几个月后出了更好的传感器换上去，之前的数据怎么用就是问题。加上二指夹爪遮挡少、视觉基本能判断"夹没夹紧"，他们选择先不大规模铺触觉，但一直在试——他顺带预告了一期播客：嘉宾是研究量子点的科学家（其博导因量子点技术拿了诺贝尔化学奖），方向是"用量子点来感受触觉"。</p>
+<p style="margin:0.8em 0">数据路线上的一个关键克制：他们至今没有贸然去做 Ego（第一人称人类视频）数据。他举了 Dyna-2 的例子——一百万小时的第一人称数据，还有一些公司宣称了同等规模。他不跟的理由是笔账：Ego 数据买起来可能便宜（差不多 30 块钱一小时），但后续标注、训练的投入非常贵，"它付出的代价和获得的效果到底成不成正比、斜率怎么样，非常值得验证"。而自采的路线，数据质量高、清洗压力小，规模适中反而让他们能把不同数据量配比、不同参数下的模型表现验证得更充分。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">零样本、克制的 Scaling，与没有好 benchmark 的行业</h2>
 <p style="margin:0.8em 0">模型能力上，他透露了一些还没发布的结果。</p>
-<p style="margin:0.8em 0">现在这套模型训练时一两千个任务一起训；原以为只有数据量大的头部任务能跑，结果&quot;占比只有 1% 甚至 0.5% 的数据&quot;的任务也做得成。更关键的是组合泛化：数据里有&quot;把遥控器放进盒子&quot;&quot;把零食放进垃圾桶&quot;，它就能做&quot;把零食放到盘子上、放到蓝色盘子上&quot;——&quot;它可以直接就放过去了，不需要任何后续（训练）。&quot;训练完直接能跑任务，不需要后训练。</p>
-<p style="margin:0.8em 0">他拿最近的发布做对照：GEN-1.5 演示的能力是&quot;给模型看一个三秒的视频，它就能执行&quot;——那还是 one-shot；&quot;我们不需要给视频，能做到一定的 zero-shot。&quot;</p>
-<p style="margin:0.8em 0">他 respect 的对象也很具体。最佩服的是 Generalist：把数据量轰到二十多万小时来看效果，评估做得全面；后来又做到了五十万小时，还做了夹爪形态的泛化实验；到 GEN-1.5 直接拿 in-context learning 来做验证——&quot;这些证明了他们的预训练能力和泛化能力确实很强。&quot; Physical Intelligence 的 π 系列他也关注：π0.7 里最重要的一个点是 steerability（可控性），和他们定义的第二个能力指向同一处；而这条脉络最早可以追到把强化学习融合进具身模型的早期尝试。</p>
-<p style="margin:0.8em 0">他同样不客气。最近不少 in-context learning 的展示，明确说了是&quot;专门训了 pair 数据&quot;——他认为那只是暂时性的妥协：&quot;in-context 本质上对应两个能力：对 context 的深度理解，和可控性。没有这两个能力，硬把效果训出来，做得再好看也不是本质。&quot;</p>
-<p style="margin:0.8em 0">对&quot;Scaling&quot;，他用词极度克制：&quot;我们会避免讲'找到了 scaling law'，我们可能会讲存在一定的 power law（幂律）现象。&quot;因为真正的 scaling law 要求把数据量、模型规模、算力之间的比例关系定义清楚，是&quot;很严肃&quot;的事情，需要持续做实验验证——这本身就很耗算力。&quot;但是我们已经看到了一些 scaling 的趋势，我觉得还是蛮 promising 的。&quot;</p>
-<p style="margin:0.8em 0">评估是另一个他直言&quot;很难&quot;的问题。LIBERO 这类被刷爆的 benchmark，&quot;你不需要预训练，纯靠后训练也能做到非常高的分数，参考价值已经不大了&quot;。较新的 RoboDojo（既有仿真又有真机）也有它的局限：仿真和真实世界有 gap；真机评测要求对方拿你的模型到他们的本体上测，完全复现很难；而第三方中立评测，&quot;既当裁判又当运动员肯定不行&quot;。他的结论很务实：具身评估考的是整个链路的稳定性和成功率，&quot;最好的方式是自己把评估做扎实&quot;——发布时公开最真实的结果，从简单到中等再到困难、覆盖场景和物体泛化的各种变化，并且明确说明用了多少数据。他们的模型年底发布；开源与否&quot;需要商讨&quot;，如果要开，&quot;就开一个能让大家后续用得很好、效果非常好的模型&quot;。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Agent OS、GPT-6 俯冲，与&quot;谁吃掉谁&quot;</h2>
-<p style="margin:0.8em 0">深朴从第一天起就把具身当一个 Agent system 做，而不是单点模型。&quot;它需要与人交互，需要与环境交互，肯定是个 Agent。&quot;</p>
-<p style="margin:0.8em 0">他们的 Agent OS 分两层：system two 负责理解意图、做规划；system one 负责快速、精细的执行。交互层也做了设计——比如你可以直接用语音跟它对话，让它把衣服送到洗衣机里洗一下。为什么强调小脑要&quot;可控性极强&quot;？&quot;就是为了让大脑能够更自然地调度下面的模型。&quot;</p>
-<p style="margin:0.8em 0">围绕&quot;分层会不会收敛成端到端&quot;，他的判断是这样的：&quot;不太可能'下面'把'上面'吃掉，但'上面'把（一部分）吃掉是有可能的。&quot;（上面指大模型，下面指这套系统。）具体在什么节点发生，他说看不清楚，&quot;应该还是有一定周期&quot;。但有一句原则性的表达：</p>
+<p style="margin:0.8em 0">现在这套模型训练时一两千个任务一起训；原以为只有数据量大的头部任务能跑，结果"占比只有 1% 甚至 0.5% 的数据"的任务也做得成。更关键的是组合泛化：数据里有"把遥控器放进盒子""把零食放进垃圾桶"，它就能做"把零食放到盘子上、放到蓝色盘子上"——"它可以直接就放过去了，不需要任何后续（训练）。"训练完直接能跑任务，不需要后训练。</p>
+<p style="margin:0.8em 0">他拿最近的发布做对照：GEN-1.5 演示的能力是"给模型看一个三秒的视频，它就能执行"——那还是 one-shot；"我们不需要给视频，能做到一定的 zero-shot。"</p>
+<p style="margin:0.8em 0">他 respect 的对象也很具体。最佩服的是 Generalist：把数据量轰到二十多万小时来看效果，评估做得全面；后来又做到了五十万小时，还做了夹爪形态的泛化实验；到 GEN-1.5 直接拿 in-context learning 来做验证——"这些证明了他们的预训练能力和泛化能力确实很强。" Physical Intelligence 的 π 系列他也关注：π0.7 里最重要的一个点是 steerability（可控性），和他们定义的第二个能力指向同一处；而这条脉络最早可以追到把强化学习融合进具身模型的早期尝试。</p>
+<p style="margin:0.8em 0">他同样不客气。最近不少 in-context learning 的展示，明确说了是"专门训了 pair 数据"——他认为那只是暂时性的妥协："in-context 本质上对应两个能力：对 context 的深度理解，和可控性。没有这两个能力，硬把效果训出来，做得再好看也不是本质。"</p>
+<p style="margin:0.8em 0">对"Scaling"，他用词极度克制："我们会避免讲'找到了 scaling law'，我们可能会讲存在一定的 power law（幂律）现象。"因为真正的 scaling law 要求把数据量、模型规模、算力之间的比例关系定义清楚，是"很严肃"的事情，需要持续做实验验证——这本身就很耗算力。"但是我们已经看到了一些 scaling 的趋势，我觉得还是蛮 promising 的。"</p>
+<p style="margin:0.8em 0">评估是另一个他直言"很难"的问题。LIBERO 这类被刷爆的 benchmark，"你不需要预训练，纯靠后训练也能做到非常高的分数，参考价值已经不大了"。较新的 RoboDojo（既有仿真又有真机）也有它的局限：仿真和真实世界有 gap；真机评测要求对方拿你的模型到他们的本体上测，完全复现很难；而第三方中立评测，"既当裁判又当运动员肯定不行"。他的结论很务实：具身评估考的是整个链路的稳定性和成功率，"最好的方式是自己把评估做扎实"——发布时公开最真实的结果，从简单到中等再到困难、覆盖场景和物体泛化的各种变化，并且明确说明用了多少数据。他们的模型年底发布；开源与否"需要商讨"，如果要开，"就开一个能让大家后续用得很好、效果非常好的模型"。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Agent OS、GPT-6 俯冲，与"谁吃掉谁"</h2>
+<p style="margin:0.8em 0">深朴从第一天起就把具身当一个 Agent system 做，而不是单点模型。"它需要与人交互，需要与环境交互，肯定是个 Agent。"</p>
+<p style="margin:0.8em 0">他们的 Agent OS 分两层：system two 负责理解意图、做规划；system one 负责快速、精细的执行。交互层也做了设计——比如你可以直接用语音跟它对话，让它把衣服送到洗衣机里洗一下。为什么强调小脑要"可控性极强"？"就是为了让大脑能够更自然地调度下面的模型。"</p>
+<p style="margin:0.8em 0">围绕"分层会不会收敛成端到端"，他的判断是这样的："不太可能'下面'把'上面'吃掉，但'上面'把（一部分）吃掉是有可能的。"（上面指大模型，下面指这套系统。）具体在什么节点发生，他说看不清楚，"应该还是有一定周期"。但有一句原则性的表达：</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">即使我们能看到终局，也不能放弃中间阶段所必须做的事情。</p>
 </blockquote>
-<p style="margin:0.8em 0">落到策略上：把 action 能力做扎实，等上层的规划能力足够好，&quot;很自然地构建一个 harness 把它结合起来，我们就能落地很多场景&quot;——&quot;对创业公司来说，这是个挺好的策略，也是个很重要的选择。&quot;</p>
-<p style="margin:0.8em 0">GPT-6 的出现，是这场对话里最尖锐的变量。发布之后，一堆它直接执行任务的视频流出，其中一个让机械臂拿笔&quot;画一座精美的桥&quot;：第一遍明显在试探怎么用笔，第二遍有了轮廓，第三、四遍才变成最终那个样子——&quot;如果直接看成品，你会非常震撼，模型控制机器控制得这么精准。&quot;他说自己一开始&quot;很难想象一个通用的预训练模型能把这些事情做成&quot;，看完之后——&quot;这个能力已经超出大家的想象。&quot;他的解读是：GPT-6 把过去要一堆小模型做的事（感知、识别、定位）全部综合进了自身，加上 3D 空间、场景理解、任务规划、视觉总结这些能力，才撑得起这种复杂任务。他从这条线索里抽出的最大启示是：通用智能真的有可能外溢到各行各业里去。被问到国内谁最可能做出类似能力，他点了两家：Seed 的多模态（&quot;国内一直是比较领先的&quot;），以及千问——&quot;我跟千问的一些朋友聊过具身，他们正在做类似的事情。&quot;</p>
-<p style="margin:0.8em 0">至于&quot;通用模型会不会直接吃掉具身&quot;——有人说它太慢、做不到实时反馈；他的态度是审慎的乐观：&quot;从（做）大语言模型的人来看，它是有机会做到真正可用的。但 action 能力需要以某种方式反哺进去，这个时间有多长，暂时还不太可知。&quot;</p>
-<p style="margin:0.8em 0">对话里他也没有回避行业的浮夸：&quot;今年上半年，行业把一个方向炒得很热，真正把它做落地的没有几家，效果比 VLA 好多少其实也没有明确结论。对做 research 的人来说，噪音太多了。&quot;他的降噪方式是看两点：对方讲的点本身，以及他们拿出的 demo 和说法是否一致；再对照自己从第一性原理出发的判断。&quot;这个领域不收敛，所以完全可以按自己认为正确的事情去做。比如数据——如果人云亦云，直接去买数据公司现成的数据就好了，但我们自己做，反而可能弯道超车。&quot;</p>
+<p style="margin:0.8em 0">落到策略上：把 action 能力做扎实，等上层的规划能力足够好，"很自然地构建一个 harness 把它结合起来，我们就能落地很多场景"——"对创业公司来说，这是个挺好的策略，也是个很重要的选择。"</p>
+<p style="margin:0.8em 0">GPT-6 的出现，是这场对话里最尖锐的变量。发布之后，一堆它直接执行任务的视频流出，其中一个让机械臂拿笔"画一座精美的桥"：第一遍明显在试探怎么用笔，第二遍有了轮廓，第三、四遍才变成最终那个样子——"如果直接看成品，你会非常震撼，模型控制机器控制得这么精准。"他说自己一开始"很难想象一个通用的预训练模型能把这些事情做成"，看完之后——"这个能力已经超出大家的想象。"他的解读是：GPT-6 把过去要一堆小模型做的事（感知、识别、定位）全部综合进了自身，加上 3D 空间、场景理解、任务规划、视觉总结这些能力，才撑得起这种复杂任务。他从这条线索里抽出的最大启示是：通用智能真的有可能外溢到各行各业里去。被问到国内谁最可能做出类似能力，他点了两家：Seed 的多模态（"国内一直是比较领先的"），以及千问——"我跟千问的一些朋友聊过具身，他们正在做类似的事情。"</p>
+<p style="margin:0.8em 0">至于"通用模型会不会直接吃掉具身"——有人说它太慢、做不到实时反馈；他的态度是审慎的乐观："从（做）大语言模型的人来看，它是有机会做到真正可用的。但 action 能力需要以某种方式反哺进去，这个时间有多长，暂时还不太可知。"</p>
+<p style="margin:0.8em 0">对话里他也没有回避行业的浮夸："今年上半年，行业把一个方向炒得很热，真正把它做落地的没有几家，效果比 VLA 好多少其实也没有明确结论。对做 research 的人来说，噪音太多了。"他的降噪方式是看两点：对方讲的点本身，以及他们拿出的 demo 和说法是否一致；再对照自己从第一性原理出发的判断。"这个领域不收敛，所以完全可以按自己认为正确的事情去做。比如数据——如果人云亦云，直接去买数据公司现成的数据就好了，但我们自己做，反而可能弯道超车。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">70 个人、Codex，和一台三年后的洗碗机</h2>
-<p style="margin:0.8em 0">深朴现在七十多人。工作时间 9:30 到 18:30，没有硬性加班，&quot;都是自驱的&quot;。他说自己也不每天工作到深夜：&quot;保持思维的灵活性比较重要。在 Agent 的加持下，每个人更需要的是管理好自己手里的 AI 工具，对项目有清晰的认知，然后部署 AI 去做事。&quot;公司对 AI 工具的额度基本不设限——他们主要用 Codex。</p>
-<p style="margin:0.8em 0">管理上，他认为做得比较好的一件事是&quot;事先的规划&quot;：CEO 会拉着技术团队负责人先聊清楚根本问题——具身的智能到底是什么、为它数据要做哪些准备、需要多少算力，自顶向下一套沟通体系；同时尽量把组织做成扁平的信息共享形态。&quot;对创业公司来说，context 的充分交换很重要。&quot;</p>
-<p style="margin:0.8em 0">录制最后，主持人问了一个三年的问题：我们常常高估两年内的变化、低估十年后的变化，那么三年后回头看，哪件事发生了，会让你觉得&quot;来具身行业&quot;这个选择是对的？</p>
-<p style="margin:0.8em 0">他讲了一个很具体的场景。他的博导有个多年的痛点：哪怕有洗碗机，每次吃完饭还是得先把盘子里的东西倒掉、再塞进洗碗机，每天要花二十分钟。&quot;如果三年之后，我们做的机器人能在一些家庭里完成类似'帮忙洗碗'的事情，我觉得就已经非常 exciting 了。&quot;</p>
-<p style="margin:0.8em 0">概率呢？&quot;三年的话，实现——百分之八十。&quot;</p>
-<p style="margin:0.8em 0">他给这个数字留了 20% 的余地。这大概就是他自己定义的&quot;聪明&quot;：会提好问题，知道自己不知道什么，并且愿意直面它。</p>
+<p style="margin:0.8em 0">深朴现在七十多人。工作时间 9:30 到 18:30，没有硬性加班，"都是自驱的"。他说自己也不每天工作到深夜："保持思维的灵活性比较重要。在 Agent 的加持下，每个人更需要的是管理好自己手里的 AI 工具，对项目有清晰的认知，然后部署 AI 去做事。"公司对 AI 工具的额度基本不设限——他们主要用 Codex。</p>
+<p style="margin:0.8em 0">管理上，他认为做得比较好的一件事是"事先的规划"：CEO 会拉着技术团队负责人先聊清楚根本问题——具身的智能到底是什么、为它数据要做哪些准备、需要多少算力，自顶向下一套沟通体系；同时尽量把组织做成扁平的信息共享形态。"对创业公司来说，context 的充分交换很重要。"</p>
+<p style="margin:0.8em 0">录制最后，主持人问了一个三年的问题：我们常常高估两年内的变化、低估十年后的变化，那么三年后回头看，哪件事发生了，会让你觉得"来具身行业"这个选择是对的？</p>
+<p style="margin:0.8em 0">他讲了一个很具体的场景。他的博导有个多年的痛点：哪怕有洗碗机，每次吃完饭还是得先把盘子里的东西倒掉、再塞进洗碗机，每天要花二十分钟。"如果三年之后，我们做的机器人能在一些家庭里完成类似'帮忙洗碗'的事情，我觉得就已经非常 exciting 了。"</p>
+<p style="margin:0.8em 0">概率呢？"三年的话，实现——百分之八十。"</p>
+<p style="margin:0.8em 0">他给这个数字留了 20% 的余地。这大概就是他自己定义的"聪明"：会提好问题，知道自己不知道什么，并且愿意直面它。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">具身智能的第一性问题不是本体，而是&quot;智能&quot;的定义。深朴给出的三个能力：适应（zero-shot / OOD）、可控（steerability，语言/图像/视频皆可用于操控）、上下文理解。</li>
+<li style="margin:0.3em 0">具身智能的第一性问题不是本体，而是"智能"的定义。深朴给出的三个能力：适应（zero-shot / OOD）、可控（steerability，语言/图像/视频皆可用于操控）、上下文理解。</li>
 <li style="margin:0.3em 0">上下文是公开的行业盲点：从秒级因果（没夹紧→滑落→夹紧）到长期记忆（东西放在哪）。代价是 token 与推理效率，需要在数据与架构两侧同时设计。</li>
 <li style="margin:0.3em 0">数据引擎是他们的壁垒：供应商达不到微秒级同步→自建 HiFi-UMI（无基站、毫米级定位、六路相机）；开源 2000 小时、下载 50 万+；对 Ego 数据（Dyna-2 式的百万小时）选择暂不跟进，先算性价比。</li>
-<li style="margin:0.3em 0">对 Scaling 保持克制：只说&quot;存在幂律现象&quot;，不提&quot;找到 scaling law&quot;；行业 benchmark（LIBERO 等）参考价值有限，评估只能自己做扎实。</li>
-<li style="margin:0.3em 0">通用模型与具身的关系：不会&quot;下面吃掉上面&quot;，但可能&quot;上面吃掉下一部分&quot;；无论如何，中间阶段的 action 能力不能放弃。</li>
+<li style="margin:0.3em 0">对 Scaling 保持克制：只说"存在幂律现象"，不提"找到 scaling law"；行业 benchmark（LIBERO 等）参考价值有限，评估只能自己做扎实。</li>
+<li style="margin:0.3em 0">通用模型与具身的关系：不会"下面吃掉上面"，但可能"上面吃掉下一部分"；无论如何，中间阶段的 action 能力不能放弃。</li>
 <li style="margin:0.3em 0">组织样本：70 人、自驱、9:30–18:30、AI 工具额度不设限（主力 Codex）、扁平的信息共享。</li>
 <li style="margin:0.3em 0">三年目标：机器人帮忙洗碗——他给了 80% 的概率。</li>
 </ul>
@@ -15813,5 +15960,244 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-17.html</link><guid isPermaLink="false">report:播客信号:2026-09-17:2e95fb41</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-17</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-17 05:04 CST</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描了 7 个播客，共 12 集（新）：[跨国串门儿计划(5集), a16z(2集), 高能量(1集), 卫诗婕｜漫谈Light the Star(1集), 硅谷101(1集), 屠龙之术(1集), 十字路口Crossing(1集)]
+持仓披露：🔥4条（涉及2集） | 🔴0条 | 高质量内容：3集（另2集见信号详情） | 其他剧集：7集
+数据源：本地 RSS→ASR 管线（Qwen3-ASR 0.6B）；转录完整性抽查通过（7源21文件，无大小重复/主题错配）
+注：同窗口 3 集（a16z Brockman / Acquired Home Depot 原版 / 跨国串门儿 #721）已于 09-14 处理，本轮按去重跳过</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 看多（4条）</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标的</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">谁+做什么</th>
+  <th style="text-align:center">质量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高能量《Vol.235》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">沐曦 688802.SH</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经纬创投：首轮5000万元、六轮加注累计约7.5亿元、上市前持股约5.x%</td>
+  <td style="text-align:center">⭐⭐⭐</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高能量《Vol.235》+ Light the Star《88》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宇树 688836.SH</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经纬：持股超5%、2021年B轮领投；祥峰：2020年Pre-A+轮唯一机构投资人、多轮加注</td>
+  <td style="text-align:center">⭐⭐⭐</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高能量《Vol.235》+ Light the Star《88》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">曦智科技 01879.HK</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经纬（&quot;第一个非汽车半导体投资&quot;）；祥峰（&quot;光计算全球第一&quot;）均披露持仓</td>
+  <td style="text-align:center">⭐⭐</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Light the Star《88》</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">云英谷科技 03310.HK</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">祥峰：2013年天使轮最早机构投资人，陪伴14年至上市</td>
+  <td style="text-align:center">⭐⭐</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚠️ 同期披露的未上市组合（不可交易，仅信息补充）：经纬—智元机器人、银河通用（2023年领投）；祥峰—松灵机器人（无人割草机出海）、沃飞长空（eVTOL，IPO辅导中）。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 看多详情</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 高能量 — Vol.235《从理想、沐曦到宇树：跟经纬王华东聊硬科技投资逻辑》</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-16 | <strong style="font-weight:600">信号</strong>: 🔥{沐曦, 宇树}</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔥 沐曦 688802.SH</strong> — 经纬累计7.5亿元重仓，&quot;国产GPU四小龙&quot;唯一长期重仓机构之一</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 播客《高能量》王华东（经纬创投管理合伙人），QA自述</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">谁+做什么</strong>: 经纬创投 — 首轮投5000万元人民币，此后连续加注六轮，累计投入约7.5亿元；上市前持股约5.x%（沐曦2025-12-17登陆科创板）</li>
+</ul>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 硬科技不做&quot;赢家通吃&quot;逻辑，核心是把产业链研究清后做非共识早期下注；而大回报来自&quot;持续加注&quot;——第一轮投到不难，难的是对公司理解到位、敢在后轮加仓。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">产业研究驱动：2018-19年从汽车半导体切入，&quot;围绕链主（汽车）向上游扩图谱&quot;，2020年底由该能力&quot;扩&quot;出沐曦 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
+<li style="margin:0.3em 0">五拐点框架：硬科技公司要过技术/产品/市场/销售/交付五个拐点；市场化基金最佳进入点是产品拐点之前，之后靠产业资本/地方政府接棒 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code></li>
+<li style="margin:0.3em 0">加注实证：沐曦累计7.5亿中大部分在后六轮；同类经验来自理想（2019年&quot;人人不看好时&quot;加注两轮） <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
+<li style="margin:0.3em 0">人才流向论：具身智能这波吸引了最强AI人才（对比自动驾驶时代），因此技术突破会更快、人才密集度决定胜出者 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+</ul>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🔗 <strong style="font-weight:600">论证</strong>: 产业链研究（非共识认知）→ 拐点前下注 → 跟踪团队持续兑现（&quot;三年见过几次、看他怎么解决问题&quot;）→ 六轮加注7.5亿 → 上市前5.x%、2026H1成四小龙首个半年度盈利公司</p>
+</blockquote>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong> ✅沐曦2025-12-17科创板上市；2026H1扭亏（净利6.12亿/营收13.24亿、毛利率57.2%） ✅&quot;红杉中国、经纬等头部机构长期重仓&quot;（证券时报） ✅股价较发行价+526%（8/25收盘口径） ❓7.5亿/5.x%为播客单方口径，未独立核验</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：六轮加注的具体金额节奏；上市前精确持股比例</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> 以沐曦/理想/宇树等成功案例归纳方法论，未讨论同期未跑出的组合；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[后见之明]</code> &quot;拐点前进入&quot;在事后清晰、事前判断难度被低估</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔬 第一性原理剖析</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>: ①国产替代+AI算力需求持续（出货量驱动收入）；②&quot;产品拐点前&quot;是市场化基金唯一可持续进入窗口
+<strong style="font-weight:600">反例/风险</strong>: 四小龙齐聚资本市场后竞争加剧、价格战苗头（&quot;卖的越多亏得越狠&quot;讨论存在）；2026-12首发限售解禁是价格风险窗口</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 无历史库记录（沐曦首次出现）
+<strong style="font-weight:600">📈 可靠度</strong>: 🟢高 — 上市/财报/重仓股东可公开验证；具体数字为单方口径（该细节🟡）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔥 宇树 688836.SH</strong> — 经纬持股超5%（B轮领投，2021）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 播客《高能量》王华东，节目自述（主持人口径&quot;经纬持有宇树超过5%&quot;）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">主张</strong>: &quot;一个年轻人把这个品类做到全球第一，你没有任何理由不投&quot;——投的是&quot;品类冠军+极致的成本/量产能力&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">论据</strong>: 2020年3月首次接触错过一轮，2021年B轮领头；王兴兴&quot;电机自研+强化学习控制认知领先&quot;；&quot;市场上没有第二家能量产一致性&quot;；特斯拉机器人团队&quot;全球只关注宇树和小鹏机器人&quot; <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历/转述]</code></li>
+<li style="margin:0.3em 0">🔗 <strong style="font-weight:600">论证</strong>: 全球出货第一（2021）→ 领投B轮 → 人形放量/春晚出圈 → 2026-08-19科创板上市（首日+460%、市值3418亿）→ 持仓兑现</li>
+<li style="margin:0.3em 0">🔍 <strong style="font-weight:600">核查</strong> ✅2026-08-19上市（发行价150.8元、首日收845元/+460.34%） ✅宇树为&quot;人形机器人第一股&quot;、2026H1营收11.52亿/净利2.74亿 ❓经纬&quot;超5%&quot;比例未独立核验</li>
+<li style="margin:0.3em 0">🔬 <strong style="font-weight:600">假设/替代</strong>: 假设具身智能从表演/科研走向生产力场景；替代——若商业化停留在科研+表演（H1增速已降至48.5%），3400亿市值靠业绩消化周期拉长</li>
+<li style="margin:0.3em 0">📜 <strong style="font-weight:600">历史对照</strong>: 2026-08-19《Light the Star #83》初心资本田江川：回报超700倍、&quot;上市后继续持有&quot; → 与本轮两基金口径一致</li>
+<li style="margin:0.3em 0">📈 <strong style="font-weight:600">可靠度</strong>: 🟢高</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 卫诗婕｜漫谈Light the Star — 88.《在新加坡，与祥峰郑俊聪的访谈》</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-16 | <strong style="font-weight:600">信号</strong>: 🔥{宇树, 曦智, 云英谷}</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔥 宇树 688836.SH</strong> — 祥峰Pre-A+轮唯一机构投资人（2020），&quot;最开心的事是宇树要上市&quot;</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 播客《Light the Star》郑俊聪（祥峰中国创始管理合伙人）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">谁+做什么</strong>: 祥峰中国 — 2020年10月Pre-A+轮唯一机构投资人（&quot;独家重仓进入&quot;），2024年9月追投；未能在2023年大轮加注（基金周期限制）→ 已制度化&quot;永远保留20-30%子弹做跟投&quot;</li>
+</ul>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 最大教训不是没投到，而是&quot;判断不够坚定、没重仓追投&quot;——错过的是加注窗口而非入场窗口；宇树的真壁垒是&quot;量产一致性&quot;，算法可被追赶、产线与细节苦功不能。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">2020年见王兴兴：同类机器狗海外十几万美元成本 vs 宇树卖1万多美元——&quot;成本优势=商业化价值&quot; <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
+<li style="margin:0.3em 0">&quot;人形是伪需求我坚决反对&quot;：双足能从咖啡厅端咖啡升级到爬楼梯送二楼，轮式做不到；服务业场景（新加坡/欧洲/日本）人工成本高，机器人回报快 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
+<li style="margin:0.3em 0">追投机制教训：复盘中意识到&quot;外部市场因素+人的判断&quot;双验证——人到位且市场扩大就加注（沐曦式all in逻辑） <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code></li>
+<li style="margin:0.3em 0">宇树上市首笔账面回报达数百倍（媒体口径）；&quot;最开心的事&quot; <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[可核验]</code></li>
+</ul>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🔗 <strong style="font-weight:600">论证</strong>: 成本非共识（2020）→ 独家进场 → 缺席一轮加注（教训）→ 2024.9追投 → 上市兑现 → 制度重构（30%子弹跟投）</p>
+</blockquote>
+<p style="margin:0.8em 0">🔍 <strong style="font-weight:600">核查</strong> ✅2020 Pre-A+最早机构、连续三轮加码（投资界/证券时报多源） ✅上市事实 ✅&quot;最早一笔回报数百倍&quot;（媒体测算） ❓祥峰最新持股比例未披露</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>: <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[幸存者偏差]</code> 赢家复盘；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[叙事偏差]</code> 上市热度回填早期决策</p>
+<p style="margin:0.8em 0">🔬 <strong style="font-weight:600">假设/替代</strong>: 假设双足终局+服务业先落地；替代——若轮式/专用机器人在服务业更快跑出经济模型，双足时间表推后。<strong style="font-weight:600">风险</strong>: 2027-08 首发解禁供给冲击；具身估值整体透支（郑同时警告&quot;同质化+以融资为导向是最大风险&quot;）</p>
+<p style="margin:0.8em 0">📜 <strong style="font-weight:600">历史对照</strong>: 同上（田江川&quot;继续持有&quot;口径）；无更早记录
+<strong style="font-weight:600">📈 可靠度</strong>: 🟢高</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔥 曦智科技 01879.HK</strong> — 两家机构齐披露：&quot;做光计算全球第一&quot;</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 《Light the Star》郑俊聪（&quot;我们投的曦智做光计算全球第一，现在帮芯片做scale-up&quot;）+《高能量》王华东（经纬&quot;第一个非汽车半导体投资就是今年上市的曦智&quot;）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">主张</strong>: 光互连/光计算是AI集群scale-up的下一步（铜退光进），中国公司有机会领先</li>
+<li style="margin:0.3em 0">🔍 <strong style="font-weight:600">核查</strong> ✅2026-04-28港交所上市（&quot;全球AI硅光芯片第一股&quot;，首日+380%、发行价183.2港元） ✅光互连(Scale-up/Scale-out)+光计算双业务；2026H1营收7978万(+284%)、毛利率65.8%；9/7纳入港股通 ✅&quot;全球第一&quot;与招股口径（全球首个光电混合算力大规模部署）基本吻合 ❓两家机构持股细节未见公开核验</li>
+<li style="margin:0.3em 0">🔬 <strong style="font-weight:600">假设/替代</strong>: 假设光互连渗透率持续↑、光计算商业化推进；替代——HBM/铜互连演进超预期或订单延迟则叙事回落。<strong style="font-weight:600">风险</strong>: 经调整净亏1.47亿(H1)、估值对订单节奏高度敏感</li>
+<li style="margin:0.3em 0">📜 <strong style="font-weight:600">历史对照</strong>: 无历史库记录</li>
+<li style="margin:0.3em 0">📈 <strong style="font-weight:600">可靠度</strong>: 🟡中 — 经营/上市数据可验证，机构持仓为播客口径</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔥 云英谷科技 03310.HK</strong> — 祥峰&quot;14年陪跑&quot;：从天使轮到上市</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 《Light the Star》郑俊聪（&quot;我们还有一个芯片公司（云英谷），两个月前在香港上市，整整十四年&quot;）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">谁+做什么</strong>: 祥峰 — 2013年天使轮即入局（最早机构投资人），陪伴至2026-05-27港股上市</li>
+<li style="margin:0.3em 0">🔍 <strong style="font-weight:600">核查</strong> ✅2026-05-27上市（公开发售超购3559倍、首日+91.7%） ✅&quot;祥峰投资是云英谷最早的机构投资者，自2013年天使轮入局&quot;（界面新闻） ✅AMOLED显示驱动大陆第一、Micro-OLED全球第二(40.7%) ❓当前持股比例未披露</li>
+<li style="margin:0.3em 0">🔬 <strong style="font-weight:600">假设/替代</strong>: 假设显示驱动国产替代+AI眼镜/Micro-OLED放量；替代——面板周期下行+持续亏损（2025净亏2.3亿）。<strong style="font-weight:600">风险</strong>: 周期性、客户集中</li>
+<li style="margin:0.3em 0">📜 <strong style="font-weight:600">历史对照</strong>: 无历史库记录</li>
+<li style="margin:0.3em 0">📈 <strong style="font-weight:600">可靠度</strong>: 🟢高</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容（无持仓披露）</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 硅谷101 — E251｜推理芯片之战：Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-16 | 嘉宾：Mark（Bill Dally学生、前国内GPU大厂，现推理芯片创业）、子阳（前亚马逊训练芯片软件栈）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">SRAM收敛</strong>：推理decode阶段带宽是本质瓶颈（每出1个token要把整个模型从存储读一遍）；SRAM带宽性价比比HBM高2-3个数量级，但容量低2个数量级 → 解法=上千芯片组集群，瓶颈转向通信</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Groq vs Cerebras 路线分歧</strong>：Groq=编译期静态调度+确定性（对MoE运行时动态激活不友好）；Cerebras=晶圆级（良率与成本是最大挑战）；两者都在被GPU&quot;异构&quot;收编——英伟达约200亿美元acqui-hire Groq补带宽短板</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI路径（Hanna Pinio，与博通）</strong>：9个月流片；把异构做进单芯片、以电效率为第一优先（美国电是瓶颈）、HBM4堆到15.4TB/s——不同市场约束（美：电；中：成本）催生不同最优解</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">国产机会</strong>：开源模型（DeepSeek/千问）让新芯片有&quot;可自适配&quot;的模型；成熟制程+架构创新可打；供应链2-3年内供小于求</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">投资含义</strong>: &quot;绕过CUDA一定会发生&quot;（推理时代愿为性价比牺牲软件易用性）;评价框架=token成本&gt;速度&gt;耗电(国内)</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 屠龙之术 — 智能的下一幕，让人兴奋（73页PPT solo）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-15 | 主播：庄明浩</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型=制造业</strong>：8月OpenRouter单月新模型密度&gt;2个/天；版本号+日期分割；benchmark失效→传播靠&quot;奇观&quot;（3D demo、无限流）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">中间层被抢购（✅已核验）</strong>：Stripe &gt;70亿美元收购OpenRouter（8/19）；英伟达129.3亿美元收购Hugging Face（9/3官宣）；a16z infra一周内OpenRouter+Cursor两笔巨型退出</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">开源/闭源经济性</strong>：token量2/3走开源、花费2/3在头部三家；企业AI支出头部公司8月首次环比回落；&quot;拥有自己的智能&quot;企业自建潮（数据把控+成本）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">RSI/loop</strong>：训练环节逐个被AI接管（&quot;当AI builds itself&quot;）；new lab 119家融943亿美元、仅16家有收入；物理AI/世界模型是三大bet之一</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">共识</strong>：Coding（Codex周活2500万）+ personal agent 是阶段性共识</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 十字路口Crossing — 于是转身向具身走去｜对话王家伟</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-16 | 嘉宾：王家伟（深朴智能Simple AI 首席科学家，24岁）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">深朴智能（Simple AI）：面向家庭的通用具身智能；以酒店/康养&quot;类家庭场景&quot;为跳板→家庭为终点（2026年底进北京高端酒店批量交付）</li>
+<li style="margin:0.3em 0">王家伟：中科大少年班→中科大-MSRA联培博士→DeepSeek多模态组/字节Seed实习；放弃大厂机会加入具身创业</li>
+<li style="margin:0.3em 0">技术观：定义具身&quot;智能&quot;三能力——适应（zero/few-shot OOD）、可操控（语言/图像/视频）、原生上下文理解；触觉传感器尚未收敛、数据复用是痛点</li>
+<li style="margin:0.3em 0">金句：&quot;风浪越大，鱼越贵&quot;；对new grad：没收敛的地方才有定义事情的机会</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#726.Wardogs：清晰表达比迎合玩家更重要</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">游戏工作室访谈：腾讯撤资后获新投资，《Wardogs》上线售出百万份；高强度加班与回报文化</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#723.All-In｜黄仁勋：超级智能已经到来</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黄仁勋DC活动：4万亿美元/半年流入AI原生公司（80%用开源模型）、美国再工业化与能源、收购Hugging Face</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#724.家得宝：把普通人变成建造者</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Acquired家得宝商业史（中配版；原版09-14已处理跳过）：IPO至今总回报标普500第一（$1000→~$1700万）</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#722. OpenAI 研究员Norm Brown：Agent 将继续快速变强</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">多智能体协作涌现、&quot;感受AGI的时刻&quot;、递归自我改进优先级、预训练投入迎回报</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#725.如何使用 AI 来学习：把认知努力用在难题上</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">用AI优化学习：反馈校准、用新知识做练习、PI agent harness演示</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">The AI-Native CRM</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Lightfield创始人Keith Perez（Tome→Lightfield）：AI原生CRM的定价演进（per-seat→消耗制）、安全与greenfield获客</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">The Age of Body Futurism｜Ruby Justice Thelot</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">身体未来主义文化讨论（非投资向）</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线告警</h2>
+<p style="margin:0.8em 0">无。转录完整性抽查（Step 1.5）通过：7个源×最近3文件，无byte级重复、无主题错配。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📎 附注</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">ASR同音错字已按语境修正：语数→宇树、木溪/慕希→沐曦、希智/西智→曦智、云谷→云英谷、深普→深朴、松林→松灵、汪涛→汪滔（大疆）、淡马锡/祥峰等</li>
+<li style="margin:0.3em 0">检索历史库：宇树相关8条（08-19初心田江川、06-11美团龙珠等）；Groq/Cerebras相关5条（06-16晚点聊周楠、#617）</li>
+<li style="margin:0.3em 0">报告生成：2026-09-17 05:04 CST</li>
+</ul>
+
+</div>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
