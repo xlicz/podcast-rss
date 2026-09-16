@@ -1,7 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 16 Sep 2026 23:00:15 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 16 Sep 2026 23:22:28 +0800</lastBuildDate><item><title>[跨国串门儿计划] 把认知努力留给难题：如何把教学法做进 AI 系统</title><link>https://xlicz.github.io/podcast-rss/articles/把认知努力留给难题-如何把教学法做进-AI-系统-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_3611d4b5ee2a</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>把认知努力留给难题：如何把教学法做进 AI 系统</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">把认知努力留给难题：如何把教学法做进 AI 系统</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：当 AI 既是唯一的老师、也是唯一的界面，&quot;学习&quot;里最该省掉的与最该保留的东西分别是什么？</strong></p>
+<p style="margin:0.8em 0">&quot;用 AI 学习&quot;的默认姿势，是把问题丢进对话框，等一坨答案倒出来。一位长期分享 AI 工作流的创作者做的恰好相反：不是让 AI 替你思考，而是让系统扛走一切与思考无关的负担——选题、排序、找资源、切换工具——然后把认知努力全部压到材料本身的难点上。为了证明这不是空谈，他选了自己&quot;几乎一无所知&quot;的微分形式，从零开始做了一场完整演示。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">传统学习是&quot;多对多&quot;结构，两个方向都在漏效率</h2>
+<p style="margin:0.8em 0">第一个方向：<strong style="font-weight:600">一个渠道教很多人</strong>。老师、书、课程，设计出来都是面向一群人的。而所谓&quot;最优教学&quot;完全取决于学习者当前的理解水平——它既要覆盖从现有理解到目标理解的整条路径，也要照顾途中每一次解释。所以一条最优路径应该尽量少讲你已经懂的、也尽量少讲你还接不住的，<strong style="font-weight:600">正好在你的理解边缘上工作</strong>。理想情况下，一个老师应该正好对应一个学生。</p>
+<p style="margin:0.8em 0">第二个方向：<strong style="font-weight:600">一个学生用很多渠道</strong>。换渠道意味着适应不同的教学风格、符号体系、可靠程度和界面，切换本身就要耗费心力。但更深的代价是信任：面对不熟悉的渠道，大脑多少会有所保留。同样的解释，一个出自 3Blue1Brown 的视频，另一个出自某路人 X 上的帖子——即使一字不差，从熟悉的来源学，吸收也会轻松得多。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">理想结构是两个方向各占一头一对一。信息源并不会因此变少——它们只是被整合起来，通过一个界面交付。</p>
+</blockquote>
+<p style="margin:0.8em 0">把 AI 放到教师位置上，信任不是靠时间慢慢建立的，而是被设计进系统里的：可靠的验证和事实核查，一是保证信息正确，二是——当着学习者知道系统可靠时，学起来本身就会更容易。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个设计原则</h2>
+<p style="margin:0.8em 0">由这两种低效，引出系统的两条运行原则。<strong style="font-weight:600">一是优化教学</strong>，应对第一种低效；<strong style="font-weight:600">二是优化认知分配</strong>，应对第二种。后者值得单独说清楚：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">这并不意味着消除困难。相反，我们希望把费劲的程度拉到最大——但必须费在材料本身上，而不是琐事、规划、找资源、搞清楚学什么、按什么顺序学上。</p>
+</blockquote>
+<p style="margin:0.8em 0">想学难懂的东西，费劲非常重要，但必须是定向的费劲。所有非认知的负担，都该由系统承担。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">落地路径：探测 → 规划 → 教学</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一阶段，探测。</strong> 系统要精确知道学习者此刻的理解水平，就要去测量：用有梯度的多选题，从非常宽泛的问题开始，在课程将依赖的每个分支上用二分法寻找边界，直到得到一份详尽的理解图谱。演示中，几道题就量出了一条从经典力学一路延伸到狭义相对论的边界——&quot;在运动参考系里，电场和磁场会发生什么变化？&quot;（正确答案：它们会混合。）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二阶段，规划。</strong> 把&quot;这份内容要怎么交付给这个人&quot;完整推演一遍，同时启动第一批负责验证和事实核查的子代理，最后输出一张 Mermaid 依赖图。图有两个作用：让学习者清楚接下来要学什么；以及更实际的动机——<strong style="font-weight:600">倒逼 AI 真正把每一步都推演清楚，这样它就没法偷懒糊弄过去</strong>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三阶段，教学。</strong> 这一阶段因人而异，你要把自己的学习理念装进系统。但无论哪种学习方式，有一个细节都重要：反馈。AI 会定期小测验，检查你是否真的理解。理由有三：人很容易自欺，误以为自己懂了，尤其用 AI 学习的时候；系统需要持续反馈来保持校准；而用练习应用新知识，本身就是让理解扎根的过程。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">演示：一次&quot;从零学微分形式&quot;</h2>
+<p style="margin:0.8em 0">目标是理解麦克斯韦方程组如何用微分形式浓缩成两个方程。工具是终端里的 agent 框架加 Obsidian 前端——一个扩展把对话输出实时沉淀为可长期保存的笔记，还能渲染 LaTeX。</p>
+<p style="margin:0.8em 0">过程里有几个细节值得注意：</p>
+<p style="margin:0.8em 0">节奏被刻意压慢，<strong style="font-weight:600">一次只走一步推理</strong>。理由是：跟 ChatGPT 这类工具交流时，它往往太兴奋，一下把整套东西全倒出来；而一步一停，学习者任何时候有疑问都能随时插问，每步也都好消化。</p>
+<p style="margin:0.8em 0">可视化交给子代理：生成 SVG、自己查看确认准确性、修改、再复查——既保住了主对话的上下文，也让检查真正发生。学到余向量时，一张图直接解了围（小测验：α = 3dx − 2dy 作用在 v 上等于多少？算出 −4，&quot;那张图帮了大忙&quot;）。</p>
+<p style="margin:0.8em 0">每一步推理后都有小测验确认理解，而不是问&quot;你懂了吗&quot;。演示没有走完全程——在楔积与广义斯托克斯定理的门口就收了——但整套机制已经展示完整。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">值得抄走什么</h2>
+<p style="margin:0.8em 0">工具本身（哪个框架、哪个笔记软件）都是可替换件，真正值得抄的是思路：<strong style="font-weight:600">把教学风格固化成系统</strong>。影响学习效率的只有两件事——路径，也就是从当下理解走向目标理解的路线；以及沿途每一步的推导和解释。</p>
+<p style="margin:0.8em 0">也要说一句边界条件：这套系统默认使用者对自己的学习方式有清晰认识（&quot;教学&quot;阶段要求你把学习理念装进去）。对多数人来说，探测和规划两个阶段先跑起来就有收益，教学风格的个性化可以后补。</p>
+<p style="margin:0.8em 0">&quot;用 AI 学习&quot;真正的分水岭，不在于用了哪个模型，而在于认知努力最终花在了哪里。如果今晚就想动手，两个最小动作：让 AI 先测你的边界再开口教；让它先出一张规划图，再开始第一课。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">传统学习的两个漏点：群体教学无法卡在个人的理解边缘；多渠道切换消耗心力与信任。</li>
+<li style="margin:0.3em 0">两条原则：在理解边缘上教学；把非认知负担全部交给系统。</li>
+<li style="margin:0.3em 0">&quot;费劲&quot;不该被消除，而该被定向——全部留给材料本身。</li>
+<li style="margin:0.3em 0">规划图不只是给学习者看的，更是逼 AI 每一步推演清楚的手段。</li>
+<li style="margin:0.3em 0">反馈的三重作用：防自欺、保持校准、练习即巩固。</li>
+<li style="margin:0.3em 0">慢节奏、一次一步，优于&quot;一次性大礼包&quot;。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">欢迎来到 AGI 时代——以及一个非常危险的窗口</h1>
 <p style="margin:0.8em 0">一面是“欢迎来到 AGI 时代”，一面是“我们正处于一个非常危险的窗口”。OpenAI 联合创始人兼总裁 Greg Brockman 在 a16z 播客上，把这两句话之间的完整逻辑讲了一遍：AGI 的成色、算力的墙、防御者的窗口，和一个还没有兑现的承诺。</p>
@@ -16550,7 +16593,7 @@ vs 小镇多区回落延续+发言报喜集中第6次</li>
 低位持平</li>
 <li style="margin:0.3em 0">最值得注意: 三条叙事升级齐发——mk货币化
 路径首给（ARR 1亿=盈亏平衡）+建议再回购
-2亿（&quot;4+4+2=10亿&quot;）+pc&quot;准备商业化&quot;；均无
+2亿（"4+4+2=10亿"）+pc"准备商业化"；均无
 E数字</li>
 <li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E无修正</strong>——11条新增，对错
 ✅3/⚠️6/❓6/❌0；登记#39-43</li>
@@ -16646,10 +16689,10 @@ day34: SEA维持高位（th#3/ph#3/my#6）+港台
 小幅回落（hk#44/tw#28）；⑤回购观察窗第3
 日: 无新公告（9-2起零披露；4亿计划用尽，
 8月回购345万股/1.49亿港元止于9-1；他称
-&quot;应该尽快做、2亿&quot;=倡导，非公司行为→记入
+"应该尽快做、2亿"=倡导，非公司行为→记入
 观察）</li>
-<li style="margin:0.3em 0">慢信号: ③维持⚠️*——他称&quot;tap重回增长已发
-生&quot;（叙事）；8月公开数据前仅标注——不构
+<li style="margin:0.3em 0">慢信号: ③维持⚠️*——他称"tap重回增长已发
+生"（叙事）；8月公开数据前仅标注——不构
 成E修正</li>
 <li style="margin:0.3em 0">先行: ⚠️回落day5回稳未续——6区走弱（kr
 退24/my退32/id退8/cn退2/ph退1/hk再出
@@ -16731,58 +16774,58 @@ br 持续；初心服 my/sg</li>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（实质新增，按主题合并）</h3>
 <p style="margin:0.8em 0">📌 9-16 10:24 估值锚定+回购倡导 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;最极端也就是跌到30多亿…都没跌破10倍…
+<p style="margin:0.8em 0">"最极端也就是跌到30多亿…都没跌破10倍…
 现在净现金30-40亿…跌到8-9倍…回购应该尽
-快做，比如2亿&quot;
+快做，比如2亿"
 主张: ①24年初极端低点30多亿、未破10倍；
-②现价8-9倍；③建议再回购2亿（&quot;4+4+2=
-10亿也够了&quot;）
+②现价8-9倍；③建议再回购2亿（"4+4+2=
+10亿也够了"）
 核查: ①✅——腾讯K线: 24-01-22低点7.47/收
 7.60港元 → 市值~33亿RMB（4.85亿股）；
 ②⚠️——倍数依赖E口径: 157.2÷18.5≈8.5 vs
 ÷15.5=10.1；③=倡导（9-2起零披露）
-对照: 承接9-4&quot;回购排tap高频之后&quot;→升级&quot;尽
-快做&quot;+给规模
+对照: 承接9-4"回购排tap高频之后"→升级"尽
+快做"+给规模
 结论: 防御/倡导类；数字核对全对；不构成E
 修正；⑤观察窗提示项
 对错: ✅（24年低点/净现金）/⚠️（8-9倍口径）</p>
 </blockquote>
-<p style="margin:0.8em 0">📌 9-16 10:35→13:45 &quot;四点半年度&quot;簇 | 🟡</p>
+<p style="margin:0.8em 0">📌 9-16 10:35→13:45 "四点半年度"簇 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;1、tap重回增长 2、mk和AI扭亏 3、爆款小
+<p style="margin:0.8em 0">"1、tap重回增长 2、mk和AI扭亏 3、爆款小
 游戏出圈 4、pc到100万dau 其实1已经发生
-了&quot;&quot;4确实快了，准备商业化了&quot;&quot;下半年内都
-会看到&quot;
+了""4确实快了，准备商业化了""下半年内都
+会看到"
 主张: ①tap已增长；②mk/AI扭亏；③小游戏出
 圈；④pc 100万DAU+商业化——H2内全部兑现
 核查: ①⚠️——H1广告-0.4%持平、8月+10-20%
-（自估），&quot;已发生&quot;无公开月度数据坐实；
-②③④❓前瞻（H2窗口）——pc&quot;准备商业化&quot;
+（自估），"已发生"无公开月度数据坐实；
+②③④❓前瞻（H2窗口）——pc"准备商业化"
 为新信息
-对照: 升级#36（1-2个月到100万→&quot;快了&quot;）；
-回应帖内&quot;缺tap催化剂&quot;质疑
+对照: 升级#36（1-2个月到100万→"快了"）；
+回应帖内"缺tap催化剂"质疑
 结论: H2叙事总纲；登记#39-#40；折30%看待
-对错: ⚠️（tap&quot;已发生&quot;）/❓（余项）</p>
+对错: ⚠️（tap"已发生"）/❓（余项）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-16 11:42 12-13倍论断 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;以心动下半年基本面…12-13倍估值是可以
+<p style="margin:0.8em 0">"以心动下半年基本面…12-13倍估值是可以
 的…10倍以下不是基本面、也不是流动性问
-题，是市场参与者的看法问题&quot;
+题，是市场参与者的看法问题"
 主张: 合理估值12-13x；10倍以下是认知问题
 核查: ❓——主观锚无公开共识源；可对照: 现
 价10.1x（我E15.5）/8.5x（他E18.5口径）
-对照: 8-28&quot;市场不认20亿&quot;→&quot;12-13倍可以&quot;
+对照: 8-28"市场不认20亿"→"12-13倍可以"
 （防御结构延续）
 结论: 估值结论折30%；不构成E修正
 对错: ❓</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-16 11:54 mk货币化路径 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;第一个半内购游戏，免广告卡…跑通是改变
+<p style="margin:0.8em 0">"第一个半内购游戏，免广告卡…跑通是改变
 逻辑的事…ARR 1亿左右mk盈亏平衡…5亿→1
 亿多点利润…10亿→2亿多点…3%小游戏份额
-→10亿+增量净额收入&quot;
+→10亿+增量净额收入"
 主张: ①内购流水30-50%转报表（抽成+广告）；
 ②ARR阈值: 1亿=平衡/5亿→1亿利润/10亿→2
 亿；③3%份额→10亿+净额收入
@@ -16796,15 +16839,15 @@ br 持续；初心服 my/sg</li>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-16 12:23 小镇H1/H2拆分 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上半年国际服9-10亿+国服2-3亿≈12亿；下
+<p style="margin:0.8em 0">"上半年国际服9-10亿+国服2-3亿≈12亿；下
 半年国际服6-7亿+国服3-4亿≈10亿；报表
-上下半年收入均10-11亿；H2利润率+5-10%&quot;
+上下半年收入均10-11亿；H2利润率+5-10%"
 主张: 小镇H2≈10亿（国际6-7+国3-4）；报表
 收入H2≥H1；H2利润率改善（少1亿宣发→利
 润多几千万）
 核查: ⚠️自估——无分产品公开流水；对照:
 H1海外收入+46%（总口径）、国服榜单低位
-（cn#89）；&quot;宣发少1亿&quot;与表2#28一致
+（cn#89）；"宣发少1亿"与表2#28一致
 对照: 表2#22细分版（全球10亿）+利润率结
 构新增；数字在自设±10%波动内
 结论: 产品级折30%；与E不冲突；验证=Q3数
@@ -16813,24 +16856,24 @@ H1海外收入+46%（总口径）、国服榜单低位
 </blockquote>
 <p style="margin:0.8em 0">📌 9-16 20:43 伊莫首发数据 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;tap pc已经有13万+下载、13000+同时在线…
+<p style="margin:0.8em 0">"tap pc已经有13万+下载、13000+同时在线…
 steam国际服10万+同时在线…畅销榜第八——
-日流水1000万左右&quot;
+日流水1000万左右"
 主张: ①tap pc渠道数据；②Steam 10万+在线；
 ③日流水~1000万
 核查: ②✅——Steam API实测（22:50 CST）:
 121,367在线；①⚠️自估（tap pc无公开数
-据）；③⚠️自估（无独立源）；&quot;畅销第八&quot;
+据）；③⚠️自估（无独立源）；"畅销第八"
 未独立复核
-对照: 9-15&quot;PC数据放大&quot;线索延续；伊莫=竞
+对照: 9-15"PC数据放大"线索延续；伊莫=竞
 品，用作tap pc渠道能力观察
 结论: 渠道验证项；登记#43；不构成E修正
 对错: ✅（Steam在线）/⚠️（tap pc/流水）</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-16 13:24 &amp; 20:09 上下文帖 | ⚪</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;还真是…我还以为tk搞错了&quot; / &quot;这游戏品质
-是在线的&quot;
+<p style="margin:0.8em 0">"还真是…我还以为tk搞错了" / "这游戏品质
+是在线的"
 主张: 无实质主张（上下文缺失）
 核查: 不适用；20:09疑与伊莫相关
 结论: 不计入统计
@@ -16868,9 +16911,9 @@ steam国际服10万+同时在线…畅销榜第八——
 </tbody>
 </table></div>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">明细: 报忧带转折=割肉/信心差→&quot;业务越来
-越赚钱&quot;+回购应做；归因外移=&quot;10倍以下是
-看法问题&quot;；预测更新=pc商业化/四点半/H2
+<li style="margin:0.3em 0">明细: 报忧带转折=割肉/信心差→"业务越来
+越赚钱"+回购应做；归因外移="10倍以下是
+看法问题"；预测更新=pc商业化/四点半/H2
 拆分/ARR路径；历史锚定=24年初对比（利率
 5.25%→3.5-3.75%/33亿低点/可转债）</li>
 <li style="margin:0.3em 0">报喜集中性: <strong style="font-weight:600">命中（第6次）</strong>——利好≥5条
@@ -16881,8 +16924,8 @@ steam国际服10万+同时在线…畅销榜第八——
 tap pc数据</li>
 <li style="margin:0.3em 0">公司级10-15%: 适用——修复论/模型口径/
 H2利润率</li>
-<li style="margin:0.3em 0">对冲叙事Σ+50%: 弱适用——&quot;mk需抵消对
-tap的负面&quot;（条件句非既成）</li>
+<li style="margin:0.3em 0">对冲叙事Σ+50%: 弱适用——"mk需抵消对
+tap的负面"（条件句非既成）</li>
 <li style="margin:0.3em 0">估值结论30%: 适用——12-13倍/8-9倍/回
 购建议</li>
 </ul>
@@ -16929,8 +16972,8 @@ pc数据（#43）</li>
 日新增5项）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
-<p style="margin:0.8em 0">26E扣非: 我15.5±1 / 他16-17（无新E；&quot;8-9
-倍&quot;隐含~18亿口径）/ 卖方15.91（开源9月）/
+<p style="margin:0.8em 0">26E扣非: 我15.5±1 / 他16-17（无新E；"8-9
+倍"隐含~18亿口径）/ 卖方15.91（开源9月）/
 市场隐含≈10.2亿（157.2÷15.45）→ 无变化
 （残差-34%持平）
 小镇国际服: 我17 / 他17（H2拆分~10亿与表2
