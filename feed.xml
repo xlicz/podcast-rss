@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 16 Sep 2026 06:00:37 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 16 Sep 2026 09:00:04 +0800</lastBuildDate><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">欢迎来到 AGI 时代——以及一个非常危险的窗口</h1>
 <p style="margin:0.8em 0">一面是“欢迎来到 AGI 时代”，一面是“我们正处于一个非常危险的窗口”。OpenAI 联合创始人兼总裁 Greg Brockman 在 a16z 播客上，把这两句话之间的完整逻辑讲了一遍：AGI 的成色、算力的墙、防御者的窗口，和一个还没有兑现的承诺。</p>
@@ -16075,10 +16075,10 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线告警：窗口边缘漏扫 11 集（已全部补扫）</h2>
-<p style="margin:0.8em 0"><strong style="font-weight:600">现象</strong>：跨国串门儿计划 #700~#714 共 11 集（发布日 09-02~09-09）的转录由 WSL ASR 于 09-12 凌晨批次生成；产出时其发布日已滑出当日 cron 的 3 天窗口边界，此后窗口继续前移，永久排除。&quot;3天空→7天回退&quot;机制不覆盖&quot;窗口非空但个别剧集漏扫&quot;这一形态。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">现象</strong>：跨国串门儿计划 #700~#714 共 11 集（发布日 09-02~09-09）的转录由 WSL ASR 于 09-12 凌晨批次生成；产出时其发布日已滑出当日 cron 的 3 天窗口边界，此后窗口继续前移，永久排除。"3天空→7天回退"机制不覆盖"窗口非空但个别剧集漏扫"这一形态。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">影响</strong>：11 集从未被分析、归档或出现在任何历史报告中（processed.json / archive / 报告三重核验确认）。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">处置</strong>：本轮一次性补扫全部 11 集（4 集深度分析 + 6 集上下文级轻扫 + 1 集确认为跨源重复）；其中 #704 检出 1 条 CRM 持仓披露 —— 证明该漏扫形态会实际丢失信号。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">修复建议</strong>（已提交 skill 补丁，待批准）：SOP 增加&quot;14天孤儿审计&quot;步骤 —— 常规窗口外，用 14 天窗口跑 dedup，未处理孤儿集纳入本轮分析（≤4 集全做；&gt;4 集做最新 4 集、其余列入待补扫）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">修复建议</strong>（已提交 skill 补丁，待批准）：SOP 增加"14天孤儿审计"步骤 —— 常规窗口外，用 14 天窗口跑 dedup，未处理孤儿集纳入本轮分析（≤4 集全做；&gt;4 集做最新 4 集、其余列入待补扫）。</p>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
 <tr>
@@ -16145,7 +16145,7 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划《#704 AI Agent扩张下的算力需求、复合型公司与投资赢家》</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">CRM（Salesforce, NYSE）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">嘉宾（推断 Rory O'Driscoll）称继续持有&quot;相当大的一笔&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">嘉宾（推断 Rory O'Driscoll）称继续持有"相当大的一笔"</td>
   <td style="text-align:center">⭐⭐⭐</td>
 </tr>
 </tbody>
@@ -16156,26 +16156,26 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-05 | <strong style="font-weight:600">原节目</strong>: 20VC（主持 Harry Stebbins；嘉宾 Rory O'Driscoll、Jason Lemkin）| <strong style="font-weight:600">转录</strong>: ~30K字（Qwen3-ASR，无说话人分离）</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">相关性</strong>: 10/10 | <strong style="font-weight:600">信号</strong>: 🔥1</p>
 <h4>🔥 持仓披露</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">CRM（Salesforce，NYSE）</strong> — Rory O'Driscoll（据上下文推断）：<strong style="font-weight:600">继续持有</strong>（自称&quot;相当大的一笔&quot;，未量化）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">CRM（Salesforce，NYSE）</strong> — Rory O'Driscoll（据上下文推断）：<strong style="font-weight:600">继续持有</strong>（自称"相当大的一笔"，未量化）</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">披露来源</strong>: 转录约 22100 字符处，原句：「但说点实在的，我还在继续持有相当大的一笔 Salesforce 股票，因为我觉得他们挺过了这场末日。」</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">佐证语境</strong>: 「我拿着手里的持仓，把它放在投资组合里，心里会想：这不是这场战争里的牺牲品，这是一家复合型公司……有可观的现金流和合理的估值。」</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">同段另提及</strong>: World Cloud 云计算指数 ETF（「跟我们前阵子买的时候比涨势非常猛」，代码未确认）→ 未计入信号（标的不明确）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">⚠️ 说话人归属</strong>: 转录无说话人分离；该句对&quot;Harry&quot;说话、以第三人称引述&quot;Jason 的观点&quot;→ 推断为嘉宾 Rory O'Driscoll（该集嘉宾为 Rory O'Driscoll 与 Jason Lemkin）。存在归属不确定性。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">⚠️ 说话人归属</strong>: 转录无说话人分离；该句对"Harry"说话、以第三人称引述"Jason 的观点"→ 推断为嘉宾 Rory O'Driscoll（该集嘉宾为 Rory O'Driscoll 与 Jason Lemkin）。存在归属不确定性。</li>
 </ul>
 <h4>🧠 嘉宾的主张（结论）</h4>
-<p style="margin:0.8em 0">SaaS 末日叙事下，Salesforce 不仅没死，还主动自我改造：①开放&quot;多触点&quot;（客户可经 MCP/headless/任意前端访问）；②从订阅制转向&quot;按结果计费&quot;。因此保住&quot;核心记录系统&quot;地位、估值正常化，属于&quot;不错的复合型公司&quot;；但并非十拿九稳——<strong style="font-weight:600">作为股东他选择继续持有大仓位</strong>。</p>
+<p style="margin:0.8em 0">SaaS 末日叙事下，Salesforce 不仅没死，还主动自我改造：①开放"多触点"（客户可经 MCP/headless/任意前端访问）；②从订阅制转向"按结果计费"。因此保住"核心记录系统"地位、估值正常化，属于"不错的复合型公司"；但并非十拿九稳——<strong style="font-weight:600">作为股东他选择继续持有大仓位</strong>。</p>
 <h4>📊 支撑论据</h4>
 <ol style="padding-left:1.5em">
 <li style="margin:0.3em 0">多触点战略落地：客户可绕过 Salesforce 界面、经任意触点（含第三方入口）访问其数据；CEO 贝尼奥夫公开接受开放 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察+节目引述]</code></li>
 <li style="margin:0.3em 0">按结果付费转型试点（RPV 上升）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
-<li style="margin:0.3em 0">收购 Intercom（按&quot;解决量&quot;计费的结果型客服）——嘉宾自述「我们不到一年前有幸投资了它」<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
+<li style="margin:0.3em 0">收购 Intercom（按"解决量"计费的结果型客服）——嘉宾自述「我们不到一年前有幸投资了它」<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code></li>
 <li style="margin:0.3em 0">财务面：市值约 $2120 亿、营收 $400-450 亿（转录两处不一致）、FCF 率 30-35%（约 $100-120 亿）、增速 11-12% <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据]</code></li>
 <li style="margin:0.3em 0">B2B 全面转向结果导向（Palantir 增速 90%+、Sierra 表现好）；不转型的记录系统随时间萎缩 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
 <li style="margin:0.3em 0">自设反方：「大盘极高」、涨跌概率对比不明朗、「我不觉得这是十拿九稳的事儿」<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code></li>
 </ol>
 <h4>🔗 论证过程</h4>
-<p style="margin:0.8em 0">agent 冲击记录系统（SaaS 末日论）→ Salesforce 以&quot;多触点+结果计费&quot;自我改造 → 保住记录系统地位并能&quot;交付结果&quot; → 估值正常化（$2120亿/@11-12%增速）→ 回报温和但风险可控 → 「不是战争牺牲品，是复合型公司」→ <strong style="font-weight:600">继续持有大仓位</strong>。</p>
+<p style="margin:0.8em 0">agent 冲击记录系统（SaaS 末日论）→ Salesforce 以"多触点+结果计费"自我改造 → 保住记录系统地位并能"交付结果" → 估值正常化（$2120亿/@11-12%增速）→ 回报温和但风险可控 → 「不是战争牺牲品，是复合型公司」→ <strong style="font-weight:600">继续持有大仓位</strong>。</p>
 <h4>🔍 事实核查</h4>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
@@ -16195,7 +16195,7 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;Salesforce 刚刚收购了 Intercom&quot;</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"Salesforce 刚刚收购了 Intercom"</td>
   <td style="text-align:center">❓</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">播客口述，未独立核验</td>
 </tr>
@@ -16209,28 +16209,28 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">嘉宾持有 Salesforce 大仓位（信号本体）</td>
   <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第一人称原句清晰；&quot;相当大&quot;无量化、无具体比例</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">第一人称原句清晰；"相当大"无量化、无具体比例</td>
 </tr>
 </tbody>
 </table></div>
 <p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>: 财务数字、收购、增速均为节目口述；ETF 代码未确认。
-<strong style="font-weight:600">可能的逻辑谬误</strong>: ①持仓者偏差（已持仓者倾向正面解读）；②以个别案例（Intercom/Palantir/Sierra）外推行业；③&quot;挺过末日&quot;为叙事框架、非可证伪命题。</p>
+<strong style="font-weight:600">可能的逻辑谬误</strong>: ①持仓者偏差（已持仓者倾向正面解读）；②以个别案例（Intercom/Palantir/Sierra）外推行业；③"挺过末日"为叙事框架、非可证伪命题。</p>
 <h4>🔬 第一性原理剖析</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>: ①agent 浪潮下&quot;核心记录系统&quot;不会被绕过/替代；②开放多触点+按结果计费能维持竞争力（而非侵蚀订阅收入）；③当前估值无泡沫、大盘不深调。
-<strong style="font-weight:600">反例/风险</strong>: agent 层直连数据层可能架空 UI/记录系统；结果计费全面铺开或侵蚀高毛利订阅；11-12% 增速下估值无扩张空间、回报依赖&quot;温和上涨&quot;；嘉宾本人称&quot;不是十拿九稳&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>: ①agent 浪潮下"核心记录系统"不会被绕过/替代；②开放多触点+按结果计费能维持竞争力（而非侵蚀订阅收入）；③当前估值无泡沫、大盘不深调。
+<strong style="font-weight:600">反例/风险</strong>: agent 层直连数据层可能架空 UI/记录系统；结果计费全面铺开或侵蚀高毛利订阅；11-12% 增速下估值无扩张空间、回报依赖"温和上涨"；嘉宾本人称"不是十拿九稳"。</p>
 <h4>📈 投资信号可靠度</h4>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 披露语句清晰（第一人称&quot;继续持有&quot;）；扣分项：说话人归属为推断、翻译节目二手转录、&quot;相当大&quot;无量化。
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 披露语句清晰（第一人称"继续持有"）；扣分项：说话人归属为推断、翻译节目二手转录、"相当大"无量化。
 <strong style="font-weight:600">风险</strong>: 若 agent 真正绕开记录系统、或结果计费转型不顺，持有逻辑证伪。</p>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #704（含信号，详见上方）— 本集其他要点</h3>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达</strong>：创纪录 $960 亿季收 + 罕见给出财年 +70% 指引（华尔街预期约 +44%）；&quot;最强劲算力需求至少再持续 12 个月&quot;；崩盘风险逐项排除（客户停购/循环交易/终端需求），唯一真风险=终端需求不及预期。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达约 $129 亿收购 Hugging Face</strong>（ARR 仅 1 亿出头）：下游越开源、GPU 卖越多；&quot;必须全赢的中局棋&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI 切断 Cursor 的 Codex 供给</strong>：编码是主力负载、正面相撞；&quot;别与刚起诉你的人做生意&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Hugging Face 被数百个 agent 蜂群攻破</strong>（潜伏数周未被发现）：不要拟人化 agent；&quot;攻击者从弓箭换成导弹&quot;。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">复合型公司</strong>：代码产出 ×100、竞品互侵；VC 本能=&quot;秀出赢家、把钱砸进去&quot;（a16z 成长基金扩至 $85 亿）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">编程 TAM 重估</strong>：美国软件人力支出 $5000 亿/年 → AI 转化 10-40% = $500-2000 亿；&quot;用更少资源做更多事&quot;被证伪。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达</strong>：创纪录 $960 亿季收 + 罕见给出财年 +70% 指引（华尔街预期约 +44%）；"最强劲算力需求至少再持续 12 个月"；崩盘风险逐项排除（客户停购/循环交易/终端需求），唯一真风险=终端需求不及预期。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达约 $129 亿收购 Hugging Face</strong>（ARR 仅 1 亿出头）：下游越开源、GPU 卖越多；"必须全赢的中局棋"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI 切断 Cursor 的 Codex 供给</strong>：编码是主力负载、正面相撞；"别与刚起诉你的人做生意"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Hugging Face 被数百个 agent 蜂群攻破</strong>（潜伏数周未被发现）：不要拟人化 agent；"攻击者从弓箭换成导弹"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">复合型公司</strong>：代码产出 ×100、竞品互侵；VC 本能="秀出赢家、把钱砸进去"（a16z 成长基金扩至 $85 亿）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">编程 TAM 重估</strong>：美国软件人力支出 $5000 亿/年 → AI 转化 10-40% = $500-2000 亿；"用更少资源做更多事"被证伪。</li>
 <li style="margin:0.3em 0">一级市场：Clay $70 亿估值融资 / Linear $25 亿要约 / Polymarket $210 亿 / Cognition $460 亿。</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #709.All-in：GPT-6 达到 AGI？科技热潮 2.0、纽约市禁止学校使用 AI</h3>
@@ -16238,10 +16238,10 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">**GPT-6（代号 ASTRA）**发布：先向受限机构及绑卡付费用户开放；Brockman 称 OpenAI 已进入 AGI 时代；Chamath 认为 AGI 事实上今年初已在闭源前沿实现。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">双市场结构</strong>（Sacks）：前沿智能=Anthropic/OpenAI 双头垄断（每 2-4 周互相反超）；其下=商品化智能（含全部开源），争价格。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">泡沫定位</strong>：Jason=1996-97、Sacks=1997、&quot;还没见顶&quot;；Chamath=或还有约 3 年（对应 2000 年 3-4 月才破裂）。与 2000 年差异：这次有营收/利润/现金流；&quot;入场价格很关键&quot;（50-100 倍市销率危险）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">泡沫定位</strong>：Jason=1996-97、Sacks=1997、"还没见顶"；Chamath=或还有约 3 年（对应 2000 年 3-4 月才破裂）。与 2000 年差异：这次有营收/利润/现金流；"入场价格很关键"（50-100 倍市销率危险）。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">创始人建议</strong>：有资格就现在卖 10-20% 老股落袋；拿到营收 10-40 倍扎实估值不要推迟融资。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Anthropic IPO 是 SF 地产催化剂</strong>：某主持称未来 6 个月&quot;全部清空&quot;旧金山房产（不动产操作，非证券）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达收购 Hugging Face</strong>：Chamath 称&quot;从今天起，英伟达是 OpenAI 和 Anthropic 的头号竞争对手&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Anthropic IPO 是 SF 地产催化剂</strong>：某主持称未来 6 个月"全部清空"旧金山房产（不动产操作，非证券）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达收购 Hugging Face</strong>：Chamath 称"从今天起，英伟达是 OpenAI 和 Anthropic 的头号竞争对手"。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">HF 被 agent swarm 攻破</strong>+监管博弈：Polymarket 显示今年 AI 安全法案通过概率 11%；Sacks/Chamath 指控 EA 圈与 Anthropic 利益未披露。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">数据中心政治</strong>：德州/宾州选举季转向反对数据中心；正方论据=地方税收下降/教师奖金。</li>
 <li style="margin:0.3em 0">支线：纽约市 K-8 AI 禁令（60 万学生）；委内瑞拉石油特许经营（美政府占 55% 份额）。</li>
@@ -16249,23 +16249,23 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #713.Grok Bot：AI 应该像真正的同事一样工作</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-09 | <strong style="font-weight:600">原节目</strong>: Lenny's Podcast x Roman Ugart（前 Cursor 增长负责人，现 xAI）| <strong style="font-weight:600">信号</strong>: ⚪</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">起源：想做&quot;工具体验&quot;而非只服务开发者；闭关小团队一个月出原型，上线前两周还在大幅砍功能。</li>
-<li style="margin:0.3em 0">关键决策一：不为 Cursor 塞功能，从零做全新产品（&quot;别把组织架构做成产品&quot;）。</li>
-<li style="margin:0.3em 0">关键决策二：bot 完全跑在云端、每个 bot 有&quot;自己的电脑&quot;（独立账号/环境）——支撑跨设备同步、短信触发、computer use 打通无 API 老系统。</li>
-<li style="margin:0.3em 0">人工 onboarding：核心团队亲手导入 200-300 名早期用户；不预灌用法（&quot;幕僚长 bot&quot;为用户自发涌现）。</li>
+<li style="margin:0.3em 0">起源：想做"工具体验"而非只服务开发者；闭关小团队一个月出原型，上线前两周还在大幅砍功能。</li>
+<li style="margin:0.3em 0">关键决策一：不为 Cursor 塞功能，从零做全新产品（"别把组织架构做成产品"）。</li>
+<li style="margin:0.3em 0">关键决策二：bot 完全跑在云端、每个 bot 有"自己的电脑"（独立账号/环境）——支撑跨设备同步、短信触发、computer use 打通无 API 老系统。</li>
+<li style="margin:0.3em 0">人工 onboarding：核心团队亲手导入 200-300 名早期用户；不预灌用法（"幕僚长 bot"为用户自发涌现）。</li>
 <li style="margin:0.3em 0">信息克制：不展示工具调用/思维链，像对待人类同事一样。</li>
-<li style="margin:0.3em 0">增长：抢在基础模型实验室下一代产品前的窗口；先攻企业（&quot;个人尝鲜→带回公司&quot;路径）。</li>
-<li style="margin:0.3em 0">护城河观：&quot;把 3-6 个月后的能力提前搬到现在&quot;；100% vs 90% 可信任度是质变。</li>
+<li style="margin:0.3em 0">增长：抢在基础模型实验室下一代产品前的窗口；先攻企业（"个人尝鲜→带回公司"路径）。</li>
+<li style="margin:0.3em 0">护城河观："把 3-6 个月后的能力提前搬到现在"；100% vs 90% 可信任度是质变。</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #714.Tibo 谈 Codex：harness 总比模型快一步</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-09 | <strong style="font-weight:600">嘉宾</strong>: Tibo（OpenAI Codex 负责人）| <strong style="font-weight:600">信号</strong>: ⚪</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">Codex 之始：先训&quot;懂自己代码库&quot;的内部 agent，再与&quot;自主软件工程师&quot;项目合并；云端版未找到 PMF → CLI/harness 路线成功。</li>
+<li style="margin:0.3em 0">Codex 之始：先训"懂自己代码库"的内部 agent，再与"自主软件工程师"项目合并；云端版未找到 PMF → CLI/harness 路线成功。</li>
 <li style="margin:0.3em 0">为何 Rust：agent 核心与产品界面解耦；正确性/安全/编译期校验；代价=短期落在训练分布之外。</li>
-<li style="margin:0.3em 0">全开源（CLI/SDK/应用服务器）：社区贡献、新人入职前已读仓库；代价=对手抢先、低质贡献洪流——&quot;你签下的契约&quot;。</li>
-<li style="margin:0.3em 0">harness 不绑定自家模型：&quot;靠真本事去赢，而不是靠绑定去赢&quot;。</li>
-<li style="margin:0.3em 0">&quot;harness 总比模型快一步&quot;：拐杖会被下一代模型内化；按&quot;改 harness vs 等模型 1/3/6 个月&quot;权衡。</li>
-<li style="margin:0.3em 0">Code Review 自动化闸门：OpenAI 所有 PR 必过安全拦截；人类 review 上移到&quot;意图与不变式&quot;。</li>
+<li style="margin:0.3em 0">全开源（CLI/SDK/应用服务器）：社区贡献、新人入职前已读仓库；代价=对手抢先、低质贡献洪流——"你签下的契约"。</li>
+<li style="margin:0.3em 0">harness 不绑定自家模型："靠真本事去赢，而不是靠绑定去赢"。</li>
+<li style="margin:0.3em 0">"harness 总比模型快一步"：拐杖会被下一代模型内化；按"改 harness vs 等模型 1/3/6 个月"权衡。</li>
+<li style="margin:0.3em 0">Code Review 自动化闸门：OpenAI 所有 PR 必过安全拦截；人类 review 上移到"意图与不变式"。</li>
 <li style="margin:0.3em 0">并入 ChatGPT：压进 $20/月 Plus；ChatGPT Work=云端完整 Codex harness + 强 VM；Codex 已过 2000 万活跃用户。</li>
 </ul>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
@@ -16290,7 +16290,7 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
   <td style="text-align:center">⭐</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#701.AI 如何加速学习与重塑教育</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Alpha School 学习科学（&quot;我投入十亿美元&quot;=私有项目，剔除）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Alpha School 学习科学（"我投入十亿美元"=私有项目，剔除）</td>
 </tr>
 <tr>
   <td style="text-align:center">⭐</td>
@@ -16337,5 +16337,90 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-16.html</link><guid isPermaLink="false">report:AI动态:2026-09-16:76ef77c8</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-16</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/16（Gemini 3.8 Live 语音双模型 / Agility Digit 5 发布 / TypeSafe &quot;System One&quot; 决策模型 / Meta MTIA 450 / 无问芯穹 APXInf 开源）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：语音 AI 与机器人两条主线同日刷新——Google 发布 Gemini 3.8 Live / 3.8 Live Extended Thinking，Artificial Analysis 语音质量指数登顶（82.6），实时语音进入&quot;可打断+视觉&quot;阶段；Agility 发布首个&quot;协同安全&quot;人形机器人 Digit 5——取消安全围栏（Forbes）、9 分钟快充、$300M+ 订单，把共性安全变成工业规模化部署前提。模型侧出现 LLM 之外新品类：前 OpenAI 核心研究员 Diogo Almeida（RLHF/InstructGPT 共同发明人）率 TypeSafe AI 结束两年隐身，发布&quot;System One Models&quot;与首发模型 Jev（$40M 融资）。AI 硬件侧 Meta 自研芯片提速：MTIA 450 定档 2027H1 部署、主打降本。具身智能侧无问芯穹联合清华/上交开源端侧推理引擎 APXInf——Jetson Thor 上 PI 0.5 延迟 278ms→26ms。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Google 发布 Gemini 3.8 Live / 3.8 Live Extended Thinking：AA 语音质量指数 82.6 登顶</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Agility 发布 Digit 5：首个&quot;协同安全&quot;人形机器人、$300M+ 多年期订单</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">TypeSafe AI 结束隐身：$40M 融资、&quot;System One Models&quot;决策模型 + 首发 Jev</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Meta 自研 AI 芯片提速：MTIA 450 目标 2027H1 部署、主打降本</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无问芯穹联合清华/上交开源具身端侧推理引擎 APXInf：延迟 278ms→26ms</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">具身智能</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Google 发布 Gemini 3.8 Live / 3.8 Live Extended Thinking：实时语音对话双模型 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Google 发布两款实时语音模型：<strong style="font-weight:600">Gemini 3.8 Live</strong>（快速流畅对话、实时视觉+语言支持、对话中工具管理）与 <strong style="font-weight:600">Gemini 3.8 Live Extended Thinking</strong>（高复杂度任务、多步推理，后台执行工具调用）。官方称其为&quot;最先进的实时对话模型&quot;，已在 Gemini app、Google Workspace、Search 上线，并向开发者提供生产级语音 Agent 构建组件。基准：Extended Thinking 在 Artificial Analysis Speech-to-Speech Quality Index 拿下 #1（82.6），τ-Voice 68.6%、Sierra τ-Voice-banking 35.1%，Big Bench Audio 97.7%。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Google 官方博客全文（benchmark 段落逐项核对）✅HN 262 pts ✅tech-insider 等媒体跟进 — <strong style="font-weight:600">关注</strong>: 语音交互进入&quot;可打断+实时视觉&quot;阶段</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Google 官方博客（blog.google）🟢 / HN / tech-insider.org</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Agility 发布 Digit 5：首个&quot;协同安全&quot;人形机器人，$300M+ 订单 | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">Agility Robotics 发布 Digit 5——其首款为&quot;与人协同安全作业&quot;设计的人形机器人：新安全架构（感知行人并自动避让/停止；视觉+听觉意图传达；独立安全控制器），并成为 <strong style="font-weight:600">NVIDIA Halos for Robotics 平台首个发布伙伴</strong>。硬件升级：cycloidal 执行器新腿部可反复举升 50 lb；电池 90 分钟续航/9 分钟快充（运行-充电比 10:1，Digit 4 为 2:1）；身高 1.81m、触及 2.2m、可换抓手。商业化：截至 2026 年 5 月 Digit 5 多年期订单超 <strong style="font-weight:600">$3 亿</strong>；基于 65,000+ 小时运营数据；GXO 现场 Digit 4 累计 100,000 箱、约 98% 准确率；计划北美以外（欧洲起）商用。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官方 PR 全文逐项核对 ✅ Forbes（$300M 订单）/ Ars Technica / GeekWire / The Robot Report / BI 等 10+ 源 — <strong style="font-weight:600">关注</strong>: &quot;无安全围栏&quot;+共工安全=人形产线规模部署前提</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Agility Robotics 官方 🟢 / Forbes / Ars Technica / GeekWire / The Robot Report</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. TypeSafe AI 结束两年隐身：$40M 融资，发布 LLM 之外&quot;决策模型&quot; System One / Jev | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">前 OpenAI 核心研究员 <strong style="font-weight:600">Diogo Almeida</strong>（RLHF/InstructGPT 共同发明人、前 Google Brain）创办的 TypeSafe AI 结束两年隐身，携 <strong style="font-weight:600">$40M 融资</strong>发布新模型类别&quot;<strong style="font-weight:600">System One Models</strong>&quot;及首发模型 <strong style="font-weight:600">Jev</strong>：不做字符串生成，而是输出&quot;类型化概率决策&quot;（typed probabilistic decisions）供软件直接调用——定位为&quot;frontier-intelligence function call&quot;。技术上采用新架构 + 并行采样器（单次查询生成全部输出）+ RLCD 训练法（Reinforcement Learning for Calibrated Decisions）。声称同等智能水平下比 LLM 快约 2 个数量级：$0.042/MTok、输出免费、70–500ms 响应；首页称 193.6x 更快 / 444.6x 更便宜。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅官方博客+团队页（创始人背景）✅Business Wire（$40M 融资）✅HN 637 pts 🔴 性能/价格声称均为自测口径、无第三方复现 — <strong style="font-weight:600">关注</strong>: 软件原生决策模型——Agent 基础设施新赛道</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TypeSafe AI 官方博客 🟢 / Business Wire / HN</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Meta 自研 AI 芯片提速：MTIA 450 目标 2027 上半年部署 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Bloomberg 报道，Meta 将扩大自研 AI 芯片使用，目标 <strong style="font-weight:600">2027 年上半年部署新一代 MTIA 450</strong>，主打成本与能效——报道称 Meta 宣扬其成本节省效果、目标在效率上对标英伟达；LA Times 补充&quot;削减数据中心电费&quot;视角。多家媒体跟进，Meta 股价受提振。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅Bloomberg 原始报道 + Yahoo Finance / LA Times / Seeking Alpha / Investing.com 等 8+ 家一致（MTIA 450、2027H1）🔴 能效/成本具体数字未公开、Meta 未正式官宣 — <strong style="font-weight:600">关注</strong>: 自研芯片替代英伟达进入部署时间表</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Bloomberg 🟡 / Yahoo Finance / LA Times / Seeking Alpha</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. 无问芯穹联合清华、上交开源具身端侧推理引擎 APXInf | 🟢 | [✅事实]</h3>
+<p style="margin:0.8em 0">无问芯穹联合清华大学、上海交通大学开源具身端侧推理引擎 <strong style="font-weight:600">APXInf</strong>，面向机器人本体端侧推理：支持 RTX 4090、Jetson Orin、Jetson Thor；在 Jetson Thor 上 <strong style="font-weight:600">PI 0.5 FP8 端到端推理延迟从 278ms 降至 26ms 以内（~10.7x）、频率 38.46Hz</strong>；采用 Pipeline/Graph/Kernel/量化多层优化 + Agent4Kernel 融合算子，Rust 极简运行时；与训练框架 RLinf 同生态（GitHub: RLinf/APXinf-robo）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅GitHub 仓库已上线（RLinf/APXinf-robo，09/15 更新）✅量子位 / 中国科技网 / 腾讯新闻 / 网易多源一致 🔴 &quot;SOTA&quot;为团队口径；频率口径有出入（38.46 vs 46Hz） — <strong style="font-weight:600">关注</strong>: 具身模型端侧实时部署&quot;最后一公里&quot;</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: 无问芯穹 / 量子位 🟢 / 中国科技网 / 腾讯新闻</li>
+</ul>
+<p style="margin:0.8em 0">📅 覆盖时段: 09/15–09/16</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
