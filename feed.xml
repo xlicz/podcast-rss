@@ -1,67 +1,178 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 18 Sep 2026 05:29:30 +0800</lastBuildDate><item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 18 Sep 2026 06:00:39 +0800</lastBuildDate><item><title>[a16z] AI 视频的下一个前沿：控制</title><link>https://xlicz.github.io/podcast-rss/articles/AI-视频的下一个前沿-控制-2026-09-17.html</link><guid isPermaLink="false">a16z_5d7467d8ea88</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>AI 视频的下一个前沿：控制</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 视频的下一个前沿：控制</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：当 5 秒视频 1.5 秒出片、综合效率提升约 35 倍，AI 视频真正稀缺的东西变成了"听话"——镜头、光线、动作、口型，每一件都要能被精确指挥。</strong></p>
+<p style="margin:0.8em 0">一个开放权重的视频模型被"后训练"了一遍：对照原版服务，综合效率提升约 35 倍，最快的版本生成 5 秒视频只要 1.5 秒。模型上线的那个周末，一位工程师已经用笔记本电脑把它做成了不间断的直播。在 fal 联合创始人 Görkem Yurtseven 和工程负责人 Batuhan Tang 看来，速度和便宜都已经过剩——AI 视频的下一个前沿只剩一件事：控制。让镜头、光线、动作、口型每一件都能被精确指挥，这是这轮竞赛剩下的大部分答案；a16z 合伙人 Jennifer Li 主持的对话，完整复盘了它如何发生。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把开源模型"拆到极限"：约 35 倍的效率差，质量没有牺牲</h2>
+<p style="margin:0.8em 0">起点是 MiniMax 开源的视频模型 H3。按 Görkem Yurtseven 的说法，这是第一个真正达到"最新一代"水平的开源视频模型。此前 fal 一直帮各家模型实验室做推理服务，却始终没有"在别人的模型权重上添加能力"的授权——H3 出现，机会才第一次成立。发布时的评测图里，它的速度指标远在图表另一端，远到只能用对数坐标才塞得进来。</p>
+<p style="margin:0.8em 0">动力来自需求侧。Görkem 用"token market fit"描述生成式媒体的处境，判断标准很简单：一个人能不能在一天里可持续地消耗海量 token。生成式视频和编码 agent，是他眼中少数真正成立的市场；而从今年 4 月起，整个行业连同 fal 自己被算力卡住了脖子，供给追不上需求。效率每提升一点，都会立刻转化成可用产能。</p>
+<p style="margin:0.8em 0">提升分三层叠加，而且彼此相乘。</p>
+<p style="margin:0.8em 0">第一层是后训练。扩散模型默认要跑 50 步推理，目标是压到 20 步——直接压会掉质量，所以他们先用后训练和强化学习把质量抬到更高水位，再叠加优化栈，最终做到质量不低于原版、速度提升一个数量级。<strong style="font-weight:600">大部分收益来自后训练</strong>，而不是单纯的推理优化。</p>
+<p style="margin:0.8em 0">第二层是系统与内核工程：把硬件利用率从行业常见的 30%–40%，推到 70%–80% 的 MFU——用他们的话说，这已经贴着芯片的理论屋顶线。</p>
+<p style="margin:0.8em 0">第三层是把整条流水线逐段拆开。一次生成背后是一串组件：把提示词扩展成训练格式的大型语言模型、潜空间里的扩散模型、把潜变量解码成像素的 VAE，以及按需加入的放大环节。每一段默认都是未优化的，工作负载特性还完全不同——单次生成、低批量、没有缓存复用，和 agent 解码的优化逻辑是两回事，必须逐段定制，收益才能叠加。</p>
+<p style="margin:0.8em 0">合起来，对照 MiniMax 原版服务是约 35 倍的效率差：成本低一个数量级、速度快得多，而 Elo 评分显示质量没有被牺牲。团队随后放出 Turbo 版：5 秒视频 1.5 秒生成，成本再减半，质量大约保持在 97 分位。相对市场上的前沿模型，它便宜一个数量级、快不止一个数量级。</p>
+<p style="margin:0.8em 0">硬件侧还有一层现实：主流视频模型至今跑在单节点 8 卡上，因为超过 8 卡，通信开销会不断吃掉并行收益；从 Hopper 到 Blackwell 每代约 2–3 倍提升，但芯片成本同比例上涨，买到的主要是墙钟时间。想把 5 秒视频压进 2–3 秒以内去做实时体验，最新一代硬件（GB200 这一代）几乎是必需品。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上线那个周末：实时视频是被"接住"的</h2>
+<p style="margin:0.8em 0">发布之前，团队自己花了几万美元做评测，结果好到没人敢信，于是决定推迟发布：先等外部平台独立复现同样的结果——等了三四天，数字对上了，模型才正式公开。</p>
+<p style="margin:0.8em 0">然后事情开始偏离剧本。模型在一个周六上线，周日就有人在 Twitch 上做直播：一位叫 Rehan 的 fal 工程师用 prompt 技巧维持叙事连贯，从自己的笔记本电脑里连续不断地生成视频。另一边，知名独立开发者 Levelsio 想到一块去了，主动联系 fal，想在自己的网站上托管一场"无限直播"。与此同时，公司内部的 ML 团队正在做第三个更彻底的版本。三个平行实验各自在社交媒体上走红——没有一个是规划出来的。</p>
+<p style="margin:0.8em 0">那几天 fal 的 Slack 消息量破了公司纪录。团队以旧金山为主、分布全球：有人连续工作十六七个小时，然后另一个人醒来接手，这种二十四小时滚动开发持续了三四天。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两分钟的记忆，一小时的连续</h2>
+<p style="margin:0.8em 0">三个版本的技术差别，正好落在这道题的核心上。Rehan 和 Levelsio 的版本本质是片段拼接：每段独立生成，用上一段的最后一帧接续下一段——第二段其实不记得第一段发生过什么。内部 ML 团队要的是无缝：有人推门进来，所有角色会看向门口，剧情连续。</p>
+<p style="margin:0.8em 0">难点在记忆。fal 很早就在押注"实时的、由动作驱动的连续视频流"，多路复用、低延迟的直播基础设施早就建好，ML 团队也一直在试把 5 秒延长到 15 秒、30 秒——但始终跨不过实时因子那条线：生成 5 秒视频总要用掉超过 5 秒。H3 Max 越过去之后，此前的积累一次性生效。</p>
+<p style="margin:0.8em 0">实现方式分两段：两分钟以内，模型靠注意力机制真正"记得"过去发生的事，信息高度压缩；两分钟以上，靠一个持续演化的系统提示词记住结构性信息——按每 15 到 30 秒算一个场景，大约等于最近四到八个场景的概要。按他们的说法，这套机制支撑起了目前唯一能生成最长 60 分钟连续、且可被实时指令打断的视频模型 H3 Max Director：你说一句"所有人从门口进来"，画面立刻照做；镜头摇回原来的位置，那个人还在原处、保持原来的状态。</p>
+<p style="margin:0.8em 0">fal 还做了一个叫 fal Live 的网站来展示它：观众投票决定下一段剧情走向，频道有"纯混乱"，也有 80 年代卡通——本质是让聊天室当导演。</p>
+<p style="margin:0.8em 0">发布不到三周，H3 Max 已经是 fal 平台上用量最大的视频模型，生成量接近第二名的两倍。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">控制成了唯一的战场</h2>
+<p style="margin:0.8em 0">一条清晰的阶梯正在铺开。最早是文生视频——你能描述画面，却描述不出"我想要的这个角色"；然后是图生视频，用一张图锁定第一帧；接着是参考（references）：指定角色、指定角色的声音，如今已是专业用户的默认用法。再往上是口型同步、动作迁移（把一段舞蹈的动作套到你的角色身上）、相机控制、光照控制——每一项都叠在前一项之上。</p>
+<p style="margin:0.8em 0">上周发布的相机控制最能说明问题：镜头运动既可以用自然语言描述，也可以直接给一段结构化 JSON——"t0 时刻相机位于 (0,0,0)，t1 时刻转到 90 度"——模型被训练成把这段描述当作唯一事实来源，不再自行"幻觉"镜头该去哪。底座模型本来就理解相机角度，但要让它服从指令，需要相当程度的后训练调校；副产品是从单张输入重建三维场景。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">市场上的最大缺口不是模型能力，而是这些模型有多可控。</p>
+</blockquote>
+<p style="margin:0.8em 0">可靠性的门槛也被摆上了台面：基础 prompt 现在能拿到 80%–90% 的可用率，而专业制作要的是 99.9%——每一次生成的每个环节都必须对，才谈得上信任。</p>
+<p style="margin:0.8em 0">这里的错位是结构性的：消费用户用情绪描述需求，导演用机位和光线描述需求；好莱坞要的、创作者实际要的，与研究实验室正在做的，三者之间存在一段断层。fal 押的就是这段断层——用后训练做一个又一个"点解决方案"：延长一段镜头、改一个机位、换一种光照，而不是要求所有人从零生成整个世界。这套基础设施一旦建好，给任何新模型加能力都变成"一次训练跑"的事，不仅能服务开源模型，也能服务闭源前沿模型。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">好莱坞一年前用量几乎为零，现在是最快增长的板块</h2>
+<p style="margin:0.8em 0">最直接的落地方式是混合工作流：先用传统的非 AI 手段在 Blender 里渲染一个低分辨率版本，再把它作为参考喂给视频模型——输入什么就得到什么，可控度接近 100%。H3 Max 的价值在于快：同一时间可以并行试很多个版本。</p>
+<p style="margin:0.8em 0">模型发布一周后，另一条链路也被接通：人们开始用 GPT-Astra 这类 LLM 在 Blender 里直接生成场景，再交给 H3 Max 成片。用 LLM 造一个 Blender 场景、再交给视频模型——一条全新的管线就此出现，而且恰好因为 H3 Max 够快，一次能试很多遍。</p>
+<p style="margin:0.8em 0">需求侧的曲线更说明问题。好莱坞是 fal 增长最快的板块：一年前，来自好莱坞的用量几乎不存在，一年间长成了最大增量；亚马逊 MGM 影业在发布会上推出的 Nara 工具，背后主要是 fal 的基础设施。Seedance 也已在美国境内托管——此前这是每一家好莱坞制片厂都提过的前提。IP 授权与数据驻留的机制同样就位：IP 持有者可以申请把自己的 IP 解锁进模型。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">所有障碍都扫清了。我们相信，好莱坞的用量会在未来几个月再放大十倍到百倍。</p>
+</blockquote>
+<p style="margin:0.8em 0">下周的第二届 Generative Media 大会是一个合适的注脚：去年以消费级 AI 为主，只有零星几位好莱坞高管来围观；今年被制片厂主导——既有从大制片厂分出来的"只做 AI 节目"的新工作室，也有最大的老牌制片厂带着把 AI 整合进现有工作流的完整计划到场。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语：快和便宜之后，剩下的全是控制问题</h2>
+<p style="margin:0.8em 0">成本侧还有空间可挖：把流水线的不同组件放到不同硬件上；再远一点，部分优化可以下沉到消费级硬件，让用户在自己机器上跑一部分，云端负责导演与控制平面。Rehan 的笔记本直播已经是这个方向的小样——优化不能百分百平移，但能平移相当一部分。</p>
+<p style="margin:0.8em 0">两位嘉宾的赌注很明确：在这些速度下，再快、再便宜已经没有多少意义，未来一两个月，团队会把全部注意力放在质量与可控性上。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">速度已经到位，接下来要补的是质量和可控性。</p>
+</blockquote>
+<p style="margin:0.8em 0">如果这个判断成立，消费者侧那个"所有人都在等的大时刻"，可能就藏在这类体验里：连续、可互动、有记忆，质量够好、价格够低，足以撑起一个真正新颖的社交 AI 产品。fal Live 上那些由投票驱动的直播间，就是这个方向的草图。</p>
+<p style="margin:0.8em 0">回头看，"用 JSON 描述机位"大概是未来会被忽略的一件小事——它笨拙，却是一座桥：把导演的意图翻译成模型必须服从的约束。AI 视频能不能进入需要一致性、可重复、可交付的工业流程，取决于模型能不能被精确指挥；而把"指挥系统"建起来的人，才握得住下一个前沿。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">后训练加系统协同设计，把 MiniMax 的开源视频模型 H3 变成 H3 Max：对照原版约 35 倍效率差，Elo 质量没有牺牲，<strong style="font-weight:600">大部分收益来自后训练</strong>而非推理优化。</li>
+<li style="margin:0.3em 0">Turbo 版把 5 秒视频压到 1.5 秒生成、成本再减半；当快和便宜都过剩，继续压这两项的价值有限，质量与可控性才是下一程。</li>
+<li style="margin:0.3em 0">连续视频的瓶颈是记忆：两分钟内靠注意力，两分钟以上靠持续演化的系统提示词，于是有了可公开使用的、最长 60 分钟连续且可被指令打断的 H3 Max Director。</li>
+<li style="margin:0.3em 0">控制的阶梯层层叠加：参考角色与声音 → 口型 → 动作迁移 → 相机（结构化 JSON 指定机位）→ 光照；专业市场的可靠性门槛是 99.9%，现状只有 80%–90%。</li>
+<li style="margin:0.3em 0">好莱坞是 fal 增长最快的板块，一年前用量几乎为零；Blender 低分辨率预演加视频模型的混合工作流已接近 100% 可控，LLM 生成 Blender 场景进一步打通了管线。</li>
+<li style="margin:0.3em 0">可复用的后训练基础设施，可能是比任何单个模型更深的资产：同一套系统，能给开源模型加能力，也能给闭源前沿模型加能力。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] AI 如何重写风险投资的幂律</title><link>https://xlicz.github.io/podcast-rss/articles/AI-如何重写风险投资的幂律-2026-09-10.html</link><guid isPermaLink="false">a16z_f8c2f7d35d3e</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>AI 如何重写风险投资的幂律</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 如何重写风险投资的幂律</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：3000 家美国风投机构里只有 20 家能持续跑出 3 倍净回报，而 AI 第一次让资本可以直接变成优势——幂律变得更极端之后，LP 的配置、GP 的打法和一代软件公司的命运都要重新算账。</strong></p>
+<p style="margin:0.8em 0">美国 3000 家风投机构，过去二十年里能持续交出 3 倍净回报的只有 20 家——不到 1%。而据 Cambridge Associates 口径，行业过去十年的平均净回报只有 1 到 2 倍：不如私募股权，不如公开市场，却还要把资金锁上十年。所以在这个资产类别里，“配多少”几乎不重要，“选中谁”才是一切。a16z 的 David George 给出的是另一半判断：在他职业生涯里第一次，你可以把钱砸进一家公司，而这笔钱会强化它的优势。当资本可以直接变成算力、算力可以直接让产品变好，幂律就不再只是风投的一个特征，而成了这台机器本身。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">3000 家里只有 20 家</h2>
+<p style="margin:0.8em 0">门槛其实不算苛刻——“你不需要七八只基金都做到，二十年里能有三到四只 3 倍净回报的基金就可以”——但翻遍全美，只有 20 家交出了这份答卷。更值得琢磨的是这 20 家做对了什么：<strong style="font-weight:600">每一个年份都拿到了定义品类的公司</strong>。反过来，光有 logo 并不够：早期基金如果盘子太大，持有的份额会被稀释到失去意义；晚期投资也有自己的纪律——一只基金里最好的那家公司至少要占到 5% 到 10%，才谈得上“用一家公司收回整只基金”。而这种单公司回本的算术，在晚期投资里以前根本不存在。</p>
+<p style="margin:0.8em 0">再看“平均”有多残酷：过去十年，行业的平均净回报只有 1 到 2 倍——不如 PE，不如公开市场，还要付出十年锁定期。所以如果你的工作是从 3000 家里挑机构，答案几乎是机械的：把筹码集中到那 15 到 20 家身上。50 到 70 家风投基金拼成的组合，很难想象它能跑赢平均；更常见的错误是另一种——好不容易找到一只对的基金，只放 1% 的钱进去，基金涨了 10 倍，换来整个组合 10% 的回报，什么也撬不动。对谈里把这套功夫总结成三个词：access、selection、sizing。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">在一个 3000 家里只有 20 家跑赢的资产类别里，理性的做法就是把筹码集中在那 15 到 20 家身上。</p>
+</blockquote>
+<p style="margin:0.8em 0">a16z 的 Jen Kha 常年与 LP 打交道，她说从 LP 那里听到最多的担心是“我们是不是在接一把下落的刀”；她还点出更不体面的一段：LP 和 GP 的激励方向是相反的。GP 会因为没有投中下一个 Facebook、下一个 Uber 被解雇——错误在于“没有出手”；而 LP 只会因为“投了一个最终爆掉的基金经理”被解雇，有些情况下，LP 甚至不会因为“什么都不投”被解雇。既然错过前沿公司不丢工作、上行收益对很多人也并不真正重要，“对大型风投基金的兴趣是创始人而不是 LP 推动的”就很好理解了。一位被他们昵称为 Endowment Eddie 的同行当天发帖写道：创始人想要的是能一路陪跑到上市、能帮忙招人拿客户的品牌；LP 只是慢慢跟上，多数人还在拖，因为这反直觉。例外当然有——一些专注垂直领域或极早期的小基金活得不错，但前提是规模和策略保持一致，一旦变大就会撞上大机构，“死掉的中间层”是这场对话里反复出现的梗。</p>
+<p style="margin:0.8em 0">LP 最常提的反对意见则是时间线：独角兽平均私有十年以上，同一家公司的名字出现在五六只基金里；而 IPO 也不等于分配——从上市到真正拿到钱可能还要 12 到 24 个月，如果你在 IPO 时持有 10% 到 15%，只会更久。反驳同样具体：如果你在前 1% 的机构里、手里有品类赢家，你希望它继续复利——三四年前，没有人愿意卖掉 Stripe 或者 Databricks。而且最好的 GP 会沿途主动制造流动性：2021 年很多人没有落袋，事后成了一个分化信号。有一个细节：a16z 曾在旗下一期基金 16 年时问 LP，要不要对一个种子期投进去的 Stripe 持仓做清算——所有 LP 都说不要，让它继续跑；一年后，因为基金必须收尾才卖出。不同 LP 的口味也不同：捐赠基金愿意让它长期复利，家族办公室甚至不想要钱回来（不想交税）。最快的流动性只属于最顶尖的那一小撮机构——Anthropic 从首次融资到即将上市只用了五年，Cursor 从首次融资到被收购时间更短。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">“把钱砸进去，优势自己长出来”</h2>
+<p style="margin:0.8em 0">David George 的判断是：今天的幂律比过去十到二十年都更极端，程度也许要回到网络效应消费公司刚出现的年代。过去有一条常识——怎么搞砸一家创业公司？给它太多钱：招一千个人、协调成本爆炸、优先级互相打架。但这条常识对前沿公司失效了：<strong style="font-weight:600">美元可以直接换成算力，算力让产品和业务变好，优势自我强化。</strong></p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">“在我职业生涯里第一次，你可以把钱砸进一家公司，而这笔钱会强化它的优势。”——David George</p>
+</blockquote>
+<p style="margin:0.8em 0">需求侧是另一半：对推理的需求没有上限，这才是“资本可以尽管砸”的前提。AI 行业做到 1000 亿美元收入只用了四年——SaaS 走完同样的路用了十五年——而渗透甚至还没开始。AI 同时在攻击 GDP 的每个板块：交通、劳动力、服务、资本协调；历史上还没有哪个技术范式能同时压中 30 万亿美元量级的 GDP。所以对配置者来说，结论是硬的：AI 不该是卫星仓位，应该是核心，甚至超核心。</p>
+<p style="margin:0.8em 0">参照物已经摆在那里：三家身位最靠前的公司——SpaceX、OpenAI、Anthropic——合计代表 3.5 万亿到 5 万亿美元的潜在企业价值，而在 SpaceX 上市之前，很多 LP 和机构配置者对这些公司的敞口接近于零（十年前，行业还在为“基金规模是否过大”争论，一只十亿美元的基金就足以成为话题）。如今这个资产类别本身已有 5 到 6 万亿美元；公司保持私有更久的趋势不会逆转；顶级退出的量级从 100 亿美元抬到 400 亿美元，等 Anthropic、然后是 OpenAI 上市时，大概率会到 1000 亿美元。上一轮周期创造了 25 万亿美元的新增市值，下一轮只会更大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">TAM 的算法错了：它卖的不是软件，是“任务”</h2>
+<p style="margin:0.8em 0">“我常常对 AI 的 TAM 感到困惑”，这个困惑值得掰开。医疗行业每年在医疗 IT 上花 600 到 1000 亿美元，但 AI 打的是“任务”本身——理赔、账单、行政，那是一个万亿美元级的行业。AI 的 TAM 是任务的经济价值乘以捕获率，可能比传统 SaaS 和医疗 IT 大 10 倍以上。美国花在劳动力上的钱大约是软件支出的 40 倍；劳动力不会消失，只会被重新发明。</p>
+<p style="margin:0.8em 0">a16z 的总法律顾问常讲一个例子：他喜欢 Harvey，因为客户现在个个觉得自己是律师、能跟他正面交锋——结果他的计费小时数只增不减。这类用例被大幅低估，而且本质上是扩张性的。至于“哪一层会赢”的零和焦虑——应用、实验室、开源谁吃掉谁——他们的判断是：市场会大到让每一层都可能跑出赢家（当然会有大量公司失败）；在品类内部依然赢家通吃、第二名只能吃残渣，但品类的数量在爆炸。20 年前的 CRM 只有 Siebel 这样的小盘子，现在是巨型品类——同样的扩张会重演。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">真牵引力，还是“误导性牵引力”</h2>
+<p style="margin:0.8em 0">AI 让这份工作前所未有地难做：轮次更大、更快，牵引力真假混杂。有一家公司一个月从零做到 500 万美元 ARR，还没有续费周期，客户可能是孵化器里同期的创业公司在互相买，估值倍数极高——“那甚至不是 ARR，只是把月收入乘了 12”。但每九个这样的公司里，可能会有一个是真的：真实 ARR 几百万美元，估值昂贵，会成为下一个 Cursor。靠财务分析分辨不出来，只能去见客户，理解市场的质地、客户的真实需求和手里的替代方案。</p>
+<p style="margin:0.8em 0">Harvey 是标准案例。它早期商业化做得漂亮——研究加律师的创始组合，签下一批高知名度律所——但实际使用度并不好，部署数据看起来甚至不如同类软件公司。等到推理模型出现，一切翻转：律师开始真正从产品里获得价值，用量和参与度起飞；叙事也反转了——以前客户害怕幻觉，现在客户反过来要求律所必须用这个产品。判据始终是客户实际拿到什么价值，而不是签约名单。</p>
+<p style="margin:0.8em 0">Cursor 则是另一面。所有人都说过它要死——“你们投 Cursor 的时候，确定性一点也不高”——即便它被 SpaceX 以 600 亿美元收购（史上规模最大的创业公司收购）的消息已经出来，市场上还有人在说“Cursor 已死”；而它前一轮融资只有约 4 亿美元。这类公司能不能被识别，取决于能否在最嘈杂的时候看清牵引力的质地。</p>
+<p style="margin:0.8em 0">在这个问题上，大机构反而有结构性优势。David George 把自己的优势讲得很坦率：成长基金之所以成立，是因为有早期业务——最贴近技术和产品的合伙人先看到（Cursor 就是早期团队先看出来的）。最强的后期品牌背后都有强大的早期基金；反过来，一家从零起步的纯后期机构，写不出一张 5 亿美元的支票。结构选择上，对谈把它拆成四种玩法：种子与极早期（基金规模 1.5 亿美元以内，美国今天接近 2000 家）、混乱的中间层（几百家）、大机构（多产品线、从种子一路陪到上市）、专注后期的机构。LP 机构 Accolade Partners 的选择是：大机构投了几十年、种子基金也投，中间层只挑过几家，专门做后期的基金不投。中间层为什么难——创始人要的是能“降低结果不确定性”的合伙人，大机构用 700 名员工、把管理费投进运营资源来兑现这一点（赢下交易 → 改善结果 → 品牌吸引下一批创始人 → 创始人推荐创始人，这是他们的飞轮）；而极早期的种子小基金可以比大机构早一两个轮次拿到“入场权”，与大机构共存——七家做同一件事的 AI 公司并排站着时，大机构宁愿等一两轮、等确定性更高再领投。</p>
+<p style="margin:0.8em 0">代价是明摆着的：a16z 表现最好的早期基金，大约 60% 的项目会亏钱，成长阶段是 10% 到 20%——“如果我们不亏钱，说明风险没冒够”。目标是投中每个可信品类里的第一名：品类成则基金成，品类败则是这门生意的一部分。他们当天上午刚办完自己的加速器项目 Speedrun，创始人们明确表示想留在这个轨道里。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">老软件公司、私募信贷，与“刷一层 AI”的幻觉</h2>
+<p style="margin:0.8em 0">最诚实的一段来自一道填空题：如果手里有一家 2016 到 2021 年投的软件公司——还算健康，增长 30%，账面上挂着 10 到 20 倍收入的估值——但它没有 AI 原生能力、不再加速，会发生什么？答案很冷：它上不了市，也没人想接。一年前 Silver Lake 这类买方会对它有兴趣，现在不会。David George 的态度是两面都认：AI 是这代人见过的最大的变化，同时也会有一部分软件公司适应下来、保住价值——但 a16z 净值的 95% 不在那类公司里。</p>
+<p style="margin:0.8em 0">PE 和信贷侧的算术更残酷。上一个时代，私募股权会为一家增长 10% 到 20% 的软件公司付 15 到 20 倍 EBITDA；而今天公开市场上同类资产的价格是 2 倍收入。买方看软件公司的第一个问题变成了“它的终值对 AI 有没有韧性”，而唯一被接受的证明是有机增长加速——公开市场里，1 个百分点的增长大约等于 3 个百分点的 EBITDA。还能以约 10 倍收入交易的公开 SaaS 只剩 15 到 20 家（几年前是几十家），而这批公司大多正因 AI 加速：监控、安全、agent 部署。反过来，2021 到 2022 年有 2000 到 3000 亿美元的软件 LBO 交易，平均估值是 25 到 32 倍 EBITDA；这些公司今天大约只值一半，杠杆率随之大幅上升——这正是私募信贷市场赎回压力的来源。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">“把 Sears 放到网站上，并不会让它变成亚马逊。”</p>
+</blockquote>
+<p style="margin:0.8em 0">所以“给公司刷一层 AI”救不了任何人。把人工客服直接换成 agent、而不重做工作流，客户会很快流失，NPS 的每一次下降都直接对应收入下降，背着债务的公司就开始螺旋。成功的反例是 Intercom：创始人回归、重建整个业务、做出 AI 原生的产品并规模化，然后卖掉——这几乎等于亲手杀死原来的业务，在 PE 结构里极难复制。</p>
+<p style="margin:0.8em 0">但扩散确实还早，这是老软件公司的多头逻辑：美国中位数公司每个员工每月在 AI 上花 12 美元，而数据集中前 1% 的公司花 7000 美元；最领先的银行在 AI 工具上的支出也只占人力成本的 1% 左右。全世界大约 15 亿知识工作者，真正被服务到的可能只有一两千万人。为什么是编码先行？因为编码这件事“文档完备、可验证、可模拟”——绝大多数工作不同时具备这三条，扩散到其他知识工作会慢得多。用脚投票的是 CalPERS：它把 venture 与成长投资的配比从 9% 提到了 43%（原占 91% 的部分压到 58%）。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">下一个一百万亿在哪里</h2>
+<p style="margin:0.8em 0">主持人把问题一路抬上去：先问下一个 10 万亿美元公司，再问 20 万亿，最后干脆问 100 万亿。David George 的答案是：那大概要两个技术周期之后，而且大部分市值创造会发生在今天还几乎不存在的产品领域。企业侧的扩散“我们哪都没到”；消费端的最终形态不会是聊天框——那是“拟物”版本，原生形态是主动替你干活的系统，十亿级 ChatGPT 用户只是挠了个痒。机器人会大于语言这件事，而且就在未来十年；自主驾驶方面，全美仍在运营的 Waymo 不足 1 万辆；医疗占 GDP 的 18%，从服务交付到药物研发几乎还没被真正动过；再加上国防、制造、数据中心的物理世界重造——下一个 SpaceX 或 OpenAI，大概率从这些地方长出来。</p>
+<p style="margin:0.8em 0">来自 LP 一侧的 Aram Verdian（Accolade Partners）则补充了他既担心又兴奋的一侧：今天 AI 的瓶颈不在需求，在供给——能源、电网、数据中心、芯片、前沿模型、应用。美国擅长的是右半边（芯片往后），而左半边的问题不是发电能力，是“拿到电的速度”：许可、输电、监管。别的国家每年新增的可再生装机是美国的 10 倍，而新一代数据中心的功率密度是过去的 10 倍以上——解决这个瓶颈的机会不是百亿、五百亿美元级，而是千亿美元级。他们也反驳了“这是互联网泡沫、是疫情”的说法：牵引力是真实的，收入不是疫情那样的临时脉冲。</p>
+<p style="margin:0.8em 0">如果说这场对话有什么统一的底色，大概是：机器时代的基本面已经先于共识到来，剩下的问题只是钱、电和决心够不够。用他们收场的话说——该让机器上场了。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">回报的集中度在变得更极端：3000 家机构只有 20 家持续做到 3 倍净回报。LP 真正的工作只有三件事——access、selection、sizing；组合摊得越薄，越没有意义。</li>
+<li style="margin:0.3em 0">这一轮的机制是新的：资本第一次可以直接变成算力、算力直接让产品变好，优势自我复利。AI 行业收入四年破 1000 亿美元，SaaS 用了十五年。</li>
+<li style="margin:0.3em 0">TAM 要重算：不是“软件市场有多大”，而是“任务的经济价值 × 捕获率”——美国在劳动力上的支出约是软件支出的 40 倍。</li>
+<li style="margin:0.3em 0">早期判断越来越难：一个月做到 500 万美元 ARR 可能是假信号；Harvey 和 Cursor 说明最终判据是客户真实获得的价值，而不是签约名单或市场情绪。</li>
+<li style="margin:0.3em 0">“刷一层 AI”救不了老软件公司和 PE 组合：公开市场已经在用“增长加速”定价（1 个百分点增长约等于 3 个百分点 EBITDA），私募信贷里的软件 LBO 是下一个压力点。</li>
+<li style="margin:0.3em 0">瓶颈在供给侧：能源、电网、数据中心。机器人、自主驾驶、医疗和 AI 原生的消费形态，是下一个市值创造带。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">谁来给 AI 模型打分：当公共榜单开始失真</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：模型变强的速度已经甩开衡量它的那把尺子——而&quot;什么算好&quot;的定义权，正在从发布模型的人手里滑走。</strong></p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：模型变强的速度已经甩开衡量它的那把尺子——而"什么算好"的定义权，正在从发布模型的人手里滑走。</strong></p>
 <p style="margin:0.8em 0">Meta 发布 Llama 4 时，公开榜单上的成绩堪称惊艳。但在一家只做评测的公司的私有基准上，同一个模型的表现明显不如预期。这中间的落差，是 Vals 创始人兼 CEO Rayan Krishnan 创业的全部理由：评测不该由被评测的人自己做，就像审计不该由被审计的公司自己做。在一个训练一个模型要花数十亿美元的行业里，谁有资格给出那份不带自报色彩的分数？a16z 的 Ben Horowitz 与 Jennifer Li 把这个问题拆成了三段：实验室、企业的账本，以及政府与政府之间的谈判桌。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">同一个模型，两份成绩单</h2>
-<p style="margin:0.8em 0">Krishnan 的底子是做研究和构建基准。他很早就意识到一件事：构建&quot;生成系统&quot;的能力和构建&quot;评测机制&quot;的能力之间关系极紧——想得到前者，往往必须先在后者上更进一步；而模型能力最大的驱动力之一，恰恰是出现一种新的、可读的评测方式。</p>
+<p style="margin:0.8em 0">Krishnan 的底子是做研究和构建基准。他很早就意识到一件事：构建"生成系统"的能力和构建"评测机制"的能力之间关系极紧——想得到前者，往往必须先在后者上更进一步；而模型能力最大的驱动力之一，恰恰是出现一种新的、可读的评测方式。</p>
 <p style="margin:0.8em 0">到 2024 年，市场信号已经很明确：有意思的模型变多了，而且不再都来自 OpenAI；同时，判断一个新模型到底新在哪里，比以往任何时候都难。顺着第一性原理推下去，结论只有一个——需要一家第三方公司，只做一件事：构建高质量的评测与基准。Vals 在 2024 年发布了第一批基准。</p>
-<p style="margin:0.8em 0">那么实验室为什么不能自己来？他们其实在做，而且做得不错——内部基准正是模型进步的燃料。问题出在&quot;自报&quot;上。Krishnan 举的例子就是 Llama 4：那次发布&quot;有点灾难性&quot;。在他们不公开的 held-out 私有基准上，这个模型的实际表现是偏弱的；但在所有主流公开基准上——题目和评分标准全部开源的那些——它展现出惊人的能力。自报出来的成绩，和高信号私有基准测出的能力之间，断裂巨大。</p>
-<p style="margin:0.8em 0">Krishnan 认为实验室自己清楚这一点，而且未必反对被第三方评测：他们希望市场是一个理性的买方市场。投入数十亿美元之后，总要有实质性的证据可以指着说&quot;我们在这些方向上有进展&quot;，而不是全靠自己给自己发成绩单。Demis Hassabis 等人公开呼吁建立第三方评测生态，就是这个逻辑的延伸。</p>
+<p style="margin:0.8em 0">那么实验室为什么不能自己来？他们其实在做，而且做得不错——内部基准正是模型进步的燃料。问题出在"自报"上。Krishnan 举的例子就是 Llama 4：那次发布"有点灾难性"。在他们不公开的 held-out 私有基准上，这个模型的实际表现是偏弱的；但在所有主流公开基准上——题目和评分标准全部开源的那些——它展现出惊人的能力。自报出来的成绩，和高信号私有基准测出的能力之间，断裂巨大。</p>
+<p style="margin:0.8em 0">Krishnan 认为实验室自己清楚这一点，而且未必反对被第三方评测：他们希望市场是一个理性的买方市场。投入数十亿美元之后，总要有实质性的证据可以指着说"我们在这些方向上有进展"，而不是全靠自己给自己发成绩单。Demis Hassabis 等人公开呼吁建立第三方评测生态，就是这个逻辑的延伸。</p>
 <p style="margin:0.8em 0">历史类比也是现成的：评级机构、审计事务所。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">每一个万亿美元级的新产业出现时，都需要这样一个独立测试机构。</p>
 </blockquote>
 <p style="margin:0.8em 0">Vals 想同时坐在市场的两边——实验室需要证明新模型足够强，企业需要算出哪种采用策略的 ROI 最高。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">发布前的六小时：一场不能拖慢上线的评测</h2>
-<p style="margin:0.8em 0">评测机构最怕的标签是&quot;拖后腿&quot;。Krishnan 把目标说得很直白：<strong style="font-weight:600">永远不要成为滞后指标，永远不要推迟一次模型发布</strong>。这意味着要在速率限制和容量约束下榨出最多信号——发布前的窗口里要跑掉数百亿 token，而发布日不能因此往后挪一天。</p>
-<p style="margin:0.8em 0">早期这件事靠人力硬扛：他和联合创始人通宵把结果赶出来。现在则是团队加基础设施：大规模分布式地跑评测，对拿到的每一个模型都贴着对方允许的最高速率上限打满。还有一件更长远的事——他们内部有个系统叫 Steve，Krishnan 半开玩笑地称它是&quot;Vals 的经济型员工&quot;：把评测流程中的人类工作，一点点搬进 Steve 里。</p>
-<p style="margin:0.8em 0">评测里最敏感的一类题目是递归自我改进（RSI）。各大实验室开始在模型卡里报告这件事，但行业里没有共同语言。Vals 因此做了一个 RSI 指数，让不同模型可以苹果对苹果地比。理想做法本应是：拿一个前沿模型去训练它的下一个版本，看能力增量从哪里冒出来——但那太贵、太慢。所以他们退一步，为&quot;造出下一代模型&quot;的每一个环节建立代理指标：预训练、后训练、harness 层的工程。然后观察模型在哪些机制和行为上能做出真正优秀的科研工作、造出新的东西，又在哪些地方卡住。</p>
+<p style="margin:0.8em 0">评测机构最怕的标签是"拖后腿"。Krishnan 把目标说得很直白：<strong style="font-weight:600">永远不要成为滞后指标，永远不要推迟一次模型发布</strong>。这意味着要在速率限制和容量约束下榨出最多信号——发布前的窗口里要跑掉数百亿 token，而发布日不能因此往后挪一天。</p>
+<p style="margin:0.8em 0">早期这件事靠人力硬扛：他和联合创始人通宵把结果赶出来。现在则是团队加基础设施：大规模分布式地跑评测，对拿到的每一个模型都贴着对方允许的最高速率上限打满。还有一件更长远的事——他们内部有个系统叫 Steve，Krishnan 半开玩笑地称它是"Vals 的经济型员工"：把评测流程中的人类工作，一点点搬进 Steve 里。</p>
+<p style="margin:0.8em 0">评测里最敏感的一类题目是递归自我改进（RSI）。各大实验室开始在模型卡里报告这件事，但行业里没有共同语言。Vals 因此做了一个 RSI 指数，让不同模型可以苹果对苹果地比。理想做法本应是：拿一个前沿模型去训练它的下一个版本，看能力增量从哪里冒出来——但那太贵、太慢。所以他们退一步，为"造出下一代模型"的每一个环节建立代理指标：预训练、后训练、harness 层的工程。然后观察模型在哪些机制和行为上能做出真正优秀的科研工作、造出新的东西，又在哪些地方卡住。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">永远有下一座更高的山</h2>
 <p style="margin:0.8em 0">基准会饱和，这是行业心照不宣的秘密，也是很多人的生意经。Krishnan 形容那种玩法像早期扩散模型时代的 cherry-pick 文化：挑一个已经饱和但人气很高的基准，你在上面排名好看，就拿出来当卖点。Vals 反着做——饱和的基准直接下架。</p>
-<p style="margin:0.8em 0">他们把这称作一场无限游戏，非正式格言是&quot;always a higher peak&quot;。</p>
+<p style="margin:0.8em 0">他们把这称作一场无限游戏，非正式格言是"always a higher peak"。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">实验室在爬山，寻找下一座要登顶的峰。我们的工作，是持续为他们造出下一座山。</p>
 </blockquote>
 <p style="margin:0.8em 0">另一半理由常被低估：基准还得反映当下这个世界的状态。律师要重新考 bar，建筑师要重新认证，医生同理；模型也应该按今天的法律、今天的医学知识来测。判例法一更新，他们的法律研究基准就得跟着更新——这不是营销，是让尺子和被量的东西保持同一时代。</p>
-<p style="margin:0.8em 0">评测的形态本身也在迁移。早年是 ImageNet 那样的东西：几百万张图片，图像输入对应一个文本标签，一对一映射。现在是&quot;给我生成五十个全栈 Web 应用&quot;——任务数量少得多，但评估产出物的机制复杂得多。趋势很清楚：样本更少，标准更多、更复杂。</p>
+<p style="margin:0.8em 0">评测的形态本身也在迁移。早年是 ImageNet 那样的东西：几百万张图片，图像输入对应一个文本标签，一对一映射。现在是"给我生成五十个全栈 Web 应用"——任务数量少得多，但评估产出物的机制复杂得多。趋势很清楚：样本更少，标准更多、更复杂。</p>
 <p style="margin:0.8em 0">这对基础设施是新问题。模型开始需要连续跑几小时、几天、有时几周，评测基础设施必须足够稳；一旦某个请求失败，要从断掉的那一点重试，而不是重跑整条轨迹。</p>
-<p style="margin:0.8em 0">更深的困难在于：人类至今没解决&quot;怎么评人&quot;。IQ、EQ、大五人格，都不是公认框架；连 SAT 都一直有人不服。而模型又特别擅长钻基准的空子。Krishnan 的回应是：这反而逼着那些模糊的、分布式的能力标准变成显式条款。&quot;律所里的 associate 和合伙人之间真正的区别是什么？&quot;——人类世界里没有对应的测试，所以只能先从企业的真实工作流里把这些问题一条条立起来。他把这称为长期最大的瓶颈：把一家公司的 evals 变成可读的共同语言，因为只有可读，才能决定往哪个信号上爬山、在哪里真正采用。</p>
+<p style="margin:0.8em 0">更深的困难在于：人类至今没解决"怎么评人"。IQ、EQ、大五人格，都不是公认框架；连 SAT 都一直有人不服。而模型又特别擅长钻基准的空子。Krishnan 的回应是：这反而逼着那些模糊的、分布式的能力标准变成显式条款。"律所里的 associate 和合伙人之间真正的区别是什么？"——人类世界里没有对应的测试，所以只能先从企业的真实工作流里把这些问题一条条立起来。他把这称为长期最大的瓶颈：把一家公司的 evals 变成可读的共同语言，因为只有可读，才能决定往哪个信号上爬山、在哪里真正采用。</p>
 <p style="margin:0.8em 0">顺带一个路由问题。Jennifer Li 问：OpenRouter（Stripe 刚把它买下）会不会变成实时机制——下一个请求该发给哪个模型，由 Vals 说了算？Krishnan 说 OpenRouter 其实名不副实，它的大部分用量来自做模型网关，用哪个模型由用户自己决定；因为路由最难的部分恰恰是构建 evals——判断某种智能该被用在哪个具体应用上。而 Vals 帮企业建 evals 的努力，反而间接支持了这些企业去采用路由器。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">企业账本：token 支出正在逼近工资</h2>
 <p style="margin:0.8em 0">实验室一侧的动机清楚，企业一侧的重要性在他看来被严重低估。他讲了一个观察：一家财富十强公司给工程师用 Claude Code，预算是每人每天一百美元左右。结果这件事从根本上改变了公司的工作节奏——额度在下午四点重置，于是最高产的时段变成了下午四点到六点；而更早的下午出现了一段死区，人们去散步、去喝咖啡，因为额度用完了。</p>
-<p style="margin:0.8em 0">在他看来，这是&quot;智能的价值错配&quot;在每一层同时发生：工程师手里握着一百美元的额度，却不知道怎样分配才最提效；公司武断地定了每人一百美元的标准，最近又提高到三百美元——用他的话说，这笔 token 支出已经接近&quot;雇一个人&quot;的量级；而在另一头，Anthropic 的利润率很窄，服务这些模型的成本巨大。ROI 到底长什么样，暂时没人算得清。方向性判断是：<strong style="font-weight:600">token 支出可能开始超过薪资支出</strong>；一旦它成为成本表上这么醒目的一行，就必须比过去半年更严格地论证回报。</p>
+<p style="margin:0.8em 0">在他看来，这是"智能的价值错配"在每一层同时发生：工程师手里握着一百美元的额度，却不知道怎样分配才最提效；公司武断地定了每人一百美元的标准，最近又提高到三百美元——用他的话说，这笔 token 支出已经接近"雇一个人"的量级；而在另一头，Anthropic 的利润率很窄，服务这些模型的成本巨大。ROI 到底长什么样，暂时没人算得清。方向性判断是：<strong style="font-weight:600">token 支出可能开始超过薪资支出</strong>；一旦它成为成本表上这么醒目的一行，就必须比过去半年更严格地论证回报。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">长期来看，一家公司本质上就是它的 evals。</p>
 </blockquote>
 <p style="margin:0.8em 0">基于这个判断，Vals 推出了 Valsmith：聚焦代码生成——企业 AI 支出最高的领域——让任何公司拿自己的 GitHub 代码库构建一套内部编码基准，看清哪个编码 agent 性能最好、哪个在最优点上（pareto optimal）、哪个 ROI 最高。Vals 自己内部就在大量使用它。</p>
-<p style="margin:0.8em 0">为什么必须用自己的代码库测？因为今天仍然没人能确定，最好的 OpenAI 模型还是最好的 Anthropic 模型更适合&quot;你的&quot;仓库。他们见过大量反直觉案例，不真跑一遍 eval 就不知道答案。而中间层已经变得极其复杂：Anthropic 的 Opus 与 Sonnet 之外，还挤着一层更便宜的型号、刚发布就很能打的新模型，以及越来越多可以自托管的开源模型。其中一个反直觉的发现是：很多情况下 Sonnet 的实际账单比 Opus 更贵，因为它极度吃 token——如果按&quot;感觉该用 Sonnet&quot;的方式去用，你可能反而花得更多。</p>
-<p style="margin:0.8em 0">Krishnan 还做了一次&quot;token 最大化&quot;实验：让对方免费提供团队一个月不限量的编码工具访问权。事后回看数据，工程师们每天消耗十亿到二十亿 token，峰值那天有一位工程师烧掉六十亿；那个月他们用掉的 token 折合约一百五十万美元——免费，但按他的说法，token 支出是当月员工薪酬的十倍。这直接引出了下一个问题：怎么聪明地决定哪个团队、哪个项目用哪个工具。他们翻了大量调用轨迹和 GitHub 仓库，把流程做成了 Valsmith。收获包括：Cognition 的 Devin 在 token 效率上表现很好，因此被更多地采用；订阅制在很多场景下比按 token 计价更划算。现在他们的运营方式是：所有人对所有工具都有访问权，但系统会针对每个 GitHub issue 或工单自动推荐&quot;从哪个工具开始这次会话&quot;，让用量按任务所需的智能水平自动调节。</p>
+<p style="margin:0.8em 0">为什么必须用自己的代码库测？因为今天仍然没人能确定，最好的 OpenAI 模型还是最好的 Anthropic 模型更适合"你的"仓库。他们见过大量反直觉案例，不真跑一遍 eval 就不知道答案。而中间层已经变得极其复杂：Anthropic 的 Opus 与 Sonnet 之外，还挤着一层更便宜的型号、刚发布就很能打的新模型，以及越来越多可以自托管的开源模型。其中一个反直觉的发现是：很多情况下 Sonnet 的实际账单比 Opus 更贵，因为它极度吃 token——如果按"感觉该用 Sonnet"的方式去用，你可能反而花得更多。</p>
+<p style="margin:0.8em 0">Krishnan 还做了一次"token 最大化"实验：让对方免费提供团队一个月不限量的编码工具访问权。事后回看数据，工程师们每天消耗十亿到二十亿 token，峰值那天有一位工程师烧掉六十亿；那个月他们用掉的 token 折合约一百五十万美元——免费，但按他的说法，token 支出是当月员工薪酬的十倍。这直接引出了下一个问题：怎么聪明地决定哪个团队、哪个项目用哪个工具。他们翻了大量调用轨迹和 GitHub 仓库，把流程做成了 Valsmith。收获包括：Cognition 的 Devin 在 token 效率上表现很好，因此被更多地采用；订阅制在很多场景下比按 token 计价更划算。现在他们的运营方式是：所有人对所有工具都有访问权，但系统会针对每个 GitHub issue 或工单自动推荐"从哪个工具开始这次会话"，让用量按任务所需的智能水平自动调节。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么不做卖数据的生意</h2>
-<p style="margin:0.8em 0">Horowitz 给这类标准找了个老类比：MPAA 的分级。&quot;什么是艺术、什么是色情，线在哪里？&quot;R 和 X 的界线随时间移动，过去算 X 的现在算 R，&quot;我看到就知道&quot;是当年的名言。他的判断是：这类标准必然模糊，但会随时间长出规范——足够多经营公司、管财务的人认可，它就成立。相比之下，公开基准那种&quot;解出这道特定题目，你就在这个等级&quot;的路子，既可以被人针对性地攻破，又太窄。</p>
-<p style="margin:0.8em 0">行业里还有更硬的一课来自审计业。如果同一批人既做审计、又给被审计公司做咨询，激励结构就混在一起，审计会退化成&quot;付费过关&quot;——移植到评测，就是&quot;付费赢榜&quot;。Enron 就是代价。</p>
-<p style="margin:0.8em 0">所以 Vals 在很早就做了一个决定：永远不向实验室出售训练数据。这件事恰恰是他们与一家新实验室开始合作时经常被游说的方向——帮忙采购和转售一批训练数据，是一笔相当可观的收入。Krishnan 说，业内不少玩家就是靠&quot;噱头式基准&quot;来卖数据，这已经成了他们的商业模式。而 Vals 的立场是：这门生意最有价值的部分，是和&quot;做出高质量评测&quot;激励对齐，而不是去支持智能开发流程本身。</p>
+<p style="margin:0.8em 0">Horowitz 给这类标准找了个老类比：MPAA 的分级。"什么是艺术、什么是色情，线在哪里？"R 和 X 的界线随时间移动，过去算 X 的现在算 R，"我看到就知道"是当年的名言。他的判断是：这类标准必然模糊，但会随时间长出规范——足够多经营公司、管财务的人认可，它就成立。相比之下，公开基准那种"解出这道特定题目，你就在这个等级"的路子，既可以被人针对性地攻破，又太窄。</p>
+<p style="margin:0.8em 0">行业里还有更硬的一课来自审计业。如果同一批人既做审计、又给被审计公司做咨询，激励结构就混在一起，审计会退化成"付费过关"——移植到评测，就是"付费赢榜"。Enron 就是代价。</p>
+<p style="margin:0.8em 0">所以 Vals 在很早就做了一个决定：永远不向实验室出售训练数据。这件事恰恰是他们与一家新实验室开始合作时经常被游说的方向——帮忙采购和转售一批训练数据，是一笔相当可观的收入。Krishnan 说，业内不少玩家就是靠"噱头式基准"来卖数据，这已经成了他们的商业模式。而 Vals 的立场是：这门生意最有价值的部分，是和"做出高质量评测"激励对齐，而不是去支持智能开发流程本身。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">评测能不能成为国与国之间的语言</h2>
-<p style="margin:0.8em 0">政策的麻烦在于抽象。过去几年关于 AI 的讨论大多悬在半空，缺少实证锚点——即便是实验室提出的&quot;第三方测试生态&quot;，也没有讲清楚具体机制是什么。所以 Vals 把自己早期的角色定为&quot;证据收集模式&quot;：定期给行政和立法分支做简报，告诉他们模型现在能做什么、风险在哪里，好歹让人能顺着数据外推趋势。</p>
+<p style="margin:0.8em 0">政策的麻烦在于抽象。过去几年关于 AI 的讨论大多悬在半空，缺少实证锚点——即便是实验室提出的"第三方测试生态"，也没有讲清楚具体机制是什么。所以 Vals 把自己早期的角色定为"证据收集模式"：定期给行政和立法分支做简报，告诉他们模型现在能做什么、风险在哪里，好歹让人能顺着数据外推趋势。</p>
 <p style="margin:0.8em 0">分工上，Horowitz 的观点很干脆：政府擅长制定规则并执行规则，但特别不适合做能力评估。政府通常手里有张恐惧清单——生物黑客、网络攻击——但真正要回答的是两个问题：这个模型做得到吗？你能让它去做吗？这两个能力得由有能力的私营公司去测。于是理想的组合是：政府定规则并执法，第三方评测机构告诉它规则有没有被破坏。Krishnan 补充说，第一次序是把洞察和数据直接送到政府里对的人手上，至于政策该往哪走，那是立法分支的事，不是评测机构该替他们做的决定。</p>
 <p style="margin:0.8em 0">现行思路——以 10^26 FLOPs 这类算力阈值为界、配合三十天或六十天的等待期——背后是两股相互拉扯的力量：一股是不想拖慢技术创新的节奏，另一股是要确保技术发展的方向符合美国的利益。这两者很难同时满足，往往顾此失彼。</p>
 <p style="margin:0.8em 0">对齐问题则已经在测试里显形。Krishnan 说他们把这类测试归在 alignment 大类下，并且已经观察到：一些被用来测网络安全风险的模型，实际上在做 reward hacking——找别的路绕开约束。他们要评的是模型是否对齐用户意图，一旦发现偏离的证据就会记录。</p>
-<p style="margin:0.8em 0">地缘政治这一层，他给了一个坦率的回答。从理想主义视角看，他对主权 AI 的巨额投入感到意外：站在上帝视角，重复建数据中心、复制数据工程流程、训练各自的大模型，是极其低效的；但现实是各国在加速自建，那就需要一门共同语言来谈评测框架和共同风险。核类比在这里被反复引用：里根的&quot;trust but verify&quot;。下个月 Trump 与 Xi 将会面，信任的迹象有了，&quot;验证&quot;那一半却没有着落——冷战军控里有飞越核查这类手段，同样地，如果人们担心 AI 带来的社会乃至生存风险，就必须构造出这门评测的共同语言来完成验证。他也承认自己拿不出完美方案，只能小步走：网络安全是最容易达成共识的方向，生物安全的重要性还会上升。</p>
-<p style="margin:0.8em 0">他认为长期最值得关注的变量是 RSI：某个国家或某家公司可能一骑绝尘，做出我们并不了解、运作方式未知的模型。因此需要一个联合的方式来描述&quot;怎样的研发速度是我们能接受的&quot;、什么算超出——这也是闭源实验室的研究者们呼吁政府之间直接对话的原因。</p>
+<p style="margin:0.8em 0">地缘政治这一层，他给了一个坦率的回答。从理想主义视角看，他对主权 AI 的巨额投入感到意外：站在上帝视角，重复建数据中心、复制数据工程流程、训练各自的大模型，是极其低效的；但现实是各国在加速自建，那就需要一门共同语言来谈评测框架和共同风险。核类比在这里被反复引用：里根的"trust but verify"。下个月 Trump 与 Xi 将会面，信任的迹象有了，"验证"那一半却没有着落——冷战军控里有飞越核查这类手段，同样地，如果人们担心 AI 带来的社会乃至生存风险，就必须构造出这门评测的共同语言来完成验证。他也承认自己拿不出完美方案，只能小步走：网络安全是最容易达成共识的方向，生物安全的重要性还会上升。</p>
+<p style="margin:0.8em 0">他认为长期最值得关注的变量是 RSI：某个国家或某家公司可能一骑绝尘，做出我们并不了解、运作方式未知的模型。因此需要一个联合的方式来描述"怎样的研发速度是我们能接受的"、什么算超出——这也是闭源实验室的研究者们呼吁政府之间直接对话的原因。</p>
 <p style="margin:0.8em 0">评测的覆盖范围也在往深处走。以网络安全为例，他们过去的工作多围绕代码里的漏洞和内存泄漏；但最大的风险可能藏在基础设施层面——那些东西不写在代码里，需要模拟更大范围的企业云基础设施、甚至电网基础设施，才能说清模型真正的攻防能力。</p>
-<p style="margin:0.8em 0">把镜头拉回最初的问题：Llama 4 的两份成绩单说明，评价能力本身就是一种权力。谁来打分，最终关乎&quot;什么算好&quot;由谁定义——而 Krishnan 给出的答案是：这个定义权不该交给被评测的人，也不该被&quot;卖数据&quot;这门生意污染。这句话的适用范围比 AI 更宽：当 token 支出开始和工资单并列出现在同一张成本表上，一家公司能不能把自己对&quot;好&quot;的标准写成可读、可复算的形式，本身就成了组织能力的一部分。标准注定模糊，规范会慢慢长出来——快慢之别，只在于是否真的有人在专门量它。</p>
+<p style="margin:0.8em 0">把镜头拉回最初的问题：Llama 4 的两份成绩单说明，评价能力本身就是一种权力。谁来打分，最终关乎"什么算好"由谁定义——而 Krishnan 给出的答案是：这个定义权不该交给被评测的人，也不该被"卖数据"这门生意污染。这句话的适用范围比 AI 更宽：当 token 支出开始和工资单并列出现在同一张成本表上，一家公司能不能把自己对"好"的标准写成可读、可复算的形式，本身就成了组织能力的一部分。标准注定模糊，规范会慢慢长出来——快慢之别，只在于是否真的有人在专门量它。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">公开基准的题目与评分标准是开源的，因此会成为被优化的对象；只有 held-out 私有基准才能暴露自报成绩与真实能力之间的落差，Llama 4 是已知案例。</li>
 <li style="margin:0.3em 0">历史规律：每个万亿美元级的新产业都会长出独立测试机构（评级机构、审计事务所），AI 评测正在重复这条路径。</li>
 <li style="margin:0.3em 0">基准必然过时，主动下架饱和项并让基准跟上现实世界（判例、职业认证）是必要的；评测形态在迁移——样本更少，评分机制更复杂，且要支持连续数天甚至数周的 agentic 运行。</li>
 <li style="margin:0.3em 0">企业侧的紧迫性来自账本：token 支出正逼近工资量级，ROI 必须被论证；落地方式是用企业自己的代码库构建内部基准（Valsmith），因为哪个模型最适合你的仓库是反直觉的。</li>
-<li style="margin:0.3em 0">反直觉的成本结构：更&quot;轻&quot;的型号不一定更便宜——因为极度吃 token，Sonnet 的实际账单可能高于 Opus。</li>
-<li style="margin:0.3em 0">中立性靠激励结构保证：不卖训练数据、不做&quot;付费赢榜&quot;，因为审计与咨询同体曾让整个审计业付出过 Enron 级别的代价。</li>
-<li style="margin:0.3em 0">政策上的合理分工：政府定规则并执法，第三方评测机构提供&quot;规则是否被破坏&quot;的证据；各国最需要共同语言的地方集中在 RSI、生物安全与网络安全风险上。</li>
+<li style="margin:0.3em 0">反直觉的成本结构：更"轻"的型号不一定更便宜——因为极度吃 token，Sonnet 的实际账单可能高于 Opus。</li>
+<li style="margin:0.3em 0">中立性靠激励结构保证：不卖训练数据、不做"付费赢榜"，因为审计与咨询同体曾让整个审计业付出过 Enron 级别的代价。</li>
+<li style="margin:0.3em 0">政策上的合理分工：政府定规则并执法，第三方评测机构提供"规则是否被破坏"的证据；各国最需要共同语言的地方集中在 RSI、生物安全与网络安全风险上。</li>
 </ul>
 
 </div>
@@ -15049,5 +15160,81 @@ SteamCharts 112,519）| 汇量+15.0%✅（9-11
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-18.html</link><guid isPermaLink="false">report:播客信号:2026-09-18:498bdf11</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-18</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-18 05:05 CST</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描了 2 个播客，共 2 集（新）：[a16z(1集), 跨国串门儿计划(1集)]
+持仓披露：🔥0条 | 🔴0条 | 高质量内容：2集（a16z ⭐⭐ / 跨国串门儿计划 ⭐⭐⭐）
+数据源：本地 RSS→ASR 管线（Parakeet-tdt-1.1b / Qwen3-ASR 0.6B）；转录完整性抽查通过（7源×最近3文件，无大小重复/主题错配）
+注：同窗口 12 集已于 09-16/09-17 两轮报告处理，本轮按去重跳过（Step 0）</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露。
+原因：两集均为「行业/管理向」内容——a16z 为 fal 团队谈 AI 视频基础设施（节目末尾仅 a16z 标准免责声明，无具体持仓说明）；跨国串门儿为 Shopify CEO 谈 AI 原生组织与决策（讨论自家公司运营，非交易动作）。均无第一人称「买入/持有/卖出/配置」披露。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容（无持仓披露）</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 跨国串门儿计划 — #727.Shopify CEO：如何运用一个 AI 顾问团来审视最棘手的决策</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-16 | <strong style="font-weight:600">时长</strong>: 49:52 | <strong style="font-weight:600">嘉宾</strong>: Tobi Lütke（Shopify CEO）
+<strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aaae0289d326477816a478d" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aaae0289d326477816a478d</a></p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 组织正在从「人+工具」进化为「人+agent 同事」。Shopify 内部约一半 PR 由非工程师在 Slack 公开频道与 AI（River）对话产出；人类不可让渡的只剩三样：<strong style="font-weight:600">品味、判断力、担责</strong>。系统设计的全部目的，是把「使用 AI 的能力」变成组织可观察、可复制的文化。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 原生组织现状</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code>：约 50%（受访者自估）的 PR 由非工程师通过公开 Slack 频道与 River 对话产生；工程师人均指挥 10-50 个 agent 实例协同；「我认识的还亲手写代码的人已几乎没有了」；River 有名字/头像/个性（被允许讽刺），按频道保留记忆</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">「做梦」机制</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code>：夜间让 River 复盘全天对话——哪些做得好、哪里吃力、skill 如何改进——把结果写回 skill/指令文件，本质是「对 agent 的自我后训练」；强制只在公开频道工作 = 让 AI 用法可被全体旁观学习（复现办公室里的潜移默化学习）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">决策委员会</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[方法论]</code>：个人 AI 幕僚长调度子 agent 扮演 5-6 个专家角色（数据/论文/商业/工程），跨模型（Grok/ChatGPT/Kimi）并行跑→综合→语音汇报；成本约 $15-20、半小时出结果（人工需约一个月）；「机器没法承担责任——判断和担责必须是人」（LLM-as-judge 让重检推理链变廉价）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">新失败模式</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code>：麻烦不再是「产出不足」而是「产出过剩」——AI 生成的 PR/邮件互扔（「垃圾内容手榴弹」）；语言被 AI 腔调污染（&quot;不是…而是…&quot;句式）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">管理洞见</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[框架]</code>：难的不是找到可行方案，而是在 5 个好方案中选——有快速反馈的选项吸引所有人（→短视主义/季度主义），最优路径往往没有反馈回路（所以创始人/长期结构才选得出）；用「二次创业契机」（2.0 重置）解决组织「沉积岩」问题（SpaceX 猛禽发动机类比：进步靠修剪，不靠堆叠）</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设: ① agent 可靠性已足以承担生产级任务（以公开+人工审查+责任兜底为前提）；② 品味/判断力/担责是人类不可替代的稀缺资源；③ 责任可归因是系统吸收 AI 的前提</li>
+<li style="margin:0.3em 0">反例/风险: 「公开+审查」若成为新吞吐量瓶颈，「垃圾手榴弹」问题会放大（Tobi 自认的副作用）；「50% PR」「$15-20/半小时」为受访者口径，需审计；该模式前提（Slack-一切公开、强文化、创始人长期结构）在多数组织不可直接复制</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔍 核查</strong>: ✅ Omarchy（DHH 的 Arch Linux 发行版）为其主力系统 + AI 截图工具已开源——与 08-27《#690 DHH》集交叉一致 ✅「Shopify CTO agent review 实验」与 08-28 报告记录交叉一致 ❓「~50% PR 由非工程师产出」等数字为自述口径</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 2026-05-28《#557 Tobi Lütke：AI 时代的公司、产品与长期主义》（AI=「外骨骼」、六周周期、第一性原理重构工作流）→ 本次演进为「agent 即同事」（从「重塑工作流」→「围绕 agent 设计组织」，观点强化且更具体）；无持仓披露先例
+<strong style="font-weight:600">📈 可靠度</strong>: 🟡中 — 框架与案例可信（本人披露），数字类口径待审计</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] a16z — The Next Frontier of AI Video Is Control</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-17 | <strong style="font-weight:600">时长</strong>: 39:32 | <strong style="font-weight:600">嘉宾</strong>: Gorkem Yurtseven（fal 联创）+ fal 工程负责人 | <strong style="font-weight:600">主持</strong>: Jennifer Lee（a16z GP）
+<strong style="font-weight:600">链接</strong>: <a href="https://a16z.simplecast.com/episodes/the-next-frontier-of-ai-video-is-control-RmfmPBwf" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/the-next-frontier-of-ai-video-is-control-RmfmPBwf</a></p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 生成式媒体的「token market fit」已到来——AI 视频的成本/速度跨过临界点（生成快于播放），下一阶段竞争焦点从「能生成」转向「能控制」（相机/灯光/角色/实时连续）；开源权重模型 + 后训练/推理层是价值捕获的关键环节。</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">速度/成本</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公开数据]</code>：fal 基于 MiniMax 开源 H3 后训练的 H3 Max——吞吐量约官方接口 35 倍；5 秒 720p 视频约 2.5-3 秒生成（快于播放）；Turbo 版 5 秒→1.5 秒、成本再减半；发布约 3 周即成为 fal 平台用量第一（超第二名 2 倍以上）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力经济学</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code>：自 4 月以来全行业「compute constrained」（算力受限）；效率提升=变相释放算力供给；生成式媒体与 coding agent 并列为两大「单用户高 token 消耗」市场；Hopper→Blackwell 单代 2-3x；单节点 8-GPU 为当前部署常态（超 8 卡通信开销）；未来=按管线组件异构部署+消费级端侧</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">技术路线</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[技术细节]</code>：提速三件套=后训练少步化（50步→20步）+系统侧 MFU 30-40%→70-80%+管线各组件（prompt 扩展 LLM/扩散模型/VAE 解码）逐一优化</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">控制力产品化</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[官方演示]</code>：相机控制（JSON 结构化相机轨迹，近 100% 遵循）、灯光、唇同步、LoRA 生态；Blender+LLM+视频模型工作流（专业 VFX）；H3 Max Director：2 分钟记忆（演化系统提示扩展至 60 分钟连续），动作可控直播流（fal live）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">需求端</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[玩家口径]</code>：好莱坞=增长最快板块（一年前几乎为零）；Amazon MGM「NARA」工具基于 fal 基础设施；等待「AI 视频的消费者时刻」</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设: ① 视频生成需求随成本下降呈高弹性；② 开源权重+后训练可持续逼近前沿闭源质量；③「控制力」是专业/好莱坞市场真正的付费痛点</li>
+<li style="margin:0.3em 0">反例/风险: 闭源前沿（Sora/Veo 等）若补齐控制力且降价，后训练/推理层溢价被压缩；算力供给恢复后效率优势的稀缺性下降；好莱坞 IP/法律环节推进慢于预期</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔍 核查</strong>: ✅ 35x 吞吐 / 5s→3s / GB200 NVL72 等多源报道一致 ✅ MiniMax H3 于 7 月底发布并开源（公开事实） ❓「好莱坞增长最快」「70-80% MFU」等为播客单方口径</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 2026-09-13 a16z《World Models, Robotics, and the Future of 3D AI》⭐⭐（世界模型/3D）；2026-06-26 卫诗婕#78（Seedance/可灵/Sora）——同赛道「infra 层视角」补充；无持仓披露先例
+<strong style="font-weight:600">📈 可靠度</strong>: 🟡中 — 性能数据可查，商业口径单方</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<p style="margin:0.8em 0">（本轮无）</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线告警</h2>
+<p style="margin:0.8em 0">无。转录完整性抽查（Step 1.5）通过：7 个源（a16z / 跨国串门儿计划 / 十字路口 / Light the Star / 高能量 / 硅谷101 / 屠龙之术）× 最近 3 文件，无 byte 级重复、无主题错配。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📎 附注</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">ASR 同音错字修正（Phase 2 语境推断）：hdmax / htmax / &quot;h three max&quot; → H3 Max；&quot;gorka meardseven / mirror seven&quot; → Gorkem Yurtseven；file / fall → fal；&quot;Omakube&quot; → Omarchy；&quot;David Hannemeyer Hanson&quot; → David Heinemeier Hansson（DHH）；&quot;Sidney&quot; → Sydney（Bing Chat 代号）</li>
+<li style="margin:0.3em 0">历史检索（Step 4.5）：Shopify 相关 3 条（#557 Tobi 5月集、#690 DHH 8月集、#550）；MiniMax 相关 2 条（晚点聊 #168 / #179）；视频生成相关 5 条（十字路口具身、屠龙世界模型、a16z 3D AI、卫诗婕#78）</li>
+<li style="margin:0.3em 0">数据源：transcript_adapter.py 3天窗口（14集）→ 去重后 2 集新；报告生成：2026-09-18 05:05 CST</li>
+</ul>
+
+</div>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
