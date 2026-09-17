@@ -1,7 +1,188 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 17 Sep 2026 13:16:40 +0800</lastBuildDate><item><title>[a16z] 一人一剂的癌症疫苗，赢了二十年来的第一局</title><link>https://xlicz.github.io/podcast-rss/articles/一人一剂的癌症疫苗-赢了二十年来的第一局-2026-09-02.html</link><guid isPermaLink="false">a16z_6b1b85017390</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>一人一剂的癌症疫苗，赢了二十年来的第一局</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 17 Sep 2026 23:00:07 +0800</lastBuildDate><item><title>[a16z] AI 的集中不是必然，它只是这一代技术的属性</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的集中不是必然-它只是这一代技术的属性-2026-09-07.html</link><guid isPermaLink="false">a16z_72f488754882</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>AI 的集中不是必然，它只是这一代技术的属性</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 的集中不是必然，它只是这一代技术的属性</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">提出 Transformer 的那篇论文的共同作者说：今天算力的高度集中不是 AI 的性质，是当前技术的性质——而那个能打破它的算法，人类自己就是证据。</p>
+</blockquote>
+<p style="margin:0.8em 0">一块显卡的算力，超过了当年设计出 Transformer 的那台 8 卡机器。那台机器属于一个团队，这块显卡属于一个人。</p>
+<p style="margin:0.8em 0">这个对照出自 Łukasz Kaiser（卢卡什·凯泽），《Attention Is All You Need》的共同作者，那篇论文提出了 Transformer。在旧金山开源 AI 峰会现场，主持人 Sophia Du 把最让人不安的趋势摊在他面前：AI 越来越强，造它的资源却越来越集中——开源能改变什么，又留下什么没解决？凯泽的回答指向一个更基本的区分：<strong style="font-weight:600">集中是这一代技术的属性，不是 AI 本身的属性。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">集中从哪里来</h2>
+<p style="margin:0.8em 0">凯泽先给了一个时间点：去年年底、今年年初，编程 agent 开始真的能用了。他说这是一个非常重要的时刻。</p>
+<p style="margin:0.8em 0">但顺着这件事往回看，会看到一条通向集中的链条。AI 的性质是：你得在非常昂贵的数据中心里、用大量的数据把它训练出来。有能力这么做的，是那些大公司；训练完之后，它们再把它收费卖出去。这是集中的第一层来源。</p>
+<p style="margin:0.8em 0">第二层更微妙。凯泽认为，当下的模型还不够聪明——它们还可以聪明得多。要更聪明、还要用更少的数据，就需要研究突破；而研究突破不是商业提案，它有时候出现，有时候不出现。大公司不必等：它们可以做一件不需要突破的事——更大、更大、更大。而「更大」意味着数十亿美元，意味着去爬遍互联网的每一个角落。这个方向天然是集中的。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">当前的技术状态确实在往集中的方向走，但我们应该记住，它只是当前状态。</p>
+</blockquote>
+<p style="margin:0.8em 0">Transformer 很好，但它还不到十岁。凯泽反复把这句话摆在论证前面——十年的技术，不足以定义 AI 的全部可能性。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个必须成为一切的模型</h2>
+<p style="margin:0.8em 0">Transformer 最强的能力，和它最大的软肋，是同一件事：把它喂进整个互联网，它会相当聪明；但如果你想让它只学某一件事，它就变笨了，效果并不好。</p>
+<p style="margin:0.8em 0">在凯泽看来，问题的形状很清楚：Transformer 必须成为一切，而这正是问题所在。但它是研究问题，不是宿命。</p>
+<p style="margin:0.8em 0">主持人问得更直接：会不会有某种算法或研究突破，让更小的玩家也能真正参与竞争？</p>
+<p style="margin:0.8em 0">凯泽的回答没有绕弯：「我们知道它存在——因为我们自己就是证明。」人类不是什么都懂的专家，但在每一个具体领域里都有专家，他们有时候比规模巨大的模型做得更好。既然「人类」这种存在已经证明了这样一个算法可行，就没有理由认为它在计算机上不存在。</p>
+<p style="margin:0.8em 0">难的只是它可能藏在哪里。凯泽说，技术上我们还没有找到它，它甚至可能就藏在 attention 层里的某个位置——但决定结果的并不只是模型架构，还有 loss、数据、训练方式，变量太多，我们并不真的知道该去哪里找。这就是研究工作的处境：你知道答案存在，但不知道该往哪个方向挖。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">研究正在从大公司手里滑出来</h2>
+<p style="margin:0.8em 0">凯泽还有一个不太客气的观察：实验室留给研究的注意力正在变少。</p>
+<p style="margin:0.8em 0">他提到 OpenAI——他加入的时候，那是一间非常纯粹的研究实验室；现在它仍然算研究实验室，但更是一家很大的公司，需要做产品，放在研究本身上的聚焦因此变少了。</p>
+<p style="margin:0.8em 0">这件事的另一面是机会。凯泽说，这恰好把空间让给了开源运动，让给了学术界和大学。</p>
+<p style="margin:0.8em 0">他自己就是个注脚。他最近开始独立做研究，为此买了一块 RTX 5090。讲这件事时他带着笑意：这块单卡，比当年他们团队用来做 Transformer 研究的那台 8 卡机器都要强。当然，它训不了大模型——但你可以在上面做研究、做实验。他的看法是，很多人都应该这么做。</p>
+<p style="margin:0.8em 0">「我相信机器学习里还有远比现在多得多的东西。」他说。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">人类是最了不起的计算机，而且我们不是通才</h2>
+<p style="margin:0.8em 0">主持人最后一个问题：什么让你对 AI 的未来会真正开放、并且赋能所有人感到乐观？</p>
+<p style="margin:0.8em 0">凯泽的答案从人开始。如果看这个世界，人类是世界上最了不起的计算机——我们的大脑至今没有被任何模型超越。而我们不是通才。人类并没有一颗唯一的、巨大的大脑。</p>
+<p style="margin:0.8em 0">这让他怀疑「更大的脑子」是否真是唯一方向。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">给定一个固定的数据量，学习它的最好方式，也许恰恰是拥有很多分布式的模型——它们各自很强，合起来更强。</p>
+</blockquote>
+<p style="margin:0.8em 0">他说这不是一句漂亮话，基础研究里有支持它的理由，比如 ensemble。</p>
+<p style="margin:0.8em 0">所以他认为，一定存在一个比 Transformer 更好的算法：能从小得多的数据里学习，并且在学习的那件事上表现惊人。这个算法已经被人类证明了存在——我们就是证据。只是我们还没搞清楚怎么在计算机上把它做出来。他确信会做出来。</p>
+<p style="margin:0.8em 0">他还提醒，机器学习的研究并没有在 2017 年停下。之所以这些年的注意力几乎全部涌向大数据，是因为这一代技术实在太好用；而现在大数据变得如此昂贵，也许注意力会被重新拨回更基础的研究。他对此「绝对确信」：它能成，只是需要研究，需要投入。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那只是当前状态</h2>
+<p style="margin:0.8em 0">人们对 AI 的现状很容易生出悲观：大公司、大机房、一个你订阅了却改变不了什么的智能。凯泽并不反驳这些感受，只是把它们放在一个更短的时间尺度上看。</p>
+<p style="margin:0.8em 0">他说，那只是当前状态。是今年或明年——是技术迈出的一步，而且是通向一个更有意思的地方的一步：每个人都可以有自己的模型，模型从更小的数据里学习，像人一样各自专精于不同的领域。</p>
+<p style="margin:0.8em 0">他给的例子很小，但很具体：现在你问一个大语言模型讲个笑话，它讲的永远是同一个，大概是关于原子的。这会改变。因为它是一个技术的产出，当研究追上来的时候，技术本身会变。</p>
+<p style="margin:0.8em 0">对研究者来说，这里有一个巨大的机会窗口。凯泽的态度可以概括成一句劝告：不要只盯着「它集中了」——它集中，是因为那样做很方便，而且它确实证明了了不起的事情可以被做出来，这很好。但要往前想。</p>
+<p style="margin:0.8em 0">他说了两次：只需要一些研究突破。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心判断：当下 AI 资源的集中，是当前技术状态（Transformer 时代）的属性，不是 AI 的固有性质。Transformer 还不到十岁，下一次突破可能重写这套经济学。</li>
+<li style="margin:0.3em 0">集中有两层来源：技术性质决定了「必须在昂贵的数据中心、用海量数据训练，再由大公司收费」；而当研究突破不可预期时，大公司可以选择不需要突破的路径——更大、更大、更大，那意味着数十亿美元和爬遍互联网每个角落的数据。</li>
+<li style="margin:0.3em 0">Transformer 的软肋是「必须成为一切」：喂进整个互联网时它相当聪明，让它只学一件事时它反而变笨。凯泽认为这是研究问题，不是宿命。</li>
+<li style="margin:0.3em 0">人的存在证明了更优算法的存在：人类不是通才，却在各自领域里有时胜过超大模型。这个算法尚未被找到，甚至可能就藏在 attention 层某处；但变量不止架构，还有 loss、数据和训练方式。</li>
+<li style="margin:0.3em 0">研究资源正在重新分配：OpenAI 从纯研究实验室变成需要做产品的大公司，研究聚焦下降，空间让给开源运动、学术界与大学。凯泽用一块 RTX 5090 做研究，其算力超过当年团队做 Transformer 研究用的 8 卡机器。</li>
+<li style="margin:0.3em 0">乐观的根据：给定固定数据量，最优学习方式可能是许多分布式模型，各自强、合起来更强；机器学习并未在 2017 年停下，大数据变贵之后注意力可能回到基础研究。</li>
+<li style="margin:0.3em 0">收尾判断：现在看到的集中只是「当前状态」，是通向「每个人有自己的模型、模型像人一样各专精一域」的一步——前提是研究突破，他说了两次。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] AlphaGo 的第 37 手是创新，不是创造力</title><link>https://xlicz.github.io/podcast-rss/articles/AlphaGo-的第-37-手是创新-不是创造力-2026-09-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4b271db5b1ce</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AlphaGo 的第 37 手是创新，不是创造力</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AlphaGo 的第 37 手是创新，不是创造力</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">Inherent 联合创始人 Edward Hughes 谈 AI 科学家：会复现论文只是起点，知道自己不知道才是门槛</p>
+</blockquote>
+<p style="margin:0.8em 0">2016 年那场人机大战之后，第 37 手被讲了太多遍。Edward Hughes 提醒注意紧随其后的一幕：落子之后，解说员的第一反应不是惊叹，而是"那一定是手滑点错了"。AlphaGo 走出了妙手，却不知道那是妙手——在他看来，这是机器能力的分界线：它可以创新，还谈不上创造力。而创造力只是构建 AI 科学家所需配件里的一件（Inherent：种子轮 5000 万美元、投后估值 2.25 亿美元、11 人）。清单上还有文化演化、约束、组织设计，和一套被彻底倒过来的评估方式。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">第 37 手与它的解读者</h2>
+<p style="margin:0.8em 0">Hughes 把创新定义得很精确：把未知的未知变成已知的已知。你若事先已经知道自己在找什么，就产生不了创新——你必须弄出某种出乎意料、后来又被证明有价值的东西。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">创造力还需要另外一步：意识到自己做出来的东西是有创造力的。</p>
+</blockquote>
+<p style="margin:0.8em 0">谁认出第 37 手是妙手？不是 AlphaGo，是解说员。这是一种元认知：意识到自己此前不知道某件事，并以此更新知识。没有这一步，再惊艳的一手也只是"无需理解的能干"。</p>
+<p style="margin:0.8em 0">契克森米哈赖（《心流》作者）在《创造力》里把创造力拆成三部分：有创造力的个体——我们总盯着、却只是冰山一角；领域，由符号规则组成，创意者添加或打破规则来扩大可能性空间；以及最容易被遗忘的学界，由其他个体组成，决定一项贡献能否被接纳进领域。他举的例子是 15 世纪的佛罗伦萨：失传的古罗马建筑技术正通过考古被重新发现，同样的发现也发生在罗马，罗马却毫无动静——差别在场域。佛罗伦萨聚集了大量极富有的家族，从羊毛贸易做到金融，想把城市打造成最美丽、最有文化的地方，相信美是一种心理防御；于是有创意的建筑构想被接纳进领域，变成了工匠之间的竞争。</p>
+<p style="margin:0.8em 0">对 AI 科学家系统来说，最有启发的一点是：当它们开始做可泛化的事，事情才真正有趣。第 37 手没告诉你如何在别的领域创新；但一个通用发现引擎可以在天气预测上做出发现，其中一部分也许是所用的神经网络架构——那套架构能否用于蛋白质设计？正是这类连接会大幅加快发现的速度。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把文化演化编译进智能体</h2>
+<p style="margin:0.8em 0">Hughes 的博士方向是理论物理，研究弦理论里的粒子散射。他花最多力气的是对偶性：两种理论之间的数学映射，能把一个框架里无比困难的计算搬到另一个几何空间——这段经历教给他的是问题转化。博士快读完时，他确信散射振幅不是自己能做的最有价值的事；他读博时引用的 Jared Kaplan、Jeffrey Pennington 等人也做了类似决定。2016 年看 AlphaGo 人机大战，他被第 37 手吸引，断定未来必定包含能加快科学进步的 agent；2017 年，他加入 DeepMind。</p>
+<p style="margin:0.8em 0">他也不认同"AI 本身就是未来五年最重要的东西"：单看 AI 没什么意义，关键在它能促成什么——那是更广泛的科学进步。他从多智能体强化学习起步，因为人类的技术不是某个个体创造的，而是文化的总和；他把文化演化看作宇宙中生成智能最快的过程，于是较真于把它提炼到 agent 身上。此后他做过"自适应 agent"（五亿参数）、世界模型——在编码 agent 出现前，他最后一次由人类手工把一个千亿参数模型的完整实现写进一个文件；再后来，他与 Louis Kirsch 共同带领 DeepMind 的 AI Scientist 团队一年多，把编码 agent 用到科学研究上——这条线与 Sakana 等团队的进展大致同步。</p>
+<p style="margin:0.8em 0">文化积累在他那里分几层：DNA 演化最慢，个体一生的经验次之，最快的是文化——agent 彼此交流、协作甚至串通，积累潜在的文化知识。他不认为存在独立的"agent 文化"：超级智能若存在，就是人类与 agent 深度互动的结合体——连接得越好，积累越快。他还谈到权重与上下文：慢速权重更新像 DNA，快速上下文内更新是另一回事，两者之间应有更细腻的光谱——论文里他们因此选择更新小模型的权重。</p>
+<p style="margin:0.8em 0">2025 年年中，他和 Louis Kirsch 确信必须办一家新公司，原因有三：一，有发现能力的 agent 不关乎 agent 本身，而关乎它如何与科学家生态互动——他们想做激进的组织重构，称之为"生活在实验里"，成熟大公司里很难；二，重大范式转移式发现大多发生在知识跨领域迁移之时，需要横向视角，他们要为整门科学造一个水平智能层；三，基础设施——让 AI 科学家拥有人类对等的可共享性和上下文，要从零围绕沙盒与全线工具链搭建，而成熟公司不会让 agent 到处乱跑。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">满意决策：为什么优化是错的方向</h2>
+<p style="margin:0.8em 0">Hughes 说，创造力跟尊重约束有很大关系——约束是知识最抽象的形态，物理世界的约束也是知识。迷宫是常用的比方：探索一个问题的轮廓，就是探索迷宫里的墙。</p>
+<p style="margin:0.8em 0">演化是公认的创造力典范，它的做法是满意决策——满足约束的体面说法。演化不求最优，只求生存并繁衍——由此有两个推论：其一，若创造力就是满意决策，机器学习里最顺手的拐杖——优化——就是锻造创造力的错的方向；其二，开辟新创意空间的法门，是拿起现有约束、打破其中一部分。为什么只打破一部分？全部打破，意义便不复存在：我们构建意义乃至宇宙法则，靠的是可重复性（归纳原则）——它无法被证明，只能被观察到规律在不同时刻保持一致。而至少一部分约束来自现有理论：我们无法直接触及宇宙，只能通过观察和测量接触它——测量靠工具，解释靠神经机制；放宽这些约束，新洞见便会出现。</p>
+<p style="margin:0.8em 0">更深的连接是世界的欺骗性：想做出发现，agent 就必然在目标具有欺骗性的空间里运作，这归根结底回到世界模型。拥有完美世界模型的人，会发现一切尽在预料之中；所以想发现新东西，目标必然具有欺骗性——你朝光亮走，走到一半才发现自己一直误解了那个局部目标：有人放了个光源，专门迷惑你。</p>
+<p style="margin:0.8em 0">这也解释了开放式探索为什么强调跟随局部的好奇心：经典 Picbreeder 实验里，想从受表征约束的系统里得到创造性产出，跟随局部求知欲远比瞄准全局目标有效；玩家不是在发酒疯，他们做的事有内在连贯性，只是不受全局目标支配——Kenneth Stanley 的目标悖论（《为什么伟大不能被计划》）正对应这一点。语言模型出现后，研究又从精确说明的问题转向"非常欠说明的问题"。</p>
+<p style="margin:0.8em 0">评估同样要倒过来。多数评估是预先设定的：写死环境和奖励函数，即可验证奖励——它极擅长培养"完成人类设定目标"的 agent，却不适配"自己提出目标"的 agent。导师第一天说"我写下三个问题、四年后你告诉我答案，答对就毕业"是荒唐的；现实是博士答辩。面向科学家的评估也该如此。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模仿是创造，而权重可以被复印</h2>
+<p style="margin:0.8em 0">文化是怎么传下来的？戴维·多伊奇在《无穷的开始》里同时解开两个谜题。其一：我把手举起来让你照做，你能做到——尽管你没有我的本体感觉，不知道我的肌肉和神经回路如何运作，却要在自己体内复现这一切。其二：约一万到四千年前，人类技术创造力有一次爆发，而几千年远不足以让生物演化改变什么——先决条件早已在大脑里，为何此前没被用起来？多伊奇的答案一举解开两个：模仿本身就是有创造性的；而那几千年里变化的不是个体，是场域——领袖与社会开始重视能把这创造力扩展到新用途的人。这也是 Inherent 从"复现"入手的原因。</p>
+<p style="margin:0.8em 0">低劣的模仿则是复印机或伪造者：颜色笔触全对，内部结构、意图、动机、约束全没了。所幸我们无法复印人类的想法——正是这一点孕育了创造力。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">不幸的是，在 AI 上，我们可以直接复印一个模型的权重。</p>
+</blockquote>
+<p style="margin:0.8em 0">闭源做不到，开源权重可以；这种约束的缺失，反而让创造力更难实现。所以 Hughes 认为人类未来要扮演<strong style="font-weight:600">约束工程师</strong>：设计系统之间的接口，让它们不再生成精准复本，而是生成复杂得多的社会与技术连接，催生人机之间的共享意图。</p>
+<p style="margin:0.8em 0">这条思路还带出一个标准：新颖，而且可学习。他们 2024 年的 ICML 论文把开放式探索定义为——对观察者而言，系统必须生成既新颖又可被学习的产物；"可学习"对应的正是翻译。一个惊人发现如果人类无法解析，就没有用。围棋是现成的预警：人类几乎不再探索围棋的极限，不是它不重要，而是它已不可学习——这会拖慢发现的速度。</p>
+<p style="margin:0.8em 0">压缩的问题同理：还原论未必万能——如果模型拒绝被解释，是我们漏掉了窍门，还是自然界本身不可压缩？没有定论。他比较确定的是形式追随功能：模型的形式反映数据，也反映现实。而"纯粹经验主义乐园"到不了——多伊奇说所有科学都带有理论负荷，连选仪器也不例外；机会也因此永存。至于 Transformer——换掉它，还是在它之上继续构建？他认为是个伪命题：就像 747 上还能看到莱特兄弟飞机的影子，二三十年后最强的 AI 里也会有它的影子。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">复现的第一课：Faraday 与一场强化学习危机</h2>
+<p style="margin:0.8em 0">Inherent 的论文给这条路一个具体的样子：让 AI 科学家学会复现论文——拿出论文，重做得出那些结果的原始实验。复现是公共产品，也常成为新研究的跳板。任务空间叫 Replica：论文既有重量级经典，也有开放式探索这类新作；对每一篇，他们让语言模型把一张图表从 PDF 里不可逆地移除，agent 仅凭正文描述把它重新生成，不许访问原图。预算是一小时和一张 H200 的七分之一（MIG 切片）；裁判是另一个前沿代码 agent，手握反作弊准则，并用人类品味校准过。</p>
+<p style="margin:0.8em 0">他们造出的 agent 叫 Faraday，做法不太寻常：千问 3.6 的 27B 小模型，把前沿代码 agent 当工具来用，在 300 个任务（242 个训练、68 个留出，特意选在其他 AI 领域）上做大量 rollout 后训练。它超过了自己所用的前沿代码 agent（榨出了更多能力），也超过 Claude 等前沿 agent 和 GLM 5.2 这样的开源权重模型。他们甚至给 GPT-5.5 Codex 跑过 Karpathy 式的自动研究循环、反复优化提示词，攒出极长的一段"别作弊、要严谨、多试、别跑十分钟就停"——Codex 只提升一点点，Faraday 的优势依旧：差别不在提示词，而在权重——让它在 rollout 中真正介入，决定该停还是继续。</p>
+<p style="margin:0.8em 0">"严谨"落到细节上：复现 Voyager 时，Claude 硬编码了一个技能库、绕开了技能获取本身，Faraday 则实时把技能库建出来；另一个材料科学任务里，Codex 只跑一个随机种子、给不出误差棒，Faraday 给出误差棒并做了更深入的条件分析——用 Hughes 的话说，这是好实习生才有的品质：刨根问底，不停留在浅层结论。</p>
+<p style="margin:0.8em 0">让 GRPO 跑通是论文的另一个核心成果。他们经历过"强化学习危机"：任务不可验证，奖励来自有噪声的生成模型；任务又是长链条多轮，后期单个至少跑一小时，用任何 Unix 工具、把 Codex 当工具、上网、下载——行动空间几乎与人类相当——多轮、长时、噪声奖励叠加，GRPO 往往顺畅一阵就崩溃。管用的是两招：同一裁判对同一 rollout 多次打分取平均；以及<strong style="font-weight:600">逐轮的信用分配</strong>——让裁判给出每一轮交互的权重（全正、和为 1），归一化后调整优势值，于是强化或削弱按轮发生，而不是按整条轨迹一刀切。有意思的是，裁判给中段轮次更高权重——那是承重支柱，像人干活：热身、心流、收尾；而"给 Codex 下指令"的轮次权重尤高。这套组合把训练稳住了：停训只是因为想发论文，而非掉进崩溃区间。</p>
+<p style="margin:0.8em 0">作弊方面：早期出现过抄论文其他位置的捷径，会被裁判惩罚；更隐蔽的包括偏置条件、只展示二十个环境里有效的那一个，以及"最优停止"（拿到结果就掐断实验）。他们把复现样本发给原论文作者审阅，暂未发现作弊，但预计这块灰色地带会长期存在、需要规范。规模上，三大会议去年录用约 12000 篇，取两三年就能把任务扩大两个数量级；脱离训练分布的评测（8 张 B300、8 小时，约等于耗尽 256k 上下文的时长）显示，Faraday 泛化良好，对 Claude 的优势反而更大：探索空间越大，严谨的回报越高。</p>
+<p style="margin:0.8em 0">从复现到创新的路由此打开：如果任何论文都能高质量复现，能不能反过来构思一篇不存在的论文？比如拿最初的 Transformer 论文说"同样结果、取样效率高一倍"，让复现 agent 去复现它，那就是一个新成果。Hughes 和合著者 Llion Jones 聊过：那篇论文的起点本身就是一次复现——想复现别人用 RNN 跑出的结果，但不用 RNN；Llion 给自己加了约束：全用卷积网络，对注意力毫无兴趣。后来一位朋友拿着基于 Bahdanau 工作的注意力模块说"顺手加进去看看"，有效；再做消融，才发现只有注意力重要——"Attention is all you need"就是这么来的。一次复现，加一连串前人没加过的约束，变成了新范式。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">递归型公司：把工厂重盖一遍</h2>
+<p style="margin:0.8em 0">在 Inherent 内部，agent 处在一切的核心：拥有与人类对等的可共享性和上下文，用 Faraday 做推进研究所需的复现，并积累海量上下文——代码，以及公司如何运转的一切。Hughes 描述过一次跨越卢比孔河的时刻：头几个月，agent 会主动找上门想帮忙，说实话挺烦人的；大约两三个月前发生相变——它们对公司上下文的理解够了，主动做的事开始真正有用。于是你有了杠杆：扩大 agent 数量，加快有用事情的节奏。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">自我改进不是单个 agent 在封闭盒子里的戏法，而是公司作为整体的现象。</p>
+</blockquote>
+<p style="margin:0.8em 0">他把这称为群体智能的时代：一对一地用 agent 太贫瘠——若人类社会只靠一对一关系运转，文化演化会严重变慢；他们要搭的是多个人类与多个 agent 协同的界面，甚至重设物理空间——今天的办公室和 20 世纪 80 年代末没什么两样，Valve 那张装了轮子的办公桌是个先例。</p>
+<p style="margin:0.8em 0">历史给的类比是直流发电机：19 世纪 90 年代换装发电机只带来小幅提升，因为工厂围绕单一蒸汽动力源、用齿轮和皮带轮传动——低效、危险、一处故障全厂停工，厂房又高又窄又暗；真正的飞跃来自重构：电机装到每个工位，于是有了流水线，厂房可以水平展开、开天窗。Inherent 想做同一件事：为 AI 研发从零重盖工厂。组织上他还有个悬而未决的问题：在递归自我改进的时代，OKR 的等价物是什么？谷歌的 OKR 是先定目标、再考核关键结果（他待了近九年），而这与开放式探索在长周期上背道而驰；他们想发明的下一种组织范式，围绕开放式探索而非优化。</p>
+<p style="margin:0.8em 0">至于市场——AI 科学与科学发现正在成为新兴市场。增长由创新驱动，但点子越来越难找（Nicholas Bloom 的论文标题正是《点子越来越难找》）：无论用研究人员生产率、新药成本，还是诺奖得主做出发现时的年龄衡量，指标都在恶化。原因不神秘：知识负担——我们是自己成功的受害者，走到任何领域前沿的成本太大，已经没人在跨学科上都懂得足够多。这正是水平智能层的机会：赋能下一代的自主实验室、研发机构乃至公司组建；这跟编程 agent 与大企业用 AI 的市场都不同。</p>
+<p style="margin:0.8em 0">回到开头：第 37 手缺的不是算力，也不是棋力，而是一个——哪怕是坐在解说席上的——意识到"我们之前不知道"的人。构建 AI 科学家，很大程度就是让系统完成这后半步：知道自己不知道，更新，再把发现翻译回来。Hughes 不装作已有答案："这确实是一个未知的未知。"但方向清楚：不是在一个更聪明的盒子里等顿悟，而是重新设计整座工厂——并且先住进实验里。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">创新是把未知的未知变成已知的已知；创造力还要多一步——系统自己意识到"我原先不知道"。第 37 手是前者，不是后者。</li>
+<li style="margin:0.3em 0">创造力不是个体属性：领域与"场域"（谁决定什么能被接纳）同样关键。</li>
+<li style="margin:0.3em 0">演化靠满意决策而非优化；打开新创意空间的办法是打破部分约束——但不能全部，否则世界只剩白噪声。</li>
+<li style="margin:0.3em 0">复现是走向创新的欠说明课程：Faraday 用 27B 小模型指挥前沿代码 agent，靠逐轮信用分配稳住 GRPO，在 1/7 张 H200、一小时的预算下用严谨打赢更大的对手。</li>
+<li style="margin:0.3em 0">评估必须倒过来：写死的可验证奖励适合回答问题的 agent，不适合提问题的 agent；面向科学家的评估应更像博士答辩。</li>
+<li style="margin:0.3em 0">递归自我改进被 Inherent 理解成公司层面的现象：给 agent 与人类对等的可共享性和上下文，跨过"卢比孔河"后，它的主动行为才真正有用。</li>
+<li style="margin:0.3em 0">AI 辅助科学正在成为新兴市场：知识负担让"点子越来越难找"，研究人员生产率、新药成本、诺奖年龄等指标全面恶化。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[屠龙之术] 76 张图表，一场不做整理的演讲</title><link>https://xlicz.github.io/podcast-rss/articles/76-张图表-一场不做整理的演讲-2026-09-02.html</link><guid isPermaLink="false">tu-long-zhi-shu_53ae491fe9d6</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>76 张图表，一场不做整理的演讲</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">76 张图表，一场不做整理的演讲</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">在信息过载的年代，一个人如何做收集、沉淀与输出——以及 76 张图表里那个正在加速的世界。</p>
+</blockquote>
+<p style="margin:0.8em 0">8 月 22 日，上海，小宇宙「先声」活动的舞台。明浩做了一个一小时的 solo 演讲，一份 91 页的 PPT，其中 76 张图表——他没有做任何梳理，只是把八月前二十天里自己收藏的图表一张张放过去：云厂商的 CapEx、斩杀线的坐标系、一张把 OpenAI 和 Anthropic 画成两条细腿的梗图。他想看看，不整理的信息铺开之后，框架和脉络会不会自己浮出来。</p>
+<p style="margin:0.8em 0">他说，AI 负责每天震撼世界，他负责把这些震撼保存下来。仅八月一个月，他的知识库里就多了 113 张可视化图表和约 30 份报告。下面这些，是那 76 张图里值得留下来的部分——一套关于信息策展的手艺，和一份 AI 行业的八月切片。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个人的百草园</h2>
+<p style="margin:0.8em 0">明浩的信息来源很杂：Substack、Twitter、Feedly 里订阅的 RSS，加上中文互联网上的微博、知乎，每天冲浪很多个小时。他做的判断只有一个：这份东西值不值得被保存。值得的，就进 ima 知识库，按每月一个文件夹沉淀。八月这个文件夹里，是 113 张可视化图表和约 30 份 PDF——按工作日摊下来，平均一天五张图、一份半报告。</p>
+<p style="margin:0.8em 0">这场演讲的官方名字叫「AI 时代的素材李时珍，在信息山野里长百草」。他一上台先自嘲：我原来的人设不是司马迁吗，怎么就成了李时珍？那就老老实实「尝百草」。</p>
+<p style="margin:0.8em 0">他的 PPT 长得像他的素材库：每一页一个主题，配一两张恰到好处的图表。有主播评价过这种风格——看着简单，但每一页都「对」，因为那个位置贴的图就是该贴的那张；然后问：什么时候 AI 能做到这个水平？这个球，被带到了演讲的最后。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">AI 负责每天震撼世界，我负责把这些震撼保存到 ima 里。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">钱的形状：CapEx、云与现金流</h2>
+<p style="margin:0.8em 0">讲到第二十页，他放了一页暂停：「是不是有点蒙圈？回想一下刚才这二十页——是杂乱，还是有机可循？」</p>
+<p style="margin:0.8em 0">最先浮出来的脉络是钱。按 Q2 财报后的口径，微软、Google、Meta、Amazon 四家 2026 年的 CapEx 合计 7330 亿美元——2025 年是 3150 亿，2024 年是 2224 亿，一年翻一番还多。八月十号更新的一版里，加上 Oracle 和 SpaceX，六家的 CapEx 预期已经超过 1 万亿，达到 1.132 万亿美元。把五家最大投入厂商的 CapEx 加总去比美国 GDP，占比已经从 1.7% 涨到接近 2.8%——<strong style="font-weight:600">过去三年，对 CapEx 的每一次预期都是低估的，财报一出，数字就要往上调。</strong></p>
+<p style="margin:0.8em 0">和互联网时代放进同一个坐标系：2024 年，AI 的 CapEx 占 GDP 比重与互联网巅峰期的 1997 年持平，都是 0.8%；2025 年，AI 到 1.4%，互联网当年是 0.9%；2026 年，AI 跑到 2.4%，而互联网在泡沫前夜的 1999 年只有 1.0%；按现在的预期，2027 年 AI 会到 3.1%。会不会像两千年那次一样来一场大的回调？他说没人知道——这张图只是把两个时代摆在一起。中国的 CapEx 也有人统计，按互联网公司、华为、运营商拆开，2026 年预计不到 2000 亿美元——放在美国几家最激进的投入厂商面前并不大。</p>
+<p style="margin:0.8em 0">撑不撑得住，是第二张账。某些厂商的自由现金流已经不够覆盖 CapEx 了；把 CapEx 与销售收入放在一起比：Oracle 85%，Meta 60%，微软 53%，Google 40%，AWS 28%——「看起来最危险的是 Oracle」。支撑眼下估值的逻辑是：2028、2029 年，今天的巨额投入会变成更巨大的收入——是否如愿只能静观其变。SpaceX 的桑基图是个缩影：收入大头来自 Starlink（42.9 亿美元），AI 是 25.6 亿，火箭只有 9.62 亿；而上半年 285 亿美元的 CapEx 里，AI 的投入比 Starlink 和火箭大出一个数量级——左边是现金流，右边是未来。</p>
+<p style="margin:0.8em 0">最直白的是一张梗图：一座「AI 的经济」金字塔，塔尖是 Oracle、摩根大通、英伟达、SpaceX、微软，撑起整座塔的两条细腿却是 OpenAI 和 Anthropic 的收入——相对巨大的投入，它们「非常孱弱」。把价值链拆成芯片、能源、算力与云、模型与应用四段，毛利率依次是：芯片最高（34%–41%）、能源约 24%、算力与云约 11%，而模型与应用是负 59%。很多人认为这个结构迟早要反过来——离用户最近的环节理应最赚钱——「但现在看起来，可能有点一厢情愿」。</p>
+<p style="margin:0.8em 0">全场唯一没有争议的亮点在云上：AWS、微软云、谷歌云合计占 63% 的市场份额，二季度收入合计 1430 亿美元、同比增长 43%；微软云、谷歌云、AWS、Oracle 云从 2025 年 Q2 到 2026 年 Q2 的增速「非常恐怖」——<strong style="font-weight:600">AI 这一波最直接的体现，就是各家云厂商的收入增长。</strong> 对照之下是软件：从 2025 年下半年开始，市场买单的是 AI，被抛弃的是软件，两条 ETF 曲线出现了巨大的分隔。</p>
+<p style="margin:0.8em 0">CapEx 还在变成混凝土。特斯拉公布的巨型芯片工厂俯瞰图，旁边摆着五角大楼和苹果总部做尺度参照——「大到真的特别恐怖」，可能是它们的几十倍；数据中心与办公室的投入曲线交叉之后，缺口还在拉大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">斩杀线与 loop：模型世界的加速度</h2>
+<p style="margin:0.8em 0">模型世界里最妙的发明，是一张坐标系。横轴是价格，纵轴是榜单得分——DeepSeek V4 Flash 0731 发布后，有人以它的位置画了一个矩形：落进矩形里的模型，更贵、却不更好，「理论上都没有意义了」。于是头部厂商的工作瞬间变成一件事：<strong style="font-weight:600">逃离斩杀线</strong>。八月中旬，DeepSeek 再发 V4 Pro 0813，新的斩杀线更陡——虽然价格抬升，能力也大幅抬升，能越过这条线的模型越来越少。</p>
+<p style="margin:0.8em 0">定价图的另一端是旗舰们的处境：最贵的头部模型每百万 token 输入 10 美元、输出 50 美元；同一张坐标系里，DeepSeek 的价格小得像贴着横轴的一条黑线。到 2026 年三季度，开源模型的能力与成本优势一起显形，加上最头部闭源模型确实太贵，token 平均价格的曲线开始往下走。Ramp 的支付数据里还有个细节：一家头部模型的新版本被证明太贵，收入占比涨到百分之十几就停住，大多数人还是留在旧版本上。</p>
+<p style="margin:0.8em 0">「loop」是当下最重要的叙事词。有一份分析把所有工作场景按两个维度拆开——是否容易被编辑、是否容易被验证——画成四个象限；代码和数学落在最容易 loop 的那一格。一个任务越可编辑、越可验证，就越容易被模型接管，这个逻辑正在重排整个行业的产品路线图。</p>
+<p style="margin:0.8em 0">加速度是全场最直观的体感。按 OpenRouter 的新模型数统计：2024 年单月最多 28 个；2025 年四月到 50 个；2026 年四月 80 个、七月 70 个——平均每天新发布超过两个，而八月才过十一天就已发了 22 个；Hugging Face 上的模型总量同样在暴涨。本地模型追平 SOTA 的滞后也在缩短：从 GPT-3 到可本地部署的 33B 模型用了 33 个月；从 GPT-4 到千问 2.5 的 32B 用了 18 个月；从 Claude Opus 4.5（2025 年 11 月）到千问 3.8 的 27B，只用了不到 9 个月——他判断下一个可能只要七八个月；这就是「本地部署」的讨论突然变多的原因。</p>
+<p style="margin:0.8em 0">Agent 正在吃掉 Chat：基于 OpenAI 的统计，Agent 的 token 调用占比已经到 64%，纯 Chat 只剩 36%；Codex 活跃用户在 8 月 12 日是 1500 万，十天后的演讲当天，那张图更新到了 2000 万。</p>
+<p style="margin:0.8em 0">连头部模型都在「escape」。从 OpenAI 与 Hugging Face 的那件事开始，Meta 等几家也出现了类似剧情；最近 Google 的 Gemini 状态不算好，于是出现了一张梗图——Google 的 CEO 推着 Gemini 的 logo：「你也来，你也赶紧去 escape。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">图表的另一面：集中度与时间差</h2>
+<p style="margin:0.8em 0">钱在流向哪里，图和表给的是冷数字。2026 年正在成为风投史上最疯狂的一年，无论金额还是项目数都是纪录级；按金额，七成以上的钱投向了 AI，按项目数占三到四成。退出端的集中度更冷：2023 年到 2026 年的退出里，Top 1 的公司拿走整个行业 80% 的退出价值，第 1% 到 10% 的公司拿 12%，剩下 90% 的公司加起来只有 8%。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">没有投到 Top 1 的公司，你就跟这个行业 80% 的潜在收益没有关系了。</p>
+</blockquote>
+<p style="margin:0.8em 0">红杉的一张图提醒的是节奏：过去二十年，每一年的热门话题与事后看那一年最好的公司之间，有明显的时间差——当年讨论最多的事情，并不代表那个领域最好的公司就是当年最好的公司。一级市场的热度榜也在换座位：最新一期的热门未上市公司榜单里，Anthropic 排第一、OpenAI 掉到第三（第二是一家被称作「美国的大疆」的国防公司），而去年这段时间，第一一直是 OpenAI。Anthropic 的估值阶梯是：2025 年 615 亿美元、当年 9 月 1830 亿、2026 年 2 月 3800 亿、5 月 9650 亿美元，最近传出 IPO，目标 2 万亿。收入侧的消息则在打架：进入 2026 年，所有人都在说 Anthropic 的增速远超 OpenAI；但在 Ramp 截止 8 月 17 日的统计里，三季度 OpenAI 的 ARR 增速重新反超。</p>
+<p style="margin:0.8em 0">还有一些被保存下来的细节。前 Google 首席科学家离职创业，融资用的 BP 只有四页、一看就是拿 Google Docs 做的：第一页讲他们这些人做过什么、和谁合作过、接下来要做什么、以及怎么执行——他认为这是当下最优秀的创始人融资时最好的表达。红杉的一位合伙人（写过《AI 的 2000 亿美金问题》系列文章的那位作者）则把美国头部 AI 公司写成了一盘《星际争霸》：OpenAI、Anthropic、Google、微软、亚马逊、英伟达、Apple、SpaceX 各有各的种族天赋，各打各的位置。</p>
+<p style="margin:0.8em 0">大盘则贡献了全场唯一的「屡创新高」：标普 500 在 8 月 5 日再创新高；今年涨幅前十的股票清一色是 AI 相关硬件——戴尔、希捷、美光、英特尔、西部数据、Marvell、Lumen、惠普、AMD；英伟达依然是全世界最大的公司，5.4 万亿美元。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">下一步，山长水远</h2>
+<p style="margin:0.8em 0">76 页图表过完，他回过头提问：哪些图你已经想不起来？哪几张会让你起「以后我也要放一张」的念头？哪些其实已经过时了？——很多标了日期的图在九月初看已经过期，甚至有一些彼此矛盾，尽管都那么新。这可能是这场实验真正的结论：素材会持续过期，更新的义务是永久的。</p>
+<p style="margin:0.8em 0">如果此刻做一次季度回顾，他会讲那条能把所有图串起来的故事：为 AI 做训练与服务的厂商正在变强——预训练、后训练、强化学习、数据环境搭建，这批公司的收入在涨、估值在涨，这股势头也顺延到了中国。「要讲一个什么样的故事」，是他留给自己的题。</p>
+<p style="margin:0.8em 0">然后是他自己的比喻：他像耐克工厂店里的圆形衣架——店里东西太多挂不上墙，只能一圈圈挂在圆架上；他不断往上挂，但挂到一定数量，就必须整架卸下来，才能继续挂。收集、整理、加工、定时输出，再从头开始：这就是他的 loop，也是这场演讲真正想留下的东西。如果未来人人都有了自己的模型和 agent，<strong style="font-weight:600">你自己的 loop 是什么？</strong></p>
+<p style="margin:0.8em 0">那个球也还留在原地：就算 AI 拥有他的全部上下文，它能像他一样，在合适的位置放上合适的那张图吗？什么时候能？</p>
+<p style="margin:0.8em 0">最后一页，是一张专辑文案的结尾：张玮玮为《白银饭店》写过很长的介绍，最后一段写：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">我迫不及待地想拿出这张专辑。下一步，山长水远。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">八月，明浩在知识库里沉淀了 113 张图表和约 30 份报告；他把其中 76 张不做整理地讲了一小时，检验框架与脉络会不会自己浮出来。</li>
+<li style="margin:0.3em 0">CapEx 是最粗的线索：四家巨头合计 7330 亿美元，加 Oracle 和 SpaceX 的六家站上 1.132 万亿——而过去三年，「每一次对 CapEx 的预期都是低估的」。</li>
+<li style="margin:0.3em 0">增长最快的是云（三家合计份额 63%、Q2 收入 1430 亿美元、同比 +43%）；最脆弱的是模型：OpenAI 与 Anthropic 是 AI 经济金字塔的两条细腿，模型与应用环节毛利负 59%。</li>
+<li style="margin:0.3em 0">DeepSeek 用「斩杀线」重定义了模型竞争：价格与能力的坐标系里，位置比名字重要，头部厂商的工作成了逃离它。</li>
+<li style="margin:0.3em 0">loop 是当下的核心叙事：越易编辑、越易验证的任务越先被接管；本地模型追平 SOTA 的滞后已从 33 个月缩到 9 个月以内。</li>
+<li style="margin:0.3em 0">收益极端集中：2023–2026 年的 VC 退出里，Top 1 公司拿走行业 80% 的价值；红杉的图提醒，热门话题与最终赢家之间隔着时间差。</li>
+<li style="margin:0.3em 0">带走一个问题：收集、沉淀、输出的 loop 是信息过载时代的个人基础设施——你自己的 loop 是什么？</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] 一人一剂的癌症疫苗，赢了二十年来的第一局</title><link>https://xlicz.github.io/podcast-rss/articles/一人一剂的癌症疫苗-赢了二十年来的第一局-2026-09-02.html</link><guid isPermaLink="false">a16z_6b1b85017390</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>一人一剂的癌症疫苗，赢了二十年来的第一局</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一人一剂的癌症疫苗，赢了二十年来的第一局</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -16313,5 +16494,154 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-17.html</link><guid isPermaLink="false">report:雪球动态:2026-09-17:8bc5c171</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-17</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-17 22:13</h1>
+<p style="margin:0.8em 0">📈 雪球 09/17 22:13 | 🔐 登录: API通道✅ · web半登录(登录窗口已开至~23:04) | 新帖 84 条 | 🔥4组18帖 · 🔴4组10帖 · ⚪56帖</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">⚙️ 通道注记：web 会话仍半登录（xq_id_token uid=-1，9/11 遗留；对比 config 9/11 备份确认根因=9/11 换 cookie 时写入半登录态）→ 本轮走 fetch_xueqiu_api.py API 直连（29/29 用户成功、0 错误，抓取 99 条 / 净新 84 条）。<strong style="font-weight:600">登录窗口已打开（22:04 启动，保持至 ~23:04）</strong>：在 Chrome 窗口完成「账号密码+极验滑块」即恢复双通道。历史检索：Phase2(faiss) SIGSEGV → 按预案回退 Phase1 关键词（12 作者逐查）。反向检查(hermes-python)：五粮液/老窖/洋河 26H1 均标 ⚠️。宏观：FOMC 加息 25bp 落地（全票；点阵图年内或再加一次）。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 信号</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 心动公司(02400) — <strong style="font-weight:600">逸修1</strong>（6条合并）| 🟡 — 四大催化推进：TapTap PC 商业化 + MK 试内购 + 伊莫带量</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;最近催化剂可不少：1、tap8月重回增长 2、9月开始AI游戏开始爆发…3、MK开始尝试内购 4、pc开始邀请商业化&quot;｜&quot;steam同时在线12万+，畅销榜第六了&quot;→&quot;早上畅销冲到第三&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：上半年最大预期差是 TapTap 的 eps/估值双杀（&quot;这点目前大部分人确实是不清楚的，得仔细看报表才知道&quot;）；四催化下半年兑现→估值修复，卖方模型只计 PC/MK/AI 亏损、未计其收入。
+论据→论证：伊莫 Steam 首日峰值 12.79 万同接<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[SteamDB·多源✅]</code>；TapTap 上半年新游发行 5000+ 款(近10倍)、其中 4000+ 款 AI 制作<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[开源证券✅]</code>；TapTap Maker 已上架 6000+ 款游戏<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[东方证券✅]</code>；心动 37.28 港元(-1.95%)、市值 180.4 亿港元、PE≈10.6<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code>；汇量科技周涨+15%<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code> → 生态扩张+商业化兑现→盈利上修。
+核查: ✅5 ❓3（&quot;畅销第六→第三&quot;未独立核；&quot;tap 8月重回增长&quot;、&quot;日流水1000万&quot;为作者口径）⚠️1（伊莫口碑分裂：好评率36-61%、简中区差评集中，&quot;品质在线&quot;选择性）| 假设: PC/AI 商业化收入兑现且不伤生态 | 替代: 移动端(9/23)引流不及预期、AI 游戏供给膨胀稀释广告效率 | 📜: 一致 — 2025&quot;珍惜100/200亿&quot;→2026&quot;12-13x 估值&quot;延续</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 腾讯/阿里/携程 — <strong style="font-weight:600">terryp57</strong>（4条合并）| 🟡 — &quot;慢慢积累仓位&quot;：sell put 接货 + 确定性排序</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;慢慢来，给机会就买点，sell put 慢慢接，多跌些是大好事……确定性还是腾讯、阿里、携程的排列。美团较小，也不会增加了&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：流动性风险（非基本面问题）造成的下跌=买点；港股龙头（腾讯&gt;阿里&gt;携程）用 sell put 左侧积累；美团不再加仓。
+论据→论证：Booking 成熟只对应欧美+回购、Expedia 对应美国短途、&quot;被AI叙事压估值短期有机会&quot;<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观点]</code>；Ctrip=中国出行+出境/入境双引擎<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观点]</code>；背景：Fed 加息落地、中概普跌<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code> → 弱市收租建仓。
+核查: ✅2（腾讯 426 港元 -1.71%·阿里 105.1·携程 316.8·美团 72.9，行情）❓2（&quot;确定性排列&quot;与&quot;慢慢积累&quot;仓位规模不可核）⚠️1（2025-10 曾清仓携程/京东/腾讯——本轮为<strong style="font-weight:600">重建仓位</strong>，非连续持有）| 假设: 中概基本面不再恶化 | 替代: 加息周期估值继续压缩、港股流动性收紧 | 📜: 修正/重建 — 2025-10 清仓 → 2026-09 重新积累</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 白酒 + 长江系调仓 — <strong style="font-weight:600">酒金岁月</strong>（5条合并）| 🟡 — 五粮液部分换老窖、中国移动换上海港</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;老窖没动，长电没动，移动会换。另外，小账户用部分五粮液换老窖玩遛小狗战术&quot;｜&quot;会用上海港口股替代营业厅&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：按&quot;不受经济/人口影响&quot;标准调长线组合：长江流域布局（老窖=上游、长电=中游、上海港=下游）；小账户五粮液→老窖；对五粮液治理（账本/降价放量）持续批评但持仓未清。
+论据→论证：五粮液 4/30 会计差错更正（H1'25 营收 527.71→235.10 亿、归母 194.92→46.24 亿）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[多源✅]</code> → 报表重构与治理争议；换仓老窖=相对看好。老窖 71.65 元、五粮液 69.13 元、上港集团 5.43 元、中国移动 96.90 元<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code>。
+核查: ✅2 ❓2（换仓规模/节奏主观；&quot;长江流域&quot;为叙事）⚠️1（换仓方向与报表质量证据相悖：26H1反向检查 老窖5⚠️ vs 五粮液4⚠️，两者质地均恶化）| 反向检查: 老窖5⚠️(净现比0.48/OCF环比-54.2%/存货+3.7%/合同负债-12.8%/费用率+4.1pp)；五粮液4⚠️(净现比-0.25/存货+12.5%/合同负债-26.1%/费用率+6.2pp) | 假设: 高端需求触底、老窖韧性强于五粮液 | 替代: 双节动销不及预期、老窖报表补跌 | 📜: 一致 — 9/14&quot;弱平衡&quot;、9/11&quot;需求天花板没到&quot;延续</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 智谱(02513) — <strong style="font-weight:600">浊静徐清</strong>（3条合并）| 🟡 — RSI 首个工程化实践落地，追平腾讯档位</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;今天智谱这个RSI信息发布，标志智谱从'L2强'升级为'L2→L3·运行层面的自主闭环（Infra Agent 自己提假设→改码→验证）'&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：GLM-5.3 Infra Agent 在 10 万卡国产集群自主优化推理系统（2 周吞吐 3.2x），技术叙事升级；叠加 ARR 指引与融资，独立大模型公司&quot;技术+资本&quot;双线推进。
+论据→论证：唐杰 X 长文 + 官方博客<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[澎湃/IT之家/量子位✅：3.2x 吞吐、Ox-Alpha 上线、6天62万亿 token]</code>；9/13 完成约 50 亿美元融资<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[✅]</code>；Manus 以 40 亿美元估值新融资<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[彭博✅]</code> → RSI 闭环=竞争壁垒推进。
+核查: ✅3 ⚠️1（&quot;Manus 被腾讯/真格/红杉以 20 亿美元买回来&quot;表述错误——实为 Meta 收购撤销后剥离独立，20 亿为原收购估值）❓1（L2→L3 定级为作者自建框架）| 假设: 国产算力可得、RSI 可迭代 | 替代: 大厂开源+价格战压缩独立模型商利润率 | 📜: 一致 — 9/8 毛利拆解、9/14&quot;必须融资&quot;、9/16 电话会解读延续</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 洋河/五粮液 — <strong style="font-weight:600">醉眼看人間</strong>（3条合并）| 🟡 — &quot;影响最深的两家&quot;：治理与报表动作放大信任成本</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;经济环境不好消费低迷是事实，对行业影响最深的主要两家企业，洋河，五粮液&quot;｜&quot;推翻股东回报计划[洋河]，修改过去季度业绩[五粮液]&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：行业下行期中，两家公司的治理动作（洋河推翻分红承诺、五粮液追溯重述）使其受损最深；对照老窖（&quot;不会涂改财报&quot;）形成反差。
+论据→论证：洋河 2026-01 取消&quot;不低于 70 亿&quot;保底分红→改为&quot;净利100%分红&quot;<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公告·集思录等✅]</code>；五粮液 4/30 会计差错更正<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[✅]</code>；洋河 H1'26 营收 105.4 亿 -28.76%、归母 26.02 亿 -40.10%、省内营收被今世缘反超 13 亿<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财联社/海报新闻✅]</code> → 治理溢价掏空→估值折损。
+核查: ✅3 ❓1（&quot;影响最深&quot;为判断，行业降幅对比见备注）⚠️1（&quot;修改业绩&quot;须与&quot;会计差错更正&quot;口径区分：公司称合规重述、媒体称&quot;白酒史上最大追溯调整&quot;，引用宜并列）| 反向检查: 洋河5⚠️（净现比0.13/OCF环比-82.7%/存货+1.4%/合同负债-20.5%/费用率+3.2pp）| 假设: 行业Q3仍弱 | 替代: 低基数下Q3环比改善（与酒金岁月分歧点） | 📜: 一致 — 7/2&quot;为何五粮液不执行新准则&quot;、6/30&quot;更看好老窖管理层&quot;延续</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 兴业银行 — <strong style="font-weight:600">汤诗语</strong>（4条合并）| 🟡 — &quot;中信的人做事、兴业的人内耗&quot;；市值反超</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;中信银行市值都反超兴业银行了……中信的人在做事，兴业的人在内耗。这样看，股票市场还真敏锐&quot;｜&quot;保持谨慎吧&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：银行 K 型分化按&quot;经营动能&quot;定价：兴业中报无亮点、动能掉队；市值让位于体量更小的中信。
+论据→论证：中信市值 4974 亿 &gt; 兴业 3756 亿（+32%）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code>；而总资产兴业 11.46 万亿 &gt; 中信 10.38 万亿、2025 净利 774.69 亿 &gt; 706.18 亿<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财报✅]</code> → 市场按动能重定价。另注：智谱 9/13 单轮 50 亿美元融资 vs 百济神州多年累计融资<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[智谱✅；百济口径❓]</code>、&quot;美国科技巨头今年烧 8000 亿美元&quot;<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[界面新闻：亚马逊/谷歌/微软/Meta 合计近 8000 亿✅]</code>。
+核查: ✅5（市值反超/总资产/净利/智谱 50 亿/capex 8000 亿）❓2（&quot;内耗&quot;为调研体感；百济&quot;累计融资100亿美元&quot;未独立核——公开可核：累计研发投入超 560 亿、2025 首年盈利 14.22 亿）⚠️0 | 假设: 动能分化持续 | 替代: 兴业 AIC 等新增长点带来反转 | 📜: 一致 — 8/28&quot;中报无亮点、两头受压&quot;延续</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 Circle(CRCL) — <strong style="font-weight:600">大道无形我有型</strong> | 🟡 — covered call 模板从 OXY 复制：不懂→卖call→call走即清</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;$Circle(CRCL)$居然不想call走的样子？看来看去还是看不太懂的样子，call走就算了，不然继续卖call。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：对 CRCL 同样&quot;看不懂&quot;→用卖出看涨期权收租、把上行让出；被行权即卖光（与 OXY&quot;call 走换 BRKb&quot;同一降险模板）。
+论据→论证：CRCL $83.81（+4.18% 盘中；52 周区间 49.9-159.5）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情✅]</code>；9/16 OXY 全覆盖卖 call、9/11&quot;卖所有 OXY call/换 BRKb&quot;<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史✅]</code> → 不懂的仓位→期权化退出。
+核查: ✅1 ❓2（&quot;继续卖call&quot;规模/行权价不可核；&quot;不想call走&quot;拟人化）⚠️0 | 假设: CRCL 震荡消化估值 | 替代: CRCL 大涨→上行封顶（作者接受） | 📜: 一致 — OXY 同模板第 2 只标的</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 美股（SPY/纳指） — <strong style="font-weight:600">黑色面包</strong> | 🟡 — &quot;消费者像一坨&quot; vs &quot;辣鸡创新高&quot;的奇观</h3>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;租房市场也非常差……消费者感觉像是一坨，利率（资产定价的重力）不断走高，而美股中的辣鸡们却一再创新高，这不能不说是一种前所未有过的奇观&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：利率上行+消费疲弱与美股（尤其投机股）新高背离=不可持续。
+论据→论证：10Y 美债逼近 5%、30Y 约 5.35%、2Y 4.74%<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[FOMC后多源✅]</code>；租房/消费为体感观察<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[❓]</code> → 定价重力终将作用于高估值。
+核查: ✅1 ❓2（租房/消费者无数据；&quot;辣鸡&quot;无量化口径）⚠️0 | 假设: 利率高位维持 | 替代: AI 盈利兑现下背离延续 | 📜: 一致 — 2023 起&quot;比 2000 年更疯狂&quot;长期框架</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号（56帖）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞(20)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;加息加晚了→终点利率更高；站在美债收益率历史性上升起点&quot;（6/25 以来一直比市场鹰）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[点阵图路径上移·方向✅]</code>；保健品代际研究线（褪黑素/皮质醇/南非醉茄）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">二马由之(9)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;放牧式转场&quot;投资类比；8月发电量 9438 亿千瓦时 -0.8% 质疑&quot;AI 吃电&quot;<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[统计局✅]</code>；加息压有色（藏格 70.95 元 -1.87%）；汇率压力缓和→出口&quot;缓一口气&quot;（较 9/15&quot;出口难&quot;方向修正）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">朱酒(4)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">看点：加息或非一次性、类比 2022 压制股市；&quot;多次加息超出市场预期&quot;与 CME 会前定价（年内 2 次概率~80%）不符 ⚠️；中美利率 10 年反转</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语（另6）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">300 成长 vs 红利镜像（存量博弈）；QDII 月度 50-100 亿美元实验提议；资本账户/购买力平价讨论</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清（另6）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Manus 估值翻倍<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[彭博✅]</code>；华为《智能世界 2035》&quot;27 万亿美元&quot;；中概价格回 2010/2014/2020；AI 社交观察</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型（另2）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">回复&quot;看不懂但有一定意义&quot;；&quot;听说改进了不少&quot;（对象不明）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士(2)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;云无关/模型无关/平台无关&quot;的守门人生意模式；川西驾驶体验</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅的退休实验室(2)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">赛博朋克 2077 社会化吐槽；iPhone 18 Pro 何同学视频</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間（另1）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">转谢行业长文</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">丹书铁券(1)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">驳胡锡进&quot;电池让利&quot;论：病灶=需求疲软+地方保护性内卷<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[胡文 9/16 实发✅、CATL 当日 -3.72%]</code></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">亲爱的阿兰(1)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">明星公募经理因客户压力离职感慨</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代(1)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">宏观竞猜&quot;选 B 和 D&quot;</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">STH_(1)</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">FOMC 复核：全票 25bp / 失业率预期下修 / 2028 通胀 2.0→2.1<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[财联社 SEP 逐项✅]</code></td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 对错统计（反误导核查）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号帖逐条 22/5/15/0 + 宏观帖 3/1/0/0 = 合计：✅25 / ⚠️6 / ❓15 / ❌0</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">✅ 主要验证：伊莫峰值 12.79 万同接 / TapTap 新游供给近 10 倍与 Maker 6000 款 / 五粮液会计差错更正 + 洋河分红修改 / 洋河 H1 数据 / FOMC 全票 25bp + SEP 逐项（2028 通胀 2.0→2.1）/ 中信-兴业市值与体量对比 / 智谱 RSI 3.2x + 50 亿美元融资 / Manus 40 亿美元 / 胡锡进发文 / 发电量 -0.8% / capex 近 8000 亿 / 行情类</li>
+<li style="margin:0.3em 0">⚠️ 分档：伊莫&quot;品质在线&quot;选择性 / terryp57 清仓后重建（非连续持有）/ 酒金换仓与报表证据相悖 / Manus&quot;被买回&quot;表述错误 / &quot;多次加息超出预期&quot;表述夸大 / &quot;修改业绩&quot;口径需区分</li>
+<li style="margin:0.3em 0">❓ 分档：畅销榜名次/日流水/tap 月增 / 仓位规模类自述 / L2-L3 定级 / 体感类（租房/消费/内耗）/ 百济累计融资</li>
+<li style="margin:0.3em 0">❌：0（未见与公开数据直接矛盾项）</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑（3条）</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">逸修1</strong>：以&quot;平台带量&quot;论淡化《伊莫》口碑风险——Steam 峰值 12.79 万同接属实，但评价从&quot;褒贬不一&quot;一度跌至&quot;特别差评&quot;（好评率 36-61% 区间波动、简中区差评集中）；&quot;畅销第六→第三&quot;&quot;日流水 1000 万&quot;均未独立核。首发热度≠中长期留存，&quot;tap 9月稳了&quot;结论下得过快。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">朱酒</strong>：&quot;实际结果是多次加息，超出市场预期了&quot;——与实际定价不符：会前 CME 已定价年内累计两次概率约 80%，点阵图（12/18 人预计年内再加）与市场一致；&quot;超预期&quot;的只是鹰派措辞，不是加息次数路径。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">浊静徐清</strong>：Manus 转述失真——&quot;被腾讯、真格和红杉以 20 亿美元买回来&quot;：实为 Meta 2025-12 收购后于 2026 年撤销/剥离（5 月完成业务分离、9/1 恢复独立），20 亿美元系 Meta 原收购估值，非股东&quot;回购&quot;。二手转述准确性不足，采信需回一手源。</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><em>数据源：雪球 API 直连(fetch_xueqiu_api.py) · sth global_search · hermes-python reverse-check · 行情 qt.gtimg.cn(9/17 收盘)。归档：data/history/ 共 83 帖入库（1 短帖跳过）。</em></p>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
