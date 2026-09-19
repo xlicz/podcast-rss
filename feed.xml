@@ -1,7 +1,77 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 19 Sep 2026 23:00:14 +0800</lastBuildDate><item><title>[a16z] Databricks CEO：我们不需要更聪明的模型</title><link>https://xlicz.github.io/podcast-rss/articles/Databricks-CEO-我们不需要更聪明的模型-2026-09-18.html</link><guid isPermaLink="false">a16z_e5f798e24720</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>Databricks CEO：我们不需要更聪明的模型</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 19 Sep 2026 23:04:17 +0800</lastBuildDate><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被试用很容易，被留下很难</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">a16z 合伙人 Josh Elman 谈消费级 AI 的生存法则：从&quot;被试用&quot;到&quot;被留下&quot;，中间隔着信任、习惯与关系。</strong></p>
+<p style="margin:0.8em 0">让消费者&quot;注意到&quot;一个新产品，从未如此容易；让消费者&quot;留下来&quot;，从未如此困难。这是 Josh Elman 对当下消费级 AI 的判断——而他几乎是消费互联网每一代浪潮的亲历者：2009 年加入 Twitter 时，它只有约一千万活跃用户，他离开时超过一亿；此后在 LinkedIn 和 Facebook 工作过；2011 年转做投资，期间投出了 Discord 和 Musical.ly（后者被字节跳动收购，成了 TikTok）；再之后回到操作侧，去了 Robinhood，又在 Apple 待了近六年半，参与 Siri。今年他加入 a16z 专注消费投资，这是他入职后的第一场播客。他说自己回来，是因为相信消费级 AI 正处在一场&quot;寒武纪大爆发&quot;的前夜。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">注意力易得，留存难得</h2>
+<p style="margin:0.8em 0">Elman 先纠正了一个流行叙事。很多人说&quot;现在抢用户注意力太难了&quot;，他不这么看：短视频的推荐流能把一个东西瞬间推到所有人面前，&quot;只要足够抓人，人们就想试一试&quot;。真正难的永远是下一步——&quot;让我不只是试一下，而是留下来。&quot;</p>
+<p style="margin:0.8em 0">问题是，消费者的数字生活已经饱和。疫情期间，所有人测出了自己&quot;能在线花多少时间&quot;的极限；十五年前，人们刚拿到第一部手机，有的是&quot;第一次&quot;可以做，而今天一个新产品想挤进来，只能替代、无法扩张。&quot;你得找到一个新楔子，切进别人的数字生活。&quot;它必须好到让你要么停止做别的事，要么把更多行为交给它。</p>
+<p style="margin:0.8em 0">他看产品有一套四步筛子。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一步，清晰的价值。</strong> 能不能一句话讲给朋友听，让他挑眉——&quot;用了这个，你会得到以前没有的东西&quot;？AI 时代，这一步变便宜了：让人挑眉太容易。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二步，替换。</strong> 他会问每个用户：&quot;你开始用它之后，你停止了做什么？&quot;答案越具体，说明产品切得越深；答不上来，大概率只是又一个玩具。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;你开始用这个产品之后，你停止了做什么？&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三步，传播。</strong> 用户会不会主动安利？有时靠产品自带的网络效应，有时就是纯粹的兴奋——ChatGPT 是这样蔓延开的。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第四步，留存。</strong> 人们为什么一直回来？最常见的是两种锁定：网络效应（创作者和观众互相拽住），以及历史积累（&quot;我在里面存的东西越多，越不想搬家&quot;）。</p>
+<p style="margin:0.8em 0">大多数产品死在第三步和第四步之间，而不是第一步。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先做透一件事，再赢得做更多事的权利</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;如果你想成为一家非常大的公司，你不能一开始什么都做。你得先把几件事做得非常非常好，然后赢得做更多事的权利。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">Discord 是他眼里的教科书。它最早赢得的权利非常具体：打游戏时能同时语音聊天——一个新行为把人聚到一起；人聚起来之后，开始留在这里聊别的；再后来，不打游戏的人也搬了进来。&quot;它一点一点赢得权利，成为你越来越依赖的地方。&quot;</p>
+<p style="margin:0.8em 0">反例是 Siri——Elman 在 Apple 参与的项目。&quot;Siri 其实很擅长几件小事：打电话、定闹钟、定提醒、发短信。但你想让它多做一点，它经常做不到。&quot;他的总结很冷峻：你只有这么多次机会。用户每听到一次&quot;抱歉，这个我帮不了你&quot;，信任就被扣一次分；扣完几次，用户就不给下一次机会了。</p>
+<p style="margin:0.8em 0">所以他对创业者的建议是：自称&quot;什么都能做&quot;的通用助手，反而赢不到信任。要一步一步来，让用户先学会在一件事上转向你，再赚下一件。&quot;当它做不到一件事时，能解释为什么、能继续把对话进行下去，和举起手说抱歉，是两种完全不同的产品。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一场关于购物的对话：搜索变了，礼宾来了</h2>
+<p style="margin:0.8em 0">&quot;我已经很久没 Google 过东西了。我用 Claude、GPT、Gemini。&quot;</p>
+<p style="margin:0.8em 0">Elman 说这不是个人怪癖——&quot;我们获取信息的方式，已经被永久改变。&quot;他讲了自己最近的例子：想买一个钥匙扣，要求很具体——代客泊车时能轻松拆开、之后再装回去。Google 和 Amazon 都找不到；他去跟 ChatGPT 聊，一路聊到各种连接结构、哪些设计容易出维护问题、哪些更耐用，最后补一句&quot;我想要美国制造的&quot;，AI 帮他找到了密歇根一家小店的产品。</p>
+<p style="margin:0.8em 0">他把这个体验称为&quot;一场关于购物的对话&quot;——而不是&quot;搜索、点开十几个链接、自己干完所有的活&quot;。但他同时指出缺口：聊完之后，他还想&quot;逛&quot;——&quot;把所有条件摆好，让我在完美的选项集里探索&quot;，这个环节还没有被做出来。</p>
+<p style="margin:0.8em 0">在 Elman 的愿景里，购物的终局是一种&quot;礼宾&quot;体验：像走进一家店，有一位真正的专家陪着你、给你建议，而他唯一的激励是你的成功——不是让你多花钱，也不是拿回扣。他也不只是说说：&quot;我身上这件黑色 Polo 衫，就是用 AI 完整设计的——我说想要什么，它帮我搞定设计，然后在中国做了出来。&quot;</p>
+<p style="margin:0.8em 0">而这一切的前提是信任。早期采用阶段，效用胜过信任；但想进入主流——几亿、几十亿用户——信任会成为分水岭。&quot;它不想拿你的数据去交换什么，只想用你的数据让你体验更好。愿意进入主流的产品，会把信任写进第一原则。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 的下一步，是把人带到一起</h2>
+<p style="margin:0.8em 0">今天几乎所有 AI 都是&quot;单机&quot;的：我让 AI 帮我做事。Elman 更感兴趣的是把 AI 接进&quot;我们&quot;，让它理解一个群组的微妙之处。他点名了一个被低估的东西：群聊。&quot;它可能是过去几年真正长出来的'新网络'，只是没人把它当网络看——我现在的本地群聊比十年前多得多。&quot;</p>
+<p style="margin:0.8em 0">他画了一个场景。周五傍晚，你想找人出去玩；但你在群里喊一嗓子，多半只收获沉默——&quot;问'有人吗'的感觉其实很脆弱。&quot;如果交给 agent 呢？它去跟其他 agent 打听：有没有人问过自己的 agent 同一个问题？有，那就撮合。&quot;有人说这听起来有点反乌托邦，但我觉得，这恰恰是 AI 做胶水、把人粘到一起的方式。&quot;他梦想的画面是：周五晚上，旧金山 Noe Valley 有十个人各坐各家跟 AI 聊天，AI 发现他们都在附近、都闲着，于是把他们组织到桌游咖啡馆——&quot;它连桌子都能帮你订——两张。&quot;&quot;如果 AI 能把人从线上拉回真实世界，那会非常了不起。&quot;</p>
+<p style="margin:0.8em 0">顺带，他回答了一个老问题：为什么这些年没有新的社交网络跑出来？一是&quot;不需要&quot;——现有网络在十亿级规模上运转得挺好。二是&quot;衍生品活不下来&quot;：这些年大多数尝试都&quot;感觉像 X 或 Twitter 换个地方再来一遍&quot;。2015 年他投资 Discord 和 Musical.ly 时，人们也问&quot;为什么还需要它们&quot;——答案是它们解决的是不同问题：Discord 是&quot;打游戏和聊天能同时进行&quot;，Musical.ly 是&quot;前置摄像头的创作&quot;（Instagram 是后置摄像头，展示&quot;我去过多酷的地方&quot;；Musical.ly 是你对着镜头跳一段、配首歌，背景可能堆着脏衣服，但它依然是值得骄傲的作品）。</p>
+<p style="margin:0.8em 0">他期待的下一波，可能根本不是&quot;又一个社交网络&quot;，而是创作者市场（人们聚在一起消费彼此的故事）、线上到线下的桥（a16z 投资的 Particle 在做这类事），或者由 agent 做中介的&quot;社交日历&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">正在打开的赛道：个人代理、微短剧、语音</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">个人代理。</strong>&quot;站在你这一边的东西&quot;：照看你的健康、财务、日程，帮你买东西、规划周末，提醒你给妈妈打电话。&quot;做不好会很唠叨，做好了会很美好——像一个既给你鼓励、也给你逆耳实话的伙伴。&quot;（&quot;我妈妈两样都擅长：既是我最大的啦啦队，也是我最大的批评者。&quot;）</p>
+<p style="margin:0.8em 0">**微短剧。**从 Musical.ly 到 TikTok，短视频跑出了一代创作者；现在人们想要更深的叙事，而 AI 让没有片场、没有演员的人也能讲故事——&quot;最难的部分已经不是创作，而是找到观众、建立关系。&quot;节目里还有一个现场佐证：主持人 Ollie Forsyth 刚做了一件很&quot;meta&quot;的事——他策划了讲公司创始故事的微短剧系列（4-5 分钟一集，第一部讲耐克），和一家叫 Plot Party 的创业公司合作制作。&quot;我不是电影导演，只是还算会讲故事，但我们已经能做出剧集。&quot;Elman 补充：创作者要做&quot;自己能拥有&quot;的产品；而看故事的观众聚在一起，会长出全新的媒体渠道。他说自己看《For All Mankind》时总想&quot;深挖这段背景&quot;，或者&quot;如果走向是另一种呢&quot;——AI 让任何一个浸入的世界都可以被继续探索、分享给别人。</p>
+<p style="margin:0.8em 0">**语音。**被严重低估。&quot;说话比打字快&quot;，尤其对&quot;出声思考&quot;的人；但语音是有损的——人会漫游、绕圈，而打字的过程本身逼人收敛。所以他不信&quot;纯语音 agent&quot;：理想形态是一套平滑切换的模态——在车里尽情讲，让 AI 从漫游里蒸馏出核心；在沙发上就打字、阅读、滚动。新的双工（duplex）语音模式还带来&quot;预演&quot;：采访里德·霍夫曼之前，主持人先拿 GPT 做了采访预演，&quot;效果出奇地好&quot;。而霍夫曼自己走得更远——他做了一个吃进自己资料的 AI 分身：先跟分身过一遍，再去见真人，对话能深得多——分身不替代会面，它是会面前的热身。</p>
+<p style="margin:0.8em 0">最后是一个地理判断：最好的消费公司不一定在旧金山——Lovable 来自瑞典，Musical.ly 是中国团队，直播电商先在中国起飞。&quot;旧金山不是最好的创业地，但它是一个非常重要的规模化之地。&quot;以及一句值得所有做消费产品的人记住的话：&quot;做消费产品就是做文化——硅谷的技术文化，不是百分之百可以平移的。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">克隆不了的东西</h2>
+<p style="margin:0.8em 0">&quot;现在，抄袭以天计。&quot;所有好点子都在被快速复制，无论对手是大公司还是创业公司。但 Elman 认为这没什么可慌的：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;别人能克隆他们看得见的，克隆不了你要去的地方。&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">功能可以复制，方向和关系不能。真正让人留下的锁，不是功能清单，而是&quot;性格、身份、观点，以及一种随着时间越来越懂你的互动方式&quot;。用户的表达通常很朴素：&quot;我试了另一个，但它少了点东西——少了那种本质（essence）。&quot;然后他们留在了原地。</p>
+<p style="margin:0.8em 0">他举了一个 2009 年的旧例。Twitter 做转发功能时，围绕一个设计细节争论不休：转发应该&quot;变成你的话&quot;，还是保留原作者的声音？Twitter 最终下了一个强硬判断：保持原声——你看到的是&quot;Josh 转发了 Ollie 的帖子&quot;，Ollie 的脸留在你的时间线上。&quot;听世界想怎么转发、想放大谁的声音；但在关键处给出强硬的观点，然后把它讲清楚——哪怕很多人一开始并不高兴。&quot;这条早期的产品判断，今天依然正确。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">钱从哪里来：推理成本与付费意愿的交汇点</h2>
+<p style="margin:0.8em 0">这个话题硬核，但绕不开——AI 产品的成本结构，和互联网时代完全不同。</p>
+<p style="margin:0.8em 0">Elman 讲了一段历史。他刚加入 LinkedIn 的第一周，做的一件事是全公司——当时总共十五个人左右——一起去数据中心，把服务器从一组机架搬到另一组。&quot;那个年代，光是让别人能用上你的网站，就要先烧掉一大笔资本。&quot;后来，云把这笔固定成本几乎清零，&quot;产品本身变得比基础设施更重要&quot;。</p>
+<p style="margin:0.8em 0">现在成本又回来了，而且更麻烦：推理是可变成本，每个用户每一次使用都在烧钱。所以每个消费级 AI 公司都得回答：什么免费、什么收费。消费市场的尴尬在于&quot;付费意愿不会前置&quot;。他用两个变化对冲悲观：一是消费者变了——手游和订阅制教会了人们为数字产品掏钱，&quot;当你和一个产品建立了足够的联结，请用户付费不再是一记耳光，而是一份邀请：它对你很有用，而它让我们花了钱&quot;；二是成本在降——模型切换、开源模型、越来越便宜的推理，&quot;降价才刚刚开始&quot;。</p>
+<p style="margin:0.8em 0">他的预判：未来几年会看见两条曲线的交汇——一边是推理成本快速下行，一边是用户（或广告主）愿意为价值付的钱；交汇之后，订阅、广告、交易购买的混合模型就能撑起成本结构。&quot;而在交汇点到来之前，它还有点贵——这就是未来几年消费投资的大赌注：产品的价值是否足够高，高到有人愿意为之付钱。&quot;</p>
+<p style="margin:0.8em 0">说到底，一切都从一个有价值的产品开始。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">让它留下来</h2>
+<p style="margin:0.8em 0">最后是一个关于 Elman 自己的注脚。他说自己从来不是创始人，而是&quot;early joiner&quot;——&quot;我去找到那些已经有了了不起开端、有了势能的东西，然后让它持续下去。&quot;他最怀念的一段职业经历，是 2009 年底到 2010 年底的 Twitter：加入时约一千万活跃用户，离开时超过一亿。&quot;如果能把那一年在人生里反复重播，我愿意。&quot;</p>
+<p style="margin:0.8em 0">消费级 AI 从不缺乐观的理由：更聪明的模型、更低的推理价格、更快的迭代。但这场对话真正的判断是：这一轮最稀缺的能力，恰恰不是让人眼前一亮——那已经在变成流水线作业——而是把一次&quot;挑眉&quot;，变成一段留下来的关系。</p>
+<p style="margin:0.8em 0">未来几年，会有很多产品能抓住你的注意力。能留下来的那批，靠的是同一件事：你相信它站在你这边。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">留存比增长更难。</strong> 别只看多少人试用，要问用户&quot;你停止了做什么&quot;、&quot;为什么一直回来&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">先做透一件事，再赢得做更多事的权利。</strong> Discord 从&quot;边打游戏边聊天&quot;长出一切；Siri 的教训是&quot;你只有这么多次机会&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">搜索已被永久改变，购物的终局是礼宾。</strong> 用户要的是&quot;站在我这边、只为我的成功负责&quot;的 AI——信任是主流化的分水岭。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 的下一步是&quot;多人的&quot;。</strong> Agent 之间协作把人带到一起；下一个大网络可能是创作者市场或线上线下之桥，而不是又一个社交网络仿品。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">克隆不了的东西才是护城河：</strong> 方向、性格、身份、随时间生长的关系。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">变现是两条曲线的交汇：</strong> 推理成本下行 × 付费意愿上行；付费正在从&quot;耳光&quot;变成&quot;邀请&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">做消费产品就是做文化。</strong> 技术文化不可平移；旧金山擅长规模化，但不是所有产品的起点。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] Databricks CEO：我们不需要更聪明的模型</title><link>https://xlicz.github.io/podcast-rss/articles/Databricks-CEO-我们不需要更聪明的模型-2026-09-18.html</link><guid isPermaLink="false">a16z_e5f798e24720</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>Databricks CEO：我们不需要更聪明的模型</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Databricks CEO：我们不需要更聪明的模型</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14867,9 +14937,9 @@ PC时间线提前=更新非下修）</li>
 回榜、tap热玩#11→#5）</li>
 <li style="margin:0.3em 0">关键数字: 股价38.58（周五+3.49%，周末休市）|
 市值 ~159.3亿RMB（186.7亿HKD）| 残差-33%低位</li>
-<li style="margin:0.3em 0">最值得注意: ①小镇回榜潮=先行指标&quot;回落day8&quot;
+<li style="margin:0.3em 0">最值得注意: ①小镇回榜潮=先行指标"回落day8"
 首现修复；②逸修伊莫连报上修（首年20-30亿）
-+mk&quot;内购开跑&quot;（登记#52/#53）</li>
++mk"内购开跑"（登记#52/#53）</li>
 <li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E无修正</strong>——3条实质新增全为
 竞品/生态叙事；对错✅4/⚠️5/❓3/❌0</li>
 <li style="margin:0.3em 0">行动: 持有不加不减（回购观察窗第6日: 无公告）</li>
@@ -15032,15 +15102,15 @@ AI小游戏簇转退（3项全退）</li>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（实质新增，按时间序）</h3>
 <p style="margin:0.8em 0">📌 9-19 00:23 伊莫day3播报 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上线第三天，steam国际服同时在线历史新高，
-13万+，steam畅销榜一直在第五左右&quot;
+<p style="margin:0.8em 0">"上线第三天，steam国际服同时在线历史新高，
+13万+，steam畅销榜一直在第五左右"
 主张: ①Steam 13万+历史新高；②畅销#5左右；
 ③捉宠游戏海外有市场
-核查: ①✅——游戏葡萄/SteamDB&quot;连续峰值13W；
-9-19凌晨1点破纪录&quot;+本机实测Steam API
+核查: ①✅——游戏葡萄/SteamDB"连续峰值13W；
+9-19凌晨1点破纪录"+本机实测Steam API
 144,360（23:00）/SteamCharts 139,599；
 ②✅——SteamRanks/游戏葡萄: 9-18最高Top5
-（今Top7区间运行；&quot;第五左右&quot;轻微上偏）；
+（今Top7区间运行；"第五左右"轻微上偏）；
 ③⚠️——概括判断，英文评测占比48%+Top5
 支撑方向
 对照: 承接9-16/9-17数据链（12万→13万再更新）
@@ -15049,39 +15119,39 @@ AI小游戏簇转退（3项全退）</li>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-19 13:29 mk内购路径启动 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;这个事情其实就标志内购这条路开始跑了…
+<p style="margin:0.8em 0">"这个事情其实就标志内购这条路开始跑了…
 因为mk的底层是星火，星火的版号早已经解决
-了 这是第一个，后面还会有不少&quot;
+了 这是第一个，后面还会有不少"
 主张: ①首个内购已上=路径启动；②星火版号已
 解决；③AI降本（几千-几万/个精品小游戏）；
 ④后续批量化（几十-几百个才算）
 核查: ①❓——mk产品级无公开数据；②❓——无
 公开源；③⚠️——AI降本=行业趋势（方向），
-&quot;几千-几万&quot;量级=自估；④❓——前瞻数量
-对照: 承接9-16&quot;第一个半内购游戏（免广告卡）&quot;
-（#42 ARR路径）→首次&quot;已上&quot;落地表述
+"几千-几万"量级=自估；④❓——前瞻数量
+对照: 承接9-16"第一个半内购游戏（免广告卡）"
+（#42 ARR路径）→首次"已上"落地表述
 结论: mk期权叙事推进（登记#52）；验证=后续
 样例/Q4披露；不构成E修正
 对错: ⚠️1/❓3</p>
 </blockquote>
 <p style="margin:0.8em 0">📌 9-19 22:06 伊莫day4+首年预估 | 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;上线第四天…同时在线又历史新高，14万+…
+<p style="margin:0.8em 0">"上线第四天…同时在线又历史新高，14万+…
 好评率从最低的50%拉到了67.6%…已经确定
 是惊喜…全球首年20-30亿流水还是没大问题…
-首月有机会到5-10亿&quot;
+首月有机会到5-10亿"
 主张: ①14万+又新高；②好评率50%→67.6%；
 ③成绩会比诡秘更好；④首年20-30亿；
 ⑤首月5-10亿；⑥长线不确定（诚实项不计）
 核查: ①✅——实测144,360（23:00），Steam
 concurrent rank#9全球；②✅——游戏葡萄
-&quot;50%→67%&quot;（9-19）、腾讯&quot;约61%&quot;（9-17）；
+"50%→67%"（9-19）、腾讯"约61%"（9-17）；
 ③⚠️——锚: 诡秘首月国内~1.2亿（伽马/点点
 数据）、大摩年预期20亿级；伊莫海外体量已
-占优，&quot;综合更好&quot;待首月裁决；④⑤⚠️——前
-瞻自估（较9-16&quot;日~1000万&quot;口径升级）
-对照: 9-16&quot;国内成绩大概率不如诡秘/海外有
-大优势&quot;→本日升格&quot;会比诡秘更好&quot;（预测更新
+占优，"综合更好"待首月裁决；④⑤⚠️——前
+瞻自估（较9-16"日~1000万"口径升级）
+对照: 9-16"国内成绩大概率不如诡秘/海外有
+大优势"→本日升格"会比诡秘更好"（预测更新
 上修）
 结论: 竞品上修（登记#53）；验证=10月中首月
 数据；不构成E修正
@@ -15119,10 +15189,10 @@ concurrent rank#9全球；②✅——游戏葡萄
 </tbody>
 </table></div>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">明细: 报忧带转折=&quot;移动端成绩还不确定&quot;→紧
-接&quot;国际服反哺、国服不用担心&quot;；归因外移=本
-日无负面归因；承认递进=无新承认（&quot;长线不
-确定&quot;=风险提示）；预测更新=伊莫上修（国内
+<li style="margin:0.3em 0">明细: 报忧带转折="移动端成绩还不确定"→紧
+接"国际服反哺、国服不用担心"；归因外移=本
+日无负面归因；承认递进=无新承认（"长线不
+确定"=风险提示）；预测更新=伊莫上修（国内
 不如诡秘→会比诡秘更好）+首年/首月首披；
 历史锚定=诡秘/归龙潮先例</li>
 </ul>
