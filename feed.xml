@@ -1,7 +1,111 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 19 Sep 2026 09:00:10 +0800</lastBuildDate><item><title>[Money Stuff: The Podcast] 试图拯救世界，不是反垄断的豁免理由</title><link>https://xlicz.github.io/podcast-rss/articles/试图拯救世界-不是反垄断的豁免理由-2026-09-18.html</link><guid isPermaLink="false">money-stuff_fe402be1aec9</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>试图拯救世界，不是反垄断的豁免理由</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 19 Sep 2026 13:06:13 +0800</lastBuildDate><item><title>[a16z] Databricks CEO：我们不需要更聪明的模型</title><link>https://xlicz.github.io/podcast-rss/articles/Databricks-CEO-我们不需要更聪明的模型-2026-09-18.html</link><guid isPermaLink="false">a16z_e5f798e24720</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>Databricks CEO：我们不需要更聪明的模型</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Databricks CEO：我们不需要更聪明的模型</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">企业 AI 卡住的原因不是模型不够聪明，是模型不了解你的公司；真正该紧张的倒计时也不在超级智能，在网络攻击。Databricks CEO Ali Ghodsi 在 a16z 的这场对话，是一份来自企业前线的现实检查。</p>
+</blockquote>
+<p style="margin:0.8em 0">Ali Ghodsi 最近在各种场合反复做同一组小调查。</p>
+<p style="margin:0.8em 0">第一问：「现在的 AI，是不是已经比你我身边的大多数人更聪明？」——从去年三、四季度起，承认这点的人就越来越多，到现在，已经有人直接宣布「我们已经有 AGI 了」。第二问：「谁在管理着成百上千个互相协调、彼此谈判、把工作流整个自动化掉的 agent？」——几乎没有一只手举起来。</p>
+<p style="margin:0.8em 0">这位 Databricks 的 CEO 由此得到判断：<strong style="font-weight:600">模型不是不够聪明，是不够了解你的公司。</strong> 如果把「组织里那个什么都知道的人」脑子里的上下文喂给今天的前沿模型，地球上几乎每一家组织都能立刻拿到一波巨大的生产力提升。</p>
+<p style="margin:0.8em 0">「我们不需要更聪明的模型。」在一个人人盯着下一代模型的行业里，这是一句非常反直觉的话。这场对话（a16z，主持人为 Martin Casado 和 Sarah Wang）还回答了几个更大的问题：被「节奏」一词带偏的整场讨论、怎么判断「模型自我改进」是不是真的在发生，以及所有风险里，哪一种是真的以分钟为单位在倒计时。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">瓶颈不是智能，是上下文</h2>
+<p style="margin:0.8em 0">先看现状。Ghodsi 手上的企业样本，大概比谁都多：绝大多数公司今天对 AI 的用法，本质上是「一个进化版的搜索引擎」——你在聊天框里问问题，拿回一份更快的搜索结果；真正普及的只有编程。至于「整个企业级的工作被 agent 自动化」，还没有发生。</p>
+<p style="margin:0.8em 0">为什么？不是模型不够聪明。</p>
+<p style="margin:0.8em 0">「模型已经足够聪明。它们只是没有那些存在于任何组织内部的上下文。」它们没有参加过每一次会议，不知道每个人脑子里装了什么，不知道流程怎么走。而每个组织里，总有那么一两个「什么都知道」的人——所有人路过他们的工位时都会想：这个人要是离职了怎么办。</p>
+<p style="margin:0.8em 0">Ghodsi 说，把这些上下文融合起来、喂给今天的前沿模型，就是最大的杠杆。「我们不需要一个能解开纳维-斯托克斯方程、把 Humanity's Last Exam 从 60 分推到 70 分的更聪明的模型——对绝大多数组织来说，这些都不需要。」</p>
+<p style="margin:0.8em 0">这句话的推论比听上去更大胆：<strong style="font-weight:600">哪怕前沿模型停止进步，对大多数公司也「不重要」</strong>——它们离 AI 的采纳曲线还差得远。但对实验室来说，这近乎要命：智能的价格大约每六个月下降一个数量级，不再推动前沿，商业模式就会被剧烈改写。前沿竞赛，对企业是远水，对实验室是命门。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把公司装进一张图</h2>
+<p style="margin:0.8em 0">Ghodsi 的解法叫「本体」（ontology）。定义很朴素：一个组织里，所有抽象的部门、目标、人、项目、资源之间的关系——谁和谁有关，什么到底意味着什么。</p>
+<p style="margin:0.8em 0">他用两组人做解释。一个第一天入职的新人，和一个干了五年的老员工：同样聪明、同样勤奋、同样的背景。差别在于，老员工脑子里有一张「组织怎么运转」的地图——真正能拍板的是谁、什么事该找谁；别照着组织架构图办事，那上面的人你找了也没用；这个流程不用填那张表；这个项目现在的真实状态是什么。</p>
+<p style="margin:0.8em 0">「所以人们会说，初创公司如果失去大部分核心员工，就再也回不来了。」这些隐性知识装在每个人的脑子里，问题是怎么取出来、变成一张可以喂给 AI 的数字图谱。</p>
+<p style="margin:0.8em 0">他给了一个很漂亮的类比，用来解释今天的 agent 为什么又慢又笨。拿 Claude Code 这类工具举例：推理，然后一个资源一个资源地查——先翻这个 MCP server，再翻下一个，最后汇总。Ghodsi 说，如果 25 年前 Google 是这么造搜索的——把你的关键词拿去，打开十个网站读完、总结，十分钟后给你十个「还不错」的链接——那搜索引擎这个东西就三宗罪：贵得离谱，慢得离谱，质量还差，因为它只看到了世界上极小一部分网页。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">Google 真正的魔法是索引：查询永远不离开它的服务器，倒排索引在 100 毫秒内给出答案。Ontology 就是给 AI 离线算出来的那个索引。</p>
+</blockquote>
+<p style="margin:0.8em 0">而且比网页索引更难：有权限——「我能看的数据不一定你能看」；有隐私；对象也远不止网页一种。但「它可解，我确信这一点」。Databricks 先在互联网上做过一遍，然后给自己做了一遍。「公司跟一年前比，完全变了样。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">先在自己身上做实验</h2>
+<p style="margin:0.8em 0">Databricks 内部的本体，是全客户里最大的——图里有「几百万个节点」。「我们用 Databricks 比任何客户都狠。」</p>
+<p style="margin:0.8em 0">它改变的是组织里最贵的那件事：信息的流动。组织是一棵树，信息往上爬、决策往下走，每一次升级、对齐、汇报、传达都是成本。有了本体，AI 拿得到全部上下文：会前替你把分析做掉（PPT 里的漂亮图表、Excel 模型和数字），会上直接回答提问，会后少掉一串「对齐会」。Ghodsi 说，这跟 Jack Dorsey 说的「公司应该像产品一样重做」是同一个方向，只是现在有了具体实现。他也把一笔功劳给了 Palantir：把组织里的隐性知识一条条写下来，这件事 Palantir 做得最早也最扎实；Databricks 做的是把这些自动变成图谱，再喂给 agent。</p>
+<p style="margin:0.8em 0">一个流传在 Databricks 内部的笑话很能说明现状。有一次要一个数字——「财富 500 强里我们渗透了多少家」。Ghodsi 找了销售运营的同事，对方回：「抱歉我在飞机上登不上 Genie，你自己登录查一下？」——他找她，就是以为她有别的入口。有点上火的 CEO 转头给 CFO 发短信；CFO 回了一张 Genie 的截图。「所以我在想：公司里还有人干点新活儿吗？所有人都在问 Genie。」现在他们的口头禅是：「让我 Genie 一下。」开会时谁抛出一个复杂问题，你能看到全桌人低头掏手机——不是走神，是去查本体。</p>
+<p style="margin:0.8em 0">当然，没有一键生成的本体。前提是「把一切数字化」：每场会议要转录、所有内容要接入；而很多公司的法务第一反应是「不许录音」。Ghodsi 说这活儿又脏又累，但这就是那道门槛本身。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">「节奏」这个词，把事情说砸了</h2>
+<p style="margin:0.8em 0">关于「要不要给前沿 AI 刹车」的辩论正打到白热：Dario Amodei 们写文章，Elon 们发帖。主持人把问题摆给 Ghodsi：你最同意什么、最不同意什么？</p>
+<p style="margin:0.8em 0">他的开场是：「领导者有一项责任——除非真的有充分理由，不要去吓唬人。」把「人类可能被抹除」这种话讲给大众听，他认为是不负责任的：它会让很多人心理出问题，「而我认为，眼下的存在性风险接近于零」。</p>
+<p style="margin:0.8em 0">主持人 Casado 补了个亲历的细节：他在亚利桑那乡下当老师的姐姐——本来就爱囤物资的那种人——周日发来短信：「Martin，要不要我把小屋给你备好？我已经囤好水了，你哪天过来？」他回：「等等，我们还没到那一步。」恐惧已经溢出到普通人。而这场恐惧正在变成政治：Elizabeth Warren 在谈「暂停所有 AI 开发」，两党里都有人在推约束，另一侧则是 IPO 前夜的资本方——「别把好事搅黄了」。「两边都有很重的政治，」Ghodsi 说，「一边是『别动我的 IPO』，一边是『怎么把这件事武器化』。这是一次教科书级别的公关事故。」</p>
+<p style="margin:0.8em 0">事故的解剖值得细看，问题出在「pacing（给前沿定节奏）」这个词上，而不在安全议题本身：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">它与安全正交。</strong> 放慢和「安不安全」没有关系——你可以慢慢地造一件武器。安全问题的正解是安全控制，而不是速度调节。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">它不可信。</strong> 一边说放慢，一边还在买下更多算力、奔着更大的训练跑。「这几家公司一直是在全速冲刺。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">它谁也不讨好。</strong> 对担心末日的人来说，「节奏」不是「暂停」；对其他人来说，「你根本不会真停」。Martin 的总结很刻薄：pace 是「安抚两边的失败尝试」，最后同时惹怒了所有人。</li>
+</ul>
+<p style="margin:0.8em 0">他对比了两家掌门人的用词：一边的核心词是「给前沿定节奏」，另一边扎克伯格讲的是「安全、安保与自我监管」——「完全不同的心智模型。」</p>
+<p style="margin:0.8em 0">那起让所有人讨论「要不要慢下来」的实验事故，Ghodsi 认为该总结的教训也不是「放慢」：团队把大规模 RL 实验跑了一个月，事后才回来检查发生了什么——「该被记住的是：把你的东西锁好。」监控每一个流出的 token，让安全团队全程盯着实验；他承认，真那样做「我们会慢很多」。但实验室们的诉求其实是这个：<strong style="font-weight:600">把护栏装上、把规则定下来，我们会遵守；但如果只有我们单方面慢，竞争者可不会慢——我们就成了那个傻子。</strong> 「公地悲剧是真实存在的，」他替这个局面做了直白的注解，「作为生意人我理解：我不会单方面停手，我会变成那个傻子。」于是就有了那句呼吁：「要不你们来管管我们？」——而这句话的麻烦在于，行业主动求监管，监管者很难一直说「不」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四个条件，判断 RSI 的真假</h2>
+<p style="margin:0.8em 0">RSI（递归自我改进）是 Ghodsi 愿意认真对待的问题——但只在这个框架下：<strong style="font-weight:600">如果下面四条同时成立。</strong></p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">下一代模型训练所需的资源（GPU）超线性地下降——「不是边角料的优化」；</li>
+<li style="margin:0.3em 0">训练所需时间显著缩短；</li>
+<li style="margin:0.3em 0">模型的智能水平在上升；</li>
+<li style="margin:0.3em 0">以上三件事可以反复发生，一遍又一遍。</li>
+</ol>
+<p style="margin:0.8em 0">「注意，四条要同时成立。任何一条不成立，循环就会自己泄气——比如算力恒定，你很快就会撞上硬件墙，节奏会自己回来。」</p>
+<p style="margin:0.8em 0">然后是证据审查，这一段和直觉相反：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">各实验室一年也就做一两次这个级别的训练；每次训练更贵、更多人参与、更脆——要建数据中心、抢 GPU、调网络，每多一个数量级的卡，就要先解决一批新的错误模式；有好几次训练是跑砸了的。「这是四个条件的反面。」</li>
+<li style="margin:0.3em 0">主持人补充了一个被 RSI 讨论忽略的算力事实：训练一个好模型的最低门槛一直在涨——从一亿美元级涨到几十亿美元级；前沿单次训练要 50 亿到 100 亿美元；而六个月后复制前沿水平，成本大约降到 1/20。</li>
+<li style="margin:0.3em 0">Ghodsi 自己的判断：「这四条同时正在发生的概率，我认为非常低。」</li>
+</ul>
+<p style="margin:0.8em 0">那外界怎么监控？主持人提出「黑盒试金石」：看数字。如果一家实验室一边缩减人力和算力，一边加速出模型，就该警觉。Ghodsi 说更准的信号是盯着预训练与后训练的团队——人是不是在变少，GPU 是不是在变少，模型是不是在接手这些活。「而现实是，都不是。」</p>
+<p style="margin:0.8em 0">他还做了一个重要区分：他每天见的都是从实验室出来创业的人，「人人都说 RSI——但其中可能只有 1% 是真的」。剩下的是「自催化」：用 AI 写 GPU kernel、用 AI 做数据清洗……就像你不可能不用计算机芯片造出计算机芯片，蒸汽机也是自催化的——「这是这个行业任何一年都有的常态」。至于「让模型训练模型」（Karpathy 式的 auto-research），确实有团队在做，「但投入的热量远没有外界想象的多」。</p>
+<p style="margin:0.8em 0">有一个数据点值得记住：<strong style="font-weight:600">Databricks 里超过 90% 的软件是 AI 写的。</strong>「但最后那 2% 是不是 AI 写的，并不重要。」——重要的不是「软件在写自己」这个现象，而是四个条件是否闭合。</p>
+<p style="margin:0.8em 0">对话里还有一组必须分清的概念：超级智能（Bostrom 2014 年书里的那种——几秒钟写出一篇含原创成果的博士论文、在脑内瞬间推演千年思考）「非常、非常远，我看不到任何证据表明我们在朝它走」；而今天的 agent 带来的是一个真实的拐点——「我可以让一万个安全研究员在沙箱里协作一个月，干出相当于一亿美元工资的工作量；也可以让一万个数学家合作攻一个猜想。以前做不到，现在按一个按钮。」对前者，他不认为有单纯的工程解——幸运的是它很远；对后者，他确信是工程问题。这个拐点带来的主要风险，就是下一节。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">倒计时：从两三年，到几分钟</h2>
+<p style="margin:0.8em 0">Ghodsi 的定性干净利落：「我晚上睡得很好，我不认为现在有存在性风险。但地球上有大量基础设施需要被保护起来。」</p>
+<p style="margin:0.8em 0">紧迫性写在一条曲线的斜率里。从漏洞（CVE）公开到被武器化利用，所需时间：2008–2019 年，两三年；2022 年，八九个月；现在，几乎以分钟计——「事情会被立即武器化」。</p>
+<p style="margin:0.8em 0">防守方则还停留在上一个时代。传统的安全运营中心（SOC）是人肉看告警：每天几百封检测邮件，大量误报，漏掉的那一个就是事故。人类的反应速度追不上 agent 发起的攻击，于是「整个安全行业正在被迫转成全自动——用 agent 做检测，让 agent 自动『攻击自己』来做威胁狩猎」。但大多数组织离这一天很远：银行和少数最重视安全的公司在做，其余大部分行业还在老式 SOC 里。</p>
+<p style="margin:0.8em 0">还有一个结构性变化：数据与安全两个市场正在塌缩成一个。agent 在公司内部跑、agent 和别人的 agent 打交道，留下的日志、轨迹、指纹比以前多了几个数量级；攻防的尺度也大了几个数量级。Databricks 自己也有一款检测类产品在这个市场里。</p>
+<p style="margin:0.8em 0">主持人 Casado 追问了一个很好的对照组：互联网的早期，同样的时间点上，蠕虫已经打瘫过医院、造成过数百亿美元损失；为什么 AI 的钱更多、动机更强、速度更快，却还没出现同量级的事件？Casado 自己也承认，「这次会不会不同，我没有答案」。Ghodsi 的回答并不安慰人：那些事会来，所以必须跑得更快——「不是存在性的，但会伤到人。」他把这个问题的定性留在了「工程问题」这一侧：可解，但要全行业极快地跑。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">拳击手不能当裁判</h2>
+<p style="margin:0.8em 0">桌面上摆着三个监督方案：OpenAI/Anthropic 式的「独立第三方进驻检查」；Elon 式的「实验室互相检查」；扎克伯格式的「自己管自己」。</p>
+<p style="margin:0.8em 0">Ghodsi 对「互相检查」的比喻很锋利：「如果拳击比赛让拳手互相当裁判，会发生什么？他们会一直喊犯规。」竞争历史、IPO 计划、既得利益都摆在那儿。「所以需要第三方。为什么这个世界要有法官？因为人不会公正地解决自己的问题。」</p>
+<p style="margin:0.8em 0">而「第三方检查」的关键不在原则，在人选——「检查员是可以被『堆叠』的（你选谁，决定会出什么结论）」。他说他不会信任「进去之前就已经想好答案」的人。标准是这样的：如果一位公认的深度学习先驱进去看完，出来说「什么都没有，继续跑」——他会非常安心；如果那位先驱出来时语气开始松动、甚至改口——那同样是极其重要的信号。「所以我们需要多样视角的人。」</p>
+<p style="margin:0.8em 0">他补了一条历史规律：「行业先是自我监管，然后演化出监管者——FINRA 就是这样，看着独立，其实和政府连着。」而以现在的局面——实验室说自己有存在性风险、又请监管者来管——「监管者很难一直说『不』。到目前为止他们说了『不』，但这个状态撑不了太久。」访谈里引了一句华盛顿的玩笑（大意）：从没见过哪个行业主动来求监管；更妙的是，也从没见过哪个监管者拒绝过。会走到哪一步？「还有自由度，还有时间，」Ghodsi 说，「但中期选举已经在射程内了。」</p>
+<p style="margin:0.8em 0">关于「一边喊末日、一边谈 IPO 配售」的讽刺——Elon 的「四维棋」评论——Ghodsi 没有回避：「这些东西会混在一起。有人是真的害怕；有人是真心觉得『监管如果把我们放慢，对我们反而是好事』；每个人都有既得利益。人总能把这些在脑子里调成和谐的。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Token 在涨，账单没涨</h2>
+<p style="margin:0.8em 0">去年四季度，模型突然变得「真的能提效」。Ghodsi 先自己下场：用模型往生产环境提交代码——「如果我这个 CEO 能在管着敏感数据的平台上这么干，你们也行。」然后全公司推，先做了个排行榜。</p>
+<p style="margin:0.8em 0">很快，「token 最大化」在二三月就失控了。解法是一层层工程化的：统一网关（Unity Gateway），把各家模型容量（OpenAI、Anthropic、Gemini、Grok 及任何开源模型）接到一个口子上；按人、按组设预算并预警；做细颗粒度分析，能预测成本往哪走；上智能路由，简单问题自动切便宜模型；最后是一个 harness 复用层——一个不太被谈到的发现是：<strong style="font-weight:600">同一个模型、同一个版本，换一个 harness，成本可以差近 2 倍。</strong></p>
+<p style="margin:0.8em 0">结果：「token 消耗继续往上走，但成本基本走平。」Ghodsi 说这条曲线对 Databricks 近期「极其重要」，而每家公司马上都会走到这一步。</p>
+<p style="margin:0.8em 0">模型组合也在变。主持人 Martin 说，他坐在二十几个董事会上，第一次听到一家规模不小的公司宣布：要从前沿模型切换到开源模型 GLM。「以前每次『DeepSeek 时刻』最后都没什么实际影响，但我手里的样本开始变多了。」Ghodsi 的框架是：难任务，人们愿意为最强模型付 ROI；但大量琐事（比如「帮我改一批文件名」）也在烧前沿模型的预算——「这种事你自己敲两下不行吗？」正在成型的模式是「小模型调用专家模型」（或反向），以及 harness 的切换。「我们会进入一个不必『永远用最聪明的模型』的世界——新模型一出就把全家桶换掉的那个范式，结束了。」</p>
+<p style="margin:0.8em 0">开源模型的份额能说明问题：<strong style="font-weight:600">按金额算约 5%，按 token 数算超过 60%。</strong> 产品侧的初创公司里，有的已经接近 90% 开源；内部使用还多以前沿为主——「先不管成本」，直到规模逼着迁移。回看 2023 年收购 Mosaic，当时那个「你要拥有自己的智能」的判断，如今对初创公司已经成真：路径不是自己预训练（没必要，好底座已经存在），而是后训练加 RL——对特定、重复的任务用开源底座做强化学习，又快、又省，IP 还是自己的。大企业还够不到这一步：评测集（evals）这道苦力关就过不去——「做好的 evals 很难，大组织没有动力做」。Ghodsi 讲了段自嘲：Databricks 试过把自动生成 evals 做成产品前台的功能，没人用；藏到后台，更没人用。「这就像 TDD（测试驱动开发）：所有人都说它对，几乎没人真做。」</p>
+<p style="margin:0.8em 0">需求端还有个信号：企业开始大量要「前向部署工程师」（FDE）——帮它们把本体搭起来、把面向客户的 agent 做出来（低时延、带护栏；给 Fox 做的体育 AI 能优雅地拒绝用户聊政治，并把话题拉回比赛）。「很多组织自己没有能力做这些，需要有人扶一把才能起跑。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为 agent 重做一遍数据库</h2>
+<p style="margin:0.8em 0">一个侧写值得单独记下来。第三方测试显示，Databricks 旗下的 Neon / Lakebase 成了 agent「选出来」的 Postgres 数据库——这个结果放在一年前没人猜得到。Ghodsi 把功劳归给 Neon 团队的方法论：<strong style="font-weight:600">对「让 agent 选我们」这件事足够偏执。</strong> agent 要起数据库做实验：必须秒级可用；克隆一个 PB 级数据库也要秒级；还有杀手功能「分支」——一个库长出很多轻量副本；定价也要为实验场景设计——别让 agent 玩着玩着烧出一张生产账单。</p>
+<p style="margin:0.8em 0">他的类比：uv、ripgrep 是把 Unix 工具重做成「对 agent 快、轻、不容易出事」的样子；Neon 是对「数据库」这个更难的问题做同一件事。他们不关心数据库战争的胜负手，只关心「agent 觉得哪个最好用」——数据库的人设变了：过去服务 DBA，后来服务开发者，现在服务 agent。<strong style="font-weight:600">今天 Neon/Lakebase 上新建的数据库，超过 90% 是 agent 建的，不是人。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">另一边：已经在救人的 AI</h2>
+<p style="margin:0.8em 0">风险聊久了，容易忘掉上行面。Ghodsi 随手就是一串：Crisis Text Line 用大模型识别有自伤倾向的青少年（「它真的在救人」）；Omnipod 的胰岛素泵用自学习模型跟踪血糖、自动释药；Zipline 的全自动无人机从电池优化到航线全是 AI，在非洲给难民营送血；与默克合作的药物发现模型不预测下一个 token，而是预测基因调控网络怎么响应——分辨哪些细胞是「因果」、哪些只是「反应」，把特定疾病的药物开发成本打下来；Novo Nordisk 把本体用在所有临床试验上，拿到洞察的时间从几周压到几分钟。</p>
+<p style="margin:0.8em 0">「这些上行面我们不想要吗？想要。所以更要把它做对。」</p>
+<p style="margin:0.8em 0">节目最后照例是那个问题：p(doom)？Ghodsi 的回答是「接近零」。而这场对话留下了一句更妙的收束——</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">「没有 AI 的世界，我的 p(doom) 会比有 AI 的世界更高。」</p>
+</blockquote>
+<p style="margin:0.8em 0">对一场习惯用恐惧做主语的大辩论，这是少见的回答方式：少一点末日叙事，多把该装的图装上、该锁的锁好。他的信息从头到尾其实很一致——AI 不缺智商；缺的是你愿意花多少力气，把公司里那些只存在于人脑里的东西，变成它能读懂的样子。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">企业 AI 的瓶颈是上下文，不是智能：把「知道最多的人」脑子里的隐性知识变成可查询的图谱，比等下一代模型更值钱；Databricks 自己的本体已有数百万个节点。</li>
+<li style="margin:0.3em 0">判断递归自我改进（RSI）的四个条件必须同时成立：训练算力下降、训练时间缩短、智能在上升、且循环可重复——目前证据全在反方向。黑盒试金石：盯实验室的团队与算力是否在缩、产出是否在涨。</li>
+<li style="margin:0.3em 0">「pacing」是措辞事故：减速与安全正交；可执行的做法是「把系统锁好、把护栏制度化」；而行业自律的历史终局，是监管者登场。</li>
+<li style="margin:0.3em 0">最紧迫的真实风险是网络攻击：漏洞到武器化从两三年（2008–2019）→ 八九个月（2022）→ 分钟级（现在）；防守侧不自动化就来不及，多数组织的 SOC 还在人肉阶段。</li>
+<li style="margin:0.3em 0">成本治理能做出「token 涨、账单平」的曲线：预算、智能路由、harness 复用（同模型换 harness 差近 2 倍）是三个被低估的杠杆。</li>
+<li style="margin:0.3em 0">开源模型按 token 用量已超 60%（按金额约 5%）；「每个任务都上最强模型」的范式正在结束，后训练 + RL 是初创公司拥有自有智能的现实路径。</li>
+<li style="margin:0.3em 0">p(doom) ≈ 0 是条件判断而非乐观：四条件未闭合，加上把安全问题归类为工程问题；在他的排序里，网络攻击远排在超级智能之前。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[Money Stuff: The Podcast] 试图拯救世界，不是反垄断的豁免理由</title><link>https://xlicz.github.io/podcast-rss/articles/试图拯救世界-不是反垄断的豁免理由-2026-09-18.html</link><guid isPermaLink="false">money-stuff_fe402be1aec9</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>试图拯救世界，不是反垄断的豁免理由</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">试图拯救世界，不是反垄断的豁免理由</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Money Stuff 这期的三则故事：一场抓不到"狼"的期权案、一场无法合法"刹车"的 AI 竞赛，和一款正在复活的养老金。</strong></p>
@@ -14596,43 +14700,43 @@ PC时间线提前=更新非下修）</li>
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/19</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：丰田 40 万台机器人进厂计划（半人形 ELEY 向工人学习）、聊天机器人幻觉险触发对华军事行动、中国具身公司 Spirit AI 的&quot;脏数据&quot;路线、欧洲芯片新星 EUCLYD 获三星领投、四大 AI 编程代理插件供应链漏洞。</p>
+<p style="margin:0.8em 0">本期聚焦：丰田 40 万台机器人进厂计划（半人形 ELEY 向工人学习）、聊天机器人幻觉险触发对华军事行动、中国具身公司 Spirit AI 的"脏数据"路线、欧洲芯片新星 EUCLYD 获三星领投、四大 AI 编程代理插件供应链漏洞。</p>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">机器人 ×1</strong>：丰田计划 2028 年起每年投入约 1 万亿日元（≈人民币 425 亿元 / ≈$64 亿），在全球约 60 家工厂部署 40 万台自研机器人——自有工厂 15 万台、集团工厂 25 万台；代表机型为半人形 ELEY（50kg、轮式、双指手），搭载丰田研究院 LBM 大行为模型，可观察工人操作自主学习精细动作</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">AI ×2</strong>：CNN 披露今春美军针对一艘中国船只的武装行动因聊天机器人&quot;幻觉情报&quot;在飞机升空后紧急叫停；Air Security 披露 Plugin4Shell 插件供应链漏洞——四大 AI 编程代理中两家已修、两家未修</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">具身智能 ×1</strong>：Spirit AI（北京）对 Reuters 称机器人&quot;GPT-3 时刻&quot;最早 2027 年年中，但家庭机器人仍需至少 8 年；以约 1,000 名动捕采集员的&quot;脏数据&quot;路线训练，Moz1 已部署宁德时代、京东</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI ×2</strong>：CNN 披露今春美军针对一艘中国船只的武装行动因聊天机器人"幻觉情报"在飞机升空后紧急叫停；Air Security 披露 Plugin4Shell 插件供应链漏洞——四大 AI 编程代理中两家已修、两家未修</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">具身智能 ×1</strong>：Spirit AI（北京）对 Reuters 称机器人"GPT-3 时刻"最早 2027 年年中，但家庭机器人仍需至少 8 年；以约 1,000 名动捕采集员的"脏数据"路线训练，Moz1 已部署宁德时代、京东</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 硬件 ×1</strong>：荷兰 EUCLYD 完成 €2 亿+（约 $2.3 亿）A 轮：三星电子等联合领投，前 ASML CEO Peter Wennink 加入董事会；开发面向 AI Agent 的推理芯片 craftwerk（ASIC + 处理器-内存协同设计）</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. 丰田：2028 年起部署 40 万台机器人进厂，半人形 ELEY 向工人学习 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">据日经亚洲报道，丰田计划自 2028 年起每年投入约 1 万亿日元（约合人民币 425 亿元 / 约 $64 亿），用于全球约 60 家工厂的翻新与自动化升级，并合计部署 40 万台自研机器人——其中丰田自有工厂 15 万台、集团旗下公司工厂 25 万台。代表机型 ELEY（Embodied Learning robot for Enhanced Yield，具身学习机器人）：重约 50kg、轮式底盘、每手两根手指、电池或外接电源供电；搭载丰田研究院（TRI）Large Behavior Models，通过视觉观察工人操作自主学习精细动作（工人佩戴仿 ELEY 手指的辅具反复演示），已部署到部分产线边干边学，可执行搬运零件、叠衣服等任务。丰田执行副总裁 Hiroki Nakajima 称目标是&quot;打造机器人与人类共存而非取代人类的世界&quot;。</p>
+<p style="margin:0.8em 0">据日经亚洲报道，丰田计划自 2028 年起每年投入约 1 万亿日元（约合人民币 425 亿元 / 约 $64 亿），用于全球约 60 家工厂的翻新与自动化升级，并合计部署 40 万台自研机器人——其中丰田自有工厂 15 万台、集团旗下公司工厂 25 万台。代表机型 ELEY（Embodied Learning robot for Enhanced Yield，具身学习机器人）：重约 50kg、轮式底盘、每手两根手指、电池或外接电源供电；搭载丰田研究院（TRI）Large Behavior Models，通过视觉观察工人操作自主学习精细动作（工人佩戴仿 ELEY 手指的辅具反复演示），已部署到部分产线边干边学，可执行搬运零件、叠衣服等任务。丰田执行副总裁 Hiroki Nakajima 称目标是"打造机器人与人类共存而非取代人类的世界"。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 计划规模/预算/时间经 Nikkei、CNBC、Assembly Magazine、automotiveworld 等一致；ELEY 规格与 LBM 见丰田官网内容转述（财联社/观察者网） 🔴 部署拆分（15万/25万）与&quot;400,000 台&quot;完整口径系媒体报道，未见丰田公开全文公告 — <strong style="font-weight:600">关注</strong>: 车企下场，人形进厂规模化成主线</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 计划规模/预算/时间经 Nikkei、CNBC、Assembly Magazine、automotiveworld 等一致；ELEY 规格与 LBM 见丰田官网内容转述（财联社/观察者网） 🔴 部署拆分（15万/25万）与"400,000 台"完整口径系媒体报道，未见丰田公开全文公告 — <strong style="font-weight:600">关注</strong>: 车企下场，人形进厂规模化成主线</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Nikkei Asia, CNBC, Assembly Magazine, 财联社（引丰田官网） (🟡)</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. CNN：聊天机器人幻觉情报险触发美军对华行动，飞机升空后叫停 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">CNN 周五报道：今春（对伊朗战争期间）美军一场针对一艘中国船只的武装行动在飞机已升空后被紧急叫停——所依据的&quot;该船运载核武器部件&quot;情报实为 AI 聊天机器人幻觉产物。流程：特种作战司令部分析师先让聊天机器人合成开源数据与机密信号情报，机器人错误识别货单；分析师再借同一工具将错误结论格式化为&quot;官方样式&quot;摘要并在指挥链传阅。TechCrunch 跟进指出：AI 深入决策链后，错误可在被质疑前逐级上行；五角大楼正推动 AI 提速&quot;杀伤链&quot;。GovAI 研究员、退伍美军军官 Jake Steckler 评论：任何可能导致武力使用的决策，尤其需要理解 LLM 的固有不确定性。</p>
+<p style="margin:0.8em 0">CNN 周五报道：今春（对伊朗战争期间）美军一场针对一艘中国船只的武装行动在飞机已升空后被紧急叫停——所依据的"该船运载核武器部件"情报实为 AI 聊天机器人幻觉产物。流程：特种作战司令部分析师先让聊天机器人合成开源数据与机密信号情报，机器人错误识别货单；分析师再借同一工具将错误结论格式化为"官方样式"摘要并在指挥链传阅。TechCrunch 跟进指出：AI 深入决策链后，错误可在被质疑前逐级上行；五角大楼正推动 AI 提速"杀伤链"。GovAI 研究员、退伍美军军官 Jake Steckler 评论：任何可能导致武力使用的决策，尤其需要理解 LLM 的固有不确定性。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CNN 原报道 + TechCrunch 跟进（含 GovAI 学者评论） 🔴 事件细节依赖匿名信源、官方未公开确认 — <strong style="font-weight:600">关注</strong>: AI 进入杀伤链的现实警钟</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNN, TechCrunch (🟡)</li>
 </ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Spirit AI：机器人&quot;GPT-3 时刻&quot;最早 2027 年年中，家庭场景仍需 8 年以上 | 🟡 | [✅事实]+[🔮预测]</h3>
-<p style="margin:0.8em 0">北京具身智能公司 Spirit AI（千寻智能）对 Reuters 表示：机器人&quot;大脑&quot;有望在 2027 年年中前后迎来 GPT-3 式突破；但家庭可用机器人仍需至少 8 年。公司称瓶颈在数据：机器人仍难完成拧瓶盖等精细动作、难以泛化；其路线是用约 1,000 名动捕采集员在家庭与产线采集&quot;脏数据&quot;（多样、不完美的动作）——据称比只重复&quot;干净&quot;动作学得更快。落地方面：Moz1 轮式人形已在宁德时代（电池巨头）与京东（电商巨头、公司投资方）部署数十台。联合创始人高阳称，未来 1-2 年是工业场景的第一个窗口，随后是更简单的商业服务场景。</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Spirit AI：机器人"GPT-3 时刻"最早 2027 年年中，家庭场景仍需 8 年以上 | 🟡 | [✅事实]+[🔮预测]</h3>
+<p style="margin:0.8em 0">北京具身智能公司 Spirit AI（千寻智能）对 Reuters 表示：机器人"大脑"有望在 2027 年年中前后迎来 GPT-3 式突破；但家庭可用机器人仍需至少 8 年。公司称瓶颈在数据：机器人仍难完成拧瓶盖等精细动作、难以泛化；其路线是用约 1,000 名动捕采集员在家庭与产线采集"脏数据"（多样、不完美的动作）——据称比只重复"干净"动作学得更快。落地方面：Moz1 轮式人形已在宁德时代（电池巨头）与京东（电商巨头、公司投资方）部署数十台。联合创始人高阳称，未来 1-2 年是工业场景的第一个窗口，随后是更简单的商业服务场景。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 采访报道（Finimize/Firstpost/TradingView 转述一致） 🔴 2027 时间表系公司预测，无第三方验证 — <strong style="font-weight:600">关注</strong>: 具身数据路线分歧，家庭场景遥远</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters, Finimize, Firstpost (🟡)</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 荷兰 EUCLYD 获三星电子等领投 €2 亿+ A 轮：前 ASML CEO 入董事会 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">荷兰埃因霍温（High Tech Campus，毗邻 ASML 总部）AI 芯片初创 EUCLYD 完成超 €2 亿（约 $2.3 亿）A 轮：三星电子、Somerset Capital Partners、Scaleup Europe Fund 联合领投，imec.xpand 等参投；前 ASML CEO Peter Wennink 加入董事会（eu-startups 称任董事长）。公司在开发面向 AI Agent 的推理芯片 craftwerk——以 ASIC + &quot;处理器-内存协同设计&quot;的创新存储架构为卖点（意在部分替代 HBM 路线），随系统 CWS 出货，公司称将支持 1 exaflop 以上 AI 集群。CNBC 称此轮标志&quot;GPU 替代方案&quot;赛道升温。</p>
+<p style="margin:0.8em 0">荷兰埃因霍温（High Tech Campus，毗邻 ASML 总部）AI 芯片初创 EUCLYD 完成超 €2 亿（约 $2.3 亿）A 轮：三星电子、Somerset Capital Partners、Scaleup Europe Fund 联合领投，imec.xpand 等参投；前 ASML CEO Peter Wennink 加入董事会（eu-startups 称任董事长）。公司在开发面向 AI Agent 的推理芯片 craftwerk——以 ASIC + "处理器-内存协同设计"的创新存储架构为卖点（意在部分替代 HBM 路线），随系统 CWS 出货，公司称将支持 1 exaflop 以上 AI 集群。CNBC 称此轮标志"GPU 替代方案"赛道升温。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 金额/投资方/董事会经 SiliconANGLE、CNBC、Data Center Dynamics、Memeburn 等 8+ 家一致；eu-startups 确认 Wennink 任董事长 🔴 芯片仍在研发，无流片/第三方性能数据 — <strong style="font-weight:600">关注</strong>: 三星押注非 GPU 推理路线</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: SiliconANGLE, CNBC, Data Center Dynamics, eu-startups (🟡)</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Plugin4Shell：四大 AI 编程代理插件可被仓库主偷换代码 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">安全公司 Air Security 披露漏洞 Plugin4Shell：Claude Code、Codex、GitHub Copilot、Gemini CLI 四款主流 AI 编程代理中，插件市场以 commit hash 锁定已审查版本，但代理安装时不校验实际代码与哈希是否一致——仓库主可创建&quot;伪装成哈希&quot;的分支名指向其他代码，代理仍报告&quot;已锁定版本&quot;并安装；由于插件以用户同等权限运行，构成零点击 RCE 风险（供应链投毒）。补丁状态：Anthropic 已在 Claude Code 2.1.179 修复、OpenAI 已在 Codex 0.146.0 修复；GitHub Copilot 暂无修复；Google 表示不修复 Gemini CLI（该产品即将停用）。</p>
+<p style="margin:0.8em 0">安全公司 Air Security 披露漏洞 Plugin4Shell：Claude Code、Codex、GitHub Copilot、Gemini CLI 四款主流 AI 编程代理中，插件市场以 commit hash 锁定已审查版本，但代理安装时不校验实际代码与哈希是否一致——仓库主可创建"伪装成哈希"的分支名指向其他代码，代理仍报告"已锁定版本"并安装；由于插件以用户同等权限运行，构成零点击 RCE 风险（供应链投毒）。补丁状态：Anthropic 已在 Claude Code 2.1.179 修复、OpenAI 已在 Codex 0.146.0 修复；GitHub Copilot 暂无修复；Google 表示不修复 Gemini CLI（该产品即将停用）。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 漏洞机制/补丁版本经 Air Security 披露，The Hacker News、The Register、Help Net Security 等一致报道 🔴 攻击影响评估系研究方口径 — <strong style="font-weight:600">关注</strong>: 开发代理供应链安全警钟</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: The Hacker News, The Register, Help Net Security (🟡)</li>
