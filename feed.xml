@@ -1,7 +1,83 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 21 Sep 2026 05:09:14 +0800</lastBuildDate><item><title>[跨国串门儿计划] 只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</title><link>https://xlicz.github.io/podcast-rss/articles/只跟一个-Agent-说话-Kun-Chen-和他的-船员舰队-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8090659bad31</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</description></item><item><title>[跨国串门儿计划] 十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</title><link>https://xlicz.github.io/podcast-rss/articles/十倍杠杆在漏斗顶部-Sam-Blond-的-AI-原生销售手册-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6050f6df71d6</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</description></item><item><title>[跨国串门儿计划] Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</title><link>https://xlicz.github.io/podcast-rss/articles/Cerebras-CEO-CUDA-不是护城河--从-GPU-切过来只需八个键-2026-07-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_fa2454b78dcb</guid><pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate><description>Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</description></item><item><title>[跨国串门儿计划] 黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</title><link>https://xlicz.github.io/podcast-rss/articles/黄仁勋-AI-不会消灭工作--放射科医生反而多了-20-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_0fef8cbc056b</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</description></item><item><title>[跨国串门儿计划] 被 AI 拷问 35 个问题之后：软件基本功反而更重要了</title><link>https://xlicz.github.io/podcast-rss/articles/被-AI-拷问-35-个问题之后-软件基本功反而更重要了-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4e63c077ace8</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>被 AI 拷问 35 个问题之后：软件基本功反而更重要了</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Mon, 21 Sep 2026 05:09:58 +0800</lastBuildDate><item><title>[跨国串门儿计划] 20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</title><link>https://xlicz.github.io/podcast-rss/articles/20-个人的-Evernote-Bending-Spoons-的-极致运营-生意经-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d5d10f3e7878</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Luca Ferrari 谈这台从米兰出发、刚登陆纳斯达克的收购机器：350 人的公司为什么能砍到 50 人、再砍到 20 人；「绝对坦荡」的用人标准；「极致简化」的减法哲学；以及为什么他们把「卓越的运营」本身做成了最好的商品。</strong></p>
+<p style="margin:0.8em 0">在被 Bending Spoons 收购之前，Evernote 是一家 350 人的公司，年收入九千万美元左右，勉强盈亏平衡。三年之后，同样这块业务——包括它的代码、云基础设施、商业化、全部产品开发——由大约 <strong style="font-weight:600">20 个人</strong>运营。</p>
+<p style="margin:0.8em 0">「今天运行 Evernote 的，大概只有二十个人」，Luca Ferrari 说这话时的语气，就像在报一个再普通不过的数字。</p>
+<p style="margin:0.8em 0">Ferrari 是 Bending Spoons 的联合创始人兼 CEO。这家公司 2013 年从哥本哈根起步、扎根米兰，起点是上一个失败创业项目清算后剩下的约 4 万美元。今年 7 月 1 日，它登陆纳斯达克，募集资金对应估值 184 亿美元——欧洲自 2023 年以来最大规模的科技公司上市。十三年来，它买下了五十多家「被市场低估」的数字业务：Evernote、Vimeo、WeTransfer、Meetup、AOL、Eventbrite……其中很多产品在中文互联网用户里也耳熟能详。</p>
+<p style="margin:0.8em 0">这期长对话（主持人是播客《Founders》的 David Senra）里，Ferrari 把这台「运营机器」的每一层都拆开了：怎么用一套自研「操作系统」管理五十家公司、怎么集中化招聘和裁人、为什么全公司没有职级头衔、以及一笔典型的收购从报价到复盘的全过程。对任何做软件生意的人来说，这是一份罕见的、来自「运营方」的一手教科书。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一笔 2 亿美元收购的五年</h2>
+<p style="margin:0.8em 0">先看 Evernote 这个标本。</p>
+<p style="margin:0.8em 0">Bending Spoons 看中它什么？Ferrari 列了四条：<strong style="font-weight:600">品牌</strong>——「有 2.5 亿人用过它，几乎人人都听说过，极少有人对它印象负面」；<strong style="font-weight:600">用户盘子</strong>——收购时仍有几百万活跃用户和付费客户；<strong style="font-weight:600">留存</strong>——「一个付费客户平均会在 Evernote 里待五到十年，大部分收入来自订阅，可预测性远好于广告」；<strong style="font-weight:600">改善空间</strong>——「我们觉得它在每个维度上都有很大改进余地」。</p>
+<p style="margin:0.8em 0">价格大约在两亿美元上下，收入九千万，「大致盈亏平衡，略微盈利」。对比它当时的体量，这个价格「很合理」——Ferrari 透露，他们的出价「很可能比第二高出价高出很多」。「顺便说，事后来看，我们本来应该谈得更好一些」，他补了一句。</p>
+<p style="margin:0.8em 0">然后就是那套让外界又好奇又不安的改造：组织架构大重构，团队从 350 人降到 50-60 人（发生在收购完成一年到一年半之后），再随着平台能力与 AI 的进步，降到今天的约 20 人。「现在，每天早晨起来专门为 Evernote 修 bug、上线功能、优化变现的人，大概就二十个。」同时——<strong style="font-weight:600">收入上涨，成本下降</strong>，「利润非常非常丰厚」。</p>
+<p style="margin:0.8em 0">他给出了三个「为什么我们做得比原来的团队好」，每一条都值得反复读：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第一，人才获取的「套利」。</strong>「我们建立起了一个雇主品牌。去年我们收到 80 万份求职申请，录取了不到 300 人。你想想，如果换做你独立经营 Evernote，就算你是乔布斯，也不会有 80 万人来申请 Evernote。」</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第二，承担风险的能力差别。</strong>「这些业务对我们都很重要，但都不是我们的全部——所以我们能承担风险。如果你在独立掌管 Evernote，做了我刚才描述的那种人员调整，一旦出差错，你基本就完了，那会成为你简历上抹不掉的污点。而对我们来说，我们能下一些预期回报非常诱人、但风险略高的赌注。」他称之为「几乎像一份保险」。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">第三，共享技术平台的摊销。</strong>「如果你独立运营 Evernote，你根本没有资源去开发那些技术，也没有立项的商业依据。而我们把那些投资摊销到所有业务上，随着收购越来越多，这笔账就算得过来。」</p>
+<p style="margin:0.8em 0">还有一层更隐蔽的：<strong style="font-weight:600">激励结构的扭曲</strong>。「如果你只凭 Evernote 这一款产品被评判，你做出一项会让订阅用户数下降的改动，你会被骂得狗血淋头——哪怕涨价、牺牲一部分用户、换来更高的总收入，对业务本身是对的。」独立公司的管理层必须顺从市场对「订阅数」的执念；而在一个更大的体系里，「没有任何一项业务本身就是终点，它只是更大拼图里的一块」——那些不受欢迎但正确的决定，就容易做得多。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收购来的公司，被装进同一台「操作系统」</h2>
+<p style="margin:0.8em 0">Evernote 不是特例。支撑「20 人运营一个九千万美元业务」的，是一套 Bending Spoons 自研了十多年的内部系统。</p>
+<p style="margin:0.8em 0">「十多年来我们开发了超过 50 个自研工具，运转着我们几乎所有的业务——一套系统管支付，一套做 A/B 测试，一套预测用户生命周期价值，一套做招聘和人才预测，一套调度内部各种 AI 模型（让我们在成本和质量之间选到最理想的），一套做权限管理，还有数据聚合……我们还在不断打磨它们。内部有点像开源社区：平台团队负责这些工具，业务团队在使用中发现问题，可以加功能、修 bug；改进会同步给整个业务组合里的所有产品。」</p>
+<p style="margin:0.8em 0">于是收购的逻辑变得清晰：<strong style="font-weight:600">「收购一家公司，差不多就像把它安装到这套操作系统上。」</strong> 而每收购一家新业务，又给这套 OS 增加了一个创新入口——「我们整体变得更强，不仅因为增加了收入，更因为多了新的改进想法的来源。」</p>
+<p style="margin:0.8em 0">一个佐证是效率的非线性：改造一家公司的复杂程度，并不随营收规模线性增加。「Evernote 当年我们派进去五十人的工作组；最近我们对 Vimeo 做了几乎同样的事，派了五六个人……不，五六十个人。而 Vimeo 的体量是 Evernote 的四倍：约 4 亿美元营收，原团队一千多人。推动变革的 Bending Spoons 员工数量差不多。」一部分原因是这套 OS 本身变得更强了，「我们的生产力更高了」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">「绝对坦荡」：他们如何挑选和信任人才</h2>
+<p style="margin:0.8em 0">如果说「运营」是这台机器的硬件，「人」就是它的操作系统。Ferrari 反复回到一个词：<strong style="font-weight:600">绝对坦荡</strong>（Absolute Candor，他承认这个词借自 Jocko Willink 的书，但定义是自己的）。</p>
+<p style="margin:0.8em 0">「绝对坦荡，就是内心有一股极强的冲劲，一定要把手头的事做到最好，一定要帮团队和公司拿到结果。我们宁可不要那种极其聪明、能力很强、但把工作做好只能排到第三第四优先级的人。我们招过智商接近天才的人，他们最后在这里做不下去——因为归根到底，他们只是把这份工作当成糊口的手段，而不是真正去突破极限、去赢。」</p>
+<p style="margin:0.8em 0">「你说过一句话我很喜欢：没有习惯，总比有坏习惯好」，主持人接话。Ferrari 讲了一个他们最反直觉的筛选信号：</p>
+<p style="margin:0.8em 0">「我们发现，面试里判断候选人是否乐于协作，并不能真的预测他工作中的表现——聪明的混蛋在面试里都会表现得很友善。所以我们设了一个支持性岗位，帮候选人处理应聘流程里的琐事，比如安排面试时间。候选人显然不觉得这个岗位跟最终考评有关系。结果：大家和这些支持人员互动时的表现，更能预测他作为人真实的一面。那些态度生硬、不尊重人的，最终在社交场合的表现都很差。这只是上百个信号里的一个。」</p>
+<p style="margin:0.8em 0">他们把这些信号做成了「科学」：从申请材料、邮件往来、任务完成情况里识别 100 多种特征，长期与实际表现对照校准——<strong style="font-weight:600">「这跟量化对冲基金识别几百上千个信号的做法是一样的：每个信号单独看很弱，加起来就有预测能力。」</strong> 而对经验丰富的人选，他们反而「只看结果加几个背景调查」就够。</p>
+<p style="margin:0.8em 0">对应的组织设计更激进：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">招聘与解雇，全公司集中管理。</strong> 五十家业务不各自招人，由一个「人才团队」统一负责，且这些人本身就是工程师。「招聘经理的激励几乎全是错的：他缺人手，就会想尽快把岗位填上；他会选成熟的候选人，而不是青涩但潜力大的人。集中化之后，人才团队只做招聘这一件事，样本量大得多，还能跨岗位调配——有人来应聘产品经理，他们看得出这人做增长会非常厉害，直接调。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">管理者没有奖金、没有浮动薪酬。</strong>「全凭信任。告诉他们：相信你们能搭出最好的组织，好好招人。我们发现，设定高度具体的目标、并把晋升或薪酬挂钩，几乎无一例外导致糟糕的结果——大家会偏离对公司最有利的做法，变成专门满足考核指标。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">没有职级头衔。</strong>「我们讨论过要不要设资深、总监之类，花大把时间定义标准，然后没评上的人失望、情绪内耗。最后有人问：我们到底为什么要有头衔？——为了对外吹牛、展示进步、找工作方便。这些可能都是真的，但公司不需要掺和。于是全砍了。简历上随便写什么头衔都行，别让我们丢脸就行。负责产品的人统一叫『产品管理负责人』——不管管两个人还是两百人，头衔一模一样，全是算法自动生成的。几千里挑一的时间里，从来没有一个人抱怨过没有头衔。」</li>
+</ul>
+<p style="margin:0.8em 0">还有两条与用人有关的细节。其一，<strong style="font-weight:600">薪酬</strong>：核心团队「人均营收超过 400 万美元」，薪酬给到市场最高档，「高到没人会对此耿耿于怀」。「我们做过一个实验：在职位描述里写更高的薪酬数字，看申请量会不会变——结果只有微幅提升。但就算没有任何提升，我依然认为应该涨薪。因为那些会点击招聘广告的人，只是潜在人群的一小部分；而高薪公司的声誉效应，需要在大学里、在口碑里传播好几年才能显现。」其二，<strong style="font-weight:600">轮换</strong>：员工持续在不同收购业务之间调动——「避免亚文化；带来新视角；让热情保持在线；以及，把资源投向预期回报最高的新业务。发现某块业务的边际机会见顶时，我们遗憾地撤出资源，但相对而言那是正确的。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">「极致简化」：举证责任在提议加复杂度的人身上</h2>
+<p style="margin:0.8em 0">Ferrari 说，绝大多数事情都不重要，且弊大于利。「人类有一种倾向：不断往系统里加东西——加人、加流程、加规则、加功能——极少砍掉。而每加一个部件，复杂度不是线性增加：从三个部件变四个，增加的复杂度不是 33%，可能是 40% 甚至 50%，因为你同时增加了相互依赖。」</p>
+<p style="margin:0.8em 0">所以他们的规则是：<strong style="font-weight:600">每当有人提议增加复杂度，举证责任在提建议的人身上。</strong> 「反对增加的一方不需要证明什么，只需要说一句『我觉得不该加』。这极大减少了复杂度的增加。」</p>
+<p style="margin:0.8em 0">最著名的例子是头衔（如上）。另一个是产品：「直接砍掉产品的整块功能。如果只有 2% 的人在用，却给代码库增加复杂度、bug 和各种问题——确实会有人失望，但剩下的 98% 你能服务得好得多。一年之后，你的状态会好上一倍。<strong style="font-weight:600">简化上最大的收益，往往完全来自彻底砍掉，而不是小修小补。</strong>」</p>
+<p style="margin:0.8em 0">他引用芒格的认知偏差研究来解释为什么必须「刻意质疑已有之物」：「人类有互惠偏差、惯性偏差——我们默认现状没问题，只盯着新增和变化。环境日复一日不变时，我们就对它视而不见。所以存在得越久的东西，我们越要质疑它是否还有足够的积极作用。」</p>
+<p style="margin:0.8em 0">主持人提到马斯克对「删除」的痴迷，以及另一位创业者把 SpaceX 猛禽发动机的三版对比图称为**「当代的毕加索」**——第一版满是管线，第三版干净得像艺术品。「这个例子把逻辑说透了」，Ferrari 说，「如果一台发动机有一百个零件、另一台只有五个：供应链会是什么样？制造呢？维修排查故障呢？随着复杂度增加，会有无数其他事情变得更复杂。它带来速度，也带来可扩展性。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么他们几乎从不输掉竞购</h2>
+<p style="margin:0.8em 0">Bending Spoons 最让外界戒备的一点，是它「总能用高得离谱的价格赢下竞购」。Ferrari 的解释是：这不是财技，是<strong style="font-weight:600">运营能力带来的结构性优势</strong>。</p>
+<p style="margin:0.8em 0">「从定义和数学逻辑上说：如果一项业务在你手里比在几乎任何人手里都运转得更好，而市面上有足够多这样的业务，那么当它出售时，你应该能出到最高价。这样卖家依然能获得极好的回报，你也能获得极好的回报。所以我们把 99% 的资源和精力都花在『成为最好的运营者』上，花在并购交易本身的精力少得出奇。」</p>
+<p style="margin:0.8em 0">他划清与私募的界限：「我们不是基金，买下来不是为了卖——我们从来没有卖出过任何一项实质性业务。我们介入的程度非常深——有时会把一家公司改造得几乎认不出来。而且我们把业务深深整合进一个共享平台。私募买入是为了五年后卖掉；他们不会重新发明产品、重建组织、重构技术基础设施——因为整合了，反而卖不掉。」</p>
+<p style="margin:0.8em 0">谈判风格也是设计的一部分：「我不想先进场报一个特别低的数字，然后来来回回扯皮。我开出一个我认为公平且有竞争力的价格——我大概也知道能压得更低，但我不想把一笔交易的最后一分钱榨干。我们几乎从没在报价上加过超过 5% 或 10%。」一旦卖方要货比三家，他们几乎总是鼓励：「你去比，因为只要你想清楚，这就是你能拿到的最高价值。对你更省事，对我们也是——签约更快、交割更容易。」</p>
+<p style="margin:0.8em 0">主持人用巴菲特收购 Clayton Homes 的故事来对照这种风格：对方问多少价，巴菲特说「12 块 5」；对方还价 15，还是「12 块 5」；再还 14，「12 块 5，这是我的最终报价——以及，我可以保证，就算明天全世界的资本市场关门，你依然能指望这笔报价。」Ferrari 笑了：「我们确实遇到过一两次有点类似的情况。这么做更容易，因为我们心里特别有底——到今天为止，我不认为有人在出价上赢过我们。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一台机器的哲学：从 Singleton 到「大教堂」</h2>
+<p style="margin:0.8em 0">被问到「谁影响过你们的打法」时，Ferrari 说不太多——刻意保持孤立。「我们是在意大利那片荒原上发展起来的。当时完全是无名小卒，不可能拿起电话打给贝索斯，只能靠自己想。地理上的偏远反而成了优势：没受创业中心那些信条的污染。<strong style="font-weight:600">如果你模仿大多数人的做法，最多也就是中上水平；想做到顶尖，就必须重新思考很多事。</strong>」主持人形容他们是「创业界的加拉帕戈斯群岛」——独立演化出的一整套方法。</p>
+<p style="margin:0.8em 0">不过有一个精神同类：Henry Singleton，Teledyne 的传奇 CEO。这个类比几乎贯穿了 Ferrari 的资本观：Singleton 在十年里整合了上百家公司，然后停手，转向纯粹的资本配置——「他发现每一块钱最划算的去处，是回购自己的股票」。「他对环境和边界条件有敏锐洞察，做的决定完全是理性的。市场偏好变了，他就换一种方式释放价值。他纯粹把投资和经营看成一道谜题，努力寻找最优解。」</p>
+<p style="margin:0.8em 0">「未来你们也会回购股票吗？」「从非常长远的眼光看，那可能是一种很有吸引力的方式。但眼前，前面的收购空间还很大——把资金配置到收购上一直非常诱人，接下来也会是重中之重。」</p>
+<p style="margin:0.8em 0">关于上市，他给了一个「拖延的艺术」的示范：「只要不是出于懒惰，推迟决定是极好的——因为你手里会有更多信息。我们 2025 年上半年就明确要上市，但『哪天扣动扳机』推到最后一刻：真正的决定是在 2026 年春天做的。」</p>
+<p style="margin:0.8em 0">而关于目标，他留下了一个本期节目里最像宣言的句子：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0"><strong style="font-weight:600">「我早上醒来时想的，不是修一座漂亮的普通教堂，而是造人类有史以来最宏伟的大教堂。我们知道这可能性极低、几乎不可能——但只要接近那个目标，这一路上的充实感、学到的东西，还有财务回报，都会指数级增加。」</strong></p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">AI 与「初创状态」</h2>
+<p style="margin:0.8em 0">谈话最后回到了 AI 如何重构他们的组织。Ferrari 说，收获「接近突破性」——但方向不是「省人」，而是<strong style="font-weight:600">把收购来的公司重新变回初创状态</strong>。</p>
+<p style="margin:0.8em 0">他们内部有两个已经跑通的系统。一个是 <strong style="font-weight:600">Diagram</strong>：一个特化的设计工具，设计规范、代码库、A/B 系统全部打通。「你告诉它你想要什么样的界面，它生成的方案设计主管通常直接批准——因为它自动遵守规范、自动查代码库理解功能交互。然后它把代码也写出来。以前『我有个想法要测一下，得等设计师有空、解释一遍、三天后拿回来还不对』的循环，现在有时只用原来 1% 的时间。更有意思的是，它让不会做设计的人——产品经理、工程师、增长经理——也能做设计了。」</p>
+<p style="margin:0.8em 0">另一个是 <strong style="font-weight:600">OutSpooner</strong>：一个常驻 Slack、拥有与员工完全同级权限的 agent。Ferrari 目睹了最精彩的一次用法：一位负责 Evernote 的同事直接在频道里 @ 它——「我发现了这个 bug，你去客服系统查一下这是普遍问题还是个例，去代码库查根本原因，给出修复方案，然后提醒技术主管 Marco 审查、没问题就发布。」「作为 Evernote 的总经理，他大概只花了三分钟就定位并修复了一个 bug——这种事过去靠人和人协调，可能要好几周。」</p>
+<p style="margin:0.8em 0">「Evernote 现在营收两亿美元上下、盈利、营业利润率你也能想象」，主持人总结，「而你们用 20 个人做到」。「对」，Ferrari 说，「外加底层平台难以量化但源源不断的支持。」</p>
+<p style="margin:0.8em 0">他特别强调，这不是「把人压到越少越好」：「如果人手多能创造更多价值，我们当然多招——有时我们还招不够快。但我们经常发现，这些业务被带回初创状态之后，事情反而重新加速了——几百人的官僚化组织很难保持创业心态，精简到小团队、人才密度大幅提高、甩掉繁文缛节，产品研发和变现优化重新提速。看看功能改进的时间线：收购前后对比，几乎按任何标准衡量，速度都至少快了三倍。」「Instagram 大概十个人做出来，WhatsApp 被收购时也就十几个人——有大量证据表明，极有能力、绝对坦荡、真正把事情放在心上的小团队，比庞大组织产出更高。大组织里的人不是不在乎——是要把事情办成，要踩的雷、要跨过的坎太多了。」</p>
+<p style="margin:0.8em 0">回到那个大教堂的比喻：Bending Spoons 做的事情，本质上是从全世界买下「没有造完的教堂」，把它拆解、减重、重建，然后交给一小群相信它能成为大教堂的人继续造。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">**「20 个人运营 9000 万美元业务」背后的三件事：**共享技术平台的摊销、人才获取的套利（80 万份申请里挑 300 人）、以及「业务不是我们的全部」带来的风险承担能力。</li>
+<li style="margin:0.3em 0">**收购即安装：**50+ 自研工具构成一套运营 OS，收购一家公司等于把它装上这台 OS；每一笔收购又反向增强 OS。</li>
+<li style="margin:0.3em 0">**「绝对坦荡」是第一条用人标准：**过了智力门槛之后，几乎全看你有多渴望。「你全力以赴还在我们这里做不出成绩的概率，不到 1%。」</li>
+<li style="margin:0.3em 0">**组织设计反直觉但自洽：**招聘/解雇集中化、管理者无奖金、没有职级头衔、员工持续轮换——都为「避免错误激励」和「保持人才密度」服务。</li>
+<li style="margin:0.3em 0">**减法要用「举证责任」倒置来执行：**加复杂度的人负责举证；能砍就全砍——「简化最大的收益来自彻底砍掉，而不是小修小补。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">高报价的底气来自运营能力：</strong>「如果我们能把业务运营得比几乎任何人好，我们就应该出最高价。」不榨干交易最后一分钱，但几乎从不输给任何出价。</li>
+<li style="margin:0.3em 0">**AI 的第一价值是「回到初创状态」：**Diagram 把设计迭代压缩 99%，OutSpooner 让一个总经理 3 分钟修完过去要协调数周的 bug。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[跨国串门儿计划] 只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</title><link>https://xlicz.github.io/podcast-rss/articles/只跟一个-Agent-说话-Kun-Chen-和他的-船员舰队-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8090659bad31</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</description></item><item><title>[跨国串门儿计划] 十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</title><link>https://xlicz.github.io/podcast-rss/articles/十倍杠杆在漏斗顶部-Sam-Blond-的-AI-原生销售手册-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6050f6df71d6</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</description></item><item><title>[跨国串门儿计划] Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</title><link>https://xlicz.github.io/podcast-rss/articles/Cerebras-CEO-CUDA-不是护城河--从-GPU-切过来只需八个键-2026-07-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_fa2454b78dcb</guid><pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate><description>Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</description></item><item><title>[跨国串门儿计划] 黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</title><link>https://xlicz.github.io/podcast-rss/articles/黄仁勋-AI-不会消灭工作--放射科医生反而多了-20-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_0fef8cbc056b</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</description></item><item><title>[跨国串门儿计划] 被 AI 拷问 35 个问题之后：软件基本功反而更重要了</title><link>https://xlicz.github.io/podcast-rss/articles/被-AI-拷问-35-个问题之后-软件基本功反而更重要了-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4e63c077ace8</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>被 AI 拷问 35 个问题之后：软件基本功反而更重要了</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被 AI 拷问 35 个问题之后：软件基本功反而更重要了</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Matt Pocock 的 skill 仓库拿了全球第二多的 star。他发现，驯服 Agent 的秘密，藏在二十多年前的软件工程书里——"曳光弹"、"垂直切片"、"通用语言"，这些老词正在变成发给 AI 的指令。</strong></p>
