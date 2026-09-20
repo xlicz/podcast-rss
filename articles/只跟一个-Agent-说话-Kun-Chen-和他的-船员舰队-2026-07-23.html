@@ -1,0 +1,64 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">前 Meta / Atlassian 工程师把二三十个并行 Agent 变成了一支可指挥的舰队：First Mate、No Mistakes、herdr——以及一条核心原则：你越是逐行审查 AI 写的代码，你越会成为系统里最粗的那个瓶颈。</strong></p>
+<p style="margin:0.8em 0">Kun Chen 的日常工作画面是这样的：一台 Mac Mini 跑着他所有的项目；面前是一个无边框的终端窗口，里面只有一条会话——他的「大副」（First Mate）。他对着它说话，几乎全是语音输入，想法一个个倒进去，然后忘掉它们。过一会儿他问：「苹果审核通过我们这个 App 了吗？」再过一会儿：「Tree House 有几个 PR 要审，去看一下。」</p>
+<p style="margin:0.8em 0">大副不会亲自去做这些事——它把任务派给船上的某个「船员」（crew mate），自己留在原地继续听他说话。「我最享受的，就是始终处于一种大脑清空的状态」，他说，「我有了想法，就直接导给 First Mate，让他去处理剩下的一切。」</p>
+<p style="margin:0.8em 0">大约三个月前，Kun Chen 还在大厂里做编程 Agent 的开发（Meta、微软、Atlassian 一路做到很高的职级）。如今他单干，本来只想做几个面向消费者的 App——结果「一不小心成了开源项目的维护者」。这场访谈里，他把整套工作流拆开给你看：为什么不逐行审查 AI 代码反而是负责任的做法、如何用「63%」这样的数字管理代码质量、为什么他需要一个月 500 美元的模型订阅，以及一个更大的判断——<strong style="font-weight:600">给人用的软件界面会消失。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">舰队：一个大脑指挥的二十个画板</h2>
+<p style="margin:0.8em 0">这套工作流不是设计出来的，是被逼出来的。</p>
+<p style="margin:0.8em 0">在大厂里，Kun 每天的工作是「告诉别人该做什么」；单干之后，所有瓶颈都落到了他自己身上：怎么验证 AI 生成的代码？怎么跟 AI 做规划而不是盯着终端里一长串文本？同时开二三十个画板怎么不疯掉？</p>
+<p style="margin:0.8em 0">他的解法是收敛到一个界面：不再逐个管理终端里的会话，而是只跟一个「主 Agent」对话，让它去管理其他所有 Agent。这就是 First Mate（大副）——一个开源的 Agent 调度器，本质上是一个 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">agents.md</code> 文件加上一堆 bash 脚本：确定性的步骤被固化进脚本，省掉重复烧掉的 token；不确定的调度、拆解、汇报交给自己。它还有一个有意思的性质：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">agents.md</code> 和脚本都在工作目录里，所以大副可以自己修改自己。出 bug 的时候，它会绕过这个 bug 继续干活——「这跟传统软件非常不一样。传统软件有 bug 会崩溃；但智能软件几乎总是灵活，你很难写出一个能阻止它工作的 bug，顶多让它效率变低。」</p>
+<p style="margin:0.8em 0">我试着让它替我管理所有项目，因为我有二十到三十个公开的 GitHub 仓库，人们会提 issue 和 PR——手动处理会疯掉。」</p>
+<p style="margin:0.8em 0">信任是一层层加出来的。「我一开始把它当原型玩，慢慢让他做越来越多的事，同时观察他做得怎么样。最早问题还挺多：任务分给不合适的组员、好几个组员做同一件事互相冲突……我不断调，最后调到了一个很舒服的状态，再也看不到错误或者不合理的分配。」现在他很少钻进子 Agent 里看细节了——「有点像在真实团队里工作：有时候经理会绕过技术主管直接找下属，因为那样效率更高。如果我想，我可以在 herdr 里调出一个视图，跳到任何一个画板里。」</p>
+<p style="margin:0.8em 0">为了让大副始终「留在原地」，它派活有讲究：比如查 App Store 审核状态这种小事，如果大副亲自去查，它就被占住了、没法继续对话——所以它把任务转给船员，自己保持空闲。这是整个设计里最像管理学的部分：<strong style="font-weight:600">主 Agent 的注意力也是稀缺资源，要像保护老板的时间一样保护它。</strong></p>
+<p style="margin:0.8em 0">另一条被反复调教的是「什么时候回来找我」。「有时候我们会看到 Agent 直接放飞自我，在你没盯着的时候干了一大堆事，到最后你才发现他做错了。这是真正需要微调的地方——而且每个人对这个平衡点的偏好不一样，所以这件事得跟你自己的 Agent 谈透。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">你越逐行审查，你越成为瓶颈</h2>
+<p style="margin:0.8em 0">「如果我去逐行审查 AI 生成的代码，我每天能完成的工作量就有上限了——基本取决于我每天能审查多少代码还不会累垮。」</p>
+<p style="margin:0.8em 0">AI 写代码太快了：一晚上产出几十个改动，逐行审查这个动作本身就把系统吞吐量拉回到一个人的极限。Kun 的解法是把「审查」做成一条自动化流水线——No Mistakes。</p>
+<p style="margin:0.8em 0">流程是这样的：在项目目录里敲一行命令，它就把所有未提交的改动打包成一个分支，交给一条隔离的流水线：<strong style="font-weight:600">第一步先理解意图</strong>——从「产生这次改动的 Agent 会话」里读懂你到底想要什么（「那才是应该被遵守的真正需求，是我说过我想要的东西」）；然后变基到最新主分支；接着用另一个模型做对抗性审查，明显的 bug 自动修，涉及产品影响的升级给他本人拍板；再跑测试、产出「看得见的证据」；检查文档是否过时；最后推 PR、盯着 CI 直到变绿。整套流程走完，他的动作只剩下一个：「我通常启动之后就不再看这个界面了，走开去做别的事。现在我甚至都不自己启动它——我让 First Mate 去。」</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">「这就是我的 63%：过去三个月，1000 个改动，跨 59 个仓库，其中 63% 都被抓到了错误。」</p>
+</blockquote>
+<p style="margin:0.8em 0">这是他做得最狠的一件事：给流水线本身建统计。哪个步骤抓的问题最多、哪个模型在什么环节最管用，全都有数据。他特别点出一个发现：「从 GPT-5.5 开始，GPT 模型在抓边缘情况上变得特别强——非常细致，特别擅长识别那些在罕见场景下可能发生、但确实会发生的问题。」另一个抓问题的大头是文档：agent 改了代码但没更新过时的 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">CLAUDE.md</code> 之类文件，全被这一步拦下来。</p>
+<p style="margin:0.8em 0">当然，质量是有成本的——「追求质量必然有成本」，他承认这套系统在大代码库上跑会烧掉可观的额度。所以他的原则是分级：周末演示用的 demo 不跑这套流水线；「会影响很多用户、甚至客户会因为体验被搞坏而停止付费」的生产软件才跑。而且不是每个改动都送进去，「有时候只是一个很简单的修复，我自己判断一下，直接合就行」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">配额、路由器与「500 美元档」</h2>
+<p style="margin:0.8em 0">聊到钱的部分，这段对话可能是全片对模型厂商最直白的一段用户反馈。</p>
+<p style="margin:0.8em 0">Kun 的工作流里跑着好几家模型：Anthropic 的模型走 Claude Code（「因为他们把其他都禁了」），GPT-5.6 走 Pi——libGDX 作者 Mario Zechner 那个「极简内核 + 无限扩展」的开源 harness（「几乎可以改变它的每一个方面，任何我想要的东西都能写个插件实现」）；Codex CLI 作为 harness 他不喜欢（「缺少很多让 CLI 体验真正顺滑的功能」）；Grok 4.5 让他意外：「就像是开了快速模式的 Opus，基本能干 Opus 能干的事，速度超快」——而且 Grok Build 还附赠 X API 读取权限，「我可以让它帮我搜推文、梳理新闻」；OpenCode 也很顺滑，但他越来越偏向 Pi，只因为可定制性。桌面上还有他自建的一个「路由器」：哪些任务用哪个模型、给多高的推理强度，全部写在规则文件里。比如高复杂度的技术设计曾经默认派给 Fable（「我喜欢它的深度和创造力」），默认现在则用 GPT-5.6。</p>
+<p style="margin:0.8em 0">然后是对订阅制的吐槽，精准到数字：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">「200 美元这一档根本不够用」</strong>——他追踪自己每个订阅的额度消耗百分比，让消耗速度跟重置周期匹配。「对我来说真要按 API 价格算，过去一个月干的活费用肯定超过一万美元，根本撑不住。所以我建议模型公司认真考虑推出 500 美元档——我知道这话有人不爱听，但我们需要。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">他想要「反向的快速模式」</strong>：「快速模式是多花钱换低延迟；我想要的是更慢但更便宜。很多后台任务我根本不关心它多快完成，我关心的是总量——额度才是瓶颈。理想的是一整个光谱，让我们自己取舍：赶会议用快速模式，派一个跑一晚上的任务用最慢的模式，我不在乎它每秒吐五个 token，只希望它把活干完。」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">一个反直觉的观察：不够聪明的模型开高推理档会浪费算力。</strong>「当模型本身不够聪明的时候，你让它做 Max reasoning，它会非常努力地思考，但还是不够聪明去解决问题，所以只会浪费大量时间和 token。」他给的理由很朴素：日常任务他用「可变推理档的 Sonnet」当主力——「我能把推理档调低，为什么要用更弱的模型？」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">为什么不本地跑开源模型</strong>：他的 Mac Mini 是「个人算力中心」，手机、所有任务都连着它，本地模型会跟他做的所有事抢资源；而云端省下的那点成本，不足够让他从现有模型切换过去。</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从造工具到用工具</h2>
+<p style="margin:0.8em 0">一个绕不过去的问题：很多人的 agent 配置越来越复杂，但「从来不发任何东西」。你怎么让自己保持理性？</p>
+<p style="margin:0.8em 0">Kun 承认自己「几个月前也在这个问题上挣扎」：「当我做东西遇到阻力时，就想做个工具来消除这个阻力，但做工具本身又占用我的时间，工具出问题我又得修。有那么一两周，我发现自己基本全在搞工具，没在做真正要做的东西。」</p>
+<p style="margin:0.8em 0">改变他的是 First Mate 的成熟：「那些琐碎的事——修个 bug、改进某个小问题——我根本不用花什么时间，跟 First Mate 说一声，它就去修好。真正占用我时间的，会自然转向那些更有趣、更模糊的决策，那些往往是新产品开发。这是一个无心插柳但自然出现的结果。」</p>
+<p style="margin:0.8em 0">他还有一句对「AI 军备竞赛」心态的批评：很多东西不是从第一性原理里长出来的，「不是因为他们需要完成工作，就只是觉得让两百个 agent 并行跑很酷」。他自己的每一个工具背后，都是一个具体的、真实的问题。</p>
+<p style="margin:0.8em 0">「我很喜欢你这个配置的一点，就是很多东西是从真实问题里长出来的。」主持人说。</p>
+<p style="margin:0.8em 0">「对，一开始我其实根本不想做这些工具。」Kun 说，他本来的计划就是做几个 C 端应用，比如给小孩的 AI 家教。Flow 是：单干 → 遇到瓶颈 → 被迫造工具 → 工具开源 → 社区来提 issue 和 PR → 「我现在得平衡时间了：多少花在开源维护上，多少花在我原本计划要做的应用上。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一场「大重建」：给人用的界面会消失</h2>
+<p style="margin:0.8em 0">访谈的最后一个大判断，值得单独划出来：<strong style="font-weight:600">过去二十年里那些为人设计的 SaaS，用户体验层基本上会被重建。</strong></p>
+<p style="margin:0.8em 0">「大部分 SaaS 本质上是一个给人用的界面，后面接一个数据库。而我觉得这个界面会基本消失——我们并不想自己去点遍所有网站，我们希望 agent 去跟这些服务打交道。而 agent 需要一套不同的接口。所以这些服务会迎来一次非常大的重建：变得更无头，或者把界面改成人与 AI 协作完成任务的地方。」</p>
+<p style="margin:0.8em 0">延伸下去：「新一代的 GitHub，不管谁最终胜出，都必须是一个 agent 可以操作的无头服务，而不是一个需要人去点击浏览的网站。」</p>
+<p style="margin:0.8em 0">为了让这个判断落地，他做了一堆很工程的事情：按「对 agent 友好的 CLI」十条原则给各种工具写封装（原则发布在 xc.md，第一条就是「用 token 效率高的输出格式」——「JSON 对 LLM 并不友好，Agent 需要的其实是语义」）。他跑基准测试对比接口改造成效：同样的任务，走 GitHub 的 MCP 服务器是<strong style="font-weight:600">最慢、最贵、最多轮交互</strong>的方案，「GitHub 的 MCP 服务器可能是市面上效率最低也最没必要的 MCP 服务器——GitHub 本身的 CLI 就好用得多，因为训练数据里已经有大量怎么用它最高效的例子」。而他把 Chrome DevTools 的接口封装成 agent 友好版本后，「功能完全一样，平均成本降低了超过 20%，延迟也改善了很多」。</p>
+<p style="margin:0.8em 0">还有一个他称为「未来很多软件的样子」的小例子：Baby Menu——他 Mac 菜单栏上的一个配额小部件。上面同时有 GitHub 统计、CPU 和内存占用、Claude 和 Codex 的剩余额度。「这些功能绝不可能同时出现在一个产品里，没人会做一个这样的东西卖给所有人——这是我自己的东西。而它是我通过跟它对话、让它自我修改做出来的。它一开始是空的，我告诉它我想要什么，它就慢慢变成现在这样。」</p>
+<p style="margin:0.8em 0">「每个人都会有 agent，所以每个人都应该能跟自己的 agent 对话，来定制他们使用的软件。还会出现很多自我修复的循环：软件有报 bug 的途径，自动拉起一个 agent 实现修复、提交 PR、另一个工具审查它——这个 bug 可能二十分钟内就修好了，完全不需要人参与。」</p>
+<p style="margin:0.8em 0">至于「为什么还有那么多人没意识到这点」，他的回答带着一种历史感：蒸汽机、电力、互联网，每一次都先是「纯粹喜欢捣鼓的人」先行，他们摸索出真正管用的东西，再把它分享给别人；「指望一夜之间所有人都意识到同一件事，这不现实。每个人处境不同，约束条件不同，什么时候跨过那个拐点才最合适，也各不相同。」</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语</h2>
+<p style="margin:0.8em 0">访谈快结束时，主持人问他一天跑多少 token。他说：「我倒没算过 token 数，我主要看我用掉了额度的百分之多少。」</p>
+<p style="margin:0.8em 0">这个细节可能比任何宏大判断都更能说明 Kun Chen 的工作方式：**他对 AI 的态度不是兴奋，是过日子。**额度要像预算一样管理，审查要像流水线一样设计，信任要一层层建立，工具要等真实问题出现才动手。整个系统的目标只有一个——把他自己从循环里移出来，只留下那些真正需要人的判断。</p>
+<p style="margin:0.8em 0">「我始终处于一种大脑清空的状态。」他说这话时的语境，是一支由一个人指挥的舰队，在他家的 Mac Mini 上安静地运转。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">**主 Agent 的注意力是稀缺资源：**让「大副」保持空闲、把琐事派给船员，是一个人管二三十个并行 Agent 的关键设计。</li>
+<li style="margin:0.3em 0">**不要逐行审查 AI 代码：**把审查做成流水线（先理解意图 → 对抗性审查 → 测试证据 → CI），人的时间只花在「模糊的决策」上。</li>
+<li style="margin:0.3em 0">**给流程建统计：**他的 No Mistakes 三个月处理 1000 个改动、覆盖 59 个仓库，63% 被抓到错误——每个步骤的抓虫效率都有数据。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">软件真的在变「智能」：</strong><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">agents.md</code> + bash 脚本构成的大副可以自己改自己、绕过自己的 bug——「你很难写出一个阻止它工作的 bug」。</li>
+<li style="margin:0.3em 0">**订阅经济学的用户侧真相：**重度用户需要 500 美元档订阅，需要「更慢更便宜」的模式；不够聪明的模型配高推理档纯属浪费算力。</li>
+<li style="margin:0.3em 0">**SaaS 大重建：**给人用的界面会消失，服务会变得无头化；新一代基础设施（哪怕「下一个 GitHub」）必须是 agent 可操作、agent 可优化的。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工具应该从真实问题里长出来：</strong>「为了做而做」的复杂配置不可持续；先有阻力，再有工具，最后才是分享。</li>
+</ul>
+
+</div>
