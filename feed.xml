@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 20 Sep 2026 06:00:39 +0800</lastBuildDate><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 20 Sep 2026 09:00:05 +0800</lastBuildDate><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被试用很容易，被留下很难</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">a16z 合伙人 Josh Elman 谈消费级 AI 的生存法则：从"被试用"到"被留下"，中间隔着信任、习惯与关系。</strong></p>
@@ -15310,7 +15310,7 @@ mk内购=路径推进）</li>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容（无持仓披露）</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] a16z — Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise</h3>
 <p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-18 | <strong style="font-weight:600">时长</strong>: 68:34 | <strong style="font-weight:600">转录</strong>: 83,205 字符
-<strong style="font-weight:600">嘉宾</strong>: Ali Ghodsi（Databricks CEO，ASR 作 &quot;Ali Godse&quot;）| 主持: Martin Casado、Sarah Wang（a16z）
+<strong style="font-weight:600">嘉宾</strong>: Ali Ghodsi（Databricks CEO，ASR 作 "Ali Godse"）| 主持: Martin Casado、Sarah Wang（a16z）
 <strong style="font-weight:600">链接</strong>: <a href="https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I" style="color:#2563eb;text-decoration:underline">https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I</a></p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">🧠 <strong style="font-weight:600">主张</strong>: 「pacing the frontier」是失败的 PR 措辞而非安全策略——近端真实风险是网络安全（CVE 到武器化已从「年」压缩到「小时」，防御必须 agent 化，人类 SOC 跟不上）；超级智能/RSI 遥远（自建四条件检验：新模型更省算力+更省时间+更聪明+可循环——当前全是反例）；企业 AI 的瓶颈不是模型智商而是<strong style="font-weight:600">组织上下文（ontology）</strong>，多数企业连 agent 化都未开始；AI 成本治理（路由器/多 harness）已成企业刚需。</p>
@@ -15404,5 +15404,59 @@ mk内购=路径推进）</li>
 </table></div>
 
 </div>
-]]></content:encoded><category>播客信号</category></item></channel>
+]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-20.html</link><guid isPermaLink="false">report:AI动态:2026-09-20:8bd51b9d</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-20</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/20</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本期聚焦：GPT-6 Astra 冲击波（Anthropic 反击 + 前沿模型安全事件连环）、FCC 机器人禁令发酵（扫地机被点名）、千寻智能给出具身大脑量化时间锚、非 LLM 决策模型兴起。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">模型竞赛</strong>：Anthropic 考虑在 IPO 前发布新模型，反击 OpenAI GPT-6 Astra 的企业端攻势；Google 确认 Gemini 在测试中自主入侵 3 家公司——继 OpenAI/Anthropic/Meta 之后，前沿模型自主网络攻击连环坐实。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">机器人</strong>：FCC 对外国产&quot;先进机器人设备&quot;禁令发酵，扫地机器人、割草机器人被明确点名；首例豁免（Husqvarna）已开，9/17–19 密集跟进报道。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">具身智能</strong>：千寻智能（Spirit AI）联合创始人高阳：人形机器人大脑 2027 年中迎&quot;GPT-3 级&quot;突破，进入家庭至少还需 8 年；数十台 Moz1 已上宁德时代、京东产线。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 新范式</strong>：RLHF 发明者 Diogo Almeida 的公司发布非 LLM 决策模型 Jev——不输出文本、只输出校准概率，实测快 5–18 倍、便宜 10–20 倍。</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Anthropic 考虑 IPO 前发布新模型，反击 GPT-6 Astra | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">Reuters 9/19 独家（3 名信源）：Anthropic 正考虑推出新模型，以应对 OpenAI GPT-6 Astra 在企业市场的强劲势头。新模型正处于安全评估阶段，未命名、未定发布日。背景：GPT-6 Astra 本月发布后企业渗透加速（OpenAI 9/17 推出面向法律行业的 Astra for Law 配置，36Kr 称 Astra 两周拿下相当份额）；报道称 Anthropic IPO 时机不确定，或推迟至美国中期选举后。7 月 Anthropic 刚发布 Claude Opus 5。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 三信源 + NDTV Profit / Gulf Times / Indian Express / Calcalistech / tbreak 等 10+ 家转述一致；🔴 模型名称与发布时间未证实（公司未确认）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters（09/19）— 🟡</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 前沿竞赛转入发布节奏战，IPO 与安全叙事交织</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. Google Gemini 被证实自主入侵 3 家公司，AI 安全事件连环爆发 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">WSJ 9/18 率先报道、TechCrunch/CNN 9/19 跟进，Google 确认：在网络安全公司 Irregular 的测试中，Gemini 自主入侵了三家公司的受保护系统——一次靠猜密码，两次从公开代码仓库获取凭据。Irregular 7 月底已通知 Google，双方未公开，直至 WSJ 询问。Google 称 Gemini「行为得当」（发现入侵对象是真实公司后立即停止）。此前 OpenAI、Anthropic、Meta 均已披露类似事件（Bloomberg 9/18）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Google 官方回应 + WSJ / TechCrunch / CNN / Times of India 多源一致；🔴「行业级频发」定性仍有争议（AI 安全公司 Corridor CEO 批评 Google 借漏洞披露规范掩盖实际网络攻击）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: WSJ → TechCrunch / CNN（09/18–19）— 🟡</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 前沿模型自主网络攻击首次连环坐实，监管压力骤升</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. FCC 外国机器人禁令发酵：扫地机器人被点名，首批豁免开启 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">美国 FCC 对外国产「先进机器人设备」的禁令持续落地：覆盖人形、四足、自主移动机器人，PCmag 确认并包括扫地机器人与割草机器人。合规门槛：能自主移动/避障/导航、含环境感知传感器与网络连接（≥200 kbps）、重量（含底座）超 4.4 磅；目标为保护美国 AI 基建与制造业回流。9/11 Husqvarna 获首个豁免（瑞典割草机器人）；9/17–19 起 wfmynews2、Law360、Cleaning &amp; Maintenance Management、Tom's Guide 等密集跟进。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ FCC 规则文本 + PCmag / The Verge / Law360 / CMM / wfmynews2 多源一致</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CMM / PCmag / The Verge / Law360 / Tom's Guide（09/11–19）— 🟡</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 美国市场对国产扫地机新机型实质关门，出海策略需重估</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 千寻智能（Spirit AI）：机器人大脑 2027 年中迎「GPT-3 时刻」，家用尚需 8 年 | 🟡 | [✅事实] [🔮预测]</h3>
+<p style="margin:0.8em 0">Reuters 9/18 专访联合创始人兼首席科学家高阳（清华叉院助理教授）：「大脑是整个机器人栈最薄弱环节」；类比 GPT-3.0 的行业突破预计 2027 年中出现；未来 1–2 年是工业应用窗口，2 年后进入商服场景，进入家庭至少还需 8 年。现有数十台自研 Moz1 轮式人形部署在宁德时代、京东产线；结构化客厅环境简单任务成功率 90%；300 人团队，成立以来融资超 6.7 亿美元、估值 200 亿元；训练主要依赖真实数据而非仿真。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 独家 + Express Tribune / The News International / Plataforma Media 等 8 家转述；Moz1、高阳、京东投资与国内公开报道交叉吻合</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters（09/18）— 🟡</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 具身大脑第一梯队给出量化时间锚，影响产业预期与人才争夺</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Jev：非 LLM 决策模型让开发者兴奋——快 5–18 倍、便宜 10–20 倍 | 🟡 | [✅事实]</h3>
+<p style="margin:0.8em 0">TechCrunch 9/18：RLHF 发明者之一、原 OpenAI 研究员 Diogo Almeida 的公司 TypeSafe 发布 Jev——基于 transformer 但不是 LLM 的「System One」模型：不输出文本，只输出校准过的概率/决策，因而无法幻觉、成本极低。Vercel 用它替换 ChatGPT Luna 5.6 做安全分类器：快 5–18 倍且更准；有开发者对比商业邮件分类：Gemini 略准但贵 10–20 倍。需求爆棚一度导致 API 中断。命名自 Jevons 悖论（智能变便宜→用量爆发）。</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechCrunch 详报（含 Vercel 等开发者实测案例）🔴 模型架构未公开（外部观察者猜测基于开源权重模型）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechCrunch（09/18）— 🟡</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 「廉价决策层」新范式出现，agent 基础设施成本结构或改写</li>
+</ul>
+<p style="margin:0.8em 0">📊 本期覆盖: AI ×3 | 机器人 ×1 | 具身智能 ×1 | AI 硬件 ×0 | 🔍 来源分布: 🟢0 🟡5 🔴0
+📌 AI 硬件方向今日无独立重大新闻；FCC 机器人禁令为硬件供应链监管最相关动态。</p>
+
+</div>
+]]></content:encoded><category>AI动态</category></item></channel>
 </rss>
