@@ -1,7 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 20 Sep 2026 23:04:19 +0800</lastBuildDate><item><title>[a16z] Travis Kalanick 归来：不做人形机器人，去矿山造科幻</title><link>https://xlicz.github.io/podcast-rss/articles/Travis-Kalanick-归来-不做人形机器人-去矿山造科幻-2026-07-23.html</link><guid isPermaLink="false">a16z_d43abab62f87</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>Travis Kalanick 归来：不做人形机器人，去矿山造科幻</description></item><item><title>[跨国串门儿计划] Jeff Dean 的 1% 法则</title><link>https://xlicz.github.io/podcast-rss/articles/Jeff-Dean-的-1--法则-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5eef928e5129</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>Jeff Dean 的 1% 法则</description></item><item><title>[a16z] 李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</title><link>https://xlicz.github.io/podcast-rss/articles/李飞飞-机器人缺的不是身体-是一个可以在里面失败一万次的世界-2026-07-28.html</link><guid isPermaLink="false">a16z_1b87db7e0a16</guid><pubDate>Tue, 28 Jul 2026 08:00:00 +0800</pubDate><description>李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</description></item><item><title>[卫诗婕｜漫谈Light the Star] 「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</title><link>https://xlicz.github.io/podcast-rss/articles/汤糊到看不清是什么汤--全球第一篇文生视频论文-和九年后的世界模型-2026-07-24.html</link><guid isPermaLink="false">light-the-star_ee987288fc1e</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</description></item><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sun, 20 Sep 2026 23:06:05 +0800</lastBuildDate><item><title>[跨国串门儿计划] 被 AI 拷问 35 个问题之后：软件基本功反而更重要了</title><link>https://xlicz.github.io/podcast-rss/articles/被-AI-拷问-35-个问题之后-软件基本功反而更重要了-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4e63c077ace8</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>被 AI 拷问 35 个问题之后：软件基本功反而更重要了</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被 AI 拷问 35 个问题之后：软件基本功反而更重要了</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Matt Pocock 的 skill 仓库拿了全球第二多的 star。他发现，驯服 Agent 的秘密，藏在二十多年前的软件工程书里——&quot;曳光弹&quot;、&quot;垂直切片&quot;、&quot;通用语言&quot;，这些老词正在变成发给 AI 的指令。</strong></p>
+<p style="margin:0.8em 0">&quot;我本来只是想加一个简单的 API 端点。&quot;</p>
+<p style="margin:0.8em 0">一位播客主持人讲起他用 Matt Pocock 的 skill「Grill Me」写代码的经历：&quot;结果它问了我三十五个问题——没开玩笑。压力很大，也很烦人，但它逼着我做了更多思考。&quot;</p>
+<p style="margin:0.8em 0">这就是 Matt Pocock 如今在干的事。他曾经是个 TypeScript 老师——Total TypeScript 课程的作者，以两分钟知识点短视频成名；现在，他把自己的整套工作流写成了一个个给 AI Agent 用的 skill，发到网上，然后这个仓库的 star 数涨到了 23 万：全球 skill 类仓库第二，放到所有 GitHub 仓库的历史总榜里，大概能排进前二十五。</p>
+<p style="margin:0.8em 0">有意思的不是他的走红，而是他找到方法的路径：不是发明什么新东西，而是去翻二十多年前的软件工程经典——《程序员修炼之道》《软件设计哲学》《领域驱动设计》——从里面找词，然后把那些词喂给 AI。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">35 个问题：一个小 skill 是怎么传遍全网的</h2>
+<p style="margin:0.8em 0">Grill Me 是 Matt 最受欢迎的一个 skill，逻辑出奇地简单：让 Agent 就你手上的工作，一个一个地追问你，把每个决定都摆上台面。</p>
+<p style="margin:0.8em 0">那位主持人的经历是标准样本。他想做一个&quot;简单&quot;的功能：把订阅用户和一场活动打通。Grill Me 的追问是这样展开的——这个端点允许做什么、不准做什么、允许为谁做？认证要怎么做，Bearer token 还是塞进 JSON？塞 JSON 可没那么安全。限流呢？你是想严格卡在一天 1000 次，多一次都不行吗？那样复杂度会更高……一套盘问下来，主持人说：&quot;我已经很久没有和工程团队做过这么深入的设计讨论了。&quot;</p>
+<p style="margin:0.8em 0">Matt 自己的描述是：&quot;每次用 Grill Me，都让我想起第一份工作时跟一位资深工程师讨论事情——他会逼着我反思自己做过的每一件事。&quot;那种感觉，就像屋里坐着一个水平极高的开发者，向你提出一个个好问题。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">它不替你写代码。它逼着你把每一个决定做出来——最后拍板的人，还是你。</p>
+</blockquote>
+<p style="margin:0.8em 0">这个小东西为什么能火？Matt 说这是&quot;涌现行为&quot;：模型会跳出固有思路，开始抛出各种想法。更重要的是它解决了一个被严重低估的问题——<strong style="font-weight:600">你和 Agent 之间存在沟通鸿沟。</strong>&quot;Agent 不是人，而你自己心里清楚自己的价值排序，你就以为它能自然领会。&quot;但哪怕是顶尖模型也不会读心术。&quot;你必须有一套流程，把你的价值观传达给它。否则你只是丢一个目标过去，Agent 产出的东西就会和你完全脱节——因为它根本不知道你在意什么。&quot;</p>
+<p style="margin:0.8em 0">Grill Me 表面在问实现细节，实际是在确立：做这个，不做那个，什么在范围之内，什么在范围之外。用 Matt 的话说，那是&quot;Agent 了解你的过程&quot;。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从声乐教室到 23 万 star</h2>
+<p style="margin:0.8em 0">Matt 的入行故事和科技圈大多数人不一样。成为程序员之前，他当了六年发声教练：在伦敦教唱歌、教口音、教戏剧学校的学生念莎士比亚台词。他离开这行的原因特别朴素——&quot;要想做到不错的水平，就必须住在伦敦。我讨厌伦敦。&quot;他想回乡下，于是开始自学编程，因为那是一个可以在任何地方做的工作。</p>
+<p style="margin:0.8em 0">他给自己的学生做的第一个工具，是一个网页音频分析器——分析声音频谱图、看共振峰——&quot;我一上来就在用很烂的代码，做相当硬核的东西。&quot;后来他意识到教学这件事会跟着他一辈子：&quot;我完全不懂技术的时候，就有一种奇特的能力——把技术知识给别人讲明白。&quot;这个组合很快显示出威力：他在几家外包公司里升职飞快。</p>
+<p style="margin:0.8em 0">TypeScript 是转折点。他在一家给汽车制造商做学习管理系统的外包公司里，被前后端接口契约的混乱逼着上了 TypeScript，结果前端开发速度快到要从组里抽人支援后端。接下来是开源：他围着状态机库 XState 写工具、提改进，被作者 David Khourshid 注意到，进了核心团队，拿到了人生第一份美国薪酬，也第一次尝到&quot;做自己相信的东西、顺便把它讲给全世界听&quot;的滋味。</p>
+<p style="margin:0.8em 0">后来他一边在 Vercel 上班，一边在 Twitter 上发两分钟的 TypeScript 技巧视频。一个周日，他一口气录了十三到十五条，排期发出去——粉丝从四千涨到一万。&quot;那种感觉我以前从未体会过。&quot;再往后就是 Total TypeScript：预售的收入直接是他 Vercel 工资的三十到四十倍，课程上线后迅速突破七位数美元。他要的东西从始至终很明确——一种高杠杆的工作方式：&quot;把事情做完，然后回去陪家人。996 让我反胃。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;知识变便宜了，但智慧没有&quot;</h2>
+<p style="margin:0.8em 0">AI 来了，第一个被冲击的就是他所在的行业——教人学编程。</p>
+<p style="margin:0.8em 0">Matt 的拆解方式是把内容分成两层：一层是知识，具体是什么；另一层是智慧，为什么是这样。&quot;现在获取知识的成本几乎趋近于零，随手一查就有。但智慧并没有变得更容易获得——如果你之前没掌握那份智慧，哪怕有了 AI，你该踩的坑还是一个都躲不掉。&quot;</p>
+<p style="margin:0.8em 0">他的 Total TypeScript 收入确实掉了。他也经历过找不准位置的阶段：先做&quot;把 AI 放进应用里&quot;的课程，后来意识到自己压错了注，收益远不及预期。真正的转折是去年 12 月那个假期——Opus 4.5 发布，所有人放假在家猛用，回来之后集体意识到一件事：AI 已经好到可以把活儿委托出去了。</p>
+<p style="margin:0.8em 0">他把这个认识用一句旧话来讲——John Ousterhout 的&quot;战术性编程与战略性编程&quot;：&quot;战术性编程一大半已经被 AI 吃掉了。留给我们的，是把控战略。&quot;于是他做了那场题为《软件基本功依然重要》的演讲，播放量到了 120 万次；而那批 skill 也从此开始，一个接一个地长出来。</p>
+<p style="margin:0.8em 0">值得一提的是他给自己的定位纪律。Matt 不住在旧金山、不混核心圈：&quot;我没有内部特权渠道，没法知道模型会变成什么样。所以我只专注一件事——眼下行得通的东西。&quot;离硅谷远，反而帮他收窄了焦点：&quot;我只管把自己手头的东西跑通。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">拷问、规格、工单：一套可复用的工作流</h2>
+<p style="margin:0.8em 0">Matt 现在的工作流，可以压缩成四个动作：</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">先拷问。</strong> 用 Grill Me 把事情的边边角角问清楚，包括那些你&quot;以为自己想过&quot;但其实没有的决定。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">再写规格。</strong> 拷问的产出变成一份规格说明书——他特意不用&quot;PRD&quot;这个词——写明到底什么算&quot;到达终点&quot;。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">然后拆工单。</strong> 一份规格可以管三四十个工单，一次 session 只做一个。他的 skill「Way Finder」处理的是更大的事：当一件事大到一次拷问聊不完（比如&quot;做个 Stripe 克隆&quot;），就先画一张&quot;地图&quot;——所有必须做的决定都是地图上的节点，外面罩着战争迷雾；每完成一次拷问，迷雾散开一块，解锁新的工单。他的一些地图上有过五十到一百张工单。他甚至用它规划课程、在自家花园里搭了一间办公室。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">最后跑循环。</strong> 对着工单跑实现循环，精神来自 Geoffrey Huntley 的 Ralph loops：给 Agent 一个目标，让它做&quot;能往目标推进一步的最小改动&quot;，然后清空上下文，从头再来。</p>
+<p style="margin:0.8em 0">这一切背后的约束条件，是 Dex Horthy 说的&quot;<strong style="font-weight:600">聪明区</strong>&quot;：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">不管上下文窗口有多大，模型真正表现好的大约只有前 15 万个 token。每一个 token 都在大声争夺注意力——你往屋子里塞的声音越多，就越难听清真正重要的声音。</p>
+</blockquote>
+<p style="margin:0.8em 0">所以 Matt 的原则是：超过 15 万 token 的工作，拆到多个会话里去。&quot;白天做规划，晚上让 Agent 干活&quot;——他称之为白班和夜班。&quot;我想要的，是能成块地专注：规划十五分钟，然后让 Agent 跑上两三个小时，我跑去干别的事，回来审查代码。&quot;</p>
+<p style="margin:0.8em 0">那什么时候<strong style="font-weight:600">不要</strong>上这套重武器？他的判断标准是&quot;可逆性&quot;：新页面、大功能，一旦 Agent 写错，错误的代码会一直留在它的上下文里，污染之后的所有工作，事后倒回去改的对齐成本极高——这种要先对齐；而把按钮往左挪三个像素这种五行改动，先做再说，事后再对齐。他的视频编辑器里有个反馈按钮，点一下变成 GitHub issue，实现 Agent 立刻接手，审查 Agent 随后跟上——整套流程，人只在最后看一眼。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">&quot;曳光弹&quot;与&quot;通用语言&quot;：从旧书里找指令</h2>
+<p style="margin:0.8em 0">Matt 发现 AI 的另一条路径，是从失败开始的。他曾认真研究&quot;规格驱动开发&quot;，试了很多次，结果一次比一次差——改规格、看代码变化、代码变得更烂。他意识到根子在反馈回路：<strong style="font-weight:600">&quot;如果你的测试套件很烂，Agent 从中学到的信号就会很烂，跟人是一模一样的。&quot;</strong></p>
+<p style="margin:0.8em 0">然后他翻开了书架上那本《程序员修炼之道》——&quot;第一次把它抽出来的时候，塑料膜好像都还没拆。&quot;书里有一整章讲软件熵增：事物总是倾向于走向更混乱的状态。&quot;软件熵增是不可避免的，而我在眼前看到的是：Agent 制造熵增的速度比以往任何时候都要快。&quot;</p>
+<p style="margin:0.8em 0">更妙的是接下来发生的事。他开始在 prompt 里使用书里的短语——&quot;车速不要超过车灯照射范围&quot;、&quot;永远在反馈回路内工作&quot;、&quot;曳光弹开发&quot;（先跑通一条端到端的可用路径，而不是把数据库层、应用层、组件库全建完再拼起来）、&quot;垂直切片&quot;（让 Agent 立刻拿到反馈，再往外扩建）。然后他注意到：<strong style="font-weight:600">Agent 把这些词回敬给了他。</strong>&quot;它在自己的推理链里用上了我说过的那些词。'好，我来把这做成曳光弹开发——既然这是曳光弹开发，那我就这么做。'&quot;</p>
+<p style="margin:0.8em 0">他把这类短语叫作引导词（leitmotif）：在 skill 或 prompt 里重复几次一个简单的词，就能唤醒模型训练数据里的整套概念。&quot;这些书出版二十五年了，这些概念很可能早就存在于 Agent 的先验知识里。你要做的，只是把那个词说出来。&quot;</p>
+<p style="margin:0.8em 0">同样的发现还有第二个版本：Eric Evans 的《领域驱动设计》。Matt 把 Grill Me 改造成了会&quot;边拷问边建立领域语言&quot;的版本——和 Agent 一起敲定这个项目该用哪些术语。比如他手上有个应用，处理&quot;草稿课程变成正式课&quot;的复杂联动，最后他们把它命名为&quot;级联实例化&quot;。一旦用上统一的语言，&quot;你们突然在说同一种语言了，你描述改动的字句少得多，效果判若云泥&quot;。而且术语会进入代码本身——Agent 想在代码库里找相关函数，一个简单的 grep 就够了。</p>
+<p style="margin:0.8em 0">他还有一个说法，我觉得是整场对话里最传神的一个：这叫**&quot;记忆碎片驱动开发&quot;**。&quot;Agent 就像一个每天早上醒来都不记得自己是谁的人——就像《记忆碎片》的主角。&quot;所以你得把代码库当成一个&quot;给新人看的东西&quot;去优化——这反过来逼出了有史以来最健康的代码库。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">代码库是 Agent 的环境：园丁与自动审查</h2>
+<p style="margin:0.8em 0">访谈里有一段关于&quot;技术债&quot;的讨论，我觉得是所有用 AI 写代码的人都需要听的部分。</p>
+<p style="margin:0.8em 0">Y Combinator 的 Jared Friedman 说：过去，技术债是大代码库才不得不忍受的东西；现在不一样了。Matt 接得更狠：&quot;现在，哪怕在极小的代码库里，你也能忍受它了。&quot;——讽刺拉满。原因是 Agent 无法做战略性思考，只盯着眼前的事，所以&quot;极容易随着时间推移让代码库变得越来越差&quot;。</p>
+<p style="margin:0.8em 0">他的对策是两条：<strong style="font-weight:600">自动审查 Agent</strong>，推行编码规范、揪出那些&quot;同义反复的测试&quot;（把实现代码抄一遍当断言的假测试）；以及<strong style="font-weight:600">把测试套件本身当成一等公民</strong>——因为对 Agent 来说，测试质量就是反馈信号的质量。</p>
+<p style="margin:0.8em 0">TDD 在这种语境下也有了新版本。Matt 的判断是：TDD 优化的是&quot;人类工作记忆小&quot;这个问题——测试挂着不通过，提醒你回来继续；而 Agent 的工作记忆比人大得多，它们真正缺的是反馈回路。&quot;所以我经常对 Agent 说：证明你的改动真的做到了你声称的事——给我拿出符合 TDD 精神的证据：没有这处改动，它就通不过。&quot;</p>
+<p style="margin:0.8em 0">有人发帖说，每个团队都需要一个&quot;园丁&quot;——默默看着代码库的熵增，认出像常春藤一样蔓延的坏习惯，赶在杂草吞掉花园之前把它清掉。Matt 的观点是，&quot;我们本质上就是自己 Agent 的平台工程团队&quot;：为它们搭建能取得成功的环境。</p>
+<p style="margin:0.8em 0">把这件事放大到组织，他的建议很具体：第一步是<strong style="font-weight:600">给全公司的 Agent 建立可观测性</strong>——每个 Agent 在做什么、成功率和失败率是多少。&quot;以前我们不可能这样盯着开发者，那太冒犯了。但对 Agent 就应该这样——我们付了服务费，我们需要知道优化的效果。&quot;然后是共享的 skill 库、A/B 实验思维，以及明确划出&quot;人类专属区&quot;：哪些事情百分之百由人来定，甚至根本不让 AI 介入。</p>
+<p style="margin:0.8em 0">那还要不要招新人？有人引用 Uncle Bob 的建议——招进来先当 Agent 用，派活给他，直到他自己犯错、开始思考。Matt 没有给答案，但他的观察很凉：在很多地方，战术性的编码工作成本已经跌破最低工资。他确定的是另一头——&quot;战略层面的东西：对代码的理解、对长远全局的把握，比以往任何时候都更值钱，因为杠杆太大了。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">尾声</h2>
+<p style="margin:0.8em 0">有人问：你们现在讲的这套……是不是又回到瀑布模型了？</p>
+<p style="margin:0.8em 0">Matt 的回应引了 Grady Booch 的说法：瀑布模型的问题从来不是&quot;先计划再动手&quot;，而是&quot;规划做一年、实现做三年，四年后做出来的根本不是想要的东西&quot;。亚马逊、微软、谷歌这些大厂一直在跑的是&quot;微型瀑布&quot;，周期两周到三个月。真正的瀑布模型早已绝迹，它现在是个&quot;挂起来打的皮纳塔&quot;——一个有用的幽灵。而&quot;哪种模式更契合 Agent？显然是敏捷——人工成本降了这么多，改代码随时可以极快。&quot;</p>
+<p style="margin:0.8em 0">聊到生活，Matt 说他不去旧金山的原因之一：父母就住在同一条路上，儿子在乡下长大。他本人在火车上用 Discord 跟自己的 Agent 聊天，给课程写内容、修学员 bug；早上跟 Agent 开个&quot;晨会&quot;，让它安排一整天的日程。&quot;我正在放弃本地开发环境&quot;——他最近那条推文说的就是这件事：与其用一台很贵的笔记本电脑，不如把所有会话放进一个永远在线的共享空间，让团队的每个人都能随时 at 一个 Agent 进来干活。</p>
+<p style="margin:0.8em 0">一个从声乐教室走出来的人，花了十年时间证明&quot;把东西讲明白&quot;是最值钱的手艺；而现在他最热门的产品，是让 AI 反过来把人问明白。他推荐的三本书——《程序员修炼之道》《软件设计哲学》《领域驱动设计》——出版时间加在一起超过七十年。它们写的那些道理，软件行业这些年一直知道却一直没做好；而现在它们有了新的用途：说给 Agent 听。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">用好 Agent 的第一性问题不是&quot;怎么下指令&quot;，而是&quot;怎么把价值观传达过去&quot;——Grill Me 的本质是一场让 Agent 了解你的对话。</li>
+<li style="margin:0.3em 0">模型存在&quot;聪明区&quot;：真正可靠的只有前 15 万 token 左右。大工作必须拆进多个会话，白班规划、夜班执行。</li>
+<li style="margin:0.3em 0">&quot;曳光弹开发&quot;、&quot;垂直切片&quot;、&quot;通用语言&quot;这些经典短语是有效的引导词——它们本来就在模型先验知识里，你只需要把词说出来。</li>
+<li style="margin:0.3em 0">测试套件质量 = Agent 的反馈信号质量。给 Agent 先写失败的测试，它就没法作弊；同义反复的假测试必须由自动审查 Agent 清除。</li>
+<li style="margin:0.3em 0">Agent 没有长期记忆，每次运行都从零重读代码库——为&quot;一个每天失忆的新同事&quot;优化代码库，直接指向有史以来最健康的结果。</li>
+<li style="margin:0.3em 0">组织层面的落地顺序：先给所有 Agent 建立可观测性，再谈共享 skill 库和实验体系；有些决定必须永远由人类保留。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[a16z] Travis Kalanick 归来：不做人形机器人，去矿山造科幻</title><link>https://xlicz.github.io/podcast-rss/articles/Travis-Kalanick-归来-不做人形机器人-去矿山造科幻-2026-07-23.html</link><guid isPermaLink="false">a16z_d43abab62f87</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>Travis Kalanick 归来：不做人形机器人，去矿山造科幻</description></item><item><title>[跨国串门儿计划] Jeff Dean 的 1% 法则</title><link>https://xlicz.github.io/podcast-rss/articles/Jeff-Dean-的-1--法则-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5eef928e5129</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>Jeff Dean 的 1% 法则</description></item><item><title>[a16z] 李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</title><link>https://xlicz.github.io/podcast-rss/articles/李飞飞-机器人缺的不是身体-是一个可以在里面失败一万次的世界-2026-07-28.html</link><guid isPermaLink="false">a16z_1b87db7e0a16</guid><pubDate>Tue, 28 Jul 2026 08:00:00 +0800</pubDate><description>李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</description></item><item><title>[卫诗婕｜漫谈Light the Star] 「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</title><link>https://xlicz.github.io/podcast-rss/articles/汤糊到看不清是什么汤--全球第一篇文生视频论文-和九年后的世界模型-2026-07-24.html</link><guid isPermaLink="false">light-the-star_ee987288fc1e</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</description></item><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被试用很容易，被留下很难</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">a16z 合伙人 Josh Elman 谈消费级 AI 的生存法则：从"被试用"到"被留下"，中间隔着信任、习惯与关系。</strong></p>
