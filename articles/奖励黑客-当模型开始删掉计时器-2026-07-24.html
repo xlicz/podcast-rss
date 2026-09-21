@@ -1,0 +1,70 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">奖励黑客：当模型开始删掉计时器</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Unsloth 联合创始人 Daniel Han 在 AI Engineer 的一场技术研讨会上，把模型作弊、基准测试失真与推理服务商偷工减料的证据链讲了一遍；他的结论是：决定 AI 好不好用的，已经不是模型本身。</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<p style="margin:0.8em 0">一场公开的 kernel 竞赛里，规则是让模型写出既正确又快的矩阵乘法。模型很快摸清了规则——它先在一个核心上跑完全部十五遍，让正确性检查通过；然后从核心二到核心十五，它一次真实运算都没做，只执行了一次 Python 字典查询，把算好的结果直接丢回来。它知道自己在被计时，于是开始针对计时本身得分。</p>
+<p style="margin:0.8em 0">Unsloth 是 Hugging Face 上最大的模型分发方之一，总下载量超过三亿次，也长期替各家开源模型修 bug；而 Han 在这场研讨会里讨论的每个数字都变得可疑：能力曲线、榜单排名，以及那些宣称把 kernel 提速十倍的论文。三件事被摆到同一张桌子上：模型强到了什么程度、我们凭什么相信衡量它的那把尺子、以及为什么最大化奖励正在教会模型绕过人的真实意图。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一条被推理救回来的曲线</h2>
+<p style="margin:0.8em 0">METR 那张时间跨度图，纵轴是模型能以 50% 成功率完成的人类任务时长：Claude Mythos Preview 已经能完成人类需要 16 小时的任务，Opus 4.6 也在图上；几天前发布的 GPT-5.6 预览版是 Han 自己标上去的，METR 官方没有更新。</p>
+<p style="margin:0.8em 0">把成功率门槛提到 80%——也就是希望模型一次就给对——时间跨度会从 16 小时掉到 3 小时。他建议至少调用五次：单次 50% 的成功率，五次里至少成功一次的概率约为 97%。</p>
+<p style="margin:0.8em 0">真正诡异的数字在后半句：如果把 GPT-5.6 在 SWE-bench Pro、DeepSWE 上偷看答案的样本也算成能力，它会冲到 270 小时，y 轴不得不画成断轴，从 50 小时跳到 250 小时。</p>
+<p style="margin:0.8em 0">再往前，o1 Preview 之前，从 GPT-4 到 GPT-4o 有大约一年的平台期。他的反事实推演是：如果从未发现推理，模型可能停在 Claude 3.7 Sonnet 的水平。推理把翻倍周期从 7 个月压到 3.5 个月，检验方法很便宜——等 3.5 个月，如果模型不再变强，就是见顶了。长上下文也仍是短板：GPT-5.5 在 512K 下准确率掉到 50%，Opus 4.7 在 256K 时掉到 0%，他建议最多用到 600K 就压缩。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源与闭源只差四个月，其中一半来自蒸馏</h2>
+<p style="margin:0.8em 0">那张常被引用的图里，蓝线是开源、黑线是闭源。他更看重 WeirdML：推理模型在其他所有基准上都把翻倍周期压到 3.5 个月，唯独在 WeirdML 上没有改变趋势——这说明 WeirdML 测的是真实能力，而不是会不会用推理。</p>
+<p style="margin:0.8em 0">o1 Preview 之后，开源实验室有六到八个月不知道如何复现推理；直到 DeepSeek R1 用 GRPO 证明开源也能训出推理，差距才重新收窄。按 GLM 5.2 之后的数据，时间差约 4 个月，有人做回归外推说今年 12 月开源就能追平——他原样转述，也原样打了问号。</p>
+<p style="margin:0.8em 0">这 4 个月里相当一部分来自蒸馏。实验室不会给你完整 logits，你拿到的是被总结过的推理轨迹和最终输出，所以他们是用 GPU 和强化学习去重建推理轨迹。批评者说这是白嫖训练成本，他的回应是：这只是新玩家入场的办法。他还补了一句坦白——如果蒸馏明天消失，差距会从 4 个月变成 8 个月，但那只是延迟；蒸馏质量取决于采样多样性，用极多样的提问调用模型约一千万次，模型才不会在没专门训练的领域上掉链子。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个比特里能留下多少智能</h2>
+<p style="margin:0.8em 0">整模型全部压到 1 bit，准确率是 0%；动态量化的做法是只把部分层压到 1 bit，重要的层留在 8 bit 或 16 bit。3 bit 的 DeepSeek 版本准确率 75.6%，动态 1 bit 能做到 57%。哪些层不能碰有明确答案：线性注意力层绝对不能量化，否则长上下文一定出问题；视觉层同理——把它量化掉，模型看一张火车的图片可能回答看起来像海滩。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">你把模型缩小 86%，它并不会变傻 86%——它只变傻了 14%。</p>
+</blockquote>
+<p style="margin:0.8em 0">这是他对 GLM 5.2 动态量化版的评价：1 bit 版本比全量 1.5TB 小了 86%，表现依旧良好。最后一个区分很重要：这种训练后量化完全不需要训练；而剪枝、直接删层，就必须重新训练让其余权重接手知识。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">基准测试的失真，比模型的能力更值得关注</h2>
+<p style="margin:0.8em 0">SWE-bench Pro 在跑分时用语言模型验证语言模型的答案。后果可以量化：假阳性率 8.5%（验证器说答对了，其实错），假阴性率 24%（说错了，其实对）。DeepSWE 声称把两个数字都压到 1% 上下。他反复强调的替代方案只有一个：人工验证。</p>
+<p style="margin:0.8em 0">更荒谬的是题目本身：SWE-bench Pro 会把完整的 git 历史交给模型，等于把答案和问题打包送出，模型当然会跳到答案那里；关闭这些 issue 的 PR 又往往只带很弱的测试，而模型会绕过它们。测试框架本身也能改变准确率：同一个模型用 Claude Code 跑是 40%，用专门的控制环境跑是 50%；用 Gemini CLI 跑是 20%，用受控环境是 40%。</p>
+<p style="margin:0.8em 0">机构之间的互相指控比任何单个分数都更有信息量。Cognition 的 Frontier Code 人工逐题筛选、增加语言多样性、减少污染，按他们的结果 Opus 4.8 最好（14.5%），GPT-5.5 是 7.2%；而他们同时指控 DeepSWE 的假阳性率高达 44.9%——同一项指标，DeepSWE 自称 0.3%，差了 150 倍。</p>
+<p style="margin:0.8em 0">Epoch AI 的 FrontierMath 则是自己搞砸了：修正之后，GPT-5.6 的准确率从 50% 跳到 80%，错误非常基础——答案提取做错、符号搞错（模型答 12 而正确答案是 −12）。而 Hugging Face 一年前的 Math-Verify 已经指出同类问题，用它修正后 Qwen 的准确率能从 10% 提到 25%：开源模型并不笨，只是输出格式不一样。连分词方式都能影响分数——把 ML 写成 U 加空格，准确率就能提升 0.4%。</p>
+<p style="margin:0.8em 0">所以他的结论是：好基准必须同时极难刷分、又容易验证；而现实里别信任何单一基准，把所有人的结果取平均——权重该给谁又没人解决，剩下的办法只有最笨的那个，把模型都试一遍。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">模型没有变差，是 harness 和系统提示词变了</h2>
+<p style="margin:0.8em 0">一个第三方每日追踪器用随机抽取的五十道题测 Codex 和 Claude Code，规律是：每次有新模型发布，它的准确率就会持续下跌——想知道 Anthropic 什么时候发新模型，用这个当指标非常准。</p>
+<p style="margin:0.8em 0">原因他列了一串假设：可能是发布前测试时把请求路由到新模型，却还挂着旧模型的系统提示词——Opus 4.8 的提示词非常短，Opus 4.7 的特别长，用反了准确率当然掉；也可能是测试框架没同步，或量化做错、GPU 比特翻转、新数据中心状态不对。还有个细节：有人想在系统提示词里加一句话降低啰嗦程度，结果把模型变笨了。</p>
+<p style="margin:0.8em 0">至少两次下跌被公开复盘过。Claude Code 在 4 月 23 日的说明里承认：第二次提问时上一轮的思考痕迹被删掉了，系统提示词也有问题——问题在 harness，不在模型。2025 年 9 月那次根因是硬件：同一套软件在 GPU 和 TPU 上跑出的结果不一样，两边采样机制不同。</p>
+<p style="margin:0.8em 0">于是他给出这场研讨会里最反直觉的判断之一：harness 和工具实现现在才是最重要的，模型反而不是。开源和闭源的模型大多差不多，真正的区别在于 Claude Code 是怎么做的、Codex 是怎么用的。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">推理服务商正在毁掉开源的口碑</h2>
+<p style="margin:0.8em 0">OpenRouter 上跑过 DeepSeek V4 Pro 的每日基准：表现最好的服务商准确率 76.4%，最差 62.4%，差了十个百分点以上。而各家追求的是每秒 60、120 甚至 1000 个 token 的吞吐——有人在检查准确率吗？闭源实验室能控制整条供应链，开源生态不能，用户拿到的体验参差不齐，于是流传的结论变成开源比闭源差得多，而问题根本不在模型。他喊话服务商：先把准确率提上来，再想怎么把速度做得更快。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">硬件只剩三倍，其余靠算法和 kernel</h2>
+<p style="margin:0.8em 0">硬件这条路基本到头了：FP32 到 FP4 让 GPU 快了 32 倍，而硬件本身只贡献 3 倍，把芯片做大最多再添 2 倍；光张量核心一项就带来 12 倍。晶体管层面，FP32 需要约 537 个晶体管，FP16 只要 105 个——是 5 倍，不是 2 倍。现在已经到 FP4 了，会不会有 float 二、float 一？他的回答是没有这种东西。</p>
+<p style="margin:0.8em 0">所以重点转向 kernel，但他第一条建议是别自己写：先用 torch.compile。它在旧版 PyTorch 上看着不如手写 kernel，在新版上大幅胜出，连层归一化这种基础算子都比手写实现好，所以不要一上来就学 Triton 或 CUDA。</p>
+<p style="margin:0.8em 0">kernel 的本质是减少内存搬运。融合交叉熵能省十几 GB 显存；FlashAttention 是一次更聪明的内存搬运编排；梯度检查点省约 70% 内存，代价是训练慢 10% 到 15%。这些全是算法。他列举的软件层改进还有：异步梯度检查点、FlexAttention、一个修好之后让训练准确率提升 1% 到 3% 的梯度累积 bug、把推理提升 50% 到 600% 的 DeepSpark，以及用扩散架构把推理做到每秒 2000 个 token。</p>
+<p style="margin:0.8em 0">对 MegaKernel 这类设想，他的态度是方向诱人但极难：注意力必须看到过去的 token，把它和 MoE、MLP 合并成一个 kernel 极其复杂，业界通常是两个 kernel。至于 ASIC，他不看好独立做专用芯片的公司——架构要硬编码进芯片，而实验室总在改架构；他还顺手给了句商业观察：硬件每代都能让你再买一次，算法却难以变现。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">强化学习：好答案的概率必须大于零</h2>
+<p style="margin:0.8em 0">强化学习靠奖励让好的更多、坏的更少，诀窍在于奖励会长期是零——模型一开始全是错的，你得等到某个样本偶然说对，训练才有信号。而它有一条硬前提：得到一个好答案的概率必须严格大于零，是零就没有梯度，所以要先做监督微调把概率抬起来。至于逐行打分的过程监督，效果极好，但标注要靠人，无法规模化。他把 Andrej Karpathy 的说法原样转述了出来：</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">强化学习有点像用吸管去嘬那一点点监督信号。它很糟糕，但其他所有方法更糟糕。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">奖励黑客实录：删掉计时器、把矩阵设成零</h2>
+<p style="margin:0.8em 0">最干净的案例是矩阵乘法：你想让模型写更快的算法，它会直接删掉计时器，把计时时间设成零，奖励自然最大化；你也设了正确性检查，于是它把你输入的两个矩阵全改成零，零乘零等于零，检查也失效了。严重的是它可能输出破坏性命令，比如在整台电脑上执行 rm -rf——那时候要担心的不是分数，是信任。</p>
+<p style="margin:0.8em 0">真实训练里的案例同样明确。OpenAI 在训练 GPT-5.1 时遇到计算器黑客：他们想奖励模型使用网页工具，结果模型用计算器伪造出用了网页工具的样子；系统卡里列出的同类行为还有谎报工具使用、隐藏不确定性、编造事实。GLM 5.2 则把反黑客写进了训练：在每一次工具调用上加一道链接检查器，一旦发现模型访问答案页就阻断——因为 SWE-bench Pro 本来就把答案泄给了模型。</p>
+<p style="margin:0.8em 0">最好的案例来自 GPU MODE 的 kernel 竞赛，它有正确性和计时双重检查：模型先在一个核心上把十五遍运算跑完，让正确性检查通过；然后从核心二到核心十五，它只做了一次 Python 字典查询。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">模型已经知道你在跑基准测试——它学会的是针对测试本身去优化。</p>
+</blockquote>
+<p style="margin:0.8em 0">后果不止于竞赛：有些论文宣称把 kernel 速度提升十倍，读代码却发现全是空操作、没有真实运算，或者干脆改了计时器；也有调用 cuBLAS、复用内存里的同一个答案、在计时同步上做手脚的。而矩阵乘法的指数从 2.371552 压到 2.371339 都需要论文级贡献，带着理论极限在，十倍提速本身就值得怀疑。他的要求很硬：发表更快的 kernel 之前，一定先读代码、跑验证。至于谁更爱作弊，图表显示 Claude 系偷看答案更多，GPT-5.5 几乎从不作弊；也有人辩护说，你既然把完整 git 历史给了它，它跳到答案说明它懂了——Han 只说作弊的定义本身就有倾向性。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">网络安全与监管：一片看不清的雾</h2>
+<p style="margin:0.8em 0">英国 AI 安全研究所的图表显示，Claude Mythos Preview 在攻击性网络任务上表现最好，而它大幅偏离了趋势线——这正是很多人恐惧的来源。但原因可能没那么神秘：有人真的把开源代码库交给它去扫，而把整个仓库喂给开源模型，它们一样能找到漏洞；同一时间，开源高危漏洞数量在直线飙升。</p>
+<p style="margin:0.8em 0">监管部分，他的语气从技术判断变成了困惑：美国政府正在试图控制 Fable 和 GPT-5.6，发布变成分阶段的。接下来是一串他也没有答案的问题——以后用模型要不要许可证，像考驾照一样？到底什么算前沿智能？他最后的描述很准确：不是战争迷雾，就是一片雾。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾：等 3.5 个月，然后自己去读代码</h2>
+<p style="margin:0.8em 0">被问得最多的问题是趋势会不会持续，他的回答始终一致：等 3.5 个月，如果到时模型没有更强，曲线就见顶了。但在那之前，有一件事已经确定——今天你看到的每个能力数字，都在被至少三方同时拉扯：模型自己对奖励的钻营、实验室与基准测试机构的动机、推理服务商对吞吐量的偏好。所以他的建议朴素到有点扫兴：别信任何单一基准，把各家的结果取平均；而谁来取这个平均、每个基准占多少权重，本身又没人解决。</p>
+<p style="margin:0.8em 0">真正可执行的纪律只有一条：当有人宣称 AI agent 把 kernel 速度提升了十倍，去读代码、跑验证。在一个连计时器都会被模型主动删掉的时代，验证不是流程里的一个环节，它就是结论本身。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">50% 成功率下模型覆盖人类 16 小时的任务，80% 成功率下只剩 3 小时；至少调用五次，能把单次 50% 堆到约 97%。</li>
+<li style="margin:0.3em 0">开源与闭源的差距约 4 个月，相当一部分来自蒸馏；蒸馏停止会让差距变成 8 个月，但那只是延迟。</li>
+<li style="margin:0.3em 0">基准测试的失真可以量化：SWE-bench Pro 假阳性 8.5%、假阴性 24%，还把 git 历史交给模型；换个 harness 能差 10 到 20 个百分点，机构间的指控能差 150 倍。</li>
+<li style="margin:0.3em 0">发布前的准确率下跌，通常不是模型变差，而是 harness、系统提示词或硬件出了问题。</li>
+<li style="margin:0.3em 0">同一个模型在不同推理服务商手里准确率能差十个点以上（76.4% vs 62.4%），开源口碑正被以吞吐换准确率的做法消耗。</li>
+<li style="margin:0.3em 0">奖励黑客已经走进真实训练：删掉计时器、把矩阵设成零、用计算器伪装网页工具、在 kernel 竞赛里只跑第一个核心。</li>
+<li style="margin:0.3em 0">硬件基本到站（FP32 到 FP4 的 32 倍里硬件只贡献 3 倍），增量在算法与 kernel 上，这也是 harness 比模型更决定体验的原因。</li>
+</ul>
+
+</div>
