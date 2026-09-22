@@ -1,0 +1,55 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<p style="margin:0.8em 0"><strong style="font-weight:600">⚠️ Skill(s) not found and skipped: sth-xueqiu-daily</strong> — 已定位并修复根因（见下），本次按该 skill 的 SOP 手动执行完成。</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日解析 — 2026-09-22（触发 15:13，非预定 22:30）</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">结论：0 新帖。STH_ 自 9-18 12:20（id=409773614）后未发帖。同时发现并修复了 9-21 起自动化静默断裂的根因。</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">核验链（0 新帖判定）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">通道</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">page1（www host，两轮+cache-buster）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">21 条，最新普通帖=9-18 12:20 id=409773614（已在库）；首条 5-16 为置顶豁免</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">page2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">31005 频率限制（原 10022）— 不影响净新增判定（page1 已覆盖至 8-20）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">专栏 type=2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">最新 8-07 id=404149664，无新增</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">raw/edited CSV</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1671 行、0 空日期，范围至 9-18</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RAG 索引</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1695 docs，date_range→2026-09-18T12:20，<strong style="font-weight:600">已含最新帖</strong>，无需重建；Phase 2 Hybrid 冒烟通过（Top1「煤炭 长协 价格中枢」=8-19 帖 0.912 分）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">幂等锁</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未写（0 新帖）→ 今晚 22:30 会再跑一次，可捕获今日后续发帖</td>
+</tr>
+</tbody>
+</table></div>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 根因修复（本次两项）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">1. 9-21 14:13 共享 skill 仓库改名 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/hermes-shared-skills</code> → <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/agent-shared-skills</code></strong>，但 Hermes <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">skills.external_dirs</code> 仍指旧路径 → 所有 sth* skill 从 Hermes 消失。本 job 的 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">sth-xueqiu-daily</code> 被 skip；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">06-STH-Macro</code> 的 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">sth-macro-*</code> 同样中招；9-21 无执行记录（静默失败）。
+→ 已修：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">hermes config set skills.external_dirs '[&quot;~/agent-shared-skills&quot;]'</code>；回读确认，<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">hermes skills list</code> 已见 sth / sth-xueqiu-daily / sth-macro-* = enabled。回滚=改回旧路径。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">2. 雪球 curl 通道失效</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">xueqiu.com</code> 对干净 HTTP 现返 <strong style="font-weight:600">302 → www.xueqiu.com</strong>（openresty/interfaceacting WAF），旧通道全部 parse fail（下次有新帖时会静默 0 行下载）。实测 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">https://www.xueqiu.com/statuses/user_timeline.json</code> 同 cookie <strong style="font-weight:600">直返 JSON（error_code=None）</strong>。
+→ 已 patch <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">download/curl_incremental_sth.py</code> + <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">download/fix_full_text.py</code> 为 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">HOSTS=['www.xueqiu.com','xueqiu.com']</code> 顺序回退；实跑验证 page1=21 statuses、net new=0、raw 仍 1672 行无污染。回滚=git checkout 两个文件。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">Cookie</strong>：起始已过期（302 挑战）→ 跑 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">auto_relogin.py</code>（GUI 可用）→ auth cookie 检出、17 cookies 回写 config.json；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">verify_login_status</code> 仍报 False（已知误报），API 实测有效。<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">since_date</code> 自动滚动 6-22→6-24，<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">auto_resume=false</code>/<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">page_count=10</code> 不变。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Action items</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">今晚 22:30 复跑</strong>（无锁）— 若 STH_ 傍晚发帖将被捕获。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">待批准（shared repo 改动）</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">sth-xueqiu-daily/SKILL.md</code> 内检索脚本路径仍写 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/.hermes/skills/openclaw-imports/sth/scripts/</code>，实际在 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/agent-shared-skills/sth/scripts/</code>（INDEX_DIR 按脚本自身目录解析，检索不受影响，仅文档失真）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">可清理</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/.hermes/skills/openclaw-imports/sth/</code> 为迁移残留半成品目录（无 SKILL.md），其 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">data/sth_rag_index</code> symlink 悬空——惰性无害。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">仍开</strong>：xueqiu-monitor 对 STH_ 捕获停滞检查（9-12 起挂账）。</li>
+</ol>
+<p style="margin:0.8em 0"><em>数据源：雪球 API 直连（www.xueqiu.com 通道，cookie 重登录后核验）→ 未新增帖 → RAG 未重建；详细运维记录已写入 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/.hermes/data/sth-xueqiu-daily/memory.md</code>。</em></p>
+
+</div>
