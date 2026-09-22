@@ -1,7 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 22 Sep 2026 23:14:57 +0800</lastBuildDate><item><title>[跨国串门儿计划] 马已经跑出马厩：美国要不要封禁中国开源模型</title><link>https://xlicz.github.io/podcast-rss/articles/马已经跑出马厩-美国要不要封禁中国开源模型-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_33e5ae0941b7</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>马已经跑出马厩：美国要不要封禁中国开源模型</description></item><item><title>[跨国串门儿计划] 苹果 logo 你见过几千次，为什么还是画不出来</title><link>https://xlicz.github.io/podcast-rss/articles/苹果-logo-你见过几千次-为什么还是画不出来-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f69ae04a45d0</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>苹果 logo 你见过几千次，为什么还是画不出来</description></item><item><title>[跨国串门儿计划] 马斯克：AI 五年超越全人类，十年后钱不再重要</title><link>https://xlicz.github.io/podcast-rss/articles/马斯克-AI-五年超越全人类-十年后钱不再重要-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_65b5005c96e9</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>马斯克：AI 五年超越全人类，十年后钱不再重要</description></item><item><title>[a16z] 开放权重模型最大的一周：权力正在换手</title><link>https://xlicz.github.io/podcast-rss/articles/开放权重模型最大的一周-权力正在换手-2026-07-24.html</link><guid isPermaLink="false">a16z_3eae2e87eba8</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>开放权重模型最大的一周：权力正在换手</description></item><item><title>[跨国串门儿计划] 奖励黑客：当模型开始删掉计时器</title><link>https://xlicz.github.io/podcast-rss/articles/奖励黑客-当模型开始删掉计时器-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_7edfb4a48fdf</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>奖励黑客：当模型开始删掉计时器</description></item><item><title>[a16z] Kalanick：给每个行业造一台计算机</title><link>https://xlicz.github.io/podcast-rss/articles/Kalanick-给每个行业造一台计算机-2026-07-22.html</link><guid isPermaLink="false">a16z_8923f172311c</guid><pubDate>Wed, 22 Jul 2026 08:00:00 +0800</pubDate><description>Kalanick：给每个行业造一台计算机</description></item><item><title>[a16z] 一张十美元的专辑，和一笔要还的账</title><link>https://xlicz.github.io/podcast-rss/articles/一张十美元的专辑-和一笔要还的账-2026-09-20.html</link><guid isPermaLink="false">a16z_26e4f1ba3a55</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>一张十美元的专辑，和一笔要还的账</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Tue, 22 Sep 2026 23:15:04 +0800</lastBuildDate><item><title>[跨国串门儿计划] BM25 回来了：不是检索变了，是搜索的人变了</title><link>https://xlicz.github.io/podcast-rss/articles/BM25-回来了-不是检索变了-是搜索的人变了-2026-09-21.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8f52ff20aefb</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>BM25 回来了：不是检索变了，是搜索的人变了</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">BM25 回来了：不是检索变了，是搜索的人变了</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一个三十年前的词频打分函数，正在 Agent 搜索里反超向量检索。原因不在算法，在于它的使用者换了一个物种——而过去被拿来当「基线」的 BM25，从来没有人认真配置过。</strong></p>
+<p style="margin:0.8em 0">三十年前的信息检索论文里，BM25 的角色是靶子。你想证明自己的神经网络模型更好，就得先跑一遍 BM25 作为基线，然后展示自己比它高几个点。做了二十多年检索的 Jo Kristian Bergum 在一场演讲里把这个行业习惯翻了过来：BM25 并没有变，变的是使用者。当用户从「在搜索框里敲三个词的人」变成「能一次性写出一长串结构化查询、并且知道自己要找什么的模型」，那个被当作下限的基线函数，反而变成了上限的一部分。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">新用户：搜索发生在 Agent 循环内部</h2>
+<p style="margin:0.8em 0">Bergum 给「Agent 式搜索」下的定义很窄：<strong style="font-weight:600">在 Agent 循环内部进行的搜索</strong>。一个 Agent 在写代码、做深度研究、或完成任何任务的过程中，产生了信息需求，于是它去检索——检索是任务的一部分，而不是任务的终点。</p>
+<p style="margin:0.8em 0">要给这种搜索搭一套基础设施，他认为需要三样东西：一是一个能力足够强、并且会用工具构造查询词的模型；二是围绕这个模型的测试框架（harness），以及把检索能力暴露给模型的方式——工具调用是一种，代码模式是另一种；三是一个能在几十亿文档量级上高效检索的引擎。</p>
+<p style="margin:0.8em 0">这三样里最容易被忽略的是第二样。检索能力怎么交付给模型，决定了后面所有的东西。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 BM25 反而更强</h2>
+<p style="margin:0.8em 0">BM25 的意思是 Best Match 25：当年一批研究者做了一连串实验，第二十五号实验效果最好，名字就这么留下了。它本质是一个打分函数——给定一个查询和一篇文档，算出二者的相关度分数。</p>
+<p style="margin:0.8em 0">真正的变化来自使用者的能力。今天的语言模型内置了大量隐式常识：它知道实体、公司、日期，它「打字更快」，能一口气写出很长、很具体的查询，还会用从网页搜索里学来的语法操作符，比如 site 限定和短语匹配。对比之下，人类用户的习惯几十年没变——Bergum 拿 AOL 当年意外泄露的查询日志做参照，那些查询都很短，而更新的查询日志显示人们依然只敲几个词。</p>
+<p style="margin:0.8em 0">对一个能力这么强的用户来说，精准匹配的价值被重新放大了。模型本来就知道人名、实体、邮编、SKU 这类东西，而这类字面量恰恰是 embedding 模型难办的——把所有 token 编码进固定词表的做法，天生不擅长表征它们。BM25 还有两个现实优势：便宜，以及可解释。一个八十亿参数的 embedding 模型给文本编码是要搭推理基础设施的；而 BM25 的生态和工具链拿来就能用，更重要的是<strong style="font-weight:600">模型能看懂它为什么返回这个结果</strong>——因为匹配的是字面上的词和短语——看懂之后就能有依据地重构查询。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">BM25 并没有变，它还是原来的评分函数。变化是我们迎来了更强大的使用者。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">「你说的是哪个 BM25」</h2>
+<p style="margin:0.8em 0">这里有一段被行业集体忽略的公案。BrowseComp Plus 这类基准测试里，BM25 一向被拿来当基线，但 Bergum 说，那个基线做得非常糟糕。当年的论文里，更花哨的 embedding 模型看起来远优于 BM25；但后续研究表明，那些实验里用的 BM25 参数根本不足以应付长文档——而参数选得好不好，对基准测试的整体准确率影响相当大。</p>
+<p style="margin:0.8em 0">所以他反复追问同一个问题：你说的是哪个 BM25？不同实现、不同参数下，BM25 是两个不同的东西。一句话判决了延续多年的「基线崇拜」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上下文窗口是一张软盘</h2>
+<p style="margin:0.8em 0">Bergum 用一个上了年纪的人才会用的比喻解释检索为什么不可替代：上下文窗口就是一张软盘。一张 1.4 兆的软盘，差不多等于他认为模型质量开始下降前能吃下的三十五万个 token。</p>
+<p style="margin:0.8em 0">这个比喻的价值在于它的推论——<strong style="font-weight:600">哪怕你有一个完美的、AGI 级别的模型，你依然受限于一张软盘大小的上下文窗口</strong>。所以问题从来不是「模型够不够聪明」，而是「你决定往这张软盘里放什么」。检索不是模型能力的替代品，是它的前置条件。</p>
+<p style="margin:0.8em 0">他还用 BrowseComp 展示检索质量如何直接决定端到端准确率。那是去年发表的一个深度研究基准，大约八百三十道题，题目像酒吧问答游戏里的谜语——又长又绕，但都有唯一的标准答案。基准的设定极其克制：模型只拿到一个工具，叫搜索，接收一个查询字符串，返回若干摘要片段；语料库只有十万篇左右网页文档。</p>
+<p style="margin:0.8em 0">关键发现在于：如果只看「模型 + 搜索工具」的准确率，是一回事；一旦把测试框架、查询组织能力、检索器的检索质量全部算进来，准确率就掉下来了。也就是说，端到端成绩里包含了大量与模型本身无关的变量——而基准测试报告通常把它们搅在一起。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把检索结果放进文件系统</h2>
+<p style="margin:0.8em 0">Bergum 最喜欢的一篇新论文来自滑铁卢大学 Jimmy Lin 团队，题目是《Scaling Direct Corpus Interaction via Dynamic Workspace Expansion》。它解决的正是上面那个「软盘」问题。</p>
+<p style="margin:0.8em 0">思路是：当你要为 Agent 搭网页搜索基础设施，几十亿篇文档显然塞不进上下文，必须检索。你可以把 BM25 当作基线来召回一批文档，但召回结果不要压成一段文本喂给模型，而是组织成一个<strong style="font-weight:600">工作区</strong>——如果做成文件系统的形态，就能复用模型已经非常熟悉的那套机制：先把标题和一小段摘要展示出来，模型判断「我需要多看这篇」，再用它本来就擅长的 grep、cat、tail 去取内容。</p>
+<p style="margin:0.8em 0">这相当于针对模型现有的能力长板做设计——去迎合它已经会的东西，而不是逼它学新接口。因为所有前沿模型公司都在针对写代码、bash 和工具调用做优化，把任务挂在这条发展轨迹上，意味着每当新模型出来，你在这一环上就自动变强。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">评估体系先失效了</h2>
+<p style="margin:0.8em 0">一个容易被跳过的后果是：经典的信息检索评估方法已经不管用了。</p>
+<p style="margin:0.8em 0">传统 IR 的评估范式是「一个查询、一份排序列表、算一下 NDCG、比一比」。但当查询者变成 Agent，这个框架就崩了——Agent 可以重构查询、发起更多查询、扩展、组合，它做的动作远不止「构造一次查询」这一个。检索系统的好坏，不再由一次排序的质量决定。</p>
+<p style="margin:0.8em 0">至于 Bergum 自己给出的工程成绩：在他们单节点一亿篇网页文档的对比里，其实现比参与对比的几款引擎高效得多——同样的钱能跑出更高的吞吐量。这条结论要按厂商自述读：对比是匿名的，测试方法由他一方设定，但它指向的方向不难理解——在一个 Agent 会把查询次数放大几十倍的场景里，检索的单位成本会沿着整个产品链路传导。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">值得带走的四点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">出现了一个新用户：它打字更快、知识更多、能重构查询——这让 grep 和 BM25 这类简单工具重新变强。</li>
+<li style="margin:0.3em 0">「你说的是哪个 BM25」：实现和参数差异会让同一个算法表现为两个东西，历史上被当作基线的 BM25 往往配置得极差。</li>
+<li style="margin:0.3em 0">BM25 在 Agent 检索中有效的核心原因是可解释：模型看得懂字面匹配的结果，因而能据此判断和改写查询。</li>
+<li style="margin:0.3em 0">上下文窗口就是一张软盘。即使模型完美，往窗口里放什么的决定权仍然属于检索层。</li>
+</ul>
+
+</div>
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] Sam Altman 的坦白：最难改变的从来不是 AI，是人</title><link>https://xlicz.github.io/podcast-rss/articles/Sam-Altman-的坦白-最难改变的从来不是-AI-是人-2026-08-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9d58254fa0a3</guid><pubDate>Sun, 23 Aug 2026 08:00:00 +0800</pubDate><description>Sam Altman 的坦白：最难改变的从来不是 AI，是人</description></item>
+<item><title>[跨国串门儿计划] 真正在做 AGI 的人，为什么不相信「两年内实现」</title><link>https://xlicz.github.io/podcast-rss/articles/真正在做-AGI-的人-为什么不相信-两年内实现-2026-08-02.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_cc36bfec5385</guid><pubDate>Sun, 02 Aug 2026 08:00:00 +0800</pubDate><description>真正在做 AGI 的人，为什么不相信「两年内实现」</description></item>
+<item><title>[跨国串门儿计划] 马已经跑出马厩：美国要不要封禁中国开源模型</title><link>https://xlicz.github.io/podcast-rss/articles/马已经跑出马厩-美国要不要封禁中国开源模型-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_33e5ae0941b7</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>马已经跑出马厩：美国要不要封禁中国开源模型</description></item>
+<item><title>[跨国串门儿计划] 苹果 logo 你见过几千次，为什么还是画不出来</title><link>https://xlicz.github.io/podcast-rss/articles/苹果-logo-你见过几千次-为什么还是画不出来-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f69ae04a45d0</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>苹果 logo 你见过几千次，为什么还是画不出来</description></item>
+<item><title>[跨国串门儿计划] 马斯克：AI 五年超越全人类，十年后钱不再重要</title><link>https://xlicz.github.io/podcast-rss/articles/马斯克-AI-五年超越全人类-十年后钱不再重要-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_65b5005c96e9</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>马斯克：AI 五年超越全人类，十年后钱不再重要</description></item>
+<item><title>[a16z] 开放权重模型最大的一周：权力正在换手</title><link>https://xlicz.github.io/podcast-rss/articles/开放权重模型最大的一周-权力正在换手-2026-07-24.html</link><guid isPermaLink="false">a16z_3eae2e87eba8</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>开放权重模型最大的一周：权力正在换手</description></item>
+<item><title>[跨国串门儿计划] 奖励黑客：当模型开始删掉计时器</title><link>https://xlicz.github.io/podcast-rss/articles/奖励黑客-当模型开始删掉计时器-2026-07-24.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_7edfb4a48fdf</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>奖励黑客：当模型开始删掉计时器</description></item>
+<item><title>[a16z] Kalanick：给每个行业造一台计算机</title><link>https://xlicz.github.io/podcast-rss/articles/Kalanick-给每个行业造一台计算机-2026-07-22.html</link><guid isPermaLink="false">a16z_8923f172311c</guid><pubDate>Wed, 22 Jul 2026 08:00:00 +0800</pubDate><description>Kalanick：给每个行业造一台计算机</description></item>
+<item><title>[a16z] 一张十美元的专辑，和一笔要还的账</title><link>https://xlicz.github.io/podcast-rss/articles/一张十美元的专辑-和一笔要还的账-2026-09-20.html</link><guid isPermaLink="false">a16z_26e4f1ba3a55</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>一张十美元的专辑，和一笔要还的账</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一张十美元的专辑，和一笔要还的账</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Ben Horowitz 从一张《Paid in Full》专辑里获得了「至少 500 万美元」的人生价值——于是他拉着 Nas 和 Steve Stoute 做了一个基金会，把嘻哈的开创者们重新请回聚光灯下：给钱，但不止于给钱。Grandmaster Caz 用它搬出了住了大半辈子的布朗克斯公屋。</strong></p>
@@ -76,7 +126,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</title><link>https://xlicz.github.io/podcast-rss/articles/20-个人的-Evernote-Bending-Spoons-的-极致运营-生意经-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d5d10f3e7878</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</title><link>https://xlicz.github.io/podcast-rss/articles/20-个人的-Evernote-Bending-Spoons-的-极致运营-生意经-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d5d10f3e7878</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">20 个人的 Evernote：Bending Spoons 的「极致运营」生意经</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Luca Ferrari 谈这台从米兰出发、刚登陆纳斯达克的收购机器：350 人的公司为什么能砍到 50 人、再砍到 20 人；「绝对坦荡」的用人标准；「极致简化」的减法哲学；以及为什么他们把「卓越的运营」本身做成了最好的商品。</strong></p>
@@ -152,7 +203,12 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</title><link>https://xlicz.github.io/podcast-rss/articles/只跟一个-Agent-说话-Kun-Chen-和他的-船员舰队-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8090659bad31</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</description></item><item><title>[跨国串门儿计划] 十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</title><link>https://xlicz.github.io/podcast-rss/articles/十倍杠杆在漏斗顶部-Sam-Blond-的-AI-原生销售手册-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6050f6df71d6</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</description></item><item><title>[跨国串门儿计划] Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</title><link>https://xlicz.github.io/podcast-rss/articles/Cerebras-CEO-CUDA-不是护城河--从-GPU-切过来只需八个键-2026-07-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_fa2454b78dcb</guid><pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate><description>Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</description></item><item><title>[跨国串门儿计划] 黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</title><link>https://xlicz.github.io/podcast-rss/articles/黄仁勋-AI-不会消灭工作--放射科医生反而多了-20-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_0fef8cbc056b</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</description></item><item><title>[跨国串门儿计划] 被 AI 拷问 35 个问题之后：软件基本功反而更重要了</title><link>https://xlicz.github.io/podcast-rss/articles/被-AI-拷问-35-个问题之后-软件基本功反而更重要了-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4e63c077ace8</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>被 AI 拷问 35 个问题之后：软件基本功反而更重要了</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</title><link>https://xlicz.github.io/podcast-rss/articles/只跟一个-Agent-说话-Kun-Chen-和他的-船员舰队-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8090659bad31</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>只跟一个 Agent 说话：Kun Chen 和他的「船员舰队」</description></item>
+<item><title>[跨国串门儿计划] 十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</title><link>https://xlicz.github.io/podcast-rss/articles/十倍杠杆在漏斗顶部-Sam-Blond-的-AI-原生销售手册-2026-07-23.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6050f6df71d6</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>十倍杠杆在漏斗顶部：Sam Blond 的 AI 原生销售手册</description></item>
+<item><title>[跨国串门儿计划] Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</title><link>https://xlicz.github.io/podcast-rss/articles/Cerebras-CEO-CUDA-不是护城河--从-GPU-切过来只需八个键-2026-07-25.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_fa2454b78dcb</guid><pubDate>Sat, 25 Jul 2026 08:00:00 +0800</pubDate><description>Cerebras CEO：CUDA 不是护城河——从 GPU 切过来只需八个键</description></item>
+<item><title>[跨国串门儿计划] 黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</title><link>https://xlicz.github.io/podcast-rss/articles/黄仁勋-AI-不会消灭工作--放射科医生反而多了-20-2026-07-26.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_0fef8cbc056b</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>黄仁勋：AI 不会消灭工作——放射科医生反而多了 20%</description></item>
+<item><title>[跨国串门儿计划] 被 AI 拷问 35 个问题之后：软件基本功反而更重要了</title><link>https://xlicz.github.io/podcast-rss/articles/被-AI-拷问-35-个问题之后-软件基本功反而更重要了-2026-09-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4e63c077ace8</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>被 AI 拷问 35 个问题之后：软件基本功反而更重要了</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被 AI 拷问 35 个问题之后：软件基本功反而更重要了</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Matt Pocock 的 skill 仓库拿了全球第二多的 star。他发现，驯服 Agent 的秘密，藏在二十多年前的软件工程书里——"曳光弹"、"垂直切片"、"通用语言"，这些老词正在变成发给 AI 的指令。</strong></p>
@@ -224,7 +280,12 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] Travis Kalanick 归来：不做人形机器人，去矿山造科幻</title><link>https://xlicz.github.io/podcast-rss/articles/Travis-Kalanick-归来-不做人形机器人-去矿山造科幻-2026-07-23.html</link><guid isPermaLink="false">a16z_d43abab62f87</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>Travis Kalanick 归来：不做人形机器人，去矿山造科幻</description></item><item><title>[跨国串门儿计划] Jeff Dean 的 1% 法则</title><link>https://xlicz.github.io/podcast-rss/articles/Jeff-Dean-的-1--法则-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5eef928e5129</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>Jeff Dean 的 1% 法则</description></item><item><title>[a16z] 李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</title><link>https://xlicz.github.io/podcast-rss/articles/李飞飞-机器人缺的不是身体-是一个可以在里面失败一万次的世界-2026-07-28.html</link><guid isPermaLink="false">a16z_1b87db7e0a16</guid><pubDate>Tue, 28 Jul 2026 08:00:00 +0800</pubDate><description>李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</description></item><item><title>[卫诗婕｜漫谈Light the Star] 「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</title><link>https://xlicz.github.io/podcast-rss/articles/汤糊到看不清是什么汤--全球第一篇文生视频论文-和九年后的世界模型-2026-07-24.html</link><guid isPermaLink="false">light-the-star_ee987288fc1e</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</description></item><item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] Travis Kalanick 归来：不做人形机器人，去矿山造科幻</title><link>https://xlicz.github.io/podcast-rss/articles/Travis-Kalanick-归来-不做人形机器人-去矿山造科幻-2026-07-23.html</link><guid isPermaLink="false">a16z_d43abab62f87</guid><pubDate>Thu, 23 Jul 2026 08:00:00 +0800</pubDate><description>Travis Kalanick 归来：不做人形机器人，去矿山造科幻</description></item>
+<item><title>[跨国串门儿计划] Jeff Dean 的 1% 法则</title><link>https://xlicz.github.io/podcast-rss/articles/Jeff-Dean-的-1--法则-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5eef928e5129</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>Jeff Dean 的 1% 法则</description></item>
+<item><title>[a16z] 李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</title><link>https://xlicz.github.io/podcast-rss/articles/李飞飞-机器人缺的不是身体-是一个可以在里面失败一万次的世界-2026-07-28.html</link><guid isPermaLink="false">a16z_1b87db7e0a16</guid><pubDate>Tue, 28 Jul 2026 08:00:00 +0800</pubDate><description>李飞飞：机器人缺的不是身体，是一个可以在里面失败一万次的世界</description></item>
+<item><title>[卫诗婕｜漫谈Light the Star] 「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</title><link>https://xlicz.github.io/podcast-rss/articles/汤糊到看不清是什么汤--全球第一篇文生视频论文-和九年后的世界模型-2026-07-24.html</link><guid isPermaLink="false">light-the-star_ee987288fc1e</guid><pubDate>Fri, 24 Jul 2026 08:00:00 +0800</pubDate><description>「汤糊到看不清是什么汤」：全球第一篇文生视频论文，和九年后的世界模型</description></item>
+<item><title>[a16z] 被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</title><link>https://xlicz.github.io/podcast-rss/articles/被试用很容易-被留下很难-Josh-Elman-谈消费级-AI-的生存法则-2026-09-19.html</link><guid isPermaLink="false">a16z_f9f6d4d7742f</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>被试用很容易，被留下很难：Josh Elman 谈消费级 AI 的生存法则</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">被试用很容易，被留下很难</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">a16z 合伙人 Josh Elman 谈消费级 AI 的生存法则：从"被试用"到"被留下"，中间隔着信任、习惯与关系。</strong></p>
@@ -294,7 +355,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] Databricks CEO：我们不需要更聪明的模型</title><link>https://xlicz.github.io/podcast-rss/articles/Databricks-CEO-我们不需要更聪明的模型-2026-09-18.html</link><guid isPermaLink="false">a16z_e5f798e24720</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>Databricks CEO：我们不需要更聪明的模型</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] Databricks CEO：我们不需要更聪明的模型</title><link>https://xlicz.github.io/podcast-rss/articles/Databricks-CEO-我们不需要更聪明的模型-2026-09-18.html</link><guid isPermaLink="false">a16z_e5f798e24720</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>Databricks CEO：我们不需要更聪明的模型</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Databricks CEO：我们不需要更聪明的模型</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -398,7 +460,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[Money Stuff: The Podcast] 试图拯救世界，不是反垄断的豁免理由</title><link>https://xlicz.github.io/podcast-rss/articles/试图拯救世界-不是反垄断的豁免理由-2026-09-18.html</link><guid isPermaLink="false">money-stuff_fe402be1aec9</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>试图拯救世界，不是反垄断的豁免理由</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[Money Stuff: The Podcast] 试图拯救世界，不是反垄断的豁免理由</title><link>https://xlicz.github.io/podcast-rss/articles/试图拯救世界-不是反垄断的豁免理由-2026-09-18.html</link><guid isPermaLink="false">money-stuff_fe402be1aec9</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>试图拯救世界，不是反垄断的豁免理由</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">试图拯救世界，不是反垄断的豁免理由</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">Money Stuff 这期的三则故事：一场抓不到"狼"的期权案、一场无法合法"刹车"的 AI 竞赛，和一款正在复活的养老金。</strong></p>
@@ -447,7 +510,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 一万个智能体解出千禧年难题，但主角不是它们</title><link>https://xlicz.github.io/podcast-rss/articles/一万个智能体解出千禧年难题-但主角不是它们-2026-09-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_63a61f358b5b</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>一万个智能体解出千禧年难题，但主角不是它们</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 一万个智能体解出千禧年难题，但主角不是它们</title><link>https://xlicz.github.io/podcast-rss/articles/一万个智能体解出千禧年难题-但主角不是它们-2026-09-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_63a61f358b5b</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>一万个智能体解出千禧年难题，但主角不是它们</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一万个智能体解出千禧年难题，但主角不是它们</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">OpenAI 研究员 Noam Brown 与 Dwarkesh Patel 的一场长谈：多智能体、RSI 的真实瓶颈，以及一个越来越难回答的问题——我们凭什么知道它是对齐的？</strong></p>
@@ -528,7 +592,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 幸福不是一种感觉：愉悦、满足与意义，以及那个没人猜得到的“偶像”</title><link>https://xlicz.github.io/podcast-rss/articles/幸福不是一种感觉-愉悦-满足与意义-以及那个没人猜得到的-偶像-2026-09-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b71316f18af1</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>幸福不是一种感觉：愉悦、满足与意义，以及那个没人猜得到的“偶像”</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 幸福不是一种感觉：愉悦、满足与意义，以及那个没人猜得到的“偶像”</title><link>https://xlicz.github.io/podcast-rss/articles/幸福不是一种感觉-愉悦-满足与意义-以及那个没人猜得到的-偶像-2026-09-18.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b71316f18af1</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>幸福不是一种感觉：愉悦、满足与意义，以及那个没人猜得到的“偶像”</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">幸福不是一种感觉：愉悦、满足与意义，以及那个没人猜得到的“偶像”</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：阿瑟·布鲁克斯把幸福拆成三种“宏量营养素”：愉悦、满足、意义——每一种都必须靠挣扎挣来，每一种都有一件廉价的赝品在冒充它；而最先要做的，是找出那个正把你带偏的“偶像”。</strong></p>
@@ -594,7 +659,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 90% 听过，11% 在用：关于身体的讨论，已经跑在身体前面</title><link>https://xlicz.github.io/podcast-rss/articles/90--听过-11--在用-关于身体的讨论-已经跑在身体前面-2026-09-15.html</link><guid isPermaLink="false">a16z_01ef8267189b</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>90% 听过，11% 在用：关于身体的讨论，已经跑在身体前面</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 90% 听过，11% 在用：关于身体的讨论，已经跑在身体前面</title><link>https://xlicz.github.io/podcast-rss/articles/90--听过-11--在用-关于身体的讨论-已经跑在身体前面-2026-09-15.html</link><guid isPermaLink="false">a16z_01ef8267189b</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>90% 听过，11% 在用：关于身体的讨论，已经跑在身体前面</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">90% 听过，11% 在用：关于身体的讨论，已经跑在身体前面</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：从肽、GLP-1 到 Oura 戒指——一位赛博民族志学者拆解身体优化文化里“讨论”与“现实”的落差，以及正在到来的“身体未来主义”。</strong></p>
@@ -654,7 +720,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</title><link>https://xlicz.github.io/podcast-rss/articles/厨房餐桌上的-little-tech-两三个人的公司-和为大公司写的规则-2026-09-11.html</link><guid isPermaLink="false">a16z_1550161f3b75</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</title><link>https://xlicz.github.io/podcast-rss/articles/厨房餐桌上的-little-tech-两三个人的公司-和为大公司写的规则-2026-09-11.html</link><guid isPermaLink="false">a16z_1550161f3b75</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：a16z 普通合伙人、Speedrun 负责人 Andrew Chen 谈最小的创业公司——它们连法人主体都还没有，就要承担为大公司设计的监管存量；没有游说者，唯一能行使的筹码是选择在哪里创业。</strong></p>
@@ -713,7 +780,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 放弃 2500 万用户之后：AI 原生 CRM 的赌注</title><link>https://xlicz.github.io/podcast-rss/articles/放弃-2500-万用户之后-AI-原生-CRM-的赌注-2026-09-16.html</link><guid isPermaLink="false">a16z_096174cb43a0</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>放弃 2500 万用户之后：AI 原生 CRM 的赌注</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 放弃 2500 万用户之后：AI 原生 CRM 的赌注</title><link>https://xlicz.github.io/podcast-rss/articles/放弃-2500-万用户之后-AI-原生-CRM-的赌注-2026-09-16.html</link><guid isPermaLink="false">a16z_096174cb43a0</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>放弃 2500 万用户之后：AI 原生 CRM 的赌注</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">放弃 2500 万用户之后</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Tome 创始人 Keith Peiris 的硬重启：当一个增长最好的产品连自己都不喜欢，他把 CRM 从第一性原理重做了一遍——赌注是「智能大于结构」，起点是十家用免费办公室换来的「负定价」客户。</strong></p>
@@ -770,7 +838,9 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 支付里没有小于一千亿美元的小生意</title><link>https://xlicz.github.io/podcast-rss/articles/支付里没有小于一千亿美元的小生意-2026-09-03.html</link><guid isPermaLink="false">a16z_083bf8946e3d</guid><pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate><description>支付里没有小于一千亿美元的小生意</description></item><item><title>[硅谷101] 敢把钱包交给 AI 吗：智能体交易的爆发前夜</title><link>https://xlicz.github.io/podcast-rss/articles/敢把钱包交给-AI-吗-智能体交易的爆发前夜-2026-09-18.html</link><guid isPermaLink="false">sv101_28ae0d9262f2</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>敢把钱包交给 AI 吗：智能体交易的爆发前夜</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 支付里没有小于一千亿美元的小生意</title><link>https://xlicz.github.io/podcast-rss/articles/支付里没有小于一千亿美元的小生意-2026-09-03.html</link><guid isPermaLink="false">a16z_083bf8946e3d</guid><pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate><description>支付里没有小于一千亿美元的小生意</description></item>
+<item><title>[硅谷101] 敢把钱包交给 AI 吗：智能体交易的爆发前夜</title><link>https://xlicz.github.io/podcast-rss/articles/敢把钱包交给-AI-吗-智能体交易的爆发前夜-2026-09-18.html</link><guid isPermaLink="false">sv101_28ae0d9262f2</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>敢把钱包交给 AI 吗：智能体交易的爆发前夜</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">敢把钱包交给 AI 吗：智能体交易的爆发前夜</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：外滩大会的圆桌上，蚂蚁、万事达卡、OPPO、阿里的四位建设者给出同一个判断——拦住智能体交易的从来不是模型能力，而是一整套还没立起来的信任基建：身份、授权、意图、追责。</strong></p>
@@ -822,7 +892,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] AI 视频的下一个前沿：控制</title><link>https://xlicz.github.io/podcast-rss/articles/AI-视频的下一个前沿-控制-2026-09-17.html</link><guid isPermaLink="false">a16z_5d7467d8ea88</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>AI 视频的下一个前沿：控制</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] AI 视频的下一个前沿：控制</title><link>https://xlicz.github.io/podcast-rss/articles/AI-视频的下一个前沿-控制-2026-09-17.html</link><guid isPermaLink="false">a16z_5d7467d8ea88</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>AI 视频的下一个前沿：控制</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 视频的下一个前沿：控制</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：当 5 秒视频 1.5 秒出片、综合效率提升约 35 倍，AI 视频真正稀缺的东西变成了"听话"——镜头、光线、动作、口型，每一件都要能被精确指挥。</strong></p>
@@ -881,7 +952,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] AI 如何重写风险投资的幂律</title><link>https://xlicz.github.io/podcast-rss/articles/AI-如何重写风险投资的幂律-2026-09-10.html</link><guid isPermaLink="false">a16z_f8c2f7d35d3e</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>AI 如何重写风险投资的幂律</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] AI 如何重写风险投资的幂律</title><link>https://xlicz.github.io/podcast-rss/articles/AI-如何重写风险投资的幂律-2026-09-10.html</link><guid isPermaLink="false">a16z_f8c2f7d35d3e</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>AI 如何重写风险投资的幂律</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 如何重写风险投资的幂律</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：3000 家美国风投机构里只有 20 家能持续跑出 3 倍净回报，而 AI 第一次让资本可以直接变成优势——幂律变得更极端之后，LP 的配置、GP 的打法和一代软件公司的命运都要重新算账。</strong></p>
@@ -933,7 +1005,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">谁来给 AI 模型打分：当公共榜单开始失真</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：模型变强的速度已经甩开衡量它的那把尺子——而"什么算好"的定义权，正在从发布模型的人手里滑走。</strong></p>
@@ -997,7 +1070,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 家得宝：把普通人变成建造者</title><link>https://xlicz.github.io/podcast-rss/articles/家得宝-把普通人变成建造者-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5d5910fa865e</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>家得宝：把普通人变成建造者</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 家得宝：把普通人变成建造者</title><link>https://xlicz.github.io/podcast-rss/articles/家得宝-把普通人变成建造者-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5d5910fa865e</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>家得宝：把普通人变成建造者</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">家得宝：把普通人变成建造者</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：两个被老东家开除、手上一分股权都没有的零售人，如何在利率超过 20% 的 1981 年把一家四店连锁送上华尔街，并做出一支 45 年跑赢苹果的股票。</strong></p>
@@ -1066,7 +1140,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] Shopify CEO 托比·吕特克：用一支"AI 顾问团"，审视最棘手的决策</title><link>https://xlicz.github.io/podcast-rss/articles/Shopify-CEO-托比-吕特克-用一支-AI-顾问团--审视最棘手的决策-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f327404b0de6</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>Shopify CEO 托比·吕特克：用一支"AI 顾问团"，审视最棘手的决策</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] Shopify CEO 托比·吕特克：用一支"AI 顾问团"，审视最棘手的决策</title><link>https://xlicz.github.io/podcast-rss/articles/Shopify-CEO-托比-吕特克-用一支-AI-顾问团--审视最棘手的决策-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f327404b0de6</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>Shopify CEO 托比·吕特克：用一支"AI 顾问团"，审视最棘手的决策</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Shopify CEO 托比·吕特克：用一支"AI 顾问团"，审视最棘手的决策</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：当公司里几乎没人再手写代码、约一半的 PR 来自群聊里的 AI 同事，最难的决策要靠什么做出来？托比·吕特克的答案是一支跨模型的"AI 顾问团"——以及 AI 替不了的三样东西：品味、判断力、责任。</strong></p>
@@ -1125,7 +1200,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] Wardogs 卖出一百万份之后：清晰表达，比迎合玩家更重要</title><link>https://xlicz.github.io/podcast-rss/articles/Wardogs-卖出一百万份之后-清晰表达-比迎合玩家更重要-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_3c39affd9186</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>Wardogs 卖出一百万份之后：清晰表达，比迎合玩家更重要</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] Wardogs 卖出一百万份之后：清晰表达，比迎合玩家更重要</title><link>https://xlicz.github.io/podcast-rss/articles/Wardogs-卖出一百万份之后-清晰表达-比迎合玩家更重要-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_3c39affd9186</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>Wardogs 卖出一百万份之后：清晰表达，比迎合玩家更重要</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Wardogs 卖出一百万份之后：清晰表达，比迎合玩家更重要</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：一家刚被腾讯撤资、差点关门的英国工作室，靠一款“不讨所有人喜欢”的百人射击游戏救了命——Joe Brammer 谈“把话说清楚”的代价。</strong></p>
@@ -1184,7 +1260,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] All-In 现场｜黄仁勋：超级智能已经到来</title><link>https://xlicz.github.io/podcast-rss/articles/All-In-现场-黄仁勋-超级智能已经到来-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_81b8f1fbfd85</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>All-In 现场｜黄仁勋：超级智能已经到来</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] All-In 现场｜黄仁勋：超级智能已经到来</title><link>https://xlicz.github.io/podcast-rss/articles/All-In-现场-黄仁勋-超级智能已经到来-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_81b8f1fbfd85</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>All-In 现场｜黄仁勋：超级智能已经到来</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">All-In 现场｜黄仁勋：超级智能已经到来</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：在一个把 AI 的文明风险写进标题的行业里，英伟达 CEO 给出的判断正相反——那些预测没有科学依据；而超级智能，按他的说法，已经到了。</strong></p>
@@ -1243,7 +1320,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[卫诗婕｜漫谈Light the Star] 缺席大模型、重仓宇树：一位新加坡华人投资家的 Long China</title><link>https://xlicz.github.io/podcast-rss/articles/缺席大模型-重仓宇树-一位新加坡华人投资家的-Long-China-2026-09-16.html</link><guid isPermaLink="false">light-the-star_de7c38a18c2b</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>缺席大模型、重仓宇树：一位新加坡华人投资家的 Long China</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[卫诗婕｜漫谈Light the Star] 缺席大模型、重仓宇树：一位新加坡华人投资家的 Long China</title><link>https://xlicz.github.io/podcast-rss/articles/缺席大模型-重仓宇树-一位新加坡华人投资家的-Long-China-2026-09-16.html</link><guid isPermaLink="false">light-the-star_de7c38a18c2b</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>缺席大模型、重仓宇树：一位新加坡华人投资家的 Long China</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">缺席大模型、重仓宇树：一位新加坡华人投资家的 Long China</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1309,7 +1387,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[高能量] 王华东：中国有十多家两百亿估值的机器人公司，硅谷只有五家二十亿美元的</title><link>https://xlicz.github.io/podcast-rss/articles/王华东-中国有十多家两百亿估值的机器人公司-硅谷只有五家二十亿美元的-2026-09-16.html</link><guid isPermaLink="false">gao-neng-liang_7e7f6c32c833</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>王华东：中国有十多家两百亿估值的机器人公司，硅谷只有五家二十亿美元的</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[高能量] 王华东：中国有十多家两百亿估值的机器人公司，硅谷只有五家二十亿美元的</title><link>https://xlicz.github.io/podcast-rss/articles/王华东-中国有十多家两百亿估值的机器人公司-硅谷只有五家二十亿美元的-2026-09-16.html</link><guid isPermaLink="false">gao-neng-liang_7e7f6c32c833</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>王华东：中国有十多家两百亿估值的机器人公司，硅谷只有五家二十亿美元的</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">王华东：中国有十多家两百亿估值的机器人公司，硅谷只有五家二十亿美元的</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1380,7 +1459,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 一群 Agent 在 OpenAI 内部搭了块秘密留言板</title><link>https://xlicz.github.io/podcast-rss/articles/一群-Agent-在-OpenAI-内部搭了块秘密留言板-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6911f7f67b41</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>一群 Agent 在 OpenAI 内部搭了块秘密留言板</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 一群 Agent 在 OpenAI 内部搭了块秘密留言板</title><link>https://xlicz.github.io/podcast-rss/articles/一群-Agent-在-OpenAI-内部搭了块秘密留言板-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_6911f7f67b41</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>一群 Agent 在 OpenAI 内部搭了块秘密留言板</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">一群 Agent 在 OpenAI 内部搭了块秘密留言板</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1452,7 +1532,9 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] AI 的集中不是必然，它只是这一代技术的属性</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的集中不是必然-它只是这一代技术的属性-2026-09-07.html</link><guid isPermaLink="false">a16z_72f488754882</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>AI 的集中不是必然，它只是这一代技术的属性</description></item><item><title>[跨国串门儿计划] AlphaGo 的第 37 手是创新，不是创造力</title><link>https://xlicz.github.io/podcast-rss/articles/AlphaGo-的第-37-手是创新-不是创造力-2026-09-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4b271db5b1ce</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AlphaGo 的第 37 手是创新，不是创造力</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] AI 的集中不是必然，它只是这一代技术的属性</title><link>https://xlicz.github.io/podcast-rss/articles/AI-的集中不是必然-它只是这一代技术的属性-2026-09-07.html</link><guid isPermaLink="false">a16z_72f488754882</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>AI 的集中不是必然，它只是这一代技术的属性</description></item>
+<item><title>[跨国串门儿计划] AlphaGo 的第 37 手是创新，不是创造力</title><link>https://xlicz.github.io/podcast-rss/articles/AlphaGo-的第-37-手是创新-不是创造力-2026-09-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4b271db5b1ce</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>AlphaGo 的第 37 手是创新，不是创造力</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AlphaGo 的第 37 手是创新，不是创造力</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1516,7 +1598,10 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[屠龙之术] 76 张图表，一场不做整理的演讲</title><link>https://xlicz.github.io/podcast-rss/articles/76-张图表-一场不做整理的演讲-2026-09-02.html</link><guid isPermaLink="false">tu-long-zhi-shu_53ae491fe9d6</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>76 张图表，一场不做整理的演讲</description></item><item><title>[a16z] 一人一剂的癌症疫苗，赢了二十年来的第一局</title><link>https://xlicz.github.io/podcast-rss/articles/一人一剂的癌症疫苗-赢了二十年来的第一局-2026-09-02.html</link><guid isPermaLink="false">a16z_6b1b85017390</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>一人一剂的癌症疫苗，赢了二十年来的第一局</description></item><item><title>[屠龙之术] AI 季报：当模型变成制造业，奇观成了新的 benchmark</title><link>https://xlicz.github.io/podcast-rss/articles/AI-季报-当模型变成制造业-奇观成了新的-benchmark-2026-09-15.html</link><guid isPermaLink="false">tu-long-zhi-shu_2330f64803d2</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 季报：当模型变成制造业，奇观成了新的 benchmark</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[屠龙之术] 76 张图表，一场不做整理的演讲</title><link>https://xlicz.github.io/podcast-rss/articles/76-张图表-一场不做整理的演讲-2026-09-02.html</link><guid isPermaLink="false">tu-long-zhi-shu_53ae491fe9d6</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>76 张图表，一场不做整理的演讲</description></item>
+<item><title>[a16z] 一人一剂的癌症疫苗，赢了二十年来的第一局</title><link>https://xlicz.github.io/podcast-rss/articles/一人一剂的癌症疫苗-赢了二十年来的第一局-2026-09-02.html</link><guid isPermaLink="false">a16z_6b1b85017390</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>一人一剂的癌症疫苗，赢了二十年来的第一局</description></item>
+<item><title>[屠龙之术] AI 季报：当模型变成制造业，奇观成了新的 benchmark</title><link>https://xlicz.github.io/podcast-rss/articles/AI-季报-当模型变成制造业-奇观成了新的-benchmark-2026-09-15.html</link><guid isPermaLink="false">tu-long-zhi-shu_2330f64803d2</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 季报：当模型变成制造业，奇观成了新的 benchmark</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 季报：当模型变成制造业，奇观成了新的 benchmark</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1585,7 +1670,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[硅谷101] 推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</title><link>https://xlicz.github.io/podcast-rss/articles/推理芯片之战-Groq-Cerebras-与-OpenAI-的三条路线-2026-09-16.html</link><guid isPermaLink="false">sv101_7bd5a5f49e31</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[硅谷101] 推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</title><link>https://xlicz.github.io/podcast-rss/articles/推理芯片之战-Groq-Cerebras-与-OpenAI-的三条路线-2026-09-16.html</link><guid isPermaLink="false">sv101_7bd5a5f49e31</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">推理芯片之战：Groq、Cerebras 与 OpenAI 的三条路线</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1663,7 +1749,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[十字路口Crossing] 24 岁，他在回答"具身的智能是什么"</title><link>https://xlicz.github.io/podcast-rss/articles/24-岁-他在回答-具身的智能是什么-2026-09-16.html</link><guid isPermaLink="false">crossing_bf09c16621f9</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>24 岁，他在回答"具身的智能是什么"</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[十字路口Crossing] 24 岁，他在回答"具身的智能是什么"</title><link>https://xlicz.github.io/podcast-rss/articles/24-岁-他在回答-具身的智能是什么-2026-09-16.html</link><guid isPermaLink="false">crossing_bf09c16621f9</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>24 岁，他在回答"具身的智能是什么"</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">24 岁，他在回答"具身的智能是什么"</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -1748,7 +1835,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 把认知努力留给难题：如何把教学法做进 AI 系统</title><link>https://xlicz.github.io/podcast-rss/articles/把认知努力留给难题-如何把教学法做进-AI-系统-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_3611d4b5ee2a</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>把认知努力留给难题：如何把教学法做进 AI 系统</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 把认知努力留给难题：如何把教学法做进 AI 系统</title><link>https://xlicz.github.io/podcast-rss/articles/把认知努力留给难题-如何把教学法做进-AI-系统-2026-09-16.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_3611d4b5ee2a</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>把认知努力留给难题：如何把教学法做进 AI 系统</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">把认知努力留给难题：如何把教学法做进 AI 系统</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：当 AI 既是唯一的老师、也是唯一的界面，"学习"里最该省掉的与最该保留的东西分别是什么？</strong></p>
@@ -1791,7 +1879,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[a16z] 欢迎来到 AGI 时代——以及一个非常危险的窗口</title><link>https://xlicz.github.io/podcast-rss/articles/欢迎来到-AGI-时代--以及一个非常危险的窗口-2026-09-14.html</link><guid isPermaLink="false">a16z_7e0c73b2bd15</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0800</pubDate><description>欢迎来到 AGI 时代——以及一个非常危险的窗口</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">欢迎来到 AGI 时代——以及一个非常危险的窗口</h1>
 <p style="margin:0.8em 0">一面是“欢迎来到 AGI 时代”，一面是“我们正处于一个非常危险的窗口”。OpenAI 联合创始人兼总裁 Greg Brockman 在 a16z 播客上，把这两句话之间的完整逻辑讲了一遍：AGI 的成色、算力的墙、防御者的窗口，和一个还没有兑现的承诺。</p>
@@ -8510,7 +8599,8 @@ tw#28）；SEA高位维持</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[AI动态] AI 领域动态 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-15.html</link><guid isPermaLink="false">report:AI动态:2026-09-15:7417ac6f</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-15</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-15.html</link><guid isPermaLink="false">report:AI动态:2026-09-15:7417ac6f</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/15（"放缓"呼声引发芯片股重挫 / 宇树 G1+ 发布 / 波士顿动力 IPO 无望 2027 / OpenAI 收购 Glass Imaging / 生数 Motus2）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -8595,7 +8685,8 @@ tw#28）；SEA高位维持</li>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[播客信号] 播客投资信号 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-15.html</link><guid isPermaLink="false">report:播客信号:2026-09-15:d5bc0ee8</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-15</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-15.html</link><guid isPermaLink="false">report:播客信号:2026-09-15:d5bc0ee8</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-15 13:16</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -8708,7 +8799,8 @@ tw#28）；SEA高位维持</li>
 <p style="margin:0.8em 0"><em>报告生成: 2026-09-15T13:16:43.766173 | 管线: rss_audio_pipeline → transcript_adapter → podcast-signal-monitor v0.5</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-15.html</link><guid isPermaLink="false">report:雪球动态:2026-09-15:196b301a</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-15</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-15.html</link><guid isPermaLink="false">report:雪球动态:2026-09-15:196b301a</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-15 22:15</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -8974,7 +9066,8 @@ tw#28）；SEA高位维持</li>
 <p style="margin:0.8em 0"><em>附：本轮归档 123 帖入历史库；快照已更新（138 条 API 基准）。数据源：雪球 API 直连 + global_search（新浪财经/每经/国信/国海/华创/CF40/统计局）。</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-15.html</link><guid isPermaLink="false">report:STH解码:2026-09-15:e8d79ba3</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-15</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-15.html</link><guid isPermaLink="false">report:STH解码:2026-09-15:e8d79ba3</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年09月15日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -9066,7 +9159,8 @@ tw#28）；SEA高位维持</li>
 <p style="margin:0.8em 0"><em>数据源：雪球API直连（curl通道）+帖内GS研报图（已解析）+global_search多源（野村/路透/海关总署/华尔街见闻/CNBC/大摩研报）+STH RAG Phase 2（1692 docs重建）。</em></p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-15.html</link><guid isPermaLink="false">report:心动日报:2026-09-15:91096dfd</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-15</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-15</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-15.html</link><guid isPermaLink="false">report:心动日报:2026-09-15:91096dfd</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-15</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-15（周二）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -9467,7 +9561,8 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-16.html</link><guid isPermaLink="false">report:播客信号:2026-09-16:22dbe649</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-16</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-16.html</link><guid isPermaLink="false">report:播客信号:2026-09-16:22dbe649</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-16</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-16 05:14</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -9738,7 +9833,8 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-16.html</link><guid isPermaLink="false">report:AI动态:2026-09-16:76ef77c8</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-16</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-16.html</link><guid isPermaLink="false">report:AI动态:2026-09-16:76ef77c8</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-16</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/16（Gemini 3.8 Live 语音双模型 / Agility Digit 5 发布 / TypeSafe "System One" 决策模型 / Meta MTIA 450 / 无问芯穹 APXInf 开源）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -9823,7 +9919,8 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-16.html</link><guid isPermaLink="false">report:雪球动态:2026-09-16:26b8167a</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-16</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-16.html</link><guid isPermaLink="false">report:雪球动态:2026-09-16:26b8167a</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-16</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-16 22:15</h1>
 <p style="margin:0.8em 0">📈 雪球 09/16 22:15 | 🔐 登录: API通道✅ · web半登录(窗口已开) | 新帖 101 条 | 🔥5组61帖 · 🔴1组1帖 · ⚪39帖</p>
@@ -9931,7 +10028,8 @@ PC在线统计✅（评论线程原始数据）| H1数字✅
 <p style="margin:0.8em 0"><em>数据源：雪球API直连(fetch_xueqiu_api.py) · STH global_search · hermes-python reverse-check · 行情qt.gtimg.cn(9/16收盘)。归档：data/history/ 共99帖入库（2短帖跳过）。</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-16.html</link><guid isPermaLink="false">report:心动日报:2026-09-16:bc68ed12</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-16</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-16</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-16.html</link><guid isPermaLink="false">report:心动日报:2026-09-16:bc68ed12</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-16</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-16（周三）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -10374,7 +10472,8 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-17.html</link><guid isPermaLink="false">report:播客信号:2026-09-17:2e95fb41</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-17.html</link><guid isPermaLink="false">report:播客信号:2026-09-17:2e95fb41</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-17 05:04 CST</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -10613,7 +10712,8 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-17.html</link><guid isPermaLink="false">report:AI动态:2026-09-17:7bac34d4</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-17.html</link><guid isPermaLink="false">report:AI动态:2026-09-17:7bac34d4</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/17</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -10660,7 +10760,8 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-17.html</link><guid isPermaLink="false">report:雪球动态:2026-09-17:8bc5c171</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-17.html</link><guid isPermaLink="false">report:雪球动态:2026-09-17:8bc5c171</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-17 22:13</h1>
 <p style="margin:0.8em 0">📈 雪球 09/17 22:13 | 🔐 登录: API通道✅ · web半登录(登录窗口已开至~23:04) | 新帖 84 条 | 🔥4组18帖 · 🔴4组10帖 · ⚪56帖</p>
@@ -10809,7 +10910,8 @@ Aniimo Steam在线✅（121,367）| 24年初低点
 <p style="margin:0.8em 0"><em>数据源：雪球 API 直连(fetch_xueqiu_api.py) · sth global_search · hermes-python reverse-check · 行情 qt.gtimg.cn(9/17 收盘)。归档：data/history/ 共 83 帖入库（1 短帖跳过）。</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-17.html</link><guid isPermaLink="false">report:STH解码:2026-09-17:79791ed2</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-17.html</link><guid isPermaLink="false">report:STH解码:2026-09-17:79791ed2</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年09月17日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -10878,7 +10980,8 @@ Jackson Hole发言前后：美元指数上涨0.3，日元贬值接近160关口�
 <p style="margin:0.8em 0"><em>数据源：雪球API直连（curl通道，page1 21条全量核验）+帖内点阵图（6月 vs 9月对比，已解析）+global_search多源（瑞银/中信证券/腾讯财经/工银国际/经济参考报/经济观察报/路透）+STH RAG Phase 2（1693 docs重建，5组检索）。</em></p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-17.html</link><guid isPermaLink="false">report:心动日报:2026-09-17:20ddcb37</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-17</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-17</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-17.html</link><guid isPermaLink="false">report:心动日报:2026-09-17:20ddcb37</guid><pubDate>Thu, 17 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-17</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-17（周四）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -11317,7 +11420,8 @@ SteamCharts 112,519）| 汇量+15.0%✅（9-11
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-18.html</link><guid isPermaLink="false">report:播客信号:2026-09-18:498bdf11</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-18</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-18.html</link><guid isPermaLink="false">report:播客信号:2026-09-18:498bdf11</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-18</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-18 05:05 CST</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -11393,7 +11497,8 @@ SteamCharts 112,519）| 汇量+15.0%✅（9-11
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-18.html</link><guid isPermaLink="false">report:AI动态:2026-09-18:f88b2561</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-18</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-18.html</link><guid isPermaLink="false">report:AI动态:2026-09-18:f88b2561</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-18</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/18</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -11440,7 +11545,8 @@ SteamCharts 112,519）| 汇量+15.0%✅（9-11
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-18.html</link><guid isPermaLink="false">report:雪球动态:2026-09-18:0d9df850</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-18</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-18.html</link><guid isPermaLink="false">report:雪球动态:2026-09-18:0d9df850</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-18</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-18 22:12</h1>
 <p style="margin:0.8em 0">📈 雪球 09/18 22:12 | 🔐 登录: API通道✅ · web半登录(登录窗口已开) | 新帖 92 条 | 🔥5组35帖 · 🔴1组3帖 · ⚪54帖</p>
@@ -11572,7 +11678,8 @@ SteamCharts 112,519）| 汇量+15.0%✅（9-11
 <p style="margin:0.8em 0"><em>数据源：雪球 API 直连(fetch_xueqiu_api.py) · sth global_search · hermes-python reverse-check · 行情 qt.gtimg.cn / 腾讯K线(9/18 收盘) · 债券资料(新浪财经)。归档：data/history/ 共 87 帖入库（5 短帖跳过）。</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-18.html</link><guid isPermaLink="false">report:STH解码:2026-09-18:f578360e</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-18</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-18.html</link><guid isPermaLink="false">report:STH解码:2026-09-18:f578360e</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-18</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年09月18日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -11648,7 +11755,8 @@ FED 46~57%概率加息25bp（polymarket~cme）。
 <p style="margin:0.8em 0"><em>数据源：雪球 API 直连（curl 通道，cookie 有效核验；增量 +2 帖[409773614/409772383]→全量 1671 行）→ fix_full_text 全文替换 → convert → RAG Phase 2 重建（1693→1695 docs）+6 组混合检索；Tbills timeline API 跨源实抓（9-1/9-18 帖全文）；实时汇率（sina/eastmoney 外核）。</em></p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-18.html</link><guid isPermaLink="false">report:心动日报:2026-09-18:2dc10d69</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-18</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-18</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-18.html</link><guid isPermaLink="false">report:心动日报:2026-09-18:2dc10d69</guid><pubDate>Fri, 18 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-18</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-18（周五）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12037,7 +12145,8 @@ PC时间线提前=更新非下修）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-19.html</link><guid isPermaLink="false">report:播客信号:2026-09-19:cec7b7a2</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-19.html</link><guid isPermaLink="false">report:播客信号:2026-09-19:cec7b7a2</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-19 05:04 CST</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12155,7 +12264,8 @@ PC时间线提前=更新非下修）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[宏观分析] STH_ 每日宏观分析 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-09-19.html</link><guid isPermaLink="false">report:宏观分析:2026-09-19:c2e7bd76</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-09-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[宏观分析] STH_ 每日宏观分析 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-09-19.html</link><guid isPermaLink="false">report:宏观分析:2026-09-19:c2e7bd76</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-09-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日宏观分析 2026-09-19 (周六)</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12644,7 +12754,8 @@ PC时间线提前=更新非下修）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>宏观分析</category></item><item><title>[AI动态] AI 领域动态 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-19.html</link><guid isPermaLink="false">report:AI动态:2026-09-19:4e043efe</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>宏观分析</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-19.html</link><guid isPermaLink="false">report:AI动态:2026-09-19:4e043efe</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/19</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -12691,7 +12802,8 @@ PC时间线提前=更新非下修）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-19.html</link><guid isPermaLink="false">report:雪球动态:2026-09-19:8d1e8f22</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-19.html</link><guid isPermaLink="false">report:雪球动态:2026-09-19:8d1e8f22</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-19 22:15</h1>
 <p style="margin:0.8em 0">📈 雪球 09/19 22:15 | 🔐 登录: API通道✅ · web半登录(登录窗口已开) | 新帖 50 条 | 🔥3组10帖 · 🔴2组3帖 · ⚪37帖</p>
@@ -12798,7 +12910,8 @@ PC时间线提前=更新非下修）</li>
 <p style="margin:0.8em 0"><em>报告生成：2026-09-19 22:15 | 数据：API直连（52+1帖/29用户）| 历史检索：Phase1×7作者 | 反向检查：老窖/会稽山</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-19.html</link><guid isPermaLink="false">report:心动日报:2026-09-19:e198506c</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-19</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-19</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-19.html</link><guid isPermaLink="false">report:心动日报:2026-09-19:e198506c</guid><pubDate>Sat, 19 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-19</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-19（周六）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13168,7 +13281,8 @@ mk内购=路径推进）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-20.html</link><guid isPermaLink="false">report:播客信号:2026-09-20:324b6511</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-20.html</link><guid isPermaLink="false">report:播客信号:2026-09-20:324b6511</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-20 05:02 CST</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13282,7 +13396,8 @@ mk内购=路径推进）</li>
 </table></div>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-20.html</link><guid isPermaLink="false">report:AI动态:2026-09-20:8bd51b9d</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-20.html</link><guid isPermaLink="false">report:AI动态:2026-09-20:8bd51b9d</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/20</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13336,7 +13451,8 @@ mk内购=路径推进）</li>
 📌 AI 硬件方向今日无独立重大新闻；FCC 机器人禁令为硬件供应链监管最相关动态。</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-20.html</link><guid isPermaLink="false">report:雪球动态:2026-09-20:0a330e45</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-20.html</link><guid isPermaLink="false">report:雪球动态:2026-09-20:0a330e45</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-20 22:30</h1>
 <p style="margin:0.8em 0">📈 雪球 09/20 22:30 | 🔐 登录: API通道✅ · web半登录（登录窗口已开） | 新帖 57 条 | 🔥2组11帖 · 🔴1组4帖 · ⚪42帖</p>
@@ -13399,7 +13515,8 @@ mk内购=路径推进）</li>
 <p style="margin:0.8em 0"><em>报告生成：2026-09-20 22:30 | 数据：API直连（67 帖/29 用户）| 历史检索：Phase1×6 查询 | 反向检查：泸州老窖 | 独立验证源：Steam API/SteamCharts/财联社/21 财经/里昂/华创/东方证券/十五五规划</em></p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-20.html</link><guid isPermaLink="false">report:心动日报:2026-09-20:86228447</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-20</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-20</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-20.html</link><guid isPermaLink="false">report:心动日报:2026-09-20:86228447</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-20</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-20（周日）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -13843,7 +13960,8 @@ us/eu持续）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[心动日报] 心动投资日报 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-21.html</link><guid isPermaLink="false">report:心动日报:2026-09-21:977dfa0d</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-21</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-21.html</link><guid isPermaLink="false">report:心动日报:2026-09-21:977dfa0d</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-20（周日）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14287,7 +14405,8 @@ us/eu持续）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-21.html</link><guid isPermaLink="false">report:播客信号:2026-09-21:8ec76de3</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-21</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-21.html</link><guid isPermaLink="false">report:播客信号:2026-09-21:8ec76de3</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-21 05:05 CST</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14483,7 +14602,8 @@ us/eu持续）</li>
 <p style="margin:0.8em 0"><em>生成: 2026-09-21 05:05 CST | podcast-signal-monitor v0.6</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-21.html</link><guid isPermaLink="false">report:AI动态:2026-09-21:4e68a062</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-21</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-21</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-21.html</link><guid isPermaLink="false">report:AI动态:2026-09-21:4e68a062</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-21</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/21</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14537,7 +14657,8 @@ us/eu持续）</li>
 <p style="margin:0.8em 0">📊 本期覆盖: AI ×2 | 机器人 ×1 | 具身智能 ×1 | AI 硬件 ×1 | 🔍 来源分布: 🟢2 🟡3 🔴0</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[播客信号] 播客投资信号 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-22.html</link><guid isPermaLink="false">report:播客信号:2026-09-22:48dbd3b9</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-22</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-22.html</link><guid isPermaLink="false">report:播客信号:2026-09-22:48dbd3b9</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-22</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-22 14:44</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14657,7 +14778,8 @@ us/eu持续）</li>
 <p style="margin:0.8em 0"><em>数据源：本地 RSS → ASR pipeline（中文 Qwen3-ASR 0.6B / 英文 Parakeet-tdt-1.1b）。Raw transcript 含同音错字，已按领域知识推断修正（如"approven 的杯子/Adam Frooey" → AppLovin / Adam Foroughi；"Taladant" → Teledyne；"Evan Note" → Evernote；"Brosscombe 飞" → BrowseComp）。</em></p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-22.html</link><guid isPermaLink="false">report:AI动态:2026-09-22:09169fea</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-22</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-22.html</link><guid isPermaLink="false">report:AI动态:2026-09-22:09169fea</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-22</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/22</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14712,7 +14834,8 @@ us/eu持续）</li>
 📅 覆盖时段: 09/17–09/22（D-Robotics 为 09/17）</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-22.html</link><guid isPermaLink="false">report:STH解码:2026-09-22:1ef08bfc</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-22</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-22.html</link><guid isPermaLink="false">report:STH解码:2026-09-22:1ef08bfc</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-22</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">STH_ 每日发言深度解析 — 2026年09月22日</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14920,7 +15043,8 @@ us/eu持续）</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">结论</strong>：本次为<strong style="font-weight:600">确认型更新，非信号型</strong>——STH_ 未点名新标的、未改变任何既有立场。唯一可操作增量：① 峰值区间收窄至 +3.2~3.6℃ 可当既定输入使用；② "影响滞后"提示通胀/农产品逻辑的久期应延伸至 27 年下半年，即使现象在 27 年 4-6 月结束。<strong style="font-weight:600">Action item</strong>：下次跟踪需补两项——市场定价进度（赔率是否仍在）与 lag 量化（滞后多久、影响哪些品类）。</p>
 
 </div>
-]]></content:encoded><category>STH解码</category></item><item><title>[心动日报] 心动投资日报 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-22.html</link><guid isPermaLink="false">report:心动日报:2026-09-22:ecc09efd</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-22</description><content:encoded><![CDATA[
+]]></content:encoded><category>STH解码</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-22</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-22.html</link><guid isPermaLink="false">report:心动日报:2026-09-22:ecc09efd</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-22</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-22（周二·收盘版）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">

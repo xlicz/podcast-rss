@@ -1,0 +1,40 @@
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">BM25 回来了：不是检索变了，是搜索的人变了</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一个三十年前的词频打分函数，正在 Agent 搜索里反超向量检索。原因不在算法，在于它的使用者换了一个物种——而过去被拿来当「基线」的 BM25，从来没有人认真配置过。</strong></p>
+<p style="margin:0.8em 0">三十年前的信息检索论文里，BM25 的角色是靶子。你想证明自己的神经网络模型更好，就得先跑一遍 BM25 作为基线，然后展示自己比它高几个点。做了二十多年检索的 Jo Kristian Bergum 在一场演讲里把这个行业习惯翻了过来：BM25 并没有变，变的是使用者。当用户从「在搜索框里敲三个词的人」变成「能一次性写出一长串结构化查询、并且知道自己要找什么的模型」，那个被当作下限的基线函数，反而变成了上限的一部分。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">新用户：搜索发生在 Agent 循环内部</h2>
+<p style="margin:0.8em 0">Bergum 给「Agent 式搜索」下的定义很窄：<strong style="font-weight:600">在 Agent 循环内部进行的搜索</strong>。一个 Agent 在写代码、做深度研究、或完成任何任务的过程中，产生了信息需求，于是它去检索——检索是任务的一部分，而不是任务的终点。</p>
+<p style="margin:0.8em 0">要给这种搜索搭一套基础设施，他认为需要三样东西：一是一个能力足够强、并且会用工具构造查询词的模型；二是围绕这个模型的测试框架（harness），以及把检索能力暴露给模型的方式——工具调用是一种，代码模式是另一种；三是一个能在几十亿文档量级上高效检索的引擎。</p>
+<p style="margin:0.8em 0">这三样里最容易被忽略的是第二样。检索能力怎么交付给模型，决定了后面所有的东西。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么 BM25 反而更强</h2>
+<p style="margin:0.8em 0">BM25 的意思是 Best Match 25：当年一批研究者做了一连串实验，第二十五号实验效果最好，名字就这么留下了。它本质是一个打分函数——给定一个查询和一篇文档，算出二者的相关度分数。</p>
+<p style="margin:0.8em 0">真正的变化来自使用者的能力。今天的语言模型内置了大量隐式常识：它知道实体、公司、日期，它「打字更快」，能一口气写出很长、很具体的查询，还会用从网页搜索里学来的语法操作符，比如 site 限定和短语匹配。对比之下，人类用户的习惯几十年没变——Bergum 拿 AOL 当年意外泄露的查询日志做参照，那些查询都很短，而更新的查询日志显示人们依然只敲几个词。</p>
+<p style="margin:0.8em 0">对一个能力这么强的用户来说，精准匹配的价值被重新放大了。模型本来就知道人名、实体、邮编、SKU 这类东西，而这类字面量恰恰是 embedding 模型难办的——把所有 token 编码进固定词表的做法，天生不擅长表征它们。BM25 还有两个现实优势：便宜，以及可解释。一个八十亿参数的 embedding 模型给文本编码是要搭推理基础设施的；而 BM25 的生态和工具链拿来就能用，更重要的是<strong style="font-weight:600">模型能看懂它为什么返回这个结果</strong>——因为匹配的是字面上的词和短语——看懂之后就能有依据地重构查询。</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">BM25 并没有变，它还是原来的评分函数。变化是我们迎来了更强大的使用者。</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">「你说的是哪个 BM25」</h2>
+<p style="margin:0.8em 0">这里有一段被行业集体忽略的公案。BrowseComp Plus 这类基准测试里，BM25 一向被拿来当基线，但 Bergum 说，那个基线做得非常糟糕。当年的论文里，更花哨的 embedding 模型看起来远优于 BM25；但后续研究表明，那些实验里用的 BM25 参数根本不足以应付长文档——而参数选得好不好，对基准测试的整体准确率影响相当大。</p>
+<p style="margin:0.8em 0">所以他反复追问同一个问题：你说的是哪个 BM25？不同实现、不同参数下，BM25 是两个不同的东西。一句话判决了延续多年的「基线崇拜」。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上下文窗口是一张软盘</h2>
+<p style="margin:0.8em 0">Bergum 用一个上了年纪的人才会用的比喻解释检索为什么不可替代：上下文窗口就是一张软盘。一张 1.4 兆的软盘，差不多等于他认为模型质量开始下降前能吃下的三十五万个 token。</p>
+<p style="margin:0.8em 0">这个比喻的价值在于它的推论——<strong style="font-weight:600">哪怕你有一个完美的、AGI 级别的模型，你依然受限于一张软盘大小的上下文窗口</strong>。所以问题从来不是「模型够不够聪明」，而是「你决定往这张软盘里放什么」。检索不是模型能力的替代品，是它的前置条件。</p>
+<p style="margin:0.8em 0">他还用 BrowseComp 展示检索质量如何直接决定端到端准确率。那是去年发表的一个深度研究基准，大约八百三十道题，题目像酒吧问答游戏里的谜语——又长又绕，但都有唯一的标准答案。基准的设定极其克制：模型只拿到一个工具，叫搜索，接收一个查询字符串，返回若干摘要片段；语料库只有十万篇左右网页文档。</p>
+<p style="margin:0.8em 0">关键发现在于：如果只看「模型 + 搜索工具」的准确率，是一回事；一旦把测试框架、查询组织能力、检索器的检索质量全部算进来，准确率就掉下来了。也就是说，端到端成绩里包含了大量与模型本身无关的变量——而基准测试报告通常把它们搅在一起。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把检索结果放进文件系统</h2>
+<p style="margin:0.8em 0">Bergum 最喜欢的一篇新论文来自滑铁卢大学 Jimmy Lin 团队，题目是《Scaling Direct Corpus Interaction via Dynamic Workspace Expansion》。它解决的正是上面那个「软盘」问题。</p>
+<p style="margin:0.8em 0">思路是：当你要为 Agent 搭网页搜索基础设施，几十亿篇文档显然塞不进上下文，必须检索。你可以把 BM25 当作基线来召回一批文档，但召回结果不要压成一段文本喂给模型，而是组织成一个<strong style="font-weight:600">工作区</strong>——如果做成文件系统的形态，就能复用模型已经非常熟悉的那套机制：先把标题和一小段摘要展示出来，模型判断「我需要多看这篇」，再用它本来就擅长的 grep、cat、tail 去取内容。</p>
+<p style="margin:0.8em 0">这相当于针对模型现有的能力长板做设计——去迎合它已经会的东西，而不是逼它学新接口。因为所有前沿模型公司都在针对写代码、bash 和工具调用做优化，把任务挂在这条发展轨迹上，意味着每当新模型出来，你在这一环上就自动变强。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">评估体系先失效了</h2>
+<p style="margin:0.8em 0">一个容易被跳过的后果是：经典的信息检索评估方法已经不管用了。</p>
+<p style="margin:0.8em 0">传统 IR 的评估范式是「一个查询、一份排序列表、算一下 NDCG、比一比」。但当查询者变成 Agent，这个框架就崩了——Agent 可以重构查询、发起更多查询、扩展、组合，它做的动作远不止「构造一次查询」这一个。检索系统的好坏，不再由一次排序的质量决定。</p>
+<p style="margin:0.8em 0">至于 Bergum 自己给出的工程成绩：在他们单节点一亿篇网页文档的对比里，其实现比参与对比的几款引擎高效得多——同样的钱能跑出更高的吞吐量。这条结论要按厂商自述读：对比是匿名的，测试方法由他一方设定，但它指向的方向不难理解——在一个 Agent 会把查询次数放大几十倍的场景里，检索的单位成本会沿着整个产品链路传导。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">值得带走的四点</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">出现了一个新用户：它打字更快、知识更多、能重构查询——这让 grep 和 BM25 这类简单工具重新变强。</li>
+<li style="margin:0.3em 0">「你说的是哪个 BM25」：实现和参数差异会让同一个算法表现为两个东西，历史上被当作基线的 BM25 往往配置得极差。</li>
+<li style="margin:0.3em 0">BM25 在 Agent 检索中有效的核心原因是可解释：模型看得懂字面匹配的结果，因而能据此判断和改写查询。</li>
+<li style="margin:0.3em 0">上下文窗口就是一张软盘。即使模型完美，往窗口里放什么的决定权仍然属于检索层。</li>
+</ul>
+
+</div>
