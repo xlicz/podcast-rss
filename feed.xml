@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 13:27:57 +0800</lastBuildDate><item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 23:00:12 +0800</lastBuildDate><item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：AICC 2026 人工智能计算大会侧记。需求侧从 Chat 到 Agent 的量级跃迁、智能侧从概率拟合到可信生产、供给侧系统—器件—生态三条路同时突围——这三件事正在同时决定 AI 能不能真的把活干完。</strong></p>
 <p style="margin:0.8em 0">IDC 在一场计算大会上给了两个数字：到 2030 年，全球 AI 算力的供需缺口将达到 3809 亿美元，而 2024 年这个缺口是 389 亿美元——不到十年，近十倍。同时，2026 到 2030 年全球 token 消耗量的复合增长率被统计为 4822.6%。</p>
-<p style="margin:0.8em 0">这两个数字放在一起，说的其实不是&quot;算力紧张&quot;。它说的是 AI 的位置变了：它不再是人手里的工具，而开始成为能够独立承担生产任务的运行单元。而一旦它开始承担任务，&quot;够不够用&quot;这个问题就再也不能用单次调用的口径去回答了。</p>
+<p style="margin:0.8em 0">这两个数字放在一起，说的其实不是"算力紧张"。它说的是 AI 的位置变了：它不再是人手里的工具，而开始成为能够独立承担生产任务的运行单元。而一旦它开始承担任务，"够不够用"这个问题就再也不能用单次调用的口径去回答了。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">需求侧的第一句话：agent 等于模型加 harness</h2>
 <p style="margin:0.8em 0">大会上午的主会场，IDC 的副总裁用一整份长报告把这件事讲透了。这份报告由 IDC 与浪潮信息联合发布，叫《2026 中国人工智能计算力发展评估报告》。</p>
 <p style="margin:0.8em 0">报告给出的第一个业界共识是一句公式：<strong style="font-weight:600">agent = model + harness</strong>。model 决定 agent 的智能上限——推理长度、上下文长度、是否支持多模态、工具调用能力、成本差异。正因为不同模型在不同任务上强弱分明，模型路由层开始变得重要：按任务类型、用户意图、负载情况做动态匹配。</p>
@@ -17,41 +17,41 @@
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">缺口的乘法：三个乘数，而不是一条曲线</h2>
 <p style="margin:0.8em 0">4822.6% 这个复合增长率是怎么来的？IDC 拆成了三个乘数相乘。</p>
 <p style="margin:0.8em 0">第一是<strong style="font-weight:600">任务执行次数</strong>：从 2026 年的 2800 亿次，涨到 2030 年的 415 万亿次。第二是<strong style="font-weight:600">单任务 token 消耗</strong>：过去的任务偏简单，单任务消耗几十个 token；现在越来越多的是复杂任务，单任务消耗可以是数十万 token。第三是<strong style="font-weight:600">多智能体协同的放大系数</strong>：一个用户任务被拆成多个 agent 的子任务，任务执行次数被推高；agent 之间的上下文传递与结果汇总又拉长了任务链路，进一步推高单任务消耗——这就是所谓的长程任务。</p>
-<p style="margin:0.8em 0">三个乘数一乘，token 消耗的量级就解释清楚了。算力需求也因此从&quot;单次调用&quot;转向&quot;持续协同&quot;。</p>
-<p style="margin:0.8em 0">有意思的是，供给侧的缓解并不如很多人预期。IDC 统计了一个&quot;算力满足度&quot;指标（算力供给除以算力需求）：2026 年约 74%，2027 年反而更紧，降到 71%；2028 年回到 75%；2029 到 2030 年能到 76% 甚至 77%。满足度在缓慢改善，但缺口的绝对值仍从 389 亿美元放大到 3809 亿美元——因为需求端着火的速度更快。</p>
+<p style="margin:0.8em 0">三个乘数一乘，token 消耗的量级就解释清楚了。算力需求也因此从"单次调用"转向"持续协同"。</p>
+<p style="margin:0.8em 0">有意思的是，供给侧的缓解并不如很多人预期。IDC 统计了一个"算力满足度"指标（算力供给除以算力需求）：2026 年约 74%，2027 年反而更紧，降到 71%；2028 年回到 75%；2029 到 2030 年能到 76% 甚至 77%。满足度在缓慢改善，但缺口的绝对值仍从 389 亿美元放大到 3809 亿美元——因为需求端着火的速度更快。</p>
 <p style="margin:0.8em 0">主讲人把原因归到物理世界的限制上：瓶颈不只是产能，还有能源，也就是电。最能说明紧张程度的是存储芯片——调价周期已经从季度缩到月度，全年涨幅 30% 到 50%，而这还是平均值，有几个核心板块的涨幅远超这个数。企业侧的信号也很直白：97.3% 的企业有投入意愿，37.7% 计划扩大投入。</p>
 <p style="margin:0.8em 0">IDC 由此给出五条趋势：AI 价值兑现提速；中国智能体部署渗透率领先全球；算力需求结构性跃升；算力上升为国家战略基础设施；供需缺口长期存在。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">智能的下一步：不是把模型堆得更大，而是让它可信</h2>
 <p style="margin:0.8em 0">大会的第二个主题更偏底层：智能本身该怎么重新定义。</p>
 <p style="margin:0.8em 0">同济大学党委书记郑庆华院士的判断是，这一代模型的下一步突破，不能只依赖数据和算力规模的拓展，还需要具备在知识和资源有限、环境持续变化的情况下学习与推理的能力——要把数据驱动和知识引导结合起来，借鉴人脑的记忆与联想机制。</p>
 <p style="margin:0.8em 0">他列举了当前大模型的结构性局限：算力和数据需求极度夸张；缺乏人类的抽象能力；黑箱不可解释；灾难性遗忘，学新任务会覆盖旧知识；上下文记忆窗口长期没有突破；小样本复杂推理的缺失。</p>
-<p style="margin:0.8em 0">然后他把人脑当作参照系：860 亿个左右的神经元，功耗只有 20 到 23 瓦，平均仅需 4% 的神经元同步激活就能解决很多问题；能自动纠偏，受噪声干扰仍能恢复正确记忆；能做内容联想和类脑检索；能切换状态。他主张的方向，是从大模型走向&quot;机器记忆智能&quot;——低功耗协同、在机制稀疏的情况下做强推理、对知识做结构化表征与压缩、在限定时间内输出可行方案、并能随时吸收新知识。</p>
+<p style="margin:0.8em 0">然后他把人脑当作参照系：860 亿个左右的神经元，功耗只有 20 到 23 瓦，平均仅需 4% 的神经元同步激活就能解决很多问题；能自动纠偏，受噪声干扰仍能恢复正确记忆；能做内容联想和类脑检索；能切换状态。他主张的方向，是从大模型走向"机器记忆智能"——低功耗协同、在机制稀疏的情况下做强推理、对知识做结构化表征与压缩、在限定时间内输出可行方案、并能随时吸收新知识。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">造物主给了我们一个示范，也就是人脑——它的功耗只有二十瓦出头。问题是我们要不要照着抄。</p>
 </blockquote>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">可靠性评测：要测的不是模型，是整条链路</h2>
 <p style="margin:0.8em 0">如果说郑院士谈的是智能往哪走，工信部电子第五研究所的一位高级副院长谈的就是怎么知道它到了没有。</p>
-<p style="margin:0.8em 0">他的核心判断是：AI 规模化落地，正在推动测评体系从&quot;模型能力评价&quot;走向&quot;全链路可靠性评价&quot;。原来那套评测已经不够用了——单点指标亮眼不代表系统协同有效；复杂任务需要多步骤高并发执行，试点跑通不代表生产环境搞得定；连 benchmark 本身的数据有效性都在面临巨大挑战，现有评测在场景、数据集、方法上的贴合度不足。</p>
+<p style="margin:0.8em 0">他的核心判断是：AI 规模化落地，正在推动测评体系从"模型能力评价"走向"全链路可靠性评价"。原来那套评测已经不够用了——单点指标亮眼不代表系统协同有效；复杂任务需要多步骤高并发执行，试点跑通不代表生产环境搞得定；连 benchmark 本身的数据有效性都在面临巨大挑战，现有评测在场景、数据集、方法上的贴合度不足。</p>
 <p style="margin:0.8em 0">他提出可靠评测体系需要在五个维度上整体改口径：<strong style="font-weight:600">测评对象</strong>从单一模型变成系统级智能体；<strong style="font-weight:600">测评方式</strong>从静态表单打分变成动态、持续、即时的测试；<strong style="font-weight:600">测评边界</strong>从测模型扩展到测整个技术栈；<strong style="font-weight:600">评测力度</strong>从只看得分变成对全流程轨迹做完整判断；<strong style="font-weight:600">评价标尺</strong>从打分高低变成价值与成本的综合考量，也就是 ROI。</p>
-<p style="margin:0.8em 0">落到链路上，从芯片（算力、带宽、能效、稳定度），到整机互联与算力集群（通信、故障恢复），到框架与系统（算子兼容、调度），到模型（准确率、幻觉、鲁棒性），到数据（质量、归属、溯源），到应用（闭环成效、安全退出）——每一层都要可证明、可控制、可承受。换句话说，只有可靠性一以贯之地穿透四层架构，才谈得上&quot;可靠 AI&quot;。</p>
+<p style="margin:0.8em 0">落到链路上，从芯片（算力、带宽、能效、稳定度），到整机互联与算力集群（通信、故障恢复），到框架与系统（算子兼容、调度），到模型（准确率、幻觉、鲁棒性），到数据（质量、归属、溯源），到应用（闭环成效、安全退出）——每一层都要可证明、可控制、可承受。换句话说，只有可靠性一以贯之地穿透四层架构，才谈得上"可靠 AI"。</p>
 <p style="margin:0.8em 0">会上，工信部电子第五研究所联合北京智源研究院、浪潮信息、摩尔线程、沐曦、北京开源芯片研究院、百度智能云、阿里云等二十多家产业链单位，正式发布了面向 AI 时代的可靠 AI 评测体系。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">系统层：算力要分成两条轨道</h2>
 <p style="margin:0.8em 0">供给侧的讨论，三位嘉宾正好对应系统、器件、生态三层。</p>
 <p style="margin:0.8em 0">系统层是浪潮信息首席 AI 战略官刘军。他的提法是：AI 让智能第一次可以像计算和电力一样被规模化生产——所以 AI 计算既要支撑前沿智能突破人类能力边界，也要推动智能的充分供给。</p>
-<p style="margin:0.8em 0">由此他提出算力的双轨制。<strong style="font-weight:600">能力型算力</strong>向上突破：支撑前沿模型研发，面向即将进入十万亿参数规模的开源模型（Kimi K3 已经到 2.8T，传闻中的 Claude 已经是 10T 量级；2026 年结束之后，最头部的厂商应该都奔着 10T 去了），极度追求连续稳定运行与低延迟。它的关键概念是&quot;有效计算域&quot;——一个智能实例能高效使用的计算域要足够大；技术落点是超节点，从&quot;更多服务器&quot;变成&quot;一台更大的计算机&quot;。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">容量型算力</strong>向广普惠：面向商业推理和海量高并发的终端需求，极度追求资源动态调度与防闲置。它的关键概念是多元算力协同；技术落点是推理机组，从一个计算机变成一个智能生产的工厂——也就是大家说的&quot;token 工厂&quot;。</p>
-<p style="margin:0.8em 0">他给出的注脚是长周期任务的脆弱性：agent 的运行时长已经从几个小时往几天走，而在漫长的推理与规划周期里，任何一次计算、通信或软件故障都会导致长周期任务中断。这也是能力型算力必须&quot;装得下、跑得快、跑得稳&quot;的原因。</p>
+<p style="margin:0.8em 0">由此他提出算力的双轨制。<strong style="font-weight:600">能力型算力</strong>向上突破：支撑前沿模型研发，面向即将进入十万亿参数规模的开源模型（Kimi K3 已经到 2.8T，传闻中的 Claude 已经是 10T 量级；2026 年结束之后，最头部的厂商应该都奔着 10T 去了），极度追求连续稳定运行与低延迟。它的关键概念是"有效计算域"——一个智能实例能高效使用的计算域要足够大；技术落点是超节点，从"更多服务器"变成"一台更大的计算机"。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">容量型算力</strong>向广普惠：面向商业推理和海量高并发的终端需求，极度追求资源动态调度与防闲置。它的关键概念是多元算力协同；技术落点是推理机组，从一个计算机变成一个智能生产的工厂——也就是大家说的"token 工厂"。</p>
+<p style="margin:0.8em 0">他给出的注脚是长周期任务的脆弱性：agent 的运行时长已经从几个小时往几天走，而在漫长的推理与规划周期里，任何一次计算、通信或软件故障都会导致长周期任务中断。这也是能力型算力必须"装得下、跑得快、跑得稳"的原因。</p>
 <p style="margin:0.8em 0">会上发布了对应两条轨道的两款产品：面向能力型的元脑 SD200 Ultra 超节点 AF 服务器——在 Kimi K3 的联合发布过程中，token 生成时延做到低至 5.85 毫秒，支持十万亿参数规模；面向容量型的元脑 HC2000 多元算力机组——同等投资下 token 产能提升十倍。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">器件层：把计算搬进存储里，28 纳米就够</h2>
 <p style="margin:0.8em 0">器件层的嘉宾来自清华，做的是存算一体芯片。</p>
 <p style="margin:0.8em 0">他的问题定义很朴素：当前 AI 数据中心里，数据在处理器和存储器之间来回搬运，这个搬运本身就是性能与能效的主要瓶颈。传统架构用纯数字逻辑计算，数据必须高频搬运，功耗极高——这既解释了为什么大家对高速内存的要求这么高，也解释了为什么功耗会撞墙，以及为什么必须依赖 7 纳米以下的先进制程。</p>
-<p style="margin:0.8em 0">存算一体的思路是把计算与存储融合在同一个存储阵列单元里，单个单元内同时完成存储和计算：数据在哪里，计算就在哪里，没有搬运。它的结果是&quot;零搬运&quot;，可以逼近硅基物理能效的极限，而且<strong style="font-weight:600">用成熟的 28 纳米制程就能实现性能跃迁</strong>。</p>
+<p style="margin:0.8em 0">存算一体的思路是把计算与存储融合在同一个存储阵列单元里，单个单元内同时完成存储和计算：数据在哪里，计算就在哪里，没有搬运。它的结果是"零搬运"，可以逼近硅基物理能效的极限，而且<strong style="font-weight:600">用成熟的 28 纳米制程就能实现性能跃迁</strong>。</p>
 <p style="margin:0.8em 0">这条路他们走了很久：从 130 纳米开始，做到 28 纳米、22 纳米，现在往 7 纳米方向走；在同制程的传统结构对比下，算力提升约 4 倍——28 纳米工艺下从 150 TOPS 涨到 600 TOPS，并且已经在很多场景落地。</p>
-<p style="margin:0.8em 0">他列了三类应用：智能终端上做极低功耗的长期唤醒与永远在线感知，绕开移动设备的续航痛点；智能汽车上做本地毫秒级实时数据处理，不依赖云端传输；IoT 节点上突破极端环境的电池极限。往上一层看，这条路的战略含义是&quot;换道超车&quot;：摆脱对先进制程的依赖、在受限的成熟节点上用底层架构创新换取指数级性能提升，同时赋能从 4% 权重的边缘微调到千亿级云端向量检索的全栈场景。</p>
+<p style="margin:0.8em 0">他列了三类应用：智能终端上做极低功耗的长期唤醒与永远在线感知，绕开移动设备的续航痛点；智能汽车上做本地毫秒级实时数据处理，不依赖云端传输；IoT 节点上突破极端环境的电池极限。往上一层看，这条路的战略含义是"换道超车"：摆脱对先进制程的依赖、在受限的成熟节点上用底层架构创新换取指数级性能提升，同时赋能从 4% 权重的边缘微调到千亿级云端向量检索的全栈场景。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">生态层：国产芯片的困境不是算不出，是接不上</h2>
 <p style="margin:0.8em 0">生态层的嘉宾是北京智源人工智能研究院副院长兼总工程师林咏华。她提出的问题是：前面所有人都在讲算力本身的瓶颈，那算力之外还有什么瓶颈？答案是软件生态。</p>
 <p style="margin:0.8em 0">她举的例子很直接：以英伟达 CUDA 为代表的软件生态，依赖协议、编译器和开发者习惯，是多年积累形成的东西，非常难撼动。算力买到相对容易，生态渗透才是难的——这正是国产 AI 芯片面临的核心问题。今天国产芯片非常像孤岛：做了很激进的底层创新，却要打一场封闭软件生态的战役。数百种新型 AI 芯片架构，90% 被困在软件生态的高墙之外；为了兼容既有生态，创新架构被迫向旧标准妥协。</p>
-<p style="margin:0.8em 0">他们做的开源生态叫 FlagOS，三层协同：框架与插件层兼容主流模型框架，接口直接对接开发者；算子层提供开源算子库，已有 800 多个算子；底层编译层支持多种 AI 芯片架构。全栈开源共享，让不同芯片复用同一套软件能力——她的比喻是&quot;万能的插座&quot;。</p>
+<p style="margin:0.8em 0">他们做的开源生态叫 FlagOS，三层协同：框架与插件层兼容主流模型框架，接口直接对接开发者；算子层提供开源算子库，已有 800 多个算子；底层编译层支持多种 AI 芯片架构。全栈开源共享，让不同芯片复用同一套软件能力——她的比喻是"万能的插座"。</p>
 <p style="margin:0.8em 0">效果是可以量化的：通过 FlagOS，一个模型可以在一天内适配并运行多达 12 款不同的 AI 芯片。首批适配的芯片包括平头哥、英伟达、昆仑芯、海光、沐曦、摩尔线程、天数智芯、燧原、清微智能、苹果 M4/M5 等；适配后的多芯片模型版本同步发到 Hugging Face、魔搭社区、腾讯云、国家超算互联网等平台。目前 FlagOS 已有 100 多家生态伙伴、800 多个开源算子、12 款单模型适配芯片、覆盖 50 多个国家的培训。</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
 <p style="margin:0.8em 0">对芯片制造商来说，可以专注微架构创新和算力堆叠，不必再耗费数年重复造底层的软件车轮；对模型开发者来说，模型架构只需要一次编写，72 小时之内就能触达全球数十种算力。</p>
@@ -59,18 +59,18 @@
 <p style="margin:0.8em 0">生态是芯片真正发挥价值的最后一公里。没有软件支撑的算力，只是闲置资源。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结语：进入生产阶段，比的不是谁更聪明</h2>
 <p style="margin:0.8em 0">这场大会的三个章节，其实回答了同一个问题：AI 进入生产阶段之后，谁能让每一个任务真正跑完。</p>
-<p style="margin:0.8em 0">需求侧，从 Chat 到 Agent 是一次量级跃迁——单次调用换成了持续协同，人给任务、agent 交付结果。智能侧，智能的定义被迫改写，从概率拟合走向可信运行：不确定可以，但必须可预测、可处置、可恢复。供给侧，系统、器件、生态这三层必须同时推进——系统层解决&quot;装得下、跑得快、跑得稳&quot;，器件层用架构创新绕开制程约束，生态层把孤岛连成一片土壤。</p>
+<p style="margin:0.8em 0">需求侧，从 Chat 到 Agent 是一次量级跃迁——单次调用换成了持续协同，人给任务、agent 交付结果。智能侧，智能的定义被迫改写，从概率拟合走向可信运行：不确定可以，但必须可预测、可处置、可恢复。供给侧，系统、器件、生态这三层必须同时推进——系统层解决"装得下、跑得快、跑得稳"，器件层用架构创新绕开制程约束，生态层把孤岛连成一片土壤。</p>
 <p style="margin:0.8em 0">三层里任何一层落空，另外两层都会变成纸面能力。</p>
 <p style="margin:0.8em 0">一个具体的细节可以作为注脚：这场关于算力的大会上，最被反复提到的瓶颈，除了产能和电力，还有软件生态的适配成本。算力是可以买到的商品，而让算力可用，是一件需要几十年积累、或者一个开源生态才能解决的事。</p>
 <p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0">IDC 预计 AI 算力供需缺口将从 2024 年的 389 亿美元放大到 2030 年的 3809 亿美元；同期 token 消耗量的复合增长率被统计为 4822.6%，背后是任务执行次数、单任务 token 消耗、多智能体协同放大系数三个乘数相乘。</li>
 <li style="margin:0.3em 0">agent = model + harness 已成共识：模型决定智能上限，harness（上下文管理、路由、工具、记忆、执行控制、安全、评测）决定能力能否变成可运行、可治理的执行系统。</li>
-<li style="margin:0.3em 0">智能的下一步分歧在于路径：郑庆华院士主张从大模型走向借鉴人脑机制的&quot;机器记忆智能&quot;，理由是当前架构存在抽象能力缺失、不可解释、灾难性遗忘等结构性局限。</li>
+<li style="margin:0.3em 0">智能的下一步分歧在于路径：郑庆华院士主张从大模型走向借鉴人脑机制的"机器记忆智能"，理由是当前架构存在抽象能力缺失、不可解释、灾难性遗忘等结构性局限。</li>
 <li style="margin:0.3em 0">可靠 AI 的评测需要五个维度同时改口径：测评对象、测评方式、测评边界、评测力度、评价标尺——从测单一模型变成测整条链路，从看分数变成看 ROI。</li>
 <li style="margin:0.3em 0">算力分成能力型（超节点、有效计算域、奔十万亿参数）与容量型（多元算力协同、推理机组、token 工厂）两条轨道，服务对象和优化目标完全不同。</li>
 <li style="margin:0.3em 0">存算一体是绕开先进制程约束的一条实证路径：零搬运逼近硅基能效极限，28 纳米即实现性能跃迁，同制程算力约 4 倍（150 TOPS → 600 TOPS）。</li>
-<li style="margin:0.3em 0">国产芯片的真正瓶颈是软件生态：数百种新架构里约 90% 被困在高墙之外；FlagOS 通过开源算子库与编译层让一个模型一天内适配 12 款芯片，把&quot;能否接入&quot;变成了&quot;是否可用&quot;。</li>
+<li style="margin:0.3em 0">国产芯片的真正瓶颈是软件生态：数百种新架构里约 90% 被困在高墙之外；FlagOS 通过开源算子库与编译层让一个模型一天内适配 12 款芯片，把"能否接入"变成了"是否可用"。</li>
 </ul>
 
 </div>
@@ -14277,160 +14277,574 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 📅 覆盖时段: 09/21–09/22（窗口内 48 小时）</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-23.html</link><guid isPermaLink="false">report:雪球动态:2026-09-23:eb4c3974</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-23</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-23.html</link><guid isPermaLink="false">report:雪球动态:2026-09-23:b700f4c5</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-23</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-23 11:20</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">通道</strong>：公开主页 DOM 抓取（免登录，29/29 用户成功，166 条/去重后 149 条新帖）
-<strong style="font-weight:600">覆盖窗口</strong>：2026-09-20 22:14 → 2026-09-23 11:07（上次成功分析为 09/20 22:30；09/21 22:00 因 HTTP 402 余额失败、09/22 15:13/15:31/22:08 三次因 cookie 半登录态失败 → 本次一次性补齐约 2.7 天）
-<strong style="font-weight:600">统计</strong>：新增 149 条｜🔥 54条（合并 10 组）｜🔴 1 条｜⚪ 94 条</p>
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-23 22:20</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0"><strong style="font-weight:600">抓取通道</strong>：公开主页 DOM（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">fetch_xueqiu_following_dom.py --days 1</code>，29/29 用户成功）
+<strong style="font-weight:600">关注</strong>：29 人 | <strong style="font-weight:600">新增帖子</strong>：61 条（相对 11:02 快照）| <strong style="font-weight:600">信号</strong>：🔥 2 / 🔴 3 / ⚪ 56
+<strong style="font-weight:600">数据源</strong>：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/.hermes/xueqiu/dom_posts_20260923_2220.json</code></p>
+</blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📈 信号明细</h2>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[腾讯控股 00700] 浊静徐清（19条合并）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"腾讯似乎到了2018年初调整以来的尽头""市盈率从2017年底约60倍，降到现在的15倍以下""五千亿的腾讯现在又像一个精壮的小伙子了"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：腾讯已逐一化解地缘/反垄断/业务增长/AI落后/高估值五重压力，AI（混元+微信小微+WorkBuddy生态连接）是第二增长曲线。论据→论证：PE 60→16.1倍(TTM，gtimg 09-23) + 市值40182亿港元≈5150亿美元 vs 英伟达/苹果/谷歌5-6万亿美元 + 算力乘数1.3~1.7（自建口径，源自智谱中报） + 美国同行"capex↑→盈利增速↓→收入↑→利润↑"路径 → 估值与增长双修复。
-核查: ✅1（市值量级吻合"五千亿"；大盘AI叙事同期纳指创新高） ⚠️1（称PE"15倍以下"，实测PE_TTM 16.14） ❓3（算力乘数无公开口径；"腾讯10分钟成交超昨全天"；Hy Image 3.5 未验） | 假设: AI投入能按算力乘数转化为收入 | 替代: PE下行主要来自增速放缓，"旧账还清"是叙事 | 📜: 一致 — 09/04「HY4是头等舱门票」、09/05「混元AI公司10年后价值可能是老腾讯10倍」、09/20 算力乘数，连续强化
-<strong style="font-weight:600">可靠度 🟡</strong> — 数据可核，但核心增量靠自建指标与类比</p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[三星/海力士·韩国存储] 汤诗语（15条合并）</strong> | 🟢→🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"就算韩股需要折价，那两大韩国存储股明年的预期市盈率才3.x倍啊""美股海力士较韩股海力士溢价30%多""首选依然还是韩国存储股，次选纳斯达克指数"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：韩国存储股是全球最具风险收益比的选择，韩股折价已被ADR溢价抵平。论据→论证：三星/海力士明年预期PE≈3倍 + 承诺50%+净利回馈股东（股息率&gt;16%） + 9月韩国出口/半导体出口飙升（9月上旬半导体出口164.8亿美元、同比+270.1%） + SK海力士ADR（2026-07上市，募资265亿美元）较韩股溢价~30% → 周期上行+股东回报双击。
-核查: ✅3（2027E PE≈3倍获高盛上调盈测印证；韩国半导体出口+270%；纳指09-22收盘30732.40创历史新高） ⚠️1（ADR溢价"30%多"口径未完全对齐） ❓2（50%净利回馈的分红时点；中韩半导体ETF中韩股部分溢价20%+为其自算） | 假设: 存储超级周期2027年仍在上行 | 替代: 低PE=周期顶部陷阱，盈利已在峰值（低PE≠便宜） | 📜: 一致 — 09/07「明年PE 3倍多+股息率16%」、09/13「首选韩国存储股」、09/18，已连续第4次重复同一逻辑
-<strong style="font-weight:600">可靠度 🟢/🟡</strong> — 数字可验证，但"明年PE 3倍"本身是卖方一致预期外推</p>
-<p style="margin:0.8em 0">🔴 <strong style="font-weight:600">[A股房地产] 汤诗语（单条）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"近期有诸多房地产刺激政策的传言，我感觉不太现实……在建施工量已是膝盖斩了，经济对房地产的依赖已经很低了"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：地产强刺激可能性低，不宜按"政策托底"交易地产链。论据→论证：2021年后市场大幅下滑、施工量大幅萎缩 → 经济对地产依赖度下降 → 政策必要性下降（自认"判断可能错"）。
-核查: ✅1（统计局 2026年1-8月 房屋施工面积同比-12.8%、住宅-13.2%、新开工-25.4%、竣工-23.7%） ⚠️1（"膝盖斩"（约-50%）高于实际施工面积-12.8%，程度夸大；新开工口径才接近） ❓1（政策意愿不可验证） | 假设: 政策目标是经济托底而非地产救市 | 替代: 地产下行拖累地方财政/就业，政策仍可能被动加码 | 📜: 新增 — 首次明确给地产刺激预期降档
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[美的集团 000333] 二马由之（17条合并）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"铜1.6万美金了，美的苦呀！！！！""我今天就把之前减仓的仓位接了一点回来""下跌吧，我还准备加一点呢"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：铜价暴涨+家电消费疲软+人民币升值是美的下跌主因，属可承受的利空，选择加仓。论据→论证：铜价1.6万美元/吨（沪铜11.1万元/吨）成本冲击 + "按跌幅和成交量应有大资金减仓" → 下跌由多重合力而非基本面崩坏 → 逢跌加仓。
-核查: ✅1（沪铜主连110,400元/吨≈1.56万美元/吨，历史高位，数据属实） ✅1（反向检查 000333：净现比1.42/存货-4.1%/合同负债+10.3%/费用率-0.4pp 六项全✅，无选择性披露迹象） ❓2（"正金/汇金减仓"无证据；铜价对美的影响未量化） | 假设: 铜价不长期单边上涨、美的量价可对冲 | 替代: 铜价高位+出口承压可能持续压制毛利率2-3季度 | 📜: 一致 — 其"下跌=加仓机会"框架不变，本次首次披露实际接回仓位
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[泸州老窖 000568 / 五粮液 000858] 酒金岁月（7条合并）</strong> | 🟡→🔴（核查项）</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"五泸在资金眼里就是一体的，短期因为100亿回购，五粮液爆发性更强，财报已经出清，动销很快出清""持有茅五泸的人心态最好……本质上是持有高端白酒指数基金"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：茅五泸三位一体，持有组合=持有高端白酒指数；五粮液回购+出清后弹性更大；老窖是"意在长远、牺牲当下"（不可能三角）。论据→论证：五粮液80-100亿回购方案（实际意义为股价支撑） + 老窖主动控量挺价 → 报表短期难看但品牌价值保全 → 长期收益率与其他高端酒趋同。
-核查: ✅1（五粮液 2026-04-30 公告回购80-100亿、价格上限153.59元/股、用于注销减资） ⚠️1（执行进度仅11.01亿元/截至8-31，占比≈14%，"100亿回购"仅为方案上限） ❌/⚠️2（"财报已经出清"与反向数据矛盾——五粮液 26H1 净现比-0.25、OCF-21.54亿、合同负债-26.1%、销售费用率16.1%→22.2%（+6.2pp）、存货+12.5%；泸州老窖 26H1 净现比0.48、OCF环比-54.2%、合同负债-12.8%、费用率+4.1pp、存货+3.7%，五项⚠️全中） ❓2（"六边形战士""双国宝"为主观品牌判断） | 假设: 渠道让利是主动战略、需求未断崖 | 替代: 合同负债与OCF同步恶化指向渠道信心流失，"牺牲当下"可能无法换回"长远" | 📜: 一致（09/14 老窖名义降价/补贴前置、09/15 动销跟踪）但口径从未回应反向财务项 → 选择性披露
-<strong style="font-weight:600">可靠度 🟡（叙事）+ ⚠️ 反向数据未解释</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[中国石油 601857] 亲爱的阿兰（14条合并）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"员工费用1850.96亿元迟早会自然达峰的，几年后有百亿级的下降，是未来分红在1000亿元以上的远期考量""96年招聘高峰对应的人开始退休了"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：96-97年招聘高峰进入退休窗口 → 员工费用见顶回落 → 释放百亿级利润 → 支撑远期1000亿+分红。论据→论证：FY2025员工费用1850.96亿（+3.3%） + 退休替代率高 → 三费自然下行（"增量要几年后"自认时滞）。
-核查: ✅3（FY2025员工费用1850.96亿元精确命中2025年报；26H1员工费用857.86亿/+3.7%；26H1归母1039.34亿/+22%、中期分红475.85亿/0.26元/股） ✅1（反向检查 601857：净现比2.42、OCF环比+197.5%、短借下降、合同负债+10.0%、费用率持平；仅存货+12.0%⚠️） ❓1（退休带来的费用拐点时点） | 假设: 退休节省不被"效益联动"涨薪吃掉 | 替代: 年报明示"员工工资随效益联动变化"，效益上行期仍会加薪，费用未必自然下降 | 📜: 一致 — 2025/05 增效降本、2026/02「利润弹性不高是误解，油气链恢复后价值重估」
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[阿里巴巴 BABA] terryp57（5条合并）</strong> | 🔴（数据来源不可验证）</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"AI 云占比提升2倍""AI客户云增速从25.8的17%，提升到26.8的40%""MAAS arr过去四个月从80到800""前阵子买入中……"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：阿里全栈优势（云+模型+硬件/平头哥）+ 更聚焦（出售快递业务）驱动云业务量级跃迁，已实际买入。
-核查: ✅1（阿里FY26Q2 AI云收入同比+45%、总收入2689亿+9%，方向与量级一致） ❓3（MaaS ARR 80→800、AI客户云增速17%→40%、"出售快递"全部来自内部分享/会议纪要，无公开一手源） ❓1（买入标的被截断） | 假设: AI云高增可持续且非价格战驱动 | 替代: 云增速部分来自低基数与AI口径重分类 | 📜: 新增 — 首次披露AI云拆分数据
-<strong style="font-weight:600">可靠度 🔴</strong> — 核心数字未经公开披露验证</p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[心动公司 02400 · 游戏行业] 逸修1（10条合并）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"这么多年，第一次见过一个大外资投行把处于关键时刻的动子的逻辑讲清楚的""今年腾子和动子基本面上面临的问题是类似的""星布谷地应该是12月上线，小人国没这么快"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：心动处于关键兑现窗口，外资投行（高盛）首次讲清逻辑；游戏行业四款跨端大产品翻牌结果（伊莫&gt;诡秘&gt;…）证明预期差。论据→论证：高盛研报（2024年发游戏）+ 新游流水（9月为新游最好月份；阿B新游全球首月流水预估1-2亿） → 行业景气回升 → TapTap与自研双驱。
-核查: ✅1（开源/国海等维持"买入"；TapTap 26H1收入9.94亿、中国版MAU 4539.7万/+4.1%，卖方逻辑确实聚焦TapTap+新游） ⚠️1（未找到高盛该篇原文，"大外资投行"表述无法逐字核） ❓3（星布谷地上线时间、小人国暑期档、伊莫首年成绩均为预测/个人判断） | 假设: 新游上线节奏与其跟踪一致 | 替代: 同业竞品（腾讯/米哈游模拟生活品类）分流TapTap流量 | 📜: 一致 — 2025/06「珍惜100亿及以下的心动」以来的长期持有叙事延续
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[AI硬件/存储链] 拥抱大时代（3条）</strong> | 🔴</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"感觉这周市场要risk on了，ai回归fast and furious""ai硬件卷土重来" [$ASM太平洋(00522)$ $建滔积层板(01888)$ $Lumentum(LITE)$ $康宁(GLW)$ $美光(MU)$ $DRAM ETF$]</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：本周risk on，AI硬件（光互联/存储/封测）卷土重来。核查: ✅1（背景吻合：纳指09-22再创历史新高） ❓0（无任何论据、无数值、无风险提示，仅方向+标的罗列） | 假设: 资金从算力向存储/光模块扩散 | 替代: 纯动量跟随，回撤无锚 | 📜: 一致 — 09/21 08:49 提出后当日 23:15 自证"果然risk on"
-<strong style="font-weight:600">可靠度 🔴</strong> — 无论证纯方向判断，不可复现</p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[铜] 山行（2条）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"战争开始，极度担心，快速挖了一个坑，也快速爬起来新高……这背后的坚强的力量是什么，不能一句周期就打发了，尤其是说周期见顶"</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：铜价在战争/加息/关税三次冲击后均快速修复新高，供需格局确实偏紧，反对"周期见顶"。核查: ✅1（沪铜主连110,400元/吨≈1.56万美元/吨，处历史高位，走势与其描述一致） ❓1（"供需偏紧"未给库存/TC/冶炼数据） | 假设: 高价由供需而非流动性驱动 | 替代: 金融属性+美元因素主导，供需缺口小于价格涨幅所暗示 | 📜: 一致 — 04/10「铜价回到开战之前」
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[光互联/存储产业链] 张师傅的退休实验室（8条）</strong> | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"老黄连投五笔，只喊了一家万亿美金""我不猜轮动。资金什么时候从算力切到存储"；另关注 $Cloudflare(NET)$ 351.51</p>
-</blockquote>
-<p style="margin:0.8em 0">主张：产业链"钱被谁赚走"框架优先于轮动预测，重心放在光互联/存储；新纳入观察 Cloudflare。核查: ✅1（NET 09-22 收盘约352.89、当日区间345.30-357.10，"351.51"属实） ❓2（"万亿美金"目标无时间与口径；付费专栏为引流型内容，观点需自行拆解） | 假设: 光互联/存储需求随AI推理扩张 | 替代: 主题拥挤、估值已计入 | 📜: 一致 — 09/15「要站在光里」系列延续
-<strong style="font-weight:600">可靠度 🟡</strong></p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号（按作者合并）</h2>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一、🔥 浊静徐清 — 腾讯控股(00700)｜14条合并</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：强看多 —「腾讯似乎到了2018年初调整以来的尽头」，预测未来8-10年利润再增5-7倍、2033年利润破万亿，并给出AI算力20GW路径与Manus估值兑现证据。</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">腾讯2026年每股盈利已比2018年初高5-6倍，但股价仍停在400多港币，8年时间把60倍PE消化成十几倍——所以「尽头」已到，接下来是利润与估值同步向上。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">估值对比</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公开行情+自算]</code> — 「17年底18年初每股赚六七块港币、股价400港币、接近60倍PE；现在每股赚接近40块港币、市盈率10多倍、价格也是400多港币」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI算力路径</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[引述阿里云栖大会测算]</code> — 腾讯对标阿里2032年20GW算力部署，自建六成租赁四成，每GW自建成本1300-1500亿，2027-2032年均capex约2300-2700亿；「阿里20G瓦对应每年1.2万亿新增收入，腾讯因为卖的是应用，收入可能会更高」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI产品收入</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自估]</code> — 元宝、CodeBuddy、WorkBuddy、小微、混元合计收入「2027年有望挑战千亿规模」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">Manus估值兑现</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[彭博/公告转述]</code> — 腾讯7月联合真格、红杉以20亿美元估值从Meta回购Manus股权，现新一轮融资估值40亿美元，「两个月股权价值就增长140亿」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力乘数</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自建指标]</code> — 「智谱的是0.47左右，腾讯的应该在0.5、0.6以上」（AI资本开支→新增年AI收入的乘数）</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">8年利润增5-6倍而股价零涨幅 → 估值消化完毕、安全边际厚 → AI资本开支转化为算力资产（20GW）→ 算力转化为云/应用收入（2027年千亿、2032年万亿级）→ 内在增长20%复利延续 → 2033年利润破万亿、市值双击。下行保护：AI做不成，算力可对外租赁（引述腾讯总裁刘炽平业绩会原话）。</p>
+<h4>🔍 事实核查</h4>
 <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
 <thead>
 <tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">条数</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">论证摘要</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">20</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">段永平答网友：泡泡玛特乐园"利润不要指望太多"/Dimoo像萌娃、已买入娃衣，价值投资=买未来现金流、可乐十年仍上涨，疫苗咨询 → 无新标的动作</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">朱酒</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒8月产量19.1万千升/+2.1%（统计局✅）、1-8月207.9万千升/-3.8%；物业撤场、地产"存量时代留给头部央国企"、AI杀手级应用 → 行业观察，无标的信号</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">二马由之</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">分众传媒26H1楼宇媒体占94%（专栏）、伊利自有品牌冲击、预制菜定义、铜价压制美的之外的闲聊</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">12</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">A股大小非净减持（上周&gt;60亿、年内3238亿）、公募8月混合型连续第6个月净赎回、QDII额度37亿美元分给主动产品、美股周期调整PE 39倍(93分位) → 资金面数据，方向中性</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">港股"假资产"重估旧帖(2021)被翻出讨论、Magnificent7"谁先挂掉"提问、"买股票就是买公司"反例 → 哲学讨论</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI应用十判断（引用旧帖）、滴滴接驾时间停留3分钟的段子 → 无标的</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">吐槽AI写专栏；引用老窖帖（经销商跑了162家、Q2崩）但非自身观点</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">STH_</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">九月气候模型更新：dynamic略上修、statistical大幅上修，厄尔尼诺海温10-11月见顶（+3.2~3.6℃）→ 框架输入项，非投资信号</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯价格「也是400多港币」</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-09-23 收 441.00 HKD（-2.35%），52周 677.7 / 411.0</td>
 </tr>
 <tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">PaulWu / 终身黑白 / 黑色面包</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">每股赚接近40港币 + 市盈率10多倍</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行情 TTM PE = <strong style="font-weight:600">16.11x</strong> → 反推 TTM 归母≈2,281亿人民币、EPS≈27.4港币；26H1 Non-IFRS 归母 1,363亿 → 年化 EPS≈33港币。<strong style="font-weight:600">「接近40港币」偏高约20%</strong>，需用26E/27E远期口径才成立</td>
+</tr>
+<tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"挺荒诞的"；技术分析vs基本面之争；追忆某博主交易风格 → 无标的</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2017年底约60倍PE</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">与其 2026-09-22 帖「从2017年底约60倍降到现在的15倍以下」自洽</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯7月以20亿美元估值回购Manus、现估值40亿美元</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">彭博9/17：Manus推进约5亿美元融资、投后40亿美元；腾讯接手Benchmark股权成最大外部机构投资方（36氪/智通/新浪）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">「股权价值增长140亿」（两个月）</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">20亿→40亿美元 = 全部股权增值约142亿人民币。若按腾讯持股比例计则不成立；他同时称「持股不超过50%」——两说互相矛盾，属<strong style="font-weight:600">口径混淆</strong></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">阿里2032年20GW算力部署</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">吴泳铭 2026-09-22 云栖大会原话；花旗/瑞银测算对应2032-33年外部云收入1,600-1,700亿美元（≈1.15-1.22万亿人民币）→ 其「每年1.2万亿新增收入」与瑞银测算吻合</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2027年AI产品收入挑战千亿</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">纯自估。腾讯2026Q2资本开支已达527.84亿（同比+176%），自由现金流 -137.7亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2023年底曾预测2033年腾讯利润破万亿</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史库可查，其帖自述一致</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：腾讯AI产品2027年千亿收入；算力乘数「0.5-0.6」（智谱0.47为对照，但两者业务结构完全不同）。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[选择性呈现]</code> — 全程不提 AI 折旧：有球友当面指出「26-27年均1500亿+ AI capex → 28年IFRS折旧摊销过千亿，大幅压低利润」，作者未用数字回应。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数字漂移]</code> — PE 口径 8/3 称 16.8 倍 → 9/22 称「15倍以下」→ 9/23 称「10多倍」，三天内三次下调且未说明基准变化。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：① 腾讯AI资本开支能转成有现金流的收入，且<strong style="font-weight:600">折旧冲击小于AI收入增量</strong>；② 内在增长率20%可持续8-10年；③ 20GW算力能租出去（下行保护）。
+<strong style="font-weight:600">替代解释</strong>：① 若AI收入兑现慢于折旧摊销（28年起IFRS利润被压），「10多倍PE」的分母就是假的；② 腾讯利润增5-6倍期间股价不动，也可能是<strong style="font-weight:600">市场对增长可持续性的折价</strong>（监管、游戏版号、股东回报），而非纯粹的「估值消化」；③ 「AI做不成可租算力」的保护伞逻辑，与它自己「20GW要花万亿capex」的投入假设互相拉扯——重资产化的腾讯本身就在改变其估值中枢。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟡 中 — 价格、Manus 融资、阿里 20GW 三项硬数据全部可核，逻辑链自洽；但核心量化锚（每股40港币/10多倍PE）口径不清且偏高约20%，且对 AI 折旧这一反向项选择性回避。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>：AI 收入兑现慢于折旧摊销，28 年起利润被千亿级折旧压住，「10多倍PE」的估值假象被证伪。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">二、🔥 朱酒 — 中国平安(601318)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：温和看多 —「感谢雪球有股息还有成长的公司不多，一起分享中国平安的经营成果」（引 2026 中期归母营运利润 +8.3% 征文）</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">平安是「股息 + 成长」兼备的标的，中期营运利润正增长、分红续增，值得长期分享经营成果。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">中期营运利润 +8.3%</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公司公告]</code> — 2026H1 归母营运利润 841.96 亿元，同比 +8.3%</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">股息续增</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公司公告]</code> — 中期股息每股 0.98 元，同比 +3.2%（涨幅创近四年最大）</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">营运利润（剔除投资波动的核心经营口径）稳健正增 → 分红连续提升 → 保险股「类固收 + 成长」属性成立 → 长期持有分享成果。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中期归母营运利润 +8.3%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-08-20 公告：841.96 亿元，+8.3%；营收 5,751.38 亿 +15.0%；<strong style="font-weight:600">归母净利润 925.85 亿 +36.1%</strong></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">「有股息还有成长」</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中期股息 0.98 元 +3.2%，现金分红总额连续15年上涨</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：无（均为公告数据）。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[选择性呈现]</code> — 只引 +8.3% 的<strong style="font-weight:600">营运利润</strong>，不引 +36.1% 的<strong style="font-weight:600">归母净利润</strong>。后者主要受权益市场投资收益驱动（非经营性），作者用稳健口径讲成长故事，方向正确但需补一句：36.1% 的高增长含大量非营运利润。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：营运利润是可延续的「真利润」，投资收益波动可忽略。
+<strong style="font-weight:600">替代解释</strong>：归母净利 +36.1% 说明当期权益投资贡献巨大——若市场转向，同一引擎会反向作用。营运利润口径正是公司为平滑这一点而设计，用它判断「成长」需注意它剔除的恰恰是波动最大的部分。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟢 高（数字层面）— 数字与公司公告逐字对齐；但「成长」的论证是口径选择的结果。
+<strong style="font-weight:600">反向检查</strong>：按核查清单 §13b，保险股豁免工业类反向六项（净现比/OCF/短借/存货/费用率）。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>：把 +8.3% 营运利润当成长锚，而同期驱动净利 +36.1% 的投资收益反向时会同时压两头。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三、🔴 庶人哑士 + 亲爱的阿兰 — 房地产（全国性房企）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：看空/警示 — 828 新政终结「预售回款总部归集+统一调度」资金池模式，对全国性房企的打击大于中小房企；「还有一帮人按『供给侧出清利好龙头』的逻辑去抄底所谓的龙头」。</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">市场用旧框架（出清→利好龙头）抄底地产龙头是误判——828 新政把集团资金池调度能力拆成项目级专款专用，规模越大、调度依赖越深，受伤越重。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">资金池模式终结</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[政策文件]</code> — 「预售回款由总部归集+统一调度的资金池模式被终结，取而代之的是具体到某个项目专款专用」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">非全国性因素</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人经验+现场]</code>（亲爱的阿兰）— 「828 影响比想象的大，跟踪的几年后才交付的楼盘前几天取证后给了个非常敷衍的取证价格，所有楼层都一个价」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">销售端卡壳</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人经验]</code> — 「首付和贷款要在监管账户放到竣工，开发商没想好怎么卖」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">一线从业者佐证</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[球友陈述]</code> — 小型地方房企：对公司是毁灭型打击，已优化人员、停止拿地、原有地块不开发</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">828 新政要求购房资金全额进监管账户、竣工才解管 → 集团无法跨项目挪用回款 → 全国性房企过去依赖的资金池调度（高周转的核心）失效 → 楼盘定价/推盘策略被锁死（阿兰现场证据）→ 因此「出清利好龙头」逻辑反转，龙头反而是受损更深的一方。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">828 新政终结总部资金池、改为项目专款专用</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026-08-28 住建部/自然资源部/金融监管总局《关于完善商品住房销售制度的通知》（建房规〔2026〕3号）：购房资金全额存入监管账户，<strong style="font-weight:600">竣工验收+水电气热达标才解除监管</strong>、专款专用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预售门槛提高</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">单体建筑须<strong style="font-weight:600">主体结构封顶</strong>方可预售；新出让土地/未取规划许可证项目<strong style="font-weight:600">优先现房销售</strong></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">房贷条件</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预售项目个人房贷严格在<strong style="font-weight:600">竣工备案后</strong>发放；贷款年限上限 30 年→40 年</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">全国性房企受损大于中小房企</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">合理推论，无公开量化数据。方向与政策一致，但幅度未证</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">「部分城市的房价即将到底」（阿兰自算）</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人测算，未给方法论</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：受损幅度的排序；房价见底时点。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[以偏概全]</code>（弱）— 用「几年后交付的楼盘」单一样本推导全国影响；但主体论点由政策原文支撑，不构成实质缺陷。</li>
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[两作者观点混同]</code>— 注意：阿兰同时说「部分城市的房价即将到底」（看多房价），与庶人哑士看空房企<strong style="font-weight:600">不矛盾但也不是同一判断</strong>，勿合并为单一空头结论。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：房企的价值来自「资金调度杠杆」而非单个项目的利润；剥夺调度权即摧毁规模优势。
+<strong style="font-weight:600">替代解释</strong>：① 项目封闭管理可能反而提升交付确定性、修复购房信心，长期利好销售（政策初衷）；② 大型房企融资渠道（银行白名单、REITs）多于中小房企，抗压能力并未必然更差——「谁更受伤」取决于<strong style="font-weight:600">融资结构</strong>而非<strong style="font-weight:600">规模</strong>，作者未分层。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟡 中 — 政策事实 100% 可核且引述精准，「资金池失效」的机制推理扎实；但「龙头受损更大」缺少量化，且与「融资渠道更多」的反向逻辑未交锋。
+<strong style="font-weight:600">一句话风险</strong>：政策长期修复交付信心后，龙头凭融资优势反而先受益，空头逻辑只在中短期（1-2 年）成立。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四、🔴 酒金岁月 — 今世缘(603369)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：看空/回避 —「江苏省酒企我其实更看好洋河，今世缘体量小的时候确实可以搏一搏，现在对我来说值博率不高，<strong style="font-weight:600">未来他家问题会比增长多</strong>」。</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">今世缘的产能瓶颈问题（浓香老窖池无法同比例放大）在体量变大后从机会变成风险，值博率下降，江苏市场他更看好洋河。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">产能约束</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公司公告]</code> — 引 2021 年问询函回复：「现有酿酒产能 2.7 万吨，2018-2020 总产量 1.9/2.2/2.5 万吨，产能利用率 70%/81%/93%」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">浓香工艺本质</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业常识+推理]</code> — 「营收扩张越快需要的优质产能越大，但浓香老窖池没法短时间同比例放大……要么放量降质，要么控量等待」</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">产能换算</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自算]</code> — 「按国缘 310 元出厂价计，100 亿对应 1.5 万吨产能」</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">浓香优质酒依赖老窖池（时间不可压缩）→ 收入高增必然要求优质基酒同比例扩张 → 但老窖池无法短期放大 → 只能二选一：降质放量或控量失速 → 体量越大这个约束越致命 → 今世缘「问题会比增长多」。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2021 问询函回复：产能 2.7 万吨、2018-2020 产量 1.9/2.2/2.5 万吨、利用率 70%/81%/93%</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逐字属实（今世缘公告 2021-010《关于上交所问询函回复的公告》；澎湃/雪球球友引述一致）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">国缘 310 元出厂价、100 亿对应 1.5 万吨</td>
+  <td style="text-align:center">✅（算术自洽）</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">100 亿 ÷ 310 元 = 3.23 亿瓶 ÷ 2124 瓶/吨 ≈ 1.52 万吨 ✅</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现行产能仍是 2.7 万吨（隐含）</td>
+  <td style="text-align:center">⚠️</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">数据时效问题</strong>：公司董秘称 2020/2022/2023 原酒产能分别 2.7/3.5/4 万吨；南厂区 1.8 万吨浓香已投料、2 万吨清雅酱香年底投产，投产后<strong style="font-weight:600">总产能 7.8 万吨</strong>。用 2021 年公告数据论证 2026 年的瓶颈，与现状脱节</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：洋河优于今世缘的量化依据（未给）；「问题会比增长多」的具体清单（未列）。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[单一证据 / 时效错配]</code> — 用 2021 年公告论证 2026 年产能瓶颈，未同步公司 2023 年后的扩产进度。</li>
+<li style="margin:0.3em 0">补充机制（作者未提但真实存在）：2024 年投资者质疑今世缘<strong style="font-weight:600">基酒外采</strong>，董秘未正面否认，仅称「储备和产能足以满足需求」——这一条比产能瓶颈更贴近「问题比增长多」。</li>
+</ul>
+<p style="margin:0.8em 0"><strong style="font-weight:600">反向财务数据核查</strong>（<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">reverse-check.py 603369</code>，2026H1 vs 2026Q1）：</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">项目</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">数值</th>
+  <th style="text-align:center">判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">经营现金流 vs 净利</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">16.16 vs 20.82（净现比 0.78）</td>
+  <td style="text-align:center">✅</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OCF 环比</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">21.14 → 16.16（-23.5%）</td>
+  <td style="text-align:center">⚠️ 恶化</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">短期借款</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">11.00 → 12.00</td>
+  <td style="text-align:center">✅</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">存货</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">67.33 → 71.40（+6.0%）</td>
+  <td style="text-align:center">⚠️ 存货不降反增</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">合同负债</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15.60 → 8.42（<strong style="font-weight:600">-46.0%</strong>）</td>
+  <td style="text-align:center">⚠️ 经销商打款意愿下降</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">销售费用率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">14.8% → 14.5%</td>
+  <td style="text-align:center">✅</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">→ <strong style="font-weight:600">合同负债 -46% + 存货 +6%</strong> 与作者的「问题比增长多」方向吻合，构成独立佐证（更硬的证据是反向数据，不是产能算术）。</p>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：白酒的优质产能无法通过资本开支缩短时间周期；体量增大后约束从「机会成本」变成「生存问题」。
+<strong style="font-weight:600">替代解释</strong>：① 今世缘已通过基酒外采/技改扩能（2023 年 4 万吨）部分绕过约束，作者未评估该路径的可持续性；② 浓香酒企普遍依赖老窖池，若这是决定性的，那洋河/古井同样受限——作者选洋河而非今世缘的理由可能更多在<strong style="font-weight:600">体量与治理</strong>，而他用「产能」表述。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟡 中 — 引用的公告数字逐字属实、工艺逻辑成立，且被独立反向数据（合同负债 -46%）佐证；但核心论据时效滞后 5 年，且未回应公司实际扩产进度。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>：把 5 年前的产能数字当现状，误判了公司已完成的扩产，从而低估其容纳增长的能力。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">五、🔴 terryp57 — 携程(TCOM / 9961.HK)</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：看空/暂不加仓 —「携程确实三四季度指引还是一般，暂时不增持了，预计 sell put 也接不到货」；同时对 AI Agent 冲击 OTA 的叙事表示要认真研究（「哪怕叙事的改变也是很有威胁的」）。</p>
+<h4>🧠 作者的主张</h4>
+<p style="margin:0.8em 0">携程作为大白马回调「难得」，确定性难以量化评估，叠加三四季度指引偏弱 + AI Agent 可能重构 OTA 变现模式，选择观望不加仓。</p>
+<h4>📊 支撑论据</h4>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">指引偏弱</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[研报/公告]</code> — 三四季度指引一般</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI Agent 威胁叙事</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[引述 forcode 观点]</code> — Meta Muse 类 AI 智能体的核心影响：把消费者的比价、谈判、下单、换服务商全部自动化，瓦解 OTA 过去的入口价值</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">已启动尽调</strong> — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自述行动]</code> — 「回头再去调研一下 booking、expedia」</li>
+</ol>
+<h4>🔗 论证过程</h4>
+<p style="margin:0.8em 0">携程Q2增速已从Q1的+17%降至+6%（交通票务转负）→ 三季度指引无改善 → 反垄断整改迫使重设佣金/流量规则 → 叠加 AI Agent 长期威胁 → 确定性下降 → 暂不增持。</p>
+<h4>🔍 事实核查</h4>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
+  <th style="text-align:center">可验证？</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">携程三四季度指引一般</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026Q2 净营收 157 亿 +6%（<strong style="font-weight:600">环比 -3%</strong>）；Q1 曾指引 Q2 仅 +3%-8%。管理层中报电话会：「预计国内业绩会出现一些波动」</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大白马回调</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2026H1 <strong style="font-weight:600">归母净利仅 4,100 万，同比 -99.55%</strong>；Q2 归母净亏 24.58 亿</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI Agent 冲击 OTA 估值</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">属远期叙事，无当期数据。中信建投观点：AI agent 对公司<strong style="font-weight:600">短期经营影响有限</strong></td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">（作者未提但更硬的反向事实）</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">51.79 亿反垄断罚单：没收违法所得 16.58 亿 + 罚款 35.21 亿（7/25 市场监管总局）；罚款占其 2025 年中国境内销售额 <strong style="font-weight:600">7.5%</strong>，高于阿里 4%、美团 3%；野村：超出其 30 亿预期，预测 26/27 年非 GAAP 经营利润率分别下跌 3% / 1%</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：AI Agent 对 OTA 的替代速度；booking/expedia 尽调结论（尚未给出）。
+<strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[叙事优先于数据]</code> — 把 AI Agent 威胁（远期、无法量化）与指引偏弱（当期）并列，未给权重；而真正的当期硬约束——反垄断整改对<strong style="font-weight:600">有效抽佣率</strong>的压力（摩根士丹利）——反被一笔带过。</li>
+</ul>
+<h4>🔬 第一性原理剖析</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：OTA 的价值来自「信息不对称 + 交易摩擦」；AI Agent 会消灭摩擦，因而摧毁 OTA。
+<strong style="font-weight:600">替代解释</strong>：① 携程的护城河是<strong style="font-weight:600">酒店供给侧的库存与履约能力</strong>（梁建章自 2019 年「流量模式失效」判断后自营化），Agent 改善的是发现环节、不替代履约；② 反垄断整改（取消独家、取消全网最低价）才是可量化、已在财报里的杀伤项，AI 叙事尚在假设层。</p>
+<h4>📜 历史对照（同作者）</h4>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">2025-04-08：「建仓了中煤能源、<strong style="font-weight:600">携程</strong>、福耀玻璃」——首次建仓</li>
+<li style="margin:0.3em 0">2025-09-24：「增加了 Ali and <strong style="font-weight:600">携程</strong> put = 50% 正股」——加仓 + 对冲</li>
+<li style="margin:0.3em 0">2025-10-11：「京东和<strong style="font-weight:600">携程</strong>持续减持两周后，已清仓」</li>
+<li style="margin:0.3em 0">2026-09-23（本日）：回调后考虑回补，但「<strong style="font-weight:600">暂时不增持</strong>」</li>
+</ul>
+<p style="margin:0.8em 0">→ <strong style="font-weight:600">观点演变</strong>：清仓（2025-10）→ 观望（2026-09），尚未重新建仓；即「看多兴趣 + 买入否决」并存，属<strong style="font-weight:600">新增的谨慎</strong>，非反转。</p>
+<h4>📈 投资信号可靠度</h4>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟡 中 — 指引偏弱、财报恶化、股价回调全部可核；但核心推理倚重未量化的 AI 叙事，且未把最硬的反垄断抽佣率压力列为一级变量。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>：反垄断整改对佣金率的实际侵蚀远超 AI 叙事的短期影响——而这两者他给的权重恰好相反。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六、⚪ 汤诗语 — 纳指ETF 额度 / 智谱融资（结构性观察）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：无方向性信号（市场结构分析，信息密度高）</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">要点与核查</strong>：</p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0">纳指ETF广发(159941) 全天申购上限降至 130 万份，新获批 QDII 额度「快用完了」 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公开数据]</code> — <strong style="font-weight:600">溢价率仍高达 11.68%</strong>（净值 1.5473 vs 收盘 1.728），✅ 与其 9/21 判断「不能指望申购压低溢价率」一致</li>
+<li style="margin:0.3em 0">纳指ETF国泰(513100) 12 个交易日被申购 1.87 亿份，仍未压低溢价 — <strong style="font-weight:600">溢价率 12.95%</strong>（净值 2.0664 vs 收盘 2.334）✅ 强验证</li>
+<li style="margin:0.3em 0">智谱(02513)「港股上市不到一年融资 100 亿美元」 — ✅ <strong style="font-weight:600">约 96 亿美元</strong>（1月IPO 49亿港元 + 7月约40亿美元配售 + 9/13 约50亿美元配售+可转债；新浪财经「仅今年一年就在香港筹集约96亿美元，规模仅次于阿里」）。数字 100 vs 96 属 ⚠️ 微差</li>
+<li style="margin:0.3em 0">A股主动公募剩约 4 万亿，10% 赎回投美股 = 4,000 亿；外管局每半年 250 亿额度 → 需 8 年 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[算术自洽，前提自设]</code> ❓</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：9/08 QDII 上半年净新增 2,983.89 万户；9/21 「不能指望 QDII 开放期压低溢价」→ <strong style="font-weight:600">今日数据一致</strong>。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">七、⚪ 酒金岁月 — 白酒/茅台（降预期论证，19 条合并）</h2>
+<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>：看多白酒一线但<strong style="font-weight:600">系统性下调成长预期</strong>；对茅台成长性明确保留。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">主张</strong>：商务接待场景的减少可能不是阶段性而是永久性 → 行业蛋糕需重新分配 → 茅台从「先切一半」降到「四分之一」；飞天供需天花板低于 10 万吨；茅台最优解是量价齐升，但现实是「价降量增利润不变」，这会伤成长性。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">关键论据与核查</strong>：</p>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">声称</th>
+  <th style="text-align:center">判定</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">30-50 岁男性 2.2 亿 × 1瓶/年 → 飞天产能需 10 万吨，故天花板 &lt;10 万吨</td>
+  <td style="text-align:center">✅ 算术自洽</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2.2 亿瓶 ÷ 2124 瓶/吨 ≈ 10.36 万吨；另有「10 万吨 ÷ 52 周 = 408 万人每周一瓶」同样自洽</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中秋动销调研均为同比 -10%，「国庆滞后影响轻轻一提」</td>
+  <td style="text-align:center">❓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">研报抽样，未见原文；但 19 家上市酒企 26H1 合计营收 -5.1%、归母净利 -12.3%（14 家下滑）方向一致</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">「茅台零售价 1800 降到 1000，普五 1000 降到 600，对茅台伤害最大」</td>
+  <td style="text-align:center">❓ 情景假设</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现实：9/18 飞天原箱批价约 1745 元、散瓶约 1730 元；自营店零售 1766 元（年内第六次调价）；非事实陈述</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今世缘产能/利用率（见第四节）</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">见 §四</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台「量和价都已体现在业绩里」</td>
+  <td style="text-align:center">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">26H1 营业总收入 922.78 亿 +1.3%、归母净利 445.17 亿 <strong style="font-weight:600">-1.95%</strong>；茅台酒 +2.82%、系列酒 -6.02%</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>：2026-08「白酒在走右侧…茅台去年Q4是底，一季度持平，二季度会微增」→ 实际 26H1 归母 -1.95%，<strong style="font-weight:600">Q2 未实现微增</strong> → ⚠️ 该次时点判断偏乐观。8-19「茅台不符合我的收益预期」、9-22「买茅台没有错，但只知道买茅台就有错了」→ <strong style="font-weight:600">今日观点一致，属强化而非反转</strong>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>：🟡 中 — 供需算术自洽、行业景气判断被报表佐证；但价格情景与调研数据无可查来源，且对茅台业绩拐点的预判历史上偏乐观。</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">八、⚪ 其余帖子（按作者合并的要点）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="text-align:center">条数</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">要点</th>
+  <th style="text-align:center">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型（段永平）</td>
+  <td style="text-align:center">8</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">全为问答回复：泡泡玛特 10 年现金流提问→「关键在于未来用户还会不会继续买……哪怕是茅台，也有年轻人不喝茅台的问题」；其余为职业/热爱/财富自由的人生建议（与标的无关）</td>
+  <td style="text-align:center">⚪ 无信号</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅的退休实验室</td>
+  <td style="text-align:center">9</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 算力链框架文连载：「模型层竞争激烈、客户切换成本低，未必是好商业模式」；基础设施层是确定性受益者。称 Google 2026/8 占搜索转介 <strong style="font-weight:600">88.55%</strong>（历史最高）</td>
+  <td style="text-align:center">❓ 来源未标注，无法定位（StatCounter 全球搜索份额约 89.9%，量级相近但口径不同）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逸修1</td>
+  <td style="text-align:center">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">「今年大体就两条线：主线 AI、副线通胀」；AI 上半年涨上游硬件、下半年向中游云和下游应用扩散；「meta 都能这样涨，不服不行」</td>
+  <td style="text-align:center">⚪ 无信号</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语（房地产）</td>
+  <td style="text-align:center">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">上海新房+二手去化周期仅 13 个月，成交量有增长趋势，去化到某个程度「房价跳升都不意外」；二三线仍在 40 个月以上</td>
+  <td style="text-align:center">❓ 自算，未给数据源</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅的退休实验室</td>
+  <td style="text-align:center">—</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">但斌两倍杠杆 ETF（07709 二南方海力士）损耗讨论：劝「不要用杠杆，况且还是有磨损的杠杆」</td>
+  <td style="text-align:center">⚪ 风险提示</td>
 </tr>
 </tbody>
 </table></div>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑</h2>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 本日值得质疑的观点</h2>
 <ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月「财报已经出清」</strong>：五粮液26H1 经营性现金流-21.54亿（净利87.53亿，净现比-0.25）、合同负债-26.1%、销售费用率+6.2pp；泸州老窖26H1 五项反向指标全⚠️（OCI环比-54.2%、合同负债-12.8%）。口径只讲"控量挺价"，四项反向数据零提及 → 选择性披露；回购"100亿"实为方案上限（已回购11亿、14%）。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">浊静徐清「PE 60→15倍以下」= 便宜</strong>：实测PE_TTM 16.14，"算力乘数1.3~1.7"为自建公式（分母为算力成本口径非capex），无第三方可验证；以微软2000年做类比属事后归因——微软重估靠的是十年后的新业务，而非"旧账还清"。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">汤诗语「明年PE 3倍」</strong>：这是卖方一致预期外推，存储属于典型周期股，3倍PE往往出现在盈利峰值前夜；且该逻辑已在09/07、09/13、09/18、09/22 连续重复四次，属观点强化而非新信息（本轮他新增的是"ADR溢价30%"这一可核事实）。</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清（腾讯）— 估值口径三天三次漂移</strong>
+8/3 说「腾讯市盈率从 14 倍提升到 16.8 倍」→ 9/22 说「降到现在的 15 倍以下」→ 9/23 说「市盈率 10 多倍」。而当日行情 TTM PE = <strong style="font-weight:600">16.11x</strong>，反推 EPS ≈ 27.4 港币。<strong style="font-weight:600">「每股接近 40 港币」需用 27E 远期非国际准则口径才成立</strong>。作者把远期预测与当期事实混在同一句里陈述（「现在每股赚个接近 40 块港币」用的是「现在」），且三天内三次下调而未说明基准变化——这是<strong style="font-weight:600">先有结论、再找分母</strong>的典型形态。同时称「持股不超过 50%」却又说「两个月股权价值增长 140 亿」（后者对应 100% 股权增值），内部矛盾。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">酒金岁月（今世缘）— 用 2021 年的公告否定 2026 年的公司</strong>
+核心论据（产能 2.7 万吨、利用率 93%）出自 2021-02 的问询函回复。而公司董秘公开表述：2020/2022/2023 原酒产能 2.7/3.5/4 万吨，南厂区投产后<strong style="font-weight:600">总产能 7.8 万吨</strong>。作者用 5 年前的数字论证「浓香产能无法短期放大」，同时完全未提公司已通过技改+新建完成的扩产——<strong style="font-weight:600">结论方向未必错，但证据链已过期</strong>。有趣的是，真正支持他的是他没引用的反向数据：合同负债 -46%、存货 +6%。</p>
+</li>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">terryp57（携程）— 权重倒挂</strong>
+他把「AI Agent 瓦解 OTA」（远期、不可量化、中信建投认为短期影响有限）与「指引偏弱」（当期）并列为不加仓理由，却把当期最硬的约束——51.79 亿反垄断罚单后<strong style="font-weight:600">整改对有效抽佣率的压力</strong>（摩根士丹利；野村预测 26/27 年经营利润率超 3%/1%）——一笔带过。同一事件里，可量化的杀伤项被弱化，不可量化的叙事被放大。</p>
+</li>
 </ol>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">✅ 本轮核查统计</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">可核声称 21 项：✅ 11 ｜⚠️ 5 ｜❓ 5 ｜❌ 0</li>
-<li style="margin:0.3em 0">反向财务检查：000333（六项全✅）、601857（净现比2.42✅，存货+12.0%⚠️）、000858（4项⚠️）、000568（5项⚠️）</li>
-<li style="margin:0.3em 0">主要数据源：gtimg 行情（腾讯/NET/沪铜）、国家统计局（地产/白酒）、中石油2025年报与26H1（员工费用1850.96亿/857.86亿）、五粮液回购公告（80-100亿方案/已回购11.01亿）、Tavily 检索（SK海力士2027E PE、纳指收盘新高、韩国半导体出口+270%）</li>
-</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📎 附：本日完整信号清单</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标的</th>
+  <th style="text-align:center">可靠度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">🔥</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">浊静徐清</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">腾讯控股(00700)</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="text-align:center">🔥</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">朱酒</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">中国平安(601318)</td>
+  <td style="text-align:center">🟢</td>
+</tr>
+<tr>
+  <td style="text-align:center">🔴</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士 / 亲爱的阿兰</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">房地产（全国性房企）</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="text-align:center">🔴</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今世缘(603369)</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="text-align:center">🔴</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">携程(TCOM/9961)</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="text-align:center">⚪</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">纳指ETF(159941/513100)、智谱(02513)</td>
+  <td style="text-align:center">—</td>
+</tr>
+<tr>
+  <td style="text-align:center">⚪</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">酒金岁月</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒/茅台/泸州老窖/洋河</td>
+  <td style="text-align:center">🟡</td>
+</tr>
+<tr>
+  <td style="text-align:center">⚪</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">张师傅的退休实验室</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 算力链</td>
+  <td style="text-align:center">—</td>
+</tr>
+<tr>
+  <td style="text-align:center">⚪</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型 / 逸修1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">泡泡玛特、AI 主线</td>
+  <td style="text-align:center">—</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0"><strong style="font-weight:600">抓取说明</strong>：本次为 11:02 以来增量（61 条）。通道改用公开主页 DOM 抓取，29/29 用户成功；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">last_snapshot.json</code> 已更新为本次快照。</p>
 
 </div>
 ]]></content:encoded><category>雪球动态</category></item></channel>
