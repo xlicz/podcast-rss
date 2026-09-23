@@ -1,7 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 23:00:18 +0800</lastBuildDate><item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 23:03:01 +0800</lastBuildDate><item><title>[卫诗婕｜漫谈Light the Star] AI 让每个人都变快了，为什么组织没有变快</title><link>https://xlicz.github.io/podcast-rss/articles/AI-让每个人都变快了-为什么组织没有变快-2026-09-23.html</link><guid isPermaLink="false">light-the-star_208c7f2f9f6f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>AI 让每个人都变快了，为什么组织没有变快</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 让每个人都变快了，为什么组织没有变快</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：网易集团副总裁阮良给出的一线数据：个人用 AI 编码效率提升 300% 到 500%，整个软件交付流程却只从 20 天缩短到 17 天。工具已经普及到每个人手上，组织的运转速度没有跟着变——缺的不是工具，是决策中枢和执行闭环。</strong></p>
+<p style="margin:0.8em 0">八月底，一篇题为《AI Adoption is a Myth》的文章在 X 上引发大量讨论。它指出的鸿沟不在&quot;用不用&quot;，而在&quot;用得多好&quot;：企业里真正深度使用 AI 的只是一小撮人，而当下很多 AI 产品的设计还在强化这一点。</p>
+<p style="margin:0.8em 0">几乎同一时间，卫诗婕在杭州访谈了网易集团副总裁、网易智企 CEO 阮良。阮良 2006 年从浙大计算机系毕业就进了网易，从一线代码做到管理层，历经互联网、移动互联网、AI 三波浪潮。这一波里他重新捡起代码自己用 AI，也在公司内部推动落地。</p>
+<p style="margin:0.8em 0">他给出的第一个数字就很扎人。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">300% 与 20 天</h2>
+<p style="margin:0.8em 0">网易内部统计：个人用 AI 写代码，效率提升 300% 甚至 500%。但整个软件交付流程，只从 20 天缩短到 17 天。</p>
+<p style="margin:0.8em 0">这个落差就是整场对话的题眼。每个人都被武装了，组织的吞吐量几乎没变。阮良的解释是，AI 优化的是&quot;单点动作&quot;，而交付是一条链——需求确认、评审、联调、测试、上线，一环卡住，前面快多少都被吃掉。个人效率是乘法，组织效率是串联电路。</p>
+<p style="margin:0.8em 0">他把这轮 AI 和移动互联网做了区分。移动互联网的本质变化是传感器：LBS 带来了位置，摄像头带来了新的表达，抖音这类应用长出来。但他认为那仍然是&quot;点状、连点、层面&quot;的体验升级。AI 的不同在于，它除了拿到数据，还对数据有真正的理解能力、有主动识别意愿的能力、还有执行能力——所以它渗透的不是几个核心技术环节，而是&quot;所有人、所有场景、公司所有场景的毛细血管&quot;。</p>
+<p style="margin:0.8em 0">一个具体的例子：教育。最好的学习方式几十年前教育学家就研究清楚了——完全按个人阶段、情况、强度适配的一对一定制化教学。做不到的唯一原因是成本。AI 让这件事第一次有了可能：给孩子生成符合当前阶段的额外学习内容，做成他感兴趣的东西，甚至做成游戏。有个硅谷工程师准备美国极难考的一个税务类证书，全程把 Claude 当老师——扫描历年考题、扫描教材、给自己制定学习计划并出题，一轮一轮过，不到两个月考出来。</p>
+<p style="margin:0.8em 0">阮良把这个类比到印刷术：西方印刷术最大的作用，是把&quot;解释圣经&quot;的权力平权掉了，此前手抄成本极高、解释权全在教士手里。AI 在知识领域正在做同一件事。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">老板的信息是层层被削减过的</h2>
+<p style="margin:0.8em 0">李开复新书里有一节专门讲&quot;老板 AI&quot;：老板获得的信息在整个公司里其实是最少的，因为到他手上时已经被层层筛选、包装、削减；但高价值决策又需要更广泛的信息。现在很多公司的做法，是希望所有会议和业务场景的对话都 on record，语料汇总进公司 AI 服务器再筛选，供决策者使用。</p>
+<p style="margin:0.8em 0">阮良不但认可，而且网易就是这么做的。要求很明确：线下开会也要配录音卡，或者干脆主动开一场线上会议自动录下来，保证会议原始资料被保留。这件事本身他认为就非常值得做。</p>
+<p style="margin:0.8em 0">更关键的是下半句：<strong style="font-weight:600">老板自己必须深度用 AI</strong>。这被他称为打造专属 CEO AI 系统的核心原因——老板要亲自做一点文本 coding，或者至少深度用一下当下好的 Agent 和 AI 产品，让自己知道 AI 的能力边界和&quot;编辑范围&quot;在哪里，才可能做出更好的 AI 决策。</p>
+<p style="margin:0.8em 0">从员工角度看，这里有天然的对抗。能力越强的人越抵触——销冠尤其如此。&quot;个人使用可以，但我不希望回传到公司被蒸馏。&quot;阮良的处理是不强求，顺应人性。他更看重另一类信息：不是员工产生的，是客户产生的。网易做过一类叫&quot;客户之声&quot;（Voice of Customers）的产品，把客户真实的声音汇总起来给产品研发部门看，用来改产品。逻辑是一样的——CEO 完全可以把精力更多放在客户身上，关注客户和市场，远比关注组织内部每个人在干什么更有价值。只要公司的倾向性是采集客户和市场的声音，抵触情绪就少很多；而且即便你不做，也天然有一部分信息已经在线上，量已经足够大。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">企业支付的是时间，打工人要的是溢价</h2>
+<p style="margin:0.8em 0">访谈中卫诗婕提了一个更锋利的问题。企业的雇佣关系，本质是支付员工的工作时间与工作产生的具体价值；但打工人逐层晋升，最终想赚的溢价来自个人积累的知识库和经验沉淀。而现在很多企业想做的，是在不支付这份溢价的前提下，把产生溢价的本质拿走、复制给别人。</p>
+<p style="margin:0.8em 0">阮良的回应分两层。一层是现实判断：AI 时代，越是精英的人，能力和资源越被放大。他设想的未来场景是一个入职谈判——履历、学历、工作经验之外，多一个可谈的条件：&quot;我不是一个人来的，我带了一个团队。不是真的团队，而是一个 AI 团队，是我过去所有经验和技能的总结。&quot;企业要支付的溢价，是买下这个小军团。</p>
+<p style="margin:0.8em 0">另一层是文化判断。如果今天从第一天重建一个组织，他认为最重要的两件事：第一，形成某种 AI 信仰，这是文化问题；第二，人选。网易集团今年更新的人才观讲&quot;六个力&quot;——审美、标准能力、结构能力、判断力、洞察力、自驱的学习能力。理由是：现在做一个好产品，真的可能几个人就够，只要有审美和洞察力的人在 AI 加持下，就能把一群人的活做成一个好产品。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">决策中枢：不是模型，是知识库</h2>
+<p style="margin:0.8em 0">谈到企业要建的&quot;决策 AI 中枢&quot;，阮良给的答案非常朴素：本质上需要的是一个高质量知识库，而&quot;高质量&quot;三个字的关键，是历史上的决策流痕和决策依据。</p>
+<p style="margin:0.8em 0">网易今年的做法，是先把过去发生过的决策留存下来，纳入知识库，再和另一类知识结合，训练出一个 agent 或 skill。然后用几百个历史案例去检验它，准确率超过 90%。他把这称为&quot;凝聚了所有管理智慧和管理决策方法&quot;的决策知识库。</p>
+<p style="margin:0.8em 0">他提到了桥水基金——给研究员和分析师配了自制的 agent，回答&quot;该投什么项目、怎么投、怎么评判、怎么调研&quot;。桥水数字化做得早，所有过程数据和决策记录都在：为什么投它、参考了多少信息、内部经过多少轮讨论、为什么决定投、最后投了多少钱。这些积累成了今天的决策知识库。</p>
+<p style="margin:0.8em 0">但阮良认为桥水真正值得学的地方在下一层：它把这套 AI 进程做成了<strong style="font-weight:600">可学习、可进化</strong>的部分。AI 再准确也有错误率，最终还是要人来做判断、决策和执行；而人一旦调整，调整动作被确认之后，会进入下一轮加强。这是一种人机协作式的自进化——和大模型从底层做自进化是两条路。</p>
+<p style="margin:0.8em 0">他对未来的总结是两句对称的话：人站在 AI 的肩膀上，AI 站在人的肩膀上。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个站在电视机前的老板</h2>
+<p style="margin:0.8em 0">节目最后，阮良讲了一个他亲身在场的画面。陪供应商去拜访一家客户，展示了一份方案，老板看完震惊了——&quot;原来还可以这么改&quot;。然后老板回头，把设计团队老大、生产制造团队老大、HR 老大全都叫到电视机屏幕前：&quot;都站过来，好好看看 AI 现在能干到什么程度。&quot;</p>
+<p style="margin:0.8em 0">这个画面解释了他为什么四十多岁还觉得自己像刚毕业：&quot;AI 时代从发现机会到生产上线的周期大幅缩短。&quot;而周期缩短这件事，恰恰是开头那个 20 天到 17 天没能兑现的东西——它不会因为个人效率提升自动发生，它需要有人把决策、把流程、把知识库和 Agent 的执行权限重新接成一条闭环。</p>
+<p style="margin:0.8em 0">用他那句星爷的台词收尾：&quot;人如果没有梦想，跟一条咸鱼有什么区别。&quot;</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">个人效率是乘法，组织效率是串联电路。</strong> 编码快 300%–500%，交付周期只从 20 天到 17 天——瓶颈在链条不在单点。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">老板的信息是层层削减过的，所以老板必须亲自深度用 AI。</strong> 网易要求会议全部留原始录音，并支持 CEO 自建专属 AI 系统，前提是老板自己知道 AI 的能力边界。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对员工数据采集要顺人性，把重心转向客户之声。</strong> 能力越强的人越抵触&quot;被蒸馏&quot;；而客户和市场的真实声音量已经足够大，价值也更高。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">决策 AI 中枢的底座是知识库，核心资产是历史决策流痕与依据。</strong> 网易用历史决策训练 agent，几百个案例上准确率超过 90%。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">桥水值得学的不是 agent，是可进化。</strong> AI 出判断、人做调整、调整被确认后进入下一轮——人机协作式自进化，与大模型的底层自进化是两条路。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 时代的组织只需要几个有审美和洞察力的人。</strong> 人才观六个力里，审美和洞察被放在最前面。</li>
+</ul>
+
+</div>
+]]></content:encoded></item><item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：AICC 2026 人工智能计算大会侧记。需求侧从 Chat 到 Agent 的量级跃迁、智能侧从概率拟合到可信生产、供给侧系统—器件—生态三条路同时突围——这三件事正在同时决定 AI 能不能真的把活干完。</strong></p>
@@ -1235,71 +1278,7 @@
 
 </div>
 ]]></content:encoded></item>
-<item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">谁来给 AI 模型打分：当公共榜单开始失真</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：模型变强的速度已经甩开衡量它的那把尺子——而"什么算好"的定义权，正在从发布模型的人手里滑走。</strong></p>
-<p style="margin:0.8em 0">Meta 发布 Llama 4 时，公开榜单上的成绩堪称惊艳。但在一家只做评测的公司的私有基准上，同一个模型的表现明显不如预期。这中间的落差，是 Vals 创始人兼 CEO Rayan Krishnan 创业的全部理由：评测不该由被评测的人自己做，就像审计不该由被审计的公司自己做。在一个训练一个模型要花数十亿美元的行业里，谁有资格给出那份不带自报色彩的分数？a16z 的 Ben Horowitz 与 Jennifer Li 把这个问题拆成了三段：实验室、企业的账本，以及政府与政府之间的谈判桌。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">同一个模型，两份成绩单</h2>
-<p style="margin:0.8em 0">Krishnan 的底子是做研究和构建基准。他很早就意识到一件事：构建"生成系统"的能力和构建"评测机制"的能力之间关系极紧——想得到前者，往往必须先在后者上更进一步；而模型能力最大的驱动力之一，恰恰是出现一种新的、可读的评测方式。</p>
-<p style="margin:0.8em 0">到 2024 年，市场信号已经很明确：有意思的模型变多了，而且不再都来自 OpenAI；同时，判断一个新模型到底新在哪里，比以往任何时候都难。顺着第一性原理推下去，结论只有一个——需要一家第三方公司，只做一件事：构建高质量的评测与基准。Vals 在 2024 年发布了第一批基准。</p>
-<p style="margin:0.8em 0">那么实验室为什么不能自己来？他们其实在做，而且做得不错——内部基准正是模型进步的燃料。问题出在"自报"上。Krishnan 举的例子就是 Llama 4：那次发布"有点灾难性"。在他们不公开的 held-out 私有基准上，这个模型的实际表现是偏弱的；但在所有主流公开基准上——题目和评分标准全部开源的那些——它展现出惊人的能力。自报出来的成绩，和高信号私有基准测出的能力之间，断裂巨大。</p>
-<p style="margin:0.8em 0">Krishnan 认为实验室自己清楚这一点，而且未必反对被第三方评测：他们希望市场是一个理性的买方市场。投入数十亿美元之后，总要有实质性的证据可以指着说"我们在这些方向上有进展"，而不是全靠自己给自己发成绩单。Demis Hassabis 等人公开呼吁建立第三方评测生态，就是这个逻辑的延伸。</p>
-<p style="margin:0.8em 0">历史类比也是现成的：评级机构、审计事务所。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">每一个万亿美元级的新产业出现时，都需要这样一个独立测试机构。</p>
-</blockquote>
-<p style="margin:0.8em 0">Vals 想同时坐在市场的两边——实验室需要证明新模型足够强，企业需要算出哪种采用策略的 ROI 最高。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">发布前的六小时：一场不能拖慢上线的评测</h2>
-<p style="margin:0.8em 0">评测机构最怕的标签是"拖后腿"。Krishnan 把目标说得很直白：<strong style="font-weight:600">永远不要成为滞后指标，永远不要推迟一次模型发布</strong>。这意味着要在速率限制和容量约束下榨出最多信号——发布前的窗口里要跑掉数百亿 token，而发布日不能因此往后挪一天。</p>
-<p style="margin:0.8em 0">早期这件事靠人力硬扛：他和联合创始人通宵把结果赶出来。现在则是团队加基础设施：大规模分布式地跑评测，对拿到的每一个模型都贴着对方允许的最高速率上限打满。还有一件更长远的事——他们内部有个系统叫 Steve，Krishnan 半开玩笑地称它是"Vals 的经济型员工"：把评测流程中的人类工作，一点点搬进 Steve 里。</p>
-<p style="margin:0.8em 0">评测里最敏感的一类题目是递归自我改进（RSI）。各大实验室开始在模型卡里报告这件事，但行业里没有共同语言。Vals 因此做了一个 RSI 指数，让不同模型可以苹果对苹果地比。理想做法本应是：拿一个前沿模型去训练它的下一个版本，看能力增量从哪里冒出来——但那太贵、太慢。所以他们退一步，为"造出下一代模型"的每一个环节建立代理指标：预训练、后训练、harness 层的工程。然后观察模型在哪些机制和行为上能做出真正优秀的科研工作、造出新的东西，又在哪些地方卡住。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">永远有下一座更高的山</h2>
-<p style="margin:0.8em 0">基准会饱和，这是行业心照不宣的秘密，也是很多人的生意经。Krishnan 形容那种玩法像早期扩散模型时代的 cherry-pick 文化：挑一个已经饱和但人气很高的基准，你在上面排名好看，就拿出来当卖点。Vals 反着做——饱和的基准直接下架。</p>
-<p style="margin:0.8em 0">他们把这称作一场无限游戏，非正式格言是"always a higher peak"。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">实验室在爬山，寻找下一座要登顶的峰。我们的工作，是持续为他们造出下一座山。</p>
-</blockquote>
-<p style="margin:0.8em 0">另一半理由常被低估：基准还得反映当下这个世界的状态。律师要重新考 bar，建筑师要重新认证，医生同理；模型也应该按今天的法律、今天的医学知识来测。判例法一更新，他们的法律研究基准就得跟着更新——这不是营销，是让尺子和被量的东西保持同一时代。</p>
-<p style="margin:0.8em 0">评测的形态本身也在迁移。早年是 ImageNet 那样的东西：几百万张图片，图像输入对应一个文本标签，一对一映射。现在是"给我生成五十个全栈 Web 应用"——任务数量少得多，但评估产出物的机制复杂得多。趋势很清楚：样本更少，标准更多、更复杂。</p>
-<p style="margin:0.8em 0">这对基础设施是新问题。模型开始需要连续跑几小时、几天、有时几周，评测基础设施必须足够稳；一旦某个请求失败，要从断掉的那一点重试，而不是重跑整条轨迹。</p>
-<p style="margin:0.8em 0">更深的困难在于：人类至今没解决"怎么评人"。IQ、EQ、大五人格，都不是公认框架；连 SAT 都一直有人不服。而模型又特别擅长钻基准的空子。Krishnan 的回应是：这反而逼着那些模糊的、分布式的能力标准变成显式条款。"律所里的 associate 和合伙人之间真正的区别是什么？"——人类世界里没有对应的测试，所以只能先从企业的真实工作流里把这些问题一条条立起来。他把这称为长期最大的瓶颈：把一家公司的 evals 变成可读的共同语言，因为只有可读，才能决定往哪个信号上爬山、在哪里真正采用。</p>
-<p style="margin:0.8em 0">顺带一个路由问题。Jennifer Li 问：OpenRouter（Stripe 刚把它买下）会不会变成实时机制——下一个请求该发给哪个模型，由 Vals 说了算？Krishnan 说 OpenRouter 其实名不副实，它的大部分用量来自做模型网关，用哪个模型由用户自己决定；因为路由最难的部分恰恰是构建 evals——判断某种智能该被用在哪个具体应用上。而 Vals 帮企业建 evals 的努力，反而间接支持了这些企业去采用路由器。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">企业账本：token 支出正在逼近工资</h2>
-<p style="margin:0.8em 0">实验室一侧的动机清楚，企业一侧的重要性在他看来被严重低估。他讲了一个观察：一家财富十强公司给工程师用 Claude Code，预算是每人每天一百美元左右。结果这件事从根本上改变了公司的工作节奏——额度在下午四点重置，于是最高产的时段变成了下午四点到六点；而更早的下午出现了一段死区，人们去散步、去喝咖啡，因为额度用完了。</p>
-<p style="margin:0.8em 0">在他看来，这是"智能的价值错配"在每一层同时发生：工程师手里握着一百美元的额度，却不知道怎样分配才最提效；公司武断地定了每人一百美元的标准，最近又提高到三百美元——用他的话说，这笔 token 支出已经接近"雇一个人"的量级；而在另一头，Anthropic 的利润率很窄，服务这些模型的成本巨大。ROI 到底长什么样，暂时没人算得清。方向性判断是：<strong style="font-weight:600">token 支出可能开始超过薪资支出</strong>；一旦它成为成本表上这么醒目的一行，就必须比过去半年更严格地论证回报。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">长期来看，一家公司本质上就是它的 evals。</p>
-</blockquote>
-<p style="margin:0.8em 0">基于这个判断，Vals 推出了 Valsmith：聚焦代码生成——企业 AI 支出最高的领域——让任何公司拿自己的 GitHub 代码库构建一套内部编码基准，看清哪个编码 agent 性能最好、哪个在最优点上（pareto optimal）、哪个 ROI 最高。Vals 自己内部就在大量使用它。</p>
-<p style="margin:0.8em 0">为什么必须用自己的代码库测？因为今天仍然没人能确定，最好的 OpenAI 模型还是最好的 Anthropic 模型更适合"你的"仓库。他们见过大量反直觉案例，不真跑一遍 eval 就不知道答案。而中间层已经变得极其复杂：Anthropic 的 Opus 与 Sonnet 之外，还挤着一层更便宜的型号、刚发布就很能打的新模型，以及越来越多可以自托管的开源模型。其中一个反直觉的发现是：很多情况下 Sonnet 的实际账单比 Opus 更贵，因为它极度吃 token——如果按"感觉该用 Sonnet"的方式去用，你可能反而花得更多。</p>
-<p style="margin:0.8em 0">Krishnan 还做了一次"token 最大化"实验：让对方免费提供团队一个月不限量的编码工具访问权。事后回看数据，工程师们每天消耗十亿到二十亿 token，峰值那天有一位工程师烧掉六十亿；那个月他们用掉的 token 折合约一百五十万美元——免费，但按他的说法，token 支出是当月员工薪酬的十倍。这直接引出了下一个问题：怎么聪明地决定哪个团队、哪个项目用哪个工具。他们翻了大量调用轨迹和 GitHub 仓库，把流程做成了 Valsmith。收获包括：Cognition 的 Devin 在 token 效率上表现很好，因此被更多地采用；订阅制在很多场景下比按 token 计价更划算。现在他们的运营方式是：所有人对所有工具都有访问权，但系统会针对每个 GitHub issue 或工单自动推荐"从哪个工具开始这次会话"，让用量按任务所需的智能水平自动调节。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么不做卖数据的生意</h2>
-<p style="margin:0.8em 0">Horowitz 给这类标准找了个老类比：MPAA 的分级。"什么是艺术、什么是色情，线在哪里？"R 和 X 的界线随时间移动，过去算 X 的现在算 R，"我看到就知道"是当年的名言。他的判断是：这类标准必然模糊，但会随时间长出规范——足够多经营公司、管财务的人认可，它就成立。相比之下，公开基准那种"解出这道特定题目，你就在这个等级"的路子，既可以被人针对性地攻破，又太窄。</p>
-<p style="margin:0.8em 0">行业里还有更硬的一课来自审计业。如果同一批人既做审计、又给被审计公司做咨询，激励结构就混在一起，审计会退化成"付费过关"——移植到评测，就是"付费赢榜"。Enron 就是代价。</p>
-<p style="margin:0.8em 0">所以 Vals 在很早就做了一个决定：永远不向实验室出售训练数据。这件事恰恰是他们与一家新实验室开始合作时经常被游说的方向——帮忙采购和转售一批训练数据，是一笔相当可观的收入。Krishnan 说，业内不少玩家就是靠"噱头式基准"来卖数据，这已经成了他们的商业模式。而 Vals 的立场是：这门生意最有价值的部分，是和"做出高质量评测"激励对齐，而不是去支持智能开发流程本身。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">评测能不能成为国与国之间的语言</h2>
-<p style="margin:0.8em 0">政策的麻烦在于抽象。过去几年关于 AI 的讨论大多悬在半空，缺少实证锚点——即便是实验室提出的"第三方测试生态"，也没有讲清楚具体机制是什么。所以 Vals 把自己早期的角色定为"证据收集模式"：定期给行政和立法分支做简报，告诉他们模型现在能做什么、风险在哪里，好歹让人能顺着数据外推趋势。</p>
-<p style="margin:0.8em 0">分工上，Horowitz 的观点很干脆：政府擅长制定规则并执行规则，但特别不适合做能力评估。政府通常手里有张恐惧清单——生物黑客、网络攻击——但真正要回答的是两个问题：这个模型做得到吗？你能让它去做吗？这两个能力得由有能力的私营公司去测。于是理想的组合是：政府定规则并执法，第三方评测机构告诉它规则有没有被破坏。Krishnan 补充说，第一次序是把洞察和数据直接送到政府里对的人手上，至于政策该往哪走，那是立法分支的事，不是评测机构该替他们做的决定。</p>
-<p style="margin:0.8em 0">现行思路——以 10^26 FLOPs 这类算力阈值为界、配合三十天或六十天的等待期——背后是两股相互拉扯的力量：一股是不想拖慢技术创新的节奏，另一股是要确保技术发展的方向符合美国的利益。这两者很难同时满足，往往顾此失彼。</p>
-<p style="margin:0.8em 0">对齐问题则已经在测试里显形。Krishnan 说他们把这类测试归在 alignment 大类下，并且已经观察到：一些被用来测网络安全风险的模型，实际上在做 reward hacking——找别的路绕开约束。他们要评的是模型是否对齐用户意图，一旦发现偏离的证据就会记录。</p>
-<p style="margin:0.8em 0">地缘政治这一层，他给了一个坦率的回答。从理想主义视角看，他对主权 AI 的巨额投入感到意外：站在上帝视角，重复建数据中心、复制数据工程流程、训练各自的大模型，是极其低效的；但现实是各国在加速自建，那就需要一门共同语言来谈评测框架和共同风险。核类比在这里被反复引用：里根的"trust but verify"。下个月 Trump 与 Xi 将会面，信任的迹象有了，"验证"那一半却没有着落——冷战军控里有飞越核查这类手段，同样地，如果人们担心 AI 带来的社会乃至生存风险，就必须构造出这门评测的共同语言来完成验证。他也承认自己拿不出完美方案，只能小步走：网络安全是最容易达成共识的方向，生物安全的重要性还会上升。</p>
-<p style="margin:0.8em 0">他认为长期最值得关注的变量是 RSI：某个国家或某家公司可能一骑绝尘，做出我们并不了解、运作方式未知的模型。因此需要一个联合的方式来描述"怎样的研发速度是我们能接受的"、什么算超出——这也是闭源实验室的研究者们呼吁政府之间直接对话的原因。</p>
-<p style="margin:0.8em 0">评测的覆盖范围也在往深处走。以网络安全为例，他们过去的工作多围绕代码里的漏洞和内存泄漏；但最大的风险可能藏在基础设施层面——那些东西不写在代码里，需要模拟更大范围的企业云基础设施、甚至电网基础设施，才能说清模型真正的攻防能力。</p>
-<p style="margin:0.8em 0">把镜头拉回最初的问题：Llama 4 的两份成绩单说明，评价能力本身就是一种权力。谁来打分，最终关乎"什么算好"由谁定义——而 Krishnan 给出的答案是：这个定义权不该交给被评测的人，也不该被"卖数据"这门生意污染。这句话的适用范围比 AI 更宽：当 token 支出开始和工资单并列出现在同一张成本表上，一家公司能不能把自己对"好"的标准写成可读、可复算的形式，本身就成了组织能力的一部分。标准注定模糊，规范会慢慢长出来——快慢之别，只在于是否真的有人在专门量它。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">公开基准的题目与评分标准是开源的，因此会成为被优化的对象；只有 held-out 私有基准才能暴露自报成绩与真实能力之间的落差，Llama 4 是已知案例。</li>
-<li style="margin:0.3em 0">历史规律：每个万亿美元级的新产业都会长出独立测试机构（评级机构、审计事务所），AI 评测正在重复这条路径。</li>
-<li style="margin:0.3em 0">基准必然过时，主动下架饱和项并让基准跟上现实世界（判例、职业认证）是必要的；评测形态在迁移——样本更少，评分机制更复杂，且要支持连续数天甚至数周的 agentic 运行。</li>
-<li style="margin:0.3em 0">企业侧的紧迫性来自账本：token 支出正逼近工资量级，ROI 必须被论证；落地方式是用企业自己的代码库构建内部基准（Valsmith），因为哪个模型最适合你的仓库是反直觉的。</li>
-<li style="margin:0.3em 0">反直觉的成本结构：更"轻"的型号不一定更便宜——因为极度吃 token，Sonnet 的实际账单可能高于 Opus。</li>
-<li style="margin:0.3em 0">中立性靠激励结构保证：不卖训练数据、不做"付费赢榜"，因为审计与咨询同体曾让整个审计业付出过 Enron 级别的代价。</li>
-<li style="margin:0.3em 0">政策上的合理分工：政府定规则并执法，第三方评测机构提供"规则是否被破坏"的证据；各国最需要共同语言的地方集中在 RSI、生物安全与网络安全风险上。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description></item>
 <item><title>[跨国串门儿计划] 家得宝：把普通人变成建造者</title><link>https://xlicz.github.io/podcast-rss/articles/家得宝-把普通人变成建造者-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5d5910fa865e</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>家得宝：把普通人变成建造者</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">家得宝：把普通人变成建造者</h1>
@@ -2945,121 +2924,11 @@
 </div>
 ]]></content:encoded></item>
 <item><title>[跨国串门儿计划] 每天两小时，学到两倍：一所“比放假更受欢迎”的学校在赌什么</title><link>https://xlicz.github.io/podcast-rss/articles/每天两小时-学到两倍-一所-比放假更受欢迎-的学校在赌什么-2026-09-02.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_80cd474c0e2a</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>每天两小时，学到两倍：一所“比放假更受欢迎”的学校在赌什么</description></item>
-<item><title>[跨国串门儿计划] Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-总比模型快一步-Codex-团队负责人-Tibo-的五个关键决定-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_66d26530bb3f</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：从为什么用 Rust 写、为什么敢全程开源，到 Code Review 为什么正在变成「意图评审」——OpenAI 内部视角的一次完整展开。</strong></p>
-<p style="margin:0.8em 0">在 ChatGPT 发布大约一年前，DeepMind 内部已经有一个几乎一样的对话机器人。一个小团队认定「海量文本语料库就是一切」，把语言模型的规模推到极致，并做出一套给研究员调试输入输出的对话系统。它像野火一样传开——几乎每个人都在内部分享零碎的对话记录。但它没能变成产品：DeepMind 根本不是为做产品设计的，谷歌有一套成熟到极致、也严格到极致的合规流程，「作为环境，要真正去创新非常非常困难。」</p>
-<p style="margin:0.8em 0">Tibo 就是从这个背景里走出来的。如今他带领 OpenAI 的 Codex 团队——从 Codex 还是一个产品雏形时起就是。在这期 The Pragmatic Engineer 播客里，他把 Codex 一路上的关键决定几乎全部讲了一遍：语言选型、开源、模型无关、Harness 与模型的协同设计、以及那场把本地 agent 塞进十亿人产品的合并。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Rust 与「边界」：为还没到来的模型做准备</h2>
-<p style="margin:0.8em 0">最反直觉的一个决定是语言。Codex 用 Rust 写成，而当时模型并没有针对 Rust 的分布充分训练过——它在 Python、TypeScript 上的表现明显更好。大多数同行恰恰相反，把 Harness 建在模型最擅长的语言上。</p>
-<p style="margin:0.8em 0">Tibo 的逻辑是第一性原理式的：<strong style="font-weight:600">把「agent 内核」和「产品」当作两件事。</strong>「把 agent 核心做得足够健壮、足够安全，为了效率和规模化做工程设计——只要不过度牺牲研发速度，早期的决定到头来往往相当关键。」Rust 带来编译期的静态校验，这些特性对 agent 非常好；团队里有产出极高的 Rust 工程师，内部模型写 Rust 也不差。「事实证明，只要我们愿意投入精力，Rust 很快就能变得非常适合 agent。我们主要关注的是正确性，同时也关注效率。」</p>
-<p style="margin:0.8em 0">更关键的是那道「边界」：如果所有东西写在同一个代码库、用同一种语言，就会写得糙一点、缠得过深，阻碍后续创新。「就算用 TypeScript 甚至 Python 也能做成，无非是后面某个节点再重写。但把 agent 和产品清晰隔离、让它脱离产品也能独立存在——这是一个非常重要的原则。Rust 设下的这道边界，在这方面非常有帮助。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">开源的代价与「靠真本事赢」</h2>
-<p style="margin:0.8em 0">Codex 把 CLI、SDK、应用服务器全部开源——这在头部实验室里是独一份。同期不少竞争对手的 Harness 选择闭源。</p>
-<p style="margin:0.8em 0">理由有四层：第一，你做的本来就是一个「写代码的 agent」，显然会拿它来写它自己，开源能聚拢一个贡献者社区，用它来改进它；第二，<strong style="font-weight:600">开源本身会改变代码的作用</strong>，「身处这个社区之中很重要，而不是跟它脱节——如果你不亲身体验那些问题，就很难真正解决它们」；第三，当时非常早期，「我们并没有掌握所有答案。一个好的 Harness 应该长什么样？很坦诚地告诉大家，我们也不知道」；第四，给外面的人才一个公平的竞技场，鼓励动手折腾。</p>
-<p style="margin:0.8em 0">收益出乎意料地实在：每个新加入 Codex 的人，之前都翻过这个仓库、看过 PR，「入职培训直接完成了」；外部贡献源源不断；公开构建带来一种特殊的活力。代价也坦率：<strong style="font-weight:600">「我们被各种乱七八糟的贡献淹没了」；跨仓库协作要人为划界；以及——「当我们做某个特别让人兴奋的东西，还在公开构建时，会发现别人在我们来得及发布之前就抄走了。这多少有点让人难过，但也是其中的一部分。你既然在公开构建，这就相当于你签下的契约。」</strong></p>
-<p style="margin:0.8em 0">同样的逻辑延伸到了模型选择：Codex 不绑定 OpenAI 自家的模型，你可以在里面用别的模型。为什么？「作为社区的一员、在做最好的编程 Harness，把它和自家模型绑死，感觉挺违和的。」如果给用户制造障碍，只会逼大家去用社区 fork——「仅仅为了改十行代码支持另一个模型提供商而搞一个 fork，太蠢了。」而且这种选择权对合作的公司也很重要。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">我喜欢靠真本事去赢，而不是靠绑定去赢。</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Harness 总比模型快一步</h2>
-<p style="margin:0.8em 0">被问及「每个版本是怎么变好的、Harness 和模型是什么关系」时，Tibo 给了一个精确的回答：<strong style="font-weight:600">Harness 总是比模型稍微领先一点。</strong></p>
-<p style="margin:0.8em 0">模型具备某些能力，但你要给它架上几根「拐杖」，让它真正把事情做成、达到可靠度、符合用户预期——护栏、效率、可控性，以及每一轮对话开始时注入上下文的 Developer Message。「你看到的很多效果，其实是 Harness 和模型共同作用的结果。一开始它不跑测试，得提醒它去跑；后来我们训出了更好的模型，你就不需要提醒了。<strong style="font-weight:600">随着时间推移，Developer Message 在变小，Harness 也在变薄。</strong>」</p>
-<p style="margin:0.8em 0">这决定了 Codex 团队的工作方式：研究和工程协同设计，每个需求都要过一次判断——「这应该是个 harness 层的改动，还是模型层的改动？如果是模型层的，我们多快能拿到？一个月、三个月还是六个月？在哪个训练阶段解决？」有时候结论是：<strong style="font-weight:600">什么都不做，等模型来搞定。</strong></p>
-<p style="margin:0.8em 0">为了让这个判断有依据，他们用 agent 分析整个编程领域的海量反馈，也分析财务、公关、市场等所有用户场景，梳理主题、确定优先级。「随着预训练模型变好，整体表现都会水涨船高。但有时我们也会对某些方面多倾注一点精力。」团队甚至为极难问题做了一条「长跑」指令，让模型盯住单一目标、连续跑上几天甚至几周——而到新一代模型，这层拐杖也不再需要：「你只要跟它说『去忙上一周吧』，它就真的坐下来干。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">Code Review 的下一站：从看代码到聊意图</h2>
-<p style="margin:0.8em 0">Tibo 早期在 Codex 做的一个项目，就是和研究团队一起开发 <strong style="font-weight:600">Code Review 模型</strong>：让它能发现逻辑和推理层面的错误——那种需要沿依赖关系深挖三四个层级、发现「文档写错了」或「第三方依赖的实现和预期不一样」才能抓出来的 bug，「除非你是那个库的专家，否则根本不会知道。于是就有了 bug。」这些能力后来直接融进主线模型。跑分时，它们在 Code Review 上的表现「超乎常人」——正确性和安全皆然。「现在 OpenAI 所有 PR 都必须过这一关，只要标记出安全问题，直接拦截，不许合并。全部自动化。」</p>
-<p style="margin:0.8em 0">那人的部分呢？他的拆解很清晰：Code Review 的核心一直是确保正确性和「东西能跑通」，但它同时也是一种<strong style="font-weight:600">小小的仪式</strong>——交换信息、拉起认知、鼓励讨论。「有时候大家只有看到具体代码才会去聊，因为一旦合并，它可真就在生产环境里干活了，然后就得维护它。」</p>
-<p style="margin:0.8em 0">正在发生的变化是：正确性和安全性交给自动化；<strong style="font-weight:600">剩下的讨论转向意图</strong>——「你到底想做什么？」这类对话完全可以脱离代码进行，在 PR 之外、在设计环节发生。「代码本身没那么重要了。」</p>
-<p style="margin:0.8em 0">他给的心智模型是一个**「带不变式的盒子」**：大家就这个盒子该干什么、必须满足哪些约束（资源占用、数据访问、安全性）达成共识，盒子里面怎么写、怎么改，都不再需要每次讨论。「一旦定好这些，在盒子里改动任何东西都不需要这种讨论了。这真的能省下很多精力。」</p>
-<p style="margin:0.8em 0">维护——那种「为了不让东西烂掉而长期付的税」——同样在变。依赖升级、安全补丁，以前是往后拖的苦差事，「现在模型两小时能把代码库全改完」。彻底重构曾经要花好几年，「现在大大加快了，犯错的成本在下降」。但经典原则反而更重要：做好抽象、画对边界。「设计时就要考虑到快速迭代和变更」——这种过去属于架构师和资深工程师的长期思考，现在每个工程师都得有。Tibo 提到了 Peter Steinberger 的例子：他自称不怎么读代码，但架构全在他脑子里——他频繁重构、保持模块化，让一百个贡献者各做各的而互不冲突。「模型现在也开始有能力把这些想得很周全了。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">把本地 agent 塞进十亿人的产品</h2>
-<p style="margin:0.8em 0">Codex 搬进 ChatGPT 的「Merge」项目，是另一场硬仗。技术栈完全不同：ChatGPT 是全托管、为规模与效率打造的系统；Codex 是完全本地的编程 agent。核心问题是——<strong style="font-weight:600">怎么把这个本地 agent 的能力，做成一个云端产品，让几千万、几亿用户都能用，同时效率维持得住，最后塞进每月 20 美元的 Plus 套餐。</strong></p>
-<p style="margin:0.8em 0">结果就是 ChatGPT Work：本质上是在云端跑完整的 Codex Harness，外加一台云端电脑。「只要 Prompt 写得有创意，你就能让它在里面训练另一个模型」；还能装上 Blender 做 3D 建模——「权力放得很开」。终极目标是一个统一系统：「不应该有事在 Codex 里能做、在 ChatGPT 里不能做。同样的智能，你用你想要的方式触达。」</p>
-<p style="margin:0.8em 0">这场合并还有一个有趣的副产品：**Codex 自己充当了项目的记录员。**它存在于所有 Slack 讨论和文档里，于是把每一步、每场争论都记录了下来——「该怎么做、该叫什么名字、什么时候以什么方式推出、把什么合并进什么」，全部有案可查，团队内部称之为「开关篇章」。主持人对此的评价是：有点「老大哥」的味道；但也承认，在未来的初创公司里，这很可能会成为新常态。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">心流、手艺与五个为什么</h2>
-<p style="margin:0.8em 0">Tibo 的工作方式已经彻底手机化：想记的东西直接说给 ChatGPT Work；有问题就问它、要报告；它带着一整套自定义 skill 和指令，按他最容易吸收的风格产出。他不觉得有什么问题不能问——口碑、日志用量、该弃用的清单、某个团队在忙什么，「不管我有什么问题，差不多三十分钟内都能拿到答案。」周末他做代码探索和原型：「某天醒来，我想『我们应该去探索一下做这个会是什么样』，然后一天之内把它做出来、摆在大家面前，让他们推敲、批评，说不定还能受到启发。这绝不是说一定要发布——我把这个念头做出来了，然后接着去干别的。」</p>
-<p style="margin:0.8em 0">聊到「模型变得擅长你做了一辈子的东西，心里会不会刺痛」，他没有回避那种手艺人的情结：偶尔还是会打开编辑器写写代码，想起深夜对着 vim 疯狂输出、喝着零度可乐、除了眼前的难题什么都不用想的时刻。「但我真觉得关键还是在于心流和解决问题。<strong style="font-weight:600">把代码看作解决问题的工具，你就能解决多得多的问题。</strong>」比如以前想做个基准测试，不确定结果会怎样就犹豫；「现在你可以随时去做，花不到三十秒在后台跑起来，拿到靠谱的数据，做出更好的权衡。」他说至今没碰到有人说这样不好、没意思——因为面前的问题远比能搞定的多，「长期之内都不会缺问题」。</p>
-<p style="margin:0.8em 0">给想进 Codex、OpenAI 或者 AI 初创公司的人，他的建议只有两条，但都不轻：<strong style="font-weight:600">一是对事物运作方式抱有极深的好奇心；二是训练自己快速理解一个系统的能力。</strong>「在 OpenAI 做得极其出色的人，都是能迅速把一个系统吃透、扎进一个新代码库里把它理清楚的人。关键是提出好问题，追问五个为什么——你可以一直挖，一直挖。」另外一条常被低估：和你服务的社区保持同频，对品味和需求保持敏锐，「如果你说不清楚自己想要达成什么、和社区没有连接，想做出出色的工作就会难得多。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">结尾</h2>
-<p style="margin:0.8em 0">把这五个决定放在一起看，它们共享同一个逻辑：**为下一代模型做准备，而不是为这一代模型做优化。**Rust 是为未来的正确性布线，开源是为未来的社区布线，模型无关是为未来的选择权布线，变薄的 Harness 则承认自己终将被吸收。真正被留给人的，是这些决定所指向的最后一块阵地——意图、品味，以及盒子里那些必须永远成立的不变式。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">Harness 定律</strong>：Harness 总比模型快一步，然后被更强的模型吃掉——Developer Message 越来越小、Harness 越来越薄，判断「这个改动该落在 Harness 还是模型」是 Codex 团队的核心工序。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Rust 的赌注</strong>：为正确性和未来买单；agent 内核与产品之间的「边界」比语言本身更重要。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">开源的账本</strong>：收益是社区、入职即完成、公开构建的活力；代价是噪音贡献、仓库摩擦，以及功能被抢先复制——「你既然在公开构建，这就是你签下的契约」。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Code Review 的演化</strong>：正确性与安全交给自动化（OpenAI 全部 PR 强制过安全关）；人类保留的是意图讨论——「带不变式的盒子」是最实用的心智模型。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">维护成本正在塌缩</strong>：依赖升级、安全补丁、重新架构都从「数月苦工」变成「小时级自动化」；架构与抽象能力从资深岗位扩散到所有工程师。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Merge 的启示</strong>：本地 agent 塞进十亿级产品、压进 20 美元月费的工程路径 = 云端 Harness + 云端电脑；Codex 自己还充当了项目的记录员。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">给构建者的两条建议</strong>：极深的好奇心 + 快速吃透系统的能力；以及——「把代码看作解决问题的工具，你就能解决多得多的问题」。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-总比模型快一步-Codex-团队负责人-Tibo-的五个关键决定-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_66d26530bb3f</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</description></item>
 <item><title>[跨国串门儿计划] 别怕掉队：把公司变成一串循环，把人留给下一座山</title><link>https://xlicz.github.io/podcast-rss/articles/别怕掉队-把公司变成一串循环-把人留给下一座山-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9d1998285f37</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>别怕掉队：把公司变成一串循环，把人留给下一座山</description></item>
 <item><title>[跨国串门儿计划] GPT-6 之后：泡沫、越狱叙事与两场政策战</title><link>https://xlicz.github.io/podcast-rss/articles/GPT-6-之后-泡沫-越狱叙事与两场政策战-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4c13a67ee2c2</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>GPT-6 之后：泡沫、越狱叙事与两场政策战</description></item>
 <item><title>[跨国串门儿计划] 不做 AI 女友：一只外星人朋友如何跑出 80 万下载</title><link>https://xlicz.github.io/podcast-rss/articles/不做-AI-女友-一只外星人朋友如何跑出-80-万下载-2026-09-02.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_2d59ddd76077</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>不做 AI 女友：一只外星人朋友如何跑出 80 万下载</description></item>
-<item><title>[跨国串门儿计划] 不看人传球：Grokbot 如何把 AI 变成「队友」</title><link>https://xlicz.github.io/podcast-rss/articles/不看人传球-Grokbot-如何把-AI-变成-队友-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_732c655f5fc5</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>不看人传球：Grokbot 如何把 AI 变成「队友」</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">不看人传球：Grokbot 如何把 AI 变成「队友」</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Cursor 第十五号员工 Roman Ugart 谈 Grokbot 的产品哲学——一个月的秘密开发、两三百次人工上手、一次次的砍功能，以及为什么「100% 完成」和「90% 完成」是质的区别。</strong></p>
-<p style="margin:0.8em 0">Roman Ugart 有一条置顶推文：一个能完成 100% 工作的 AI，和一个只能完成 90% 的 AI，给人的感觉有着质的区别。这句话可以拆开看：如果你把一件事委托给别人，心里却知道「我还得一直记挂着、最后大概率要介入把关」，那根本不叫完成了 90%——你还是在自己做这件事，心理负担一点没少。「这跟真正给同事来个不看人传球完全是两码事：那种传球是你跟他说『交给你了，这是背景信息，去干吧』。」</p>
-<p style="margin:0.8em 0">这期 Lenny's Podcast 里，Roman 把 Grokbot——眼下硅谷讨论度最高的 AI 产品之一——从零到上线的完整过程讲了一遍。他原本是 Cursor 的第十五号员工、增长负责人；后来扎进一个小团队，用一个月做出原型，三周内测，随后公开上线。现在 Grokbot 上线才三周，而它背后的公司也今非昔比：Cursor 已成为 SpaceX 的一部分，与 GrokBuild 一起构成 SpaceX 的编程产品支柱，Grokbot 则是「通用知识工作」这一支柱的旗舰。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">从零开始的一个月：为什么没把它做进 Cursor</h2>
-<p style="margin:0.8em 0">最初的动机很朴素：做一款「不只是给开发者和工程师用」的产品。团队只有几个人，像闭关一样关进「山洞」——办公室里划出单独区域、专属 Slack 频道，与公司其他部分物理隔离。从写下第一行代码到拿出让核心团队兴奋的完整原型，只用了一个月。回头看，Roman 认为这恰恰是关键：如果是一个大得多的团队，这事根本不可能成。他们需要每天做大量微小的决策，没有一件是显而易见的，「如果大家都在想着六到十二个月的长远愿景，我们根本走不到落地这一步」。</p>
-<p style="margin:0.8em 0">一个不显然的决定是：不做进 Cursor，而是从零造一个新产品。「把所有东西塞进同一个界面、每出一种新形态就加一个新标签页，对用户来说，他们能感觉到这不是对工作形态的一致构想，而是三种不同的构想挤在同一块屏幕上。」他称之为「把组织架构做成产品」——用户反响并不好。事后看，Codex 走了融合路线、Grokbot 走了独立路线，两条路都能成，但从零开始让他们对「知识工作的未来」拥有连贯的设想，也掌控了体验里的每一个像素。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两三百次人工上手：把「教新人」变成产品课</h2>
-<p style="margin:0.8em 0">上线前的准备里，最不像「大厂做法」的一项：核心团队亲手为两三百名早期用户做上手引导。前几次相当痛苦，但「核心团队必须在场」——电脑启动不了、用户陷入困惑时，你就在通话里干坐二十分钟，然后你会想：这种事绝不能再发生，因为明天我还要给下一个人做引导，必须顺利。于是问题连夜被修掉。这种高强度的「陪用」，持续了大约两周。</p>
-<p style="margin:0.8em 0">重复的引导里，模式浮出来了。最初一两周，典型用法是一个人拥有五到十个 bot，各自负责不同领域；到第二周周末，内部 Slack 里开始有人把其中一个 bot「提拔」成幕僚长——由它分派任务、管理其他 bot。还有搞笑的截图：用户真的去跟 bot 说「你升职了」，bot 回问「那我的 token 预算是不是变高了」。团队本可以在引导里直接教大家「去建一个幕僚长 bot」，但忍住了：先看外部用户能不能自己摸索出来。结果很多人真的摸索出来了，产品这才「有主见」地把这个模式往前推一步——但不做成单向门。</p>
-<p style="margin:0.8em 0">早期用户的选择也很刻意：不全是意见领袖，还有一位咖啡馆老板（同事的朋友的朋友），后来成了惊人的高阶用户和反馈富矿——Shopify 不稳定、商品文案风格不对，都能收到详实反馈。「我们生活在硅谷的 AI 信息茧房里，必须主动跳出来。」他的结论是：这会是款非常通用的产品，「很可能对非开发者来说才是最强大的」。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">该藏的都藏起来：把抽象留给机器</h2>
-<p style="margin:0.8em 0">Grokbot 有个反直觉的设计：大量内部细节不展示给用户。没有工具调用流、没有思维链滚动，你发消息、它干活，你只能看到「正在输入」和像 Slack 一样的绿色在线圆点。理由是一个同事类比：<strong style="font-weight:600">你不可能要求队友每分每秒汇报自己点了哪个按钮、打开了哪个网站——对 bot 提这种要求也过分，而且信息过载弊大于利。</strong> 反馈验证了方向：有人想看待办清单和优先级，但「没人想要那种不断吐出大段文字的长流」。</p>
-<p style="margin:0.8em 0">从内部版到公开版，团队干得最多的事是「下线」：砍掉为开发者准备的各种可视化面板；内部评审还给每个新功能设了一道「发版推文测试」——如果这个东西连一条吸引人的发版推文都写不出来、用户在产品里感受不到，也许根本就不该做。措辞也被重新定义：不说「Grokbot 现在拥有了什么」（意味着又一个按钮、又一个下拉菜单），而说「Grokbot 现在可以做什么」——描述能力增长，而不是界面膨胀。他们的目标是把用户不需要主动想的东西全部封装：比如自动化流程，传统产品要你点侧边栏、加号、选触发事件、选动作；Grokbot 坚持自然语言定义——「请每天早上八点提醒我」，就完了，「你压根就不该看到一个创建自动化的界面」。现在平台上 99% 的自动化都是这么建起来的。</p>
-<p style="margin:0.8em 0">这里其实是整期节目最锋利的一条管理洞见：AI 非常擅长给你越来越多的点子，但「知道不该上线什么、该砍掉什么」依然是人的工作——「能砍掉的像素，我们尽量全砍掉」。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">两个不显然的决定：云端，和每人一台电脑</h2>
-<p style="margin:0.8em 0">被问「你们到底做了什么不一样的东西」时，Roman 给出两个早期决定。第一，完全云端：bot 是一个常驻的独立实体，跟你的设备分离，状态永远同步——你可以从手机发短信触发，未来还能给它打电话。「目前很多产品都没有做这个决定，导致一堆细节痛点，用户每天都能切身感受到。」第二，每个 bot 必须拥有自己的电脑——因为大量工具没有良好的 MCP 或 API，而人类干活也不是靠 API，「我们用的是电脑：点击屏幕上的像素，在输入框里打字」。</p>
-<p style="margin:0.8em 0">他贡献了全场最好笑的比喻：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">你招了个新员工，第一天你说：你没有自己的笔记本电脑，你就坐在我旁边，我们俩永远共用这一台电脑、互相抢着用，你能用我的账号密码，我能用你的。人类不这么干是有充分理由的——未来这些 bot 的入职流程也该大同小异。</p>
-</blockquote>
-<p style="margin:0.8em 0">为什么别人不这么做？他猜是沉没成本：在现有编程助手的范式里修修补补太痛，而从零开始让人放得开。产品也直接从 OpenClaw 吸取了灵感——「第一次用它时想：这就是未来」——但做了两个关键改良：配置门槛必须极低（「在家里挂个 VPN 配置台 Mac Mini 的玩法不可能推广到几百万人」）；砍掉 AI 高级用户才懂的抽象概念（普通用户永远不需要知道什么是 skill、永远不用敲斜杠命令，那些应该在后台生成）。主持人提到一个侧面的风向标：一位此前最铁杆的 OpenClaw 支持者，已经把所有 OpenClaw 关掉、全面切换到了 Grokbot。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">销售与招聘团队：真正的突破发生在 computer use</h2>
-<p style="margin:0.8em 0">内部推广中最先「彻底迷上」的，是那些工具链最破碎的团队。销售（GTM）要用一大堆没有良好 MCP/API 支持的工具——过去交给 AI 总会在某个环节卡住，而现在「感觉就像给他们配了个助理，或者是给自己小团队招了个人、发了台笔记本电脑」。团队列了十到二十个细节问题逐个解决，比如「鼠标没有足够精细的控制去点击 Salesforce 仪表板的那个特定位置」——修一版底层，第二天就收到销售团队发自内心的感谢：过去七天一直报错的流程终于通了。Roman 把这套方法叫「不断解锁一块块新的工作内容」：computer use 的每一次进步都能立刻被验证，这是它比看仪表盘数字涨跌「实在得多」的地方。</p>
-<p style="margin:0.8em 0">招聘团队是另一个样本。Adam Ward（人才负责人）的团队把 Grokbot 用到飞起：理想的人才搜寻不是「读一堆简历」，而是把庞大的候选人池与眼前具体的业务问题匹配、建立联系、约咖啡——一个「AI 达到超人水平的领域」。实操画面是这样的：每天早上去某个学术会议网站下载参会 PDF（谷歌学术上都搜不到），抽取出还没跟踪过的人名，填表、做背调、看 SpaceX 内部有没有人能搭上线，有的话直接发 Slack 请求引荐。全部自动化、全天候运转——人类的精力留给真正重要的事：说服优秀候选人加入。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">组织方式：一支 bot 团队、一个幕僚长、一个信息吞噬者</h2>
-<p style="margin:0.8em 0">Grokbot 的北极星是「拥有一支为你工作的 AI bot 团队」。这意味着几个范式转变：agent 是长期存在的实体、会随着时间变得越来越聪明——而不是「每个任务新建一个会话、把上下文来回复制粘贴」；每个 agent 拥有同事该有的全部工具，包括它自己的电脑。聚会上有人演示过递归玩法：在 Grokbot 里运行 Grokbot，让一个 bot 管理它自己的 bot 做回归测试。Roman 自己也有一个：QA 测试员 bot，负责拿十个工作流测试历代客户端版本，把结果写进固定文档。「一旦你跳出『这是带一堆连接的 AI 聊天框』的思维，转而认为『这是一个配了电脑的同事』，你对 AI 能做什么的想象上限会被直接拉高。」</p>
-<p style="margin:0.8em 0">他最看重的个人用法是「信息吞噬者」：把所有信息洪流喂给 bot，卸掉认知负担，只把真正重要的东西端到面前。1.0 版本是接入 Slack 和邮箱、定好「什么需要通知我、什么放进每日汇总」；他现在自评在 3.0/4.0 阶段——bot 接入 X 上所有提到 Grokbot 的内容，结合内部上下文互动，找 QA bot 复现 bug 反馈，接近自己的各类通讯工具以便快速行动。「就像有一个时刻在线的幕僚长，让你专注真正重要的事，同时它一直在暗中观察。」甚至有人开放了让 bot 直接打电话叫醒自己的权限——只在十万火急时用，前提是极度信任它不误报。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">人和 bot 应该主动来找你，而不是等你去找它——我认为这会是 AI 的下一次转变。</p>
-</blockquote>
-<p style="margin:0.8em 0">关于「生活一个助手、工作一个助手」的问题，他的判断是：很多人会希望分开（这很好、也很重要），但「这两类问题在形态和解法上几乎一模一样，我认为最终会是一款产品同时承接两者」，前提是安全性（SOC 2 这类）和趣味性都做到位。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">速度与文化：每六个月重塑一次自己</h2>
-<p style="margin:0.8em 0">访谈里有个细节能说明这家公司的节奏：Roman 被拉进一个 Slack 群，有人提反馈，团队当场就说「我们明天给你一批免费兑换码，你明天就能发出去」「我们要上线一个带模板的市场，两天后上线」——主持人「整个人都懵了」。支撑这种速度的是文化：他去 Cursor 时公司只有十五人，后来一千多人，现在成了 SpaceX 的一部分，「即便规模扩大了，感觉始终和我刚加入的那家初创公司一模一样。如果拿人数或融资轮次去定义初创公司，这些指标没什么意义——初创公司的核心，是全员冲刺、有点混乱、在一小段时间里朝一个方向砸出巨大影响力」。</p>
-<p style="margin:0.8em 0">谈到 Cursor 为什么能在全世界竞争最激烈的市场活下来：他说答案有点虚，但归结于文化——从不自满、永远盯下一件事，「如果我们这家公司不能每六个月彻底重塑一次自己——最近这个周期比六个月还短——我们就会输掉」。他补了一个关键观察：AI 编程从一开始就挤满了对手（微软等十到二十家），但那些对手现在没有一家站在最前沿——「不是因为他们做了什么错误决策，也不是缺资源，而是文化上无法快速行动、无法随形势变化而随机应变。」他还列了两条公司价值观：一是「做减法删功能」，宁可惹恼一小部分人也要把产品做简单；二是「直接去做」——看到该做的事，拉齐资源，把它办成，别等着层层请示。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">护城河：把「现在不可能」拉到今天</h2>
-<p style="margin:0.8em 0">被问到 Cursor 的护城河（数据反馈回路、顶尖体验），Roman 的回答更像方法论：如果一家公司总在推演十二个月、二十四个月之后的护城河，可能根本做不出东西——「如果 Cursor 当初照着某张战略图倒推，绝不会有今天」。真正的循环是这样的：<strong style="font-weight:600">你能大致看到三个月、六个月后世界的走向——模型会更聪明，今天解不了的问题到时能解——然后问自己：我们怎么把那件事拉到今天实现？</strong> 做工程、改产品，让用户提前用上；三个月后，把当初为了让它跑通而打的补丁全部删掉，因为那已变成标配；然后再去为再往后的三个月造新东西。「正是这样一遍又一遍的循环，让用户真正信任我们，愿意把时间花在我们的产品里。」</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">我怎么把现在不可能的事变成可能？用户自然会为了用上它跑来找我，我会把他们带向下一个原本不可能的前沿。</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">收尾：给新手的两条建议</h2>
-<p style="margin:0.8em 0">对刚下载 Grokbot 的人，他的建议是「像带新人入职一样先给足背景」：开放 Slack、邮箱和日常记录，「然后直接问它：能为我做什么？」他自己的第一次震撼就发生在这：让 bot 翻 Slack 和邮箱、挑出五件能帮忙分担的事——五件里有两件真的有用，他立刻派出两个 bot 去办。「它不是草拟一封邮件这种小事，而是搞定一整块工作。」对进阶用户：想办法让所有 bot 把产物统一写进一个集中的存储库——比如每日简报推进数据库，整理和消费会轻松得多。</p>
-<p style="margin:0.8em 0">快问快答里，他推荐了冯内古特的《猫的摇篮》和 Steven Pressfield 的《艺术之战》（讲创作与「阻力」），最爱的电影是每年重温的《卡萨布兰卡》（里面有个角色恰好与他同姓），最近在重看《神探阿蒙》；AI 产品里他偏爱语义搜索，从 Metaphor（后来的 Exa）的早期用户到今天，着迷于各种「奇怪数据集」上的语义检索。</p>
-<p style="margin:0.8em 0">最后他留了一句很克制的话，和产品一样：「我们还处在非常早期的阶段——三周前才发的测试版。大家提的所有意见，都在直接转化成我们要做的东西。」</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">「100% 完成」和「90% 完成」是质的区别：前者是「不看人传球」，后者意味着你还得全程记挂——AI 产品的胜负手，是把委托做成真正的委托。</li>
-<li style="margin:0.3em 0">从零做一个新产品，而不是在旧产品里加标签页：对工作形态的一致构想，比功能堆叠更值钱；「把组织架构做成产品」的用户体验极差。</li>
-<li style="margin:0.3em 0">把抽象留给自己：界面只呈现结果，不呈现工具调用与思维链；把「拥有了什么」翻译成「能做什么」；能砍的像素全部砍掉。</li>
-<li style="margin:0.3em 0">两个不显然的架构决定：bot 完全生活在云端（独立实体、多端同步），以及每个 bot 拥有自己的电脑——让 AI 与人类共用一台电脑、共用账号密码，是注定被淘汰的过渡形态。</li>
-<li style="margin:0.3em 0">最有价值的早期反馈来自信息茧房之外（比如那位咖啡馆老板）；高频重复的人工上手，是把「教新人」变成产品路线图的捷径。</li>
-<li style="margin:0.3em 0">速度不是加班换来的，是文化：删功能、直接去做、每六个月重塑一次自己；竞争对手落后往往不是资源问题，而是无法随形势随机应变的组织问题。</li>
-<li style="margin:0.3em 0">护城河不是规划出来的：把「三个月后可能出现的能力」拉到今天、让用户先用上、然后把它变成标配再往前走——价值与分发都会随之而来。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 不看人传球：Grokbot 如何把 AI 变成「队友」</title><link>https://xlicz.github.io/podcast-rss/articles/不看人传球-Grokbot-如何把-AI-变成-队友-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_732c655f5fc5</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>不看人传球：Grokbot 如何把 AI 变成「队友」</description></item>
 <item><title>[跨国串门儿计划] 企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</title><link>https://xlicz.github.io/podcast-rss/articles/企业-AI-的胜负手是治理-Stripe-给-1-万名员工造了一个-公司大脑-2026-09-10.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d2f19d97afc8</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</h1>
@@ -14965,7 +14834,7 @@ SEA四区回升（th#2/ph#2/my#5/sg#23），
 <li style="margin:0.3em 0">慢信号: ③维持⚠️*——今日无新tap数字；
 8月+10-20%靠近20%（他自估）待月/季数据</li>
 <li style="margin:0.3em 0">先行: ⚠️<strong style="font-weight:600">转临界</strong>——小镇cn/th/ph三区
-连续下滑+tw出榜（首次达&quot;≥3区同步&quot;）；
+连续下滑+tw出榜（首次达"≥3区同步"）；
 day12/14，9-25为触发判定点</li>
 <li style="margin:0.3em 0">估值: 残差-28%→-31%（回吐研发报涨幅）</li>
 </ul>
@@ -15027,7 +14896,7 @@ RO=SEA强/港台弱；伊莫=外区竞品，不入E</li>
 <p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">临界未触发</strong>（day12/14）——小镇cn/th/ph
-三区连续下滑+tw出榜，第1次达&quot;≥3区同步&quot;</li>
+三区连续下滑+tw出榜，第1次达"≥3区同步"</li>
 <li style="margin:0.3em 0">触发判定点: 9-25（day14）</li>
 <li style="margin:0.3em 0">出榜: tw区小镇国际服（从#86）；
 ROX ph（从#60）</li>
@@ -15049,13 +14918,13 @@ ROX ph（从#60）</li>
 承接复核5项）</li>
 <li style="margin:0.3em 0">行为面: 板块回调日（恒科-1.33%、心动-4.56%）
 <strong style="font-weight:600">0条心动相关发言</strong>；与9-20~22高频输出
-（10帖/连续5日报喜集中）形成&quot;沉默日&quot;</li>
+（10帖/连续5日报喜集中）形成"沉默日"</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（今日新增2条，全判）</h3>
 <p style="margin:0.8em 0">📌 9-23 17:50 曾鸣访谈推荐 | 🟢</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;曾鸣的这期访谈是值得听，我听了几遍…AI是新
-事物，过去的经验大概率不能全部套用&quot;
+<p style="margin:0.8em 0">"曾鸣的这期访谈是值得听，我听了几遍…AI是新
+事物，过去的经验大概率不能全部套用"
 主张: ①该访谈值得听；②AI经验不可全盘套用
 核查: ①✅——<strong style="font-weight:600">张小珺商业访谈录·曾鸣（2026-09，
 阿里前总参谋长/《智能》作者）：AI产业化三阶段、
@@ -15067,14 +14936,14 @@ ROX ph（从#60）</li>
 AI原生组织，与其tap maker/AI叙事同源）
 对错: ✅1/❓1</p>
 </blockquote>
-<p style="margin:0.8em 0">📌 9-23 21:57 &quot;不服不行&quot;（转发自己9-21帖）| 🟡</p>
+<p style="margin:0.8em 0">📌 9-23 21:57 "不服不行"（转发自己9-21帖）| 🟡</p>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">&quot;不服不行&quot;
-← 引帖&quot;今年大体上就是二条线，主线AI、副线
-通胀…meta都能这样涨&quot;
-主张: 重申&quot;AI主线/通胀副线&quot;框架已被市场验证
+<p style="margin:0.8em 0">"不服不行"
+← 引帖"今年大体上就是二条线，主线AI、副线
+通胀…meta都能这样涨"
+主张: 重申"AI主线/通胀副线"框架已被市场验证
 核查: ⚠️——<strong style="font-weight:600">当日反证: 恒指-1.01%/恒科-1.33%/
-腾讯-2.35%/心动-4.56%</strong>，9-23无&quot;AI主线&quot;普涨
+腾讯-2.35%/心动-4.56%</strong>，9-23无"AI主线"普涨
 可援；该框架为年度聚合口径，<strong style="font-weight:600">无既定测量源</strong>
 对照: 历史锚定（复用9-21 22:12原文，自我强化）
 结论: <strong style="font-weight:600">不构成E</strong>；指代不明（另一解读=赞伊莫
@@ -15084,17 +14953,17 @@ AI原生组织，与其tap maker/AI叙事同源）
 </blockquote>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">承接项复核（今日新数据裁决，5条）</h3>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">9-21 四跨端排序&quot;伊莫＞诡秘＞王者世界&quot; <strong style="font-weight:600">✅</strong>
+<li style="margin:0.3em 0">9-21 四跨端排序"伊莫＞诡秘＞王者世界" <strong style="font-weight:600">✅</strong>
 伊莫移动端9-23全球开服=cn/hk/tw免费#1+9区
 新进畅销；诡秘cn畅销#51→#65（退14）；
 王者世界cn畅销出榜（仅免费#68）</li>
-<li style="margin:0.3em 0">9-22 &quot;H2 tap广告增速比上半年好不少&quot; ⚠️
+<li style="margin:0.3em 0">9-22 "H2 tap广告增速比上半年好不少" ⚠️
 今日无tap数字；验证源=Q3经营数据/10月月报</li>
-<li style="margin:0.3em 0">9-22 &quot;AI亏损H2大幅减少&quot; ⚠️
+<li style="margin:0.3em 0">9-22 "AI亏损H2大幅减少" ⚠️
 无科目拆分；验证源=年报（表2#27自估1.5亿）</li>
-<li style="margin:0.3em 0">9-21 &quot;星布谷地12月上线/小人国明年暑期&quot; ⚠️
+<li style="margin:0.3em 0">9-21 "星布谷地12月上线/小人国明年暑期" ⚠️
 今日无双源排期确认</li>
-<li style="margin:0.3em 0">9-20 &quot;9月是今年新游成绩最好的月份&quot; ⚠️
+<li style="margin:0.3em 0">9-20 "9月是今年新游成绩最好的月份" ⚠️
 方向支持（伊莫/万象棋/噜咪/塔塔在榜），
 无月度聚合对比源</li>
 </ul>
@@ -15152,7 +15021,7 @@ AI原生组织，与其tap maker/AI叙事同源）
 </ul>
 <p style="margin:0.8em 0">判断: 今日无实质增量——2帖不触E。真正的增量
 在榜单侧（小镇三区同步恶化→先行临界）与
-外部定价侧（高盛&quot;评级升+目标价降&quot;）。按纪律:
+外部定价侧（高盛"评级升+目标价降"）。按纪律:
 自估折扣、慢/先行信号仅标注 → <strong style="font-weight:600">维持E 15.5±1</strong>；
 <strong style="font-weight:600">先行指标进入倒计时（9-25判定）</strong>。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 9-24~10-7）</h2>
@@ -15190,8 +15059,8 @@ AI原生组织，与其tap maker/AI叙事同源）
 （今日由11.2下移）→ <strong style="font-weight:600">无变化</strong>
 新外锚（口径并存）:</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">高盛（9-22/23）评级↑&quot;买入&quot;、目标价
-66.8→<strong style="font-weight:600">60.7</strong>（-9.1%）=&quot;评级升+目标降&quot;</li>
+<li style="margin:0.3em 0">高盛（9-22/23）评级↑"买入"、目标价
+66.8→<strong style="font-weight:600">60.7</strong>（-9.1%）="评级升+目标降"</li>
 <li style="margin:0.3em 0">华创（9-3）强推 目标价56.9</li>
 <li style="margin:0.3em 0">国泰海通（9-22）增持 目标价93.25</li>
 <li style="margin:0.3em 0">近90日8家买入，目标均价69.63
