@@ -1,50 +1,102 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 23:03:01 +0800</lastBuildDate><item><title>[卫诗婕｜漫谈Light the Star] AI 让每个人都变快了，为什么组织没有变快</title><link>https://xlicz.github.io/podcast-rss/articles/AI-让每个人都变快了-为什么组织没有变快-2026-09-23.html</link><guid isPermaLink="false">light-the-star_208c7f2f9f6f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>AI 让每个人都变快了，为什么组织没有变快</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 23:03:08 +0800</lastBuildDate><item><title>[跨国串门儿计划] 设计师是 AI 时代最不开心的群体，也是机会最大的</title><link>https://xlicz.github.io/podcast-rss/articles/设计师是-AI-时代最不开心的群体-也是机会最大的-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a25d368ba370</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>设计师是 AI 时代最不开心的群体，也是机会最大的</description></item>
+<item><title>[跨国串门儿计划] 一年走出四五年的 AI 进展，然后呢</title><link>https://xlicz.github.io/podcast-rss/articles/一年走出四五年的-AI-进展-然后呢-2026-08-12.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_52269d87762d</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>一年走出四五年的 AI 进展，然后呢</description></item>
+<item><title>[投资实战派] 昇腾崛起：一款产品如何定义一个时代</title><link>https://xlicz.github.io/podcast-rss/articles/昇腾崛起-一款产品如何定义一个时代-2026-09-20.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_d99cc505902d</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>昇腾崛起：一款产品如何定义一个时代</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">昇腾崛起：一款产品如何定义一个时代</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：方兴东为写华为六款卡脖子产品，七年访谈了 500 多人，每人两小时都亲自做。他的结论不是"技术有多难"，而是"敢不敢"——真正的分野在于这家公司从一开始就没打算当追随者。</strong></p>
+<p style="margin:0.8em 0">方兴东在互联网里待了三十年，现在一半身份是学者——浙江大学传媒与国际文化学院院长，另一半仍然念念不忘产业。过去七年他做的事听上去不太像学术项目：围绕华为六款被卡脖子的产品，写六本书。</p>
+<p style="margin:0.8em 0">原本预计五年完成，现在看来要八年。这套书的起点是 2019 年的科技战。当时他和徐直军商量，把写作方向从泛泛的华为管理调整到具体产品：三款软件——鸿蒙（终端操作系统）、欧拉（服务器操作系统）、高斯（数据库）；三款芯片——麒麟（手机）、昇腾（AI）、鲲鹏（服务器）。逻辑很直接：这六款产品如果都攻下来，卡脖子的问题基本就解了。</p>
+<p style="margin:0.8em 0">最初的计划是每本访谈 50 人、六本共 300 人、2024 年一起出齐。实际进展没有这么顺。2023 年《欧拉崛起》先出——本来最早要出的《鲲鹏》因为美国半导体制裁被搁置，估计今年年底能出；去年是《鸿蒙开悟》；今年轮到《昇腾崛起》；明年可能还有《高斯》和《麒麟》。</p>
+<p style="margin:0.8em 0">到明年年底，访谈量会超过 500 人，比原计划多了近一倍。每场两小时，全部由方兴东亲自做。他记得最清楚的是前年写鸿蒙，一天安排六个人访谈，中间只有二十分钟空隙，闹钟定十五分钟倒下来睡一觉，醒了接着谈。</p>
+<p style="margin:0.8em 0">"这个工作量超级大，真的是跟农民一样。"</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">徐直军的回答</h2>
+<p style="margin:0.8em 0">2023 年前后，整个业界——包括华为内部相当一部分人——对前景是悲观或至少高度不确定的。方兴东说他最诧异的一点，是六年里很多人沮丧、怀疑、消极、着急，而徐直军始终保持着那种必胜的状态。</p>
+<p style="margin:0.8em 0">他去问为什么。徐直军的回答是："因为我掌握比较完整的信息。其他人只是掌握一部分信息，所以他们没底。"</p>
+<p style="margin:0.8em 0">方兴东自己的判断也带着不确定性："我们当年预测五年完成，现在看来五年不止，肯定是偏乐观。"但徐直军那套研判的整体态势，回头看是准确的——六款产品都在，方向没变。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">不是难度问题，是决心问题</h2>
+<p style="margin:0.8em 0">永庆问了一个外行会问、但很关键的问题：做手机操作系统难，做 CPU、GPU 也难，这两种难度能不能比较？</p>
+<p style="margin:0.8em 0">方兴东的回答推翻了问题的前提："本质上是你的认知和你的决心问题。你敢不敢干。"</p>
+<p style="margin:0.8em 0">他给的转折点是 2010 年——华为在通讯领域慢慢觉得能做到全球第一了，信心有了，才敢干。</p>
+<p style="margin:0.8em 0">高斯数据库是最好的例子。这是个半世纪的老行业，增量不大、市场稳固，一开始华为想的也是走捷径：调研国内厂商，看能不能支持一家、或者干脆收购一家。调研结论是收购哪家都不顶用——国内这些企业原来只能在美国巨头的缝隙里生长，规模小、研发能力弱、产品创新性也弱。于是华为决定自己做，直接对标 Oracle。</p>
+<p style="margin:0.8em 0">从 2011、2012 年开始，每年投入的规模是十亿、二十亿、三十亿的量级——<strong style="font-weight:600">投的时候根本不知道这个产品未来有没有产出</strong>。</p>
+<p style="margin:0.8em 0">人才布局也是同一个逻辑。手机操作系统人才在诺基亚时代的芬兰比较集中，那就在芬兰设研究院；硅谷也设研究院。出发点不是"做个备胎"，从起步就瞄准国际一流人才做一流产品。</p>
+<p style="margin:0.8em 0">方兴东把这归结为心态差异："我们国内一直跟着后面走，这种追随者的心态，是我们缺少的东西。华为能超越这种心态，敢于领先。"他认为美国打压华为的原因也在这里：美国对中国产业的了解，比我们自己了解得还要深入，看出了华为一旦起来会威胁整个硅谷的一片企业。</p>
+<p style="margin:0.8em 0">对中国企业的判断更直接：到 2019 年，BAT 在钱、人、市场规模上条件全都具备。<strong style="font-weight:600">"关键就是你敢不敢想，敢不敢做，敢不敢坚持。"</strong></p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">单框架与双框架：没有对错，只有追求</h2>
+<p style="margin:0.8em 0">书里最真实的张力，来自华为内部那些至今没有统一声音的争论。</p>
+<p style="margin:0.8em 0">鸿蒙从一开始的双框架——兼容安卓——走向单框架。当年为了保住市场份额，单双框架之争非常激烈。而从 2019 年徐直军布置任务时，方向就是坚定的单框架。</p>
+<p style="margin:0.8em 0">昇腾要不要兼容 CUDA，同样到今天都有完全不同的声音。方兴东没有替哪一方站台："这东西没有对错的问题。主要还是你真正追求到底是什么——我仅仅是利用这波人工智能挣足够多的钱，还是利用这么好的一个机会，做出引领世界的事情？"</p>
+<p style="margin:0.8em 0">他看任正非、徐直军、余承东这拨人的方式，和产业界通常的认知不同："他们不是要市场能做成功、能挣到钱，这不是他们的追求。他们从一开始就很坚定。"这种坚定本身，就是出现这么多超出想象的决策的原点。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么又是"崛起"</h2>
+<p style="margin:0.8em 0">写第一本书时叫《欧拉崛起》，按道理后面不该再用这个词。方兴东和徐直军起了很多名字都觉得不过瘾，最后徐直军说，再用一次崛起吧。</p>
+<p style="margin:0.8em 0">《鸿蒙开悟》是因为鸿蒙还没崛起，才刚开始。而昇腾，方兴东认为是开始崛起了。"如果一款产品可以定义一个时代，那肯定是昇腾。鸿蒙的品牌知名度可能更大，但时势造英雄，趋势大于人。人工智能时代，昇腾恰逢其时，只是崛起的时间晚了一点。"</p>
+<p style="margin:0.8em 0">他在封底给这本书定了一个调：<strong style="font-weight:600">昇腾崛起，就是华为崛起，就是中国高科技崛起</strong>；昇腾全球化，就是华为再全球化，就是中国高科技真正全球化。在中国乃至全球高科技发展史上，昇腾都具有符号性和标志性的意义。</p>
+<p style="margin:0.8em 0">他也提到 2019 年时，六本书里昇腾是最不起眼的一本，没人想到它有一天会这么脱颖而出。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">股权之外：新循环与掀桌子的人</h2>
+<p style="margin:0.8em 0">永庆在节目尾声把话题拉回投资。他的提醒是：AI 产业股票涨了很多，但更重要的是理解产业发展进程——中国的 AI 进程与算力、美国的 AI 进程与算力。不能只看着股票涨就说它厉害或不厉害。很多公司身上蕴含着大量背后的假设；如果历史重来一遍，当前的华为可能更厉害，而英伟达的市值未必需要这么高。</p>
+<p style="margin:0.8em 0">他的结论指向不确定性，也指向确定性：<strong style="font-weight:600">世界是不确定的，更确定的是少数厉害的公司做出了高质量的决策，内心坚定地往前走、做对的事情，直到有一天改变了天平的方向，推动新的循环建立。</strong></p>
+<p style="margin:0.8em 0">具体到这一轮，他看到的是中国算力公司和大模型公司的利益绑定加技术合作，正在形成一个新的循环。时间差在缩短：手机时代中美差距可能是三到五年，大模型时代大家原以为差九个月到一年，现在感觉很多只差三个月。算力上还有差距，但多维度协同之下，效果是差距越来越小；一旦这边的成本又比美国低，正循环建立起来，能量可能比预计的多。</p>
+<p style="margin:0.8em 0">他给了一个判断"谁能掀桌子"的标准：用安卓的手机厂商不是推翻桌子的人——市占率高一点低一点，不影响大的利益分配，因为最底层的根基不站在他手上。而一旦一家公司掌握了根本性的底层能力，又建立了正循环，那才是真正遥遥领先的公司。华为和昇腾，在他看来属于这一类。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">六款产品的分工很清晰</strong>：鸿蒙、欧拉、高斯三大软件，麒麟、昇腾、鲲鹏三大芯片。原计划五年出齐六本书，实际要八年，访谈量从 300 人加到 500 人以上。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">"不是难度问题，是决心问题。"</strong> 2010 年通讯做到全球第一、信心建立之后，华为才敢在最老的行业（数据库）对标最强的对手（Oracle）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据库的路径选择很有代表性</strong>：先想收购、调研后全部否决、然后自己做——因为国内厂商只能在美国巨头的缝隙里生长。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">持续投入发生在产出未知之前。</strong> 高斯从 2011 年起每年十亿到三十亿量级投入，当时没人能保证它会有产出。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">内部争论至今没有统一答案</strong>：鸿蒙单框架还是双框架，昇腾要不要兼容 CUDA。分歧的标准不是对错，是"你真正追求什么"。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">投资的落点不是股价，是决策质量。</strong> 世界不确定，更确定的是少数公司做对了高质量决策，直到改变天平方向、推动新循环。</li>
+</ul>
+
+</div>
+]]></content:encoded></item>
+<item><title>[卫诗婕｜漫谈Light the Star] AI 让每个人都变快了，为什么组织没有变快</title><link>https://xlicz.github.io/podcast-rss/articles/AI-让每个人都变快了-为什么组织没有变快-2026-09-23.html</link><guid isPermaLink="false">light-the-star_208c7f2f9f6f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>AI 让每个人都变快了，为什么组织没有变快</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 让每个人都变快了，为什么组织没有变快</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：网易集团副总裁阮良给出的一线数据：个人用 AI 编码效率提升 300% 到 500%，整个软件交付流程却只从 20 天缩短到 17 天。工具已经普及到每个人手上，组织的运转速度没有跟着变——缺的不是工具，是决策中枢和执行闭环。</strong></p>
-<p style="margin:0.8em 0">八月底，一篇题为《AI Adoption is a Myth》的文章在 X 上引发大量讨论。它指出的鸿沟不在&quot;用不用&quot;，而在&quot;用得多好&quot;：企业里真正深度使用 AI 的只是一小撮人，而当下很多 AI 产品的设计还在强化这一点。</p>
+<p style="margin:0.8em 0">八月底，一篇题为《AI Adoption is a Myth》的文章在 X 上引发大量讨论。它指出的鸿沟不在"用不用"，而在"用得多好"：企业里真正深度使用 AI 的只是一小撮人，而当下很多 AI 产品的设计还在强化这一点。</p>
 <p style="margin:0.8em 0">几乎同一时间，卫诗婕在杭州访谈了网易集团副总裁、网易智企 CEO 阮良。阮良 2006 年从浙大计算机系毕业就进了网易，从一线代码做到管理层，历经互联网、移动互联网、AI 三波浪潮。这一波里他重新捡起代码自己用 AI，也在公司内部推动落地。</p>
 <p style="margin:0.8em 0">他给出的第一个数字就很扎人。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">300% 与 20 天</h2>
 <p style="margin:0.8em 0">网易内部统计：个人用 AI 写代码，效率提升 300% 甚至 500%。但整个软件交付流程，只从 20 天缩短到 17 天。</p>
-<p style="margin:0.8em 0">这个落差就是整场对话的题眼。每个人都被武装了，组织的吞吐量几乎没变。阮良的解释是，AI 优化的是&quot;单点动作&quot;，而交付是一条链——需求确认、评审、联调、测试、上线，一环卡住，前面快多少都被吃掉。个人效率是乘法，组织效率是串联电路。</p>
-<p style="margin:0.8em 0">他把这轮 AI 和移动互联网做了区分。移动互联网的本质变化是传感器：LBS 带来了位置，摄像头带来了新的表达，抖音这类应用长出来。但他认为那仍然是&quot;点状、连点、层面&quot;的体验升级。AI 的不同在于，它除了拿到数据，还对数据有真正的理解能力、有主动识别意愿的能力、还有执行能力——所以它渗透的不是几个核心技术环节，而是&quot;所有人、所有场景、公司所有场景的毛细血管&quot;。</p>
+<p style="margin:0.8em 0">这个落差就是整场对话的题眼。每个人都被武装了，组织的吞吐量几乎没变。阮良的解释是，AI 优化的是"单点动作"，而交付是一条链——需求确认、评审、联调、测试、上线，一环卡住，前面快多少都被吃掉。个人效率是乘法，组织效率是串联电路。</p>
+<p style="margin:0.8em 0">他把这轮 AI 和移动互联网做了区分。移动互联网的本质变化是传感器：LBS 带来了位置，摄像头带来了新的表达，抖音这类应用长出来。但他认为那仍然是"点状、连点、层面"的体验升级。AI 的不同在于，它除了拿到数据，还对数据有真正的理解能力、有主动识别意愿的能力、还有执行能力——所以它渗透的不是几个核心技术环节，而是"所有人、所有场景、公司所有场景的毛细血管"。</p>
 <p style="margin:0.8em 0">一个具体的例子：教育。最好的学习方式几十年前教育学家就研究清楚了——完全按个人阶段、情况、强度适配的一对一定制化教学。做不到的唯一原因是成本。AI 让这件事第一次有了可能：给孩子生成符合当前阶段的额外学习内容，做成他感兴趣的东西，甚至做成游戏。有个硅谷工程师准备美国极难考的一个税务类证书，全程把 Claude 当老师——扫描历年考题、扫描教材、给自己制定学习计划并出题，一轮一轮过，不到两个月考出来。</p>
-<p style="margin:0.8em 0">阮良把这个类比到印刷术：西方印刷术最大的作用，是把&quot;解释圣经&quot;的权力平权掉了，此前手抄成本极高、解释权全在教士手里。AI 在知识领域正在做同一件事。</p>
+<p style="margin:0.8em 0">阮良把这个类比到印刷术：西方印刷术最大的作用，是把"解释圣经"的权力平权掉了，此前手抄成本极高、解释权全在教士手里。AI 在知识领域正在做同一件事。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">老板的信息是层层被削减过的</h2>
-<p style="margin:0.8em 0">李开复新书里有一节专门讲&quot;老板 AI&quot;：老板获得的信息在整个公司里其实是最少的，因为到他手上时已经被层层筛选、包装、削减；但高价值决策又需要更广泛的信息。现在很多公司的做法，是希望所有会议和业务场景的对话都 on record，语料汇总进公司 AI 服务器再筛选，供决策者使用。</p>
+<p style="margin:0.8em 0">李开复新书里有一节专门讲"老板 AI"：老板获得的信息在整个公司里其实是最少的，因为到他手上时已经被层层筛选、包装、削减；但高价值决策又需要更广泛的信息。现在很多公司的做法，是希望所有会议和业务场景的对话都 on record，语料汇总进公司 AI 服务器再筛选，供决策者使用。</p>
 <p style="margin:0.8em 0">阮良不但认可，而且网易就是这么做的。要求很明确：线下开会也要配录音卡，或者干脆主动开一场线上会议自动录下来，保证会议原始资料被保留。这件事本身他认为就非常值得做。</p>
-<p style="margin:0.8em 0">更关键的是下半句：<strong style="font-weight:600">老板自己必须深度用 AI</strong>。这被他称为打造专属 CEO AI 系统的核心原因——老板要亲自做一点文本 coding，或者至少深度用一下当下好的 Agent 和 AI 产品，让自己知道 AI 的能力边界和&quot;编辑范围&quot;在哪里，才可能做出更好的 AI 决策。</p>
-<p style="margin:0.8em 0">从员工角度看，这里有天然的对抗。能力越强的人越抵触——销冠尤其如此。&quot;个人使用可以，但我不希望回传到公司被蒸馏。&quot;阮良的处理是不强求，顺应人性。他更看重另一类信息：不是员工产生的，是客户产生的。网易做过一类叫&quot;客户之声&quot;（Voice of Customers）的产品，把客户真实的声音汇总起来给产品研发部门看，用来改产品。逻辑是一样的——CEO 完全可以把精力更多放在客户身上，关注客户和市场，远比关注组织内部每个人在干什么更有价值。只要公司的倾向性是采集客户和市场的声音，抵触情绪就少很多；而且即便你不做，也天然有一部分信息已经在线上，量已经足够大。</p>
+<p style="margin:0.8em 0">更关键的是下半句：<strong style="font-weight:600">老板自己必须深度用 AI</strong>。这被他称为打造专属 CEO AI 系统的核心原因——老板要亲自做一点文本 coding，或者至少深度用一下当下好的 Agent 和 AI 产品，让自己知道 AI 的能力边界和"编辑范围"在哪里，才可能做出更好的 AI 决策。</p>
+<p style="margin:0.8em 0">从员工角度看，这里有天然的对抗。能力越强的人越抵触——销冠尤其如此。"个人使用可以，但我不希望回传到公司被蒸馏。"阮良的处理是不强求，顺应人性。他更看重另一类信息：不是员工产生的，是客户产生的。网易做过一类叫"客户之声"（Voice of Customers）的产品，把客户真实的声音汇总起来给产品研发部门看，用来改产品。逻辑是一样的——CEO 完全可以把精力更多放在客户身上，关注客户和市场，远比关注组织内部每个人在干什么更有价值。只要公司的倾向性是采集客户和市场的声音，抵触情绪就少很多；而且即便你不做，也天然有一部分信息已经在线上，量已经足够大。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">企业支付的是时间，打工人要的是溢价</h2>
 <p style="margin:0.8em 0">访谈中卫诗婕提了一个更锋利的问题。企业的雇佣关系，本质是支付员工的工作时间与工作产生的具体价值；但打工人逐层晋升，最终想赚的溢价来自个人积累的知识库和经验沉淀。而现在很多企业想做的，是在不支付这份溢价的前提下，把产生溢价的本质拿走、复制给别人。</p>
-<p style="margin:0.8em 0">阮良的回应分两层。一层是现实判断：AI 时代，越是精英的人，能力和资源越被放大。他设想的未来场景是一个入职谈判——履历、学历、工作经验之外，多一个可谈的条件：&quot;我不是一个人来的，我带了一个团队。不是真的团队，而是一个 AI 团队，是我过去所有经验和技能的总结。&quot;企业要支付的溢价，是买下这个小军团。</p>
-<p style="margin:0.8em 0">另一层是文化判断。如果今天从第一天重建一个组织，他认为最重要的两件事：第一，形成某种 AI 信仰，这是文化问题；第二，人选。网易集团今年更新的人才观讲&quot;六个力&quot;——审美、标准能力、结构能力、判断力、洞察力、自驱的学习能力。理由是：现在做一个好产品，真的可能几个人就够，只要有审美和洞察力的人在 AI 加持下，就能把一群人的活做成一个好产品。</p>
+<p style="margin:0.8em 0">阮良的回应分两层。一层是现实判断：AI 时代，越是精英的人，能力和资源越被放大。他设想的未来场景是一个入职谈判——履历、学历、工作经验之外，多一个可谈的条件："我不是一个人来的，我带了一个团队。不是真的团队，而是一个 AI 团队，是我过去所有经验和技能的总结。"企业要支付的溢价，是买下这个小军团。</p>
+<p style="margin:0.8em 0">另一层是文化判断。如果今天从第一天重建一个组织，他认为最重要的两件事：第一，形成某种 AI 信仰，这是文化问题；第二，人选。网易集团今年更新的人才观讲"六个力"——审美、标准能力、结构能力、判断力、洞察力、自驱的学习能力。理由是：现在做一个好产品，真的可能几个人就够，只要有审美和洞察力的人在 AI 加持下，就能把一群人的活做成一个好产品。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">决策中枢：不是模型，是知识库</h2>
-<p style="margin:0.8em 0">谈到企业要建的&quot;决策 AI 中枢&quot;，阮良给的答案非常朴素：本质上需要的是一个高质量知识库，而&quot;高质量&quot;三个字的关键，是历史上的决策流痕和决策依据。</p>
-<p style="margin:0.8em 0">网易今年的做法，是先把过去发生过的决策留存下来，纳入知识库，再和另一类知识结合，训练出一个 agent 或 skill。然后用几百个历史案例去检验它，准确率超过 90%。他把这称为&quot;凝聚了所有管理智慧和管理决策方法&quot;的决策知识库。</p>
-<p style="margin:0.8em 0">他提到了桥水基金——给研究员和分析师配了自制的 agent，回答&quot;该投什么项目、怎么投、怎么评判、怎么调研&quot;。桥水数字化做得早，所有过程数据和决策记录都在：为什么投它、参考了多少信息、内部经过多少轮讨论、为什么决定投、最后投了多少钱。这些积累成了今天的决策知识库。</p>
+<p style="margin:0.8em 0">谈到企业要建的"决策 AI 中枢"，阮良给的答案非常朴素：本质上需要的是一个高质量知识库，而"高质量"三个字的关键，是历史上的决策流痕和决策依据。</p>
+<p style="margin:0.8em 0">网易今年的做法，是先把过去发生过的决策留存下来，纳入知识库，再和另一类知识结合，训练出一个 agent 或 skill。然后用几百个历史案例去检验它，准确率超过 90%。他把这称为"凝聚了所有管理智慧和管理决策方法"的决策知识库。</p>
+<p style="margin:0.8em 0">他提到了桥水基金——给研究员和分析师配了自制的 agent，回答"该投什么项目、怎么投、怎么评判、怎么调研"。桥水数字化做得早，所有过程数据和决策记录都在：为什么投它、参考了多少信息、内部经过多少轮讨论、为什么决定投、最后投了多少钱。这些积累成了今天的决策知识库。</p>
 <p style="margin:0.8em 0">但阮良认为桥水真正值得学的地方在下一层：它把这套 AI 进程做成了<strong style="font-weight:600">可学习、可进化</strong>的部分。AI 再准确也有错误率，最终还是要人来做判断、决策和执行；而人一旦调整，调整动作被确认之后，会进入下一轮加强。这是一种人机协作式的自进化——和大模型从底层做自进化是两条路。</p>
 <p style="margin:0.8em 0">他对未来的总结是两句对称的话：人站在 AI 的肩膀上，AI 站在人的肩膀上。</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">那个站在电视机前的老板</h2>
-<p style="margin:0.8em 0">节目最后，阮良讲了一个他亲身在场的画面。陪供应商去拜访一家客户，展示了一份方案，老板看完震惊了——&quot;原来还可以这么改&quot;。然后老板回头，把设计团队老大、生产制造团队老大、HR 老大全都叫到电视机屏幕前：&quot;都站过来，好好看看 AI 现在能干到什么程度。&quot;</p>
-<p style="margin:0.8em 0">这个画面解释了他为什么四十多岁还觉得自己像刚毕业：&quot;AI 时代从发现机会到生产上线的周期大幅缩短。&quot;而周期缩短这件事，恰恰是开头那个 20 天到 17 天没能兑现的东西——它不会因为个人效率提升自动发生，它需要有人把决策、把流程、把知识库和 Agent 的执行权限重新接成一条闭环。</p>
-<p style="margin:0.8em 0">用他那句星爷的台词收尾：&quot;人如果没有梦想，跟一条咸鱼有什么区别。&quot;</p>
+<p style="margin:0.8em 0">节目最后，阮良讲了一个他亲身在场的画面。陪供应商去拜访一家客户，展示了一份方案，老板看完震惊了——"原来还可以这么改"。然后老板回头，把设计团队老大、生产制造团队老大、HR 老大全都叫到电视机屏幕前："都站过来，好好看看 AI 现在能干到什么程度。"</p>
+<p style="margin:0.8em 0">这个画面解释了他为什么四十多岁还觉得自己像刚毕业："AI 时代从发现机会到生产上线的周期大幅缩短。"而周期缩短这件事，恰恰是开头那个 20 天到 17 天没能兑现的东西——它不会因为个人效率提升自动发生，它需要有人把决策、把流程、把知识库和 Agent 的执行权限重新接成一条闭环。</p>
+<p style="margin:0.8em 0">用他那句星爷的台词收尾："人如果没有梦想，跟一条咸鱼有什么区别。"</p>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">要点</h2>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><strong style="font-weight:600">个人效率是乘法，组织效率是串联电路。</strong> 编码快 300%–500%，交付周期只从 20 天到 17 天——瓶颈在链条不在单点。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">老板的信息是层层削减过的，所以老板必须亲自深度用 AI。</strong> 网易要求会议全部留原始录音，并支持 CEO 自建专属 AI 系统，前提是老板自己知道 AI 的能力边界。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">对员工数据采集要顺人性，把重心转向客户之声。</strong> 能力越强的人越抵触&quot;被蒸馏&quot;；而客户和市场的真实声音量已经足够大，价值也更高。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对员工数据采集要顺人性，把重心转向客户之声。</strong> 能力越强的人越抵触"被蒸馏"；而客户和市场的真实声音量已经足够大，价值也更高。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">决策 AI 中枢的底座是知识库，核心资产是历史决策流痕与依据。</strong> 网易用历史决策训练 agent，几百个案例上准确率超过 90%。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">桥水值得学的不是 agent，是可进化。</strong> AI 出判断、人做调整、调整被确认后进入下一轮——人机协作式自进化，与大模型的底层自进化是两条路。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 时代的组织只需要几个有审美和洞察力的人。</strong> 人才观六个力里，审美和洞察被放在最前面。</li>
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[屠龙之术] 从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</title><link>https://xlicz.github.io/podcast-rss/articles/从-389-亿到-3809-亿美元-AI-进入生产阶段之后-缺口为什么反而越来越大-2026-09-22.html</link><guid isPermaLink="false">tu-long-zhi-shu_56dd7395f243</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从 389 亿到 3809 亿美元：AI 进入生产阶段之后，缺口为什么反而越来越大</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">副标题：AICC 2026 人工智能计算大会侧记。需求侧从 Chat 到 Agent 的量级跃迁、智能侧从概率拟合到可信生产、供给侧系统—器件—生态三条路同时突围——这三件事正在同时决定 AI 能不能真的把活干完。</strong></p>
@@ -117,7 +169,10 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 冷冻豌豆与邮件雪崩：171 年的写作智慧，可以拆成哪些动作</title><link>https://xlicz.github.io/podcast-rss/articles/冷冻豌豆与邮件雪崩-171-年的写作智慧-可以拆成哪些动作-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a25ff4db37f9</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>冷冻豌豆与邮件雪崩：171 年的写作智慧，可以拆成哪些动作</description></item><item><title>[跨国串门儿计划] 一群人对着麦克风轻声说话，是这家 AI 公司最重要的工程实践</title><link>https://xlicz.github.io/podcast-rss/articles/一群人对着麦克风轻声说话-是这家-AI-公司最重要的工程实践-2026-08-11.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_62dd56fe9411</guid><pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate><description>一群人对着麦克风轻声说话，是这家 AI 公司最重要的工程实践</description></item><item><title>[跨国串门儿计划] 让代码来当使用者：Jev 想做的不是更好的聊天机器人</title><link>https://xlicz.github.io/podcast-rss/articles/让代码来当使用者-Jev-想做的不是更好的聊天机器人-2026-09-22.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_15d7d1365b04</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>让代码来当使用者：Jev 想做的不是更好的聊天机器人</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 冷冻豌豆与邮件雪崩：171 年的写作智慧，可以拆成哪些动作</title><link>https://xlicz.github.io/podcast-rss/articles/冷冻豌豆与邮件雪崩-171-年的写作智慧-可以拆成哪些动作-2026-08-04.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a25ff4db37f9</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>冷冻豌豆与邮件雪崩：171 年的写作智慧，可以拆成哪些动作</description></item>
+<item><title>[跨国串门儿计划] 一群人对着麦克风轻声说话，是这家 AI 公司最重要的工程实践</title><link>https://xlicz.github.io/podcast-rss/articles/一群人对着麦克风轻声说话-是这家-AI-公司最重要的工程实践-2026-08-11.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_62dd56fe9411</guid><pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate><description>一群人对着麦克风轻声说话，是这家 AI 公司最重要的工程实践</description></item>
+<item><title>[跨国串门儿计划] 让代码来当使用者：Jev 想做的不是更好的聊天机器人</title><link>https://xlicz.github.io/podcast-rss/articles/让代码来当使用者-Jev-想做的不是更好的聊天机器人-2026-09-22.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_15d7d1365b04</guid><pubDate>Tue, 22 Sep 2026 08:00:00 +0800</pubDate><description>让代码来当使用者：Jev 想做的不是更好的聊天机器人</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">让代码来当使用者：Jev 想做的不是更好的聊天机器人</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">TypeSafe 创始人 Diego 谈机器原生系统一模型：拒绝响应是类型错误，公开榜单是毒药，智能更像数据库，而不是同事。</strong></p>
@@ -182,7 +237,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[不觉春晓] 养老最刚的刚需不是护工，是一个能替你签字的人</title><link>https://xlicz.github.io/podcast-rss/articles/养老最刚的刚需不是护工-是一个能替你签字的人-2026-09-21.html</link><guid isPermaLink="false">bu-jue-chun-xiao_d47796867144</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>养老最刚的刚需不是护工，是一个能替你签字的人</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[不觉春晓] 养老最刚的刚需不是护工，是一个能替你签字的人</title><link>https://xlicz.github.io/podcast-rss/articles/养老最刚的刚需不是护工-是一个能替你签字的人-2026-09-21.html</link><guid isPermaLink="false">bu-jue-chun-xiao_d47796867144</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>养老最刚的刚需不是护工，是一个能替你签字的人</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">养老最刚的刚需不是护工，是一个能替你签字的人</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">今年夏天，主播在一趟国外旅行团里遇到一对上海老夫妻：七十多岁，金首饰、昂贵单反，很会玩，也很能花钱。她随口夸了一句「身体这么好，不用子女带着就能自己出来玩」——桌上安静了。过了一会儿，老太太慢慢告诉她，独子前几年突发疾病去世了，也没有结婚。</strong></p>
@@ -273,7 +329,11 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 软件不像房地产，它更像拍电影</title><link>https://xlicz.github.io/podcast-rss/articles/软件不像房地产-它更像拍电影-2026-08-31.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_81c0fa072440</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>软件不像房地产，它更像拍电影</description></item><item><title>[跨国串门儿计划] 一个只上线 24 小时的功能，成了 Anthropic 的隐藏转折点</title><link>https://xlicz.github.io/podcast-rss/articles/一个只上线-24-小时的功能-成了-Anthropic-的隐藏转折点-2026-07-27.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_cd235cbf46e0</guid><pubDate>Mon, 27 Jul 2026 08:00:00 +0800</pubDate><description>一个只上线 24 小时的功能，成了 Anthropic 的隐藏转折点</description></item><item><title>[跨国串门儿计划] 一个模型逃出沙箱，攻破了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/一个模型逃出沙箱-攻破了-Hugging-Face-2026-07-30.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_75babf861c4f</guid><pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate><description>一个模型逃出沙箱，攻破了 Hugging Face</description></item><item><title>[跨国串门儿计划] BM25 回来了：不是检索变了，是搜索的人变了</title><link>https://xlicz.github.io/podcast-rss/articles/BM25-回来了-不是检索变了-是搜索的人变了-2026-09-21.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8f52ff20aefb</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>BM25 回来了：不是检索变了，是搜索的人变了</description><content:encoded><![CDATA[
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 软件不像房地产，它更像拍电影</title><link>https://xlicz.github.io/podcast-rss/articles/软件不像房地产-它更像拍电影-2026-08-31.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_81c0fa072440</guid><pubDate>Mon, 31 Aug 2026 08:00:00 +0800</pubDate><description>软件不像房地产，它更像拍电影</description></item>
+<item><title>[跨国串门儿计划] 一个只上线 24 小时的功能，成了 Anthropic 的隐藏转折点</title><link>https://xlicz.github.io/podcast-rss/articles/一个只上线-24-小时的功能-成了-Anthropic-的隐藏转折点-2026-07-27.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_cd235cbf46e0</guid><pubDate>Mon, 27 Jul 2026 08:00:00 +0800</pubDate><description>一个只上线 24 小时的功能，成了 Anthropic 的隐藏转折点</description></item>
+<item><title>[跨国串门儿计划] 一个模型逃出沙箱，攻破了 Hugging Face</title><link>https://xlicz.github.io/podcast-rss/articles/一个模型逃出沙箱-攻破了-Hugging-Face-2026-07-30.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_75babf861c4f</guid><pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate><description>一个模型逃出沙箱，攻破了 Hugging Face</description></item>
+<item><title>[跨国串门儿计划] BM25 回来了：不是检索变了，是搜索的人变了</title><link>https://xlicz.github.io/podcast-rss/articles/BM25-回来了-不是检索变了-是搜索的人变了-2026-09-21.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_8f52ff20aefb</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>BM25 回来了：不是检索变了，是搜索的人变了</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">BM25 回来了：不是检索变了，是搜索的人变了</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">一个三十年前的词频打分函数，正在 Agent 搜索里反超向量检索。原因不在算法，在于它的使用者换了一个物种——而过去被拿来当「基线」的 BM25，从来没有人认真配置过。</strong></p>
@@ -14001,7 +14061,8 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-23.html</link><guid isPermaLink="false">report:播客信号:2026-09-23:8fe78fd5</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-23</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-23.html</link><guid isPermaLink="false">report:播客信号:2026-09-23:8fe78fd5</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-23</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-23 05:01</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14091,7 +14152,8 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 （唯一可疑项：<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">e-xian-zhi</code> 存在两个同名《AI特辑：Bill Ackman 6月访谈》文件，但体积不同（43.5K / 20.0K）且为 06-12 旧文件，属历史重复上传，非管线故障。）</p>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-23.html</link><guid isPermaLink="false">report:AI动态:2026-09-23:f1781a9f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-23</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-23.html</link><guid isPermaLink="false">report:AI动态:2026-09-23:f1781a9f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-23</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/23</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14146,7 +14208,8 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 📅 覆盖时段: 09/21–09/22（窗口内 48 小时）</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-23.html</link><guid isPermaLink="false">report:雪球动态:2026-09-23:b700f4c5</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-23</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-23.html</link><guid isPermaLink="false">report:雪球动态:2026-09-23:b700f4c5</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-23</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-23 22:20</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -14716,7 +14779,8 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 <p style="margin:0.8em 0"><strong style="font-weight:600">抓取说明</strong>：本次为 11:02 以来增量（61 条）。通道改用公开主页 DOM 抓取，29/29 用户成功；<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">last_snapshot.json</code> 已更新为本次快照。</p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-23.html</link><guid isPermaLink="false">report:心动日报:2026-09-23:6a61b01f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-23</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-23.html</link><guid isPermaLink="false">report:心动日报:2026-09-23:6a61b01f</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-23</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-23（周三·收盘版）</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
