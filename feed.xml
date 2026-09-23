@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 05:12:44 +0800</lastBuildDate><item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item><item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item><item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 06:00:34 +0800</lastBuildDate><item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item><item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item><item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">机器人还在 GPT-1 时刻</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">清华叉院助理教授徐梦迪谈具身智能：Scaling Law 的信号已经出现，但真正的瓶颈是能不能让终端用户在半小时内看到机器人学会一件新事</strong></p>
@@ -1355,59 +1355,7 @@
 
 </div>
 ]]></content:encoded></item>
-<item><title>[a16z] AI 如何重写风险投资的幂律</title><link>https://xlicz.github.io/podcast-rss/articles/AI-如何重写风险投资的幂律-2026-09-10.html</link><guid isPermaLink="false">a16z_f8c2f7d35d3e</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>AI 如何重写风险投资的幂律</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 如何重写风险投资的幂律</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：3000 家美国风投机构里只有 20 家能持续跑出 3 倍净回报，而 AI 第一次让资本可以直接变成优势——幂律变得更极端之后，LP 的配置、GP 的打法和一代软件公司的命运都要重新算账。</strong></p>
-<p style="margin:0.8em 0">美国 3000 家风投机构，过去二十年里能持续交出 3 倍净回报的只有 20 家——不到 1%。而据 Cambridge Associates 口径，行业过去十年的平均净回报只有 1 到 2 倍：不如私募股权，不如公开市场，却还要把资金锁上十年。所以在这个资产类别里，“配多少”几乎不重要，“选中谁”才是一切。a16z 的 David George 给出的是另一半判断：在他职业生涯里第一次，你可以把钱砸进一家公司，而这笔钱会强化它的优势。当资本可以直接变成算力、算力可以直接让产品变好，幂律就不再只是风投的一个特征，而成了这台机器本身。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">3000 家里只有 20 家</h2>
-<p style="margin:0.8em 0">门槛其实不算苛刻——“你不需要七八只基金都做到，二十年里能有三到四只 3 倍净回报的基金就可以”——但翻遍全美，只有 20 家交出了这份答卷。更值得琢磨的是这 20 家做对了什么：<strong style="font-weight:600">每一个年份都拿到了定义品类的公司</strong>。反过来，光有 logo 并不够：早期基金如果盘子太大，持有的份额会被稀释到失去意义；晚期投资也有自己的纪律——一只基金里最好的那家公司至少要占到 5% 到 10%，才谈得上“用一家公司收回整只基金”。而这种单公司回本的算术，在晚期投资里以前根本不存在。</p>
-<p style="margin:0.8em 0">再看“平均”有多残酷：过去十年，行业的平均净回报只有 1 到 2 倍——不如 PE，不如公开市场，还要付出十年锁定期。所以如果你的工作是从 3000 家里挑机构，答案几乎是机械的：把筹码集中到那 15 到 20 家身上。50 到 70 家风投基金拼成的组合，很难想象它能跑赢平均；更常见的错误是另一种——好不容易找到一只对的基金，只放 1% 的钱进去，基金涨了 10 倍，换来整个组合 10% 的回报，什么也撬不动。对谈里把这套功夫总结成三个词：access、selection、sizing。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">在一个 3000 家里只有 20 家跑赢的资产类别里，理性的做法就是把筹码集中在那 15 到 20 家身上。</p>
-</blockquote>
-<p style="margin:0.8em 0">a16z 的 Jen Kha 常年与 LP 打交道，她说从 LP 那里听到最多的担心是“我们是不是在接一把下落的刀”；她还点出更不体面的一段：LP 和 GP 的激励方向是相反的。GP 会因为没有投中下一个 Facebook、下一个 Uber 被解雇——错误在于“没有出手”；而 LP 只会因为“投了一个最终爆掉的基金经理”被解雇，有些情况下，LP 甚至不会因为“什么都不投”被解雇。既然错过前沿公司不丢工作、上行收益对很多人也并不真正重要，“对大型风投基金的兴趣是创始人而不是 LP 推动的”就很好理解了。一位被他们昵称为 Endowment Eddie 的同行当天发帖写道：创始人想要的是能一路陪跑到上市、能帮忙招人拿客户的品牌；LP 只是慢慢跟上，多数人还在拖，因为这反直觉。例外当然有——一些专注垂直领域或极早期的小基金活得不错，但前提是规模和策略保持一致，一旦变大就会撞上大机构，“死掉的中间层”是这场对话里反复出现的梗。</p>
-<p style="margin:0.8em 0">LP 最常提的反对意见则是时间线：独角兽平均私有十年以上，同一家公司的名字出现在五六只基金里；而 IPO 也不等于分配——从上市到真正拿到钱可能还要 12 到 24 个月，如果你在 IPO 时持有 10% 到 15%，只会更久。反驳同样具体：如果你在前 1% 的机构里、手里有品类赢家，你希望它继续复利——三四年前，没有人愿意卖掉 Stripe 或者 Databricks。而且最好的 GP 会沿途主动制造流动性：2021 年很多人没有落袋，事后成了一个分化信号。有一个细节：a16z 曾在旗下一期基金 16 年时问 LP，要不要对一个种子期投进去的 Stripe 持仓做清算——所有 LP 都说不要，让它继续跑；一年后，因为基金必须收尾才卖出。不同 LP 的口味也不同：捐赠基金愿意让它长期复利，家族办公室甚至不想要钱回来（不想交税）。最快的流动性只属于最顶尖的那一小撮机构——Anthropic 从首次融资到即将上市只用了五年，Cursor 从首次融资到被收购时间更短。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">“把钱砸进去，优势自己长出来”</h2>
-<p style="margin:0.8em 0">David George 的判断是：今天的幂律比过去十到二十年都更极端，程度也许要回到网络效应消费公司刚出现的年代。过去有一条常识——怎么搞砸一家创业公司？给它太多钱：招一千个人、协调成本爆炸、优先级互相打架。但这条常识对前沿公司失效了：<strong style="font-weight:600">美元可以直接换成算力，算力让产品和业务变好，优势自我强化。</strong></p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">“在我职业生涯里第一次，你可以把钱砸进一家公司，而这笔钱会强化它的优势。”——David George</p>
-</blockquote>
-<p style="margin:0.8em 0">需求侧是另一半：对推理的需求没有上限，这才是“资本可以尽管砸”的前提。AI 行业做到 1000 亿美元收入只用了四年——SaaS 走完同样的路用了十五年——而渗透甚至还没开始。AI 同时在攻击 GDP 的每个板块：交通、劳动力、服务、资本协调；历史上还没有哪个技术范式能同时压中 30 万亿美元量级的 GDP。所以对配置者来说，结论是硬的：AI 不该是卫星仓位，应该是核心，甚至超核心。</p>
-<p style="margin:0.8em 0">参照物已经摆在那里：三家身位最靠前的公司——SpaceX、OpenAI、Anthropic——合计代表 3.5 万亿到 5 万亿美元的潜在企业价值，而在 SpaceX 上市之前，很多 LP 和机构配置者对这些公司的敞口接近于零（十年前，行业还在为“基金规模是否过大”争论，一只十亿美元的基金就足以成为话题）。如今这个资产类别本身已有 5 到 6 万亿美元；公司保持私有更久的趋势不会逆转；顶级退出的量级从 100 亿美元抬到 400 亿美元，等 Anthropic、然后是 OpenAI 上市时，大概率会到 1000 亿美元。上一轮周期创造了 25 万亿美元的新增市值，下一轮只会更大。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">TAM 的算法错了：它卖的不是软件，是“任务”</h2>
-<p style="margin:0.8em 0">“我常常对 AI 的 TAM 感到困惑”，这个困惑值得掰开。医疗行业每年在医疗 IT 上花 600 到 1000 亿美元，但 AI 打的是“任务”本身——理赔、账单、行政，那是一个万亿美元级的行业。AI 的 TAM 是任务的经济价值乘以捕获率，可能比传统 SaaS 和医疗 IT 大 10 倍以上。美国花在劳动力上的钱大约是软件支出的 40 倍；劳动力不会消失，只会被重新发明。</p>
-<p style="margin:0.8em 0">a16z 的总法律顾问常讲一个例子：他喜欢 Harvey，因为客户现在个个觉得自己是律师、能跟他正面交锋——结果他的计费小时数只增不减。这类用例被大幅低估，而且本质上是扩张性的。至于“哪一层会赢”的零和焦虑——应用、实验室、开源谁吃掉谁——他们的判断是：市场会大到让每一层都可能跑出赢家（当然会有大量公司失败）；在品类内部依然赢家通吃、第二名只能吃残渣，但品类的数量在爆炸。20 年前的 CRM 只有 Siebel 这样的小盘子，现在是巨型品类——同样的扩张会重演。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">真牵引力，还是“误导性牵引力”</h2>
-<p style="margin:0.8em 0">AI 让这份工作前所未有地难做：轮次更大、更快，牵引力真假混杂。有一家公司一个月从零做到 500 万美元 ARR，还没有续费周期，客户可能是孵化器里同期的创业公司在互相买，估值倍数极高——“那甚至不是 ARR，只是把月收入乘了 12”。但每九个这样的公司里，可能会有一个是真的：真实 ARR 几百万美元，估值昂贵，会成为下一个 Cursor。靠财务分析分辨不出来，只能去见客户，理解市场的质地、客户的真实需求和手里的替代方案。</p>
-<p style="margin:0.8em 0">Harvey 是标准案例。它早期商业化做得漂亮——研究加律师的创始组合，签下一批高知名度律所——但实际使用度并不好，部署数据看起来甚至不如同类软件公司。等到推理模型出现，一切翻转：律师开始真正从产品里获得价值，用量和参与度起飞；叙事也反转了——以前客户害怕幻觉，现在客户反过来要求律所必须用这个产品。判据始终是客户实际拿到什么价值，而不是签约名单。</p>
-<p style="margin:0.8em 0">Cursor 则是另一面。所有人都说过它要死——“你们投 Cursor 的时候，确定性一点也不高”——即便它被 SpaceX 以 600 亿美元收购（史上规模最大的创业公司收购）的消息已经出来，市场上还有人在说“Cursor 已死”；而它前一轮融资只有约 4 亿美元。这类公司能不能被识别，取决于能否在最嘈杂的时候看清牵引力的质地。</p>
-<p style="margin:0.8em 0">在这个问题上，大机构反而有结构性优势。David George 把自己的优势讲得很坦率：成长基金之所以成立，是因为有早期业务——最贴近技术和产品的合伙人先看到（Cursor 就是早期团队先看出来的）。最强的后期品牌背后都有强大的早期基金；反过来，一家从零起步的纯后期机构，写不出一张 5 亿美元的支票。结构选择上，对谈把它拆成四种玩法：种子与极早期（基金规模 1.5 亿美元以内，美国今天接近 2000 家）、混乱的中间层（几百家）、大机构（多产品线、从种子一路陪到上市）、专注后期的机构。LP 机构 Accolade Partners 的选择是：大机构投了几十年、种子基金也投，中间层只挑过几家，专门做后期的基金不投。中间层为什么难——创始人要的是能“降低结果不确定性”的合伙人，大机构用 700 名员工、把管理费投进运营资源来兑现这一点（赢下交易 → 改善结果 → 品牌吸引下一批创始人 → 创始人推荐创始人，这是他们的飞轮）；而极早期的种子小基金可以比大机构早一两个轮次拿到“入场权”，与大机构共存——七家做同一件事的 AI 公司并排站着时，大机构宁愿等一两轮、等确定性更高再领投。</p>
-<p style="margin:0.8em 0">代价是明摆着的：a16z 表现最好的早期基金，大约 60% 的项目会亏钱，成长阶段是 10% 到 20%——“如果我们不亏钱，说明风险没冒够”。目标是投中每个可信品类里的第一名：品类成则基金成，品类败则是这门生意的一部分。他们当天上午刚办完自己的加速器项目 Speedrun，创始人们明确表示想留在这个轨道里。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">老软件公司、私募信贷，与“刷一层 AI”的幻觉</h2>
-<p style="margin:0.8em 0">最诚实的一段来自一道填空题：如果手里有一家 2016 到 2021 年投的软件公司——还算健康，增长 30%，账面上挂着 10 到 20 倍收入的估值——但它没有 AI 原生能力、不再加速，会发生什么？答案很冷：它上不了市，也没人想接。一年前 Silver Lake 这类买方会对它有兴趣，现在不会。David George 的态度是两面都认：AI 是这代人见过的最大的变化，同时也会有一部分软件公司适应下来、保住价值——但 a16z 净值的 95% 不在那类公司里。</p>
-<p style="margin:0.8em 0">PE 和信贷侧的算术更残酷。上一个时代，私募股权会为一家增长 10% 到 20% 的软件公司付 15 到 20 倍 EBITDA；而今天公开市场上同类资产的价格是 2 倍收入。买方看软件公司的第一个问题变成了“它的终值对 AI 有没有韧性”，而唯一被接受的证明是有机增长加速——公开市场里，1 个百分点的增长大约等于 3 个百分点的 EBITDA。还能以约 10 倍收入交易的公开 SaaS 只剩 15 到 20 家（几年前是几十家），而这批公司大多正因 AI 加速：监控、安全、agent 部署。反过来，2021 到 2022 年有 2000 到 3000 亿美元的软件 LBO 交易，平均估值是 25 到 32 倍 EBITDA；这些公司今天大约只值一半，杠杆率随之大幅上升——这正是私募信贷市场赎回压力的来源。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">“把 Sears 放到网站上，并不会让它变成亚马逊。”</p>
-</blockquote>
-<p style="margin:0.8em 0">所以“给公司刷一层 AI”救不了任何人。把人工客服直接换成 agent、而不重做工作流，客户会很快流失，NPS 的每一次下降都直接对应收入下降，背着债务的公司就开始螺旋。成功的反例是 Intercom：创始人回归、重建整个业务、做出 AI 原生的产品并规模化，然后卖掉——这几乎等于亲手杀死原来的业务，在 PE 结构里极难复制。</p>
-<p style="margin:0.8em 0">但扩散确实还早，这是老软件公司的多头逻辑：美国中位数公司每个员工每月在 AI 上花 12 美元，而数据集中前 1% 的公司花 7000 美元；最领先的银行在 AI 工具上的支出也只占人力成本的 1% 左右。全世界大约 15 亿知识工作者，真正被服务到的可能只有一两千万人。为什么是编码先行？因为编码这件事“文档完备、可验证、可模拟”——绝大多数工作不同时具备这三条，扩散到其他知识工作会慢得多。用脚投票的是 CalPERS：它把 venture 与成长投资的配比从 9% 提到了 43%（原占 91% 的部分压到 58%）。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">下一个一百万亿在哪里</h2>
-<p style="margin:0.8em 0">主持人把问题一路抬上去：先问下一个 10 万亿美元公司，再问 20 万亿，最后干脆问 100 万亿。David George 的答案是：那大概要两个技术周期之后，而且大部分市值创造会发生在今天还几乎不存在的产品领域。企业侧的扩散“我们哪都没到”；消费端的最终形态不会是聊天框——那是“拟物”版本，原生形态是主动替你干活的系统，十亿级 ChatGPT 用户只是挠了个痒。机器人会大于语言这件事，而且就在未来十年；自主驾驶方面，全美仍在运营的 Waymo 不足 1 万辆；医疗占 GDP 的 18%，从服务交付到药物研发几乎还没被真正动过；再加上国防、制造、数据中心的物理世界重造——下一个 SpaceX 或 OpenAI，大概率从这些地方长出来。</p>
-<p style="margin:0.8em 0">来自 LP 一侧的 Aram Verdian（Accolade Partners）则补充了他既担心又兴奋的一侧：今天 AI 的瓶颈不在需求，在供给——能源、电网、数据中心、芯片、前沿模型、应用。美国擅长的是右半边（芯片往后），而左半边的问题不是发电能力，是“拿到电的速度”：许可、输电、监管。别的国家每年新增的可再生装机是美国的 10 倍，而新一代数据中心的功率密度是过去的 10 倍以上——解决这个瓶颈的机会不是百亿、五百亿美元级，而是千亿美元级。他们也反驳了“这是互联网泡沫、是疫情”的说法：牵引力是真实的，收入不是疫情那样的临时脉冲。</p>
-<p style="margin:0.8em 0">如果说这场对话有什么统一的底色，大概是：机器时代的基本面已经先于共识到来，剩下的问题只是钱、电和决心够不够。用他们收场的话说——该让机器上场了。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">回报的集中度在变得更极端：3000 家机构只有 20 家持续做到 3 倍净回报。LP 真正的工作只有三件事——access、selection、sizing；组合摊得越薄，越没有意义。</li>
-<li style="margin:0.3em 0">这一轮的机制是新的：资本第一次可以直接变成算力、算力直接让产品变好，优势自我复利。AI 行业收入四年破 1000 亿美元，SaaS 用了十五年。</li>
-<li style="margin:0.3em 0">TAM 要重算：不是“软件市场有多大”，而是“任务的经济价值 × 捕获率”——美国在劳动力上的支出约是软件支出的 40 倍。</li>
-<li style="margin:0.3em 0">早期判断越来越难：一个月做到 500 万美元 ARR 可能是假信号；Harvey 和 Cursor 说明最终判据是客户真实获得的价值，而不是签约名单或市场情绪。</li>
-<li style="margin:0.3em 0">“刷一层 AI”救不了老软件公司和 PE 组合：公开市场已经在用“增长加速”定价（1 个百分点增长约等于 3 个百分点 EBITDA），私募信贷里的软件 LBO 是下一个压力点。</li>
-<li style="margin:0.3em 0">瓶颈在供给侧：能源、电网、数据中心。机器人、自主驾驶、医疗和 AI 原生的消费形态，是下一个市值创造带。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[a16z] AI 如何重写风险投资的幂律</title><link>https://xlicz.github.io/podcast-rss/articles/AI-如何重写风险投资的幂律-2026-09-10.html</link><guid isPermaLink="false">a16z_f8c2f7d35d3e</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>AI 如何重写风险投资的幂律</description></item>
 <item><title>[a16z] 谁来给 AI 模型打分：当公共榜单开始失真</title><link>https://xlicz.github.io/podcast-rss/articles/谁来给-AI-模型打分-当公共榜单开始失真-2026-09-09.html</link><guid isPermaLink="false">a16z_32dabd6fa31a</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>谁来给 AI 模型打分：当公共榜单开始失真</description></item>
 <item><title>[跨国串门儿计划] 家得宝：把普通人变成建造者</title><link>https://xlicz.github.io/podcast-rss/articles/家得宝-把普通人变成建造者-2026-09-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_5d5910fa865e</guid><pubDate>Tue, 15 Sep 2026 08:00:00 +0800</pubDate><description>家得宝：把普通人变成建造者</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
@@ -3059,131 +3007,13 @@
 <item><title>[跨国串门儿计划] GPT-6 之后：泡沫、越狱叙事与两场政策战</title><link>https://xlicz.github.io/podcast-rss/articles/GPT-6-之后-泡沫-越狱叙事与两场政策战-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_4c13a67ee2c2</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>GPT-6 之后：泡沫、越狱叙事与两场政策战</description></item>
 <item><title>[跨国串门儿计划] 不做 AI 女友：一只外星人朋友如何跑出 80 万下载</title><link>https://xlicz.github.io/podcast-rss/articles/不做-AI-女友-一只外星人朋友如何跑出-80-万下载-2026-09-02.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_2d59ddd76077</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>不做 AI 女友：一只外星人朋友如何跑出 80 万下载</description></item>
 <item><title>[跨国串门儿计划] 不看人传球：Grokbot 如何把 AI 变成「队友」</title><link>https://xlicz.github.io/podcast-rss/articles/不看人传球-Grokbot-如何把-AI-变成-队友-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_732c655f5fc5</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>不看人传球：Grokbot 如何把 AI 变成「队友」</description></item>
-<item><title>[跨国串门儿计划] 企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</title><link>https://xlicz.github.io/podcast-rss/articles/企业-AI-的胜负手是治理-Stripe-给-1-万名员工造了一个-公司大脑-2026-09-10.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d2f19d97afc8</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：2000 个 Skill、86% 的采用率、不到 10 人的核心团队——Kai 的故事说明：企业级 AI 的重点不是提供一个聪明的模型，而是搭一套让每个人都能放心用对的结构。</strong></p>
-<p style="margin:0.8em 0">先看一个两难。「你肯定不想让 agent 失控，把那些敏感数据丢进全体 Stripe 员工都能看到的公共 Google 文档里。但你也不想对员工说：『因为你的工作负载太敏感，你们什么工具都不能用。』」——在 How I AI 这期节目里，Kai 背后团队的一位 Stripe 工程经理，把这家公司自建「公司大脑」的完整思路讲了一遍。从上下文引擎、治理单元、2000 个 Skill 的运维，到一张数据仪表盘是怎么被现场造出来的：这套系统在 Stripe 内部的使用率已经超过 86%，支撑它的核心团队不到 10 个人。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">为什么不买现成的：这不是工程问题，是治理问题</h2>
-<p style="margin:0.8em 0">时间拉回 2026 年初：海量的 AI 工具冒出来，Claude Code 刚刚席卷全球。他跟同事面对的问题是——怎么让公司里的每个人都用上 AI？很快他们就意识到，这绝不是个工程问题，甚至不是技术问题。更难的题在于：如何在大规模下复刻一家公司的运作方式。Stripe 的业务遍布全球、产品繁多、流程数不清，「所以我们很快意识到，重点不是提供 AI，而是提供正确的治理结构：让每个人都能直接去用，而且确信它会帮你把事情办对。」</p>
-<p style="margin:0.8em 0">还有一个坦率的动机：吃自己的狗粮。「如果你要为客户打造优秀的 agent，你就应该先学会给自己打造优秀的 agent。」Stripe 用来构建 Kai 的一切——沙盒、工具层、权限体系——最后都变成了服务外部客户的标准基础设施。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">上下文引擎与 Project：边界感就是生产力</h2>
-<p style="margin:0.8em 0">Kai 开箱即用的认知范围是「你是谁、你在组织架构里的位置」，加上时间和日期这类基础信息。往上一层，它能连到项目管理体系，弄清楚 OKR、最近发布的邮件、你参与的所有项目；再往上是你自己选择开放的 Google Drive、Slack 私信这类敏感接入——对此团队保持严格的边界：可以自己决定让 Kai 了解多少，也可以随时开关权限。这位工程经理本人就是天天开关权限的那类用户，「很多人觉得让 AI 自己去搞定吧、上下文越多越好。挺好——但选择权必须在用户手里。」</p>
-<p style="margin:0.8em 0">真正让系统「有组织感」的概念是 Project：它首先是一种治理机制，同时也是极强的意图信号——用户相当于主动告诉 AI「我打算做什么」，模型表现会好得多。Project 大到 500 人、小到 5 人，全公司公开，由负责人决定这方空间里「为了让 AI 好好运转」需要配什么：默认模型是哪个（很多公司最在意 token 成本，这个项目干脆禁用超贵模型，因为「这里要做的工作根本用不着」）、接哪些连接器、哪些操作必须走 Human-in-the-Loop。</p>
-<p style="margin:0.8em 0">节目里现场演示了后者：在一个人事（HR）场景的 Project 里，把「往公开文档写入」这类工具设为敏感操作——当 agent 试图执行时，会弹出一个确认框，等人类点头。这套设计的精妙之处在于粒度：它既划定了边界，又不会制造全面阻力。「如果每个会话、每个工具都要弹一个确认给你看，你迟早会按错按钮——所以你想让管理要求尽可能低，而不是让每个人每做一件事都要琢磨：我是不是得打开这个连接器、关掉那个连接器。」一句话概括 Project 的哲学：让少数最懂「成本、性能、延迟」三角权衡的人搭好台子，其余所有人直接用。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">2000 个 Skill 的治理：数量几乎就是质量的一面</h2>
-<p style="margin:0.8em 0">Stripe 内部现在有大约 2000 个 Skill。梳理一下这套体系里的关键机制：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">Skill 即打包的工具</strong>：工具是「你能做的事」，Skill 把相关工具打包起来方便调用——比如演示里的 Ask Data，负责回答一切与 Stripe 数据和 SQL 相关的问题；</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Skill Builder</strong>：一个「造 Skill 的 Skill」——现场演示里，Kai 直接把一次会话里发生的事情打包成可复用的技能草稿，配上专门针对自家 Harness 编写的规范，保证它在各种 agent 上普遍可用；</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">像 IDE 一样的编辑器</strong>：编辑、测试、优化、管理，平台还会自动给出改进建议——「大家就喜欢在 Markdown 和 Python 文件里折腾，但只要稍微做一点体验提升，效果就会大不一样」；</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">路由与检索</strong>：代码 agent 有天然的文件层级可以顺着找 Skill；但企业里没有层级，你经常要同时调用五套系统——所以「在合适的时候调用合适的 Skill」本身需要一套严密的流程。</li>
-</ul>
-<p style="margin:0.8em 0">最有企业现场感的，是 Skill 的质量运营。团队做了一套带遥测的 ETL 管道：哪些 Skill 全公司高频调用（约 50 个）、哪些是组织分支在用的长尾（约 100–150 个）、哪些只剩两三个人在用——数据会告诉 Harness 负责人，哪些 Skill 值得「提拔」进通用工作流，哪些应该被请出通用池。还有废弃机制：30 天无人调用 → 通知作者 → 归档 → 两周后删除。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">你几乎无法把质量和数量割裂开来，因为上下文就是一切。你塞给 AI 的无关上下文越多，你的结果就会变得越差。数量几乎就是质量的一个侧面。</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">现场演示：一张仪表盘与「最后一公里」</h2>
-<p style="margin:0.8em 0">演示任务是 Stripe 里最高频的 AI 场景之一：造仪表盘。Kai 接到请求后开始拉取工具和 Skill，找到并加载 Ask Data，然后按一套被刻意设计过的路径行动——<strong style="font-weight:600">先路由到分析层的官方指标，再退回到标准仪表盘的既有查询，还不行才去数据目录里自己写查询</strong>。这条路径原本是给人类分析师准备的，但「事实证明，在逻辑推理这块，Agent 也有同样的问题：它们能回答问题，却根本不知道这是不是正确的查询或正确的表」——于是既有投入在 Agent 身上发挥了把关作用。</p>
-<p style="margin:0.8em 0">仪表盘不是一次性的产物。团队鼓励多轮迭代：有的会话能挖到几百轮、跨越好几周。「你总不想每一轮对话都把 HTML 仪表盘扔掉重来——这对 token 效率更好，也更接近『人和 agent 协作完成一项任务』的正解。」而真正的杀手级场景是「最后一公里」的数据处理：每个人的工作流差异太大，为每个人都造一套仪表盘不可能，于是 Kai 让非工程师也能做出轻量级应用，「差不多像 Lovable 那种风格，大家自己做应用、针对自己的工作流做极致优化」。Stripe 的市场团队已经全员在用——「我认识的市场人里，没有一个是不想做某种应用或仪表盘的」。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给 Agent 修的路，本来是为人类修的</h2>
-<p style="margin:0.8em 0">这段对话里最容易低估的部分，是数据基础设施。为了让 Agent 能「疯狂压榨却压不垮」，Stripe 在两层做了重投入：查询层用 Trino，「他们在提高弹性上投入很多」；方法论层面则搭了数据目录、数据分层和官方分析层，让 Agent 能快速找到「该用哪个数据集、该怎么用」。</p>
-<p style="margin:0.8em 0">这就是主持人 Claire 所说的 Stripe 优势的来源：在 AI 之前，他们就一直在投入开发者体验、开发者平台、数据平台、分析层。「所有这些在 AI 之前让人类在公司里极其高效的东西，都是基础性投入——当你把 Agent 放上去跑的时候，就会带来极大的杠杆。」所以当有人问她「我该怎么做才能用 AI 交付更多产品」，她的回答从来不是产品开发技巧：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">把你 DevEx 团队的人数翻一倍，把数据团队的人数翻一倍，把精力花在平台投入上——对人类好，对 Agent 也好。</p>
-</blockquote>
-<p style="margin:0.8em 0">但基础设施再厚，也要正视一件事：Agent 会放大你所有的故障模式。「拿不准的时候，agent 就会直接暴力硬来」；「他们在搞垮基础设施方面可有创意了」。这位工程经理没有宣称 Stripe 完全没出过问题——初期「有些 agent 失控了，有些差点把核心系统搞垮，但我们及时发现了，现在把那些系统加固好了」。他们甚至还在认真琢磨一个没完全解决的问题：怎么在基础设施里界定「这是一个 agent、它想做什么」，以此决定优先级、降级、排队这些机制的参数——「这些不太酷、非常偏底层，但原则通通适用。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">V0 用了一个半人、两周；现在每周 1 万人用，核心团队不到 10 人</h2>
-<p style="margin:0.8em 0">推广路径完全不像大厂项目：V0 由「一个半人力」花两周做出来，先上线给大家看。「当时很难向大家解释为什么需要这样一个东西——毕竟周围到处都是写代码的 agent，而且可能超级强大。但我们一推出那个 V0，很多问题的答案自然就清楚了。」试点阶段积累到两三百名用户（团队两三个半人），随后做了一次全公司演示，「大家一下子就全想通了」，增长曲线开始陡峭。如今全公司超 86% 的员工在用，每周有一万多人在用——「而负责整个体验的核心团队依然不到十个人，手上同时还在忙很多别的事情。」</p>
-<p style="margin:0.8em 0">支撑这个杠杆率的，正是他们自己讲的那套逻辑：基础设施 + 写代码的 agent 带来的生产力 + 平台团队。「一个半人类，大概用了一百万个 Agent，两周时间把 V0 跑起来」——主持人这句玩笑其实概括了整个方法论。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快问快答：对 AI「温和育儿」</h2>
-<p style="margin:0.8em 0">结尾的轻松段落反而金句频出。问：AI 不听话时你会怎么办？他的答案是「温和育儿法」——几乎不吼 AI，最多全大写字母，更多时候只是说：「麻烦你，如果你愿意的话，好好看看我刚才说了什么。」「我总觉得冲 AI 大吼大叫不太对劲，就像是在冲着做这个 AI 的那些人大喊一样。」主持人补了更妙的一句：「我知道你可以做得更好，我相信你。我没生气，我是失望。」</p>
-<p style="margin:0.8em 0">他个人最大的 AI 窍门也毫无技术含量：把 Kai 当私人助理用，不让任何事情留在脑子里。「我们总在琢磨怎么让 agent 干活，但我想要的是让 agent 来安排我干活——希望它们对我说：请把这张表填了，请把你之前说要做的那件事做了。」最后他保持了一份清醒：「听起来好像我们把这些全都搞明白了，我们绝对没有。我们非常清楚地知道，我们还处于这段旅程的最早阶段。」</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">文末要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">企业级 AI 的第一性问题不是「给不给用」，而是治理：让人人都能放心用对的工具，同时不在敏感操作上留下敞口——这比提供模型难得多。</li>
-<li style="margin:0.3em 0">Project 是治理单元的样本：由负责人定义默认模型、连接器与审批策略，把「成本/性能/延迟」的权衡从每个员工头上收走。</li>
-<li style="margin:0.3em 0">Skill 的数量本身就是质量问题：2000 个 Skill 需要遥测、分级、晋升/淘汰和废弃管道来维持信噪比——无关上下文越多，Agent 表现越差。</li>
-<li style="margin:0.3em 0">数据 Agent 的第一层门槛在数据侧不在模型侧：分析层、数据目录、高韧性查询引擎——为人类搭的路，Agent 会数倍地榨取。</li>
-<li style="margin:0.3em 0">V0 用「一个半人力、两周」起步，先拿给大家看再迭代，最终 86% 员工使用、每周 1 万人、核心团队不到 10 人——企业内部的 AI 项目可以有完全不同的成本结构。</li>
-<li style="margin:0.3em 0">Agent 会放大所有故障模式：拿不准时它会暴力硬来，所以基础设施的加固与「agent 身份」的界定，是绕不开的底层功课。</li>
-<li style="margin:0.3em 0">对 AI 的最佳态度也许就是「温和育儿法」：不吼、不放弃，说清楚你想要的，然后等它做得更好。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</title><link>https://xlicz.github.io/podcast-rss/articles/企业-AI-的胜负手是治理-Stripe-给-1-万名员工造了一个-公司大脑-2026-09-10.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_d2f19d97afc8</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>企业 AI 的胜负手是治理：Stripe 给 1 万名员工造了一个「公司大脑」</description></item>
 <item><title>[跨国串门儿计划] 匡灵秀：好文字从来不会「自愿上门」</title><link>https://xlicz.github.io/podcast-rss/articles/匡灵秀-好文字从来不会-自愿上门-2026-09-05.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_48bb5912b382</guid><pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate><description>匡灵秀：好文字从来不会「自愿上门」</description></item>
 <item><title>[跨国串门儿计划] 当 Agent 开始买软件：算力盛宴、复合型公司与新赢家</title><link>https://xlicz.github.io/podcast-rss/articles/当-Agent-开始买软件-算力盛宴-复合型公司与新赢家-2026-09-05.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_bbc919e748b5</guid><pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate><description>当 Agent 开始买软件：算力盛宴、复合型公司与新赢家</description></item>
 <item><title>[跨国串门儿计划] AI 没从一只完美的苍蝇开始</title><link>https://xlicz.github.io/podcast-rss/articles/AI-没从一只完美的苍蝇开始-2026-09-05.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_f2dd1e6619a4</guid><pubDate>Sat, 05 Sep 2026 08:00:00 +0800</pubDate><description>AI 没从一只完美的苍蝇开始</description></item>
 <item><title>[跨国串门儿计划] AGI 不在实验室里</title><link>https://xlicz.github.io/podcast-rss/articles/AGI-不在实验室里-2026-09-03.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_7811aedcbbb0</guid><pubDate>Thu, 03 Sep 2026 08:00:00 +0800</pubDate><description>AGI 不在实验室里</description></item>
 <item><title>[跨国串门儿计划] Harness 比模型更重要</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-比模型更重要-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_0c5f24471052</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>Harness 比模型更重要</description></item>
-<item><title>[跨国串门儿计划] 从预测下一个词到预测下一个视角</title><link>https://xlicz.github.io/podcast-rss/articles/从预测下一个词到预测下一个视角-2026-09-10.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_013b1ce174d8</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>从预测下一个词到预测下一个视角</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">从预测下一个词到预测下一个视角</h1>
-<p style="margin:0.8em 0"><em>World Labs 发布 Atlas，李飞飞详解「新视角预测」为何是空间智能的基本原语</em></p>
-<p style="margin:0.8em 0">《黑客帝国》里那个经典的子弹时间镜头，当年是这么拍的：几百台相机围成一圈，在绿幕前对着往后倒的演员同步拍摄，再做极其昂贵的校准。而现在，同样的效果只需要三台 iPhone——把它们架在三脚架上，拍一段有人投篮、有人把草莓扔进牛奶碗的视频，模型就能让时间静止，让镜头在牛奶溅起的一瞬间飞过去。</p>
-<p style="margin:0.8em 0">这是 World Labs 本周发布的世界模型 Atlas 展示的能力之一。公司成立两年半，上一代产品 Marble 刚刚积累起一批创作者用户；Atlas 则是这家公司第一次把「空间智能」这个宏大的词，落成一条可以清晰描述的技术路线——新视角预测。</p>
-<p style="margin:0.8em 0">「在通往空间智能的路上，生成真正具备空间上下文、落到实处的像素，这就是 Atlas 走出的非常艰难的一步。」李飞飞在 a16z 的访谈里这样定位这次发布。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">给几个视角，还你任意视角</h2>
-<p style="margin:0.8em 0">Atlas 的能力可以概括成三个动词：生成、重建、模拟。</p>
-<p style="margin:0.8em 0">生成，指相机条件生成：输入一张图，加上一条由你指定的相机轨迹，模型就会生成从这些新视角看过去「应该是什么样」的视频帧。重建，指稀疏三维重建：输入一帧到一百帧之间的现实画面，重建出这个空间——输出可以是穿梭其中的新视频，也可以是一个显式的三维场景。模拟，就是那些在社交媒体上刷屏的演示：子弹时间，以及机器人训练场景。</p>
-<p style="margin:0.8em 0">和当下视频模型的根本区别在于控制方式。主流视频模型靠文本提示词驱动，想要一个精确的角度，只能反复「抽卡」、跟提示词较劲；而喂给 Atlas 的每一张图，都关联着一个精确的三维相机位姿——输入不只是「一张图」，而是「从时空中的某个确切位置看到的世界」。正因如此，重建是精确的：把房间四个角各拍一张输进去，它会严格复现你拍到的一切，不会自作主张去猜某个角落里有什么。它也不太像传统视频模型那样「拉老虎机」，用更高维度的文本控制一遍遍去抽。</p>
-<p style="margin:0.8em 0">这也解释了 Atlas 和上一代产品 Marble 的分野。Marble 无论输入什么，输出都被锁死在高斯泼溅这一种表征上。高斯泼溅易于渲染，在移动设备和 VR 上效率很高，也能和游戏引擎、仿真引擎互操作，但它成了瓶颈。Atlas 把输出表征解耦了：最基本的原语变成新视角预测本身，需要高斯泼溅时再生成它，不需要时就不必卡在这一种输出形式上。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">半个世纪的两条赛道，第一次合进同一个模型</h2>
-<p style="margin:0.8em 0">在计算机视觉的世界里，「生成」和「重建」是两个独立了半个世纪的子领域。去参加一个视觉会议，有像素生成赛道，有识别赛道，有三维重建赛道；重建方向几十年来产出了数不清的博士论文。而在 Atlas 里，这两件事第一次被同一个模型同时完成。</p>
-<p style="margin:0.8em 0">支撑这次融合的，是几个从预训练阶段就定下的架构决定：模型原生支持文本、图像、视频，也原生支持把相机位姿和深度图作为输入——三维由此成为它的一种原生模态。李飞飞把结果称为「一个非常优雅的模型」：通过锚定视点与视点估计，重建与生成被统一起来。</p>
-<p style="margin:0.8em 0">这条融合路线，是为了解决一个非常具体的痛苦。</p>
-<p style="margin:0.8em 0">传统稠密重建的要求近乎苛刻：重建结果里出现的每一个角落，至少要被三四个视角拍到。想让一个房间没有空洞，拍摄者得绕着房间把每处缝隙都扫到——「我见过有人第一次扫描多房间环境，在里面走了一两个小时才拿到足够的覆盖率。」而在这些专业人员眼里，一个房间需要一百到三百张照片。随手给一个普通消费者一台手机，同样的活儿大概要花一个小时。</p>
-<p style="margin:0.8em 0">Atlas 想把这个数字降到三张——缩减五十到一百倍。一旦成立，关于「什么素材能做重建」的逻辑就彻底变了：可以用旧素材，可以用网上现成的图片，可以用随手拍的视频，去重建过去根本不被认为能做重建的东西。</p>
-<p style="margin:0.8em 0">官网演示里有一个细节，他们自己知道没多少人注意到：斯坦福主方院。Ben Mildenhall 用三到二十五张照片把它整个重建了出来。关键在于——输入的照片每一张都站在地面上、从地面视角拍的，而演示里那些鸟瞰镜头全部是生成的，却又严格遵循重建的几何。</p>
-<p style="margin:0.8em 0">之所以必须结合生成，是一个数学上的必然：任何没有出现在输入视角里的像素，在传统重建里就是一个空洞；要填上它，只能靠想象——而这本质上是一个生成过程。所以哪怕用单反拍上几百个视角，也不可能覆盖麦克风底部、桌子底下、椅腿之间的每一处缝隙。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">重建，其实就是带超长上下文的生成——你往里面塞大量的东西，再生成缺失的部分。</p>
-</blockquote>
-<p style="margin:0.8em 0">就像语言模型打过的上下文之战（128K、256K、512K 到 1M），这件事的本质是同一个问题，只是发生在视觉上。「没有任何人用同样有章法的方式，去试着把一段长达一小时的视频放进去。」而 Ben 试过一个更极端的例子：把以前拍一套多房间房子用过的两千张照片，砍到三四十张输入，生成的漫游看上去几乎一模一样。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个半夜的 Slack，和五秒钟的决定</h2>
-<p style="margin:0.8em 0">Atlas 不是一步到位的。World Labs 先做了 Marble，然后迭代到 Atlas。</p>
-<p style="margin:0.8em 0">「为什么不直接做 Atlas？」答案很朴素：要把它真正做大，需要大量 GPU，需要一步一步爬扩展阶梯，需要先在小模型上建立「什么能扩展」的信心。两年半前创办公司时，空间智能连一条 scaling 路线都不存在。他们经历了几次迭代，才确定哪种形式真的能扩展出去。</p>
-<p style="margin:0.8em 0">转折点是一个半夜的 Slack 消息。</p>
-<p style="margin:0.8em 0">当时他们训练的模型比现在的 Atlas 更小。Ben 把 NeRF 论文里那张著名的桌子（同样出现在许多论文里）喂给模型试新视角生成。那天半夜，团队收到他发来的消息——模型的视角直接从桌子底下穿了过去，还拍到了旁边一个足球。第二天早上，三个人面面相觑：就是它了。五秒钟之内，他们做了决定，因为这种效果此前从没人见过。</p>
-<p style="margin:0.8em 0">「我们三个人对 Scaling Law 都有十足的信念，」他们回顾道，「但具体的架构选择和数据配比，魔鬼藏在细节里。」用全新架构和全新范式预训练一个新模型，第一轮预训练就能跑通，这本身就不可思议。</p>
-<p style="margin:0.8em 0">那么，这条架构路线走到头了吗？恰恰相反。「我们基本上才刚起步」——在不改变架构的前提下，还能继续扩展。眼下的瓶颈是训练算力：目前这个模型的大小，甚至是从发布截止日期倒推出来的——「限制它的并不是规模或数据，纯粹是因为我们当时要发布，倒推回来能负担多少训练量。」</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一个「AI 完全」级别的原语</h2>
-<p style="margin:0.8em 0">访谈里最值得玩味的一段对话，关于「AI 完全」（AI-complete）。</p>
-<p style="margin:0.8em 0">这个概念来自复杂度理论，含义是：存在一个基本的 AI 任务，如果能把它在最广泛的普适性上解决，就能解决所有智能问题——就像 3-SAT 之于 NP 难问题。大语言模型语境里，这个原语是 Next Token Prediction：一本悬疑小说读到最后一句话「凶手是」，让模型预测下一个 token——你可以把任何形式的智能任务表述成这个问题。</p>
-<p style="margin:0.8em 0">World Labs 的主张是：新视角预测是同一级别的原语。</p>
-<p style="margin:0.8em 0">他们把推理顺着「AI 完全」的定义延展：如果模型能对任意时空位置生成正确的画面，它就必须理解场景里发生的一切。一部电影把它所有的帧放进去，凶手走出来，它就能准确预测「走出来的是谁」。视频模型建立于 Next Frame Prediction，语言模型建立于 Next Token Prediction，而 Atlas 建立于新视角预测——「基础模型里前所未有的全新原语」。</p>
-<p style="margin:0.8em 0">李飞飞补上了进化论的注脚：大自然给了动物眼睛，却没有给树木眼睛。为什么？因为动物会移动，移动就会看到新的视点——新视角预测，正是进化为了「移动」而必须解决的问题。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">大自然给了动物眼睛，但大自然没有给树木眼睛。眼睛为什么？因为当你移动时，你会看到一个新的视点。</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">机器人：数据是真正的瓶颈，Atlas 卡在关键一环</h2>
-<p style="margin:0.8em 0">这条路线自然延伸到了机器人。World Labs 不久前收购了一家叫 Synx 的公司（现为其机器人团队），核心技术是从 Real-to-Sim 到 Sim-to-Real 的闭环。</p>
-<p style="margin:0.8em 0">为什么这对机器人重要？以工业场景里的机械臂布线为例：想训练一个策略学会布线，需要大量数据；想评估策略，需要可迭代的环境；想把策略部署到真实产线，还要反复验证。而传统做法——拍照片、稠密重建环境——极其费力、耗时，严重拖慢仿真迭代的速度。Atlas 正是冲这个环节来的下一代技术。</p>
-<p style="margin:0.8em 0">更关键的是「随机化」：同一个环境里，电线要能往这边弯、也要能往另一边弯；盒子的尺寸、颜色、盖子要各不相同，出现在场景的不同位置。这类数据不可能只靠真实世界采集，必须通过 Real-to-Sim 批量生成。所以李飞飞说，机器人领域现在最大的难题是数据（以后迟早会变成芯片），而「Atlas 是拼图里非常关键的一块」。</p>
-<p style="margin:0.8em 0">Ben 补充了一个更本质的观察：训练机器人策略，和生成图像、代码、视频有本质不同。后者是在创造「制品」，互联网上有海量现成样本可学；而机器人策略产出的是一个要走进真实世界、采取行动、并且面对「意料之外」的智能体——世界不会总按预期回应，所以策略在训练期间必须见过部署时可能出问题的每一种情况。这正是仿真对机器人至关重要的原因。</p>
-<p style="margin:0.8em 0">一个更远的图景：当神经仿真器（学出来的世界模型）对「世界如何响应动作」理解得足够好，它本身就有机会从仿真器变成规划器——「想象我需要采取什么动作，才能让世界产生特定反应」。生成世界的模型和规划动作的模型，这两个问题高度相关。</p>
-<p style="margin:0.8em 0">至于动态（时间这个第四维度）：Atlas 的预训练数据本身就包含动态，发布视频里已经能看到水波、能看到小汽车开动。一位领域专家在私下反馈里说「很棒，但还需要更多动态」。团队并不掩饰四维是明确的下一步——看他们谈到「可以走进去逛的四维视频」时的笑容就知道了。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">才刚刚起步</h2>
-<p style="margin:0.8em 0">如果只做「更大、更快、更好」，这套架构已经足以撑起一整个行业。但被问到接下来最兴奋的方向时，他们谈的是可编辑性。</p>
-<p style="margin:0.8em 0">这里的门道是一场博弈：给模型加控制旋钮很容易，但<strong style="font-weight:600">如果控制带来了质量下降，没有人会换掉手头正在用的模型</strong>。要让人认真考虑替换，就必须在保持当前输出质量的前提下，加上创作者真正要的东西——控制布局、控制物体、控制时间、多轮交互式的编辑。「目前前沿图像模型在编辑上已经做到了这一步，我们还没看到它同样强劲地延伸到视频、进而延伸到世界模型里。」</p>
-<p style="margin:0.8em 0">再往前，是把它带进现实世界的建造流程。世界上有大量东西需要先在虚拟空间里「造」一遍，才会被真正制造出来：展会展位、建筑、施工方案。以展位设计为例，根据口头意见、草图、创意总监的粗略反馈去修改三维设计，约占整个流程 95% 的工作量。「开个会拿到反馈，回去就得改上一整个星期。」不是因为设计师不努力，而是三维软件几十年来的交互方式，从来没有像玩乐高、做陶艺、拿铅笔画草图那么直观——而这正是 AI 能释放巨大价值的环节。</p>
-<p style="margin:0.8em 0">回到开头那个问题——「我可以在里面走动吗？」——现在的答案是：可以了，但这只是空间智能的第一步。用李飞飞的话说，生成像素本身只是早期步骤，已经见过无数模型做到；生成真正具备空间语境和依据的像素，是另一个量级的跨越。</p>
-<p style="margin:0.8em 0">而如果新视角预测真的是 AI 完全问题，这件事的意义还要再上一层：空间智能和大语言模型，用的是同一把钥匙，只是插在不同的锁上。语言模型从「预测下一个词」里长出了推理能力；谁又能断言，「预测下一个视角」会长出什么。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">World Labs 发布 Atlas 世界模型：统一生成与重建，相机位姿为原生输入，输出不再锁死在高斯泼溅</li>
-<li style="margin:0.3em 0">核心原语「新视角预测」被对标 Next Token Prediction，主张它与后者同为「AI 完全」级别的问题</li>
-<li style="margin:0.3em 0">稠密重建从 100–300 张照片降到 3 张，缩减五十到一百倍；旧素材、随手拍视频都成为可用资产</li>
-<li style="margin:0.3em 0">关键技术节点：训练中出现「视角穿过桌子底下」的涌现效果，团队五秒内做了 all in 的决定</li>
-<li style="margin:0.3em 0">目前主要瓶颈是训练算力而非数据；架构不变仍可继续扩展，「才刚起步」</li>
-<li style="margin:0.3em 0">机器人方向的落点：Real-to-Sim 重建提速 + 随机化数据生成，「数据是最大难题，以后是芯片」</li>
-<li style="margin:0.3em 0">下一步：动态（四维）与可编辑性——原则是不以牺牲质量为代价</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 从预测下一个词到预测下一个视角</title><link>https://xlicz.github.io/podcast-rss/articles/从预测下一个词到预测下一个视角-2026-09-10.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_013b1ce174d8</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0800</pubDate><description>从预测下一个词到预测下一个视角</description></item>
 <item><title>[a16z] 当AI真的开始做数学：与OpenAI两位数学家的对话</title><link>https://xlicz.github.io/podcast-rss/articles/当AI真的开始做数学-与OpenAI两位数学家的对话-2026-09-08.html</link><guid isPermaLink="false">a16z_3257d8e4082e</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>当AI真的开始做数学：与OpenAI两位数学家的对话</description></item>
 <item><title>[跨国串门儿计划] 陶哲轩谈AI与数学：当解法多到来不及理解</title><link>https://xlicz.github.io/podcast-rss/articles/陶哲轩谈AI与数学-当解法多到来不及理解-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_49a9afae593c</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>陶哲轩谈AI与数学：当解法多到来不及理解</description></item>
 <item><title>[卫诗婕｜漫谈Light the Star] 明年科技公司可能只招AI人才了：脉脉CEO林凡谈AI人才分层与程序员的去向</title><link>https://xlicz.github.io/podcast-rss/articles/明年科技公司可能只招AI人才了-脉脉CEO林凡谈AI人才分层与程序员的去向-2026-09-07.html</link><guid isPermaLink="false">light-the-star_1893282c95fb</guid><pubDate>Mon, 07 Sep 2026 08:00:00 +0800</pubDate><description>明年科技公司可能只招AI人才了：脉脉CEO林凡谈AI人才分层与程序员的去向</description></item>
@@ -15240,5 +15070,126 @@ Steam峰值168,260/21地区畅销前10）|
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item></channel>
+]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-24</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-24.html</link><guid isPermaLink="false">report:播客信号:2026-09-24:afbe0811</guid><pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-24</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-24 05:01</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">扫描了 4 个播客，共 5 集：[屠龙之术(1), 跨国串门儿计划(2), 卫诗婕｜漫谈Light the Star(1), 不觉春晓(1)]
+本次新增分析 3 集（2 集已去重跳过） | 持仓披露：🔥0 / 🔴0 | 高质量内容：3 集</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">本轮未检测到持仓披露。
+3 集新剧集均为「行业分析 / 组织实践 / 技术路线」类内容，无第一人称持仓或交易动作披露。</p>
+</blockquote>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 屠龙之术 — AI进入生产阶段之后，智能、算力、芯片会走向哪里？（2026-09-22，主播庄明浩 solo）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">性质</strong>：AICC 2026 人工智能计算大会（第七届，北京）侧记，73 页 PPT 级别的全链路梳理。<strong style="font-weight:600">无持仓披露</strong>，但为算力产业链提供了一手会议级事实。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：AI 进入生产阶段后，竞争焦点从「是否部署」转为「能否规模化、安全、可治理地运行」；供给侧的瓶颈是物理的（产能+电力），需求侧的膨胀是三个乘数相乘，缺口长期存在而非 2028 年缓解。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong></p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">需求侧三乘数</strong>（IDC×浪潮信息《2026 中国 AI 计算力发展评估报告》）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[会议数据]</code><ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">任务执行次数：2026 年 2,800 亿次 → 2030 年 415 万亿次</li>
+<li style="margin:0.3em 0">单任务 token：数十 token → 数十万 token（复杂/长程任务）</li>
+<li style="margin:0.3em 0">多智能体协同放大系数：一用户任务拆为多子任务，链路延长</li>
+<li style="margin:0.3em 0">结果：global token 消耗 CAGR 4,822.6%</li>
+</ul>
+</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力缺口</strong>：2030 年全球 AI 算力供需缺口 3,809 亿美元（vs 2024 年 389 亿，≈10 倍）；算力满足度 2026 年 74% → 2027 年 71%（更紧缺）→ 2030 年 76-77%，但缺口绝对值持续放大 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[会议数据]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">五年产值口径</strong>：IDC 给截至 2031 年 AI 累计创造全球经济价值 22.5 万亿美元（≈ 当年全球 GDP 的 1/6）；2030 年全球活跃 Agent 约 22 亿 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[会议数据，宽定义、需谨慎]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">存储/器件涨价</strong>：最紧缺的存储芯片调价已从季度压缩到月度，全年涨幅 30-50%（平均值），部分环节远不止 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">系统侧双轨制</strong>（浪潮信息刘军）：能力型算力（服务 10 万亿参数级前沿模型，要求装得下/跑得快/跑得稳，技术落点是「超节点」）+ 容量型算力（普惠推理，多元算力协同的推理机组=「token 工厂」）。现场发布：元脑 SD200 Ultra（Kimi K3 联合发布，token 时延 5.85ms，支持 10 万亿参数）+ HC2000 多元算力机组（token 产能 ×10）<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[厂商自述，未经第三方验证]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">器件侧</strong>（清华吴教授，存算一体）：数据在处理器↔存储器间搬运是性能与能效主瓶颈；存算一体=零搬运、逼近硅基能效极限，<strong style="font-weight:600">28nm 成熟制程即可</strong>，同制程下算力 150 TOPS → 600 TOPS（约 4×），路径 130nm→28nm→22nm→7nm；主打「摆脱先进制程依赖」的中国芯换道超车逻辑 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[学者自述，量产/客户验证未披露]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">生态侧</strong>（智源林咏华，FlagOS 开源生态）：CUDA 的护城河是协议+编译器+开发者习惯；「数万种新型 AI 芯片结构，90% 被困在软件生态高墙之外」；FlagOS 三层（框架插件层 / 800+ 算子层 / 多架构编译层），宣称「一个模型一天内适配 12 款不同 AI 芯片」，已覆盖平头哥、昆仑芯、海光、沐曦、摩尔线程、天数智芯、燧原、苹果 M4/M5 等，100+ 生态伙伴 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[开源项目自述]</code></li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">提到但未披露持仓的可交易标的</strong>（仅讨论，非披露）：浪潮信息(000977.SZ)、摩尔线程(688795.SH)、沐曦(688812.SH)、海光信息(688041.SH)、寒武纪(688256.SH)、百度(BIDU/9888.HK)、阿里巴巴(9988.HK)、苹果(AAPL，M4/M5 作为算力载体被提及)</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设 1：token 需求的复合爆炸（CAGR 4,822%）在三乘数框架下成立 → 若 Agent 落地节奏慢于预期，或单任务 token 因效率优化反而下降，缺口叙事失效。</li>
+<li style="margin:0.3em 0">核心假设 2：物理约束（产能、电力）是硬约束，而非资本可解 → 若 2027-2028 出现新一轮晶圆产能或能效跃迁（存算一体/光子/CPO），短缺逻辑反转。</li>
+<li style="margin:0.3em 0">反例/风险：IDC 的 22.5 万亿美元口径是「宽定义」，历史上同类测算（AI 对 GDP 贡献）偏差极大；厂商产品参数（5.85ms、×10、600 TOPS）均为发布会自述，无第三方基准；存算一体 28nm 量产良率与工具链成熟度未验证。</li>
+<li style="margin:0.3em 0">结论：作为产业链<strong style="font-weight:600">结构性事实的索引</strong>价值高（谁在做什么、哪一层卡在哪），作为<strong style="font-weight:600">投资时点判断</strong>证据弱 —— 需要落到具体公司的订单/毛利验证。</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 卫诗婕｜漫谈Light the Star — 89.当 AI 进入组织，那些「从没人说过的真相」｜与网易阮良聊 AI Native（2026-09-23）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">嘉宾</strong>：阮良，网易集团副总裁、网易智启 CEO（2006 年浙大计算机毕业入职网易，历经互联网/移动互联网/AI 三波）。<strong style="font-weight:600">无持仓披露</strong>；披露的是自己的 AI 工具使用与内部管理制度。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：AI 的价值不在个人效率，而在<strong style="font-weight:600">组织流程改造</strong>。个人提效 300-500%，但组织交付周期只从 20 天缩到 17 天——木桶的短板不是人，是流程。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong></p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">木桶实证</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历/公司统计]</code>：网易内部统计，某软件需求从产品设计稿到上线平均 20 工作日。AI Coding 拐点后，工程师个人提效 2-5×（个别 10×），产品经理写 PRD/画原型提效约 50%，但<strong style="font-weight:600">全流程只从 20 天缩到 17 天</strong>。原因：20 片木板里 10 片是工程师、3 片产品、3 片测试、2-3 片是「非人的流程」，流程木板没变高 → 桶仍按最短木板算。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">三个坎</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code>：① 认知/文化（信 AI 能提效）；② 落到个人短程任务（先让个人体感到）；③ 改造流程=改造组织（最难）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 价值计算公式（ROI 法）</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[论文+实践]</code>：AI 价值 =（AI 产出质量/人类产出质量）× 节省时间 × 公司单位时间经济价值。筛选优先做 AI 的四条件：① 很花时间 ② 高频 ③ 不得不做 ④ 不同人做出的结果大概率一致。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">组织形态判断</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察+内部实践]</code>：中层（承担执行管理职责的）会越来越少，一线精英（T 型/全栈）越来越多；组织趋向「阿米巴 + 特种部队」——3-4 人小军团带一堆 Agent，像蜂巢（工蜂很厉害，母蜂指挥）。分工从细分（前端/后端/测试）<strong style="font-weight:600">回归全栈</strong>。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 决策中枢</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[内部实践]</code>：需要高质量知识库 = 历史决策流痕 + 决策依据。网易把历史决策入库训 agent，用数百个历史案例回测，<strong style="font-weight:600">准确率 &gt;90%</strong>。对标桥水（所有投资决策过程数据化 + agent 可学习进化，人工纠偏后固化）。<code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[自述，无外部验证]</code></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">token 账本</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公司数据]</code>：2026 Q1 一个月 token 消耗 = 2025 全年，但「不是天价账单」——原因是网易人才结构高端、任务本身高价值（每个程序员每月 AI 花费仅数千元 RMB）。观察到的统计规律：<strong style="font-weight:600">token 消耗断崖式领先的人，工作产出与质量也大概率断崖式领先</strong>（因为他们在给自己造系统）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">AI 冲击 To B/SaaS</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲身经历]</code>：GPT-4 发布时网易内部判断智能客服生意「要没了」，实际想多了——个人用 AI 是短程任务、小闭环；公司用 AI 是长程任务（跨部门长链条），单点提效在长链中衰减。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">工具使用的反直觉披露</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一人称]</code>：他本人装了几乎所有流行 Agent，「每个 Agent 配一个单独的大模型」（Claude / GPT / Grok / 智谱 / Kimi / DeepSeek），重大决策时让它们各自独立出方案再红蓝对抗，最后人来拍板。理由是每个 harness 工程不同 + 鲁棒性（挂一个还有别的）。也用 OpenClaw（泛化能力）与自建 COO Agent（固化场景）互穿。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">落地路径</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观察]</code>：小公司拥抱更彻底（组织关系简单、老板先行、链条短）；大公司老板认知最高但难推进（螺丝钉化分工，衔接环节砍不掉）→ 建议「挑最愿变的小部门先闭环跑通 → 大肆宣传 → 滚雪球」，但必须一把手工程、躬身入局。</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设 1：AI 的边际价值主要被组织流程吞噬，而非被模型能力限制 → 若模型能力跃迁到可端到端替代长链条（多 Agent 协同成熟），「流程是短板」的前提变更，组织的价值分布会重构。</li>
+<li style="margin:0.3em 0">核心假设 2：「token 消耗 ≈ 价值产出」的统计规律在样本大的精英组织内成立 → 该规律可能是<strong style="font-weight:600">选择偏差</strong>（精英本来就被给了更多任务与权限），不能外推到普通组织做 KPI；他自己也承认审计不告知员工。</li>
+<li style="margin:0.3em 0">反例/风险：网易是「人才贵+利润厚」的公司，其 token 经济账（几千元/人月「不贵」）不能外推到低毛利行业；「中层减少」是判断，不是已验证事实；桥水案例来自他刷到的视频（二手来源）。</li>
+<li style="margin:0.3em 0">结论：这是一份<strong style="font-weight:600">组织变革的一手实操记录</strong>，对判断「AI 应用的兑现速度」有很大信息量（个人提效 ≠ 组织提效），但<strong style="font-weight:600">不含任何可交易标的的持仓信息</strong>。</li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #735. Jev 模型创始人访谈：为什么我无法在 OpenAI 构建 Jev（2026-09-22）</h3>
+<p style="margin:0.8em 0"><strong style="font-weight:600">性质</strong>：海外播客中文转录（TypeSafe AI 创始人访谈，本周发布开源/预览模型 <strong style="font-weight:600">Jev</strong>，名字取自杰文斯悖论 Jevons Paradox）。技术向，<strong style="font-weight:600">无持仓披露</strong>。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">核心主张</strong>：需要一类全新的模型品类 ——「机器原生（machine-native）System 1 大程序化模型」，产出的东西<strong style="font-weight:600">直接被代码消费</strong>（而非被人类阅读），针对<strong style="font-weight:600">性价比帕累托前沿</strong>优化（&quot;每美元智能&quot;），让写代码的人获得超能力。</p>
+<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong></p>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">品类定义</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一性披露]</code>：预训练 LLM ≈ 给整个互联网做自动补全；RLHF ≈ 为回复文本；RLVR 介于两者之间。Jev 走 RLCD（程序在环），目标是让代码当使用者 → 三个 API 原语 choice（映射 switch/枚举）、score（映射阈值/排序）、now（映射 if，名字源自 Bernoulli）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">拒绝响应 = 类型错误</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一性推理]</code>：把模型当后台依赖项时，随机拒答会让软件无故崩溃 —— 「安全对齐对产品合理（ChatGPT/Claude），对 API 荒诞」。他明确反对 API 层加安全约束，理由是「每次让它回避都会把智能撕碎」。<strong style="font-weight:600">注意：这是产品哲学主张，不是投资信息。</strong></li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">模式坍塌是校准问题</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[技术观点]</code>：RLHF 导致模式丢失/坍塌，模型被导向「最想听的答案」而非基于内部置信度；长字符串生成因校准度问题极难不出细微错误。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">可靠性 &gt; 速度/成本</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一性]</code>：批评行业过度关注速度与成本、忽视可靠性（几位「9」）；预测 5 年内全要素生产率（TFP）增长达 3%（该指标从未被任何实验室关注过，与 OpenAI 原始章程口径一致）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">数据 &gt; 模型</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[第一性]</code>：「我们是一家数据实验室」——模型能力 = 数据，全部合成数据 + 高品味人类审校，是做到可靠性几位 9 的关键。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">算力约束</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[亲历]</code>：「很长一段时间都会受限于 GPU 算力」，任何性价比更低的方案（如确定性模型推理）都意味同智能消耗更多 GPU；迭代速度会比同行快得多，不承诺长期支持某一版本。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">明确排除的场景</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[观点]</code>：反对公开评测（易刷分），只用私有 evals；对「有人用模型做自动交易」表示打鼓 ——「这事儿留给专业人士，非常难、非常高级，就算模型够聪明，有效市场假说也会把优势抹掉」。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">技术生态提及</strong>：Cerebras、Groq 类推理加速作为「单位时间智能」的对照物被提及（无持仓含义）。</li>
+</ol>
+<p style="margin:0.8em 0"><strong style="font-weight:600">🔬 第一性原理剖析</strong></p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">核心假设 1：把「决策/程序在环」作为新任务定义，能像 RLHF 当年一样打开新的能力天花板 → 这已被他自己承认是最难的部分（「选对任务、确立北极星」）。</li>
+<li style="margin:0.3em 0">核心假设 2：性价比帕累托前沿是护城河 → 但前沿是不断移动的，且前沿上几乎无差异化定价权；他自己承认「大家把太多注意力放在速度和成本上」，说明「单位美元智能」很快会商品化。</li>
+<li style="margin:0.3em 0">反例/风险：这是他自家的产品访谈，<strong style="font-weight:600">全篇是创始人自我叙事</strong>，无第三方评测（他明确拒绝公开评测）→ 外部可验证性极低；「TFP +3%/5 年」是无法证伪的远期断言。</li>
+<li style="margin:0.3em 0">结论：<strong style="font-weight:600">技术信号强（可编程/结构化输出会是 Agent 基础设施的演进方向），投资信号为零。</strong></li>
+</ul>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="text-align:center">质量</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center">⭐⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">跨国串门儿计划</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">#733.BM25 在智能体搜索中出人意料的有效性</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">已在上一轮分析，去重跳过</td>
+</tr>
+<tr>
+  <td style="text-align:center">⭐</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不觉春晓</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">都不生了，无亲属支持的照护和养老怎么办？</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">已在上一轮分析，去重跳过</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🚨 管线健康度</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">转录完整性抽查：4 个源（tu-long-zhi-shu / light-the-star / kua-guo-chuan-men-er / bu-jue-chun-xiao）最近 3 个文件长度均不相同、title 与首段主题匹配 → <strong style="font-weight:600">无 stale-output 污染</strong></li>
+<li style="margin:0.3em 0">ASR 同音错字已知（如「图龙之书/图龙之术」=屠龙之术、「Jev/Gev/JF/Jeff」=同一模型名、纯音译专名不准），分析中已按领域知识纠正</li>
+</ul>
+
+</div>
+]]></content:encoded><category>播客信号</category></item></channel>
 </rss>
