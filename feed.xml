@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 09:00:08 +0800</lastBuildDate><item><title>[不觉春晓] 养老最刚的刚需不是护工，是一个能替你签字的人</title><link>https://xlicz.github.io/podcast-rss/articles/养老最刚的刚需不是护工-是一个能替你签字的人-2026-09-21.html</link><guid isPermaLink="false">bu-jue-chun-xiao_d47796867144</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>养老最刚的刚需不是护工，是一个能替你签字的人</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Wed, 23 Sep 2026 13:00:42 +0800</lastBuildDate><item><title>[不觉春晓] 养老最刚的刚需不是护工，是一个能替你签字的人</title><link>https://xlicz.github.io/podcast-rss/articles/养老最刚的刚需不是护工-是一个能替你签字的人-2026-09-21.html</link><guid isPermaLink="false">bu-jue-chun-xiao_d47796867144</guid><pubDate>Mon, 21 Sep 2026 08:00:00 +0800</pubDate><description>养老最刚的刚需不是护工，是一个能替你签字的人</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">养老最刚的刚需不是护工，是一个能替你签字的人</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">今年夏天，主播在一趟国外旅行团里遇到一对上海老夫妻：七十多岁，金首饰、昂贵单反，很会玩，也很能花钱。她随口夸了一句「身体这么好，不用子女带着就能自己出来玩」——桌上安静了。过了一会儿，老太太慢慢告诉她，独子前几年突发疾病去世了，也没有结婚。</strong></p>
@@ -15634,7 +15634,7 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/23</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：同日双发——Anthropic Claude Opus 5.5（成本降 40%、达 Fable 5.1 水平）与 OpenAI GPT-6 Sol/Luna（API 价格腰斩），前沿模型进入&quot;效率+降价&quot;竞赛；阿里平头哥发布振武 V900 AI 芯片（性能 3×、216GB 显存），并提出 10 万亿参数 Qwen 与 2032 年 20GW 数据中心目标；中国监管以非正式&quot;窗口指导&quot;放缓人形机器人 IPO，宇树自 IPO 首日跌约 53%、市值蒸发约 300 亿美元，全球人形累计销量仅约 7,000 台；Cognex 以约 5 亿美元全现金收购 Intel 分拆的 RealSense，机器人 3D 感知资产被产业资本定价。</p>
+<p style="margin:0.8em 0">本期聚焦：同日双发——Anthropic Claude Opus 5.5（成本降 40%、达 Fable 5.1 水平）与 OpenAI GPT-6 Sol/Luna（API 价格腰斩），前沿模型进入"效率+降价"竞赛；阿里平头哥发布振武 V900 AI 芯片（性能 3×、216GB 显存），并提出 10 万亿参数 Qwen 与 2032 年 20GW 数据中心目标；中国监管以非正式"窗口指导"放缓人形机器人 IPO，宇树自 IPO 首日跌约 53%、市值蒸发约 300 亿美元，全球人形累计销量仅约 7,000 台；Cognex 以约 5 亿美元全现金收购 Intel 分拆的 RealSense，机器人 3D 感知资产被产业资本定价。</p>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
@@ -15642,42 +15642,42 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 模型（闭源）</strong>：Anthropic 发布 Claude Opus 5.5，输出价从 $25 降至 $20/百万 token，典型负载运行成本降 40%，多数任务达到 Fable 5.1 水平，agentic coding 与知识工作为公司口径 SOTA；配套 Fable 同级安全护栏。Sonnet 5.5 / Haiku 5.5 将于数周内跟进。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 模型（闭源）</strong>：OpenAI 发布 GPT-6 Sol 与 Luna，API 价格为 5.6 系列的一半（缓存与推理优化驱动）；官方称 GPT-6 Sol 内部事实性评测失误率约为前代一半，达到 Astra 级可靠性。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">AI 硬件</strong>：阿里平头哥（T-Head）在 2026 云栖大会发布新一代 AI 芯片<strong style="font-weight:600">振武 V900</strong>（训练+推理一体），宣称性能为上代 M890 的 3 倍，216GB 显存、片间带宽 1,200GB/s、原生支持 FP8/FP4，配 ICN Switch 组超节点；同步抛出 10 万亿参数 Qwen 与 2032 年 20GW+ 数据中心目标，当日阿里港股涨约 4–5%。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">机器人/具身智能</strong>：路透 9/21 报道中国监管以非正式&quot;窗口指导&quot;劝退部分人形机器人企业 IPO，质疑国资项目收入的可持续性；宇树较 IPO 首日跌约 53%（较峰值 -55%），约 300 亿美元市值蒸发，而全球人形机器人累计销量仅约 7,000 台。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">机器人/具身智能</strong>：路透 9/21 报道中国监管以非正式"窗口指导"劝退部分人形机器人企业 IPO，质疑国资项目收入的可持续性；宇树较 IPO 首日跌约 53%（较峰值 -55%），约 300 亿美元市值蒸发，而全球人形机器人累计销量仅约 7,000 台。</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">机器人感知</strong>：Cognex 9/22 签署最终协议，以约 5 亿美元全现金收购 RealSense（Intel 2014 年创立、2025 年分拆的深度相机公司），定位 3D 机器人感知与 Physical AI，预计 2026 Q4 完成。</li>
 </ul>
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Anthropic 发布 Claude Opus 5.5：成本降 40%，多数任务达 Fable 5.1 水平 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Anthropic 9/22 发布 Claude Opus 5.5，为全新 Claude 5.5 家族首款模型。官方口径：在多数工作上达到 <strong style="font-weight:600">Claude Fable 5.1</strong> 的水平，典型负载<strong style="font-weight:600">运行成本比 Opus 5 低 40%</strong>；输出 token 定价从 $25 降至 <strong style="font-weight:600">$20/百万 token</strong>，其他指标同步下调，整体服务算力需求下降带来更快速度。Anthropic 称其为&quot;迄今我们测试过表现最强的模型&quot;（自动化行为审计/对齐套件口径），因生物与网络安全能力接近 Mythos，套用与 Fable 相同的使用限制护栏。功能侧的变化包括：<strong style="font-weight:600">更少行话、更倾向把重要信息前置</strong>；实测案例包括单日完成 68 万行代码迁移、网页应用全站加载优化 40 次中成功 39 次。Sonnet 5.5 与 Haiku 5.5 将于&quot;未来数周&quot;发布。该发布距 Opus 5 仅两个月。</p>
+<p style="margin:0.8em 0">Anthropic 9/22 发布 Claude Opus 5.5，为全新 Claude 5.5 家族首款模型。官方口径：在多数工作上达到 <strong style="font-weight:600">Claude Fable 5.1</strong> 的水平，典型负载<strong style="font-weight:600">运行成本比 Opus 5 低 40%</strong>；输出 token 定价从 $25 降至 <strong style="font-weight:600">$20/百万 token</strong>，其他指标同步下调，整体服务算力需求下降带来更快速度。Anthropic 称其为"迄今我们测试过表现最强的模型"（自动化行为审计/对齐套件口径），因生物与网络安全能力接近 Mythos，套用与 Fable 相同的使用限制护栏。功能侧的变化包括：<strong style="font-weight:600">更少行话、更倾向把重要信息前置</strong>；实测案例包括单日完成 68 万行代码迁移、网页应用全站加载优化 40 次中成功 39 次。Sonnet 5.5 与 Haiku 5.5 将于"未来数周"发布。该发布距 Opus 5 仅两个月。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Anthropic 官方公告（anthropic.com/claude-opus-5-5）与 Reuters / CNBC / The Verge / TechCrunch / AWS / SiliconANGLE 同日多源一致；✅ 独立评测机构 Artificial Analysis 已上线 Opus 5.5 模型页并做 5.5 系列对比；🔴&quot;最强模型&quot;与 40% 成本降幅为 Anthropic 自测口径，第三方基准（SWE-bench 等）复现待出</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Anthropic 官方公告（anthropic.com/claude-opus-5-5）与 Reuters / CNBC / The Verge / TechCrunch / AWS / SiliconANGLE 同日多源一致；✅ 独立评测机构 Artificial Analysis 已上线 Opus 5.5 模型页并做 5.5 系列对比；🔴"最强模型"与 40% 成本降幅为 Anthropic 自测口径，第三方基准（SWE-bench 等）复现待出</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Anthropic 官方 / Reuters / CNBC / The Verge / TechCrunch / Artificial Analysis（09/22）— 🟢</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 前沿模型转入&quot;降价+效率&quot;竞争，Opus 层成本锚下移</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 前沿模型转入"降价+效率"竞争，Opus 层成本锚下移</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. OpenAI 发布 GPT-6 Sol 与 Luna：API 价格腰斩 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">OpenAI 9/22 扩展 GPT-6 世代，推出更小档位的 <strong style="font-weight:600">Sol</strong>（面向编码等复杂任务）与 <strong style="font-weight:600">Luna</strong>（面向摘要、信息抽取、快速问答等高吞吐任务）升级版，官方称二者与 Astra&quot;一脉相承&quot;，把 Astra 的智能做得&quot;更高效、更可及&quot;。核心变化是<strong style="font-weight:600">价格</strong>：6 系列模型 API 费用为 5.6 系列 Sol/Luna 的<strong style="font-weight:600">一半</strong>，OpenAI 归因于缓存与推理优化。官方另称新模型事实性更准、编码错误率更低——&quot;在基于用户标记错误去标识化真实对话的内部事实性评测中，GPT-6 Sol 的失误约为前代一半，达到 Astra 级可靠性&quot;。Azure 同日宣布 Astra/Sol/Luna 上线 Microsoft Foundry，面向生产级 agent。</p>
+<p style="margin:0.8em 0">OpenAI 9/22 扩展 GPT-6 世代，推出更小档位的 <strong style="font-weight:600">Sol</strong>（面向编码等复杂任务）与 <strong style="font-weight:600">Luna</strong>（面向摘要、信息抽取、快速问答等高吞吐任务）升级版，官方称二者与 Astra"一脉相承"，把 Astra 的智能做得"更高效、更可及"。核心变化是<strong style="font-weight:600">价格</strong>：6 系列模型 API 费用为 5.6 系列 Sol/Luna 的<strong style="font-weight:600">一半</strong>，OpenAI 归因于缓存与推理优化。官方另称新模型事实性更准、编码错误率更低——"在基于用户标记错误去标识化真实对话的内部事实性评测中，GPT-6 Sol 的失误约为前代一半，达到 Astra 级可靠性"。Azure 同日宣布 Astra/Sol/Luna 上线 Microsoft Foundry，面向生产级 agent。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ OpenAI 官方公告 + Reuters / VentureBeat / ZDNET / The New Stack / Microsoft Azure / Pulse 2.0 多源一致（VentureBeat 口径为&quot;API 成本砍 50% 或更多&quot;，ZDNET 为&quot;准确率翻倍、成本减半&quot;）；🔴 失误率降幅为公司内部评测口径，无第三方基准</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ OpenAI 官方公告 + Reuters / VentureBeat / ZDNET / The New Stack / Microsoft Azure / Pulse 2.0 多源一致（VentureBeat 口径为"API 成本砍 50% 或更多"，ZDNET 为"准确率翻倍、成本减半"）；🔴 失误率降幅为公司内部评测口径，无第三方基准</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: OpenAI 官方 / Reuters / VentureBeat / ZDNET / Azure（09/22）— 🟢</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 与 Anthropic 同日降价，推理成本曲线整体下移</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. 阿里平头哥发布振武 V900 AI 芯片：性能 3×，配 10 万亿参数 Qwen 规划 | 🟢 | [✅事实]</h3>
 <p style="margin:0.8em 0">平头哥（T-Head，阿里芯片子公司）9/22 在杭州 2026 云栖大会发布新一代 <strong style="font-weight:600">振武 V900</strong> AI 芯片，同时训练与推理通用，并公布倚天服务器 CPU 路线图。关键参数（公司口径）：基于自研并行计算架构，<strong style="font-weight:600">性能为上代振武 M890 的 3 倍</strong>，为公司迄今最强自研 AI 芯片；<strong style="font-weight:600">216GB 显存</strong>、片间带宽 <strong style="font-weight:600">1,200GB/s</strong>，原生支持 FP8 / FP4 低精度格式；通过自研 ICN Switch 互联芯片把多颗 V900 组成超节点，提供原生内存语义。战略层面：平头哥从单颗加速器转向覆盖<strong style="font-weight:600">计算、存储、网络的全栈芯片策略</strong>；阿里同步提出 2032 年 <strong style="font-weight:600">20GW+ 数据中心</strong>容量目标与 <strong style="font-weight:600">10 万亿参数 Qwen</strong> 模型规划（阿里 AI 计划规模 530 亿美元）。消息带动阿里港股当日涨约 4–5%。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechNode / Global Times / Benzinga / financefeeds / TradingView / forkast 等多家独立报道参数一致，且与阿里当日股价异动（+4~5%）互证；🔴&quot;性能 3×&quot;及 20GW/10 万亿参数均为公司规划与自测口径，无第三方基准，多家媒体明确提示&quot;尚非英伟达杀手&quot;（ABC Money）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ TechNode / Global Times / Benzinga / financefeeds / TradingView / forkast 等多家独立报道参数一致，且与阿里当日股价异动（+4~5%）互证；🔴"性能 3×"及 20GW/10 万亿参数均为公司规划与自测口径，无第三方基准，多家媒体明确提示"尚非英伟达杀手"（ABC Money）</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: TechNode / Global Times / Benzinga / financefeeds（09/22）— 🟢</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 国产芯片走全栈路线，补英伟达在华空缺</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 中国监管放缓人形机器人 IPO：宇树较首日跌约 53%，全球销量仅约 7,000 台 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">路透 9/21 报道，中国监管层正放缓人形机器人企业的上市潮：知情人士称监管机构通过非正式**&quot;窗口指导&quot;<strong style="font-weight:600">劝退部分人形机器人公司推进 IPO，核心关切是</strong>估值过高<strong style="font-weight:600">及&quot;与国资背景项目绑定的收入是否代表可持续的商业需求&quot;。触发因素是宇树科技上市后的剧烈回撤——据 South China Morning Post / The Robot Report，宇树股价较 IPO 首日</strong>跌约 53%<strong style="font-weight:600">（较峰值 -55%），约 <strong style="font-weight:600">300 亿美元</strong>市值蒸发（另一口径为 11 天内蒸发 300 亿美元）；路透另有报道称宇树上市后滑坡&quot;引发泡沫担忧&quot;。行业侧对照数据：全球人形机器人吸引数十亿美元投资，但</strong>累计销量仅约 7,000 台**。</p>
+<p style="margin:0.8em 0">路透 9/21 报道，中国监管层正放缓人形机器人企业的上市潮：知情人士称监管机构通过非正式**"窗口指导"<strong style="font-weight:600">劝退部分人形机器人公司推进 IPO，核心关切是</strong>估值过高<strong style="font-weight:600">及"与国资背景项目绑定的收入是否代表可持续的商业需求"。触发因素是宇树科技上市后的剧烈回撤——据 South China Morning Post / The Robot Report，宇树股价较 IPO 首日</strong>跌约 53%<strong style="font-weight:600">（较峰值 -55%），约 <strong style="font-weight:600">300 亿美元</strong>市值蒸发（另一口径为 11 天内蒸发 300 亿美元）；路透另有报道称宇树上市后滑坡"引发泡沫担忧"。行业侧对照数据：全球人形机器人吸引数十亿美元投资，但</strong>累计销量仅约 7,000 台**。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 原发 + SCMP / The Robot Report / Global Times / The Economic Times / Chosunbiz / finimize / Startup Fortune / AI Insider / Technology Org 等 10+ 家独立媒体同题报道，跌幅口径互洽（53% 自首日 / 55% 自峰值）；✅ 销量对照数据见 The Straits Times；🔴&quot;窗口指导&quot;细节来自未具名人士，监管无公开文件确认</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters 原发 + SCMP / The Robot Report / Global Times / The Economic Times / Chosunbiz / finimize / Startup Fortune / AI Insider / Technology Org 等 10+ 家独立媒体同题报道，跌幅口径互洽（53% 自首日 / 55% 自峰值）；✅ 销量对照数据见 The Straits Times；🔴"窗口指导"细节来自未具名人士，监管无公开文件确认</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Reuters / SCMP / The Robot Report / Global Times（09/21–22）— 🟡</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 估值与收入背离被监管定价，风险向一级市场传导</li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Cognex 以约 5 亿美元全现金收购 RealSense，切入机器人 3D 感知 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Cognex 9/22 宣布签署最终协议，收购 <strong style="font-weight:600">RealSense</strong>——这家公司 2014 年由 Intel 创立、<strong style="font-weight:600">2025 年从 Intel 分拆</strong>，主营深度感知相机与机器人视觉，Cognex 称其为&quot;机器人感知与 Physical AI 领域深度相机及视觉技术的市场领导者&quot;，已在固定臂感知等 3D 机器人感知场景建立领先位置。交易对价约 <strong style="font-weight:600">5 亿美元（全现金，自有现金及投资支付）</strong>，尚需满足惯例交割条件与监管批准，<strong style="font-weight:600">预计 2026 年 Q4 完成</strong>；Evercore 担任 Cognex 财务顾问。Cognex 已于 9/22 向 SEC 提交 8-K 披露该交易（CFO Dennis Fehr 签署，美东 7:01 受理）。以色列媒体（Globes / Times of Israel / Calcalist）口径为&quot;超 6 亿美元&quot;，并称这是 Cognex 在以色列的首笔收购。</p>
+<p style="margin:0.8em 0">Cognex 9/22 宣布签署最终协议，收购 <strong style="font-weight:600">RealSense</strong>——这家公司 2014 年由 Intel 创立、<strong style="font-weight:600">2025 年从 Intel 分拆</strong>，主营深度感知相机与机器人视觉，Cognex 称其为"机器人感知与 Physical AI 领域深度相机及视觉技术的市场领导者"，已在固定臂感知等 3D 机器人感知场景建立领先位置。交易对价约 <strong style="font-weight:600">5 亿美元（全现金，自有现金及投资支付）</strong>，尚需满足惯例交割条件与监管批准，<strong style="font-weight:600">预计 2026 年 Q4 完成</strong>；Evercore 担任 Cognex 财务顾问。Cognex 已于 9/22 向 SEC 提交 8-K 披露该交易（CFO Dennis Fehr 签署，美东 7:01 受理）。以色列媒体（Globes / Times of Israel / Calcalist）口径为"超 6 亿美元"，并称这是 Cognex 在以色列的首笔收购。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Cognex SEC 8-K（09/22）+ PR Newswire 官方稿 + Unite.AI（引用 SEC 文件细节：全现金 $500M、约定期调整、Evercore 顾问）+ Benzinga / Pulse 2.0 / Dealroom / citybiz / AI Insider 多源一致；🔴 金额口径存在差异——多数英文源为&quot;约 5 亿美元&quot;，以色列媒体称&quot;超 6 亿美元&quot;，可能含或有对价</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ Cognex SEC 8-K（09/22）+ PR Newswire 官方稿 + Unite.AI（引用 SEC 文件细节：全现金 $500M、约定期调整、Evercore 顾问）+ Benzinga / Pulse 2.0 / Dealroom / citybiz / AI Insider 多源一致；🔴 金额口径存在差异——多数英文源为"约 5 亿美元"，以色列媒体称"超 6 亿美元"，可能含或有对价</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: Cognex SEC 8-K / PR Newswire / Unite.AI / Globes / Times of Israel（09/22）— 🟢</li>
 <li style="margin:0.3em 0"><strong style="font-weight:600">关注</strong>: 深度相机资产被产业资本定价，机器人感知进入整合期</li>
 </ul>
@@ -15685,5 +15685,161 @@ RO守爱2 连续2日缺席TapTap预约榜（从#23）</li>
 📅 覆盖时段: 09/21–09/22（窗口内 48 小时）</p>
 
 </div>
-]]></content:encoded><category>AI动态</category></item></channel>
+]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-23</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-23.html</link><guid isPermaLink="false">report:雪球动态:2026-09-23:eb4c3974</guid><pubDate>Wed, 23 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-23</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 — 2026-09-23 11:20</h1>
+<p style="margin:0.8em 0"><strong style="font-weight:600">通道</strong>：公开主页 DOM 抓取（免登录，29/29 用户成功，166 条/去重后 149 条新帖）
+<strong style="font-weight:600">覆盖窗口</strong>：2026-09-20 22:14 → 2026-09-23 11:07（上次成功分析为 09/20 22:30；09/21 22:00 因 HTTP 402 余额失败、09/22 15:13/15:31/22:08 三次因 cookie 半登录态失败 → 本次一次性补齐约 2.7 天）
+<strong style="font-weight:600">统计</strong>：新增 149 条｜🔥 54条（合并 10 组）｜🔴 1 条｜⚪ 94 条</p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📈 信号明细</h2>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[腾讯控股 00700] 浊静徐清（19条合并）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;腾讯似乎到了2018年初调整以来的尽头&quot;&quot;市盈率从2017年底约60倍，降到现在的15倍以下&quot;&quot;五千亿的腾讯现在又像一个精壮的小伙子了&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：腾讯已逐一化解地缘/反垄断/业务增长/AI落后/高估值五重压力，AI（混元+微信小微+WorkBuddy生态连接）是第二增长曲线。论据→论证：PE 60→16.1倍(TTM，gtimg 09-23) + 市值40182亿港元≈5150亿美元 vs 英伟达/苹果/谷歌5-6万亿美元 + 算力乘数1.3~1.7（自建口径，源自智谱中报） + 美国同行&quot;capex↑→盈利增速↓→收入↑→利润↑&quot;路径 → 估值与增长双修复。
+核查: ✅1（市值量级吻合&quot;五千亿&quot;；大盘AI叙事同期纳指创新高） ⚠️1（称PE&quot;15倍以下&quot;，实测PE_TTM 16.14） ❓3（算力乘数无公开口径；&quot;腾讯10分钟成交超昨全天&quot;；Hy Image 3.5 未验） | 假设: AI投入能按算力乘数转化为收入 | 替代: PE下行主要来自增速放缓，&quot;旧账还清&quot;是叙事 | 📜: 一致 — 09/04「HY4是头等舱门票」、09/05「混元AI公司10年后价值可能是老腾讯10倍」、09/20 算力乘数，连续强化
+<strong style="font-weight:600">可靠度 🟡</strong> — 数据可核，但核心增量靠自建指标与类比</p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[三星/海力士·韩国存储] 汤诗语（15条合并）</strong> | 🟢→🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;就算韩股需要折价，那两大韩国存储股明年的预期市盈率才3.x倍啊&quot;&quot;美股海力士较韩股海力士溢价30%多&quot;&quot;首选依然还是韩国存储股，次选纳斯达克指数&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：韩国存储股是全球最具风险收益比的选择，韩股折价已被ADR溢价抵平。论据→论证：三星/海力士明年预期PE≈3倍 + 承诺50%+净利回馈股东（股息率&gt;16%） + 9月韩国出口/半导体出口飙升（9月上旬半导体出口164.8亿美元、同比+270.1%） + SK海力士ADR（2026-07上市，募资265亿美元）较韩股溢价~30% → 周期上行+股东回报双击。
+核查: ✅3（2027E PE≈3倍获高盛上调盈测印证；韩国半导体出口+270%；纳指09-22收盘30732.40创历史新高） ⚠️1（ADR溢价&quot;30%多&quot;口径未完全对齐） ❓2（50%净利回馈的分红时点；中韩半导体ETF中韩股部分溢价20%+为其自算） | 假设: 存储超级周期2027年仍在上行 | 替代: 低PE=周期顶部陷阱，盈利已在峰值（低PE≠便宜） | 📜: 一致 — 09/07「明年PE 3倍多+股息率16%」、09/13「首选韩国存储股」、09/18，已连续第4次重复同一逻辑
+<strong style="font-weight:600">可靠度 🟢/🟡</strong> — 数字可验证，但&quot;明年PE 3倍&quot;本身是卖方一致预期外推</p>
+<p style="margin:0.8em 0">🔴 <strong style="font-weight:600">[A股房地产] 汤诗语（单条）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;近期有诸多房地产刺激政策的传言，我感觉不太现实……在建施工量已是膝盖斩了，经济对房地产的依赖已经很低了&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：地产强刺激可能性低，不宜按&quot;政策托底&quot;交易地产链。论据→论证：2021年后市场大幅下滑、施工量大幅萎缩 → 经济对地产依赖度下降 → 政策必要性下降（自认&quot;判断可能错&quot;）。
+核查: ✅1（统计局 2026年1-8月 房屋施工面积同比-12.8%、住宅-13.2%、新开工-25.4%、竣工-23.7%） ⚠️1（&quot;膝盖斩&quot;（约-50%）高于实际施工面积-12.8%，程度夸大；新开工口径才接近） ❓1（政策意愿不可验证） | 假设: 政策目标是经济托底而非地产救市 | 替代: 地产下行拖累地方财政/就业，政策仍可能被动加码 | 📜: 新增 — 首次明确给地产刺激预期降档
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[美的集团 000333] 二马由之（17条合并）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;铜1.6万美金了，美的苦呀！！！！&quot;&quot;我今天就把之前减仓的仓位接了一点回来&quot;&quot;下跌吧，我还准备加一点呢&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：铜价暴涨+家电消费疲软+人民币升值是美的下跌主因，属可承受的利空，选择加仓。论据→论证：铜价1.6万美元/吨（沪铜11.1万元/吨）成本冲击 + &quot;按跌幅和成交量应有大资金减仓&quot; → 下跌由多重合力而非基本面崩坏 → 逢跌加仓。
+核查: ✅1（沪铜主连110,400元/吨≈1.56万美元/吨，历史高位，数据属实） ✅1（反向检查 000333：净现比1.42/存货-4.1%/合同负债+10.3%/费用率-0.4pp 六项全✅，无选择性披露迹象） ❓2（&quot;正金/汇金减仓&quot;无证据；铜价对美的影响未量化） | 假设: 铜价不长期单边上涨、美的量价可对冲 | 替代: 铜价高位+出口承压可能持续压制毛利率2-3季度 | 📜: 一致 — 其&quot;下跌=加仓机会&quot;框架不变，本次首次披露实际接回仓位
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[泸州老窖 000568 / 五粮液 000858] 酒金岁月（7条合并）</strong> | 🟡→🔴（核查项）</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;五泸在资金眼里就是一体的，短期因为100亿回购，五粮液爆发性更强，财报已经出清，动销很快出清&quot;&quot;持有茅五泸的人心态最好……本质上是持有高端白酒指数基金&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：茅五泸三位一体，持有组合=持有高端白酒指数；五粮液回购+出清后弹性更大；老窖是&quot;意在长远、牺牲当下&quot;（不可能三角）。论据→论证：五粮液80-100亿回购方案（实际意义为股价支撑） + 老窖主动控量挺价 → 报表短期难看但品牌价值保全 → 长期收益率与其他高端酒趋同。
+核查: ✅1（五粮液 2026-04-30 公告回购80-100亿、价格上限153.59元/股、用于注销减资） ⚠️1（执行进度仅11.01亿元/截至8-31，占比≈14%，&quot;100亿回购&quot;仅为方案上限） ❌/⚠️2（&quot;财报已经出清&quot;与反向数据矛盾——五粮液 26H1 净现比-0.25、OCF-21.54亿、合同负债-26.1%、销售费用率16.1%→22.2%（+6.2pp）、存货+12.5%；泸州老窖 26H1 净现比0.48、OCF环比-54.2%、合同负债-12.8%、费用率+4.1pp、存货+3.7%，五项⚠️全中） ❓2（&quot;六边形战士&quot;&quot;双国宝&quot;为主观品牌判断） | 假设: 渠道让利是主动战略、需求未断崖 | 替代: 合同负债与OCF同步恶化指向渠道信心流失，&quot;牺牲当下&quot;可能无法换回&quot;长远&quot; | 📜: 一致（09/14 老窖名义降价/补贴前置、09/15 动销跟踪）但口径从未回应反向财务项 → 选择性披露
+<strong style="font-weight:600">可靠度 🟡（叙事）+ ⚠️ 反向数据未解释</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[中国石油 601857] 亲爱的阿兰（14条合并）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;员工费用1850.96亿元迟早会自然达峰的，几年后有百亿级的下降，是未来分红在1000亿元以上的远期考量&quot;&quot;96年招聘高峰对应的人开始退休了&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：96-97年招聘高峰进入退休窗口 → 员工费用见顶回落 → 释放百亿级利润 → 支撑远期1000亿+分红。论据→论证：FY2025员工费用1850.96亿（+3.3%） + 退休替代率高 → 三费自然下行（&quot;增量要几年后&quot;自认时滞）。
+核查: ✅3（FY2025员工费用1850.96亿元精确命中2025年报；26H1员工费用857.86亿/+3.7%；26H1归母1039.34亿/+22%、中期分红475.85亿/0.26元/股） ✅1（反向检查 601857：净现比2.42、OCF环比+197.5%、短借下降、合同负债+10.0%、费用率持平；仅存货+12.0%⚠️） ❓1（退休带来的费用拐点时点） | 假设: 退休节省不被&quot;效益联动&quot;涨薪吃掉 | 替代: 年报明示&quot;员工工资随效益联动变化&quot;，效益上行期仍会加薪，费用未必自然下降 | 📜: 一致 — 2025/05 增效降本、2026/02「利润弹性不高是误解，油气链恢复后价值重估」
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[阿里巴巴 BABA] terryp57（5条合并）</strong> | 🔴（数据来源不可验证）</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;AI 云占比提升2倍&quot;&quot;AI客户云增速从25.8的17%，提升到26.8的40%&quot;&quot;MAAS arr过去四个月从80到800&quot;&quot;前阵子买入中……&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：阿里全栈优势（云+模型+硬件/平头哥）+ 更聚焦（出售快递业务）驱动云业务量级跃迁，已实际买入。
+核查: ✅1（阿里FY26Q2 AI云收入同比+45%、总收入2689亿+9%，方向与量级一致） ❓3（MaaS ARR 80→800、AI客户云增速17%→40%、&quot;出售快递&quot;全部来自内部分享/会议纪要，无公开一手源） ❓1（买入标的被截断） | 假设: AI云高增可持续且非价格战驱动 | 替代: 云增速部分来自低基数与AI口径重分类 | 📜: 新增 — 首次披露AI云拆分数据
+<strong style="font-weight:600">可靠度 🔴</strong> — 核心数字未经公开披露验证</p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[心动公司 02400 · 游戏行业] 逸修1（10条合并）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;这么多年，第一次见过一个大外资投行把处于关键时刻的动子的逻辑讲清楚的&quot;&quot;今年腾子和动子基本面上面临的问题是类似的&quot;&quot;星布谷地应该是12月上线，小人国没这么快&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：心动处于关键兑现窗口，外资投行（高盛）首次讲清逻辑；游戏行业四款跨端大产品翻牌结果（伊莫&gt;诡秘&gt;…）证明预期差。论据→论证：高盛研报（2024年发游戏）+ 新游流水（9月为新游最好月份；阿B新游全球首月流水预估1-2亿） → 行业景气回升 → TapTap与自研双驱。
+核查: ✅1（开源/国海等维持&quot;买入&quot;；TapTap 26H1收入9.94亿、中国版MAU 4539.7万/+4.1%，卖方逻辑确实聚焦TapTap+新游） ⚠️1（未找到高盛该篇原文，&quot;大外资投行&quot;表述无法逐字核） ❓3（星布谷地上线时间、小人国暑期档、伊莫首年成绩均为预测/个人判断） | 假设: 新游上线节奏与其跟踪一致 | 替代: 同业竞品（腾讯/米哈游模拟生活品类）分流TapTap流量 | 📜: 一致 — 2025/06「珍惜100亿及以下的心动」以来的长期持有叙事延续
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[AI硬件/存储链] 拥抱大时代（3条）</strong> | 🔴</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;感觉这周市场要risk on了，ai回归fast and furious&quot;&quot;ai硬件卷土重来&quot; [$ASM太平洋(00522)$ $建滔积层板(01888)$ $Lumentum(LITE)$ $康宁(GLW)$ $美光(MU)$ $DRAM ETF$]</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：本周risk on，AI硬件（光互联/存储/封测）卷土重来。核查: ✅1（背景吻合：纳指09-22再创历史新高） ❓0（无任何论据、无数值、无风险提示，仅方向+标的罗列） | 假设: 资金从算力向存储/光模块扩散 | 替代: 纯动量跟随，回撤无锚 | 📜: 一致 — 09/21 08:49 提出后当日 23:15 自证&quot;果然risk on&quot;
+<strong style="font-weight:600">可靠度 🔴</strong> — 无论证纯方向判断，不可复现</p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[铜] 山行（2条）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;战争开始，极度担心，快速挖了一个坑，也快速爬起来新高……这背后的坚强的力量是什么，不能一句周期就打发了，尤其是说周期见顶&quot;</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：铜价在战争/加息/关税三次冲击后均快速修复新高，供需格局确实偏紧，反对&quot;周期见顶&quot;。核查: ✅1（沪铜主连110,400元/吨≈1.56万美元/吨，处历史高位，走势与其描述一致） ❓1（&quot;供需偏紧&quot;未给库存/TC/冶炼数据） | 假设: 高价由供需而非流动性驱动 | 替代: 金融属性+美元因素主导，供需缺口小于价格涨幅所暗示 | 📜: 一致 — 04/10「铜价回到开战之前」
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<p style="margin:0.8em 0">🔥 <strong style="font-weight:600">[光互联/存储产业链] 张师傅的退休实验室（8条）</strong> | 🟡</p>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">&quot;老黄连投五笔，只喊了一家万亿美金&quot;&quot;我不猜轮动。资金什么时候从算力切到存储&quot;；另关注 $Cloudflare(NET)$ 351.51</p>
+</blockquote>
+<p style="margin:0.8em 0">主张：产业链&quot;钱被谁赚走&quot;框架优先于轮动预测，重心放在光互联/存储；新纳入观察 Cloudflare。核查: ✅1（NET 09-22 收盘约352.89、当日区间345.30-357.10，&quot;351.51&quot;属实） ❓2（&quot;万亿美金&quot;目标无时间与口径；付费专栏为引流型内容，观点需自行拆解） | 假设: 光互联/存储需求随AI推理扩张 | 替代: 主题拥挤、估值已计入 | 📜: 一致 — 09/15「要站在光里」系列延续
+<strong style="font-weight:600">可靠度 🟡</strong></p>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 无信号（按作者合并）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">条数</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">论证摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">大道无形我有型</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">20</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">段永平答网友：泡泡玛特乐园&quot;利润不要指望太多&quot;/Dimoo像萌娃、已买入娃衣，价值投资=买未来现金流、可乐十年仍上涨，疫苗咨询 → 无新标的动作</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">朱酒</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">白酒8月产量19.1万千升/+2.1%（统计局✅）、1-8月207.9万千升/-3.8%；物业撤场、地产&quot;存量时代留给头部央国企&quot;、AI杀手级应用 → 行业观察，无标的信号</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">二马由之</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">分众传媒26H1楼宇媒体占94%（专栏）、伊利自有品牌冲击、预制菜定义、铜价压制美的之外的闲聊</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">汤诗语</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">12</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">A股大小非净减持（上周&gt;60亿、年内3238亿）、公募8月混合型连续第6个月净赎回、QDII额度37亿美元分给主动产品、美股周期调整PE 39倍(93分位) → 资金面数据，方向中性</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">郭荆璞</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">港股&quot;假资产&quot;重估旧帖(2021)被翻出讨论、Magnificent7&quot;谁先挂掉&quot;提问、&quot;买股票就是买公司&quot;反例 → 哲学讨论</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI应用十判断（引用旧帖）、滴滴接驾时间停留3分钟的段子 → 无标的</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">醉眼看人間</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">吐槽AI写专栏；引用老窖帖（经销商跑了162家、Q2崩）但非自身观点</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">STH_</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">九月气候模型更新：dynamic略上修、statistical大幅上修，厄尔尼诺海温10-11月见顶（+3.2~3.6℃）→ 框架输入项，非投资信号</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">PaulWu / 终身黑白 / 黑色面包</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">&quot;挺荒诞的&quot;；技术分析vs基本面之争；追忆某博主交易风格 → 无标的</td>
+</tr>
+</tbody>
+</table></div>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑</h2>
+<ol style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">酒金岁月「财报已经出清」</strong>：五粮液26H1 经营性现金流-21.54亿（净利87.53亿，净现比-0.25）、合同负债-26.1%、销售费用率+6.2pp；泸州老窖26H1 五项反向指标全⚠️（OCI环比-54.2%、合同负债-12.8%）。口径只讲&quot;控量挺价&quot;，四项反向数据零提及 → 选择性披露；回购&quot;100亿&quot;实为方案上限（已回购11亿、14%）。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">浊静徐清「PE 60→15倍以下」= 便宜</strong>：实测PE_TTM 16.14，&quot;算力乘数1.3~1.7&quot;为自建公式（分母为算力成本口径非capex），无第三方可验证；以微软2000年做类比属事后归因——微软重估靠的是十年后的新业务，而非&quot;旧账还清&quot;。</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">汤诗语「明年PE 3倍」</strong>：这是卖方一致预期外推，存储属于典型周期股，3倍PE往往出现在盈利峰值前夜；且该逻辑已在09/07、09/13、09/18、09/22 连续重复四次，属观点强化而非新信息（本轮他新增的是&quot;ADR溢价30%&quot;这一可核事实）。</li>
+</ol>
+<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">✅ 本轮核查统计</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">可核声称 21 项：✅ 11 ｜⚠️ 5 ｜❓ 5 ｜❌ 0</li>
+<li style="margin:0.3em 0">反向财务检查：000333（六项全✅）、601857（净现比2.42✅，存货+12.0%⚠️）、000858（4项⚠️）、000568（5项⚠️）</li>
+<li style="margin:0.3em 0">主要数据源：gtimg 行情（腾讯/NET/沪铜）、国家统计局（地产/白酒）、中石油2025年报与26H1（员工费用1850.96亿/857.86亿）、五粮液回购公告（80-100亿方案/已回购11.01亿）、Tavily 检索（SK海力士2027E PE、纳指收盘新高、韩国半导体出口+270%）</li>
+</ul>
+
+</div>
+]]></content:encoded><category>雪球动态</category></item></channel>
 </rss>
