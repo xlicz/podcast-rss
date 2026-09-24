@@ -1,7 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 14:14:00 +0800</lastBuildDate><item><title>[a16z] Ben Horowitz：开源 AI 之战，是美国不能输的一战</title><link>https://xlicz.github.io/podcast-rss/articles/Ben-Horowitz-开源-AI-之战-是美国不能输的一战-2026-07-26.html</link><guid isPermaLink="false">a16z_87bc46e47c8f</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>Ben Horowitz：开源 AI 之战，是美国不能输的一战</description></item><item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item><item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item><item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 14:14:05 +0800</lastBuildDate><item><title>[a16z] 未解数学猜想被 AI 逐一攻破，世界为何毫无波澜</title><link>https://xlicz.github.io/podcast-rss/articles/未解数学猜想被-AI-逐一攻破-世界为何毫无波澜-2026-08-04.html</link><guid isPermaLink="false">a16z_be9fbc6c6cee</guid><pubDate>Tue, 04 Aug 2026 08:00:00 +0800</pubDate><description>未解数学猜想被 AI 逐一攻破，世界为何毫无波澜</description></item>
+<item><title>[a16z] AI 智能体真正的安全问题，不是模型失控</title><link>https://xlicz.github.io/podcast-rss/articles/AI-智能体真正的安全问题-不是模型失控-2026-08-11.html</link><guid isPermaLink="false">a16z_e91ae79d9e15</guid><pubDate>Tue, 11 Aug 2026 08:00:00 +0800</pubDate><description>AI 智能体真正的安全问题，不是模型失控</description></item>
+<item><title>[a16z] Ben Horowitz：开源 AI 之战，是美国不能输的一战</title><link>https://xlicz.github.io/podcast-rss/articles/Ben-Horowitz-开源-AI-之战-是美国不能输的一战-2026-07-26.html</link><guid isPermaLink="false">a16z_87bc46e47c8f</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>Ben Horowitz：开源 AI 之战，是美国不能输的一战</description></item>
+<item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item>
+<item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item>
+<item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">机器人还在 GPT-1 时刻</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">清华叉院助理教授徐梦迪谈具身智能：Scaling Law 的信号已经出现，但真正的瓶颈是能不能让终端用户在半小时内看到机器人学会一件新事</strong></p>
@@ -71,7 +76,8 @@
 </ul>
 
 </div>
-]]></content:encoded></item><item><title>[跨国串门儿计划] 一年走出四五年的 AI 进展，然后呢</title><link>https://xlicz.github.io/podcast-rss/articles/一年走出四五年的-AI-进展-然后呢-2026-08-12.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_52269d87762d</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>一年走出四五年的 AI 进展，然后呢</description></item>
+]]></content:encoded></item>
+<item><title>[跨国串门儿计划] 一年走出四五年的 AI 进展，然后呢</title><link>https://xlicz.github.io/podcast-rss/articles/一年走出四五年的-AI-进展-然后呢-2026-08-12.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_52269d87762d</guid><pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate><description>一年走出四五年的 AI 进展，然后呢</description></item>
 <item><title>[跨国串门儿计划] 设计师是 AI 时代最不开心的群体，也是机会最大的</title><link>https://xlicz.github.io/podcast-rss/articles/设计师是-AI-时代最不开心的群体-也是机会最大的-2026-08-20.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_a25d368ba370</guid><pubDate>Thu, 20 Aug 2026 08:00:00 +0800</pubDate><description>设计师是 AI 时代最不开心的群体，也是机会最大的</description></item>
 <item><title>[投资实战派] 昇腾崛起：一款产品如何定义一个时代</title><link>https://xlicz.github.io/podcast-rss/articles/昇腾崛起-一款产品如何定义一个时代-2026-09-20.html</link><guid isPermaLink="false">tou-zi-shi-zhan-pai_d99cc505902d</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>昇腾崛起：一款产品如何定义一个时代</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
@@ -15070,7 +15076,8 @@ Steam峰值168,260/21地区畅销前10）|
 </ul>
 
 </div>
-]]></content:encoded><category>心动日报</category></item><item><title>[播客信号] 播客投资信号 2026-09-24</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-24.html</link><guid isPermaLink="false">report:播客信号:2026-09-24:afbe0811</guid><pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-24</description><content:encoded><![CDATA[
+]]></content:encoded><category>心动日报</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-24</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-24.html</link><guid isPermaLink="false">report:播客信号:2026-09-24:afbe0811</guid><pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-24</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-24 05:01</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15191,7 +15198,8 @@ Steam峰值168,260/21地区畅销前10）|
 </ul>
 
 </div>
-]]></content:encoded><category>播客信号</category></item><item><title>[AI动态] AI 领域动态 2026-09-24</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-24.html</link><guid isPermaLink="false">report:AI动态:2026-09-24:6ad98459</guid><pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-24</description><content:encoded><![CDATA[
+]]></content:encoded><category>播客信号</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-24</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-24.html</link><guid isPermaLink="false">report:AI动态:2026-09-24:6ad98459</guid><pubDate>Thu, 24 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-24</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/24</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
