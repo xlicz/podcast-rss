@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 09:01:00 +0800</lastBuildDate><item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item><item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item><item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Thu, 24 Sep 2026 14:14:00 +0800</lastBuildDate><item><title>[a16z] Ben Horowitz：开源 AI 之战，是美国不能输的一战</title><link>https://xlicz.github.io/podcast-rss/articles/Ben-Horowitz-开源-AI-之战-是美国不能输的一战-2026-07-26.html</link><guid isPermaLink="false">a16z_87bc46e47c8f</guid><pubDate>Sun, 26 Jul 2026 08:00:00 +0800</pubDate><description>Ben Horowitz：开源 AI 之战，是美国不能输的一战</description></item><item><title>[跨国串门儿计划] 动力不是性格，是一条回路</title><link>https://xlicz.github.io/podcast-rss/articles/动力不是性格-是一条回路-2026-08-29.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_296d80066895</guid><pubDate>Sat, 29 Aug 2026 08:00:00 +0800</pubDate><description>动力不是性格，是一条回路</description></item><item><title>[跨国串门儿计划] 后训练的真正瓶颈，已经变成一张组织架构图</title><link>https://xlicz.github.io/podcast-rss/articles/后训练的真正瓶颈-已经变成一张组织架构图-2026-08-15.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_b11660302ef0</guid><pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate><description>后训练的真正瓶颈，已经变成一张组织架构图</description></item><item><title>[十字路口Crossing] 机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</title><link>https://xlicz.github.io/podcast-rss/articles/机器人还在GPT-1时刻-清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环-2026-09-20.html</link><guid isPermaLink="false">crossing_923657b31889</guid><pubDate>Sun, 20 Sep 2026 08:00:00 +0800</pubDate><description>机器人还在GPT-1时刻：清华叉院徐梦迪谈具身智能的Scaling信号与数据闭环</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">机器人还在 GPT-1 时刻</h1>
 <p style="margin:0.8em 0"><strong style="font-weight:600">清华叉院助理教授徐梦迪谈具身智能：Scaling Law 的信号已经出现，但真正的瓶颈是能不能让终端用户在半小时内看到机器人学会一件新事</strong></p>
@@ -15195,7 +15195,7 @@ Steam峰值168,260/21地区畅销前10）|
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/24</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：Claude 首次跑通真实科学发现闭环（类 CRISPR 新酶系统）；阿里真武 V900 把国产 AI 芯片推到&quot;50 万卡超节点 + 10 万亿参数 Qwen&quot;；Black Forest Labs 用 7B 开源模型冲上 RoboLab 榜首；Tesla Optimus Gen 3 设计与供应链双线曝光；Google 让语音合成变成&quot;描述即设计&quot;。</p>
+<p style="margin:0.8em 0">本期聚焦：Claude 首次跑通真实科学发现闭环（类 CRISPR 新酶系统）；阿里真武 V900 把国产 AI 芯片推到"50 万卡超节点 + 10 万亿参数 Qwen"；Black Forest Labs 用 7B 开源模型冲上 RoboLab 榜首；Tesla Optimus Gen 3 设计与供应链双线曝光；Google 让语音合成变成"描述即设计"。</p>
 </blockquote>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
@@ -15215,7 +15215,7 @@ Steam峰值168,260/21地区畅销前10）|
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Anthropic：Claude 发现类 CRISPR 新酶系统</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢 官方</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 从&quot;辅助&quot;进入&quot;发现&quot;，Feng Zhang 公开背书</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 从"辅助"进入"发现"，Feng Zhang 公开背书</td>
 </tr>
 <tr>
   <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
@@ -15250,23 +15250,23 @@ Steam峰值168,260/21地区畅销前10）|
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 <h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. Anthropic：Claude 自主发现类 CRISPR 新酶系统 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">Anthropic 于 9/23 公布其新设生命科学研究组与旧金山湾区湿实验室的首批成果：Claude 在仅有科学家高层级指引的情况下，<strong style="font-weight:600">自主发现了一个带 DNA 重复序列阵列的新酶系统</strong>，其性质&quot;令人联想到 CRISPR&quot;。</p>
+<p style="margin:0.8em 0">Anthropic 于 9/23 公布其新设生命科学研究组与旧金山湾区湿实验室的首批成果：Claude 在仅有科学家高层级指引的情况下，<strong style="font-weight:600">自主发现了一个带 DNA 重复序列阵列的新酶系统</strong>，其性质"令人联想到 CRISPR"。</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">技术细节</strong>：该系统基于一种逆转录酶（RT），来自 jumbo phage。RT 本身此前已被识别，但 Anthropic 称 Claude 是首个注意到其&quot;定义性特征&quot;的主体——一段关联的<strong style="font-weight:600">非编码 DNA 序列阵列</strong>，外加一个功能未知的<strong style="font-weight:600">附属蛋白</strong>。功能尚不明确，但这类特征此前只在极少数可编程（剪切/复制/粘贴 DNA）系统中同时出现过。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">技术细节</strong>：该系统基于一种逆转录酶（RT），来自 jumbo phage。RT 本身此前已被识别，但 Anthropic 称 Claude 是首个注意到其"定义性特征"的主体——一段关联的<strong style="font-weight:600">非编码 DNA 序列阵列</strong>，外加一个功能未知的<strong style="font-weight:600">附属蛋白</strong>。功能尚不明确，但这类特征此前只在极少数可编程（剪切/复制/粘贴 DNA）系统中同时出现过。</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">外部背书</strong>：CRISPR 先驱、MIT/Broad Institute 教授 Feng Zhang 审阅预印本后公开表示&quot;这是 AI agent 贡献生物发现的令人兴奋的案例……RNA 重复阵列与逆转录酶的关联确实引人入胜，值得进一步研究&quot;。[✅事实]</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">外部背书</strong>：CRISPR 先驱、MIT/Broad Institute 教授 Feng Zhang 审阅预印本后公开表示"这是 AI agent 贡献生物发现的令人兴奋的案例……RNA 重复阵列与逆转录酶的关联确实引人入胜，值得进一步研究"。[✅事实]</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">当事人表态</strong>：Dario Amodei 承认该发现建立在他人工作之上，斯坦福一个团队此前发现过&quot;在某些方面类似&quot;的系统。[💬观点]</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">当事人表态</strong>：Dario Amodei 承认该发现建立在他人工作之上，斯坦福一个团队此前发现过"在某些方面类似"的系统。[💬观点]</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">边界</strong>：TechCrunch 指出最大信息量反而是——Anthropic <strong style="font-weight:600">并未放任 Claude 在实验室内自由运行，人类目前仍在 loop 中</strong>。[💬观点]</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">市场反应</strong>：消息发布后基因编辑板块个股走低。</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Anthropic 官方博客（9/23，标题即 &quot;Claude discovers a novel enzyme system with CRISPR-like repeats&quot;）+ Reuters + The Verge + TechCrunch + Unite.AI 五源一致；✅ Feng Zhang 公开评论可查 — <strong style="font-weight:600">关注</strong>: AI 首次跑通真实科学发现闭环，但&quot;重要性&quot;仍需学界独立复现。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Anthropic 官方博客（9/23，标题即 "Claude discovers a novel enzyme system with CRISPR-like repeats"）+ Reuters + The Verge + TechCrunch + Unite.AI 五源一致；✅ Feng Zhang 公开评论可查 — <strong style="font-weight:600">关注</strong>: AI 首次跑通真实科学发现闭环，但"重要性"仍需学界独立复现。</p>
 </li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 阿里平头哥 真武 V900：50 万卡超节点，10 万亿参数 Qwen 路线图 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">在 Apsara Conference 2026 上，阿里发布新一代 AI 加速器 <strong style="font-weight:600">Zhenwu V900</strong>，CEO 吴泳铭称其为&quot;中国最强 AI 芯片&quot;，性能达到上一代 M890 的 <strong style="font-weight:600">3 倍</strong>。</p>
+<p style="margin:0.8em 0">在 Apsara Conference 2026 上，阿里发布新一代 AI 加速器 <strong style="font-weight:600">Zhenwu V900</strong>，CEO 吴泳铭称其为"中国最强 AI 芯片"，性能达到上一代 M890 的 <strong style="font-weight:600">3 倍</strong>。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">规格（已披露）</strong>：216 GB 显存，片间带宽 1,200 GB/s；可扩展至<strong style="font-weight:600">最多 50 万张卡</strong>的超节点集群，单系统可支持 <strong style="font-weight:600">&gt;1,000 张</strong> V900（前代 M890 为 128 张）。[✅事实]</p>
 </li>
@@ -15274,15 +15274,15 @@ Steam峰值168,260/21地区畅销前10）|
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">时间表</strong>：2027 Q1 量产商用，比 5 月路线图的 2027 Q3 提前。T-Head 累计向 400+ 外部客户出货超 <strong style="font-weight:600">65 万颗</strong>真武芯片（5 月口径为 56 万）。[✅事实]</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">关键缺口</strong>：官方未披露 FLOPS、制程、代工、功耗、显存带宽数字——&quot;3 倍&quot;与&quot;最强&quot;目前<strong style="font-weight:600">没有绝对算力锚点</strong>。[📰推测] Tom's Hardware 提醒，对比华为 Ascend 960PR（2027Q3，192GB/2.4TB·s⁻¹/2.2TB·s⁻¹ scale-up）时缺乏可比参数。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">关键缺口</strong>：官方未披露 FLOPS、制程、代工、功耗、显存带宽数字——"3 倍"与"最强"目前<strong style="font-weight:600">没有绝对算力锚点</strong>。[📰推测] Tom's Hardware 提醒，对比华为 Ascend 960PR（2027Q3，192GB/2.4TB·s⁻¹/2.2TB·s⁻¹ scale-up）时缺乏可比参数。</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">配套</strong>：阿里云目标 2032 年数据中心容量超 20 GW；吴泳铭明确表示全球 AI 供应链短缺&quot;正在限制我们的算力扩张速度&quot;。消息发布后阿里股价一度涨约 5%。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">配套</strong>：阿里云目标 2032 年数据中心容量超 20 GW；吴泳铭明确表示全球 AI 供应链短缺"正在限制我们的算力扩张速度"。消息发布后阿里股价一度涨约 5%。</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters + CNBC + AP + Tom's Hardware + TechRepublic 多源口径一致（216GB/1,200GB·s⁻¹/50 万卡/2027Q1）🔴 绝对算力指标（FLOPS/制程/功耗）官方未披露，&quot;最强/3 倍&quot;无法独立验证 — <strong style="font-weight:600">关注</strong>: 国产算力迭代提速，直接对标万亿参数 Qwen 训练需求。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ Reuters + CNBC + AP + Tom's Hardware + TechRepublic 多源口径一致（216GB/1,200GB·s⁻¹/50 万卡/2027Q1）🔴 绝对算力指标（FLOPS/制程/功耗）官方未披露，"最强/3 倍"无法独立验证 — <strong style="font-weight:600">关注</strong>: 国产算力迭代提速，直接对标万亿参数 Qwen 训练需求。</p>
 </li>
 </ul>
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Black Forest Labs 发布 FLUX 3 Action：7B 开源机器人模型 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">以 FLUX 图像/视频模型闻名的德国公司 Black Forest Labs（BFL）于 9/23 推出 <strong style="font-weight:600">FLUX 3 Action</strong>——一个 <strong style="font-weight:600">70 亿参数的 open-weight &quot;World Action Model&quot;</strong>（世界动作模型），输入相机观测 + 机器人当前状态 + 自然语言指令，输出物理动作。</p>
+<p style="margin:0.8em 0">以 FLUX 图像/视频模型闻名的德国公司 Black Forest Labs（BFL）于 9/23 推出 <strong style="font-weight:600">FLUX 3 Action</strong>——一个 <strong style="font-weight:600">70 亿参数的 open-weight "World Action Model"</strong>（世界动作模型），输入相机观测 + 机器人当前状态 + 自然语言指令，输出物理动作。</p>
 <ul style="padding-left:1.5em">
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">基准</strong>：公司称在 NVIDIA 的 <strong style="font-weight:600">RoboLab-120</strong>（120 项任务的仿真基准）上取得 <strong style="font-weight:600">42.92%</strong> 总体成功率，超过当前公开榜单上所有模型——比此前开放模型最高分 NVIDIA Cosmos3-Nano-Policy 高 <strong style="font-weight:600">6.1 个百分点</strong>，也比发布前总榜第一的 OASIS WAM（39.0%）更高。[✅事实/厂商自报]</p>
 </li>
@@ -15300,11 +15300,11 @@ Steam峰值168,260/21地区畅销前10）|
 <h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. Tesla Optimus Gen 3：设计泄露 + 中国供应链审计并行 | 🔴 | [📰推测]</h3>
 <p style="margin:0.8em 0">两条同日/近日的 Optimus Gen 3 线索：</p>
 <ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">设计泄露</strong>：9/23 Tesla Android App 的 APK 中被解包出新款机器人外观图，多家 Tesla 垂直媒体以&quot;更简洁、面向工厂量产&quot;描述其形态。属 APK 逆向的二手信息，Tesla 官方未确认。[📰推测]</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">设计泄露</strong>：9/23 Tesla Android App 的 APK 中被解包出新款机器人外观图，多家 Tesla 垂直媒体以"更简洁、面向工厂量产"描述其形态。属 APK 逆向的二手信息，Tesla 官方未确认。[📰推测]</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">供应链审计</strong>：TrendForce 引 21 世纪经济报道，Tesla 团队 <strong style="font-weight:600">9/16 抵达宁波</strong>，9/17 起启动新一轮供应商审核以评估量产准备度，覆盖原有汽车供应商——执行器商<strong style="font-weight:600">拓普集团</strong>、传感器商<strong style="font-weight:600">均胜电子</strong>、热管理商<strong style="font-weight:600">三花智控</strong>等；拓普称 Tesla 研发人员常驻其宁波工厂。报道称目标价约 <strong style="font-weight:600">$20,000</strong>。[📰推测]</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0">关联背景：Tesla App 中已出现 &quot;Gen 3 Optimus&quot; 字样引用。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0">关联背景：Tesla App 中已出现 "Gen 3 Optimus" 字样引用。</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ APK 泄露经 Not a Tesla App / Teslarati / Startup Fortune / driveteslacanada 多源一致；✅ 供应商审计有 TrendForce 转述 21 世纪经济报道 🔴 两条均无 Tesla 官方确认 — <strong style="font-weight:600">关注</strong>: Gen3 量产前置动作启动，中国供应链是核心受益环节。</p>
 </li>
@@ -15316,11 +15316,11 @@ Steam峰值168,260/21地区畅销前10）|
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">Gemini 3.8 Flash-Lite TTS</strong>：面向高吞吐、低成本场景（配音、音频内容规模化、语音 agent），对语气、节奏、表现力做细粒度控制。[✅事实]</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">共同能力</strong>：支持为每行台词添加&quot;舞台指示&quot;、单一脚本生成双人对话、以及笑声/叹息等非语言音。[✅事实]</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">共同能力</strong>：支持为每行台词添加"舞台指示"、单一脚本生成双人对话、以及笑声/叹息等非语言音。[✅事实]</p>
 </li>
 <li style="margin:0.3em 0"><p style="margin:0.8em 0">沿革：继 Gemini 3.5 Live Translate、3.5 Transcribe、Gemini 3.8 Live 之后的音频线更新。</p>
 </li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ blog.google 官方公告（Leland Rechis / Alan Cowen 署名 Gemini Audio Team）+ the-decoder + Unite.AI + MarkTechPost 一致 — <strong style="font-weight:600">关注</strong>: 语音合成从&quot;挑音色&quot;转向&quot;描述即设计&quot;，配音与语音 agent 成本再降。</p>
+<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">验证</strong>: ✅ blog.google 官方公告（Leland Rechis / Alan Cowen 署名 Gemini Audio Team）+ the-decoder + Unite.AI + MarkTechPost 一致 — <strong style="font-weight:600">关注</strong>: 语音合成从"挑音色"转向"描述即设计"，配音与语音 agent 成本再降。</p>
 </li>
 </ul>
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
