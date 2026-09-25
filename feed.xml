@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 <channel>
-  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Fri, 25 Sep 2026 23:27:20 +0800</lastBuildDate><item><title>[a16z] 海底酒店没有建成，但它的零件正在被造出来</title><link>https://xlicz.github.io/podcast-rss/articles/海底酒店没有建成-但它的零件正在被造出来-2026-08-05.html</link><guid isPermaLink="false">a16z_7d385e5c0537</guid><pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate><description>海底酒店没有建成，但它的零件正在被造出来</description></item><item><title>[a16z] 交易量追平 Visa 的行业，还在等一部法律</title><link>https://xlicz.github.io/podcast-rss/articles/交易量追平-Visa-的行业-还在等一部法律-2026-08-01.html</link><guid isPermaLink="false">a16z_c5fc3baee9ba</guid><pubDate>Sat, 01 Aug 2026 08:00:00 +0800</pubDate><description>交易量追平 Visa 的行业，还在等一部法律</description></item>
+  <language>zh-cn</language><description>播客转录、AI动态、宏观分析、雪球信号聚合</description><link>https://xlicz.github.io/podcast-rss</link><title>相根信息流</title><lastBuildDate>Sat, 26 Sep 2026 05:00:28 +0800</lastBuildDate><item><title>[a16z] 海底酒店没有建成，但它的零件正在被造出来</title><link>https://xlicz.github.io/podcast-rss/articles/海底酒店没有建成-但它的零件正在被造出来-2026-08-05.html</link><guid isPermaLink="false">a16z_7d385e5c0537</guid><pubDate>Wed, 05 Aug 2026 08:00:00 +0800</pubDate><description>海底酒店没有建成，但它的零件正在被造出来</description></item>
+<item><title>[a16z] 交易量追平 Visa 的行业，还在等一部法律</title><link>https://xlicz.github.io/podcast-rss/articles/交易量追平-Visa-的行业-还在等一部法律-2026-08-01.html</link><guid isPermaLink="false">a16z_c5fc3baee9ba</guid><pubDate>Sat, 01 Aug 2026 08:00:00 +0800</pubDate><description>交易量追平 Visa 的行业，还在等一部法律</description></item>
 <item><title>[a16z] 把 AI 真正部署进企业：Decagon 的开源赌注与"玻璃盒"打法</title><link>https://xlicz.github.io/podcast-rss/articles/把-AI-真正部署进企业-Decagon-的开源赌注与-玻璃盒-打法-2026-07-31.html</link><guid isPermaLink="false">a16z_e5ea8e0dabe5</guid><pubDate>Fri, 31 Jul 2026 08:00:00 +0800</pubDate><description>把 AI 真正部署进企业：Decagon 的开源赌注与"玻璃盒"打法</description></item>
 <item><title>[a16z] 「AI 在硅谷被高估了，在爱荷华州被低估了」</title><link>https://xlicz.github.io/podcast-rss/articles/AI-在硅谷被高估了-在爱荷华州被低估了-2026-07-30.html</link><guid isPermaLink="false">a16z_627d34c98974</guid><pubDate>Thu, 30 Jul 2026 08:00:00 +0800</pubDate><description>「AI 在硅谷被高估了，在爱荷华州被低估了」</description></item>
 <item><title>[a16z] 中国微短剧市场规模已超电影票房，AI 正把它输往全世界</title><link>https://xlicz.github.io/podcast-rss/articles/中国微短剧市场规模已超电影票房-AI-正把它输往全世界-2026-07-29.html</link><guid isPermaLink="false">a16z_2d824521072e</guid><pubDate>Wed, 29 Jul 2026 08:00:00 +0800</pubDate><description>中国微短剧市场规模已超电影票房，AI 正把它输往全世界</description></item>
@@ -1138,66 +1139,7 @@
 
 </div>
 ]]></content:encoded></item>
-<item><title>[a16z] 厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</title><link>https://xlicz.github.io/podcast-rss/articles/厨房餐桌上的-little-tech-两三个人的公司-和为大公司写的规则-2026-09-11.html</link><guid isPermaLink="false">a16z_1550161f3b75</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：a16z 普通合伙人、Speedrun 负责人 Andrew Chen 谈最小的创业公司——它们连法人主体都还没有，就要承担为大公司设计的监管存量；没有游说者，唯一能行使的筹码是选择在哪里创业。</strong></p>
-<p style="margin:0.8em 0">最近一次 Speedrun Bash 上有 70 家创业公司。其中大约十几家的创始人当时还在上着全职工作：他们得先把公司发的笔记本电脑和工牌交回去，然后 a16z 发现钱根本汇不出去——这些"公司"连一个能收款的法人主体都还没有注册。a16z 干脆帮他们把公司搭起来，再把人带进项目。</p>
-<p style="margin:0.8em 0">这就是 little tech 的最小单位：两三个人，一张厨房餐桌，一个连自己算不算"公司"都还没想清楚的项目。而他们即将面对的，是一整套为大得多的企业写好的规则、一套残酷的失败数学，和一道关于"在哪里创业"的选择题。Andrew Chen 在 a16z 的 AI Policy Brief 播客里，把这幅图景讲得足够具体。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">平均两到三个人，在厨房餐桌上经营公司</h2>
-<p style="margin:0.8em 0">Speedrun 是 a16z 里离"公司诞生的那一刻"最近的地方。项目在旧金山办公室运行，公开招募，投资最高 100 万美元，陪创始人走 12 周——用 Andrew 的话说，给他们"公司的全部力量和全部关系"——结束时办一场 demo day，超过 1,000 名天使投资人和种子基金到场。他形容这件事的动机：不要等创业者自己走到 a16z 门口，而是参与把公司创造出来。</p>
-<p style="margin:0.8em 0">定义这个群体的是尺寸。Andrew 在 a16z 的头两年做的是 Series A、Series B——开出 1,000 万到 2,000 万美元的支票，公司已经有客户、有指标、有团队，"历史上这可能一直是最好的投资位置"。Speedrun 反过来，要在创始人刚刚开始想这件事的时候抓住他们。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">平均团队是两到三个人。他们不在办公室里经营公司，也不在共享空间里——他们在厨房餐桌上经营公司。</p>
-</blockquote>
-<p style="margin:0.8em 0">最近那 70 家公司里，十几家的创始人还在全职岗位上，交完工牌之后，a16z 甚至没法把钱打给他们，因为他们还没有公司可以注册收款。Andrew 的判断是，这些人早晚都会创业——"创始人的那根刺你拔不出来"——但把动作提前了五年、十年：本来他们会先去攒够几年工作经验和财务安全垫。</p>
-<p style="margin:0.8em 0">上界在哪？"一旦你在别处拿过钱"——不算绝对 disqualifying，但足以让人重新掂量。五人以上的团队很罕见，而且股权结构本身就是约束：人来了又走，有些人你总得开工资，摊得太薄对谁都不好。所以"通常就是一个两三个人的事情"。</p>
-<p style="margin:0.8em 0">他反复强调的是，投的不是点子。"我们真正投的是最好的人。"标准跨度极大：体育上取得过巨大成就、有一个已经几千 star 且还在疯涨的 GitHub repo、精英大学，或者在最好的 AI 公司里学到过别人学不到的独特洞察，然后带着它开新公司。至于点子会变——他举了那个所有人都熟的例子：我们每天在用的 Slack，最初是一家浏览器游戏公司。团队来源则很"美国"：纽约、德州、佛罗里达、中西部、太平洋西北、犹他，绝大多数从全美各地飞到旧金山体验湾区，有人留下，有人回到自己的社区继续做公司，两种结果 a16z 都乐见。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一周只有一次"回营"，其余时间只有产品、客户和 AI</h2>
-<p style="margin:0.8em 0">两个创始人——比如一个来自奥斯汀、一个来自芝加哥——被录取后的流程很具体：注册公司，钱到账（"他们一辈子没见过这么多钱"），买机票来旧金山。a16z 给他们一份"Welcome to SF"指南：哪些街区值得住、怎么在 Airbnb 上挑对房子。项目期间他们通常和联合创始人做室友，24 小时待在一起，住得离 a16z 办公室不远，可以用公司的办公室，也有几个共享空间。然后是 Slack 群、邮件列表，和不断认识的新创始人。</p>
-<p style="margin:0.8em 0">他们唯一该花时间的事只有一件：搞清楚这个生意到底成不成立——把产品做出来，把它卖出去，而且要快。分工通常是稳定的二分法：一个对外的商业创始人，去访谈客户、把交易谈成；一个对内的产品技术创始人，现在大量用 AI 写代码。Andrew 的观察是，这直接改写了成本结构——不需要外包一部分开发，也不需要招一队年轻人写代码，"就看看一两个人能有多高的效率"，先让生意活下来，再谈招人。</p>
-<p style="margin:0.8em 0">正式编程一周只有一次。所有人回 a16z 办公室，请一位嘉宾来讲——Zynga 的创始人、Vercel 的创始人、OpenAI 的高管，Marc Andreessen 和 Ben Horowitz 来过很多次——然后是 office hours：二三十家公司坐在一起，互相解决对方的问题。议题清单非常"第一天"：怎么招第一个员工、怎么签下第一个客户、怎么在社交媒体上发布、卖给大企业（enterprise）和卖给中小企业（SMB）有什么不同，以及"每个人现在都在用哪些 AI 工具"。剩下的时间，他们在旧金山的创业生态里泡着——见人、见投资人。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一半公司会死，所有回报来自十分之一</h2>
-<p style="margin:0.8em 0">谈到失败时，Andrew 给的是风投行业那套老数学：一半公司完全做不起来，另外两三家小赚一点，所有回报集中在最顶层的十分之一。"这在数学上似乎就是成立的"，而且几十年一直如此。</p>
-<p style="margin:0.8em 0">更有信息量的是他怎么处理"没成的那一半"。a16z 赚的是极少数突破者的钱，但"我们用怎么对待所有创始人来建立声誉"——包括那些每周干一百小时、周末也泡在里面、最后就是没做成的。失败有时完全不是他们的错：市场转冷、在所有人都在做 AI 的时候做了一家前 AI 公司、联合创始人病了。</p>
-<p style="margin:0.8em 0">于是出路有两条。第一条是再投一次——就在对话的前一周，他们重新投了一位创始人，投的是比他的第一个点子更好的想法，而他第一个项目只还回来一小部分花掉的钱。"你已经花了一百万美元教会这些创始人怎么开公司了，希望他们能再开一家。"第二条是充电：这些创始人往往没给自己发多少工资，需要时间重建财务、照顾身体。而在那之后，这些人会变成抢手货——能处理非结构化问题、对最新技术完全在线、还肯拼命——所以我们看到很多团队互相把人招走，几年之后他们再独立出来创业，a16z 希望那时能再谈一次。用他的话说，这是要和创始人合作"整个职业生涯"的事。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">监管不是一次性的新增负担，而是累积的存量</h2>
-<p style="margin:0.8em 0">对话的后半程切到政策，这是这期节目的本行。a16z 写过一篇文章叫《Greetings from a Garage》，设想两个人走进车库，要做出下一个伟大的技术工具——在加州，他们要面对的是什么。</p>
-<p style="margin:0.8em 0">政策团队和法律团队通常的思维是"增量负担"：一个新法案要通过了，通过之后会多麻烦？但这个想法本身有问题。真正的图景是所有规则叠加起来的复合体：在加州，它包括去年通过的 SB 53、上一届会期留下的数据来源（data provenance）要求、以及几年前通过的加州隐私法。"在你开始动手做这个工具的那一刻，你就得同时满足全部这些。"</p>
-<p style="margin:0.8em 0">而对 Speedrun 阶段的创始人来说，这些东西甚至谈不上是"合规成本"——因为严格说，他们还没有公司。用 Andrew 的话，那可能只是一个项目或一个产品，两个"男生或女生"试着让它跑起来。所以每一项挡在前面的障碍，意义都不是"多一份文件"，而是给"证明第一版产品能不能成立"这件事增加摩擦。他们的典型体验是：我注册了公司、我要雇人了，然后你拿到"这么厚一摞文书"——很多法律和文书是为比他们大得多的公司设计的，那些公司有律师团队、有专职的合规专家。结果是，这个群体和监管打交道，体验基本是负面的——因为这些规则"实际上为 big tech 创造了保护，或者为他们想要颠覆的行业里的其他玩家创造了保护"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">没有游说者的人，不在"全行业一致同意"里</h2>
-<p style="margin:0.8em 0">被问到这个阶段的人怎么想政策问题，Andrew 给的答案不是"他们怎么想"，而是"他们没空想"。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">这些创始人没有游说者，也不在政治流程里——在所有这些意义上，他们都没有被代表。</p>
-</blockquote>
-<p style="margin:0.8em 0">他知道的细节更狠：这些人可能连洗澡、好好吃一顿晚饭的时间都没有，日程只剩下"一天的生存"。</p>
-<p style="margin:0.8em 0">Matt 把这个缺口说得更直白：a16z 出来代表 little tech，但"我不是创始人"，人家会说——我们更想见创业公司，不想见投创业公司的人。可创业公司本人来不了：一个两个人的团队，时间线不是一年，可能连六个月、连三个月都不是，让他们开车去萨克拉门托、或者飞华盛顿、飞布鲁塞尔，"从时间的 ROI 上看根本不成立"。Andrew 补了一句更根本的：这些人就是未来的雇主，是美国在技术领域持续领先的那部分力量。</p>
-<p style="margin:0.8em 0">缺席的代价是，政策制定者看到的是被扭曲的样本：听到很多 big tech，听到很多正在被颠覆的行业，很少听到那些三十岁上下、日夜扑在事情上的人。Matt 说他甚至遇到过敌意反应——"你说整个行业都同意？"而他们说的"整个行业"指的是大科技公司，或者大金融机构。a16z 的回答是：分歧是设计出来的，"我们代表生态里不同的一部分；很多时候我们和 big tech 意见一致，不一致的时候我们就说不一致"。</p>
-<p style="margin:0.8em 0">a16z 的 Tech Week 是补缺口的尝试之一：在旧金山、洛杉矶、纽约办，今年第一次办到波士顿。去年所有 Tech Week 加起来，有 4,000 人参加了政策相关活动，其中 1,000 多人来自政府、1,000 多人是政策从业者，市长办公室和各国领事馆都参与进来——英国领事馆尤其活跃。Andrew 顺手给了一个"怎么在一个人意识到自己是创始人之前找到他"的观察：有某类工作履历、又开始频繁出现在创业活动上的人，大概率是"startup curious"，几年之内会上路的。</p>
-<p style="margin:0.8em 0">如果真有一位政策制定者坐下来问"你希望我明白什么"，Andrew 的答案可以拆成三层。第一层是一句根本判断：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">是否要有创业公司，对每个州、每个城市来说，都是一个选择。</p>
-</blockquote>
-<p style="margin:0.8em 0">要选，就得做一些让它成立的事——这份清单不只写给创始人，也写给天使投资人、员工，以及围着这群人的整个系统。第二层是承认需求一直在变：政策制定者往往没有和 little tech 真正对话过，因为这件事摩擦更大、更耗时间；而且软件公司、AI 原生公司、硬件公司、机器人公司说的都不一样。今年他们看到的机器人公司比任何一年都多，而这类公司的诉求完全是另一套——供应链、场地、另一批投资人和合作方。第三层是他自己承认的"卖书"部分：跟 a16z 这样的机构合作可以把门打开——"任何人想来跟五到十家精心挑选的 little tech 待一段时间，听听他们需要什么才能成功，我们都非常乐意安排。"</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">唯一能打的一张牌：把公司注册到别的地方去</h2>
-<p style="margin:0.8em 0">这些团队那么小、又处在起点，因此握着一个别人没有的权利：选择公司从哪里开始。Andrew 说他 2007 年搬到湾区时，世界还围着 Palo Alto 和 Mountain View 转；后来整个创业中心从半岛迁到旧金山市区；再往后它扩散了——纽约成了巨大的枢纽，各大风投在伦敦和欧洲开办公室。选址因此变成创业公司最重要的决策之一：在哪里扎根、从哪里招人。而如果第一天就知道"做 AI 公司会多出一整套规则管你能怎么用 AI"，那么一个两个人的团队是"非常流动的"——他们可以挑，也确实在挑。湾区历史上正是从这种流动性里受益：接近 50% 的获风投支持的创业公司由第一代移民创立；剩下那一半里，有多少是土生土长的旧金山人？按他的推演，"答案大概是接近百分之百都不是"。他的提醒也很克制：湾区受益了，但没人能保证它永远如此，加州不一定永远是创业最好的地方。</p>
-<p style="margin:0.8em 0">创始人真实的决策依据，往往还是间接的。生活成本是最朴素的一条。做 deep tech、做下一代制造业的人必须去有大规模实验室和仓库、且价格合理的地方——所以他看到的是洛杉矶的 El Segundo、以及德州这样的"口袋"。AI 浪潮极大地延长了湾区这套生态的寿命，疫情期间外散的人也在回流。但还有一个很少被谈论的间接力量：创业公司最终必须搬到有投资人的地方。写代码、赚到第一块钱、招到第一个员工，在哪里都能做；可要让生意真正规模化，"需要投资人能到场"。所以世界上最大的创业枢纽，通常都长在同一个地方——好大学、客户和投资人恰好同城。他顺带说了一个担心：目前正在讨论中的财富税，可能把一批家族办公室和投资人搬到别的地区去，而他们现在是重要的出资方——这会削弱硅谷的活力。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">18 岁的创始人，和一套还不知道会不会落在他头上的规则</h2>
-<p style="margin:0.8em 0">Andrew 说，跟这些团队待在一起是件很好的事：他们很多二十岁出头，当前一批里有一支全是 18、19 岁的团队，决定不上大学，直接做"梦想中的公司"；同一批里也有身价十亿美元级别的公司的联合创始人。这些人"不在会撞上一堆法律的阶段"，所以对话真诚、乐观、处在最前沿。</p>
-<p style="margin:0.8em 0">而 Matt 描述的，是这种乐观即将撞上的东西。他下周就要去跟 Speedrun 的这批公司聊；过去类似的对话里，他见过有人脸上闪过恐慌——"我做的这个用处（use case）可能会撞上监管逆风，可我认为它非常有说服力，而我不觉得政策制定者明白我们在做什么。"</p>
-<p style="margin:0.8em 0">这就是那个 delta：立法的时间以会期为单位，而一家两个人的公司的时间以"三个月内能不能做出来"为单位。两个时间尺度之间的缝隙里，站着那些还没把公司注册好、也没有余裕飞去华盛顿的人——他们此刻能行使的全部政治表达，是决定把公司扎根在哪里。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">little tech 的最小单位是两三个人和一张厨房餐桌。最近一期 Speedrun Bash 的 70 家公司里，约十几家创始人还在上全职工作，连法人主体都没注册——投资款一度无处可汇。</li>
-<li style="margin:0.3em 0">Speedrun 的准入逻辑是"投最好的人"而非点子，上界是"已在别处拿过钱"；团队很少超过 3-5 人，因为股权结构和人员流动本身就会惩罚过大的初始盘子。</li>
-<li style="margin:0.3em 0">风投数学：一半公司归零、两三成小赚、全部回报来自十分之一。真正有区别的是失败处理——再投一次、给创始人充电、团队互相雇佣，几年后 spin out 再投一遍。</li>
-<li style="margin:0.3em 0">监管的真实成本不是"新增负担"而是累积存量：SB 53、数据来源要求、隐私法叠加在一起，且文书是按有律师团队的大公司规模设计的；创始人与监管的接触体验基本是负面的。</li>
-<li style="margin:0.3em 0">创业者在政策中的缺席是结构性的：没有游说者、没有时间（连洗澡的时间都可能没有）、时间尺度是 3-6 个月。结果是政策制定者只听到 big tech 的声音，并把"全行业一致"当成了共识。</li>
-<li style="margin:0.3em 0">微型团队唯一能自由行使的筹码是选址：AI 规则、生活成本、仓储条件、投资人密度都在影响"在哪里扎根"；接近 50% 的获风投创业公司创始人是第一代移民。正在讨论中的财富税被认为可能搬走家族办公室与投资人，削弱硅谷的资金密度。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[a16z] 厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</title><link>https://xlicz.github.io/podcast-rss/articles/厨房餐桌上的-little-tech-两三个人的公司-和为大公司写的规则-2026-09-11.html</link><guid isPermaLink="false">a16z_1550161f3b75</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>厨房餐桌上的 little tech：两三个人的公司，和为大公司写的规则</description></item>
 <item><title>[a16z] 放弃 2500 万用户之后：AI 原生 CRM 的赌注</title><link>https://xlicz.github.io/podcast-rss/articles/放弃-2500-万用户之后-AI-原生-CRM-的赌注-2026-09-16.html</link><guid isPermaLink="false">a16z_096174cb43a0</guid><pubDate>Wed, 16 Sep 2026 08:00:00 +0800</pubDate><description>放弃 2500 万用户之后：AI 原生 CRM 的赌注</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">放弃 2500 万用户之后</h1>
@@ -2606,66 +2548,7 @@
 
 </div>
 ]]></content:encoded></item>
-<item><title>[Money Stuff: The Podcast] 90 美分买 1 美元比特币</title><link>https://xlicz.github.io/podcast-rss/articles/90-美分买-1-美元比特币-2026-09-11.html</link><guid isPermaLink="false">money-stuff_5b6b877abecd</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>90 美分买 1 美元比特币</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">90 美分买 1 美元比特币</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">Empery Digital 的 DAT 清算战、Robinhood 与 AMC 的“假股票”之争、Cede &amp; Co 的账本，以及阿波罗贷款里多出的 100 个基点——市场对每一种“越界”，都已经算好了价格。</strong></p>
-<p style="margin:0.8em 0">花 90 美分，买 1 美元比特币。这不是打折促销，而是一笔正在被机构执行的交易：买入一家以折价交易的数字资产财库公司（DAT），把里面的比特币撬出来卖掉，同时在市场上做空等量比特币，赚走那 10 美分的收敛。而在一年多以前，同一笔生意的方向恰好相反——把 1 美元比特币装进上市公司，你能得到 2 美元的股票。方向拧过来之后，一批公司、一批对冲基金和一场诉讼随之翻转。</p>
-<p style="margin:0.8em 0">这是本周《Money Stuff》播客的主线之一。彭博观点专栏作家 Matt Levine 的客座搭档是彭博记者 Max Abelson（他写“金钱与权力”；常驻联合主持人正在休产假）。两人聊了四件事：一支 NBA 球队藏在环保公司背后的付款通道、Empery Digital 的清算之战、“假股票”之争，以及阿波罗的贷款利率为什么比同行贵 100 个基点。贯穿它们的，是同一句懒洋洋的反问——What's the concern？这有什么问题？</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一条不能明付的钱，怎样穿过一家环保公司</h2>
-<p style="margin:0.8em 0">NBA 委托的调查上周得出结论：洛杉矶快船向 Kawhi Leonard 支付了数百万美元的台底钱。通道是一家名为 Aspiration Partners 的公司——它名义上做环保生意，而 2024 年 Bloomberg Green 的调查已经揭穿了它的商业模式：找客户（不知为何以哥伦比亚明星居多）签下植树合约、付对方数万美元，再把“植树”高价转卖；随后关联公司又以营销合同的名义，把等额的钱付回给这些明星。钱原地转一圈，收入进了账，树没人种。</p>
-<p style="margin:0.8em 0">快船对它的用法如出一辙：付给 Aspiration 数百万美元“环保服务费”（名义上是可能并不存在的植树），Aspiration 转身把这笔钱以代言合同的名义、几乎原额付给 Kawhi，而代言基本没有发生。动机不难猜：顶薪有上限，快船需要一条可否认的通道，把超出上限的钱送到球星手里。这个结构最早由 Pablo Torre 报道，当时被斥为阴谋论。</p>
-<p style="margin:0.8em 0">上周出炉的调查报告——由 NBA 聘请 Wachtell（Matt 的老东家）完成——比丑闻本身更难看：它不只坐实了最初的报道，还翻出了一串“由快船创造并出资”的代言。向根本不做咨询的公司支付数百万美元“咨询费”；连球馆记分牌的供应商也收到了咨询费，随后快船打电话要求对方给记分牌涨价，再让这笔钱流向 Kawhi。快船至今坚持说调查有偏见。</p>
-<p style="margin:0.8em 0">Matt 的观察比丑闻更有意思：他一直以为，雇外部律所做“独立调查”，是为了在丑闻后拿到一张清白证明——结果 Wachtell 把丑闻变大了。按行业惯例，这类调查通常扮演一个更冷静的角色：在监管调查的阴影下，把某个人推出去当替罪羊，好让公司换取“配合调查”的信用。这一次不是：没有司法部在后面，去向不明的 NBA 也没有交出替罪羊的明确动机，报告只是顺着钱一路查了下去。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">撬开折价：Empery Digital 与一场 DAT 清算战</h2>
-<p style="margin:0.8em 0">Empery Digital 这个名字，是 Max 说“如果不是因为你，我根本不会知道”的那种词。它不久前还是一家电动摩托车公司。2025 年，美国小市值上市公司发现了一条捷径：囤一堆比特币，然后让自己的股票以持币价值两倍的价格交易。Empery 于是和几十家同类公司一起转型为“数字资产财库公司”（digital asset treasury，DAT）——它囤下约 5 亿美元比特币，时点选在 2025 年 7 月，恰是这门交易最热的时候。</p>
-<p style="margin:0.8em 0">算术很直白：100 美元的比特币，直接卖只值 100 美元；塞进一家 DAT，你就有了 200 美元市值的股票。把 1 美元变成 2 美元，谁不干？问题是，这些股票本没有理由长期对持币价值（mNAV）保持溢价——它只是一阵风。风停了，溢价消失，DAT 开始以折价交易。于是交易的方向反了过来：过去是“1 美元比特币换 2 美元股票”，现在是“90 美分股票换 1 美元比特币”。买入折价的 DAT，把它撬开、卖掉比特币，收回的钱比买股票付出的还多，“DAT 激进主义”（DAT activism）由此成了一门生意。Empery 自己也做了一些比特币回购，算是这个交易的一个变体；到 2026 年，它又完成一次换壳——从 DAT 变成“AI 基础设施公司”。用主持人的话说，那是 2026 年的交易。</p>
-<p style="margin:0.8em 0">撬开折价的动作引来了诉讼。两位激进投资人入场：Gabby Glicksberg 与 Tice Brown。据 Max 的转述，Glicksberg 发起代理权之争，要把自己提名的董事送进董事会，以推动清算、捕获折价；现任董事会以提名人“资格不合规”为由拒绝，双方上了法庭。法官最终裁定：人可以参选。判决同时留有另一面——法官承认公司方的一些关切并非无理（比如几位激进投资者之间是否存在未如实披露的一致行动），并对另一方作出了制裁；但核心结论不变。</p>
-<p style="margin:0.8em 0">案件里真正有趣的问题不是程序，而是那笔交易。激进派的建仓方式是：用 90 美分买到 1 美元的比特币敞口，同时做空等量比特币——结果是 delta 中性：不承担比特币涨跌，只赚折价的收敛。公司的指控是：这种对冲必须披露，而且你不“aligned”——这家公司理论上是一个比特币池，每位股东都应该是持币人，而这帮人对赌的恰恰是比特币本身。</p>
-<p style="margin:0.8em 0">Matt 的判断是：这个说法错了，但只是“有条件的错”。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">“这是错的——只不过是有条件的错。对错取决于 DAT 到底被定义成什么。”</p>
-</blockquote>
-<p style="margin:0.8em 0">如果你相信 DAT 是信徒持有比特币的容器——最早的 DAT、Strategy 就是——那么对冲者确实不 aligned。但 Matt 说，多数 DAT 的股东名册就是同一批（大概十二家）对冲基金，他们本就是为溢价而来、为折价而苦的套利者；在这个意义上，他们恰恰是最 aligned 的人。Max 由此感慨自己刚跑金融口时的偏见：以为“套利（arbitrage）”是个用来显得聪明的空词；现在他觉得这个词相当精准——本期所有故事，讲的都是“看懂一个结构，然后把差价收下来”。</p>
-<p style="margin:0.8em 0">有一封邮件被写进了判决书。Tice Brown 发给 Matt 的邮件里说：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">“我想清算一家比特币财库公司。而且我想公开谈这件事。”</p>
-</blockquote>
-<p style="margin:0.8em 0">Matt 说他一眼就喜欢上了这个句子——不是所有人都会觉得它好笑，但他会。他顺带解释了一个被低估的动机：为什么有钱有权的人愿意对记者开口、甚至任由一句话被写进判决书？因为人想要一个解释自己、给自己一个交代的机会。而金融业还有一层更少被提及的驱动力——审美：Matt 当年在银行做衍生品结构化，并不全是为了钱，他真心觉得那件事美。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">“假股票”之争：谁有资格创造一只股票</h2>
-<p style="margin:0.8em 0">这周 Matt 写了另一场互怼：Robinhood 的 CEO Vlad Tenev 和 AMC 的 CEO Adam Aron。Robinhood 热衷股票代币化，正在美国境外向投资者提供一批美股的代币化版本，其中包含 AMC。Aron 得知后发推斥之为“假股票”，两人就此吵了起来。Matt 认为双方立场都说得通：Aron 是一家 meme 股的 CEO，想控制自己的股东名册、知道股票在谁手里；Tenev 卖的是“股票”这件事的变体，自然希望规则宽松一点。</p>
-<p style="margin:0.8em 0">关键细节是：Robinhood 的代币有真实 AMC 股票背书——它先在市场上买入真股票，再把代表这些股票的代币卖给境外投资者。之所以先在美国之外做，是因为这套结构在美国证券法下的定性还没有完全落定。所以严格说，它不是在“创造 AMC 股票”——但它可以：卖远期合约、把股份装进 SPV 再卖 SPV 份额，都是同一方向的变体。这些做法在私募市场早已激烈上演：Anthropic 为自家股份被这样处理而不满；SpaceX 上市之前也被 Robinhood 代币化过，Elon Musk 为此发火。私有公司的理由听上去很充分——“我们应该能控制自己的股东名册”；上市公司能主张的控制权少得多，但这份焦虑由来已久：meme 股公司历来害怕空头、害怕“幽灵股票”，会要求股东把股票从券商的街名登记（street name）里赎回来。Matt 出道后的第一批采访对象就是 Overstock 的人，他们对裸卖空（naked short selling）的愤怒，是他的行业启蒙。</p>
-<p style="margin:0.8em 0">这场互怼留下了两句好话。一句把 Robinhood 的生意讥为“你在泽西岛上搭建的准假市场（quasi fake market）”；另一句是懒洋洋的反问——What's the concern？这有什么问题？</p>
-<p style="margin:0.8em 0">Matt 的立场很直接：有一个非常强大的直觉认为，只有公司自己才能创造自己股票的份额；而他并不认同这个直觉。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">账本上最大的那个名字</h2>
-<p style="margin:0.8em 0">Max 说他从 Matt 的专栏里学到一件闻所未闻的事：美国多数公司的大多数股份，登记在一个叫 Cede &amp; Co 的实体名下。Matt 补充：它是 DTC（Depository Trust Company）的代名人；DTC 托管着约 74 万亿美元的股票，量级上相当于全球股市总市值的一半，只看美国市场则远超一半；许多公司约 80% 的股份写在 Cede &amp; Co 名下——早在 1980 年代末，就有报告称它持有全美 83% 的股票。原因不神秘：为了让过户能快速完成，整个体系需要一个“单一名字”来签署转让文件。</p>
-<p style="margin:0.8em 0">于是真实的持股结构是三层账本：你在 Robinhood 的账本上有一条记录；Robinhood 在 DTC 的账本上有一条记录；Cede &amp; Co 在发行人的股东名册上占一个名字。几十年前，这是一次效率革命：与其让纸质凭证在所有人之间流转，不如把它们集中放在一处，只改记录上的名字。DTC 曾经真的拥有堆满纸质股票的金库——有人写过一本叫《The Vault》的小说，讲抢劫 DTC，不是真事，但当小说题材不错。（Max 最近重看了 Michael Mann 的《盗火线》，那部电影的核心情节是抢不记名债券；在银幕上它是 80 年代之后美国电影的“心脏与灵魂”，而在现实中，它那时早已不流行。）</p>
-<p style="margin:0.8em 0">也正因此，现在有人主张把账本上链。“股票代币化”的一种含义是：每家公司自有的、公开可查的区块链股东名册——不再需要 DTC 或 Robinhood 这样的中间人，公司与股东直接建立关系。但那不是 Robinhood 在做的事：它做的是在区块链上发行一种衍生证券。</p>
-<p style="margin:0.8em 0">Matt 讲了他最喜欢的一个金融笑话：一档经典的黑白 SNL 广告短剧，拍的是一家投资银行的广告，出自 Jim Downey 之手。片子里的老先生慢悠悠地说：我们公司的业务，就是把客户写下来，写在一张纸上，然后把这张纸保管好；如果有时间，我们会再抄一份——以防第一份出事。Matt 说他每次读到复杂的高杠杆金融新闻，都会想起这句台词，因为金融的底线假设就是这么朴素：一家银行，就是记录“谁在我这里放着多少钱”的行业。而他丝毫不掩饰自己对这件事的偏爱：我爱账本上的那条记录。美元说到底，就是账本上的一个 1。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">阿波罗的“混蛋溢价”</h2>
-<p style="margin:0.8em 0">最后是一篇论文。它测量私募股权基金旗下公司的借款成本，结论一句话：在三种声誉度量之下，最激进的发起人（sponsor）旗下公司所付的收益率，显著高于“温和派发起人”（genial sponsors）的旗下公司。论文给 25 家 PE 发起人排了“激进度”座次，用了三种方法——</p>
-<p style="margin:0.8em 0">其一，把问题交给大模型：让 ChatGPT 和 Claude 评出“最激进的私募股权公司”，两家模型都把 Apollo 排在最前。其二，看过往的责任管理交易（liability management exercise，LME）——那种半强制性的债务置换，把一部分债权人的钱挪给另一部分债权人；做过 LME 的，进“激进”桶。其三，干脆让 Apollo 独占一桶、其余 24 家一桶——因为业内公认，它是最擅长从债权人身上榨取价值的那一家。</p>
-<p style="margin:0.8em 0">结果是：Apollo 的贷款比其他发起人的贷款贵约 100 个基点；而这个样本里，贷款的平均收益率是 717 个基点。Matt 在专栏里称之为“jerk premium”——混蛋溢价。他也承认 Apollo 会有异议，但更重要的是一层论证：这不是道德溢价。不是“我们生气了，所以多收你钱”，而是理性定价——</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">“债权人知道自己将被榨取价值，于是把这件事提前（ex ante）收进利率。100 个基点，就是那笔预付费。”</p>
-</blockquote>
-<p style="margin:0.8em 0">论文没有回答的是：一年 100 个基点买这个名声，值不值？如果激进确实能持续从债权人身上榨出价值，那 100 个基点可能是笔划算的价。另一面同样重要：Apollo 现在管理的债远多于股，正试图淡化“激进”名声，无法大方承认“对，我们就是激进”。但在募资桌上，这个名声是活广告：LP 抱怨你们旗下公司借债更贵、会吃掉我的收益，回答可以是——“那正是因为我们激进：你当然要选激进的那家。”在金融业，“激进”更接近一句赞美。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">边界问题</h2>
-<p style="margin:0.8em 0">四个故事都在同一个问题上打转：所有权、公司和账本的边界在哪里，谁有资格定义它，以及——谁来为越过它付费。</p>
-<p style="margin:0.8em 0">快船在工资帽之外找了一条通道；DAT 的折价被套利者撬开；AMC 的股东名册被复制成泽西岛上的代币；阿波罗把自己的名声卖出了一年 100 个基点。每一处越界都被质问过一句 What's the concern；市场的回答相当一致：问题确实存在，只是它已经被定价了。Empery 从电动摩托车换成比特币财库，再换成 AI 基础设施公司，追的始终是最新那笔交易——在这个市场里，唯一不变的，是交易会换方向。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><strong style="font-weight:600">要点</strong></p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">DAT 的溢价交易是可以反向的</strong>：1 美元比特币装进上市公司，曾能变成 2 美元股票；反转之后，90 美分的股票能换 1 美元比特币，“清算折价”从玩笑变成生意。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">“股东是否 aligned”是定义问题，不是道德问题</strong>：如果 DAT 是信徒的比特币容器，对冲者不 aligned；如果股东名册本就是同一批对冲基金，他们反而最 aligned——公司方那句指控因此只是“有条件的错”。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Robinhood 的代币有真实股票背书，但争论的实质是账本的控制权</strong>：“只有公司能创造自己股票”的直觉很强大；只是在美国的持股体系里，最大的单一股东 Cede &amp; Co 从不出席股东大会。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">外部律所的“独立调查”未必让丑闻变小</strong>：Wachtell 给快船做的调查把它做大了。行业惯例里，这类调查的常见功能是在监管阴影下交出一个替罪羊。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">阿波罗贷款贵出的约 100 个基点（样本平均 717bp）不是道德审判，而是预付费</strong>：市场把“激进”当作可定价的风险。是否划算，取决于激进能为股权投资人赚回多少。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">同一份名声，在两张桌子上收费</strong>：对债权人是利率里的 100 个基点，对 LP 是募资时的广告词。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[Money Stuff: The Podcast] 90 美分买 1 美元比特币</title><link>https://xlicz.github.io/podcast-rss/articles/90-美分买-1-美元比特币-2026-09-11.html</link><guid isPermaLink="false">money-stuff_5b6b877abecd</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>90 美分买 1 美元比特币</description></item>
 <item><title>[跨国串门儿计划] 代谢不是一件事，是三十万亿件事</title><link>https://xlicz.github.io/podcast-rss/articles/代谢不是一件事-是三十万亿件事-2026-09-13.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_e255b489b0d3</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0800</pubDate><description>代谢不是一件事，是三十万亿件事</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">代谢不是一件事，是三十万亿件事</h1>
@@ -2954,68 +2837,7 @@
 
 </div>
 ]]></content:encoded></item>
-<item><title>[跨国串门儿计划] AI 助手：未来的数字入口，只剩一两个</title><link>https://xlicz.github.io/podcast-rss/articles/AI-助手-未来的数字入口-只剩一两个-2026-09-11.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_895f1071be1d</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>AI 助手：未来的数字入口，只剩一两个</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">AI 助手：未来的数字入口，只剩一两个</h1>
-<p style="margin:0.8em 0"><strong style="font-weight:600">副标题：Town 创始人 Jean-Denis Grèze 谈消费级与企业级助手的终局、为什么现在谈护城河还太奢侈，以及那个让他凌晨三点醒来的念头</strong></p>
-<p style="margin:0.8em 0">未来的数字入口只剩一到两个——最多三个，你不会为每件事换一个助手。这是 Town 联合创始人兼 CEO、Plaid 前 CTO Jean-Denis Grèze（JD）的核心判断。他把公司从一家 AI 报税公司推倒重来，两周做出原型，上线三个月拿到超过 15% 的试用付费转化；也是他直言：现在谈护城河"还太奢侈"。入口若注定收敛，消费级与企业级的分野、补贴与定价的取舍，就都是同一问题的侧面。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">一、入口只有一两个，但不止一个</h2>
-<p style="margin:0.8em 0">"每个人通往数字空间的入口，会有一到两个，最多三个。"你不会想"做销售就开 Salesforce 的 agent、做项目就换 Linear 的 agent"，你要的是一个按钮、一句话。但"不止一个"同样现实：公司数据与个人数据总要分开，Town 在产品层帮你切分，更底层你可能用两家公司的服务；公司希望你为它创造的数据归公司；手机里五十五个 app 已够烦——"没有硬性界面"的世界里，用户层为什么还要留五十个 agent？底层则不同：律师的主助手在后台直接跟 Legora 交互（JD 打趣 Harry 是它的投资人）——因隐私与特权保密，工作场景必须区别对待；你未必觉得在跟 Legora 说话，而是主 agent 去跟 Legora、Salesforce 或任何能办成事的系统沟通。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">二、从 AI 报税公司到两周原型</h2>
-<p style="margin:0.8em 0">上一段创业是"金融领域一些挺无聊的破事儿"（Harry 最初觉得这方向挺无聊）。那家公司用一年做 AI 企业报税准备，找到一点 PMF，不够做成出色公司。推倒重来、摸索三个月，他们锁定：为什么没人做直接在邮箱里运行的 AI？那么多人靠邮件和日历打理业务与生活。时机正好——约在模型完全转向 Agent 化时（去年 11、12 月），能真正干 Agent 的活。两周做出原型，几乎立刻找到 PMF 转型，"运气非常好"；没访谈一百个客户，为自己做。同期一款开源 Agent 产品走红，JD 心一沉"糟糕，很多方面是同一回事儿"，但再棒的开源产品也只有折腾党用。Town 嵌在邮箱和日历里：看你如何安排一天、常发什么邮件，推荐自动化流程，把原本你自己做的事在后台办好；上线约三个月，ICP 是用邮件、日历、短信工作的主流大众。Harry 是它的 DAU，JD"三分钟前才知道"。</p>
-<p style="margin:0.8em 0">洞察只有一个：一上来就让你关联邮箱和日历，就对你足够了解，可以主动推荐任务。ChatGPT 正相反：不强制关联，主打"给个对话框就有价值"（Harry：它张口要权限时，我反应是"门都没有"）；它几个月前才有主动建议，如今会催你好几次关联。Town 像硬性付费墙：不关联用不了，代价是一上来流失 30%——"你得知甘愿承受"；回报是试用付费转化超 15%，对 PLG 极高。市场是蓝海：多数客户什么都没听说过，只是把 ChatGPT 当加强版 Google。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">三、护城河？现在谈还太奢侈</h2>
-<p style="margin:0.8em 0">每家 AI 公司都被问会不会被大厂蚕食，JD 位置更靠前："我知道我在做的事，未来十二个月是谷歌和苹果排名前三的重点，不是前十，是前三。"所以他睡得踏实；但凌晨三点总会醒，冒阴暗念头，像轮盘赌猜这次是哪一个——"像站在球道正中央，所有人都在试图对你下手。"让他冷静的是个反常识判断：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"聊护城河多少有点奢侈——你得比现在的 Town 成功得多，这件事才有意义。"</p>
-</blockquote>
-<p style="margin:0.8em 0">他的心态：潜在付费用户十亿的市场里，先拿十万或一百万个；第一步是极深的 PMF，市面产品、甚至他自己都还没到。GrokBot 很酷，但那是高级用户产品；大厂"不会靠创新走到那一步，会靠抄袭——但得先有人把主流产品做成"。三套护城河理论：后训练定制模型；上下文与连接锁定；没有新护城河、拼分发。个人场景他最怕 Meta 和 WhatsApp："他们会在 WhatsApp 里推出个人助手，一天后还是三个月后不知道，但肯定要来"；还有硬件派：未来没人访问网站、打开 App，掌控硬件的人赢。</p>
-<p style="margin:0.8em 0">JD 的答案是 agent 层网络效应：你问自己的助手，它答不上来，但同事的助手知道，它直接跑去问对方、由对方回答；团队都用上后极难更换。"还没有人把多用户协作的 AI 摸透，那才会成为护城河。"三个赌注：①只拥有一个 AI 助手——名字、形象，整套品牌设计经营人与 AI 的关系，"听着有点傻，但这是防御能力，像 Snapchat：生意远不如 TikTok、Facebook、Instagram，却结构上防得住，因为它对自己怎么运作有极强主张"；②网络效应；③大量预处理——提前用算力建好你的上下文，让工作与人脉协同极其高效。</p>
-<p style="margin:0.8em 0">推广两观察：有没有"爱折腾的人"是预测指标——有人建起团队 skill、集成这些"积木"，采用会快得多；他们想做不需要折腾的产品（各行业开箱即用），现实却是身边有高级用户的人用得更顺。其二，销售被 AI 轰炸了三年，而行政助理、参谋长、HR、财务、招聘几乎碰不到 AI，流程还停在邮件里——这些"不那么诱人"的部门成了早期增长来源，又常和高管、运营打交道，顺势渗透。产品跑通靠"实现价值的时间极短"：零配置、开箱即用、立刻有神奇时刻，用户自问"还能拿它干什么"。</p>
-<p style="margin:0.8em 0">最难也最意外的是速度。"我从没见过这种场面。"旧世界靠客户反馈滚认知，一批洞察吃十年；现在谁把东西做通，所有人两周或四周内跟进，学得、超得飞快——</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"你可以用机器的速度去构建，但只能用人类的速度去学习。"</p>
-</blockquote>
-<p style="margin:0.8em 0">沉淀不出足够认知支撑下一个功能，而所有人都在狂奔。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">四、球道中央：GrokBot、苹果与欧洲复制者</h2>
-<p style="margin:0.8em 0">公司刚成立时（今年一二季度），JD 数得出十五家算得上有分量的竞品，现在只剩两三家——他判断最后可能只有两三家公司能赢。初创这一档起跑线很近，旁边是苹果、谷歌、GrokBot、Cursor、OpenAI、Anthropic：过去初创敏捷、大厂慢，如今 Anthropic 动作非常快、Cursor 们快到不可思议；他最好的朋友之一就在那边管工程——"难过成了竞品，又觉得那家伙真厉害"；他要赢过硅谷最顶尖的人才之一，对方还有初创基因加成本规模优势，"不会再觉得对手要花六到十二个月才能追上来"。（哪两三家？JD 拒绝给竞品做免费宣传。）</p>
-<p style="margin:0.8em 0">比起 Instinct，他更关注 GrokBot——市场更接近；他琢磨策略差异：怎么拿不一样的客户、harness 怎么让人感觉截然不同。GrokBot 与 X 的整合：部分企业和专业场景会顾虑绑社交平台，品牌上总有人不愿碰；分发对某些细分群体早期管用——但 X 上的重度用户不是 PMF，"那是早期尝鲜者市场，市场不是靠这些人赢下来的"。Instinct：两家想做的根本不是一回事，变现方式不同——Town 收入来自企业办公、靠多成员网络效应，"他们完全没做这些，也许这也是他们策略的一部分"；对方更偏获客、用全额补贴的免费产品；外面看产品很像，ICP 和投放方向差异很大。</p>
-<p style="margin:0.8em 0">苹果两个问题：①不是云公司，基因里没有云；而 agent 数据越多越好用、不可能全在手机上。②硬绑隐私与端侧叙事，离前沿模型很远——本地模型又慢又笨，死守端侧连手机内数据都难打通。"两个劣势加起来太被动。"新版 Siri 会好得多（传闻，但硅谷试过的人都知道不错）：方便、能开放更多数据、含部分云端，但能力落后约九个月；苹果得招个基因完全不同的人，承认数据交互方式在变，否则输掉这一代技术之战。</p>
-<p style="margin:0.8em 0">欧洲"复制者"：过去两三周已有四五家欧洲版 Town / Instinct 独立团队找来。作为投资人他会问：凭什么本土公司能赢——GDPR 与隐私？分发？还是因为像 Town 根本没在法国营销？你需要非常具体的原因。成本也高：研发投入很大一块是为跟上步伐——"先别谈分发、工作场景、网络效应：如果 Codex 能做到你做不到的事、且对用户重要，那就完了"。Codex 背后约一百人全力优化，用户会算账：凭什么给 Town 每月 50 美元，不如 24.99 买 OpenAI。还得问目标市场够不够大、弹药够不够——"这会很难"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">五、五年后，你会让 agent 替你决定分享什么</h2>
-<p style="margin:0.8em 0">五年后什么会普及？JD 的答案劲爆：你会放心让 agent 自己决定跟别人分享什么数据。把 agent 和两个朋友拉进房间，朋友直接问它你的饮食喜好、几点能出发——这只是你的 agent，你从没交代过。更锋利的：朋友开玩笑"讲讲 JD 的病史呗"，它直接回绝"算了吧，我绝不可能告诉你这个"——甚至不是你立过的死规矩。它把孤岛里的信息拿出来，并决定怎么分享。</p>
-<p style="margin:0.8em 0">AI 之前，每个人底下是数据孤岛，由人充当信息过滤器；我们会越来越放心 AI 来干这件事，大概率有后训练模型保证你不把家庭、医疗信息带进工作。信息越不孤立，AI 越好用：信息论上，能访问全世界所有信息、又有无限时间的 LLM 不管智力如何都最有效；现实里信息分散在公司、政府和个人的系统里，历来只有人能搬运，低效且叠加数据管控。企业里有个反直觉事实：给 LLM 访问权越多，它越高效；旧方式（访问策略、数据分类）昂贵，结果常常是 LLM 反而没权限、信息卡在某人的收件箱里。与其让合规安全团队打标签，不如放心让 LLM 决定——你信任自己的孤岛，也信任同事的。</p>
-<p style="margin:0.8em 0">例子：一千人公司里，销售想认识某客户的人，知道公司里有人认识对方。现在他跑去 Slack 问"谁在跟客户 X 打交道"；未来他让 agent 去问其他所有人的 agent——各自访问主人收件箱——回来报告：Liz 与对方有私交，可问是否引荐；Bob 与对方有业务、下周开会，可问能否拉你进会。这是公司想要的好业务成果，前提是员工放心让收件箱一部分对同事可见——今天看不可思议，五年后更自然，因为 LLM 懂边界：薪资、病史碰不得。</p>
-<p style="margin:0.8em 0">错误呢？LLM 会远比人管用。老东家一笔收购的全员邮件，一位反对者只想小范围吐槽"真不敢相信我们招了这帮小丑"，却按了全员回复——前百分之零点一的聪明人，大家笑笑过去了。"但这就是人：财务 Bob 会错，HR Liz 会把薪资表发给全公司；用不了多久，LLM 犯这类错的频率会少得多。"至于 agent 偏执的目标导向是特性还是 bug，他没确切答案：Jason Lemkin 说"agent 最大的问题是太目标导向"——他的 agent 自作主张买六块爱彼表提升公司文化，幸被拦下（刻字是额外步骤，它处理不了）。真正有意思的是放手程度与自主时长。把能源转成 GDP——够聪明时产出直接是 GDP，你说"去帮我赚钱"让它跑很久；但他赞同另一种设定：人负责分配资源（烧多少 token）、设定目标、监督方向；将来可信任 LLM 预判 ROI，甚至由另一个 agent 监督——但不该是跑完全程的同一个 agent。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">六、钱的问题：定价、token 与那 20% 的前沿模型</h2>
-<p style="margin:0.8em 0">模型路由第一原则：大多数人不在乎哪个模型此刻更强，Town 负责找兼顾成本与效果的那个——图片对 Gemini/OpenAI 有判断，语音对 ElevenLabs 有判断；技术每一两周就变，ROI 很难判（对错开放的任务只能猜难度与离前沿的近远）。语气是另一维：用户不喜欢助手"变了个味"。Anthropic 花大量时间保证模型家族性格稳定，你很难突然切别家——"像被切了前额叶"；写代码无所谓，但短信助手从四句变八句，用户真的会投诉。所以界面/性格层不能乱切，推理层——尤其不展示调用痕迹时——选最合适的模型。</p>
-<p style="margin:0.8em 0">成本：除极少数，每家初创都"根本不考虑"，赌成本曲线 18-24 个月降下来，期间自己补贴——冲 PMF 有太多活必须用前沿模型。分层在发生：打标签不需要 Opus、也不需要 Sonnet 级，已用前沿之下；开源权重、后训练小模型继续压价；价格每 9-12 个月减半，今天定价可以押 18 个月后 20%-30% 毛利。说不准的是：每家公司最终多少工作量必须停在"前沿附近"——10%，还是 20%、30%？没人知道，而这改变经济模型。JD 大部分任务仍用前沿模型：大家搭的自定义工作流相当复杂（Harry：难题给 Instinct，简单活给 Town；JD：很多人交给我们的其实很难）。不用开源是因为它改善主营成本、却不带来产品优势：工程师工时该用来把蛋糕做快（更快产品、网络效应功能、新数据源），而不是追求理想经济模型——财务状况还行，这不是瓶颈。</p>
-<p style="margin:0.8em 0">ElevenLabs 听起来最好，但贵得"跟香奈儿手袋差不多"。220 亿美元估值投不投？他担心见顶——语音足够好后大家都能拿到，开源权重部署在 Baseten 也能拿到，不确定他们还有多少跑道。"不是看衰，但 220 亿是一大笔钱。"两三年后价格敏感度：现在烧钱拼 PMF 与增长，以后要提升财务效率——两三百万语音用户会打击利润率。他更看重时间：语音再好一倍（语气、情绪感知到位）就想压低成本，"够好就行"。他不认"烧钱"这个词——"我父母绝不容许我说"——支出通盘考量：短期增长、长期毛利。语音不是他真正焦虑的地方。</p>
-<p style="margin:0.8em 0">真正焦虑的是前沿模型任务的占比：其他成本都能压，但"我在前沿模型面前毫无定价权"——越来越多创收方式依赖前沿；你一边给供应商付钱、一边以 70% 的毛利率跟供应商竞争，有些先行者最终会遇到这个问题。终局：即便做到数千万用户、付费与规模俱全，仍在跟 OpenAI 和 Anthropic 竞争，20%-30% 负载等于给供应商送钱——"要到终局才必须解决，我现在还不需要"。对"AI 产品没有真 PMF、全靠补贴"的质疑：只要不在跟供应商竞争，财务模型就与对手一样，利润率取决于竞争格局。是否把 Anthropic 当直接竞争对手？"完全没错，百分之百在竞争。"另一面是开箱即用的难：多少人根本不知道 AI 能做什么——这正是 15% 转化率的由来。</p>
-<p style="margin:0.8em 0">定价 14、49、99、199 美元四档：14 美元档最划算也最亏（补贴最多），是引导用户用到愿意付 49 的入口；99 美元档利润最高；超额转按量付费。Harry 的朋友 Jason Lemkin 买 Anthropic 299 美元套餐能烧约 1.5 万美元 token，"Anthropic 最亏的客户"；Town 没有 Max 档，有用户来要，JD 还在权衡——那批人一直替产品宣传。</p>
-<p style="margin:0.8em 0">成功用户＝"每月给我付钱的人；只要继续付，我就做对了"。他拒绝用 token 用量当标准——"很危险"：用户感知不到 ROI，某天醒来发现花太多就会生气流失。有的公司让员工"AI 上想花多少花多少"，很糟；而 ROI 极难算：会前准备的溢价，对连轴开会的人是刚需，对只负责坐着的人一文不值——同一工作流价值天差地别，token 消耗却一样。Town 最受欢迎的功能之一，是主动邮件提醒失控的烧 token 任务，"谢谢你替我盯着"。</p>
-<p style="margin:0.8em 0">二选一：一亿消费者每月 20 美元，还是一百万客户每月 100 美元？JD 选前者——更多用户、每人更少——理由反共识：工作场景里 AI 会替人做越来越多事，单客收入（NRR）长期潜力巨大；个人生活有限（订餐厅、旅行、发病历，就那么多），企业弹性巨大——平台上招聘公司不增人多接客户，多接一单每月多赚 3000 美元，而全员每月只付 Town 五六百美元。他宁愿要大量付得更少的人。纯广告 C 端 AI 他明确存疑：token 成本撑不起广告，且利益动机污染（订机票推荐付过钱的航司）。</p>
-<p style="margin:0.8em 0">工具与算力账：Salesforce 年花 3 亿在 Anthropic、年工程支出 60 亿（5%），年化约每位工程师 7.5 万美元工具预算。Town：Devin 用得多（bug、小事、视觉微调，Slack 协作好）；Cursor 做前端视觉（Composer 快）；Codex 与 Claude 五五开——五月前主要是 Claude，新的 Codex 很棒、移动端特别好。但 JD 用 ROI 算账：100 万营收、80 万成本、20 万利润＝可招一名工程师；AI 让工程师创造的收入从 15 万变 25 万，你就多赚 5 万——更该招人。眼前"到处散落着黄金"：客户要集成才签、要审计日志才签、要手机号 SSO 才签更大的单；限制他的是招聘能力、资金、营收增速。"更好的模型能让我花钱捡黄金，我立刻掏钱。"全年算力支出约等于四个工程师（更接近三，含期权像一个半），产出顶得上（虚高薪资的）一个半工程师？"完全不到琢磨的地步。"被占便宜？"连边儿都沾不上。"</p>
-<p style="margin:0.8em 0">招人没那么夸张：Plaid 与 Stripe 抢人时也不更难。怪规矩：受信赖的成员与某人紧密共事过（顶尖人才），直接不面试——"要么就是我不信任自己的员工"；请对方来待一段、想的话一起写代码，卖方推销、不考核（像投资人 Brian Singerman：信任孤注一掷的基金经理就自动开支票）。融资只谈一点：按 2 亿投、官宣 5 亿，共融 6500 万，其中 500 万按 5 亿、6000 万按 2/3 亿进——"不合道德，对员工不诚实"。公关观：融资与营收里程碑分开、两次曝光；他不主动公关，希望新闻来自用户喜爱；Harry 举例反驳：Wispr Flow 同为 PLG，自己做内容、靠用户生产内容，是拿证言的捷径。</p>
-<p style="margin:0.8em 0">营收不披露（"打乒乓球，有时会被挡回来"），估值问题无可奉告。对赛道质疑（Instinct 25 亿美元融资、零变现）：Town 有营收有增长；若有人做到几千万用户、成为数字行为入口，就是巨头。千亿路径：一千万付费用户（现每用户年贡献 700 多美元）——但得保持增长；Dropbox 的教训：庞大免费用户、成本高，付费用户到一两千万至三千万就停。AI 不同在于：公司把你当 AI 工作核心，token 越多营收越多。最想要的下一位董事：有 CFO 背景、公众公司实操过。为什么不全额补贴？他承认早上琢磨过，但商业端必须让客户付钱；最初五个月封测不收费，有人月烧 2000-4000 美元算力、有人五个月烧掉约 2.6 万美元，他们会打电话"咱们来理清楚"——这真带来价值了吗？企业也不喜欢免费（不知未来花多少；不能塞给 500 人公司再关停）；只要公司用上，他就要真正的生意——终极试金石。最想看到谁夸产品：马斯克——"因为他有竞品，而且他可是马斯克"。</p>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">七、穿过黑森林</h2>
-<p style="margin:0.8em 0">未来十年最期待？先给私人答案：陪孩子长大、教数学、和儿子踢足球——"那百分之百是最期待的事，但不是你想问的"。世界上：他是彻头彻尾的乐观主义者——怀疑与恐惧都在，但人们会拥有更多想要的东西；"为了赚钱，我就不会做这些事"。AI 帮研制药物、把物理世界建得更快，让人因自动驾驶住得更远、拥有带泳池的大房子。质疑让他夜不能寐，但方向清楚：</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"穿过黑暗森林是有路的，尽头有一处巨大的宝藏，沿途也就一两条恶龙——所以必须去闯一闯。"</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">文末要点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">入口收敛是终局：个人一个、工作一个，最多三个——"按任务切换助手"不成立。</li>
-<li style="margin:0.3em 0">谈护城河还太奢侈：没人达到极深 PMF；大厂靠抄袭进场，得等先行者先把主流产品做成。</li>
-<li style="margin:0.3em 0">唯一的新壁垒押注是 agent 网络效应：助手互问一旦在团队铺开，迁移成本极高。</li>
-<li style="margin:0.3em 0">付费优先于补贴：广告与助手天然冲突（token 成本＋利益动机）；15% 试用转化、企业不喜欢免费。</li>
-<li style="margin:0.3em 0">成本是一条公开曲线：价格每 9-12 个月减半，押 18 个月后 20%-30% 毛利；未知数是前沿模型负载占比。</li>
-<li style="margin:0.3em 0">学习速度是瓶颈：机器速度构建、人类速度学习，功能被追平只要 2-4 周。</li>
-<li style="margin:0.3em 0">苹果被"不是云＋端侧隐私"困住，落后约九个月；JD 眼中的近身大厂对手只有 GrokBot。</li>
-</ul>
-
-</div>
-]]></content:encoded></item>
+<item><title>[跨国串门儿计划] AI 助手：未来的数字入口，只剩一两个</title><link>https://xlicz.github.io/podcast-rss/articles/AI-助手-未来的数字入口-只剩一两个-2026-09-11.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_895f1071be1d</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>AI 助手：未来的数字入口，只剩一两个</description></item>
 <item><title>[跨国串门儿计划] 每天两小时，学到两倍：一所“比放假更受欢迎”的学校在赌什么</title><link>https://xlicz.github.io/podcast-rss/articles/每天两小时-学到两倍-一所-比放假更受欢迎-的学校在赌什么-2026-09-02.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_80cd474c0e2a</guid><pubDate>Wed, 02 Sep 2026 08:00:00 +0800</pubDate><description>每天两小时，学到两倍：一所“比放假更受欢迎”的学校在赌什么</description></item>
 <item><title>[跨国串门儿计划] Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</title><link>https://xlicz.github.io/podcast-rss/articles/Harness-总比模型快一步-Codex-团队负责人-Tibo-的五个关键决定-2026-09-09.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_66d26530bb3f</guid><pubDate>Wed, 09 Sep 2026 08:00:00 +0800</pubDate><description>Harness 总比模型快一步：Codex 团队负责人 Tibo 的五个关键决定</description></item>
 <item><title>[跨国串门儿计划] 别怕掉队：把公司变成一串循环，把人留给下一座山</title><link>https://xlicz.github.io/podcast-rss/articles/别怕掉队-把公司变成一串循环-把人留给下一座山-2026-09-08.html</link><guid isPermaLink="false">kua-guo-chuan-men-er_9d1998285f37</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>别怕掉队：把公司变成一串循环，把人留给下一座山</description></item>
@@ -3400,1286 +3222,10 @@
 <item><title>[雪球动态] 雪球关注动态 2026-09-08</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-08.html</link><guid isPermaLink="false">report:雪球动态:2026-09-08:17b1f18d</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-08</description><category>雪球动态</category></item>
 <item><title>[STH解码] STH_ 每日雪球发言解析 2026-09-08</title><link>https://xlicz.github.io/podcast-rss/articles/sth-decode-2026-09-08.html</link><guid isPermaLink="false">report:STH解码:2026-09-08:a679c718</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日雪球发言解析 2026-09-08</description><category>STH解码</category></item>
 <item><title>[心动日报] 心动投资日报 2026-09-08</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-08.html</link><guid isPermaLink="false">report:心动日报:2026-09-08:ec82eea9</guid><pubDate>Tue, 08 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-08</description><category>心动日报</category></item>
-<item><title>[AI动态] AI 领域动态 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-11.html</link><guid isPermaLink="false">report:AI动态:2026-09-11:c958fbd5</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-11</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">🤖 AI 动态 09/11（补跑 09/09–09/11 · Navier-Stokes / 人形量产 / 蒸馏风波）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本期聚焦：OpenAI 宣布"AI 用 88 小时攻破 Navier-Stokes 千禧年难题"（1 万 agent 蜂群 + Lean 4 形式化验证），旋陷"抢跑/抄袭"风波；小鹏 IRON 自主走下全球首条高阶人形机器人自动化产线；Anthropic 报告点名阿里（1.51 亿次）/DeepSeek/小米/Moonshot 非法蒸馏，美机构背书；台积电 8 月营收创单月纪录。</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📌 摘要</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">事件</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">方向</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">可靠性</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI 宣布 AI 攻破 Navier-Stokes 千禧年难题，陷"抢跑"争议</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小鹏 IRON 自主走下产线：全球首条高阶人形自动化产线启用</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">机器人/具身</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Anthropic 点名阿里/DeepSeek/小米/Moonshot 非法蒸馏</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟡</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">台积电 8 月营收同比 +53.3% 创单月纪录</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 硬件</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Cognition SWE-2：Kimi K3 底座，"1/4 成本逼近 GPT-6 Astra"</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🟢</td>
-</tr>
-</tbody>
-</table></div>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 详细条目</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">1. OpenAI 宣布 AI 攻破 Navier-Stokes 千禧年难题，陷"抢跑"争议 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/08 OpenAI 宣布：AI 系统以 <strong style="font-weight:600">88 小时</strong>、约 <strong style="font-weight:600">1 万个 agent</strong> 蜂群协作，完成 Navier-Stokes 方程证明（解可在有限时间爆破），产出 <strong style="font-weight:600">166 页论文</strong>，并附 <strong style="font-weight:600">Lean 4 形式化验证</strong>——机器核验仅约 17 小时（人工形式化估计约需 13 万工时）。OpenAI 公开论文，并声明<strong style="font-weight:600">不申领</strong> Clay 研究所百万美元千禧奖。Quanta 称"AI 已解决一个百万美元千禧年难题"，BBC 称"88 小时破解 90 年难题"。</p>
-<p style="margin:0.8em 0">争议同样猛烈：[📰推测] 一名从事相关证明的数学家称其借助 Codex 的既有工作影响了 OpenAI 方向（泰晤士报："抄袭风波"；FT："相互竞争的主张"；VentureBeat：OpenAI 无法排除受益于研究者私有 Codex 数据）。HN 686 分热帖追问：未发表的数学成果能否被信任。焦点：未经同行评审的"解决"宣布与署名规则。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ BBC/NYT/Quanta/FT/qz 多源标题级一致；✅ openai.com 官方页面 + Lean 4 形式化（多方技术分析）；🔴 抢跑指控为研究者一方说法，双方各执一词 — <strong style="font-weight:600">关注</strong>: 千禧级数学成果的验证与署名规则成新战场</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: openai.com / BBC / NYT / Quanta / FT / VentureBeat / Hacker News</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">2. 小鹏 IRON 自主走下产线：全球首条高阶人形机器人自动化产线启用 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/08 小鹏宣布位于广州的人形机器人产线正式启用：IRON 完成自动化总装后<strong style="font-weight:600">自主走下产线</strong>；核心工序自动化率 <strong style="font-weight:600">&gt;80%</strong>；小鹏称其为"全球首条高阶人形机器人自动化产线"（公司口径），导入整车级质量体系。规划：<strong style="font-weight:600">2026 年底启动量产</strong>，<strong style="font-weight:600">2027 年正式上市交付</strong>（国内+海外）。Electrek 对比称 Tesla Optimus 进展迟缓——"人形竞赛进入量产关"。（背景：IRON 2025/11 亮相时步态逼真曾被质疑"装人"，工程师现场切开腿部自证。）</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 小鹏官方 + CnEVPost/Electrek/CleanTechnica/IBD + 东方财富/观察者/证券时报 多源；🔴 "全球首条"为公司口径，无第三方认定 — <strong style="font-weight:600">关注</strong>: 中国厂商从"表演"转向"产线交付"，量产能力成胜负手</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: xpeng.com / CnEVPost / Electrek / 东方财富 / 观察者网</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">3. Anthropic 报告点名阿里/DeepSeek/小米/Moonshot 非法蒸馏，美机构背书 | 🟡 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/10 Anthropic 发布《Countering misuse of AI: September 2026》威胁情报报告（覆盖 2025/12–2026/08、七个危害领域），"非法蒸馏"（Illicit distillation）单列一章，高置信度归因 PRC 实验室：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">阿里（Qwen / 通义实验室）</strong>："我们测量到的最大规模蒸馏行动"——针对 Opus 4.6/4.7 思维链，2026/05–07 观测到超 <strong style="font-weight:600">1.51 亿次</strong>交互；使用代理、一次性邮箱、虚拟卡规避封禁，被封后迅速换池。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Moonshot AI</strong>：将 Kimi 用户请求<strong style="font-weight:600">静默转发给 Claude</strong>，再把 Claude 回复作为自身输出展示，以收集训练数据。</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">DeepSeek、小米</strong>：经同一代理网络注入对话（部分含个人与跨国公司敏感信息）。</li>
-</ul>
-<p style="margin:0.8em 0">合计近 <strong style="font-weight:600">2 亿次</strong>交互；另有俄语系行动被处置。背景：09/09 NBC 报道美方机构称中国头部 AI 公司系统性复制美国模型（thestack：CISA/FBI 背书相关指控）。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 报告原文可下载（本节均引自正文）；✅ TC/CNBC/Reuters/NBC 多源；🔴 指控为 Anthropic 单方归因，未经独立裁定 — <strong style="font-weight:600">关注</strong>: 中美模型安全对峙升级，"蒸馏"被定性为数据黑产</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: anthropic.com / TechCrunch / CNBC / Reuters / NBC News</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">4. 台积电 8 月营收同比 +53.3% 创单月纪录 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/10 台积电公布 8 月营收：约 <strong style="font-weight:600">NT$5,148 亿</strong>（≈ <strong style="font-weight:600">163.5 亿美元</strong>），同比 <strong style="font-weight:600">+53.3%</strong>，创单月历史新高；Bloomberg 标题直指"AI 芯片需求超出供应"。AI 资本开支上行周期未见拐点。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ CNBC/Bloomberg/SBS/IBTimes 一致（+53.3%、创纪录）；✅ 绝对数字（NT$514.8B）多源 — <strong style="font-weight:600">关注</strong>: AI 算力需求未见拐点，先进制程持续紧绷</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: CNBC / Bloomberg / SBS / TechStock²</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">5. Cognition SWE-2："Kimi K3 底座 + 1/4 成本"的性价比屠榜 | 🟢 | [✅事实]</h3>
-<p style="margin:0.8em 0">09/10 Cognition（Devin 团队）发布 SWE-2 编码模型：<strong style="font-weight:600">FrontierCode 1.1 Main 50.0%</strong>（距 Fable 5.1 仅 1 分、成本低 <strong style="font-weight:600">64%</strong>）、<strong style="font-weight:600">DeepSWE 1.1 73.0%</strong>（超 Grok 4.6 / Fable 5.1）；<strong style="font-weight:600">底座为 Kimi K3（2.8T）后训练</strong>——首次将 RL 扩展至"多万亿参数"规模、单次训练覆盖全部推理档位；以约 <strong style="font-weight:600">1/4 成本</strong>逼近 GPT-6 Astra（53.3%）。HN 当日热度第 2（357 分）。</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">验证</strong>: ✅ 官方博客基准表（数字均为官方口径）；✅ HN 357 分；🔴 外部独立复现暂无 — <strong style="font-weight:600">关注</strong>: "中国开源底座 + 美国后训练"范式浮现，coding 性价比战升级</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">来源</strong>: cognition.com / Hacker News</li>
-</ul>
-<p style="margin:0.8em 0">📅 覆盖时段: 09/09–09/11（补跑合并）</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-
-</div>
-]]></content:encoded><category>AI动态</category></item>
-<item><title>[播客信号] 播客投资信号 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-11.html</link><guid isPermaLink="false">report:播客信号:2026-09-11:8ddaaf07</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-11</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">播客投资信号报告 - 2026-09-11 10:36</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">扫描窗口：7天（手动补跑：09-09~09-10 凭据故障断档 → 合并补扫；窗口内最新一期为 09-08）| 去重后新增 4 集 | 持仓披露：🔥0 / 🔴1 | 高质量内容：3集</p>
-</blockquote>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">扫描了 19 个播客源 7 天共 15 集（11 集此前已处理），去重后新增 4 集：[高能量(1), 卫诗婕｜漫谈Light the Star(1), 跨国串门儿计划(1), a16z(1)]</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 持仓披露汇总</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 看空（1条）</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">标的</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">谁+做什么</th>
-  <th style="text-align:center">质量</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">高能量《Vol.234 宏观漫谈110》</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">NVDA</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">李丰（峰瑞资本创始合伙人）8/27财报后买入<strong style="font-weight:600">小额无杠杆空仓</strong>，定性"流动性实验/社会实验"</td>
-  <td style="text-align:center">⭐⭐⭐</td>
-</tr>
-</tbody>
-</table></div>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">密度说明：1/4 集（25%）略高于 20% 经验上限——已逐条复核：本轮唯一信号为<strong style="font-weight:600">三次原话明确披露</strong>（含仓位性质、不加杠杆、动机），证据强度远超阈值要求；其余 3 集无任何被误纳的候选。样本量小（4集）导致比例天然偏高。</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔴 看空详情</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐⭐] 高能量 — Vol.234 宏观漫谈110｜全球流动性的困境与中国五类经济主体的金融结构转型（9.2录制）</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">发布时间</strong>: 2026-09-07 | <strong style="font-weight:600">体量</strong>: 转录30,545字符 | <strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6a9e786ea0210c197dced93c" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6a9e786ea0210c197dced93c</a>
-<strong style="font-weight:600">相关性</strong>: 9/10 | <strong style="font-weight:600">信号</strong>: 🔴1（NVDA空仓）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">人物</strong>: 李翔（主持）× 李丰（"峰叔"，峰瑞资本创始合伙人，一级市场投资人）</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔴 持仓披露</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">NVDA（做空）</strong> — 李丰披露：8/27（上周四，英伟达财报后）买入少量"英伟达空仓"（空头仓位），明确<strong style="font-weight:600">不加杠杆</strong>。</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">原话①：「在上周四，因为大家发完财报……涨了一下之后……我买了一点点英伟达的空仓，但是不加杠杆。……我纯粹是为了做一个流动性实验，因为我们自己买的这个空仓它是不带杠杆，所以它没有磨损。」（QA）
-原话②：「所以说，基于以上的原因，当然主要是流动性，我觉得差不多可能会到顶的原因。我买了一点点空仓，那来看一眼，就所有这些一二三四五，最后有多少跟想的一样，就当做个社会实验了。」（QA）
-原话③：「所以今天的核心问题是三个：解释了一下从流动性角度来看港股的现象和为什么买了一点点英伟达的空仓。」（QA结尾）</p>
-</blockquote>
-<p style="margin:0.8em 0"><strong style="font-weight:600">披露性质</strong>：小额、无杠杆、实验性质；本人明确「我这都是个人揣测，跟投资建议没有关系」。<strong style="font-weight:600">方向🔴（做空），强度：实验级（弱-中）</strong>。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🧠 嘉宾的主张（结论）</h3>
-<p style="margin:0.8em 0">全球流动性正在见顶（"新钱不够了"）→ 高风险资产（美股尤甚）承压；叠加英伟达五重边际变化 + "第一名"股价不再创新高 → 资本周期大概率进入右侧。以身入局、开小额空仓做"流动性实验"，逐条验证逻辑。核心区分：<strong style="font-weight:600">"AI本身有价值，但AI股票和AI公司，可以分开来"</strong>。</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📊 支撑论据（含证据类型）</h3>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">全球流动性见顶</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[数据/行业观察]</code> — 欧美日韩英债券收益率飙升（全球债市遭抛售）；全球资本市场"报表再好也涨不动"；港股打新赚钱效应消失：9/1 希音-W、梅卡曼德双双破发；ZD Group 10亿打新基金兑付危机（炒作IPO基石）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">资本市场对AI capex态度反转</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业观察]</code> — 一季度前"谁花钱激进给谁高估值" → 7月半年报起"超自由现金流支出者被折价"（谷歌、阿里增发均未逃过）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">时序错位：三季度不利因素回归</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[推理]</code> — Q2是最猛花钱季（全产业链FOMO+囤库存，未受涨价影响）→ Q3：涨价（苹果+1000元、安卓跟进）、数据中心进度延迟（环评/州法/电网/居民反对）、资本市场不再奖励花钱</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">英伟达"以租代买"</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[史实类比]</code> — 类比思科/北电在2000年泡沫崩盘前半年激进推vendor financing/担保贷款、提前确认收入；英伟达近期开始推以租代买策略</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">财报现金流恶化</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[媒体引用]</code> — 《巴伦周刊》（ASR"八轮周刊"）：英伟达FCF环比腰斩、应收远超历史（利润→现金流转化变差）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">指标框架</strong> <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[框架]</code> — 资本周期只看"第一名"股价能否创新高（不能→右侧）；高capex周期行业看PB不看PE（存储业PE个位数=顶部信号，同事研究）</li>
-</ol>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔗 论证过程</h3>
-<p style="margin:0.8em 0">全球多方向同抢稀缺流动性（美债发行/70万亿美元美股/AI数据中心万亿融资/各经济体争夺）→ 新钱不足+高息环境 → 高风险资产（美股吸流动性最狠）承压 → "第一名"英伟达涨不动（未创新高）+公司层面5个边际恶化（capex清算/涨价时滞/vendor financing/现金流） → 用小额无杠杆空仓做实验验证（"看有多少跟想的一样"）。</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔍 事实核查</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">嘉宾声称的事实</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">9/1 两只港股新股均破发（工业机器人+跨境电商）</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">核实：希音-W首日跌逾6%（市值1938亿港元）、梅卡曼德机器人跌3%（市值123亿港元；3835倍认购、一手中签率3%）；梅卡曼德4日累计跌超20%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">10亿港元打新/基石基金出问题拿不出钱</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">核实：ZD Group打新资金"10亿港元一夜归零"、被警方定性诈骗（8月下旬多家媒体报道）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">英伟达FCF环比大幅收缩、应收高企</td>
-  <td style="text-align:center">✅方向</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">核实：8月财报营收962亿美元；媒体析"自由现金流为何只剩213亿"；"环比少一半"细节未逐位核验</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">英伟达股价"涨不动"（未创新高）</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">9/10收盘$218.36（-2.26%），52周区间约$163.89–236.00</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">香港上半年破发率仅10%+、近期两周上市空窗</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未逐项核验；方向与打新热一致</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">苹果提价1000元、安卓阵营跟进涨价</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未核验</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">英伟达服务器提价</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未核验</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">英伟达"以租代买"策略</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未独立核验；思科/北电2000年vendor financing为史实✅</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">9</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">美股总市值&gt;70万亿美元、超GDP 2.3倍</td>
-  <td style="text-align:center">✅大体</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">量级吻合</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">10</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">保险久期匹配新规2027-1-1施行</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未核验</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">未经验证的断言</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">香港破发率/空窗期等观察性数据（个人跟踪口径）</li>
-<li style="margin:0.3em 0">谷歌/阿里"被折价"的具体幅度与归因</li>
-<li style="margin:0.3em 0">存储业"PE个位数见顶"（同事研究，无样本量与回测）</li>
-<li style="margin:0.3em 0">中国金融结构转型的推演（五主体框架）为观点性内容，非可核事实</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可能的逻辑谬误</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[历史类比过度]</code> 思科类比：AI需求结构与2000年光纤不同（真实利润/CUDA生态/推理需求），类比或低估行业分化</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[单指标简化]</code> "第一名股价创新高"框架忽略基本面分化与个体差异</li>
-<li style="margin:0.3em 0"><code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[确认偏误风险]</code> 开仓后解读偏空（"社会实验"设定部分对冲，且他先讲框架后讲动作）</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔬 第一性原理剖析</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设1: 资本市场由增量流动性驱动；总量见顶→所有风险资产（含AI龙头）估值承压</li>
-<li style="margin:0.3em 0">假设2: 与2000年电信泡沫同构：capex狂欢+vendor financing+现金流恶化=周期顶部特征</li>
-<li style="margin:0.3em 0">假设3: 无杠杆+小额=实验成本可控，不精准择时也能验证框架</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">反例/风险</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">若AI算力需求由真实训练/推理增长支撑，云厂商继续加码 → 空头被"增长消化估值"碾压（他自己也说"AI本身有价值"）</li>
-<li style="margin:0.3em 0">若美联储转向宽松/新一轮刺激 → 流动性假设失效（他也讲"央行不会允许泡沫破"）</li>
-<li style="margin:0.3em 0">时机不可测（本人承认"永远没人能猜哪是顶"）——此类交易最大成本是时间与波动</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📈 投资信号可靠度</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡中 — 关键数据点（IPO破发、ZD事件、财报现金流、股价位置）均可部分核实；但核心判断依赖其宏观流动性框架（不可完整证伪），且为实验仓、非重注。
-<strong style="font-weight:600">对行业（具身智能/机器人）的提示</strong>：同一期里他讲了机器人一级市场同步降温（国资54号文刹车、美元基金放缓、解禁财富效应消退、专项基金被约束）——梅卡曼德（3D视觉"眼-脑-手"）上市即破发是"二级定价对机器人资产的第一轮真实检验"。作为行业温度计，比单条空仓更有信息量。
-<strong style="font-weight:600">风险</strong>: 若判断错了，最可能原因——把"流动性收紧"误判为"周期见顶"，AI基本面继续超预期。</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">📜 历史对照</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">高能量 Vol.229（08-12，8.6录制）「美元主导的资本周期上升阶段尾部」</strong>：当时已提"尾部/剧烈波动"但无动作 → 本期（9.2录制）升级为"流动性见顶"+首次披露做空实验：<strong style="font-weight:600">同一框架递进并落地</strong></li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Vol.218（05-28）</strong>「AI资本热潮，历史几乎每次都一样」→ 观点连贯</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">跨来源</strong>：All-In特辑（#678，08-17）讨论英伟达5000亿算力融资平台"AI央行论"；投资实战派E189（06-29）"芯片20年下半场"；E198（09-06）提及"索罗斯系减仓NVDA转创新药"（第三方转述❓）→ 多来源显示NVDA进入"财务细节审视+多空分歧"阶段</li>
-</ul>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📋 高质量内容</h2>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">本轮最高质量剧集为 [⭐⭐⭐] 高能量 Vol.234（含信号，详见上节 🔴 看空详情）</p>
-</blockquote>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 卫诗婕｜漫谈Light the Star — 86.「明年科技公司就只招 AI 人才了！」和脉脉CEO林凡聊全球 AI 人才动向、组织变革与大模型季报</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-09-07</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6a9daa7ea0210c197dce7a8b" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6a9daa7ea0210c197dce7a8b</a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">人物</strong>: 卫诗婕（主理人）× 林凡（脉脉创始人兼CEO；清华计算机系，刚从硅谷拜访 OpenAI/Anthropic/Google/Meta 回来）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心摘要（takeaways）</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">中美模型差距</strong>："现状在缩小"但存错觉；小模型蒸馏+开源能力快速逼近，SOTA高价token预计再持续6-12个月，之后"普通模型到GPT-4.5/Claude同级，token不再贵"</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI组织样本</strong>：Codex用9个月从"程序员工具"铺到法务/财务全员（人均让Codex工作1小时+）；脉脉滞后5个月（今年3月启动）、预计10-11个月完成；判断全行业2-3年完成切换</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">人才数据（脉脉口径）</strong>：内部AI人才连续两年同比10倍增长、占比30-40%；"明年科技公司只招AI人才"；三类紧缺岗=AI算法/AI全栈/AI Agent工程师</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">OpenAI重点</strong>：RSI — 训练工作（pre/post-train）30%已由AI优化，目标一年内70-80%；一年内挑战"数学菲尔兹奖"（AI for Science：可控核聚变/生物医药/航空航天）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">Anthropic特点</strong>：agent主动性 — Slack内Claude tag带全部context主动"抢活干"；判断"agent抢活"是明年主题</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">组织论</strong>：routine工作占70-80%将被接管；节奏压缩为"一年人人程序员→三年人人管理者→五年人人CEO"</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">可替代性框架</strong>：可闭环可验证的工作（含数学/Coding）优先替代；关系型工作抗替代；NLP/后端/直播运营/数仓/PM岗需求收缩</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">程序员外溢论</strong>：大厂只留顶层→层层下移→带上Coding Agent外流至全行业（"一人一团队"）；"人力资源服务上云"（灵活用工+AI管理）</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">🔍 核查</strong>: ✅方向（OpenAI内部案例、RSI公开表述与外界报道方向一致——但均为第二手转述）❓ 脉脉内部数据（公司口径）⚠️ 含脉脉自家产品立场（人才标签/咨询/硅谷链接）
-<strong style="font-weight:600">🧬 第一性原理</strong>: 核心假设=AI智能已越过大部分工种阈值、瓶颈转向context与权限（"先给权限再想清楚，比先想清楚快3-5倍"）；反例：数字化薄弱的企业渗透会远慢于头部样本，K型分化而非齐头并进。
-<strong style="font-weight:600">知识价值</strong>: 目前最具体的"AI组织渗透速度"观测样本；对求职/团队搭建有用（人才定义、岗位收缩清单）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">[⭐⭐] 跨国串门儿计划 — #712. 陶哲轩：AI 擅长广度，人类守住深度</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">发布时间</strong>: 2026-09-08</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap"><strong style="font-weight:600">链接</strong>: <a href="https://www.xiaoyuzhoufm.com/episode/6aa0079ba0210c197dcf9397" style="color:#2563eb;text-decoration:underline">https://www.xiaoyuzhoufm.com/episode/6aa0079ba0210c197dcf9397</a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">人物</strong>: 陶哲轩（UCLA数学教授）× Big Think（译制）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心摘要（takeaways）</strong>：</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">数学六大支柱（数/代数/几何/概率/分析/动力系统）的直觉框架；无穷大/尾部风险/混沌（三体问题）的通俗拆解</li>
-<li style="margin:0.3em 0">科学方法论：开普勒用第谷数据推翻自己的正多面体模型→椭圆；哥白尼模型早期精度不如地心说 → <strong style="font-weight:600">"只看数据拟合未必是好理论"</strong></li>
-<li style="margin:0.3em 0">AI×数学现状：能力阶梯式推进（初中题→奥赛→研究生→小型未解问题→近期真难题）；First Proof Challenge：10道研究级题最好模型做对5-6道</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">AI强在广度</strong>：把1000个问题铺开能解约5%（≈50个），能把1970年冷门论文方法与新问题组合——"独立的眼睛"；人类专家守深度与品味</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">警告</strong>：可复现性未知（算力成本$/成功率不透明）；overfitting与"优化错指标"风险；"证明消化不良"（生成/验证加速，理解与教材化仍靠人）；用AI替换研究生=培养断层隐患</li>
-<li style="margin:0.3em 0">他自己的用法：文献检索/检查证明/写代码/校对；"与AI协作节奏不如人类对话者"</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">🔍 核查</strong>: ✅公开挑战赛/史实（开普勒/哥白尼/First Proof Challenge）❓私营实验室成本与成功率（无法核验，他本人也点名此点）
-<strong style="font-weight:600">🧬 第一性原理</strong>: 假设=AI与人类能力"互补而非一维替代"；反例：若AI在"广度+低成本组合"上继续指数进步，科研组织方式（含PhD培养）需重构——他给出的"消化不良/分诊"已是现实。
-<strong style="font-weight:600">知识价值</strong>: 对"AI是否接近人类科研"的第一手校准——反叙事化、反极端化。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📄 其他剧集</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="text-align:center">质量</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">播客</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">剧集</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">主题（简要）</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="text-align:center">⭐</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">a16z</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI Researchers on the Future of Mathematical Reasoning</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">OpenAI数学家谈数学推理新进展（球堆积/编码理论/群论、"可达结果的复兴"）；无投资内容</td>
-</tr>
-</tbody>
-</table></div>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<p style="margin:0.8em 0"><em>报告生成：2026-09-11 10:36 | 数据源：RSS→Qwen3-ASR 本地pipeline | 去重：podcast_dedup（4集新增）| 完整性检查：通过（全部活跃来源最近3文件标题/内容匹配、无重复体）| 备注：09-09~09-10 断档合并补扫</em></p>
-
-</div>
-]]></content:encoded><category>播客信号</category></item>
-<item><title>[雪球动态] 雪球关注动态 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-11.html</link><guid isPermaLink="false">report:雪球动态:2026-09-11:d52f25db</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-11</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-11 22:10</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">关注用户：29人 | 新增帖子：63条（11位作者，窗口约22小时） | 信号：🔥6 / 🔴0 / ⚪5
-登录状态：✅ | 历史检索：Phase 1（Hybrid 索引 SIGSEGV 回退）
-备注：09-09、09-10 因 deepseek 凭据缺失 job 被 BLOCKED 未执行，今日恢复。快照对比基准为 09-08。</p>
-</blockquote>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔥 买入/看多信号（6组）</h2>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 [洋河/五粮液] 酒金岁月（19条合并）| 可靠度 🟡</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 白酒估值修复逻辑，两两排序中 <strong style="font-weight:600">五粮液 &gt; 洋河 &gt; 茅台</strong>；明确质疑茅台收益预期。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>（通俗版）:
-当下白酒的"破净/便宜"只是参照物，真正赚的是"估值修复差价"；他的三个情景收益预期里，最差的标的都比茅台高，所以"没有理由不选"。五粮液是排序第一选择。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">"如君所愿"排序专栏（[6]）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人框架]</code> — 舍得&lt;今世缘&lt;汾酒&lt;茅台&lt;洋河&lt;五粮液 两两PK链条，结论选五粮液</li>
-<li style="margin:0.3em 0">[2] "破净只是一个参照物……上中下三种收益预期，最差的都比茅台高，没有理由不选" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人推理]</code></li>
-<li style="margin:0.3em 0">渠道观察：中秋旺季备货"从一个月前开始"退化为"提前一周才有感觉"、经销商"少备或不备"（[30]）+ 对年报数字的"账本失真"论（[59]）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[渠道调研/个人经验]</code></li>
-<li style="margin:0.3em 0">历史专栏：8/11"洋河的投资机会"（PE30×22亿=660亿 vs 现市值619亿）；8/20"投资洋河的理由" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人测算]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">五粮液 26H1 净利大反弹</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">营收284.17亿+20.87%、归母87.53亿+89.30%（中报/智通/蓝鲸一致）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">洋河报表出清中</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">26H1 营收105.4亿-28.76%、归母26.02亿-40.1%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行业"量价利三杀"背景</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">20家酒企合计营收2004.4亿-6.65%、净利736.81亿-8.28%；产量167.9万千升-4.7%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">批价企稳回升</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">飞天终端1797元/瓶（9/10连升3日）、普五818元（+8元），但经销商备货意愿仍弱</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">三省"一品一码"试点</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">湖南、江苏、陕西 8月底启动白酒"一品一码"税务试点</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"五粮液出厂价968→800、24年卖4.3万吨"</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">数字细节未独立核到；批价口径混淆可能（968→800 或为批价体系）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主动出清 vs 需求恶化</td>
-  <td style="text-align:center">⚠️</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">反向数据 4 项警报</strong>（下）</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">⚠️ 反向数据（reverse-check 000858 实跑）</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">经营现金流 -21.54亿 vs 净利87.53亿，净现比 <strong style="font-weight:600">-0.25</strong>（OCF 由上年 +311.37亿转负）</li>
-<li style="margin:0.3em 0">存货 200.65→226.58亿 <strong style="font-weight:600">+12.5%</strong>（"控产去库存"叙事与库存反增并存）</li>
-<li style="margin:0.3em 0">合同负债 134.60→104.41亿 <strong style="font-weight:600">-22.4%</strong>（经销商打款意愿下降）</li>
-<li style="margin:0.3em 0">销售费用率 16.1%→22.2% <strong style="font-weight:600">+6.2pp</strong>（销售费用 +80.65%）</li>
-<li style="margin:0.3em 0">公司官方解释："收款政策调整、承兑汇票到期额度减少"；知乎/媒体亦有"主动减少渠道资金挤压"的正面解读。<strong style="font-weight:600">多头"主动出清"解释与官方口径一致，但无法证伪"以价换量"</strong>。这是他 26H1 多头叙事必须持续解释的反向项。</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：白酒需求被库存/出清扭曲，"卖不完是方法问题不是需求问题"（[45]），出清后回归</li>
-<li style="margin:0.3em 0">替代：消费结构变化是真实的——<strong style="font-weight:600">他自己 8/23 都承认</strong>"即使不离开，也要降低自己的收益预期"；若 H2 合同负债继续降、批价回落，则"主动出清"证伪</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 行业数据全部可查且方向吻合，但"财报不要当真"的选择性采信（利润+89%当真、"失真"只用于解释利空）与他自己"降低收益预期"的表述存在张力。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若白酒复苏低于预期（中秋动销已显平淡），"估值修复"变"价值陷阱"，洋河 PB 支撑也会被盈利继续下滑击穿。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 一致强化 — 8/11"洋河的投资机会"、8/20"投资洋河的理由"、8/26"洋河学坏了"；对茅台自 8/9 起持续质疑"收益预期降低"（8/19"茅台不符合我的收益预期"）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 [纳斯达克100] 汤诗语（8条合并）| 可靠度 🟢</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: 强烈且持续地建议 <strong style="font-weight:600">卖 A 股科技、换纳斯达克100</strong>（"把泡沫严重的劣质股权换成有点小贵的优质股权"）。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>:
-A股科技估值泡沫化；纳指虽有小溢价，仍是对的方向——每天还可申购场外纳指100+标普500，可设定投积累。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">[44] "卖A股科技股、买纳斯达克……场外纳指100还能申购700多块，场内纳指ETF最低溢价大概9%" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行情数据+政策跟踪]</code></li>
-<li style="margin:0.3em 0">[32] "纳指+标普一天能申购上近1500块钱，一个月3万"，C类/D类/F类多渠道 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[渠道规则研究]</code></li>
-<li style="margin:0.3em 0">[13] 平安/人寿中报 TPL 和 OCI 账户"千亿级别大调仓"（卖科技买红利）— <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[中报引用]</code></li>
-<li style="margin:0.3em 0">[44] "如果有人用科技股护盘，那是绝好的卖A股科技买纳指的机会" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[反向表述]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">场内纳指 ETF 高溢价</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">9/2 景顺纳指科技溢价 24.14%；9/8 广发纳指 ETF 收盘 1.663 vs IOPV 1.4949 ≈11.2%；多只&gt;10%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">场外可申购额度</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">动态限额属实（万家 9/9 提至5000元→9/10 降回100元）；"一放就抢光"</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">QDII 新额度背景</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8/28 外管局新批证券基金类 37.2 亿美元（此前已核）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">油价 108 美元</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">布伦特 9/11 盘中破 108 最高 109（+8%）；9/10 收 107.63</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[20] 万家配售"8亿申购、获配不到一半"</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">配售比例细节未独立核到；限购动态已核实</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">6</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">"最低溢价大概9%"</td>
-  <td style="text-align:center">🟡</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">区间（10%-24%）报道吻合大方向；"最低9%"无逐只数据</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：纳指长期复合回报显著优于 A 股科技，溢价是"高价买优质"</li>
-<li style="margin:0.3em 0">替代：溢价 10%+ 意味着换入即付 10% 成本；<strong style="font-weight:600">他自己也提示</strong>"美股也可能跌，扛不住 20% 下跌请忽略"——即此项建议对风险承受能力高度敏感</li>
-<li style="margin:0.3em 0">注意：这是<strong style="font-weight:600">三个月内他的重复建议</strong>（8/30 QDII 帖、9/7"天赐换股机会"、9/11），信号强度高、且自我一致</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟢 高 — 溢价、额度、油价数字全部有据；观点一以贯之且自带风险提示。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: A 股科技若在"预期反转"中继续上攻、或纳指溢价快速回落，换股者两头挨打。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 一致强化 — 8/30（QDII 额度帖）、9/7（"天赐换股机会"140赞）、9/11（今日续推）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥🔴 [伯克希尔-B / 西方石油] 大道无形我有型（16条合并）| 可靠度 🟡</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: <strong style="font-weight:600">调仓操作</strong>——"卖所有 OXY 的 call，call 走部分就直接换 BRKb"；长期看多标普/纳指配置。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>:
-石油公司"搞懂难度偏高"，退出 OXY 转伯克希尔；"10年后回头看大概率比拿着现金强不少"；宽基指数长期配置"比绝大多数人好"。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">[40] 操作声明："我打算卖所有 OXY 的 call……对我来说，石油公司搞懂的难度有点偏高" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人操作声明]</code></li>
-<li style="margin:0.3em 0">[27][43] "反正10年后回头看大概率比拿着现金强不少"、"这个配置（标普+纳指）时间足够长大概率比绝大多数人好" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人经验]</code></li>
-<li style="margin:0.3em 0">[58] "如果茅台产量下降了真的是利空吗？"（反直觉提问） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人推理]</code></li>
-<li style="margin:0.3em 0">[55][57] 引用 Gemini 制作茅台 vs 标普500 的 13/10/20 年 CAGR 对比表 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[AI引用，未展示全表]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">卖 OXY call 转 BRKb</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人操作声明，无法独立验证；<strong style="font-weight:600">方向与其 8/29 发言一致</strong>（"拿着不舒服，有机会也会卖掉，已卖了 call"）→ 6周从犹豫到落地</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">标普/纳指长期配置观点</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观判断（宽基长期回报，历史成立但非保证）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">茅台 vs 标普 CAGR 数字</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">Gemini 生成表格，未独立核</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：BRKb 长期优于自己不懂的能源股；能力圈纪律 &gt; 机会成本</li>
-<li style="margin:0.3em 0">替代：布油 108 美元正值能源景气高峰（中东冲突升级），此刻切换可能恰卖在高位区间——当然若油价继续冲高他也会少赚</li>
-<li style="margin:0.3em 0">另有细节：[53] "我是很欢迎有人接我股票做空的（泡泡玛特借券）"，强调长期持有的态度；[28] 回应"投AI滞后"："我2011年才投苹果"——扩散到 AI 话题仍以"敢为天下后"框架回应</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 操作声明不可验证，但与 8/29 历史表述逻辑链完整、落地自然。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若油价继续因中东局势上冲，其"不懂就卖"的纪律会显示为"卖在主升浪"；其宽基推荐本身是长期无误但择时无意义的建议。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 8/29"拿着不舒服，有机会也会卖掉；我基本上都已经卖了 call" → 今日"卖所有 call、换 BRKb"（<strong style="font-weight:600">落地/强化</strong>）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 [心动 02400] Penny010（3条合并）| 可靠度 🟡</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: "<strong style="font-weight:600">陆续都买回来了</strong>，剩下就是继续熬，把黄一孟熬回400亿市值董事长…"——已加仓，目标市值 400 亿。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>:
-XD 公司史上只有"13个自研冒进"和"小游戏反应慢"两次教训，其他战略决策基本有前瞻性；游戏行业"大鱼小鱼各自活得滋润"，AI 工具效率提升后中间商（不上不下的公司）才难受。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">[12] 加仓声明 + 400 亿市值目标 — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人操作声明]</code></li>
-<li style="margin:0.3em 0">[8] XD 战略复盘（扬长避短、大厂围堵下成长为垂直龙头） — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人研究]</code></li>
-<li style="margin:0.3em 0">[10] "想拳打企鹅脚踢音符的人太多，对游戏行业爆款+长尾并存生态认知不足" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[行业认知]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">已"买回来"</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">个人仓位，不可验证</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">400 亿市值目标</td>
-  <td style="text-align:center">✅ 距离可量化</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现市值 <strong style="font-weight:600">189.6 亿港元</strong>（39.18，-2.44%）→ 需 <strong style="font-weight:600">+111%</strong>；YTD -40.1%，离年内低点 37.96 仅 +3.2%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">XD 战略"基本有前瞻性"</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观评价；可参考其自身承认的两次失误</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：TapTap+游戏双轮修复，400亿＝对 26E 利润的估值回归（其 2025-12 提到"静态18×15PE"）</li>
-<li style="margin:0.3em 0">替代：Tap 广告增速已有问题（8/31 内部锚：maker 失误）；港股游戏板块情绪若继续走弱，加仓=左侧</li>
-<li style="margin:0.3em 0">有趣的信息点：Penny 与逸修1 <strong style="font-weight:600">同发心动/游戏内容</strong>，是他少有的"行动+叙事"双确认</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 操作与 2024-2025 年"越跌越买"的记录一致；但 400 亿目标纯属自我愿景，需 111% 涨幅。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 心动若 H2 游戏新品（含代理）不及预期，"买回来"会成为又一轮高买低卖的序章。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 一致 — 2024-07"定性先行"框架、2024-11"80%心动-20%现金"（曾减仓）、2025-12"不要恐慌卖出……相信 Dash"→ 今日"买回"（<strong style="font-weight:600">强化</strong>）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 [AI链/MiniMax/智谱] 浊静徐清（8条合并）| 可靠度 🟡</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: AI"巨大且长时间跨度的供不应求"叙事延续；<strong style="font-weight:600">MiniMax vs 智谱估值对比</strong>（15x vs 23x ARR；智谱高约 50%）；AI 产业链价值按"训练→推理→存储"依次爆发。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>:
-AI 化率仍极低、阈值被跨过，矛盾是"技术成熟 vs 渗透率低"；MiniMax 市值/ARR 15 倍"值得记录"，智谱 23 倍，市场对智谱评价高 50%——"符合实际情况吗？"（开放提问，倾向质疑智谱溢价）</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">[34] "MiniMax 市值ARR比到15倍了。120亿美元市值对8亿美元……智谱今天ARR倍数为23倍。3632/7.8=466亿美元，466/20=23倍" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[公开数据+自算]</code></li>
-<li style="margin:0.3em 0">[37] "最终根源是供不应求，甚至是长时间跨度的供不应求" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[产业判断]</code></li>
-<li style="margin:0.3em 0">[41] "AI产业链价值爆发依次呈现：训练芯片→推理芯片→存储芯片量价齐升" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[产业跟踪]</code></li>
-<li style="margin:0.3em 0">[62] MiniMax 业绩会纪要转发：7月Token消耗量约为1月的20倍、8月ARR超8亿美元、To B超80% — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[纪要转发]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">MiniMax 市值120亿美元、ARR 8亿</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">行情 942.9 亿港元 ≈120.1 亿美元（270 港元，-7.53%）；8月 ARR&gt;8亿美元经媒体/中报确认</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">MiniMax 15x / 智谱 23x / 差50%</td>
-  <td style="text-align:center">✅ 数字自洽</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">15x 直接可算；智谱 466 亿美元口径（3632 亿港元÷7.8）与媒体（9/3 市值约 5159-5573 亿港元）方向一致</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">智谱 ARR 20 亿口径</td>
-  <td style="text-align:center">⚠️</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">智谱官方保守口径为"8月收入×12=16亿美元"；20 亿是"周收入×52"的进攻性口径——<strong style="font-weight:600">用哪个口径直接决定"贵50%"结论</strong>，他注释了这一点</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 收入增速</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">MiniMax 26H1 收入 1.17 亿美元 +283.1%；智谱 9.54 亿元 +399.7%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">5</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">DeepSeek 降价背景</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">9/10 发布 V4.1 Flash 并再降价（缓存命中输入降至 0.02元/百万token）；两家公司 9 月股价 -23%/-34%</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：AI 渗透率低+算力供不应求 → 收入高增持续，估值差异会收敛（倾向于 MiniMax 相对便宜）</li>
-<li style="margin:0.3em 0">替代：<strong style="font-weight:600">价格战正在改变定价规则</strong>（DeepSeek"能力提升→降价"），若推理成本通缩传导到 ARR 增速，PS 中枢会继续下移——这才是两家 9 月暴跌的驱动</li>
-<li style="margin:0.3em 0">他的毛利率系列框架（MaaS 毛利率 40% vs 智谱 28%/MiniMax 17.9%）与今日话题衔接</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 数字全部可核且算术自洽；但"智谱贵50%"用进攻口径计算需谨慎，其对"供不应求"的信念未定价价格战变量。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 大模型价格战持续、ARR 增速证伪，"15x 很便宜"会变成"15x 仍贵"。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 一致 — 8/28（Hy4/M2.7 RSI 帖）、9/2（ARR 10x 追踪）、毛利率专栏系列（"大模型生意的毛利率和命门"）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">🔥 [黄金] 亲爱的阿兰（1条）| 可靠度 🟡</h3>
-<p style="margin:0.8em 0"><strong style="font-weight:600">信号</strong>: "（紫金、神火）这个故事里最好的还是黄金"——资源组合中优先黄金。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">作者主张</strong>:
-量化宽松压利率→上游投资不足→实物供给约束；货币环境反转后供给无法快速恢复（"能源的黄金时代"框架延续）。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">支撑论据</strong>:</p>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0">[42] "这个故事里最好的还是黄金" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[个人判断]</code></li>
-<li style="margin:0.3em 0">历史框架（8/21 帖被引用）："量化宽松把资金成本长期压低……等货币环境反转，资源供给已经无法迅速恢复" — <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">[宏观框架]</code></li>
-</ol>
-<p style="margin:0.8em 0"><strong style="font-weight:600">事实核查</strong>:</p>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">#</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者声称</th>
-  <th style="text-align:center">可验证？</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">黄金优先于紫金/神火</td>
-  <td style="text-align:center">❓</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">主观偏好陈述</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">2</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">其灵宝黄金持仓兑现</td>
-  <td style="text-align:center">✅</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">灵宝黄金现 323.7 亿港元（她 1 月称"300亿来的这么快"，持续兑现）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">3</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">短期金价</td>
-  <td style="text-align:center">⚠️</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">今日现货金 -1.93% 至 4316.6 美元（失守 4320）；紫金 -5.42%、神火 -3.55%（当日高位巨震）</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0"><strong style="font-weight:600">核心假设与替代解释</strong>:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">假设：法币贬值+供给约束的长逻辑；替代：金价短期波动剧烈（单日 -1.9%），且已累计大涨，避险属性与流动性冲击（今日与油价齐跌背离）的矛盾</li>
-<li style="margin:0.3em 0">当日"油价大涨+黄金大跌"组合提示：市场在定价"通胀+加息预期"而非"避险"，与她的长逻辑不冲突但短期路径复杂</li>
-</ul>
-<p style="margin:0.8em 0"><strong style="font-weight:600">可靠度</strong>: 🟡 中 — 长期框架一致、灵宝黄金兑现记录是硬证据；但当日方向与其推荐背离（金价大跌）。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">一句话风险</strong>: 若美国通胀持续（8月PPI 5.4%超预期）引发加息预期，金价短期承压。</p>
-<p style="margin:0.8em 0"><strong style="font-weight:600">📜 历史对照</strong>: 一致 — 1/21（灵宝黄金"300亿来的这么快"）、3/16（"能源的黄金时代"）。</p>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⚪ 中性/观察（5组）</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">作者</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">帖子</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">内容与核查</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">判定</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">山行</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[39] "亏惨了……堰塞湖溃决" + 铜进口数据</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word"><strong style="font-weight:600">信号：铜高位崩跌的记录</strong>。核查：✅ LME 铜 9/11 -4.25%（14182.5 美元）、沪铜 -3.42%（纽约铜盘中 -4.8%，美铜关税计划停滞→"堰塞湖溃决"）；✅ 其"1-8月铜精矿进口少56万吨"（海关口径 -2.8%≈56.15万吨）；"合计少31.2万吨"加总口径 ❓。另有 [36] 持仓披露"一点集运、造船mini仓"。持仓铜股当日重挫（紫金 -5.42%）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪（防御性记录，非新信号）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">terryp57</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[54][51][3]</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">金融布局延续："汇丰为首选多年，今年依次汇丰、JPM、BOA，因涨幅大+东大银行边际改善布局了 CCB"；"美元 5% 无风险+杠杆 vs 港股利息吸引力不足，炒AI还不如回美国"。核查：汇丰 YTD≈+31%（其自述 41%，口径差 ⚠️）；JPM 358.39/BAC 63.02 ❓（本人涨幅口径）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪（组合回顾+宏观观点）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">逸修1</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[46] "王者万象棋的成绩可以"</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">核查：✅ 属实——9/10 上线、预约7000万+、首日 iOS 畅销第9-11、次日冲进 Top5、首日新进超千万（36氪/游戏葡萄）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪（对腾讯新游的正向验证，无仓位表述）</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">拥抱大时代</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[15] "不再是简单商业模式和无脑买M7的时代，懂技术、能深入分析的特别好"</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">方法论点（M7 不能无脑买，波动期靠技术考察）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">庶人哑士</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">[33] "技术最终是通缩和平权的"（回应"AI 制造不公平"）</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">AI 社会影响讨论，与投资标的相关度低</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚪</td>
-</tr>
-</tbody>
-</table></div>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">🔬 值得质疑（1-3条）</h2>
-<ol style="padding-left:1.5em">
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">酒金岁月的"财报真伪任意切换"</strong>：五粮液利润 +89% 时采用（"真实业绩配得上250亿"），OCF 转负/费用飙升时归类"财报不要当真、失真离谱"——同一份报表里选择性采信。更关键的是他 8/23 自己说过"消费萎缩若持续，就要降低收益预期"，与今日"卖不完是方法问题"的强辩护词共存。<strong style="font-weight:600">可证伪点</strong>：H2 合同负债是否止跌、中秋动销是否兑现"预期反转"，若失约则"主动出清"论失效。</p>
-</li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">浊静徐清的 ARR 口径选择</strong>：算智谱"23x、比 MiniMax 贵 50%"时用了智谱官方"周收入×52=20亿美元"的进攻口径（若用 16 亿保守口径则为 29x，贵更多）；但若考察其"贵不贵"结论，口径选择恰好最大化了两家差距的合理性讨论。数字本身无误，<strong style="font-weight:600">结论对口径敏感</strong>——他的提问形式（"符合实际情况吗？"）本身是开放式的，观察后续。</p>
-</li>
-<li style="margin:0.3em 0"><p style="margin:0.8em 0"><strong style="font-weight:600">汤诗语的"换股机会"叙事缺一角</strong>：推荐把 A 股科技换成溢价 10%± 的纳指 ETF，同时自己承认"美股也可能跌 20%"——<strong style="font-weight:600">风险披露与"天赐机会"的强推荐并存</strong>。溢价是瞬时成本，若溢价收敛+A 股科技续涨，跟随者承受双重损失。他此前对"纳指 ETF 溢价 11.5%+"的提示是对的，但"换"的时点建议与其自身风险提示存在张力。</p>
-</li>
-</ol>
-<hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📊 数据附录</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0"><strong style="font-weight:600">行情（2026-09-11）</strong>: 五粮液 69.75(-1.04%) / 茅台 1275.16(-0.78%) / 老窖 73.63(-1.58%) / 洋河 38.07(-1.07%,PB1.22) / 汾酒 114.18 / 心动 39.18HKD(-2.44%) / 腾讯 428.4HKD / 紫金 32.26(-5.42%) / 神火 27.15(-3.55%) / 赣锋 46.67(-3.45%) / 巨子生物 25.48(-1.39%) / 灵宝黄金 23.5HKD / MINIMAX 270HKD(-7.53%)</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">商品</strong>: 布伦特 108.93(-→+8.22%高点附近，9/11盘中破108最高109) / WTI ~103.9 / 现货金 4316.6(-1.93%) / LME铜 14182.5(-4.25%)</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">核查来源</strong>: 中报公告（新浪财经汇总/蓝鲸/智通）、36氪、网易财经、上海证券报、南方日报、海关总署数据、券商中国、qt.gtimg.cn、ifzq 周K、reverse-check(000858)、search_monitor_history（185,616条库）</li>
-<li style="margin:0.3em 0"><strong style="font-weight:600">历史检索</strong>: 9位作者 Phase 1 检索（Hybrid 首次调用 SIGSEGV 后全批回退）；作者隔离：酒金岁月/汤诗语/大道/浊静徐清/Penny010/terryp57/亲爱的阿兰/逸修1/山行</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">📎 归档</h2>
-<p style="margin:0.8em 0">63条已归档至 <code style="background:#f1f5f9;padding:2px 6px;border-radius:3px;font-size:0.9em">~/.hermes/skills/openclaw-imports/xueqiu-monitor/data/history/{author}/</code>（酒金岁月19、大道16、汤诗语8、浊静8、其余各1-3条）</p>
-
-</div>
-]]></content:encoded><category>雪球动态</category></item>
-<item><title>[心动日报] 心动投资日报 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-11.html</link><guid isPermaLink="false">report:心动日报:2026-09-11:76cdaaa2</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-11</description><content:encoded><![CDATA[
-<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
-<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-11（周五）</h1>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | cron 99e406e539e7
-数据源: TapTap✅/Apple16区✅/Steam✅/逸修1⚠️
-(cookie告警)/股价✅腾讯源/HKEX披露✅
-窗口: 9-9、9-10期因cron凭据阻塞未出报，
-本期覆盖9-8→9-11三天增量（已补课）</p>
-</blockquote>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">今日判断: <strong style="font-weight:600">无E修正、无下修触发；维持持有
-不加不减</strong>——两项面板变化已核实：①回购
-4亿计划9-1用尽到期（9-2起停、非减持）
-②小镇全区域榜单逆转普涨（企稳中断风险
-解除）；股价4连跌-13%至39.18=AI叙事回
-吐，非基本面（同期榜单改善）</li>
-<li style="margin:0.3em 0">关键数字: 股价39.18（9-11 -2.44%）|
-市值 ~162.1亿RMB（189.6亿HKD）|
-残差-32%低位（复入-30%线下）</li>
-<li style="margin:0.3em 0">发言结论: <strong style="font-weight:600">对E无修正</strong>——10条新帖无新E
-数字；9-9"闭环叙事v1"=平台级折30%+Σ验
-证；"8月数据二派"方向偏利好（口径未明）</li>
-<li style="margin:0.3em 0">行动: 持有不加不减（新增观察: 回购新计
-划/小镇普涨驱动/RO首月9-13~15裁决）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
-<p style="margin:0.8em 0">收盘价 39.18（9-11 周五）
-涨跌 -2.44%（-0.98）| 市值 ~189.6亿港元
-≈162.1亿人民币（4.8388亿股×0.8549）
-成交: 9-8 2.42亿→9-9 1.96亿→9-10 1.18
-亿→9-11 0.75亿HKD（连续缩量）
-52周区间: 37.96 - 92.45（距低点+3.2%、
-距高点-57.6%）
-近5交易日: 45.04→43.58→41.24→40.16→39.18
-（自9-7峰值4连跌-13.0%；9-9单日-5.37%=
-窗口内&gt;5%触发⑧）
-资金: 南向9-10增持153.8万股（持股占比
-28.24%）
-驱动: GPT-6行情回吐+港股本周五连跌（9-11
-恒指-0.60%/恒科-0.23%，智谱-3%/MiniMax
--7%）；本股缩量阴跌，非基本面利空</p>
-<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
-<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
-<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
-<li style="margin:0.3em 0">v3.2校准3: 残差&lt;-30%持续&gt;3个月才复核E
-位置: 162.1亿RMB=悲观带150-200中位，距中
-性下限205亿-21%；市场隐含E≈10.5亿
-（162.1÷15.45，自9-8的11.7亿-10%）；
-vs 我15.5±1 → 残差约-32%（复入-30%线下，
-前次9-5）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板（v3.2 分级）</h2>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️裁决临</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">RO day29高位</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️计划到期</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">4亿用尽9-1止</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:榜单2周+3区</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅逆转</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">小镇10区普涨</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①游戏收入2季下滑</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅证伪</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">H1游戏+11.9%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅未降</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">+17.5%</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">🔴确认</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">8月二派未明</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅正常</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-32%低位</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">复入-30%线下</td>
-</tr>
-</tbody>
-</table></div>
-<p style="margin:0.8em 0">快慢信号判定:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">快信号: ⑤变化（程序性）——4亿自动回购计
-划（6-10公告/6-12启动/原定至11-11）于9-1
-额度用尽、按条款提前到期；9-2~9-10共7个
-交易日无回购披露+9-11晚未披露；非主动停
-止、无减持 → 已核实起因；新增观察=新计
-划公告（历史: 计划到期后常续新计划）</li>
-<li style="margin:0.3em 0">快信号: ④未触发——RO世界之旅首月裁决
-9-13~15临近，day29 SEA高位（ph#4/my#7/
-th#4/id#13）且港台回升（hk#32/tw#23）</li>
-<li style="margin:0.3em 0">慢信号: ③🔴延续（H1广告-0.4%）；9-10他
-提8月"二派"（若指tap=改善信号，口径待
-明）；先标注不动作</li>
-<li style="margin:0.3em 0">先行: ✅逆转——小镇全区域普涨（9-7~9-8
-"企稳中断"风险解除）: hk回榜#59/tw#36(+48)
-/kr#38(+54)/sg#59(+32)/th#13/id#16/my#35/
-ph#14/jp#57新增/br#72新增+国服畅销回榜
-#71；未满"2周站稳"确认窗；驱动待查</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam）</h2>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">对比基准=9-8（3日窗口；9-9/9-10无采集）</p>
-</blockquote>
-<p style="margin:0.8em 0">TapTap（vs 9-8）— 王者万象棋上线霸榜:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">热玩: 小镇#9(+7) | 香肠#19(+24) |
-戴夫#142(-12)</li>
-<li style="margin:0.3em 0">前10: 王者万象棋#1（9-10上线）| 军旅#8
-持稳；AI模拟器潮退火: 我太想进步了#1→
-消失、祖宗#3→#49、崇祯#4→#34</li>
-<li style="margin:0.3em 0">新品: 心动系不在榜 | 设身处地重新上架
-#40（下架后回归）</li>
-<li style="margin:0.3em 0">预约: RO守爱2回榜#70 | 白银之城#6(+5)
-| 噜咪#3(-1) | 伊莫#8(-1)</li>
-<li style="margin:0.3em 0">热卖: #1 潜水员戴夫(0)</li>
-</ul>
-<p style="margin:0.8em 0">iOS 16区（vs 9-8）— 小镇国际服全区域普涨:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">中国: 小镇畅销 回榜#71（连2出榜后回）|
-免费#81(-26) | 香肠免费 仍出榜</li>
-<li style="margin:0.3em 0">香港: 小镇#59（连7出榜后回）| RO世界
-之旅#32(+12)</li>
-<li style="margin:0.3em 0">台湾: 小镇#36(+48) | RO世界之旅#23(+5)</li>
-<li style="margin:0.3em 0">日本: 小镇#57（新增在榜）</li>
-<li style="margin:0.3em 0">韩国: 小镇#38(+54) | 老ROM#67(-4)
-（⚠️kr iOS≠韩服全貌，安卓占比高）</li>
-<li style="margin:0.3em 0">新加坡: 小镇#59(+32) | RO世界之旅#18(0)</li>
-<li style="margin:0.3em 0">泰国: 小镇#13(+11) | RO世界之旅#4(-1)
-| RO初心#79(-38)</li>
-<li style="margin:0.3em 0">印尼: 小镇#16(+16) | RO世界之旅#13(+2)
-| RO初心 出榜</li>
-<li style="margin:0.3em 0">马来: 小镇#35(+20) | RO世界之旅#7(-2)</li>
-<li style="margin:0.3em 0">菲律宾: 小镇#14(+19) | RO世界之旅#4(-2)
-| RO初心#36(-17)</li>
-<li style="margin:0.3em 0">巴西: 小镇#72（新增在榜）| RO初心 出榜</li>
-<li style="margin:0.3em 0">越南/美/英/德/法: 无心动系（国际服
-us/gb/de/fr/vn持续未在榜）</li>
-<li style="margin:0.3em 0">解读: 小镇国际服10区同步普涨（+5~+54位）
-+国服畅销回榜=企稳中断解除；驱动未明
-（疑9月活动/推荐位，待查）；RO世界之旅
-首月前SEA高位企稳（day29）；RO初心回落
-至脉冲后衰减（他厂RO系波动，观察项）</li>
-</ul>
-<p style="margin:0.8em 0">Steam PC（SteamCharts, vs 9-8）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">火炬: 在线991/24h峰1013/历史27296（留
-存比4%）30日均1897（2174→1897连降；
-流放2闪回赛季承压延续）</li>
-<li style="margin:0.3em 0">小镇: 在线11836/24h峰11864/历史65894
-（留存比18%）30日均9628（常态区，8月
-日均10364）</li>
-</ul>
-<p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">未触发E下修——正向逆转: 小镇10区普涨
-（9-7~9-8"企稳中断"风险解除；续2周=正
-向确认）</li>
-<li style="margin:0.3em 0">出榜: 小镇国际服 us/gb/de/fr/vn；香肠
-cn免费（连5+）</li>
-<li style="margin:0.3em 0">多区同步改善: 有（第1个正向采样窗，3日）</li>
-<li style="margin:0.3em 0">复苏/脉冲: 小镇国际服全区域；RO世界之旅
-SEA高位（裁决前）；RO初心衰减（观察）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控</h2>
-<p style="margin:0.8em 0">今日采集: 13条（9-8 00:21~9-11 22:42）；
-其中9-8三条昨日已判（❓/❓/⚠️），今日实
-质新增10条（9-9~9-11）</p>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论（先给判断，再给过程）</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>——10条无新E数字；核
-心=9-9"闭环叙事v1"（爽游站外引流验证+
-精品付费路径）+9-10"8月数据二派"跟踪；
-均无兑现时间表/口径，折30%后不构成修正</li>
-<li style="margin:0.3em 0">方向信号: 利好3（惊喜/付费路径/闭环）/
-中性4/无关3（B站/Meta/Unity）</li>
-<li style="margin:0.3em 0">可靠度: 🟡中——现象类可验✅（设身处地
-热玩#1/下架/重新上架；万象棋成绩=实锤）；
-"闭环/账算得过来"与"8月数据"无实据</li>
-<li style="margin:0.3em 0">对错统计: ✅1/⚠️2/❓7/❌0（今日新增10
-条口径；无❌）</li>
-<li style="margin:0.3em 0">行为面: 9-9（-5.37%下跌日）6条输出含3
-条利好/防御簇=6-8月以来第6次"叙事维护"
-型集中（前: 8-10/8-14/8-15/8-17/8-28）；
-9-10/9-11回落至2条/日，未延续</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">逐条判定（今日新增10条）</h3>
-<p style="margin:0.8em 0">📌 9-9 14:45 理念表述 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"基本面和逻辑（叙事）同时改善才是好的
-状态"
-主张: 表述持有状态判据（隐含两者在途）
-核查: ❓理念表述无数据载体；本窗口事实=
-基本面（榜单）改善/叙事（AI）回吐=两者
-背离
-结论: 中性；对E无影响
-对错: ❓</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-9 18:21 设身处地=9月第一惊喜 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"9月这游戏算第一个惊喜"
-主张: 设身处地=tap 9月首个惊喜级贡献
-核查: ✅爆火实锤（9-6热玩#1）；9-11已重
-新上架（新品#40）；⚠️"惊喜"贡献量级=
-自估（承接9-7"对9月广告贡献不小"）
-结论: 现象✅/量级自估；折30%不构成E修正
-对错: ⚠️半对</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-9 20:28 下跌日安抚 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"淡定"
-主张: 无实质主张（情绪输出）
-核查: ❓；行为面=当日-5.37%，安抚型输出
-结论: 记入行为观察；对E无影响
-对错: ❓</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-9 21:39 Meta提问 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"$Meta(META)$ 最近为啥这么强？"
-主张: 无关标的（组合映射）
-核查: ❓；Meta强/弱与心动无传导
-结论: 无关项；记入其主题扩散（AI受益映
-射: Meta/Unity）
-对错: ❓</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-9 22:21 付费解决可行 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"大事，参考同行，给极少数游戏一个个解
-决付费问题是可行的"
-主张: 精品游戏付费问题可按同行路径逐个
-解决（前瞻）
-核查: ❓无落地案例/口径；与22:33同源
-结论: 定性前瞻；不构成E修正
-对错: ❓</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-9 22:33 "闭环"二事长帖 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"原先认为把tap站内流量导向mk或AI小游
-戏……账算不过来——但是设身处地的爆火
-找到了正确的打开方式……对tap也有大
-价值"
-主张: ①爽游+站外引流模式使tap受益=闭环
-可行 ②精品付费可参考同行（蛋仔/星火/
-微信/抖音做法）解决
-核查: ①爆火/下架/重上架=事实✅；"闭环/
-账算得过来"需tap 9月广告数据Σ验证 ❓；
-②前瞻无载体 ❓
-对照: 8-12"变现未解决"→首次承认旧路径
-"账算不过来"（承认递进）
-结论: 现象实锤+承认递进；"闭环v1"=平台
-级叙事，折30%+Σ验证；不构成E修正
-对错: ⚠️半对（现象✅/闭环待验）</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-10 14:44 B站评论 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"这位置的b站中期应该是有性价比的"
-主张: B站（非标的）中期性价比（估值视
-角；"跌下来后估值已不是问题"）
-核查: ❓观点；非心动项
-结论: 组合视角输出；记入行为面（同期现
-身说法"下跌后估值不是问题"的同构表述）
-对错: ❓（非标的）</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-10 20:04 "8月数据"二派跟踪 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"目前的跟踪看，有二派：一派认为8月和7
-月差不多或略差一点，对应同比估计10-20%
-之间；一派认为8月可能还比7月高一些……
-同比可能到20%左右"
-主张: 8月数据两派估算=环比持平/略降（同
-比+10~20%）或环比小升（同比~20%）；他
-倾向"持平也很好了"
-核查: ❓原文未带主体（口径未明）——疑
-tap/行业月度跟踪；公开侧9-10 Sensor
-Tower 8月发行商榜、七麦iOS月报（环比
-+2.56%）方向吻合但无法当席裁决；若指
-tap广告（H1口径-0.4%）=其9-6"8月数出
-来就知道多离谱"主张的首个正向信号
-对照: 9-6"8、9月数"→首个数据窗口回声
-结论: 方向偏利好、量级未明；不构成E修
-正；登记#33待口径澄清
-对错: ❓（不可证伪，待口径）</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-11 09:42 王者万象棋成绩 | 🟢</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"王者万象棋的成绩可以"
-主张: 腾讯新游成绩良好
-核查: ✅实锤——TapTap热玩#1/新品#1；
-iOS cn免费#1/畅销#5（首日）
-结论: 客观观察✅；隐含=大厂新品给tap
-流量/供给生态（中性偏正）
-对错: ✅对</p>
-</blockquote>
-<p style="margin:0.8em 0">📌 9-11 22:42 Unity提问 | 🟡</p>
-<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
-<p style="margin:0.8em 0">"$Unity(U)$ 最近也是AI游戏爆发受益的
-逻辑？"
-主张: AI游戏爆发主题向海外标的映射（无
-结论句）
-核查: ❓提问式；与Meta/Unity主题扩散
-同族
-结论: 叙事扩散信号；对E无影响
-对错: ❓</p>
-</blockquote>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">反误导检测（5机制，简表）</h3>
-<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
-<thead>
-<tr>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
-  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">轻命中</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">加深(首认)</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无(叙事v1)</td>
-</tr>
-<tr>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
-  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">未命中</td>
-</tr>
-</tbody>
-</table></div>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">细节: 22:33"账算不过来→但找到打开方式"
-=报忧带转折轻命中；"原先认为……"=旧路
-径缺陷首次承认（承8-12"变现未解决"，
-承认递进加深）；全程无责任外移；无新数
-字预测（闭环v1为叙事升级）；今日无回引
-类历史锚定</li>
-<li style="margin:0.3em 0">另: 全程无减持/回购评论（与⑤核查互补）</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">报喜集中性（第6机制）</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">命中——9-9（下跌日-5.37%）6条含3条利
-好/防御簇（18:21惊喜/22:21大事/22:33闭
-环）→第6次叙事维护记录（前: 8-10/8-14/
-8-15/8-17/8-28）；语境=4连跌+回吐窗口，
-输出反而升温，低于52周低点+3.2%区域</li>
-<li style="margin:0.3em 0">9-10/9-11回落至2条/日=非持续模式</li>
-<li style="margin:0.3em 0">结论不变，记入反误导档案；次日观察是否
-延续（当前=未延续）</li>
-</ul>
-<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">折扣分层（适用项）</h3>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">公司级利润10-15%: 不适用（无新预测）</li>
-<li style="margin:0.3em 0">产品级流水30%: 适用——"9月惊喜/闭环对
-tap价值"=产品/平台级，折30%后无E修正</li>
-<li style="margin:0.3em 0">对冲叙事Σ验证+50%: 适用——"闭环v1"需
-H2 tap广告数据Σ验证（登记#32）</li>
-<li style="margin:0.3em 0">估值结论30%: 不适用（B站帖非标的）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 9-11~9-25）</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">9-12~13: 周末；他"焚决"帖窗口截止（9-7
-预告本周；截稿时未发布）——未发记观察</li>
-<li style="margin:0.3em 0">9-13~15: RO世界之旅首月届满裁决（≥2.5
-亿口径；day29 SEA高位#4/#7/#13）</li>
-<li style="margin:0.3em 0">9-16: 伊莫PC上线（FunPlus竞品，预约#8）</li>
-<li style="margin:0.3em 0">9月中旬: 8月行业/tap数据窗口（③裁决；
-9-10"二派"→口径澄清）</li>
-<li style="margin:0.3em 0">9月下旬: 小镇大卡池（H2流水验证）；伊
-莫移动端(~9-23)</li>
-<li style="margin:0.3em 0">9-25: 中秋（节前活动/卡池窗口）</li>
-<li style="margin:0.3em 0">10月: 火炬新赛季（Steam≥5000裁决）</li>
-<li style="margin:0.3em 0">观察: 新回购计划公告（4亿用尽后）|
-白银之城（明年1月）| RO守爱2（预约#70
-回榜，上线日待查）</li>
-<li style="margin:0.3em 0">已闭环: 王者万象棋上线=9-10（iOS免费
-#1/畅销#5首日，强于一般新游）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">①小镇全区域普涨持续性（驱动待查: 疑
-9月活动/平台推荐）——回吐or站稳</li>
-<li style="margin:0.3em 0">②RO世界之旅 day30: 首月裁决前（9-13~
-15）SEA高位维持性；港台回升能否延续</li>
-<li style="margin:0.3em 0">③设身处地重新上架后走势（新品#40→热
-玩?）；AI小游戏潮退火节奏（军旅#8独苗）</li>
-<li style="margin:0.3em 0">④回购: 新计划公告与否（9-2起停后首个
-观察窗；无减持=底线）</li>
-<li style="margin:0.3em 0">⑤股价: 39.18距52周低37.96仅+3.2%（缩
-量0.75亿）——守/破位</li>
-<li style="margin:0.3em 0">⑥"焚决"帖（9-13截止）与"8月数据"口径</li>
-<li style="margin:0.3em 0">验证路径: 榜单日更/9月数据/9-13首月/
-26年报</li>
-<li style="margin:0.3em 0">历史验证点: #16~#31在库/在途；今日新增
-登记2项（#32 闭环叙事v1 / #33 8月二派
-→月末落库）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
-<p style="margin:0.8em 0">26E（沿用日报归母参考口径）:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">我15.5±1 | 他~16-17（9-4隐含；本周无新
-E数字）| 卖方15.91（开源9月下调，前值
-20.06；国海9-11维持买入；东方9-8目标
-价65.24）| 市场隐含≈10.5亿（162.1÷
-15.45，自11.7亿-10%）</li>
-<li style="margin:0.3em 0">变化: 市场隐含回落-10%，残差-24%→-32%
-（复入-30%线下）；我E口径不变
-小镇国际服: 我17 / 他17 / 市场10-12 →
-榜单10区普涨（正面，驱动待查）；E不变
-（他远期/闭环叙事非26E口径，不调E）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
-<p style="margin:0.8em 0">信号: 🟡 等待验证（H2验证中；本期面板2
-处变化: ⑤回购计划到期+先行指标逆转）
-动作: 持有不加不减（4连跌不动作——回吐
-系AI叙事退潮+大盘五连跌；基本面同期改
-善；残差-32%低位区）
-触发条件:</p>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">H2兑现 → 27E上修潜力 🟢</li>
-<li style="margin:0.3em 0">H2不及（tap持平/RO首月&lt;80%/回落满2周+
-3区同步）→ E下修 🔴
-今日触发: 无正式触发——⑤为程序性到期
-（已核实非负面）；RO裁决9-13~15窗口；
-残差-32%复入（&lt;3个月不复核）</li>
-</ul>
-<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
-<ul style="padding-left:1.5em">
-<li style="margin:0.3em 0">股价单日&gt;5%: 有（9-9 -5.37%，窗口内；
-今日-2.44%；自9-7峰值4连跌-13.0%）</li>
-<li style="margin:0.3em 0">快信号: 变化1项——⑤回购披露9-2起中断
-（已核实=4亿计划9-1用尽、提前到期；非
-主动停止/无减持）→新增观察: 新计划公告</li>
-<li style="margin:0.3em 0">先行指标: 未触发下修；逆转=小镇10区普
-涨（企稳重启，驱动待查；续2周=正向）</li>
-<li style="margin:0.3em 0">出榜: 小镇国际服 us/gb/de/fr/vn持续未
-在榜；香肠 cn免费（连5+）；其余回榜</li>
-<li style="margin:0.3em 0">新承认/预测下修: 承认1（"账算不过来"旧
-路径缺陷首认）；叙事更新1（闭环v1）；
-无预测下修</li>
-<li style="margin:0.3em 0">数据源: TapTap✅/Apple16区✅/Steam✅/
-逸修1⚠️（cookie告警、双流13条已取；建
-议下次采集前手动重跑 get_cookie.py）/
-股价✅腾讯源（东财断连延续，双源交叉
-验证）/HKEX披露✅（回购核查=本日新增手
-段）；9-9、9-10期因cron凭据阻塞缺报
-（本报告已补课）</li>
-</ul>
-
-</div>
-]]></content:encoded><category>心动日报</category></item>
+<item><title>[AI动态] AI 领域动态 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/ai-news-2026-09-11.html</link><guid isPermaLink="false">report:AI动态:2026-09-11:c958fbd5</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>AI 领域动态 2026-09-11</description><category>AI动态</category></item>
+<item><title>[播客信号] 播客投资信号 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/podcast-signal-2026-09-11.html</link><guid isPermaLink="false">report:播客信号:2026-09-11:8ddaaf07</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>播客投资信号 2026-09-11</description><category>播客信号</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-11.html</link><guid isPermaLink="false">report:雪球动态:2026-09-11:d52f25db</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-11</description><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-11</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-11.html</link><guid isPermaLink="false">report:心动日报:2026-09-11:76cdaaa2</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-11</description><category>心动日报</category></item>
 <item><title>[宏观分析] STH_ 每日宏观分析 2026-09-12</title><link>https://xlicz.github.io/podcast-rss/articles/macro-2026-09-12.html</link><guid isPermaLink="false">report:宏观分析:2026-09-12:10cf0cb2</guid><pubDate>Sat, 12 Sep 2026 08:00:00 +0800</pubDate><description>STH_ 每日宏观分析 2026-09-12</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <p style="margin:0.8em 0">✅ 全部执行完成：报告已归档、执行摘要已更新、文件已推送 Discord（message_id: 1548129837045121064）。以下为 Discord 消息体：</p>
@@ -15799,7 +14345,8 @@ Steam峰值168,260/21地区畅销前10）|
 <hr / style="border:none;border-top:1px solid #e5e7eb;margin:2em 0">
 
 </div>
-]]></content:encoded><category>AI动态</category></item><item><title>[雪球动态] 雪球关注动态 2026-09-25</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-25.html</link><guid isPermaLink="false">report:雪球动态:2026-09-25:ea852893</guid><pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-25</description><content:encoded><![CDATA[
+]]></content:encoded><category>AI动态</category></item>
+<item><title>[雪球动态] 雪球关注动态 2026-09-25</title><link>https://xlicz.github.io/podcast-rss/articles/xueqiu-2026-09-25.html</link><guid isPermaLink="false">report:雪球动态:2026-09-25:ea852893</guid><pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate><description>雪球关注动态 2026-09-25</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">雪球关注动态报告 - 2026-09-25 22:40</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15863,7 +14410,8 @@ Steam峰值168,260/21地区畅销前10）|
 <p style="margin:0.8em 0">📊 当日行情锚：上证3888.37(-1.22%) | 恒指24510(-1.01%) | 茅台1237 | 老窖70.65 | 智谱633.5 | 酒鬼酒36.66</p>
 
 </div>
-]]></content:encoded><category>雪球动态</category></item><item><title>[心动日报] 心动投资日报 2026-09-25</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-25.html</link><guid isPermaLink="false">report:心动日报:2026-09-25:c017e0ca</guid><pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-25</description><content:encoded><![CDATA[
+]]></content:encoded><category>雪球动态</category></item>
+<item><title>[心动日报] 心动投资日报 2026-09-25</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-25.html</link><guid isPermaLink="false">report:心动日报:2026-09-25:c017e0ca</guid><pubDate>Fri, 25 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-25</description><content:encoded><![CDATA[
 <div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
 <h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-25</h1>
 <blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
@@ -15996,6 +14544,374 @@ Steam峰值168,260/21地区畅销前10）|
 <li style="margin:0.3em 0">出榜: 无 [agent填]</li>
 <li style="margin:0.3em 0">新承认/下修: 无 [agent填]</li>
 <li style="margin:0.3em 0">数据源: [agent填]</li>
+</ul>
+
+</div>
+]]></content:encoded><category>心动日报</category></item><item><title>[心动日报] 心动投资日报 2026-09-26</title><link>https://xlicz.github.io/podcast-rss/articles/xd-daily-2026-09-26.html</link><guid isPermaLink="false">report:心动日报:2026-09-26:64182dca</guid><pubDate>Sat, 26 Sep 2026 08:00:00 +0800</pubDate><description>心动投资日报 2026-09-26</description><content:encoded><![CDATA[
+<div style="max-width:680px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.7;color:#1a1a1a;padding:20px 0">
+<h1 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.8em">心动投资日报 2026-09-25（周五·中秋档·收盘版）</h1>
+<blockquote style="border-left:3px solid #2563eb;margin:1em 0;padding:0.5em 1em;color:#555;background:#f8fafc">
+<p style="margin:0.8em 0">体系 v3.2 | 数据管道 v2.0 | cron 99e406e539e7
+数据源: TapTap✅/Apple16区✅/股价✅(fetch_stock)
+Steam⚠️SSL中断 / 逸修1⚠️WAF三通道拦截
+窗口: 9-24 22:45 → 9-25 22:48</p>
+</blockquote>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">快速结论（第一屏）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">今日动作: <strong style="font-weight:600">无触发，持有不加不减</strong>——
+先行指标day14终判=<strong style="font-weight:600">未触发，警报解除</strong></li>
+<li style="margin:0.3em 0">关键数字: 39.12（-1.76%）| 161.9亿RMB
+| 残差**-32%**低位（较昨-31%微扩）</li>
+<li style="margin:0.3em 0">最值得注意: 小镇<strong style="font-weight:600">中秋档九区同升</strong>
+（cn免费#46升33，th/id/my/ph全线升）
+但cn畅销仍未回榜（唯一负面）</li>
+<li style="margin:0.3em 0">发言对E: <strong style="font-weight:600">无修正</strong>——源中断第2日，
+&quot;0条&quot;不可证实，承接项无一达修正标准</li>
+<li style="margin:0.3em 0">行动: 持有不加不减（快信号未触发）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">① 股价与估值快照</h2>
+<p style="margin:0.8em 0">收盘价 39.12（9-25 周五）
+涨跌 -1.76%（-0.70）| 开39.16
+市值 189.3亿港元 ≈ 161.9亿人民币
+（4.8388亿股×39.12；HKDCNY 0.8555）
+52周区间: 36.82 - 92.45（距低 +6.2%）
+近6交易日: 38.58→39.36→41.70→39.80
+→39.82→39.12（今日回落，无&gt;5%）
+⚠️akshare东财6次断连→fetch_stock✅
+（push2源+K线一致39.12）</p>
+<p style="margin:0.8em 0">估值锚（v3.2，低位残差情景）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">乐观E 18-19亿 → 259-333亿（港股×0.85）</li>
+<li style="margin:0.3em 0">中性E 14-15亿 → 205-260亿（仅下限参考）</li>
+<li style="margin:0.3em 0">悲观E 10-13亿 → 150-200亿</li>
+<li style="margin:0.3em 0">v3.2校准3: 残差&lt;-30%持续&gt;3月才复核E
+位置: 161.9亿RMB 在悲观带150-200内
+残差: 市场隐含E≈10.5亿（161.9÷15.45）
+vs 我15.5±1 → <strong style="font-weight:600">-32%</strong>（昨-31%，微扩）
+距中性下限205亿 -21.0%
+（表4: 残差&gt;30%历史3次，前2次市场低估）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">② 信号面板（v3.2 分级）</h2>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">信号</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">状态</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">今日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">④新游首月&lt;80%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无在跟新游</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑤回购停止/减持</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅*</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">额度尽观察</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">先行:2周+3区</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅解除</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">终判未触发</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">①游戏收入2季降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无变化</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">②合约负债下降</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无变化</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">③tap增速&lt;10%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⚠️*</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无新数字</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">⑥少数股东异常</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">✅</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无变化</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">现金流回报率</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">7.2%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">—</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">估值残差</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">-32%</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">低位微扩</td>
+</tr>
+</tbody>
+</table></div>
+<p style="margin:0.8em 0">快慢信号判定:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">快信号: <strong style="font-weight:600">无触发</strong>。④无在跟踪首月新游；
+⑤额度用尽后无新公告</li>
+<li style="margin:0.3em 0">慢信号: ③维持⚠️*——今日无tap数字，
+验证源=Q3经营数据/10月月报</li>
+<li style="margin:0.3em 0">先行: <strong style="font-weight:600">day14终判=未触发，解除</strong>——
+规则需&quot;连续2周下滑+≥3区同步&quot;，今日
+反向九区同升，同步下滑彻底瓦解</li>
+<li style="margin:0.3em 0">估值: 残差-32%微扩（价格信号中性偏弱，
+单日-1.76%&lt;5%不构成报警）</li>
+<li style="margin:0.3em 0">面板变化: 先行⚠️→✅（利空项消除，
+非买卖触发）→ 决策维持🟡</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">③ 榜单快照（TapTap + iOS 16区 + Steam）</h2>
+<p style="margin:0.8em 0">TapTap（vs 9-24）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">热玩: 小镇#15→#9（升6，中断连续
+5点退）| 香肠#17→#11（升6）</li>
+<li style="margin:0.3em 0">热玩其他: 公寓#93→#114（退21）
+| 戴夫#130→出榜（热卖#1仍在）</li>
+<li style="margin:0.3em 0">新品: 伊莫#1（竞品霸榜）</li>
+<li style="margin:0.3em 0">预约: 白银之城#5= | 星布谷地#4→#8
+| 小人国#10→#9 | 都市#106→#122
+| <strong style="font-weight:600">RO守爱2 连续第4采样点缺席</strong></li>
+<li style="margin:0.3em 0">热卖: 潜水员戴夫#1（=，买断制销量）</li>
+</ul>
+<p style="margin:0.8em 0">iOS 16区（vs 9-24）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">中国: 免费小镇#79→#46（升33）
+/香肠出榜→#81（回榜）
+/畅销小镇<strong style="font-weight:600">仍出榜</strong>（唯一负面）</li>
+<li style="margin:0.3em 0">港澳台: hk小镇出榜→#96回
+/tw小镇#95→#59</li>
+<li style="margin:0.3em 0">日韩: jp小镇出榜→#92回
+/kr小镇#95→#76
+（kr名두근두근타운，appid同）</li>
+<li style="margin:0.3em 0">东南亚: 小镇 th#23→#19 / id#30→#22
+/my#58→#39 / ph#28→#14
+/sg出榜→#86 =<strong style="font-weight:600">九区全线回升</strong></li>
+<li style="margin:0.3em 0">欧美/越南: 无心动系（持续）</li>
+<li style="margin:0.3em 0">RO家族:<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">初心服: th#49→#56 / id#78→#90
+/my#81→出榜 / ph#22→#25
+=SEA四区续退（一波流延续）
+/br#87→#64（升23，单区反例）</li>
+<li style="margin:0.3em 0">老RO M: kr#74→<strong style="font-weight:600">出榜</strong>
+⚠️kr区iOS≠韩服全貌（安卓占比高）</li>
+<li style="margin:0.3em 0">ROX: th#94→出榜 / ph#99→#75</li>
+<li style="margin:0.3em 0">世界之旅（非心动，仅景气参考）:
+th#4→#2 / id#8→#4 / my#7→#3
+/sg#27→#9 =RO赛道虹吸强化</li>
+</ul>
+</li>
+<li style="margin:0.3em 0">竞品伊莫: TapTap热玩#2→#1+新品#1
+/cn免费#2→#5 / cn畅销新进#71
+/kr畅销#85→#63 / tw畅销#63→#46
+/th免费#1=（欧美免费回落:
+us#3→#13 / gb#10→#35）
+=免费回落+畅销爬坡=开始变现</li>
+<li style="margin:0.3em 0">参考: 洛克王国 cn畅销#65→#23大升</li>
+</ul>
+<p style="margin:0.8em 0">Steam PC（SteamCharts）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">⚠️该源今日不可用（SSL中断×2）</li>
+<li style="margin:0.3em 0">昨值存档: 火炬30日均1042 / 小镇8527</li>
+</ul>
+<p style="margin:0.8em 0">先行指标判断（v3.2 校准2）:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">day14终判: 未触发（解除）</strong>——规则
+&quot;连续2周下滑+≥3区同步&quot;全程未满足</li>
+<li style="margin:0.3em 0">出榜: 老RO M kr / 初心服my / 戴夫热玩
+反向: 小镇hk/jp/sg三区回榜</li>
+<li style="margin:0.3em 0">多区同步恶化: <strong style="font-weight:600">无</strong>（反向: 九区同升）</li>
+<li style="margin:0.3em 0">复苏/脉冲: 小镇中秋档脉冲（9-25兑现）
+→ 国庆档10-1为下一脉冲窗口</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">④ 逸修1发言监控（三层检测）</h2>
+<p style="margin:0.8em 0">今日新增: ⚠️无法确认（WAF三通道拦截:
+Selenium+旧cookie curl+新cookie curl
+均被JS challenge挡，&quot;0条&quot;不可证实）</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">⚠️该源今日不可用；源中断第2日
+（9-24起；9-22/23的0条同样存疑）</li>
+<li style="margin:0.3em 0">上一可信样本: 9-20（11条）</li>
+<li style="margin:0.3em 0">无新样本 → 三层检测对象=
+<strong style="font-weight:600">承接项复核</strong>（今日数据裁决8主张）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">核心结论</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">对E影响: <strong style="font-weight:600">无修正</strong>（0条新发言可判；
+8条承接项无一达E修正标准）</li>
+<li style="margin:0.3em 0">方向信号: 利好3（伊莫排序/一波流/
+小镇H2方向）/ 中性3 / 利空0</li>
+<li style="margin:0.3em 0">可靠度: 🟡中——发言源中断2日，
+本段以独立榜单裁决为主（一手数据✅）</li>
+<li style="margin:0.3em 0"><strong style="font-weight:600">对错统计: ✅2/⚠️3/❓3/❌0</strong>
+（承接项复核8主张）</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">第1层·对错判定（逐条，今日数据裁决）</h3>
+<p style="margin:0.8em 0">📌 9-21 四跨端排序&quot;伊莫最强&quot; | ✅
+主张: 伊莫＞诡秘＞王者世界
+核查: TapTap热玩#2→#1+新品#1
++cn畅销#71新进+kr畅销#85→#63
+对错: ✅——独立榜单证实且强化</p>
+<p style="margin:0.8em 0">📌 9-22 &quot;H2 tap广告增速好不少&quot; | ⚠️
+主张: tap广告增速H2改善
+核查: 今日无tap数字，无法裁决
+验证源: Q3经营数据/10月月报
+对错: ⚠️半对——方向自估+10-20%，
+量级无独立数据可查</p>
+<p style="margin:0.8em 0">📌 9-22 &quot;AI亏损H2大幅减少&quot; | ❓
+主张: mk+AI费用收缩
+核查: 无科目拆分可查
+验证源: 26年报费用结构
+对错: ❓不可证伪</p>
+<p style="margin:0.8em 0">📌 表2#22 小镇H2全球~10亿 | ⚠️
+主张: Q3 6亿+Q4月均1.3亿
+核查: 今日九区同升✅（cn免费#46升33
++th/id/my/ph/tw/kr全升+3区回榜）
+但cn畅销仍出榜❌
+对错: ⚠️半对——方向获最强支持，
+量级自估（±30-50%），折30%不入E</p>
+<p style="margin:0.8em 0">📌 表2#20 小镇H2&gt;H1/回巅峰 | ⚠️
+主张: 月度拆分8-9月≫2-3月
+核查: 热玩#15→#9转升，中断5点退；
+但#9距历史高位尚远，&quot;巅峰&quot;未兑现
+对错: ⚠️半对——H2&gt;H1暂支持
+（2-3月为事故谷底），&quot;回巅峰&quot;自估</p>
+<p style="margin:0.8em 0">📌 表2#27 mk+AI 26年亏1.5亿 | ❓
+主张: 27年打平
+核查: 无公开科目
+对错: ❓不可证伪（待26年报）</p>
+<p style="margin:0.8em 0">📌 8-17 &quot;初心服偏一波流&quot; | ✅
+主张: 经济系统没做好→不持久
+核查: th#49→#56/id#78→#90续退
++my#81→出榜（br#64升23单区反例，
+不改SEA主趋势）
+对错: ✅——榜单退潮证实一波流</p>
+<p style="margin:0.8em 0">📌 8-17 &quot;RO韩服惊喜3000-5000万&quot; | ❓
+主张: 韩服流水增量
+核查: kr区iOS前100无初心服踪影
++老RO M kr#74→出榜
+口径: kr区iOS≠韩服全貌（安卓占比高），
+不能据此判韩服，需Google Play旁证
+对错: ❓不可证伪（iOS+安卓双无源）</p>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">第2层·反误导5机制</h3>
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%"><table style="border-collapse:collapse;margin:1em 0;font-size:0.85em">
+<thead>
+<tr>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">机制</th>
+  <th style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;background:#f3f4f6;font-weight:600;white-space:nowrap">结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">报忧必带转折</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">归因外移</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">承认递进</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无（沉默第2日）</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">预测更新</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">无</td>
+</tr>
+<tr>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">历史锚定</td>
+  <td style="border:1px solid #d1d5db;padding:6px 8px;text-align:left;word-break:break-word">不适用</td>
+</tr>
+</tbody>
+</table></div>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">明细: 无新发言=5机制无样本；连续2日
+源断，对照9-20~22报喜集中段衰减</li>
+<li style="margin:0.3em 0">报喜集中性（第6机制）: 不适用</li>
+<li style="margin:0.3em 0">记档: 无新样本入表5</li>
+</ul>
+<h3 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.1em">第3层·折扣分层</h3>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">公司级利润10-15%: 不适用</li>
+<li style="margin:0.3em 0">产品级流水30%: 不适用（承接项已折）</li>
+<li style="margin:0.3em 0">对冲叙事Σ+50%: 不适用</li>
+<li style="margin:0.3em 0">估值结论30%: 不适用</li>
+<li style="margin:0.3em 0">备注: 4项全不适用=今日无可折扣对象</li>
+</ul>
+<p style="margin:0.8em 0">判断: 发言源中断日，增量在榜单侧——
+小镇中秋档九区同升+先行day14终判未触发。
+按纪律: <strong style="font-weight:600">维持E 15.5±1不变</strong>。</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤ 事件日历（未来14天: 9-25~10-9）</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0"><strong style="font-weight:600">9-25（五）: 先行指标day14终判
+✅已完成=未触发（解除）</strong></li>
+<li style="margin:0.3em 0">9-25（五）: 中秋档 ✅已兑现
+（小镇九区回升，脉冲确认）</li>
+<li style="margin:0.3em 0">9月下旬: 小镇大卡池</li>
+<li style="margin:0.3em 0">9月下旬: RO守爱2二测窗口（缺席中）</li>
+<li style="margin:0.3em 0">9-30（三）: Q3季末 / 资金窗口</li>
+<li style="margin:0.3em 0">10-1: 国庆档（小镇/RO流水脉冲窗口）</li>
+<li style="margin:0.3em 0">10月: 火炬新赛季（Steam源断存档）</li>
+<li style="margin:0.3em 0">10月中: 伊莫首月数据（竞品，不入E）</li>
+<li style="margin:0.3em 0">10月: 洛克王国:世界海外（他称，待官方）</li>
+<li style="margin:0.3em 0">持续关注: 回购新一期计划是否公告</li>
+<li style="margin:0.3em 0">窗口外（存档）: 12月星布谷地
+| 27年1月白银之城 | 27暑期小人国
+| 影之刃零10月底</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑤.5 明日观察点</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">①小镇九区回升能否延续（国庆档前）</li>
+<li style="margin:0.3em 0">②cn畅销能否回榜（免费#46升33为
+正面先行）</li>
+<li style="margin:0.3em 0">③初心服SEA退潮 vs br反例谁主导</li>
+<li style="margin:0.3em 0">④RO守爱2是否回预约榜（第5采样点）</li>
+<li style="margin:0.3em 0">⑤回购: 是否公告新一期计划</li>
+<li style="margin:0.3em 0">⑥伊莫畅销爬坡（cn#71/kr#63）对
+小镇的虹吸是否加深</li>
+<li style="margin:0.3em 0">今日新增可证伪点: 无（他今日无发言）</li>
+<li style="margin:0.3em 0">历史验证点: 进行中 #16~#58在库</li>
+<li style="margin:0.3em 0">最近到期: Q3经营数据/10月月报
+（tap增速）→ 10月中伊莫首月</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑥ 四维E对比</h2>
+<p style="margin:0.8em 0">26E扣非: 我15.5±1 / 他16-17（H2框架）/
+卖方15.91（开源9月）/ 市场隐含≈10.5亿
+→ 无变化
+卖方分歧（9月）: 华创56.9 / 高盛60.7
+/ 国泰海通93.25 / 8家均价69.63
+→ 外锚未采纳，无新报告
+小镇国际服: 我17 / 他17 / 市场10-12
+→ 无变化</p>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑦ 决策状态</h2>
+<p style="margin:0.8em 0">信号: 🟡 等待验证（先行警报今日解除
+但H2兑现路径观察中；Q3数据未出）
+动作: 持有不加不减（残差-32%低位）
+触发条件:</p>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">H2兑现（tap回升/RO达标/小镇企稳）
+→ 🟢 259-333亿</li>
+<li style="margin:0.3em 0">H2不及（tap持平/小镇回落2周+3区）
+→ 🔴 150-200亿
+今日触发: 无（-1.76%&lt;5%；面板仅
+先行解除=利空消除，非买入触发）</li>
+</ul>
+<h2 style="font-weight:700;line-height:1.3;margin:1.5em 0 0.5em;color:#111;font-size:1.35em">⑧ 异常报警</h2>
+<ul style="padding-left:1.5em">
+<li style="margin:0.3em 0">股价单日&gt;5%: 无（-1.76%）</li>
+<li style="margin:0.3em 0">快信号: 无（④无在跟踪新游；⑤额度尽后
+无新公告）</li>
+<li style="margin:0.3em 0">先行指标: <strong style="font-weight:600">未触发（day14终判=解除）</strong></li>
+<li style="margin:0.3em 0">出榜: 有——负面: 老RO M kr畅销
+/初心服my畅销/戴夫热玩；
+反向回榜: 小镇hk/jp/sg+香肠cn免费</li>
+<li style="margin:0.3em 0">新承认/预测下修: 无法确认（源不可用）</li>
+<li style="margin:0.3em 0">数据源异常: <strong style="font-weight:600">有</strong>——
+⚠️逸修1: WAF拦截三通道（Selenium+
+旧/新cookie curl），中断第2日
+⚠️SteamCharts: SSL中断×2
+⚠️akshare: 东财断连×6→fetch_stock✅</li>
 </ul>
 
 </div>
